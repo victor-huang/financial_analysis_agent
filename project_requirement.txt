@@ -1,0 +1,6 @@
+There are two goals for this project:
+1. create a product that allow user to collect company fundamental data, historical stock price data, social media data, and news data,
+    and store them in a database or google spreadsheet. an ranking engine that uses the store data and user custom logic to rank company's 
+    growth prospects in the following quarter after immediately after their earning release and conference call.
+2. learn fundamentals of LLM, NLP and post-train fine-tuning of existing open source LLM, have a solid understanding of the Attention mechanism
+    and the most important research papers that leads to the creation of chatGPT, and reasoning framework from Deepseek.
