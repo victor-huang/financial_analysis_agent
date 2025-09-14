@@ -3,6 +3,8 @@ import logging
 from typing import Dict, List, Optional, Any, Union
 from datetime import datetime, timedelta
 import json
+import numpy as np
+import pandas as pd
 
 from .financial import FinancialDataFetcher, CompanyFundamentals, MarketData
 from .social import TwitterClient, RedditClient
@@ -10,6 +12,64 @@ from .llm import OpenAIClient, HuggingFaceClient
 from .config import get_config
 
 logger = logging.getLogger(__name__)
+
+def _to_jsonable(obj: Any) -> Any:
+    """Recursively convert numpy/pandas objects into JSON-serializable Python types.
+    - numpy scalars -> Python scalars
+    - numpy arrays -> lists
+    - pandas Series -> dict of index->value
+    - pandas DataFrame -> list of records
+    - pandas Timestamp/Datetime -> ISO string
+    - sets/tuples -> lists
+    """
+    # None or basic types
+    if obj is None or isinstance(obj, (bool, int, float, str)):
+        return obj
+
+    # NaN/inf handling
+    if isinstance(obj, float):
+        if np.isnan(obj) or np.isinf(obj):
+            return None
+        return obj
+
+    # numpy scalars
+    if isinstance(obj, (np.integer,)):
+        return int(obj)
+    if isinstance(obj, (np.floating,)):
+        val = float(obj)
+        return None if (np.isnan(val) or np.isinf(val)) else val
+    if isinstance(obj, (np.bool_,)):
+        return bool(obj)
+
+    # numpy arrays
+    if isinstance(obj, np.ndarray):
+        return [_to_jsonable(x) for x in obj.tolist()]
+
+    # pandas types
+    if isinstance(obj, pd.Timestamp):
+        return obj.isoformat()
+    if isinstance(obj, pd.Series):
+        return {str(k): _to_jsonable(v) for k, v in obj.items()}
+    if isinstance(obj, pd.DataFrame):
+        # include index as string if it's datetime-like
+        df = obj.copy()
+        if df.index.name is None:
+            df = df.reset_index()
+        return [_to_jsonable(rec) for rec in df.to_dict(orient='records')]
+
+    # dict
+    if isinstance(obj, dict):
+        return {str(k): _to_jsonable(v) for k, v in obj.items()}
+
+    # list/tuple/set
+    if isinstance(obj, (list, tuple, set)):
+        return [_to_jsonable(x) for x in obj]
+
+    # fallback to string
+    try:
+        return str(obj)
+    except Exception:
+        return None
 
 class FinancialAnalysisAgent:
     """Main class for financial and social media analysis."""
@@ -91,8 +151,9 @@ class FinancialAnalysisAgent:
             # Generate summary using LLM
             if analysis_type in ['full']:
                 result['summary'] = self._generate_summary(ticker, result, **kwargs)
-            
-            return result
+
+            # Ensure JSON-serializable structure
+            return _to_jsonable(result)
             
         except Exception as e:
             logger.error(f"Error analyzing company {ticker}: {str(e)}")

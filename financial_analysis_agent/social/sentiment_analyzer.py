@@ -1,6 +1,4 @@
-""
-Sentiment analysis module using various NLP techniques and LLMs.
-"""
+"""Sentiment analysis module using various NLP techniques and LLMs."""
 import logging
 from typing import Dict, List, Optional, Tuple, Union
 import numpy as np

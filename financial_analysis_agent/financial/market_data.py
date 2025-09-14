@@ -161,7 +161,9 @@ class MarketData:
             
             # GARCH(1,1) model
             for i in range(1, len(returns)):
-                variance[i] = omega + alpha * (returns[i-1]**2) + beta * variance[i-1]
+                # Use position-based indexing to avoid deprecation warnings
+                prev_ret = returns.iloc[i - 1]
+                variance[i] = omega + alpha * (prev_ret ** 2) + beta * variance[i - 1]
             
             garch_vol = np.sqrt(variance[-1] * 252)  # Annualized
             

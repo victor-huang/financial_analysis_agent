@@ -1,6 +1,4 @@
-""
-Base class for LLM clients.
-"""
+"""Base class for LLM clients."""
 from abc import ABC, abstractmethod
 from typing import Dict, List, Optional, Any, Union
 
