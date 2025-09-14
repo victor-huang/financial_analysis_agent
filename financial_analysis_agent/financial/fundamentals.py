@@ -20,7 +20,9 @@ class CompanyFundamentals:
         self._info = None
     
     def load_financials(self, period: str = 'annual') -> bool:
-        """Load financial statements."""
+        """Load financial statements.
+        period: 'annual' or 'quarterly'
+        """
         try:
             if not self.data_fetcher:
                 from .data_fetcher import FinancialDataFetcher
@@ -40,12 +42,14 @@ class CompanyFundamentals:
             logger.error(f"Error loading financials for {self.ticker}: {str(e)}")
             return False
     
-    def get_financial_ratios(self) -> Dict[str, float]:
-        """Calculate key financial ratios."""
+    def get_financial_ratios(self, period: str = 'annual') -> Dict[str, float]:
+        """Calculate key financial ratios for the latest period.
+        period: 'annual' or 'quarterly'
+        """
         if not all([self._income_statement is not None, 
                    self._balance_sheet is not None, 
                    self._cash_flow is not None]):
-            if not self.load_financials():
+            if not self.load_financials(period=period):
                 return {}
         
         try:
@@ -106,19 +110,28 @@ class CompanyFundamentals:
             return {}
     
     def get_historical_ratios(self, years: int = 5) -> Dict[str, List[float]]:
-        """Get financial ratios for multiple years."""
+        """Backward-compatible annual historical ratios over N years."""
+        return self.get_periodic_ratios(period='annual', count=years)
+
+    def get_periodic_ratios(self, period: str = 'annual', count: int = 8) -> Dict[str, List[float]]:
+        """Get financial ratios for multiple periods.
+        - period: 'annual' or 'quarterly'
+        - count: number of periods to include (e.g., 5 years or 8 quarters)
+        Returns dict of lists including period labels and ratio series.
+        """
         if not all([self._income_statement is not None, 
                    self._balance_sheet is not None, 
                    self._cash_flow is not None]):
-            if not self.load_financials():
+            if not self.load_financials(period=period):
                 return {}
         
         try:
-            # Get data for all available years
-            num_years = min(years, len(self._income_statement))
+            # Determine number of periods
+            num = min(count, len(self._income_statement))
             
             ratios = {
-                'year': [],
+                'period_end': [],
+                'label': [],
                 'revenue': [],
                 'gross_margin': [],
                 'operating_margin': [],
@@ -128,8 +141,8 @@ class CompanyFundamentals:
                 'current_ratio': []
             }
             
-            for i in range(num_years):
-                # Get data for this year
+            for i in range(num):
+                # Get data for this period (most recent first)
                 income = self._income_statement.iloc[i]
                 balance = self._balance_sheet.iloc[i]
                 
@@ -144,7 +157,15 @@ class CompanyFundamentals:
                 current_liabilities = balance.get('Total Current Liabilities', 0) or 1
                 
                 # Calculate and store ratios
-                ratios['year'].append(self._income_statement.index[i].year)
+                idx = self._income_statement.index[i]
+                # idx is a pandas Timestamp per yfinance. Build label by period type
+                period_end = getattr(idx, 'to_pydatetime', lambda: idx)()
+                ratios['period_end'].append(period_end.strftime('%Y-%m-%d'))
+                if period == 'quarterly':
+                    q = (period_end.month - 1) // 3 + 1
+                    ratios['label'].append(f"{period_end.year}Q{q}")
+                else:
+                    ratios['label'].append(str(period_end.year))
                 ratios['revenue'].append(total_revenue / 1e9)  # In billions
                 ratios['gross_margin'].append(self._safe_divide(gross_profit, total_revenue) * 100)
                 ratios['operating_margin'].append(self._safe_divide(operating_income, total_revenue) * 100)

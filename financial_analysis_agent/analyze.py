@@ -177,9 +177,13 @@ class FinancialAnalysisAgent:
             if not company.load_financials():
                 raise ValueError(f"Could not load financials for {ticker}")
             
-            # Get key metrics
-            ratios = company.get_financial_ratios()
+            # Get key metrics (support annual or quarterly via kwarg)
+            financial_period = kwargs.get('financial_period', 'annual')
+            ratios = company.get_financial_ratios(period=financial_period)
+            # Annual history (backward compatible)
             historical_ratios = company.get_historical_ratios()
+            # Recent quarterly ratios (last 8 quarters)
+            quarterly_ratios = company.get_periodic_ratios(period='quarterly', count=8)
             financial_health = company.analyze_financial_health()
             
             # Get market data
@@ -200,7 +204,10 @@ class FinancialAnalysisAgent:
             return {
                 'company_info': self.financial_data.get_company_info(ticker),
                 'financial_ratios': ratios,
-                'historical_ratios': historical_ratios,
+                'historical_ratios': {
+                    'annual': historical_ratios,
+                    'quarterly': quarterly_ratios
+                },
                 'financial_health': financial_health,
                 'technical_indicators': technicals,
                 'volatility_metrics': volatility,
@@ -517,6 +524,8 @@ def main():
                         help='Type of analysis to perform')
     parser.add_argument('--output', type=str, help='Output file (JSON)')
     parser.add_argument('--verbose', action='store_true', help='Enable verbose logging')
+    parser.add_argument('--financial-period', type=str, choices=['annual','quarterly'], default='annual',
+                        help='Use latest annual or quarterly statements for ratios')
     
     # Parse arguments
     args = parser.parse_args()
@@ -534,7 +543,8 @@ def main():
         # Run the analysis
         result = agent.analyze_company(
             ticker=args.ticker,
-            analysis_type=args.analysis_type
+            analysis_type=args.analysis_type,
+            financial_period=args.financial_period
         )
         
         # Output the results
