@@ -201,6 +201,9 @@ class FinancialAnalysisAgent:
             # Get support/resistance levels
             support_resistance = market_data.get_support_resistance_levels()
             
+            # Analyst estimates: EPS and revenue beat/miss
+            analyst_estimates = self._build_analyst_estimates(ticker)
+            
             return {
                 'company_info': self.financial_data.get_company_info(ticker),
                 'financial_ratios': ratios,
@@ -214,6 +217,7 @@ class FinancialAnalysisAgent:
                 'price_moments': price_moments,
                 'market_correlation': market_correlation,
                 'support_resistance': support_resistance,
+                'analyst_estimates': analyst_estimates,
                 'last_updated': datetime.utcnow().isoformat()
             }
             
@@ -222,6 +226,151 @@ class FinancialAnalysisAgent:
             return {
                 'error': str(e),
                 'last_updated': datetime.utcnow().isoformat()
+            }
+
+    def _build_analyst_estimates(self, ticker: str) -> Dict[str, Any]:
+        """Build analyst estimate view for quarterly EPS and revenue.
+        Combines yfinance earnings dates (EPS) and earnings trend (revenue estimates)
+        with quarterly financials (actual revenue).
+        """
+        try:
+            eps_list: List[Dict[str, Any]] = []
+            rev_list: List[Dict[str, Any]] = []
+
+            # EPS beat/miss from earnings dates
+            try:
+                edf = self.financial_data.get_earnings_dates(ticker, limit=8)
+                if edf is not None and not edf.empty:
+                    # Columns commonly include: 'EPS Estimate', 'Reported EPS', 'Surprise', 'Surprise(%)', 'Quarter'
+                    for idx, row in edf.iterrows():
+                        est = row.get('EPS Estimate')
+                        act = row.get('Reported EPS')
+                        surprise_pct = row.get('Surprise(%)')
+                        delta = None
+                        if est is not None and act is not None:
+                            delta = float(act) - float(est)
+                        eps_list.append({
+                            'announce_date': idx.isoformat() if hasattr(idx, 'isoformat') else str(idx),
+                            'quarter': row.get('Quarter'),
+                            'eps_estimate': est,
+                            'eps_actual': act,
+                            'eps_delta': delta,
+                            'surprise_pct': surprise_pct
+                        })
+            except Exception as e:
+                logger.warning(f"EPS estimates unavailable for {ticker}: {e}")
+
+            # If EPS still empty, try to derive from unified analyst estimates (Finnhub/YQ)
+            try:
+                if not eps_list:
+                    est_df = self.financial_data.get_analyst_estimates(ticker)
+                    if est_df is not None and not est_df.empty:
+                        # Expect columns: endDate, period, epsEstimateAvg, epsActual (optional)
+                        est_df = est_df.copy()
+                        if 'endDate' in est_df.columns:
+                            est_df['endDate'] = pd.to_datetime(est_df['endDate'], errors='coerce')
+                        for _, row in est_df.head(8).iterrows():
+                            est = row.get('epsEstimateAvg')
+                            act = row.get('epsActual')
+                            delta = None
+                            if est is not None and act is not None:
+                                try:
+                                    delta = float(act) - float(est)
+                                except Exception:
+                                    delta = None
+                            eps_list.append({
+                                'announce_date': (row.get('endDate').isoformat() if hasattr(row.get('endDate'), 'isoformat') else str(row.get('endDate'))),
+                                'quarter': row.get('period'),
+                                'eps_estimate': est,
+                                'eps_actual': act,
+                                'eps_delta': delta,
+                                'surprise_pct': None
+                            })
+                        logger.info("EPS list derived from unified analyst estimates for %s: %d rows", ticker, len(eps_list))
+            except Exception as e:
+                logger.warning(f"Failed to derive EPS from analyst estimates for {ticker}: {e}")
+
+            # Revenue estimate vs actual using estimates (prefer yahooquery) and quarterly financials
+            try:
+                # Prefer: Finnhub -> YahooQuery -> yfinance history
+                trend = self.financial_data.get_analyst_estimates(ticker)
+                q_income = self.financial_data.get_financials(ticker, 'income', period='quarterly', limit=8)
+                if trend is not None and q_income is not None and not q_income.empty:
+                    # Build map from period end to actual revenue
+                    # q_income index is period_end, rows are most recent first
+                    for i in range(min(8, len(q_income))):
+                        idx = q_income.index[i]
+                        period_end = idx.to_pydatetime() if hasattr(idx, 'to_pydatetime') else idx
+                        actual_rev = q_income.iloc[i].get('Total Revenue') or q_income.iloc[i].get('Revenue')
+                        # find matching estimate in trend by closest endDate
+                        est_val = None
+                        if hasattr(trend, 'columns') and 'endDate' in trend.columns and 'revenueEstimateAvg' in trend.columns:
+                            # exact match preferred
+                            matches = trend[trend['endDate'] == pd.to_datetime(period_end)]
+                            if matches.empty:
+                                # allow 15-day tolerance
+                                tol = pd.Timedelta(days=15)
+                                near = trend[trend['endDate'].sub(pd.to_datetime(period_end)).abs() <= tol]
+                                if not near.empty:
+                                    matches = near.iloc[[0]]
+                            if not matches.empty:
+                                est_val = matches.iloc[0].get('revenueEstimateAvg')
+                            # If still no match, try matching by period label like 'YYYYQx'
+                            if est_val is None and 'period' in trend.columns and hasattr(period_end, 'year'):
+                                qlabel = f"{period_end.year}Q{((period_end.month - 1)//3)+1}"
+                                pmatch = trend[trend['period'].astype(str).str.upper() == qlabel]
+                                if not pmatch.empty:
+                                    est_val = pmatch.iloc[0].get('revenueEstimateAvg')
+                        if actual_rev is not None and est_val is not None:
+                            delta = float(actual_rev) - float(est_val)
+                            pct = (delta / float(est_val)) if est_val not in (0, None) else None
+                        else:
+                            delta = None
+                            pct = None
+                        # quarter label
+                        q = (period_end.month - 1) // 3 + 1 if hasattr(period_end, 'month') else None
+                        rev_list.append({
+                            'period_end': period_end.isoformat() if hasattr(period_end, 'isoformat') else str(period_end),
+                            'label': f"{period_end.year}Q{q}" if q else None,
+                            'revenue_estimate': est_val,
+                            'revenue_actual': actual_rev,
+                            'revenue_delta': delta,
+                            'revenue_delta_pct': pct
+                        })
+                # If we had trend but no actuals (or q_income missing), emit estimate-only rows
+                elif trend is not None and hasattr(trend, 'empty') and not trend.empty:
+                    tdf = trend.copy()
+                    if 'endDate' in tdf.columns:
+                        tdf['endDate'] = pd.to_datetime(tdf['endDate'], errors='coerce')
+                    count = 0
+                    for _, row in tdf.head(8).iterrows():
+                        est_val = row.get('revenueEstimateAvg')
+                        if est_val is None:
+                            continue
+                        period_end = row.get('endDate')
+                        label = row.get('period')
+                        rev_list.append({
+                            'period_end': (period_end.isoformat() if hasattr(period_end, 'isoformat') else str(period_end)),
+                            'label': (str(label) if label is not None else None),
+                            'revenue_estimate': est_val,
+                            'revenue_actual': None,
+                            'revenue_delta': None,
+                            'revenue_delta_pct': None
+                        })
+                        count += 1
+                    logger.info("Added %d revenue estimate-only rows for %s from analyst estimates", count, ticker)
+            except Exception as e:
+                logger.warning(f"Revenue estimates unavailable for {ticker}: {e}")
+
+            return {
+                'eps': eps_list,
+                'revenue': rev_list
+            }
+        except Exception as e:
+            logger.error(f"Error building analyst estimates for {ticker}: {e}")
+            return {
+                'eps': [],
+                'revenue': []
             }
     
     def _analyze_social_media(
