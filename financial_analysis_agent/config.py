@@ -26,6 +26,9 @@ class Config:
         # Load environment variables from .env file if it exists
         load_dotenv()
 
+        # Also load .env.local for local overrides (takes precedence)
+        load_dotenv('.env.local', override=True)
+
         # Default configuration
         self._config = {
             "app": {
@@ -72,6 +75,10 @@ class Config:
                 "finnhub": {
                     "api_key": os.getenv("FINNHUB_API_KEY"),
                     "base_url": "https://finnhub.io/api/v1",
+                },
+                "fmp": {
+                    "api_key": os.getenv("FMP_API_KEY"),
+                    "base_url": "https://financialmodelingprep.com/api/v3",
                 },
             },
         }

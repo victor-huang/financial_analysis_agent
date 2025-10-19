@@ -249,9 +249,22 @@ class FinancialAnalysisAgent:
                         delta = None
                         if est is not None and act is not None:
                             delta = float(act) - float(est)
+
+                        # Generate label in YYYYQX format
+                        label = None
+                        quarter_str = row.get('Quarter')
+                        if quarter_str:
+                            # Quarter might already be in format like "2Q2025" or "2025Q2"
+                            label = quarter_str
+                        elif hasattr(idx, 'year') and hasattr(idx, 'month'):
+                            # Calculate quarter from announce_date
+                            q = (idx.month - 1) // 3 + 1
+                            label = f"{idx.year}Q{q}"
+
                         eps_list.append({
                             'announce_date': idx.isoformat() if hasattr(idx, 'isoformat') else str(idx),
                             'quarter': row.get('Quarter'),
+                            'label': label,
                             'eps_estimate': est,
                             'eps_actual': act,
                             'eps_delta': delta,
@@ -260,47 +273,108 @@ class FinancialAnalysisAgent:
             except Exception as e:
                 logger.warning(f"EPS estimates unavailable for {ticker}: {e}")
 
-            # If EPS still empty, try to derive from unified analyst estimates (Finnhub/YQ)
+            # Also fetch future EPS estimates from unified analyst estimates (Finnhub/YQ/FMP)
+            # This supplements historical data from earnings_dates with forward-looking estimates
             try:
-                if not eps_list:
-                    est_df = self.financial_data.get_analyst_estimates(ticker)
-                    if est_df is not None and not est_df.empty:
-                        # Expect columns: endDate, period, epsEstimateAvg, epsActual (optional)
-                        est_df = est_df.copy()
-                        if 'endDate' in est_df.columns:
-                            est_df['endDate'] = pd.to_datetime(est_df['endDate'], errors='coerce')
-                        for _, row in est_df.head(8).iterrows():
-                            est = row.get('epsEstimateAvg')
-                            act = row.get('epsActual')
-                            delta = None
-                            if est is not None and act is not None:
-                                try:
-                                    delta = float(act) - float(est)
-                                except Exception:
-                                    delta = None
-                            eps_list.append({
-                                'announce_date': (row.get('endDate').isoformat() if hasattr(row.get('endDate'), 'isoformat') else str(row.get('endDate'))),
-                                'quarter': row.get('period'),
-                                'eps_estimate': est,
-                                'eps_actual': act,
-                                'eps_delta': delta,
-                                'surprise_pct': None
-                            })
-                        logger.info("EPS list derived from unified analyst estimates for %s: %d rows", ticker, len(eps_list))
+                est_df = self.financial_data.get_analyst_estimates(ticker)
+                if est_df is not None and not est_df.empty:
+                    # Expect columns: endDate, period, epsEstimateAvg, epsActual (optional)
+                    est_df = est_df.copy()
+                    if 'endDate' in est_df.columns:
+                        est_df['endDate'] = pd.to_datetime(est_df['endDate'], errors='coerce')
+
+                    # Track existing dates to avoid duplicates
+                    existing_dates = set()
+                    for eps_entry in eps_list:
+                        announce_date = eps_entry.get('announce_date')
+                        if announce_date:
+                            try:
+                                existing_dates.add(pd.to_datetime(announce_date).strftime('%Y-%m-%d'))
+                            except Exception:
+                                pass
+
+                    added_count = 0
+                    for _, row in est_df.iterrows():
+                        end_date = row.get('endDate')
+                        period = row.get('period')
+
+                        if pd.isna(end_date):
+                            continue
+
+                        # Filter: ONLY include quarterly estimates, NOT annual fiscal year estimates
+                        # - Annual fiscal year estimates: "2025Q3", "2026Q3" (format: YYYYQX) - EPS ~6-11
+                        # - Quarterly estimates: "+1q", "0q", "+2q" (format: [+-]Nq) - EPS ~1-3
+                        # - Annual year estimates: "0y", "+1y" (format: [+-]Ny) - EPS ~6-11
+                        if period and isinstance(period, str):
+                            import re
+                            # Skip FMP annual fiscal year estimates (e.g., "2025Q3", "2026Q3")
+                            # These are annual EPS for fiscal years, not quarterly
+                            if re.match(r'^\d{4}Q\d$', period):
+                                continue
+                            # Skip YahooQuery annual estimates (e.g., "0y", "+1y", "-1y")
+                            if re.match(r'^[+-]?\d+y$', period, re.IGNORECASE):
+                                continue
+                            # Only keep quarterly estimates with relative notation (e.g., "0q", "+1q", "+2q")
+                            if not re.match(r'^[+-]?\d+q$', period, re.IGNORECASE):
+                                continue
+
+                        # Skip if we already have data for this date
+                        date_str = end_date.strftime('%Y-%m-%d') if hasattr(end_date, 'strftime') else str(end_date)[:10]
+                        if date_str in existing_dates:
+                            continue
+
+                        est = row.get('epsEstimateAvg')
+                        act = row.get('epsActual')
+
+                        # Skip if no estimate available
+                        if est is None or pd.isna(est):
+                            continue
+
+                        delta = None
+                        if est is not None and act is not None:
+                            try:
+                                delta = float(act) - float(est)
+                            except Exception:
+                                delta = None
+
+                        # Generate label in YYYYQX format from endDate
+                        # Convert relative notations like "+1q", "0q" to proper YYYYQX format
+                        label = None
+                        if hasattr(end_date, 'year') and hasattr(end_date, 'month'):
+                            q = (end_date.month - 1) // 3 + 1
+                            label = f"{end_date.year}Q{q}"
+
+                        eps_list.append({
+                            'announce_date': (end_date.isoformat() if hasattr(end_date, 'isoformat') else str(end_date)),
+                            'quarter': period,
+                            'label': label,
+                            'eps_estimate': est,
+                            'eps_actual': act,
+                            'eps_delta': delta,
+                            'surprise_pct': None
+                        })
+                        existing_dates.add(date_str)
+                        added_count += 1
+
+                    if added_count > 0:
+                        logger.info("Added %d future EPS estimates from analyst estimates for %s", added_count, ticker)
             except Exception as e:
-                logger.warning(f"Failed to derive EPS from analyst estimates for {ticker}: {e}")
+                logger.warning(f"Failed to fetch future EPS estimates for {ticker}: {e}")
 
             # Revenue estimate vs actual using estimates (prefer yahooquery) and quarterly financials
             try:
                 # Prefer: Finnhub -> YahooQuery -> yfinance history
                 trend = self.financial_data.get_analyst_estimates(ticker)
                 q_income = self.financial_data.get_financials(ticker, 'income', period='quarterly', limit=8)
+                processed_dates = set()  # Track which dates we've processed
+
                 if trend is not None and q_income is not None and not q_income.empty:
                     # Build map from period end to actual revenue
                     # q_income index is period_end, rows are most recent first
                     for i in range(min(8, len(q_income))):
                         idx = q_income.index[i]
                         period_end = idx.to_pydatetime() if hasattr(idx, 'to_pydatetime') else idx
+                        processed_dates.add(pd.Timestamp(period_end))
                         actual_rev = q_income.iloc[i].get('Total Revenue') or q_income.iloc[i].get('Revenue')
                         # find matching estimate in trend by closest endDate
                         est_val = None
@@ -337,6 +411,34 @@ class FinancialAnalysisAgent:
                             'revenue_delta': delta,
                             'revenue_delta_pct': pct
                         })
+
+                    # Also add future quarters with estimates but no actuals yet
+                    if hasattr(trend, 'columns') and 'endDate' in trend.columns and 'revenueEstimateAvg' in trend.columns:
+                        tdf = trend.copy()
+                        tdf['endDate'] = pd.to_datetime(tdf['endDate'], errors='coerce')
+                        count = 0
+                        for _, row in tdf.iterrows():
+                            est_val = row.get('revenueEstimateAvg')
+                            period_end = row.get('endDate')
+                            if est_val is None or pd.isna(est_val) or pd.isna(period_end):
+                                continue
+                            # Skip if we already processed this date (has actual)
+                            if pd.Timestamp(period_end) in processed_dates:
+                                continue
+                            # Calculate quarter label
+                            q = (period_end.month - 1) // 3 + 1 if hasattr(period_end, 'month') else None
+                            rev_list.append({
+                                'period_end': (period_end.isoformat() if hasattr(period_end, 'isoformat') else str(period_end)),
+                                'label': f"{period_end.year}Q{q}" if q else row.get('period'),
+                                'revenue_estimate': est_val,
+                                'revenue_actual': None,
+                                'revenue_delta': None,
+                                'revenue_delta_pct': None
+                            })
+                            count += 1
+                        if count > 0:
+                            logger.info("Added %d future revenue estimate rows for %s from analyst estimates", count, ticker)
+
                 # If we had trend but no actuals (or q_income missing), emit estimate-only rows
                 elif trend is not None and hasattr(trend, 'empty') and not trend.empty:
                     tdf = trend.copy()
@@ -349,6 +451,10 @@ class FinancialAnalysisAgent:
                             continue
                         period_end = row.get('endDate')
                         label = row.get('period')
+                        # Calculate quarter label if we have endDate
+                        if hasattr(period_end, 'month'):
+                            q = (period_end.month - 1) // 3 + 1
+                            label = f"{period_end.year}Q{q}"
                         rev_list.append({
                             'period_end': (period_end.isoformat() if hasattr(period_end, 'isoformat') else str(period_end)),
                             'label': (str(label) if label is not None else None),
@@ -361,6 +467,78 @@ class FinancialAnalysisAgent:
                     logger.info("Added %d revenue estimate-only rows for %s from analyst estimates", count, ticker)
             except Exception as e:
                 logger.warning(f"Revenue estimates unavailable for {ticker}: {e}")
+
+            # Sort lists by date (earliest to latest)
+            # Sort EPS by announce_date
+            eps_list.sort(key=lambda x: x.get('announce_date', '') if x.get('announce_date') else '')
+
+            # Sort revenue by period_end
+            rev_list.sort(key=lambda x: x.get('period_end', '') if x.get('period_end') else '')
+
+            # Filter to limit estimates to one year from the latest reported quarter
+            # Find the latest reported quarter (with actuals)
+            latest_reported_date = None
+
+            # Check revenue list for latest actual
+            for rev in reversed(rev_list):
+                if rev.get('revenue_actual') is not None:
+                    period_end = rev.get('period_end')
+                    if period_end:
+                        try:
+                            latest_reported_date = pd.to_datetime(period_end)
+                            break
+                        except Exception:
+                            pass
+
+            # If no revenue actual found, check EPS list
+            if latest_reported_date is None:
+                for eps in reversed(eps_list):
+                    if eps.get('eps_actual') is not None and not pd.isna(eps.get('eps_actual')):
+                        announce_date = eps.get('announce_date')
+                        if announce_date:
+                            try:
+                                latest_reported_date = pd.to_datetime(announce_date)
+                                break
+                            except Exception:
+                                pass
+
+            # If we found a latest reported date, filter estimates to 1 year forward
+            if latest_reported_date:
+                one_year_cutoff = latest_reported_date + pd.DateOffset(years=1)
+                logger.info("Filtering estimates to one year from latest reported quarter: %s (cutoff: %s)",
+                           latest_reported_date.strftime('%Y-%m-%d'), one_year_cutoff.strftime('%Y-%m-%d'))
+
+                # Filter revenue list
+                filtered_rev_list = []
+                for rev in rev_list:
+                    period_end = rev.get('period_end')
+                    if period_end:
+                        try:
+                            period_date = pd.to_datetime(period_end)
+                            if period_date <= one_year_cutoff:
+                                filtered_rev_list.append(rev)
+                        except Exception:
+                            filtered_rev_list.append(rev)  # Keep if we can't parse the date
+                    else:
+                        filtered_rev_list.append(rev)
+
+                rev_list = filtered_rev_list
+
+                # Filter EPS list
+                filtered_eps_list = []
+                for eps in eps_list:
+                    announce_date = eps.get('announce_date')
+                    if announce_date:
+                        try:
+                            eps_date = pd.to_datetime(announce_date)
+                            if eps_date <= one_year_cutoff:
+                                filtered_eps_list.append(eps)
+                        except Exception:
+                            filtered_eps_list.append(eps)  # Keep if we can't parse the date
+                    else:
+                        filtered_eps_list.append(eps)
+
+                eps_list = filtered_eps_list
 
             return {
                 'eps': eps_list,

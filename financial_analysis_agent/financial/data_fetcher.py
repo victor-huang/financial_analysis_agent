@@ -7,7 +7,7 @@ from datetime import datetime
 import pandas as pd
 
 from ..config import get_config
-from .sources import YFinanceSource, AlphaVantageSource, FinnhubSource, YahooQuerySource
+from .sources import YFinanceSource, AlphaVantageSource, FinnhubSource, YahooQuerySource, FMPSource
 from .utils import merge_estimates_on_period_end
 
 logger = logging.getLogger(__name__)
@@ -36,6 +36,12 @@ class FinancialDataFetcher:
         )
         self._finnhub_source = None
 
+        # FMP setup
+        self.fmp_key = self.config.get("apis.fmp.api_key") or self.config.get(
+            "FMP_API_KEY"
+        )
+        self._fmp_source = None
+
         # YFinance and YahooQuery sources (no API key needed)
         self._yfinance_source = YFinanceSource()
         self._yahooquery_source = YahooQuerySource()
@@ -53,6 +59,13 @@ class FinancialDataFetcher:
         if not self._finnhub_source and self.finnhub_key:
             self._finnhub_source = FinnhubSource(self.finnhub_key)
         return self._finnhub_source
+
+    @property
+    def fmp_source(self) -> Optional[FMPSource]:
+        """Get or initialize the FMP source."""
+        if not self._fmp_source and self.fmp_key:
+            self._fmp_source = FMPSource(self.fmp_key)
+        return self._fmp_source
 
     def get_stock_data(
         self,
@@ -137,54 +150,160 @@ class FinancialDataFetcher:
             return None
         return self.finnhub_source.get_revenue_estimates(ticker)
 
+    def get_analyst_estimates_fmp(
+        self, ticker: str, limit: int = 8
+    ) -> Optional[pd.DataFrame]:
+        """Fetch quarterly analyst estimates (EPS and revenue) from FMP."""
+        if not self.fmp_source:
+            return None
+        return self.fmp_source.get_analyst_estimates(ticker, limit)
+
+    def get_revenue_estimates_fmp(self, ticker: str, limit: int = 8) -> Optional[pd.DataFrame]:
+        """Call FMP analyst estimates API and extract revenue data."""
+        if not self.fmp_source:
+            return None
+        return self.fmp_source.get_revenue_estimates(ticker, limit)
+
     def get_analyst_estimates(self, ticker: str) -> Optional[pd.DataFrame]:
-        """Unified analyst estimates: prefer Finnhub, then YahooQuery, then yfinance history.
+        """Unified analyst estimates: prefer FMP, then Finnhub, then YahooQuery, then yfinance history.
 
         Returns normalized DataFrame with ['period','endDate','epsEstimateAvg','revenueEstimateAvg'] when possible.
         """
-        # Step 1: Try Finnhub (EPS+revenue via company_estimates/fallback)
-        fh = self.get_analyst_estimates_finnhub(ticker)
-        if fh is not None and not fh.empty:
-            # If revenue missing, try to enrich with Finnhub revenue estimates endpoint
-            if (
-                "revenueEstimateAvg" not in fh.columns
-                or fh["revenueEstimateAvg"].isna().all()
-            ):
-                rev = self.get_revenue_estimates_finnhub(ticker)
-                if rev is not None and not rev.empty:
-                    fh = merge_estimates_on_period_end(fh, rev)
-            logger.info(
-                "Analyst estimates source selected for %s: %s%s",
-                ticker,
-                "get_analyst_estimates_finnhub",
-                (
-                    " + revenue_enriched"
-                    if (
-                        "revenueEstimateAvg" in fh.columns
-                        and fh["revenueEstimateAvg"].notna().any()
-                    )
-                    else ""
-                ),
-            )
-            return fh
+        logger.info("Starting analyst estimates search for %s with priority: FMP → Finnhub → YahooQuery → yfinance", ticker)
 
-        # Step 2: YahooQuery
+        # Step 1: Try FMP (has both EPS and revenue estimates, but often only annual/Q3 data)
+        if not self.fmp_key:
+            logger.info("FMP: Skipped (no API key configured)")
+        else:
+            logger.info("FMP: Trying...")
+            fmp = self.get_analyst_estimates_fmp(ticker)
+            if fmp is not None and not fmp.empty:
+                has_eps = "epsEstimateAvg" in fmp.columns and fmp["epsEstimateAvg"].notna().any()
+                has_revenue = "revenueEstimateAvg" in fmp.columns and fmp["revenueEstimateAvg"].notna().any()
+
+                # Check if FMP has quarterly coverage (multiple quarters, not just annual)
+                # FMP often only provides fiscal year-end data (Q3 for Apple)
+                enriched_with_yq = False
+                if has_revenue and 'endDate' in fmp.columns:
+                    fmp_copy = fmp.copy()
+                    fmp_copy['endDate'] = pd.to_datetime(fmp_copy['endDate'], errors='coerce')
+                    # Extract quarters from dates
+                    quarters = fmp_copy['endDate'].dropna().apply(lambda d: (d.month - 1) // 3 + 1 if hasattr(d, 'month') else None)
+                    unique_quarters = quarters.unique()
+                    has_quarterly_coverage = len(unique_quarters) > 1
+
+                    if not has_quarterly_coverage:
+                        logger.info("FMP returned annual data only (Q%s), trying to enrich with YahooQuery quarterly estimates...", unique_quarters[0] if len(unique_quarters) > 0 else 'unknown')
+                        yq = self.get_analyst_estimates_yq(ticker)
+                        if yq is not None and not yq.empty and 'revenueEstimateAvg' in yq.columns:
+                            # Merge YahooQuery quarterly data with FMP annual data
+                            fmp = merge_estimates_on_period_end(fmp, yq)
+                            # Also try appending any non-overlapping quarters
+                            if 'period' not in yq.columns and 'endDate' in yq.columns:
+                                yq['period'] = yq['endDate'].apply(
+                                    lambda d: f"{d.year}Q{((d.month - 1)//3)+1}" if pd.notna(d) and hasattr(d, 'year') else None
+                                )
+                            # Append YahooQuery rows that don't overlap with FMP dates
+                            if 'endDate' in fmp.columns and 'endDate' in yq.columns:
+                                fmp_dates = set(fmp['endDate'].astype(str))
+                                yq_new = yq[~yq['endDate'].astype(str).isin(fmp_dates)]
+                                if not yq_new.empty:
+                                    fmp = pd.concat([fmp, yq_new], ignore_index=True, sort=False)
+                                    logger.info("Enriched FMP data with %d quarterly estimates from YahooQuery", len(yq_new))
+                                    enriched_with_yq = True
+
+                logger.info(
+                    "✓ Analyst estimates source selected for %s: %s (EPS: %s, Revenue: %s)",
+                    ticker,
+                    "FMP + YahooQuery enrichment" if enriched_with_yq else "FMP",
+                    "yes" if has_eps else "no",
+                    "yes" if has_revenue else "no",
+                )
+                return fmp
+            else:
+                logger.info("FMP: No data returned, trying next source...")
+
+        # Step 2: Try Finnhub (EPS+revenue via company_estimates/fallback)
+        if not self.finnhub_key:
+            logger.info("Finnhub: Skipped (no API key configured)")
+        else:
+            logger.info("Finnhub: Trying...")
+            fh = self.get_analyst_estimates_finnhub(ticker)
+            if fh is not None and not fh.empty:
+                # If revenue missing, try to enrich with Finnhub revenue estimates endpoint
+                if (
+                    "revenueEstimateAvg" not in fh.columns
+                    or fh["revenueEstimateAvg"].isna().all()
+                ):
+                    rev = self.get_revenue_estimates_finnhub(ticker)
+                    if rev is not None and not rev.empty:
+                        fh = merge_estimates_on_period_end(fh, rev)
+
+                # If still no revenue after Finnhub enrichment, try YahooQuery for revenue
+                has_revenue = (
+                    "revenueEstimateAvg" in fh.columns
+                    and fh["revenueEstimateAvg"].notna().any()
+                )
+
+                if not has_revenue:
+                    logger.info(
+                        "Finnhub returned EPS estimates for %s but no revenue, trying YahooQuery for revenue",
+                        ticker
+                    )
+                    yq = self.get_analyst_estimates_yq(ticker)
+                    if yq is not None and not yq.empty and "revenueEstimateAvg" in yq.columns:
+                        # Merge YahooQuery revenue estimates into Finnhub EPS estimates
+                        fh = merge_estimates_on_period_end(fh, yq[["endDate", "revenueEstimateAvg"]])
+                        has_revenue = "revenueEstimateAvg" in fh.columns and fh["revenueEstimateAvg"].notna().any()
+
+                        # If merge didn't work (no matching dates), append YahooQuery data as new rows
+                        if not has_revenue:
+                            logger.info("Date-based merge failed, appending YahooQuery revenue data as separate rows")
+                            # Add period column to yq if not present
+                            if "period" not in yq.columns:
+                                yq["period"] = yq["endDate"].apply(
+                                    lambda d: f"{d.year}Q{((d.month - 1)//3)+1}" if pd.notna(d) and hasattr(d, "year") else None
+                                )
+                            fh = pd.concat([fh, yq], ignore_index=True, sort=False)
+                            has_revenue = "revenueEstimateAvg" in fh.columns and fh["revenueEstimateAvg"].notna().any()
+
+                logger.info(
+                    "✓ Analyst estimates source selected for %s: %s%s",
+                    ticker,
+                    "Finnhub",
+                    " + revenue_enriched" if has_revenue else " (EPS only, no revenue)",
+                )
+                return fh
+            else:
+                logger.info("Finnhub: No data returned, trying next source...")
+
+        # Step 3: YahooQuery
+        logger.info("YahooQuery: Trying (free source, no API key needed)...")
         yq = self.get_analyst_estimates_yq(ticker)
         if yq is not None and not yq.empty:
+            has_eps = "epsEstimateAvg" in yq.columns and yq["epsEstimateAvg"].notna().any()
+            has_revenue = "revenueEstimateAvg" in yq.columns and yq["revenueEstimateAvg"].notna().any()
             logger.info(
-                "Analyst estimates source selected for %s: %s",
+                "✓ Analyst estimates source selected for %s: %s (EPS: %s, Revenue: %s)",
                 ticker,
-                "get_analyst_estimates_yq",
+                "YahooQuery",
+                "yes" if has_eps else "no",
+                "yes" if has_revenue else "no",
             )
             return yq
+        else:
+            logger.info("YahooQuery: No data returned, trying next source...")
 
-        # Step 3: yfinance history (likely EPS only)
+        # Step 4: yfinance history (likely EPS only)
+        logger.info("yfinance: Trying as last resort (free source, no API key needed)...")
         yf_hist = self.get_earnings_trend(ticker)
         if yf_hist is not None and not yf_hist.empty:
             logger.info(
-                "Analyst estimates source selected for %s: %s",
+                "✓ Analyst estimates source selected for %s: %s (likely EPS only)",
                 ticker,
-                "get_earnings_trend",
+                "yfinance",
             )
             return yf_hist
+
+        logger.warning("No analyst estimates found for %s from any source", ticker)
         return None
