@@ -164,6 +164,12 @@ class FinancialDataFetcher:
             return None
         return self.fmp_source.get_revenue_estimates(ticker, limit)
 
+    def get_historical_earnings_calendar_fmp(self, ticker: str, limit: int = 20) -> Optional[pd.DataFrame]:
+        """Fetch historical earnings calendar from FMP (includes EPS and revenue actuals)."""
+        if not self.fmp_source:
+            return None
+        return self.fmp_source.get_historical_earnings_calendar(ticker, limit)
+
     def get_analyst_estimates(self, ticker: str) -> Optional[pd.DataFrame]:
         """Unified analyst estimates: prefer FMP, then Finnhub, then YahooQuery, then yfinance history.
 

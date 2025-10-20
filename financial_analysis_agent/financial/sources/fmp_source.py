@@ -203,3 +203,78 @@ class FMPSource:
             return None
 
         return estimates[revenue_cols]
+
+    def get_historical_earnings_calendar(self, ticker: str, limit: int = 20) -> Optional[pd.DataFrame]:
+        """Fetch historical earnings calendar data from FMP.
+
+        This endpoint provides both EPS and revenue actuals along with estimates.
+
+        Args:
+            ticker: Stock ticker symbol
+            limit: Maximum number of earnings reports to return
+
+        Returns:
+            DataFrame with columns: ['announceDate', 'fiscalDateEnding', 'period',
+                                     'epsEstimate', 'epsActual', 'revenueEstimate', 'revenueActual']
+        """
+        try:
+            logger.info(f"Fetching historical earnings calendar from FMP for {ticker}")
+
+            data = self._make_request(f"historical/earning_calendar/{ticker}", params={'limit': limit})
+
+            if not data or not isinstance(data, list):
+                logger.warning(f"No historical earnings calendar data from FMP for {ticker}")
+                return None
+
+            df = pd.DataFrame(data)
+
+            if df.empty:
+                return None
+
+            logger.info(f"FMP historical earnings calendar columns for {ticker}: {list(df.columns)}")
+
+            # Normalize to standard format
+            out = pd.DataFrame()
+
+            # Announcement date
+            if 'date' in df.columns:
+                out['announceDate'] = pd.to_datetime(df['date'], errors='coerce')
+
+            # Fiscal period end date
+            if 'fiscalDateEnding' in df.columns:
+                out['fiscalDateEnding'] = pd.to_datetime(df['fiscalDateEnding'], errors='coerce')
+                # Generate period label from fiscal date ending
+                out['period'] = out['fiscalDateEnding'].apply(
+                    lambda d: f"{d.year}Q{((d.month - 1)//3)+1}" if pd.notna(d) and hasattr(d, 'year') else None
+                )
+
+            # EPS estimates and actuals
+            if 'epsEstimated' in df.columns:
+                out['epsEstimate'] = pd.to_numeric(df['epsEstimated'], errors='coerce')
+            if 'eps' in df.columns:
+                out['epsActual'] = pd.to_numeric(df['eps'], errors='coerce')
+
+            # Revenue estimates and actuals
+            if 'revenueEstimated' in df.columns:
+                out['revenueEstimate'] = pd.to_numeric(df['revenueEstimated'], errors='coerce')
+            if 'revenue' in df.columns:
+                out['revenueActual'] = pd.to_numeric(df['revenue'], errors='coerce')
+
+            # Sort by announcement date descending (most recent first)
+            if 'announceDate' in out.columns:
+                out = out.dropna(subset=['announceDate']).sort_values('announceDate', ascending=False)
+
+            # Keep only relevant columns
+            keep = [c for c in ['announceDate', 'fiscalDateEnding', 'period', 'epsEstimate', 'epsActual',
+                                'revenueEstimate', 'revenueActual'] if c in out.columns]
+
+            if not keep:
+                return None
+
+            result = out[keep].head(limit)
+            logger.info(f"FMP historical earnings calendar returned {len(result)} rows for {ticker}")
+            return result
+
+        except Exception as e:
+            logger.error(f"Error fetching historical earnings calendar from FMP for {ticker}: {e}")
+            return None

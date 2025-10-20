@@ -232,8 +232,8 @@ class FinancialAnalysisAgent:
 
     def _build_analyst_estimates(self, ticker: str) -> Dict[str, Any]:
         """Build analyst estimate view for quarterly EPS and revenue.
-        Combines yfinance earnings dates (EPS) and earnings trend (revenue estimates)
-        with quarterly financials (actual revenue).
+        Combines FMP historical earnings calendar (actuals), analyst estimates (future),
+        and yfinance earnings dates (fallback for actuals).
         """
         try:
             eps_list: List[Dict[str, Any]] = []
@@ -243,12 +243,88 @@ class FinancialAnalysisAgent:
             # This avoids duplicate API calls to FMP
             analyst_estimates_df = self.financial_data.get_analyst_estimates(ticker)
 
-            # EPS beat/miss from earnings dates
+            # FIRST: Try to get actuals from FMP historical earnings calendar
+            # This is the best source because it has both EPS and revenue actuals
+            fmp_historical = None
+            try:
+                fmp_historical = self.financial_data.get_historical_earnings_calendar_fmp(ticker, limit=20)
+                if fmp_historical is not None and not fmp_historical.empty:
+                    logger.info(f"Using FMP historical earnings calendar for {ticker} actuals")
+
+                    for _, row in fmp_historical.iterrows():
+                        announce_date = row.get('announceDate')
+                        fiscal_date = row.get('fiscalDateEnding')
+                        period = row.get('period')
+                        eps_est = row.get('epsEstimate')
+                        eps_act = row.get('epsActual')
+                        rev_est = row.get('revenueEstimate')
+                        rev_act = row.get('revenueActual')
+
+                        # Skip if no date information
+                        if pd.isna(announce_date):
+                            continue
+
+                        # Add to EPS list if we have EPS data
+                        if eps_est is not None or eps_act is not None:
+                            eps_delta = None
+                            surprise_pct = None
+                            if eps_est is not None and eps_act is not None and not pd.isna(eps_est) and not pd.isna(eps_act):
+                                eps_delta = float(eps_act) - float(eps_est)
+                                surprise_pct = (eps_delta / float(eps_est)) * 100 if eps_est != 0 else None
+
+                            eps_list.append({
+                                'announce_date': announce_date.isoformat() if hasattr(announce_date, 'isoformat') else str(announce_date),
+                                'quarter': period,
+                                'label': period,
+                                'eps_estimate': eps_est,
+                                'eps_actual': eps_act,
+                                'eps_delta': eps_delta,
+                                'surprise_pct': surprise_pct
+                            })
+
+                        # Add to revenue list if we have revenue data
+                        if rev_est is not None or rev_act is not None:
+                            rev_delta = None
+                            rev_delta_pct = None
+                            if rev_est is not None and rev_act is not None and not pd.isna(rev_est) and not pd.isna(rev_act):
+                                rev_delta = float(rev_act) - float(rev_est)
+                                rev_delta_pct = (rev_delta / float(rev_est)) if rev_est != 0 else None
+
+                            rev_list.append({
+                                'period_end': fiscal_date.isoformat() if hasattr(fiscal_date, 'isoformat') else str(fiscal_date),
+                                'label': period,
+                                'revenue_estimate': rev_est,
+                                'revenue_actual': rev_act,
+                                'revenue_delta': rev_delta,
+                                'revenue_delta_pct': rev_delta_pct
+                            })
+
+                    logger.info(f"Added {len(eps_list)} EPS records and {len(rev_list)} revenue records from FMP historical earnings calendar")
+            except Exception as e:
+                logger.warning(f"Could not fetch FMP historical earnings calendar for {ticker}: {e}")
+
+            # SECOND: Supplement with yfinance earnings dates for any missing EPS data
+            # Track existing announce dates to avoid duplicates
+            existing_announce_dates = set()
+            for eps_entry in eps_list:
+                announce_date = eps_entry.get('announce_date')
+                if announce_date:
+                    try:
+                        existing_announce_dates.add(pd.to_datetime(announce_date).strftime('%Y-%m-%d'))
+                    except Exception:
+                        pass
+
             try:
                 edf = self.financial_data.get_earnings_dates(ticker, limit=8)
                 if edf is not None and not edf.empty:
                     # Columns commonly include: 'EPS Estimate', 'Reported EPS', 'Surprise', 'Surprise(%)', 'Quarter'
+                    yf_added = 0
                     for idx, row in edf.iterrows():
+                        # Check if we already have this date from FMP
+                        announce_date_str = idx.strftime('%Y-%m-%d') if hasattr(idx, 'strftime') else str(idx)[:10]
+                        if announce_date_str in existing_announce_dates:
+                            continue
+
                         est = row.get('EPS Estimate')
                         act = row.get('Reported EPS')
                         surprise_pct = row.get('Surprise(%)')
@@ -284,11 +360,16 @@ class FinancialAnalysisAgent:
                             'eps_delta': delta,
                             'surprise_pct': surprise_pct
                         })
+                        existing_announce_dates.add(announce_date_str)
+                        yf_added += 1
+
+                    if yf_added > 0:
+                        logger.info(f"Added {yf_added} additional EPS records from yfinance earnings dates")
             except Exception as e:
                 logger.warning(f"EPS estimates unavailable for {ticker}: {e}")
 
-            # Also fetch future EPS estimates from unified analyst estimates (Finnhub/YQ/FMP)
-            # This supplements historical data from earnings_dates with forward-looking estimates
+            # THIRD: Add future EPS estimates from unified analyst estimates (Finnhub/YQ/FMP)
+            # This supplements historical data with forward-looking estimates
             try:
                 est_df = analyst_estimates_df  # Reuse fetched data instead of calling API again
                 if est_df is not None and not est_df.empty:
@@ -297,15 +378,14 @@ class FinancialAnalysisAgent:
                     if 'endDate' in est_df.columns:
                         est_df['endDate'] = pd.to_datetime(est_df['endDate'], errors='coerce')
 
-                    # Track existing dates to avoid duplicates
-                    existing_dates = set()
+                    # Track existing period labels to avoid duplicates
+                    existing_periods = set()
                     for eps_entry in eps_list:
-                        announce_date = eps_entry.get('announce_date')
-                        if announce_date:
-                            try:
-                                existing_dates.add(pd.to_datetime(announce_date).strftime('%Y-%m-%d'))
-                            except Exception:
-                                pass
+                        label = eps_entry.get('label')
+                        if label:
+                            existing_periods.add(label)
+
+                    logger.info(f"Existing EPS periods before adding future estimates: {existing_periods}")
 
                     added_count = 0
                     for _, row in est_df.iterrows():
@@ -326,9 +406,14 @@ class FinancialAnalysisAgent:
                             if re.match(r'^[+-]?\d+y$', period, re.IGNORECASE):
                                 continue
 
-                        # Skip if we already have data for this date
-                        date_str = end_date.strftime('%Y-%m-%d') if hasattr(end_date, 'strftime') else str(end_date)[:10]
-                        if date_str in existing_dates:
+                        # Generate label in YYYYQX format from endDate
+                        label = None
+                        if hasattr(end_date, 'year') and hasattr(end_date, 'month'):
+                            q = (end_date.month - 1) // 3 + 1
+                            label = f"{end_date.year}Q{q}"
+
+                        # Skip if we already have data for this period
+                        if label and label in existing_periods:
                             continue
 
                         est = row.get('epsEstimateAvg')
@@ -346,13 +431,6 @@ class FinancialAnalysisAgent:
                             except Exception:
                                 delta = None
 
-                        # Generate label in YYYYQX format from endDate
-                        # Convert relative notations like "+1q", "0q" to proper YYYYQX format
-                        label = None
-                        if hasattr(end_date, 'year') and hasattr(end_date, 'month'):
-                            q = (end_date.month - 1) // 3 + 1
-                            label = f"{end_date.year}Q{q}"
-
                         eps_list.append({
                             'announce_date': (end_date.isoformat() if hasattr(end_date, 'isoformat') else str(end_date)),
                             'quarter': period,
@@ -362,7 +440,8 @@ class FinancialAnalysisAgent:
                             'eps_delta': delta,
                             'surprise_pct': None
                         })
-                        existing_dates.add(date_str)
+                        if label:
+                            existing_periods.add(label)
                         added_count += 1
 
                     if added_count > 0:
