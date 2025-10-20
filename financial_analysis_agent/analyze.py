@@ -252,6 +252,14 @@ class FinancialAnalysisAgent:
                         est = row.get('EPS Estimate')
                         act = row.get('Reported EPS')
                         surprise_pct = row.get('Surprise(%)')
+
+                        # Skip entries where both estimate and actual are missing (NaN/None)
+                        # These are placeholder entries from yfinance with no useful data
+                        est_is_missing = est is None or (isinstance(est, float) and pd.isna(est))
+                        act_is_missing = act is None or (isinstance(act, float) and pd.isna(act))
+                        if est_is_missing and act_is_missing:
+                            continue
+
                         delta = None
                         if est is not None and act is not None:
                             delta = float(act) - float(est)
