@@ -151,14 +151,14 @@ class FinancialDataFetcher:
         return self.finnhub_source.get_revenue_estimates(ticker)
 
     def get_analyst_estimates_fmp(
-        self, ticker: str, limit: int = 8
+        self, ticker: str, limit: int = 24
     ) -> Optional[pd.DataFrame]:
         """Fetch quarterly analyst estimates (EPS and revenue) from FMP."""
         if not self.fmp_source:
             return None
         return self.fmp_source.get_analyst_estimates(ticker, limit)
 
-    def get_revenue_estimates_fmp(self, ticker: str, limit: int = 8) -> Optional[pd.DataFrame]:
+    def get_revenue_estimates_fmp(self, ticker: str, limit: int = 24) -> Optional[pd.DataFrame]:
         """Call FMP analyst estimates API and extract revenue data."""
         if not self.fmp_source:
             return None

@@ -47,7 +47,7 @@ class FMPSource:
             logger.error(f"FMP API request failed for {endpoint}: {e}")
             return None
 
-    def get_analyst_estimates(self, ticker: str, limit: int = 8) -> Optional[pd.DataFrame]:
+    def get_analyst_estimates(self, ticker: str, limit: int = 24) -> Optional[pd.DataFrame]:
         """Fetch quarterly analyst estimates (EPS and revenue) from FMP.
 
         Args:

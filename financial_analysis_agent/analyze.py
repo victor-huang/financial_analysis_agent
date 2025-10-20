@@ -239,6 +239,10 @@ class FinancialAnalysisAgent:
             eps_list: List[Dict[str, Any]] = []
             rev_list: List[Dict[str, Any]] = []
 
+            # Fetch analyst estimates once (contains both EPS and revenue estimates)
+            # This avoids duplicate API calls to FMP
+            analyst_estimates_df = self.financial_data.get_analyst_estimates(ticker)
+
             # EPS beat/miss from earnings dates
             try:
                 edf = self.financial_data.get_earnings_dates(ticker, limit=8)
@@ -278,7 +282,7 @@ class FinancialAnalysisAgent:
             # Also fetch future EPS estimates from unified analyst estimates (Finnhub/YQ/FMP)
             # This supplements historical data from earnings_dates with forward-looking estimates
             try:
-                est_df = self.financial_data.get_analyst_estimates(ticker)
+                est_df = analyst_estimates_df  # Reuse fetched data instead of calling API again
                 if est_df is not None and not est_df.empty:
                     # Expect columns: endDate, period, epsEstimateAvg, epsActual (optional)
                     est_df = est_df.copy()
@@ -303,21 +307,15 @@ class FinancialAnalysisAgent:
                         if pd.isna(end_date):
                             continue
 
-                        # Filter: ONLY include quarterly estimates, NOT annual fiscal year estimates
-                        # - Annual fiscal year estimates: "2025Q3", "2026Q3" (format: YYYYQX) - EPS ~6-11
-                        # - Quarterly estimates: "+1q", "0q", "+2q" (format: [+-]Nq) - EPS ~1-3
-                        # - Annual year estimates: "0y", "+1y" (format: [+-]Ny) - EPS ~6-11
+                        # Filter out annual year estimates (not quarterly)
+                        # - Annual year estimates: "0y", "+1y", "-1y" (format: [+-]?Ny) - EPS ~6-11
+                        # - Quarterly estimates can be in two formats:
+                        #   1. FMP format: "2025Q3", "2026Q1" (YYYYQX) - EPS ~1-3
+                        #   2. YahooQuery format: "+1q", "0q", "-1q" ([+-]?Nq) - EPS ~1-3
                         if period and isinstance(period, str):
                             import re
-                            # Skip FMP annual fiscal year estimates (e.g., "2025Q3", "2026Q3")
-                            # These are annual EPS for fiscal years, not quarterly
-                            if re.match(r'^\d{4}Q\d$', period):
-                                continue
-                            # Skip YahooQuery annual estimates (e.g., "0y", "+1y", "-1y")
+                            # Skip annual year estimates (e.g., "0y", "+1y", "-1y")
                             if re.match(r'^[+-]?\d+y$', period, re.IGNORECASE):
-                                continue
-                            # Only keep quarterly estimates with relative notation (e.g., "0q", "+1q", "+2q")
-                            if not re.match(r'^[+-]?\d+q$', period, re.IGNORECASE):
                                 continue
 
                         # Skip if we already have data for this date
@@ -328,8 +326,9 @@ class FinancialAnalysisAgent:
                         est = row.get('epsEstimateAvg')
                         act = row.get('epsActual')
 
-                        # Skip if no estimate available
-                        if est is None or pd.isna(est):
+                        # Skip if no estimate available or estimate is 0
+                        # (FMP returns 0 for quarters without analyst coverage)
+                        if est is None or pd.isna(est) or est == 0:
                             continue
 
                         delta = None
@@ -365,8 +364,8 @@ class FinancialAnalysisAgent:
 
             # Revenue estimate vs actual using estimates (prefer yahooquery) and quarterly financials
             try:
-                # Prefer: Finnhub -> YahooQuery -> yfinance history
-                trend = self.financial_data.get_analyst_estimates(ticker)
+                # Reuse analyst estimates fetched earlier (contains revenue estimates)
+                trend = analyst_estimates_df  # Reuse fetched data instead of calling API again
                 q_income = self.financial_data.get_financials(ticker, 'income', period='quarterly', limit=8)
                 processed_dates = set()  # Track which dates we've processed
 
