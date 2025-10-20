@@ -79,15 +79,17 @@ class FinancialAnalysisAgent:
         self.config = get_config()
         
         # Initialize API clients
+        logger.info("Initializing API clients")
         self.financial_data = FinancialDataFetcher()
-        self.twitter = TwitterClient()
-        self.reddit = RedditClient()
+        self.twitter = None # TwitterClient()
+        self.reddit = None # RedditClient()
         
         # Initialize LLM client (default to OpenAI)
-        self.llm = self._initialize_llm()
+        self.llm = None # self._initialize_llm()
         
         # Cache for storing analysis results
         self.cache = {}
+        logger.info("FinancialAnalysisAgent initialized")
     
     def _initialize_llm(self):
         """Initialize the appropriate LLM client based on configuration."""
