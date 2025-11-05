@@ -331,34 +331,37 @@ def generate_csv_row(json_data, target_quarter=None):
         full_year_last_year = get_annual_revenue_actual(json_data, current_year - 1)
         full_year_two_years_ago = get_annual_revenue_actual(json_data, current_year - 2)
 
+    # Calculate annual revenue YoY percentages
+    revenu_y_yoy_last_year = ""
+    revenu_y_yoy_this_year = ""
+
+    if full_year_last_year and full_year_two_years_ago and full_year_two_years_ago > 0:
+        yoy_last = calculate_yoy_percentage(full_year_last_year, full_year_two_years_ago)
+        revenu_y_yoy_last_year = f"{yoy_last:.2f}" if yoy_last is not None else ""
+
+    if full_year_estimate and full_year_last_year and full_year_last_year > 0:
+        yoy_this = calculate_yoy_percentage(full_year_estimate, full_year_last_year)
+        revenu_y_yoy_this_year = f"{yoy_this:.2f}" if yoy_this is not None else ""
+
     # Initialize row with empty values
     row = {
         "ticker": ticker,
-        "quarter": target_quarter,
-        "hot?": "",
-        "Note": "",
-        "Company name": company_name,
-        "Market segment": market_segment,
-        "Market Cap (B)": f"{market_cap_b:.2f}" if market_cap_b else "",
-        "Fast grow?": "",
-        "HC change (%)": "",
-        "tech/analyst": "",
-        "post gain $": "",
-        "2nd day gain %": "",
         "EPS Q estimate": "",
         "EPS Q actual": "",
-        "EPS beat %": "",
         "Revenue Q estimate": "",
         "revenue Q actual": "",
-        "Revenue Q Beat %": "",
         "EPS same Q actual last year": "",
-        "EPS actual YoY %": "",
         "Revenue same Q actual last year": "",
-        "Revenue actual YoY %": "",
-        "Revenue last Q actual YoY %": "",
         "Revenue full Y estimate": f"{full_year_estimate/1_000_000_000:.2f}" if full_year_estimate else "",
         "Revenue full Y last year actual": f"{full_year_last_year/1_000_000_000:.2f}" if full_year_last_year else "",
         "revenue full Y actual two year ago": f"{full_year_two_years_ago/1_000_000_000:.2f}" if full_year_two_years_ago else "",
+        "EPS beat %": "",
+        "Revenue Q Beat %": "",
+        "EPS actuall YoY %": "",
+        "Revenue actual YoY %": "",
+        "Revenue last Q actual YoY %": "",
+        "Revenu Y YoY last year": revenu_y_yoy_last_year,
+        "Revenu Y YoY this year": revenu_y_yoy_this_year,
     }
 
     # Fill in EPS data
@@ -393,7 +396,7 @@ def generate_csv_row(json_data, target_quarter=None):
             # This field should be empty for unreported quarters
             if eps_actual and prior_eps and prior_eps > 0:
                 eps_yoy = calculate_yoy_percentage(eps_actual, prior_eps)
-                row["EPS actual YoY %"] = f"{eps_yoy:.2f}" if eps_yoy is not None else ""
+                row["EPS actuall YoY %"] = f"{eps_yoy:.2f}" if eps_yoy is not None else ""
 
     # Fill in Revenue data
     if quarter_revenue:
@@ -499,31 +502,22 @@ def generate_csv(input_file, output_file=None, target_quarter=None):
     # Write CSV
     fieldnames = [
         "ticker",
-        "quarter",
-        "hot?",
-        "Note",
-        "Company name",
-        "Market segment",
-        "Market Cap (B)",
-        "Fast grow?",
-        "HC change (%)",
-        "tech/analyst",
-        "post gain $",
-        "2nd day gain %",
         "EPS Q estimate",
         "EPS Q actual",
-        "EPS beat %",
         "Revenue Q estimate",
         "revenue Q actual",
-        "Revenue Q Beat %",
         "EPS same Q actual last year",
-        "EPS actual YoY %",
         "Revenue same Q actual last year",
-        "Revenue actual YoY %",
-        "Revenue last Q actual YoY %",
         "Revenue full Y estimate",
         "Revenue full Y last year actual",
         "revenue full Y actual two year ago",
+        "EPS beat %",
+        "Revenue Q Beat %",
+        "EPS actuall YoY %",
+        "Revenue actual YoY %",
+        "Revenue last Q actual YoY %",
+        "Revenu Y YoY last year",
+        "Revenu Y YoY this year",
     ]
 
     with open(output_path, "w", newline="") as f:
@@ -533,12 +527,12 @@ def generate_csv(input_file, output_file=None, target_quarter=None):
 
     print(f"✓ Generated CSV file: {output_path}")
     print(f"  Ticker: {row['ticker']}")
-    print(f"  Quarter: {row['quarter']}")
-    print(f"  Company: {row['Company name']}")
     print(f"  EPS: {row['EPS Q actual']} (estimate: {row['EPS Q estimate']})")
     print(
         f"  Revenue: {row['revenue Q actual']}B (estimate: {row['Revenue Q estimate']}B)"
     )
+    print(f"  Revenu Y YoY last year: {row['Revenu Y YoY last year']}%")
+    print(f"  Revenu Y YoY this year: {row['Revenu Y YoY this year']}%")
 
     return 0
 
