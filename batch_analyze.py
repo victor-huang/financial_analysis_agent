@@ -3,9 +3,10 @@
 Batch financial analysis script that analyzes multiple tickers and generates CSV reports.
 
 Usage:
-    python batch_analyze.py AAPL MSFT GOOGL                  # Analyze multiple tickers
+    python batch_analyze.py AAPL MSFT GOOGL                  # Analyze multiple tickers (next unreported quarter)
     python batch_analyze.py --file tickers.txt               # Read tickers from file
-    python batch_analyze.py AAPL --quarter 2025Q2           # Analyze specific quarter
+    python batch_analyze.py AAPL --mode latest               # Analyze latest reported quarter (with actuals)
+    python batch_analyze.py AAPL --quarter 2025Q2            # Analyze specific quarter
 
 The script will:
 1. Create an 'analysis_data_export' directory
@@ -87,13 +88,14 @@ def analyze_ticker(ticker, output_dir, verbose=False):
         return False, None, str(e)
 
 
-def generate_csv(json_path, output_dir, quarter=None):
+def generate_csv(json_path, output_dir, quarter=None, mode="next"):
     """Generate CSV analysis from JSON data
 
     Args:
         json_path: Path to JSON file
         output_dir: Output directory path
         quarter: Optional quarter to analyze (e.g., '2025Q2')
+        mode: 'next' for next unreported quarter (default), 'latest' for latest reported quarter
 
     Returns:
         Tuple of (success: bool, csv_path: Path or None, error_message: str or None)
@@ -116,6 +118,9 @@ def generate_csv(json_path, output_dir, quarter=None):
 
     if quarter:
         cmd.extend(["--quarter", quarter])
+
+    # Add mode flag
+    cmd.extend(["--mode", mode])
 
     try:
         # Run CSV generation
@@ -141,13 +146,14 @@ def generate_csv(json_path, output_dir, quarter=None):
         return False, None, str(e)
 
 
-def process_ticker(ticker, output_dir, quarter=None, verbose=False):
+def process_ticker(ticker, output_dir, quarter=None, mode="next", verbose=False):
     """Process a single ticker: analyze and generate CSV
 
     Args:
         ticker: Stock ticker symbol
         output_dir: Output directory path
         quarter: Optional quarter to analyze
+        mode: 'next' for next unreported quarter (default), 'latest' for latest reported quarter
         verbose: Whether to show verbose output
 
     Returns:
@@ -177,7 +183,9 @@ def process_ticker(ticker, output_dir, quarter=None, verbose=False):
     result["json_path"] = json_path
 
     # Step 2: Generate CSV
-    csv_success, csv_path, csv_error = generate_csv(json_path, output_dir, quarter)
+    csv_success, csv_path, csv_error = generate_csv(
+        json_path, output_dir, quarter, mode
+    )
 
     if not csv_success:
         result["error"] = f"CSV generation failed: {csv_error}"
@@ -252,8 +260,11 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Analyze multiple tickers
+  # Analyze multiple tickers (next unreported quarter - default)
   python batch_analyze.py AAPL MSFT GOOGL
+
+  # Analyze latest reported quarter (with actuals)
+  python batch_analyze.py AAPL MSFT --mode latest
 
   # Read tickers from file
   python batch_analyze.py --file tickers.txt
@@ -274,7 +285,14 @@ Examples:
     parser.add_argument(
         "--quarter",
         "-q",
-        help="Quarter to analyze (e.g., 2025Q2). Default: current quarter",
+        help="Quarter to analyze (e.g., 2025Q2). Overrides --mode if specified.",
+    )
+    parser.add_argument(
+        "--mode",
+        "-m",
+        choices=["next", "latest"],
+        default="next",
+        help="Quarter selection mode: 'next' for next unreported quarter (default), 'latest' for latest reported quarter with actuals",
     )
     parser.add_argument(
         "--output-dir",
@@ -318,7 +336,9 @@ Examples:
     results = []
     for i, ticker in enumerate(tickers, 1):
         print(f"[{i}/{len(tickers)}] Processing {ticker}...")
-        result = process_ticker(ticker, output_dir, args.quarter, args.verbose)
+        result = process_ticker(
+            ticker, output_dir, args.quarter, args.mode, args.verbose
+        )
         results.append(result)
 
         if result["success"]:

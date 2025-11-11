@@ -3,14 +3,16 @@
 Generate a CSV file for earnings analysis from financial data JSON files.
 
 Usage:
-    python generate_analysis_csv.py <input_json> [output_csv] [--quarter YYYYQX]
+    python generate_analysis_csv.py <input_json> [output_csv] [--quarter YYYYQX] [--mode MODE]
 
-By default, analyzes the current quarter (latest not-yet-reported quarter).
+By default, analyzes the next unreported quarter (for forecasting).
+Use --mode latest to analyze the most recently reported quarter (with actuals).
 Use --quarter to specify a specific quarter for historical validation.
 
 Examples:
-    python generate_analysis_csv.py aapl.json                    # Analyze current quarter
-    python generate_analysis_csv.py aapl.json --quarter 2025Q2   # Analyze specific quarter
+    python generate_analysis_csv.py aapl.json                       # Analyze next unreported quarter
+    python generate_analysis_csv.py aapl.json --mode latest         # Analyze latest reported quarter
+    python generate_analysis_csv.py aapl.json --quarter 2025Q2      # Analyze specific quarter
 """
 
 import json
@@ -213,14 +215,14 @@ def get_full_year_revenue_estimate(revenue_data, year):
 
     # Collect unique quarters for the year
     for rev in revenue_data:
-        label = rev.get('label', '')
-        if label.startswith(str(year)) and 'Q' in label:
-            est = rev.get('revenue_estimate')
+        label = rev.get("label", "")
+        if label.startswith(str(year)) and "Q" in label:
+            est = rev.get("revenue_estimate")
 
             # Only use if we don't have this quarter yet or if this has better data
             if label not in quarters:
                 quarters[label] = est
-            elif est and str(est) != 'nan':
+            elif est and str(est) != "nan":
                 quarters[label] = est
 
     # Sum up quarters Q1-Q4
@@ -229,7 +231,7 @@ def get_full_year_revenue_estimate(revenue_data, year):
     for q in [f"{year}Q1", f"{year}Q2", f"{year}Q3", f"{year}Q4"]:
         if q in quarters:
             est = quarters[q]
-            if est and str(est) != 'nan':
+            if est and str(est) != "nan":
                 total += est
                 quarters_found += 1
 
@@ -249,12 +251,12 @@ def get_annual_revenue_actual(json_data, year):
     Returns:
         Annual revenue actual for the year, or None if not found
     """
-    financial = json_data.get('financial', {})
-    historical = financial.get('historical_ratios', {})
-    annual = historical.get('annual', {})
+    financial = json_data.get("financial", {})
+    historical = financial.get("historical_ratios", {})
+    annual = historical.get("annual", {})
 
-    labels = annual.get('label', [])
-    revenues = annual.get('revenue', [])
+    labels = annual.get("label", [])
+    revenues = annual.get("revenue", [])
 
     year_str = str(year)
     if year_str in labels:
@@ -264,13 +266,15 @@ def get_annual_revenue_actual(json_data, year):
     return None
 
 
-def generate_csv_row(json_data, target_quarter=None):
+def generate_csv_row(json_data, target_quarter=None, mode="next"):
     """Generate a CSV row from JSON data
 
     Args:
         json_data: The financial analysis JSON data
         target_quarter: Quarter label to analyze (e.g., '2025Q3').
-                       If None, uses current quarter (latest unreported).
+                       If None, uses mode to determine quarter.
+        mode: 'next' for next unreported quarter (default),
+              'latest' for latest reported quarter with actuals
 
     Returns:
         Dictionary with CSV row data
@@ -298,14 +302,21 @@ def generate_csv_row(json_data, target_quarter=None):
 
     # Determine which quarter to analyze
     if target_quarter is None:
-        # Default: use current quarter (latest unreported)
-        target_quarter = find_current_quarter(eps_data)
-        if not target_quarter:
-            print(
-                "Warning: Could not determine current quarter, using latest reported quarter"
-            )
+        if mode == "latest":
+            # Use latest reported quarter (with actual data)
             latest_eps = find_latest_reported_quarter(eps_data)
             target_quarter = latest_eps.get("label") if latest_eps else None
+            if not target_quarter:
+                print("Warning: Could not find any reported quarter with actual data")
+        else:
+            # Default: use next unreported quarter
+            target_quarter = find_current_quarter(eps_data)
+            if not target_quarter:
+                print(
+                    "Warning: Could not determine next unreported quarter, using latest reported quarter"
+                )
+                latest_eps = find_latest_reported_quarter(eps_data)
+                target_quarter = latest_eps.get("label") if latest_eps else None
 
     if not target_quarter:
         print("Error: No valid quarter found")
@@ -336,7 +347,9 @@ def generate_csv_row(json_data, target_quarter=None):
     revenu_y_yoy_this_year = ""
 
     if full_year_last_year and full_year_two_years_ago and full_year_two_years_ago > 0:
-        yoy_last = calculate_yoy_percentage(full_year_last_year, full_year_two_years_ago)
+        yoy_last = calculate_yoy_percentage(
+            full_year_last_year, full_year_two_years_ago
+        )
         revenu_y_yoy_last_year = f"{yoy_last:.2f}" if yoy_last is not None else ""
 
     if full_year_estimate and full_year_last_year and full_year_last_year > 0:
@@ -352,9 +365,17 @@ def generate_csv_row(json_data, target_quarter=None):
         "revenue Q actual": "",
         "EPS same Q actual last year": "",
         "Revenue same Q actual last year": "",
-        "Revenue full Y estimate": f"{full_year_estimate/1_000_000_000:.2f}" if full_year_estimate else "",
-        "Revenue full Y last year actual": f"{full_year_last_year/1_000_000_000:.2f}" if full_year_last_year else "",
-        "revenue full Y actual two year ago": f"{full_year_two_years_ago/1_000_000_000:.2f}" if full_year_two_years_ago else "",
+        "Revenue full Y estimate": (
+            f"{full_year_estimate/1_000_000_000:.2f}" if full_year_estimate else ""
+        ),
+        "Revenue full Y last year actual": (
+            f"{full_year_last_year/1_000_000_000:.2f}" if full_year_last_year else ""
+        ),
+        "revenue full Y actual two year ago": (
+            f"{full_year_two_years_ago/1_000_000_000:.2f}"
+            if full_year_two_years_ago
+            else ""
+        ),
         "EPS beat %": "",
         "Revenue Q Beat %": "",
         "EPS actuall YoY %": "",
@@ -396,7 +417,9 @@ def generate_csv_row(json_data, target_quarter=None):
             # This field should be empty for unreported quarters
             if eps_actual and prior_eps and prior_eps > 0:
                 eps_yoy = calculate_yoy_percentage(eps_actual, prior_eps)
-                row["EPS actuall YoY %"] = f"{eps_yoy:.2f}" if eps_yoy is not None else ""
+                row["EPS actuall YoY %"] = (
+                    f"{eps_yoy:.2f}" if eps_yoy is not None else ""
+                )
 
     # Fill in Revenue data
     if quarter_revenue:
@@ -464,13 +487,14 @@ def generate_csv_row(json_data, target_quarter=None):
     return row
 
 
-def generate_csv(input_file, output_file=None, target_quarter=None):
+def generate_csv(input_file, output_file=None, target_quarter=None, mode="next"):
     """Generate CSV file from JSON data
 
     Args:
         input_file: Path to input JSON file
         output_file: Path to output CSV file (optional)
-        target_quarter: Quarter label to analyze (e.g., '2025Q3'). If None, uses current quarter.
+        target_quarter: Quarter label to analyze (e.g., '2025Q3'). If None, uses mode to determine quarter.
+        mode: 'next' for next unreported quarter (default), 'latest' for latest reported quarter
 
     Returns:
         0 on success, 1 on error
@@ -486,7 +510,7 @@ def generate_csv(input_file, output_file=None, target_quarter=None):
         json_data = json.load(f)
 
     # Generate row
-    row = generate_csv_row(json_data, target_quarter=target_quarter)
+    row = generate_csv_row(json_data, target_quarter=target_quarter, mode=mode)
 
     if row is None:
         print("Error: Failed to generate CSV row")
@@ -543,8 +567,11 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Analyze current quarter (latest unreported)
+  # Analyze next unreported quarter (default)
   python generate_analysis_csv.py aapl.json
+
+  # Analyze latest reported quarter (with actuals)
+  python generate_analysis_csv.py aapl.json --mode latest
 
   # Analyze specific quarter for validation
   python generate_analysis_csv.py aapl.json --quarter 2025Q2
@@ -559,12 +586,19 @@ Examples:
     parser.add_argument(
         "--quarter",
         "-q",
-        help="Quarter to analyze (e.g., 2025Q3). Default: current quarter (latest unreported)",
+        help="Quarter to analyze (e.g., 2025Q3). Overrides --mode if specified.",
+    )
+    parser.add_argument(
+        "--mode",
+        "-m",
+        choices=["next", "latest"],
+        default="next",
+        help="Quarter selection mode: 'next' for next unreported quarter (default), 'latest' for latest reported quarter with actuals",
     )
 
     args = parser.parse_args()
 
-    return generate_csv(args.input_json, args.output_csv, args.quarter)
+    return generate_csv(args.input_json, args.output_csv, args.quarter, args.mode)
 
 
 if __name__ == "__main__":
