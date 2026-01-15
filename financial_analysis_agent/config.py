@@ -27,7 +27,7 @@ class Config:
         load_dotenv()
 
         # Also load .env.local for local overrides (takes precedence)
-        load_dotenv('.env.local', override=True)
+        load_dotenv(".env.local", override=True)
 
         # Default configuration
         self._config = {
@@ -79,6 +79,10 @@ class Config:
                 "fmp": {
                     "api_key": os.getenv("FMP_API_KEY"),
                     "base_url": "https://financialmodelingprep.com/api/v3",
+                },
+                "google_sheets": {
+                    "credentials_path": os.getenv("GOOGLE_SHEETS_CREDENTIALS_PATH"),
+                    "credentials_json": os.getenv("GOOGLE_SHEETS_CREDENTIALS_JSON"),
                 },
             },
         }
