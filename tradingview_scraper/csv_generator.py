@@ -11,14 +11,14 @@ from metrics_calculator import (
     format_market_cap,
     format_revenue,
     format_percentage,
-    format_number
+    format_number,
 )
 
 
 def get_csv_headers() -> List[str]:
     """
     Get the standard CSV headers for earnings analysis.
-    
+
     Returns:
         List of column headers
     """
@@ -44,18 +44,18 @@ def get_csv_headers() -> List[str]:
         "EPS YoY %",
         "Revenue Q last year",
         "Revenue YoY %",
-        "Revenue last Q YoY %"
+        "Revenue last Q YoY %",
     ]
 
 
 def build_csv_row(api_data: Dict, yoy_data: Dict) -> Dict:
     """
     Build a single CSV row from API data and YoY data.
-    
+
     Args:
         api_data: Data from earnings API
         yoy_data: Year-over-year comparison data from scraper
-    
+
     Returns:
         Dictionary with all CSV columns
     """
@@ -67,20 +67,31 @@ def build_csv_row(api_data: Dict, yoy_data: Dict) -> Dict:
 
     # Convert API revenue from base units (dollars) to millions for consistency
     # API returns revenue in dollars, scraper returns in millions
-    revenue_estimate_millions = revenue_estimate / 1_000_000 if revenue_estimate else None
+    revenue_estimate_millions = (
+        revenue_estimate / 1_000_000 if revenue_estimate else None
+    )
     revenue_actual_millions = revenue_actual / 1_000_000 if revenue_actual else None
 
     eps_last_year = yoy_data.get("eps_last_year_q")
-    revenue_last_year = yoy_data.get("revenue_last_year_q")  # Already in millions from scraper
+    revenue_last_year = yoy_data.get(
+        "revenue_last_year_q"
+    )  # Already in millions from scraper
     revenue_last_q = yoy_data.get("revenue_last_q")  # Already in millions from scraper
 
     # Calculate metrics (revenue values now all in millions)
     eps_beat_pct = calculate_beat_percentage(eps_actual, eps_estimate)
-    revenue_beat_pct = calculate_beat_percentage(revenue_actual_millions, revenue_estimate_millions)
+    revenue_beat_pct = calculate_beat_percentage(
+        revenue_actual_millions, revenue_estimate_millions
+    )
     eps_yoy_pct = calculate_yoy_percentage(eps_actual, eps_last_year)
-    revenue_yoy_pct = calculate_yoy_percentage(revenue_actual_millions, revenue_last_year)
+    revenue_yoy_pct = calculate_yoy_percentage(
+        revenue_actual_millions, revenue_last_year
+    )
     revenue_last_q_yoy_pct = calculate_yoy_percentage(revenue_last_q, revenue_last_year)
-    
+
+    # Get employee headcount change
+    employee_change_pct = yoy_data.get("employee_change_1y_percent")
+
     # Build row
     row = {
         "ticker": api_data.get("ticker", ""),
@@ -90,7 +101,7 @@ def build_csv_row(api_data: Dict, yoy_data: Dict) -> Dict:
         "Market segment": api_data.get("sector", ""),
         "Market Cap (B)": format_market_cap(api_data.get("market_cap")),
         "Fast grow?": "",  # User input field
-        "HC change (%)": "",  # Not available
+        "HC change (%)": format_percentage(employee_change_pct),
         "tech/analyst": "",  # User input field
         "post gain $": "",  # Not available (post-earnings price movement)
         "2nd day gain %": "",  # Not available (post-earnings price movement)
@@ -104,16 +115,16 @@ def build_csv_row(api_data: Dict, yoy_data: Dict) -> Dict:
         "EPS YoY %": format_percentage(eps_yoy_pct),
         "Revenue Q last year": format_revenue(revenue_last_year),
         "Revenue YoY %": format_percentage(revenue_yoy_pct),
-        "Revenue last Q YoY %": format_percentage(revenue_last_q_yoy_pct)
+        "Revenue last Q YoY %": format_percentage(revenue_last_q_yoy_pct),
     }
-    
+
     return row
 
 
 def save_to_csv(data: List[Dict], filename: str):
     """
     Save earnings analysis data to CSV file.
-    
+
     Args:
         data: List of row dictionaries
         filename: Output CSV filename
@@ -121,12 +132,12 @@ def save_to_csv(data: List[Dict], filename: str):
     if not data:
         print("No data to save")
         return
-    
+
     headers = get_csv_headers()
-    
-    with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
+
+    with open(filename, "w", newline="", encoding="utf-8") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=headers)
         writer.writeheader()
         writer.writerows(data)
-    
+
     print(f"\n✓ Saved {len(data)} rows to {filename}")
