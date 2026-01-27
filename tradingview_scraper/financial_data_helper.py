@@ -103,9 +103,16 @@ class FinancialDataFetcher:
             print(f"  ✗ Error fetching employee data for {ticker}: {e}")
             return None
 
-    def get_yoy_data(self, ticker: str, exchange: str = "NASDAQ") -> Dict:
+    def get_yoy_data(
+        self, ticker: str, exchange: str = "NASDAQ", quarter_mode: str = "forecast"
+    ) -> Dict:
         """
         Get comprehensive financial data including historical, YoY, and forecast data.
+
+        Args:
+            ticker: Stock ticker symbol
+            exchange: Exchange name
+            quarter_mode: 'forecast' for next unreported quarter, 'reported' for last reported
 
         Returns:
             Dictionary with quarterly/annual historical data and forecasts.
@@ -135,24 +142,48 @@ class FinancialDataFetcher:
         result = {}
 
         # --- Quarterly EPS ---
-        if quarterly_eps_hist:
-            # Most recent quarter reported
+        # quarter_mode determines which quarter's data to use:
+        # - "forecast": use forecast quarter (next unreported), EPS actual should be empty
+        # - "reported": use last reported quarter
+        if quarter_mode == "forecast" and quarterly_eps_fc:
+            # Use forecast quarter data
+            result["eps_q_estimate"] = quarterly_eps_fc[0].get("estimate")
+            result["eps_q_reported"] = None  # Not reported yet
+            # Same quarter last year: find from historical data
+            # Need to match the quarter (e.g., Q4 2025 -> Q4 2024)
+            if len(quarterly_eps_hist) >= 4:
+                result["eps_same_q_last_y"] = quarterly_eps_hist[-4].get("reported")
+        elif quarterly_eps_hist:
+            # Use last reported quarter
             result["eps_q_reported"] = quarterly_eps_hist[-1].get("reported")
             result["eps_q_estimate"] = quarterly_eps_hist[-1].get("estimate")
-            # Same quarter last year (4 quarters back)
+            # Same quarter last year (4 quarters back from last reported)
             if len(quarterly_eps_hist) >= 5:
                 result["eps_same_q_last_y"] = quarterly_eps_hist[-5].get("reported")
 
-        # Next quarter EPS forecast
+        # Next quarter EPS forecast (always useful to have)
         if quarterly_eps_fc:
             result["eps_next_q_fc"] = quarterly_eps_fc[0].get("estimate")
-            # If multiple forecasts, second one could be analyst revision
             if len(quarterly_eps_fc) >= 2:
                 result["eps_next_q_analys"] = quarterly_eps_fc[0].get("estimate")
 
         # --- Quarterly Revenue ---
-        if quarterly_rev_hist:
-            # Most recent quarter reported
+        # Apply same quarter_mode logic for revenue
+        if quarter_mode == "forecast" and quarterly_rev_fc:
+            # Use forecast quarter data
+            result["rev_q_estimate"] = quarterly_rev_fc[0].get("estimate")
+            result["rev_q_reported"] = None  # Not reported yet
+            # Same quarter last year from historical data
+            if len(quarterly_rev_hist) >= 4:
+                result["rev_same_q_last_y"] = quarterly_rev_hist[-4].get("reported")
+            # Previous quarter (last Q) - one before the forecast
+            if quarterly_rev_hist:
+                result["rev_last_q"] = quarterly_rev_hist[-1].get("reported")
+            # Last Q same quarter last year (4 quarters back from last Q = 5 from forecast)
+            if len(quarterly_rev_hist) >= 5:
+                result["rev_last_q_last_y"] = quarterly_rev_hist[-5].get("reported")
+        elif quarterly_rev_hist:
+            # Use last reported quarter
             result["rev_q_reported"] = quarterly_rev_hist[-1].get("reported")
             result["rev_q_estimate"] = quarterly_rev_hist[-1].get("estimate")
             # Same quarter last year (4 quarters back)
@@ -165,18 +196,29 @@ class FinancialDataFetcher:
             if len(quarterly_rev_hist) >= 6:
                 result["rev_last_q_last_y"] = quarterly_rev_hist[-6].get("reported")
 
-        # Next quarter Revenue forecast
+        # Next quarter Revenue forecast (always useful)
         if quarterly_rev_fc:
             result["rev_next_q_fc"] = quarterly_rev_fc[0].get("estimate")
             if len(quarterly_rev_fc) >= 1:
                 result["rev_next_q_analys"] = quarterly_rev_fc[0].get("estimate")
 
-        # --- Determine current reporting year and quarter from quarterly data ---
+        # --- Determine current reporting year and quarter ---
+        # quarter_mode controls which quarter to use as anchor:
+        # - "forecast": next unreported quarter (default, for upcoming earnings)
+        # - "reported": last reported quarter (for already released earnings)
         current_reporting_year = None
-        if quarterly_eps_hist:
-            last_quarter_period = quarterly_eps_hist[-1].get("period", "")
+        anchor_quarter_period = None
+
+        if quarter_mode == "forecast" and quarterly_eps_fc:
+            # Use first forecast quarter (next to be reported)
+            anchor_quarter_period = quarterly_eps_fc[0].get("period", "")
+        elif quarterly_eps_hist:
+            # Use last historical quarter (already reported)
+            anchor_quarter_period = quarterly_eps_hist[-1].get("period", "")
+
+        if anchor_quarter_period:
             # Parse period like "Q4 '25" to get year 2025 and format as "Q4 2025"
-            match = re.search(r"(Q\d)\s*'(\d{2})$", last_quarter_period)
+            match = re.search(r"(Q\d)\s*'(\d{2})$", anchor_quarter_period)
             if match:
                 quarter = match.group(1)
                 year_suffix = int(match.group(2))

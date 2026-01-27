@@ -26,6 +26,7 @@ def process_single_ticker(
     total: int,
     ticker_data: Dict,
     headless: bool,
+    quarter_mode: str = "forecast",
 ) -> Tuple[int, Dict, str]:
     """
     Process a single ticker - used by concurrent executor.
@@ -35,6 +36,7 @@ def process_single_ticker(
         total: Total number of tickers
         ticker_data: API data for this ticker
         headless: Run browser in headless mode
+        quarter_mode: 'forecast' for next unreported quarter, 'reported' for last reported
 
     Returns:
         Tuple of (index, row_dict, warning_message or None)
@@ -48,7 +50,7 @@ def process_single_ticker(
     warning = None
 
     try:
-        yoy_data = fetcher.get_yoy_data(ticker, exchange)
+        yoy_data = fetcher.get_yoy_data(ticker, exchange, quarter_mode=quarter_mode)
         if not yoy_data:
             print(f"  [{ticker}] Warning: No historical data available")
             warning = f"{ticker} (no forecast data)"
@@ -72,6 +74,7 @@ def generate_earnings_analysis(
     headless: bool = True,
     tickers_filter: List[str] = None,
     concurrency: int = 3,
+    quarter_mode: str = "forecast",
 ) -> List[Dict]:
     """
     Generate complete earnings analysis by combining API and scraper data.
@@ -83,6 +86,7 @@ def generate_earnings_analysis(
         headless: Run browser in headless mode
         tickers_filter: List of specific tickers to process (None = all)
         concurrency: Number of concurrent scraping sessions (default: 3)
+        quarter_mode: 'forecast' for next unreported quarter, 'reported' for last reported
 
     Returns:
         List of row dictionaries
@@ -135,7 +139,7 @@ def generate_earnings_analysis(
     with ThreadPoolExecutor(max_workers=concurrency) as executor:
         futures = {
             executor.submit(
-                process_single_ticker, idx, total, ticker_data, headless
+                process_single_ticker, idx, total, ticker_data, headless, quarter_mode
             ): idx
             for idx, ticker_data in enumerate(api_data, 1)
         }
@@ -194,7 +198,7 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Generate analysis for today's earnings
+  # Generate analysis for today's earnings (default settings)
   python generate_earnings_analysis.py
 
   # Generate for a specific date
@@ -206,14 +210,27 @@ Examples:
   # Filter to specific tickers only
   python generate_earnings_analysis.py --tickers "NUE, RYAAY"
 
-  # Show browser during scraping (for debugging)
-  python generate_earnings_analysis.py --no-headless
-
   # Custom output filename
   python generate_earnings_analysis.py --output my_earnings.csv
 
   # Use 5 concurrent scraping sessions (default: 3)
   python generate_earnings_analysis.py --concurrency 5
+
+  # Use reported quarter mode (last reported quarter as anchor)
+  # Default is 'forecast' which uses next unreported quarter
+  python generate_earnings_analysis.py --quarter-mode reported
+
+  # Show browser during scraping (for debugging)
+  python generate_earnings_analysis.py --no-headless
+
+  # Combined example: specific tickers with 5 concurrent sessions
+  python generate_earnings_analysis.py -t "AAPL, MSFT, GOOGL" -c 5 -o tech_earnings.csv
+
+Quarter Modes:
+  forecast (default): Uses next unreported quarter as "Current Quarter"
+                      Best for companies about to report earnings
+  reported:           Uses last reported quarter as "Current Quarter"
+                      Best for companies that have already reported
         """,
     )
 
@@ -261,6 +278,14 @@ Examples:
         help="Number of concurrent scraping sessions (default: 3)",
     )
 
+    parser.add_argument(
+        "--quarter-mode",
+        "-q",
+        choices=["forecast", "reported"],
+        default="forecast",
+        help="Quarter anchor mode: 'forecast' uses next unreported quarter (default), 'reported' uses last reported quarter",
+    )
+
     args = parser.parse_args()
 
     # Generate default filename if not specified
@@ -281,6 +306,7 @@ Examples:
             headless=not args.no_headless,
             tickers_filter=tickers_filter,
             concurrency=args.concurrency,
+            quarter_mode=args.quarter_mode,
         )
     except KeyboardInterrupt:
         print("\n\nInterrupted by user")

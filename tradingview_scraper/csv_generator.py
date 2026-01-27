@@ -52,15 +52,32 @@ def build_csv_row(api_data: Dict, yoy_data: Dict) -> Dict:
     Returns:
         Dictionary with all CSV columns
     """
-    # EPS data from API (current quarter)
-    eps_q_est = api_data.get("eps_q_estimate")
-    eps_q_actual = api_data.get("eps_q_actual")
+    # EPS data - prefer yoy_data (scraper) over api_data
+    # yoy_data values are correctly set based on quarter_mode (forecast vs reported)
+    eps_q_est = (
+        yoy_data.get("eps_q_estimate")
+        if yoy_data.get("eps_q_estimate") is not None
+        else api_data.get("eps_q_estimate")
+    )
+    eps_q_actual = (
+        yoy_data.get("eps_q_reported")
+        if "eps_q_reported" in yoy_data
+        else api_data.get("eps_q_actual")
+    )
 
-    # Revenue data from API (current quarter) - convert to millions
-    rev_q_est_raw = api_data.get("revenue_q_estimate")
-    rev_q_actual_raw = api_data.get("revenue_q_actual")
-    rev_q_est = rev_q_est_raw / 1_000_000 if rev_q_est_raw else None
-    rev_q_actual = rev_q_actual_raw / 1_000_000 if rev_q_actual_raw else None
+    # Revenue data - prefer yoy_data (scraper) over api_data
+    # yoy_data values are already in millions, api_data needs conversion
+    rev_q_est = yoy_data.get("rev_q_estimate")
+    if rev_q_est is None:
+        rev_q_est_raw = api_data.get("revenue_q_estimate")
+        rev_q_est = rev_q_est_raw / 1_000_000 if rev_q_est_raw else None
+
+    rev_q_actual = (
+        yoy_data.get("rev_q_reported") if "rev_q_reported" in yoy_data else None
+    )
+    if rev_q_actual is None and "rev_q_reported" not in yoy_data:
+        rev_q_actual_raw = api_data.get("revenue_q_actual")
+        rev_q_actual = rev_q_actual_raw / 1_000_000 if rev_q_actual_raw else None
 
     # Historical data from scraper (already in millions for revenue)
     eps_same_q_last_y = yoy_data.get("eps_same_q_last_y")
