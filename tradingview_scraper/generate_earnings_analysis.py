@@ -11,13 +11,58 @@ Usage:
 """
 
 import argparse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
-from typing import List, Dict
+from typing import List, Dict, Tuple
 
 # Import our helper modules
 from earnings_api_helper import get_earnings_for_date
 from financial_data_helper import FinancialDataFetcher
 from csv_generator import build_csv_row, save_to_csv
+
+
+def process_single_ticker(
+    idx: int,
+    total: int,
+    ticker_data: Dict,
+    headless: bool,
+) -> Tuple[int, Dict, str]:
+    """
+    Process a single ticker - used by concurrent executor.
+
+    Args:
+        idx: Index of this ticker (for ordering)
+        total: Total number of tickers
+        ticker_data: API data for this ticker
+        headless: Run browser in headless mode
+
+    Returns:
+        Tuple of (index, row_dict, warning_message or None)
+    """
+    ticker = ticker_data["ticker"]
+    exchange = ticker_data["exchange"]
+
+    print(f"\n[{idx}/{total}] Processing {ticker} ({exchange})...")
+
+    fetcher = FinancialDataFetcher(headless=headless)
+    warning = None
+
+    try:
+        yoy_data = fetcher.get_yoy_data(ticker, exchange)
+        if not yoy_data:
+            print(f"  [{ticker}] Warning: No historical data available")
+            warning = f"{ticker} (no forecast data)"
+    except Exception as e:
+        print(f"  [{ticker}] Error fetching YoY data: {e}")
+        yoy_data = {}
+        warning = f"{ticker} (error: {str(e)[:50]})"
+    finally:
+        fetcher.close()
+
+    row = build_csv_row(ticker_data, yoy_data)
+    print(f"  [{ticker}] Row completed")
+
+    return (idx, row, warning)
 
 
 def generate_earnings_analysis(
@@ -26,6 +71,7 @@ def generate_earnings_analysis(
     limit: int = None,
     headless: bool = True,
     tickers_filter: List[str] = None,
+    concurrency: int = 3,
 ) -> List[Dict]:
     """
     Generate complete earnings analysis by combining API and scraper data.
@@ -36,6 +82,7 @@ def generate_earnings_analysis(
         limit: Maximum number of tickers to process (None = all)
         headless: Run browser in headless mode
         tickers_filter: List of specific tickers to process (None = all)
+        concurrency: Number of concurrent scraping sessions (default: 3)
 
     Returns:
         List of row dictionaries
@@ -79,39 +126,33 @@ def generate_earnings_analysis(
 
     # Step 2: Fetch detailed financial data for each ticker
     print(f"\nStep 2: Fetching detailed financial data for {len(api_data)} tickers...")
-    print("  (This may take several minutes as we scrape each ticker)")
+    print(f"  Using {concurrency} concurrent session(s)")
 
-    fetcher = FinancialDataFetcher(headless=headless)
-    rows = []
+    total = len(api_data)
+    results = []
     skipped_tickers = []
 
-    for idx, ticker_data in enumerate(api_data, 1):
-        ticker = ticker_data["ticker"]
-        exchange = ticker_data["exchange"]
+    with ThreadPoolExecutor(max_workers=concurrency) as executor:
+        futures = {
+            executor.submit(
+                process_single_ticker, idx, total, ticker_data, headless
+            ): idx
+            for idx, ticker_data in enumerate(api_data, 1)
+        }
 
-        print(f"\n[{idx}/{len(api_data)}] Processing {ticker} ({exchange})...")
+        for future in as_completed(futures):
+            try:
+                idx, row, warning = future.result()
+                results.append((idx, row))
+                if warning:
+                    skipped_tickers.append(warning)
+            except Exception as e:
+                idx = futures[future]
+                print(f"  Error processing ticker at index {idx}: {e}")
 
-        # Get YoY comparison data from scraper
-        try:
-            yoy_data = fetcher.get_yoy_data(ticker, exchange)
-            if not yoy_data:
-                print(
-                    f"  ⚠ Warning: No historical data available (likely no forecast page)"
-                )
-                skipped_tickers.append(f"{ticker} (no forecast data)")
-        except Exception as e:
-            print(f"  ✗ Error fetching YoY data: {e}")
-            yoy_data = {}
-            skipped_tickers.append(f"{ticker} (error: {str(e)[:50]})")
-
-        # Build CSV row
-        row = build_csv_row(ticker_data, yoy_data)
-        rows.append(row)
-
-        print(f"  ✓ Row completed")
-
-    # Close the scraper
-    fetcher.close()
+    # Sort results by original index to preserve order
+    results.sort(key=lambda x: x[0])
+    rows = [row for _, row in results]
 
     # Step 3: Save to CSV
     print(f"\nStep 3: Saving results...")
@@ -170,6 +211,9 @@ Examples:
 
   # Custom output filename
   python generate_earnings_analysis.py --output my_earnings.csv
+
+  # Use 5 concurrent scraping sessions (default: 3)
+  python generate_earnings_analysis.py --concurrency 5
         """,
     )
 
@@ -209,6 +253,14 @@ Examples:
         help='Comma-separated list of tickers to filter (e.g., "NUE, RYAAY")',
     )
 
+    parser.add_argument(
+        "--concurrency",
+        "-c",
+        type=int,
+        default=3,
+        help="Number of concurrent scraping sessions (default: 3)",
+    )
+
     args = parser.parse_args()
 
     # Generate default filename if not specified
@@ -228,6 +280,7 @@ Examples:
             limit=args.limit,
             headless=not args.no_headless,
             tickers_filter=tickers_filter,
+            concurrency=args.concurrency,
         )
     except KeyboardInterrupt:
         print("\n\nInterrupted by user")
