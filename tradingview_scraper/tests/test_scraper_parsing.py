@@ -287,7 +287,8 @@ class TestDriverSetupRetry:
         assert mock_sleep.call_count == 2
 
     @patch('tradingview_final_scraper.webdriver.Chrome')
-    def test_setup_driver_custom_max_retries(self, mock_chrome):
+    @patch('tradingview_final_scraper.time.sleep')
+    def test_setup_driver_custom_max_retries(self, mock_sleep, mock_chrome):
         """Test driver setup respects custom max_retries parameter."""
         mock_chrome.side_effect = Exception("Connection failed")
 
@@ -295,3 +296,4 @@ class TestDriverSetupRetry:
             self.scraper._setup_driver(max_retries=5)
 
         assert mock_chrome.call_count == 5
+        assert mock_sleep.call_count == 4  # sleeps between retries (5 attempts - 1)
