@@ -128,15 +128,32 @@ class TradingViewFinalScraper:
         finally:
             self._close_driver()
 
-    def _setup_driver(self):
-        """Setup Chrome driver."""
+    def _setup_driver(self, max_retries: int = 3):
+        """Setup Chrome driver with retry logic.
+
+        Args:
+            max_retries: Maximum number of retry attempts (default: 3)
+        """
         chrome_options = Options()
         if self.headless:
             chrome_options.add_argument("--headless=new")
         chrome_options.add_argument("--disable-gpu")
         chrome_options.add_argument("--no-sandbox")
         chrome_options.add_argument("--window-size=1920,1080")
-        self.driver = webdriver.Chrome(options=chrome_options)
+
+        last_error = None
+        for attempt in range(1, max_retries + 1):
+            try:
+                self.driver = webdriver.Chrome(options=chrome_options)
+                return
+            except Exception as e:
+                last_error = e
+                if attempt < max_retries:
+                    print(f"  ⚠ Driver setup failed (attempt {attempt}/{max_retries}): {e}")
+                    print(f"  → Retrying in 2 seconds...")
+                    time.sleep(2)
+
+        raise last_error
 
     def _close_driver(self):
         """Close browser."""
