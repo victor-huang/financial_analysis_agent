@@ -26,6 +26,7 @@ def get_csv_headers() -> List[str]:
         "Company name",
         "Market segment",
         "Market Cap (B)",
+        "Current Quarter",
         "EPS Q Est.",
         "EPS Q actual",
         "Rev Q est.",
@@ -72,6 +73,9 @@ def build_csv_row(api_data: Dict, yoy_data: Dict) -> Dict:
     rev_full_y_last_y = yoy_data.get("rev_full_y_last_y")
     rev_y_2y_ago = yoy_data.get("rev_y_2y_ago")
 
+    # Current quarter from scraper
+    current_quarter = yoy_data.get("current_quarter", "")
+
     # Build row
     row = {
         "ticker": api_data.get("ticker", ""),
@@ -80,6 +84,7 @@ def build_csv_row(api_data: Dict, yoy_data: Dict) -> Dict:
         "Company name": api_data.get("company_name", ""),
         "Market segment": api_data.get("sector", ""),
         "Market Cap (B)": format_market_cap(api_data.get("market_cap")),
+        "Current Quarter": current_quarter,
         "EPS Q Est.": format_number(eps_q_est),
         "EPS Q actual": format_number(eps_q_actual),
         "Rev Q est.": format_revenue(rev_q_est),
