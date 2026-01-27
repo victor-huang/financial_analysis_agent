@@ -198,24 +198,30 @@ class FinancialDataFetcher:
         # Build a dict for easy lookup by year
         annual_rev_by_year = {item["period"]: item for item in valid_annual_rev}
 
-        # Find the most recent year with actual reported revenue
-        most_recent_reported_year = None
-        for item in reversed(valid_annual_rev):
-            if item.get("reported") is not None:
-                most_recent_reported_year = int(item["period"])
-                break
+        # Determine anchor year for annual data:
+        # 1. Use current_reporting_year from quarterly data if available in annual data
+        # 2. Fall back to most recent year with reported revenue
+        anchor_year = None
 
-        if most_recent_reported_year:
-            # Use most recent reported year as anchor
-            idx_year = most_recent_reported_year
-            # rev_full_y_est: estimate for the current (most recent reported) year
-            result["rev_full_y_est"] = annual_rev_by_year.get(str(idx_year), {}).get(
+        # First, try current_reporting_year (from quarterly data)
+        if current_reporting_year and str(current_reporting_year) in annual_rev_by_year:
+            anchor_year = current_reporting_year
+        else:
+            # Fall back to most recent year with actual reported revenue
+            for item in reversed(valid_annual_rev):
+                if item.get("reported") is not None:
+                    anchor_year = int(item["period"])
+                    break
+
+        if anchor_year:
+            # rev_full_y_est: estimate for the anchor year (current reporting year)
+            result["rev_full_y_est"] = annual_rev_by_year.get(str(anchor_year), {}).get(
                 "estimate"
             )
             result["rev_full_y_last_y"] = annual_rev_by_year.get(
-                str(idx_year - 1), {}
+                str(anchor_year - 1), {}
             ).get("reported")
-            result["rev_y_2y_ago"] = annual_rev_by_year.get(str(idx_year - 2), {}).get(
+            result["rev_y_2y_ago"] = annual_rev_by_year.get(str(anchor_year - 2), {}).get(
                 "reported"
             )
 
@@ -231,23 +237,27 @@ class FinancialDataFetcher:
         valid_annual_eps.sort(key=lambda x: int(x["period"]))
         annual_eps_by_year = {item["period"]: item for item in valid_annual_eps}
 
-        # Find the most recent year with actual reported EPS
-        most_recent_eps_year = None
-        for item in reversed(valid_annual_eps):
-            if item.get("reported") is not None:
-                most_recent_eps_year = int(item["period"])
-                break
+        # Determine anchor year for annual EPS:
+        # 1. Use current_reporting_year from quarterly data if available
+        # 2. Fall back to most recent year with reported EPS
+        eps_anchor_year = None
 
-        if most_recent_eps_year:
-            idx_year = most_recent_eps_year
-            # eps_full_y_est: estimate for the current (most recent reported) year
-            result["eps_full_y_est"] = annual_eps_by_year.get(str(idx_year), {}).get(
+        if current_reporting_year and str(current_reporting_year) in annual_eps_by_year:
+            eps_anchor_year = current_reporting_year
+        else:
+            for item in reversed(valid_annual_eps):
+                if item.get("reported") is not None:
+                    eps_anchor_year = int(item["period"])
+                    break
+
+        if eps_anchor_year:
+            result["eps_full_y_est"] = annual_eps_by_year.get(str(eps_anchor_year), {}).get(
                 "estimate"
             )
             result["eps_full_y_last_y"] = annual_eps_by_year.get(
-                str(idx_year - 1), {}
+                str(eps_anchor_year - 1), {}
             ).get("reported")
-            result["eps_y_2y_ago"] = annual_eps_by_year.get(str(idx_year - 2), {}).get(
+            result["eps_y_2y_ago"] = annual_eps_by_year.get(str(eps_anchor_year - 2), {}).get(
                 "reported"
             )
 
