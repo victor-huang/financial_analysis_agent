@@ -23,9 +23,7 @@ def fetch_tradingview_earnings(start_timestamp, end_timestamp):
     """
     url = "https://scanner.tradingview.com/america/scan"
 
-    params = {
-        "label-product": "screener-stock-old"
-    }
+    params = {"label-product": "screener-stock-old"}
 
     headers = {
         "accept": "text/plain, */*; q=0.01",
@@ -36,37 +34,26 @@ def fetch_tradingview_earnings(start_timestamp, end_timestamp):
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-site",
-        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36",
     }
 
     payload = {
         "filter": [
-            {
-                "left": "is_primary",
-                "operation": "equal",
-                "right": True
-            },
+            {"left": "is_primary", "operation": "equal", "right": True},
             {
                 "left": "earnings_release_date,earnings_release_next_date",
                 "operation": "in_range",
-                "right": [start_timestamp, end_timestamp]
+                "right": [start_timestamp, end_timestamp],
             },
             {
                 "left": "earnings_release_date,earnings_release_next_date",
                 "operation": "nequal",
-                "right": end_timestamp
-            }
-        ],
-        "options": {
-            "lang": "en"
-        },
-        "markets": ["america"],
-        "symbols": {
-            "query": {
-                "types": []
+                "right": end_timestamp,
             },
-            "tickers": []
-        },
+        ],
+        "options": {"lang": "en"},
+        "markets": ["america"],
+        "symbols": {"query": {"types": []}, "tickers": []},
         "columns": [
             "logoid",
             "name",
@@ -90,14 +77,11 @@ def fetch_tradingview_earnings(start_timestamp, end_timestamp):
             "earnings_release_calendar_date",
             "earnings_release_time",
             "currency",
-            "fundamental_currency_code"
+            "fundamental_currency_code",
         ],
-        "sort": {
-            "sortBy": "market_cap_basic",
-            "sortOrder": "desc"
-        },
+        "sort": {"sortBy": "market_cap_basic", "sortOrder": "desc"},
         "preset": None,
-        "range": [0, 450]
+        "range": [0, 450],
     }
 
     response = requests.post(url, params=params, headers=headers, json=payload)
@@ -142,13 +126,15 @@ def extract_earnings_data(response_data):
         estimated_eps = data_values[16] if len(data_values) > 16 else None
         estimated_revenue = data_values[17] if len(data_values) > 17 else None
 
-        results.append({
-            "Ticker": ticker,
-            "Current Quarter EPS": eps_fq,
-            "Current Quarter Revenue": revenue_fq,
-            "Estimated EPS": estimated_eps,
-            "Estimated Revenue": estimated_revenue
-        })
+        results.append(
+            {
+                "Ticker": ticker,
+                "Current Quarter EPS": eps_fq,
+                "Current Quarter Revenue": revenue_fq,
+                "Estimated EPS": estimated_eps,
+                "Estimated Revenue": estimated_revenue,
+            }
+        )
 
     return results
 
@@ -165,8 +151,14 @@ def save_to_csv(data, filename="tradingview_earnings.csv"):
         print("No data to save")
         return
 
-    with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
-        fieldnames = ["Ticker", "Current Quarter EPS", "Current Quarter Revenue", "Estimated EPS", "Estimated Revenue"]
+    with open(filename, "w", newline="", encoding="utf-8") as csvfile:
+        fieldnames = [
+            "Ticker",
+            "Current Quarter EPS",
+            "Current Quarter Revenue",
+            "Estimated EPS",
+            "Estimated Revenue",
+        ]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
         writer.writeheader()
@@ -186,9 +178,11 @@ def parse_date(date_string):
         datetime: Parsed datetime object
     """
     try:
-        return datetime.strptime(date_string, '%Y-%m-%d')
+        return datetime.strptime(date_string, "%Y-%m-%d")
     except ValueError:
-        raise argparse.ArgumentTypeError(f"Invalid date format: {date_string}. Use YYYY-MM-DD")
+        raise argparse.ArgumentTypeError(
+            f"Invalid date format: {date_string}. Use YYYY-MM-DD"
+        )
 
 
 def main():
@@ -209,32 +203,32 @@ Examples:
 
   # Specify custom output file
   python fetch_tradingview_earnings.py --output earnings_data.csv
-        """
+        """,
     )
 
     parser.add_argument(
-        '--date',
+        "--date",
         type=parse_date,
-        help='Specific date to fetch earnings for (YYYY-MM-DD). Defaults to today.'
+        help="Specific date to fetch earnings for (YYYY-MM-DD). Defaults to today.",
     )
 
     parser.add_argument(
-        '--start-date',
+        "--start-date",
         type=parse_date,
-        help='Start date for date range (YYYY-MM-DD). Overrides --date.'
+        help="Start date for date range (YYYY-MM-DD). Overrides --date.",
     )
 
     parser.add_argument(
-        '--end-date',
+        "--end-date",
         type=parse_date,
-        help='End date for date range (YYYY-MM-DD). Overrides --date.'
+        help="End date for date range (YYYY-MM-DD). Overrides --date.",
     )
 
     parser.add_argument(
-        '--output',
-        '-o',
-        default='tradingview_earnings.csv',
-        help='Output CSV filename (default: tradingview_earnings.csv)'
+        "--output",
+        "-o",
+        default="tradingview_earnings.csv",
+        help="Output CSV filename (default: tradingview_earnings.csv)",
     )
 
     args = parser.parse_args()
@@ -259,7 +253,9 @@ Examples:
     end_timestamp = int(end_dt.timestamp())
 
     print(f"Fetching earnings data from TradingView...")
-    print(f"Date range: {start_dt.strftime('%Y-%m-%d %H:%M:%S')} to {end_dt.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(
+        f"Date range: {start_dt.strftime('%Y-%m-%d %H:%M:%S')} to {end_dt.strftime('%Y-%m-%d %H:%M:%S')}"
+    )
 
     try:
         # Fetch data from TradingView

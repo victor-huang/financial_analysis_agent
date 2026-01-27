@@ -6,6 +6,7 @@ Test script to explore available TradingView scanner API fields for historical d
 import requests
 import json
 
+
 def test_tradingview_fields(ticker="NASDAQ:MU"):
     """
     Test TradingView scanner API with expanded field list to find historical data.
@@ -17,17 +18,15 @@ def test_tradingview_fields(ticker="NASDAQ:MU"):
         "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
         "origin": "https://www.tradingview.com",
         "referer": "https://www.tradingview.com/",
-        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
     }
 
     # Test for annual (FY = fiscal year) fields
     test_columns = [
         "name",
-
         # Current quarter
         "earnings_per_share_fq",
         "revenue_fq",
-
         # Try annual fields
         "earnings_per_share_fy",
         "revenue_fy",
@@ -35,12 +34,7 @@ def test_tradingview_fields(ticker="NASDAQ:MU"):
         "net_income",
     ]
 
-    payload = {
-        "symbols": {
-            "tickers": [ticker]
-        },
-        "columns": test_columns
-    }
+    payload = {"symbols": {"tickers": [ticker]}, "columns": test_columns}
 
     try:
         response = requests.post(url, headers=headers, json=payload, timeout=10)
@@ -49,7 +43,7 @@ def test_tradingview_fields(ticker="NASDAQ:MU"):
 
         print(f"Testing ticker: {ticker}")
         print(f"Number of columns requested: {len(test_columns)}")
-        print("\n" + "="*80)
+        print("\n" + "=" * 80)
 
         if "data" in data and len(data["data"]) > 0:
             item = data["data"][0]
@@ -57,7 +51,7 @@ def test_tradingview_fields(ticker="NASDAQ:MU"):
 
             print(f"\nReceived {len(values)} values")
             print("\nField Name → Value")
-            print("-"*80)
+            print("-" * 80)
 
             for i, (col, val) in enumerate(zip(test_columns, values)):
                 if val is not None:
@@ -68,7 +62,7 @@ def test_tradingview_fields(ticker="NASDAQ:MU"):
             print("No data returned")
 
         # Print raw response for debugging
-        print("\n" + "="*80)
+        print("\n" + "=" * 80)
         print("Raw Response:")
         print(json.dumps(data, indent=2))
 

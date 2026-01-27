@@ -5,6 +5,8 @@ Helper functions for fetching detailed financial data using the scraper.
 
 import sys
 import os
+import re
+import datetime
 from typing import Dict, Optional
 
 # Add current directory to path to import the scraper
@@ -103,49 +105,151 @@ class FinancialDataFetcher:
 
     def get_yoy_data(self, ticker: str, exchange: str = "NASDAQ") -> Dict:
         """
-        Get year-over-year comparison data including employee headcount change.
+        Get comprehensive financial data including historical, YoY, and forecast data.
 
         Returns:
-            Dictionary with current quarter and same quarter last year,
-            plus employee change data.
+            Dictionary with quarterly/annual historical data and forecasts.
         """
         data = self.get_financial_data(ticker, exchange)
         if not data:
             return {}
 
-        quarterly_eps = data.get("quarterly", {}).get("eps", {}).get("historical", [])
-        quarterly_revenue = (
+        # Extract all data sections
+        quarterly_eps_hist = (
+            data.get("quarterly", {}).get("eps", {}).get("historical", [])
+        )
+        quarterly_eps_fc = data.get("quarterly", {}).get("eps", {}).get("forecast", [])
+        quarterly_rev_hist = (
             data.get("quarterly", {}).get("revenue", {}).get("historical", [])
         )
+        quarterly_rev_fc = (
+            data.get("quarterly", {}).get("revenue", {}).get("forecast", [])
+        )
+        annual_eps_hist = data.get("annual", {}).get("eps", {}).get("historical", [])
+        annual_eps_fc = data.get("annual", {}).get("eps", {}).get("forecast", [])
+        annual_rev_hist = (
+            data.get("annual", {}).get("revenue", {}).get("historical", [])
+        )
+        annual_rev_fc = data.get("annual", {}).get("revenue", {}).get("forecast", [])
 
         result = {}
 
-        # Get most recent quarter (current)
-        if quarterly_eps:
-            result["eps_current_q"] = quarterly_eps[-1].get("reported")
-            result["eps_current_period"] = quarterly_eps[-1].get("period")
+        # --- Quarterly EPS ---
+        if quarterly_eps_hist:
+            # Most recent quarter reported
+            result["eps_q_reported"] = quarterly_eps_hist[-1].get("reported")
+            result["eps_q_estimate"] = quarterly_eps_hist[-1].get("estimate")
+            # Same quarter last year (4 quarters back)
+            if len(quarterly_eps_hist) >= 5:
+                result["eps_same_q_last_y"] = quarterly_eps_hist[-5].get("reported")
 
-            # Get same quarter last year (4 quarters back)
-            if len(quarterly_eps) >= 5:
-                result["eps_last_year_q"] = quarterly_eps[-5].get("reported")
-                result["eps_last_year_period"] = quarterly_eps[-5].get("period")
+        # Next quarter EPS forecast
+        if quarterly_eps_fc:
+            result["eps_next_q_fc"] = quarterly_eps_fc[0].get("estimate")
+            # If multiple forecasts, second one could be analyst revision
+            if len(quarterly_eps_fc) >= 2:
+                result["eps_next_q_analys"] = quarterly_eps_fc[0].get("estimate")
 
-            # Get previous quarter (1 quarter back)
-            if len(quarterly_eps) >= 2:
-                result["eps_last_q"] = quarterly_eps[-2].get("reported")
+        # --- Quarterly Revenue ---
+        if quarterly_rev_hist:
+            # Most recent quarter reported
+            result["rev_q_reported"] = quarterly_rev_hist[-1].get("reported")
+            result["rev_q_estimate"] = quarterly_rev_hist[-1].get("estimate")
+            # Same quarter last year (4 quarters back)
+            if len(quarterly_rev_hist) >= 5:
+                result["rev_same_q_last_y"] = quarterly_rev_hist[-5].get("reported")
+            # Previous quarter (last Q)
+            if len(quarterly_rev_hist) >= 2:
+                result["rev_last_q"] = quarterly_rev_hist[-2].get("reported")
+            # Last Q same quarter last year (5 quarters back from last Q = 6 from current)
+            if len(quarterly_rev_hist) >= 6:
+                result["rev_last_q_last_y"] = quarterly_rev_hist[-6].get("reported")
 
-        if quarterly_revenue:
-            result["revenue_current_q"] = quarterly_revenue[-1].get("reported")
-            result["revenue_current_period"] = quarterly_revenue[-1].get("period")
+        # Next quarter Revenue forecast
+        if quarterly_rev_fc:
+            result["rev_next_q_fc"] = quarterly_rev_fc[0].get("estimate")
+            if len(quarterly_rev_fc) >= 1:
+                result["rev_next_q_analys"] = quarterly_rev_fc[0].get("estimate")
 
-            # Get same quarter last year (4 quarters back)
-            if len(quarterly_revenue) >= 5:
-                result["revenue_last_year_q"] = quarterly_revenue[-5].get("reported")
-                result["revenue_last_year_period"] = quarterly_revenue[-5].get("period")
+        # --- Determine current reporting year from quarterly data ---
+        current_reporting_year = None
+        if quarterly_eps_hist:
+            last_quarter_period = quarterly_eps_hist[-1].get("period", "")
+            # Parse period like "Q4 '25" to get year 2025
+            match = re.search(r"'(\d{2})$", last_quarter_period)
+            if match:
+                year_suffix = int(match.group(1))
+                current_reporting_year = (
+                    2000 + year_suffix if year_suffix < 50 else 1900 + year_suffix
+                )
 
-            # Get previous quarter (1 quarter back)
-            if len(quarterly_revenue) >= 2:
-                result["revenue_last_q"] = quarterly_revenue[-2].get("reported")
+        # --- Annual Revenue ---
+        # Combine historical and forecast, filter invalid years
+        all_annual_rev = annual_rev_hist + annual_rev_fc
+        current_calendar_year = datetime.datetime.now().year
+        valid_annual_rev = [
+            item
+            for item in all_annual_rev
+            if item.get("period", "").isdigit()
+            and int(item["period"]) <= current_calendar_year
+        ]
+        # Sort by year
+        valid_annual_rev.sort(key=lambda x: int(x["period"]))
+        # Build a dict for easy lookup by year
+        annual_rev_by_year = {item["period"]: item for item in valid_annual_rev}
+
+        # Find the most recent year with actual reported revenue
+        most_recent_reported_year = None
+        for item in reversed(valid_annual_rev):
+            if item.get("reported") is not None:
+                most_recent_reported_year = int(item["period"])
+                break
+
+        if most_recent_reported_year:
+            # Use most recent reported year as anchor
+            idx_year = most_recent_reported_year
+            # rev_full_y_est: estimate for the current (most recent reported) year
+            result["rev_full_y_est"] = annual_rev_by_year.get(str(idx_year), {}).get(
+                "estimate"
+            )
+            result["rev_full_y_last_y"] = annual_rev_by_year.get(
+                str(idx_year - 1), {}
+            ).get("reported")
+            result["rev_y_2y_ago"] = annual_rev_by_year.get(str(idx_year - 2), {}).get(
+                "reported"
+            )
+
+        # --- Annual EPS ---
+        # Combine historical and forecast, filter invalid years
+        all_annual_eps = annual_eps_hist + annual_eps_fc
+        valid_annual_eps = [
+            item
+            for item in all_annual_eps
+            if item.get("period", "").isdigit()
+            and int(item["period"]) <= current_calendar_year
+        ]
+        valid_annual_eps.sort(key=lambda x: int(x["period"]))
+        annual_eps_by_year = {item["period"]: item for item in valid_annual_eps}
+
+        # Find the most recent year with actual reported EPS
+        most_recent_eps_year = None
+        for item in reversed(valid_annual_eps):
+            if item.get("reported") is not None:
+                most_recent_eps_year = int(item["period"])
+                break
+
+        if most_recent_eps_year:
+            idx_year = most_recent_eps_year
+            # eps_full_y_est: estimate for the current (most recent reported) year
+            result["eps_full_y_est"] = annual_eps_by_year.get(str(idx_year), {}).get(
+                "estimate"
+            )
+            result["eps_full_y_last_y"] = annual_eps_by_year.get(
+                str(idx_year - 1), {}
+            ).get("reported")
+            result["eps_y_2y_ago"] = annual_eps_by_year.get(str(idx_year - 2), {}).get(
+                "reported"
+            )
 
         # Fetch employee data
         employee_data = self.get_employee_data(ticker, exchange)

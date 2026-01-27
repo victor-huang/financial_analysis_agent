@@ -46,11 +46,11 @@ def extract_json_from_scripts(html: str) -> List[Dict]:
     """
     Extract all JSON objects from script tags.
     """
-    soup = BeautifulSoup(html, 'html.parser')
+    soup = BeautifulSoup(html, "html.parser")
     json_objects = []
 
     # Find all script tags
-    scripts = soup.find_all('script')
+    scripts = soup.find_all("script")
 
     print(f"Found {len(scripts)} script tags")
 
@@ -61,7 +61,7 @@ def extract_json_from_scripts(html: str) -> List[Dict]:
 
         # Look for JSON-like structures
         # Pattern 1: window.variable = {...}
-        matches = re.findall(r'window\.\w+\s*=\s*(\{.*?\});', script_content, re.DOTALL)
+        matches = re.findall(r"window\.\w+\s*=\s*(\{.*?\});", script_content, re.DOTALL)
         for match in matches:
             try:
                 data = json.loads(match)
@@ -95,12 +95,12 @@ def search_for_financial_keywords(html: str) -> Dict[str, List[str]]:
         "annual": [],
         "quarterly": [],
         "forecast": [],
-        "estimate": []
+        "estimate": [],
     }
 
     for keyword in keywords.keys():
         # Find all occurrences with context
-        pattern = rf'.{{0,100}}{keyword}.{{0,100}}'
+        pattern = rf".{{0,100}}{keyword}.{{0,100}}"
         matches = re.findall(pattern, html, re.IGNORECASE)
         keywords[keyword] = matches[:10]  # Keep first 10 matches
 
@@ -111,8 +111,8 @@ def extract_from_json_ld(html: str) -> Optional[Dict]:
     """
     Extract data from JSON-LD schema tags.
     """
-    soup = BeautifulSoup(html, 'html.parser')
-    json_ld_scripts = soup.find_all('script', type='application/ld+json')
+    soup = BeautifulSoup(html, "html.parser")
+    json_ld_scripts = soup.find_all("script", type="application/ld+json")
 
     results = []
     for script in json_ld_scripts:
@@ -129,7 +129,7 @@ def extract_inline_data_attributes(html: str) -> Dict[str, str]:
     """
     Extract data from HTML data-* attributes.
     """
-    soup = BeautifulSoup(html, 'html.parser')
+    soup = BeautifulSoup(html, "html.parser")
 
     # Look for elements with data attributes
     elements_with_data = soup.find_all(attrs={"data-symbol": True})
@@ -140,7 +140,7 @@ def extract_inline_data_attributes(html: str) -> Dict[str, str]:
     data_attrs = {}
     for elem in elements_with_data:
         for attr, value in elem.attrs.items():
-            if attr.startswith('data-'):
+            if attr.startswith("data-"):
                 data_attrs[attr] = value
 
     return data_attrs
@@ -156,22 +156,22 @@ def find_embedded_arrays(html: str) -> Dict[str, List]:
     # Focusing on arrays with large numbers (likely revenue) or decimal numbers (likely EPS)
 
     # Pattern for arrays of large numbers (billions)
-    pattern_billions = r'\[(\d{10,12}(?:,\s*\d{10,12})+)\]'
+    pattern_billions = r"\[(\d{10,12}(?:,\s*\d{10,12})+)\]"
     matches = re.findall(pattern_billions, html)
     if matches:
-        arrays['large_numbers'] = matches[:5]
+        arrays["large_numbers"] = matches[:5]
 
     # Pattern for arrays of decimal numbers (EPS)
-    pattern_decimals = r'\[(-?\d+\.\d+(?:,\s*-?\d+\.\d+)+)\]'
+    pattern_decimals = r"\[(-?\d+\.\d+(?:,\s*-?\d+\.\d+)+)\]"
     matches = re.findall(pattern_decimals, html)
     if matches:
-        arrays['decimal_numbers'] = matches[:10]
+        arrays["decimal_numbers"] = matches[:10]
 
     # Pattern for labeled arrays
     pattern_labeled = r'["\']?(?:revenue|earnings|eps)["\']?\s*:\s*\[([^\]]+)\]'
     matches = re.findall(pattern_labeled, html, re.IGNORECASE)
     if matches:
-        arrays['labeled_arrays'] = matches[:10]
+        arrays["labeled_arrays"] = matches[:10]
 
     return arrays
 
@@ -180,25 +180,25 @@ def analyze_page_structure(html: str) -> Dict:
     """
     Analyze the overall structure to understand how data is loaded.
     """
-    soup = BeautifulSoup(html, 'html.parser')
+    soup = BeautifulSoup(html, "html.parser")
 
     analysis = {
         "has_react_root": bool(soup.find(id="__NEXT_DATA__")),
         "has_vue_app": bool(soup.find(attrs={"data-v-app": True})),
-        "script_count": len(soup.find_all('script')),
-        "external_scripts": [s.get('src') for s in soup.find_all('script', src=True)],
+        "script_count": len(soup.find_all("script")),
+        "external_scripts": [s.get("src") for s in soup.find_all("script", src=True)],
         "websocket_refs": [],
-        "api_refs": []
+        "api_refs": [],
     }
 
     # Look for WebSocket or API references in the HTML
-    if 'websocket' in html.lower() or 'wss://' in html.lower():
+    if "websocket" in html.lower() or "wss://" in html.lower():
         matches = re.findall(r'wss://[^\s"\'<>]+', html)
-        analysis['websocket_refs'] = matches
+        analysis["websocket_refs"] = matches
 
-    if 'api' in html.lower():
+    if "api" in html.lower():
         matches = re.findall(r'https://[^\s"\'<>]*api[^\s"\'<>]*', html, re.IGNORECASE)
-        analysis['api_refs'] = matches[:10]
+        analysis["api_refs"] = matches[:10]
 
     return analysis
 
@@ -207,16 +207,16 @@ def main():
     ticker = "MU"
     exchange = "NASDAQ"
 
-    print("="*80)
+    print("=" * 80)
     print(f"Extracting TradingView Financial Data from HTML")
     print(f"Ticker: {exchange}:{ticker}")
-    print("="*80)
+    print("=" * 80)
 
     # Try both page types
     for page_type in ["forecast", "financials-overview"]:
         print(f"\n{'='*80}")
         print(f"Analyzing {page_type} page")
-        print('='*80)
+        print("=" * 80)
 
         html = fetch_tradingview_page(ticker, exchange, page_type)
 
@@ -228,13 +228,13 @@ def main():
 
         # 1. Analyze page structure
         print("\n1. Page Structure Analysis:")
-        print("-"*80)
+        print("-" * 80)
         structure = analyze_page_structure(html)
         print(json.dumps(structure, indent=2))
 
         # 2. Look for JSON-LD
         print("\n2. JSON-LD Schema Data:")
-        print("-"*80)
+        print("-" * 80)
         json_ld = extract_from_json_ld(html)
         if json_ld:
             print(f"✓ Found {len(json_ld)} JSON-LD objects")
@@ -246,7 +246,7 @@ def main():
 
         # 3. Extract JSON from scripts
         print("\n3. JSON Objects in Script Tags:")
-        print("-"*80)
+        print("-" * 80)
         json_objects = extract_json_from_scripts(html)
         print(f"✓ Found {len(json_objects)} JSON objects")
 
@@ -255,13 +255,16 @@ def main():
             if isinstance(data, dict):
                 # Check if it has financial keywords
                 data_str = json.dumps(data).lower()
-                if any(word in data_str for word in ['revenue', 'earning', 'eps', 'fiscal', 'quarter']):
+                if any(
+                    word in data_str
+                    for word in ["revenue", "earning", "eps", "fiscal", "quarter"]
+                ):
                     print(f"\n✓ Found potential financial data in {source}:")
                     print(json.dumps(data, indent=2)[:800])
 
         # 4. Data attributes
         print("\n4. HTML Data Attributes:")
-        print("-"*80)
+        print("-" * 80)
         data_attrs = extract_inline_data_attributes(html)
         if data_attrs:
             print(f"✓ Found {len(data_attrs)} data attributes")
@@ -272,7 +275,7 @@ def main():
 
         # 5. Search for embedded arrays
         print("\n5. Embedded Number Arrays:")
-        print("-"*80)
+        print("-" * 80)
         arrays = find_embedded_arrays(html)
         for array_type, matches in arrays.items():
             print(f"\n{array_type}:")
@@ -281,7 +284,7 @@ def main():
 
         # 6. Keyword search
         print("\n6. Financial Keyword Context:")
-        print("-"*80)
+        print("-" * 80)
         keywords = search_for_financial_keywords(html)
         for keyword, contexts in keywords.items():
             if contexts:
@@ -290,7 +293,7 @@ def main():
 
         # 7. Save raw HTML for manual inspection
         filename = f"tradingview_{page_type}_{ticker}.html"
-        with open(filename, 'w', encoding='utf-8') as f:
+        with open(filename, "w", encoding="utf-8") as f:
             f.write(html)
         print(f"\n✓ Saved raw HTML to: {filename}")
         print(f"  You can inspect it manually for data patterns")

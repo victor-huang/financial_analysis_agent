@@ -8,6 +8,7 @@ import json
 import re
 from bs4 import BeautifulSoup
 
+
 def extract_embedded_data(ticker="MU", exchange="NASDAQ"):
     """
     Extract embedded JSON data from TradingView pages.
@@ -28,7 +29,7 @@ def extract_embedded_data(ticker="MU", exchange="NASDAQ"):
         print(f"\n{'='*80}")
         print(f"Analyzing: {page_name}")
         print(f"URL: {url}")
-        print('='*80)
+        print("=" * 80)
 
         try:
             response = requests.get(url, headers=headers, timeout=15)
@@ -43,12 +44,12 @@ def extract_embedded_data(ticker="MU", exchange="NASDAQ"):
 
             # Look for various data embedding patterns
             patterns = [
-                (r'window\.__INIT_DATA__\s*=\s*(\{.*?\});', 'window.__INIT_DATA__'),
-                (r'window\.initData\s*=\s*(\{.*?\});', 'window.initData'),
-                (r'"financialData"\s*:\s*(\{.*?\}),', 'financialData'),
-                (r'"revenue"\s*:\s*(\[.*?\])', 'revenue array'),
-                (r'"earnings"\s*:\s*(\[.*?\])', 'earnings array'),
-                (r'"estimates"\s*:\s*(\{.*?\})', 'estimates object'),
+                (r"window\.__INIT_DATA__\s*=\s*(\{.*?\});", "window.__INIT_DATA__"),
+                (r"window\.initData\s*=\s*(\{.*?\});", "window.initData"),
+                (r'"financialData"\s*:\s*(\{.*?\}),', "financialData"),
+                (r'"revenue"\s*:\s*(\[.*?\])', "revenue array"),
+                (r'"earnings"\s*:\s*(\[.*?\])', "earnings array"),
+                (r'"estimates"\s*:\s*(\{.*?\})', "estimates object"),
             ]
 
             found_data = False
@@ -67,7 +68,14 @@ def extract_embedded_data(ticker="MU", exchange="NASDAQ"):
 
                             # Look specifically for revenue/earnings arrays
                             if isinstance(data, dict):
-                                for key in ['revenue', 'earnings', 'financials', 'data', 'annual', 'quarterly']:
+                                for key in [
+                                    "revenue",
+                                    "earnings",
+                                    "financials",
+                                    "data",
+                                    "annual",
+                                    "quarterly",
+                                ]:
                                     if key in data:
                                         print(f"\n>>> Key '{key}' found in data!")
                                         print(json.dumps(data[key], indent=2)[:800])
@@ -76,13 +84,19 @@ def extract_embedded_data(ticker="MU", exchange="NASDAQ"):
                             print(f"Could not parse as JSON: {match[:200]}...")
 
             # Also search for specific financial keywords
-            financial_keywords = ['annual_revenue', 'quarterly_revenue', 'annual_eps', 'quarterly_eps', 'fiscal_year']
+            financial_keywords = [
+                "annual_revenue",
+                "quarterly_revenue",
+                "annual_eps",
+                "quarterly_eps",
+                "fiscal_year",
+            ]
             for keyword in financial_keywords:
                 if keyword in html.lower():
                     print(f"\n✓ Found keyword: {keyword}")
                     # Find context around the keyword
                     idx = html.lower().find(keyword)
-                    context = html[max(0, idx-100):min(len(html), idx+200)]
+                    context = html[max(0, idx - 100) : min(len(html), idx + 200)]
                     print(f"Context: ...{context}...")
 
             if not found_data:
@@ -90,11 +104,22 @@ def extract_embedded_data(ticker="MU", exchange="NASDAQ"):
                 print("Trying to find any JSON-like structures...")
 
                 # Find all potential JSON objects
-                json_objects = re.findall(r'\{["\w]+:[^{}]*(?:\{[^{}]*\}[^{}]*)*\}', html)
+                json_objects = re.findall(
+                    r'\{["\w]+:[^{}]*(?:\{[^{}]*\}[^{}]*)*\}', html
+                )
                 if json_objects:
                     print(f"Found {len(json_objects)} potential JSON objects")
                     for obj in json_objects[:5]:
-                        if any(word in obj.lower() for word in ['revenue', 'earning', 'fiscal', 'quarter', 'annual']):
+                        if any(
+                            word in obj.lower()
+                            for word in [
+                                "revenue",
+                                "earning",
+                                "fiscal",
+                                "quarter",
+                                "annual",
+                            ]
+                        ):
                             print(f"\nPotential match: {obj[:300]}...")
 
         except Exception as e:
@@ -124,7 +149,7 @@ def check_alternative_endpoints(ticker="MU", exchange="NASDAQ"):
 
     print(f"\n{'='*80}")
     print("Testing alternative API endpoints...")
-    print('='*80)
+    print("=" * 80)
 
     for url in endpoints:
         try:
@@ -146,18 +171,20 @@ def check_alternative_endpoints(ticker="MU", exchange="NASDAQ"):
 
 def main():
     print("TradingView Financial Data Extraction")
-    print("="*80)
+    print("=" * 80)
 
     extract_embedded_data("MU", "NASDAQ")
     check_alternative_endpoints("MU", "NASDAQ")
 
-    print("\n" + "="*80)
+    print("\n" + "=" * 80)
     print("\nConclusion:")
     print("If no API endpoints found, the data is likely:")
     print("1. Embedded in JavaScript bundles (requires JS execution)")
     print("2. Loaded via WebSocket after page load")
     print("3. Behind authentication/session requirements")
-    print("\nRecommendation: Use browser DevTools Network tab to capture actual requests")
+    print(
+        "\nRecommendation: Use browser DevTools Network tab to capture actual requests"
+    )
 
 
 if __name__ == "__main__":

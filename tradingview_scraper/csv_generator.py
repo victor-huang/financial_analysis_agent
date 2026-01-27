@@ -6,11 +6,8 @@ Helper functions for generating CSV output with earnings analysis data.
 import csv
 from typing import List, Dict
 from metrics_calculator import (
-    calculate_beat_percentage,
-    calculate_yoy_percentage,
     format_market_cap,
     format_revenue,
-    format_percentage,
     format_number,
 )
 
@@ -29,22 +26,17 @@ def get_csv_headers() -> List[str]:
         "Company name",
         "Market segment",
         "Market Cap (B)",
-        "Fast grow?",
-        "HC change (%)",
-        "tech/analyst",
-        "post gain $",
-        "2nd day gain %",
-        "EPS Q estimate",
+        "EPS Q Est.",
         "EPS Q actual",
-        "EPS beat %",
-        "Revenue Q estimate",
-        "revenue Q actual",
-        "Revenue Q Beat %",
-        "EPS Q last year",
-        "EPS YoY %",
-        "Revenue Q last year",
-        "Revenue YoY %",
-        "Revenue last Q YoY %",
+        "Rev Q est.",
+        "Rev Q actual",
+        "EPS same Q last Y",
+        "Rev same Q last Y",
+        "Rev last Q",
+        "Rev last Q last Y",
+        "Rev full Y Est.",
+        "Rev full Y last Y",
+        "Rev Y actual 2 Y ago",
     ]
 
 
@@ -59,63 +51,46 @@ def build_csv_row(api_data: Dict, yoy_data: Dict) -> Dict:
     Returns:
         Dictionary with all CSV columns
     """
-    # Extract values
-    eps_estimate = api_data.get("eps_q_estimate")
-    eps_actual = api_data.get("eps_q_actual")
-    revenue_estimate = api_data.get("revenue_q_estimate")
-    revenue_actual = api_data.get("revenue_q_actual")
+    # EPS data from API (current quarter)
+    eps_q_est = api_data.get("eps_q_estimate")
+    eps_q_actual = api_data.get("eps_q_actual")
 
-    # Convert API revenue from base units (dollars) to millions for consistency
-    # API returns revenue in dollars, scraper returns in millions
-    revenue_estimate_millions = (
-        revenue_estimate / 1_000_000 if revenue_estimate else None
-    )
-    revenue_actual_millions = revenue_actual / 1_000_000 if revenue_actual else None
+    # Revenue data from API (current quarter) - convert to millions
+    rev_q_est_raw = api_data.get("revenue_q_estimate")
+    rev_q_actual_raw = api_data.get("revenue_q_actual")
+    rev_q_est = rev_q_est_raw / 1_000_000 if rev_q_est_raw else None
+    rev_q_actual = rev_q_actual_raw / 1_000_000 if rev_q_actual_raw else None
 
-    eps_last_year = yoy_data.get("eps_last_year_q")
-    revenue_last_year = yoy_data.get(
-        "revenue_last_year_q"
-    )  # Already in millions from scraper
-    revenue_last_q = yoy_data.get("revenue_last_q")  # Already in millions from scraper
+    # Historical data from scraper (already in millions for revenue)
+    eps_same_q_last_y = yoy_data.get("eps_same_q_last_y")
+    rev_same_q_last_y = yoy_data.get("rev_same_q_last_y")
+    rev_last_q = yoy_data.get("rev_last_q")
+    rev_last_q_last_y = yoy_data.get("rev_last_q_last_y")
 
-    # Calculate metrics (revenue values now all in millions)
-    eps_beat_pct = calculate_beat_percentage(eps_actual, eps_estimate)
-    revenue_beat_pct = calculate_beat_percentage(
-        revenue_actual_millions, revenue_estimate_millions
-    )
-    eps_yoy_pct = calculate_yoy_percentage(eps_actual, eps_last_year)
-    revenue_yoy_pct = calculate_yoy_percentage(
-        revenue_actual_millions, revenue_last_year
-    )
-    revenue_last_q_yoy_pct = calculate_yoy_percentage(revenue_last_q, revenue_last_year)
-
-    # Get employee headcount change
-    employee_change_pct = yoy_data.get("employee_change_1y_percent")
+    # Annual data from scraper
+    rev_full_y_est = yoy_data.get("rev_full_y_est")
+    rev_full_y_last_y = yoy_data.get("rev_full_y_last_y")
+    rev_y_2y_ago = yoy_data.get("rev_y_2y_ago")
 
     # Build row
     row = {
         "ticker": api_data.get("ticker", ""),
-        "hot?": "",  # User input field
-        "Note": "",  # User input field
+        "hot?": "",
+        "Note": "",
         "Company name": api_data.get("company_name", ""),
         "Market segment": api_data.get("sector", ""),
         "Market Cap (B)": format_market_cap(api_data.get("market_cap")),
-        "Fast grow?": "",  # User input field
-        "HC change (%)": format_percentage(employee_change_pct),
-        "tech/analyst": "",  # User input field
-        "post gain $": "",  # Not available (post-earnings price movement)
-        "2nd day gain %": "",  # Not available (post-earnings price movement)
-        "EPS Q estimate": format_number(eps_estimate),
-        "EPS Q actual": format_number(eps_actual),
-        "EPS beat %": format_percentage(eps_beat_pct),
-        "Revenue Q estimate": format_revenue(revenue_estimate_millions),
-        "revenue Q actual": format_revenue(revenue_actual_millions),
-        "Revenue Q Beat %": format_percentage(revenue_beat_pct),
-        "EPS Q last year": format_number(eps_last_year),
-        "EPS YoY %": format_percentage(eps_yoy_pct),
-        "Revenue Q last year": format_revenue(revenue_last_year),
-        "Revenue YoY %": format_percentage(revenue_yoy_pct),
-        "Revenue last Q YoY %": format_percentage(revenue_last_q_yoy_pct),
+        "EPS Q Est.": format_number(eps_q_est),
+        "EPS Q actual": format_number(eps_q_actual),
+        "Rev Q est.": format_revenue(rev_q_est),
+        "Rev Q actual": format_revenue(rev_q_actual),
+        "EPS same Q last Y": format_number(eps_same_q_last_y),
+        "Rev same Q last Y": format_revenue(rev_same_q_last_y),
+        "Rev last Q": format_revenue(rev_last_q),
+        "Rev last Q last Y": format_revenue(rev_last_q_last_y),
+        "Rev full Y Est.": format_revenue(rev_full_y_est),
+        "Rev full Y last Y": format_revenue(rev_full_y_last_y),
+        "Rev Y actual 2 Y ago": format_revenue(rev_y_2y_ago),
     }
 
     return row

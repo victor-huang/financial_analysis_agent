@@ -14,6 +14,7 @@ from typing import Dict, List, Optional
 
 try:
     import websocket
+
     HAS_WEBSOCKET = True
 except ImportError:
     HAS_WEBSOCKET = False
@@ -75,18 +76,12 @@ class TradingViewWebSocketClient:
 
         # Try different subscription patterns
         subscriptions = [
-            {
-                "m": "quote_add_symbols",
-                "p": [symbol]
-            },
+            {"m": "quote_add_symbols", "p": [symbol]},
             {
                 "m": "symbol_financials",
-                "p": [symbol, {"annual": True, "quarterly": True}]
+                "p": [symbol, {"annual": True, "quarterly": True}],
             },
-            {
-                "m": "request_financials",
-                "p": [symbol]
-            },
+            {"m": "request_financials", "p": [symbol]},
         ]
 
         for sub in subscriptions:
@@ -102,9 +97,18 @@ class TradingViewWebSocketClient:
 
         # Check for financial keywords
         data_str = json.dumps(data).lower()
-        return any(keyword in data_str for keyword in [
-            'revenue', 'earnings', 'eps', 'fiscal', 'annual', 'quarterly', 'forecast'
-        ])
+        return any(
+            keyword in data_str
+            for keyword in [
+                "revenue",
+                "earnings",
+                "eps",
+                "fiscal",
+                "annual",
+                "quarterly",
+                "forecast",
+            ]
+        )
 
     def connect_and_listen(self, duration=30):
         """
@@ -118,9 +122,9 @@ class TradingViewWebSocketClient:
             print("Install with: pip install websocket-client")
             return
 
-        print("="*80)
+        print("=" * 80)
         print("TradingView WebSocket Client")
-        print("="*80)
+        print("=" * 80)
         print(f"Connecting to: {self.ws_url}")
         print(f"Will listen for {duration} seconds...")
 
@@ -131,11 +135,12 @@ class TradingViewWebSocketClient:
             on_message=self._on_message,
             on_error=self._on_error,
             on_close=self._on_close,
-            on_open=self._on_open
+            on_open=self._on_open,
         )
 
         # Run with timeout
         import threading
+
         wst = threading.Thread(target=ws.run_forever)
         wst.daemon = True
         wst.start()
@@ -153,10 +158,11 @@ def alternative_approach_manual_capture():
     """
     Provide instructions for manual WebSocket capture.
     """
-    print("\n" + "="*80)
+    print("\n" + "=" * 80)
     print("ALTERNATIVE: Manual WebSocket Capture")
-    print("="*80)
-    print("""
+    print("=" * 80)
+    print(
+        """
 Since TradingView's WebSocket protocol may be complex, try manual capture:
 
 1. Open Chrome and navigate to:
@@ -191,7 +197,8 @@ WHAT TO LOOK FOR:
 - Arrays of historical revenue/earnings values
 - Fiscal year/quarter identifiers
 - Request format that triggers the data response
-    """)
+    """
+    )
 
 
 def main():
@@ -205,29 +212,35 @@ def main():
         return
 
     print("Attempting automated WebSocket capture...")
-    print("(This may not work if TradingView requires authentication or uses a complex protocol)")
+    print(
+        "(This may not work if TradingView requires authentication or uses a complex protocol)"
+    )
     print()
 
     client = TradingViewWebSocketClient()
     financial_data = client.connect_and_listen(duration=30)
 
     if financial_data:
-        print("\n" + "="*80)
+        print("\n" + "=" * 80)
         print("SUCCESS! Financial data captured:")
-        print("="*80)
+        print("=" * 80)
         print(json.dumps(financial_data, indent=2))
 
         # Save to file
         with open("tradingview_websocket_data.json", "w") as f:
-            json.dump({
-                "financial_data": financial_data,
-                "all_messages": client.messages_received
-            }, f, indent=2)
+            json.dump(
+                {
+                    "financial_data": financial_data,
+                    "all_messages": client.messages_received,
+                },
+                f,
+                indent=2,
+            )
         print("\n✓ Saved to: tradingview_websocket_data.json")
     else:
-        print("\n" + "="*80)
+        print("\n" + "=" * 80)
         print("No financial data captured automatically")
-        print("="*80)
+        print("=" * 80)
         alternative_approach_manual_capture()
 
 

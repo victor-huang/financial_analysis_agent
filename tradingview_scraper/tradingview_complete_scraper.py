@@ -23,11 +23,7 @@ class TradingViewCompleteScraper:
         self.headless = headless
         self.driver = None
 
-    def fetch_all_financial_data(
-        self,
-        ticker: str,
-        exchange: str = "NASDAQ"
-    ) -> Dict:
+    def fetch_all_financial_data(self, ticker: str, exchange: str = "NASDAQ") -> Dict:
         """
         Fetch complete financial data: annual + quarterly EPS and Revenue.
 
@@ -40,7 +36,7 @@ class TradingViewCompleteScraper:
         """
         print(f"\n{'='*80}")
         print(f"Fetching Complete Financial Data: {exchange}:{ticker}")
-        print('='*80)
+        print("=" * 80)
 
         try:
             self._setup_driver()
@@ -54,19 +50,19 @@ class TradingViewCompleteScraper:
                 "ticker": ticker,
                 "exchange": exchange,
                 "annual": {},
-                "quarterly": {}
+                "quarterly": {},
             }
 
             # Extract Quarterly EPS (default view)
             print(f"\n{'-'*80}")
             print("1. Extracting QUARTERLY EPS...")
-            print('-'*80)
+            print("-" * 80)
             result["quarterly"]["eps"] = self._extract_chart_data("eps", "quarterly")
 
             # Click Annual button for EPS
             print(f"\n{'-'*80}")
             print("2. Switching to ANNUAL EPS...")
-            print('-'*80)
+            print("-" * 80)
             if self._click_tab("Annual", section="eps"):
                 time.sleep(5)
                 result["annual"]["eps"] = self._extract_chart_data("eps", "annual")
@@ -77,7 +73,7 @@ class TradingViewCompleteScraper:
             # Navigate to financials page or look for revenue on same page
             print(f"\n{'-'*80}")
             print("3. Checking for REVENUE data...")
-            print('-'*80)
+            print("-" * 80)
 
             # Check if revenue section exists on forecast page
             html = self.driver.page_source
@@ -87,12 +83,16 @@ class TradingViewCompleteScraper:
                 # Click quarterly tab for revenue (if needed)
                 if self._click_tab("Quarterly", section="revenue"):
                     time.sleep(5)
-                    result["quarterly"]["revenue"] = self._extract_chart_data("revenue", "quarterly")
+                    result["quarterly"]["revenue"] = self._extract_chart_data(
+                        "revenue", "quarterly"
+                    )
 
                 # Click annual tab for revenue
                 if self._click_tab("Annual", section="revenue"):
                     time.sleep(5)
-                    result["annual"]["revenue"] = self._extract_chart_data("revenue", "annual")
+                    result["annual"]["revenue"] = self._extract_chart_data(
+                        "revenue", "annual"
+                    )
             else:
                 print("✗ Revenue data not found on forecast page")
                 print("  (Revenue data may be on financials-overview page)")
@@ -102,6 +102,7 @@ class TradingViewCompleteScraper:
         except Exception as e:
             print(f"✗ Error: {e}")
             import traceback
+
             traceback.print_exc()
             return None
         finally:
@@ -111,10 +112,10 @@ class TradingViewCompleteScraper:
         """Setup Chrome driver."""
         chrome_options = Options()
         if self.headless:
-            chrome_options.add_argument('--headless=new')
-        chrome_options.add_argument('--disable-gpu')
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument('--window-size=1920,1080')
+            chrome_options.add_argument("--headless=new")
+        chrome_options.add_argument("--disable-gpu")
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--window-size=1920,1080")
         self.driver = webdriver.Chrome(options=chrome_options)
 
     def _close_driver(self):
@@ -124,9 +125,9 @@ class TradingViewCompleteScraper:
 
     def _has_revenue_section(self, html: str) -> bool:
         """Check if page has revenue chart section."""
-        soup = BeautifulSoup(html, 'html.parser')
-        for heading in soup.find_all(['h1', 'h2', 'h3', 'h4']):
-            if 'revenue' in heading.get_text().lower():
+        soup = BeautifulSoup(html, "html.parser")
+        for heading in soup.find_all(["h1", "h2", "h3", "h4"]):
+            if "revenue" in heading.get_text().lower():
                 return True
         return False
 
@@ -143,7 +144,9 @@ class TradingViewCompleteScraper:
         """
         try:
             # Find all buttons with the tab name
-            buttons = self.driver.find_elements(By.XPATH, f"//button[contains(text(), '{tab_name}')]")
+            buttons = self.driver.find_elements(
+                By.XPATH, f"//button[contains(text(), '{tab_name}')]"
+            )
 
             if not buttons:
                 # Try by ID
@@ -175,15 +178,15 @@ class TradingViewCompleteScraper:
             Extracted data dictionary
         """
         html = self.driver.page_source
-        soup = BeautifulSoup(html, 'html.parser')
+        soup = BeautifulSoup(html, "html.parser")
 
         # Extract period labels
         periods = []
-        for elem in soup.find_all('div', class_=re.compile(r'horizontalScaleValue')):
+        for elem in soup.find_all("div", class_=re.compile(r"horizontalScaleValue")):
             text = elem.get_text(strip=True)
 
             if period_type == "annual":
-                if re.match(r'^\d{4}$', text):  # Years
+                if re.match(r"^\d{4}$", text):  # Years
                     periods.append(text)
             else:
                 if "'" in text:  # Quarters
@@ -194,8 +197,8 @@ class TradingViewCompleteScraper:
 
         # Extract scale
         scale_values = []
-        for elem in soup.find_all('div', class_=re.compile(r'verticalScaleValue')):
-            text = elem.get_text(strip=True).replace('\u202a', '').replace('\u202c', '')
+        for elem in soup.find_all("div", class_=re.compile(r"verticalScaleValue")):
+            text = elem.get_text(strip=True).replace("\u202a", "").replace("\u202c", "")
             try:
                 scale_values.append(float(text))
             except:
@@ -210,46 +213,48 @@ class TradingViewCompleteScraper:
         min_val = min(scale_values)
 
         # Extract bars
-        columns = soup.find_all('div', class_=re.compile(r'^column-[A-Za-z0-9]+$'))
+        columns = soup.find_all("div", class_=re.compile(r"^column-[A-Za-z0-9]+$"))
 
         data_points = []
         for i, column in enumerate(columns):
             if i >= len(periods):
                 break
 
-            bars = column.find_all('div', class_=re.compile(r'bar-'))
+            bars = column.find_all("div", class_=re.compile(r"bar-"))
 
             reported = None
             estimate = None
 
             for bar in bars:
-                style = bar.get('style', '')
-                match = re.search(r'height:\s*max\(([0-9.]+)%', style)
+                style = bar.get("style", "")
+                match = re.search(r"height:\s*max\(([0-9.]+)%", style)
 
                 if match:
                     height_pct = float(match.group(1))
                     value = (height_pct / 100.0) * (max_val - min_val) + min_val
 
-                    if '#3179F5' in style:
+                    if "#3179F5" in style:
                         reported = round(value, 2)
-                    elif '#EBEBEB' in style or '#A8A8A8' in style:
+                    elif "#EBEBEB" in style or "#A8A8A8" in style:
                         estimate = round(value, 2)
 
-            data_points.append({
-                "period": periods[i],
-                "reported": reported,
-                "estimate": estimate
-            })
+            data_points.append(
+                {"period": periods[i], "reported": reported, "estimate": estimate}
+            )
 
-        historical = [d for d in data_points if d['reported'] is not None]
-        forecast = [d for d in data_points if d['reported'] is None and d['estimate'] is not None]
+        historical = [d for d in data_points if d["reported"] is not None]
+        forecast = [
+            d
+            for d in data_points
+            if d["reported"] is None and d["estimate"] is not None
+        ]
 
         print(f"  ✓ Extracted {len(historical)} historical, {len(forecast)} forecast")
 
         return {
             "historical": historical,
             "forecast": forecast,
-            "scale_range": [min_val, max_val]
+            "scale_range": [min_val, max_val],
         }
 
 
@@ -262,7 +267,7 @@ def main():
     if data:
         print(f"\n{'='*80}")
         print("SUMMARY")
-        print('='*80)
+        print("=" * 80)
 
         # Annual EPS
         if data["annual"].get("eps", {}).get("historical"):

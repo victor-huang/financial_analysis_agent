@@ -39,7 +39,7 @@ class TradingViewForecastAPI:
         ticker: str,
         exchange: str = "NASDAQ",
         annual_years: int = 5,
-        quarterly_periods: int = 8
+        quarterly_periods: int = 8,
     ) -> Optional[Dict]:
         """
         Fetch historical financial data and forecasts.
@@ -81,7 +81,9 @@ class TradingViewForecastAPI:
         try:
             # TODO: Change to POST if needed
             # response = requests.post(endpoint, headers=self.headers, json=payload, timeout=15)
-            response = requests.get(endpoint, headers=self.headers, params=params, timeout=15)
+            response = requests.get(
+                endpoint, headers=self.headers, params=params, timeout=15
+            )
 
             response.raise_for_status()
             data = response.json()
@@ -135,7 +137,7 @@ class TradingViewForecastAPI:
             "symbol": raw_data.get("symbol", ""),
             "annual": {},
             "quarterly": {},
-            "forecast": {}
+            "forecast": {},
         }
 
         # Example parsing logic (update based on actual response):
@@ -152,10 +154,7 @@ class TradingViewForecastAPI:
         return parsed
 
     def get_same_quarter_last_year(
-        self,
-        ticker: str,
-        exchange: str = "NASDAQ",
-        quarters_back: int = 4
+        self, ticker: str, exchange: str = "NASDAQ", quarters_back: int = 4
     ) -> Optional[Dict]:
         """
         Get same quarter data from last year for YoY comparison.
@@ -169,9 +168,7 @@ class TradingViewForecastAPI:
             Dictionary with current and prior period data
         """
         data = self.get_financials_and_forecast(
-            ticker=ticker,
-            exchange=exchange,
-            quarterly_periods=quarters_back + 1
+            ticker=ticker, exchange=exchange, quarterly_periods=quarters_back + 1
         )
 
         if not data or "quarterly" not in data:
@@ -184,26 +181,38 @@ class TradingViewForecastAPI:
 
         return {
             "current_quarter": {
-                "quarter": quarterly["quarters"][0] if "quarters" in quarterly else None,
+                "quarter": (
+                    quarterly["quarters"][0] if "quarters" in quarterly else None
+                ),
                 "revenue": quarterly["revenue"][0],
-                "eps": quarterly["eps"][0]
+                "eps": quarterly["eps"][0],
             },
             "same_quarter_last_year": {
-                "quarter": quarterly["quarters"][quarters_back] if "quarters" in quarterly else None,
+                "quarter": (
+                    quarterly["quarters"][quarters_back]
+                    if "quarters" in quarterly
+                    else None
+                ),
                 "revenue": quarterly["revenue"][quarters_back],
-                "eps": quarterly["eps"][quarters_back]
+                "eps": quarterly["eps"][quarters_back],
             },
             "yoy_growth": {
-                "revenue_growth": (quarterly["revenue"][0] - quarterly["revenue"][quarters_back]) / quarterly["revenue"][quarters_back] * 100,
-                "eps_growth": (quarterly["eps"][0] - quarterly["eps"][quarters_back]) / quarterly["eps"][quarters_back] * 100
-            }
+                "revenue_growth": (
+                    quarterly["revenue"][0] - quarterly["revenue"][quarters_back]
+                )
+                / quarterly["revenue"][quarters_back]
+                * 100,
+                "eps_growth": (quarterly["eps"][0] - quarterly["eps"][quarters_back])
+                / quarterly["eps"][quarters_back]
+                * 100,
+            },
         }
 
 
 def test_api():
     """Test the API with a sample ticker."""
     print("Testing TradingView Forecast API")
-    print("="*80)
+    print("=" * 80)
 
     api = TradingViewForecastAPI()
 
@@ -221,7 +230,7 @@ def test_api():
         print(json.dumps(data, indent=2))
 
         # Test YoY comparison
-        print("\n" + "="*80)
+        print("\n" + "=" * 80)
         print("Testing Year-over-Year comparison...")
         yoy_data = api.get_same_quarter_last_year(ticker, exchange)
 
@@ -241,10 +250,11 @@ def example_integration():
     """
     Example of how to integrate this into the existing FinancialDataFetcher.
     """
-    print("\n" + "="*80)
+    print("\n" + "=" * 80)
     print("Integration Example")
-    print("="*80)
-    print("""
+    print("=" * 80)
+    print(
+        """
 After completing the API discovery, add this to your FinancialDataFetcher:
 
 # In financial_analysis_agent/financial/sources/tradingview_forecast_source.py
@@ -266,7 +276,8 @@ def tradingview_forecast_source(self) -> "TradingViewForecastSource":
         from .sources.tradingview_forecast_source import TradingViewForecastSource
         self._tradingview_forecast_source = TradingViewForecastSource()
     return self._tradingview_forecast_source
-    """)
+    """
+    )
 
 
 if __name__ == "__main__":

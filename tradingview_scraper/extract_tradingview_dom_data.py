@@ -34,12 +34,14 @@ class TradingViewDOMExtractor:
         """Set up Chrome driver with appropriate options."""
         chrome_options = Options()
         if self.headless:
-            chrome_options.add_argument('--headless=new')
-        chrome_options.add_argument('--disable-gpu')
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument('--disable-dev-shm-usage')
-        chrome_options.add_argument('--window-size=1920,1080')
-        chrome_options.add_argument('--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
+            chrome_options.add_argument("--headless=new")
+        chrome_options.add_argument("--disable-gpu")
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--disable-dev-shm-usage")
+        chrome_options.add_argument("--window-size=1920,1080")
+        chrome_options.add_argument(
+            "--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        )
 
         self.driver = webdriver.Chrome(options=chrome_options)
 
@@ -49,7 +51,9 @@ class TradingViewDOMExtractor:
             self.driver.quit()
             self.driver = None
 
-    def extract_forecast_data(self, ticker: str, exchange: str = "NASDAQ") -> Optional[Dict]:
+    def extract_forecast_data(
+        self, ticker: str, exchange: str = "NASDAQ"
+    ) -> Optional[Dict]:
         """
         Extract financial data from TradingView forecast page.
 
@@ -75,7 +79,9 @@ class TradingViewDOMExtractor:
             html = self.driver.page_source
 
             # Save for debugging
-            with open(f"tradingview_rendered_{ticker}.html", "w", encoding="utf-8") as f:
+            with open(
+                f"tradingview_rendered_{ticker}.html", "w", encoding="utf-8"
+            ) as f:
                 f.write(html)
             print(f"✓ Saved rendered HTML to: tradingview_rendered_{ticker}.html")
 
@@ -98,24 +104,23 @@ class TradingViewDOMExtractor:
 
     def _extract_tables(self, html: str) -> List[Dict]:
         """Extract data from HTML tables."""
-        soup = BeautifulSoup(html, 'html.parser')
-        tables = soup.find_all('table')
+        soup = BeautifulSoup(html, "html.parser")
+        tables = soup.find_all("table")
 
         print(f"\n✓ Found {len(tables)} tables")
 
         table_data = []
         for i, table in enumerate(tables):
             rows = []
-            for row in table.find_all('tr'):
-                cells = [cell.get_text(strip=True) for cell in row.find_all(['td', 'th'])]
+            for row in table.find_all("tr"):
+                cells = [
+                    cell.get_text(strip=True) for cell in row.find_all(["td", "th"])
+                ]
                 if cells:
                     rows.append(cells)
 
             if rows:
-                table_data.append({
-                    "table_index": i,
-                    "rows": rows
-                })
+                table_data.append({"table_index": i, "rows": rows})
 
                 # Print first few rows for inspection
                 print(f"\nTable {i}:")
@@ -139,29 +144,33 @@ class TradingViewDOMExtractor:
                 '[class*="chart"]',
                 '[data-name*="chart"]',
                 '[class*="forecast"]',
-                'canvas',
-                'svg'
+                "canvas",
+                "svg",
             ]
 
             for selector in selectors:
                 try:
                     elements = self.driver.find_elements(By.CSS_SELECTOR, selector)
                     if elements:
-                        print(f"\n✓ Found {len(elements)} elements matching: {selector}")
+                        print(
+                            f"\n✓ Found {len(elements)} elements matching: {selector}"
+                        )
 
                         for elem in elements[:3]:
                             # Get all data attributes
                             attrs = self.driver.execute_script(
-                                'var items = {}; '
-                                'for (index = 0; index < arguments[0].attributes.length; ++index) { '
-                                '  items[arguments[0].attributes[index].name] = arguments[0].attributes[index].value '
-                                '}; '
-                                'return items;',
-                                elem
+                                "var items = {}; "
+                                "for (index = 0; index < arguments[0].attributes.length; ++index) { "
+                                "  items[arguments[0].attributes[index].name] = arguments[0].attributes[index].value "
+                                "}; "
+                                "return items;",
+                                elem,
                             )
 
                             # Check for data attributes
-                            data_attrs = {k: v for k, v in attrs.items() if k.startswith('data-')}
+                            data_attrs = {
+                                k: v for k, v in attrs.items() if k.startswith("data-")
+                            }
                             if data_attrs:
                                 print(f"  Data attributes: {data_attrs}")
                                 chart_data[selector] = data_attrs
@@ -176,14 +185,14 @@ class TradingViewDOMExtractor:
 
     def _extract_text_data(self, html: str) -> Dict:
         """Extract financial numbers from text content."""
-        soup = BeautifulSoup(html, 'html.parser')
+        soup = BeautifulSoup(html, "html.parser")
 
         # Search for specific patterns in the text
         patterns = {
-            "revenue": r'revenue[:\s]+\$?([\d,\.]+)\s*([BMK])?',
-            "eps": r'EPS[:\s]+\$?([\d,\.]+)',
-            "fiscal_year": r'(FY|fiscal year)\s*(\d{4})',
-            "quarter": r'Q(\d)\s*(\d{4})',
+            "revenue": r"revenue[:\s]+\$?([\d,\.]+)\s*([BMK])?",
+            "eps": r"EPS[:\s]+\$?([\d,\.]+)",
+            "fiscal_year": r"(FY|fiscal year)\s*(\d{4})",
+            "quarter": r"Q(\d)\s*(\d{4})",
         }
 
         extracted = {}
@@ -201,7 +210,9 @@ class TradingViewDOMExtractor:
 
         return extracted
 
-    def extract_financials_page(self, ticker: str, exchange: str = "NASDAQ") -> Optional[Dict]:
+    def extract_financials_page(
+        self, ticker: str, exchange: str = "NASDAQ"
+    ) -> Optional[Dict]:
         """
         Extract data from financials-overview page.
 
@@ -226,9 +237,13 @@ class TradingViewDOMExtractor:
             html = self.driver.page_source
 
             # Save for debugging
-            with open(f"tradingview_financials_rendered_{ticker}.html", "w", encoding="utf-8") as f:
+            with open(
+                f"tradingview_financials_rendered_{ticker}.html", "w", encoding="utf-8"
+            ) as f:
                 f.write(html)
-            print(f"✓ Saved rendered HTML to: tradingview_financials_rendered_{ticker}.html")
+            print(
+                f"✓ Saved rendered HTML to: tradingview_financials_rendered_{ticker}.html"
+            )
 
             data = {
                 "ticker": ticker,
@@ -266,7 +281,7 @@ class TradingViewDOMExtractor:
                 selectors = [
                     f'//*[contains(text(), "{keyword}")]',
                     f'//div[contains(@class, "{keyword}")]',
-                    f'//section[contains(@class, "{keyword}")]'
+                    f'//section[contains(@class, "{keyword}")]',
                 ]
 
                 for selector in selectors:
@@ -274,7 +289,9 @@ class TradingViewDOMExtractor:
                         elements = self.driver.find_elements(By.XPATH, selector)
                         if elements:
                             print(f"✓ Found {len(elements)} elements for: {keyword}")
-                            sections[keyword] = [elem.text for elem in elements[:5] if elem.text]
+                            sections[keyword] = [
+                                elem.text for elem in elements[:5] if elem.text
+                            ]
                             break
                     except:
                         continue
@@ -287,9 +304,9 @@ class TradingViewDOMExtractor:
 
 def main():
     """Main execution."""
-    print("="*80)
+    print("=" * 80)
     print("TradingView DOM Data Extractor")
-    print("="*80)
+    print("=" * 80)
 
     ticker = "MU"
     exchange = "NASDAQ"
@@ -297,9 +314,9 @@ def main():
     extractor = TradingViewDOMExtractor(headless=False)  # Set to False to see browser
 
     # Extract forecast page
-    print("\n" + "="*80)
+    print("\n" + "=" * 80)
     print("Extracting FORECAST page data")
-    print("="*80)
+    print("=" * 80)
     forecast_data = extractor.extract_forecast_data(ticker, exchange)
 
     if forecast_data:
@@ -312,9 +329,9 @@ def main():
         print(f"\n✓ Saved to: tradingview_forecast_data_{ticker}.json")
 
     # Extract financials page
-    print("\n" + "="*80)
+    print("\n" + "=" * 80)
     print("Extracting FINANCIALS page data")
-    print("="*80)
+    print("=" * 80)
     financials_data = extractor.extract_financials_page(ticker, exchange)
 
     if financials_data:
@@ -326,9 +343,9 @@ def main():
             json.dump(financials_data, f, indent=2, default=str)
         print(f"\n✓ Saved to: tradingview_financials_data_{ticker}.json")
 
-    print("\n" + "="*80)
+    print("\n" + "=" * 80)
     print("Next Steps:")
-    print("="*80)
+    print("=" * 80)
     print("1. Check the saved JSON files for extracted data")
     print("2. Check the rendered HTML files to see the DOM structure")
     print("3. Look for patterns in tables/sections that contain the data we need")

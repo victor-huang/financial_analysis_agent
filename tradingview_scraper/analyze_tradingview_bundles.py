@@ -46,8 +46,8 @@ def download_and_analyze_bundle(bundle_url):
 
         # Search for specific financial data loading functions
         data_loading_patterns = [
-            r'function\s+\w*(?:load|fetch|get)(?:Financial|Forecast|Revenue|Earnings)\w*\([^)]*\)\s*{[^}]{0,500}',
-            r'(?:revenue|earnings|eps)\s*:\s*function\s*\([^)]*\)\s*{[^}]{0,300}',
+            r"function\s+\w*(?:load|fetch|get)(?:Financial|Forecast|Revenue|Earnings)\w*\([^)]*\)\s*{[^}]{0,500}",
+            r"(?:revenue|earnings|eps)\s*:\s*function\s*\([^)]*\)\s*{[^}]{0,300}",
         ]
 
         print("\n\nData Loading Functions:")
@@ -68,9 +68,9 @@ def download_and_analyze_bundle(bundle_url):
 
 def main():
     """Analyze key TradingView bundles."""
-    print("="*80)
+    print("=" * 80)
     print("TradingView JavaScript Bundle Analysis")
-    print("="*80)
+    print("=" * 80)
 
     # Key bundles to analyze
     bundles = [
@@ -84,13 +84,13 @@ def main():
     for bundle_url in bundles:
         findings = download_and_analyze_bundle(bundle_url)
         if findings:
-            bundle_name = bundle_url.split('/')[-1]
+            bundle_name = bundle_url.split("/")[-1]
             all_findings[bundle_name] = findings
 
     # Summary
-    print("\n\n" + "="*80)
+    print("\n\n" + "=" * 80)
     print("SUMMARY - Unique API Endpoints Found")
-    print("="*80)
+    print("=" * 80)
 
     all_urls = set()
     for bundle_findings in all_findings.values():
@@ -99,11 +99,25 @@ def main():
 
     # Filter for relevant endpoints
     relevant_endpoints = [
-        url for url in all_urls
-        if any(keyword in url.lower() for keyword in [
-            'financial', 'forecast', 'revenue', 'earnings', 'estimate',
-            'scanner', 'symbol', 'quote', 'api'
-        ]) and not any(skip in url for skip in ['.js', '.css', '.png', '.jpg', '.woff', '.svg'])
+        url
+        for url in all_urls
+        if any(
+            keyword in url.lower()
+            for keyword in [
+                "financial",
+                "forecast",
+                "revenue",
+                "earnings",
+                "estimate",
+                "scanner",
+                "symbol",
+                "quote",
+                "api",
+            ]
+        )
+        and not any(
+            skip in url for skip in [".js", ".css", ".png", ".jpg", ".woff", ".svg"]
+        )
     ]
 
     if relevant_endpoints:

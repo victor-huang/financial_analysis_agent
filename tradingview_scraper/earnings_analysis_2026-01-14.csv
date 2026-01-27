@@ -1,3 +1,3 @@
-ticker,hot?,Note,Company name,Market segment,Market Cap (B),Fast grow?,HC change (%),tech/analyst,post gain $,2nd day gain %,EPS Q estimate,EPS Q actual,EPS beat %,Revenue Q estimate,revenue Q actual,Revenue Q Beat %,EPS Q last year,EPS YoY %,Revenue Q last year,Revenue YoY %,Revenue last Q YoY %
-BAC,,,Bank of America Corporation,Finance,383.23,,,,,,0.96,0.98,2.25%,27.76B,28.37B,2.18%,0.82,19.51%,25.35B,11.90%,10.81%
-WFC,,,Wells Fargo & Company,Finance,280.16,,-5.44%,,,,1.66,1.62,-2.60%,21.65B,21.29B,-1.65%,1.43,13.29%,20.38B,4.47%,5.20%
+ticker,hot?,Note,Company name,Market segment,Market Cap (B),EPS Q Est.,EPS Q actual,Rev Q est.,Rev Q actual,EPS same Q last Y,Rev same Q last Y,Rev last Q,Rev last Q last Y,Rev full Y Est.,Rev full Y last Y,Rev Y actual 2 Y ago
+BAC,,,Bank of America Corporation,Finance,379.88,0.96,0.98,27.76B,28.37B,0.82,25.35B,28.09B,25.34B,110.58B,101.89B,100.20B
+WFC,,,Wells Fargo & Company,Finance,272.30,1.66,1.62,21.65B,21.29B,1.43,20.38B,21.44B,20.37B,92.31B,83.70B,82.30B

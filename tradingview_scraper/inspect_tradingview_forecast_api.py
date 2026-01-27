@@ -9,6 +9,7 @@ import json
 import re
 from urllib.parse import urlparse, parse_qs
 
+
 def test_symbol_overview_endpoint(ticker="MU", exchange="NASDAQ"):
     """
     Test if TradingView has a symbol-overview or financials endpoint.
@@ -34,7 +35,7 @@ def test_symbol_overview_endpoint(ticker="MU", exchange="NASDAQ"):
     }
 
     print("Testing potential API endpoints...")
-    print("="*80)
+    print("=" * 80)
 
     for url in potential_endpoints:
         try:
@@ -84,11 +85,11 @@ def test_screener_facade(ticker="MU", exchange="NASDAQ"):
             "revenue_fq",
             "earnings_per_share_fq",
             "total_revenue",
-            "earnings_per_share_fy"
-        ]
+            "earnings_per_share_fy",
+        ],
     }
 
-    print("\n" + "="*80)
+    print("\n" + "=" * 80)
     print("Testing screener-facade endpoint...")
     print(f"URL: {url}")
 
@@ -130,7 +131,7 @@ def test_financials_endpoint(ticker="MU", exchange="NASDAQ"):
         "Referer": f"https://www.tradingview.com/symbols/{exchange}-{ticker}/forecast/",
     }
 
-    print("\n" + "="*80)
+    print("\n" + "=" * 80)
     print("Testing financial data endpoints...")
 
     for url in patterns:
@@ -147,10 +148,17 @@ def test_financials_endpoint(ticker="MU", exchange="NASDAQ"):
                     print(f"JSON data preview: {json.dumps(data, indent=2)[:500]}")
                 except:
                     # It's HTML, look for embedded data
-                    if "revenue" in response.text.lower() or "earnings" in response.text.lower():
+                    if (
+                        "revenue" in response.text.lower()
+                        or "earnings" in response.text.lower()
+                    ):
                         print("✓ Contains revenue/earnings data in HTML")
                         # Try to find embedded JSON
-                        json_matches = re.findall(r'window\.__INIT_DATA__\s*=\s*({.*?});', response.text, re.DOTALL)
+                        json_matches = re.findall(
+                            r"window\.__INIT_DATA__\s*=\s*({.*?});",
+                            response.text,
+                            re.DOTALL,
+                        )
                         if json_matches:
                             print(f"Found embedded data: {json_matches[0][:200]}...")
 
@@ -161,7 +169,7 @@ def test_financials_endpoint(ticker="MU", exchange="NASDAQ"):
 def main():
     """Main execution."""
     print("TradingView Forecast Page API Investigation")
-    print("="*80)
+    print("=" * 80)
     print("Analyzing: NASDAQ:MU (Micron Technology)")
     print()
 
@@ -170,7 +178,7 @@ def main():
     test_screener_facade()
     test_financials_endpoint()
 
-    print("\n" + "="*80)
+    print("\n" + "=" * 80)
     print("\nNext Steps:")
     print("1. Use browser DevTools Network tab to capture actual requests")
     print("2. Look for XHR/Fetch requests when loading the forecast page")

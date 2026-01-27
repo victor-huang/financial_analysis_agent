@@ -34,7 +34,7 @@ class TradingViewAnnualScraper:
         ticker: str,
         exchange: str = "NASDAQ",
         include_annual: bool = True,
-        include_quarterly: bool = True
+        include_quarterly: bool = True,
     ) -> Dict:
         """
         Fetch financial data for a ticker.
@@ -49,7 +49,7 @@ class TradingViewAnnualScraper:
             Dictionary with annual and quarterly data
         """
         print(f"\nFetching data for {exchange}:{ticker}...")
-        print("="*80)
+        print("=" * 80)
 
         try:
             self._setup_driver()
@@ -62,28 +62,25 @@ class TradingViewAnnualScraper:
             print("Waiting for page to load...")
             time.sleep(8)
 
-            result = {
-                "ticker": ticker,
-                "exchange": exchange
-            }
+            result = {"ticker": ticker, "exchange": exchange}
 
             # Extract quarterly data first (default view)
             if include_quarterly:
-                print("\n" + "-"*80)
+                print("\n" + "-" * 80)
                 print("Extracting QUARTERLY data...")
-                print("-"*80)
+                print("-" * 80)
                 quarterly_eps = self._extract_eps_data("quarterly")
                 quarterly_revenue = self._extract_revenue_data("quarterly")
                 result["quarterly"] = {
                     "eps": quarterly_eps,
-                    "revenue": quarterly_revenue
+                    "revenue": quarterly_revenue,
                 }
 
             # Switch to annual and extract
             if include_annual:
-                print("\n" + "-"*80)
+                print("\n" + "-" * 80)
                 print("Switching to ANNUAL view...")
-                print("-"*80)
+                print("-" * 80)
 
                 # Click the Annual button for EPS section
                 if self._click_annual_button():
@@ -92,10 +89,7 @@ class TradingViewAnnualScraper:
 
                     annual_eps = self._extract_eps_data("annual")
                     annual_revenue = self._extract_revenue_data("annual")
-                    result["annual"] = {
-                        "eps": annual_eps,
-                        "revenue": annual_revenue
-                    }
+                    result["annual"] = {"eps": annual_eps, "revenue": annual_revenue}
                 else:
                     print("✗ Could not find Annual button")
 
@@ -104,6 +98,7 @@ class TradingViewAnnualScraper:
         except Exception as e:
             print(f"✗ Error: {e}")
             import traceback
+
             traceback.print_exc()
             return None
         finally:
@@ -113,11 +108,11 @@ class TradingViewAnnualScraper:
         """Set up Chrome driver."""
         chrome_options = Options()
         if self.headless:
-            chrome_options.add_argument('--headless=new')
-        chrome_options.add_argument('--disable-gpu')
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument('--disable-dev-shm-usage')
-        chrome_options.add_argument('--window-size=1920,1080')
+            chrome_options.add_argument("--headless=new")
+        chrome_options.add_argument("--disable-gpu")
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--disable-dev-shm-usage")
+        chrome_options.add_argument("--window-size=1920,1080")
 
         self.driver = webdriver.Chrome(options=chrome_options)
 
@@ -180,17 +175,17 @@ class TradingViewAnnualScraper:
             Dictionary with EPS data
         """
         html = self.driver.page_source
-        soup = BeautifulSoup(html, 'html.parser')
+        soup = BeautifulSoup(html, "html.parser")
 
         # Extract period labels (years or quarters)
         periods = []
-        for elem in soup.find_all('div', class_=re.compile(r'horizontalScaleValue')):
+        for elem in soup.find_all("div", class_=re.compile(r"horizontalScaleValue")):
             period_text = elem.get_text(strip=True)
 
             # For annual: look for years like "2021", "2022"
             # For quarterly: look for quarters like "Q3 '24"
             if period_type == "annual":
-                if re.match(r'^\d{4}$', period_text):  # Match 4-digit years
+                if re.match(r"^\d{4}$", period_text):  # Match 4-digit years
                     periods.append(period_text)
             else:
                 if "'" in period_text:  # Match quarters like "Q3 '24"
@@ -201,8 +196,10 @@ class TradingViewAnnualScraper:
 
         # Extract y-axis scale
         scale_values = []
-        for elem in soup.find_all('div', class_=re.compile(r'verticalScaleValue')):
-            value_text = elem.get_text(strip=True).replace('\u202a', '').replace('\u202c', '')
+        for elem in soup.find_all("div", class_=re.compile(r"verticalScaleValue")):
+            value_text = (
+                elem.get_text(strip=True).replace("\u202a", "").replace("\u202c", "")
+            )
             try:
                 value = float(value_text)
                 scale_values.append(value)
@@ -219,7 +216,7 @@ class TradingViewAnnualScraper:
         min_value = min(scale_values)
 
         # Extract bar heights
-        columns = soup.find_all('div', class_=re.compile(r'^column-[A-Za-z0-9]+$'))
+        columns = soup.find_all("div", class_=re.compile(r"^column-[A-Za-z0-9]+$"))
         print(f"✓ Found {len(columns)} columns")
 
         data_points = []
@@ -228,14 +225,14 @@ class TradingViewAnnualScraper:
             if i >= len(periods):
                 break
 
-            bars = column.find_all('div', class_=re.compile(r'bar-'))
+            bars = column.find_all("div", class_=re.compile(r"bar-"))
 
             reported_value = None
             estimate_value = None
 
             for bar in bars:
-                style = bar.get('style', '')
-                height_match = re.search(r'height:\s*max\(([0-9.]+)%', style)
+                style = bar.get("style", "")
+                height_match = re.search(r"height:\s*max\(([0-9.]+)%", style)
 
                 if not height_match:
                     continue
@@ -244,27 +241,35 @@ class TradingViewAnnualScraper:
                 value = (height_percent / 100.0) * (max_value - min_value) + min_value
 
                 # Blue = Reported, Gray = Estimate
-                if '#3179F5' in style or 'rgb(49, 121, 245)' in style:
+                if "#3179F5" in style or "rgb(49, 121, 245)" in style:
                     reported_value = round(value, 2)
-                elif '#EBEBEB' in style or '#A8A8A8' in style:
+                elif "#EBEBEB" in style or "#A8A8A8" in style:
                     estimate_value = round(value, 2)
 
-            data_points.append({
-                "period": periods[i],
-                "reported": reported_value,
-                "estimate": estimate_value
-            })
+            data_points.append(
+                {
+                    "period": periods[i],
+                    "reported": reported_value,
+                    "estimate": estimate_value,
+                }
+            )
 
         # Separate historical and forecast
-        historical = [d for d in data_points if d['reported'] is not None]
-        forecast = [d for d in data_points if d['reported'] is None and d['estimate'] is not None]
+        historical = [d for d in data_points if d["reported"] is not None]
+        forecast = [
+            d
+            for d in data_points
+            if d["reported"] is None and d["estimate"] is not None
+        ]
 
-        print(f"✓ Extracted {len(historical)} historical and {len(forecast)} forecast periods")
+        print(
+            f"✓ Extracted {len(historical)} historical and {len(forecast)} forecast periods"
+        )
 
         return {
             "historical": historical,
             "forecast": forecast,
-            "scale_range": [min_value, max_value]
+            "scale_range": [min_value, max_value],
         }
 
     def _extract_revenue_data(self, period_type: str) -> Dict:
@@ -288,58 +293,59 @@ class TradingViewAnnualScraper:
         if "revenue" in html.lower():
             print(f"✓ Found revenue data in {period_type} view")
             # TODO: Implement revenue-specific extraction
-            return {"message": f"Revenue extraction for {period_type} - to be implemented"}
+            return {
+                "message": f"Revenue extraction for {period_type} - to be implemented"
+            }
 
         return {}
 
 
 def main():
     """Demo usage."""
-    print("="*80)
+    print("=" * 80)
     print("TradingView Annual + Quarterly Data Scraper")
-    print("="*80)
+    print("=" * 80)
 
     scraper = TradingViewAnnualScraper(headless=False)  # Set False to see browser
 
     # Fetch both annual and quarterly data
     data = scraper.fetch_financial_data(
-        ticker="MU",
-        exchange="NASDAQ",
-        include_annual=True,
-        include_quarterly=True
+        ticker="MU", exchange="NASDAQ", include_annual=True, include_quarterly=True
     )
 
     if data:
-        print("\n" + "="*80)
+        print("\n" + "=" * 80)
         print("RESULTS")
-        print("="*80)
+        print("=" * 80)
 
         # Display Annual EPS
         if "annual" in data and data["annual"].get("eps", {}).get("historical"):
-            print("\n" + "="*80)
+            print("\n" + "=" * 80)
             print("ANNUAL EPS (Historical)")
-            print("="*80)
+            print("=" * 80)
             print(f"{'Year':<10} {'Reported':>12} {'Estimate':>12}")
-            print("-"*35)
+            print("-" * 35)
 
             for item in data["annual"]["eps"]["historical"]:
                 year = item["period"]
-                reported = f"${item['reported']:.2f}" if item['reported'] else "N/A"
-                estimate = f"${item['estimate']:.2f}" if item['estimate'] else "N/A"
+                reported = f"${item['reported']:.2f}" if item["reported"] else "N/A"
+                estimate = f"${item['estimate']:.2f}" if item["estimate"] else "N/A"
                 print(f"{year:<10} {reported:>12} {estimate:>12}")
 
         # Display Quarterly EPS
         if "quarterly" in data and data["quarterly"].get("eps", {}).get("historical"):
-            print("\n" + "="*80)
+            print("\n" + "=" * 80)
             print("QUARTERLY EPS (Recent History)")
-            print("="*80)
+            print("=" * 80)
             print(f"{'Quarter':<15} {'Reported':>12} {'Estimate':>12}")
-            print("-"*40)
+            print("-" * 40)
 
-            for item in data["quarterly"]["eps"]["historical"][:5]:  # Show last 5 quarters
+            for item in data["quarterly"]["eps"]["historical"][
+                :5
+            ]:  # Show last 5 quarters
                 quarter = item["period"]
-                reported = f"${item['reported']:.2f}" if item['reported'] else "N/A"
-                estimate = f"${item['estimate']:.2f}" if item['estimate'] else "N/A"
+                reported = f"${item['reported']:.2f}" if item["reported"] else "N/A"
+                estimate = f"${item['estimate']:.2f}" if item["estimate"] else "N/A"
                 print(f"{quarter:<15} {reported:>12} {estimate:>12}")
 
         # Save to file

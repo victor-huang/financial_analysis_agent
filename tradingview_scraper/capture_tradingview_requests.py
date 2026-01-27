@@ -13,6 +13,7 @@ import sys
 import json
 import time
 
+
 def capture_with_selenium(ticker="MU", exchange="NASDAQ"):
     """
     Use Selenium to capture network requests.
@@ -24,19 +25,21 @@ def capture_with_selenium(ticker="MU", exchange="NASDAQ"):
         from selenium.webdriver.support.ui import WebDriverWait
         from selenium.common.exceptions import TimeoutException
     except ImportError:
-        print("Selenium not installed. Install with: pip install selenium webdriver-manager")
+        print(
+            "Selenium not installed. Install with: pip install selenium webdriver-manager"
+        )
         return None
 
     print("Using Selenium to capture network requests...")
-    print("="*80)
+    print("=" * 80)
 
     chrome_options = Options()
-    chrome_options.add_argument('--headless')  # Run in background
-    chrome_options.add_argument('--disable-gpu')
-    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument("--headless")  # Run in background
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--no-sandbox")
 
     # Enable logging of network requests
-    chrome_options.set_capability('goog:loggingPrefs', {'performance': 'ALL'})
+    chrome_options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
 
     url = f"https://www.tradingview.com/symbols/{exchange}-{ticker}/forecast/"
 
@@ -51,7 +54,7 @@ def capture_with_selenium(ticker="MU", exchange="NASDAQ"):
         time.sleep(10)
 
         # Get network logs
-        logs = driver.get_log('performance')
+        logs = driver.get_log("performance")
 
         print(f"\n✓ Captured {len(logs)} network events")
         print("\nFiltering for API calls...")
@@ -60,26 +63,41 @@ def capture_with_selenium(ticker="MU", exchange="NASDAQ"):
 
         for log in logs:
             try:
-                message = json.loads(log['message'])
-                method = message.get('message', {}).get('method', '')
+                message = json.loads(log["message"])
+                method = message.get("message", {}).get("method", "")
 
                 # Look for network requests
-                if method == 'Network.responseReceived':
-                    response = message['message']['params']['response']
-                    url_requested = response.get('url', '')
+                if method == "Network.responseReceived":
+                    response = message["message"]["params"]["response"]
+                    url_requested = response.get("url", "")
 
                     # Filter for relevant API calls
-                    if any(keyword in url_requested.lower() for keyword in [
-                        'financial', 'forecast', 'revenue', 'earning', 'estimate',
-                        'api', 'data', 'symbol', 'quote'
-                    ]):
-                        if not any(skip in url_requested for skip in ['.js', '.css', '.png', '.jpg', '.woff']):
-                            api_calls.append({
-                                'url': url_requested,
-                                'method': response.get('method', 'GET'),
-                                'status': response.get('status', 0),
-                                'mimeType': response.get('mimeType', '')
-                            })
+                    if any(
+                        keyword in url_requested.lower()
+                        for keyword in [
+                            "financial",
+                            "forecast",
+                            "revenue",
+                            "earning",
+                            "estimate",
+                            "api",
+                            "data",
+                            "symbol",
+                            "quote",
+                        ]
+                    ):
+                        if not any(
+                            skip in url_requested
+                            for skip in [".js", ".css", ".png", ".jpg", ".woff"]
+                        ):
+                            api_calls.append(
+                                {
+                                    "url": url_requested,
+                                    "method": response.get("method", "GET"),
+                                    "status": response.get("status", 0),
+                                    "mimeType": response.get("mimeType", ""),
+                                }
+                            )
 
             except Exception as e:
                 continue
@@ -88,7 +106,7 @@ def capture_with_selenium(ticker="MU", exchange="NASDAQ"):
 
         if api_calls:
             print(f"\n✓ Found {len(api_calls)} relevant API calls:")
-            print("-"*80)
+            print("-" * 80)
 
             for i, call in enumerate(api_calls, 1):
                 print(f"\n{i}. {call['method']} {call['url']}")
@@ -117,10 +135,11 @@ def manual_capture_instructions():
     """
     Provide instructions for manual API capture.
     """
-    print("\n" + "="*80)
+    print("\n" + "=" * 80)
     print("MANUAL API CAPTURE INSTRUCTIONS")
-    print("="*80)
-    print("""
+    print("=" * 80)
+    print(
+        """
 Since automated capture might not show all requests, please follow these steps:
 
 1. Open Chrome/Firefox and navigate to:
@@ -160,16 +179,18 @@ WHAT TO LOOK FOR IN THE RESPONSE:
 - Arrays of historical EPS data
 - Fiscal year/quarter identifiers
 - Actual vs estimated values
-""")
+"""
+    )
 
 
 def check_browser_extensions():
     """Check if user has required tools."""
     print("\nChecking available tools...")
-    print("-"*80)
+    print("-" * 80)
 
     try:
         import selenium
+
         print("✓ Selenium installed")
         has_selenium = True
     except ImportError:
@@ -178,6 +199,7 @@ def check_browser_extensions():
 
     try:
         import playwright
+
         print("✓ Playwright installed")
         has_playwright = True
     except ImportError:
@@ -189,7 +211,7 @@ def check_browser_extensions():
 
 def main():
     print("TradingView Network Request Capture")
-    print("="*80)
+    print("=" * 80)
 
     if check_browser_extensions():
         print("\nAttempting automated capture...")
