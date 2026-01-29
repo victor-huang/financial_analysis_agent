@@ -38,6 +38,8 @@ def get_csv_headers() -> List[str]:
         "Rev full Y Est.",
         "Rev full Y last Y",
         "Rev Y actual 2 Y ago",
+        "Employee",
+        "Employee YoY %",
     ]
 
 
@@ -93,6 +95,10 @@ def build_csv_row(api_data: Dict, yoy_data: Dict) -> Dict:
     # Current quarter from scraper
     current_quarter = yoy_data.get("current_quarter", "")
 
+    # Employee data from scraper
+    employee_count = yoy_data.get("employee_count")
+    employee_yoy_pct = yoy_data.get("employee_change_1y_percent")
+
     # Build row
     row = {
         "ticker": api_data.get("ticker", ""),
@@ -113,6 +119,8 @@ def build_csv_row(api_data: Dict, yoy_data: Dict) -> Dict:
         "Rev full Y Est.": format_revenue(rev_full_y_est),
         "Rev full Y last Y": format_revenue(rev_full_y_last_y),
         "Rev Y actual 2 Y ago": format_revenue(rev_y_2y_ago),
+        "Employee": f"{employee_count:,}" if employee_count else "",
+        "Employee YoY %": format_number(employee_yoy_pct),
     }
 
     return row

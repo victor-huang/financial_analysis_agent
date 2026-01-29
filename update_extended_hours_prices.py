@@ -76,9 +76,7 @@ def get_extended_hours_price(
         info = stock.info
 
         market_state = info.get("marketState", "UNKNOWN")
-        close_price = info.get("regularMarketPreviousClose") or info.get(
-            "previousClose"
-        )
+        close_price = info.get("regularMarketPrice")
 
         if price_type == "pre":
             price = info.get("preMarketPrice")

@@ -108,20 +108,28 @@ def generate_earnings_analysis(
         return []
 
     # Apply ticker filter if specified
+    missing_tickers = []
+    tickers_order = None  # Original order to maintain in output
     if tickers_filter:
         tickers_upper = [t.upper() for t in tickers_filter]
+        tickers_order = tickers_upper  # Save for later ordering
         # Create a dict for quick lookup
         api_data_by_ticker = {d["ticker"].upper(): d for d in api_data}
-        # Preserve the order from tickers_filter
-        api_data = [
-            api_data_by_ticker[t] for t in tickers_upper if t in api_data_by_ticker
-        ]
-        print(
-            f"  Filtered to {len(api_data)} ticker(s): {', '.join(d['ticker'] for d in api_data)}"
-        )
-        if not api_data:
-            print("  No matching tickers found in earnings calendar")
-            return []
+        # Preserve the order from tickers_filter, track missing ones
+        api_data = []
+        for t in tickers_upper:
+            if t in api_data_by_ticker:
+                api_data.append(api_data_by_ticker[t])
+            else:
+                missing_tickers.append(t)
+        if api_data:
+            print(
+                f"  Found {len(api_data)} ticker(s) in earnings calendar: {', '.join(d['ticker'] for d in api_data)}"
+            )
+        if missing_tickers:
+            print(
+                f"  {len(missing_tickers)} ticker(s) not found in earnings calendar: {', '.join(missing_tickers)}"
+            )
 
     # Apply limit if specified
     if limit:
@@ -129,8 +137,11 @@ def generate_earnings_analysis(
         print(f"  Limited to first {limit} tickers")
 
     # Step 2: Fetch detailed financial data for each ticker
-    print(f"\nStep 2: Fetching detailed financial data for {len(api_data)} tickers...")
-    print(f"  Using {concurrency} concurrent session(s)")
+    if api_data:
+        print(
+            f"\nStep 2: Fetching detailed financial data for {len(api_data)} tickers..."
+        )
+        print(f"  Using {concurrency} concurrent session(s)")
 
     total = len(api_data)
     results = []
@@ -154,9 +165,22 @@ def generate_earnings_analysis(
                 idx = futures[future]
                 print(f"  Error processing ticker at index {idx}: {e}")
 
-    # Sort results by original index to preserve order
-    results.sort(key=lambda x: x[0])
-    rows = [row for _, row in results]
+    # Build final rows maintaining original ticker order
+    if tickers_order:
+        # Create a dict of ticker -> row from processed results
+        rows_by_ticker = {row["ticker"].upper(): row for _, row in results}
+        rows = []
+        for ticker in tickers_order:
+            if ticker in rows_by_ticker:
+                rows.append(rows_by_ticker[ticker])
+            else:
+                # Create placeholder row for missing ticker
+                placeholder_row = build_csv_row({"ticker": ticker}, {})
+                rows.append(placeholder_row)
+    else:
+        # No filter specified, use original processing order
+        results.sort(key=lambda x: x[0])
+        rows = [row for _, row in results]
 
     # Step 3: Save to CSV
     print(f"\nStep 3: Saving results...")
@@ -175,6 +199,13 @@ def generate_earnings_analysis(
             print(f"   - {ticker_info}")
         print("\nNote: Small-cap stocks often lack TradingView forecast pages.")
         print("      Only API data (current estimates/actuals) is available for these.")
+
+    if missing_tickers:
+        print(
+            f"\n⚠  Note: {len(missing_tickers)} ticker(s) not found in earnings calendar (added as placeholder rows):"
+        )
+        for ticker in missing_tickers:
+            print(f"   - {ticker}")
 
     print("=" * 80)
 
