@@ -60,7 +60,9 @@ def create_sheets_client() -> GoogleSheetsClient:
 
 def get_extended_hours_price(
     ticker: str, price_type: str = "post"
-) -> Tuple[Optional[float], Optional[float], Optional[str], Optional[float], Optional[float]]:
+) -> Tuple[
+    Optional[float], Optional[float], Optional[str], Optional[float], Optional[float]
+]:
     """
     Fetch extended hours price and regular close price for a ticker.
 
@@ -206,8 +208,8 @@ def update_prices_to_sheet(
     market_price_data = []
     pct_change_data = []
     for ticker in tickers:
-        price, change, market_state, close_price, previous_close = get_extended_hours_price(
-            ticker, price_type
+        price, change, market_state, close_price, previous_close = (
+            get_extended_hours_price(ticker, price_type)
         )
         if price is not None:
             if include_change:
@@ -233,7 +235,9 @@ def update_prices_to_sheet(
         else:
             close_data.append(["N/A"])
 
-        prev_close_data.append([previous_close if previous_close is not None else "N/A"])
+        prev_close_data.append(
+            [previous_close if previous_close is not None else "N/A"]
+        )
 
         if price is not None and close_price is not None and close_price != 0:
             pct_diff = round(((price - close_price) / close_price) * 100, 2)
@@ -242,10 +246,18 @@ def update_prices_to_sheet(
             diff_data.append(["N/A"])
 
         current_market_price = price if price is not None else close_price
-        market_price_data.append([current_market_price if current_market_price is not None else "N/A"])
+        market_price_data.append(
+            [current_market_price if current_market_price is not None else "N/A"]
+        )
 
-        if current_market_price is not None and previous_close is not None and previous_close != 0:
-            pct_from_prev = round(((current_market_price - previous_close) / previous_close) * 100, 2)
+        if (
+            current_market_price is not None
+            and previous_close is not None
+            and previous_close != 0
+        ):
+            pct_from_prev = round(
+                ((current_market_price - previous_close) / previous_close) * 100, 2
+            )
             pct_change_data.append([pct_from_prev])
         else:
             pct_change_data.append(["N/A"])
@@ -349,7 +361,9 @@ def update_prices_to_sheet(
 
         if market_price_col:
             market_price_range = f"{tab_name}!{market_price_col}{start_row}"
-            batch_data.append({"range": market_price_range, "values": market_price_data})
+            batch_data.append(
+                {"range": market_price_range, "values": market_price_data}
+            )
 
         if pct_change_col:
             pct_change_range = f"{tab_name}!{pct_change_col}{start_row}"
