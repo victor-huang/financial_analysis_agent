@@ -1,59 +1,103 @@
 # TradingView Scraper
 
-This folder contains the TradingView data scraper that extracts EPS and Revenue data from TradingView forecast pages.
+This folder contains tools for scraping earnings data from TradingView and uploading to Google Sheets.
 
-## Main File
+## Main Scripts
 
-**`tradingview_final_scraper.py`** - The complete working scraper
+### generate_earnings_analysis.py
 
-## Quick Start
+Generate comprehensive earnings analysis CSV by combining TradingView API data with scraped historical data.
 
 ```bash
-cd tradingview_scraper
-python tradingview_final_scraper.py
+# Today's earnings
+python generate_earnings_analysis.py
+
+# Specific date
+python generate_earnings_analysis.py --date 2025-01-15
+
+# Expand date range (+/- 3 days around the date)
+python generate_earnings_analysis.py --date 2025-01-15 --expand-to-near-by-days 3
+
+# Filter to specific tickers
+python generate_earnings_analysis.py --tickers "AAPL, MSFT, GOOGL"
+
+# Use 5 concurrent scraping sessions
+python generate_earnings_analysis.py --concurrency 5
+
+# Use reported quarter mode (last reported quarter as anchor)
+python generate_earnings_analysis.py --quarter-mode reported
 ```
 
-This will scrape data for Micron (MU) and save to `tradingview_MU_final.json`.
+**Options:**
+| Option | Description |
+|--------|-------------|
+| `--date` | Date to fetch earnings for (YYYY-MM-DD). Default: today |
+| `--expand-to-near-by-days` | Expand date coverage by N days on both sides |
+| `--tickers` | Comma-separated list of tickers to filter |
+| `--limit` | Limit number of tickers (for testing) |
+| `--concurrency` | Number of concurrent scraping sessions (default: 3) |
+| `--quarter-mode` | `forecast` (default) or `reported` |
+| `--output` | Output CSV filename |
+| `--no-headless` | Show browser during scraping |
 
-## Usage in Your Code
+### run_earnings_to_sheets.py
 
-```python
-import sys
-sys.path.append('tradingview_scraper')
-from tradingview_final_scraper import TradingViewFinalScraper
+Generate earnings analysis and upload directly to Google Sheets.
 
-scraper = TradingViewFinalScraper(headless=True)
-data = scraper.fetch_all_financial_data("AAPL", "NASDAQ")
+```bash
+# Basic usage
+python run_earnings_to_sheets.py \
+  --spreadsheet-id YOUR_SHEET_ID \
+  --tab-name "Earnings_Data"
 
-# Access data
-print(data["annual"]["eps"]["historical"])
-print(data["annual"]["revenue"]["historical"])
+# Use tickers from a file
+python run_earnings_to_sheets.py \
+  --tickers-file ../tickers_from_spreadsheet.txt \
+  --spreadsheet-id YOUR_SHEET_ID \
+  --tab-name "Earnings_Data"
+
+# Only process new tickers (skip existing ones in column A)
+python run_earnings_to_sheets.py \
+  --tickers-file ../tickers_from_spreadsheet.txt \
+  --spreadsheet-id YOUR_SHEET_ID \
+  --tab-name "Earnings_Data" \
+  --skip-existing-tickers-col A
+
+# Expand date range
+python run_earnings_to_sheets.py \
+  --date 2025-01-15 \
+  --expand-to-near-by-days 3 \
+  --spreadsheet-id YOUR_SHEET_ID
 ```
+
+**Additional Options:**
+| Option | Description |
+|--------|-------------|
+| `--tickers-file` | Path to file with tickers (comma-separated or one per line) |
+| `--skip-existing-tickers-col` | Column letter with existing tickers to skip |
+| `--skip-existing-tickers-tab` | Tab name to read existing tickers from |
+| `--no-clear` | Append mode (don't clear existing data) |
+| `--keep-csv` | Keep local CSV file after upload |
+| `--skip-upload` | Generate CSV only, don't upload |
+
+## Helper Modules
+
+- **earnings_api_helper.py** - Fetch earnings calendar data from TradingView API
+- **financial_data_helper.py** - Scrape detailed financial data from TradingView pages
+- **csv_generator.py** - Build and save CSV output
+
+## Data Extracted
+
+- EPS estimates and actuals (current quarter)
+- Revenue estimates and actuals (current quarter)
+- Year-over-year comparisons (historical data)
+- Company info (sector, industry, market cap)
 
 ## Requirements
 
 ```bash
-pip install selenium beautifulsoup4
+pip install selenium beautifulsoup4 requests
 ```
 
-## What It Extracts
-
-- ✅ Annual EPS (5+ years historical + forward estimates)
-- ✅ Annual Revenue (5+ years historical + forward estimates)
-- ✅ Quarterly EPS (7+ quarters historical + forward estimates)
-- ✅ Quarterly Revenue (5+ quarters historical + forward estimates)
-
-## Documentation
-
-- `TRADINGVIEW_SCRAPER_SUCCESS.md` - Success summary
-- `README_TRADINGVIEW_SCRAPER.md` - Detailed documentation
-- `TRADINGVIEW_EPS_SCRAPER_FINAL.md` - Final implementation notes
-
-## Other Files
-
-This folder contains various research scripts and test files created during development:
-- `test_*.py` - Testing scripts
-- `*_scraper.py` - Various scraper iterations
-- `*.json` - Example output files
-- `*.html` - Saved HTML for debugging
-- `*.md` - Research and documentation notes
+Google Sheets integration requires credentials configured in `.env`:
+- `GOOGLE_SHEETS_CREDENTIALS_PATH` or `GOOGLE_SHEETS_CREDENTIALS_JSON`
