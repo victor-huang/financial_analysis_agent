@@ -60,7 +60,7 @@ def create_sheets_client() -> GoogleSheetsClient:
 
 def get_extended_hours_price(
     ticker: str, price_type: str = "post"
-) -> Tuple[Optional[float], Optional[float], Optional[str], Optional[float]]:
+) -> Tuple[Optional[float], Optional[float], Optional[str], Optional[float], Optional[float]]:
     """
     Fetch extended hours price and regular close price for a ticker.
 
@@ -69,7 +69,7 @@ def get_extended_hours_price(
         price_type: 'pre' for pre-market, 'post' for after-hours, 'both' for both
 
     Returns:
-        Tuple of (extended_price, change_percent, market_state, close_price)
+        Tuple of (extended_price, change_percent, market_state, close_price, previous_close)
     """
     try:
         stock = yf.Ticker(ticker)
@@ -77,6 +77,7 @@ def get_extended_hours_price(
 
         market_state = info.get("marketState", "UNKNOWN")
         close_price = info.get("regularMarketPrice")
+        previous_close = info.get("previousClose")
 
         if price_type == "pre":
             price = info.get("preMarketPrice")
@@ -105,11 +106,11 @@ def get_extended_hours_price(
                 f"{ticker}: Extended hours price not available, using regular market price"
             )
 
-        return price, change, market_state, close_price
+        return price, change, market_state, close_price, previous_close
 
     except Exception as e:
         logger.error(f"Error fetching extended hours price for {ticker}: {e}")
-        return None, None, None, None
+        return None, None, None, None, None
 
 
 def load_tickers(source: str) -> List[str]:
@@ -165,8 +166,11 @@ def update_prices_to_sheet(
     quiet: bool = False,
     ticker_col: Optional[str] = None,
     close_col: Optional[str] = None,
+    prev_close_col: Optional[str] = None,
     diff_col: Optional[str] = None,
     include_headers: bool = False,
+    market_price_col: Optional[str] = None,
+    pct_change_col: Optional[str] = None,
 ) -> None:
     """
     Fetch extended hours prices and update Google Sheets.
@@ -183,9 +187,12 @@ def update_prices_to_sheet(
         client: Optional pre-initialized GoogleSheetsClient (reused in daemon mode)
         quiet: If True, reduce logging output (for daemon mode)
         ticker_col: Optional column letter to write ticker symbols (e.g., 'A')
-        close_col: Optional column letter to write regular market close price (e.g., 'B')
+        close_col: Optional column letter to write today's close price (N/A if market still trading)
+        prev_close_col: Optional column letter to write previous day's close price
         diff_col: Optional column letter to write % difference between extended and close price
         include_headers: Whether to write column headers in the row above data
+        market_price_col: Optional column letter to write current market price (extended if available, else regular)
+        pct_change_col: Optional column letter to write % change from previous close to current market price
     """
     if not quiet:
         logger.info(
@@ -194,9 +201,12 @@ def update_prices_to_sheet(
 
     prices_data = []
     close_data = []
+    prev_close_data = []
     diff_data = []
+    market_price_data = []
+    pct_change_data = []
     for ticker in tickers:
-        price, change, market_state, close_price = get_extended_hours_price(
+        price, change, market_state, close_price, previous_close = get_extended_hours_price(
             ticker, price_type
         )
         if price is not None:
@@ -217,13 +227,28 @@ def update_prices_to_sheet(
                 prices_data.append(["N/A"])
             logger.warning(f"{ticker}: Price not available")
 
-        close_data.append([close_price if close_price is not None else "N/A"])
+        is_market_closed = market_state not in ("REGULAR", "PRE")
+        if is_market_closed and close_price is not None:
+            close_data.append([close_price])
+        else:
+            close_data.append(["N/A"])
+
+        prev_close_data.append([previous_close if previous_close is not None else "N/A"])
 
         if price is not None and close_price is not None and close_price != 0:
             pct_diff = round(((price - close_price) / close_price) * 100, 2)
             diff_data.append([pct_diff])
         else:
             diff_data.append(["N/A"])
+
+        current_market_price = price if price is not None else close_price
+        market_price_data.append([current_market_price if current_market_price is not None else "N/A"])
+
+        if current_market_price is not None and previous_close is not None and previous_close != 0:
+            pct_from_prev = round(((current_market_price - previous_close) / previous_close) * 100, 2)
+            pct_change_data.append([pct_from_prev])
+        else:
+            pct_change_data.append(["N/A"])
 
     if orientation == "horizontal":
         if include_change:
@@ -234,7 +259,10 @@ def update_prices_to_sheet(
         else:
             prices_data = [[p[0] for p in prices_data]]
         close_data = [[c[0] for c in close_data]]
+        prev_close_data = [[p[0] for p in prev_close_data]]
         diff_data = [[d[0] for d in diff_data]]
+        market_price_data = [[m[0] for m in market_price_data]]
+        pct_change_data = [[p[0] for p in pct_change_data]]
 
     try:
         if client is None:
@@ -262,6 +290,13 @@ def update_prices_to_sheet(
                         "values": [["Close Price"]],
                     }
                 )
+            if prev_close_col:
+                batch_data.append(
+                    {
+                        "range": f"{tab_name}!{prev_close_col}{header_row}",
+                        "values": [["Previous Close Price"]],
+                    }
+                )
             batch_data.append(
                 {
                     "range": f"{tab_name}!{start_col}{header_row}",
@@ -273,6 +308,20 @@ def update_prices_to_sheet(
                     {
                         "range": f"{tab_name}!{diff_col}{header_row}",
                         "values": [["Percentage Change"]],
+                    }
+                )
+            if market_price_col:
+                batch_data.append(
+                    {
+                        "range": f"{tab_name}!{market_price_col}{header_row}",
+                        "values": [["Market Price(with extended hour)"]],
+                    }
+                )
+            if pct_change_col:
+                batch_data.append(
+                    {
+                        "range": f"{tab_name}!{pct_change_col}{header_row}",
+                        "values": [["% Change Since Last Close"]],
                     }
                 )
 
@@ -290,9 +339,21 @@ def update_prices_to_sheet(
             close_range = f"{tab_name}!{close_col}{start_row}"
             batch_data.append({"range": close_range, "values": close_data})
 
+        if prev_close_col:
+            prev_close_range = f"{tab_name}!{prev_close_col}{start_row}"
+            batch_data.append({"range": prev_close_range, "values": prev_close_data})
+
         if diff_col:
             diff_range = f"{tab_name}!{diff_col}{start_row}"
             batch_data.append({"range": diff_range, "values": diff_data})
+
+        if market_price_col:
+            market_price_range = f"{tab_name}!{market_price_col}{start_row}"
+            batch_data.append({"range": market_price_range, "values": market_price_data})
+
+        if pct_change_col:
+            pct_change_range = f"{tab_name}!{pct_change_col}{start_row}"
+            batch_data.append({"range": pct_change_range, "values": pct_change_data})
 
         body = {"valueInputOption": "RAW", "data": batch_data}
 
@@ -329,8 +390,11 @@ def run_daemon(
     interval: float,
     ticker_col: Optional[str] = None,
     close_col: Optional[str] = None,
+    prev_close_col: Optional[str] = None,
     diff_col: Optional[str] = None,
     include_headers: bool = False,
+    market_price_col: Optional[str] = None,
+    pct_change_col: Optional[str] = None,
 ) -> None:
     """
     Run in daemon mode, updating prices at regular intervals.
@@ -346,9 +410,12 @@ def run_daemon(
         orientation: 'vertical' or 'horizontal'
         interval: Update interval in seconds
         ticker_col: Optional column letter to write ticker symbols
-        close_col: Optional column letter to write close price
+        close_col: Optional column letter to write today's close price
+        prev_close_col: Optional column letter to write previous day's close price
         diff_col: Optional column letter to write % difference
         include_headers: Whether to write column headers (only on first update)
+        market_price_col: Optional column letter to write current market price
+        pct_change_col: Optional column letter to write % change from previous close
     """
     global _shutdown_requested
 
@@ -381,8 +448,11 @@ def run_daemon(
                 quiet=True,
                 ticker_col=ticker_col,
                 close_col=close_col,
+                prev_close_col=prev_close_col,
                 diff_col=diff_col,
                 include_headers=(include_headers and update_count == 1),
+                market_price_col=market_price_col,
+                pct_change_col=pct_change_col,
             )
             logger.info(f"[{timestamp}] Update #{update_count} completed")
 
@@ -402,7 +472,7 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Update post-market prices for tickers vertically starting at B2
+  # Basic: Update post-market prices for tickers vertically starting at B2
   python update_extended_hours_prices.py \\
     --tickers "AAPL,GOOGL,MSFT" \\
     --spreadsheet-id 1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms \\
@@ -410,7 +480,7 @@ Examples:
     --row 2 \\
     --col B
 
-  # Update pre-market prices from a file, horizontally with change %
+  # Pre-market prices from a file, horizontally with change %
   python update_extended_hours_prices.py \\
     --tickers tickers.txt \\
     --spreadsheet-id 1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms \\
@@ -421,41 +491,50 @@ Examples:
     --include-change \\
     --orientation horizontal
 
-  # Write tickers in A, close in B, extended hours in C, % diff in D with headers
+  # Full example with all columns:
+  # A: Ticker, B: Previous Close, C: Close Price, D: Extended Hour Price,
+  # E: Percentage Change (vs regular), F: Market Price, G: % Change Since Last Close
   python update_extended_hours_prices.py \\
     --tickers "AAPL,GOOGL,MSFT" \\
     --spreadsheet-id 1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms \\
     --tab-name "Prices" \\
-    --row 2 --col C \\
+    --row 2 --col D \\
     --ticker-col A \\
-    --close-col B \\
-    --diff-col D \\
+    --prev-close-col B \\
+    --close-col C \\
+    --diff-col E \\
+    --market-price-col F \\
+    --pct-change-col G \\
     --include-headers
 
-  # Run in daemon mode with headers (headers written on first update only)
+  # Daemon mode with all columns (headers written on first update only)
   python update_extended_hours_prices.py \\
     --tickers "AAPL,TSLA,NVDA" \\
     --spreadsheet-id 1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms \\
     --tab-name "LivePrices" \\
-    --row 2 --col C \\
+    --row 2 --col D \\
     --ticker-col A \\
-    --close-col B \\
-    --diff-col D \\
+    --prev-close-col B \\
+    --close-col C \\
+    --diff-col E \\
+    --market-price-col F \\
+    --pct-change-col G \\
     --include-headers \\
-    --daemon
-
-  # Daemon mode with custom 10-second interval
-  python update_extended_hours_prices.py \\
-    --tickers tickers.txt \\
-    --spreadsheet-id 1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms \\
-    --tab-name "LivePrices" \\
-    --row 2 --col B \\
     --daemon --interval 10
 
   # Tickers file format (one ticker per line):
   # AAPL
   # GOOGL
   # MSFT
+
+Column Descriptions:
+  --col (required)       Extended Hour Price (pre/post market price)
+  --ticker-col           Ticker symbol
+  --prev-close-col       Previous day's close price (always available)
+  --close-col            Today's close price (N/A if market still trading)
+  --diff-col             % change: (extended - regularMarketPrice) / regularMarketPrice
+  --market-price-col     Current market price (extended if available, else regular)
+  --pct-change-col       % change: (marketPrice - previousClose) / previousClose
         """,
     )
 
@@ -494,7 +573,13 @@ Examples:
     parser.add_argument(
         "--close-col",
         default=None,
-        help="Column letter to write regular market close price (e.g., B). If not specified, close price is not written.",
+        help="Column letter to write today's close price (N/A if market still trading).",
+    )
+
+    parser.add_argument(
+        "--prev-close-col",
+        default=None,
+        help="Column letter to write previous day's close price.",
     )
 
     parser.add_argument(
@@ -504,9 +589,21 @@ Examples:
     )
 
     parser.add_argument(
+        "--market-price-col",
+        default=None,
+        help="Column letter to write current market price (extended if available, else regular).",
+    )
+
+    parser.add_argument(
+        "--pct-change-col",
+        default=None,
+        help="Column letter to write %% change from previous close to current market price.",
+    )
+
+    parser.add_argument(
         "--include-headers",
         action="store_true",
-        help="Write column headers (Ticker, Close Price, Extended Hour Price, Percentage Change) in the row above data",
+        help="Write column headers (Ticker, Close Price, Extended Hour Price, Percentage Change, Market Price, %% Change Since Last Close) in the row above data",
     )
 
     parser.add_argument(
@@ -571,8 +668,11 @@ Examples:
             interval=args.interval,
             ticker_col=args.ticker_col,
             close_col=args.close_col,
+            prev_close_col=args.prev_close_col,
             diff_col=args.diff_col,
             include_headers=args.include_headers,
+            market_price_col=args.market_price_col,
+            pct_change_col=args.pct_change_col,
         )
     else:
         update_prices_to_sheet(
@@ -586,8 +686,11 @@ Examples:
             orientation=args.orientation,
             ticker_col=args.ticker_col,
             close_col=args.close_col,
+            prev_close_col=args.prev_close_col,
             diff_col=args.diff_col,
             include_headers=args.include_headers,
+            market_price_col=args.market_price_col,
+            pct_change_col=args.pct_change_col,
         )
 
 
