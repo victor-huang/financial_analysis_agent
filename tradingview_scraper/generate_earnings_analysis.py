@@ -12,11 +12,11 @@ Usage:
 
 import argparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import List, Dict, Tuple
 
 # Import our helper modules
-from earnings_api_helper import get_earnings_for_date
+from earnings_api_helper import get_earnings_for_date, get_earnings_for_date_range
 from financial_data_helper import FinancialDataFetcher
 from csv_generator import build_csv_row, save_to_csv
 
@@ -75,6 +75,7 @@ def generate_earnings_analysis(
     tickers_filter: List[str] = None,
     concurrency: int = 3,
     quarter_mode: str = "forecast",
+    date_range_days: int = 0,
 ) -> List[Dict]:
     """
     Generate complete earnings analysis by combining API and scraper data.
@@ -87,13 +88,21 @@ def generate_earnings_analysis(
         tickers_filter: List of specific tickers to process (None = all)
         concurrency: Number of concurrent scraping sessions (default: 3)
         quarter_mode: 'forecast' for next unreported quarter, 'reported' for last reported
+        date_range_days: Number of days to expand date range on both sides (0 = single day)
 
     Returns:
         List of row dictionaries
     """
     print(f"\n{'='*80}")
     print(f"Generating Earnings Analysis CSV")
-    print(f"Date: {date.strftime('%Y-%m-%d')}")
+    if date_range_days > 0:
+        start_date = date - timedelta(days=date_range_days)
+        end_date = date + timedelta(days=date_range_days)
+        print(
+            f"Date Range: {start_date.strftime('%Y-%m-%d')} to {end_date.strftime('%Y-%m-%d')} (center: {date.strftime('%Y-%m-%d')}, +/- {date_range_days} days)"
+        )
+    else:
+        print(f"Date: {date.strftime('%Y-%m-%d')}")
     print(f"Output: {output_filename}")
     if tickers_filter:
         print(f"Filter: {', '.join(tickers_filter)}")
@@ -101,7 +110,12 @@ def generate_earnings_analysis(
 
     # Step 1: Fetch earnings from API
     print("\nStep 1: Fetching earnings calendar data...")
-    api_data = get_earnings_for_date(date)
+    if date_range_days > 0:
+        start_date = date - timedelta(days=date_range_days)
+        end_date = date + timedelta(days=date_range_days)
+        api_data = get_earnings_for_date_range(start_date, end_date)
+    else:
+        api_data = get_earnings_for_date(date)
 
     if not api_data:
         print("No earnings found for this date")
@@ -257,6 +271,10 @@ Examples:
   # Combined example: specific tickers with 5 concurrent sessions
   python generate_earnings_analysis.py -t "AAPL, MSFT, GOOGL" -c 5 -o tech_earnings.csv
 
+  # Expand date range by 3 days on each side (covers 7 days total)
+  # e.g., --date 2026-01-15 --expand-to-near-by-days 3 covers 2026-01-12 to 2026-01-18
+  python generate_earnings_analysis.py --date 2026-01-15 --expand-to-near-by-days 3
+
 Quarter Modes:
   forecast (default): Uses next unreported quarter as "Current Quarter"
                       Best for companies about to report earnings
@@ -317,6 +335,15 @@ Quarter Modes:
         help="Quarter anchor mode: 'forecast' uses next unreported quarter (default), 'reported' uses last reported quarter",
     )
 
+    parser.add_argument(
+        "--expand-to-near-by-days",
+        "-r",
+        type=int,
+        default=0,
+        help="Expand date coverage by this many days on both sides. "
+        "e.g., --date 2026-01-15 --expand-to-near-by-days 3 covers 2026-01-12 to 2026-01-18 (default: 0, single day)",
+    )
+
     args = parser.parse_args()
 
     # Generate default filename if not specified
@@ -338,6 +365,7 @@ Quarter Modes:
             tickers_filter=tickers_filter,
             concurrency=args.concurrency,
             quarter_mode=args.quarter_mode,
+            date_range_days=args.expand_to_near_by_days,
         )
     except KeyboardInterrupt:
         print("\n\nInterrupted by user")

@@ -5,7 +5,7 @@ Helper functions for fetching earnings data from TradingView API.
 
 import requests
 from datetime import datetime, time
-from typing import Dict, List, Optional
+from typing import Dict, List
 
 
 def fetch_earnings_from_api(start_timestamp: int, end_timestamp: int) -> Dict:
@@ -21,9 +21,7 @@ def fetch_earnings_from_api(start_timestamp: int, end_timestamp: int) -> Dict:
     """
     url = "https://scanner.tradingview.com/america/scan"
 
-    params = {
-        "label-product": "screener-stock-old"
-    }
+    params = {"label-product": "screener-stock-old"}
 
     headers = {
         "accept": "text/plain, */*; q=0.01",
@@ -31,7 +29,7 @@ def fetch_earnings_from_api(start_timestamp: int, end_timestamp: int) -> Dict:
         "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
         "origin": "https://www.tradingview.com",
         "referer": "https://www.tradingview.com/",
-        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
     }
 
     payload = {
@@ -40,8 +38,8 @@ def fetch_earnings_from_api(start_timestamp: int, end_timestamp: int) -> Dict:
             {
                 "left": "earnings_release_date,earnings_release_next_date",
                 "operation": "in_range",
-                "right": [start_timestamp, end_timestamp]
-            }
+                "right": [start_timestamp, end_timestamp],
+            },
         ],
         "options": {"lang": "en"},
         "markets": ["america"],
@@ -63,10 +61,10 @@ def fetch_earnings_from_api(start_timestamp: int, end_timestamp: int) -> Dict:
             "earnings_release_next_date",
             "sector",
             "industry",
-            "currency"
+            "currency",
         ],
         "sort": {"sortBy": "market_cap_basic", "sortOrder": "desc"},
-        "range": [0, 450]
+        "range": [0, 450],
     }
 
     response = requests.post(url, params=params, headers=headers, json=payload)
@@ -111,18 +109,20 @@ def parse_api_response(response_data: Dict) -> List[Dict]:
         sector = data_values[14] if len(data_values) > 14 else ""
         industry = data_values[15] if len(data_values) > 15 else ""
 
-        results.append({
-            "ticker": ticker,
-            "exchange": exchange,
-            "company_name": company_name,
-            "market_cap": market_cap,
-            "sector": sector,
-            "industry": industry,
-            "eps_q_estimate": eps_estimate,
-            "eps_q_actual": eps_actual,
-            "revenue_q_estimate": revenue_estimate,
-            "revenue_q_actual": revenue_actual
-        })
+        results.append(
+            {
+                "ticker": ticker,
+                "exchange": exchange,
+                "company_name": company_name,
+                "market_cap": market_cap,
+                "sector": sector,
+                "industry": industry,
+                "eps_q_estimate": eps_estimate,
+                "eps_q_actual": eps_actual,
+                "revenue_q_estimate": revenue_estimate,
+                "revenue_q_actual": revenue_actual,
+            }
+        )
 
     return results
 
@@ -144,10 +144,39 @@ def get_earnings_for_date(date: datetime) -> List[Dict]:
     end_timestamp = int(end_dt.timestamp())
 
     print(f"Fetching earnings from API for {date.strftime('%Y-%m-%d')}...")
-    
+
     response = fetch_earnings_from_api(start_timestamp, end_timestamp)
     earnings_data = parse_api_response(response)
-    
+
     print(f"  Found {len(earnings_data)} companies with earnings")
-    
+
+    return earnings_data
+
+
+def get_earnings_for_date_range(start_date: datetime, end_date: datetime) -> List[Dict]:
+    """
+    Get earnings data for a date range.
+
+    Args:
+        start_date: Start date of the range (inclusive)
+        end_date: End date of the range (inclusive)
+
+    Returns:
+        List of earnings data dictionaries
+    """
+    start_dt = datetime.combine(start_date.date(), time.min)
+    end_dt = datetime.combine(end_date.date(), time.max)
+
+    start_timestamp = int(start_dt.timestamp())
+    end_timestamp = int(end_dt.timestamp())
+
+    print(
+        f"Fetching earnings from API for {start_date.strftime('%Y-%m-%d')} to {end_date.strftime('%Y-%m-%d')}..."
+    )
+
+    response = fetch_earnings_from_api(start_timestamp, end_timestamp)
+    earnings_data = parse_api_response(response)
+
+    print(f"  Found {len(earnings_data)} companies with earnings")
+
     return earnings_data

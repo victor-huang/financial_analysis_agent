@@ -9,6 +9,7 @@ import argparse
 import json
 import logging
 import signal
+import subprocess
 import sys
 import time
 from datetime import datetime
@@ -135,6 +136,43 @@ def load_tickers(source: str) -> List[str]:
         tickers = [t.strip().upper() for t in source.split(",") if t.strip()]
         logger.info(f"Parsed {len(tickers)} tickers from input")
         return tickers
+
+
+def read_tickers_from_sheet(
+    client: GoogleSheetsClient,
+    spreadsheet_id: str,
+    tab_name: str,
+    ticker_col: str,
+    start_row: int,
+) -> List[str]:
+    """
+    Read ticker symbols from a column in Google Sheets.
+
+    Args:
+        client: GoogleSheetsClient instance
+        spreadsheet_id: Google Sheets spreadsheet ID
+        tab_name: Name of the tab to read from
+        ticker_col: Column letter containing ticker symbols
+        start_row: Starting row number (1-indexed)
+
+    Returns:
+        List of ticker symbols read from the sheet
+    """
+    try:
+        range_notation = f"{tab_name}!{ticker_col}{start_row}:{ticker_col}"
+        result = (
+            client.service.spreadsheets()
+            .values()
+            .get(spreadsheetId=spreadsheet_id, range=range_notation)
+            .execute()
+        )
+        values = result.get("values", [])
+        tickers = [row[0].strip().upper() for row in values if row and row[0].strip()]
+        logger.info(f"Read {len(tickers)} tickers from sheet column {ticker_col}")
+        return tickers
+    except Exception as e:
+        logger.error(f"Failed to read tickers from sheet: {e}")
+        raise
 
 
 def column_letter_to_index(col: str) -> int:
@@ -409,6 +447,8 @@ def run_daemon(
     include_headers: bool = False,
     market_price_col: Optional[str] = None,
     pct_change_col: Optional[str] = None,
+    read_tickers_from_col: Optional[str] = None,
+    on_new_tickers_cmd: Optional[str] = None,
 ) -> None:
     """
     Run in daemon mode, updating prices at regular intervals.
@@ -430,6 +470,8 @@ def run_daemon(
         include_headers: Whether to write column headers (only on first update)
         market_price_col: Optional column letter to write current market price
         pct_change_col: Optional column letter to write % change from previous close
+        read_tickers_from_col: If set, re-read tickers from this column on each update
+        on_new_tickers_cmd: If set, run this command when new tickers are detected
     """
     global _shutdown_requested
 
@@ -437,38 +479,100 @@ def run_daemon(
     signal.signal(signal.SIGTERM, signal_handler)
 
     logger.info(f"Starting daemon mode - updating every {interval} seconds")
-    logger.info(f"Tickers: {', '.join(tickers)}")
-    logger.info(f"Press Ctrl+C to stop")
+    logger.info(f"Initial tickers: {', '.join(tickers)}")
+    if read_tickers_from_col:
+        logger.info(
+            f"Will re-read tickers from column {read_tickers_from_col} on each update"
+        )
+    logger.info("Press Ctrl+C to stop")
     logger.info(f"Spreadsheet: https://docs.google.com/spreadsheets/d/{spreadsheet_id}")
 
     client = create_sheets_client()
 
     update_count = 0
+    current_tickers = tickers
     while not _shutdown_requested:
         update_count += 1
         timestamp = datetime.now().strftime("%H:%M:%S")
 
         try:
-            update_prices_to_sheet(
-                tickers=tickers,
-                spreadsheet_id=spreadsheet_id,
-                tab_name=tab_name,
-                start_row=start_row,
-                start_col=start_col,
-                price_type=price_type,
-                include_change=include_change,
-                orientation=orientation,
-                client=client,
-                quiet=True,
-                ticker_col=ticker_col,
-                close_col=close_col,
-                prev_close_col=prev_close_col,
-                diff_col=diff_col,
-                include_headers=(include_headers and update_count == 1),
-                market_price_col=market_price_col,
-                pct_change_col=pct_change_col,
-            )
-            logger.info(f"[{timestamp}] Update #{update_count} completed")
+            if read_tickers_from_col:
+                new_tickers = read_tickers_from_sheet(
+                    client=client,
+                    spreadsheet_id=spreadsheet_id,
+                    tab_name=tab_name,
+                    ticker_col=read_tickers_from_col,
+                    start_row=start_row,
+                )
+                if new_tickers != current_tickers:
+                    added = set(new_tickers) - set(current_tickers)
+                    removed = set(current_tickers) - set(new_tickers)
+                    if added:
+                        logger.info(
+                            f"[{timestamp}] New tickers added: {', '.join(added)}"
+                        )
+                    if removed:
+                        logger.info(
+                            f"[{timestamp}] Tickers removed: {', '.join(removed)}"
+                        )
+                    current_tickers = new_tickers
+                    tickers_file = "tickers_from_spreadsheet.txt"
+                    with open(tickers_file, "w") as f:
+                        f.write(",".join(current_tickers))
+                    logger.info(
+                        f"[{timestamp}] Updated {tickers_file} with {len(current_tickers)} tickers"
+                    )
+
+                    if added and on_new_tickers_cmd:
+                        today_str = datetime.now().strftime("%Y-%m-%d")
+                        cmd = on_new_tickers_cmd.replace("{date}", today_str)
+                        logger.info(
+                            f"[{timestamp}] Triggering earnings script for new tickers..."
+                        )
+                        logger.info(f"[{timestamp}] Command: {cmd}")
+                        try:
+                            log_filename = f"earnings_script_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+                            log_file = open(log_filename, "w")
+                            subprocess.Popen(
+                                cmd,
+                                shell=True,
+                                stdout=log_file,
+                                stderr=subprocess.STDOUT,
+                                start_new_session=True,
+                            )
+                            logger.info(
+                                f"[{timestamp}] Earnings script started in background, output: {log_filename}"
+                            )
+                        except Exception as e:
+                            logger.error(
+                                f"[{timestamp}] Failed to start earnings script: {e}"
+                            )
+
+            if not current_tickers:
+                logger.warning(f"[{timestamp}] No tickers to update, skipping...")
+            else:
+                update_prices_to_sheet(
+                    tickers=current_tickers,
+                    spreadsheet_id=spreadsheet_id,
+                    tab_name=tab_name,
+                    start_row=start_row,
+                    start_col=start_col,
+                    price_type=price_type,
+                    include_change=include_change,
+                    orientation=orientation,
+                    client=client,
+                    quiet=True,
+                    ticker_col=ticker_col,
+                    close_col=close_col,
+                    prev_close_col=prev_close_col,
+                    diff_col=diff_col,
+                    include_headers=(include_headers and update_count == 1),
+                    market_price_col=market_price_col,
+                    pct_change_col=pct_change_col,
+                )
+                logger.info(
+                    f"[{timestamp}] Update #{update_count} completed ({len(current_tickers)} tickers)"
+                )
 
         except Exception as e:
             logger.error(f"[{timestamp}] Update #{update_count} failed: {e}")
@@ -536,10 +640,42 @@ Examples:
     --include-headers \\
     --daemon --interval 10
 
+  # Read tickers from spreadsheet column A (no --tickers needed)
+  # Useful when the spreadsheet already has a list of tickers
+  python update_extended_hours_prices.py \\
+    --spreadsheet-id 1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms \\
+    --tab-name "Prices" \\
+    --row 2 --col D \\
+    --ticker-col A \\
+    --prev-close-col B \\
+    --close-col C \\
+    --market-price-col E \\
+    --pct-change-col F
+
+  # Daemon mode: auto-trigger earnings script when new tickers are added
+  python update_extended_hours_prices.py \\
+    --spreadsheet-id 1UDqEa__FQPbAFWLSJ69zKDJwtaEbym_o0r3N3GElDIA \\
+    --tab-name "Prices" \\
+    --row 2 --col D \\
+    --ticker-col A \\
+    --daemon --interval 10 \\
+    --on-new-tickers-cmd "cd tradingview_scraper && python run_earnings_to_sheets.py \\
+      --tickers-file ../tickers_from_spreadsheet.txt \\
+      --spreadsheet-id 1UDqEa__FQPbAFWLSJ69zKDJwtaEbym_o0r3N3GElDIA \\
+      --date {date} --tab-name Earnings_Data --quarter-mode reported --concurrency 5"
+
   # Tickers file format (one ticker per line):
   # AAPL
   # GOOGL
   # MSFT
+
+Ticker Source (one of these is required):
+  --tickers            Provide tickers via command line or file
+  --ticker-col         Read tickers from this column in the spreadsheet
+                       (if --tickers is not provided)
+                       Note: When reading from sheet, tickers are also saved to
+                       "tickers_from_spreadsheet.txt" (comma-separated) for use
+                       by other scripts like run_earnings_to_sheets.py
 
 Column Descriptions:
   --col (required)       Extended Hour Price (pre/post market price)
@@ -554,8 +690,9 @@ Column Descriptions:
 
     parser.add_argument(
         "--tickers",
-        required=True,
-        help="Comma-separated tickers or path to file with one ticker per line",
+        default=None,
+        help="Comma-separated tickers or path to file with one ticker per line. "
+        "If not provided, tickers will be read from --ticker-col in the spreadsheet.",
     )
 
     parser.add_argument(
@@ -658,16 +795,53 @@ Column Descriptions:
         help="Update interval in seconds for daemon mode (default: 5)",
     )
 
+    parser.add_argument(
+        "--on-new-tickers-cmd",
+        type=str,
+        default=None,
+        help="Command to run when new tickers are detected (daemon mode only). "
+        "Use {date} as placeholder for today's date. "
+        "Example: 'python run_earnings_to_sheets.py --tickers-file tickers_from_spreadsheet.txt --date {date}'",
+    )
+
     args = parser.parse_args()
 
     if args.verbose:
         logging.getLogger().setLevel(logging.DEBUG)
 
-    tickers = load_tickers(args.tickers)
+    tickers_from_sheet = False
+    if args.tickers:
+        tickers = load_tickers(args.tickers)
+    elif args.ticker_col:
+        logger.info("Reading tickers from spreadsheet...")
+        client = create_sheets_client()
+        tickers = read_tickers_from_sheet(
+            client=client,
+            spreadsheet_id=args.spreadsheet_id,
+            tab_name=args.tab_name,
+            ticker_col=args.ticker_col,
+            start_row=args.row,
+        )
+        tickers_from_sheet = True
+        if tickers:
+            tickers_file = "tickers_from_spreadsheet.txt"
+            with open(tickers_file, "w") as f:
+                f.write(",".join(tickers))
+            logger.info(f"Saved {len(tickers)} tickers to {tickers_file}")
+    else:
+        logger.error(
+            "No tickers provided. Use --tickers or --ticker-col to specify tickers."
+        )
+        sys.exit(1)
 
     if not tickers:
-        logger.error("No tickers provided")
+        logger.error("No tickers found")
         sys.exit(1)
+
+    # Don't write to ticker_col if tickers were read from sheet (it's the source of truth)
+    write_ticker_col = None if tickers_from_sheet else args.ticker_col
+    # Re-read tickers from sheet in daemon mode if tickers came from sheet
+    read_tickers_col = args.ticker_col if tickers_from_sheet else None
 
     if args.daemon:
         run_daemon(
@@ -680,13 +854,15 @@ Column Descriptions:
             include_change=args.include_change,
             orientation=args.orientation,
             interval=args.interval,
-            ticker_col=args.ticker_col,
+            ticker_col=write_ticker_col,
             close_col=args.close_col,
             prev_close_col=args.prev_close_col,
             diff_col=args.diff_col,
             include_headers=args.include_headers,
             market_price_col=args.market_price_col,
             pct_change_col=args.pct_change_col,
+            read_tickers_from_col=read_tickers_col,
+            on_new_tickers_cmd=args.on_new_tickers_cmd,
         )
     else:
         update_prices_to_sheet(
@@ -698,7 +874,7 @@ Column Descriptions:
             price_type=args.price_type,
             include_change=args.include_change,
             orientation=args.orientation,
-            ticker_col=args.ticker_col,
+            ticker_col=write_ticker_col,
             close_col=args.close_col,
             prev_close_col=args.prev_close_col,
             diff_col=args.diff_col,
