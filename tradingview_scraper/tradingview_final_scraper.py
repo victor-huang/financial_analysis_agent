@@ -24,6 +24,53 @@ from selenium.webdriver.common.action_chains import ActionChains
 from bs4 import BeautifulSoup
 
 
+def _normalize_text(text: str) -> str:
+    """
+    Normalize text from TradingView by removing/replacing special Unicode characters.
+
+    Handles:
+    - U+202A (LEFT-TO-RIGHT EMBEDDING)
+    - U+202C (POP DIRECTIONAL FORMATTING)
+    - U+2212 (MINUS SIGN) -> ASCII hyphen
+    - U+202F (NARROW NO-BREAK SPACE) -> regular space
+    """
+    return (
+        text.replace("\u202a", "")
+        .replace("\u202c", "")
+        .replace("\u2212", "-")  # Unicode minus to ASCII hyphen
+        .replace("\u202f", " ")  # Narrow no-break space to regular space
+        .strip()
+    )
+
+
+def _parse_period_for_sorting(period: str) -> tuple:
+    """
+    Parse a period string into a sortable tuple.
+
+    Args:
+        period: Period string like "Q1 '24", "Q4 '25", or "2024"
+
+    Returns:
+        Tuple (year, quarter) for sorting. Quarter is 0 for annual periods.
+    """
+    # Match quarterly format: "Q1 '24", "Q2'25", etc.
+    quarterly_match = re.match(r"Q(\d)\s*'(\d{2})$", period)
+    if quarterly_match:
+        quarter = int(quarterly_match.group(1))
+        year_suffix = int(quarterly_match.group(2))
+        year = 2000 + year_suffix if year_suffix < 50 else 1900 + year_suffix
+        return (year, quarter)
+
+    # Match annual format: "2024", "2025", etc.
+    annual_match = re.match(r"^(\d{4})$", period)
+    if annual_match:
+        year = int(annual_match.group(1))
+        return (year, 0)
+
+    # Fallback: return a tuple that sorts to the end
+    return (9999, 0)
+
+
 class TradingViewFinalScraper:
     """TradingView scraper for EPS and Revenue data extraction from forecast pages."""
 
@@ -149,7 +196,9 @@ class TradingViewFinalScraper:
             except Exception as e:
                 last_error = e
                 if attempt < max_retries:
-                    print(f"  ⚠ Driver setup failed (attempt {attempt}/{max_retries}): {e}")
+                    print(
+                        f"  ⚠ Driver setup failed (attempt {attempt}/{max_retries}): {e}"
+                    )
                     print(f"  → Retrying in 2 seconds...")
                     time.sleep(2)
 
@@ -190,12 +239,13 @@ class TradingViewFinalScraper:
 
         result = {}
 
-        # For Revenue, use table extraction; for EPS, use chart extraction
+        # Use table extraction for both EPS and Revenue (more accurate than bar charts)
         if section_name == "Revenue":
-            # Extract from table data instead of chart
             result = self._extract_revenue_from_table(section_element)
+        elif section_name == "EPS":
+            result = self._extract_eps_from_table(section_element)
         else:
-            # Extract quarterly data (default view)
+            # Fallback: Extract quarterly data from chart (default view)
             print(f"  → Extracting quarterly {section_name}...")
             result["quarterly"] = self._extract_chart_data_from_section(
                 section_element, "quarterly"
@@ -300,6 +350,72 @@ class TradingViewFinalScraper:
             print(f"    ✗ Error clicking {tab_name} tab: {e}")
             return False
 
+    def _extract_eps_from_table(self, section_element: any) -> Dict:
+        """
+        Extract EPS data from table structure.
+
+        EPS section is inside a parent container that holds both EPS and Revenue sections.
+        Structure:
+        - container-fptnPtZy (parent)
+          - [0] heading for EPS (contains our H3 and tabs)
+          - [1] chart for EPS
+          - [2] table for EPS <- WE WANT THIS
+          - [3] spacing
+          - [4] heading for Revenue
+          - [5] chart for Revenue
+          - [6] table for Revenue
+
+        Args:
+            section_element: The container element for EPS section
+
+        Returns:
+            Dictionary with quarterly and annual data
+        """
+        try:
+            # section_element is the parent container found by _find_section for EPS
+            # Get all children of the container
+            children = section_element.find_elements(By.XPATH, "./*")
+
+            print(f"    → EPS container has {len(children)} children")
+
+            if len(children) < 3:
+                print(f"    ✗ Expected at least 3 children, got {len(children)}")
+                return {"quarterly": {}, "annual": {}}
+
+            # Child [2] is the EPS table container
+            eps_table_container = children[2]
+
+            # Extract quarterly data (default view)
+            print(f"  → Extracting quarterly EPS from table...")
+            quarterly_data = self._extract_table_data(eps_table_container, "quarterly")
+
+            result = {"quarterly": quarterly_data}
+
+            # Find Annual button in the EPS heading (child [0])
+            eps_heading = children[0]
+            tabs = eps_heading.find_elements(By.XPATH, ".//button[@role='tab']")
+
+            for tab in tabs:
+                if "Annual" in tab.text or tab.get_attribute("id") == "FY":
+                    self.driver.execute_script("arguments[0].click();", tab)
+                    print(f"    ✓ Clicked Annual tab")
+                    time.sleep(5)
+                    break
+
+            # Extract annual data from table
+            print(f"  → Extracting annual EPS from table...")
+            annual_data = self._extract_table_data(eps_table_container, "annual")
+            result["annual"] = annual_data
+
+            return result
+
+        except Exception as e:
+            print(f"    ✗ Error extracting EPS from table: {e}")
+            import traceback
+
+            traceback.print_exc()
+            return {"quarterly": {}, "annual": {}}
+
     def _extract_first_chart_data(self) -> Optional[Dict]:
         """
         Extract data from the first chart found on the page (fallback method).
@@ -357,7 +473,7 @@ class TradingViewFinalScraper:
         # Extract scale
         scale_values = []
         for elem in soup.find_all("div", class_=re.compile(r"verticalScaleValue")):
-            text = elem.get_text(strip=True).replace("\u202a", "").replace("\u202c", "")
+            text = _normalize_text(elem.get_text(strip=True))
             try:
                 scale_values.append(float(text))
             except:
@@ -405,6 +521,10 @@ class TradingViewFinalScraper:
             for d in data_points
             if d["reported"] is None and d["estimate"] is not None
         ]
+
+        # Sort chronologically so [-1] gives the most recent period
+        historical.sort(key=lambda x: _parse_period_for_sorting(x["period"]))
+        forecast.sort(key=lambda x: _parse_period_for_sorting(x["period"]))
 
         return {
             "historical": historical,
@@ -509,7 +629,7 @@ class TradingViewFinalScraper:
             data_cells = []
 
             for v in values:
-                text = v.text.replace("\u202a", "").replace("\u202c", "").strip()
+                text = _normalize_text(v.text)
                 x_pos = v.location["x"]
 
                 if period_type == "annual" and re.match(r"^\d{4}$", text):
@@ -554,7 +674,7 @@ class TradingViewFinalScraper:
             # Get reported and estimate values by index (they come in order after period labels)
             all_data_values = []
             for v in values:
-                text = v.text.replace("\u202a", "").replace("\u202c", "").strip()
+                text = _normalize_text(v.text)
                 if not re.match(r"^\d{4}$", text) and "'" not in text:
                     # Not a period label, so it's a data value
                     if "%" in text:
@@ -602,6 +722,10 @@ class TradingViewFinalScraper:
                 for d in data_points
                 if d["reported"] is None and d["estimate"] is not None
             ]
+
+            # Sort chronologically so [-1] gives the most recent period
+            historical.sort(key=lambda x: _parse_period_for_sorting(x["period"]))
+            forecast.sort(key=lambda x: _parse_period_for_sorting(x["period"]))
 
             print(
                 f"    ✓ Extracted {len(historical)} historical, {len(forecast)} forecast"
@@ -666,7 +790,7 @@ class TradingViewFinalScraper:
         # Extract scale values
         scale_values = []
         for elem in soup.find_all("div", class_=re.compile(r"verticalScaleValue")):
-            text = elem.get_text(strip=True).replace("\u202a", "").replace("\u202c", "")
+            text = _normalize_text(elem.get_text(strip=True))
             try:
                 scale_values.append(float(text))
             except:
@@ -723,6 +847,10 @@ class TradingViewFinalScraper:
             for d in data_points
             if d["reported"] is None and d["estimate"] is not None
         ]
+
+        # Sort chronologically so [-1] gives the most recent period
+        historical.sort(key=lambda x: _parse_period_for_sorting(x["period"]))
+        forecast.sort(key=lambda x: _parse_period_for_sorting(x["period"]))
 
         print(f"    ✓ Extracted {len(historical)} historical, {len(forecast)} forecast")
 
