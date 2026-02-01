@@ -10,7 +10,7 @@ LOGFILE="$SCRIPT_DIR/quarterly_earnings_price_tracker.log"
 
 # Configure your command here
 SPREADSHEET_ID="1UDqEa__FQPbAFWLSJ69zKDJwtaEbym_o0r3N3GElDIA"
-INTERVAL="10"
+INTERVAL="30"
 TAB_NAME="LivePrices"
 FETCHED_EARNING_DATA_TAB_NAME="Earnings_Data"
 
@@ -31,6 +31,7 @@ CMD="$CMD --prev-close-col B"
 CMD="$CMD --close-col C"
 CMD="$CMD --market-price-col E"
 CMD="$CMD --pct-change-col F"
+CMD="$CMD --diff-col G"
 CMD="$CMD --daemon"
 CMD="$CMD --interval $INTERVAL"
 

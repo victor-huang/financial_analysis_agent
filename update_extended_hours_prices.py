@@ -505,7 +505,9 @@ def run_daemon(
             logger.info(f"[{timestamp}] Starting queued command...")
             logger.info(f"[{timestamp}] Command: {cmd}")
             try:
-                log_filename = f"earnings_script_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+                log_filename = (
+                    f"earnings_script_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+                )
                 running_subprocess_log = open(log_filename, "w")
                 running_subprocess = subprocess.Popen(
                     cmd,
@@ -545,7 +547,10 @@ def run_daemon(
                     running_subprocess_start = None
                     # Start next from queue if available
                     start_subprocess_from_queue(timestamp)
-                elif running_subprocess_start and (time.time() - running_subprocess_start) > subprocess_timeout:
+                elif (
+                    running_subprocess_start
+                    and (time.time() - running_subprocess_start) > subprocess_timeout
+                ):
                     # Timeout - kill the subprocess
                     logger.warning(
                         f"[{timestamp}] Earnings script exceeded 30 min timeout, killing..."
@@ -624,11 +629,15 @@ def run_daemon(
                     pct_change_col=pct_change_col,
                 )
                 # Build status message with subprocess info
-                status_parts = [f"Update #{update_count} completed ({len(current_tickers)} tickers)"]
+                status_parts = [
+                    f"Update #{update_count} completed ({len(current_tickers)} tickers)"
+                ]
                 if running_subprocess is not None and running_subprocess_start:
                     elapsed_mins = int((time.time() - running_subprocess_start) / 60)
                     elapsed_secs = int((time.time() - running_subprocess_start) % 60)
-                    status_parts.append(f"subprocess running {elapsed_mins}m{elapsed_secs}s")
+                    status_parts.append(
+                        f"subprocess running {elapsed_mins}m{elapsed_secs}s"
+                    )
                 if subprocess_queue:
                     status_parts.append(f"queue: {len(subprocess_queue)} pending")
                 logger.info(f"[{timestamp}] {' | '.join(status_parts)}")
@@ -645,7 +654,9 @@ def run_daemon(
         running_subprocess_log.close()
 
     if subprocess_queue:
-        logger.warning(f"Daemon stopped with {len(subprocess_queue)} queued command(s) not executed")
+        logger.warning(
+            f"Daemon stopped with {len(subprocess_queue)} queued command(s) not executed"
+        )
 
     logger.info(f"Daemon stopped after {update_count} updates")
 
@@ -900,9 +911,17 @@ Column Descriptions:
         )
         sys.exit(1)
 
+    # In daemon mode with sheet as source, allow starting with empty tickers
+    # (the daemon will poll the sheet and pick up tickers when they appear)
     if not tickers:
-        logger.error("No tickers found")
-        sys.exit(1)
+        if args.daemon and tickers_from_sheet:
+            logger.warning(
+                "No tickers found in spreadsheet. "
+                "Daemon will start and poll for tickers..."
+            )
+        else:
+            logger.error("No tickers found")
+            sys.exit(1)
 
     # Don't write to ticker_col if tickers were read from sheet (it's the source of truth)
     write_ticker_col = None if tickers_from_sheet else args.ticker_col
