@@ -491,11 +491,74 @@ def run_daemon(
 
     update_count = 0
     current_tickers = tickers
+    running_subprocess = None  # Track running subprocess
+    running_subprocess_log = None  # Track log file handle
+    running_subprocess_start = None  # Track start time for timeout
+    subprocess_queue = []  # Queue for pending commands
+    subprocess_timeout = 30 * 60  # 30 minutes timeout
+
+    def start_subprocess_from_queue(timestamp):
+        """Start the next subprocess from queue if available."""
+        nonlocal running_subprocess, running_subprocess_log, running_subprocess_start
+        if subprocess_queue and running_subprocess is None:
+            cmd = subprocess_queue.pop(0)
+            logger.info(f"[{timestamp}] Starting queued command...")
+            logger.info(f"[{timestamp}] Command: {cmd}")
+            try:
+                log_filename = f"earnings_script_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+                running_subprocess_log = open(log_filename, "w")
+                running_subprocess = subprocess.Popen(
+                    cmd,
+                    shell=True,
+                    stdout=running_subprocess_log,
+                    stderr=subprocess.STDOUT,
+                    start_new_session=True,
+                )
+                running_subprocess_start = time.time()
+                logger.info(
+                    f"[{timestamp}] Earnings script started in background, output: {log_filename}"
+                )
+                if subprocess_queue:
+                    logger.info(
+                        f"[{timestamp}] Queue status: {len(subprocess_queue)} command(s) pending"
+                    )
+            except Exception as e:
+                logger.error(f"[{timestamp}] Failed to start earnings script: {e}")
+                if running_subprocess_log:
+                    running_subprocess_log.close()
+                    running_subprocess_log = None
+
     while not _shutdown_requested:
         update_count += 1
         timestamp = datetime.now().strftime("%H:%M:%S")
 
         try:
+            # Check subprocess status: timeout or completion
+            if running_subprocess is not None:
+                if running_subprocess.poll() is not None:
+                    # Subprocess finished
+                    logger.info(f"[{timestamp}] Earnings script completed")
+                    if running_subprocess_log:
+                        running_subprocess_log.close()
+                        running_subprocess_log = None
+                    running_subprocess = None
+                    running_subprocess_start = None
+                    # Start next from queue if available
+                    start_subprocess_from_queue(timestamp)
+                elif running_subprocess_start and (time.time() - running_subprocess_start) > subprocess_timeout:
+                    # Timeout - kill the subprocess
+                    logger.warning(
+                        f"[{timestamp}] Earnings script exceeded 30 min timeout, killing..."
+                    )
+                    running_subprocess.kill()
+                    if running_subprocess_log:
+                        running_subprocess_log.close()
+                        running_subprocess_log = None
+                    running_subprocess = None
+                    running_subprocess_start = None
+                    # Start next from queue if available
+                    start_subprocess_from_queue(timestamp)
+
             if read_tickers_from_col:
                 new_tickers = read_tickers_from_sheet(
                     client=client,
@@ -526,26 +589,16 @@ def run_daemon(
                     if added and on_new_tickers_cmd:
                         today_str = datetime.now().strftime("%Y-%m-%d")
                         cmd = on_new_tickers_cmd.replace("{date}", today_str)
-                        logger.info(
-                            f"[{timestamp}] Triggering earnings script for new tickers..."
-                        )
-                        logger.info(f"[{timestamp}] Command: {cmd}")
-                        try:
-                            log_filename = f"earnings_script_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
-                            log_file = open(log_filename, "w")
-                            subprocess.Popen(
-                                cmd,
-                                shell=True,
-                                stdout=log_file,
-                                stderr=subprocess.STDOUT,
-                                start_new_session=True,
-                            )
+
+                        if running_subprocess is None:
+                            # No subprocess running, start immediately
+                            subprocess_queue.append(cmd)
+                            start_subprocess_from_queue(timestamp)
+                        else:
+                            # Add to queue
+                            subprocess_queue.append(cmd)
                             logger.info(
-                                f"[{timestamp}] Earnings script started in background, output: {log_filename}"
-                            )
-                        except Exception as e:
-                            logger.error(
-                                f"[{timestamp}] Failed to start earnings script: {e}"
+                                f"[{timestamp}] Command queued (subprocess running). Queue size: {len(subprocess_queue)}"
                             )
 
             if not current_tickers:
@@ -570,9 +623,15 @@ def run_daemon(
                     market_price_col=market_price_col,
                     pct_change_col=pct_change_col,
                 )
-                logger.info(
-                    f"[{timestamp}] Update #{update_count} completed ({len(current_tickers)} tickers)"
-                )
+                # Build status message with subprocess info
+                status_parts = [f"Update #{update_count} completed ({len(current_tickers)} tickers)"]
+                if running_subprocess is not None and running_subprocess_start:
+                    elapsed_mins = int((time.time() - running_subprocess_start) / 60)
+                    elapsed_secs = int((time.time() - running_subprocess_start) % 60)
+                    status_parts.append(f"subprocess running {elapsed_mins}m{elapsed_secs}s")
+                if subprocess_queue:
+                    status_parts.append(f"queue: {len(subprocess_queue)} pending")
+                logger.info(f"[{timestamp}] {' | '.join(status_parts)}")
 
         except Exception as e:
             logger.error(f"[{timestamp}] Update #{update_count} failed: {e}")
@@ -580,6 +639,13 @@ def run_daemon(
         sleep_start = time.time()
         while not _shutdown_requested and (time.time() - sleep_start) < interval:
             time.sleep(0.1)
+
+    # Cleanup: close log file if still open
+    if running_subprocess_log:
+        running_subprocess_log.close()
+
+    if subprocess_queue:
+        logger.warning(f"Daemon stopped with {len(subprocess_queue)} queued command(s) not executed")
 
     logger.info(f"Daemon stopped after {update_count} updates")
 
