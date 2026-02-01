@@ -1,0 +1,23 @@
+# Minimal requirements for quarterly_earnings_price_tracker.sh
+# This excludes heavy ML/LLM dependencies (torch, transformers, etc.)
+
+# Core
+python-dotenv>=1.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.28.0
+pyyaml>=6.0
+
+# Financial Data (yfinance for stock prices)
+yfinance>=0.2.0
+
+# Google Sheets Integration
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.1
+google-api-python-client>=2.100.0
+
+# Web Scraping (for tradingview_scraper)
+selenium>=4.15.0
+beautifulsoup4>=4.12.0
+webdriver-manager>=4.0.0
