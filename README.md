@@ -89,6 +89,59 @@ python update_extended_hours_prices.py \
 
 See `tradingview_scraper/README.md` for earnings analysis tools.
 
+## Docker
+
+A lightweight Docker image (~1.2GB) is available for running the price tracker without installing all dependencies locally.
+
+### Quick Start
+
+```bash
+# 1. Build the image
+docker build -t financial-tracker .
+
+# 2. Create .env.docker from .env.example and configure:
+#    - GOOGLE_SHEETS_CREDENTIALS_PATH=/app/credentials/creds.json
+#    - SPREADSHEET_ID=your_spreadsheet_id
+
+# 3. Run the daemon
+docker run -d --name tracker \
+  --env-file .env.docker \
+  -v $(pwd)/.env.docker:/app/.env:ro \
+  -v $(pwd)/your-google-credentials.json:/app/credentials/creds.json:ro \
+  -v $(pwd)/data:/app/data \
+  financial-tracker \
+  bash -c "./quarterly_earnings_price_tracker.sh start && tail -f quarterly_earnings_price_tracker.log"
+```
+
+### Docker Commands
+
+```bash
+# View logs
+docker logs -f tracker
+
+# Stop the daemon
+docker stop tracker
+
+# Remove and restart
+docker rm -f tracker && docker run -d --name tracker ...
+
+# Run interactively
+docker run -it --rm \
+  --env-file .env.docker \
+  -v $(pwd)/.env.docker:/app/.env:ro \
+  -v $(pwd)/your-google-credentials.json:/app/credentials/creds.json:ro \
+  financial-tracker bash
+```
+
+### Environment Variables
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `SPREADSHEET_ID` | - | Google Sheets spreadsheet ID |
+| `INTERVAL` | 30 | Update interval in seconds |
+| `TAB_NAME` | LivePrices | Sheet tab for price data |
+| `FETCHED_EARNING_DATA_TAB_NAME` | Earnings_Data | Sheet tab for earnings data |
+
 ## Project Structure
 ```
 financial_analysis_agent/

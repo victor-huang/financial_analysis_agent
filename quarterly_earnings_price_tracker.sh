@@ -8,11 +8,11 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 PIDFILE="$SCRIPT_DIR/quarterly_earnings_price_tracker.pid"
 LOGFILE="$SCRIPT_DIR/quarterly_earnings_price_tracker.log"
 
-# Configure your command here
-SPREADSHEET_ID="1UDqEa__FQPbAFWLSJ69zKDJwtaEbym_o0r3N3GElDIA"
-INTERVAL="30"
-TAB_NAME="LivePrices"
-FETCHED_EARNING_DATA_TAB_NAME="Earnings_Data"
+# Configuration (can be overridden via environment variables)
+SPREADSHEET_ID="${SPREADSHEET_ID:-1UDqEa__FQPbAFWLSJ69zKDJwtaEbym_o0r3N3GElDIA}"
+INTERVAL="${INTERVAL:-30}"
+TAB_NAME="${TAB_NAME:-LivePrices}"
+FETCHED_EARNING_DATA_TAB_NAME="${FETCHED_EARNING_DATA_TAB_NAME:-Earnings_Data}"
 
 
 

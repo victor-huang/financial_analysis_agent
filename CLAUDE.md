@@ -120,6 +120,84 @@ financial_analysis_agent/
     └── repositories.py
 ```
 
+## Docker
+
+A lightweight Docker image is available for running the quarterly earnings price tracker without installing the full ML dependencies.
+
+### Build the Image
+```bash
+docker build -t financial-tracker .
+```
+
+### Configuration
+
+1. Create `.env.docker` from `.env.example` and set:
+   ```
+   GOOGLE_SHEETS_CREDENTIALS_PATH=/app/credentials/creds.json
+   SPREADSHEET_ID=your_spreadsheet_id_here
+   ```
+
+2. The following environment variables can be configured (with defaults):
+   - `SPREADSHEET_ID` - Google Sheets spreadsheet ID
+   - `INTERVAL` - Update interval in seconds (default: 30)
+   - `TAB_NAME` - Sheet tab name (default: LivePrices)
+   - `FETCHED_EARNING_DATA_TAB_NAME` - Earnings data tab (default: Earnings_Data)
+
+### Run the Price Tracker Daemon
+```bash
+# Remove any existing container and start fresh
+docker rm -f tracker 2>/dev/null
+
+# Run the daemon
+docker run -d --name tracker \
+  --env-file .env.docker \
+  -v $(pwd)/.env.docker:/app/.env:ro \
+  -v $(pwd)/your-google-credentials.json:/app/credentials/creds.json:ro \
+  -v $(pwd)/data:/app/data \
+  financial-tracker \
+  bash -c "./quarterly_earnings_price_tracker.sh start && tail -f quarterly_earnings_price_tracker.log"
+```
+
+### Run Interactively
+```bash
+docker run -it --rm \
+  --env-file .env.docker \
+  -v $(pwd)/.env.docker:/app/.env:ro \
+  -v $(pwd)/your-google-credentials.json:/app/credentials/creds.json:ro \
+  -v $(pwd)/data:/app/data \
+  financial-tracker bash
+```
+
+### View Logs
+```bash
+docker logs -f tracker
+```
+
+### Stop the Daemon
+```bash
+docker stop tracker
+```
+
+### One-time Price Update (without daemon)
+```bash
+docker run --rm \
+  --env-file .env.docker \
+  -v $(pwd)/.env.docker:/app/.env:ro \
+  -v $(pwd)/your-google-credentials.json:/app/credentials/creds.json:ro \
+  financial-tracker \
+  python update_extended_hours_prices.py \
+    --tickers "AAPL,MSFT,GOOGL" \
+    --spreadsheet-id YOUR_SPREADSHEET_ID \
+    --tab-name "LivePrices" \
+    --row 2 --col D \
+    --ticker-col A \
+    --prev-close-col B \
+    --close-col C \
+    --market-price-col E \
+    --pct-change-col F \
+    --include-headers
+```
+
 ## Code Style
 
 - **Line Endings**: Always use Linux-style line endings (LF), not Windows-style (CRLF)
