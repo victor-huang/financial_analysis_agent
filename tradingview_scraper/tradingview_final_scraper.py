@@ -618,8 +618,9 @@ class TradingViewFinalScraper:
             Dictionary with historical and forecast data
         """
         try:
-            # Get all value cells with their positions
-            values = table_container.find_elements(By.CLASS_NAME, "value-OxVAcLqi")
+            # Get all value cells with their positions.
+            # Use CSS pattern [class^='value-'] so this survives TradingView CSS module hash rotations.
+            values = table_container.find_elements(By.CSS_SELECTOR, "[class^='value-']")
 
             if len(values) < 10:
                 return {}
