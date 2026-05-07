@@ -258,15 +258,24 @@ class FinancialDataFetcher:
                     break
 
         if anchor_year:
-            # rev_full_y_est: estimate for the anchor year (current reporting year)
-            result["rev_full_y_est"] = annual_rev_by_year.get(str(anchor_year), {}).get(
+            # Prefer the current calendar year's estimate when the anchor year is in the past.
+            # This handles companies whose last reported quarter falls in a prior calendar year
+            # (e.g., non-calendar fiscal year or company reporting Q3 of the prior year):
+            # we still want to show the *current* full-year estimate, not last year's.
+            rev_est_year = anchor_year
+            if anchor_year < current_calendar_year:
+                curr_year_rev = annual_rev_by_year.get(str(current_calendar_year), {})
+                if curr_year_rev.get("estimate") is not None:
+                    rev_est_year = current_calendar_year
+
+            result["rev_full_y_est"] = annual_rev_by_year.get(str(rev_est_year), {}).get(
                 "estimate"
             )
             result["rev_full_y_last_y"] = annual_rev_by_year.get(
-                str(anchor_year - 1), {}
+                str(rev_est_year - 1), {}
             ).get("reported")
             result["rev_y_2y_ago"] = annual_rev_by_year.get(
-                str(anchor_year - 2), {}
+                str(rev_est_year - 2), {}
             ).get("reported")
 
         # --- Annual EPS ---
@@ -295,14 +304,22 @@ class FinancialDataFetcher:
                     break
 
         if eps_anchor_year:
+            # Same forward-looking preference as revenue: use current calendar year's
+            # estimate when the anchor year lags behind.
+            eps_est_year = eps_anchor_year
+            if eps_anchor_year < current_calendar_year:
+                curr_year_eps = annual_eps_by_year.get(str(current_calendar_year), {})
+                if curr_year_eps.get("estimate") is not None:
+                    eps_est_year = current_calendar_year
+
             result["eps_full_y_est"] = annual_eps_by_year.get(
-                str(eps_anchor_year), {}
+                str(eps_est_year), {}
             ).get("estimate")
             result["eps_full_y_last_y"] = annual_eps_by_year.get(
-                str(eps_anchor_year - 1), {}
+                str(eps_est_year - 1), {}
             ).get("reported")
             result["eps_y_2y_ago"] = annual_eps_by_year.get(
-                str(eps_anchor_year - 2), {}
+                str(eps_est_year - 2), {}
             ).get("reported")
 
         # Fetch employee data

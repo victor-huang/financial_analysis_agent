@@ -14,13 +14,10 @@ and extracts data from DOM bar charts for both EPS and Revenue sections.
 import time
 import re
 import json
-from typing import Dict, List, Optional
+from typing import Dict, Optional
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.action_chains import ActionChains
 from bs4 import BeautifulSoup
 
 
@@ -385,14 +382,23 @@ class TradingViewFinalScraper:
             # Child [2] is the EPS table container
             eps_table_container = children[2]
 
-            # Extract quarterly data (default view)
+            # Explicitly click Quarterly tab before extraction — the page may load in Annual mode
+            eps_heading = children[0]
+            tabs = eps_heading.find_elements(By.XPATH, ".//button[@role='tab']")
+            for tab in tabs:
+                if tab.get_attribute("id") == "FQ" or "Quarterly" in tab.text:
+                    self.driver.execute_script("arguments[0].click();", tab)
+                    print(f"    ✓ Clicked Quarterly tab")
+                    time.sleep(2)
+                    break
+
+            # Extract quarterly data
             print(f"  → Extracting quarterly EPS from table...")
             quarterly_data = self._extract_table_data(eps_table_container, "quarterly")
 
             result = {"quarterly": quarterly_data}
 
             # Find Annual button in the EPS heading (child [0])
-            eps_heading = children[0]
             tabs = eps_heading.find_elements(By.XPATH, ".//button[@role='tab']")
 
             for tab in tabs:
@@ -571,17 +577,25 @@ class TradingViewFinalScraper:
             # Child [6] is the Revenue table container
             revenue_table_container = children[6]
 
-            # Extract quarterly data (default view)
+            # Explicitly click Quarterly tab before extraction — the page may load in Annual mode
+            revenue_heading = children[4]
+            tabs = revenue_heading.find_elements(By.XPATH, ".//button[@role='tab']")
+            for tab in tabs:
+                if tab.get_attribute("id") == "FQ" or "Quarterly" in tab.text:
+                    self.driver.execute_script("arguments[0].click();", tab)
+                    print(f"    ✓ Clicked Quarterly tab")
+                    time.sleep(2)
+                    break
+
+            # Extract quarterly data
             print(f"  → Extracting quarterly Revenue from table...")
             quarterly_data = self._extract_table_data(
                 revenue_table_container, "quarterly"
             )
 
-            # Click Annual button to get annual data
             result = {"quarterly": quarterly_data}
 
             # Find Annual button in the Revenue heading (child [4])
-            revenue_heading = children[4]
             tabs = revenue_heading.find_elements(By.XPATH, ".//button[@role='tab']")
 
             for tab in tabs:

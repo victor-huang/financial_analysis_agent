@@ -323,6 +323,101 @@ class TestAnchorYearLogic:
         # Current quarter should be Q4 2025, so anchor year should be 2025
         assert result["current_quarter"] == "Q4 2025"
 
+    @patch.object(FinancialDataFetcher, 'get_financial_data')
+    @patch.object(FinancialDataFetcher, 'get_employee_data')
+    def test_rev_full_y_est_uses_current_calendar_year_when_anchor_lags(
+        self, mock_employee, mock_financial
+    ):
+        """Rev full Y Est. should show current calendar year when anchor year is in the past.
+
+        This covers companies (e.g. non-calendar fiscal years) whose last reported quarter
+        falls in the prior calendar year, so anchor_year=2025 even though we are in 2026.
+        The estimate column should still display the 2026 full-year estimate.
+        """
+        import datetime
+        current_year = datetime.datetime.now().year
+
+        data = MockScrapedData.create_full_scraped_data()
+        # Anchor quarter is in current_year - 1 (simulates Q4 of prior year as last reported)
+        prior_year = current_year - 1
+        data["quarterly"]["eps"]["historical"] = [
+            {"period": f"Q4 '{str(prior_year)[-2:]}", "reported": 2.0, "estimate": 1.9},
+        ]
+        data["quarterly"]["eps"]["forecast"] = []
+
+        # Annual revenue: prior year is fully reported, current year has only an estimate
+        prior_year_str = str(prior_year)
+        curr_year_str = str(current_year)
+        data["annual"]["revenue"] = {
+            "historical": [
+                {"period": str(prior_year - 2), "reported": 18000.0, "estimate": 17500.0},
+                {"period": str(prior_year - 1), "reported": 20000.0, "estimate": 19500.0},
+                {"period": prior_year_str, "reported": 22000.0, "estimate": 21500.0},
+            ],
+            "forecast": [
+                {"period": curr_year_str, "reported": None, "estimate": 24000.0},
+            ],
+        }
+        data["annual"]["eps"] = {
+            "historical": [
+                {"period": str(prior_year - 2), "reported": 4.0, "estimate": 3.8},
+                {"period": str(prior_year - 1), "reported": 5.0, "estimate": 4.8},
+                {"period": prior_year_str, "reported": 6.0, "estimate": 5.8},
+            ],
+            "forecast": [
+                {"period": curr_year_str, "reported": None, "estimate": 7.0},
+            ],
+        }
+
+        mock_financial.return_value = data
+        mock_employee.return_value = None
+
+        result = self.fetcher.get_yoy_data("TEST", "NASDAQ", quarter_mode="reported")
+
+        # Rev full Y Est. must reference the CURRENT calendar year, not prior_year
+        assert result.get("rev_full_y_est") == 24000.0, (
+            f"Expected current year ({curr_year_str}) estimate 24000.0, "
+            f"got {result.get('rev_full_y_est')}"
+        )
+        # Rev full Y last Y should be prior_year's reported value
+        assert result.get("rev_full_y_last_y") == 22000.0
+        # Rev Y 2Y ago should be two years before current year
+        assert result.get("rev_y_2y_ago") == 20000.0
+
+    @patch.object(FinancialDataFetcher, 'get_financial_data')
+    @patch.object(FinancialDataFetcher, 'get_employee_data')
+    def test_rev_full_y_est_stays_at_anchor_when_current_year_has_no_estimate(
+        self, mock_employee, mock_financial
+    ):
+        """Rev full Y Est. should not upgrade to current year if no estimate exists for it."""
+        import datetime
+        current_year = datetime.datetime.now().year
+        prior_year = current_year - 1
+
+        data = MockScrapedData.create_full_scraped_data()
+        data["quarterly"]["eps"]["historical"] = [
+            {"period": f"Q4 '{str(prior_year)[-2:]}", "reported": 2.0, "estimate": 1.9},
+        ]
+        data["quarterly"]["eps"]["forecast"] = []
+
+        # Annual revenue: prior year reported, current year has NO estimate
+        data["annual"]["revenue"] = {
+            "historical": [
+                {"period": str(prior_year - 1), "reported": 20000.0, "estimate": None},
+                {"period": str(prior_year), "reported": 22000.0, "estimate": 21500.0},
+            ],
+            "forecast": [],
+        }
+        data["annual"]["eps"] = {"historical": [], "forecast": []}
+
+        mock_financial.return_value = data
+        mock_employee.return_value = None
+
+        result = self.fetcher.get_yoy_data("TEST", "NASDAQ", quarter_mode="reported")
+
+        # No current-year estimate, so falls back to prior_year estimate
+        assert result.get("rev_full_y_est") == 21500.0
+
 
 class TestForecastModeEpsRevenue:
     """Tests for EPS and Revenue values in forecast mode."""

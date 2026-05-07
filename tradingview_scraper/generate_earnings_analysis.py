@@ -117,10 +117,6 @@ def generate_earnings_analysis(
     else:
         api_data = get_earnings_for_date(date)
 
-    if not api_data:
-        print("No earnings found for this date")
-        return []
-
     # Apply ticker filter if specified
     missing_tickers = []
     tickers_order = None  # Original order to maintain in output
@@ -142,8 +138,13 @@ def generate_earnings_analysis(
             )
         if missing_tickers:
             print(
-                f"  {len(missing_tickers)} ticker(s) not found in earnings calendar: {', '.join(missing_tickers)}"
+                f"  {len(missing_tickers)} ticker(s) not found in earnings calendar (will still scrape): {', '.join(missing_tickers)}"
             )
+            for t in missing_tickers:
+                api_data.append({"ticker": t, "exchange": "NASDAQ"})
+    elif not api_data:
+        print("No earnings found for this date")
+        return []
 
     # Apply limit if specified
     if limit:
@@ -216,7 +217,7 @@ def generate_earnings_analysis(
 
     if missing_tickers:
         print(
-            f"\n⚠  Note: {len(missing_tickers)} ticker(s) not found in earnings calendar (added as placeholder rows):"
+            f"\n⚠  Note: {len(missing_tickers)} ticker(s) not found in earnings calendar (scraped directly):"
         )
         for ticker in missing_tickers:
             print(f"   - {ticker}")

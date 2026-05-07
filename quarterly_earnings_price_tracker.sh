@@ -9,8 +9,8 @@ PIDFILE="$SCRIPT_DIR/quarterly_earnings_price_tracker.pid"
 LOGFILE="$SCRIPT_DIR/quarterly_earnings_price_tracker.log"
 
 # Configuration (can be overridden via environment variables)
-SPREADSHEET_ID="${SPREADSHEET_ID:-1UDqEa__FQPbAFWLSJ69zKDJwtaEbym_o0r3N3GElDIA}"
-INTERVAL="${INTERVAL:-30}"
+SPREADSHEET_ID="${SPREADSHEET_ID:-1zze0gne7lvkgXnxbsR1xpQPVJsplWQyKvWm6jXfUS6o}"
+INTERVAL="${INTERVAL:-80}"
 TAB_NAME="${TAB_NAME:-LivePrices}"
 FETCHED_EARNING_DATA_TAB_NAME="${FETCHED_EARNING_DATA_TAB_NAME:-Earnings_Data}"
 
