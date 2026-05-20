@@ -264,11 +264,11 @@ class TradingViewFinalScraper:
         """
         Find a section by its heading (EPS or Revenue).
 
-        For Revenue, returns the H3 element itself since we need to navigate differently.
-        For EPS, returns the container with chart and tabs.
+        Returns the H3 element for both EPS and Revenue. Each extractor
+        navigates to the shared container from there.
 
         Returns:
-            WebElement - either H3 (for Revenue) or container (for EPS)
+            WebElement - H3 heading element
         """
         try:
             # Look for H3 headings with exact text match
@@ -286,32 +286,7 @@ class TradingViewFinalScraper:
             if not headings:
                 return None
 
-            heading = headings[0]
-
-            # For Revenue, return the H3 itself - we'll handle navigation in _extract_revenue_from_table
-            if section_name == "Revenue":
-                return heading
-
-            # For EPS, find parent container with chart and tabs
-            parent = heading
-            for _ in range(10):  # Try up to 10 levels up
-                parent = parent.find_element(By.XPATH, "..")
-                class_name = parent.get_attribute("class") or ""
-
-                # Check if this parent contains both the chart and tabs
-                try:
-                    tabs = parent.find_elements(By.XPATH, ".//button[@role='tab']")
-                    charts = parent.find_elements(
-                        By.XPATH, ".//*[contains(@class, 'chart')]"
-                    )
-
-                    if tabs and charts:
-                        return parent
-                except:
-                    continue
-
-            # Fallback: return the immediate parent of heading
-            return heading.find_element(By.XPATH, "..")
+            return headings[0]
 
         except Exception as e:
             print(f"  Error finding section: {e}")
@@ -330,12 +305,10 @@ class TradingViewFinalScraper:
         """
         try:
             # Find tabs within this section only
-            tabs = section_element.find_elements(By.XPATH, ".//button[@role='tab']")
+            tabs = section_element.find_elements(By.XPATH, ".//button")
 
             for tab in tabs:
-                if tab_name in tab.text or (
-                    tab_name == "Annual" and tab.get_attribute("id") == "FY"
-                ):
+                if tab_name in tab.text:
                     # Click using JavaScript to avoid interception
                     self.driver.execute_script("arguments[0].click();", tab)
                     print(f"    ✓ Clicked {tab_name} tab")
@@ -363,15 +336,16 @@ class TradingViewFinalScraper:
           - [6] table for Revenue
 
         Args:
-            section_element: The container element for EPS section
+            section_element: The H3 element for EPS section
 
         Returns:
             Dictionary with quarterly and annual data
         """
         try:
-            # section_element is the parent container found by _find_section for EPS
-            # Get all children of the container
-            children = section_element.find_elements(By.XPATH, "./*")
+            # Navigate: EPS H3 -> heading div -> shared container (same as Revenue)
+            heading_div = section_element.find_element(By.XPATH, "..")
+            container = heading_div.find_element(By.XPATH, "..")
+            children = container.find_elements(By.XPATH, "./*")
 
             print(f"    → EPS container has {len(children)} children")
 
@@ -384,9 +358,9 @@ class TradingViewFinalScraper:
 
             # Explicitly click Quarterly tab before extraction — the page may load in Annual mode
             eps_heading = children[0]
-            tabs = eps_heading.find_elements(By.XPATH, ".//button[@role='tab']")
+            tabs = eps_heading.find_elements(By.XPATH, ".//button")
             for tab in tabs:
-                if tab.get_attribute("id") == "FQ" or "Quarterly" in tab.text:
+                if "Quarterly" in tab.text:
                     self.driver.execute_script("arguments[0].click();", tab)
                     print(f"    ✓ Clicked Quarterly tab")
                     time.sleep(2)
@@ -399,10 +373,10 @@ class TradingViewFinalScraper:
             result = {"quarterly": quarterly_data}
 
             # Find Annual button in the EPS heading (child [0])
-            tabs = eps_heading.find_elements(By.XPATH, ".//button[@role='tab']")
+            tabs = eps_heading.find_elements(By.XPATH, ".//button")
 
             for tab in tabs:
-                if "Annual" in tab.text or tab.get_attribute("id") == "FY":
+                if "Annual" in tab.text:
                     self.driver.execute_script("arguments[0].click();", tab)
                     print(f"    ✓ Clicked Annual tab")
                     time.sleep(5)
@@ -579,9 +553,9 @@ class TradingViewFinalScraper:
 
             # Explicitly click Quarterly tab before extraction — the page may load in Annual mode
             revenue_heading = children[4]
-            tabs = revenue_heading.find_elements(By.XPATH, ".//button[@role='tab']")
+            tabs = revenue_heading.find_elements(By.XPATH, ".//button")
             for tab in tabs:
-                if tab.get_attribute("id") == "FQ" or "Quarterly" in tab.text:
+                if "Quarterly" in tab.text:
                     self.driver.execute_script("arguments[0].click();", tab)
                     print(f"    ✓ Clicked Quarterly tab")
                     time.sleep(2)
@@ -596,10 +570,10 @@ class TradingViewFinalScraper:
             result = {"quarterly": quarterly_data}
 
             # Find Annual button in the Revenue heading (child [4])
-            tabs = revenue_heading.find_elements(By.XPATH, ".//button[@role='tab']")
+            tabs = revenue_heading.find_elements(By.XPATH, ".//button")
 
             for tab in tabs:
-                if "Annual" in tab.text or tab.get_attribute("id") == "FY":
+                if "Annual" in tab.text:
                     self.driver.execute_script("arguments[0].click();", tab)
                     print(f"    ✓ Clicked Annual tab")
                     time.sleep(5)
