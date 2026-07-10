@@ -8,7 +8,7 @@ import os
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
-from earnings_data_store import merge_ticker_data, _label_sort_key
+from earnings_data_store import merge_ticker_data, label_sort_key
 
 
 def empty_store():
@@ -24,15 +24,15 @@ class TestLabelSortKey:
 
     def test_sorts_quarterly_labels_by_year_then_quarter(self):
         labels = ["Q3 2025", "Q1 2024", "Q1 2025"]
-        assert sorted(labels, key=_label_sort_key) == ["Q1 2024", "Q1 2025", "Q3 2025"]
+        assert sorted(labels, key=label_sort_key) == ["Q1 2024", "Q1 2025", "Q3 2025"]
 
     def test_sorts_annual_labels_by_year(self):
         labels = ["2025 Yearly", "2021 Yearly", "2023 Yearly"]
-        assert sorted(labels, key=_label_sort_key) == ["2021 Yearly", "2023 Yearly", "2025 Yearly"]
+        assert sorted(labels, key=label_sort_key) == ["2021 Yearly", "2023 Yearly", "2025 Yearly"]
 
     def test_unrecognized_label_sorts_last(self):
         labels = ["2025 Yearly", "garbage"]
-        assert sorted(labels, key=_label_sort_key) == ["2025 Yearly", "garbage"]
+        assert sorted(labels, key=label_sort_key) == ["2025 Yearly", "garbage"]
 
 
 class TestMergeNewData:

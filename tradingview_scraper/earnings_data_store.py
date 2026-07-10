@@ -33,7 +33,7 @@ STATIC_PROFILE_FIELDS = ("currency", "company_name", "sector")
 SNAPSHOT_FIELDS = ("market_cap_billions",)
 
 
-def _label_sort_key(label: str) -> Tuple[int, int]:
+def label_sort_key(label: str) -> Tuple[int, int]:
     """Sort key for display labels like 'Q1 2025' or '2025 Yearly'."""
     quarterly_match = re.match(r"^Q(\d) (\d{4})$", label)
     if quarterly_match:
@@ -86,7 +86,7 @@ def save_data(exchange: str, ticker: str, data: Dict) -> Path:
         for bucket in REPORTED_BUCKETS + FORECAST_BUCKETS:
             points = data.get(metric, {}).get(bucket, {})
             sorted_data[metric][bucket] = {
-                label: points[label] for label in sorted(points, key=_label_sort_key)
+                label: points[label] for label in sorted(points, key=label_sort_key)
             }
 
     ticker_dir = get_ticker_dir(exchange, ticker)
