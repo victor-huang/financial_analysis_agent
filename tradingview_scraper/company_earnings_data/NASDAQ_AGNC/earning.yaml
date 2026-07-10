@@ -1,0 +1,52 @@
+currency: USD
+company_name: AGNC Investment Corp.
+sector: Finance
+market_cap_billions: 12.71
+revenue:
+  quarterly:
+    Q3 2024: 756.0
+    Q4 2024: 856.0
+    Q1 2025: 846.0
+    Q2 2025: 830.0
+    Q3 2025: 903.0
+    Q4 2025: 944.0
+    Q1 2026: 1050.0
+  annual:
+    2021 Yearly: 1360.0
+    2022 Yearly: 1590.0
+    2023 Yearly: 2040.0
+    2024 Yearly: 2950.0
+    2025 Yearly: 3520.0
+  quarterly_forecast:
+    Q2 2026: 1060.0
+    Q3 2026: 1060.0
+    Q4 2026: 1060.0
+    Q1 2027: 1070.0
+  annual_forecast:
+    2026 Yearly: 4230.0
+    2027 Yearly: 4240.0
+    2028 Yearly: 2160.0
+eps:
+  quarterly:
+    Q3 2024: 0.43
+    Q4 2024: 0.37
+    Q1 2025: 0.44
+    Q2 2025: 0.38
+    Q3 2025: 0.35
+    Q4 2025: 0.35
+    Q1 2026: 0.42
+  annual:
+    2021 Yearly: 3.02
+    2022 Yearly: 3.11
+    2023 Yearly: 2.61
+    2024 Yearly: 1.88
+    2025 Yearly: 1.5
+  quarterly_forecast:
+    Q2 2026: 0.38
+    Q3 2026: 0.38
+    Q4 2026: 0.38
+    Q1 2027: 0.37
+  annual_forecast:
+    2026 Yearly: 1.56
+    2027 Yearly: 1.51
+    2028 Yearly: 1.53

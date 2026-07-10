@@ -1,0 +1,50 @@
+currency: USD
+company_name: RBB Bancorp
+sector: Finance
+market_cap_billions: 0.45185000000000003
+revenue:
+  quarterly:
+    Q3 2024: 26.99
+    Q4 2024: 28.71
+    Q1 2025: 28.46
+    Q2 2025: 29.7
+    Q3 2025: 31.95
+    Q4 2025: 32.31
+    Q1 2026: 34.75
+  annual:
+    2021 Yearly: 143.09
+    2022 Yearly: 160.81
+    2023 Yearly: 134.3
+    2024 Yearly: 114.7
+    2025 Yearly: 129.16
+  quarterly_forecast:
+    Q2 2026: 33.17
+    Q3 2026: 34.44
+    Q4 2026: 35.31
+    Q1 2027: 35.08
+  annual_forecast:
+    2026 Yearly: 137.26
+    2027 Yearly: 146.1
+eps:
+  quarterly:
+    Q3 2024: 0.39
+    Q4 2024: 0.25
+    Q1 2025: 0.13
+    Q2 2025: 0.3
+    Q3 2025: 0.59
+    Q4 2025: 0.59
+    Q1 2026: 0.66
+  annual:
+    2021 Yearly: 2.86
+    2022 Yearly: 3.33
+    2023 Yearly: 2.05
+    2024 Yearly: 1.47
+    2025 Yearly: 1.83
+  quarterly_forecast:
+    Q2 2026: 0.54
+    Q3 2026: 0.57
+    Q4 2026: 0.59
+    Q1 2027: 0.56
+  annual_forecast:
+    2026 Yearly: 2.34
+    2027 Yearly: 2.52

@@ -12,11 +12,13 @@ Usage:
     python quarterly_annual_collector.py --tickers "LLY, AAPL, MSFT"
     python quarterly_annual_collector.py --tickers-file tickers.txt
     python quarterly_annual_collector.py --tickers LLY --no-headless
+    python quarterly_annual_collector.py --tickers "LLY, AAPL, MSFT" --concurrency 3
 """
 
 import argparse
 import re
-from typing import Dict, List, Optional
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from typing import Dict, List, Optional, Tuple
 
 import requests
 
@@ -204,11 +206,54 @@ def print_ticker_report(ticker: str, transformed: Dict) -> None:
     print(f"Forcast Yeasly: {_format_points_line(transformed['eps']['annual_forecast'])}")
 
 
+def _process_ticker(
+    ticker: str, headless: bool, confirm_overwrite
+) -> Tuple[str, Optional[Dict], List[str], List[str]]:
+    """
+    Scrape, merge into the on-disk store, and print the report for a single ticker.
+
+    Runs standalone (no shared mutable state) so it's safe to call from
+    multiple threads concurrently.
+
+    Returns:
+        (ticker, merged_data_or_None, merge_log, missing_log)
+    """
+    ticker = ticker.strip().upper()
+
+    exchange = resolve_exchange(ticker)
+    if not exchange:
+        print(f"\nTicker: {ticker}")
+        print("  ✗ Could not resolve exchange for this ticker, skipping")
+        return ticker, None, [], [f"{ticker}: could not resolve exchange"]
+
+    scraper = TradingViewFinalScraper(headless=headless)
+    raw_data = scraper.fetch_all_financial_data(ticker, exchange)
+
+    if not raw_data:
+        print(f"\nTicker: {ticker}")
+        print(f"  ✗ No forecast page data available ({exchange}:{ticker})")
+        return ticker, None, [], [f"{ticker}: no forecast page data available"]
+
+    transformed = transform_financial_data(raw_data)
+
+    existing = load_existing_data(exchange, ticker)
+    merged, merge_log = merge_ticker_data(ticker, existing, transformed, confirm_overwrite)
+    saved_path = save_data(exchange, ticker, merged)
+
+    print_ticker_report(ticker, merged)
+    print(f"Saved to: {saved_path}")
+
+    return ticker, merged, merge_log, find_missing_data(ticker, merged)
+
+
 def collect_for_tickers(
-    tickers: List[str], headless: bool = True, confirm_overwrite=prompt_confirm_overwrite
+    tickers: List[str],
+    headless: bool = True,
+    confirm_overwrite=prompt_confirm_overwrite,
+    concurrency: int = 1,
 ) -> Dict[str, Dict]:
     """
-    Fetch, merge into the on-disk store, and report Revenue/EPS data for each ticker in order.
+    Fetch, merge into the on-disk store, and report Revenue/EPS data for each ticker.
 
     Data is persisted to ./company_earnings_data/<exchange>_<ticker>/earning.yaml and
     extended (not replaced) on each run: new reported data points are added, conflicting
@@ -220,48 +265,44 @@ def collect_for_tickers(
         headless: Run the scraping browser in headless mode
         confirm_overwrite: Callable(ticker, metric, bucket, period, old_value, new_value) -> bool,
             used when a freshly scraped reported value conflicts with a stored one
+        concurrency: Number of tickers to scrape in parallel (default: 1, sequential).
+            Each ticker writes to its own file, so concurrent runs don't conflict.
+            Note that scraping logs from concurrent tickers can interleave in the
+            console output; the per-ticker report itself is still printed as a
+            single block once that ticker finishes.
 
     Returns:
         {ticker: merged_data} for tickers that returned data
     """
+    clean_tickers = [t.strip().upper() for t in tickers if t.strip()]
+
     results = {}
     all_missing_messages = []
     all_merge_messages = []
 
-    for ticker in tickers:
-        ticker = ticker.strip().upper()
-        if not ticker:
-            continue
-
-        exchange = resolve_exchange(ticker)
-        if not exchange:
-            print(f"\nTicker: {ticker}")
-            print("  ✗ Could not resolve exchange for this ticker, skipping")
-            all_missing_messages.append(f"{ticker}: could not resolve exchange")
-            continue
-
-        scraper = TradingViewFinalScraper(headless=headless)
-        raw_data = scraper.fetch_all_financial_data(ticker, exchange)
-
-        if not raw_data:
-            print(f"\nTicker: {ticker}")
-            print(f"  ✗ No forecast page data available ({exchange}:{ticker})")
-            all_missing_messages.append(f"{ticker}: no forecast page data available")
-            continue
-
-        transformed = transform_financial_data(raw_data)
-
-        existing = load_existing_data(exchange, ticker)
-        merged, merge_log = merge_ticker_data(ticker, existing, transformed, confirm_overwrite)
-        saved_path = save_data(exchange, ticker, merged)
-
-        results[ticker] = merged
-
-        print_ticker_report(ticker, merged)
-        print(f"Saved to: {saved_path}")
-
-        all_missing_messages.extend(find_missing_data(ticker, merged))
+    def _record(ticker, merged, merge_log, missing_log):
+        if merged is not None:
+            results[ticker] = merged
         all_merge_messages.extend(merge_log)
+        all_missing_messages.extend(missing_log)
+
+    if concurrency <= 1:
+        for ticker in clean_tickers:
+            _record(*_process_ticker(ticker, headless, confirm_overwrite))
+    else:
+        with ThreadPoolExecutor(max_workers=concurrency) as executor:
+            futures = {
+                executor.submit(_process_ticker, ticker, headless, confirm_overwrite): ticker
+                for ticker in clean_tickers
+            }
+            for future in as_completed(futures):
+                ticker = futures[future]
+                try:
+                    _record(*future.result())
+                except Exception as e:
+                    print(f"\nTicker: {ticker}")
+                    print(f"  ✗ Error: {e}")
+                    all_missing_messages.append(f"{ticker}: error during scraping ({e})")
 
     if all_merge_messages:
         print(f"\n{'='*80}")
@@ -320,11 +361,26 @@ def main():
         "scraped value), 'keep' (always keep the stored value). Forecast values are "
         "always overwritten regardless of this setting.",
     )
+    parser.add_argument(
+        "--concurrency",
+        "-c",
+        type=int,
+        default=1,
+        help="Number of tickers to scrape in parallel (default: 1, sequential). "
+        "Requires --on-reported-conflict overwrite|keep, since concurrent "
+        "interactive prompts can't be resolved safely.",
+    )
 
     args = parser.parse_args()
 
     if not args.tickers and not args.tickers_file:
         parser.error("Provide --tickers or --tickers-file")
+
+    if args.concurrency > 1 and args.on_reported_conflict == "ask":
+        parser.error(
+            "--concurrency > 1 requires --on-reported-conflict overwrite|keep "
+            "(interactive prompts from multiple tickers at once can't be resolved safely)"
+        )
 
     tickers = _parse_tickers_arg(args)
 
@@ -335,7 +391,12 @@ def main():
     else:
         confirm_overwrite = prompt_confirm_overwrite
 
-    collect_for_tickers(tickers, headless=not args.no_headless, confirm_overwrite=confirm_overwrite)
+    collect_for_tickers(
+        tickers,
+        headless=not args.no_headless,
+        confirm_overwrite=confirm_overwrite,
+        concurrency=args.concurrency,
+    )
 
 
 if __name__ == "__main__":

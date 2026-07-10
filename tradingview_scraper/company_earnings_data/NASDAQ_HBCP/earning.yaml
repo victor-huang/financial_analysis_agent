@@ -1,0 +1,50 @@
+currency: USD
+company_name: Home Bancorp, Inc.
+sector: Finance
+market_cap_billions: 0.53361
+revenue:
+  quarterly:
+    Q3 2024: 34.07
+    Q4 2024: 35.22
+    Q1 2025: 35.76
+    Q2 2025: 37.07
+    Q3 2025: 37.84
+    Q4 2025: 38.05
+    Q1 2026: 38.22
+  annual:
+    2021 Yearly: 117.26
+    2022 Yearly: 131.9
+    2023 Yearly: 135.33
+    2024 Yearly: 134.89
+    2025 Yearly: 148.72
+  quarterly_forecast:
+    Q2 2026: 38.57
+    Q3 2026: 39.47
+    Q4 2026: 39.93
+    Q1 2027: 39.6
+  annual_forecast:
+    2026 Yearly: 156.21
+    2027 Yearly: 163.04
+eps:
+  quarterly:
+    Q3 2024: 1.21
+    Q4 2024: 1.24
+    Q1 2025: 1.4
+    Q2 2025: 1.48
+    Q3 2025: 1.62
+    Q4 2025: 1.49
+    Q1 2026: 1.47
+  annual:
+    2021 Yearly: 5.77
+    2022 Yearly: 4.16
+    2023 Yearly: 5.15
+    2024 Yearly: 4.67
+    2025 Yearly: 5.99
+  quarterly_forecast:
+    Q2 2026: 1.46
+    Q3 2026: 1.51
+    Q4 2026: 1.53
+    Q1 2027: 1.49
+  annual_forecast:
+    2026 Yearly: 5.95
+    2027 Yearly: 6.26

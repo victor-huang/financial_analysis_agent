@@ -1,0 +1,52 @@
+currency: USD
+company_name: Wintrust Financial Corporation
+sector: Finance
+market_cap_billions: 10.91
+revenue:
+  quarterly:
+    Q3 2024: 615.73
+    Q4 2024: 638.6
+    Q1 2025: 643.11
+    Q2 2025: 670.78
+    Q3 2025: 697.84
+    Q4 2025: 714.26
+    Q1 2026: 713.17
+  annual:
+    2021 Yearly: 1710.0
+    2022 Yearly: 1960.0
+    2023 Yearly: 2270.0
+    2024 Yearly: 2450.0
+    2025 Yearly: 2730.0
+  quarterly_forecast:
+    Q2 2026: 735.94
+    Q3 2026: 755.37
+    Q4 2026: 764.62
+    Q1 2027: 761.58
+  annual_forecast:
+    2026 Yearly: 2970.0
+    2027 Yearly: 3160.0
+    2028 Yearly: 3400.0
+eps:
+  quarterly:
+    Q3 2024: 2.47
+    Q4 2024: 2.63
+    Q1 2025: 2.69
+    Q2 2025: 2.78
+    Q3 2025: 2.78
+    Q4 2025: 3.15
+    Q1 2026: 3.22
+  annual:
+    2021 Yearly: 7.58
+    2022 Yearly: 8.02
+    2023 Yearly: 9.58
+    2024 Yearly: 10.31
+    2025 Yearly: 11.4
+  quarterly_forecast:
+    Q2 2026: 3.14
+    Q3 2026: 3.29
+    Q4 2026: 3.36
+    Q1 2027: 3.31
+  annual_forecast:
+    2026 Yearly: 13.0
+    2027 Yearly: 13.88
+    2028 Yearly: 15.2

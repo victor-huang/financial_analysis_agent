@@ -1,0 +1,54 @@
+currency: USD
+company_name: Apple Inc
+sector: Electronic Technology
+market_cap_billions: 4640.0
+revenue:
+  quarterly:
+    Q4 2024: 94930.0
+    Q1 2025: 124300.0
+    Q2 2025: 95360.0
+    Q3 2025: 94040.0
+    Q4 2025: 102470.0
+    Q1 2026: 143760.0
+    Q2 2026: 111180.0
+  annual:
+    2021 Yearly: 365820.0
+    2022 Yearly: 394330.0
+    2023 Yearly: 383290.0
+    2024 Yearly: 391040.0
+    2025 Yearly: 416160.0
+  quarterly_forecast:
+    Q3 2026: 108860.0
+    Q4 2026: 114210.0
+    Q1 2027: 152430.0
+    Q2 2027: 123300.0
+  annual_forecast:
+    2026 Yearly: 477760.0
+    2027 Yearly: 518720.0
+    2028 Yearly: 553670.0
+    2029 Yearly: 605740.0
+eps:
+  quarterly:
+    Q4 2024: 1.64
+    Q1 2025: 2.4
+    Q2 2025: 1.65
+    Q3 2025: 1.57
+    Q4 2025: 1.85
+    Q1 2026: 2.84
+    Q2 2026: 2.01
+  annual:
+    2021 Yearly: 5.61
+    2022 Yearly: 6.11
+    2023 Yearly: 6.13
+    2024 Yearly: 6.75
+    2025 Yearly: 7.46
+  quarterly_forecast:
+    Q3 2026: 1.89
+    Q4 2026: 2.01
+    Q1 2027: 2.94
+    Q2 2027: 2.24
+  annual_forecast:
+    2026 Yearly: 8.75
+    2027 Yearly: 9.64
+    2028 Yearly: 10.64
+    2029 Yearly: 11.63

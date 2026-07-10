@@ -1,0 +1,50 @@
+currency: USD
+company_name: HealthStream, Inc.
+sector: Technology Services
+market_cap_billions: 0.8186100000000001
+revenue:
+  quarterly:
+    Q3 2024: 73.09
+    Q4 2024: 74.23
+    Q1 2025: 73.48
+    Q2 2025: 74.4
+    Q3 2025: 76.47
+    Q4 2025: 79.71
+    Q1 2026: 81.2
+  annual:
+    2021 Yearly: 256.71
+    2022 Yearly: 266.83
+    2023 Yearly: 279.06
+    2024 Yearly: 291.65
+    2025 Yearly: 304.06
+  quarterly_forecast:
+    Q2 2026: 80.83
+    Q3 2026: 81.87
+    Q4 2026: 83.4
+    Q1 2027: 84.43
+  annual_forecast:
+    2026 Yearly: 327.28
+    2027 Yearly: 343.29
+eps:
+  quarterly:
+    Q3 2024: 0.19
+    Q4 2024: 0.16
+    Q1 2025: 0.14
+    Q2 2025: 0.18
+    Q3 2025: 0.2
+    Q4 2025: 0.09
+    Q1 2026: 0.2
+  annual:
+    2021 Yearly: 0.18
+    2022 Yearly: 0.39
+    2023 Yearly: 0.5
+    2024 Yearly: 0.66
+    2025 Yearly: 0.61
+  quarterly_forecast:
+    Q2 2026: 0.17
+    Q3 2026: 0.18
+    Q4 2026: 0.19
+    Q1 2027: 0.21
+  annual_forecast:
+    2026 Yearly: 0.73
+    2027 Yearly: 0.81

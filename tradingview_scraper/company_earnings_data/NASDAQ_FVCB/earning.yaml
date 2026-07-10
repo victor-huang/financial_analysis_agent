@@ -1,0 +1,50 @@
+currency: USD
+company_name: FVCBankcorp, Inc.
+sector: Finance
+market_cap_billions: 0.3117
+revenue:
+  quarterly:
+    Q3 2024: 15.03
+    Q4 2024: 15.37
+    Q1 2025: 15.72
+    Q2 2025: 16.77
+    Q3 2025: 17.07
+    Q4 2025: 17.85
+    Q1 2026: 18.29
+  annual:
+    2021 Yearly: 62.25
+    2022 Yearly: 68.08
+    2023 Yearly: 41.03
+    2024 Yearly: 58.12
+    2025 Yearly: 67.41
+  quarterly_forecast:
+    Q2 2026: 19.32
+    Q3 2026: 20.34
+    Q4 2026: 20.44
+    Q1 2027: 20.27
+  annual_forecast:
+    2026 Yearly: 78.64
+    2027 Yearly: 84.59
+eps:
+  quarterly:
+    Q3 2024: 0.25
+    Q4 2024: 0.26
+    Q1 2025: 0.28
+    Q2 2025: 0.3
+    Q3 2025: 0.31
+    Q4 2025: 0.31
+    Q1 2026: 0.36
+  annual:
+    2021 Yearly: 1.27
+    2022 Yearly: 1.09
+    2023 Yearly: 0.9
+    2024 Yearly: 0.95
+    2025 Yearly: 1.2
+  quarterly_forecast:
+    Q2 2026: 0.36
+    Q3 2026: 0.38
+    Q4 2026: 0.38
+    Q1 2027: 0.37
+  annual_forecast:
+    2026 Yearly: 1.48
+    2027 Yearly: 1.59

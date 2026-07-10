@@ -1,0 +1,54 @@
+currency: USD
+company_name: Steel Dynamics, Inc.
+sector: Non-Energy Minerals
+market_cap_billions: 32.02
+revenue:
+  quarterly:
+    Q3 2024: 4340.0
+    Q4 2024: 3870.0
+    Q1 2025: 4370.0
+    Q2 2025: 4570.0
+    Q3 2025: 4830.0
+    Q4 2025: 4410.0
+    Q1 2026: 5200.0
+  annual:
+    2021 Yearly: 18410.0
+    2022 Yearly: 22260.0
+    2023 Yearly: 18800.0
+    2024 Yearly: 17540.0
+    2025 Yearly: 18180.0
+  quarterly_forecast:
+    Q2 2026: 5570.0
+    Q3 2026: 5950.0
+    Q4 2026: 5720.0
+    Q1 2027: 5880.0
+  annual_forecast:
+    2026 Yearly: 22600.0
+    2027 Yearly: 23080.0
+    2028 Yearly: 23360.0
+    2029 Yearly: 22850.0
+eps:
+  quarterly:
+    Q3 2024: 2.05
+    Q4 2024: 1.36
+    Q1 2025: 1.44
+    Q2 2025: 2.01
+    Q3 2025: 2.74
+    Q4 2025: 1.82
+    Q1 2026: 2.78
+  annual:
+    2021 Yearly: 16.09
+    2022 Yearly: 22.68
+    2023 Yearly: 14.77
+    2024 Yearly: 9.84
+    2025 Yearly: 7.99
+  quarterly_forecast:
+    Q2 2026: 3.69
+    Q3 2026: 5.08
+    Q4 2026: 4.82
+    Q1 2027: 4.8
+  annual_forecast:
+    2026 Yearly: 16.44
+    2027 Yearly: 19.28
+    2028 Yearly: 18.66
+    2029 Yearly: 13.19
