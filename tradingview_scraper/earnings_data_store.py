@@ -25,6 +25,13 @@ REPORTED_BUCKETS = ("quarterly", "annual")
 FORECAST_BUCKETS = ("quarterly_forecast", "annual_forecast")
 FORECAST_OF = {"quarterly": "quarterly_forecast", "annual": "annual_forecast"}
 
+# Static profile fields rarely change once scraped; a mismatch on rerun is
+# treated like a data-quality flag rather than an expected update.
+STATIC_PROFILE_FIELDS = ("currency", "company_name", "sector")
+# Snapshot fields are inherently time-varying (e.g. market cap moves daily),
+# so they're refreshed automatically every run, just like forecast data.
+SNAPSHOT_FIELDS = ("market_cap_billions",)
+
 
 def _label_sort_key(label: str) -> Tuple[int, int]:
     """Sort key for display labels like 'Q1 2025' or '2025 Yearly'."""
@@ -51,12 +58,17 @@ def load_existing_data(exchange: str, ticker: str) -> Dict:
     """Load previously saved data for a ticker, or an empty structure if none exists."""
     path = get_yaml_path(exchange, ticker)
     if not path.exists():
-        return {"currency": None, "revenue": {}, "eps": {}}
+        return {
+            **{field: None for field in STATIC_PROFILE_FIELDS + SNAPSHOT_FIELDS},
+            "revenue": {},
+            "eps": {},
+        }
 
     with open(path, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f) or {}
 
-    data.setdefault("currency", None)
+    for field in STATIC_PROFILE_FIELDS + SNAPSHOT_FIELDS:
+        data.setdefault(field, None)
     data.setdefault("revenue", {})
     data.setdefault("eps", {})
     for metric in ("revenue", "eps"):
@@ -68,7 +80,7 @@ def load_existing_data(exchange: str, ticker: str) -> Dict:
 
 def save_data(exchange: str, ticker: str, data: Dict) -> Path:
     """Sort each bucket chronologically and write the merged data to disk."""
-    sorted_data = {"currency": data.get("currency")}
+    sorted_data = {field: data.get(field) for field in STATIC_PROFILE_FIELDS + SNAPSHOT_FIELDS}
     for metric in ("revenue", "eps"):
         sorted_data[metric] = {}
         for bucket in REPORTED_BUCKETS + FORECAST_BUCKETS:
@@ -175,19 +187,31 @@ def merge_ticker_data(
     Returns:
         (merged_data, log_messages)
     """
-    merged = {"currency": existing.get("currency"), "revenue": {}, "eps": {}}
+    merged = {field: existing.get(field) for field in STATIC_PROFILE_FIELDS}
+    merged["revenue"] = {}
+    merged["eps"] = {}
     log = []
 
-    new_currency = incoming.get("currency")
-    old_currency = existing.get("currency")
-    if new_currency and old_currency and new_currency != old_currency:
-        log.append(
-            f"{ticker}: currency mismatch — stored {old_currency}, scraped {new_currency}. "
-            f"Keeping stored value; verify manually."
-        )
-    elif new_currency and not old_currency:
-        merged["currency"] = new_currency
-        log.append(f"{ticker}: recorded currency {new_currency}")
+    for field in STATIC_PROFILE_FIELDS:
+        new_value = incoming.get(field)
+        old_value = existing.get(field)
+        if new_value and old_value and new_value != old_value:
+            log.append(
+                f"{ticker}: {field} mismatch — stored {old_value!r}, scraped {new_value!r}. "
+                f"Keeping stored value; verify manually."
+            )
+        elif new_value and not old_value:
+            merged[field] = new_value
+            log.append(f"{ticker}: recorded {field} = {new_value!r}")
+
+    for field in SNAPSHOT_FIELDS:
+        new_value = incoming.get(field)
+        old_value = existing.get(field)
+        merged[field] = new_value if new_value is not None else old_value
+        if new_value is not None and old_value is not None and _values_differ(old_value, new_value):
+            log.append(f"{ticker}: {field} updated: {old_value} -> {new_value} (auto-refreshed)")
+        elif new_value is not None and old_value is None:
+            log.append(f"{ticker}: recorded {field} = {new_value}")
 
     for metric in ("revenue", "eps"):
         merged[metric] = {}

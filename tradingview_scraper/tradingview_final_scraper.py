@@ -68,6 +68,33 @@ def _parse_period_for_sorting(period: str) -> tuple:
     return (9999, 0)
 
 
+def _parse_market_cap_to_billions(text: str) -> Optional[float]:
+    """
+    Parse a market cap string like "1.15 T USD" or "50.00 B USD" into billions.
+
+    Args:
+        text: Raw market cap text as shown on the page
+
+    Returns:
+        Market cap in billions, or None if unparseable
+    """
+    text = _normalize_text(text)
+    text = re.sub(r"\s*USD\s*$", "", text, flags=re.IGNORECASE).strip()
+
+    match = re.match(r"^([\d.]+)\s*([TBM])?$", text)
+    if not match:
+        return None
+
+    value = float(match.group(1))
+    suffix = match.group(2)
+
+    if suffix == "T":
+        return value * 1000
+    if suffix == "M":
+        return value / 1000
+    return value  # "B" suffix, or no suffix (already in billions-scale)
+
+
 class TradingViewFinalScraper:
     """TradingView scraper for EPS and Revenue data extraction from forecast pages."""
 
@@ -110,6 +137,8 @@ class TradingViewFinalScraper:
         try:
             self._setup_driver()
 
+            company_overview = self._extract_company_overview(ticker, exchange)
+
             url = f"https://www.tradingview.com/symbols/{exchange}-{ticker}/forecast/"
             self.driver.get(url)
             print(f"✓ Loaded: {url}")
@@ -132,6 +161,9 @@ class TradingViewFinalScraper:
                 "ticker": ticker,
                 "exchange": exchange,
                 "currency": self._extract_currency(),
+                "company_name": company_overview.get("company_name"),
+                "sector": company_overview.get("sector"),
+                "market_cap_billions": company_overview.get("market_cap_billions"),
                 "annual": {},
                 "quarterly": {},
             }
@@ -258,6 +290,60 @@ class TradingViewFinalScraper:
                 )
             else:
                 print(f"  ✗ Could not switch to annual view for {section_name}")
+
+        return result
+
+    def _extract_company_overview(self, ticker: str, exchange: str) -> Dict:
+        """
+        Fetch the base symbol page (not the forecast page) and extract company
+        name, sector, and market cap — none of which are present on the
+        forecast page.
+
+        Args:
+            ticker: Stock ticker symbol
+            exchange: Exchange name
+
+        Returns:
+            {"company_name": str|None, "sector": str|None, "market_cap_billions": float|None}
+        """
+        result = {"company_name": None, "sector": None, "market_cap_billions": None}
+
+        try:
+            url = f"https://www.tradingview.com/symbols/{exchange}-{ticker}/"
+            self.driver.get(url)
+            time.sleep(5)
+
+            soup = BeautifulSoup(self.driver.page_source, "html.parser")
+
+            h1 = soup.find("h1")
+            if h1:
+                result["company_name"] = h1.get_text(strip=True)
+
+            sector_link = soup.find("a", href=re.compile(r"sectorandindustry-sector"))
+            if sector_link:
+                result["sector"] = sector_link.get_text(strip=True)
+
+            label = soup.find(string=re.compile(r"^Market capitalization$"))
+            if label:
+                # Walk up from the label to the shared row container, then find
+                # the value cell using a class-prefix match (module hash rotates).
+                row = label.parent
+                for _ in range(4):
+                    if row is None:
+                        break
+                    # bs4's class_ regex matches each class token individually,
+                    # unlike a CSS "[class^=...]" selector which matches the whole
+                    # attribute string (and "value-..." isn't always the first token).
+                    value_el = row.find(class_=re.compile(r"^value-"))
+                    if value_el:
+                        result["market_cap_billions"] = _parse_market_cap_to_billions(
+                            value_el.get_text(" ", strip=True)
+                        )
+                        break
+                    row = row.parent
+
+        except Exception as e:
+            print(f"  ✗ Error extracting company overview: {e}")
 
         return result
 

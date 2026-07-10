@@ -171,3 +171,39 @@ class TestMergeCurrency:
 
         assert merged["currency"] == "USD"
         assert any("currency mismatch" in m for m in log)
+
+
+class TestMergeCompanyProfile:
+    """Tests for company name / sector (static) and market cap (snapshot) merge behavior."""
+
+    def test_records_company_name_and_sector_when_previously_unknown(self):
+        existing = empty_store()
+        incoming = {"company_name": "Eli Lilly and Company", "sector": "Health Technology", "revenue": {"quarterly": {}, "annual": {}, "quarterly_forecast": {}, "annual_forecast": {}}, "eps": {"quarterly": {}, "annual": {}, "quarterly_forecast": {}, "annual_forecast": {}}}
+
+        merged, log = merge_ticker_data("LLY", existing, incoming, confirm_overwrite=lambda *a: True)
+
+        assert merged["company_name"] == "Eli Lilly and Company"
+        assert merged["sector"] == "Health Technology"
+
+    def test_flags_sector_mismatch_and_keeps_stored(self):
+        existing = empty_store()
+        existing["sector"] = "Health Technology"
+        incoming = {"sector": "Biotechnology", "revenue": {"quarterly": {}, "annual": {}, "quarterly_forecast": {}, "annual_forecast": {}}, "eps": {"quarterly": {}, "annual": {}, "quarterly_forecast": {}, "annual_forecast": {}}}
+
+        merged, log = merge_ticker_data("LLY", existing, incoming, confirm_overwrite=lambda *a: True)
+
+        assert merged["sector"] == "Health Technology"
+        assert any("sector mismatch" in m for m in log)
+
+    def test_market_cap_auto_refreshes_without_confirmation(self):
+        existing = empty_store()
+        existing["market_cap_billions"] = 1100.0
+        incoming = {"market_cap_billions": 1150.0, "revenue": {"quarterly": {}, "annual": {}, "quarterly_forecast": {}, "annual_forecast": {}}, "eps": {"quarterly": {}, "annual": {}, "quarterly_forecast": {}, "annual_forecast": {}}}
+
+        def never_called(*args):
+            raise AssertionError("confirm_overwrite should not be called for snapshot fields")
+
+        merged, log = merge_ticker_data("LLY", existing, incoming, confirm_overwrite=never_called)
+
+        assert merged["market_cap_billions"] == 1150.0
+        assert any("market_cap_billions updated" in m for m in log)

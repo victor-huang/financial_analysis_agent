@@ -127,7 +127,12 @@ def transform_financial_data(raw_data: Dict) -> Dict:
             "eps": {...same shape...},
         }
     """
-    result = {"currency": raw_data.get("currency")}
+    result = {
+        "currency": raw_data.get("currency"),
+        "company_name": raw_data.get("company_name"),
+        "sector": raw_data.get("sector"),
+        "market_cap_billions": raw_data.get("market_cap_billions"),
+    }
     for metric in ("revenue", "eps"):
         quarterly = raw_data.get("quarterly", {}).get(metric, {})
         annual = raw_data.get("annual", {}).get(metric, {})
@@ -156,8 +161,9 @@ def find_missing_data(ticker: str, transformed: Dict) -> List[str]:
         List of human-readable log messages (empty if nothing is missing)
     """
     messages = []
-    if not transformed.get("currency"):
-        messages.append(f"{ticker}: missing currency data")
+    for field in ("currency", "company_name", "sector", "market_cap_billions"):
+        if transformed.get(field) is None:
+            messages.append(f"{ticker}: missing {field} data")
     for metric in ("revenue", "eps"):
         for bucket, label in BUCKET_LABELS.items():
             if not transformed.get(metric, {}).get(bucket):
@@ -174,8 +180,15 @@ def _format_points_line(points: Dict[str, float]) -> str:
 def print_ticker_report(ticker: str, transformed: Dict) -> None:
     """Print the per-ticker data summary in the requested review format."""
     currency = transformed.get("currency") or "unknown currency"
+    company_name = transformed.get("company_name") or "unknown"
+    sector = transformed.get("sector") or "unknown"
+    market_cap = transformed.get("market_cap_billions")
+    market_cap_display = f"{market_cap:.2f}" if market_cap is not None else "unknown"
 
     print(f"\nTicker: {ticker}")
+    print(f"Company name: {company_name}")
+    print(f"Market segment: {sector}")
+    print(f"Market Cap (B): {market_cap_display}")
     print(f"Currency: {currency}")
 
     print(f"\nRevenue (in millions {currency}):")
