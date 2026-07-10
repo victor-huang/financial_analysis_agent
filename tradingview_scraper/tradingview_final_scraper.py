@@ -131,6 +131,7 @@ class TradingViewFinalScraper:
             result = {
                 "ticker": ticker,
                 "exchange": exchange,
+                "currency": self._extract_currency(),
                 "annual": {},
                 "quarterly": {},
             }
@@ -259,6 +260,25 @@ class TradingViewFinalScraper:
                 print(f"  ✗ Could not switch to annual view for {section_name}")
 
         return result
+
+    def _extract_currency(self) -> Optional[str]:
+        """
+        Extract the reporting currency (e.g. "USD") shown next to the ticker symbol.
+
+        Uses the data-qa-id attribute rather than the CSS module class name
+        since those class names rotate on TradingView deploys.
+
+        Returns:
+            Currency code string, or None if not found
+        """
+        try:
+            element = self.driver.find_element(
+                By.CSS_SELECTOR, '[data-qa-id="symbol-currency"]'
+            )
+            currency = _normalize_text(element.text)
+            return currency or None
+        except Exception:
+            return None
 
     def _find_section(self, section_name: str) -> Optional[any]:
         """

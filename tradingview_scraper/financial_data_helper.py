@@ -139,7 +139,7 @@ class FinancialDataFetcher:
         )
         annual_rev_fc = data.get("annual", {}).get("revenue", {}).get("forecast", [])
 
-        result = {}
+        result = {"currency": data.get("currency")}
 
         # --- Quarterly EPS ---
         # quarter_mode determines which quarter's data to use:

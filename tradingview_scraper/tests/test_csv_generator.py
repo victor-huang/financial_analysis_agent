@@ -85,7 +85,12 @@ class TestGetCsvHeaders:
     def test_headers_count(self):
         """Test expected number of headers."""
         headers = get_csv_headers()
-        assert len(headers) == 18  # Current count of columns
+        assert len(headers) == 21  # Current count of columns
+
+    def test_headers_include_currency(self):
+        """Test that Currency column is in headers."""
+        headers = get_csv_headers()
+        assert "Currency" in headers
 
 
 class TestBuildCsvRow:
@@ -151,6 +156,26 @@ class TestBuildCsvRow:
 
         assert row["EPS Q actual"] == ""
         assert row["Rev Q actual"] == ""
+
+    def test_includes_currency_from_yoy_data(self):
+        """Test that currency scraped from TradingView is included in the row."""
+        api_data = MockApiData.create_earnings_api_data()
+        yoy_data = MockYoYData.create_yoy_data()
+        yoy_data["currency"] = "USD"
+
+        row = build_csv_row(api_data, yoy_data)
+
+        assert row["Currency"] == "USD"
+
+    def test_currency_empty_when_not_scraped(self):
+        """Test that currency defaults to empty string when scraping found none."""
+        api_data = MockApiData.create_earnings_api_data()
+        yoy_data = MockYoYData.create_yoy_data()
+        yoy_data["currency"] = None
+
+        row = build_csv_row(api_data, yoy_data)
+
+        assert row["Currency"] == ""
 
     def test_preserves_hot_and_note_columns(self):
         """Test that hot? and Note columns are empty by default."""

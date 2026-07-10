@@ -80,10 +80,69 @@ python run_earnings_to_sheets.py \
 | `--keep-csv` | Keep local CSV file after upload |
 | `--skip-upload` | Generate CSV only, don't upload |
 
+### quarterly_annual_collector.py
+
+Collect quarterly and yearly Revenue/EPS data (historical + forecast) for a list of tickers directly from TradingView's forecast page, and persist it to a local YAML store that gets extended (not replaced) on every rerun.
+
+```bash
+# Collect data for a list of tickers
+python quarterly_annual_collector.py --tickers "LLY, AAPL, MSFT"
+
+# Read tickers from a file (comma-separated or one per line)
+python quarterly_annual_collector.py --tickers-file ../tickers_from_spreadsheet.txt
+
+# Show the browser during scraping (for debugging)
+python quarterly_annual_collector.py --tickers LLY --no-headless
+
+# Non-interactive rerun: always take the freshly scraped value on conflicts
+python quarterly_annual_collector.py --tickers LLY --on-reported-conflict overwrite
+
+# Non-interactive rerun: always keep whatever is already stored on conflicts
+python quarterly_annual_collector.py --tickers LLY --on-reported-conflict keep
+```
+
+**Options:**
+| Option | Description |
+|--------|-------------|
+| `--tickers` | Comma-separated list of tickers (e.g. `"LLY, AAPL, MSFT"`) |
+| `--tickers-file` | Path to a file with tickers (comma-separated or one per line) |
+| `--no-headless` | Show browser during scraping (for debugging) |
+| `--on-reported-conflict` | `ask` (default, prompt interactively), `overwrite`, or `keep` — see [Data Storage](#data-storage) below |
+
+**What it does:**
+- Resolves each ticker's exchange automatically via TradingView's symbol search (the forecast page 404s on the wrong exchange rather than redirecting)
+- Scrapes as many historical quarters/years and forward estimates as TradingView's free tier exposes for that ticker (typically ~7-8 quarters and ~5 years, but this varies)
+- Relabels periods using the company's own fiscal reporting quarter/year, not the calendar quarter (e.g. `Q3 '24` → `Q3 2024`, `2024` → `2024 Yearly`)
+- Also scrapes the reporting currency (e.g. `USD`) shown next to the ticker symbol
+- Prints a per-ticker summary of Revenue and EPS (quarterly/annual, historical/forecast)
+- Logs a **Missing Data Log** for any metric/period-type combination that came back completely empty
+- Logs a **Data Store Merge Log** summarizing every value added, overwritten, kept, or cleaned up during the merge (see below)
+
+## Data Storage
+
+Every run of `quarterly_annual_collector.py` merges its freshly scraped data into a local YAML file at:
+
+```
+company_earnings_data/<EXCHANGE>_<TICKER>/earning.yaml
+```
+
+e.g. `company_earnings_data/NYSE_LLY/earning.yaml`. Reruns **extend** this file rather than overwriting it, following these rules:
+
+- **Reported (actual) data points** — quarterly/annual historicals. New periods are added automatically. If a period already has a stored value and a rerun scrapes a *different* value for it (e.g. a restatement), you'll be prompted:
+  ```
+  ⚠ Discrepancy for LLY revenue quarterly Q1 2026: stored=99999.0, scraped=19800.0
+    Overwrite stored value with scraped value? [y/N]:
+  ```
+  Use `--on-reported-conflict overwrite` or `--on-reported-conflict keep` to resolve these non-interactively (e.g. in scripted/CI runs) instead of prompting.
+- **Forecast data points** — quarterly/annual estimates. These change often, so they're always overwritten automatically on every run — but every change is logged in the Data Store Merge Log so you can see what shifted.
+- **Forecast → reported transitions** — once a period that used to be a forecast has reported data available, the stale forecast entry for that period is automatically removed from the store.
+- **Currency** — recorded on first scrape; if a later scrape ever returns a different currency for the same ticker, it's flagged in the log and the originally stored value is kept (this generally shouldn't happen and is worth investigating if it does).
+
 ## Helper Modules
 
 - **earnings_api_helper.py** - Fetch earnings calendar data from TradingView API
 - **financial_data_helper.py** - Scrape detailed financial data from TradingView pages
+- **earnings_data_store.py** - Load/merge/save persisted Revenue/EPS data in `company_earnings_data/`
 - **csv_generator.py** - Build and save CSV output
 
 ## Data Extracted
