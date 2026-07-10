@@ -1,12 +1,20 @@
 #!/usr/bin/env python3
 """
 Export the local earning.yaml data store (collected by quarterly_annual_collector.py)
-to Google Sheets in a wide format: one row per ticker, one column per period.
+to Google Sheets: one row per ticker, one column per period.
 
 This is a separate export path from run_earnings_to_sheets.py, which uploads the
-current-quarter-focused CSV from generate_earnings_analysis.py instead. Column
-names here intentionally differ (e.g. "Company Name" / "Market Segment" instead
-of "Company name" / "Market segment") since they come from a different pipeline.
+current-quarter-focused CSV from generate_earnings_analysis.py instead.
+
+Column layout is driven by whatever header row already exists in the target
+tab (see sheet_column_mapping.py): each header cell is parsed into a resolver,
+so a tab's column names/order/typos are matched exactly rather than
+hardcoded here. If the target tab is empty, a generic wide layout is written
+instead (see earning_store_export.py) to bootstrap a brand new tab.
+
+When the tab already has data, each ticker's row is updated in place if it's
+already present (matched by the ticker column), and only genuinely new
+tickers are appended — this avoids creating duplicate rows on reruns.
 
 By default this exports whatever is already saved on disk under
 company_earnings_data/. Pass --refresh to re-scrape and merge each ticker first.
@@ -29,7 +37,8 @@ sys.path.insert(0, os.path.dirname(__file__))
 from quarterly_annual_collector import resolve_exchange, collect_for_tickers, _parse_tickers_arg
 from earnings_data_store import load_existing_data, prompt_confirm_overwrite
 from earning_store_export import build_export_rows
-from run_earnings_to_sheets import upload_csv_to_sheets
+from sheet_column_mapping import build_rows_for_headers
+from run_earnings_to_sheets import upload_csv_to_sheets, get_existing_header, create_sheets_client
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
@@ -81,6 +90,96 @@ def gather_ticker_data(tickers, refresh, headless, confirm_overwrite):
         ticker_data[key] = data
 
     return ordered_keys, ticker_data
+
+
+def build_headers_and_rows(client, spreadsheet_id, tab_name, ordered_keys, ticker_data):
+    """
+    Build the CSV header + rows for this export, matching whatever header
+    already exists in the target tab if there is one, or falling back to a
+    generic wide layout to bootstrap a brand new tab.
+
+    Returns:
+        (headers, rows, matched_existing_header: bool)
+    """
+    existing_header = get_existing_header(client, spreadsheet_id, tab_name)
+
+    if existing_header:
+        logger.info(f"Tab '{tab_name}' already has a header, mapping data to its columns...")
+        rows, unrecognized = build_rows_for_headers(existing_header, ordered_keys, ticker_data)
+        if unrecognized:
+            logger.warning(
+                f"{len(unrecognized)} column(s) in '{tab_name}' were not recognized and will "
+                f"be left blank: {unrecognized}"
+            )
+        return existing_header, rows, True
+
+    logger.info(f"Tab '{tab_name}' is empty, writing a new generic wide-format header...")
+    headers, rows = build_export_rows(ordered_keys, ticker_data)
+    return headers, rows, False
+
+
+def _column_letter(column_number: int) -> str:
+    """Convert a 1-indexed column number to its spreadsheet letter(s), e.g. 1 -> 'A', 28 -> 'AB'."""
+    letters = ""
+    while column_number > 0:
+        column_number, remainder = divmod(column_number - 1, 26)
+        letters = chr(65 + remainder) + letters
+    return letters
+
+
+def get_ticker_row_numbers(client, spreadsheet_id, tab_name, ticker_col="A", start_row=2):
+    """
+    Map each ticker already present in a sheet tab to its row number.
+
+    Returns:
+        {ticker (uppercase): row_number (1-indexed)}
+    """
+    result = (
+        client.service.spreadsheets()
+        .values()
+        .get(spreadsheetId=spreadsheet_id, range=f"{tab_name}!{ticker_col}{start_row}:{ticker_col}")
+        .execute()
+    )
+    values = result.get("values", [])
+    return {
+        row[0].strip().upper(): start_row + i
+        for i, row in enumerate(values)
+        if row and row[0].strip()
+    }
+
+
+def upsert_rows(client, spreadsheet_id, tab_name, headers, ordered_keys, rows):
+    """
+    Write each ticker's row into an existing tab: update its row in place if
+    the ticker is already present (matched by column A), otherwise append it
+    as a new row. Prevents duplicate ticker rows from accumulating on reruns.
+    """
+    client.get_or_create_sheet_tab(spreadsheet_id, tab_name)
+    existing_rows = get_ticker_row_numbers(client, spreadsheet_id, tab_name)
+    last_col = _column_letter(len(headers))
+
+    to_append = []
+    updated_count = 0
+
+    for (_, ticker), row in zip(ordered_keys, rows):
+        row_number = existing_rows.get(ticker.upper())
+        if row_number:
+            client.service.spreadsheets().values().update(
+                spreadsheetId=spreadsheet_id,
+                range=f"{tab_name}!A{row_number}:{last_col}{row_number}",
+                valueInputOption="USER_ENTERED",
+                body={"values": [row]},
+            ).execute()
+            updated_count += 1
+        else:
+            to_append.append(row)
+
+    if to_append:
+        client.append_data_to_sheet(spreadsheet_id=spreadsheet_id, data=to_append, tab_name=tab_name)
+
+    logger.info(
+        f"Updated {updated_count} existing row(s), appended {len(to_append)} new row(s) in '{tab_name}'"
+    )
 
 
 def main():
@@ -157,7 +256,10 @@ def main():
         logger.warning("No tickers resolved, nothing to export")
         return
 
-    headers, rows = build_export_rows(ordered_keys, ticker_data)
+    client = create_sheets_client()
+    headers, rows, matched_existing_header = build_headers_and_rows(
+        client, args.spreadsheet_id, args.tab_name, ordered_keys, ticker_data
+    )
 
     with open(args.output, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
@@ -167,13 +269,16 @@ def main():
     logger.info(f"Wrote {len(rows)} rows to {args.output}")
 
     if not args.skip_upload:
-        upload_csv_to_sheets(
-            csv_file=args.output,
-            spreadsheet_id=args.spreadsheet_id,
-            tab_name=args.tab_name,
-            clear_existing=not args.no_clear,
-            format_header=not args.no_format,
-        )
+        if matched_existing_header:
+            upsert_rows(client, args.spreadsheet_id, args.tab_name, headers, ordered_keys, rows)
+        else:
+            upload_csv_to_sheets(
+                csv_file=args.output,
+                spreadsheet_id=args.spreadsheet_id,
+                tab_name=args.tab_name,
+                clear_existing=not args.no_clear,
+                format_header=not args.no_format,
+            )
 
     if not args.keep_csv and not args.skip_upload:
         Path(args.output).unlink()
