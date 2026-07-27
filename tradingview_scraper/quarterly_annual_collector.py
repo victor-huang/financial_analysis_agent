@@ -119,6 +119,12 @@ def transform_financial_data(raw_data: Dict) -> Dict:
     Reshape the scraper's raw annual/quarterly EPS+Revenue payload into the
     metric-first structure used for reporting: {metric: {bucket: {label: value}}}.
 
+    The forecast bucket holds the analyst estimate for a period regardless of
+    whether that period has since been reported: TradingView shows both the
+    reported value and the original estimate side by side for historical
+    periods too (useful for beat/miss comparisons), so both are captured here
+    rather than discarding the estimate once a period is reported.
+
     Args:
         raw_data: Output of TradingViewFinalScraper.fetch_all_financial_data
 
@@ -138,11 +144,19 @@ def transform_financial_data(raw_data: Dict) -> Dict:
     for metric in ("revenue", "eps"):
         quarterly = raw_data.get("quarterly", {}).get(metric, {})
         annual = raw_data.get("annual", {}).get(metric, {})
+        quarterly_historical = quarterly.get("historical", [])
+        annual_historical = annual.get("historical", [])
         result[metric] = {
-            "quarterly": _extract_points(quarterly.get("historical", []), "reported"),
-            "annual": _extract_points(annual.get("historical", []), "reported"),
-            "quarterly_forecast": _extract_points(quarterly.get("forecast", []), "estimate"),
-            "annual_forecast": _extract_points(annual.get("forecast", []), "estimate"),
+            "quarterly": _extract_points(quarterly_historical, "reported"),
+            "annual": _extract_points(annual_historical, "reported"),
+            "quarterly_forecast": {
+                **_extract_points(quarterly_historical, "estimate"),
+                **_extract_points(quarterly.get("forecast", []), "estimate"),
+            },
+            "annual_forecast": {
+                **_extract_points(annual_historical, "estimate"),
+                **_extract_points(annual.get("forecast", []), "estimate"),
+            },
         }
     return result
 

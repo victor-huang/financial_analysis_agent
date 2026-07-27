@@ -1,7 +1,7 @@
 currency: USD
 company_name: Alaska Air Group, Inc.
 sector: Transportation
-market_cap_billions: 5.59
+market_cap_billions: 5.14
 revenue:
   quarterly:
     Q3 2024: 3070.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 3770.0
     Q4 2025: 3630.0
     Q1 2026: 3300.0
+    Q2 2026: 4070.0000000000005
   annual:
     2021 Yearly: 6180.0
     2022 Yearly: 9650.0
@@ -18,15 +19,27 @@ revenue:
     2024 Yearly: 11730.0
     2025 Yearly: 14240.0
   quarterly_forecast:
+    Q4 2024: 3440.0
+    Q1 2025: 3170.0
+    Q2 2025: 3650.0
+    Q3 2025: 3760.0
+    Q4 2025: 3640.0
+    Q1 2026: 3290.0
     Q2 2026: 4090.0
-    Q3 2026: 4300.0
-    Q4 2026: 4110.0
-    Q1 2027: 3600.0
+    Q3 2026: 4290.0
+    Q4 2026: 4120.0
+    Q1 2027: 3680.0
+    Q2 2027: 4410.0
   annual_forecast:
-    2026 Yearly: 15810.0
-    2027 Yearly: 16790.0
-    2028 Yearly: 17870.0
-    2029 Yearly: 19020.0
+    2021 Yearly: 6120.0
+    2022 Yearly: 9680.0
+    2023 Yearly: 10400.0
+    2024 Yearly: 11700.0
+    2025 Yearly: 14250.0
+    2026 Yearly: 15790.0
+    2027 Yearly: 16860.0
+    2028 Yearly: 17810.0
+    2029 Yearly: 19200.0
 eps:
   quarterly:
     Q3 2024: 2.25
@@ -36,6 +49,7 @@ eps:
     Q3 2025: 1.05
     Q4 2025: 0.43
     Q1 2026: -1.68
+    Q2 2026: -0.92
   annual:
     2021 Yearly: -2.03
     2022 Yearly: 4.35
@@ -43,12 +57,24 @@ eps:
     2024 Yearly: 4.87
     2025 Yearly: 2.44
   quarterly_forecast:
-    Q2 2026: -0.98
-    Q3 2026: 1.45
-    Q4 2026: 1.15
-    Q1 2027: -1.11
+    Q4 2024: 0.47
+    Q1 2025: -0.77
+    Q2 2025: 1.54
+    Q3 2025: 1.09
+    Q4 2025: 0.11
+    Q1 2026: -1.65
+    Q2 2026: -0.99
+    Q3 2026: 0.83
+    Q4 2026: 0.86
+    Q1 2027: -1.1
+    Q2 2027: 2.27
   annual_forecast:
-    2026 Yearly: -0.03
-    2027 Yearly: 6.54
-    2028 Yearly: 9.09
-    2029 Yearly: 12.41
+    2021 Yearly: -2.06
+    2022 Yearly: 4.36
+    2023 Yearly: 4.45
+    2024 Yearly: 4.36
+    2025 Yearly: 2.14
+    2026 Yearly: -0.96
+    2027 Yearly: 6.06
+    2028 Yearly: 8.73
+    2029 Yearly: 11.66

@@ -1,7 +1,7 @@
 currency: USD
 company_name: Steel Dynamics, Inc.
 sector: Non-Energy Minerals
-market_cap_billions: 32.02
+market_cap_billions: 35.64
 revenue:
   quarterly:
     Q3 2024: 4340.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 4830.0
     Q4 2025: 4410.0
     Q1 2026: 5200.0
+    Q2 2026: 6090.0
   annual:
     2021 Yearly: 18410.0
     2022 Yearly: 22260.0
@@ -18,15 +19,27 @@ revenue:
     2024 Yearly: 17540.0
     2025 Yearly: 18180.0
   quarterly_forecast:
-    Q2 2026: 5570.0
-    Q3 2026: 5950.0
-    Q4 2026: 5720.0
-    Q1 2027: 5880.0
+    Q4 2024: 3970.0
+    Q1 2025: 4190.0
+    Q2 2025: 4720.0
+    Q3 2025: 4760.0
+    Q4 2025: 4550.0
+    Q1 2026: 5080.0
+    Q2 2026: 5560.0
+    Q3 2026: 6280.0
+    Q4 2026: 5960.0
+    Q1 2027: 6060.0
+    Q2 2027: 6100.0
   annual_forecast:
-    2026 Yearly: 22600.0
-    2027 Yearly: 23080.0
-    2028 Yearly: 23360.0
-    2029 Yearly: 22850.0
+    2021 Yearly: 18310.0
+    2022 Yearly: 22120.0
+    2023 Yearly: 18780.0
+    2024 Yearly: 17620.0
+    2025 Yearly: 18300.0
+    2026 Yearly: 23520.0
+    2027 Yearly: 23570.0
+    2028 Yearly: 23840.0
+    2029 Yearly: 23380.0
 eps:
   quarterly:
     Q3 2024: 2.05
@@ -36,6 +49,7 @@ eps:
     Q3 2025: 2.74
     Q4 2025: 1.82
     Q1 2026: 2.78
+    Q2 2026: 3.69
   annual:
     2021 Yearly: 16.09
     2022 Yearly: 22.68
@@ -43,12 +57,24 @@ eps:
     2024 Yearly: 9.84
     2025 Yearly: 7.99
   quarterly_forecast:
-    Q2 2026: 3.69
-    Q3 2026: 5.08
-    Q4 2026: 4.82
-    Q1 2027: 4.8
+    Q4 2024: 1.29
+    Q1 2025: 1.38
+    Q2 2025: 2.24
+    Q3 2025: 2.63
+    Q4 2025: 1.7
+    Q1 2026: 2.78
+    Q2 2026: 3.63
+    Q3 2026: 5.31
+    Q4 2026: 4.85
+    Q1 2027: 4.86
+    Q2 2027: 4.9
   annual_forecast:
-    2026 Yearly: 16.44
-    2027 Yearly: 19.28
-    2028 Yearly: 18.66
-    2029 Yearly: 13.19
+    2021 Yearly: 16.03
+    2022 Yearly: 21.43
+    2023 Yearly: 14.79
+    2024 Yearly: 9.76
+    2025 Yearly: 7.96
+    2026 Yearly: 16.63
+    2027 Yearly: 19.34
+    2028 Yearly: 18.55
+    2029 Yearly: 14.88

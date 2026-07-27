@@ -1,7 +1,7 @@
 currency: USD
 company_name: NetSTREIT Corp.
 sector: Finance
-market_cap_billions: 2.12
+market_cap_billions: 2.26
 revenue:
   quarterly:
     Q3 2024: 38.17
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 45.03
     Q4 2025: 52.5
     Q1 2026: 54.03
+    Q2 2026: 57.82
   annual:
     2021 Yearly: 59.14
     2022 Yearly: 93.93
@@ -18,14 +19,26 @@ revenue:
     2024 Yearly: 150.82
     2025 Yearly: 195.01
   quarterly_forecast:
-    Q2 2026: 56.34
-    Q3 2026: 58.34
-    Q4 2026: 60.55
-    Q1 2027: 63.25
+    Q4 2024: 40.74
+    Q1 2025: 42.96
+    Q2 2025: 44.73
+    Q3 2025: 45.68
+    Q4 2025: 47.87
+    Q1 2026: 50.82
+    Q2 2026: 56.41
+    Q3 2026: 58.87
+    Q4 2026: 61.23
+    Q1 2027: 64.51
+    Q2 2027: 68.74
   annual_forecast:
-    2026 Yearly: 228.0
-    2027 Yearly: 264.74
-    2028 Yearly: 309.91
+    2021 Yearly: 56.26
+    2022 Yearly: 92.57
+    2023 Yearly: 126.0
+    2024 Yearly: 151.78
+    2025 Yearly: 181.72
+    2026 Yearly: 229.48
+    2027 Yearly: 268.65
+    2028 Yearly: 319.72
     2029 Yearly: 364.07
 eps:
   quarterly:
@@ -36,6 +49,7 @@ eps:
     Q3 2025: 0.01
     Q4 2025: 0.02
     Q1 2026: 0.06
+    Q2 2026: 0.06
   annual:
     2021 Yearly: 0.08
     2022 Yearly: 0.16
@@ -43,12 +57,24 @@ eps:
     2024 Yearly: -0.16
     2025 Yearly: 0.08
   quarterly_forecast:
+    Q4 2024: 0.05
+    Q1 2025: 0.06
+    Q2 2025: 0.06
+    Q3 2025: 0.07
+    Q4 2025: 0.07
+    Q1 2026: 0.07
     Q2 2026: 0.08
     Q3 2026: 0.09
     Q4 2026: 0.09
     Q1 2027: 0.09
+    Q2 2027: 0.09
   annual_forecast:
-    2026 Yearly: 0.32
-    2027 Yearly: 0.43
-    2028 Yearly: 0.4
+    2021 Yearly: 0.06
+    2022 Yearly: 0.13
+    2023 Yearly: 0.13
+    2024 Yearly: -0.03
+    2025 Yearly: 0.14
+    2026 Yearly: 0.31
+    2027 Yearly: 0.42
+    2028 Yearly: 0.39
     2029 Yearly: 0.47

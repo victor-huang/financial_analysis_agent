@@ -1,7 +1,7 @@
 currency: USD
 company_name: BOK Financial Corporation
 sector: Finance
-market_cap_billions: 8.38
+market_cap_billions: 8.64
 revenue:
   quarterly:
     Q3 2024: 510.61
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 542.08
     Q4 2025: 560.14
     Q1 2026: 552.33
+    Q2 2026: 553.82
   annual:
     2021 Yearly: 1790.0
     2022 Yearly: 1870.0
@@ -18,13 +19,25 @@ revenue:
     2024 Yearly: 2020.0
     2025 Yearly: 2130.0
   quarterly_forecast:
+    Q4 2024: 517.35
+    Q1 2025: 520.15
+    Q2 2025: 520.03
+    Q3 2025: 540.38
+    Q4 2025: 554.73
+    Q1 2026: 551.43
     Q2 2026: 568.08
-    Q3 2026: 573.27
-    Q4 2026: 585.07
-    Q1 2027: 586.58
+    Q3 2026: 571.9
+    Q4 2026: 585.35
+    Q1 2027: 585.7
+    Q2 2027: 600.97
   annual_forecast:
+    2021 Yearly: 1870.0
+    2022 Yearly: 1830.0
+    2023 Yearly: 2050.0
+    2024 Yearly: 2029.9999999999998
+    2025 Yearly: 2130.0
     2026 Yearly: 2280.0
-    2027 Yearly: 2410.0
+    2027 Yearly: 2420.0
     2028 Yearly: 2490.0
 eps:
   quarterly:
@@ -35,6 +48,7 @@ eps:
     Q3 2025: 2.22
     Q4 2025: 2.89
     Q1 2026: 2.58
+    Q2 2026: 2.92
   annual:
     2021 Yearly: 8.95
     2022 Yearly: 7.68
@@ -42,11 +56,23 @@ eps:
     2024 Yearly: 8.14
     2025 Yearly: 9.17
   quarterly_forecast:
-    Q2 2026: 2.66
-    Q3 2026: 2.51
-    Q4 2026: 2.56
-    Q1 2027: 2.5
+    Q4 2024: 1.99
+    Q1 2025: 1.99
+    Q2 2025: 1.99
+    Q3 2025: 2.17
+    Q4 2025: 2.24
+    Q1 2026: 2.33
+    Q2 2026: 2.68
+    Q3 2026: 2.52
+    Q4 2026: 2.59
+    Q1 2027: 2.53
+    Q2 2027: 2.66
   annual_forecast:
-    2026 Yearly: 10.3
-    2027 Yearly: 10.5
-    2028 Yearly: 10.84
+    2021 Yearly: 9.07
+    2022 Yearly: 7.45
+    2023 Yearly: 8.54
+    2024 Yearly: 8.04
+    2025 Yearly: 8.44
+    2026 Yearly: 10.6
+    2027 Yearly: 10.64
+    2028 Yearly: 10.76

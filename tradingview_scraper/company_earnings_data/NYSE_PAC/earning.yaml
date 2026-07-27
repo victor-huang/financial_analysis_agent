@@ -2,7 +2,7 @@ currency: USD
 company_name: Grupo Aeroportuario Del Pacifico, S.A. B. de C.V. Grupo Aeroportuario
   Del Pacifico, S.A. de C.V. (each representing 10 Series B shares)
 sector: Transportation
-market_cap_billions: 11.91
+market_cap_billions: 10.88
 revenue:
   quarterly:
     Q3 2024: 414.6
@@ -12,6 +12,7 @@ revenue:
     Q3 2025: 519.61
     Q4 2025: 574.06
     Q1 2026: 656.24
+    Q2 2026: 648.73
   annual:
     2021 Yearly: 939.67
     2022 Yearly: 1490.0
@@ -19,15 +20,27 @@ revenue:
     2024 Yearly: 1520.0
     2025 Yearly: 2400.0
   quarterly_forecast:
+    Q4 2024: 469.87
+    Q1 2025: 542.42
+    Q2 2025: 526.34
+    Q3 2025: 537.89
+    Q4 2025: 584.74
+    Q1 2026: 570.23
     Q2 2026: 732.26
-    Q3 2026: 710.68
-    Q4 2026: 754.72
-    Q1 2027: 731.46
+    Q3 2026: 689.18
+    Q4 2026: 737.74
+    Q1 2027: 698.06
+    Q2 2027: 682.53
   annual_forecast:
-    2026 Yearly: 2580.0
-    2027 Yearly: 2890.0
-    2028 Yearly: 3070.0
-    2029 Yearly: 3260.0
+    2021 Yearly: 928.5
+    2022 Yearly: 1280.0
+    2023 Yearly: 1750.0
+    2024 Yearly: 1690.0
+    2025 Yearly: 2270.0
+    2026 Yearly: 2510.0
+    2027 Yearly: 2820.0
+    2028 Yearly: 3040.0
+    2029 Yearly: 3280.0
 eps:
   quarterly:
     Q3 2024: 1.98
@@ -37,6 +50,7 @@ eps:
     Q3 2025: 2.9
     Q4 2025: 2.06
     Q1 2026: 3.78
+    Q2 2026: 2.79
   annual:
     2021 Yearly: 5.83
     2022 Yearly: 9.33
@@ -44,12 +58,24 @@ eps:
     2024 Yearly: 9.25
     2025 Yearly: 11.48
   quarterly_forecast:
-    Q2 2026: 3.07
-    Q3 2026: 3.39
-    Q4 2026: 3.37
-    Q1 2027: 3.96
+    Q4 2024: 2.08
+    Q1 2025: 2.65
+    Q2 2025: 2.89
+    Q3 2025: 2.86
+    Q4 2025: 2.61
+    Q1 2026: 3.1
+    Q2 2026: 3.1
+    Q3 2026: 3.23
+    Q4 2026: 3.12
+    Q1 2027: 3.55
+    Q2 2027: 3.03
   annual_forecast:
-    2026 Yearly: 13.34
-    2027 Yearly: 15.36
-    2028 Yearly: 17.7
-    2029 Yearly: 18.11
+    2021 Yearly: 5.43
+    2022 Yearly: 8.8
+    2023 Yearly: 10.86
+    2024 Yearly: 8.76
+    2025 Yearly: 11.76
+    2026 Yearly: 13.12
+    2027 Yearly: 14.96
+    2028 Yearly: 17.79
+    2029 Yearly: 18.03

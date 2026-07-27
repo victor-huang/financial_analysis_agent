@@ -184,7 +184,7 @@ e.g. `company_earnings_data/NYSE_LLY/earning.yaml`. Reruns **extend** this file 
   ```
   Use `--on-reported-conflict overwrite` or `--on-reported-conflict keep` to resolve these non-interactively (e.g. in scripted/CI runs) instead of prompting.
 - **Forecast data points** — quarterly/annual estimates. These change often, so they're always overwritten automatically on every run — but every change is logged in the Data Store Merge Log so you can see what shifted.
-- **Forecast → reported transitions** — once a period that used to be a forecast has reported data available, the stale forecast entry for that period is automatically removed from the store.
+- **Estimate retention after reporting** — TradingView shows the original analyst estimate alongside the reported value even for periods that have already reported (useful for beat/miss comparisons), so the estimate is kept in the forecast bucket permanently rather than being discarded once a period is reported.
 - **Currency** — recorded on first scrape; if a later scrape ever returns a different currency for the same ticker, it's flagged in the log and the originally stored value is kept (this generally shouldn't happen and is worth investigating if it does).
 
 ## Helper Modules

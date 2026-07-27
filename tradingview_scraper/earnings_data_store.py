@@ -7,10 +7,11 @@ Merge rules:
 - Reported (actual) data points are additive by default. If a period already has a
   reported value and a new scrape returns a *different* value for that same period,
   this is a discrepancy: the user is prompted to confirm before overwriting.
-- Forecast data points are overwritten automatically on every run (since estimates
-  change over time), but each overwrite is logged for visibility.
-- When a period that used to be a forecast now has reported data, the stale forecast
-  entry for that period is dropped.
+- Forecast (estimate) data points are overwritten automatically on every run, but
+  each overwrite is logged for visibility. The estimate for a period is kept
+  permanently alongside its reported value once available, since TradingView
+  itself shows both side by side for historical periods (useful for beat/miss
+  comparisons) rather than discarding the original estimate once reported.
 """
 
 import re
@@ -245,19 +246,6 @@ def merge_ticker_data(
             )
             merged[metric][bucket] = bucket_merged
             log.extend(bucket_log)
-
-        # A period that now has reported data is no longer a forecast — drop it
-        # from the forecast bucket so the two don't disagree.
-        for reported_bucket, forecast_bucket in FORECAST_OF.items():
-            reported_periods = merged[metric][reported_bucket]
-            forecast_bucket_data = merged[metric][forecast_bucket]
-            for period in list(forecast_bucket_data):
-                if period in reported_periods:
-                    del forecast_bucket_data[period]
-                    log.append(
-                        f"{ticker}: removed stale {metric} {forecast_bucket} forecast for "
-                        f"{period} (now reported)"
-                    )
 
     return merged, log
 

@@ -1,7 +1,7 @@
 currency: USD
 company_name: Flexsteel Industries, Inc.
 sector: Consumer Durables
-market_cap_billions: 0.38447000000000003
+market_cap_billions: 0.40274
 revenue:
   quarterly:
     Q1 2025: 104.01
@@ -18,13 +18,25 @@ revenue:
     2024 Yearly: 412.75
     2025 Yearly: 441.07
   quarterly_forecast:
-    Q4 2026: 109.66
-    Q1 2027: 106.8
-    Q2 2027: 122.29
-    Q3 2027: 123.84
+    Q1 2025: 101.6
+    Q2 2025: 104.61
+    Q3 2025: 111.94
+    Q4 2025: 111.82
+    Q1 2026: 105.38
+    Q2 2026: 107.51
+    Q3 2026: 116.37
+    Q4 2026: 109.51
+    Q1 2027: 107.05
+    Q2 2027: 122.24
+    Q3 2027: 123.94
   annual_forecast:
-    2026 Yearly: 453.47
-    2027 Yearly: 471.39
+    2017 Yearly: 531.2
+    2022 Yearly: 539.19
+    2023 Yearly: 390.89
+    2024 Yearly: 411.45
+    2025 Yearly: 438.28
+    2026 Yearly: 453.42
+    2027 Yearly: 471.24
     2028 Yearly: 487.28
     2029 Yearly: 488.55
 eps:
@@ -43,11 +55,23 @@ eps:
     2024 Yearly: 2.11
     2025 Yearly: 4.17
   quarterly_forecast:
+    Q1 2025: 0.62
+    Q2 2025: 0.74
+    Q3 2025: 0.88
+    Q4 2025: 0.84
+    Q1 2026: 0.78
+    Q2 2026: 0.79
+    Q3 2026: 0.86
     Q4 2026: 1.09
     Q1 2027: 1.07
     Q2 2027: 1.27
     Q3 2027: 1.37
   annual_forecast:
+    2017 Yearly: 3.28
+    2022 Yearly: 0.63
+    2023 Yearly: 0.8
+    2024 Yearly: 2.05
+    2025 Yearly: 3.65
     2026 Yearly: 4.74
     2027 Yearly: 5.04
     2028 Yearly: 5.63

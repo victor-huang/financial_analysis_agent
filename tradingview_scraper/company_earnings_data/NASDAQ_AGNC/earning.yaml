@@ -1,7 +1,7 @@
 currency: USD
 company_name: AGNC Investment Corp.
 sector: Finance
-market_cap_billions: 12.71
+market_cap_billions: 12.16
 revenue:
   quarterly:
     Q3 2024: 756.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 903.0
     Q4 2025: 944.0
     Q1 2026: 1050.0
+    Q2 2026: 1010.0
   annual:
     2021 Yearly: 1360.0
     2022 Yearly: 1590.0
@@ -18,14 +19,26 @@ revenue:
     2024 Yearly: 2950.0
     2025 Yearly: 3520.0
   quarterly_forecast:
+    Q4 2024: 830.55
+    Q1 2025: 848.14
+    Q2 2025: 862.75
+    Q3 2025: 883.28
+    Q4 2025: 940.76
+    Q1 2026: 988.6
     Q2 2026: 1060.0
     Q3 2026: 1060.0
-    Q4 2026: 1060.0
-    Q1 2027: 1070.0
+    Q4 2026: 1070.0
+    Q1 2027: 1100.0
+    Q2 2027: 1110.0
   annual_forecast:
-    2026 Yearly: 4230.0
-    2027 Yearly: 4240.0
-    2028 Yearly: 2160.0
+    2021 Yearly: 1260.0
+    2022 Yearly: 1750.0
+    2023 Yearly: 1920.0
+    2024 Yearly: 2920.0
+    2025 Yearly: 3520.0
+    2026 Yearly: 4190.0
+    2027 Yearly: 4410.0
+    2028 Yearly: 2070.0
 eps:
   quarterly:
     Q3 2024: 0.43
@@ -35,6 +48,7 @@ eps:
     Q3 2025: 0.35
     Q4 2025: 0.35
     Q1 2026: 0.42
+    Q2 2026: 0.4
   annual:
     2021 Yearly: 3.02
     2022 Yearly: 3.11
@@ -42,11 +56,23 @@ eps:
     2024 Yearly: 1.88
     2025 Yearly: 1.5
   quarterly_forecast:
+    Q4 2024: 0.42
+    Q1 2025: 0.4
+    Q2 2025: 0.41
+    Q3 2025: 0.39
+    Q4 2025: 0.37
+    Q1 2026: 0.36
     Q2 2026: 0.38
     Q3 2026: 0.38
     Q4 2026: 0.38
-    Q1 2027: 0.37
+    Q1 2027: 0.38
+    Q2 2027: 0.37
   annual_forecast:
-    2026 Yearly: 1.56
-    2027 Yearly: 1.51
-    2028 Yearly: 1.53
+    2021 Yearly: 2.94
+    2022 Yearly: 3.04
+    2023 Yearly: 2.61
+    2024 Yearly: 1.95
+    2025 Yearly: 1.53
+    2026 Yearly: 1.58
+    2027 Yearly: 1.5
+    2028 Yearly: 1.45

@@ -1,7 +1,7 @@
 currency: USD
 company_name: Wintrust Financial Corporation
 sector: Finance
-market_cap_billions: 10.91
+market_cap_billions: 10.7
 revenue:
   quarterly:
     Q3 2024: 615.73
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 697.84
     Q4 2025: 714.26
     Q1 2026: 713.17
+    Q2 2026: 738.63
   annual:
     2021 Yearly: 1710.0
     2022 Yearly: 1960.0
@@ -18,11 +19,23 @@ revenue:
     2024 Yearly: 2450.0
     2025 Yearly: 2730.0
   quarterly_forecast:
-    Q2 2026: 735.94
-    Q3 2026: 755.37
-    Q4 2026: 764.62
-    Q1 2027: 761.58
+    Q4 2024: 640.09
+    Q1 2025: 643.51
+    Q2 2025: 660.14
+    Q3 2025: 689.5
+    Q4 2025: 701.87
+    Q1 2026: 707.25
+    Q2 2026: 735.36
+    Q3 2026: 752.98
+    Q4 2026: 762.69
+    Q1 2027: 760.29
+    Q2 2027: 781.83
   annual_forecast:
+    2021 Yearly: 1690.0
+    2022 Yearly: 1960.0
+    2023 Yearly: 2280.0
+    2024 Yearly: 2450.0
+    2025 Yearly: 2710.0
     2026 Yearly: 2970.0
     2027 Yearly: 3160.0
     2028 Yearly: 3400.0
@@ -35,6 +48,7 @@ eps:
     Q3 2025: 2.78
     Q4 2025: 3.15
     Q1 2026: 3.22
+    Q2 2026: 3.3
   annual:
     2021 Yearly: 7.58
     2022 Yearly: 8.02
@@ -42,11 +56,23 @@ eps:
     2024 Yearly: 10.31
     2025 Yearly: 11.4
   quarterly_forecast:
+    Q4 2024: 2.48
+    Q1 2025: 2.49
+    Q2 2025: 2.6
+    Q3 2025: 2.63
+    Q4 2025: 2.93
+    Q1 2026: 2.96
     Q2 2026: 3.14
-    Q3 2026: 3.29
-    Q4 2026: 3.36
+    Q3 2026: 3.27
+    Q4 2026: 3.34
     Q1 2027: 3.31
+    Q2 2027: 3.33
   annual_forecast:
-    2026 Yearly: 13.0
-    2027 Yearly: 13.88
-    2028 Yearly: 15.2
+    2021 Yearly: 7.52
+    2022 Yearly: 8.36
+    2023 Yearly: 10.13
+    2024 Yearly: 10.12
+    2025 Yearly: 11.2
+    2026 Yearly: 13.13
+    2027 Yearly: 13.79
+    2028 Yearly: 15.08

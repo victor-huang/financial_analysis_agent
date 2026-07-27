@@ -149,20 +149,22 @@ class TestMergeForecast:
         assert merged["revenue"]["quarterly_forecast"]["Q2 2025"] == 120.0
         assert any("forecast updated" in m for m in log)
 
-    def test_stale_forecast_removed_once_reported(self):
+    def test_forecast_kept_permanently_once_period_is_reported(self):
+        """TradingView shows the original estimate alongside the reported value even for
+        historical periods (useful for beat/miss comparisons), so the forecast bucket
+        keeps its entry rather than being cleared out once a period is reported."""
         existing = empty_store()
         existing["revenue"]["quarterly_forecast"]["Q2 2025"] = 110.0
         incoming = {
             "currency": None,
-            "revenue": {"quarterly": {"Q2 2025": 112.0}, "annual": {}, "quarterly_forecast": {}, "annual_forecast": {}},
+            "revenue": {"quarterly": {"Q2 2025": 112.0}, "annual": {}, "quarterly_forecast": {"Q2 2025": 110.0}, "annual_forecast": {}},
             "eps": {"quarterly": {}, "annual": {}, "quarterly_forecast": {}, "annual_forecast": {}},
         }
 
         merged, log = merge_ticker_data("TEST", existing, incoming, confirm_overwrite=lambda *a: True)
 
-        assert "Q2 2025" not in merged["revenue"]["quarterly_forecast"]
+        assert merged["revenue"]["quarterly_forecast"]["Q2 2025"] == 110.0
         assert merged["revenue"]["quarterly"]["Q2 2025"] == 112.0
-        assert any("removed stale revenue quarterly_forecast" in m for m in log)
 
 
 class TestMergeCurrency:
