@@ -1,7 +1,7 @@
 currency: USD
 company_name: HBT Financial, Inc.
 sector: Finance
-market_cap_billions: 1.21
+market_cap_billions: 1.26
 revenue:
   quarterly:
     Q3 2024: 56.44
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 59.84
     Q4 2025: 60.44
     Q1 2026: 67.33
+    Q2 2026: 80.9
   annual:
     2021 Yearly: 159.73
     2022 Yearly: 180.59
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 81.56
     Q4 2026: 82.58
     Q1 2027: 81.26
+    Q2 2027: 82.7
   annual_forecast:
     2021 Yearly: 159.12
     2022 Yearly: 179.41
@@ -46,6 +48,7 @@ eps:
     Q3 2025: 0.65
     Q4 2025: 0.64
     Q1 2026: 0.68
+    Q2 2026: 0.78
   annual:
     2021 Yearly: 2.04
     2022 Yearly: 2.07
@@ -64,6 +67,7 @@ eps:
     Q3 2026: 0.76
     Q4 2026: 0.78
     Q1 2027: 0.74
+    Q2 2027: 0.77
   annual_forecast:
     2021 Yearly: 1.97
     2022 Yearly: 2.04

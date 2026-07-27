@@ -98,11 +98,29 @@ class TestUpsertRows:
 
         upsert_rows(client, "sheet-id", "ERN DataBase", headers, ordered_keys, rows)
 
+        batch_mock = client.service.spreadsheets.return_value.values.return_value.batchUpdate
+        batch_mock.assert_called_once()
+        batch_kwargs = batch_mock.call_args.kwargs
+        assert batch_kwargs["body"]["data"] == [
+            {"range": "ERN DataBase!A2:B2", "values": [["STLD", "Steel Dynamics, Inc."]]}
+        ]
+
+    def test_multiple_existing_tickers_use_a_single_batch_call(self):
+        """Regression test: one values().update() call per row hit the Sheets API's
+        per-minute write-request quota partway through a run of ~65 tickers, silently
+        leaving the rest of the sheet stale. All updates must go through one batch call."""
+        client = _make_client([["STLD"], ["PAC"], ["AGNC"]])
+        headers = ["ticker", "Company name"]
+        ordered_keys = [("NASDAQ", "STLD"), ("NYSE", "PAC"), ("NASDAQ", "AGNC")]
+        rows = [["STLD", "Steel Dynamics"], ["PAC", "Grupo Aeroportuario"], ["AGNC", "AGNC Investment"]]
+
+        upsert_rows(client, "sheet-id", "ERN DataBase", headers, ordered_keys, rows)
+
+        batch_mock = client.service.spreadsheets.return_value.values.return_value.batchUpdate
+        batch_mock.assert_called_once()
         update_mock = client.service.spreadsheets.return_value.values.return_value.update
-        update_mock.assert_called_once()
-        update_kwargs = update_mock.call_args.kwargs
-        assert update_kwargs["range"] == "ERN DataBase!A2:B2"
-        assert update_kwargs["body"] == {"values": [["STLD", "Steel Dynamics, Inc."]]}
+        update_mock.assert_not_called()
+        assert len(batch_mock.call_args.kwargs["body"]["data"]) == 3
 
     def test_writes_new_ticker_to_explicit_row_after_header(self):
         # column A read (from get_ticker_row_numbers's row-2 perspective) is empty,

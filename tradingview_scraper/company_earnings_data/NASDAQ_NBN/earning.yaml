@@ -1,7 +1,7 @@
 currency: USD
 company_name: Northeast Bank
 sector: Finance
-market_cap_billions: 1.03
+market_cap_billions: 1.06
 revenue:
   quarterly:
     Q1 2025: 43.12
@@ -11,12 +11,14 @@ revenue:
     Q1 2026: 52.88
     Q2 2026: 51.77
     Q3 2026: 66.62
+    Q4 2026: 65.24
   annual:
     2021 Yearly: 139.12
     2022 Yearly: 107.87
     2023 Yearly: 124.05
     2024 Yearly: 154.45
     2025 Yearly: 212.83
+    2026 Yearly: 236.5
   quarterly_forecast:
     Q1 2025: 38.58
     Q2 2025: 49.67
@@ -29,6 +31,7 @@ revenue:
     Q1 2027: 68.32
     Q2 2027: 70.28
     Q3 2027: 73.26
+    Q4 2027: 76.07
   annual_forecast:
     2025 Yearly: 206.53
     2026 Yearly: 238.01
@@ -42,12 +45,14 @@ eps:
     Q1 2026: 2.67
     Q2 2026: 2.47
     Q3 2026: 3.53
+    Q4 2026: 4.05
   annual:
     2021 Yearly: 8.55
     2022 Yearly: 5.34
     2023 Yearly: 5.96
     2024 Yearly: 7.58
     2025 Yearly: 10.08
+    2026 Yearly: 12.74
   quarterly_forecast:
     Q1 2025: 1.77
     Q2 2025: 2.57
@@ -60,6 +65,7 @@ eps:
     Q1 2027: 3.44
     Q2 2027: 3.57
     Q3 2027: 3.76
+    Q4 2027: 3.96
   annual_forecast:
     2021 Yearly: 7.7
     2022 Yearly: 4.12

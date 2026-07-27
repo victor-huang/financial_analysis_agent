@@ -1,7 +1,7 @@
 currency: USD
 company_name: Noble Corporation plc A
 sector: Industrial Services
-market_cap_billions: 6.9
+market_cap_billions: 6.88
 revenue:
   quarterly:
     Q3 2024: 800.55
@@ -25,9 +25,9 @@ revenue:
     Q3 2025: 776.32
     Q4 2025: 731.1
     Q1 2026: 730.47
-    Q2 2026: 700.88
-    Q3 2026: 736.81
-    Q4 2026: 725.83
+    Q2 2026: 697.98
+    Q3 2026: 732.43
+    Q4 2026: 722.54
     Q1 2027: 779.82
   annual_forecast:
     2021 Yearly: 888.79
@@ -35,8 +35,8 @@ revenue:
     2023 Yearly: 2540.0
     2024 Yearly: 3000.0
     2025 Yearly: 3240.0
-    2026 Yearly: 2950.0
-    2027 Yearly: 3340.0
+    2026 Yearly: 2940.0
+    2027 Yearly: 3320.0
     2028 Yearly: 3550.0
 eps:
   quarterly:
@@ -71,6 +71,6 @@ eps:
     2023 Yearly: 2.56
     2024 Yearly: 2.86
     2025 Yearly: 1.02
-    2026 Yearly: 1.04
-    2027 Yearly: 2.75
-    2028 Yearly: 3.84
+    2026 Yearly: 1.05
+    2027 Yearly: 2.78
+    2028 Yearly: 3.9

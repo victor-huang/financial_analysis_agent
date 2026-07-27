@@ -172,6 +172,12 @@ def upsert_rows(client, spreadsheet_id, tab_name, headers, ordered_keys, rows):
     to an explicitly computed new row. Prevents duplicate ticker rows from
     accumulating on reruns.
 
+    All existing-row updates are sent as a single values().batchUpdate() call
+    rather than one values().update() call per row — Sheets' write-request
+    quota is per-minute (60 by default), so one call per row hit 429
+    Quota exceeded errors partway through a run of even ~65 tickers,
+    silently leaving the rest of the sheet stale.
+
     New rows are written with an explicit range via values().update() rather
     than values().append(), since append()'s "find the existing table"
     heuristic has been observed to insert rows in the wrong place (e.g.
@@ -182,21 +188,23 @@ def upsert_rows(client, spreadsheet_id, tab_name, headers, ordered_keys, rows):
     existing_rows = get_ticker_row_numbers(client, spreadsheet_id, tab_name)
     last_col = _column_letter(len(headers))
 
+    batch_data = []
     to_append = []
-    updated_count = 0
 
     for (_, ticker), row in zip(ordered_keys, rows):
         row_number = existing_rows.get(ticker.upper())
         if row_number:
-            client.service.spreadsheets().values().update(
-                spreadsheetId=spreadsheet_id,
-                range=f"{tab_name}!A{row_number}:{last_col}{row_number}",
-                valueInputOption="USER_ENTERED",
-                body={"values": [row]},
-            ).execute()
-            updated_count += 1
+            batch_data.append(
+                {"range": f"{tab_name}!A{row_number}:{last_col}{row_number}", "values": [row]}
+            )
         else:
             to_append.append(row)
+
+    if batch_data:
+        client.service.spreadsheets().values().batchUpdate(
+            spreadsheetId=spreadsheet_id,
+            body={"valueInputOption": "USER_ENTERED", "data": batch_data},
+        ).execute()
 
     if to_append:
         start_row = get_next_available_row(client, spreadsheet_id, tab_name)
@@ -209,7 +217,7 @@ def upsert_rows(client, spreadsheet_id, tab_name, headers, ordered_keys, rows):
         ).execute()
 
     logger.info(
-        f"Updated {updated_count} existing row(s), appended {len(to_append)} new row(s) in '{tab_name}'"
+        f"Updated {len(batch_data)} existing row(s), appended {len(to_append)} new row(s) in '{tab_name}'"
     )
 
 
