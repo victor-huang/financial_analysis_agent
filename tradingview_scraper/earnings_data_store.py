@@ -46,8 +46,15 @@ def label_sort_key(label: str) -> Tuple[int, int]:
     return (9999, 0)
 
 
+def _sanitize_for_filesystem(text: str) -> str:
+    """Replace whitespace with underscores so a value is safe to use as a path segment."""
+    return re.sub(r"\s+", "_", text.strip())
+
+
 def get_ticker_dir(exchange: str, ticker: str) -> Path:
-    return DATA_ROOT / f"{exchange.upper()}_{ticker.upper()}"
+    exchange_part = _sanitize_for_filesystem(exchange.upper())
+    ticker_part = _sanitize_for_filesystem(ticker.upper())
+    return DATA_ROOT / f"{exchange_part}_{ticker_part}"
 
 
 def get_yaml_path(exchange: str, ticker: str) -> Path:

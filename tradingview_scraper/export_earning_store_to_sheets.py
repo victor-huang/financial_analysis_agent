@@ -148,11 +148,35 @@ def get_ticker_row_numbers(client, spreadsheet_id, tab_name, ticker_col="A", sta
     }
 
 
+def get_next_available_row(client, spreadsheet_id, tab_name, ticker_col="A") -> int:
+    """
+    Return the row number immediately after the last row with any data in
+    ticker_col (including the header). Computed explicitly from the actual
+    column contents rather than relying on the Sheets API's own append/
+    "find the table" heuristics, which have been observed to misplace rows
+    (see upsert_rows).
+    """
+    result = (
+        client.service.spreadsheets()
+        .values()
+        .get(spreadsheetId=spreadsheet_id, range=f"{tab_name}!{ticker_col}:{ticker_col}")
+        .execute()
+    )
+    return len(result.get("values", [])) + 1
+
+
 def upsert_rows(client, spreadsheet_id, tab_name, headers, ordered_keys, rows):
     """
     Write each ticker's row into an existing tab: update its row in place if
-    the ticker is already present (matched by column A), otherwise append it
-    as a new row. Prevents duplicate ticker rows from accumulating on reruns.
+    the ticker is already present (matched by column A), otherwise write it
+    to an explicitly computed new row. Prevents duplicate ticker rows from
+    accumulating on reruns.
+
+    New rows are written with an explicit range via values().update() rather
+    than values().append(), since append()'s "find the existing table"
+    heuristic has been observed to insert rows in the wrong place (e.g.
+    pushing an existing header row down) when a sheet's structure doesn't
+    match what it expects.
     """
     client.get_or_create_sheet_tab(spreadsheet_id, tab_name)
     existing_rows = get_ticker_row_numbers(client, spreadsheet_id, tab_name)
@@ -175,7 +199,14 @@ def upsert_rows(client, spreadsheet_id, tab_name, headers, ordered_keys, rows):
             to_append.append(row)
 
     if to_append:
-        client.append_data_to_sheet(spreadsheet_id=spreadsheet_id, data=to_append, tab_name=tab_name)
+        start_row = get_next_available_row(client, spreadsheet_id, tab_name)
+        end_row = start_row + len(to_append) - 1
+        client.service.spreadsheets().values().update(
+            spreadsheetId=spreadsheet_id,
+            range=f"{tab_name}!A{start_row}:{last_col}{end_row}",
+            valueInputOption="USER_ENTERED",
+            body={"values": to_append},
+        ).execute()
 
     logger.info(
         f"Updated {updated_count} existing row(s), appended {len(to_append)} new row(s) in '{tab_name}'"

@@ -5,10 +5,11 @@ Critical path tests for earnings_data_store.py merge logic.
 
 import sys
 import os
+from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
-from earnings_data_store import merge_ticker_data, label_sort_key
+from earnings_data_store import merge_ticker_data, label_sort_key, get_ticker_dir
 
 
 def empty_store():
@@ -17,6 +18,19 @@ def empty_store():
         "revenue": {"quarterly": {}, "annual": {}, "quarterly_forecast": {}, "annual_forecast": {}},
         "eps": {"quarterly": {}, "annual": {}, "quarterly_forecast": {}, "annual_forecast": {}},
     }
+
+
+class TestGetTickerDir:
+    """Tests for ticker directory naming, including filesystem-unsafe exchange names."""
+
+    def test_builds_dir_from_exchange_and_ticker(self):
+        assert get_ticker_dir("NYSE", "LLY") == Path("company_earnings_data/NYSE_LLY")
+
+    def test_replaces_spaces_in_exchange_name_with_underscores(self):
+        assert get_ticker_dir("NYSE ARCA", "PRK") == Path("company_earnings_data/NYSE_ARCA_PRK")
+
+    def test_uppercases_exchange_and_ticker(self):
+        assert get_ticker_dir("nyse", "lly") == Path("company_earnings_data/NYSE_LLY")
 
 
 class TestLabelSortKey:

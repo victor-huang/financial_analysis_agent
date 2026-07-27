@@ -32,7 +32,12 @@ STATIC_FIELD_ALIASES = {
 QUARTER_PATTERN = re.compile(
     r"^q(?P<quarter>[1-4])\s+(?P<year>\d{2}|\d{4})\s+(?P<metric>eps|rev)\s*(?P<suffix>est\.?|act\.?)?$"
 )
-ANNUAL_PATTERN = re.compile(r"^(?P<year>\d{4})\s+(?:est\s+)?(?P<metric>eps|rev)$")
+# Supports both the "2026 Est EPS" (estimate before the metric) and
+# "2026 EPS Est." / "2026 EPS Act" (suffix after the metric) conventions,
+# since the same sheet has used both over time.
+ANNUAL_PATTERN = re.compile(
+    r"^(?P<year>\d{4})\s+(?P<prefix_est>est\s+)?(?P<metric>eps|rev)\s*(?P<suffix>est\.?|act\.?)?$"
+)
 
 
 def _normalize(text: str) -> str:
@@ -67,12 +72,8 @@ def _period_resolver(
         metric_data = data.get(metric, {})
         if bucket == "forecast":
             value = metric_data.get(FORECAST_OF[period_type], {}).get(period_label)
-        elif bucket == "historical":
+        else:  # "historical": blank until actually reported, even if a forecast exists
             value = metric_data.get(period_type, {}).get(period_label)
-        else:  # "auto": historical takes precedence, falls back to forecast
-            value = metric_data.get(period_type, {}).get(period_label)
-            if value is None:
-                value = metric_data.get(FORECAST_OF[period_type], {}).get(period_label)
         return "" if value is None else str(value)
 
     return resolve
@@ -100,13 +101,15 @@ def parse_header_cell(header_text: str) -> Optional[Callable[[Dict, str, str], s
         year = _year_to_4digit(match.group("year"))
         metric = "eps" if match.group("metric") == "eps" else "revenue"
         suffix = (match.group("suffix") or "").rstrip(".")
-        bucket = "forecast" if suffix == "est" else "historical" if suffix == "act" else "auto"
+        bucket = "forecast" if suffix == "est" else "historical"
         return _period_resolver(metric, "quarterly", f"Q{match.group('quarter')} {year}", bucket)
 
     match = ANNUAL_PATTERN.match(normalized)
     if match:
         metric = "eps" if match.group("metric") == "eps" else "revenue"
-        bucket = "forecast" if " est " in f" {normalized} " else "auto"
+        suffix = (match.group("suffix") or "").rstrip(".")
+        is_estimate = bool(match.group("prefix_est")) or suffix == "est"
+        bucket = "forecast" if is_estimate else "historical"
         return _period_resolver(metric, "annual", f"{match.group('year')} Yearly", bucket)
 
     return None
@@ -133,7 +136,15 @@ def build_rows_for_headers(
     """
     resolvers = []
     unrecognized = []
-    for header in headers:
+    for i, header in enumerate(headers):
+        # Column A is always the ticker column by convention (it's also
+        # hardcoded as such in earnings_data_store row lookups), regardless
+        # of what its header cell says — sheets have been seen leaving it
+        # blank or unlabeled entirely.
+        if i == 0:
+            resolvers.append(_static_resolver("ticker"))
+            continue
+
         resolver = parse_header_cell(header)
         resolvers.append(resolver)
         if resolver is None:
