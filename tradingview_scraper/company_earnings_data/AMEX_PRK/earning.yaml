@@ -1,0 +1,74 @@
+currency: USD
+company_name: Park National Corporation
+sector: Finance
+market_cap_billions: 3.41
+revenue:
+  quarterly:
+    Q3 2024: 137.64
+    Q4 2024: 134.51
+    Q1 2025: 130.07
+    Q2 2025: 141.18
+    Q3 2025: 141.59
+    Q4 2025: 144.3
+    Q1 2026: 157.11
+  annual:
+    2021 Yearly: 459.84
+    2022 Yearly: 482.99
+    2023 Yearly: 465.75
+    2024 Yearly: 520.61
+    2025 Yearly: 557.19
+  quarterly_forecast:
+    Q3 2024: 127.78
+    Q4 2024: 128.06
+    Q1 2025: 130.37
+    Q2 2025: 134.92
+    Q3 2025: 140.28
+    Q4 2025: 142.14
+    Q1 2026: 157.07
+    Q2 2026: 168.32
+    Q3 2026: 172.29
+    Q4 2026: 173.48
+    Q1 2027: 171.15
+  annual_forecast:
+    2021 Yearly: 454.8
+    2022 Yearly: 469.1
+    2023 Yearly: 476.85
+    2024 Yearly: 507.22
+    2025 Yearly: 555.94
+    2026 Yearly: 673.66
+    2027 Yearly: 696.08
+eps:
+  quarterly:
+    Q3 2024: 2.25
+    Q4 2024: 2.35
+    Q1 2025: 2.57
+    Q2 2025: 2.9
+    Q3 2025: 2.87
+    Q4 2025: 2.93
+    Q1 2026: 3.06
+  annual:
+    2021 Yearly: 9.22
+    2022 Yearly: 8.2
+    2023 Yearly: 8.24
+    2024 Yearly: 9.14
+    2025 Yearly: 11.26
+  quarterly_forecast:
+    Q3 2024: 2.29
+    Q4 2024: 2.24
+    Q1 2025: 2.15
+    Q2 2025: 2.45
+    Q3 2025: 2.73
+    Q4 2025: 2.8
+    Q1 2026: 2.66
+    Q2 2026: 2.96
+    Q3 2026: 3.17
+    Q4 2026: 3.22
+    Q1 2027: 3.17
+  annual_forecast:
+    2021 Yearly: 9.34
+    2022 Yearly: 8.72
+    2023 Yearly: 8.16
+    2024 Yearly: 8.93
+    2025 Yearly: 11.24
+    2026 Yearly: 12.4
+    2027 Yearly: 12.71

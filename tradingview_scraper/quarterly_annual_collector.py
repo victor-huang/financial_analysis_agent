@@ -34,19 +34,41 @@ SYMBOL_SEARCH_URL = "https://symbol-search.tradingview.com/symbol_search/v3/"
 PREFERRED_EXCHANGES = ("NYSE", "NASDAQ", "AMEX")
 
 
+SEARCH_HEADERS = {
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+    "origin": "https://www.tradingview.com",
+    "referer": "https://www.tradingview.com/",
+}
+
+
+def _forecast_page_exists(ticker: str, exchange: str) -> bool:
+    """Check whether TradingView actually serves a forecast page for exchange-ticker."""
+    url = f"https://www.tradingview.com/symbols/{exchange.replace(' ', '%20')}-{ticker}/forecast/"
+    try:
+        response = requests.get(url, headers=SEARCH_HEADERS, timeout=15, allow_redirects=True)
+        return response.status_code == 200
+    except requests.RequestException:
+        return False
+
+
 def resolve_exchange(ticker: str) -> Optional[str]:
     """
     Resolve which exchange a ticker's primary US listing trades on.
 
     TradingView's forecast page 404s if the wrong exchange is used in the
     URL (it does not auto-redirect), so we look the ticker up via
-    TradingView's own symbol search first.
+    TradingView's own symbol search first. That search API's reported
+    "exchange" field doesn't always match the exchange prefix TradingView's
+    own page URLs use for the same ticker (observed for PRK, reported as
+    "NYSE Arca" by search but only served under "AMEX") — so each candidate
+    is verified against the real forecast page before being accepted.
 
     Args:
         ticker: Stock ticker symbol
 
     Returns:
-        Exchange name (e.g. "NYSE") or None if not found
+        Exchange name (e.g. "NYSE") or None if no candidate's forecast page
+        actually exists
     """
     params = {
         "text": ticker,
@@ -57,13 +79,8 @@ def resolve_exchange(ticker: str) -> Optional[str]:
         "domain": "production",
         "sort_by_country": "US",
     }
-    headers = {
-        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
-        "origin": "https://www.tradingview.com",
-        "referer": "https://www.tradingview.com/",
-    }
 
-    response = requests.get(SYMBOL_SEARCH_URL, params=params, headers=headers, timeout=15)
+    response = requests.get(SYMBOL_SEARCH_URL, params=params, headers=SEARCH_HEADERS, timeout=15)
     response.raise_for_status()
     symbols = response.json().get("symbols", [])
 
@@ -77,12 +94,38 @@ def resolve_exchange(ticker: str) -> Optional[str]:
     if not candidates:
         return None
 
+    # Priority order to try, each verified against the live forecast page:
+    # 1. Preferred exchanges the search API actually reported for this ticker
+    # 2. Preferred exchanges tried directly, even if the search API reported
+    #    something else entirely (its exchange field doesn't always match
+    #    the page-routing exchange TradingView's URLs use — see PRK)
+    # 3. Last resort: whatever other exchange the search API reported. This
+    #    is tried last on purpose: a ticker can have a working forecast page
+    #    under an obscure alternate-venue code (e.g. "BOATS", Blue Ocean ATS)
+    #    that isn't where anyone would recognize the stock as trading, so a
+    #    well-known exchange is always preferred when one is available.
+    candidates_to_try = []
+
+    def _add(exchange):
+        if exchange and exchange not in candidates_to_try:
+            candidates_to_try.append(exchange)
+
     for exchange in PREFERRED_EXCHANGES:
         for candidate in candidates:
             if candidate.get("exchange") == exchange:
-                return exchange
+                _add(exchange)
 
-    return candidates[0].get("exchange")
+    for exchange in PREFERRED_EXCHANGES:
+        _add(exchange)
+
+    for candidate in candidates:
+        _add(candidate.get("exchange"))
+
+    for exchange in candidates_to_try:
+        if _forecast_page_exists(ticker, exchange):
+            return exchange
+
+    return None
 
 
 def _format_period_label(period: str) -> str:
