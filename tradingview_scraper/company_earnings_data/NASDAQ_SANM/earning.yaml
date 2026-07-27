@@ -1,0 +1,76 @@
+currency: USD
+company_name: Sanmina Corporation
+sector: Electronic Technology
+market_cap_billions: 11.17
+revenue:
+  quarterly:
+    Q4 2024: 2020.0
+    Q1 2025: 2009.9999999999998
+    Q2 2025: 1980.0
+    Q3 2025: 2040.0
+    Q4 2025: 2100.0
+    Q1 2026: 3190.0
+    Q2 2026: 4010.0
+  annual:
+    2021 Yearly: 6760.0
+    2022 Yearly: 7890.0
+    2023 Yearly: 8940.0
+    2024 Yearly: 7570.0
+    2025 Yearly: 8130.000000000001
+  quarterly_forecast:
+    Q4 2024: 1960.0
+    Q1 2025: 1980.0
+    Q2 2025: 1960.0
+    Q3 2025: 1980.0
+    Q4 2025: 2060.0
+    Q1 2026: 3080.0
+    Q2 2026: 3280.0
+    Q3 2026: 3400.0
+    Q4 2026: 3520.0
+    Q1 2027: 3840.0
+    Q2 2027: 3890.0
+  annual_forecast:
+    2021 Yearly: 6810.0
+    2022 Yearly: 7700.0
+    2023 Yearly: 9040.0
+    2024 Yearly: 7510.0
+    2025 Yearly: 8090.0
+    2026 Yearly: 14120.0
+    2027 Yearly: 16239.999999999998
+    2028 Yearly: 17710.0
+eps:
+  quarterly:
+    Q4 2024: 1.43
+    Q1 2025: 1.44
+    Q2 2025: 1.41
+    Q3 2025: 1.53
+    Q4 2025: 1.67
+    Q1 2026: 2.38
+    Q2 2026: 3.16
+  annual:
+    2021 Yearly: 3.97
+    2022 Yearly: 4.99
+    2023 Yearly: 6.26
+    2024 Yearly: 5.28
+    2025 Yearly: 6.04
+  quarterly_forecast:
+    Q4 2024: 1.36
+    Q1 2025: 1.36
+    Q2 2025: 1.38
+    Q3 2025: 1.42
+    Q4 2025: 1.57
+    Q1 2026: 2.13
+    Q2 2026: 2.4
+    Q3 2026: 2.77
+    Q4 2026: 2.88
+    Q1 2027: 3.0
+    Q2 2027: 3.07
+  annual_forecast:
+    2021 Yearly: 4.01
+    2022 Yearly: 4.85
+    2023 Yearly: 6.31
+    2024 Yearly: 5.23
+    2025 Yearly: 5.95
+    2026 Yearly: 11.16
+    2027 Yearly: 12.98
+    2028 Yearly: 14.49

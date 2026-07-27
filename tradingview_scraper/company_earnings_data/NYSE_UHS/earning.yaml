@@ -1,0 +1,78 @@
+currency: USD
+company_name: Universal Health Services, Inc.
+sector: Health Services
+market_cap_billions: 9.43
+revenue:
+  quarterly:
+    Q3 2024: 3960.0
+    Q4 2024: 4110.0
+    Q1 2025: 4100.0
+    Q2 2025: 4280.0
+    Q3 2025: 4500.0
+    Q4 2025: 4490.0
+    Q1 2026: 4500.0
+  annual:
+    2021 Yearly: 12640.0
+    2022 Yearly: 13400.0
+    2023 Yearly: 14280.0
+    2024 Yearly: 15830.0
+    2025 Yearly: 17360.0
+  quarterly_forecast:
+    Q3 2024: 3900.0
+    Q4 2024: 4010.0
+    Q1 2025: 4150.0
+    Q2 2025: 4240.0
+    Q3 2025: 4340.0
+    Q4 2025: 4500.0
+    Q1 2026: 4390.0
+    Q2 2026: 4580.0
+    Q3 2026: 4700.0
+    Q4 2026: 4750.0
+    Q1 2027: 4730.0
+  annual_forecast:
+    2021 Yearly: 12500.0
+    2022 Yearly: 13350.0
+    2023 Yearly: 14240.0
+    2024 Yearly: 15720.0
+    2025 Yearly: 17370.0
+    2026 Yearly: 18530.0
+    2027 Yearly: 19390.0
+    2028 Yearly: 20350.0
+    2029 Yearly: 20980.0
+eps:
+  quarterly:
+    Q3 2024: 3.71
+    Q4 2024: 4.92
+    Q1 2025: 4.84
+    Q2 2025: 5.35
+    Q3 2025: 5.69
+    Q4 2025: 5.88
+    Q1 2026: 5.62
+  annual:
+    2021 Yearly: 11.82
+    2022 Yearly: 9.88
+    2023 Yearly: 10.54
+    2024 Yearly: 16.61
+    2025 Yearly: 21.74
+  quarterly_forecast:
+    Q3 2024: 3.72
+    Q4 2024: 4.16
+    Q1 2025: 4.35
+    Q2 2025: 4.92
+    Q3 2025: 4.88
+    Q4 2025: 5.86
+    Q1 2026: 5.41
+    Q2 2026: 5.94
+    Q3 2026: 5.68
+    Q4 2026: 6.21
+    Q1 2027: 6.08
+  annual_forecast:
+    2021 Yearly: 11.74
+    2022 Yearly: 9.87
+    2023 Yearly: 10.28
+    2024 Yearly: 15.92
+    2025 Yearly: 21.74
+    2026 Yearly: 23.45
+    2027 Yearly: 25.28
+    2028 Yearly: 27.85
+    2029 Yearly: 30.02

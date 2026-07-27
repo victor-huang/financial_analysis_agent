@@ -1,0 +1,76 @@
+currency: USD
+company_name: Brown & Brown, Inc.
+sector: Finance
+market_cap_billions: 22.93
+revenue:
+  quarterly:
+    Q3 2024: 1190.0
+    Q4 2024: 1180.0
+    Q1 2025: 1400.0
+    Q2 2025: 1280.0
+    Q3 2025: 1610.0
+    Q4 2025: 1610.0
+    Q1 2026: 1900.0
+  annual:
+    2021 Yearly: 3050.0
+    2022 Yearly: 3570.0
+    2023 Yearly: 4260.0
+    2024 Yearly: 4800.0
+    2025 Yearly: 5900.0
+  quarterly_forecast:
+    Q3 2024: 1160.0
+    Q4 2024: 1120.0
+    Q1 2025: 1410.0
+    Q2 2025: 1280.0
+    Q3 2025: 1550.0
+    Q4 2025: 1650.0
+    Q1 2026: 1890.0
+    Q2 2026: 1710.0
+    Q3 2026: 1760.0
+    Q4 2026: 1650.0
+    Q1 2027: 1970.0
+  annual_forecast:
+    2021 Yearly: 3040.0
+    2022 Yearly: 3570.0
+    2023 Yearly: 4220.0
+    2024 Yearly: 4750.0
+    2025 Yearly: 5950.0
+    2026 Yearly: 7030.0
+    2027 Yearly: 7390.0
+    2028 Yearly: 7860.0
+eps:
+  quarterly:
+    Q3 2024: 0.91
+    Q4 2024: 0.86
+    Q1 2025: 1.29
+    Q2 2025: 1.03
+    Q3 2025: 1.05
+    Q4 2025: 0.93
+    Q1 2026: 1.39
+  annual:
+    2021 Yearly: 2.19
+    2022 Yearly: 2.28
+    2023 Yearly: 2.81
+    2024 Yearly: 3.84
+    2025 Yearly: 4.26
+  quarterly_forecast:
+    Q3 2024: 0.88
+    Q4 2024: 0.77
+    Q1 2025: 1.29
+    Q2 2025: 0.99
+    Q3 2025: 0.94
+    Q4 2025: 0.9
+    Q1 2026: 1.36
+    Q2 2026: 1.08
+    Q3 2026: 1.07
+    Q4 2026: 0.92
+    Q1 2027: 1.46
+  annual_forecast:
+    2021 Yearly: 2.16
+    2022 Yearly: 2.24
+    2023 Yearly: 2.76
+    2024 Yearly: 3.76
+    2025 Yearly: 4.25
+    2026 Yearly: 4.49
+    2027 Yearly: 4.87
+    2028 Yearly: 5.23

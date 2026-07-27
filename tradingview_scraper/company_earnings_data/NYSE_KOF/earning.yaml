@@ -1,0 +1,78 @@
+currency: USD
+company_name: Coca Cola Femsa S.A.B. de C.V.
+sector: Consumer Non-Durables
+market_cap_billions: 5.38
+revenue:
+  quarterly:
+    Q3 2024: 3520.0
+    Q4 2024: 3610.0
+    Q1 2025: 3410.0
+    Q2 2025: 3880.0
+    Q3 2025: 3920.0
+    Q4 2025: 4300.0
+    Q1 2026: 3940.0
+  annual:
+    2021 Yearly: 9490.0
+    2022 Yearly: 11620.0
+    2023 Yearly: 14380.0
+    2024 Yearly: 13380.0
+    2025 Yearly: 16149.999999999998
+  quarterly_forecast:
+    Q3 2024: 3470.0
+    Q4 2024: 3510.0
+    Q1 2025: 3380.0
+    Q2 2025: 3910.0
+    Q3 2025: 3930.0
+    Q4 2025: 4280.0
+    Q1 2026: 3930.0
+    Q2 2026: 4320.0
+    Q3 2026: 4300.0
+    Q4 2026: 4660.0
+    Q1 2027: 4360.0
+  annual_forecast:
+    2021 Yearly: 9370.0
+    2022 Yearly: 11460.0
+    2023 Yearly: 14500.0
+    2024 Yearly: 13330.0
+    2025 Yearly: 16020.0
+    2026 Yearly: 17640.0
+    2027 Yearly: 18810.0
+    2028 Yearly: 20090.0
+    2029 Yearly: 22210.0
+eps:
+  quarterly:
+    Q3 2024: 1.78
+    Q4 2024: 1.66
+    Q1 2025: 1.51
+    Q2 2025: 1.71
+    Q3 2025: 1.53
+    Q4 2025: 1.98
+    Q1 2026: 1.45
+  annual:
+    2021 Yearly: 3.64
+    2022 Yearly: 4.65
+    2023 Yearly: 5.47
+    2024 Yearly: 5.42
+    2025 Yearly: 6.3
+  quarterly_forecast:
+    Q3 2024: 1.24
+    Q4 2024: 1.5
+    Q1 2025: 1.23
+    Q2 2025: 1.62
+    Q3 2025: 1.46
+    Q4 2025: 1.93
+    Q1 2026: 1.41
+    Q2 2026: 1.59
+    Q3 2026: 1.66
+    Q4 2026: 2.0
+    Q1 2027: 1.46
+  annual_forecast:
+    2021 Yearly: 3.1
+    2022 Yearly: 4.08
+    2023 Yearly: 5.58
+    2024 Yearly: 5.36
+    2025 Yearly: 6.29
+    2026 Yearly: 6.93
+    2027 Yearly: 7.64
+    2028 Yearly: 8.23
+    2029 Yearly: 9.48

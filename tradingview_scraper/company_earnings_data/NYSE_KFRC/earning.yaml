@@ -1,0 +1,78 @@
+currency: USD
+company_name: Kforce, Inc.
+sector: Commercial Services
+market_cap_billions: 0.9829
+revenue:
+  quarterly:
+    Q3 2024: 353.32
+    Q4 2024: 343.78
+    Q1 2025: 330.03
+    Q2 2025: 334.32
+    Q3 2025: 332.64
+    Q4 2025: 332.02
+    Q1 2026: 330.36
+  annual:
+    2021 Yearly: 1580.0
+    2022 Yearly: 1710.0
+    2023 Yearly: 1530.0
+    2024 Yearly: 1410.0
+    2025 Yearly: 1330.0
+  quarterly_forecast:
+    Q3 2024: 352.19
+    Q4 2024: 342.06
+    Q1 2025: 333.83
+    Q2 2025: 334.15
+    Q3 2025: 328.24
+    Q4 2025: 329.35
+    Q1 2026: 329.32
+    Q2 2026: 348.11
+    Q3 2026: 350.71
+    Q4 2026: 345.15
+    Q1 2027: 342.87
+  annual_forecast:
+    2021 Yearly: 1570.0
+    2022 Yearly: 1710.0
+    2023 Yearly: 1530.0
+    2024 Yearly: 1400.0
+    2025 Yearly: 1330.0
+    2026 Yearly: 1370.0
+    2027 Yearly: 1430.0
+    2028 Yearly: 1520.0
+    2029 Yearly: 1600.0
+eps:
+  quarterly:
+    Q3 2024: 0.75
+    Q4 2024: 0.6
+    Q1 2025: 0.45
+    Q2 2025: 0.59
+    Q3 2025: 0.63
+    Q4 2025: 0.43
+    Q1 2026: 0.46
+  annual:
+    2021 Yearly: 3.54
+    2022 Yearly: 4.25
+    2023 Yearly: 3.49
+    2024 Yearly: 2.68
+    2025 Yearly: 2.09
+  quarterly_forecast:
+    Q3 2024: 0.69
+    Q4 2024: 0.59
+    Q1 2025: 0.47
+    Q2 2025: 0.59
+    Q3 2025: 0.56
+    Q4 2025: 0.47
+    Q1 2026: 0.4
+    Q2 2026: 0.7
+    Q3 2026: 0.7
+    Q4 2026: 0.57
+    Q1 2027: 0.53
+  annual_forecast:
+    2021 Yearly: 3.55
+    2022 Yearly: 4.21
+    2023 Yearly: 3.4
+    2024 Yearly: 2.67
+    2025 Yearly: 2.13
+    2026 Yearly: 2.42
+    2027 Yearly: 2.95
+    2028 Yearly: 3.76
+    2029 Yearly: 4.52

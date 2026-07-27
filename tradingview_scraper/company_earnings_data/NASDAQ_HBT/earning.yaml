@@ -1,0 +1,74 @@
+currency: USD
+company_name: HBT Financial, Inc.
+sector: Finance
+market_cap_billions: 1.21
+revenue:
+  quarterly:
+    Q3 2024: 56.44
+    Q4 2024: 59.03
+    Q1 2025: 58.01
+    Q2 2025: 58.8
+    Q3 2025: 59.84
+    Q4 2025: 60.44
+    Q1 2026: 67.33
+  annual:
+    2021 Yearly: 159.73
+    2022 Yearly: 180.59
+    2023 Yearly: 227.12
+    2024 Yearly: 224.42
+    2025 Yearly: 237.09
+  quarterly_forecast:
+    Q3 2024: 57.16
+    Q4 2024: 57.49
+    Q1 2025: 57.31
+    Q2 2025: 59.42
+    Q3 2025: 60.31
+    Q4 2025: 61.0
+    Q1 2026: 66.75
+    Q2 2026: 80.36
+    Q3 2026: 81.56
+    Q4 2026: 82.58
+    Q1 2027: 81.26
+  annual_forecast:
+    2021 Yearly: 159.12
+    2022 Yearly: 179.41
+    2023 Yearly: 231.71
+    2024 Yearly: 227.72
+    2025 Yearly: 239.41
+    2026 Yearly: 312.65
+    2027 Yearly: 332.73
+eps:
+  quarterly:
+    Q3 2024: 0.61
+    Q4 2024: 0.62
+    Q1 2025: 0.61
+    Q2 2025: 0.63
+    Q3 2025: 0.65
+    Q4 2025: 0.64
+    Q1 2026: 0.68
+  annual:
+    2021 Yearly: 2.04
+    2022 Yearly: 2.07
+    2023 Yearly: 2.46
+    2024 Yearly: 2.37
+    2025 Yearly: 2.52
+  quarterly_forecast:
+    Q3 2024: 0.57
+    Q4 2024: 0.58
+    Q1 2025: 0.56
+    Q2 2025: 0.6
+    Q3 2025: 0.62
+    Q4 2025: 0.64
+    Q1 2026: 0.62
+    Q2 2026: 0.73
+    Q3 2026: 0.76
+    Q4 2026: 0.78
+    Q1 2027: 0.74
+  annual_forecast:
+    2021 Yearly: 1.97
+    2022 Yearly: 2.04
+    2023 Yearly: 2.31
+    2024 Yearly: 2.28
+    2025 Yearly: 2.5
+    2026 Yearly: 2.95
+    2027 Yearly: 3.09

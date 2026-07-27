@@ -1,0 +1,76 @@
+currency: USD
+company_name: Agilysys, Inc.
+sector: Technology Services
+market_cap_billions: 2.78
+revenue:
+  quarterly:
+    Q2 2024: 68.28
+    Q3 2024: 69.56
+    Q4 2024: 74.27
+    Q1 2025: 76.67
+    Q2 2025: 79.3
+    Q3 2025: 80.39
+    Q4 2025: 82.95
+  annual:
+    2021 Yearly: 162.64
+    2022 Yearly: 198.06
+    2023 Yearly: 237.46
+    2024 Yearly: 275.62
+    2025 Yearly: 319.31
+  quarterly_forecast:
+    Q2 2024: 67.54
+    Q3 2024: 73.14
+    Q4 2024: 71.43
+    Q1 2025: 74.37
+    Q2 2025: 76.92
+    Q3 2025: 79.07
+    Q4 2025: 81.56
+    Q1 2026: 85.97
+    Q2 2026: 90.69
+    Q3 2026: 93.3
+    Q4 2026: 97.8
+  annual_forecast:
+    2021 Yearly: 159.87
+    2022 Yearly: 197.2
+    2023 Yearly: 237.13
+    2024 Yearly: 272.78
+    2025 Yearly: 317.92
+    2026 Yearly: 367.77
+    2027 Yearly: 427.94
+    2028 Yearly: 510.09
+eps:
+  quarterly:
+    Q2 2024: 0.34
+    Q3 2024: 0.38
+    Q4 2024: 0.54
+    Q1 2025: 0.33
+    Q2 2025: 0.4
+    Q3 2025: 0.42
+    Q4 2025: 0.63
+  annual:
+    2021 Yearly: 0.82
+    2022 Yearly: 0.97
+    2023 Yearly: 1.1
+    2024 Yearly: 1.55
+    2025 Yearly: 1.79
+  quarterly_forecast:
+    Q2 2024: 0.3
+    Q3 2024: 0.34
+    Q4 2024: 0.29
+    Q1 2025: 0.36
+    Q2 2025: 0.38
+    Q3 2025: 0.46
+    Q4 2025: 0.5
+    Q1 2026: 0.4
+    Q2 2026: 0.58
+    Q3 2026: 0.66
+    Q4 2026: 0.8
+  annual_forecast:
+    2021 Yearly: 0.75
+    2022 Yearly: 0.93
+    2023 Yearly: 1.06
+    2024 Yearly: 1.3
+    2025 Yearly: 1.65
+    2026 Yearly: 2.45
+    2027 Yearly: 3.19
+    2028 Yearly: 4.75

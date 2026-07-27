@@ -1,0 +1,78 @@
+currency: USD
+company_name: Brixmor Property Group Inc.
+sector: Finance
+market_cap_billions: 9.95
+revenue:
+  quarterly:
+    Q3 2024: 319.99
+    Q4 2024: 328.36
+    Q1 2025: 337.24
+    Q2 2025: 339.4
+    Q3 2025: 340.62
+    Q4 2025: 352.21
+    Q1 2026: 354.34
+  annual:
+    2021 Yearly: 1150.0
+    2022 Yearly: 1220.0
+    2023 Yearly: 1240.0
+    2024 Yearly: 1280.0
+    2025 Yearly: 1370.0
+  quarterly_forecast:
+    Q3 2024: 318.86
+    Q4 2024: 327.7
+    Q1 2025: 331.22
+    Q2 2025: 331.9
+    Q3 2025: 338.89
+    Q4 2025: 347.78
+    Q1 2026: 349.43
+    Q2 2026: 354.39
+    Q3 2026: 357.1
+    Q4 2026: 367.01
+    Q1 2027: 369.79
+  annual_forecast:
+    2021 Yearly: 1130.0
+    2022 Yearly: 1210.0
+    2023 Yearly: 1240.0
+    2024 Yearly: 1280.0
+    2025 Yearly: 1360.0
+    2026 Yearly: 1430.0
+    2027 Yearly: 1500.0
+    2028 Yearly: 1580.0
+    2029 Yearly: 1720.0
+eps:
+  quarterly:
+    Q3 2024: 0.32
+    Q4 2024: 0.27
+    Q1 2025: 0.23
+    Q2 2025: 0.28
+    Q3 2025: 0.31
+    Q4 2025: 0.44
+    Q1 2026: 0.41
+  annual:
+    2021 Yearly: 0.9
+    2022 Yearly: 1.17
+    2023 Yearly: 1.01
+    2024 Yearly: 1.11
+    2025 Yearly: 1.25
+  quarterly_forecast:
+    Q3 2024: 0.22
+    Q4 2024: 0.22
+    Q1 2025: 0.22
+    Q2 2025: 0.21
+    Q3 2025: 0.23
+    Q4 2025: 0.24
+    Q1 2026: 0.25
+    Q2 2026: 0.24
+    Q3 2026: 0.25
+    Q4 2026: 0.27
+    Q1 2027: 0.28
+  annual_forecast:
+    2021 Yearly: 0.81
+    2022 Yearly: 1.0
+    2023 Yearly: 0.95
+    2024 Yearly: 1.05
+    2025 Yearly: 1.04
+    2026 Yearly: 1.16
+    2027 Yearly: 1.11
+    2028 Yearly: 1.2
+    2029 Yearly: 1.22

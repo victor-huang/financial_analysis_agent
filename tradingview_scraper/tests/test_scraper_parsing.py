@@ -11,7 +11,34 @@ from unittest.mock import MagicMock, patch
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
-from tradingview_final_scraper import TradingViewFinalScraper
+from tradingview_final_scraper import TradingViewFinalScraper, _is_broken_page
+
+
+class TestIsBrokenPage:
+    """Tests for detecting a failed page load before trusting its content as real data."""
+
+    def test_short_page_is_broken(self):
+        assert _is_broken_page("<html><body>tiny</body></html>") is True
+
+    def test_chrome_network_error_page_is_broken(self):
+        html = "<html><body><h1>This site can’t be reached</h1></body></html>" + "x" * 10000
+
+        assert _is_broken_page(html) is True
+
+    def test_chrome_network_error_page_straight_quote_is_broken(self):
+        html = "<html><body><h1>This site can't be reached</h1></body></html>" + "x" * 10000
+
+        assert _is_broken_page(html) is True
+
+    def test_tradingview_not_found_page_is_broken(self):
+        html = "<html><body><h1>This isn’t the page you’re looking for</h1></body></html>" + "x" * 10000
+
+        assert _is_broken_page(html) is True
+
+    def test_real_page_is_not_broken(self):
+        html = "<html><body><h1>Eli Lilly and Company</h1></body></html>" + "x" * 10000
+
+        assert _is_broken_page(html) is False
 
 
 class TestParseValue:

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Principal Financial Group Inc
+sector: Finance
+market_cap_billions: 23.63
+revenue:
+  quarterly:
+    Q3 2024: 3670.0
+    Q4 2024: 4140.0
+    Q1 2025: 4010.0
+    Q2 2025: 3690.0
+    Q3 2025: 3900.0
+    Q4 2025: 4460.0
+    Q1 2026: 3520.0
+  annual:
+    2021 Yearly: 14460.0
+    2022 Yearly: 13480.0
+    2023 Yearly: 14680.0
+    2024 Yearly: 15650.0
+    2025 Yearly: 16079.999999999998
+  quarterly_forecast:
+    Q3 2024: 3920.0
+    Q4 2024: 4120.0
+    Q1 2025: 4010.0
+    Q2 2025: 3980.0
+    Q3 2025: 4140.0
+    Q4 2025: 4120.0
+    Q1 2026: 4120.0
+    Q2 2026: 4140.0
+    Q3 2026: 4240.0
+    Q4 2026: 4530.0
+    Q1 2027: 4170.0
+  annual_forecast:
+    2021 Yearly: 14130.0
+    2022 Yearly: 13200.0
+    2023 Yearly: 13980.0
+    2024 Yearly: 15620.0
+    2025 Yearly: 15720.0
+    2026 Yearly: 16379.999999999998
+    2027 Yearly: 17850.0
+    2028 Yearly: 18690.0
+    2029 Yearly: 19710.0
+eps:
+  quarterly:
+    Q3 2024: 1.76
+    Q4 2024: 1.94
+    Q1 2025: 1.81
+    Q2 2025: 2.16
+    Q3 2025: 2.1
+    Q4 2025: 2.19
+    Q1 2026: 2.07
+  annual:
+    2021 Yearly: 6.77
+    2022 Yearly: 6.66
+    2023 Yearly: 6.55
+    2024 Yearly: 6.97
+    2025 Yearly: 8.27
+  quarterly_forecast:
+    Q3 2024: 1.99
+    Q4 2024: 1.93
+    Q1 2025: 1.82
+    Q2 2025: 1.97
+    Q3 2025: 2.2
+    Q4 2025: 2.23
+    Q1 2026: 2.01
+    Q2 2026: 2.34
+    Q3 2026: 2.49
+    Q4 2026: 2.52
+    Q1 2027: 2.26
+  annual_forecast:
+    2021 Yearly: 6.57
+    2022 Yearly: 6.48
+    2023 Yearly: 6.42
+    2024 Yearly: 6.96
+    2025 Yearly: 8.3
+    2026 Yearly: 9.44
+    2027 Yearly: 10.38
+    2028 Yearly: 11.23
+    2029 Yearly: 12.25

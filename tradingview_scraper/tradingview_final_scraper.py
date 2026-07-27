@@ -68,6 +68,26 @@ def _parse_period_for_sorting(period: str) -> tuple:
     return (9999, 0)
 
 
+def _is_broken_page(page_source: str) -> bool:
+    """
+    Detect a page that failed to load real content — either a browser-level
+    network error (e.g. Chrome's "This site can't be reached") or
+    TradingView's own not-found page. Guards against treating an error
+    page's own heading as real company data.
+    """
+    if len(page_source) < 10000:
+        return True
+
+    lowered = page_source.lower()
+    error_markers = (
+        "site can’t be reached",
+        "site can't be reached",
+        "isn’t the page you’re looking for",
+        "isn't the page you're looking for",
+    )
+    return any(marker in lowered for marker in error_markers)
+
+
 def _parse_market_cap_to_billions(text: str) -> Optional[float]:
     """
     Parse a market cap string like "1.15 T USD" or "50.00 B USD" into billions.
@@ -313,7 +333,12 @@ class TradingViewFinalScraper:
             self.driver.get(url)
             time.sleep(5)
 
-            soup = BeautifulSoup(self.driver.page_source, "html.parser")
+            page_source = self.driver.page_source
+            if _is_broken_page(page_source):
+                print(f"  ✗ Company overview page failed to load for {ticker}, skipping")
+                return result
+
+            soup = BeautifulSoup(page_source, "html.parser")
 
             h1 = soup.find("h1")
             if h1:

@@ -1,0 +1,76 @@
+currency: USD
+company_name: Rambus, Inc.
+sector: Electronic Technology
+market_cap_billions: 10.38
+revenue:
+  quarterly:
+    Q3 2024: 146.8
+    Q4 2024: 166.5
+    Q1 2025: 166.0
+    Q2 2025: 170.0
+    Q3 2025: 179.49
+    Q4 2025: 190.2
+    Q1 2026: 180.19
+  annual:
+    2021 Yearly: 453.01
+    2022 Yearly: 571.7
+    2023 Yearly: 558.6
+    2024 Yearly: 584.18
+    2025 Yearly: 705.69
+  quarterly_forecast:
+    Q3 2024: 147.67
+    Q4 2024: 160.29
+    Q1 2025: 162.0
+    Q2 2025: 166.97
+    Q3 2025: 176.0
+    Q4 2025: 188.06
+    Q1 2026: 179.94
+    Q2 2026: 199.3
+    Q3 2026: 213.61
+    Q4 2026: 229.62
+    Q1 2027: 229.35
+  annual_forecast:
+    2021 Yearly: 450.52
+    2022 Yearly: 568.37
+    2023 Yearly: 556.86
+    2024 Yearly: 577.97
+    2025 Yearly: 703.82
+    2026 Yearly: 820.47
+    2027 Yearly: 985.48
+    2028 Yearly: 1250.0
+eps:
+  quarterly:
+    Q3 2024: 0.5
+    Q4 2024: 0.59
+    Q1 2025: 0.6
+    Q2 2025: 0.59
+    Q3 2025: 0.62
+    Q4 2025: 0.68
+    Q1 2026: 0.63
+  annual:
+    2021 Yearly: 1.38
+    2022 Yearly: 1.75
+    2023 Yearly: 1.78
+    2024 Yearly: 2.0
+    2025 Yearly: 2.5
+  quarterly_forecast:
+    Q3 2024: 0.52
+    Q4 2024: 0.58
+    Q1 2025: 0.57
+    Q2 2025: 0.58
+    Q3 2025: 0.63
+    Q4 2025: 0.68
+    Q1 2026: 0.64
+    Q2 2026: 0.72
+    Q3 2026: 0.78
+    Q4 2026: 0.85
+    Q1 2027: 0.83
+  annual_forecast:
+    2021 Yearly: 1.35
+    2022 Yearly: 1.75
+    2023 Yearly: 1.76
+    2024 Yearly: 1.99
+    2025 Yearly: 2.5
+    2026 Yearly: 2.98
+    2027 Yearly: 3.73
+    2028 Yearly: 4.73

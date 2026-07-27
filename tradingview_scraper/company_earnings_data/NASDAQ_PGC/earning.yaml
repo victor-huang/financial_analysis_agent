@@ -1,0 +1,74 @@
+currency: USD
+company_name: Peapack-Gladstone Financial Corporation
+sector: Finance
+market_cap_billions: 0.82178
+revenue:
+  quarterly:
+    Q3 2024: 56.62
+    Q4 2024: 61.29
+    Q1 2025: 64.16
+    Q2 2025: 69.28
+    Q3 2025: 70.63
+    Q4 2025: 77.89
+    Q1 2026: 82.66
+  annual:
+    2021 Yearly: 210.3
+    2022 Yearly: 242.5
+    2023 Yearly: 229.67
+    2024 Yearly: 227.04
+    2025 Yearly: 283.0
+  quarterly_forecast:
+    Q3 2024: 55.85
+    Q4 2024: 60.51
+    Q1 2025: 64.28
+    Q2 2025: 69.54
+    Q3 2025: 71.65
+    Q4 2025: 77.93
+    Q1 2026: 79.17
+    Q2 2026: 85.17
+    Q3 2026: 88.05
+    Q4 2026: 90.54
+    Q1 2027: 91.86
+  annual_forecast:
+    2021 Yearly: 208.31
+    2022 Yearly: 250.35
+    2023 Yearly: 230.66
+    2024 Yearly: 226.34
+    2025 Yearly: 282.11
+    2026 Yearly: 346.43
+    2027 Yearly: 386.52
+eps:
+  quarterly:
+    Q3 2024: 0.43
+    Q4 2024: 0.52
+    Q1 2025: 0.42
+    Q2 2025: 0.41
+    Q3 2025: 0.54
+    Q4 2025: 0.67
+    Q1 2026: 0.8
+  annual:
+    2021 Yearly: 2.93
+    2022 Yearly: 4.35
+    2023 Yearly: 2.71
+    2024 Yearly: 1.85
+    2025 Yearly: 2.06
+  quarterly_forecast:
+    Q3 2024: 0.37
+    Q4 2024: 0.46
+    Q1 2025: 0.44
+    Q2 2025: 0.51
+    Q3 2025: 0.57
+    Q4 2025: 0.67
+    Q1 2026: 0.7
+    Q2 2026: 0.87
+    Q3 2026: 1.0
+    Q4 2026: 1.08
+    Q1 2027: 1.04
+  annual_forecast:
+    2021 Yearly: 3.06
+    2022 Yearly: 4.36
+    2023 Yearly: 2.79
+    2024 Yearly: 1.76
+    2025 Yearly: 2.04
+    2026 Yearly: 3.75
+    2027 Yearly: 4.86

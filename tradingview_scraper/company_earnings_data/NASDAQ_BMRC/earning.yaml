@@ -1,0 +1,74 @@
+currency: USD
+company_name: Bank of Marin Bancorp
+sector: Finance
+market_cap_billions: 0.46577999999999997
+revenue:
+  quarterly:
+    Q3 2024: 27.16
+    Q4 2024: 27.98
+    Q1 2025: 27.82
+    Q2 2025: 10.29
+    Q3 2025: 30.94
+    Q4 2025: 34.0
+    Q1 2026: 34.14
+  annual:
+    2021 Yearly: 115.08
+    2022 Yearly: 138.4
+    2023 Yearly: 113.64
+    2024 Yearly: 105.84
+    2025 Yearly: 121.78
+  quarterly_forecast:
+    Q3 2024: 27.62
+    Q4 2024: 28.19
+    Q1 2025: 27.99
+    Q2 2025: 28.94
+    Q3 2025: 30.92
+    Q4 2025: 33.1
+    Q1 2026: 33.87
+    Q2 2026: 34.02
+    Q3 2026: 35.11
+    Q4 2026: 35.86
+    Q1 2027: 35.64
+  annual_forecast:
+    2021 Yearly: 115.76
+    2022 Yearly: 140.27
+    2023 Yearly: 114.91
+    2024 Yearly: 106.57
+    2025 Yearly: 113.79
+    2026 Yearly: 138.9
+    2027 Yearly: 147.98
+eps:
+  quarterly:
+    Q3 2024: 0.28
+    Q4 2024: 0.38
+    Q1 2025: 0.3
+    Q2 2025: -0.53
+    Q3 2025: 0.47
+    Q4 2025: -2.49
+    Q1 2026: 0.53
+  annual:
+    2021 Yearly: 2.3
+    2022 Yearly: 2.92
+    2023 Yearly: 1.24
+    2024 Yearly: -0.52
+    2025 Yearly: -2.24
+  quarterly_forecast:
+    Q3 2024: 0.27
+    Q4 2024: 0.32
+    Q1 2025: 0.32
+    Q2 2025: -0.53
+    Q3 2025: 0.41
+    Q4 2025: 0.5
+    Q1 2026: 0.55
+    Q2 2026: 0.52
+    Q3 2026: 0.56
+    Q4 2026: 0.59
+    Q1 2027: 0.55
+  annual_forecast:
+    2021 Yearly: 2.29
+    2022 Yearly: 2.9
+    2023 Yearly: 1.52
+    2024 Yearly: -0.57
+    2025 Yearly: 0.74
+    2026 Yearly: 2.19
+    2027 Yearly: 2.4

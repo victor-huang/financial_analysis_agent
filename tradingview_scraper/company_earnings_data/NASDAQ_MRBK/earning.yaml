@@ -1,0 +1,74 @@
+currency: USD
+company_name: Meridian Corporation
+sector: Finance
+market_cap_billions: 0.23567
+revenue:
+  quarterly:
+    Q3 2024: 29.07
+    Q4 2024: 32.58
+    Q1 2025: 27.1
+    Q2 2025: 32.45
+    Q3 2025: 33.07
+    Q4 2025: 34.24
+    Q1 2026: 30.24
+  annual:
+    2021 Yearly: 159.5
+    2022 Yearly: 111.85
+    2023 Yearly: 100.91
+    2024 Yearly: 112.33
+    2025 Yearly: 126.86
+  quarterly_forecast:
+    Q3 2024: 26.54
+    Q4 2024: 26.97
+    Q1 2025: 27.95
+    Q2 2025: 30.2
+    Q3 2025: 31.88
+    Q4 2025: 32.41
+    Q1 2026: 31.79
+    Q2 2026: 34.31
+    Q3 2026: 35.95
+    Q4 2026: 36.69
+    Q1 2027: 35.27
+  annual_forecast:
+    2021 Yearly: 150.73
+    2022 Yearly: 112.99
+    2023 Yearly: 100.84
+    2024 Yearly: 106.53
+    2025 Yearly: 124.41
+    2026 Yearly: 137.51
+    2027 Yearly: 151.85
+eps:
+  quarterly:
+    Q3 2024: 0.42
+    Q4 2024: 0.49
+    Q1 2025: 0.21
+    Q2 2025: 0.49
+    Q3 2025: 0.58
+    Q4 2025: 0.61
+    Q1 2026: 0.39
+  annual:
+    2021 Yearly: 2.87
+    2022 Yearly: 1.79
+    2023 Yearly: 1.16
+    2024 Yearly: 1.45
+    2025 Yearly: 1.89
+  quarterly_forecast:
+    Q3 2024: 0.35
+    Q4 2024: 0.34
+    Q1 2025: 0.33
+    Q2 2025: 0.42
+    Q3 2025: 0.5
+    Q4 2025: 0.55
+    Q1 2026: 0.47
+    Q2 2026: 0.51
+    Q3 2026: 0.6
+    Q4 2026: 0.61
+    Q1 2027: 0.53
+  annual_forecast:
+    2021 Yearly: 2.76
+    2022 Yearly: 1.82
+    2023 Yearly: 1.42
+    2024 Yearly: 1.26
+    2025 Yearly: 1.78
+    2026 Yearly: 1.95
+    2027 Yearly: 2.52

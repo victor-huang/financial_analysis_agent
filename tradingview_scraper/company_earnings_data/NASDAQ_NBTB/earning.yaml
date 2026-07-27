@@ -1,0 +1,74 @@
+currency: USD
+company_name: NBT Bancorp Inc.
+sector: Finance
+market_cap_billions: 2.72
+revenue:
+  quarterly:
+    Q3 2024: 147.44
+    Q4 2024: 148.53
+    Q1 2025: 154.68
+    Q2 2025: 171.15
+    Q3 2025: 186.07
+    Q4 2025: 185.14
+    Q1 2026: 184.48
+  annual:
+    2021 Yearly: 478.88
+    2022 Yearly: 517.77
+    2023 Yearly: 520.4
+    2024 Yearly: 576.95
+    2025 Yearly: 697.04
+  quarterly_forecast:
+    Q3 2024: 145.24
+    Q4 2024: 147.11
+    Q1 2025: 151.04
+    Q2 2025: 170.89
+    Q3 2025: 183.81
+    Q4 2025: 183.63
+    Q1 2026: 185.26
+    Q2 2026: 188.81
+    Q3 2026: 195.01
+    Q4 2026: 195.76
+    Q1 2027: 195.77
+  annual_forecast:
+    2021 Yearly: 474.13
+    2022 Yearly: 518.31
+    2023 Yearly: 527.9
+    2024 Yearly: 574.47
+    2025 Yearly: 694.05
+    2026 Yearly: 762.09
+    2027 Yearly: 798.14
+eps:
+  quarterly:
+    Q3 2024: 0.8
+    Q4 2024: 0.77
+    Q1 2025: 0.8
+    Q2 2025: 0.88
+    Q3 2025: 1.05
+    Q4 2025: 1.05
+    Q1 2026: 0.97
+  annual:
+    2021 Yearly: 3.59
+    2022 Yearly: 3.56
+    2023 Yearly: 3.23
+    2024 Yearly: 2.94
+    2025 Yearly: 3.82
+  quarterly_forecast:
+    Q3 2024: 0.77
+    Q4 2024: 0.77
+    Q1 2025: 0.74
+    Q2 2025: 0.83
+    Q3 2025: 0.97
+    Q4 2025: 0.98
+    Q1 2026: 0.98
+    Q2 2026: 1.02
+    Q3 2026: 1.09
+    Q4 2026: 1.1
+    Q1 2027: 1.09
+  annual_forecast:
+    2021 Yearly: 3.55
+    2022 Yearly: 3.61
+    2023 Yearly: 3.24
+    2024 Yearly: 2.94
+    2025 Yearly: 3.7
+    2026 Yearly: 4.18
+    2027 Yearly: 4.48

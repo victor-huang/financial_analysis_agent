@@ -1,0 +1,76 @@
+currency: USD
+company_name: Noble Corporation plc A
+sector: Industrial Services
+market_cap_billions: 6.9
+revenue:
+  quarterly:
+    Q3 2024: 800.55
+    Q4 2024: 927.34
+    Q1 2025: 874.49
+    Q2 2025: 848.65
+    Q3 2025: 798.02
+    Q4 2025: 764.41
+    Q1 2026: 785.69
+  annual:
+    2021 Yearly: 847.81
+    2022 Yearly: 1410.0
+    2023 Yearly: 2590.0
+    2024 Yearly: 3060.0
+    2025 Yearly: 3290.0
+  quarterly_forecast:
+    Q3 2024: 764.83
+    Q4 2024: 870.01
+    Q1 2025: 864.05
+    Q2 2025: 844.6
+    Q3 2025: 776.32
+    Q4 2025: 731.1
+    Q1 2026: 730.47
+    Q2 2026: 700.88
+    Q3 2026: 736.81
+    Q4 2026: 725.83
+    Q1 2027: 779.82
+  annual_forecast:
+    2021 Yearly: 888.79
+    2022 Yearly: 1330.0
+    2023 Yearly: 2540.0
+    2024 Yearly: 3000.0
+    2025 Yearly: 3240.0
+    2026 Yearly: 2950.0
+    2027 Yearly: 3340.0
+    2028 Yearly: 3550.0
+eps:
+  quarterly:
+    Q3 2024: 0.4
+    Q4 2024: 0.56
+    Q1 2025: 0.26
+    Q2 2025: 0.13
+    Q3 2025: 0.19
+    Q4 2025: 0.09
+    Q1 2026: 0.26
+  annual:
+    2021 Yearly: 0.52
+    2022 Yearly: 1.28
+    2023 Yearly: 3.32
+    2024 Yearly: 2.3
+    2025 Yearly: 0.67
+  quarterly_forecast:
+    Q3 2024: 0.8
+    Q4 2024: 0.66
+    Q1 2025: 0.45
+    Q2 2025: 0.47
+    Q3 2025: 0.26
+    Q4 2025: 0.17
+    Q1 2026: 0.21
+    Q2 2026: 0.15
+    Q3 2026: 0.26
+    Q4 2026: 0.22
+    Q1 2027: 0.46
+  annual_forecast:
+    2021 Yearly: 0.35
+    2022 Yearly: 1.44
+    2023 Yearly: 2.56
+    2024 Yearly: 2.86
+    2025 Yearly: 1.02
+    2026 Yearly: 1.04
+    2027 Yearly: 2.75
+    2028 Yearly: 3.84

@@ -1,0 +1,62 @@
+currency: USD
+company_name: FirstSun Capital Bancorp
+sector: Finance
+market_cap_billions: 1.52
+revenue:
+  quarterly:
+    Q3 2024: 98.23
+    Q4 2024: 98.68
+    Q1 2025: 96.21
+    Q2 2025: 111.46
+    Q3 2025: 109.24
+    Q4 2025: 110.2
+    Q1 2026: 109.95
+  annual:
+    2024 Yearly: 386.7
+    2025 Yearly: 419.27
+  quarterly_forecast:
+    Q3 2024: 97.2
+    Q4 2024: 98.67
+    Q1 2025: 99.46
+    Q2 2025: 103.34
+    Q3 2025: 106.73
+    Q4 2025: 107.61
+    Q1 2026: 108.8
+    Q2 2026: 182.85
+    Q3 2026: 188.25
+    Q4 2026: 193.03
+    Q1 2027: 191.14
+  annual_forecast:
+    2024 Yearly: 390.3
+    2025 Yearly: 420.29
+    2026 Yearly: 675.25
+    2027 Yearly: 786.59
+eps:
+  quarterly:
+    Q3 2024: 0.84
+    Q4 2024: 0.86
+    Q1 2025: 0.83
+    Q2 2025: 0.93
+    Q3 2025: 0.82
+    Q4 2025: 0.95
+    Q1 2026: 0.84
+  annual:
+    2024 Yearly: 3.13
+    2025 Yearly: 3.56
+  quarterly_forecast:
+    Q3 2024: 0.85
+    Q4 2024: 0.82
+    Q1 2025: 0.8
+    Q2 2025: 0.89
+    Q3 2025: 0.89
+    Q4 2025: 0.85
+    Q1 2026: 0.87
+    Q2 2026: 0.36
+    Q3 2026: 0.92
+    Q4 2026: 1.08
+    Q1 2027: 1.09
+  annual_forecast:
+    2024 Yearly: 3.09
+    2025 Yearly: 3.43
+    2026 Yearly: 3.18
+    2027 Yearly: 4.57

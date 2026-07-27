@@ -1,0 +1,78 @@
+currency: USD
+company_name: Sun Communities, Inc.
+sector: Finance
+market_cap_billions: 15.01
+revenue:
+  quarterly:
+    Q3 2024: 939.9
+    Q4 2024: 745.9
+    Q1 2025: 470.2
+    Q2 2025: 623.5
+    Q3 2025: 697.2
+    Q4 2025: 515.2
+    Q1 2026: 507.9
+  annual:
+    2021 Yearly: 2270.0
+    2022 Yearly: 2970.0
+    2023 Yearly: 3220.0
+    2024 Yearly: 3220.0
+    2025 Yearly: 2310.0
+  quarterly_forecast:
+    Q3 2024: 980.41
+    Q4 2024: 722.18
+    Q1 2025: 556.8
+    Q2 2025: 603.93
+    Q3 2025: 695.13
+    Q4 2025: 504.84
+    Q1 2026: 490.95
+    Q2 2026: 623.4
+    Q3 2026: 680.74
+    Q4 2026: 491.35
+    Q1 2027: 463.38
+  annual_forecast:
+    2021 Yearly: 2029.9999999999998
+    2022 Yearly: 2830.0
+    2023 Yearly: 3150.0
+    2024 Yearly: 3210.0
+    2025 Yearly: 2270.0
+    2026 Yearly: 2300.0
+    2027 Yearly: 2190.0
+    2028 Yearly: 2170.0
+    2029 Yearly: 2390.0
+eps:
+  quarterly:
+    Q3 2024: 2.31
+    Q4 2024: -1.77
+    Q1 2025: -0.34
+    Q2 2025: 10.02
+    Q3 2025: 0.07
+    Q4 2025: 0.99
+    Q1 2026: -0.07
+  annual:
+    2021 Yearly: 3.36
+    2022 Yearly: 2.0
+    2023 Yearly: -1.72
+    2024 Yearly: 0.71
+    2025 Yearly: 10.84
+  quarterly_forecast:
+    Q3 2024: 1.7
+    Q4 2024: 0.1
+    Q1 2025: -0.05
+    Q2 2025: 0.71
+    Q3 2025: 1.14
+    Q4 2025: 0.39
+    Q1 2026: 0.27
+    Q2 2026: 0.66
+    Q3 2026: 1.23
+    Q4 2026: 0.36
+    Q1 2027: 0.37
+  annual_forecast:
+    2021 Yearly: 3.07
+    2022 Yearly: 2.16
+    2023 Yearly: 1.86
+    2024 Yearly: 2.62
+    2025 Yearly: 10.19
+    2026 Yearly: 2.22
+    2027 Yearly: 2.72
+    2028 Yearly: 2.97
+    2029 Yearly: 3.21

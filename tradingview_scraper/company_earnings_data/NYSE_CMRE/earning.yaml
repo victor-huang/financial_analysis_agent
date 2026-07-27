@@ -1,0 +1,78 @@
+currency: USD
+company_name: Costamare Inc.
+sector: Transportation
+market_cap_billions: 1.9
+revenue:
+  quarterly:
+    Q3 2024: 535.7
+    Q4 2024: 538.2
+    Q1 2025: 440.54
+    Q2 2025: 211.2
+    Q3 2025: 208.0
+    Q4 2025: 212.0
+    Q1 2026: 193.1
+  annual:
+    2021 Yearly: 781.91
+    2022 Yearly: 1110.0
+    2023 Yearly: 1510.0
+    2024 Yearly: 2050.0
+    2025 Yearly: 878.0
+  quarterly_forecast:
+    Q3 2024: 301.46
+    Q4 2024: 327.29
+    Q1 2025: 330.14
+    Q2 2025: 209.72
+    Q3 2025: 197.92
+    Q4 2025: 186.82
+    Q1 2026: 191.5
+    Q2 2026: 193.15
+    Q3 2026: 207.01
+    Q4 2026: 207.6
+    Q1 2027: 201.89
+  annual_forecast:
+    2021 Yearly: 766.47
+    2022 Yearly: 1080.0
+    2023 Yearly: 1220.0
+    2024 Yearly: 1570.0
+    2025 Yearly: 948.48
+    2026 Yearly: 809.84
+    2027 Yearly: 826.33
+    2028 Yearly: 793.31
+    2029 Yearly: 699.0
+eps:
+  quarterly:
+    Q3 2024: 0.5
+    Q4 2024: 0.51
+    Q1 2025: 0.61
+    Q2 2025: 0.77
+    Q3 2025: 0.81
+    Q4 2025: 0.6
+    Q1 2026: 0.63
+  annual:
+    2021 Yearly: 1.75
+    2022 Yearly: 2.45
+    2023 Yearly: 1.54
+    2024 Yearly: 2.05
+    2025 Yearly: 3.12
+  quarterly_forecast:
+    Q3 2024: 0.47
+    Q4 2024: 0.48
+    Q1 2025: 0.38
+    Q2 2025: 0.57
+    Q3 2025: 0.7
+    Q4 2025: 0.54
+    Q1 2026: 0.57
+    Q2 2026: 0.57
+    Q3 2026: 0.68
+    Q4 2026: 0.68
+    Q1 2027: 0.62
+  annual_forecast:
+    2021 Yearly: 1.71
+    2022 Yearly: 2.51
+    2023 Yearly: 1.49
+    2024 Yearly: 2.03
+    2025 Yearly: 2.77
+    2026 Yearly: 2.54
+    2027 Yearly: 2.56
+    2028 Yearly: 1.94
+    2029 Yearly: 1.26

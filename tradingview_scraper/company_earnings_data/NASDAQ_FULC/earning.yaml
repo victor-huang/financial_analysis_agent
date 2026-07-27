@@ -1,0 +1,78 @@
+currency: USD
+company_name: Fulcrum Therapeutics, Inc.
+sector: Health Technology
+market_cap_billions: 0.24788
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+  annual:
+    2021 Yearly: 19.16
+    2022 Yearly: 6.34
+    2023 Yearly: 2.81
+    2024 Yearly: 80.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+  annual_forecast:
+    2021 Yearly: 14.39
+    2022 Yearly: 7.35
+    2023 Yearly: 2.31
+    2024 Yearly: 80.47
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 0.0
+    2028 Yearly: 54.47
+    2029 Yearly: 117.48
+eps:
+  quarterly:
+    Q3 2024: -0.35
+    Q4 2024: -0.31
+    Q1 2025: -0.28
+    Q2 2025: -0.28
+    Q3 2025: -0.31
+    Q4 2025: -0.31
+    Q1 2026: -0.25
+  annual:
+    2021 Yearly: -2.29
+    2022 Yearly: -2.44
+    2023 Yearly: -1.59
+    2024 Yearly: -0.16
+    2025 Yearly: -1.18
+  quarterly_forecast:
+    Q3 2024: -0.4
+    Q4 2024: -0.28
+    Q1 2025: -0.29
+    Q2 2025: -0.29
+    Q3 2025: -0.29
+    Q4 2025: -0.3
+    Q1 2026: -0.29
+    Q2 2026: -0.22
+    Q3 2026: -0.16
+    Q4 2026: -0.16
+    Q1 2027: -0.29
+  annual_forecast:
+    2021 Yearly: -2.47
+    2022 Yearly: -2.41
+    2023 Yearly: -1.64
+    2024 Yearly: -0.15
+    2025 Yearly: -1.16
+    2026 Yearly: -0.78
+    2027 Yearly: -0.67
+    2028 Yearly: -0.65
+    2029 Yearly: -0.32

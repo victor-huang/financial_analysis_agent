@@ -1,0 +1,74 @@
+currency: USD
+company_name: Two Harbors Investment Corp
+sector: Finance
+market_cap_billions: 1.27
+revenue:
+  quarterly:
+    Q3 2024: -42.29
+    Q4 2024: -34.89
+    Q1 2025: -20.33
+    Q2 2025: -18.12
+    Q3 2025: -23.5
+    Q4 2025: -15.49
+    Q1 2026: -6.51
+  annual:
+    2021 Yearly: 79.42
+    2022 Yearly: 37.15
+    2023 Yearly: -162.86
+    2024 Yearly: -157.65
+    2025 Yearly: -78.94
+  quarterly_forecast:
+    Q3 2024: -25.59
+    Q4 2024: -10.01
+    Q1 2025: -14.07
+    Q2 2025: -20.99
+    Q3 2025: -27.01
+    Q4 2025: -9.15
+    Q1 2026: 2.33
+    Q2 2026: 9.45
+    Q3 2026: 7.65
+    Q4 2026: 8.2
+    Q1 2027: 21.4
+  annual_forecast:
+    2021 Yearly: 111.44
+    2022 Yearly: 61.75
+    2023 Yearly: -136.35
+    2024 Yearly: -132.8
+    2025 Yearly: -70.25
+    2026 Yearly: 18.75
+    2027 Yearly: 44.2
+eps:
+  quarterly:
+    Q3 2024: 0.13
+    Q4 2024: 0.2
+    Q1 2025: 0.24
+    Q2 2025: 0.28
+    Q3 2025: 0.36
+    Q4 2025: 0.26
+    Q1 2026: 0.34
+  annual:
+    2021 Yearly: 3.28
+    2022 Yearly: 2.5
+    2023 Yearly: -0.07
+    2024 Yearly: 0.55
+    2025 Yearly: 1.15
+  quarterly_forecast:
+    Q3 2024: 0.48
+    Q4 2024: 0.4
+    Q1 2025: 0.4
+    Q2 2025: 0.35
+    Q3 2025: 0.36
+    Q4 2025: 0.37
+    Q1 2026: 0.26
+    Q2 2026: 0.28
+    Q3 2026: 0.29
+    Q4 2026: 0.29
+    Q1 2027: 0.29
+  annual_forecast:
+    2021 Yearly: 3.18
+    2022 Yearly: 2.76
+    2023 Yearly: 1.49
+    2024 Yearly: 0.62
+    2025 Yearly: 1.32
+    2026 Yearly: 1.2
+    2027 Yearly: 1.18

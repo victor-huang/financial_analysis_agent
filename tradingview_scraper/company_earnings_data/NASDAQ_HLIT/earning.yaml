@@ -1,0 +1,76 @@
+currency: USD
+company_name: Harmonic Inc.
+sector: Electronic Technology
+market_cap_billions: 1.21
+revenue:
+  quarterly:
+    Q3 2024: 195.76
+    Q4 2024: 222.17
+    Q1 2025: 133.13
+    Q2 2025: 138.03
+    Q3 2025: 142.38
+    Q4 2025: 98.23
+    Q1 2026: 121.69
+  annual:
+    2021 Yearly: 507.15
+    2022 Yearly: 624.96
+    2023 Yearly: 607.91
+    2024 Yearly: 678.72
+    2025 Yearly: 360.52
+  quarterly_forecast:
+    Q3 2024: 188.2
+    Q4 2024: 213.56
+    Q1 2025: 128.01
+    Q2 2025: 127.73
+    Q3 2025: 129.05
+    Q4 2025: 141.45
+    Q1 2026: 102.21
+    Q2 2026: 120.89
+    Q3 2026: 121.75
+    Q4 2026: 126.06
+    Q1 2027: 132.56
+  annual_forecast:
+    2021 Yearly: 504.11
+    2022 Yearly: 619.9
+    2023 Yearly: 599.84
+    2024 Yearly: 670.15
+    2025 Yearly: 555.03
+    2026 Yearly: 490.44
+    2027 Yearly: 565.29
+    2028 Yearly: 553.5
+eps:
+  quarterly:
+    Q3 2024: 0.26
+    Q4 2024: 0.45
+    Q1 2025: 0.11
+    Q2 2025: 0.09
+    Q3 2025: 0.12
+    Q4 2025: 0.14
+    Q1 2026: 0.17
+  annual:
+    2021 Yearly: 0.34
+    2022 Yearly: 0.55
+    2023 Yearly: 0.37
+    2024 Yearly: 0.78
+    2025 Yearly: 0.47
+  quarterly_forecast:
+    Q3 2024: 0.24
+    Q4 2024: 0.37
+    Q1 2025: 0.05
+    Q2 2025: 0.02
+    Q3 2025: 0.05
+    Q4 2025: 0.1
+    Q1 2026: 0.12
+    Q2 2026: 0.17
+    Q3 2026: 0.15
+    Q4 2026: 0.16
+    Q1 2027: 0.17
+  annual_forecast:
+    2021 Yearly: 0.31
+    2022 Yearly: 0.52
+    2023 Yearly: 0.34
+    2024 Yearly: 0.71
+    2025 Yearly: 0.43
+    2026 Yearly: 0.64
+    2027 Yearly: 0.77
+    2028 Yearly: 0.74
