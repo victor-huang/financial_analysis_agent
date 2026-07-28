@@ -1,0 +1,82 @@
+currency: USD
+company_name: KLA Corporation
+sector: Electronic Technology
+market_cap_billions: 249.24
+revenue:
+  quarterly:
+    Q1 2025: 2840.0
+    Q2 2025: 3080.0
+    Q3 2025: 3060.0
+    Q4 2025: 3170.0
+    Q1 2026: 3210.0
+    Q2 2026: 3300.0
+    Q3 2026: 3420.0
+    Q4 2026: 3660.0
+  annual:
+    2021 Yearly: 6920.0
+    2022 Yearly: 9210.0
+    2023 Yearly: 10500.0
+    2024 Yearly: 9810.0
+    2025 Yearly: 12160.0
+  quarterly_forecast:
+    Q1 2025: 2750.0
+    Q2 2025: 2950.0
+    Q3 2025: 3010.0
+    Q4 2025: 3080.0
+    Q1 2026: 3170.0
+    Q2 2026: 3250.0
+    Q3 2026: 3370.0
+    Q4 2026: 3610.0
+    Q1 2027: 3930.0
+    Q2 2027: 4300.0
+    Q3 2027: 4520.0
+    Q4 2027: 4750.0
+  annual_forecast:
+    2021 Yearly: 6870.0
+    2022 Yearly: 9150.0
+    2023 Yearly: 10400.0
+    2024 Yearly: 9760.0
+    2025 Yearly: 12060.0
+    2026 Yearly: 13530.0
+    2027 Yearly: 17360.0
+    2028 Yearly: 20610.0
+    2029 Yearly: 22470.0
+eps:
+  quarterly:
+    Q1 2025: 0.73
+    Q2 2025: 0.82
+    Q3 2025: 0.84
+    Q4 2025: 0.94
+    Q1 2026: 0.88
+    Q2 2026: 0.89
+    Q3 2026: 0.94
+    Q4 2026: 1.05
+  annual:
+    2021 Yearly: 1.46
+    2022 Yearly: 2.12
+    2023 Yearly: 2.54
+    2024 Yearly: 2.37
+    2025 Yearly: 3.33
+  quarterly_forecast:
+    Q1 2025: 0.7
+    Q2 2025: 0.78
+    Q3 2025: 0.81
+    Q4 2025: 0.86
+    Q1 2026: 0.86
+    Q2 2026: 0.88
+    Q3 2026: 0.92
+    Q4 2026: 1.0
+    Q1 2027: 1.14
+    Q2 2027: 1.3
+    Q3 2027: 1.38
+    Q4 2027: 1.48
+  annual_forecast:
+    2021 Yearly: 1.41
+    2022 Yearly: 2.1
+    2023 Yearly: 2.49
+    2024 Yearly: 2.33
+    2025 Yearly: 3.24
+    2026 Yearly: 3.71
+    2027 Yearly: 5.2
+    2028 Yearly: 6.42
+    2029 Yearly: 6.91

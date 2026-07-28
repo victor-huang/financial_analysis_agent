@@ -1,7 +1,7 @@
 currency: USD
 company_name: F5, Inc.
 sector: Technology Services
-market_cap_billions: 23.02
+market_cap_billions: 22.76
 revenue:
   quarterly:
     Q4 2024: 746.67
@@ -27,20 +27,20 @@ revenue:
     Q1 2026: 758.06
     Q2 2026: 783.82
     Q3 2026: 834.6
-    Q4 2026: 856.89
-    Q1 2027: 856.29
-    Q2 2027: 856.39
-    Q3 2027: 880.88
+    Q4 2026: 884.03
+    Q1 2027: 873.32
+    Q2 2027: 875.79
+    Q3 2027: 918.18
   annual_forecast:
     2021 Yearly: 2590.0
     2022 Yearly: 2690.0
     2023 Yearly: 2810.0
     2024 Yearly: 2800.0
     2025 Yearly: 3070.0
-    2026 Yearly: 3330.0
-    2027 Yearly: 3530.0
-    2028 Yearly: 3780.0
-    2029 Yearly: 3990.0
+    2026 Yearly: 3380.0
+    2027 Yearly: 3630.0
+    2028 Yearly: 3900.0
+    2029 Yearly: 4030.0000000000005
 eps:
   quarterly:
     Q4 2024: 3.67
@@ -66,17 +66,17 @@ eps:
     Q1 2026: 3.66
     Q2 2026: 3.46
     Q3 2026: 4.0
-    Q4 2026: 4.14
-    Q1 2027: 4.33
-    Q2 2027: 4.12
-    Q3 2027: 4.38
+    Q4 2026: 4.26
+    Q1 2027: 4.36
+    Q2 2027: 4.19
+    Q3 2027: 4.58
   annual_forecast:
     2021 Yearly: 10.58
     2022 Yearly: 10.11
     2023 Yearly: 11.42
     2024 Yearly: 13.15
     2025 Yearly: 15.39
-    2026 Yearly: 16.49
-    2027 Yearly: 17.64
-    2028 Yearly: 19.62
-    2029 Yearly: 21.61
+    2026 Yearly: 17.33
+    2027 Yearly: 18.03
+    2028 Yearly: 20.13
+    2029 Yearly: 21.39

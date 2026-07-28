@@ -1,0 +1,80 @@
+currency: USD
+company_name: American Assets Trust, Inc.
+sector: Finance
+market_cap_billions: 1.48
+revenue:
+  quarterly:
+    Q3 2024: 122.81
+    Q4 2024: 113.46
+    Q1 2025: 108.61
+    Q2 2025: 107.93
+    Q3 2025: 109.58
+    Q4 2025: 110.09
+    Q1 2026: 110.59
+    Q2 2026: 109.48
+  annual:
+    2021 Yearly: 375.83
+    2022 Yearly: 422.65
+    2023 Yearly: 419.37
+    2024 Yearly: 457.86
+    2025 Yearly: 436.2
+  quarterly_forecast:
+    Q3 2024: 111.36
+    Q4 2024: 110.54
+    Q1 2025: 112.05
+    Q2 2025: 108.23
+    Q3 2025: 105.71
+    Q4 2025: 108.7
+    Q1 2026: 109.78
+    Q2 2026: 110.64
+    Q3 2026: 111.82
+    Q4 2026: 113.47
+    Q1 2027: 114.38
+    Q2 2027: 115.2
+  annual_forecast:
+    2021 Yearly: 361.17
+    2022 Yearly: 414.47
+    2023 Yearly: 425.54
+    2024 Yearly: 450.93
+    2025 Yearly: 432.55
+    2026 Yearly: 443.75
+    2027 Yearly: 458.92
+    2028 Yearly: 454.11
+eps:
+  quarterly:
+    Q3 2024: 0.28
+    Q4 2024: 0.15
+    Q1 2025: 0.7
+    Q2 2025: 0.09
+    Q3 2025: 0.07
+    Q4 2025: 0.05
+    Q1 2026: 0.08
+    Q2 2026: 0.09
+  annual:
+    2021 Yearly: 0.47
+    2022 Yearly: 0.72
+    2023 Yearly: 0.84
+    2024 Yearly: 0.94
+    2025 Yearly: 0.92
+  quarterly_forecast:
+    Q3 2024: 0.14
+    Q4 2024: 0.07
+    Q1 2025: 0.06
+    Q2 2025: 0.1
+    Q3 2025: 0.09
+    Q4 2025: 0.08
+    Q1 2026: 0.11
+    Q2 2026: 0.1
+    Q3 2026: 0.1
+    Q4 2026: 0.11
+    Q1 2027: 0.08
+    Q2 2027: 0.1
+  annual_forecast:
+    2021 Yearly: 0.48
+    2022 Yearly: 0.73
+    2023 Yearly: 0.83
+    2024 Yearly: 0.87
+    2025 Yearly: 0.38
+    2026 Yearly: 0.39
+    2027 Yearly: 0.37
+    2028 Yearly: 0.42

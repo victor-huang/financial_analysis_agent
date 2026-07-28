@@ -1,0 +1,80 @@
+currency: USD
+company_name: Rogers Corporation
+sector: Process Industries
+market_cap_billions: 2.13
+revenue:
+  quarterly:
+    Q3 2024: 210.3
+    Q4 2024: 192.2
+    Q1 2025: 190.5
+    Q2 2025: 202.8
+    Q3 2025: 216.0
+    Q4 2025: 201.5
+    Q1 2026: 200.5
+    Q2 2026: 216.8
+  annual:
+    2021 Yearly: 932.9
+    2022 Yearly: 971.17
+    2023 Yearly: 908.4
+    2024 Yearly: 830.1
+    2025 Yearly: 810.8
+  quarterly_forecast:
+    Q3 2024: 220.1
+    Q4 2024: 191.75
+    Q1 2025: 186.33
+    Q2 2025: 198.75
+    Q3 2025: 207.53
+    Q4 2025: 196.5
+    Q1 2026: 200.5
+    Q2 2026: 215.0
+    Q3 2026: 225.47
+    Q4 2026: 220.07
+    Q1 2027: 228.4
+    Q2 2027: 232.9
+  annual_forecast:
+    2021 Yearly: 944.75
+    2022 Yearly: 971.17
+    2023 Yearly: 923.54
+    2024 Yearly: 829.65
+    2025 Yearly: 805.93
+    2026 Yearly: 860.87
+    2027 Yearly: 930.17
+    2028 Yearly: 1020.0
+eps:
+  quarterly:
+    Q3 2024: 0.98
+    Q4 2024: 0.46
+    Q1 2025: 0.27
+    Q2 2025: 0.34
+    Q3 2025: 0.9
+    Q4 2025: 0.89
+    Q1 2026: 0.75
+    Q2 2026: 0.92
+  annual:
+    2021 Yearly: 7.2
+    2022 Yearly: 4.91
+    2023 Yearly: 3.78
+    2024 Yearly: 2.72
+    2025 Yearly: 2.39
+  quarterly_forecast:
+    Q3 2024: 0.85
+    Q4 2024: 0.43
+    Q1 2025: 0.25
+    Q2 2025: 0.5
+    Q3 2025: 0.69
+    Q4 2025: 0.6
+    Q1 2026: 0.67
+    Q2 2026: 0.99
+    Q3 2026: 1.03
+    Q4 2026: 0.87
+    Q1 2027: 0.97
+    Q2 2027: 1.13
+  annual_forecast:
+    2021 Yearly: 7.04
+    2022 Yearly: 4.89
+    2023 Yearly: 4.18
+    2024 Yearly: 2.69
+    2025 Yearly: 2.11
+    2026 Yearly: 3.64
+    2027 Yearly: 4.37
+    2028 Yearly: 5.7

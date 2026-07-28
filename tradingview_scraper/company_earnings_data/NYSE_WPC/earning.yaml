@@ -1,0 +1,80 @@
+currency: USD
+company_name: W. P. Carey Inc. REIT
+sector: Finance
+market_cap_billions: 16.84
+revenue:
+  quarterly:
+    Q3 2024: 394.77
+    Q4 2024: 403.65
+    Q1 2025: 407.44
+    Q2 2025: 430.78
+    Q3 2025: 431.3
+    Q4 2025: 444.55
+    Q1 2026: 454.51
+    Q2 2026: 461.06
+  annual:
+    2021 Yearly: 1330.0
+    2022 Yearly: 1480.0
+    2023 Yearly: 1740.0
+    2024 Yearly: 1570.0
+    2025 Yearly: 1720.0
+  quarterly_forecast:
+    Q3 2024: 377.58
+    Q4 2024: 391.83
+    Q1 2025: 393.68
+    Q2 2025: 401.64
+    Q3 2025: 405.28
+    Q4 2025: 415.81
+    Q1 2026: 430.64
+    Q2 2026: 452.8
+    Q3 2026: 458.51
+    Q4 2026: 465.3
+    Q1 2027: 468.47
+    Q2 2027: 465.68
+  annual_forecast:
+    2021 Yearly: 1260.0
+    2022 Yearly: 1430.0
+    2023 Yearly: 1690.0
+    2024 Yearly: 1530.0
+    2025 Yearly: 1630.0
+    2026 Yearly: 1830.0
+    2027 Yearly: 1980.0
+    2028 Yearly: 2029.9999999999998
+    2029 Yearly: 2090.0
+eps:
+  quarterly:
+    Q3 2024: 0.51
+    Q4 2024: 0.34
+    Q1 2025: 0.6
+    Q2 2025: 0.25
+    Q3 2025: 0.73
+    Q4 2025: 0.85
+    Q1 2026: 0.98
+    Q2 2026: 1.17
+  annual:
+    2021 Yearly: 2.32
+    2022 Yearly: 3.12
+    2023 Yearly: 3.68
+    2024 Yearly: 2.22
+    2025 Yearly: 2.43
+  quarterly_forecast:
+    Q3 2024: 0.54
+    Q4 2024: 0.59
+    Q1 2025: 0.64
+    Q2 2025: 0.63
+    Q3 2025: 0.65
+    Q4 2025: 0.68
+    Q1 2026: 0.61
+    Q2 2026: 0.71
+    Q3 2026: 0.71
+    Q4 2026: 0.77
+    Q1 2027: 0.84
+    Q2 2027: 0.86
+  annual_forecast:
+    2022 Yearly: 2.43
+    2023 Yearly: 2.56
+    2024 Yearly: 3.15
+    2025 Yearly: 2.46
+    2026 Yearly: 1.96
+    2027 Yearly: 2.94
+    2028 Yearly: 3.13

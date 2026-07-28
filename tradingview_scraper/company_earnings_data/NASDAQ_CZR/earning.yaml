@@ -1,0 +1,80 @@
+currency: USD
+company_name: Caesars Entertainment, Inc.
+sector: Consumer Services
+market_cap_billions: 6.1
+revenue:
+  quarterly:
+    Q3 2024: 2870.0
+    Q4 2024: 2800.0
+    Q1 2025: 2790.0
+    Q2 2025: 2910.0
+    Q3 2025: 2870.0
+    Q4 2025: 2920.0
+    Q1 2026: 2870.0
+    Q2 2026: 2990.0
+  annual:
+    2021 Yearly: 9570.0
+    2022 Yearly: 10820.0
+    2023 Yearly: 11530.0
+    2024 Yearly: 11240.0
+    2025 Yearly: 11490.0
+  quarterly_forecast:
+    Q3 2024: 2930.0
+    Q4 2024: 2810.0
+    Q1 2025: 2790.0
+    Q2 2025: 2860.0
+    Q3 2025: 2890.0
+    Q4 2025: 2880.0
+    Q1 2026: 2850.0
+    Q2 2026: 2980.0
+    Q3 2026: 2970.0
+    Q4 2026: 3020.0
+    Q1 2027: 2950.0
+    Q2 2027: 3040.0
+  annual_forecast:
+    2021 Yearly: 9710.0
+    2022 Yearly: 10800.0
+    2023 Yearly: 11550.0
+    2024 Yearly: 11260.0
+    2025 Yearly: 11460.0
+    2026 Yearly: 11840.0
+    2027 Yearly: 12130.0
+    2028 Yearly: 12260.0
+eps:
+  quarterly:
+    Q3 2024: -0.04
+    Q4 2024: 0.05
+    Q1 2025: -0.54
+    Q2 2025: -0.39
+    Q3 2025: -0.27
+    Q4 2025: -1.23
+    Q1 2026: -0.48
+    Q2 2026: -0.19
+  annual:
+    2021 Yearly: -4.69
+    2022 Yearly: -4.19
+    2023 Yearly: 3.64
+    2024 Yearly: -1.29
+    2025 Yearly: -2.42
+  quarterly_forecast:
+    Q3 2024: 0.21
+    Q4 2024: -0.13
+    Q1 2025: -0.2
+    Q2 2025: 0.0
+    Q3 2025: -0.09
+    Q4 2025: -0.15
+    Q1 2026: -0.24
+    Q2 2026: 0.05
+    Q3 2026: -0.03
+    Q4 2026: -0.05
+    Q1 2027: -0.07
+    Q2 2027: 0.2
+  annual_forecast:
+    2021 Yearly: -3.42
+    2022 Yearly: -3.81
+    2023 Yearly: 3.94
+    2024 Yearly: -1.49
+    2025 Yearly: -1.33
+    2026 Yearly: -0.51
+    2027 Yearly: 0.36
+    2028 Yearly: 0.54

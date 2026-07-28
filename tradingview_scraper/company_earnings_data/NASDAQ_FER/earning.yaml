@@ -1,0 +1,42 @@
+currency: USD
+company_name: Ferrovial N.V.
+sector: Industrial Services
+market_cap_billions: 44.37
+revenue:
+  quarterly: {}
+  annual:
+    2021 Yearly: 7700.0
+    2022 Yearly: 8080.0
+    2023 Yearly: 9400.0
+    2024 Yearly: 9470.0
+    2025 Yearly: 11310.0
+  quarterly_forecast: {}
+  annual_forecast:
+    2021 Yearly: 7480.0
+    2022 Yearly: 7860.0
+    2023 Yearly: 9230.0
+    2024 Yearly: 9380.0
+    2025 Yearly: 11160.0
+    2026 Yearly: 11420.0
+    2027 Yearly: 11960.0
+    2028 Yearly: 12510.0
+    2029 Yearly: 13350.0
+eps:
+  quarterly: {}
+  annual:
+    2021 Yearly: 1.86
+    2022 Yearly: 0.27
+    2023 Yearly: 0.68
+    2024 Yearly: 4.61
+    2025 Yearly: 1.35
+  quarterly_forecast: {}
+  annual_forecast:
+    2021 Yearly: -0.13
+    2022 Yearly: 0.25
+    2023 Yearly: 0.47
+    2024 Yearly: 0.81
+    2025 Yearly: 1.25
+    2026 Yearly: 1.12
+    2027 Yearly: 1.32
+    2028 Yearly: 1.53
+    2029 Yearly: 1.72

@@ -1,0 +1,76 @@
+currency: USD
+company_name: Fomento Economico Mexicano S.A.B. de C.V.
+sector: Consumer Non-Durables
+market_cap_billions: 26.66
+revenue:
+  quarterly:
+    Q4 2024: 9990.0
+    Q1 2025: 9660.0
+    Q2 2025: 11270.0
+    Q3 2025: 11710.0
+    Q4 2025: 12210.0
+    Q1 2026: 11710.0
+    Q2 2026: 13200.0
+  annual:
+    2021 Yearly: 27090.0
+    2022 Yearly: 34520.0
+    2023 Yearly: 41370.0
+    2024 Yearly: 37490.0
+    2025 Yearly: 46650.0
+  quarterly_forecast:
+    Q1 2025: 9620.0
+    Q2 2025: 9510.0
+    Q3 2025: 11280.0
+    Q4 2025: 11600.0
+    Q1 2026: 12210.0
+    Q2 2026: 11430.0
+    Q3 2026: 12900.0
+    Q4 2026: 12890.0
+    Q1 2027: 13260.0
+  annual_forecast:
+    2021 Yearly: 26220.0
+    2022 Yearly: 33520.0
+    2023 Yearly: 44590.0
+    2024 Yearly: 37130.0
+    2025 Yearly: 45620.0
+    2026 Yearly: 51480.0
+    2027 Yearly: 55180.0
+    2028 Yearly: 59020.0
+    2029 Yearly: 65040.00000000001
+eps:
+  quarterly:
+    Q4 2024: 0.94
+    Q1 2025: 0.82
+    Q2 2025: 0.42
+    Q3 2025: 0.38
+    Q4 2025: 1.38
+    Q1 2026: 2.4
+    Q2 2026: 0.93
+  annual:
+    2021 Yearly: 3.86
+    2022 Yearly: 6.52
+    2023 Yearly: 5.47
+    2024 Yearly: 3.89
+    2025 Yearly: 3.12
+  quarterly_forecast:
+    Q4 2024: 1.46
+    Q1 2025: 0.69
+    Q2 2025: 1.12
+    Q3 2025: 1.18
+    Q4 2025: 1.43
+    Q1 2026: 0.81
+    Q2 2026: 1.01
+    Q3 2026: 1.15
+    Q4 2026: 1.55
+    Q1 2027: 1.08
+    Q2 2027: 1.35
+  annual_forecast:
+    2021 Yearly: 3.59
+    2022 Yearly: 4.05
+    2023 Yearly: 10.45
+    2024 Yearly: 4.74
+    2025 Yearly: 3.77
+    2026 Yearly: 5.69
+    2027 Yearly: 5.36
+    2028 Yearly: 6.09
+    2029 Yearly: 6.88

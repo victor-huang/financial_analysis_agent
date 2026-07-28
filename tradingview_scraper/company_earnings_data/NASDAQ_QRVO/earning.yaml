@@ -1,0 +1,80 @@
+currency: USD
+company_name: Qorvo, Inc.
+sector: Electronic Technology
+market_cap_billions: 8.09
+revenue:
+  quarterly:
+    Q2 2024: 1050.0
+    Q3 2024: 916.32
+    Q4 2024: 869.47
+    Q1 2025: 818.8
+    Q2 2025: 1060.0
+    Q3 2025: 992.96
+    Q4 2025: 808.3
+    Q1 2026: 784.8
+  annual:
+    2021 Yearly: 4650.0
+    2022 Yearly: 3570.0
+    2023 Yearly: 3770.0
+    2024 Yearly: 3720.0
+    2025 Yearly: 3680.0
+  quarterly_forecast:
+    Q2 2024: 1030.0
+    Q3 2024: 902.6
+    Q4 2024: 850.54
+    Q1 2025: 776.44
+    Q2 2025: 1040.0
+    Q3 2025: 988.01
+    Q4 2025: 801.83
+    Q1 2026: 743.28
+    Q2 2026: 899.9
+    Q3 2026: 936.33
+    Q4 2026: 890.63
+    Q1 2027: 817.81
+  annual_forecast:
+    2021 Yearly: 4630.0
+    2022 Yearly: 3560.0
+    2023 Yearly: 3760.0
+    2024 Yearly: 3700.0
+    2025 Yearly: 3670.0
+    2026 Yearly: 3450.0
+    2027 Yearly: 3630.0
+    2028 Yearly: 3840.0
+eps:
+  quarterly:
+    Q2 2024: 1.88
+    Q3 2024: 1.61
+    Q4 2024: 1.42
+    Q1 2025: 0.92
+    Q2 2025: 2.22
+    Q3 2025: 2.17
+    Q4 2025: 1.69
+    Q1 2026: 1.64
+  annual:
+    2021 Yearly: 12.35
+    2022 Yearly: 5.92
+    2023 Yearly: 6.22
+    2024 Yearly: 5.78
+    2025 Yearly: 7.0
+  quarterly_forecast:
+    Q2 2024: 1.85
+    Q3 2024: 1.21
+    Q4 2024: 1.0
+    Q1 2025: 0.63
+    Q2 2025: 2.11
+    Q3 2025: 1.86
+    Q4 2025: 1.21
+    Q1 2026: 1.11
+    Q2 2026: 1.87
+    Q3 2026: 2.05
+    Q4 2026: 1.85
+    Q1 2027: 1.47
+  annual_forecast:
+    2021 Yearly: 12.15
+    2022 Yearly: 5.83
+    2023 Yearly: 6.03
+    2024 Yearly: 5.35
+    2025 Yearly: 6.51
+    2026 Yearly: 6.85
+    2027 Yearly: 7.69
+    2028 Yearly: 8.6

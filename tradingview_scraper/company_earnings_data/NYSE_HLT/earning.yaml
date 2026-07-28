@@ -1,0 +1,78 @@
+currency: USD
+company_name: Hilton Worldwide Holdings Inc.
+sector: Consumer Services
+market_cap_billions: 73.4
+revenue:
+  quarterly:
+    Q4 2024: 2780.0
+    Q1 2025: 2690.0
+    Q2 2025: 3140.0
+    Q3 2025: 3120.0
+    Q4 2025: 3090.0
+    Q1 2026: 2940.0
+    Q2 2026: 3340.0
+  annual:
+    2021 Yearly: 5790.0
+    2022 Yearly: 8770.0
+    2023 Yearly: 10230.0
+    2024 Yearly: 11170.0
+    2025 Yearly: 12040.0
+  quarterly_forecast:
+    Q4 2024: 2780.0
+    Q1 2025: 2720.0
+    Q2 2025: 3100.0
+    Q3 2025: 3010.0
+    Q4 2025: 2980.0
+    Q1 2026: 2950.0
+    Q2 2026: 3320.0
+    Q3 2026: 3400.0
+    Q4 2026: 3360.0
+    Q1 2027: 3160.0
+    Q2 2027: 3590.0
+  annual_forecast:
+    2021 Yearly: 5770.0
+    2022 Yearly: 8670.0
+    2023 Yearly: 10220.0
+    2024 Yearly: 11160.0
+    2025 Yearly: 11930.0
+    2026 Yearly: 13060.0
+    2027 Yearly: 14130.0
+    2028 Yearly: 15220.0
+    2029 Yearly: 16460.0
+eps:
+  quarterly:
+    Q4 2024: 1.76
+    Q1 2025: 1.72
+    Q2 2025: 2.2
+    Q3 2025: 2.11
+    Q4 2025: 2.08
+    Q1 2026: 2.01
+    Q2 2026: 2.29
+  annual:
+    2021 Yearly: 2.08
+    2022 Yearly: 4.89
+    2023 Yearly: 6.21
+    2024 Yearly: 7.12
+    2025 Yearly: 8.11
+  quarterly_forecast:
+    Q4 2024: 1.68
+    Q1 2025: 1.61
+    Q2 2025: 2.05
+    Q3 2025: 2.06
+    Q4 2025: 2.02
+    Q1 2026: 1.98
+    Q2 2026: 2.27
+    Q3 2026: 2.42
+    Q4 2026: 2.28
+    Q1 2027: 2.17
+    Q2 2027: 2.72
+  annual_forecast:
+    2021 Yearly: 2.14
+    2022 Yearly: 4.53
+    2023 Yearly: 6.07
+    2024 Yearly: 7.04
+    2025 Yearly: 8.07
+    2026 Yearly: 9.0
+    2027 Yearly: 10.4
+    2028 Yearly: 11.89
+    2029 Yearly: 14.1

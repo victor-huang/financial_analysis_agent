@@ -1,0 +1,68 @@
+currency: USD
+company_name: Titan America SA
+sector: Non-Energy Minerals
+market_cap_billions: 3.25
+revenue:
+  quarterly:
+    Q3 2024: 411.43
+    Q4 2024: 389.81
+    Q1 2025: 392.44
+    Q2 2025: 429.24
+    Q3 2025: 436.85
+    Q4 2025: 405.66
+    Q1 2026: 398.42
+    Q2 2026: 470.63
+  annual:
+    2024 Yearly: 1630.0
+    2025 Yearly: 1660.0
+  quarterly_forecast:
+    Q4 2024: 384.66
+    Q1 2025: 388.35
+    Q2 2025: 438.32
+    Q3 2025: 440.09
+    Q4 2025: 415.21
+    Q1 2026: 398.98
+    Q2 2026: 446.18
+    Q3 2026: 460.84
+    Q4 2026: 427.68
+    Q1 2027: 433.5
+    Q2 2027: 478.91
+  annual_forecast:
+    2024 Yearly: 1640.0
+    2025 Yearly: 1670.0
+    2026 Yearly: 1730.0
+    2027 Yearly: 1860.0
+    2028 Yearly: 1990.0
+    2029 Yearly: 2070.0
+eps:
+  quarterly:
+    Q3 2024: 0.25
+    Q4 2024: 0.21
+    Q1 2025: 0.19
+    Q2 2025: 0.28
+    Q3 2025: 0.31
+    Q4 2025: 0.24
+    Q1 2026: 0.18
+    Q2 2026: 0.23
+  annual:
+    2024 Yearly: 0.95
+    2025 Yearly: 1.01
+  quarterly_forecast:
+    Q4 2024: 0.21
+    Q1 2025: 0.19
+    Q2 2025: 0.3
+    Q3 2025: 0.32
+    Q4 2025: 0.25
+    Q1 2026: 0.2
+    Q2 2026: 0.28
+    Q3 2026: 0.34
+    Q4 2026: 0.28
+    Q1 2027: 0.22
+    Q2 2027: 0.31
+  annual_forecast:
+    2024 Yearly: 1.01
+    2025 Yearly: 1.03
+    2026 Yearly: 1.09
+    2027 Yearly: 1.25
+    2028 Yearly: 1.47
+    2029 Yearly: 1.55

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Illinois Tool Works Inc.
+sector: Producer Manufacturing
+market_cap_billions: 84.92
+revenue:
+  quarterly:
+    Q4 2024: 3930.0
+    Q1 2025: 3840.0
+    Q2 2025: 4050.0
+    Q3 2025: 4059.9999999999995
+    Q4 2025: 4090.0
+    Q1 2026: 4019.9999999999995
+    Q2 2026: 4300.0
+  annual:
+    2021 Yearly: 14460.0
+    2022 Yearly: 15930.0
+    2023 Yearly: 16110.0
+    2024 Yearly: 15900.0
+    2025 Yearly: 16040.0
+  quarterly_forecast:
+    Q4 2024: 3980.0
+    Q1 2025: 3840.0
+    Q2 2025: 4019.9999999999995
+    Q3 2025: 4080.0
+    Q4 2025: 4059.9999999999995
+    Q1 2026: 4010.0
+    Q2 2026: 4190.0
+    Q3 2026: 4180.0
+    Q4 2026: 4220.0
+    Q1 2027: 4150.0
+    Q2 2027: 4350.0
+  annual_forecast:
+    2021 Yearly: 14310.0
+    2022 Yearly: 15850.0
+    2023 Yearly: 16140.0
+    2024 Yearly: 15950.0
+    2025 Yearly: 16020.0
+    2026 Yearly: 16600.0
+    2027 Yearly: 17200.0
+    2028 Yearly: 17760.0
+    2029 Yearly: 18500.0
+eps:
+  quarterly:
+    Q4 2024: 2.54
+    Q1 2025: 2.38
+    Q2 2025: 2.58
+    Q3 2025: 2.81
+    Q4 2025: 2.72
+    Q1 2026: 2.66
+    Q2 2026: 2.84
+  annual:
+    2021 Yearly: 8.51
+    2022 Yearly: 9.77
+    2023 Yearly: 9.74
+    2024 Yearly: 11.71
+    2025 Yearly: 10.49
+  quarterly_forecast:
+    Q4 2024: 2.49
+    Q1 2025: 2.34
+    Q2 2025: 2.56
+    Q3 2025: 2.75
+    Q4 2025: 2.69
+    Q1 2026: 2.57
+    Q2 2026: 2.79
+    Q3 2026: 2.92
+    Q4 2026: 2.93
+    Q1 2027: 2.74
+    Q2 2027: 3.0
+  annual_forecast:
+    2021 Yearly: 8.47
+    2022 Yearly: 9.33
+    2023 Yearly: 9.76
+    2024 Yearly: 11.51
+    2025 Yearly: 10.46
+    2026 Yearly: 11.31
+    2027 Yearly: 12.13
+    2028 Yearly: 12.89
+    2029 Yearly: 14.1

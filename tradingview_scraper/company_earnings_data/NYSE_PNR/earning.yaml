@@ -1,0 +1,78 @@
+currency: USD
+company_name: Pentair plc.
+sector: Producer Manufacturing
+market_cap_billions: 10.79
+revenue:
+  quarterly:
+    Q4 2024: 972.9
+    Q1 2025: 1010.0
+    Q2 2025: 1120.0
+    Q3 2025: 1020.0
+    Q4 2025: 1020.0
+    Q1 2026: 1040.0
+    Q2 2026: 932.6
+  annual:
+    2021 Yearly: 3760.0
+    2022 Yearly: 4120.0
+    2023 Yearly: 4100.0
+    2024 Yearly: 4080.0
+    2025 Yearly: 4180.0
+  quarterly_forecast:
+    Q4 2024: 972.15
+    Q1 2025: 988.32
+    Q2 2025: 1120.0
+    Q3 2025: 1010.0
+    Q4 2025: 1010.0
+    Q1 2026: 1030.0
+    Q2 2026: 943.24
+    Q3 2026: 978.01
+    Q4 2026: 1010.0
+    Q1 2027: 1060.0
+    Q2 2027: 1030.0
+  annual_forecast:
+    2021 Yearly: 3720.0
+    2022 Yearly: 4110.0
+    2023 Yearly: 4100.0
+    2024 Yearly: 4080.0
+    2025 Yearly: 4160.0
+    2026 Yearly: 3960.0
+    2027 Yearly: 4220.0
+    2028 Yearly: 4400.0
+    2029 Yearly: 4430.0
+eps:
+  quarterly:
+    Q4 2024: 1.08
+    Q1 2025: 1.11
+    Q2 2025: 1.39
+    Q3 2025: 1.24
+    Q4 2025: 1.18
+    Q1 2026: 1.22
+    Q2 2026: 1.14
+  annual:
+    2021 Yearly: 3.4
+    2022 Yearly: 3.68
+    2023 Yearly: 3.75
+    2024 Yearly: 4.33
+    2025 Yearly: 4.92
+  quarterly_forecast:
+    Q4 2024: 1.02
+    Q1 2025: 1.01
+    Q2 2025: 1.34
+    Q3 2025: 1.18
+    Q4 2025: 1.16
+    Q1 2026: 1.17
+    Q2 2026: 1.12
+    Q3 2026: 1.17
+    Q4 2026: 1.2
+    Q1 2027: 1.26
+    Q2 2027: 1.25
+  annual_forecast:
+    2021 Yearly: 3.38
+    2022 Yearly: 3.65
+    2023 Yearly: 3.74
+    2024 Yearly: 4.28
+    2025 Yearly: 4.9
+    2026 Yearly: 4.68
+    2027 Yearly: 5.28
+    2028 Yearly: 5.7
+    2029 Yearly: 5.83

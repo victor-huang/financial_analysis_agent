@@ -1,7 +1,7 @@
 currency: USD
 company_name: Alliance Resource Partners, L.P.
 sector: Energy Minerals
-market_cap_billions: 3.3
+market_cap_billions: 3.33
 revenue:
   quarterly:
     Q3 2024: 613.57
@@ -27,20 +27,20 @@ revenue:
     Q4 2025: 556.36
     Q1 2026: 518.24
     Q2 2026: 554.3
-    Q3 2026: 584.68
-    Q4 2026: 567.25
-    Q1 2027: 565.09
-    Q2 2027: 581.29
+    Q3 2026: 585.84
+    Q4 2026: 576.71
+    Q1 2027: 563.84
+    Q2 2027: 581.75
   annual_forecast:
     2021 Yearly: 1560.0
     2022 Yearly: 2390.0
     2023 Yearly: 2600.0
     2024 Yearly: 2500.0
     2025 Yearly: 2220.0
-    2026 Yearly: 2220.0
-    2027 Yearly: 2300.0
-    2028 Yearly: 2360.0
-    2029 Yearly: 2500.0
+    2026 Yearly: 2230.0
+    2027 Yearly: 2310.0
+    2028 Yearly: 2370.0
+    2029 Yearly: 2490.0
 eps:
   quarterly:
     Q3 2024: 0.66
@@ -66,17 +66,17 @@ eps:
     Q4 2025: 0.6
     Q1 2026: 0.35
     Q2 2026: 0.66
-    Q3 2026: 0.76
-    Q4 2026: 0.75
-    Q1 2027: 0.71
-    Q2 2027: 0.75
+    Q3 2026: 0.82
+    Q4 2026: 0.81
+    Q1 2027: 0.72
+    Q2 2027: 0.77
   annual_forecast:
     2021 Yearly: 1.67
     2022 Yearly: 4.29
     2023 Yearly: 5.06
     2024 Yearly: 3.31
     2025 Yearly: 2.35
-    2026 Yearly: 2.33
-    2027 Yearly: 2.9
-    2028 Yearly: 3.03
-    2029 Yearly: 3.06
+    2026 Yearly: 2.41
+    2027 Yearly: 2.94
+    2028 Yearly: 3.04
+    2029 Yearly: 3.11

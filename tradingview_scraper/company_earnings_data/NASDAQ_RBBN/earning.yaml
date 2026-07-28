@@ -1,0 +1,74 @@
+currency: USD
+company_name: Ribbon Communications Inc.
+sector: Technology Services
+market_cap_billions: 0.36108999999999997
+revenue:
+  quarterly:
+    Q3 2024: 210.24
+    Q4 2024: 251.36
+    Q1 2025: 181.28
+    Q2 2025: 220.58
+    Q3 2025: 215.37
+    Q4 2025: 227.32
+    Q1 2026: 162.61
+  annual:
+    2021 Yearly: 844.96
+    2022 Yearly: 819.76
+    2023 Yearly: 826.0
+    2024 Yearly: 833.88
+    2025 Yearly: 844.56
+  quarterly_forecast:
+    Q3 2024: 212.17
+    Q4 2024: 243.61
+    Q1 2025: 191.67
+    Q2 2025: 213.39
+    Q3 2025: 220.05
+    Q4 2025: 241.35
+    Q1 2026: 163.43
+    Q2 2026: 189.99
+    Q3 2026: 224.77
+    Q4 2026: 259.97
+    Q1 2027: 196.46
+  annual_forecast:
+    2021 Yearly: 863.14
+    2022 Yearly: 815.28
+    2023 Yearly: 834.63
+    2024 Yearly: 826.14
+    2025 Yearly: 858.58
+    2026 Yearly: 837.3
+    2027 Yearly: 882.9
+eps:
+  quarterly:
+    Q3 2024: 0.05
+    Q4 2024: 0.16
+    Q1 2025: -0.03
+    Q2 2025: 0.05
+    Q3 2025: 0.04
+    Q4 2025: 0.59
+    Q1 2026: -0.05
+  annual:
+    2021 Yearly: 0.32
+    2022 Yearly: 0.11
+    2023 Yearly: 0.21
+    2024 Yearly: 0.25
+    2025 Yearly: 0.66
+  quarterly_forecast:
+    Q3 2024: 0.06
+    Q4 2024: 0.12
+    Q1 2025: 0.0
+    Q2 2025: 0.05
+    Q3 2025: 0.06
+    Q4 2025: 0.11
+    Q1 2026: -0.06
+    Q2 2026: -0.01
+    Q3 2026: 0.06
+    Q4 2026: 0.13
+    Q1 2027: 0.0
+  annual_forecast:
+    2021 Yearly: 0.44
+    2022 Yearly: 0.0
+    2023 Yearly: 0.2
+    2024 Yearly: 0.21
+    2025 Yearly: 0.17
+    2026 Yearly: 0.13
+    2027 Yearly: 0.2

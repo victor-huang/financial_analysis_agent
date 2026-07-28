@@ -1,0 +1,80 @@
+currency: USD
+company_name: UMB Financial Corporation
+sector: Finance
+market_cap_billions: 10.94
+revenue:
+  quarterly:
+    Q3 2024: 406.12
+    Q4 2024: 434.19
+    Q1 2025: 563.84
+    Q2 2025: 689.21
+    Q3 2025: 678.34
+    Q4 2025: 720.87
+    Q1 2026: 739.16
+    Q2 2026: 778.0
+  annual:
+    2021 Yearly: 1280.0
+    2022 Yearly: 1470.0
+    2023 Yearly: 1460.0
+    2024 Yearly: 1630.0
+    2025 Yearly: 2650.0
+  quarterly_forecast:
+    Q3 2024: 398.94
+    Q4 2024: 411.52
+    Q1 2025: 559.01
+    Q2 2025: 635.88
+    Q3 2025: 661.56
+    Q4 2025: 677.77
+    Q1 2026: 701.79
+    Q2 2026: 727.63
+    Q3 2026: 741.24
+    Q4 2026: 756.27
+    Q1 2027: 763.45
+    Q2 2027: 781.68
+  annual_forecast:
+    2021 Yearly: 1290.0
+    2022 Yearly: 1440.0
+    2023 Yearly: 1470.0
+    2024 Yearly: 1610.0
+    2025 Yearly: 2610.0
+    2026 Yearly: 2960.0
+    2027 Yearly: 3150.0
+    2028 Yearly: 3400.0
+eps:
+  quarterly:
+    Q3 2024: 2.25
+    Q4 2024: 2.49
+    Q1 2025: 2.58
+    Q2 2025: 2.96
+    Q3 2025: 2.7
+    Q4 2025: 3.08
+    Q1 2026: 3.41
+    Q2 2026: 3.57
+  annual:
+    2021 Yearly: 7.27
+    2022 Yearly: 8.88
+    2023 Yearly: 8.14
+    2024 Yearly: 9.41
+    2025 Yearly: 11.35
+  quarterly_forecast:
+    Q3 2024: 2.2
+    Q4 2024: 2.26
+    Q1 2025: 2.19
+    Q2 2025: 2.37
+    Q3 2025: 2.5
+    Q4 2025: 2.7
+    Q1 2026: 2.82
+    Q2 2026: 3.12
+    Q3 2026: 3.19
+    Q4 2026: 3.25
+    Q1 2027: 3.26
+    Q2 2027: 3.46
+  annual_forecast:
+    2021 Yearly: 7.46
+    2022 Yearly: 8.07
+    2023 Yearly: 7.58
+    2024 Yearly: 8.97
+    2025 Yearly: 10.72
+    2026 Yearly: 12.94
+    2027 Yearly: 13.77
+    2028 Yearly: 15.37

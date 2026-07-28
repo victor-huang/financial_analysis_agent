@@ -1,0 +1,78 @@
+currency: USD
+company_name: Trustmark Corporation
+sector: Finance
+market_cap_billions: 2.74
+revenue:
+  quarterly:
+    Q3 2024: 179.3
+    Q4 2024: 201.39
+    Q1 2025: 199.45
+    Q2 2025: 203.44
+    Q3 2025: 207.53
+    Q4 2025: 209.44
+    Q1 2026: 208.07
+    Q2 2026: 213.38
+  annual:
+    2021 Yearly: 659.98
+    2022 Yearly: 718.41
+    2023 Yearly: 781.25
+    2024 Yearly: 760.73
+    2025 Yearly: 819.86
+  quarterly_forecast:
+    Q3 2024: 192.77
+    Q4 2024: 195.34
+    Q1 2025: 195.28
+    Q2 2025: 199.11
+    Q3 2025: 205.86
+    Q4 2025: 206.64
+    Q1 2026: 204.98
+    Q2 2026: 210.3
+    Q3 2026: 214.82
+    Q4 2026: 216.72
+    Q1 2027: 214.68
+    Q2 2027: 220.42
+  annual_forecast:
+    2021 Yearly: 652.66
+    2022 Yearly: 713.16
+    2023 Yearly: 769.37
+    2024 Yearly: 753.0
+    2025 Yearly: 807.5
+    2026 Yearly: 847.1
+    2027 Yearly: 887.28
+eps:
+  quarterly:
+    Q3 2024: 0.84
+    Q4 2024: 0.92
+    Q1 2025: 0.88
+    Q2 2025: 0.92
+    Q3 2025: 0.94
+    Q4 2025: 0.97
+    Q1 2026: 0.95
+    Q2 2026: 0.97
+  annual:
+    2021 Yearly: 2.49
+    2022 Yearly: 2.4
+    2023 Yearly: 2.8
+    2024 Yearly: 3.04
+    2025 Yearly: 3.7
+  quarterly_forecast:
+    Q3 2024: 0.82
+    Q4 2024: 0.83
+    Q1 2025: 0.82
+    Q2 2025: 0.87
+    Q3 2025: 0.93
+    Q4 2025: 0.91
+    Q1 2026: 0.88
+    Q2 2026: 0.96
+    Q3 2026: 1.0
+    Q4 2026: 1.0
+    Q1 2027: 0.95
+    Q2 2027: 1.01
+  annual_forecast:
+    2021 Yearly: 2.55
+    2022 Yearly: 2.5
+    2023 Yearly: 2.77
+    2024 Yearly: 2.95
+    2025 Yearly: 3.65
+    2026 Yearly: 3.91
+    2027 Yearly: 4.1

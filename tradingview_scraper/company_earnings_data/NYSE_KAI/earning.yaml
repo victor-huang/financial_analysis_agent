@@ -1,0 +1,74 @@
+currency: USD
+company_name: Kadant Inc
+sector: Producer Manufacturing
+market_cap_billions: 3.72
+revenue:
+  quarterly:
+    Q3 2024: 271.61
+    Q4 2024: 258.03
+    Q1 2025: 239.0
+    Q2 2025: 255.27
+    Q3 2025: 271.57
+    Q4 2025: 286.2
+    Q1 2026: 281.5
+  annual:
+    2021 Yearly: 786.58
+    2022 Yearly: 904.74
+    2023 Yearly: 957.67
+    2024 Yearly: 1050.0
+    2025 Yearly: 1050.0
+  quarterly_forecast:
+    Q3 2024: 267.96
+    Q4 2024: 257.85
+    Q1 2025: 244.65
+    Q2 2025: 246.04
+    Q3 2025: 260.78
+    Q4 2025: 274.43
+    Q1 2026: 274.95
+    Q2 2026: 299.17
+    Q3 2026: 312.18
+    Q4 2026: 303.37
+    Q1 2027: 300.88
+  annual_forecast:
+    2021 Yearly: 783.1
+    2022 Yearly: 891.8
+    2023 Yearly: 946.96
+    2024 Yearly: 1050.0
+    2025 Yearly: 1040.0
+    2026 Yearly: 1200.0
+    2027 Yearly: 1250.0
+eps:
+  quarterly:
+    Q3 2024: 2.84
+    Q4 2024: 2.25
+    Q1 2025: 2.1
+    Q2 2025: 2.31
+    Q3 2025: 2.59
+    Q4 2025: 2.27
+    Q1 2026: 2.84
+  annual:
+    2021 Yearly: 7.83
+    2022 Yearly: 9.24
+    2023 Yearly: 10.04
+    2024 Yearly: 10.28
+    2025 Yearly: 9.26
+  quarterly_forecast:
+    Q3 2024: 2.62
+    Q4 2024: 2.08
+    Q1 2025: 1.97
+    Q2 2025: 1.94
+    Q3 2025: 2.18
+    Q4 2025: 2.19
+    Q1 2026: 2.11
+    Q2 2026: 2.94
+    Q3 2026: 3.52
+    Q4 2026: 3.16
+    Q1 2027: 3.34
+  annual_forecast:
+    2021 Yearly: 7.51
+    2022 Yearly: 8.99
+    2023 Yearly: 9.73
+    2024 Yearly: 10.11
+    2025 Yearly: 9.19
+    2026 Yearly: 12.42
+    2027 Yearly: 14.19

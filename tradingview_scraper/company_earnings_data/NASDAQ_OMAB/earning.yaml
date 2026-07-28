@@ -1,7 +1,7 @@
 currency: USD
 company_name: Grupo Aeroportuario del Centro Norte S.A.B. de C.V.
 sector: Transportation
-market_cap_billions: 4.99
+market_cap_billions: 5.04
 revenue:
   quarterly:
     Q3 2024: 180.65
@@ -10,32 +10,33 @@ revenue:
     Q2 2025: 235.97
     Q3 2025: 214.04
     Q4 2025: 236.16
-    Q1 2026: 219.11
+    Q1 2026: 219.08
+    Q2 2026: 255.78
   annual:
     2021 Yearly: 427.62
     2022 Yearly: 643.18
     2023 Yearly: 837.58
     2024 Yearly: 768.95
-    2025 Yearly: 924.83
+    2025 Yearly: 923.43
   quarterly_forecast:
     Q3 2024: 180.77
     Q4 2024: 171.63
-    Q1 2025: 171.39
-    Q2 2025: 205.46
-    Q3 2025: 230.91
-    Q4 2025: 255.06
-    Q1 2026: 199.73
-    Q2 2026: 227.38
-    Q3 2026: 251.67
-    Q4 2026: 251.66
-    Q1 2027: 241.23
+    Q1 2025: 171.63
+    Q2 2025: 171.39
+    Q3 2025: 205.46
+    Q4 2025: 230.91
+    Q1 2026: 255.06
+    Q2 2026: 199.73
+    Q3 2026: 227.38
+    Q4 2026: 251.67
+    Q1 2027: 251.66
   annual_forecast:
     2021 Yearly: 418.54
     2022 Yearly: 554.15
     2023 Yearly: 797.78
     2024 Yearly: 691.11
     2025 Yearly: 917.97
-    2026 Yearly: 993.53
+    2026 Yearly: 990.22
     2027 Yearly: 1130.0
     2028 Yearly: 1270.0
     2029 Yearly: 1310.0
@@ -47,7 +48,8 @@ eps:
     Q2 2025: 1.49
     Q3 2025: 1.72
     Q4 2025: 1.46
-    Q1 2026: 1.47
+    Q1 2026: 1.46
+    Q2 2026: 1.74
   annual:
     2021 Yearly: 2.9
     2022 Yearly: 4.48
@@ -66,13 +68,14 @@ eps:
     Q3 2026: 2.01
     Q4 2026: 1.95
     Q1 2027: 1.92
+    Q2 2027: 2.46
   annual_forecast:
     2021 Yearly: 2.68
     2022 Yearly: 3.98
     2023 Yearly: 6.13
     2024 Yearly: 5.21
     2025 Yearly: 6.63
-    2026 Yearly: 7.61
-    2027 Yearly: 8.69
+    2026 Yearly: 7.71
+    2027 Yearly: 8.82
     2028 Yearly: 9.94
     2029 Yearly: 11.64

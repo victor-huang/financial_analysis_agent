@@ -1,0 +1,80 @@
+currency: USD
+company_name: Hanover Insurance Group Inc
+sector: Finance
+market_cap_billions: 7.84
+revenue:
+  quarterly:
+    Q3 2024: 1660.0
+    Q4 2024: 1450.0
+    Q1 2025: 1510.0
+    Q2 2025: 1580.0
+    Q3 2025: 1740.0
+    Q4 2025: 1490.0
+    Q1 2026: 1560.0
+    Q2 2026: 1660.0
+  annual:
+    2021 Yearly: 4990.0
+    2022 Yearly: 5480.0
+    2023 Yearly: 5810.0
+    2024 Yearly: 6080.0
+    2025 Yearly: 6320.0
+  quarterly_forecast:
+    Q3 2024: 1670.0
+    Q4 2024: 1430.0
+    Q1 2025: 1550.0
+    Q2 2025: 1600.0
+    Q3 2025: 1750.0
+    Q4 2025: 1520.0
+    Q1 2026: 1580.0
+    Q2 2026: 1650.0
+    Q3 2026: 1810.0
+    Q4 2026: 1560.0
+    Q1 2027: 1630.0
+    Q2 2027: 1720.0
+  annual_forecast:
+    2021 Yearly: 4980.0
+    2022 Yearly: 5450.0
+    2023 Yearly: 5880.0
+    2024 Yearly: 6110.0
+    2025 Yearly: 6410.0
+    2026 Yearly: 6640.0
+    2027 Yearly: 6930.0
+    2028 Yearly: 7490.0
+eps:
+  quarterly:
+    Q3 2024: 3.05
+    Q4 2024: 5.32
+    Q1 2025: 3.87
+    Q2 2025: 4.35
+    Q3 2025: 5.09
+    Q4 2025: 5.79
+    Q1 2026: 5.25
+    Q2 2026: 5.31
+  annual:
+    2021 Yearly: 8.73
+    2022 Yearly: 5.53
+    2023 Yearly: 1.56
+    2024 Yearly: 13.34
+    2025 Yearly: 19.09
+  quarterly_forecast:
+    Q3 2024: 2.53
+    Q4 2024: 3.36
+    Q1 2025: 3.45
+    Q2 2025: 3.12
+    Q3 2025: 4.28
+    Q4 2025: 5.03
+    Q1 2026: 4.22
+    Q2 2026: 3.84
+    Q3 2026: 4.18
+    Q4 2026: 5.32
+    Q1 2027: 4.86
+    Q2 2027: 3.95
+  annual_forecast:
+    2021 Yearly: 7.84
+    2022 Yearly: 5.54
+    2023 Yearly: 1.13
+    2024 Yearly: 11.4
+    2025 Yearly: 18.37
+    2026 Yearly: 18.43
+    2027 Yearly: 18.5
+    2028 Yearly: 18.14

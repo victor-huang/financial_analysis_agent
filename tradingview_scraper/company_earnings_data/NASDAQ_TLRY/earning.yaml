@@ -1,0 +1,82 @@
+currency: USD
+company_name: Tilray Brands, Inc.
+sector: Process Industries
+market_cap_billions: 0.48361000000000004
+revenue:
+  quarterly:
+    Q1 2024: 200.0
+    Q2 2024: 210.95
+    Q3 2024: 185.78
+    Q4 2024: 224.53
+    Q1 2025: 209.5
+    Q2 2025: 217.51
+    Q3 2025: 206.73
+    Q4 2025: 281.71
+  annual:
+    2020 Yearly: 210.48
+    2021 Yearly: 695.21
+    2022 Yearly: 627.12
+    2023 Yearly: 788.94
+    2024 Yearly: 821.31
+  quarterly_forecast:
+    Q1 2024: 218.7
+    Q2 2024: 216.34
+    Q3 2024: 206.84
+    Q4 2024: 232.23
+    Q1 2025: 204.55
+    Q2 2025: 210.94
+    Q3 2025: 201.35
+    Q4 2025: 246.3
+    Q1 2026: 258.16
+    Q2 2026: 267.56
+    Q3 2026: 261.42
+    Q4 2026: 302.85
+  annual_forecast:
+    2020 Yearly: 208.03
+    2021 Yearly: 629.33
+    2022 Yearly: 598.26
+    2023 Yearly: 784.96
+    2024 Yearly: 829.83
+    2025 Yearly: 877.98
+    2026 Yearly: 1090.0
+    2027 Yearly: 1150.0
+    2028 Yearly: 1190.0
+eps:
+  quarterly:
+    Q1 2024: -0.4
+    Q2 2024: -1.0
+    Q3 2024: -8.7
+    Q4 2024: -13.0
+    Q1 2025: 0.0
+    Q2 2025: -0.41
+    Q3 2025: -0.22
+    Q4 2025: -0.43
+  annual:
+    2020 Yearly: -21.5
+    2021 Yearly: -9.0
+    2022 Yearly: -23.5
+    2023 Yearly: -3.3
+    2024 Yearly: -24.6
+  quarterly_forecast:
+    Q1 2024: -0.35
+    Q2 2024: -0.34
+    Q3 2024: -0.38
+    Q4 2024: -0.23
+    Q1 2025: -0.27
+    Q2 2025: -0.21
+    Q3 2025: -0.14
+    Q4 2025: -0.01
+    Q1 2026: -0.12
+    Q2 2026: -0.14
+    Q3 2026: -0.13
+    Q4 2026: 0.01
+  annual_forecast:
+    2020 Yearly: -24.29
+    2021 Yearly: -0.76
+    2022 Yearly: -22.22
+    2023 Yearly: -3.1
+    2024 Yearly: -11.82
+    2025 Yearly: -0.64
+    2026 Yearly: -0.39
+    2027 Yearly: 0.03
+    2028 Yearly: 0.34

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Orion Group Holdings, Inc.
+sector: Industrial Services
+market_cap_billions: 0.48454
+revenue:
+  quarterly:
+    Q3 2024: 226.68
+    Q4 2024: 216.88
+    Q1 2025: 188.65
+    Q2 2025: 205.29
+    Q3 2025: 225.1
+    Q4 2025: 233.22
+    Q1 2026: 216.3
+  annual:
+    2021 Yearly: 601.36
+    2022 Yearly: 748.32
+    2023 Yearly: 711.78
+    2024 Yearly: 796.39
+    2025 Yearly: 852.26
+  quarterly_forecast:
+    Q3 2024: 235.11
+    Q4 2024: 271.7
+    Q1 2025: 173.4
+    Q2 2025: 198.3
+    Q3 2025: 222.43
+    Q4 2025: 221.97
+    Q1 2026: 198.12
+    Q2 2026: 225.72
+    Q3 2026: 247.79
+    Q4 2026: 248.87
+    Q1 2027: 234.2
+  annual_forecast:
+    2021 Yearly: 576.79
+    2022 Yearly: 717.93
+    2023 Yearly: 701.5
+    2024 Yearly: 851.2
+    2025 Yearly: 840.99
+    2026 Yearly: 938.86
+    2027 Yearly: 1020.0
+    2028 Yearly: 1050.0
+    2029 Yearly: 1120.0
+eps:
+  quarterly:
+    Q3 2024: 0.16
+    Q4 2024: 0.16
+    Q1 2025: 0.01
+    Q2 2025: 0.07
+    Q3 2025: 0.09
+    Q4 2025: 0.08
+    Q1 2026: 0.05
+  annual:
+    2021 Yearly: -0.47
+    2022 Yearly: -0.4
+    2023 Yearly: -0.55
+    2024 Yearly: 0.15
+    2025 Yearly: 0.25
+  quarterly_forecast:
+    Q3 2024: 0.07
+    Q4 2024: 0.18
+    Q1 2025: -0.06
+    Q2 2025: 0.0
+    Q3 2025: 0.06
+    Q4 2025: 0.06
+    Q1 2026: 0.0
+    Q2 2026: 0.06
+    Q3 2026: 0.14
+    Q4 2026: 0.14
+    Q1 2027: 0.13
+  annual_forecast:
+    2021 Yearly: -0.29
+    2022 Yearly: -0.25
+    2023 Yearly: -0.39
+    2024 Yearly: 0.12
+    2025 Yearly: 0.22
+    2026 Yearly: 0.39
+    2027 Yearly: 0.64
+    2028 Yearly: 0.81
+    2029 Yearly: 0.94

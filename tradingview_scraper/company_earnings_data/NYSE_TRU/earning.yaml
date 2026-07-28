@@ -1,0 +1,78 @@
+currency: USD
+company_name: TransUnion
+sector: Commercial Services
+market_cap_billions: 16.16
+revenue:
+  quarterly:
+    Q4 2024: 1040.0
+    Q1 2025: 1100.0
+    Q2 2025: 1140.0
+    Q3 2025: 1170.0
+    Q4 2025: 1170.0
+    Q1 2026: 1250.0
+    Q2 2026: 1310.0
+  annual:
+    2021 Yearly: 2960.0
+    2022 Yearly: 3710.0
+    2023 Yearly: 3830.0
+    2024 Yearly: 4180.0
+    2025 Yearly: 4580.0
+  quarterly_forecast:
+    Q4 2024: 1030.0
+    Q1 2025: 1070.0
+    Q2 2025: 1100.0
+    Q3 2025: 1130.0
+    Q4 2025: 1130.0
+    Q1 2026: 1210.0
+    Q2 2026: 1280.0
+    Q3 2026: 1310.0
+    Q4 2026: 1300.0
+    Q1 2027: 1360.0
+    Q2 2027: 1380.0
+  annual_forecast:
+    2021 Yearly: 3080.0
+    2022 Yearly: 3720.0
+    2023 Yearly: 3810.0
+    2024 Yearly: 4180.0
+    2025 Yearly: 4540.0
+    2026 Yearly: 5140.0
+    2027 Yearly: 5570.0
+    2028 Yearly: 6000.0
+    2029 Yearly: 6050.0
+eps:
+  quarterly:
+    Q4 2024: 0.97
+    Q1 2025: 1.05
+    Q2 2025: 1.08
+    Q3 2025: 1.1
+    Q4 2025: 1.07
+    Q1 2026: 1.18
+    Q2 2026: 1.23
+  annual:
+    2021 Yearly: 3.44
+    2022 Yearly: 3.62
+    2023 Yearly: 3.37
+    2024 Yearly: 3.91
+    2025 Yearly: 4.3
+  quarterly_forecast:
+    Q4 2024: 0.96
+    Q1 2025: 0.98
+    Q2 2025: 0.99
+    Q3 2025: 1.04
+    Q4 2025: 1.03
+    Q1 2026: 1.11
+    Q2 2026: 1.16
+    Q3 2026: 1.23
+    Q4 2026: 1.2
+    Q1 2027: 1.35
+    Q2 2027: 1.35
+  annual_forecast:
+    2021 Yearly: 3.76
+    2022 Yearly: 3.64
+    2023 Yearly: 3.29
+    2024 Yearly: 3.91
+    2025 Yearly: 4.26
+    2026 Yearly: 4.78
+    2027 Yearly: 5.57
+    2028 Yearly: 6.55
+    2029 Yearly: 7.4

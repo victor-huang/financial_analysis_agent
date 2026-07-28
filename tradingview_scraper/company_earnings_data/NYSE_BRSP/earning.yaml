@@ -1,0 +1,77 @@
+currency: USD
+company_name: BrightSpire Capital, Inc.
+sector: Finance
+market_cap_billions: 0.6826599999999999
+revenue:
+  quarterly:
+    Q3 2024: 68.73
+    Q1 2025: 77.56
+    Q2 2025: 85.92
+    Q3 2025: 68.27
+    Q4 2025: 67.28
+    Q1 2026: 68.42
+    Q2 2026: 55.4
+  annual:
+    2021 Yearly: 224.48
+    2022 Yearly: 223.35
+    2023 Yearly: 232.7
+    2024 Yearly: 358.8
+    2025 Yearly: 266.94
+  quarterly_forecast:
+    Q3 2024: 49.15
+    Q4 2024: 59.41
+    Q1 2025: 63.66
+    Q2 2025: 77.56
+    Q3 2025: 84.43
+    Q4 2025: 62.39
+    Q1 2026: 63.12
+    Q2 2026: 64.31
+    Q3 2026: 64.74
+    Q4 2026: 63.91
+    Q1 2027: 63.77
+    Q2 2027: 64.01
+  annual_forecast:
+    2022 Yearly: 211.34
+    2023 Yearly: 155.5
+    2024 Yearly: 231.6
+    2025 Yearly: 218.28
+    2026 Yearly: 243.3
+    2027 Yearly: 255.08
+eps:
+  quarterly:
+    Q3 2024: 0.21
+    Q4 2024: 0.18
+    Q1 2025: 0.16
+    Q2 2025: 0.18
+    Q3 2025: 0.16
+    Q4 2025: 0.15
+    Q1 2026: 0.14
+    Q2 2026: 0.13
+  annual:
+    2021 Yearly: 0.87
+    2022 Yearly: 0.98
+    2023 Yearly: 1.06
+    2024 Yearly: 0.84
+    2025 Yearly: 0.64
+  quarterly_forecast:
+    Q3 2024: 0.2
+    Q4 2024: 0.18
+    Q1 2025: 0.17
+    Q2 2025: 0.15
+    Q3 2025: 0.17
+    Q4 2025: 0.16
+    Q1 2026: 0.16
+    Q2 2026: 0.15
+    Q3 2026: 0.15
+    Q4 2026: 0.16
+    Q1 2027: 0.17
+    Q2 2027: 0.18
+  annual_forecast:
+    2021 Yearly: 0.85
+    2022 Yearly: 0.95
+    2023 Yearly: 0.93
+    2024 Yearly: 0.84
+    2025 Yearly: 0.61
+    2026 Yearly: 0.61
+    2027 Yearly: 0.7
+    2028 Yearly: 0.63

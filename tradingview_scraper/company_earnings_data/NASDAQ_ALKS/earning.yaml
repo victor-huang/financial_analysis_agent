@@ -1,0 +1,78 @@
+currency: USD
+company_name: Alkermes plc
+sector: Health Technology
+market_cap_billions: 8.42
+revenue:
+  quarterly:
+    Q4 2024: 429.99
+    Q1 2025: 306.51
+    Q2 2025: 390.66
+    Q3 2025: 394.19
+    Q4 2025: 384.55
+    Q1 2026: 392.91
+    Q2 2026: 496.01
+  annual:
+    2021 Yearly: 1170.0
+    2022 Yearly: 1110.0
+    2023 Yearly: 1660.0
+    2024 Yearly: 1560.0
+    2025 Yearly: 1480.0
+  quarterly_forecast:
+    Q4 2024: 379.39
+    Q1 2025: 302.91
+    Q2 2025: 341.36
+    Q3 2025: 356.89
+    Q4 2025: 378.94
+    Q1 2026: 363.06
+    Q2 2026: 457.38
+    Q3 2026: 470.22
+    Q4 2026: 484.94
+    Q1 2027: 448.18
+    Q2 2027: 466.4
+  annual_forecast:
+    2021 Yearly: 1160.0
+    2022 Yearly: 1100.0
+    2023 Yearly: 1650.0
+    2024 Yearly: 1510.0
+    2025 Yearly: 1470.0
+    2026 Yearly: 1810.0
+    2027 Yearly: 1910.0
+    2028 Yearly: 2110.0
+    2029 Yearly: 2370.0
+eps:
+  quarterly:
+    Q4 2024: 1.05
+    Q1 2025: 0.27
+    Q2 2025: 0.67
+    Q3 2025: 0.68
+    Q4 2025: 0.29
+    Q1 2026: -0.4
+    Q2 2026: 0.0
+  annual:
+    2021 Yearly: 0.73
+    2022 Yearly: 0.32
+    2023 Yearly: 1.44
+    2024 Yearly: 2.89
+    2025 Yearly: 1.43
+  quarterly_forecast:
+    Q4 2024: 0.77
+    Q1 2025: 0.25
+    Q2 2025: 0.38
+    Q3 2025: 0.37
+    Q4 2025: 0.41
+    Q1 2026: -0.55
+    Q2 2026: -0.03
+    Q3 2026: -0.01
+    Q4 2026: -0.01
+    Q1 2027: -0.14
+    Q2 2027: -0.01
+  annual_forecast:
+    2021 Yearly: 0.58
+    2022 Yearly: 0.23
+    2023 Yearly: 1.6
+    2024 Yearly: 2.62
+    2025 Yearly: 1.74
+    2026 Yearly: -0.43
+    2027 Yearly: 0.61
+    2028 Yearly: 1.41
+    2029 Yearly: 2.43

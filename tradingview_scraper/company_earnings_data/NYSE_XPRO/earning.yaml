@@ -1,0 +1,76 @@
+currency: USD
+company_name: Expro Ltd
+sector: Industrial Services
+market_cap_billions: 1.75
+revenue:
+  quarterly:
+    Q4 2024: 436.84
+    Q1 2025: 390.87
+    Q2 2025: 422.74
+    Q3 2025: 411.0
+    Q4 2025: 382.13
+    Q1 2026: 367.57
+    Q2 2026: 393.18
+  annual:
+    2021 Yearly: 825.76
+    2022 Yearly: 1280.0
+    2023 Yearly: 1510.0
+    2024 Yearly: 1710.0
+    2025 Yearly: 1610.0
+  quarterly_forecast:
+    Q4 2024: 446.81
+    Q1 2025: 347.15
+    Q2 2025: 399.48
+    Q3 2025: 417.89
+    Q4 2025: 410.7
+    Q1 2026: 361.64
+    Q2 2026: 387.36
+    Q3 2026: 408.58
+    Q4 2026: 436.24
+    Q1 2027: 413.74
+    Q2 2027: 427.64
+  annual_forecast:
+    2021 Yearly: 864.98
+    2022 Yearly: 1270.0
+    2023 Yearly: 1460.0
+    2024 Yearly: 1720.0
+    2025 Yearly: 1640.0
+    2026 Yearly: 1600.0
+    2027 Yearly: 1700.0
+    2028 Yearly: 1730.0
+    2029 Yearly: 1700.0
+eps:
+  quarterly:
+    Q4 2024: 0.19
+    Q1 2025: 0.12
+    Q2 2025: 0.16
+    Q3 2025: 0.12
+    Q4 2025: 0.05
+    Q1 2026: 0.09
+    Q2 2026: 0.15
+  annual:
+    2021 Yearly: -1.64
+    2022 Yearly: -0.18
+    2023 Yearly: -0.21
+    2024 Yearly: 0.45
+    2025 Yearly: 0.45
+  quarterly_forecast:
+    Q4 2024: 0.3
+    Q1 2025: 0.14
+    Q2 2025: 0.22
+    Q3 2025: 0.28
+    Q4 2025: 0.26
+    Q1 2026: 0.27
+    Q2 2026: 0.17
+    Q3 2026: 0.28
+    Q4 2026: 0.35
+    Q1 2027: 0.18
+    Q2 2027: 0.21
+  annual_forecast:
+    2022 Yearly: -1.23
+    2023 Yearly: 0.08
+    2024 Yearly: 0.15
+    2025 Yearly: 0.55
+    2026 Yearly: 1.05
+    2027 Yearly: 0.88
+    2028 Yearly: 1.04

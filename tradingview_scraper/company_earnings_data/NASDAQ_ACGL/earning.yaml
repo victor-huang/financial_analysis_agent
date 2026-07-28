@@ -1,0 +1,76 @@
+currency: USD
+company_name: Arch Capital Group Ltd.
+sector: Finance
+market_cap_billions: 37.2
+revenue:
+  quarterly:
+    Q3 2024: 4050.0
+    Q4 2024: 3820.0
+    Q1 2025: 4510.0
+    Q2 2025: 4350.0
+    Q3 2025: 3960.0
+    Q4 2025: 3650.0
+    Q1 2026: 4350.0
+  annual:
+    2021 Yearly: 8660.0
+    2022 Yearly: 11080.0
+    2023 Yearly: 13470.0
+    2024 Yearly: 15730.0
+    2025 Yearly: 16480.0
+  quarterly_forecast:
+    Q3 2024: 3930.0
+    Q4 2024: 4019.9999999999995
+    Q1 2025: 4560.0
+    Q2 2025: 4360.0
+    Q3 2025: 4520.0
+    Q4 2025: 4190.0
+    Q1 2026: 4550.0
+    Q2 2026: 4360.0
+    Q3 2026: 4210.0
+    Q4 2026: 4080.0
+    Q1 2027: 4550.0
+  annual_forecast:
+    2021 Yearly: 8710.0
+    2022 Yearly: 10260.0
+    2023 Yearly: 13270.0
+    2024 Yearly: 16090.0
+    2025 Yearly: 17680.0
+    2026 Yearly: 17020.0
+    2027 Yearly: 17390.0
+    2028 Yearly: 17880.0
+eps:
+  quarterly:
+    Q3 2024: 1.99
+    Q4 2024: 2.26
+    Q1 2025: 1.54
+    Q2 2025: 2.58
+    Q3 2025: 2.77
+    Q4 2025: 2.98
+    Q1 2026: 2.5
+  annual:
+    2021 Yearly: 3.58
+    2022 Yearly: 4.86
+    2023 Yearly: 8.45
+    2024 Yearly: 9.27
+    2025 Yearly: 9.87
+  quarterly_forecast:
+    Q3 2024: 2.0
+    Q4 2024: 1.81
+    Q1 2025: 1.32
+    Q2 2025: 2.3
+    Q3 2025: 2.26
+    Q4 2025: 2.59
+    Q1 2026: 2.48
+    Q2 2026: 2.47
+    Q3 2026: 1.83
+    Q4 2026: 2.47
+    Q1 2027: 2.52
+  annual_forecast:
+    2021 Yearly: 3.33
+    2022 Yearly: 4.06
+    2023 Yearly: 7.99
+    2024 Yearly: 8.83
+    2025 Yearly: 9.44
+    2026 Yearly: 9.29
+    2027 Yearly: 9.83
+    2028 Yearly: 10.55

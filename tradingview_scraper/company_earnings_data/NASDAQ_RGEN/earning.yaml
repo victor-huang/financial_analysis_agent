@@ -1,0 +1,78 @@
+currency: USD
+company_name: Repligen Corporation
+sector: Health Technology
+market_cap_billions: 8.2
+revenue:
+  quarterly:
+    Q4 2024: 167.55
+    Q1 2025: 169.17
+    Q2 2025: 182.37
+    Q3 2025: 188.81
+    Q4 2025: 197.91
+    Q1 2026: 194.25
+    Q2 2026: 204.13
+  annual:
+    2021 Yearly: 670.53
+    2022 Yearly: 801.54
+    2023 Yearly: 638.76
+    2024 Yearly: 634.44
+    2025 Yearly: 738.26
+  quarterly_forecast:
+    Q4 2024: 167.65
+    Q1 2025: 163.69
+    Q2 2025: 175.18
+    Q3 2025: 182.13
+    Q4 2025: 192.94
+    Q1 2026: 192.05
+    Q2 2026: 201.59
+    Q3 2026: 206.51
+    Q4 2026: 222.62
+    Q1 2027: 220.09
+    Q2 2027: 231.12
+  annual_forecast:
+    2021 Yearly: 664.36
+    2022 Yearly: 799.57
+    2023 Yearly: 638.45
+    2024 Yearly: 634.15
+    2025 Yearly: 733.09
+    2026 Yearly: 825.71
+    2027 Yearly: 954.43
+    2028 Yearly: 1100.0
+    2029 Yearly: 1250.0
+eps:
+  quarterly:
+    Q4 2024: 0.44
+    Q1 2025: 0.39
+    Q2 2025: 0.37
+    Q3 2025: 0.46
+    Q4 2025: 0.49
+    Q1 2026: 0.48
+    Q2 2026: 0.54
+  annual:
+    2021 Yearly: 3.06
+    2022 Yearly: 3.28
+    2023 Yearly: 1.75
+    2024 Yearly: 1.58
+    2025 Yearly: 1.71
+  quarterly_forecast:
+    Q4 2024: 0.41
+    Q1 2025: 0.35
+    Q2 2025: 0.39
+    Q3 2025: 0.42
+    Q4 2025: 0.44
+    Q1 2026: 0.38
+    Q2 2026: 0.45
+    Q3 2026: 0.47
+    Q4 2026: 0.59
+    Q1 2027: 0.58
+    Q2 2027: 0.6
+  annual_forecast:
+    2021 Yearly: 2.9
+    2022 Yearly: 3.18
+    2023 Yearly: 1.73
+    2024 Yearly: 1.54
+    2025 Yearly: 1.66
+    2026 Yearly: 2.03
+    2027 Yearly: 2.6
+    2028 Yearly: 3.37
+    2029 Yearly: 4.36

@@ -1,0 +1,80 @@
+currency: USD
+company_name: Werner Enterprises, Inc.
+sector: Transportation
+market_cap_billions: 2.3
+revenue:
+  quarterly:
+    Q3 2024: 745.7
+    Q4 2024: 754.68
+    Q1 2025: 712.11
+    Q2 2025: 753.15
+    Q3 2025: 771.5
+    Q4 2025: 737.63
+    Q1 2026: 808.61
+    Q2 2026: 933.93
+  annual:
+    2021 Yearly: 2730.0
+    2022 Yearly: 3290.0
+    2023 Yearly: 3280.0
+    2024 Yearly: 3030.0
+    2025 Yearly: 2970.0
+  quarterly_forecast:
+    Q3 2024: 765.24
+    Q4 2024: 763.95
+    Q1 2025: 737.5
+    Q2 2025: 732.19
+    Q3 2025: 763.2
+    Q4 2025: 761.07
+    Q1 2026: 812.5
+    Q2 2026: 931.12
+    Q3 2026: 945.6
+    Q4 2026: 936.08
+    Q1 2027: 911.47
+    Q2 2027: 972.27
+  annual_forecast:
+    2021 Yearly: 2700.0
+    2022 Yearly: 3280.0
+    2023 Yearly: 3280.0
+    2024 Yearly: 3040.0
+    2025 Yearly: 3000.0
+    2026 Yearly: 3630.0
+    2027 Yearly: 3920.0
+    2028 Yearly: 4110.0
+eps:
+  quarterly:
+    Q3 2024: 0.15
+    Q4 2024: 0.08
+    Q1 2025: -0.12
+    Q2 2025: 0.11
+    Q3 2025: -0.03
+    Q4 2025: 0.05
+    Q1 2026: 0.02
+    Q2 2026: 0.22
+  annual:
+    2021 Yearly: 3.45
+    2022 Yearly: 3.7
+    2023 Yearly: 1.93
+    2024 Yearly: 0.53
+    2025 Yearly: -0.02
+  quarterly_forecast:
+    Q3 2024: 0.21
+    Q4 2024: 0.21
+    Q1 2025: 0.12
+    Q2 2025: 0.05
+    Q3 2025: 0.14
+    Q4 2025: 0.11
+    Q1 2026: -0.06
+    Q2 2026: 0.24
+    Q3 2026: 0.35
+    Q4 2026: 0.45
+    Q1 2027: 0.28
+    Q2 2027: 0.55
+  annual_forecast:
+    2021 Yearly: 3.29
+    2022 Yearly: 3.65
+    2023 Yearly: 1.97
+    2024 Yearly: 0.67
+    2025 Yearly: 0.06
+    2026 Yearly: 1.06
+    2027 Yearly: 2.15
+    2028 Yearly: 3.32

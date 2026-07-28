@@ -1,0 +1,76 @@
+currency: USD
+company_name: Redwood Trust, Inc.
+sector: Finance
+market_cap_billions: 0.58476
+revenue:
+  quarterly:
+    Q4 2024: 45.2
+    Q1 2025: 73.8
+    Q2 2025: 46.6
+    Q3 2025: 61.4
+    Q4 2025: 87.7
+    Q1 2026: 87.1
+    Q2 2026: 78.5
+  annual:
+    2021 Yearly: 414.0
+    2022 Yearly: -8.0
+    2023 Yearly: 166.0
+    2024 Yearly: 256.4
+    2025 Yearly: 269.5
+  quarterly_forecast:
+    Q4 2024: 54.58
+    Q1 2025: 70.66
+    Q2 2025: 78.22
+    Q3 2025: 77.27
+    Q4 2025: 76.47
+    Q1 2026: 87.01
+    Q2 2026: 89.45
+    Q3 2026: 97.83
+    Q4 2026: 97.15
+    Q1 2027: 93.27
+    Q2 2027: 99.31
+  annual_forecast:
+    2021 Yearly: 430.9
+    2022 Yearly: 1.9
+    2023 Yearly: 175.01
+    2024 Yearly: 266.35
+    2025 Yearly: 264.94
+    2026 Yearly: 345.65
+    2027 Yearly: 407.91
+    2028 Yearly: 441.76
+eps:
+  quarterly:
+    Q4 2024: -0.07
+    Q1 2025: 0.1
+    Q2 2025: -0.76
+    Q3 2025: -0.08
+    Q4 2025: 0.13
+    Q1 2026: 0.28
+    Q2 2026: 0.25
+  annual:
+    2021 Yearly: 2.37
+    2022 Yearly: -1.43
+    2023 Yearly: -0.11
+    2024 Yearly: 0.33
+    2025 Yearly: -0.61
+  quarterly_forecast:
+    Q4 2024: 0.1
+    Q1 2025: 0.15
+    Q2 2025: 0.17
+    Q3 2025: 0.18
+    Q4 2025: 0.16
+    Q1 2026: 0.21
+    Q2 2026: 0.23
+    Q3 2026: 0.23
+    Q4 2026: 0.23
+    Q1 2027: 0.21
+    Q2 2027: 0.25
+  annual_forecast:
+    2021 Yearly: 2.4
+    2022 Yearly: -1.09
+    2023 Yearly: -0.1
+    2024 Yearly: 0.5
+    2025 Yearly: -0.31
+    2026 Yearly: 0.93
+    2027 Yearly: 1.02
+    2028 Yearly: 1.1

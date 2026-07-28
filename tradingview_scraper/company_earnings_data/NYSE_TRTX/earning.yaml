@@ -1,0 +1,75 @@
+currency: USD
+company_name: TPG RE Finance Trust, Inc.
+sector: Finance
+market_cap_billions: 0.6602100000000001
+revenue:
+  quarterly:
+    Q3 2024: 40.07
+    Q1 2025: 37.03
+    Q2 2025: 36.2
+    Q3 2025: 37.84
+    Q4 2025: 35.0
+    Q1 2026: 37.3
+  annual:
+    2021 Yearly: 155.81
+    2022 Yearly: 144.95
+    2023 Yearly: 116.4
+    2024 Yearly: 153.11
+    2025 Yearly: 146.12
+  quarterly_forecast:
+    Q3 2024: 39.64
+    Q4 2024: 39.28
+    Q1 2025: 36.12
+    Q2 2025: 35.57
+    Q3 2025: 37.99
+    Q4 2025: 36.96
+    Q1 2026: 37.14
+    Q2 2026: 37.3
+    Q3 2026: 38.91
+    Q4 2026: 39.88
+    Q1 2027: 41.9
+  annual_forecast:
+    2021 Yearly: 154.51
+    2022 Yearly: 143.15
+    2023 Yearly: 111.72
+    2024 Yearly: 157.47
+    2025 Yearly: 149.2
+    2026 Yearly: 153.4
+    2027 Yearly: 159.54
+    2028 Yearly: 167.0
+eps:
+  quarterly:
+    Q3 2024: 0.28
+    Q4 2024: 0.1
+    Q1 2025: 0.24
+    Q2 2025: 0.24
+    Q3 2025: 0.25
+    Q4 2025: 0.24
+    Q1 2026: 0.25
+  annual:
+    2021 Yearly: 1.09
+    2022 Yearly: 1.28
+    2023 Yearly: -3.4
+    2024 Yearly: 0.96
+    2025 Yearly: 0.97
+  quarterly_forecast:
+    Q3 2024: 0.28
+    Q4 2024: 0.27
+    Q1 2025: 0.25
+    Q2 2025: 0.22
+    Q3 2025: 0.26
+    Q4 2025: 0.25
+    Q1 2026: 0.25
+    Q2 2026: 0.26
+    Q3 2026: 0.26
+    Q4 2026: 0.27
+    Q1 2027: 0.28
+  annual_forecast:
+    2021 Yearly: 1.17
+    2022 Yearly: 0.99
+    2023 Yearly: -1.57
+    2024 Yearly: 1.11
+    2025 Yearly: 0.98
+    2026 Yearly: 1.05
+    2027 Yearly: 1.14
+    2028 Yearly: 1.2

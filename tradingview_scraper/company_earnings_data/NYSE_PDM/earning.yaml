@@ -1,0 +1,78 @@
+currency: USD
+company_name: Piedmont Realty Trust, Inc.
+sector: Finance
+market_cap_billions: 1.2
+revenue:
+  quarterly:
+    Q3 2024: 132.83
+    Q4 2024: 143.23
+    Q1 2025: 136.06
+    Q2 2025: 111.13
+    Q3 2025: 110.75
+    Q4 2025: 111.99
+    Q1 2026: 136.44
+  annual:
+    2021 Yearly: 476.59
+    2022 Yearly: 564.78
+    2023 Yearly: 576.87
+    2024 Yearly: 570.32
+    2025 Yearly: 445.65
+  quarterly_forecast:
+    Q3 2024: 128.29
+    Q4 2024: 126.92
+    Q1 2025: 125.75
+    Q2 2025: 126.48
+    Q3 2025: 123.82
+    Q4 2025: 139.55
+    Q1 2026: 128.67
+    Q2 2026: 133.68
+    Q3 2026: 135.34
+    Q4 2026: 138.88
+    Q1 2027: 133.45
+  annual_forecast:
+    2021 Yearly: 524.52
+    2022 Yearly: 567.28
+    2023 Yearly: 577.93
+    2024 Yearly: 506.56
+    2025 Yearly: 561.47
+    2026 Yearly: 541.04
+    2027 Yearly: 559.98
+    2028 Yearly: 575.31
+    2029 Yearly: 564.05
+eps:
+  quarterly:
+    Q3 2024: -0.09
+    Q4 2024: -0.24
+    Q1 2025: -0.08
+    Q2 2025: -0.14
+    Q3 2025: -0.11
+    Q4 2025: -0.35
+    Q1 2026: -0.1
+  annual:
+    2021 Yearly: -0.01
+    2022 Yearly: 1.19
+    2023 Yearly: -0.39
+    2024 Yearly: -0.64
+    2025 Yearly: -0.67
+  quarterly_forecast:
+    Q3 2024: -0.05
+    Q4 2024: -0.03
+    Q1 2025: -0.07
+    Q2 2025: -0.05
+    Q3 2025: -0.05
+    Q4 2025: -0.05
+    Q1 2026: -0.03
+    Q2 2026: -0.06
+    Q3 2026: -0.06
+    Q4 2026: 0.0
+    Q1 2027: -0.07
+  annual_forecast:
+    2021 Yearly: 0.32
+    2022 Yearly: 0.61
+    2023 Yearly: -0.19
+    2024 Yearly: -0.42
+    2025 Yearly: -0.37
+    2026 Yearly: -0.21
+    2027 Yearly: -0.09
+    2028 Yearly: 0.06
+    2029 Yearly: -0.09

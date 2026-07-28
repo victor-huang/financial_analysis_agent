@@ -1,7 +1,7 @@
 currency: USD
 company_name: Perfect Corp.
 sector: Technology Services
-market_cap_billions: 0.19657
+market_cap_billions: 0.19555
 revenue:
   quarterly:
     Q3 2024: 16.13
@@ -25,18 +25,18 @@ revenue:
     Q3 2025: 17.62
     Q4 2025: 17.8
     Q1 2026: 18.11
-    Q2 2026: 17.82
-    Q3 2026: 20.32
-    Q4 2026: 19.8
+    Q2 2026: 18.13
+    Q3 2026: 20.17
+    Q4 2026: 19.69
     Q1 2027: 19.57
-    Q2 2027: 19.15
+    Q2 2027: 18.05
   annual_forecast:
     2022 Yearly: 51.89
     2023 Yearly: 53.29
     2024 Yearly: 60.71
     2025 Yearly: 68.83
-    2026 Yearly: 75.92
-    2027 Yearly: 82.81
+    2026 Yearly: 74.87
+    2027 Yearly: 81.65
     2028 Yearly: 88.5
 eps:
   quarterly:

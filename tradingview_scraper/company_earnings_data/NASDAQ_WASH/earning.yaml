@@ -1,7 +1,7 @@
 currency: USD
 company_name: Washington Trust Bancorp, Inc.
 sector: Finance
-market_cap_billions: 0.7357400000000001
+market_cap_billions: 0.7540399999999999
 revenue:
   quarterly:
     Q3 2024: 48.53
@@ -63,7 +63,7 @@ eps:
     Q1 2026: 0.76
     Q2 2026: 0.77
     Q3 2026: 0.87
-    Q4 2026: 0.84
+    Q4 2026: 0.85
     Q1 2027: 0.83
     Q2 2027: 0.87
   annual_forecast:
@@ -72,5 +72,5 @@ eps:
     2023 Yearly: 2.61
     2024 Yearly: 2.42
     2025 Yearly: 2.62
-    2026 Yearly: 3.17
-    2027 Yearly: 3.49
+    2026 Yearly: 3.21
+    2027 Yearly: 3.54

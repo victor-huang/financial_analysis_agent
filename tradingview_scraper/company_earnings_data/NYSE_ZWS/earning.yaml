@@ -1,0 +1,82 @@
+currency: USD
+company_name: Zurn Elkay Water Solutions Corporation
+sector: Producer Manufacturing
+market_cap_billions: 8.23
+revenue:
+  quarterly:
+    Q3 2024: 410.0
+    Q4 2024: 370.7
+    Q1 2025: 388.8
+    Q2 2025: 444.5
+    Q3 2025: 455.4
+    Q4 2025: 407.2
+    Q1 2026: 433.0
+    Q2 2026: 491.0
+  annual:
+    2021 Yearly: 910.9
+    2022 Yearly: 1280.0
+    2023 Yearly: 1530.0
+    2024 Yearly: 1570.0
+    2025 Yearly: 1700.0
+  quarterly_forecast:
+    Q3 2024: 406.15
+    Q4 2024: 366.64
+    Q1 2025: 383.57
+    Q2 2025: 424.76
+    Q3 2025: 442.66
+    Q4 2025: 400.82
+    Q1 2026: 418.93
+    Q2 2026: 483.09
+    Q3 2026: 482.42
+    Q4 2026: 428.82
+    Q1 2027: 456.68
+    Q2 2027: 512.23
+  annual_forecast:
+    2021 Yearly: 903.1
+    2022 Yearly: 1290.0
+    2023 Yearly: 1520.0
+    2024 Yearly: 1560.0
+    2025 Yearly: 1690.0
+    2026 Yearly: 1830.0
+    2027 Yearly: 1920.0
+    2028 Yearly: 2029.9999999999998
+    2029 Yearly: 2150.0
+eps:
+  quarterly:
+    Q3 2024: 0.34
+    Q4 2024: 0.32
+    Q1 2025: 0.31
+    Q2 2025: 0.42
+    Q3 2025: 0.43
+    Q4 2025: 0.36
+    Q1 2026: 0.41
+    Q2 2026: 0.5
+  annual:
+    2021 Yearly: 0.77
+    2022 Yearly: 0.94
+    2023 Yearly: 0.97
+    2024 Yearly: 1.28
+    2025 Yearly: 1.52
+  quarterly_forecast:
+    Q3 2024: 0.32
+    Q4 2024: 0.28
+    Q1 2025: 0.29
+    Q2 2025: 0.36
+    Q3 2025: 0.4
+    Q4 2025: 0.34
+    Q1 2026: 0.36
+    Q2 2026: 0.47
+    Q3 2026: 0.48
+    Q4 2026: 0.39
+    Q1 2027: 0.45
+    Q2 2027: 0.53
+  annual_forecast:
+    2021 Yearly: 1.34
+    2022 Yearly: 0.96
+    2023 Yearly: 0.95
+    2024 Yearly: 1.24
+    2025 Yearly: 1.5
+    2026 Yearly: 1.76
+    2027 Yearly: 1.93
+    2028 Yearly: 2.14
+    2029 Yearly: 2.29

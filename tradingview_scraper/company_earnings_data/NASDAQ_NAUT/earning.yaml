@@ -1,0 +1,68 @@
+currency: USD
+company_name: Nautilus Biotechnology, Inc.
+sector: Health Technology
+market_cap_billions: 0.15249000000000001
+revenue:
+  quarterly:
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q2 2027: 0.0
+  annual_forecast:
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2027 Yearly: 0.0
+    2029 Yearly: 6.1
+eps:
+  quarterly:
+    Q4 2024: -0.14
+    Q1 2025: -0.13
+    Q2 2025: -0.12
+    Q3 2025: -0.11
+    Q4 2025: -0.11
+    Q1 2026: -0.12
+    Q2 2026: -0.11
+  annual:
+    2021 Yearly: -0.6
+    2022 Yearly: -0.46
+    2023 Yearly: -0.51
+    2024 Yearly: -0.56
+    2025 Yearly: -0.47
+  quarterly_forecast:
+    Q4 2024: -0.15
+    Q1 2025: -0.15
+    Q2 2025: -0.15
+    Q3 2025: -0.15
+    Q4 2025: -0.14
+    Q1 2026: -0.14
+    Q2 2026: -0.14
+    Q3 2026: -0.14
+    Q4 2026: -0.13
+    Q1 2027: -0.11
+    Q2 2027: -0.12
+  annual_forecast:
+    2021 Yearly: -0.58
+    2022 Yearly: -0.51
+    2023 Yearly: -0.56
+    2024 Yearly: -0.6
+    2025 Yearly: -0.53
+    2026 Yearly: -0.5
+    2027 Yearly: -0.51
+    2028 Yearly: -0.42
+    2029 Yearly: -0.38

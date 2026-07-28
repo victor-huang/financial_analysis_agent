@@ -1,0 +1,82 @@
+currency: USD
+company_name: Manhattan Associates, Inc.
+sector: Technology Services
+market_cap_billions: 9.95
+revenue:
+  quarterly:
+    Q3 2024: 266.68
+    Q4 2024: 255.8
+    Q1 2025: 262.79
+    Q2 2025: 272.42
+    Q3 2025: 275.8
+    Q4 2025: 270.39
+    Q1 2026: 282.21
+    Q2 2026: 297.79
+  annual:
+    2021 Yearly: 663.64
+    2022 Yearly: 767.08
+    2023 Yearly: 928.73
+    2024 Yearly: 1040.0
+    2025 Yearly: 1080.0
+  quarterly_forecast:
+    Q3 2024: 262.9
+    Q4 2024: 253.06
+    Q1 2025: 256.51
+    Q2 2025: 263.72
+    Q3 2025: 271.78
+    Q4 2025: 264.73
+    Q1 2026: 273.7
+    Q2 2026: 287.66
+    Q3 2026: 296.06
+    Q4 2026: 287.36
+    Q1 2027: 302.86
+    Q2 2027: 312.62
+  annual_forecast:
+    2021 Yearly: 655.0
+    2022 Yearly: 751.64
+    2023 Yearly: 914.09
+    2024 Yearly: 1040.0
+    2025 Yearly: 1080.0
+    2026 Yearly: 1150.0
+    2027 Yearly: 1250.0
+    2028 Yearly: 1370.0
+    2029 Yearly: 1500.0
+eps:
+  quarterly:
+    Q3 2024: 1.35
+    Q4 2024: 1.17
+    Q1 2025: 1.19
+    Q2 2025: 1.31
+    Q3 2025: 1.36
+    Q4 2025: 1.21
+    Q1 2026: 1.24
+    Q2 2026: 1.39
+  annual:
+    2021 Yearly: 2.23
+    2022 Yearly: 2.76
+    2023 Yearly: 3.74
+    2024 Yearly: 4.72
+    2025 Yearly: 5.06
+  quarterly_forecast:
+    Q3 2024: 1.06
+    Q4 2024: 1.06
+    Q1 2025: 1.03
+    Q2 2025: 1.13
+    Q3 2025: 1.19
+    Q4 2025: 1.13
+    Q1 2026: 1.11
+    Q2 2026: 1.32
+    Q3 2026: 1.44
+    Q4 2026: 1.37
+    Q1 2027: 1.39
+    Q2 2027: 1.49
+  annual_forecast:
+    2021 Yearly: 2.13
+    2022 Yearly: 2.45
+    2023 Yearly: 3.52
+    2024 Yearly: 4.61
+    2025 Yearly: 4.98
+    2026 Yearly: 5.37
+    2027 Yearly: 5.97
+    2028 Yearly: 6.93
+    2029 Yearly: 8.07

@@ -1,7 +1,7 @@
 currency: USD
 company_name: Nucor Corporation
 sector: Non-Energy Minerals
-market_cap_billions: 56.45
+market_cap_billions: 60.49
 revenue:
   quarterly:
     Q3 2024: 7440.0
@@ -27,20 +27,20 @@ revenue:
     Q4 2025: 7910.0
     Q1 2026: 8880.0
     Q2 2026: 10150.0
-    Q3 2026: 10100.0
-    Q4 2026: 9170.0
-    Q1 2027: 9940.0
-    Q2 2027: 10110.0
+    Q3 2026: 10150.0
+    Q4 2026: 9180.0
+    Q1 2027: 9930.0
+    Q2 2027: 10230.0
   annual_forecast:
     2021 Yearly: 36590.0
     2022 Yearly: 41170.0
     2023 Yearly: 34600.0
     2024 Yearly: 30410.0
     2025 Yearly: 32680.0
-    2026 Yearly: 38780.0
-    2027 Yearly: 39730.0
-    2028 Yearly: 39980.0
-    2029 Yearly: 40190.0
+    2026 Yearly: 38820.0
+    2027 Yearly: 39820.0
+    2028 Yearly: 40050.0
+    2029 Yearly: 40240.0
 eps:
   quarterly:
     Q3 2024: 1.49
@@ -66,17 +66,17 @@ eps:
     Q4 2025: 1.91
     Q1 2026: 2.82
     Q2 2026: 4.46
-    Q3 2026: 4.9
-    Q4 2026: 4.06
-    Q1 2027: 4.39
-    Q2 2027: 4.89
+    Q3 2026: 5.06
+    Q4 2026: 4.15
+    Q1 2027: 4.36
+    Q2 2027: 4.95
   annual_forecast:
     2021 Yearly: 23.54
     2022 Yearly: 28.42
     2023 Yearly: 17.88
     2024 Yearly: 8.27
     2025 Yearly: 7.95
-    2026 Yearly: 16.31
-    2027 Yearly: 17.4
-    2028 Yearly: 17.15
+    2026 Yearly: 16.56
+    2027 Yearly: 17.52
+    2028 Yearly: 17.4
     2029 Yearly: 15.4

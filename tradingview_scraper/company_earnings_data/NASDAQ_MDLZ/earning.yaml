@@ -1,0 +1,82 @@
+currency: USD
+company_name: Mondelez International, Inc.
+sector: Consumer Non-Durables
+market_cap_billions: 80.2
+revenue:
+  quarterly:
+    Q3 2024: 9200.0
+    Q4 2024: 9600.0
+    Q1 2025: 9310.0
+    Q2 2025: 8980.0
+    Q3 2025: 9740.0
+    Q4 2025: 10490.0
+    Q1 2026: 10080.0
+    Q2 2026: 9360.0
+  annual:
+    2021 Yearly: 28720.0
+    2022 Yearly: 31470.0
+    2023 Yearly: 36020.0
+    2024 Yearly: 36440.0
+    2025 Yearly: 38500.0
+  quarterly_forecast:
+    Q3 2024: 9110.0
+    Q4 2024: 9640.0
+    Q1 2025: 9310.0
+    Q2 2025: 8860.0
+    Q3 2025: 9680.0
+    Q4 2025: 10310.0
+    Q1 2026: 9750.0
+    Q2 2026: 9210.0
+    Q3 2026: 9940.0
+    Q4 2026: 10730.0
+    Q1 2027: 10350.0
+    Q2 2027: 9440.0
+  annual_forecast:
+    2021 Yearly: 28630.0
+    2022 Yearly: 31130.0
+    2023 Yearly: 36040.0
+    2024 Yearly: 36470.0
+    2025 Yearly: 38350.0
+    2026 Yearly: 39940.0
+    2027 Yearly: 41070.0
+    2028 Yearly: 42440.0
+    2029 Yearly: 43380.0
+eps:
+  quarterly:
+    Q3 2024: 0.99
+    Q4 2024: 0.65
+    Q1 2025: 0.74
+    Q2 2025: 0.73
+    Q3 2025: 0.72
+    Q4 2025: 0.72
+    Q1 2026: 0.63
+    Q2 2026: 0.71
+  annual:
+    2021 Yearly: 2.79
+    2022 Yearly: 2.95
+    2023 Yearly: 3.32
+    2024 Yearly: 3.36
+    2025 Yearly: 2.92
+  quarterly_forecast:
+    Q3 2024: 0.85
+    Q4 2024: 0.66
+    Q1 2025: 0.65
+    Q2 2025: 0.68
+    Q3 2025: 0.71
+    Q4 2025: 0.7
+    Q1 2026: 0.61
+    Q2 2026: 0.68
+    Q3 2026: 0.76
+    Q4 2026: 0.94
+    Q1 2027: 0.82
+    Q2 2027: 0.75
+  annual_forecast:
+    2021 Yearly: 2.89
+    2022 Yearly: 2.93
+    2023 Yearly: 3.24
+    2024 Yearly: 3.43
+    2025 Yearly: 2.89
+    2026 Yearly: 3.05
+    2027 Yearly: 3.36
+    2028 Yearly: 3.62
+    2029 Yearly: 3.86

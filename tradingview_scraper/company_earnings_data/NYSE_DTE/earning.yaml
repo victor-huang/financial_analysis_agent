@@ -1,0 +1,78 @@
+currency: USD
+company_name: DTE Energy Company
+sector: Utilities
+market_cap_billions: 30.39
+revenue:
+  quarterly:
+    Q4 2024: 3810.0
+    Q1 2025: 4170.0
+    Q2 2025: 3420.0
+    Q3 2025: 3530.0
+    Q4 2025: 4430.0
+    Q1 2026: 5140.0
+    Q2 2026: 3500.0
+  annual:
+    2021 Yearly: 14960.0
+    2022 Yearly: 19230.0
+    2023 Yearly: 12740.0
+    2024 Yearly: 12460.0
+    2025 Yearly: 15810.0
+  quarterly_forecast:
+    Q4 2024: 3310.0
+    Q1 2025: 3410.0
+    Q2 2025: 2770.0
+    Q3 2025: 3240.0
+    Q4 2025: 3390.0
+    Q1 2026: 4370.0
+    Q2 2026: 3360.0
+    Q3 2026: 3780.0
+    Q4 2026: 3880.0
+    Q1 2027: 4830.0
+    Q2 2027: 2440.0
+  annual_forecast:
+    2021 Yearly: 13440.0
+    2022 Yearly: 16250.0
+    2023 Yearly: 16780.0
+    2024 Yearly: 12840.0
+    2025 Yearly: 13920.0
+    2026 Yearly: 16059.999999999998
+    2027 Yearly: 16490.0
+    2028 Yearly: 17200.0
+    2029 Yearly: 17740.0
+eps:
+  quarterly:
+    Q4 2024: 1.51
+    Q1 2025: 2.1
+    Q2 2025: 1.36
+    Q3 2025: 2.25
+    Q4 2025: 1.65
+    Q1 2026: 1.95
+    Q2 2026: 1.32
+  annual:
+    2021 Yearly: 5.99
+    2022 Yearly: 6.1
+    2023 Yearly: 5.73
+    2024 Yearly: 6.83
+    2025 Yearly: 7.36
+  quarterly_forecast:
+    Q4 2024: 1.44
+    Q1 2025: 2.02
+    Q2 2025: 1.4
+    Q3 2025: 2.11
+    Q4 2025: 1.52
+    Q1 2026: 2.01
+    Q2 2026: 1.14
+    Q3 2026: 2.46
+    Q4 2026: 2.15
+    Q1 2027: 2.16
+    Q2 2027: 1.4
+  annual_forecast:
+    2021 Yearly: 5.91
+    2022 Yearly: 6.01
+    2023 Yearly: 5.74
+    2024 Yearly: 6.75
+    2025 Yearly: 7.24
+    2026 Yearly: 7.71
+    2027 Yearly: 8.35
+    2028 Yearly: 9.02
+    2029 Yearly: 9.7

@@ -1,0 +1,54 @@
+currency: USD
+company_name: Slide Insurance Holdings, Inc.
+sector: Technology Services
+market_cap_billions: 2.45
+revenue:
+  quarterly:
+    Q1 2025: 278.25
+    Q2 2025: 435.38
+    Q3 2025: 463.0
+    Q4 2025: 618.49
+    Q1 2026: 414.79
+    Q2 2026: 508.01
+  annual:
+    2025 Yearly: 1800.0
+  quarterly_forecast:
+    Q2 2025: 262.23
+    Q3 2025: 448.8
+    Q4 2025: 504.46
+    Q1 2026: 326.58
+    Q2 2026: 471.88
+    Q3 2026: 470.74
+    Q4 2026: 449.25
+    Q1 2027: 383.11
+    Q2 2027: 453.88
+  annual_forecast:
+    2025 Yearly: 1490.0
+    2026 Yearly: 1690.0
+    2027 Yearly: 1700.0
+    2028 Yearly: 1620.0
+eps:
+  quarterly:
+    Q1 2025: 0.75
+    Q2 2025: 0.56
+    Q3 2025: 0.79
+    Q4 2025: 1.23
+    Q1 2026: 1.02
+    Q2 2026: 1.06
+  annual:
+    2025 Yearly: 3.36
+  quarterly_forecast:
+    Q2 2025: 0.44
+    Q3 2025: 0.53
+    Q4 2025: 0.88
+    Q1 2026: 0.85
+    Q2 2026: 0.85
+    Q3 2026: 0.55
+    Q4 2026: 1.12
+    Q1 2027: 0.96
+    Q2 2027: 0.8
+  annual_forecast:
+    2025 Yearly: 3.0
+    2026 Yearly: 3.55
+    2027 Yearly: 3.54
+    2028 Yearly: 3.65

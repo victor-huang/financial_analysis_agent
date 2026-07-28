@@ -1,0 +1,80 @@
+currency: USD
+company_name: Mirion Technologies, Inc.
+sector: Electronic Technology
+market_cap_billions: 4.21
+revenue:
+  quarterly:
+    Q3 2024: 206.8
+    Q4 2024: 254.3
+    Q1 2025: 202.0
+    Q2 2025: 222.9
+    Q3 2025: 223.1
+    Q4 2025: 277.4
+    Q1 2026: 257.6
+    Q2 2026: 266.8
+  annual:
+    2021 Yearly: 322.1
+    2022 Yearly: 717.8
+    2023 Yearly: 800.9
+    2024 Yearly: 860.8
+    2025 Yearly: 925.4
+  quarterly_forecast:
+    Q3 2024: 203.67
+    Q4 2024: 245.02
+    Q1 2025: 200.71
+    Q2 2025: 216.2
+    Q3 2025: 222.12
+    Q4 2025: 280.33
+    Q1 2026: 244.78
+    Q2 2026: 269.32
+    Q3 2026: 276.08
+    Q4 2026: 336.35
+    Q1 2027: 276.68
+    Q2 2027: 284.0
+  annual_forecast:
+    2021 Yearly: 663.85
+    2022 Yearly: 703.38
+    2023 Yearly: 789.38
+    2024 Yearly: 851.52
+    2025 Yearly: 928.43
+    2026 Yearly: 1140.0
+    2027 Yearly: 1220.0
+    2028 Yearly: 1310.0
+eps:
+  quarterly:
+    Q3 2024: 0.08
+    Q4 2024: 0.17
+    Q1 2025: 0.1
+    Q2 2025: 0.11
+    Q3 2025: 0.12
+    Q4 2025: 0.15
+    Q1 2026: 0.1
+    Q2 2026: 0.12
+  annual:
+    2021 Yearly: -8.85
+    2022 Yearly: 0.37
+    2023 Yearly: 0.34
+    2024 Yearly: 0.41
+    2025 Yearly: 0.46
+  quarterly_forecast:
+    Q3 2024: 0.08
+    Q4 2024: 0.14
+    Q1 2025: 0.08
+    Q2 2025: 0.1
+    Q3 2025: 0.1
+    Q4 2025: 0.16
+    Q1 2026: 0.09
+    Q2 2026: 0.1
+    Q3 2026: 0.13
+    Q4 2026: 0.21
+    Q1 2027: 0.11
+    Q2 2027: 0.14
+  annual_forecast:
+    2021 Yearly: -3.67
+    2022 Yearly: 0.38
+    2023 Yearly: 0.32
+    2024 Yearly: 0.39
+    2025 Yearly: 0.49
+    2026 Yearly: 0.53
+    2027 Yearly: 0.65
+    2028 Yearly: 0.78

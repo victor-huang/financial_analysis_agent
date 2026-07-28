@@ -1,0 +1,80 @@
+currency: USD
+company_name: Clearwater Paper Corporation
+sector: Process Industries
+market_cap_billions: 0.28235000000000005
+revenue:
+  quarterly:
+    Q3 2024: 644.0
+    Q4 2024: 482.8
+    Q1 2025: 378.2
+    Q2 2025: 391.8
+    Q3 2025: 399.0
+    Q4 2025: 386.4
+    Q1 2026: 360.3
+    Q2 2026: 374.8
+  annual:
+    2021 Yearly: 1770.0
+    2022 Yearly: 2080.0
+    2023 Yearly: 2080.0
+    2024 Yearly: 2210.0
+    2025 Yearly: 1560.0
+  quarterly_forecast:
+    Q3 2024: 622.0
+    Q4 2024: 473.0
+    Q1 2025: 376.0
+    Q2 2025: 397.0
+    Q3 2025: 387.86
+    Q4 2025: 381.57
+    Q1 2026: 363.55
+    Q2 2026: 374.8
+    Q3 2026: 379.95
+    Q4 2026: 372.46
+    Q1 2027: 366.13
+    Q2 2027: 371.0
+  annual_forecast:
+    2021 Yearly: 1750.0
+    2022 Yearly: 2080.0
+    2023 Yearly: 2070.0
+    2024 Yearly: 1950.0
+    2025 Yearly: 1550.0
+    2026 Yearly: 1490.0
+    2027 Yearly: 1540.0
+    2028 Yearly: 1540.0
+eps:
+  quarterly:
+    Q3 2024: -0.64
+    Q4 2024: 12.1
+    Q1 2025: -0.36
+    Q2 2025: 0.17
+    Q3 2025: -0.51
+    Q4 2025: -0.42
+    Q1 2026: -1.29
+    Q2 2026: -1.75
+  annual:
+    2021 Yearly: 1.03
+    2022 Yearly: 3.63
+    2023 Yearly: 6.69
+    2024 Yearly: 12.06
+    2025 Yearly: -0.15
+  quarterly_forecast:
+    Q3 2024: 0.29
+    Q4 2024: -0.33
+    Q1 2025: -0.04
+    Q2 2025: 0.7
+    Q3 2025: -0.53
+    Q4 2025: -0.56
+    Q1 2026: -1.32
+    Q2 2026: -1.49
+    Q3 2026: -0.4
+    Q4 2026: -1.14
+    Q1 2027: -0.74
+    Q2 2027: -0.38
+  annual_forecast:
+    2021 Yearly: 0.97
+    2022 Yearly: 3.88
+    2023 Yearly: 6.83
+    2024 Yearly: 0.62
+    2025 Yearly: -1.31
+    2026 Yearly: -4.19
+    2027 Yearly: -1.38
+    2028 Yearly: -0.49

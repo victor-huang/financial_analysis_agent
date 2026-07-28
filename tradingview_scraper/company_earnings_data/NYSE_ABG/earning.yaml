@@ -1,0 +1,76 @@
+currency: USD
+company_name: Asbury Automotive Group Inc
+sector: Retail Trade
+market_cap_billions: 4.49
+revenue:
+  quarterly:
+    Q4 2024: 4500.0
+    Q1 2025: 4150.0
+    Q2 2025: 4370.0
+    Q3 2025: 4800.0
+    Q4 2025: 4680.0
+    Q1 2026: 4110.0
+    Q2 2026: 4380.0
+  annual:
+    2021 Yearly: 9840.0
+    2022 Yearly: 15430.0
+    2023 Yearly: 14800.0
+    2024 Yearly: 17190.0
+    2025 Yearly: 18000.0
+  quarterly_forecast:
+    Q4 2024: 4160.0
+    Q1 2025: 4370.0
+    Q2 2025: 4450.0
+    Q3 2025: 4840.0
+    Q4 2025: 4900.0
+    Q1 2026: 4370.0
+    Q2 2026: 4490.0
+    Q3 2026: 4740.0
+    Q4 2026: 4720.0
+    Q1 2027: 4400.0
+    Q2 2027: 4700.0
+  annual_forecast:
+    2021 Yearly: 9680.0
+    2022 Yearly: 15560.0
+    2023 Yearly: 14690.0
+    2024 Yearly: 16810.0
+    2025 Yearly: 18190.0
+    2026 Yearly: 18050.0
+    2027 Yearly: 18810.0
+    2028 Yearly: 19830.0
+eps:
+  quarterly:
+    Q4 2024: 7.26
+    Q1 2025: 6.82
+    Q2 2025: 7.43
+    Q3 2025: 7.17
+    Q4 2025: 6.67
+    Q1 2026: 5.37
+    Q2 2026: 6.82
+  annual:
+    2021 Yearly: 27.29
+    2022 Yearly: 37.66
+    2023 Yearly: 32.6
+    2024 Yearly: 27.24
+    2025 Yearly: 28.1
+  quarterly_forecast:
+    Q4 2024: 6.04
+    Q1 2025: 6.68
+    Q2 2025: 6.87
+    Q3 2025: 6.82
+    Q4 2025: 6.66
+    Q1 2026: 5.62
+    Q2 2026: 6.31
+    Q3 2026: 6.91
+    Q4 2026: 7.13
+    Q1 2027: 6.26
+    Q2 2027: 7.1
+  annual_forecast:
+    2021 Yearly: 25.92
+    2022 Yearly: 37.02
+    2023 Yearly: 33.03
+    2024 Yearly: 26.03
+    2025 Yearly: 28.08
+    2026 Yearly: 25.7
+    2027 Yearly: 29.36
+    2028 Yearly: 32.45

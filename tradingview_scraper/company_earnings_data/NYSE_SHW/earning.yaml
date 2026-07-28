@@ -1,0 +1,78 @@
+currency: USD
+company_name: Sherwin-Williams Company (The)
+sector: Process Industries
+market_cap_billions: 87.38
+revenue:
+  quarterly:
+    Q4 2024: 5300.0
+    Q1 2025: 5310.0
+    Q2 2025: 6310.0
+    Q3 2025: 6360.0
+    Q4 2025: 5600.0
+    Q1 2026: 5670.0
+    Q2 2026: 6790.0
+  annual:
+    2021 Yearly: 19940.0
+    2022 Yearly: 22150.0
+    2023 Yearly: 23050.0
+    2024 Yearly: 23100.0
+    2025 Yearly: 23570.0
+  quarterly_forecast:
+    Q4 2024: 5320.0
+    Q1 2025: 5400.0
+    Q2 2025: 6290.0
+    Q3 2025: 6200.0
+    Q4 2025: 5570.0
+    Q1 2026: 5560.0
+    Q2 2026: 6600.0
+    Q3 2026: 6660.0
+    Q4 2026: 5810.0
+    Q1 2027: 5920.0
+    Q2 2027: 6890.0
+  annual_forecast:
+    2021 Yearly: 19940.0
+    2022 Yearly: 22170.0
+    2023 Yearly: 23010.0
+    2024 Yearly: 23120.0
+    2025 Yearly: 23540.0
+    2026 Yearly: 24750.0
+    2027 Yearly: 25900.0
+    2028 Yearly: 27180.0
+    2029 Yearly: 28180.0
+eps:
+  quarterly:
+    Q4 2024: 2.09
+    Q1 2025: 2.25
+    Q2 2025: 3.38
+    Q3 2025: 3.59
+    Q4 2025: 2.23
+    Q1 2026: 2.35
+    Q2 2026: 3.7
+  annual:
+    2021 Yearly: 8.15
+    2022 Yearly: 8.73
+    2023 Yearly: 10.35
+    2024 Yearly: 11.33
+    2025 Yearly: 11.43
+  quarterly_forecast:
+    Q4 2024: 2.06
+    Q1 2025: 2.15
+    Q2 2025: 3.76
+    Q3 2025: 3.45
+    Q4 2025: 2.16
+    Q1 2026: 2.27
+    Q2 2026: 3.52
+    Q3 2026: 3.59
+    Q4 2026: 2.3
+    Q1 2027: 2.52
+    Q2 2027: 3.93
+  annual_forecast:
+    2021 Yearly: 8.48
+    2022 Yearly: 8.71
+    2023 Yearly: 10.33
+    2024 Yearly: 11.3
+    2025 Yearly: 11.37
+    2026 Yearly: 11.78
+    2027 Yearly: 13.29
+    2028 Yearly: 14.86
+    2029 Yearly: 16.16

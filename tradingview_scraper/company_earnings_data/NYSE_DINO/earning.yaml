@@ -1,0 +1,78 @@
+currency: USD
+company_name: HF Sinclair Corporation
+sector: Energy Minerals
+market_cap_billions: 16.1
+revenue:
+  quarterly:
+    Q4 2024: 6500.0
+    Q1 2025: 6370.0
+    Q2 2025: 6780.0
+    Q3 2025: 7250.0
+    Q4 2025: 6460.0
+    Q1 2026: 7120.0
+    Q2 2026: 10390.0
+  annual:
+    2021 Yearly: 18390.0
+    2022 Yearly: 38200.0
+    2023 Yearly: 31960.0
+    2024 Yearly: 28580.0
+    2025 Yearly: 26870.0
+  quarterly_forecast:
+    Q4 2024: 6560.0
+    Q1 2025: 6670.0
+    Q2 2025: 6850.0
+    Q3 2025: 7030.0
+    Q4 2025: 6040.0
+    Q1 2026: 6830.0
+    Q2 2026: 8680.0
+    Q3 2026: 8240.0
+    Q4 2026: 7640.0
+    Q1 2027: 7000.0
+    Q2 2027: 7240.0
+  annual_forecast:
+    2021 Yearly: 16490.0
+    2022 Yearly: 37710.0
+    2023 Yearly: 31860.0
+    2024 Yearly: 28590.0
+    2025 Yearly: 26420.0
+    2026 Yearly: 32460.0
+    2027 Yearly: 29860.0
+    2028 Yearly: 28860.0
+    2029 Yearly: 27070.0
+eps:
+  quarterly:
+    Q4 2024: -1.02
+    Q1 2025: -0.27
+    Q2 2025: 1.7
+    Q3 2025: 2.44
+    Q4 2025: 1.2
+    Q1 2026: 0.69
+    Q2 2026: 5.31
+  annual:
+    2021 Yearly: 1.52
+    2022 Yearly: 14.73
+    2023 Yearly: 9.51
+    2024 Yearly: 1.01
+    2025 Yearly: 5.06
+  quarterly_forecast:
+    Q4 2024: -0.89
+    Q1 2025: -0.43
+    Q2 2025: 1.08
+    Q3 2025: 1.88
+    Q4 2025: 0.45
+    Q1 2026: -0.06
+    Q2 2026: 4.49
+    Q3 2026: 4.65
+    Q4 2026: 2.41
+    Q1 2027: 1.66
+    Q2 2027: 2.87
+  annual_forecast:
+    2021 Yearly: 1.6
+    2022 Yearly: 14.96
+    2023 Yearly: 9.45
+    2024 Yearly: 1.22
+    2025 Yearly: 4.24
+    2026 Yearly: 11.86
+    2027 Yearly: 8.76
+    2028 Yearly: 6.61
+    2029 Yearly: 4.76

@@ -1,0 +1,80 @@
+currency: USD
+company_name: Avis Budget Group, Inc.
+sector: Finance
+market_cap_billions: 5.88
+revenue:
+  quarterly:
+    Q3 2024: 3480.0
+    Q4 2024: 2710.0
+    Q1 2025: 2430.0
+    Q2 2025: 3040.0
+    Q3 2025: 3520.0
+    Q4 2025: 2660.0
+    Q1 2026: 2530.0
+    Q2 2026: 3000.0
+  annual:
+    2021 Yearly: 9310.0
+    2022 Yearly: 11990.0
+    2023 Yearly: 12010.0
+    2024 Yearly: 11790.0
+    2025 Yearly: 11650.0
+  quarterly_forecast:
+    Q3 2024: 3530.0
+    Q4 2024: 2720.0
+    Q1 2025: 2490.0
+    Q2 2025: 2990.0
+    Q3 2025: 3450.0
+    Q4 2025: 2740.0
+    Q1 2026: 2430.0
+    Q2 2026: 3100.0
+    Q3 2026: 3580.0
+    Q4 2026: 2720.0
+    Q1 2027: 2510.0
+    Q2 2027: 3130.0
+  annual_forecast:
+    2021 Yearly: 9080.0
+    2022 Yearly: 11910.0
+    2023 Yearly: 12060.0
+    2024 Yearly: 11810.0
+    2025 Yearly: 11730.0
+    2026 Yearly: 11920.0
+    2027 Yearly: 12130.0
+    2028 Yearly: 12500.0
+eps:
+  quarterly:
+    Q3 2024: 7.24
+    Q4 2024: 17.49
+    Q1 2025: -2.11
+    Q2 2025: 2.7
+    Q3 2025: 10.96
+    Q4 2025: -4.6
+    Q1 2026: -6.31
+    Q2 2026: 2.24
+  annual:
+    2021 Yearly: 22.49
+    2022 Yearly: 58.05
+    2023 Yearly: 42.83
+    2024 Yearly: 23.33
+    2025 Yearly: 4.01
+  quarterly_forecast:
+    Q3 2024: 8.26
+    Q4 2024: -1.16
+    Q1 2025: -5.95
+    Q2 2025: 2.21
+    Q3 2025: 7.98
+    Q4 2025: -0.38
+    Q1 2026: -6.83
+    Q2 2026: 2.05
+    Q3 2026: 9.9
+    Q4 2026: -1.08
+    Q1 2027: -4.64
+    Q2 2027: 3.29
+  annual_forecast:
+    2021 Yearly: 21.99
+    2022 Yearly: 53.42
+    2023 Yearly: 40.14
+    2024 Yearly: 4.31
+    2025 Yearly: 6.71
+    2026 Yearly: 4.48
+    2027 Yearly: 8.4
+    2028 Yearly: 11.47

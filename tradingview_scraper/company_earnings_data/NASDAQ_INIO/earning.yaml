@@ -1,0 +1,28 @@
+currency: USD
+company_name: INNIO N.V.
+sector: Producer Manufacturing
+market_cap_billions: 19.67
+revenue:
+  quarterly:
+    Q1 2026: 668.6
+    Q2 2026: 937.7
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: 881.71
+    Q3 2026: 1030.0
+    Q4 2026: 1220.0
+    Q1 2027: 1180.0
+    Q2 2027: 1300.0
+  annual_forecast: {}
+eps:
+  quarterly:
+    Q1 2026: -0.01
+    Q2 2026: 0.08
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: 0.06
+    Q3 2026: 0.11
+    Q4 2026: 0.18
+    Q1 2027: 0.16
+    Q2 2027: 0.19
+  annual_forecast: {}

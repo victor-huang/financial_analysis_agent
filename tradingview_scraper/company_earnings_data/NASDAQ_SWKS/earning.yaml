@@ -1,0 +1,82 @@
+currency: USD
+company_name: Skyworks Solutions, Inc.
+sector: Electronic Technology
+market_cap_billions: 9.73
+revenue:
+  quarterly:
+    Q4 2024: 1020.0
+    Q1 2025: 1070.0
+    Q2 2025: 953.2
+    Q3 2025: 965.0
+    Q4 2025: 1100.0
+    Q1 2026: 1040.0
+    Q2 2026: 943.7
+    Q3 2026: 925.0
+  annual:
+    2021 Yearly: 5110.0
+    2022 Yearly: 5490.0
+    2023 Yearly: 4770.0
+    2024 Yearly: 4180.0
+    2025 Yearly: 4090.0
+  quarterly_forecast:
+    Q4 2024: 1020.0
+    Q1 2025: 1070.0
+    Q2 2025: 951.54
+    Q3 2025: 940.85
+    Q4 2025: 1040.0
+    Q1 2026: 1000.0
+    Q2 2026: 901.76
+    Q3 2026: 925.97
+    Q4 2026: 1030.0
+    Q1 2027: 1040.0
+    Q2 2027: 959.32
+    Q3 2027: 948.05
+  annual_forecast:
+    2021 Yearly: 5100.0
+    2022 Yearly: 5470.0
+    2023 Yearly: 4770.0
+    2024 Yearly: 4170.0
+    2025 Yearly: 4030.0000000000005
+    2026 Yearly: 3920.0
+    2027 Yearly: 4019.9999999999995
+    2028 Yearly: 4370.0
+    2029 Yearly: 4430.0
+eps:
+  quarterly:
+    Q4 2024: 1.55
+    Q1 2025: 1.6
+    Q2 2025: 1.24
+    Q3 2025: 1.33
+    Q4 2025: 1.76
+    Q1 2026: 1.54
+    Q2 2026: 1.15
+    Q3 2026: 1.03
+  annual:
+    2021 Yearly: 10.5
+    2022 Yearly: 11.24
+    2023 Yearly: 8.52
+    2024 Yearly: 6.27
+    2025 Yearly: 5.93
+  quarterly_forecast:
+    Q4 2024: 1.52
+    Q1 2025: 1.57
+    Q2 2025: 1.2
+    Q3 2025: 1.24
+    Q4 2025: 1.52
+    Q1 2026: 1.4
+    Q2 2026: 1.04
+    Q3 2026: 1.03
+    Q4 2026: 1.29
+    Q1 2027: 1.38
+    Q2 2027: 1.16
+    Q3 2027: 1.15
+  annual_forecast:
+    2021 Yearly: 10.43
+    2022 Yearly: 11.1
+    2023 Yearly: 8.44
+    2024 Yearly: 6.25
+    2025 Yearly: 5.67
+    2026 Yearly: 4.99
+    2027 Yearly: 5.15
+    2028 Yearly: 6.13
+    2029 Yearly: 6.25

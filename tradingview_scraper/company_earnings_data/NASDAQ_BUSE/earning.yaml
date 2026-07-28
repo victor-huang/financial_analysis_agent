@@ -1,0 +1,78 @@
+currency: USD
+company_name: First Busey Corporation
+sector: Finance
+market_cap_billions: 2.56
+revenue:
+  quarterly:
+    Q3 2024: 117.69
+    Q4 2024: 117.0
+    Q1 2025: 140.72
+    Q2 2025: 192.05
+    Q3 2025: 196.67
+    Q4 2025: 200.92
+    Q1 2026: 197.17
+    Q2 2026: 194.27
+  annual:
+    2021 Yearly: 400.43
+    2022 Yearly: 452.37
+    2023 Yearly: 444.03
+    2024 Yearly: 460.67
+    2025 Yearly: 730.35
+  quarterly_forecast:
+    Q3 2024: 119.02
+    Q4 2024: 116.38
+    Q1 2025: 140.77
+    Q2 2025: 193.39
+    Q3 2025: 195.98
+    Q4 2025: 197.69
+    Q1 2026: 197.15
+    Q2 2026: 197.59
+    Q3 2026: 200.21
+    Q4 2026: 202.5
+    Q1 2027: 200.44
+    Q2 2027: 203.68
+  annual_forecast:
+    2021 Yearly: 403.12
+    2022 Yearly: 454.86
+    2023 Yearly: 442.66
+    2024 Yearly: 461.5
+    2025 Yearly: 724.73
+    2026 Yearly: 797.88
+    2027 Yearly: 821.6
+eps:
+  quarterly:
+    Q3 2024: 0.55
+    Q4 2024: 0.49
+    Q1 2025: -0.44
+    Q2 2025: 0.52
+    Q3 2025: 0.58
+    Q4 2025: 0.63
+    Q1 2026: 0.52
+    Q2 2026: 0.69
+  annual:
+    2021 Yearly: 2.2
+    2022 Yearly: 2.29
+    2023 Yearly: 2.18
+    2024 Yearly: 1.98
+    2025 Yearly: 1.29
+  quarterly_forecast:
+    Q3 2024: 0.54
+    Q4 2024: 0.51
+    Q1 2025: 0.45
+    Q2 2025: 0.59
+    Q3 2025: 0.61
+    Q4 2025: 0.6
+    Q1 2026: 0.54
+    Q2 2026: 0.63
+    Q3 2026: 0.65
+    Q4 2026: 0.66
+    Q1 2027: 0.65
+    Q2 2027: 0.66
+  annual_forecast:
+    2021 Yearly: 2.21
+    2022 Yearly: 2.4
+    2023 Yearly: 2.21
+    2024 Yearly: 2.01
+    2025 Yearly: 1.31
+    2026 Yearly: 2.47
+    2027 Yearly: 2.71

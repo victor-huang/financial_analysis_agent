@@ -1,0 +1,76 @@
+currency: USD
+company_name: Itron, Inc.
+sector: Electronic Technology
+market_cap_billions: 4.75
+revenue:
+  quarterly:
+    Q4 2024: 612.86
+    Q1 2025: 607.15
+    Q2 2025: 606.76
+    Q3 2025: 581.63
+    Q4 2025: 571.66
+    Q1 2026: 586.98
+    Q2 2026: 562.9
+  annual:
+    2021 Yearly: 1980.0
+    2022 Yearly: 1800.0
+    2023 Yearly: 2170.0
+    2024 Yearly: 2440.0
+    2025 Yearly: 2370.0
+  quarterly_forecast:
+    Q4 2024: 604.16
+    Q1 2025: 614.49
+    Q2 2025: 608.82
+    Q3 2025: 578.45
+    Q4 2025: 561.5
+    Q1 2026: 572.04
+    Q2 2026: 566.34
+    Q3 2026: 599.39
+    Q4 2026: 625.41
+    Q1 2027: 612.47
+    Q2 2027: 604.94
+  annual_forecast:
+    2021 Yearly: 2000.0
+    2022 Yearly: 1760.0
+    2023 Yearly: 2170.0
+    2024 Yearly: 2430.0
+    2025 Yearly: 2360.0
+    2026 Yearly: 2380.0
+    2027 Yearly: 2520.0
+    2028 Yearly: 2720.0
+    2029 Yearly: 2870.0
+eps:
+  quarterly:
+    Q4 2024: 1.35
+    Q1 2025: 1.52
+    Q2 2025: 1.62
+    Q3 2025: 1.54
+    Q4 2025: 2.46
+    Q1 2026: 1.49
+    Q2 2026: 1.59
+  annual:
+    2021 Yearly: 1.75
+    2022 Yearly: 1.13
+    2023 Yearly: 3.36
+    2024 Yearly: 5.62
+    2025 Yearly: 7.13
+  quarterly_forecast:
+    Q4 2024: 1.06
+    Q1 2025: 1.32
+    Q2 2025: 1.36
+    Q3 2025: 1.48
+    Q4 2025: 2.19
+    Q1 2026: 1.24
+    Q2 2026: 1.29
+    Q3 2026: 1.55
+    Q4 2026: 1.69
+    Q1 2027: 1.49
+    Q2 2027: 1.52
+  annual_forecast:
+    2022 Yearly: 1.22
+    2023 Yearly: 0.51
+    2024 Yearly: 2.88
+    2025 Yearly: 5.34
+    2026 Yearly: 6.86
+    2027 Yearly: 6.14
+    2028 Yearly: 6.71

@@ -1,0 +1,78 @@
+currency: USD
+company_name: MVB Financial Corp.
+sector: Finance
+market_cap_billions: 0.38267
+revenue:
+  quarterly:
+    Q3 2024: 33.24
+    Q4 2024: 46.18
+    Q1 2025: 33.68
+    Q2 2025: 33.73
+    Q3 2025: 61.19
+    Q4 2025: 39.08
+    Q1 2026: 36.66
+    Q2 2026: 51.07
+  annual:
+    2021 Yearly: 139.75
+    2022 Yearly: 150.1
+    2023 Yearly: 143.0
+    2024 Yearly: 152.11
+    2025 Yearly: 167.67
+  quarterly_forecast:
+    Q3 2024: 35.98
+    Q4 2024: 34.57
+    Q1 2025: 34.48
+    Q2 2025: 34.61
+    Q3 2025: 35.96
+    Q4 2025: 35.13
+    Q1 2026: 37.72
+    Q2 2026: 36.94
+    Q3 2026: 38.81
+    Q4 2026: 40.05
+    Q1 2027: 41.64
+    Q2 2027: 43.01
+  annual_forecast:
+    2021 Yearly: 129.1
+    2022 Yearly: 151.3
+    2023 Yearly: 147.98
+    2024 Yearly: 140.25
+    2025 Yearly: 135.21
+    2026 Yearly: 152.09
+    2027 Yearly: 172.84
+eps:
+  quarterly:
+    Q3 2024: 0.16
+    Q4 2024: 0.72
+    Q1 2025: 0.27
+    Q2 2025: 0.15
+    Q3 2025: 1.32
+    Q4 2025: 0.32
+    Q1 2026: 0.39
+    Q2 2026: 0.93
+  annual:
+    2021 Yearly: 3.45
+    2022 Yearly: 1.17
+    2023 Yearly: 1.72
+    2024 Yearly: 1.53
+    2025 Yearly: 2.06
+  quarterly_forecast:
+    Q3 2024: 0.33
+    Q4 2024: 0.27
+    Q1 2025: 0.21
+    Q2 2025: 0.26
+    Q3 2025: 0.28
+    Q4 2025: 0.32
+    Q1 2026: 0.37
+    Q2 2026: 0.34
+    Q3 2026: 0.44
+    Q4 2026: 0.48
+    Q1 2027: 0.53
+    Q2 2027: 0.6
+  annual_forecast:
+    2021 Yearly: 1.68
+    2022 Yearly: 1.12
+    2023 Yearly: 1.59
+    2024 Yearly: 1.04
+    2025 Yearly: 0.5
+    2026 Yearly: 1.62
+    2027 Yearly: 2.47

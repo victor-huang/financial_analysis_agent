@@ -1,0 +1,82 @@
+currency: USD
+company_name: NeoGenomics, Inc.
+sector: Health Services
+market_cap_billions: 1.74
+revenue:
+  quarterly:
+    Q3 2024: 167.82
+    Q4 2024: 172.0
+    Q1 2025: 168.03
+    Q2 2025: 181.33
+    Q3 2025: 187.8
+    Q4 2025: 190.17
+    Q1 2026: 186.67
+    Q2 2026: 201.66
+  annual:
+    2021 Yearly: 484.33
+    2022 Yearly: 509.73
+    2023 Yearly: 591.64
+    2024 Yearly: 660.57
+    2025 Yearly: 727.33
+  quarterly_forecast:
+    Q3 2024: 167.0
+    Q4 2024: 173.19
+    Q1 2025: 170.58
+    Q2 2025: 182.65
+    Q3 2025: 183.73
+    Q4 2025: 188.5
+    Q1 2026: 184.54
+    Q2 2026: 196.92
+    Q3 2026: 205.77
+    Q4 2026: 211.0
+    Q1 2027: 207.05
+    Q2 2027: 217.15
+  annual_forecast:
+    2021 Yearly: 484.65
+    2022 Yearly: 501.06
+    2023 Yearly: 588.86
+    2024 Yearly: 661.86
+    2025 Yearly: 725.65
+    2026 Yearly: 800.44
+    2027 Yearly: 880.62
+    2028 Yearly: 964.63
+    2029 Yearly: 1040.0
+eps:
+  quarterly:
+    Q3 2024: 0.05
+    Q4 2024: 0.04
+    Q1 2025: 0.0
+    Q2 2025: 0.03
+    Q3 2025: 0.03
+    Q4 2025: 0.06
+    Q1 2026: 0.01
+    Q2 2026: 0.05
+  annual:
+    2021 Yearly: -0.27
+    2022 Yearly: -0.56
+    2023 Yearly: -0.12
+    2024 Yearly: 0.11
+    2025 Yearly: 0.12
+  quarterly_forecast:
+    Q3 2024: 0.01
+    Q4 2024: 0.03
+    Q1 2025: -0.01
+    Q2 2025: 0.02
+    Q3 2025: 0.02
+    Q4 2025: 0.04
+    Q1 2026: 0.01
+    Q2 2026: 0.03
+    Q3 2026: 0.05
+    Q4 2026: 0.08
+    Q1 2027: 0.07
+    Q2 2027: 0.08
+  annual_forecast:
+    2021 Yearly: -0.27
+    2022 Yearly: -0.68
+    2023 Yearly: -0.17
+    2024 Yearly: 0.1
+    2025 Yearly: 0.09
+    2026 Yearly: 0.18
+    2027 Yearly: 0.37
+    2028 Yearly: 0.5
+    2029 Yearly: 0.62

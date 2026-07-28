@@ -1,7 +1,7 @@
 currency: USD
 company_name: Costamare Inc.
 sector: Transportation
-market_cap_billions: 1.88
+market_cap_billions: 1.86
 revenue:
   quarterly:
     Q3 2024: 535.7
@@ -26,7 +26,7 @@ revenue:
     Q3 2025: 197.92
     Q4 2025: 186.82
     Q1 2026: 191.5
-    Q2 2026: 184.91
+    Q2 2026: 193.15
     Q3 2026: 207.01
     Q4 2026: 207.6
     Q1 2027: 201.89
@@ -65,7 +65,7 @@ eps:
     Q3 2025: 0.7
     Q4 2025: 0.54
     Q1 2026: 0.57
-    Q2 2026: 0.48
+    Q2 2026: 0.57
     Q3 2026: 0.68
     Q4 2026: 0.68
     Q1 2027: 0.62

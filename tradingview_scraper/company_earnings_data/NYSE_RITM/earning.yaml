@@ -1,0 +1,76 @@
+currency: USD
+company_name: Rithm Capital Corp.
+sector: Finance
+market_cap_billions: 5.46
+revenue:
+  quarterly:
+    Q4 2024: 2100.0
+    Q1 2025: 768.38
+    Q2 2025: 1220.0
+    Q3 2025: 1110.0
+    Q4 2025: 1290.0
+    Q1 2026: 1380.0
+    Q2 2026: 1280.0
+  annual:
+    2021 Yearly: 3620.0
+    2022 Yearly: 4730.0
+    2023 Yearly: 3800.0
+    2024 Yearly: 5210.0
+    2025 Yearly: 4590.0
+  quarterly_forecast:
+    Q4 2024: 1230.0
+    Q1 2025: 1260.0
+    Q2 2025: 1200.0
+    Q3 2025: 1200.0
+    Q4 2025: 1370.0
+    Q1 2026: 1270.0
+    Q2 2026: 1430.0
+    Q3 2026: 1440.0
+    Q4 2026: 1720.0
+    Q1 2027: 1450.0
+    Q2 2027: 1500.0
+  annual_forecast:
+    2021 Yearly: 3500.0
+    2022 Yearly: 4730.0
+    2023 Yearly: 3840.0
+    2024 Yearly: 4370.0
+    2025 Yearly: 4460.0
+    2026 Yearly: 5920.0
+    2027 Yearly: 6320.0
+    2028 Yearly: 7290.0
+eps:
+  quarterly:
+    Q4 2024: 0.6
+    Q1 2025: 0.52
+    Q2 2025: 0.54
+    Q3 2025: 0.54
+    Q4 2025: 0.74
+    Q1 2026: 0.51
+    Q2 2026: 0.6
+  annual:
+    2021 Yearly: 1.48
+    2022 Yearly: 1.31
+    2023 Yearly: 2.06
+    2024 Yearly: 2.1
+    2025 Yearly: 2.35
+  quarterly_forecast:
+    Q4 2024: 0.44
+    Q1 2025: 0.47
+    Q2 2025: 0.52
+    Q3 2025: 0.53
+    Q4 2025: 0.58
+    Q1 2026: 0.5
+    Q2 2026: 0.5
+    Q3 2026: 0.52
+    Q4 2026: 0.71
+    Q1 2027: 0.51
+    Q2 2027: 0.54
+  annual_forecast:
+    2021 Yearly: 1.49
+    2022 Yearly: 1.28
+    2023 Yearly: 1.89
+    2024 Yearly: 1.92
+    2025 Yearly: 2.17
+    2026 Yearly: 2.26
+    2027 Yearly: 2.36
+    2028 Yearly: 2.47

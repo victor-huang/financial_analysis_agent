@@ -1,0 +1,82 @@
+currency: USD
+company_name: Extra Space Storage Inc
+sector: Finance
+market_cap_billions: 32.16
+revenue:
+  quarterly:
+    Q3 2024: 824.8
+    Q4 2024: 821.9
+    Q1 2025: 820.0
+    Q2 2025: 841.62
+    Q3 2025: 858.46
+    Q4 2025: 857.47
+    Q1 2026: 856.03
+    Q2 2026: 874.15
+  annual:
+    2021 Yearly: 1580.0
+    2022 Yearly: 1920.0
+    2023 Yearly: 2560.0
+    2024 Yearly: 3260.0
+    2025 Yearly: 3380.0
+  quarterly_forecast:
+    Q3 2024: 826.93
+    Q4 2024: 827.29
+    Q1 2025: 827.63
+    Q2 2025: 844.84
+    Q3 2025: 866.37
+    Q4 2025: 854.61
+    Q1 2026: 854.62
+    Q2 2026: 874.99
+    Q3 2026: 888.36
+    Q4 2026: 887.44
+    Q1 2027: 895.67
+    Q2 2027: 919.03
+  annual_forecast:
+    2021 Yearly: 1580.0
+    2022 Yearly: 1930.0
+    2023 Yearly: 2440.0
+    2024 Yearly: 3260.0
+    2025 Yearly: 3370.0
+    2026 Yearly: 3500.0
+    2027 Yearly: 3610.0
+    2028 Yearly: 3720.0
+    2029 Yearly: 3900.0
+eps:
+  quarterly:
+    Q3 2024: 0.91
+    Q4 2024: 1.24
+    Q1 2025: 1.28
+    Q2 2025: 1.18
+    Q3 2025: 0.78
+    Q4 2025: 1.36
+    Q1 2026: 1.14
+    Q2 2026: 1.25
+  annual:
+    2021 Yearly: 6.19
+    2022 Yearly: 6.41
+    2023 Yearly: 4.74
+    2024 Yearly: 4.03
+    2025 Yearly: 4.59
+  quarterly_forecast:
+    Q3 2024: 1.11
+    Q4 2024: 1.08
+    Q1 2025: 1.02
+    Q2 2025: 1.16
+    Q3 2025: 1.19
+    Q4 2025: 1.17
+    Q1 2026: 1.12
+    Q2 2026: 1.16
+    Q3 2026: 1.18
+    Q4 2026: 1.17
+    Q1 2027: 1.14
+    Q2 2027: 1.21
+  annual_forecast:
+    2021 Yearly: 5.32
+    2022 Yearly: 6.09
+    2023 Yearly: 4.9
+    2024 Yearly: 3.93
+    2025 Yearly: 4.41
+    2026 Yearly: 4.62
+    2027 Yearly: 4.87
+    2028 Yearly: 5.15
+    2029 Yearly: 5.42

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Electronic Arts Inc.
+sector: Technology Services
+market_cap_billions: 52.37
+revenue:
+  quarterly:
+    Q2 2024: 2080.0
+    Q3 2024: 2210.0
+    Q4 2024: 1800.0
+    Q1 2025: 1300.0
+    Q2 2025: 1820.0
+    Q3 2025: 3050.0
+    Q4 2025: 1860.0
+  annual:
+    2021 Yearly: 7510.0
+    2022 Yearly: 7340.0
+    2023 Yearly: 7430.0
+    2024 Yearly: 7360.0
+    2025 Yearly: 8029.999999999999
+  quarterly_forecast:
+    Q2 2024: 2040.0
+    Q3 2024: 2320.0
+    Q4 2024: 1560.0
+    Q1 2025: 1250.0
+    Q2 2025: 1870.0
+    Q3 2025: 2920.0
+    Q4 2025: 1980.0
+    Q1 2026: 1480.0
+    Q2 2026: 2070.0
+    Q3 2026: 2680.0
+    Q4 2026: 1960.0
+  annual_forecast:
+    2021 Yearly: 7540.0
+    2022 Yearly: 7130.0
+    2023 Yearly: 7550.0
+    2024 Yearly: 7110.0
+    2025 Yearly: 8150.0
+    2026 Yearly: 8280.0
+    2027 Yearly: 8700.0
+    2028 Yearly: 8810.0
+    2029 Yearly: 10490.0
+eps:
+  quarterly:
+    Q2 2024: 2.26
+    Q3 2024: 2.7
+    Q4 2024: 1.35
+    Q1 2025: 0.25
+    Q2 2025: 1.25
+    Q3 2025: 4.88
+    Q4 2025: 1.5
+  annual:
+    2021 Yearly: 7.11
+    2022 Yearly: 6.47
+    2023 Yearly: 6.92
+    2024 Yearly: 6.91
+    2025 Yearly: 8.58
+  quarterly_forecast:
+    Q2 2024: 2.03
+    Q3 2024: 3.05
+    Q4 2024: 1.05
+    Q1 2025: 0.11
+    Q2 2025: 1.3
+    Q3 2025: 4.72
+    Q4 2025: 2.39
+    Q1 2026: 0.82
+    Q2 2026: 2.07
+    Q3 2026: 3.79
+    Q4 2026: 2.13
+  annual_forecast:
+    2021 Yearly: 6.99
+    2022 Yearly: 6.02
+    2023 Yearly: 7.08
+    2024 Yearly: 6.55
+    2025 Yearly: 8.59
+    2026 Yearly: 8.83
+    2027 Yearly: 9.55
+    2028 Yearly: 9.71
+    2029 Yearly: 14.38

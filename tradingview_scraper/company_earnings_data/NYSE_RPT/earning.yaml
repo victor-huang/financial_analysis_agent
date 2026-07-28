@@ -1,0 +1,72 @@
+currency: USD
+company_name: Rithm Property Trust Inc.
+sector: Finance
+market_cap_billions: 0.09576000000000001
+revenue:
+  quarterly:
+    Q3 2024: -2.78
+    Q4 2024: 5.63
+    Q2 2025: 5.89
+    Q3 2025: 3.72
+    Q4 2025: 7.7
+    Q1 2026: 2.85
+    Q2 2026: 6.45
+  annual:
+    2021 Yearly: 77.95
+    2022 Yearly: 35.64
+    2023 Yearly: 15.3
+    2024 Yearly: -55.49
+    2025 Yearly: 17.52
+  quarterly_forecast:
+    Q4 2024: 7.3
+    Q1 2025: 3.59
+    Q2 2025: 3.59
+    Q3 2025: 4.83
+    Q4 2025: 5.7
+    Q1 2026: 5.16
+    Q2 2026: 5.32
+    Q3 2026: 6.23
+    Q4 2026: 6.76
+  annual_forecast:
+    2022 Yearly: 75.65
+    2023 Yearly: 45.94
+    2024 Yearly: 6.47
+    2025 Yearly: -57.53
+    2026 Yearly: 16.59
+eps:
+  quarterly:
+    Q3 2024: -0.72
+    Q4 2024: 0.06
+    Q1 2025: 0.12
+    Q2 2025: 0.0
+    Q3 2025: -0.12
+    Q4 2025: -0.06
+    Q1 2026: -0.04
+    Q2 2026: -0.01
+  annual:
+    2021 Yearly: 8.52
+    2022 Yearly: 4.44
+    2023 Yearly: -2.16
+    2024 Yearly: -3.06
+    2025 Yearly: -0.04
+  quarterly_forecast:
+    Q3 2024: -2.28
+    Q4 2024: -1.62
+    Q1 2025: 0.14
+    Q2 2025: 0.16
+    Q3 2025: 0.0
+    Q4 2025: -0.1
+    Q1 2026: -0.07
+    Q2 2026: -0.14
+    Q3 2026: -0.1
+    Q4 2026: -0.07
+    Q1 2027: 0.03
+    Q2 2027: 0.05
+  annual_forecast:
+    2021 Yearly: 8.82
+    2022 Yearly: 5.26
+    2023 Yearly: -0.63
+    2024 Yearly: -10.7
+    2025 Yearly: -0.08
+    2026 Yearly: -0.46
+    2027 Yearly: 0.22

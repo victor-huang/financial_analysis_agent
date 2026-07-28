@@ -1,0 +1,78 @@
+currency: USD
+company_name: Seacoast Banking Corporation of Florida
+sector: Finance
+market_cap_billions: 3.27
+revenue:
+  quarterly:
+    Q3 2024: 130.3
+    Q4 2024: 141.57
+    Q1 2025: 140.84
+    Q2 2025: 151.4
+    Q3 2025: 158.56
+    Q4 2025: 204.79
+    Q1 2026: 205.07
+    Q2 2026: 209.99
+  annual:
+    2021 Yearly: 347.09
+    2022 Yearly: 432.3
+    2023 Yearly: 568.97
+    2024 Yearly: 524.49
+    2025 Yearly: 655.98
+  quarterly_forecast:
+    Q3 2024: 129.2
+    Q4 2024: 131.51
+    Q1 2025: 137.87
+    Q2 2025: 145.47
+    Q3 2025: 154.74
+    Q4 2025: 201.25
+    Q1 2026: 205.51
+    Q2 2026: 209.84
+    Q3 2026: 214.84
+    Q4 2026: 217.77
+    Q1 2027: 218.02
+    Q2 2027: 222.66
+  annual_forecast:
+    2021 Yearly: 342.55
+    2022 Yearly: 430.47
+    2023 Yearly: 574.13
+    2024 Yearly: 514.57
+    2025 Yearly: 651.45
+    2026 Yearly: 847.52
+    2027 Yearly: 898.72
+eps:
+  quarterly:
+    Q3 2024: 0.36
+    Q4 2024: 0.48
+    Q1 2025: 0.38
+    Q2 2025: 0.52
+    Q3 2025: 0.52
+    Q4 2025: 0.44
+    Q1 2026: 0.62
+    Q2 2026: 0.61
+  annual:
+    2021 Yearly: 2.36
+    2022 Yearly: 2.12
+    2023 Yearly: 1.83
+    2024 Yearly: 1.56
+    2025 Yearly: 1.84
+  quarterly_forecast:
+    Q3 2024: 0.36
+    Q4 2024: 0.34
+    Q1 2025: 0.4
+    Q2 2025: 0.42
+    Q3 2025: 0.46
+    Q4 2025: 0.5
+    Q1 2026: 0.58
+    Q2 2026: 0.6
+    Q3 2026: 0.64
+    Q4 2026: 0.65
+    Q1 2027: 0.65
+    Q2 2027: 0.67
+  annual_forecast:
+    2021 Yearly: 2.2
+    2022 Yearly: 2.04
+    2023 Yearly: 1.78
+    2024 Yearly: 1.43
+    2025 Yearly: 1.91
+    2026 Yearly: 2.51
+    2027 Yearly: 2.71

@@ -1,0 +1,80 @@
+currency: USD
+company_name: Axis Capital Holdings Limited
+sector: Finance
+market_cap_billions: 8.79
+revenue:
+  quarterly:
+    Q3 2024: 1610.0
+    Q4 2024: 1470.0
+    Q1 2025: 1520.0
+    Q2 2025: 1630.0
+    Q3 2025: 1670.0
+    Q4 2025: 1730.0
+    Q1 2026: 1640.0
+    Q2 2026: 1750.0
+  annual:
+    2021 Yearly: 5320.0
+    2022 Yearly: 5140.0
+    2023 Yearly: 5640.0
+    2024 Yearly: 5960.0
+    2025 Yearly: 6560.0
+  quarterly_forecast:
+    Q3 2024: 1500.0
+    Q4 2024: 1520.0
+    Q1 2025: 1660.0
+    Q2 2025: 1620.0
+    Q3 2025: 1600.0
+    Q4 2025: 1630.0
+    Q1 2026: 1720.0
+    Q2 2026: 1740.0
+    Q3 2026: 1720.0
+    Q4 2026: 1760.0
+    Q1 2027: 1860.0
+    Q2 2027: 1850.0
+  annual_forecast:
+    2021 Yearly: 5190.0
+    2022 Yearly: 5230.0
+    2023 Yearly: 5560.0
+    2024 Yearly: 6010.0
+    2025 Yearly: 6310.0
+    2026 Yearly: 6830.0
+    2027 Yearly: 7390.0
+    2028 Yearly: 7530.0
+eps:
+  quarterly:
+    Q3 2024: 2.71
+    Q4 2024: 2.97
+    Q1 2025: 3.17
+    Q2 2025: 3.29
+    Q3 2025: 3.25
+    Q4 2025: 3.25
+    Q1 2026: 3.42
+    Q2 2026: 2.84
+  annual:
+    2021 Yearly: 5.12
+    2022 Yearly: 5.81
+    2023 Yearly: 5.65
+    2024 Yearly: 11.18
+    2025 Yearly: 12.92
+  quarterly_forecast:
+    Q3 2024: 2.55
+    Q4 2024: 2.57
+    Q1 2025: 2.67
+    Q2 2025: 2.93
+    Q3 2025: 2.94
+    Q4 2025: 3.1
+    Q1 2026: 3.33
+    Q2 2026: 3.25
+    Q3 2026: 2.98
+    Q4 2026: 3.42
+    Q1 2027: 3.76
+    Q2 2027: 3.79
+  annual_forecast:
+    2021 Yearly: 4.5
+    2022 Yearly: 5.59
+    2023 Yearly: 8.39
+    2024 Yearly: 10.79
+    2025 Yearly: 12.82
+    2026 Yearly: 13.07
+    2027 Yearly: 14.46
+    2028 Yearly: 15.84

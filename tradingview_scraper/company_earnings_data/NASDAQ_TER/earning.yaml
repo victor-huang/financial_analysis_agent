@@ -1,0 +1,80 @@
+currency: USD
+company_name: Teradyne, Inc.
+sector: Electronic Technology
+market_cap_billions: 50.2
+revenue:
+  quarterly:
+    Q3 2024: 737.3
+    Q4 2024: 752.9
+    Q1 2025: 685.7
+    Q2 2025: 651.8
+    Q3 2025: 769.21
+    Q4 2025: 1080.0
+    Q1 2026: 1280.0
+    Q2 2026: 1330.0
+  annual:
+    2021 Yearly: 3700.0
+    2022 Yearly: 3160.0
+    2023 Yearly: 2680.0
+    2024 Yearly: 2820.0
+    2025 Yearly: 3190.0
+  quarterly_forecast:
+    Q3 2024: 716.4
+    Q4 2024: 740.84
+    Q1 2025: 680.5
+    Q2 2025: 650.59
+    Q3 2025: 744.13
+    Q4 2025: 977.22
+    Q1 2026: 1200.0
+    Q2 2026: 1220.0
+    Q3 2026: 1060.0
+    Q4 2026: 1000.0
+    Q1 2027: 1260.0
+    Q2 2027: 1470.0
+  annual_forecast:
+    2021 Yearly: 3690.0
+    2022 Yearly: 3140.0
+    2023 Yearly: 2680.0
+    2024 Yearly: 2810.0
+    2025 Yearly: 3080.0
+    2026 Yearly: 4550.0
+    2027 Yearly: 5630.0
+    2028 Yearly: 7130.0
+eps:
+  quarterly:
+    Q3 2024: 0.9
+    Q4 2024: 0.95
+    Q1 2025: 0.75
+    Q2 2025: 0.57
+    Q3 2025: 0.85
+    Q4 2025: 1.8
+    Q1 2026: 2.56
+    Q2 2026: 2.47
+  annual:
+    2021 Yearly: 5.98
+    2022 Yearly: 4.25
+    2023 Yearly: 2.93
+    2024 Yearly: 3.22
+    2025 Yearly: 3.96
+  quarterly_forecast:
+    Q3 2024: 0.78
+    Q4 2024: 0.91
+    Q1 2025: 0.62
+    Q2 2025: 0.54
+    Q3 2025: 0.79
+    Q4 2025: 1.38
+    Q1 2026: 2.11
+    Q2 2026: 2.09
+    Q3 2026: 1.55
+    Q4 2026: 1.43
+    Q1 2027: 2.26
+    Q2 2027: 2.82
+  annual_forecast:
+    2021 Yearly: 5.88
+    2022 Yearly: 4.08
+    2023 Yearly: 2.86
+    2024 Yearly: 3.18
+    2025 Yearly: 3.56
+    2026 Yearly: 7.6
+    2027 Yearly: 10.46
+    2028 Yearly: 14.31

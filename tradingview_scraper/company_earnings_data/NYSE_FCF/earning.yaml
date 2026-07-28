@@ -1,0 +1,78 @@
+currency: USD
+company_name: First
+sector: Finance
+market_cap_billions: 2.17
+revenue:
+  quarterly:
+    Q3 2024: 121.51
+    Q4 2024: 120.67
+    Q1 2025: 118.51
+    Q2 2025: 131.33
+    Q3 2025: 135.96
+    Q4 2025: 137.82
+    Q1 2026: 133.7
+    Q2 2026: 139.42
+  annual:
+    2021 Yearly: 384.04
+    2022 Yearly: 411.61
+    2023 Yearly: 483.61
+    2024 Yearly: 479.3
+    2025 Yearly: 523.62
+  quarterly_forecast:
+    Q3 2024: 119.47
+    Q4 2024: 119.68
+    Q1 2025: 117.38
+    Q2 2025: 125.88
+    Q3 2025: 136.22
+    Q4 2025: 135.63
+    Q1 2026: 134.32
+    Q2 2026: 137.48
+    Q3 2026: 141.59
+    Q4 2026: 143.8
+    Q1 2027: 142.78
+    Q2 2027: 146.84
+  annual_forecast:
+    2021 Yearly: 386.26
+    2022 Yearly: 412.26
+    2023 Yearly: 486.33
+    2024 Yearly: 477.68
+    2025 Yearly: 521.06
+    2026 Yearly: 556.55
+    2027 Yearly: 591.49
+eps:
+  quarterly:
+    Q3 2024: 0.31
+    Q4 2024: 0.35
+    Q1 2025: 0.32
+    Q2 2025: 0.32
+    Q3 2025: 0.39
+    Q4 2025: 0.43
+    Q1 2026: 0.37
+    Q2 2026: 0.44
+  annual:
+    2021 Yearly: 1.44
+    2022 Yearly: 1.37
+    2023 Yearly: 1.54
+    2024 Yearly: 1.39
+    2025 Yearly: 1.47
+  quarterly_forecast:
+    Q3 2024: 0.36
+    Q4 2024: 0.35
+    Q1 2025: 0.32
+    Q2 2025: 0.28
+    Q3 2025: 0.41
+    Q4 2025: 0.42
+    Q1 2026: 0.4
+    Q2 2026: 0.42
+    Q3 2026: 0.46
+    Q4 2026: 0.47
+    Q1 2027: 0.46
+    Q2 2027: 0.48
+  annual_forecast:
+    2021 Yearly: 1.41
+    2022 Yearly: 1.41
+    2023 Yearly: 1.5
+    2024 Yearly: 1.39
+    2025 Yearly: 1.46
+    2026 Yearly: 1.72
+    2027 Yearly: 1.97

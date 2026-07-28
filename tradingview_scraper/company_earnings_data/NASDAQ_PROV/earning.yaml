@@ -1,0 +1,74 @@
+currency: USD
+company_name: Provident Financial Holdings, Inc.
+sector: Finance
+market_cap_billions: 0.11006
+revenue:
+  quarterly:
+    Q2 2025: 9.6
+    Q3 2025: 10.12
+    Q4 2025: 9.76
+    Q1 2026: 9.74
+    Q2 2026: 9.84
+    Q3 2026: 9.88
+    Q4 2026: 10.59
+  annual:
+    2022 Yearly: 36.31
+    2023 Yearly: 41.06
+    2024 Yearly: 38.86
+    2025 Yearly: 39.0
+    2026 Yearly: 40.05
+  quarterly_forecast:
+    Q2 2025: 9.74
+    Q3 2025: 9.86
+    Q4 2025: 10.3
+    Q1 2026: 10.2
+    Q2 2026: 10.1
+    Q3 2026: 10.1
+    Q4 2026: 10.0
+    Q1 2027: 9.9
+    Q2 2027: 10.0
+    Q3 2027: 9.8
+    Q4 2027: 9.9
+  annual_forecast:
+    2022 Yearly: 35.5
+    2023 Yearly: 41.02
+    2024 Yearly: 38.38
+    2025 Yearly: 39.5
+    2026 Yearly: 39.4
+    2027 Yearly: 39.5
+    2028 Yearly: 39.3
+eps:
+  quarterly:
+    Q2 2025: 0.13
+    Q3 2025: 0.28
+    Q4 2025: 0.24
+    Q1 2026: 0.25
+    Q2 2026: 0.22
+    Q3 2026: 0.21
+    Q4 2026: 0.35
+  annual:
+    2022 Yearly: 1.22
+    2023 Yearly: 1.19
+    2024 Yearly: 1.06
+    2025 Yearly: 0.93
+    2026 Yearly: 1.03
+  quarterly_forecast:
+    Q2 2025: 0.26
+    Q3 2025: 0.24
+    Q4 2025: 0.32
+    Q1 2026: 0.3
+    Q2 2026: 0.35
+    Q3 2026: 0.31
+    Q4 2026: 0.29
+    Q1 2027: 0.27
+    Q2 2027: 0.29
+    Q3 2027: 0.3
+    Q4 2027: 0.32
+  annual_forecast:
+    2022 Yearly: 1.01
+    2023 Yearly: 1.29
+    2024 Yearly: 1.02
+    2025 Yearly: 1.11
+    2026 Yearly: 1.03
+    2027 Yearly: 1.18
+    2028 Yearly: 1.08

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Huron Consulting Group Inc.
+sector: Commercial Services
+market_cap_billions: 1.97
+revenue:
+  quarterly:
+    Q3 2024: 370.05
+    Q4 2024: 388.42
+    Q1 2025: 395.69
+    Q2 2025: 402.5
+    Q3 2025: 432.36
+    Q4 2025: 432.28
+    Q1 2026: 443.71
+    Q2 2026: 465.64
+  annual:
+    2021 Yearly: 905.64
+    2022 Yearly: 1130.0
+    2023 Yearly: 1360.0
+    2024 Yearly: 1490.0
+    2025 Yearly: 1660.0
+  quarterly_forecast:
+    Q3 2024: 376.63
+    Q4 2024: 378.5
+    Q1 2025: 389.27
+    Q2 2025: 402.65
+    Q3 2025: 421.59
+    Q4 2025: 433.62
+    Q1 2026: 437.12
+    Q2 2026: 448.97
+    Q3 2026: 467.68
+    Q4 2026: 466.67
+    Q1 2027: 483.36
+    Q2 2027: 488.88
+  annual_forecast:
+    2022 Yearly: 893.18
+    2023 Yearly: 1100.0
+    2024 Yearly: 1360.0
+    2025 Yearly: 1470.0
+    2026 Yearly: 1660.0
+    2027 Yearly: 1830.0
+eps:
+  quarterly:
+    Q3 2024: 1.68
+    Q4 2024: 1.9
+    Q1 2025: 1.68
+    Q2 2025: 1.89
+    Q3 2025: 2.1
+    Q4 2025: 2.17
+    Q1 2026: 1.73
+    Q2 2026: 2.46
+  annual:
+    2021 Yearly: 2.61
+    2022 Yearly: 3.43
+    2023 Yearly: 4.91
+    2024 Yearly: 6.47
+    2025 Yearly: 7.83
+  quarterly_forecast:
+    Q3 2024: 1.61
+    Q4 2024: 1.52
+    Q1 2025: 1.16
+    Q2 2025: 1.79
+    Q3 2025: 1.97
+    Q4 2025: 1.95
+    Q1 2026: 1.6
+    Q2 2026: 2.17
+    Q3 2026: 2.43
+    Q4 2026: 2.51
+    Q1 2027: 1.85
+    Q2 2027: 2.61
+  annual_forecast:
+    2021 Yearly: 2.59
+    2022 Yearly: 3.31
+    2023 Yearly: 4.78
+    2024 Yearly: 6.18
+    2025 Yearly: 7.62
+    2026 Yearly: 8.84
+    2027 Yearly: 10.22
+    2028 Yearly: 10.22

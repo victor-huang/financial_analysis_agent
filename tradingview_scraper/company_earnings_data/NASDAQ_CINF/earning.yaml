@@ -1,7 +1,7 @@
 currency: USD
 company_name: Cincinnati Financial Corporation
 sector: Finance
-market_cap_billions: 28.5
+market_cap_billions: 28.25
 revenue:
   quarterly:
     Q3 2024: 2300.0
@@ -27,18 +27,18 @@ revenue:
     Q4 2025: 2550.0
     Q1 2026: 2610.0
     Q2 2026: 2710.0
-    Q3 2026: 2680.0
-    Q4 2026: 2660.0
-    Q1 2027: 2770.0
-    Q2 2027: 2860.0
+    Q3 2026: 2670.0
+    Q4 2026: 2650.0
+    Q1 2027: 2760.0
+    Q2 2027: 2840.0
   annual_forecast:
     2021 Yearly: 6380.0
     2022 Yearly: 7180.0
     2023 Yearly: 7960.0
     2024 Yearly: 8880.0
     2025 Yearly: 9940.0
-    2026 Yearly: 10690.0
-    2027 Yearly: 11300.0
+    2026 Yearly: 10670.0
+    2027 Yearly: 11230.0
     2028 Yearly: 11460.0
 eps:
   quarterly:
@@ -65,16 +65,16 @@ eps:
     Q4 2025: 2.9
     Q1 2026: 1.95
     Q2 2026: 1.84
-    Q3 2026: 1.94
-    Q4 2026: 3.0
+    Q3 2026: 1.95
+    Q4 2026: 3.01
     Q1 2027: 2.16
-    Q2 2027: 1.81
+    Q2 2027: 1.79
   annual_forecast:
     2021 Yearly: 5.78
     2022 Yearly: 4.26
     2023 Yearly: 5.7
     2024 Yearly: 6.34
     2025 Yearly: 7.49
-    2026 Yearly: 8.77
-    2027 Yearly: 9.14
+    2026 Yearly: 8.74
+    2027 Yearly: 9.1
     2028 Yearly: 8.75

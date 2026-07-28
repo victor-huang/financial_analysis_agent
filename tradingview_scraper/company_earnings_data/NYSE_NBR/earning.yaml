@@ -1,0 +1,80 @@
+currency: USD
+company_name: Nabors Industries Ltd.
+sector: Industrial Services
+market_cap_billions: 1.12
+revenue:
+  quarterly:
+    Q3 2024: 731.8
+    Q4 2024: 729.82
+    Q1 2025: 736.19
+    Q2 2025: 832.79
+    Q3 2025: 818.19
+    Q4 2025: 797.53
+    Q1 2026: 783.55
+    Q2 2026: 814.79
+  annual:
+    2021 Yearly: 2020.0
+    2022 Yearly: 2650.0
+    2023 Yearly: 3010.0
+    2024 Yearly: 2930.0
+    2025 Yearly: 3180.0
+  quarterly_forecast:
+    Q3 2024: 747.6
+    Q4 2024: 738.34
+    Q1 2025: 718.62
+    Q2 2025: 842.34
+    Q3 2025: 825.35
+    Q4 2025: 794.15
+    Q1 2026: 769.33
+    Q2 2026: 809.28
+    Q3 2026: 855.7
+    Q4 2026: 876.26
+    Q1 2027: 863.27
+    Q2 2027: 880.02
+  annual_forecast:
+    2021 Yearly: 2020.0
+    2022 Yearly: 2630.0
+    2023 Yearly: 3030.0
+    2024 Yearly: 2940.0
+    2025 Yearly: 3180.0
+    2026 Yearly: 3320.0
+    2027 Yearly: 3620.0
+    2028 Yearly: 3810.0
+eps:
+  quarterly:
+    Q3 2024: -6.86
+    Q4 2024: -6.67
+    Q1 2025: 2.18
+    Q2 2025: -2.71
+    Q3 2025: 16.85
+    Q4 2025: 0.17
+    Q1 2026: -1.54
+    Q2 2026: -2.04
+  annual:
+    2021 Yearly: -76.58
+    2022 Yearly: -40.52
+    2023 Yearly: -12.7
+    2024 Yearly: -22.37
+    2025 Yearly: 17.39
+  quarterly_forecast:
+    Q3 2024: -2.01
+    Q4 2024: -1.6
+    Q1 2025: -2.92
+    Q2 2025: -0.85
+    Q3 2025: -1.91
+    Q4 2025: -1.87
+    Q1 2026: -2.49
+    Q2 2026: -1.3
+    Q3 2026: -0.19
+    Q4 2026: 0.43
+    Q1 2027: 0.37
+    Q2 2027: 0.88
+  annual_forecast:
+    2021 Yearly: -64.29
+    2022 Yearly: -28.77
+    2023 Yearly: -10.79
+    2024 Yearly: -16.49
+    2025 Yearly: 15.95
+    2026 Yearly: -2.26
+    2027 Yearly: 3.61
+    2028 Yearly: 7.99

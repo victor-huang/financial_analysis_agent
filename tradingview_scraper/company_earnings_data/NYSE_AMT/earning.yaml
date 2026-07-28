@@ -1,0 +1,78 @@
+currency: USD
+company_name: American Tower Corporation (REIT)
+sector: Finance
+market_cap_billions: 79.9
+revenue:
+  quarterly:
+    Q4 2024: 2550.0
+    Q1 2025: 2560.0
+    Q2 2025: 2630.0
+    Q3 2025: 2720.0
+    Q4 2025: 2740.0
+    Q1 2026: 2740.0
+    Q2 2026: 2750.0
+  annual:
+    2021 Yearly: 9110.0
+    2022 Yearly: 10710.0
+    2023 Yearly: 11140.0
+    2024 Yearly: 10130.0
+    2025 Yearly: 10640.0
+  quarterly_forecast:
+    Q4 2024: 2510.0
+    Q1 2025: 2540.0
+    Q2 2025: 2600.0
+    Q3 2025: 2660.0
+    Q4 2025: 2690.0
+    Q1 2026: 2660.0
+    Q2 2026: 2700.0
+    Q3 2026: 2750.0
+    Q4 2026: 2770.0
+    Q1 2027: 2800.0
+    Q2 2027: 2780.0
+  annual_forecast:
+    2021 Yearly: 9320.0
+    2022 Yearly: 10690.0
+    2023 Yearly: 11100.0
+    2024 Yearly: 10520.0
+    2025 Yearly: 10590.0
+    2026 Yearly: 10960.0
+    2027 Yearly: 11280.0
+    2028 Yearly: 11940.0
+    2029 Yearly: 12710.0
+eps:
+  quarterly:
+    Q4 2024: 2.62
+    Q1 2025: 1.04
+    Q2 2025: 0.78
+    Q3 2025: 1.82
+    Q4 2025: 1.75
+    Q1 2026: 1.84
+    Q2 2026: 1.86
+  annual:
+    2021 Yearly: 5.66
+    2022 Yearly: 3.82
+    2023 Yearly: 3.18
+    2024 Yearly: 4.82
+    2025 Yearly: 5.4
+  quarterly_forecast:
+    Q4 2024: 1.74
+    Q1 2025: 1.6
+    Q2 2025: 1.67
+    Q3 2025: 1.65
+    Q4 2025: 1.48
+    Q1 2026: 1.6
+    Q2 2026: 1.57
+    Q3 2026: 1.59
+    Q4 2026: 1.6
+    Q1 2027: 1.66
+    Q2 2027: 1.64
+  annual_forecast:
+    2021 Yearly: 5.82
+    2022 Yearly: 6.34
+    2023 Yearly: 3.96
+    2024 Yearly: 4.3
+    2025 Yearly: 5.12
+    2026 Yearly: 6.62
+    2027 Yearly: 6.75
+    2028 Yearly: 7.56
+    2029 Yearly: 8.55

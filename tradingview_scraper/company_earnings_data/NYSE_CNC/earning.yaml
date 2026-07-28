@@ -1,0 +1,78 @@
+currency: USD
+company_name: Centene Corporation
+sector: Health Services
+market_cap_billions: 31.56
+revenue:
+  quarterly:
+    Q4 2024: 40800.0
+    Q1 2025: 46620.0
+    Q2 2025: 48740.0
+    Q3 2025: 49690.0
+    Q4 2025: 49730.0
+    Q1 2026: 49940.0
+    Q2 2026: 53580.0
+  annual:
+    2021 Yearly: 125980.0
+    2022 Yearly: 144550.0
+    2023 Yearly: 154000.0
+    2024 Yearly: 163070.0
+    2025 Yearly: 194780.0
+  quarterly_forecast:
+    Q4 2024: 39330.0
+    Q1 2025: 42760.0
+    Q2 2025: 44140.0
+    Q3 2025: 47720.0
+    Q4 2025: 48390.0
+    Q1 2026: 47530.0
+    Q2 2026: 47640.0
+    Q3 2026: 47320.0
+    Q4 2026: 46140.0
+    Q1 2027: 48710.0
+    Q2 2027: 47830.0
+  annual_forecast:
+    2021 Yearly: 126050.0
+    2022 Yearly: 144420.0
+    2023 Yearly: 150810.0
+    2024 Yearly: 161260.0
+    2025 Yearly: 193570.0
+    2026 Yearly: 191610.0
+    2027 Yearly: 191440.0
+    2028 Yearly: 198560.0
+    2029 Yearly: 204600.0
+eps:
+  quarterly:
+    Q4 2024: 0.8
+    Q1 2025: 2.9
+    Q2 2025: -0.16
+    Q3 2025: 0.5
+    Q4 2025: -1.19
+    Q1 2026: 3.37
+    Q2 2026: 2.51
+  annual:
+    2021 Yearly: 5.15
+    2022 Yearly: 5.78
+    2023 Yearly: 6.68
+    2024 Yearly: 7.17
+    2025 Yearly: 2.08
+  quarterly_forecast:
+    Q4 2024: 0.49
+    Q1 2025: 2.52
+    Q2 2025: 0.11
+    Q3 2025: -0.14
+    Q4 2025: -1.22
+    Q1 2026: 2.23
+    Q2 2026: 1.09
+    Q3 2026: 0.07
+    Q4 2026: -1.01
+    Q1 2027: 3.32
+    Q2 2027: 1.57
+  annual_forecast:
+    2021 Yearly: 5.12
+    2022 Yearly: 5.73
+    2023 Yearly: 6.58
+    2024 Yearly: 6.84
+    2025 Yearly: 2.03
+    2026 Yearly: 3.64
+    2027 Yearly: 4.56
+    2028 Yearly: 5.96
+    2029 Yearly: 7.2

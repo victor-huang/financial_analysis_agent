@@ -1,0 +1,78 @@
+currency: USD
+company_name: XPLR Infrastructure, LP
+sector: Utilities
+market_cap_billions: 2.28
+revenue:
+  quarterly:
+    Q4 2024: 294.0
+    Q1 2025: 282.0
+    Q2 2025: 342.0
+    Q3 2025: 315.0
+    Q4 2025: 249.0
+    Q1 2026: 275.0
+    Q2 2026: 363.0
+  annual:
+    2021 Yearly: 982.0
+    2022 Yearly: 1210.0
+    2023 Yearly: 1080.0
+    2024 Yearly: 1230.0
+    2025 Yearly: 1190.0
+  quarterly_forecast:
+    Q4 2024: 298.01
+    Q1 2025: 329.66
+    Q2 2025: 394.11
+    Q3 2025: 376.52
+    Q4 2025: 432.79
+    Q1 2026: 341.04
+    Q2 2026: 387.19
+    Q3 2026: 343.2
+    Q4 2026: 343.69
+    Q1 2027: 294.79
+    Q2 2027: 388.25
+  annual_forecast:
+    2021 Yearly: 1080.0
+    2022 Yearly: 1390.0
+    2023 Yearly: 1460.0
+    2024 Yearly: 1250.0
+    2025 Yearly: 1340.0
+    2026 Yearly: 1330.0
+    2027 Yearly: 1410.0
+    2028 Yearly: 1450.0
+    2029 Yearly: 1510.0
+eps:
+  quarterly:
+    Q4 2024: -1.08
+    Q1 2025: -1.05
+    Q2 2025: 0.84
+    Q3 2025: -0.37
+    Q4 2025: 0.3
+    Q1 2026: 0.35
+    Q2 2026: 0.4
+  annual:
+    2021 Yearly: 1.77
+    2022 Yearly: 5.62
+    2023 Yearly: 2.18
+    2024 Yearly: -0.11
+    2025 Yearly: -0.07
+  quarterly_forecast:
+    Q4 2024: 0.27
+    Q1 2025: 0.43
+    Q2 2025: 1.04
+    Q3 2025: -0.07
+    Q4 2025: 0.39
+    Q1 2026: -0.46
+    Q2 2026: 0.39
+    Q3 2026: 0.37
+    Q4 2026: -0.06
+    Q1 2027: 0.22
+    Q2 2027: 0.33
+  annual_forecast:
+    2021 Yearly: 2.26
+    2022 Yearly: 6.08
+    2023 Yearly: 1.59
+    2024 Yearly: 1.69
+    2025 Yearly: -0.15
+    2026 Yearly: 1.59
+    2027 Yearly: 0.91
+    2028 Yearly: 1.98
+    2029 Yearly: 1.74

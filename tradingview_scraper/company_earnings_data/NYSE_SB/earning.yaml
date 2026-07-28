@@ -1,0 +1,76 @@
+currency: USD
+company_name: Safe Bulkers, Inc
+sector: Transportation
+market_cap_billions: 0.76064
+revenue:
+  quarterly:
+    Q3 2024: 75.92
+    Q4 2024: 71.49
+    Q1 2025: 64.35
+    Q2 2025: 65.75
+    Q3 2025: 73.08
+    Q4 2025: 75.95
+    Q1 2026: 74.39
+  annual:
+    2021 Yearly: 329.0
+    2022 Yearly: 349.7
+    2023 Yearly: 284.4
+    2024 Yearly: 307.63
+    2025 Yearly: 288.13
+  quarterly_forecast:
+    Q3 2024: 71.52
+    Q4 2024: 70.16
+    Q1 2025: 57.92
+    Q2 2025: 62.49
+    Q3 2025: 66.1
+    Q4 2025: 70.0
+    Q1 2026: 65.5
+    Q2 2026: 77.5
+    Q3 2026: 77.65
+    Q4 2026: 80.45
+    Q1 2027: 56.7
+  annual_forecast:
+    2022 Yearly: 322.53
+    2023 Yearly: 336.32
+    2024 Yearly: 263.81
+    2025 Yearly: 293.61
+    2026 Yearly: 262.0
+    2027 Yearly: 304.7
+    2028 Yearly: 272.5
+eps:
+  quarterly:
+    Q3 2024: 0.16
+    Q4 2024: 0.15
+    Q1 2025: 0.05
+    Q2 2025: 0.01
+    Q3 2025: 0.12
+    Q4 2025: 0.14
+    Q1 2026: 0.18
+  annual:
+    2021 Yearly: 1.26
+    2022 Yearly: 1.32
+    2023 Yearly: 0.55
+    2024 Yearly: 0.68
+    2025 Yearly: 0.32
+  quarterly_forecast:
+    Q3 2024: 0.17
+    Q4 2024: 0.14
+    Q1 2025: 0.03
+    Q2 2025: 0.07
+    Q3 2025: 0.1
+    Q4 2025: 0.14
+    Q1 2026: 0.1
+    Q2 2026: 0.25
+    Q3 2026: 0.23
+    Q4 2026: 0.27
+    Q1 2027: 0.02
+  annual_forecast:
+    2021 Yearly: 1.27
+    2022 Yearly: 1.27
+    2023 Yearly: 0.52
+    2024 Yearly: 0.68
+    2025 Yearly: 0.32
+    2026 Yearly: 0.93
+    2027 Yearly: 0.53
+    2028 Yearly: 0.57
+    2029 Yearly: 0.83

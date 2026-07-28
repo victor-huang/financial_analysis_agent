@@ -1,7 +1,7 @@
 currency: USD
 company_name: Happen, Inc.
 sector: Finance
-market_cap_billions: 2.16
+market_cap_billions: 2.19
 revenue:
   quarterly:
     Q3 2024: 201.88
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 266.23
     Q4 2025: 266.47
     Q1 2026: 252.25
+    Q2 2026: 262.88
   annual:
     2021 Yearly: 818.63
     2022 Yearly: 1190.0
@@ -26,18 +27,19 @@ revenue:
     Q4 2025: 261.97
     Q1 2026: 249.1
     Q2 2026: 262.35
-    Q3 2026: 273.73
-    Q4 2026: 274.9
-    Q1 2027: 282.08
+    Q3 2026: 274.68
+    Q4 2026: 279.43
+    Q1 2027: 280.38
+    Q2 2027: 305.6
   annual_forecast:
     2021 Yearly: 801.65
     2022 Yearly: 1180.0
     2023 Yearly: 858.88
     2024 Yearly: 776.12
     2025 Yearly: 994.48
-    2026 Yearly: 1060.0
-    2027 Yearly: 1240.0
-    2028 Yearly: 1540.0
+    2026 Yearly: 1070.0
+    2027 Yearly: 1250.0
+    2028 Yearly: 1450.0
 eps:
   quarterly:
     Q3 2024: 0.13
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.37
     Q4 2025: 0.35
     Q1 2026: 0.44
+    Q2 2026: 0.5
   annual:
     2021 Yearly: 0.18
     2022 Yearly: 2.79
@@ -61,16 +64,17 @@ eps:
     Q3 2025: 0.3
     Q4 2025: 0.33
     Q1 2026: 0.37
-    Q2 2026: 0.42
-    Q3 2026: 0.44
-    Q4 2026: 0.45
-    Q1 2027: 0.48
+    Q2 2026: 0.43
+    Q3 2026: 0.45
+    Q4 2026: 0.46
+    Q1 2027: 0.47
+    Q2 2027: 0.56
   annual_forecast:
     2021 Yearly: 0.34
     2022 Yearly: 2.72
     2023 Yearly: 0.28
     2024 Yearly: 0.46
     2025 Yearly: 1.14
-    2026 Yearly: 1.74
-    2027 Yearly: 2.35
-    2028 Yearly: 3.6
+    2026 Yearly: 1.8
+    2027 Yearly: 2.36
+    2028 Yearly: 3.15

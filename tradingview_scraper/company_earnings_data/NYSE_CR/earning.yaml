@@ -1,0 +1,76 @@
+currency: USD
+company_name: Crane Company
+sector: Electronic Technology
+market_cap_billions: 13.07
+revenue:
+  quarterly:
+    Q3 2024: 597.0
+    Q4 2024: 544.1
+    Q1 2025: 557.6
+    Q2 2025: 577.2
+    Q3 2025: 589.2
+    Q4 2025: 581.0
+    Q1 2026: 696.4
+    Q2 2026: 724.7
+  annual:
+    2022 Yearly: 2130.0
+    2023 Yearly: 2090.0
+    2024 Yearly: 2130.0
+    2025 Yearly: 2310.0
+  quarterly_forecast:
+    Q3 2024: 594.45
+    Q4 2024: 533.87
+    Q1 2025: 547.92
+    Q2 2025: 566.01
+    Q3 2025: 578.89
+    Q4 2025: 571.23
+    Q1 2026: 672.74
+    Q2 2026: 708.46
+    Q3 2026: 734.9
+    Q4 2026: 733.23
+    Q1 2027: 737.52
+    Q2 2027: 756.24
+  annual_forecast:
+    2023 Yearly: 2070.0
+    2024 Yearly: 2150.0
+    2025 Yearly: 2290.0
+    2026 Yearly: 2870.0
+    2027 Yearly: 3040.0
+    2028 Yearly: 3200.0
+    2029 Yearly: 3390.0
+eps:
+  quarterly:
+    Q3 2024: 1.38
+    Q4 2024: 1.26
+    Q1 2025: 1.39
+    Q2 2025: 1.49
+    Q3 2025: 1.64
+    Q4 2025: 1.53
+    Q1 2026: 1.65
+    Q2 2026: 1.79
+  annual:
+    2022 Yearly: 3.56
+    2023 Yearly: 4.29
+    2024 Yearly: 4.88
+    2025 Yearly: 6.05
+  quarterly_forecast:
+    Q3 2024: 1.32
+    Q4 2024: 1.2
+    Q1 2025: 1.31
+    Q2 2025: 1.33
+    Q3 2025: 1.49
+    Q4 2025: 1.41
+    Q1 2026: 1.45
+    Q2 2026: 1.68
+    Q3 2026: 1.76
+    Q4 2026: 1.75
+    Q1 2027: 1.8
+    Q2 2027: 1.9
+  annual_forecast:
+    2023 Yearly: 4.2
+    2024 Yearly: 4.84
+    2025 Yearly: 5.93
+    2026 Yearly: 6.84
+    2027 Yearly: 7.68
+    2028 Yearly: 8.73
+    2029 Yearly: 9.77

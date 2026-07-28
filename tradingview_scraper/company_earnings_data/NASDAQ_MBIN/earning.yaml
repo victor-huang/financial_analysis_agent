@@ -1,0 +1,80 @@
+currency: USD
+company_name: Merchants Bancorp
+sector: Finance
+market_cap_billions: 2.24
+revenue:
+  quarterly:
+    Q3 2024: 149.56
+    Q4 2024: 193.77
+    Q1 2025: 145.89
+    Q2 2025: 179.2
+    Q3 2025: 171.07
+    Q4 2025: 185.29
+    Q1 2026: 175.25
+    Q2 2026: 182.22
+  annual:
+    2021 Yearly: 435.33
+    2022 Yearly: 444.49
+    2023 Yearly: 562.74
+    2024 Yearly: 670.73
+    2025 Yearly: 681.45
+  quarterly_forecast:
+    Q3 2024: 159.7
+    Q4 2024: 158.8
+    Q1 2025: 169.0
+    Q2 2025: 161.1
+    Q3 2025: 163.9
+    Q4 2025: 170.8
+    Q1 2026: 174.3
+    Q2 2026: 179.0
+    Q3 2026: 182.15
+    Q4 2026: 183.8
+    Q1 2027: 173.75
+    Q2 2027: 188.15
+  annual_forecast:
+    2021 Yearly: 405.04
+    2022 Yearly: 427.5
+    2023 Yearly: 533.15
+    2024 Yearly: 639.06
+    2025 Yearly: 666.56
+    2026 Yearly: 721.15
+    2027 Yearly: 757.39
+    2028 Yearly: 807.46
+eps:
+  quarterly:
+    Q3 2024: 1.17
+    Q4 2024: 1.85
+    Q1 2025: 0.93
+    Q2 2025: 0.6
+    Q3 2025: 0.97
+    Q4 2025: 1.28
+    Q1 2026: 1.25
+    Q2 2026: 1.48
+  annual:
+    2021 Yearly: 4.76
+    2022 Yearly: 4.47
+    2023 Yearly: 5.64
+    2024 Yearly: 6.3
+    2025 Yearly: 3.78
+  quarterly_forecast:
+    Q3 2024: 1.42
+    Q4 2024: 1.27
+    Q1 2025: 1.25
+    Q2 2025: 1.12
+    Q3 2025: 0.79
+    Q4 2025: 0.94
+    Q1 2026: 1.16
+    Q2 2026: 1.22
+    Q3 2026: 1.29
+    Q4 2026: 1.38
+    Q1 2027: 1.33
+    Q2 2027: 1.44
+  annual_forecast:
+    2021 Yearly: 4.68
+    2022 Yearly: 4.42
+    2023 Yearly: 5.5
+    2024 Yearly: 5.73
+    2025 Yearly: 3.48
+    2026 Yearly: 5.14
+    2027 Yearly: 5.68
+    2028 Yearly: 5.9

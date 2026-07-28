@@ -1,0 +1,62 @@
+currency: USD
+company_name: Chain Bridge Bancorp, Inc.
+sector: Finance
+market_cap_billions: 0.28472000000000003
+revenue:
+  quarterly:
+    Q3 2024: 16.76
+    Q4 2024: 12.58
+    Q1 2025: 14.54
+    Q2 2025: 12.62
+    Q3 2025: 13.12
+    Q4 2025: 14.7
+    Q1 2026: 17.37
+  annual:
+    2024 Yearly: 52.95
+    2025 Yearly: 54.98
+  quarterly_forecast:
+    Q3 2024: 16.7
+    Q4 2024: 11.38
+    Q1 2025: 11.75
+    Q2 2025: 11.99
+    Q3 2025: 14.15
+    Q4 2025: 13.65
+    Q1 2026: 15.49
+    Q2 2026: 18.98
+    Q3 2026: 20.02
+    Q4 2026: 17.24
+    Q1 2027: 16.69
+  annual_forecast:
+    2024 Yearly: 51.77
+    2025 Yearly: 53.96
+    2026 Yearly: 73.62
+    2027 Yearly: 69.71
+eps:
+  quarterly:
+    Q3 2024: 1.65
+    Q4 2024: 0.59
+    Q1 2025: 0.85
+    Q2 2025: 0.7
+    Q3 2025: 0.72
+    Q4 2025: 0.81
+    Q1 2026: 1.08
+  annual:
+    2024 Yearly: 4.17
+    2025 Yearly: 3.08
+  quarterly_forecast:
+    Q3 2024: 1.65
+    Q4 2024: 0.55
+    Q1 2025: 0.54
+    Q2 2025: 0.53
+    Q3 2025: 0.73
+    Q4 2025: 0.76
+    Q1 2026: 0.91
+    Q2 2026: 1.24
+    Q3 2026: 1.35
+    Q4 2026: 1.02
+    Q1 2027: 0.89
+  annual_forecast:
+    2024 Yearly: 4.23
+    2025 Yearly: 3.02
+    2026 Yearly: 4.7
+    2027 Yearly: 3.84

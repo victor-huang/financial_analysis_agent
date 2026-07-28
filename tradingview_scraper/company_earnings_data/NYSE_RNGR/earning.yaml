@@ -1,7 +1,7 @@
 currency: USD
 company_name: Ranger Energy Services, Inc.
 sector: Industrial Services
-market_cap_billions: 0.36759
+market_cap_billions: 0.34526
 revenue:
   quarterly:
     Q3 2024: 153.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 128.9
     Q4 2025: 142.2
     Q1 2026: 159.1
+    Q2 2026: 176.5
   annual:
     2021 Yearly: 293.1
     2022 Yearly: 608.5
@@ -26,16 +27,17 @@ revenue:
     Q4 2025: 140.67
     Q1 2026: 156.2
     Q2 2026: 163.93
-    Q3 2026: 168.67
+    Q3 2026: 170.37
     Q4 2026: 160.87
     Q1 2027: 166.05
+    Q2 2027: 176.5
   annual_forecast:
     2021 Yearly: 287.25
     2022 Yearly: 625.33
     2023 Yearly: 633.33
     2024 Yearly: 570.2
     2025 Yearly: 545.13
-    2026 Yearly: 652.53
+    2026 Yearly: 658.7
     2027 Yearly: 688.57
     2028 Yearly: 694.0
 eps:
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.05
     Q4 2025: 0.14
     Q1 2026: 0.19
+    Q2 2026: 0.29
   annual:
     2021 Yearly: -0.65
     2022 Yearly: 0.65
@@ -62,15 +65,16 @@ eps:
     Q4 2025: 0.17
     Q1 2026: 0.25
     Q2 2026: 0.3
-    Q3 2026: 0.35
-    Q4 2026: 0.25
-    Q1 2027: 0.28
+    Q3 2026: 0.34
+    Q4 2026: 0.22
+    Q1 2027: 0.24
+    Q2 2027: 0.39
   annual_forecast:
     2021 Yearly: -1.42
     2022 Yearly: 0.85
     2023 Yearly: 1.24
     2024 Yearly: 0.76
     2025 Yearly: 0.7
-    2026 Yearly: 1.07
-    2027 Yearly: 1.44
+    2026 Yearly: 1.02
+    2027 Yearly: 1.31
     2028 Yearly: 1.67

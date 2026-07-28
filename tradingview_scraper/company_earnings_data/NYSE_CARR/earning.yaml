@@ -1,0 +1,78 @@
+currency: USD
+company_name: Carrier Global Corporation
+sector: Producer Manufacturing
+market_cap_billions: 57.58
+revenue:
+  quarterly:
+    Q4 2024: 5150.0
+    Q1 2025: 5220.0
+    Q2 2025: 6110.0
+    Q3 2025: 5580.0
+    Q4 2025: 4840.0
+    Q1 2026: 5340.0
+    Q2 2026: 6350.0
+  annual:
+    2021 Yearly: 20610.0
+    2022 Yearly: 20420.0
+    2023 Yearly: 22100.0
+    2024 Yearly: 22490.0
+    2025 Yearly: 21750.0
+  quarterly_forecast:
+    Q4 2024: 5310.0
+    Q1 2025: 5190.0
+    Q2 2025: 6110.0
+    Q3 2025: 5540.0
+    Q4 2025: 4980.0
+    Q1 2026: 5010.0
+    Q2 2026: 6020.0
+    Q3 2026: 5860.0
+    Q4 2026: 5160.0
+    Q1 2027: 5580.0
+    Q2 2027: 6390.0
+  annual_forecast:
+    2021 Yearly: 20300.0
+    2022 Yearly: 20420.0
+    2023 Yearly: 22220.0
+    2024 Yearly: 22590.0
+    2025 Yearly: 21900.0
+    2026 Yearly: 22380.0
+    2027 Yearly: 23480.0
+    2028 Yearly: 24640.0
+    2029 Yearly: 26260.0
+eps:
+  quarterly:
+    Q4 2024: 0.54
+    Q1 2025: 0.65
+    Q2 2025: 0.92
+    Q3 2025: 0.67
+    Q4 2025: 0.34
+    Q1 2026: 0.57
+    Q2 2026: 0.86
+  annual:
+    2021 Yearly: 2.26
+    2022 Yearly: 2.34
+    2023 Yearly: 2.73
+    2024 Yearly: 2.56
+    2025 Yearly: 2.59
+  quarterly_forecast:
+    Q4 2024: 0.5
+    Q1 2025: 0.58
+    Q2 2025: 0.91
+    Q3 2025: 0.56
+    Q4 2025: 0.36
+    Q1 2026: 0.51
+    Q2 2026: 0.82
+    Q3 2026: 0.86
+    Q4 2026: 0.59
+    Q1 2027: 0.56
+    Q2 2027: 0.99
+  annual_forecast:
+    2021 Yearly: 2.21
+    2022 Yearly: 2.34
+    2023 Yearly: 2.71
+    2024 Yearly: 2.52
+    2025 Yearly: 2.6
+    2026 Yearly: 2.82
+    2027 Yearly: 3.21
+    2028 Yearly: 3.64
+    2029 Yearly: 4.06

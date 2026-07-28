@@ -1,7 +1,7 @@
 currency: USD
 company_name: Opko Health, Inc.
 sector: Health Services
-market_cap_billions: 0.93631
+market_cap_billions: 1.25
 revenue:
   quarterly:
     Q3 2024: 173.6
@@ -27,20 +27,20 @@ revenue:
     Q4 2025: 139.76
     Q1 2026: 130.51
     Q2 2026: 131.23
-    Q3 2026: 134.65
-    Q4 2026: 140.55
-    Q1 2027: 137.47
-    Q2 2027: 143.22
+    Q3 2026: 136.62
+    Q4 2026: 146.15
+    Q1 2027: 138.13
+    Q2 2027: 145.22
   annual_forecast:
     2021 Yearly: 1700.0
     2022 Yearly: 986.82
     2023 Yearly: 859.13
     2024 Yearly: 684.92
     2025 Yearly: 598.1
-    2026 Yearly: 536.8
-    2027 Yearly: 565.85
-    2028 Yearly: 605.95
-    2029 Yearly: 649.7
+    2026 Yearly: 565.39
+    2027 Yearly: 585.45
+    2028 Yearly: 606.8
+    2029 Yearly: 651.4
 eps:
   quarterly:
     Q3 2024: 0.03
@@ -66,8 +66,8 @@ eps:
     Q4 2025: -0.07
     Q1 2026: -0.07
     Q2 2026: -0.08
-    Q3 2026: -0.08
-    Q4 2026: -0.08
+    Q3 2026: -0.07
+    Q4 2026: -0.07
     Q1 2027: -0.07
     Q2 2027: -0.07
   annual_forecast:
@@ -76,7 +76,7 @@ eps:
     2023 Yearly: -0.26
     2024 Yearly: -0.18
     2025 Yearly: -0.35
-    2026 Yearly: -0.3
-    2027 Yearly: -0.29
+    2026 Yearly: -0.24
+    2027 Yearly: -0.28
     2028 Yearly: -0.1
-    2029 Yearly: -0.18
+    2029 Yearly: -0.2

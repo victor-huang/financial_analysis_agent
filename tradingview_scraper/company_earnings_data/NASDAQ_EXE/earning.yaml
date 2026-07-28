@@ -1,0 +1,82 @@
+currency: USD
+company_name: Expand Energy Corporation
+sector: Energy Minerals
+market_cap_billions: 21.18
+revenue:
+  quarterly:
+    Q3 2024: 648.0
+    Q4 2024: 2000.0
+    Q1 2025: 2200.0
+    Q2 2025: 3690.0
+    Q3 2025: 2970.0
+    Q4 2025: 3270.0
+    Q1 2026: 4400.0
+    Q2 2026: 2960.0
+  annual:
+    2021 Yearly: 5810.0
+    2022 Yearly: 11440.0
+    2023 Yearly: 6990.0
+    2024 Yearly: 4240.0
+    2025 Yearly: 12120.0
+  quarterly_forecast:
+    Q3 2024: 708.98
+    Q4 2024: 1970.0
+    Q1 2025: 2550.0
+    Q2 2025: 2550.0
+    Q3 2025: 2710.0
+    Q4 2025: 2940.0
+    Q1 2026: 3530.0
+    Q2 2026: 3050.0
+    Q3 2026: 3180.0
+    Q4 2026: 3500.0
+    Q1 2027: 3630.0
+    Q2 2027: 3230.0
+  annual_forecast:
+    2021 Yearly: 4660.0
+    2022 Yearly: 8039.999999999999
+    2023 Yearly: 7490.0
+    2024 Yearly: 4230.0
+    2025 Yearly: 11570.0
+    2026 Yearly: 14110.0
+    2027 Yearly: 13770.0
+    2028 Yearly: 14550.0
+    2029 Yearly: 15130.0
+eps:
+  quarterly:
+    Q3 2024: 0.16
+    Q4 2024: 0.55
+    Q1 2025: 2.02
+    Q2 2025: 1.1
+    Q3 2025: 0.97
+    Q4 2025: 2.0
+    Q1 2026: 3.83
+    Q2 2026: 1.33
+  annual:
+    2021 Yearly: 9.19
+    2022 Yearly: 17.24
+    2023 Yearly: 4.91
+    2024 Yearly: 1.41
+    2025 Yearly: 6.1
+  quarterly_forecast:
+    Q3 2024: -0.05
+    Q4 2024: 0.52
+    Q1 2025: 1.91
+    Q2 2025: 1.14
+    Q3 2025: 0.9
+    Q4 2025: 1.87
+    Q1 2026: 3.62
+    Q2 2026: 1.13
+    Q3 2026: 1.31
+    Q4 2026: 2.12
+    Q1 2027: 2.68
+    Q2 2027: 1.39
+  annual_forecast:
+    2021 Yearly: 9.34
+    2022 Yearly: 16.47
+    2023 Yearly: 4.46
+    2024 Yearly: 1.26
+    2025 Yearly: 6.0
+    2026 Yearly: 8.57
+    2027 Yearly: 7.92
+    2028 Yearly: 9.02
+    2029 Yearly: 11.16

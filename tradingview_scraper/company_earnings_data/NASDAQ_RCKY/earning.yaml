@@ -1,0 +1,78 @@
+currency: USD
+company_name: Rocky Brands, Inc.
+sector: Consumer Non-Durables
+market_cap_billions: 0.32224
+revenue:
+  quarterly:
+    Q3 2024: 114.55
+    Q4 2024: 128.05
+    Q1 2025: 114.07
+    Q2 2025: 105.65
+    Q3 2025: 122.5
+    Q4 2025: 139.72
+    Q1 2026: 124.4
+    Q2 2026: 118.37
+  annual:
+    2021 Yearly: 514.23
+    2022 Yearly: 611.91
+    2023 Yearly: 461.83
+    2024 Yearly: 453.77
+    2025 Yearly: 481.98
+  quarterly_forecast:
+    Q3 2024: 120.75
+    Q4 2024: 125.3
+    Q1 2025: 113.67
+    Q2 2025: 102.53
+    Q3 2025: 122.7
+    Q4 2025: 134.05
+    Q1 2026: 122.42
+    Q2 2026: 110.08
+    Q3 2026: 129.41
+    Q4 2026: 148.65
+    Q1 2027: 129.72
+    Q2 2027: 115.34
+  annual_forecast:
+    2021 Yearly: 507.86
+    2022 Yearly: 605.84
+    2023 Yearly: 469.0
+    2024 Yearly: 451.14
+    2025 Yearly: 476.28
+    2026 Yearly: 512.54
+    2027 Yearly: 537.26
+eps:
+  quarterly:
+    Q3 2024: 0.77
+    Q4 2024: 1.19
+    Q1 2025: 0.73
+    Q2 2025: 0.55
+    Q3 2025: 1.03
+    Q4 2025: 0.94
+    Q1 2026: 0.24
+    Q2 2026: 1.9
+  annual:
+    2021 Yearly: 4.39
+    2022 Yearly: 3.27
+    2023 Yearly: 1.93
+    2024 Yearly: 2.54
+    2025 Yearly: 3.26
+  quarterly_forecast:
+    Q3 2024: 0.98
+    Q4 2024: 1.22
+    Q1 2025: 0.56
+    Q2 2025: 0.24
+    Q3 2025: 0.9
+    Q4 2025: 0.48
+    Q1 2026: 0.27
+    Q2 2026: 0.35
+    Q3 2026: 1.47
+    Q4 2026: 1.61
+    Q1 2027: 0.42
+    Q2 2027: 0.45
+  annual_forecast:
+    2021 Yearly: 3.46
+    2022 Yearly: 2.87
+    2023 Yearly: 2.0
+    2024 Yearly: 2.58
+    2025 Yearly: 2.8
+    2026 Yearly: 3.67
+    2027 Yearly: 4.09

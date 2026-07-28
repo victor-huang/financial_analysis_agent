@@ -1,7 +1,7 @@
 currency: USD
 company_name: Cadence Design Systems, Inc.
 sector: Technology Services
-market_cap_billions: 93.39
+market_cap_billions: 95.08
 revenue:
   quarterly:
     Q3 2024: 1220.0
@@ -27,20 +27,20 @@ revenue:
     Q4 2025: 1420.0
     Q1 2026: 1460.0
     Q2 2026: 1580.0
-    Q3 2026: 1550.0
-    Q4 2026: 1600.0
-    Q1 2027: 1640.0
-    Q2 2027: 1710.0
+    Q3 2026: 1610.0
+    Q4 2026: 1640.0
+    Q1 2027: 1670.0
+    Q2 2027: 1750.0
   annual_forecast:
     2021 Yearly: 2970.0
     2022 Yearly: 3550.0
     2023 Yearly: 4080.0
     2024 Yearly: 4630.0
     2025 Yearly: 5280.0
-    2026 Yearly: 6210.0
-    2027 Yearly: 7020.0
-    2028 Yearly: 7960.0
-    2029 Yearly: 8480.0
+    2026 Yearly: 6300.0
+    2027 Yearly: 7150.0
+    2028 Yearly: 8070.0
+    2029 Yearly: 8520.0
 eps:
   quarterly:
     Q3 2024: 1.64
@@ -66,17 +66,17 @@ eps:
     Q4 2025: 1.91
     Q1 2026: 1.91
     Q2 2026: 2.05
-    Q3 2026: 1.94
-    Q4 2026: 1.98
-    Q1 2027: 2.13
-    Q2 2027: 2.27
+    Q3 2026: 2.03
+    Q4 2026: 2.01
+    Q1 2027: 2.16
+    Q2 2027: 2.33
   annual_forecast:
     2021 Yearly: 3.26
     2022 Yearly: 4.23
     2023 Yearly: 5.11
     2024 Yearly: 5.92
     2025 Yearly: 7.06
-    2026 Yearly: 7.94
-    2027 Yearly: 9.38
-    2028 Yearly: 10.96
-    2029 Yearly: 11.3
+    2026 Yearly: 8.12
+    2027 Yearly: 9.5
+    2028 Yearly: 11.08
+    2029 Yearly: 11.24

@@ -1,0 +1,80 @@
+currency: USD
+company_name: Greif Inc.
+sector: Process Industries
+market_cap_billions: 4.29
+revenue:
+  quarterly:
+    Q4 2024: 1420.0
+    Q1 2025: 1270.0
+    Q2 2025: 1390.0
+    Q3 2025: 1130.0
+    Q4 2025: 701.3
+    Q1 2026: 994.8
+    Q2 2026: 1070.0
+    Q3 2026: 1170.0
+  annual:
+    2021 Yearly: 5560.0
+    2022 Yearly: 6350.0
+    2023 Yearly: 5220.0
+    2024 Yearly: 5450.0
+    2025 Yearly: 3930.0
+  quarterly_forecast:
+    Q4 2024: 1410.0
+    Q1 2025: 1260.0
+    Q2 2025: 1420.0
+    Q3 2025: 1370.0
+    Q4 2025: 714.38
+    Q1 2026: 1010.0
+    Q2 2026: 1100.0
+    Q3 2026: 1120.0
+    Q4 2026: 1070.0
+    Q1 2027: 1020.0
+    Q2 2027: 1110.0
+    Q3 2027: 1160.0
+  annual_forecast:
+    2021 Yearly: 5460.0
+    2022 Yearly: 6430.0
+    2023 Yearly: 5250.0
+    2024 Yearly: 5440.0
+    2025 Yearly: 4510.0
+    2026 Yearly: 4250.0
+    2027 Yearly: 4350.0
+    2028 Yearly: 4440.0
+eps:
+  quarterly:
+    Q4 2024: 0.85
+    Q1 2025: 0.39
+    Q2 2025: 1.19
+    Q3 2025: 1.03
+    Q4 2025: 0.01
+    Q1 2026: 0.48
+    Q2 2026: 1.1
+    Q3 2026: 1.61
+  annual:
+    2021 Yearly: 5.6
+    2022 Yearly: 7.87
+    2023 Yearly: 6.14
+    2024 Yearly: 4.03
+    2025 Yearly: 2.0
+  quarterly_forecast:
+    Q4 2024: 1.1
+    Q1 2025: 0.73
+    Q2 2025: 1.13
+    Q3 2025: 1.12
+    Q4 2025: 0.6
+    Q1 2026: 0.68
+    Q2 2026: 1.07
+    Q3 2026: 1.11
+    Q4 2026: 1.14
+    Q1 2027: 0.76
+    Q2 2027: 1.18
+    Q3 2027: 1.29
+  annual_forecast:
+    2021 Yearly: 5.16
+    2022 Yearly: 7.99
+    2023 Yearly: 5.89
+    2024 Yearly: 4.22
+    2025 Yearly: 3.22
+    2026 Yearly: 3.81
+    2027 Yearly: 4.51
+    2028 Yearly: 4.65

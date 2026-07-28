@@ -1,0 +1,81 @@
+currency: USD
+company_name: Omnicom Group Inc.
+sector: Commercial Services
+market_cap_billions: 24.57
+revenue:
+  quarterly:
+    Q3 2024: 3880.0
+    Q4 2024: 4320.0
+    Q1 2025: 3690.0
+    Q2 2025: 4019.9999999999995
+    Q3 2025: 4040.0
+    Q4 2025: 5530.0
+    Q1 2026: 6240.0
+    Q2 2026: 6560.0
+  annual:
+    2021 Yearly: 14290.0
+    2022 Yearly: 14290.0
+    2023 Yearly: 14690.0
+    2024 Yearly: 15690.0
+    2025 Yearly: 17270.0
+  quarterly_forecast:
+    Q3 2024: 3800.0
+    Q4 2024: 4320.0
+    Q1 2025: 4320.0
+    Q2 2025: 3710.0
+    Q3 2025: 3980.0
+    Q4 2025: 4019.9999999999995
+    Q1 2026: 4500.0
+    Q2 2026: 5850.0
+    Q3 2026: 6440.0
+    Q4 2026: 6260.0
+    Q1 2027: 6850.0
+  annual_forecast:
+    2021 Yearly: 14100.0
+    2022 Yearly: 14160.0
+    2023 Yearly: 14620.0
+    2024 Yearly: 15690.0
+    2025 Yearly: 16260.000000000002
+    2026 Yearly: 25670.0
+    2027 Yearly: 25410.0
+    2028 Yearly: 26200.0
+    2029 Yearly: 26310.0
+eps:
+  quarterly:
+    Q3 2024: 2.03
+    Q4 2024: 2.41
+    Q1 2025: 1.7
+    Q2 2025: 2.05
+    Q3 2025: 2.24
+    Q4 2025: 2.59
+    Q1 2026: 1.9
+    Q2 2026: 2.65
+  annual:
+    2021 Yearly: 6.67
+    2022 Yearly: 6.93
+    2023 Yearly: 7.41
+    2024 Yearly: 8.06
+    2025 Yearly: 8.65
+  quarterly_forecast:
+    Q3 2024: 2.02
+    Q4 2024: 2.41
+    Q1 2025: 1.65
+    Q2 2025: 2.02
+    Q3 2025: 2.16
+    Q4 2025: 2.72
+    Q1 2026: 1.82
+    Q2 2026: 2.67
+    Q3 2026: 2.8
+    Q4 2026: 3.48
+    Q1 2027: 1.63
+    Q2 2027: 3.06
+  annual_forecast:
+    2021 Yearly: 6.22
+    2022 Yearly: 6.76
+    2023 Yearly: 7.33
+    2024 Yearly: 8.07
+    2025 Yearly: 8.67
+    2026 Yearly: 10.76
+    2027 Yearly: 12.24
+    2028 Yearly: 13.82
+    2029 Yearly: 11.96

@@ -1,0 +1,58 @@
+currency: USD
+company_name: Bladex, Inc. Class E
+sector: Finance
+market_cap_billions: 2.11
+revenue:
+  quarterly:
+    Q4 2024: 78.4
+    Q1 2025: 77.9
+    Q2 2025: 90.0
+    Q3 2025: 82.8
+    Q4 2025: 88.8
+    Q1 2026: 83.1
+    Q2 2026: 98.9
+  annual:
+    2021 Yearly: 104.2
+    2022 Yearly: 166.7
+    2023 Yearly: 266.1
+    2024 Yearly: 303.6
+    2025 Yearly: 339.6
+  quarterly_forecast:
+    Q1 2025: 54.84
+  annual_forecast:
+    2021 Yearly: 102.17
+    2022 Yearly: 155.5
+    2023 Yearly: 258.0
+    2024 Yearly: 306.0
+    2025 Yearly: 335.0
+    2026 Yearly: 378.0
+    2027 Yearly: 415.5
+    2028 Yearly: 457.0
+    2029 Yearly: 524.0
+eps:
+  quarterly:
+    Q4 2024: 1.4
+    Q1 2025: 1.4
+    Q2 2025: 1.73
+    Q3 2025: 1.48
+    Q4 2025: 1.5
+    Q1 2026: 1.31
+    Q2 2026: 1.77
+  annual:
+    2021 Yearly: 1.62
+    2022 Yearly: 2.54
+    2023 Yearly: 4.55
+    2024 Yearly: 5.6
+    2025 Yearly: 6.11
+  quarterly_forecast:
+    Q1 2025: 1.07
+  annual_forecast:
+    2021 Yearly: 1.52
+    2022 Yearly: 2.33
+    2023 Yearly: 4.6
+    2024 Yearly: 5.25
+    2025 Yearly: 6.04
+    2026 Yearly: 6.67
+    2027 Yearly: 7.32
+    2028 Yearly: 8.05
+    2029 Yearly: 9.5

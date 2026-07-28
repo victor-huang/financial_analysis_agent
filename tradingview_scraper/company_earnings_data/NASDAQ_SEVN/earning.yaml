@@ -1,0 +1,72 @@
+currency: USD
+company_name: Seven Hills Realty Trust
+sector: Finance
+market_cap_billions: 0.18167
+revenue:
+  quarterly:
+    Q3 2024: 8.86
+    Q4 2024: 7.67
+    Q1 2025: 7.59
+    Q2 2025: 7.39
+    Q3 2025: 7.09
+    Q4 2025: 7.3
+    Q1 2026: 8.34
+  annual:
+    2023 Yearly: 38.23
+    2024 Yearly: 35.27
+    2025 Yearly: 29.38
+  quarterly_forecast:
+    Q3 2024: 9.14
+    Q4 2024: 8.31
+    Q1 2025: 7.58
+    Q2 2025: 7.87
+    Q3 2025: 7.15
+    Q4 2025: 7.34
+    Q1 2026: 8.65
+    Q2 2026: 8.76
+    Q3 2026: 9.14
+    Q4 2026: 9.52
+    Q1 2027: 9.73
+  annual_forecast:
+    2023 Yearly: 38.35
+    2024 Yearly: 35.91
+    2025 Yearly: 29.43
+    2026 Yearly: 35.72
+    2027 Yearly: 39.04
+    2028 Yearly: 40.41
+eps:
+  quarterly:
+    Q3 2024: 0.36
+    Q4 2024: 0.33
+    Q1 2025: 0.34
+    Q2 2025: 0.31
+    Q3 2025: 0.29
+    Q4 2025: 0.28
+    Q1 2026: 0.24
+  annual:
+    2021 Yearly: 0.63
+    2022 Yearly: 1.23
+    2023 Yearly: 1.54
+    2024 Yearly: 1.43
+    2025 Yearly: 1.22
+  quarterly_forecast:
+    Q3 2024: 0.35
+    Q4 2024: 0.34
+    Q1 2025: 0.31
+    Q2 2025: 0.34
+    Q3 2025: 0.29
+    Q4 2025: 0.27
+    Q1 2026: 0.23
+    Q2 2026: 0.25
+    Q3 2026: 0.26
+    Q4 2026: 0.28
+    Q1 2027: 0.28
+  annual_forecast:
+    2021 Yearly: 1.04
+    2022 Yearly: 1.14
+    2023 Yearly: 1.49
+    2024 Yearly: 1.44
+    2025 Yearly: 1.2
+    2026 Yearly: 1.03
+    2027 Yearly: 1.15
+    2028 Yearly: 1.11

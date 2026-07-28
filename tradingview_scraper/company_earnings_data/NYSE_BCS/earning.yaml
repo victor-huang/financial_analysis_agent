@@ -1,0 +1,76 @@
+currency: USD
+company_name: Barclays PLC
+sector: Finance
+market_cap_billions: 95.05
+revenue:
+  quarterly:
+    Q4 2024: 8010.0
+    Q1 2025: 10300.0
+    Q2 2025: 9580.0
+    Q3 2025: 9570.0
+    Q4 2025: 9680.0
+    Q1 2026: 11020.0
+    Q2 2026: 11080.0
+  annual:
+    2021 Yearly: 29750.0
+    2022 Yearly: 29950.0
+    2023 Yearly: 32130.000000000004
+    2024 Yearly: 33140.0
+    2025 Yearly: 39850.0
+  quarterly_forecast:
+    Q4 2024: 8210.0
+    Q1 2025: 9730.0
+    Q2 2025: 9520.0
+    Q3 2025: 9430.0
+    Q4 2025: 9420.0
+    Q1 2026: 10880.0
+    Q2 2026: 10780.0
+    Q3 2026: 10170.0
+    Q4 2026: 9870.0
+    Q1 2027: 11810.0
+  annual_forecast:
+    2021 Yearly: 29720.0
+    2022 Yearly: 29960.0
+    2023 Yearly: 32280.0
+    2024 Yearly: 32940.0
+    2025 Yearly: 39110.0
+    2026 Yearly: 41650.0
+    2027 Yearly: 43740.0
+    2028 Yearly: 45730.0
+    2029 Yearly: 46650.0
+eps:
+  quarterly:
+    Q4 2024: 0.34
+    Q1 2025: 0.69
+    Q2 2025: 0.62
+    Q3 2025: 0.56
+    Q4 2025: 0.47
+    Q1 2026: 0.76
+    Q2 2026: 0.89
+  annual:
+    2021 Yearly: 1.99
+    2022 Yearly: 1.48
+    2023 Yearly: 1.36
+    2024 Yearly: 1.8
+    2025 Yearly: 2.31
+  quarterly_forecast:
+    Q4 2024: 0.26
+    Q1 2025: 0.61
+    Q2 2025: 0.58
+    Q3 2025: 0.54
+    Q4 2025: 0.42
+    Q1 2026: 0.75
+    Q2 2026: 0.82
+    Q3 2026: 0.69
+    Q4 2026: 0.53
+    Q1 2027: 1.05
+  annual_forecast:
+    2021 Yearly: 1.83
+    2022 Yearly: 1.6
+    2023 Yearly: 1.45
+    2024 Yearly: 1.76
+    2025 Yearly: 2.34
+    2026 Yearly: 2.81
+    2027 Yearly: 3.43
+    2028 Yearly: 4.0
+    2029 Yearly: 4.3

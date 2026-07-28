@@ -1,0 +1,76 @@
+currency: USD
+company_name: Koninklijke Philips N.V. NY Registry Shares
+sector: Health Services
+market_cap_billions: 26.0
+revenue:
+  quarterly:
+    Q1 2025: 4650.0
+    Q2 2025: 5000.0
+    Q3 2025: 4940.0
+    Q4 2025: 6070.0
+    Q1 2026: 4590.0
+    Q2 2026: 5010.0
+  annual:
+    2021 Yearly: 19400.0
+    2022 Yearly: 19380.0
+    2023 Yearly: 19620.0
+    2024 Yearly: 18790.0
+    2025 Yearly: 21250.0
+  quarterly_forecast:
+    Q1 2025: 4350.0
+    Q2 2025: 5010.0
+    Q3 2025: 5040.0
+    Q4 2025: 5890.0
+    Q1 2026: 4490.0
+    Q2 2026: 4910.0
+    Q3 2026: 5090.0
+    Q4 2026: 6120.0
+    Q1 2027: 4310.0
+    Q2 2027: 4310.0
+    H1 '22: 8400.0
+  annual_forecast:
+    2021 Yearly: 19700.0
+    2022 Yearly: 18660.0
+    2023 Yearly: 20090.0
+    2024 Yearly: 19010.0
+    2025 Yearly: 20750.0
+    2026 Yearly: 20500.0
+    2027 Yearly: 21460.0
+    2028 Yearly: 22420.0
+    2029 Yearly: 23600.0
+eps:
+  quarterly:
+    Q1 2025: 0.28
+    Q2 2025: 0.41
+    Q3 2025: 0.41
+    Q4 2025: 0.71
+    Q1 2026: 0.27
+    Q2 2026: 0.45
+  annual:
+    2021 Yearly: 1.73
+    2022 Yearly: 0.97
+    2023 Yearly: 1.29
+    2024 Yearly: 1.45
+    2025 Yearly: 1.86
+  quarterly_forecast:
+    Q1 2025: 0.21
+    Q2 2025: 0.32
+    Q3 2025: 0.37
+    Q4 2025: 0.56
+    Q1 2026: 0.23
+    Q2 2026: 0.4
+    Q3 2026: 0.44
+    Q4 2026: 0.66
+    Q1 2027: 0.41
+    Q2 2027: 0.41
+    H1 '22: 0.38
+  annual_forecast:
+    2021 Yearly: 1.86
+    2022 Yearly: 0.8
+    2023 Yearly: 1.38
+    2024 Yearly: 1.48
+    2025 Yearly: 1.67
+    2026 Yearly: 1.77
+    2027 Yearly: 1.93
+    2028 Yearly: 2.19
+    2029 Yearly: 2.3

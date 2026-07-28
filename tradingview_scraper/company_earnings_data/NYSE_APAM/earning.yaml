@@ -1,0 +1,74 @@
+currency: USD
+company_name: Artisan Partners Asset Management Inc.
+sector: Finance
+market_cap_billions: 3.31
+revenue:
+  quarterly:
+    Q3 2024: 279.6
+    Q4 2024: 297.0
+    Q1 2025: 277.1
+    Q2 2025: 282.8
+    Q3 2025: 301.3
+    Q4 2025: 335.5
+    Q1 2026: 303.0
+  annual:
+    2021 Yearly: 1230.0
+    2022 Yearly: 993.3
+    2023 Yearly: 975.1
+    2024 Yearly: 1110.0
+    2025 Yearly: 1200.0
+  quarterly_forecast:
+    Q4 2024: 279.7
+    Q1 2025: 292.7
+    Q2 2025: 279.9
+    Q3 2025: 274.9
+    Q4 2025: 304.38
+    Q1 2026: 323.83
+    Q2 2026: 304.01
+    Q3 2026: 301.32
+    Q4 2026: 309.79
+  annual_forecast:
+    2021 Yearly: 1230.0
+    2022 Yearly: 990.17
+    2023 Yearly: 974.7
+    2024 Yearly: 1110.0
+    2025 Yearly: 1190.0
+    2026 Yearly: 1240.0
+    2027 Yearly: 1300.0
+    2028 Yearly: 1310.0
+eps:
+  quarterly:
+    Q3 2024: 0.92
+    Q4 2024: 1.05
+    Q1 2025: 0.83
+    Q2 2025: 0.83
+    Q3 2025: 1.02
+    Q4 2025: 1.26
+    Q1 2026: 0.87
+  annual:
+    2021 Yearly: 5.03
+    2022 Yearly: 3.11
+    2023 Yearly: 2.89
+    2024 Yearly: 3.55
+    2025 Yearly: 3.93
+  quarterly_forecast:
+    Q3 2024: 0.9
+    Q4 2024: 0.95
+    Q1 2025: 0.75
+    Q2 2025: 0.81
+    Q3 2025: 0.97
+    Q4 2025: 1.08
+    Q1 2026: 0.93
+    Q2 2026: 0.91
+    Q3 2026: 1.0
+    Q4 2026: 1.09
+    Q1 2027: 0.88
+  annual_forecast:
+    2021 Yearly: 5.01
+    2022 Yearly: 3.09
+    2023 Yearly: 2.84
+    2024 Yearly: 3.42
+    2025 Yearly: 3.75
+    2026 Yearly: 3.83
+    2027 Yearly: 4.03
+    2028 Yearly: 3.9

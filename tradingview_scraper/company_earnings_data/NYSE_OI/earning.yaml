@@ -1,0 +1,80 @@
+currency: USD
+company_name: O-I Glass, Inc.
+sector: Process Industries
+market_cap_billions: 1.39
+revenue:
+  quarterly:
+    Q3 2024: 1700.0
+    Q4 2024: 1530.0
+    Q1 2025: 1570.0
+    Q2 2025: 1710.0
+    Q3 2025: 1700.0
+    Q4 2025: 1500.0
+    Q1 2026: 1540.0
+    Q2 2026: 1670.0
+  annual:
+    2021 Yearly: 6400.0
+    2022 Yearly: 6860.0
+    2023 Yearly: 7100.0
+    2024 Yearly: 6530.0
+    2025 Yearly: 6430.0
+  quarterly_forecast:
+    Q3 2024: 1760.0
+    Q4 2024: 1600.0
+    Q1 2025: 1560.0
+    Q2 2025: 1710.0
+    Q3 2025: 1660.0
+    Q4 2025: 1520.0
+    Q1 2026: 1470.0
+    Q2 2026: 1680.0
+    Q3 2026: 1680.0
+    Q4 2026: 1560.0
+    Q1 2027: 1590.0
+    Q2 2027: 1740.0
+  annual_forecast:
+    2021 Yearly: 6290.0
+    2022 Yearly: 6750.0
+    2023 Yearly: 7090.0
+    2024 Yearly: 6600.0
+    2025 Yearly: 6430.0
+    2026 Yearly: 6460.0
+    2027 Yearly: 6580.0
+    2028 Yearly: 6710.0
+    2029 Yearly: 6920.0
+eps:
+  quarterly:
+    Q3 2024: -0.04
+    Q4 2024: -0.05
+    Q1 2025: 0.4
+    Q2 2025: 0.53
+    Q3 2025: 0.48
+    Q4 2025: 0.2
+    Q1 2026: 0.05
+    Q2 2026: 0.09
+  annual:
+    2021 Yearly: 1.83
+    2022 Yearly: 2.3
+    2023 Yearly: 3.09
+    2024 Yearly: 0.81
+    2025 Yearly: 1.6
+  quarterly_forecast:
+    Q3 2024: 0.03
+    Q4 2024: -0.08
+    Q1 2025: 0.24
+    Q2 2025: 0.41
+    Q3 2025: 0.42
+    Q4 2025: 0.19
+    Q1 2026: 0.11
+    Q2 2026: 0.24
+    Q3 2026: 0.47
+    Q4 2026: 0.38
+    Q1 2027: 0.33
+    Q2 2027: 0.54
+  annual_forecast:
+    2022 Yearly: 1.81
+    2023 Yearly: 2.24
+    2024 Yearly: 3.0
+    2025 Yearly: 0.78
+    2026 Yearly: 1.61
+    2027 Yearly: 1.15
+    2028 Yearly: 1.87

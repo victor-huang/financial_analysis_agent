@@ -1,0 +1,80 @@
+currency: USD
+company_name: Chemed Corp
+sector: Health Services
+market_cap_billions: 6.87
+revenue:
+  quarterly:
+    Q3 2024: 606.18
+    Q4 2024: 639.99
+    Q1 2025: 646.94
+    Q2 2025: 618.8
+    Q3 2025: 624.9
+    Q4 2025: 639.34
+    Q1 2026: 657.51
+    Q2 2026: 673.25
+  annual:
+    2021 Yearly: 2140.0
+    2022 Yearly: 2130.0
+    2023 Yearly: 2260.0
+    2024 Yearly: 2430.0
+    2025 Yearly: 2530.0
+  quarterly_forecast:
+    Q3 2024: 612.22
+    Q4 2024: 636.1
+    Q1 2025: 641.78
+    Q2 2025: 628.58
+    Q3 2025: 626.04
+    Q4 2025: 659.09
+    Q1 2026: 649.82
+    Q2 2026: 665.04
+    Q3 2026: 674.14
+    Q4 2026: 694.24
+    Q1 2027: 705.59
+    Q2 2027: 702.16
+  annual_forecast:
+    2021 Yearly: 2140.0
+    2022 Yearly: 2130.0
+    2023 Yearly: 2270.0
+    2024 Yearly: 2430.0
+    2025 Yearly: 2550.0
+    2026 Yearly: 2690.0
+    2027 Yearly: 2860.0
+    2028 Yearly: 3010.0
+eps:
+  quarterly:
+    Q3 2024: 5.64
+    Q4 2024: 6.83
+    Q1 2025: 5.63
+    Q2 2025: 4.27
+    Q3 2025: 5.27
+    Q4 2025: 6.42
+    Q1 2026: 5.65
+    Q2 2026: 6.06
+  annual:
+    2021 Yearly: 19.33
+    2022 Yearly: 19.75
+    2023 Yearly: 20.3
+    2024 Yearly: 23.13
+    2025 Yearly: 21.55
+  quarterly_forecast:
+    Q3 2024: 5.64
+    Q4 2024: 6.78
+    Q1 2025: 5.55
+    Q2 2025: 5.12
+    Q3 2025: 5.37
+    Q4 2025: 7.03
+    Q1 2026: 5.3
+    Q2 2026: 5.6
+    Q3 2026: 6.02
+    Q4 2026: 7.07
+    Q1 2027: 6.18
+    Q2 2027: 6.33
+  annual_forecast:
+    2021 Yearly: 19.16
+    2022 Yearly: 19.67
+    2023 Yearly: 20.71
+    2024 Yearly: 23.08
+    2025 Yearly: 22.15
+    2026 Yearly: 24.34
+    2027 Yearly: 26.88
+    2028 Yearly: 28.85

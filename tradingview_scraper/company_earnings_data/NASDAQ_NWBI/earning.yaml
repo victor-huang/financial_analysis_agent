@@ -1,7 +1,7 @@
 currency: USD
 company_name: Northwest Bancshares, Inc.
 sector: Finance
-market_cap_billions: 2.25
+market_cap_billions: 2.33
 revenue:
   quarterly:
     Q3 2024: 139.13
@@ -27,18 +27,18 @@ revenue:
     Q4 2025: 174.15
     Q1 2026: 173.49
     Q2 2026: 179.16
-    Q3 2026: 182.72
-    Q4 2026: 184.61
-    Q1 2027: 183.22
-    Q2 2027: 186.67
+    Q3 2026: 183.07
+    Q4 2026: 185.05
+    Q1 2027: 183.66
+    Q2 2027: 187.26
   annual_forecast:
     2021 Yearly: 517.79
     2022 Yearly: 527.97
     2023 Yearly: 547.9
     2024 Yearly: 542.89
     2025 Yearly: 650.82
-    2026 Yearly: 720.83
-    2027 Yearly: 752.41
+    2026 Yearly: 722.64
+    2027 Yearly: 754.94
 eps:
   quarterly:
     Q3 2024: 0.26
@@ -75,4 +75,4 @@ eps:
     2024 Yearly: 1.03
     2025 Yearly: 1.25
     2026 Yearly: 1.38
-    2027 Yearly: 1.43
+    2027 Yearly: 1.44

@@ -1,0 +1,78 @@
+currency: USD
+company_name: CenterPoint Energy, Inc (Holding Co)
+sector: Utilities
+market_cap_billions: 28.85
+revenue:
+  quarterly:
+    Q4 2024: 2260.0
+    Q1 2025: 2920.0
+    Q2 2025: 1940.0
+    Q3 2025: 1990.0
+    Q4 2025: 2490.0
+    Q1 2026: 2980.0
+    Q2 2026: 2130.0
+  annual:
+    2021 Yearly: 8350.0
+    2022 Yearly: 9130.0
+    2023 Yearly: 8700.0
+    2024 Yearly: 8640.0
+    2025 Yearly: 9360.0
+  quarterly_forecast:
+    Q4 2024: 2480.0
+    Q1 2025: 2620.0
+    Q2 2025: 1880.0
+    Q3 2025: 2090.0
+    Q4 2025: 2240.0
+    Q1 2026: 2850.0
+    Q2 2026: 2120.0
+    Q3 2026: 2190.0
+    Q4 2026: 2540.0
+    Q1 2027: 2890.0
+    Q2 2027: 2060.0
+  annual_forecast:
+    2021 Yearly: 8000.0
+    2022 Yearly: 8490.0
+    2023 Yearly: 9280.0
+    2024 Yearly: 9120.0
+    2025 Yearly: 9120.0
+    2026 Yearly: 9970.0
+    2027 Yearly: 10420.0
+    2028 Yearly: 10960.0
+    2029 Yearly: 11530.0
+eps:
+  quarterly:
+    Q4 2024: 0.4
+    Q1 2025: 0.53
+    Q2 2025: 0.29
+    Q3 2025: 0.5
+    Q4 2025: 0.45
+    Q1 2026: 0.56
+    Q2 2026: 0.4
+  annual:
+    2021 Yearly: 1.64
+    2022 Yearly: 1.38
+    2023 Yearly: 1.5
+    2024 Yearly: 1.62
+    2025 Yearly: 1.76
+  quarterly_forecast:
+    Q4 2024: 0.4
+    Q1 2025: 0.53
+    Q2 2025: 0.3
+    Q3 2025: 0.45
+    Q4 2025: 0.45
+    Q1 2026: 0.55
+    Q2 2026: 0.37
+    Q3 2026: 0.5
+    Q4 2026: 0.47
+    Q1 2027: 0.6
+    Q2 2027: 0.41
+  annual_forecast:
+    2021 Yearly: 1.46
+    2022 Yearly: 1.38
+    2023 Yearly: 1.5
+    2024 Yearly: 1.62
+    2025 Yearly: 1.76
+    2026 Yearly: 1.91
+    2027 Yearly: 2.09
+    2028 Yearly: 2.28
+    2029 Yearly: 2.47

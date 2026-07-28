@@ -1,0 +1,78 @@
+currency: USD
+company_name: Quad Graphics, Inc
+sector: Commercial Services
+market_cap_billions: 0.43362
+revenue:
+  quarterly:
+    Q3 2024: 674.8
+    Q4 2024: 708.4
+    Q1 2025: 629.4
+    Q2 2025: 571.9
+    Q3 2025: 588.0
+    Q4 2025: 630.6
+    Q1 2026: 581.0
+    Q2 2026: 577.5
+  annual:
+    2020 Yearly: 2930.0
+    2021 Yearly: 2960.0
+    2023 Yearly: 2960.0
+    2024 Yearly: 2670.0
+    2025 Yearly: 2420.0
+  quarterly_forecast:
+    Q3 2024: 663.11
+    Q4 2024: 726.48
+    Q1 2025: 588.15
+    Q2 2025: 555.05
+    Q3 2025: 605.45
+    Q4 2025: 633.1
+    Q1 2026: 581.07
+    Q2 2026: 545.15
+    Q3 2026: 569.4
+    Q4 2026: 628.69
+    Q1 2027: 574.49
+    Q2 2027: 534.66
+  annual_forecast:
+    2020 Yearly: 3590.0
+    2021 Yearly: 3410.0
+    2023 Yearly: 2930.0
+    2024 Yearly: 2690.0
+    2025 Yearly: 2420.0
+    2026 Yearly: 2320.0
+    2027 Yearly: 2290.0
+eps:
+  quarterly:
+    Q3 2024: 0.26
+    Q4 2024: 0.36
+    Q1 2025: 0.2
+    Q2 2025: 0.14
+    Q3 2025: 0.31
+    Q4 2025: 0.36
+    Q1 2026: 0.25
+    Q2 2026: 0.24
+  annual:
+    2020 Yearly: 0.29
+    2021 Yearly: 0.6
+    2023 Yearly: 0.52
+    2024 Yearly: 0.85
+    2025 Yearly: 1.01
+  quarterly_forecast:
+    Q3 2024: 0.24
+    Q4 2024: 0.38
+    Q1 2025: 0.09
+    Q2 2025: 0.14
+    Q3 2025: 0.27
+    Q4 2025: 0.36
+    Q1 2026: 0.21
+    Q2 2026: 0.2
+    Q3 2026: 0.34
+    Q4 2026: 0.43
+    Q1 2027: 0.27
+    Q2 2027: 0.22
+  annual_forecast:
+    2020 Yearly: 0.45
+    2021 Yearly: 0.43
+    2023 Yearly: 0.41
+    2024 Yearly: 0.87
+    2025 Yearly: 1.01
+    2026 Yearly: 1.22
+    2027 Yearly: 1.36

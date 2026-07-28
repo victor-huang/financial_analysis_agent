@@ -1,7 +1,7 @@
 currency: USD
 company_name: Lakeland Financial Corporation
 sector: Finance
-market_cap_billions: 1.58
+market_cap_billions: 1.59
 revenue:
   quarterly:
     Q3 2024: 61.2
@@ -27,18 +27,18 @@ revenue:
     Q4 2025: 69.45
     Q1 2026: 70.42
     Q2 2026: 72.11
-    Q3 2026: 73.98
-    Q4 2026: 74.47
-    Q1 2027: 73.9
-    Q2 2027: 75.56
+    Q3 2026: 73.68
+    Q4 2026: 74.33
+    Q1 2027: 73.75
+    Q2 2027: 75.55
   annual_forecast:
     2021 Yearly: 227.07
     2022 Yearly: 247.92
     2023 Yearly: 245.22
     2024 Yearly: 244.67
     2025 Yearly: 271.95
-    2026 Yearly: 291.37
-    2027 Yearly: 304.85
+    2026 Yearly: 290.78
+    2027 Yearly: 305.09
 eps:
   quarterly:
     Q3 2024: 0.91
@@ -64,15 +64,15 @@ eps:
     Q4 2025: 1.06
     Q1 2026: 1.01
     Q2 2026: 1.07
-    Q3 2026: 1.09
-    Q4 2026: 1.12
-    Q1 2027: 1.07
-    Q2 2027: 1.12
+    Q3 2026: 1.08
+    Q4 2026: 1.13
+    Q1 2027: 1.06
+    Q2 2027: 1.13
   annual_forecast:
     2021 Yearly: 3.75
     2022 Yearly: 4.16
     2023 Yearly: 3.38
     2024 Yearly: 3.58
     2025 Yearly: 3.91
-    2026 Yearly: 4.34
-    2027 Yearly: 4.49
+    2026 Yearly: 4.38
+    2027 Yearly: 4.5

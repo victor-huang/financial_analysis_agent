@@ -1,0 +1,78 @@
+currency: USD
+company_name: Purple Innovation, Inc.
+sector: Consumer Durables
+market_cap_billions: 0.03579
+revenue:
+  quarterly:
+    Q3 2024: 118.6
+    Q4 2024: 128.97
+    Q1 2025: 104.17
+    Q2 2025: 105.1
+    Q3 2025: 118.77
+    Q4 2025: 140.69
+    Q1 2026: 95.73
+  annual:
+    2021 Yearly: 726.23
+    2022 Yearly: 575.69
+    2023 Yearly: 510.54
+    2024 Yearly: 487.88
+    2025 Yearly: 468.73
+  quarterly_forecast:
+    Q3 2024: 126.63
+    Q4 2024: 129.43
+    Q1 2025: 104.15
+    Q2 2025: 103.69
+    Q3 2025: 123.21
+    Q4 2025: 139.81
+    Q1 2026: 100.91
+    Q2 2026: 103.89
+    Q3 2026: 124.17
+    Q4 2026: 146.67
+    Q1 2027: 104.25
+  annual_forecast:
+    2021 Yearly: 718.68
+    2022 Yearly: 574.04
+    2023 Yearly: 514.72
+    2024 Yearly: 488.25
+    2025 Yearly: 467.87
+    2026 Yearly: 470.45
+    2027 Yearly: 499.4
+    2028 Yearly: 552.79
+    2029 Yearly: 633.61
+eps:
+  quarterly:
+    Q3 2024: -2.0
+    Q4 2024: -1.75
+    Q1 2025: -2.75
+    Q2 2025: -2.75
+    Q3 2025: -2.0
+    Q4 2025: -0.5
+    Q1 2026: -3.25
+  annual:
+    2021 Yearly: -4.75
+    2022 Yearly: -9.25
+    2023 Yearly: -17.5
+    2024 Yearly: -14.25
+    2025 Yearly: -8.0
+  quarterly_forecast:
+    Q3 2024: -2.54
+    Q4 2024: -2.06
+    Q1 2025: -3.45
+    Q2 2025: -2.67
+    Q3 2025: -2.25
+    Q4 2025: -1.06
+    Q1 2026: -3.16
+    Q2 2026: -1.82
+    Q3 2026: -1.27
+    Q4 2026: 0.33
+    Q1 2027: -2.74
+  annual_forecast:
+    2021 Yearly: -2.86
+    2022 Yearly: -8.2
+    2023 Yearly: -18.78
+    2024 Yearly: -12.05
+    2025 Yearly: -8.55
+    2026 Yearly: -6.63
+    2027 Yearly: -5.07
+    2028 Yearly: -2.43
+    2029 Yearly: 0.25

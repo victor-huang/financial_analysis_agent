@@ -1,0 +1,66 @@
+currency: USD
+company_name: Curbline Properties Corp.
+sector: Finance
+market_cap_billions: 3.61
+revenue:
+  quarterly:
+    Q4 2024: 34.64
+    Q1 2025: 38.44
+    Q2 2025: 41.1
+    Q3 2025: 48.65
+    Q4 2025: 53.98
+    Q1 2026: 57.67
+    Q2 2026: 63.08
+  annual:
+    2024 Yearly: 120.03
+    2025 Yearly: 181.98
+  quarterly_forecast:
+    Q4 2024: 29.52
+    Q1 2025: 34.57
+    Q2 2025: 37.67
+    Q3 2025: 42.89
+    Q4 2025: 51.17
+    Q1 2026: 53.34
+    Q2 2026: 57.25
+    Q3 2026: 59.98
+    Q4 2026: 61.69
+    Q1 2027: 64.12
+    Q2 2027: 66.74
+  annual_forecast:
+    2024 Yearly: 112.05
+    2025 Yearly: 178.6
+    2026 Yearly: 236.1
+    2027 Yearly: 268.38
+    2028 Yearly: 316.65
+    2029 Yearly: 511.0
+eps:
+  quarterly:
+    Q4 2024: 0.11
+    Q1 2025: 0.1
+    Q2 2025: 0.1
+    Q3 2025: 0.09
+    Q4 2025: 0.09
+    Q1 2026: 0.03
+    Q2 2026: 0.06
+  annual:
+    2024 Yearly: 0.09
+    2025 Yearly: 0.37
+  quarterly_forecast:
+    Q4 2024: 0.11
+    Q1 2025: 0.11
+    Q2 2025: 0.09
+    Q3 2025: 0.06
+    Q4 2025: 0.06
+    Q1 2026: 0.05
+    Q2 2026: 0.04
+    Q3 2026: 0.04
+    Q4 2026: 0.04
+    Q1 2027: 0.06
+    Q2 2027: 0.07
+  annual_forecast:
+    2024 Yearly: 0.09
+    2025 Yearly: 0.32
+    2026 Yearly: 0.15
+    2027 Yearly: 0.12
+    2028 Yearly: 0.12
+    2029 Yearly: 0.1

@@ -1,7 +1,7 @@
 currency: USD
 company_name: Hope Bancorp, Inc.
 sector: Finance
-market_cap_billions: 1.77
+market_cap_billions: 1.81
 revenue:
   quarterly:
     Q3 2024: 116.65
@@ -27,18 +27,18 @@ revenue:
     Q4 2025: 142.9
     Q1 2026: 145.3
     Q2 2026: 146.5
-    Q3 2026: 161.73
-    Q4 2026: 183.57
-    Q1 2027: 184.6
-    Q2 2027: 191.33
+    Q3 2026: 161.3
+    Q4 2026: 182.23
+    Q1 2027: 183.23
+    Q2 2027: 189.77
   annual_forecast:
     2021 Yearly: 551.83
     2022 Yearly: 637.65
     2023 Yearly: 573.2
     2024 Yearly: 476.79
     2025 Yearly: 534.87
-    2026 Yearly: 632.63
-    2027 Yearly: 775.83
+    2026 Yearly: 631.13
+    2027 Yearly: 768.5
 eps:
   quarterly:
     Q3 2024: 0.21
@@ -66,7 +66,7 @@ eps:
     Q2 2026: 0.26
     Q3 2026: 0.31
     Q4 2026: 0.31
-    Q1 2027: 0.32
+    Q1 2027: 0.33
     Q2 2027: 0.36
   annual_forecast:
     2021 Yearly: 1.64
@@ -74,5 +74,5 @@ eps:
     2023 Yearly: 1.12
     2024 Yearly: 0.77
     2025 Yearly: 0.45
-    2026 Yearly: 1.11
-    2027 Yearly: 1.52
+    2026 Yearly: 1.1
+    2027 Yearly: 1.51

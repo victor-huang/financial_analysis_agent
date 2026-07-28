@@ -1,0 +1,78 @@
+currency: USD
+company_name: S&P Global Inc.
+sector: Commercial Services
+market_cap_billions: 125.61
+revenue:
+  quarterly:
+    Q4 2024: 3590.0
+    Q1 2025: 3780.0
+    Q2 2025: 3750.0
+    Q3 2025: 3890.0
+    Q4 2025: 3920.0
+    Q1 2026: 4170.0
+    Q2 2026: 4150.0
+  annual:
+    2021 Yearly: 8300.0
+    2022 Yearly: 11840.0
+    2023 Yearly: 12500.0
+    2024 Yearly: 14210.0
+    2025 Yearly: 15340.0
+  quarterly_forecast:
+    Q4 2024: 3500.0
+    Q1 2025: 3700.0
+    Q2 2025: 3670.0
+    Q3 2025: 3830.0
+    Q4 2025: 3910.0
+    Q1 2026: 4080.0
+    Q2 2026: 4120.0
+    Q3 2026: 3670.0
+    Q4 2026: 3650.0
+    Q1 2027: 3980.0
+    Q2 2027: 3890.0
+  annual_forecast:
+    2021 Yearly: 8260.0
+    2022 Yearly: 11790.0
+    2023 Yearly: 12470.0
+    2024 Yearly: 14110.0
+    2025 Yearly: 15330.0
+    2026 Yearly: 15170.0
+    2027 Yearly: 15740.0
+    2028 Yearly: 16890.0
+    2029 Yearly: 17840.0
+eps:
+  quarterly:
+    Q4 2024: 3.57
+    Q1 2025: 4.13
+    Q2 2025: 4.19
+    Q3 2025: 4.47
+    Q4 2025: 4.07
+    Q1 2026: 4.7
+    Q2 2026: 4.83
+  annual:
+    2021 Yearly: 12.96
+    2022 Yearly: 10.58
+    2023 Yearly: 11.92
+    2024 Yearly: 14.85
+    2025 Yearly: 16.86
+  quarterly_forecast:
+    Q4 2024: 3.28
+    Q1 2025: 3.97
+    Q2 2025: 3.99
+    Q3 2025: 4.18
+    Q4 2025: 4.1
+    Q1 2026: 4.58
+    Q2 2026: 4.81
+    Q3 2026: 4.62
+    Q4 2026: 4.24
+    Q1 2027: 5.24
+    Q2 2027: 5.18
+  annual_forecast:
+    2021 Yearly: 12.94
+    2022 Yearly: 10.53
+    2023 Yearly: 11.93
+    2024 Yearly: 14.56
+    2025 Yearly: 16.89
+    2026 Yearly: 18.48
+    2027 Yearly: 20.51
+    2028 Yearly: 23.5
+    2029 Yearly: 25.12

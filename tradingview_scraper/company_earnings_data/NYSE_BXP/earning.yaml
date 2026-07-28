@@ -1,0 +1,82 @@
+currency: USD
+company_name: BXP, Inc.
+sector: Finance
+market_cap_billions: 11.16
+revenue:
+  quarterly:
+    Q3 2024: 859.23
+    Q4 2024: 858.57
+    Q1 2025: 865.22
+    Q2 2025: 868.46
+    Q3 2025: 871.51
+    Q4 2025: 877.1
+    Q1 2026: 872.15
+    Q2 2026: 895.7
+  annual:
+    2021 Yearly: 2890.0
+    2022 Yearly: 3110.0
+    2023 Yearly: 3270.0
+    2024 Yearly: 3410.0
+    2025 Yearly: 3480.0
+  quarterly_forecast:
+    Q3 2024: 829.91
+    Q4 2024: 843.74
+    Q1 2025: 839.09
+    Q2 2025: 853.92
+    Q3 2025: 854.95
+    Q4 2025: 861.22
+    Q1 2026: 847.22
+    Q2 2026: 858.07
+    Q3 2026: 872.46
+    Q4 2026: 883.35
+    Q1 2027: 876.8
+    Q2 2027: 887.57
+  annual_forecast:
+    2021 Yearly: 2880.0
+    2022 Yearly: 3080.0
+    2023 Yearly: 3230.0
+    2024 Yearly: 3360.0
+    2025 Yearly: 3430.0
+    2026 Yearly: 3470.0
+    2027 Yearly: 3560.0
+    2028 Yearly: 3620.0
+    2029 Yearly: 3580.0
+eps:
+  quarterly:
+    Q3 2024: 0.53
+    Q4 2024: -1.45
+    Q1 2025: 0.39
+    Q2 2025: 0.56
+    Q3 2025: -0.77
+    Q4 2025: 1.56
+    Q1 2026: 0.64
+    Q2 2026: 0.43
+  annual:
+    2021 Yearly: 3.17
+    2022 Yearly: 5.4
+    2023 Yearly: 1.21
+    2024 Yearly: 0.09
+    2025 Yearly: 1.74
+  quarterly_forecast:
+    Q3 2024: 0.53
+    Q4 2024: 0.49
+    Q1 2025: 0.41
+    Q2 2025: 0.41
+    Q3 2025: 0.41
+    Q4 2025: 0.56
+    Q1 2026: 0.28
+    Q2 2026: 0.4
+    Q3 2026: 0.51
+    Q4 2026: 0.55
+    Q1 2027: 0.37
+    Q2 2027: 0.49
+  annual_forecast:
+    2021 Yearly: 2.34
+    2022 Yearly: 5.08
+    2023 Yearly: 1.08
+    2024 Yearly: 2.02
+    2025 Yearly: 0.72
+    2026 Yearly: 2.08
+    2027 Yearly: 1.86
+    2028 Yearly: 2.06
+    2029 Yearly: 2.01

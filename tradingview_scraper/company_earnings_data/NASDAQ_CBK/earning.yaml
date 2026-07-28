@@ -1,13 +1,14 @@
 currency: USD
 company_name: Commercial Bancgroup, Inc.
 sector: Finance
-market_cap_billions: 0.45968000000000003
+market_cap_billions: 0.47489
 revenue:
   quarterly:
     Q2 2025: 22.3
     Q3 2025: 22.9
     Q4 2025: 23.48
     Q1 2026: 23.07
+    Q2 2026: 24.16
   annual:
     2025 Yearly: 90.36
   quarterly_forecast:
@@ -18,6 +19,7 @@ revenue:
     Q3 2026: 24.2
     Q4 2026: 24.7
     Q1 2027: 24.1
+    Q2 2027: 25.0
   annual_forecast:
     2025 Yearly: 90.2
     2026 Yearly: 95.4
@@ -28,6 +30,7 @@ eps:
     Q3 2025: 0.77
     Q4 2025: 0.72
     Q1 2026: 0.73
+    Q2 2026: 0.75
   annual:
     2025 Yearly: 2.96
   quarterly_forecast:
@@ -38,6 +41,7 @@ eps:
     Q3 2026: 0.74
     Q4 2026: 0.76
     Q1 2027: 0.74
+    Q2 2027: 0.77
   annual_forecast:
     2025 Yearly: 2.95
     2026 Yearly: 2.93
