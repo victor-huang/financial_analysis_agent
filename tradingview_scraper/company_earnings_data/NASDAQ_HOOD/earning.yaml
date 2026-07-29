@@ -1,0 +1,78 @@
+currency: USD
+company_name: Robinhood Markets, Inc.
+sector: Finance
+market_cap_billions: 80.97
+revenue:
+  quarterly:
+    Q3 2024: 637.0
+    Q4 2024: 1010.0
+    Q1 2025: 927.0
+    Q2 2025: 989.0
+    Q3 2025: 1270.0
+    Q4 2025: 1280.0
+    Q1 2026: 1070.0
+  annual:
+    2021 Yearly: 1820.0
+    2022 Yearly: 1360.0
+    2023 Yearly: 1860.0
+    2024 Yearly: 2950.0
+    2025 Yearly: 4470.0
+  quarterly_forecast:
+    Q3 2024: 660.53
+    Q4 2024: 945.78
+    Q1 2025: 920.08
+    Q2 2025: 914.55
+    Q3 2025: 1210.0
+    Q4 2025: 1350.0
+    Q1 2026: 1140.0
+    Q2 2026: 1290.0
+    Q3 2026: 1330.0
+    Q4 2026: 1440.0
+    Q1 2027: 1460.0
+  annual_forecast:
+    2021 Yearly: 1830.0
+    2022 Yearly: 1370.0
+    2023 Yearly: 1850.0
+    2024 Yearly: 2870.0
+    2025 Yearly: 4530.0
+    2026 Yearly: 5110.0
+    2027 Yearly: 6410.0
+    2028 Yearly: 7510.0
+    2029 Yearly: 8940.0
+eps:
+  quarterly:
+    Q3 2024: 0.17
+    Q4 2024: 1.01
+    Q1 2025: 0.37
+    Q2 2025: 0.42
+    Q3 2025: 0.61
+    Q4 2025: 0.66
+    Q1 2026: 0.38
+  annual:
+    2021 Yearly: -7.49
+    2022 Yearly: -1.17
+    2023 Yearly: -0.61
+    2024 Yearly: 1.56
+    2025 Yearly: 2.05
+  quarterly_forecast:
+    Q3 2024: 0.18
+    Q4 2024: 0.42
+    Q1 2025: 0.33
+    Q2 2025: 0.31
+    Q3 2025: 0.54
+    Q4 2025: 0.63
+    Q1 2026: 0.39
+    Q2 2026: 0.43
+    Q3 2026: 0.5
+    Q4 2026: 0.59
+    Q1 2027: 0.6
+  annual_forecast:
+    2021 Yearly: -5.51
+    2022 Yearly: -1.12
+    2023 Yearly: -0.64
+    2024 Yearly: 0.95
+    2025 Yearly: 2.04
+    2026 Yearly: 1.92
+    2027 Yearly: 2.72
+    2028 Yearly: 3.31
+    2029 Yearly: 3.74

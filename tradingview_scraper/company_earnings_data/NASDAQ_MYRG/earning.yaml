@@ -1,0 +1,78 @@
+currency: USD
+company_name: MYR Group, Inc.
+sector: Industrial Services
+market_cap_billions: 5.01
+revenue:
+  quarterly:
+    Q3 2024: 888.04
+    Q4 2024: 829.79
+    Q1 2025: 833.62
+    Q2 2025: 900.33
+    Q3 2025: 950.4
+    Q4 2025: 973.54
+    Q1 2026: 1000.0
+  annual:
+    2021 Yearly: 2500.0
+    2022 Yearly: 3010.0
+    2023 Yearly: 3640.0
+    2024 Yearly: 3360.0
+    2025 Yearly: 3660.0
+  quarterly_forecast:
+    Q3 2024: 917.18
+    Q4 2024: 886.59
+    Q1 2025: 785.93
+    Q2 2025: 836.22
+    Q3 2025: 925.3
+    Q4 2025: 897.95
+    Q1 2026: 932.45
+    Q2 2026: 995.74
+    Q3 2026: 1070.0
+    Q4 2026: 1080.0
+    Q1 2027: 1090.0
+  annual_forecast:
+    2021 Yearly: 2460.0
+    2022 Yearly: 2890.0
+    2023 Yearly: 3540.0
+    2024 Yearly: 3420.0
+    2025 Yearly: 3580.0
+    2026 Yearly: 4150.0
+    2027 Yearly: 4640.0
+    2028 Yearly: 5290.0
+    2029 Yearly: 5920.0
+eps:
+  quarterly:
+    Q3 2024: 0.65
+    Q4 2024: 0.99
+    Q1 2025: 1.45
+    Q2 2025: 1.7
+    Q3 2025: 2.05
+    Q4 2025: 2.33
+    Q1 2026: 2.99
+  annual:
+    2021 Yearly: 4.95
+    2022 Yearly: 4.91
+    2023 Yearly: 5.4
+    2024 Yearly: 1.83
+    2025 Yearly: 7.53
+  quarterly_forecast:
+    Q3 2024: 0.35
+    Q4 2024: 0.7
+    Q1 2025: 1.2
+    Q2 2025: 1.52
+    Q3 2025: 1.92
+    Q4 2025: 1.87
+    Q1 2026: 2.05
+    Q2 2026: 2.62
+    Q3 2026: 2.93
+    Q4 2026: 2.93
+    Q1 2027: 3.15
+  annual_forecast:
+    2021 Yearly: 4.88
+    2022 Yearly: 4.49
+    2023 Yearly: 5.48
+    2024 Yearly: 1.55
+    2025 Yearly: 7.07
+    2026 Yearly: 11.47
+    2027 Yearly: 13.47
+    2028 Yearly: 16.55
+    2029 Yearly: 19.35

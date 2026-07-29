@@ -1,0 +1,76 @@
+currency: USD
+company_name: Q2 Holdings, Inc.
+sector: Technology Services
+market_cap_billions: 3.78
+revenue:
+  quarterly:
+    Q3 2024: 175.02
+    Q4 2024: 183.04
+    Q1 2025: 189.74
+    Q2 2025: 195.15
+    Q3 2025: 201.7
+    Q4 2025: 208.22
+    Q1 2026: 216.51
+  annual:
+    2021 Yearly: 500.85
+    2022 Yearly: 566.32
+    2023 Yearly: 624.97
+    2024 Yearly: 696.46
+    2025 Yearly: 794.81
+  quarterly_forecast:
+    Q3 2024: 173.47
+    Q4 2024: 179.94
+    Q1 2025: 186.7
+    Q2 2025: 193.68
+    Q3 2025: 197.78
+    Q4 2025: 204.69
+    Q1 2026: 214.4
+    Q2 2026: 216.86
+    Q3 2026: 219.41
+    Q4 2026: 227.08
+    Q1 2027: 236.94
+  annual_forecast:
+    2021 Yearly: 500.45
+    2022 Yearly: 568.97
+    2023 Yearly: 624.18
+    2024 Yearly: 693.59
+    2025 Yearly: 791.4
+    2026 Yearly: 879.89
+    2027 Yearly: 968.87
+    2028 Yearly: 1070.0
+eps:
+  quarterly:
+    Q3 2024: 0.26
+    Q4 2024: 0.48
+    Q1 2025: 0.54
+    Q2 2025: 0.5
+    Q3 2025: 0.66
+    Q4 2025: 0.69
+    Q1 2026: 0.63
+  annual:
+    2021 Yearly: 0.32
+    2022 Yearly: 0.26
+    2023 Yearly: 0.87
+    2024 Yearly: 1.65
+    2025 Yearly: 2.55
+  quarterly_forecast:
+    Q3 2024: 0.36
+    Q4 2024: 0.48
+    Q1 2025: 0.47
+    Q2 2025: 0.53
+    Q3 2025: 0.56
+    Q4 2025: 0.61
+    Q1 2026: 0.71
+    Q2 2026: 0.68
+    Q3 2026: 0.69
+    Q4 2026: 0.71
+    Q1 2027: 0.78
+  annual_forecast:
+    2021 Yearly: 0.26
+    2022 Yearly: 0.31
+    2023 Yearly: 0.86
+    2024 Yearly: 1.61
+    2025 Yearly: 2.37
+    2026 Yearly: 2.82
+    2027 Yearly: 3.32
+    2028 Yearly: 3.96

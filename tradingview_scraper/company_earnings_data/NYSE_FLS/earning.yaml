@@ -1,0 +1,78 @@
+currency: USD
+company_name: Flowserve Corporation
+sector: Producer Manufacturing
+market_cap_billions: 8.94
+revenue:
+  quarterly:
+    Q3 2024: 1130.0
+    Q4 2024: 1180.0
+    Q1 2025: 1140.0
+    Q2 2025: 1190.0
+    Q3 2025: 1170.0
+    Q4 2025: 1220.0
+    Q1 2026: 1070.0
+  annual:
+    2021 Yearly: 3540.0
+    2022 Yearly: 3620.0
+    2023 Yearly: 4320.0
+    2024 Yearly: 4560.0
+    2025 Yearly: 4730.0
+  quarterly_forecast:
+    Q3 2024: 1120.0
+    Q4 2024: 1210.0
+    Q1 2025: 1110.0
+    Q2 2025: 1220.0
+    Q3 2025: 1210.0
+    Q4 2025: 1260.0
+    Q1 2026: 1170.0
+    Q2 2026: 1160.0
+    Q3 2026: 1290.0
+    Q4 2026: 1360.0
+    Q1 2027: 1200.0
+  annual_forecast:
+    2021 Yearly: 3580.0
+    2022 Yearly: 3590.0
+    2023 Yearly: 4290.0
+    2024 Yearly: 4590.0
+    2025 Yearly: 4770.0
+    2026 Yearly: 4880.0
+    2027 Yearly: 5230.0
+    2028 Yearly: 5440.0
+    2029 Yearly: 5750.0
+eps:
+  quarterly:
+    Q3 2024: 0.62
+    Q4 2024: 0.7
+    Q1 2025: 0.72
+    Q2 2025: 0.91
+    Q3 2025: 0.9
+    Q4 2025: 1.11
+    Q1 2026: 0.85
+  annual:
+    2021 Yearly: 1.38
+    2022 Yearly: 1.1
+    2023 Yearly: 2.1
+    2024 Yearly: 2.63
+    2025 Yearly: 3.64
+  quarterly_forecast:
+    Q3 2024: 0.67
+    Q4 2024: 0.77
+    Q1 2025: 0.6
+    Q2 2025: 0.78
+    Q3 2025: 0.8
+    Q4 2025: 0.94
+    Q1 2026: 0.8
+    Q2 2026: 0.86
+    Q3 2026: 1.06
+    Q4 2026: 1.28
+    Q1 2027: 0.95
+  annual_forecast:
+    2021 Yearly: 1.42
+    2022 Yearly: 1.02
+    2023 Yearly: 2.02
+    2024 Yearly: 2.7
+    2025 Yearly: 3.49
+    2026 Yearly: 4.06
+    2027 Yearly: 4.61
+    2028 Yearly: 5.1
+    2029 Yearly: 5.65

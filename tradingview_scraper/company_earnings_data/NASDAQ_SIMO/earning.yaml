@@ -1,0 +1,76 @@
+currency: USD
+company_name: Silicon Motion Technology Corporation
+sector: Electronic Technology
+market_cap_billions: 7.43
+revenue:
+  quarterly:
+    Q3 2024: 212.41
+    Q4 2024: 191.16
+    Q1 2025: 166.49
+    Q2 2025: 198.68
+    Q3 2025: 242.0
+    Q4 2025: 278.46
+    Q1 2026: 342.11
+  annual:
+    2021 Yearly: 922.1
+    2022 Yearly: 945.92
+    2023 Yearly: 639.14
+    2024 Yearly: 803.55
+    2025 Yearly: 885.63
+  quarterly_forecast:
+    Q3 2024: 209.49
+    Q4 2024: 195.12
+    Q1 2025: 162.65
+    Q2 2025: 181.46
+    Q3 2025: 223.14
+    Q4 2025: 260.99
+    Q1 2026: 299.53
+    Q2 2026: 403.41
+    Q3 2026: 432.09
+    Q4 2026: 452.17
+    Q1 2027: 425.75
+  annual_forecast:
+    2021 Yearly: 920.04
+    2022 Yearly: 992.95
+    2023 Yearly: 630.38
+    2024 Yearly: 807.72
+    2025 Yearly: 865.89
+    2026 Yearly: 1640.0
+    2027 Yearly: 1960.0
+    2028 Yearly: 2460.0
+eps:
+  quarterly:
+    Q3 2024: 0.92
+    Q4 2024: 0.91
+    Q1 2025: 0.6
+    Q2 2025: 0.69
+    Q3 2025: 1.0
+    Q4 2025: 1.26
+    Q1 2026: 1.58
+  annual:
+    2021 Yearly: 6.21
+    2022 Yearly: 6.36
+    2023 Yearly: 2.27
+    2024 Yearly: 3.43
+    2025 Yearly: 3.55
+  quarterly_forecast:
+    Q3 2024: 0.84
+    Q4 2024: 0.74
+    Q1 2025: 0.45
+    Q2 2025: 0.56
+    Q3 2025: 0.84
+    Q4 2025: 1.26
+    Q1 2026: 1.28
+    Q2 2026: 2.13
+    Q3 2026: 2.34
+    Q4 2026: 2.8
+    Q1 2027: 2.44
+  annual_forecast:
+    2021 Yearly: 6.01
+    2022 Yearly: 6.45
+    2023 Yearly: 2.01
+    2024 Yearly: 3.2
+    2025 Yearly: 3.57
+    2026 Yearly: 8.88
+    2027 Yearly: 11.25
+    2028 Yearly: 16.07

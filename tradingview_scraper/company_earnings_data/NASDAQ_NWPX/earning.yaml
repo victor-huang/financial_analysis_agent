@@ -1,0 +1,78 @@
+currency: USD
+company_name: NWPX Infrastructure, Inc.
+sector: Non-Energy Minerals
+market_cap_billions: 1.19
+revenue:
+  quarterly:
+    Q3 2024: 130.2
+    Q4 2024: 119.63
+    Q1 2025: 116.11
+    Q2 2025: 133.18
+    Q3 2025: 151.07
+    Q4 2025: 125.64
+    Q1 2026: 138.25
+  annual:
+    2021 Yearly: 333.31
+    2022 Yearly: 457.67
+    2023 Yearly: 444.36
+    2024 Yearly: 492.55
+    2025 Yearly: 526.0
+  quarterly_forecast:
+    Q3 2024: 127.2
+    Q4 2024: 120.33
+    Q1 2025: 111.93
+    Q2 2025: 120.93
+    Q3 2025: 132.0
+    Q4 2025: 122.0
+    Q1 2026: 125.1
+    Q2 2026: 154.7
+    Q3 2026: 167.7
+    Q4 2026: 137.17
+    Q1 2027: 134.45
+  annual_forecast:
+    2021 Yearly: 322.79
+    2022 Yearly: 460.17
+    2023 Yearly: 442.36
+    2024 Yearly: 493.24
+    2025 Yearly: 522.39
+    2026 Yearly: 597.8
+    2027 Yearly: 599.3
+    2028 Yearly: 637.74
+    2029 Yearly: 594.34
+eps:
+  quarterly:
+    Q3 2024: 1.02
+    Q4 2024: 1.0
+    Q1 2025: 0.39
+    Q2 2025: 0.91
+    Q3 2025: 1.38
+    Q4 2025: 0.91
+    Q1 2026: 1.08
+  annual:
+    2021 Yearly: 1.66
+    2022 Yearly: 3.35
+    2023 Yearly: 2.09
+    2024 Yearly: 3.4
+    2025 Yearly: 3.56
+  quarterly_forecast:
+    Q3 2024: 0.85
+    Q4 2024: 0.91
+    Q1 2025: 0.53
+    Q2 2025: 0.72
+    Q3 2025: 1.02
+    Q4 2025: 0.62
+    Q1 2026: 0.68
+    Q2 2026: 1.33
+    Q3 2026: 1.5
+    Q4 2026: 1.07
+    Q1 2027: 0.85
+  annual_forecast:
+    2021 Yearly: 1.49
+    2022 Yearly: 3.28
+    2023 Yearly: 1.97
+    2024 Yearly: 3.32
+    2025 Yearly: 3.29
+    2026 Yearly: 4.97
+    2027 Yearly: 5.04
+    2028 Yearly: 5.5
+    2029 Yearly: 4.88

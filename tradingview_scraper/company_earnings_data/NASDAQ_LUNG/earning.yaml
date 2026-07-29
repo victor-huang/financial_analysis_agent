@@ -1,0 +1,78 @@
+currency: USD
+company_name: Pulmonx Corporation
+sector: Health Technology
+market_cap_billions: 0.0528
+revenue:
+  quarterly:
+    Q3 2024: 20.39
+    Q4 2024: 23.77
+    Q1 2025: 22.54
+    Q2 2025: 23.86
+    Q3 2025: 21.5
+    Q4 2025: 22.6
+    Q1 2026: 20.59
+  annual:
+    2021 Yearly: 48.42
+    2022 Yearly: 53.66
+    2023 Yearly: 68.67
+    2024 Yearly: 83.79
+    2025 Yearly: 90.5
+  quarterly_forecast:
+    Q3 2024: 20.29
+    Q4 2024: 22.29
+    Q1 2025: 22.03
+    Q2 2025: 23.65
+    Q3 2025: 20.98
+    Q4 2025: 21.73
+    Q1 2026: 20.43
+    Q2 2026: 22.39
+    Q3 2026: 22.66
+    Q4 2026: 25.14
+    Q1 2027: 22.84
+  annual_forecast:
+    2021 Yearly: 49.0
+    2022 Yearly: 52.16
+    2023 Yearly: 67.64
+    2024 Yearly: 82.32
+    2025 Yearly: 89.63
+    2026 Yearly: 90.77
+    2027 Yearly: 98.08
+    2028 Yearly: 109.56
+    2029 Yearly: 127.9
+eps:
+  quarterly:
+    Q3 2024: -0.36
+    Q4 2024: -0.33
+    Q1 2025: -0.36
+    Q2 2025: -0.38
+    Q3 2025: -0.34
+    Q4 2025: -0.25
+    Q1 2026: -0.33
+  annual:
+    2021 Yearly: -1.35
+    2022 Yearly: -1.59
+    2023 Yearly: -1.6
+    2024 Yearly: -1.44
+    2025 Yearly: -1.33
+  quarterly_forecast:
+    Q3 2024: -0.45
+    Q4 2024: -0.45
+    Q1 2025: -0.4
+    Q2 2025: -0.39
+    Q3 2025: -0.42
+    Q4 2025: -0.39
+    Q1 2026: -0.33
+    Q2 2026: -0.28
+    Q3 2026: -0.29
+    Q4 2026: -0.25
+    Q1 2027: -0.28
+  annual_forecast:
+    2021 Yearly: -1.35
+    2022 Yearly: -1.62
+    2023 Yearly: -1.65
+    2024 Yearly: -1.56
+    2025 Yearly: -1.46
+    2026 Yearly: -1.14
+    2027 Yearly: -1.04
+    2028 Yearly: -0.79
+    2029 Yearly: -0.41

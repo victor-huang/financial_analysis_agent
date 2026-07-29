@@ -1,0 +1,78 @@
+currency: USD
+company_name: Glaukos Corporation
+sector: Health Technology
+market_cap_billions: 9.49
+revenue:
+  quarterly:
+    Q3 2024: 96.67
+    Q4 2024: 105.5
+    Q1 2025: 106.66
+    Q2 2025: 124.12
+    Q3 2025: 133.54
+    Q4 2025: 143.12
+    Q1 2026: 150.57
+  annual:
+    2021 Yearly: 294.01
+    2022 Yearly: 282.86
+    2023 Yearly: 314.71
+    2024 Yearly: 383.48
+    2025 Yearly: 507.44
+  quarterly_forecast:
+    Q3 2024: 91.5
+    Q4 2024: 100.75
+    Q1 2025: 102.48
+    Q2 2025: 115.52
+    Q3 2025: 122.44
+    Q4 2025: 136.4
+    Q1 2026: 137.0
+    Q2 2026: 150.93
+    Q3 2026: 155.95
+    Q4 2026: 172.54
+    Q1 2027: 178.08
+  annual_forecast:
+    2021 Yearly: 288.16
+    2022 Yearly: 279.63
+    2023 Yearly: 313.0
+    2024 Yearly: 378.74
+    2025 Yearly: 500.21
+    2026 Yearly: 630.02
+    2027 Yearly: 787.55
+    2028 Yearly: 1020.0
+    2029 Yearly: 1320.0
+eps:
+  quarterly:
+    Q3 2024: -0.28
+    Q4 2024: -0.4
+    Q1 2025: -0.22
+    Q2 2025: -0.24
+    Q3 2025: -0.16
+    Q4 2025: -0.28
+    Q1 2026: -0.18
+  annual:
+    2021 Yearly: -0.83
+    2022 Yearly: -2.18
+    2023 Yearly: -2.27
+    2024 Yearly: -1.86
+    2025 Yearly: -0.9
+  quarterly_forecast:
+    Q3 2024: -0.48
+    Q4 2024: -0.38
+    Q1 2025: -0.35
+    Q2 2025: -0.26
+    Q3 2025: -0.26
+    Q4 2025: -0.2
+    Q1 2026: -0.28
+    Q2 2026: -0.21
+    Q3 2026: -0.13
+    Q4 2026: 0.01
+    Q1 2027: 0.0
+  annual_forecast:
+    2021 Yearly: -0.88
+    2022 Yearly: -2.2
+    2023 Yearly: -2.22
+    2024 Yearly: -1.83
+    2025 Yearly: -0.82
+    2026 Yearly: -0.51
+    2027 Yearly: 0.42
+    2028 Yearly: 1.51
+    2029 Yearly: 2.73

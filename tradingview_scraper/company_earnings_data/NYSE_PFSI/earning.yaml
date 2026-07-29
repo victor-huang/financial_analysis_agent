@@ -1,0 +1,76 @@
+currency: USD
+company_name: PennyMac Financial Services, Inc.
+sector: Finance
+market_cap_billions: 4.47
+revenue:
+  quarterly:
+    Q3 2024: 411.83
+    Q4 2024: 470.11
+    Q1 2025: 430.9
+    Q2 2025: 444.73
+    Q3 2025: 632.9
+    Q4 2025: 538.0
+    Q1 2026: 544.98
+  annual:
+    2021 Yearly: 3170.0
+    2022 Yearly: 1990.0
+    2023 Yearly: 1400.0
+    2024 Yearly: 1590.0
+    2025 Yearly: 2050.0
+  quarterly_forecast:
+    Q3 2024: 513.12
+    Q4 2024: 525.98
+    Q1 2025: 531.36
+    Q2 2025: 553.79
+    Q3 2025: 591.24
+    Q4 2025: 632.63
+    Q1 2026: 546.17
+    Q2 2026: 571.6
+    Q3 2026: 606.59
+    Q4 2026: 624.66
+    Q1 2027: 620.99
+  annual_forecast:
+    2021 Yearly: 3230.0
+    2022 Yearly: 1950.0
+    2023 Yearly: 1460.0
+    2024 Yearly: 1650.0
+    2025 Yearly: 2190.0
+    2026 Yearly: 2360.0
+    2027 Yearly: 2640.0
+    2028 Yearly: 2920.0
+eps:
+  quarterly:
+    Q3 2024: 1.3
+    Q4 2024: 1.95
+    Q1 2025: 1.42
+    Q2 2025: 2.54
+    Q3 2025: 3.37
+    Q4 2025: 1.97
+    Q1 2026: 1.53
+  annual:
+    2021 Yearly: 14.87
+    2022 Yearly: 8.5
+    2023 Yearly: 2.74
+    2024 Yearly: 5.84
+    2025 Yearly: 9.3
+  quarterly_forecast:
+    Q3 2024: 2.72
+    Q4 2024: 3.12
+    Q1 2025: 2.63
+    Q2 2025: 2.75
+    Q3 2025: 2.7
+    Q4 2025: 3.1
+    Q1 2026: 2.26
+    Q2 2026: 2.11
+    Q3 2026: 2.64
+    Q4 2026: 3.03
+    Q1 2027: 3.24
+  annual_forecast:
+    2021 Yearly: 15.48
+    2022 Yearly: 8.42
+    2023 Yearly: 2.24
+    2024 Yearly: 7.2
+    2025 Yearly: 10.43
+    2026 Yearly: 9.27
+    2027 Yearly: 13.29
+    2028 Yearly: 15.59

@@ -1,0 +1,76 @@
+currency: USD
+company_name: Meritage Homes Corporation
+sector: Finance
+market_cap_billions: 4.78
+revenue:
+  quarterly:
+    Q3 2024: 1590.0
+    Q4 2024: 1610.0
+    Q1 2025: 1360.0
+    Q2 2025: 1620.0
+    Q3 2025: 1420.0
+    Q4 2025: 1430.0
+    Q1 2026: 1120.0
+  annual:
+    2021 Yearly: 5120.0
+    2022 Yearly: 6270.0
+    2023 Yearly: 6110.0
+    2024 Yearly: 6360.0
+    2025 Yearly: 5820.0
+  quarterly_forecast:
+    Q3 2024: 1580.0
+    Q4 2024: 1570.0
+    Q1 2025: 1340.0
+    Q2 2025: 1580.0
+    Q3 2025: 1480.0
+    Q4 2025: 1510.0
+    Q1 2026: 1180.0
+    Q2 2026: 1430.0
+    Q3 2026: 1400.0
+    Q4 2026: 1520.0
+    Q1 2027: 1160.0
+  annual_forecast:
+    2021 Yearly: 5130.0
+    2022 Yearly: 6260.0
+    2023 Yearly: 6000.0
+    2024 Yearly: 6340.0
+    2025 Yearly: 5920.0
+    2026 Yearly: 5470.0
+    2027 Yearly: 5940.0
+    2028 Yearly: 6370.0
+eps:
+  quarterly:
+    Q3 2024: 2.67
+    Q4 2024: 2.36
+    Q1 2025: 1.69
+    Q2 2025: 2.04
+    Q3 2025: 1.39
+    Q4 2025: 1.2
+    Q1 2026: 0.82
+  annual:
+    2021 Yearly: 9.64
+    2022 Yearly: 13.37
+    2023 Yearly: 9.96
+    2024 Yearly: 10.72
+    2025 Yearly: 6.35
+  quarterly_forecast:
+    Q3 2024: 2.49
+    Q4 2024: 2.24
+    Q1 2025: 1.69
+    Q2 2025: 1.98
+    Q3 2025: 1.63
+    Q4 2025: 1.56
+    Q1 2026: 0.93
+    Q2 2026: 1.29
+    Q3 2026: 1.39
+    Q4 2026: 1.49
+    Q1 2027: 1.06
+  annual_forecast:
+    2021 Yearly: 9.56
+    2022 Yearly: 13.34
+    2023 Yearly: 9.85
+    2024 Yearly: 10.6
+    2025 Yearly: 6.7
+    2026 Yearly: 4.98
+    2027 Yearly: 6.34
+    2028 Yearly: 7.88

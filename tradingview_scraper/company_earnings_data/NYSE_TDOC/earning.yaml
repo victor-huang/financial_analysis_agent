@@ -1,0 +1,78 @@
+currency: USD
+company_name: Teladoc Health, Inc.
+sector: Health Services
+market_cap_billions: 1.66
+revenue:
+  quarterly:
+    Q3 2024: 640.51
+    Q4 2024: 640.49
+    Q1 2025: 629.37
+    Q2 2025: 631.9
+    Q3 2025: 626.44
+    Q4 2025: 642.27
+    Q1 2026: 613.85
+  annual:
+    2021 Yearly: 2029.9999999999998
+    2022 Yearly: 2410.0
+    2023 Yearly: 2600.0
+    2024 Yearly: 2570.0
+    2025 Yearly: 2530.0
+  quarterly_forecast:
+    Q3 2024: 631.18
+    Q4 2024: 639.55
+    Q1 2025: 619.2
+    Q2 2025: 622.54
+    Q3 2025: 625.76
+    Q4 2025: 635.31
+    Q1 2026: 610.85
+    Q2 2026: 615.44
+    Q3 2026: 629.18
+    Q4 2026: 649.14
+    Q1 2027: 626.73
+  annual_forecast:
+    2021 Yearly: 2029.9999999999998
+    2022 Yearly: 2400.0
+    2023 Yearly: 2610.0
+    2024 Yearly: 2570.0
+    2025 Yearly: 2520.0
+    2026 Yearly: 2510.0
+    2027 Yearly: 2540.0
+    2028 Yearly: 2570.0
+    2029 Yearly: 2640.0
+eps:
+  quarterly:
+    Q3 2024: -0.19
+    Q4 2024: -0.28
+    Q1 2025: -0.53
+    Q2 2025: -0.19
+    Q3 2025: -0.28
+    Q4 2025: -0.14
+    Q1 2026: -0.36
+  annual:
+    2021 Yearly: -2.73
+    2022 Yearly: -84.6
+    2023 Yearly: -1.34
+    2024 Yearly: -5.87
+    2025 Yearly: -1.14
+  quarterly_forecast:
+    Q3 2024: -0.28
+    Q4 2024: -0.26
+    Q1 2025: -0.34
+    Q2 2025: -0.26
+    Q3 2025: -0.26
+    Q4 2025: -0.18
+    Q1 2026: -0.34
+    Q2 2026: -0.25
+    Q3 2026: -0.18
+    Q4 2026: -0.13
+    Q1 2027: -0.21
+  annual_forecast:
+    2021 Yearly: -3.25
+    2022 Yearly: -61.26
+    2023 Yearly: -1.38
+    2024 Yearly: -5.82
+    2025 Yearly: -1.18
+    2026 Yearly: -0.91
+    2027 Yearly: -0.64
+    2028 Yearly: -0.45
+    2029 Yearly: -0.19

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Omega Healthcare Investors, Inc.
+sector: Finance
+market_cap_billions: 15.3
+revenue:
+  quarterly:
+    Q3 2024: 227.77
+    Q4 2024: 230.81
+    Q1 2025: 228.38
+    Q2 2025: 235.6
+    Q3 2025: 260.74
+    Q4 2025: 261.36
+    Q1 2026: 266.86
+  annual:
+    2021 Yearly: 910.72
+    2022 Yearly: 734.24
+    2023 Yearly: 810.02
+    2024 Yearly: 872.19
+    2025 Yearly: 986.07
+  quarterly_forecast:
+    Q3 2024: 215.79
+    Q4 2024: 228.45
+    Q1 2025: 236.07
+    Q2 2025: 240.57
+    Q3 2025: 251.12
+    Q4 2025: 264.51
+    Q1 2026: 264.07
+    Q2 2026: 266.97
+    Q3 2026: 270.12
+    Q4 2026: 275.06
+    Q1 2027: 281.03
+  annual_forecast:
+    2021 Yearly: 931.65
+    2022 Yearly: 836.1
+    2023 Yearly: 810.99
+    2024 Yearly: 881.12
+    2025 Yearly: 986.63
+    2026 Yearly: 1080.0
+    2027 Yearly: 1140.0
+    2028 Yearly: 1220.0
+    2029 Yearly: 1220.0
+eps:
+  quarterly:
+    Q3 2024: 0.42
+    Q4 2024: 0.41
+    Q1 2025: 0.33
+    Q2 2025: 0.46
+    Q3 2025: 0.59
+    Q4 2025: 0.55
+    Q1 2026: 0.47
+  annual:
+    2021 Yearly: 1.75
+    2022 Yearly: 1.8
+    2023 Yearly: 1.0
+    2024 Yearly: 1.55
+    2025 Yearly: 1.94
+  quarterly_forecast:
+    Q3 2024: 0.39
+    Q4 2024: 0.43
+    Q1 2025: 0.45
+    Q2 2025: 0.43
+    Q3 2025: 0.46
+    Q4 2025: 0.5
+    Q1 2026: 0.48
+    Q2 2026: 0.51
+    Q3 2026: 0.49
+    Q4 2026: 0.49
+    Q1 2027: 0.49
+  annual_forecast:
+    2021 Yearly: 2.06
+    2022 Yearly: 2.08
+    2023 Yearly: 1.12
+    2024 Yearly: 1.53
+    2025 Yearly: 1.93
+    2026 Yearly: 1.99
+    2027 Yearly: 2.01
+    2028 Yearly: 2.08
+    2029 Yearly: 1.98

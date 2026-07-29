@@ -1,0 +1,76 @@
+currency: USD
+company_name: Alkami Technology, Inc.
+sector: Technology Services
+market_cap_billions: 1.96
+revenue:
+  quarterly:
+    Q3 2024: 85.91
+    Q4 2024: 89.66
+    Q1 2025: 97.83
+    Q2 2025: 112.06
+    Q3 2025: 112.95
+    Q4 2025: 120.79
+    Q1 2026: 126.14
+  annual:
+    2021 Yearly: 152.16
+    2022 Yearly: 204.27
+    2023 Yearly: 264.83
+    2024 Yearly: 333.85
+    2025 Yearly: 443.64
+  quarterly_forecast:
+    Q3 2024: 84.79
+    Q4 2024: 89.63
+    Q1 2025: 94.41
+    Q2 2025: 110.01
+    Q3 2025: 113.23
+    Q4 2025: 120.11
+    Q1 2026: 125.22
+    Q2 2026: 128.7
+    Q3 2026: 134.02
+    Q4 2026: 140.88
+    Q1 2027: 145.95
+  annual_forecast:
+    2021 Yearly: 150.86
+    2022 Yearly: 203.75
+    2023 Yearly: 264.62
+    2024 Yearly: 333.79
+    2025 Yearly: 442.99
+    2026 Yearly: 529.69
+    2027 Yearly: 620.44
+    2028 Yearly: 714.25
+eps:
+  quarterly:
+    Q3 2024: 0.09
+    Q4 2024: 0.08
+    Q1 2025: 0.07
+    Q2 2025: 0.02
+    Q3 2025: 0.14
+    Q4 2025: 0.16
+    Q1 2026: 0.18
+  annual:
+    2021 Yearly: -0.39
+    2022 Yearly: -0.23
+    2023 Yearly: -0.04
+    2024 Yearly: 0.21
+    2025 Yearly: 0.51
+  quarterly_forecast:
+    Q3 2024: 0.06
+    Q4 2024: 0.08
+    Q1 2025: 0.09
+    Q2 2025: 0.08
+    Q3 2025: 0.12
+    Q4 2025: 0.14
+    Q1 2026: 0.18
+    Q2 2026: 0.15
+    Q3 2026: 0.21
+    Q4 2026: 0.25
+    Q1 2027: 0.24
+  annual_forecast:
+    2021 Yearly: -0.36
+    2022 Yearly: -0.25
+    2023 Yearly: -0.04
+    2024 Yearly: 0.27
+    2025 Yearly: 0.52
+    2026 Yearly: 0.77
+    2027 Yearly: 1.08
+    2028 Yearly: 1.35

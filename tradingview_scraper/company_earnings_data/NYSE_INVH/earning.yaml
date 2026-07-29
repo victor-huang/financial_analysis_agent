@@ -1,0 +1,76 @@
+currency: USD
+company_name: Invitation Homes Inc.
+sector: Finance
+market_cap_billions: 17.89
+revenue:
+  quarterly:
+    Q3 2024: 660.32
+    Q4 2024: 659.13
+    Q1 2025: 674.48
+    Q2 2025: 681.4
+    Q3 2025: 688.17
+    Q4 2025: 685.25
+    Q1 2026: 734.11
+  annual:
+    2021 Yearly: 2000.0
+    2022 Yearly: 2240.0
+    2023 Yearly: 2430.0
+    2024 Yearly: 2620.0
+    2025 Yearly: 2730.0
+  quarterly_forecast:
+    Q3 2024: 647.74
+    Q4 2024: 649.39
+    Q1 2025: 660.4
+    Q2 2025: 673.88
+    Q3 2025: 682.33
+    Q4 2025: 686.67
+    Q1 2026: 689.92
+    Q2 2026: 731.13
+    Q3 2026: 737.79
+    Q4 2026: 736.4
+    Q1 2027: 735.9
+  annual_forecast:
+    2021 Yearly: 1980.0
+    2022 Yearly: 2190.0
+    2023 Yearly: 2390.0
+    2024 Yearly: 2560.0
+    2025 Yearly: 2730.0
+    2026 Yearly: 2920.0
+    2027 Yearly: 2990.0
+    2028 Yearly: 3080.0
+eps:
+  quarterly:
+    Q3 2024: 0.15
+    Q4 2024: 0.23
+    Q1 2025: 0.27
+    Q2 2025: 0.23
+    Q3 2025: 0.22
+    Q4 2025: 0.24
+    Q1 2026: 0.26
+  annual:
+    2021 Yearly: 0.45
+    2022 Yearly: 0.63
+    2023 Yearly: 0.85
+    2024 Yearly: 0.74
+    2025 Yearly: 0.96
+  quarterly_forecast:
+    Q3 2024: 0.17
+    Q4 2024: 0.18
+    Q1 2025: 0.18
+    Q2 2025: 0.19
+    Q3 2025: 0.18
+    Q4 2025: 0.18
+    Q1 2026: 0.18
+    Q2 2026: 0.17
+    Q3 2026: 0.17
+    Q4 2026: 0.18
+    Q1 2027: 0.18
+  annual_forecast:
+    2021 Yearly: 0.46
+    2022 Yearly: 0.61
+    2023 Yearly: 0.81
+    2024 Yearly: 0.69
+    2025 Yearly: 0.91
+    2026 Yearly: 0.77
+    2027 Yearly: 0.72
+    2028 Yearly: 0.79

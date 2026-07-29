@@ -1,0 +1,74 @@
+currency: USD
+company_name: FinWise Bancorp
+sector: Finance
+market_cap_billions: 0.19326
+revenue:
+  quarterly:
+    Q4 2024: 21.13
+    Q1 2025: 22.09
+    Q2 2025: 25.07
+    Q3 2025: 36.66
+    Q4 2025: 46.85
+    Q1 2026: 42.72
+    Q2 2026: 54.34
+  annual:
+    2021 Yearly: 79.82
+    2022 Yearly: 88.31
+    2023 Yearly: 75.64
+    2024 Yearly: 81.4
+    2025 Yearly: 130.67
+  quarterly_forecast:
+    Q4 2024: 20.65
+    Q1 2025: 22.63
+    Q2 2025: 22.08
+    Q3 2025: 28.2
+    Q4 2025: 42.32
+    Q1 2026: 50.48
+    Q2 2026: 47.11
+    Q3 2026: 56.17
+    Q4 2026: 59.45
+    Q1 2027: 62.37
+    Q2 2027: 66.47
+  annual_forecast:
+    2021 Yearly: 74.43
+    2022 Yearly: 85.98
+    2023 Yearly: 73.69
+    2024 Yearly: 80.99
+    2025 Yearly: 125.7
+    2026 Yearly: 205.51
+    2027 Yearly: 279.19
+eps:
+  quarterly:
+    Q4 2024: 0.2
+    Q1 2025: 0.23
+    Q2 2025: 0.29
+    Q3 2025: 0.34
+    Q4 2025: 0.27
+    Q1 2026: 0.2
+    Q2 2026: 0.15
+  annual:
+    2021 Yearly: 3.27
+    2022 Yearly: 1.87
+    2023 Yearly: 1.33
+    2024 Yearly: 0.93
+    2025 Yearly: 1.13
+  quarterly_forecast:
+    Q4 2024: 0.2
+    Q1 2025: 0.26
+    Q2 2025: 0.23
+    Q3 2025: 0.3
+    Q4 2025: 0.35
+    Q1 2026: 0.32
+    Q2 2026: 0.24
+    Q3 2026: 0.34
+    Q4 2026: 0.35
+    Q1 2027: 0.35
+    Q2 2027: 0.39
+  annual_forecast:
+    2021 Yearly: 2.73
+    2022 Yearly: 1.86
+    2023 Yearly: 1.28
+    2024 Yearly: 0.98
+    2025 Yearly: 1.21
+    2026 Yearly: 1.13
+    2027 Yearly: 1.78

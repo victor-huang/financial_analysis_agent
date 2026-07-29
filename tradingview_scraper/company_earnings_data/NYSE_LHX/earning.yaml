@@ -1,0 +1,78 @@
+currency: USD
+company_name: L3Harris Technologies, Inc.
+sector: Electronic Technology
+market_cap_billions: 55.43
+revenue:
+  quarterly:
+    Q3 2024: 5290.0
+    Q4 2024: 5520.0
+    Q1 2025: 5130.0
+    Q2 2025: 5430.0
+    Q3 2025: 5660.0
+    Q4 2025: 5650.0
+    Q1 2026: 5740.0
+  annual:
+    2021 Yearly: 17810.0
+    2022 Yearly: 17060.0
+    2023 Yearly: 19420.0
+    2024 Yearly: 21320.0
+    2025 Yearly: 21860.0
+  quarterly_forecast:
+    Q3 2024: 5280.0
+    Q4 2024: 5500.0
+    Q1 2025: 5200.0
+    Q2 2025: 5310.0
+    Q3 2025: 5520.0
+    Q4 2025: 5770.0
+    Q1 2026: 5420.0
+    Q2 2026: 5810.0
+    Q3 2026: 5990.0
+    Q4 2026: 6050.0
+    Q1 2027: 6070.0
+  annual_forecast:
+    2021 Yearly: 17940.0
+    2022 Yearly: 16830.0
+    2023 Yearly: 19360.0
+    2024 Yearly: 21300.0
+    2025 Yearly: 21990.0
+    2026 Yearly: 23580.0
+    2027 Yearly: 25450.0
+    2028 Yearly: 27450.0
+    2029 Yearly: 29710.0
+eps:
+  quarterly:
+    Q3 2024: 3.34
+    Q4 2024: 3.47
+    Q1 2025: 2.41
+    Q2 2025: 2.78
+    Q3 2025: 2.7
+    Q4 2025: 2.86
+    Q1 2026: 2.72
+  annual:
+    2021 Yearly: 12.95
+    2022 Yearly: 12.9
+    2023 Yearly: 12.36
+    2024 Yearly: 13.1
+    2025 Yearly: 10.73
+  quarterly_forecast:
+    Q3 2024: 3.25
+    Q4 2024: 3.42
+    Q1 2025: 2.31
+    Q2 2025: 2.48
+    Q3 2025: 2.58
+    Q4 2025: 2.76
+    Q1 2026: 2.53
+    Q2 2026: 2.8
+    Q3 2026: 2.98
+    Q4 2026: 3.09
+    Q1 2027: 3.03
+  annual_forecast:
+    2021 Yearly: 12.93
+    2022 Yearly: 12.88
+    2023 Yearly: 12.35
+    2024 Yearly: 13.07
+    2025 Yearly: 10.65
+    2026 Yearly: 11.63
+    2027 Yearly: 13.65
+    2028 Yearly: 15.78
+    2029 Yearly: 17.79

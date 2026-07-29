@@ -1,0 +1,74 @@
+currency: USD
+company_name: PC Connection, Inc.
+sector: Technology Services
+market_cap_billions: 2.09
+revenue:
+  quarterly:
+    Q3 2024: 724.72
+    Q4 2024: 708.9
+    Q1 2025: 701.05
+    Q2 2025: 759.69
+    Q3 2025: 709.07
+    Q4 2025: 702.94
+    Q1 2026: 721.87
+  annual:
+    2021 Yearly: 2890.0
+    2022 Yearly: 3120.0
+    2023 Yearly: 2850.0
+    2024 Yearly: 2800.0
+    2025 Yearly: 2870.0
+  quarterly_forecast:
+    Q3 2024: 726.97
+    Q4 2024: 716.23
+    Q1 2025: 646.05
+    Q2 2025: 764.08
+    Q3 2025: 743.68
+    Q4 2025: 735.49
+    Q1 2026: 696.09
+    Q2 2026: 764.79
+    Q3 2026: 754.17
+    Q4 2026: 757.36
+    Q1 2027: 747.29
+  annual_forecast:
+    2021 Yearly: 2850.0
+    2022 Yearly: 3140.0
+    2023 Yearly: 2830.0
+    2024 Yearly: 2820.0
+    2025 Yearly: 2910.0
+    2026 Yearly: 3000.0
+    2027 Yearly: 3130.0
+eps:
+  quarterly:
+    Q3 2024: 0.97
+    Q4 2024: 0.78
+    Q1 2025: 0.6
+    Q2 2025: 0.97
+    Q3 2025: 0.97
+    Q4 2025: 0.91
+    Q1 2026: 0.77
+  annual:
+    2021 Yearly: 2.65
+    2022 Yearly: 3.37
+    2023 Yearly: 3.23
+    2024 Yearly: 3.25
+    2025 Yearly: 3.44
+  quarterly_forecast:
+    Q3 2024: 1.0
+    Q4 2024: 0.9
+    Q1 2025: 0.41
+    Q2 2025: 0.91
+    Q3 2025: 1.0
+    Q4 2025: 0.86
+    Q1 2026: 0.62
+    Q2 2026: 0.99
+    Q3 2026: 1.05
+    Q4 2026: 1.07
+    Q1 2027: 0.7
+  annual_forecast:
+    2021 Yearly: 2.52
+    2022 Yearly: 3.4
+    2023 Yearly: 3.19
+    2024 Yearly: 3.37
+    2025 Yearly: 3.4
+    2026 Yearly: 3.92
+    2027 Yearly: 4.24

@@ -1,0 +1,76 @@
+currency: USD
+company_name: PennyMac Mortgage Investment Trust
+sector: Finance
+market_cap_billions: 0.84499
+revenue:
+  quarterly:
+    Q3 2024: 80.86
+    Q4 2024: 107.93
+    Q1 2025: 44.47
+    Q2 2025: 70.2
+    Q3 2025: 99.23
+    Q4 2025: 93.56
+    Q1 2026: 82.13
+  annual:
+    2021 Yearly: 420.3
+    2022 Yearly: 303.77
+    2023 Yearly: 429.02
+    2024 Yearly: 334.19
+    2025 Yearly: 307.46
+  quarterly_forecast:
+    Q3 2024: 93.26
+    Q4 2024: 93.95
+    Q1 2025: 91.68
+    Q2 2025: 94.4
+    Q3 2025: 97.15
+    Q4 2025: 98.46
+    Q1 2026: 92.92
+    Q2 2026: 93.93
+    Q3 2026: 98.79
+    Q4 2026: 102.26
+    Q1 2027: 93.53
+  annual_forecast:
+    2021 Yearly: 500.7
+    2022 Yearly: 382.99
+    2023 Yearly: 402.76
+    2024 Yearly: 323.66
+    2025 Yearly: 345.26
+    2026 Yearly: 376.78
+    2027 Yearly: 400.74
+    2028 Yearly: 425.04
+eps:
+  quarterly:
+    Q3 2024: 0.36
+    Q4 2024: 0.41
+    Q1 2025: -0.01
+    Q2 2025: -0.04
+    Q3 2025: 0.55
+    Q4 2025: 0.48
+    Q1 2026: 0.16
+  annual:
+    2021 Yearly: 0.26
+    2022 Yearly: -1.26
+    2023 Yearly: 1.63
+    2024 Yearly: 1.37
+    2025 Yearly: 0.99
+  quarterly_forecast:
+    Q3 2024: 0.35
+    Q4 2024: 0.36
+    Q1 2025: 0.38
+    Q2 2025: 0.36
+    Q3 2025: 0.35
+    Q4 2025: 0.4
+    Q1 2026: 0.37
+    Q2 2026: 0.3
+    Q3 2026: 0.33
+    Q4 2026: 0.37
+    Q1 2027: 0.32
+  annual_forecast:
+    2021 Yearly: 0.87
+    2022 Yearly: -0.82
+    2023 Yearly: 1.42
+    2024 Yearly: 1.27
+    2025 Yearly: 0.9
+    2026 Yearly: 1.17
+    2027 Yearly: 1.49
+    2028 Yearly: 1.58

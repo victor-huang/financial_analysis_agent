@@ -1,0 +1,76 @@
+currency: USD
+company_name: Procore Technologies, Inc.
+sector: Technology Services
+market_cap_billions: 7.57
+revenue:
+  quarterly:
+    Q3 2024: 295.88
+    Q4 2024: 302.05
+    Q1 2025: 310.63
+    Q2 2025: 323.92
+    Q3 2025: 338.85
+    Q4 2025: 349.11
+    Q1 2026: 359.28
+  annual:
+    2021 Yearly: 514.82
+    2022 Yearly: 720.2
+    2023 Yearly: 950.01
+    2024 Yearly: 1150.0
+    2025 Yearly: 1320.0
+  quarterly_forecast:
+    Q3 2024: 287.57
+    Q4 2024: 297.81
+    Q1 2025: 302.59
+    Q2 2025: 312.21
+    Q3 2025: 328.15
+    Q4 2025: 340.8
+    Q1 2026: 352.82
+    Q2 2026: 365.82
+    Q3 2026: 382.8
+    Q4 2026: 394.63
+    Q1 2027: 406.27
+  annual_forecast:
+    2021 Yearly: 506.97
+    2022 Yearly: 708.38
+    2023 Yearly: 938.31
+    2024 Yearly: 1150.0
+    2025 Yearly: 1310.0
+    2026 Yearly: 1500.0
+    2027 Yearly: 1700.0
+    2028 Yearly: 1940.0
+    2029 Yearly: 2300.0
+eps:
+  quarterly:
+    Q3 2024: 0.24
+    Q4 2024: 0.01
+    Q1 2025: 0.23
+    Q2 2025: 0.35
+    Q3 2025: 0.42
+    Q4 2025: 0.37
+    Q1 2026: 0.34
+  annual:
+    2021 Yearly: -0.35
+    2022 Yearly: -0.51
+    2023 Yearly: 0.3
+    2024 Yearly: 0.93
+    2025 Yearly: 1.36
+  quarterly_forecast:
+    Q3 2024: 0.22
+    Q4 2024: 0.12
+    Q1 2025: 0.18
+    Q2 2025: 0.26
+    Q3 2025: 0.32
+    Q4 2025: 0.36
+    Q1 2026: 0.36
+    Q2 2026: 0.41
+    Q3 2026: 0.46
+    Q4 2026: 0.46
+    Q1 2027: 0.48
+  annual_forecast:
+    2022 Yearly: -0.28
+    2023 Yearly: -0.57
+    2024 Yearly: 0.2
+    2025 Yearly: 1.04
+    2026 Yearly: 1.35
+    2027 Yearly: 1.68
+    2028 Yearly: 2.13

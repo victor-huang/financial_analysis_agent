@@ -1,0 +1,78 @@
+currency: USD
+company_name: O'Reilly Automotive, Inc.
+sector: Retail Trade
+market_cap_billions: 75.11
+revenue:
+  quarterly:
+    Q3 2024: 4360.0
+    Q4 2024: 4100.0
+    Q1 2025: 4140.0
+    Q2 2025: 4530.0
+    Q3 2025: 4710.0
+    Q4 2025: 4410.0
+    Q1 2026: 4560.0
+  annual:
+    2021 Yearly: 13330.0
+    2022 Yearly: 14410.0
+    2023 Yearly: 15810.0
+    2024 Yearly: 16710.0
+    2025 Yearly: 17780.0
+  quarterly_forecast:
+    Q3 2024: 4400.0
+    Q4 2024: 4050.0
+    Q1 2025: 4170.0
+    Q2 2025: 4530.0
+    Q3 2025: 4690.0
+    Q4 2025: 4390.0
+    Q1 2026: 4460.0
+    Q2 2026: 4860.0
+    Q3 2026: 4980.0
+    Q4 2026: 4650.0
+    Q1 2027: 4820.0
+  annual_forecast:
+    2021 Yearly: 13150.0
+    2022 Yearly: 14280.0
+    2023 Yearly: 15850.0
+    2024 Yearly: 16660.0
+    2025 Yearly: 17760.0
+    2026 Yearly: 19060.0
+    2027 Yearly: 20230.0
+    2028 Yearly: 21530.0
+    2029 Yearly: 22200.0
+eps:
+  quarterly:
+    Q3 2024: 0.76
+    Q4 2024: 0.63
+    Q1 2025: 0.62
+    Q2 2025: 0.78
+    Q3 2025: 0.85
+    Q4 2025: 0.71
+    Q1 2026: 0.72
+  annual:
+    2021 Yearly: 2.07
+    2022 Yearly: 2.23
+    2023 Yearly: 2.56
+    2024 Yearly: 2.71
+    2025 Yearly: 2.97
+  quarterly_forecast:
+    Q3 2024: 0.77
+    Q4 2024: 0.65
+    Q1 2025: 0.66
+    Q2 2025: 0.78
+    Q3 2025: 0.83
+    Q4 2025: 0.73
+    Q1 2026: 0.7
+    Q2 2026: 0.86
+    Q3 2026: 0.91
+    Q4 2026: 0.77
+    Q1 2027: 0.79
+  annual_forecast:
+    2021 Yearly: 1.97
+    2022 Yearly: 2.19
+    2023 Yearly: 2.56
+    2024 Yearly: 2.73
+    2025 Yearly: 2.98
+    2026 Yearly: 3.26
+    2027 Yearly: 3.62
+    2028 Yearly: 4.02
+    2029 Yearly: 4.16

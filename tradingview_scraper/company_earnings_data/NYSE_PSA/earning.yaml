@@ -1,0 +1,78 @@
+currency: USD
+company_name: Public Storage
+sector: Finance
+market_cap_billions: 61.43
+revenue:
+  quarterly:
+    Q4 2024: 1180.0
+    Q1 2025: 1180.0
+    Q2 2025: 1200.0
+    Q3 2025: 1220.0
+    Q4 2025: 1220.0
+    Q1 2026: 1220.0
+    Q2 2026: 1230.0
+  annual:
+    2021 Yearly: 3420.0
+    2022 Yearly: 4180.0
+    2023 Yearly: 4520.0
+    2024 Yearly: 4700.0
+    2025 Yearly: 4820.0
+  quarterly_forecast:
+    Q4 2024: 1180.0
+    Q1 2025: 1180.0
+    Q2 2025: 1200.0
+    Q3 2025: 1220.0
+    Q4 2025: 1210.0
+    Q1 2026: 1210.0
+    Q2 2026: 1230.0
+    Q3 2026: 1290.0
+    Q4 2026: 1320.0
+    Q1 2027: 1340.0
+    Q2 2027: 1400.0
+  annual_forecast:
+    2021 Yearly: 3420.0
+    2022 Yearly: 4200.0
+    2023 Yearly: 4490.0
+    2024 Yearly: 4710.0
+    2025 Yearly: 4830.0
+    2026 Yearly: 5030.0
+    2027 Yearly: 5390.0
+    2028 Yearly: 5560.0
+    2029 Yearly: 6250.0
+eps:
+  quarterly:
+    Q4 2024: 3.21
+    Q1 2025: 2.04
+    Q2 2025: 1.76
+    Q3 2025: 2.62
+    Q4 2025: 2.6
+    Q1 2026: 2.71
+    Q2 2026: 2.55
+  annual:
+    2021 Yearly: 9.87
+    2022 Yearly: 23.5
+    2023 Yearly: 11.06
+    2024 Yearly: 10.64
+    2025 Yearly: 9.01
+  quarterly_forecast:
+    Q4 2024: 2.57
+    Q1 2025: 2.39
+    Q2 2025: 2.56
+    Q3 2025: 2.53
+    Q4 2025: 2.49
+    Q1 2026: 2.36
+    Q2 2026: 2.53
+    Q3 2026: 2.58
+    Q4 2026: 2.32
+    Q1 2027: 2.27
+    Q2 2027: 2.4
+  annual_forecast:
+    2021 Yearly: 8.74
+    2022 Yearly: 24.17
+    2023 Yearly: 11.56
+    2024 Yearly: 10.07
+    2025 Yearly: 9.22
+    2026 Yearly: 10.06
+    2027 Yearly: 9.77
+    2028 Yearly: 10.14
+    2029 Yearly: 10.63

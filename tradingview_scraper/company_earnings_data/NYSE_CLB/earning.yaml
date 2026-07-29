@@ -1,0 +1,76 @@
+currency: USD
+company_name: Core Laboratories Inc.
+sector: Energy Minerals
+market_cap_billions: 0.45497000000000004
+revenue:
+  quarterly:
+    Q3 2024: 134.4
+    Q4 2024: 129.24
+    Q1 2025: 123.58
+    Q2 2025: 130.16
+    Q3 2025: 134.52
+    Q4 2025: 138.25
+    Q1 2026: 121.8
+  annual:
+    2021 Yearly: 470.25
+    2022 Yearly: 489.74
+    2023 Yearly: 509.79
+    2024 Yearly: 523.85
+    2025 Yearly: 526.52
+  quarterly_forecast:
+    Q3 2024: 134.16
+    Q4 2024: 132.18
+    Q1 2025: 124.38
+    Q2 2025: 129.13
+    Q3 2025: 131.22
+    Q4 2025: 132.13
+    Q1 2026: 122.99
+    Q2 2026: 126.26
+    Q3 2026: 131.74
+    Q4 2026: 133.34
+    Q1 2027: 130.86
+  annual_forecast:
+    2021 Yearly: 474.19
+    2022 Yearly: 491.94
+    2023 Yearly: 509.39
+    2024 Yearly: 526.79
+    2025 Yearly: 520.41
+    2026 Yearly: 513.14
+    2027 Yearly: 545.73
+    2028 Yearly: 579.49
+eps:
+  quarterly:
+    Q3 2024: 0.25
+    Q4 2024: 0.22
+    Q1 2025: 0.14
+    Q2 2025: 0.19
+    Q3 2025: 0.22
+    Q4 2025: 0.21
+    Q1 2026: 0.06
+  annual:
+    2021 Yearly: 0.71
+    2022 Yearly: 0.57
+    2023 Yearly: 0.8
+    2024 Yearly: 0.87
+    2025 Yearly: 0.75
+  quarterly_forecast:
+    Q3 2024: 0.24
+    Q4 2024: 0.22
+    Q1 2025: 0.14
+    Q2 2025: 0.19
+    Q3 2025: 0.19
+    Q4 2025: 0.19
+    Q1 2026: 0.09
+    Q2 2026: 0.09
+    Q3 2026: 0.16
+    Q4 2026: 0.19
+    Q1 2027: 0.14
+  annual_forecast:
+    2021 Yearly: 0.67
+    2022 Yearly: 0.53
+    2023 Yearly: 0.81
+    2024 Yearly: 0.88
+    2025 Yearly: 0.74
+    2026 Yearly: 0.47
+    2027 Yearly: 0.76
+    2028 Yearly: 1.03

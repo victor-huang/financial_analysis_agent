@@ -1,0 +1,76 @@
+currency: USD
+company_name: Houlihan Lokey, Inc.
+sector: Finance
+market_cap_billions: 9.67
+revenue:
+  quarterly:
+    Q2 2024: 574.96
+    Q3 2024: 634.43
+    Q4 2024: 666.42
+    Q1 2025: 605.35
+    Q2 2025: 659.45
+    Q3 2025: 717.07
+    Q4 2025: 635.64
+  annual:
+    2021 Yearly: 2270.0
+    2022 Yearly: 1810.0
+    2023 Yearly: 1910.0
+    2024 Yearly: 2390.0
+    2025 Yearly: 2620.0
+  quarterly_forecast:
+    Q2 2024: 537.93
+    Q3 2024: 604.1
+    Q4 2024: 628.27
+    Q1 2025: 580.04
+    Q2 2025: 651.78
+    Q3 2025: 697.15
+    Q4 2025: 679.22
+    Q1 2026: 602.38
+    Q2 2026: 688.04
+    Q3 2026: 785.5
+    Q4 2026: 774.56
+  annual_forecast:
+    2021 Yearly: 2250.0
+    2022 Yearly: 1780.0
+    2023 Yearly: 1910.0
+    2024 Yearly: 2350.0
+    2025 Yearly: 2660.0
+    2026 Yearly: 2860.0
+    2027 Yearly: 3280.0
+    2028 Yearly: 3560.0
+eps:
+  quarterly:
+    Q2 2024: 1.46
+    Q3 2024: 1.64
+    Q4 2024: 1.96
+    Q1 2025: 2.14
+    Q2 2025: 1.84
+    Q3 2025: 1.94
+    Q4 2025: 1.63
+  annual:
+    2021 Yearly: 7.1
+    2022 Yearly: 4.54
+    2023 Yearly: 4.49
+    2024 Yearly: 6.29
+    2025 Yearly: 7.56
+  quarterly_forecast:
+    Q2 2024: 1.31
+    Q3 2024: 1.52
+    Q4 2024: 1.62
+    Q1 2025: 1.68
+    Q2 2025: 1.68
+    Q3 2025: 1.87
+    Q4 2025: 1.79
+    Q1 2026: 1.64
+    Q2 2026: 1.9
+    Q3 2026: 2.15
+    Q4 2026: 2.11
+  annual_forecast:
+    2021 Yearly: 7.0
+    2022 Yearly: 4.36
+    2023 Yearly: 4.51
+    2024 Yearly: 5.98
+    2025 Yearly: 7.7
+    2026 Yearly: 7.79
+    2027 Yearly: 9.39
+    2028 Yearly: 10.52

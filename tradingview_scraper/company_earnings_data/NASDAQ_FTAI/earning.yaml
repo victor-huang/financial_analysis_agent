@@ -1,0 +1,78 @@
+currency: USD
+company_name: FTAI Aviation Ltd.
+sector: Electronic Technology
+market_cap_billions: 20.25
+revenue:
+  quarterly:
+    Q3 2024: 465.79
+    Q4 2024: 498.82
+    Q1 2025: 502.08
+    Q2 2025: 676.24
+    Q3 2025: 667.06
+    Q4 2025: 662.03
+    Q1 2026: 830.7
+  annual:
+    2021 Yearly: 455.8
+    2022 Yearly: 708.41
+    2023 Yearly: 1170.0
+    2024 Yearly: 1730.0
+    2025 Yearly: 2510.0
+  quarterly_forecast:
+    Q3 2024: 422.45
+    Q4 2024: 494.77
+    Q1 2025: 504.81
+    Q2 2025: 568.89
+    Q3 2025: 658.82
+    Q4 2025: 693.12
+    Q1 2026: 749.75
+    Q2 2026: 895.26
+    Q3 2026: 961.58
+    Q4 2026: 1030.0
+    Q1 2027: 1260.0
+  annual_forecast:
+    2021 Yearly: 478.4
+    2022 Yearly: 709.28
+    2023 Yearly: 1170.0
+    2024 Yearly: 1730.0
+    2025 Yearly: 2540.0
+    2026 Yearly: 3750.0
+    2027 Yearly: 5900.0
+    2028 Yearly: 7240.0
+    2029 Yearly: 9120.0
+eps:
+  quarterly:
+    Q3 2024: 0.76
+    Q4 2024: 0.84
+    Q1 2025: 0.87
+    Q2 2025: 1.57
+    Q3 2025: 1.1
+    Q4 2025: 1.08
+    Q1 2026: 1.29
+  annual:
+    2021 Yearly: -1.22
+    2022 Yearly: -1.39
+    2023 Yearly: 2.11
+    2024 Yearly: -0.32
+    2025 Yearly: 4.6
+  quarterly_forecast:
+    Q3 2024: 0.78
+    Q4 2024: 0.9
+    Q1 2025: 0.95
+    Q2 2025: 1.29
+    Q3 2025: 1.21
+    Q4 2025: 1.24
+    Q1 2026: 1.5
+    Q2 2026: 1.38
+    Q3 2026: 1.7
+    Q4 2026: 2.19
+    Q1 2027: 2.71
+  annual_forecast:
+    2021 Yearly: -1.02
+    2022 Yearly: -1.33
+    2023 Yearly: 1.46
+    2024 Yearly: -0.27
+    2025 Yearly: 4.74
+    2026 Yearly: 6.59
+    2027 Yearly: 13.39
+    2028 Yearly: 18.93
+    2029 Yearly: 28.55

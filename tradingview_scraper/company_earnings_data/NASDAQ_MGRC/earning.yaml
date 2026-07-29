@@ -1,0 +1,74 @@
+currency: null
+company_name: McGrath RentCorp
+sector: Finance
+market_cap_billions: 2.87
+revenue:
+  quarterly:
+    Q4 2024: 243.75
+    Q1 2025: 195.42
+    Q2 2025: 235.62
+    Q3 2025: 256.44
+    Q4 2025: 256.76
+    Q1 2026: 198.54
+    Q2 2026: 221.11
+  annual:
+    2021 Yearly: 616.83
+    2022 Yearly: 733.82
+    2023 Yearly: 831.84
+    2024 Yearly: 910.94
+    2025 Yearly: 944.24
+  quarterly_forecast:
+    Q4 2024: 246.93
+    Q1 2025: 189.03
+    Q2 2025: 220.71
+    Q3 2025: 266.62
+    Q4 2025: 254.32
+    Q1 2026: 198.19
+    Q2 2026: 236.51
+    Q3 2026: 269.58
+    Q4 2026: 261.88
+    Q1 2027: 196.45
+    Q2 2027: 251.78
+  annual_forecast:
+    2021 Yearly: 616.42
+    2022 Yearly: 724.08
+    2023 Yearly: 824.65
+    2024 Yearly: 914.12
+    2025 Yearly: 941.81
+    2026 Yearly: 966.5
+    2027 Yearly: 1010.0
+eps:
+  quarterly:
+    Q4 2024: 1.58
+    Q1 2025: 1.15
+    Q2 2025: 1.46
+    Q3 2025: 1.72
+    Q4 2025: 2.02
+    Q1 2026: 1.1
+    Q2 2026: 1.88
+  annual:
+    2021 Yearly: 3.66
+    2022 Yearly: 4.7
+    2023 Yearly: 4.56
+    2024 Yearly: 5.93
+    2025 Yearly: 6.35
+  quarterly_forecast:
+    Q4 2024: 1.49
+    Q1 2025: 0.92
+    Q2 2025: 1.22
+    Q3 2025: 1.82
+    Q4 2025: 1.71
+    Q1 2026: 1.11
+    Q2 2026: 1.47
+    Q3 2026: 1.85
+    Q4 2026: 1.97
+    Q1 2027: 1.12
+    Q2 2027: 1.75
+  annual_forecast:
+    2021 Yearly: 3.65
+    2022 Yearly: 4.46
+    2023 Yearly: 4.83
+    2024 Yearly: 5.28
+    2025 Yearly: 6.04
+    2026 Yearly: 6.37
+    2027 Yearly: 7.01

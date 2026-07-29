@@ -1,0 +1,76 @@
+currency: USD
+company_name: Smith Micro Software, Inc.
+sector: Technology Services
+market_cap_billions: 0.013640000000000001
+revenue:
+  quarterly:
+    Q3 2024: 4.65
+    Q4 2024: 4.97
+    Q1 2025: 4.62
+    Q2 2025: 4.42
+    Q3 2025: 4.35
+    Q4 2025: 3.97
+    Q1 2026: 4.22
+  annual:
+    2021 Yearly: 58.42
+    2022 Yearly: 48.51
+    2023 Yearly: 40.86
+    2024 Yearly: 20.55
+    2025 Yearly: 17.36
+  quarterly_forecast:
+    Q3 2024: 4.71
+    Q4 2024: 5.13
+    Q1 2025: 4.85
+    Q2 2025: 4.68
+    Q3 2025: 4.6
+    Q4 2025: 4.3
+    Q1 2026: 4.35
+    Q2 2026: 4.85
+    Q3 2026: 5.05
+    Q4 2026: 5.9
+    Q1 2027: 6.9
+  annual_forecast:
+    2021 Yearly: 59.0
+    2022 Yearly: 48.35
+    2023 Yearly: 41.12
+    2024 Yearly: 20.7
+    2025 Yearly: 17.7
+    2026 Yearly: 19.95
+    2027 Yearly: 30.65
+    2028 Yearly: 42.6
+eps:
+  quarterly:
+    Q3 2024: -2.7
+    Q4 2024: -1.25
+    Q1 2025: -1.4
+    Q2 2025: -3.9
+    Q3 2025: -1.25
+    Q4 2025: -1.0
+    Q1 2026: -0.75
+  annual:
+    2021 Yearly: -1.6
+    2022 Yearly: -13.6
+    2023 Yearly: -3.2
+    2024 Yearly: -19.7
+    2025 Yearly: -7.3
+  quarterly_forecast:
+    Q3 2024: -1.55
+    Q4 2024: -1.38
+    Q1 2025: -1.25
+    Q2 2025: -1.27
+    Q3 2025: -1.15
+    Q4 2025: -0.65
+    Q1 2026: -0.75
+    Q2 2026: -0.5
+    Q3 2026: -0.42
+    Q4 2026: -0.4
+    Q1 2027: -0.1
+  annual_forecast:
+    2021 Yearly: -1.33
+    2022 Yearly: -14.13
+    2023 Yearly: -2.87
+    2024 Yearly: -21.02
+    2025 Yearly: -6.7
+    2026 Yearly: -2.05
+    2027 Yearly: -0.45
+    2028 Yearly: 0.55

@@ -1,0 +1,74 @@
+currency: USD
+company_name: LendingTree, Inc.
+sector: Finance
+market_cap_billions: 0.55059
+revenue:
+  quarterly:
+    Q4 2024: 261.5
+    Q1 2025: 239.7
+    Q2 2025: 250.1
+    Q3 2025: 307.8
+    Q4 2025: 319.69
+    Q1 2026: 327.27
+    Q2 2026: 313.42
+  annual:
+    2021 Yearly: 1100.0
+    2022 Yearly: 985.0
+    2023 Yearly: 672.6
+    2024 Yearly: 900.2
+    2025 Yearly: 1120.0
+  quarterly_forecast:
+    Q4 2024: 236.38
+    Q1 2025: 244.89
+    Q2 2025: 246.97
+    Q3 2025: 278.45
+    Q4 2025: 284.88
+    Q1 2026: 321.33
+    Q2 2026: 315.56
+    Q3 2026: 337.29
+    Q4 2026: 344.61
+  annual_forecast:
+    2021 Yearly: 1100.0
+    2022 Yearly: 991.1
+    2023 Yearly: 676.04
+    2024 Yearly: 875.66
+    2025 Yearly: 1080.0
+    2026 Yearly: 1320.0
+    2027 Yearly: 1420.0
+    2028 Yearly: 1560.0
+    2029 Yearly: 1720.0
+eps:
+  quarterly:
+    Q4 2024: 0.55
+    Q1 2025: -0.92
+    Q2 2025: 0.65
+    Q3 2025: 0.73
+    Q4 2025: -0.39
+    Q1 2026: 1.58
+    Q2 2026: 1.23
+  annual:
+    2021 Yearly: 5.05
+    2022 Yearly: -14.69
+    2023 Yearly: -9.46
+    2024 Yearly: -3.14
+    2025 Yearly: 3.38
+  quarterly_forecast:
+    Q4 2024: -0.09
+    Q1 2025: 0.2
+    Q2 2025: 0.38
+    Q3 2025: 0.7
+    Q4 2025: 0.48
+    Q1 2026: 1.47
+    Q2 2026: 1.41
+    Q3 2026: 1.39
+    Q4 2026: 1.44
+  annual_forecast:
+    2021 Yearly: 3.06
+    2022 Yearly: -15.15
+    2023 Yearly: -10.45
+    2024 Yearly: -3.66
+    2025 Yearly: 0.96
+    2026 Yearly: 5.58
+    2027 Yearly: 6.73
+    2028 Yearly: 7.87
+    2029 Yearly: 8.45

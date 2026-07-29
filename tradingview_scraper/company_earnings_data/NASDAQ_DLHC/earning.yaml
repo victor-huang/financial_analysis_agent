@@ -1,0 +1,68 @@
+currency: USD
+company_name: DLH Holdings Corp.
+sector: Commercial Services
+market_cap_billions: 0.07826000000000001
+revenue:
+  quarterly:
+    Q1 2025: 90.78
+    Q2 2025: 89.21
+    Q3 2025: 83.34
+    Q4 2025: 81.16
+    Q1 2026: 68.89
+    Q2 2026: 59.27
+    Q3 2026: 44.2
+  annual:
+    2021 Yearly: 246.09
+    2022 Yearly: 395.17
+    2023 Yearly: 375.87
+    2024 Yearly: 395.94
+    2025 Yearly: 344.5
+  quarterly_forecast:
+    Q1 2025: 97.0
+    Q2 2025: 90.0
+    Q3 2025: 83.0
+    Q4 2025: 83.5
+    Q1 2026: 70.2
+    Q2 2026: 58.0
+    Q3 2026: 50.0
+    Q4 2026: 50.0
+  annual_forecast:
+    2021 Yearly: 243.91
+    2022 Yearly: 394.9
+    2023 Yearly: 377.4
+    2024 Yearly: 400.6
+    2025 Yearly: 346.8
+    2026 Yearly: 228.2
+    2027 Yearly: 215.0
+eps:
+  quarterly:
+    Q1 2025: 0.08
+    Q2 2025: 0.06
+    Q3 2025: 0.02
+    Q4 2025: -0.06
+    Q1 2026: -0.09
+    Q2 2026: -0.17
+    Q3 2026: -1.16
+  annual:
+    2021 Yearly: 0.81
+    2022 Yearly: 1.64
+    2023 Yearly: 0.55
+    2024 Yearly: 0.51
+    2025 Yearly: 0.09
+  quarterly_forecast:
+    Q1 2025: 0.07
+    Q2 2025: 0.07
+    Q3 2025: 0.02
+    Q4 2025: 0.02
+    Q1 2026: -0.07
+    Q2 2026: -0.16
+    Q3 2026: -0.17
+    Q4 2026: -0.16
+  annual_forecast:
+    2021 Yearly: 0.76
+    2022 Yearly: 1.64
+    2023 Yearly: 0.55
+    2024 Yearly: 0.46
+    2025 Yearly: 0.17
+    2026 Yearly: -0.59
+    2027 Yearly: -0.41

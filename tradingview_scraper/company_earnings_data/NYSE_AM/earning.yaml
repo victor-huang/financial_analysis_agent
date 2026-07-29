@@ -1,0 +1,76 @@
+currency: USD
+company_name: Antero Midstream Corporation
+sector: Industrial Services
+market_cap_billions: 10.22
+revenue:
+  quarterly:
+    Q3 2024: 269.87
+    Q4 2024: 287.48
+    Q1 2025: 291.13
+    Q2 2025: 305.47
+    Q3 2025: 294.82
+    Q4 2025: 297.0
+    Q1 2026: 314.21
+  annual:
+    2021 Yearly: 898.2
+    2022 Yearly: 919.98
+    2023 Yearly: 1040.0
+    2024 Yearly: 1110.0
+    2025 Yearly: 1190.0
+  quarterly_forecast:
+    Q3 2024: 279.46
+    Q4 2024: 277.79
+    Q1 2025: 285.93
+    Q2 2025: 300.1
+    Q3 2025: 296.74
+    Q4 2025: 296.22
+    Q1 2026: 311.3
+    Q2 2026: 326.43
+    Q3 2026: 332.81
+    Q4 2026: 335.71
+    Q1 2027: 336.74
+  annual_forecast:
+    2022 Yearly: 927.93
+    2023 Yearly: 947.79
+    2024 Yearly: 1050.0
+    2025 Yearly: 1100.0
+    2026 Yearly: 1200.0
+    2027 Yearly: 1300.0
+    2028 Yearly: 1400.0
+eps:
+  quarterly:
+    Q3 2024: 0.21
+    Q4 2024: 0.23
+    Q1 2025: 0.25
+    Q2 2025: 0.26
+    Q3 2025: 0.24
+    Q4 2025: 0.11
+    Q1 2026: 0.25
+  annual:
+    2021 Yearly: 0.69
+    2022 Yearly: 0.68
+    2023 Yearly: 0.77
+    2024 Yearly: 0.83
+    2025 Yearly: 0.86
+  quarterly_forecast:
+    Q3 2024: 0.21
+    Q4 2024: 0.23
+    Q1 2025: 0.23
+    Q2 2025: 0.25
+    Q3 2025: 0.25
+    Q4 2025: 0.25
+    Q1 2026: 0.26
+    Q2 2026: 0.27
+    Q3 2026: 0.29
+    Q4 2026: 0.3
+    Q1 2027: 0.3
+  annual_forecast:
+    2021 Yearly: 0.7
+    2022 Yearly: 0.7
+    2023 Yearly: 0.76
+    2024 Yearly: 0.83
+    2025 Yearly: 1.0
+    2026 Yearly: 1.11
+    2027 Yearly: 1.28
+    2028 Yearly: 1.46
+    2029 Yearly: 1.58

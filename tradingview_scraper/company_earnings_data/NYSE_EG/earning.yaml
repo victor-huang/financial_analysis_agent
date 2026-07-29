@@ -1,0 +1,76 @@
+currency: USD
+company_name: Everest Group, Ltd.
+sector: Finance
+market_cap_billions: 15.59
+revenue:
+  quarterly:
+    Q3 2024: 4290.0
+    Q4 2024: 4640.0
+    Q1 2025: 4260.0
+    Q2 2025: 4490.0
+    Q3 2025: 4320.0
+    Q4 2025: 4420.0
+    Q1 2026: 4070.0000000000005
+  annual:
+    2021 Yearly: 11870.0
+    2022 Yearly: 12060.0
+    2023 Yearly: 14590.0
+    2024 Yearly: 17280.0
+    2025 Yearly: 17500.0
+  quarterly_forecast:
+    Q3 2024: 4330.0
+    Q4 2024: 4470.0
+    Q1 2025: 4440.0
+    Q2 2025: 4420.0
+    Q3 2025: 4450.0
+    Q4 2025: 4490.0
+    Q1 2026: 4170.0
+    Q2 2026: 3990.0
+    Q3 2026: 3950.0
+    Q4 2026: 3800.0
+    Q1 2027: 3800.0
+  annual_forecast:
+    2021 Yearly: 11560.0
+    2022 Yearly: 12330.0
+    2023 Yearly: 14850.0
+    2024 Yearly: 17170.0
+    2025 Yearly: 17650.0
+    2026 Yearly: 15960.0
+    2027 Yearly: 15300.0
+    2028 Yearly: 15540.0
+eps:
+  quarterly:
+    Q3 2024: 14.62
+    Q4 2024: -18.39
+    Q1 2025: 6.45
+    Q2 2025: 17.36
+    Q3 2025: 7.54
+    Q4 2025: 13.26
+    Q1 2026: 16.08
+  annual:
+    2021 Yearly: 28.97
+    2022 Yearly: 27.08
+    2023 Yearly: 66.39
+    2024 Yearly: 29.83
+    2025 Yearly: 44.54
+  quarterly_forecast:
+    Q3 2024: 12.1
+    Q4 2024: -14.27
+    Q1 2025: 7.59
+    Q2 2025: 14.87
+    Q3 2025: 14.63
+    Q4 2025: 13.59
+    Q1 2026: 13.97
+    Q2 2026: 14.52
+    Q3 2026: 8.58
+    Q4 2026: 13.28
+    Q1 2027: 16.53
+  annual_forecast:
+    2021 Yearly: 28.84
+    2022 Yearly: 24.72
+    2023 Yearly: 56.28
+    2024 Yearly: 32.56
+    2025 Yearly: 45.41
+    2026 Yearly: 52.44
+    2027 Yearly: 60.15
+    2028 Yearly: 67.8

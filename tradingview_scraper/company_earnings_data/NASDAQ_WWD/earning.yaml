@@ -1,0 +1,78 @@
+currency: USD
+company_name: Woodward, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 22.96
+revenue:
+  quarterly:
+    Q4 2024: 854.49
+    Q1 2025: 772.73
+    Q2 2025: 883.63
+    Q3 2025: 915.45
+    Q4 2025: 995.26
+    Q1 2026: 996.45
+    Q2 2026: 1090.0
+  annual:
+    2021 Yearly: 2250.0
+    2022 Yearly: 2380.0
+    2023 Yearly: 2910.0
+    2024 Yearly: 3320.0
+    2025 Yearly: 3570.0
+  quarterly_forecast:
+    Q4 2024: 810.39
+    Q1 2025: 775.41
+    Q2 2025: 835.16
+    Q3 2025: 886.15
+    Q4 2025: 939.58
+    Q1 2026: 890.11
+    Q2 2026: 1010.0
+    Q3 2026: 1110.0
+    Q4 2026: 1130.0
+    Q1 2027: 1090.0
+    Q2 2027: 1180.0
+  annual_forecast:
+    2021 Yearly: 2300.0
+    2022 Yearly: 2370.0
+    2023 Yearly: 2900.0
+    2024 Yearly: 3280.0
+    2025 Yearly: 3510.0
+    2026 Yearly: 4320.0
+    2027 Yearly: 4710.0
+    2028 Yearly: 5210.0
+    2029 Yearly: 5250.0
+eps:
+  quarterly:
+    Q4 2024: 1.41
+    Q1 2025: 1.35
+    Q2 2025: 1.69
+    Q3 2025: 1.76
+    Q4 2025: 2.09
+    Q1 2026: 2.17
+    Q2 2026: 2.27
+  annual:
+    2021 Yearly: 3.24
+    2022 Yearly: 2.75
+    2023 Yearly: 4.21
+    2024 Yearly: 6.11
+    2025 Yearly: 6.89
+  quarterly_forecast:
+    Q4 2024: 1.26
+    Q1 2025: 1.18
+    Q2 2025: 1.46
+    Q3 2025: 1.63
+    Q4 2025: 1.88
+    Q1 2026: 1.65
+    Q2 2026: 2.1
+    Q3 2026: 2.44
+    Q4 2026: 2.53
+    Q1 2027: 2.37
+    Q2 2027: 2.63
+  annual_forecast:
+    2021 Yearly: 3.29
+    2022 Yearly: 2.66
+    2023 Yearly: 4.18
+    2024 Yearly: 5.97
+    2025 Yearly: 6.68
+    2026 Yearly: 9.41
+    2027 Yearly: 10.75
+    2028 Yearly: 12.79
+    2029 Yearly: 13.42

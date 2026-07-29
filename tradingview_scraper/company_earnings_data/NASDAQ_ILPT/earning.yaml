@@ -1,0 +1,75 @@
+currency: USD
+company_name: Industrial Logistics Properties Trust
+sector: Finance
+market_cap_billions: 0.58199
+revenue:
+  quarterly:
+    Q3 2024: 108.94
+    Q4 2024: 110.52
+    Q1 2025: 111.91
+    Q2 2025: 112.1
+    Q3 2025: 110.94
+    Q4 2025: 113.91
+    Q1 2026: 116.42
+  annual:
+    2021 Yearly: 219.87
+    2022 Yearly: 388.15
+    2023 Yearly: 437.34
+    2024 Yearly: 442.32
+    2025 Yearly: 448.85
+  quarterly_forecast:
+    Q3 2024: 110.3
+    Q4 2024: 110.3
+    Q1 2025: 112.1
+    Q2 2025: 111.62
+    Q3 2025: 111.93
+    Q4 2025: 111.73
+    Q1 2026: 114.82
+    Q2 2026: 116.1
+    Q3 2026: 116.95
+    Q4 2026: 117.61
+    Q1 2027: 118.7
+  annual_forecast:
+    2021 Yearly: 219.5
+    2022 Yearly: 385.66
+    2023 Yearly: 439.01
+    2024 Yearly: 442.1
+    2025 Yearly: 446.68
+    2026 Yearly: 467.14
+    2027 Yearly: 477.14
+    2028 Yearly: 495.0
+    2029 Yearly: 505.6
+eps:
+  quarterly:
+    Q3 2024: -0.38
+    Q4 2024: -0.37
+    Q1 2025: -0.33
+    Q2 2025: -0.32
+    Q3 2025: -0.33
+    Q4 2025: -0.03
+    Q1 2026: -0.14
+  annual:
+    2021 Yearly: 1.83
+    2022 Yearly: -3.47
+    2023 Yearly: -1.65
+    2024 Yearly: -1.46
+    2025 Yearly: -1.0
+  quarterly_forecast:
+    Q2 2025: -0.31
+    Q3 2025: -0.26
+    Q4 2025: 0.07
+    Q1 2026: -0.2
+    Q2 2026: -0.19
+    Q3 2026: -0.17
+    Q4 2026: -0.15
+    Q1 2027: -0.13
+  annual_forecast:
+    2021 Yearly: 1.14
+    2022 Yearly: 0.1
+    2023 Yearly: 0.28
+    2024 Yearly: 0.34
+    2025 Yearly: -0.9
+    2026 Yearly: -0.65
+    2027 Yearly: -0.53
+    2028 Yearly: 0.07
+    2029 Yearly: -0.23

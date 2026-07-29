@@ -1,0 +1,66 @@
+currency: USD
+company_name: Waystar Holding Corp.
+sector: Technology Services
+market_cap_billions: 4.7
+revenue:
+  quarterly:
+    Q4 2024: 244.1
+    Q1 2025: 256.44
+    Q2 2025: 270.65
+    Q3 2025: 268.65
+    Q4 2025: 303.54
+    Q1 2026: 313.87
+    Q2 2026: 319.67
+  annual:
+    2024 Yearly: 943.55
+    2025 Yearly: 1100.0
+  quarterly_forecast:
+    Q4 2024: 232.23
+    Q1 2025: 248.48
+    Q2 2025: 259.53
+    Q3 2025: 256.79
+    Q4 2025: 294.79
+    Q1 2026: 311.73
+    Q2 2026: 316.21
+    Q3 2026: 323.14
+    Q4 2026: 330.66
+    Q1 2027: 344.23
+    Q2 2027: 349.26
+  annual_forecast:
+    2024 Yearly: 931.91
+    2025 Yearly: 1090.0
+    2026 Yearly: 1280.0
+    2027 Yearly: 1420.0
+    2028 Yearly: 1580.0
+    2029 Yearly: 1690.0
+eps:
+  quarterly:
+    Q4 2024: 0.29
+    Q1 2025: 0.32
+    Q2 2025: 0.36
+    Q3 2025: 0.37
+    Q4 2025: 0.36
+    Q1 2026: 0.42
+    Q2 2026: 0.43
+  annual:
+    2024 Yearly: 1.09
+    2025 Yearly: 1.42
+  quarterly_forecast:
+    Q4 2024: 0.14
+    Q1 2025: 0.32
+    Q2 2025: 0.34
+    Q3 2025: 0.36
+    Q4 2025: 0.39
+    Q1 2026: 0.39
+    Q2 2026: 0.4
+    Q3 2026: 0.41
+    Q4 2026: 0.42
+    Q1 2027: 0.45
+    Q2 2027: 0.45
+  annual_forecast:
+    2024 Yearly: 0.32
+    2025 Yearly: 1.46
+    2026 Yearly: 1.64
+    2027 Yearly: 1.85
+    2028 Yearly: 2.16
+    2029 Yearly: 2.37

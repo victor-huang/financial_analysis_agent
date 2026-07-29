@@ -1,0 +1,71 @@
+currency: USD
+company_name: Arm Holdings plc
+sector: Electronic Technology
+market_cap_billions: 260.4
+revenue:
+  quarterly:
+    Q2 2024: 844.0
+    Q3 2024: 983.0
+    Q4 2024: 1240.0
+    Q1 2025: 1050.0
+    Q2 2025: 1140.0
+    Q3 2025: 1240.0
+    Q4 2025: 1490.0
+  annual:
+    2022 Yearly: 2680.0
+    2023 Yearly: 3230.0
+    2024 Yearly: 4010.0
+    2025 Yearly: 4920.0
+  quarterly_forecast:
+    Q2 2024: 810.03
+    Q3 2024: 949.27
+    Q4 2024: 1230.0
+    Q1 2025: 1050.0
+    Q2 2025: 1060.0
+    Q3 2025: 1230.0
+    Q4 2025: 1470.0
+    Q1 2026: 1260.0
+    Q2 2026: 1340.0
+    Q3 2026: 1520.0
+    Q4 2026: 1860.0
+  annual_forecast:
+    2023 Yearly: 3180.0
+    2024 Yearly: 4000.0
+    2025 Yearly: 4900.0
+    2026 Yearly: 5990.0
+    2027 Yearly: 8080.0
+    2028 Yearly: 10710.0
+    2029 Yearly: 15830.0
+eps:
+  quarterly:
+    Q2 2024: 0.3
+    Q3 2024: 0.39
+    Q4 2024: 0.55
+    Q1 2025: 0.35
+    Q2 2025: 0.39
+    Q3 2025: 0.43
+    Q4 2025: 0.6
+  annual:
+    2023 Yearly: 1.27
+    2024 Yearly: 1.63
+    2025 Yearly: 1.77
+  quarterly_forecast:
+    Q2 2024: 0.26
+    Q3 2024: 0.34
+    Q4 2024: 0.52
+    Q1 2025: 0.35
+    Q2 2025: 0.33
+    Q3 2025: 0.41
+    Q4 2025: 0.58
+    Q1 2026: 0.4
+    Q2 2026: 0.44
+    Q3 2026: 0.55
+    Q4 2026: 0.78
+  annual_forecast:
+    2023 Yearly: 1.2
+    2024 Yearly: 1.62
+    2025 Yearly: 1.75
+    2026 Yearly: 2.17
+    2027 Yearly: 3.04
+    2028 Yearly: 4.03
+    2029 Yearly: 6.03

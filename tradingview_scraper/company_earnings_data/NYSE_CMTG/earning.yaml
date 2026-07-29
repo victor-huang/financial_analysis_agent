@@ -1,0 +1,75 @@
+currency: USD
+company_name: Claros Mortgage Trust, Inc.
+sector: Finance
+market_cap_billions: 0.29025
+revenue:
+  quarterly:
+    Q4 2024: 60.58
+    Q1 2025: 43.38
+    Q2 2025: 51.63
+    Q3 2025: 46.07
+    Q1 2026: 30.0
+    Q2 2026: 31.0
+  annual:
+    2021 Yearly: 254.16
+    2022 Yearly: 306.66
+    2023 Yearly: 310.89
+    2024 Yearly: 248.41
+    2025 Yearly: 187.81
+  quarterly_forecast:
+    Q4 2024: 62.67
+    Q1 2025: 46.85
+    Q2 2025: 46.75
+    Q3 2025: 50.5
+    Q4 2025: 45.66
+    Q1 2026: 36.94
+    Q2 2026: 33.55
+    Q3 2026: 31.86
+    Q4 2026: 30.73
+    Q1 2027: 23.43
+    Q2 2027: 25.88
+  annual_forecast:
+    2021 Yearly: 248.38
+    2022 Yearly: 311.38
+    2023 Yearly: 305.13
+    2024 Yearly: 251.28
+    2025 Yearly: 186.93
+    2026 Yearly: 125.64
+    2027 Yearly: 109.28
+    2028 Yearly: 99.5
+eps:
+  quarterly:
+    Q4 2024: -0.58
+    Q1 2025: -0.25
+    Q2 2025: -0.77
+    Q3 2025: -0.15
+    Q4 2025: -0.71
+    Q1 2026: -0.52
+    Q2 2026: -0.63
+  annual:
+    2021 Yearly: 1.26
+    2022 Yearly: 1.38
+    2023 Yearly: 0.28
+    2024 Yearly: -0.67
+    2025 Yearly: -1.88
+  quarterly_forecast:
+    Q4 2024: 0.13
+    Q1 2025: -0.14
+    Q2 2025: -0.03
+    Q3 2025: -0.27
+    Q4 2025: -0.13
+    Q1 2026: -0.24
+    Q2 2026: -0.25
+    Q3 2026: -0.24
+    Q4 2026: -0.23
+    Q1 2027: -0.23
+    Q2 2027: -0.16
+  annual_forecast:
+    2021 Yearly: 1.28
+    2022 Yearly: 1.38
+    2023 Yearly: 0.53
+    2024 Yearly: -0.01
+    2025 Yearly: -1.16
+    2026 Yearly: -1.24
+    2027 Yearly: -0.57
+    2028 Yearly: 0.06

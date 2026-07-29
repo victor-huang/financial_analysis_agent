@@ -1,0 +1,76 @@
+currency: USD
+company_name: Silicon Laboratories, Inc.
+sector: Electronic Technology
+market_cap_billions: 7.14
+revenue:
+  quarterly:
+    Q3 2024: 166.4
+    Q4 2024: 166.25
+    Q1 2025: 177.71
+    Q2 2025: 192.84
+    Q3 2025: 206.0
+    Q4 2025: 208.21
+    Q1 2026: 213.5
+  annual:
+    2021 Yearly: 818.48
+    2022 Yearly: 1020.0
+    2023 Yearly: 782.26
+    2024 Yearly: 584.39
+    2025 Yearly: 784.76
+  quarterly_forecast:
+    Q3 2024: 165.5
+    Q4 2024: 166.08
+    Q1 2025: 177.47
+    Q2 2025: 192.63
+    Q3 2025: 205.3
+    Q4 2025: 207.7
+    Q1 2026: 214.02
+    Q2 2026: 227.99
+    Q3 2026: 241.21
+    Q4 2026: 241.08
+    Q1 2027: 248.55
+  annual_forecast:
+    2021 Yearly: 809.93
+    2022 Yearly: 1020.0
+    2023 Yearly: 780.66
+    2024 Yearly: 584.25
+    2025 Yearly: 784.1
+    2026 Yearly: 923.81
+    2027 Yearly: 1080.0
+    2028 Yearly: 1240.0
+    2029 Yearly: 1430.0
+eps:
+  quarterly:
+    Q3 2024: -0.13
+    Q4 2024: -0.11
+    Q1 2025: -0.08
+    Q2 2025: 0.11
+    Q3 2025: 0.32
+    Q4 2025: 0.56
+    Q1 2026: 0.53
+  annual:
+    2021 Yearly: 2.18
+    2022 Yearly: 4.74
+    2023 Yearly: 1.59
+    2024 Yearly: -1.7
+    2025 Yearly: 0.92
+  quarterly_forecast:
+    Q3 2024: -0.2
+    Q4 2024: -0.11
+    Q1 2025: -0.09
+    Q2 2025: 0.09
+    Q3 2025: 0.31
+    Q4 2025: 0.55
+    Q1 2026: 0.5
+    Q2 2026: 0.69
+    Q3 2026: 0.83
+    Q4 2026: 0.79
+    Q1 2027: 0.91
+  annual_forecast:
+    2022 Yearly: 1.97
+    2023 Yearly: 4.41
+    2024 Yearly: 1.38
+    2025 Yearly: -1.71
+    2026 Yearly: 0.91
+    2027 Yearly: 2.85
+    2028 Yearly: 4.43

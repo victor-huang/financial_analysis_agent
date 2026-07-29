@@ -1,0 +1,78 @@
+currency: USD
+company_name: Algoma Steel Group Inc.
+sector: Producer Manufacturing
+market_cap_billions: 0.45000999999999997
+revenue:
+  quarterly:
+    Q3 2024: 443.65
+    Q4 2024: 410.2
+    Q1 2025: 359.3
+    Q2 2025: 433.13
+    Q3 2025: 376.16
+    Q4 2025: 331.33
+    Q1 2026: 213.45
+  annual:
+    2021 Yearly: 3040.0
+    2022 Yearly: 2050.0
+    2023 Yearly: 2060.0
+    2024 Yearly: 1710.0
+    2025 Yearly: 1520.0
+  quarterly_forecast:
+    Q3 2024: 417.27
+    Q4 2024: 351.24
+    Q1 2025: 327.56
+    Q2 2025: 417.16
+    Q3 2025: 345.81
+    Q4 2025: 344.39
+    Q1 2026: 217.57
+    Q2 2026: 205.57
+    Q3 2026: 236.85
+    Q4 2026: 249.77
+    Q1 2027: 291.35
+  annual_forecast:
+    2021 Yearly: 3040.0
+    2022 Yearly: 2040.0
+    2023 Yearly: 2029.9999999999998
+    2024 Yearly: 1720.0
+    2025 Yearly: 1530.0
+    2026 Yearly: 908.93
+    2027 Yearly: 1180.0
+    2028 Yearly: 2660.0
+    2029 Yearly: 2680.0
+eps:
+  quarterly:
+    Q3 2024: -0.72
+    Q4 2024: -0.42
+    Q1 2025: -0.33
+    Q2 2025: -0.75
+    Q3 2025: -3.2
+    Q4 2025: -2.45
+    Q1 2026: -1.05
+  annual:
+    2021 Yearly: 6.19
+    2022 Yearly: 1.26
+    2023 Yearly: 0.52
+    2024 Yearly: -1.09
+    2025 Yearly: -6.6
+  quarterly_forecast:
+    Q3 2024: -0.21
+    Q4 2024: -0.72
+    Q1 2025: -0.73
+    Q2 2025: -0.39
+    Q3 2025: -0.7
+    Q4 2025: -0.45
+    Q1 2026: -0.75
+    Q2 2026: -0.6
+    Q3 2026: -0.35
+    Q4 2026: -0.17
+    Q1 2027: -0.05
+  annual_forecast:
+    2021 Yearly: 6.48
+    2022 Yearly: 1.47
+    2023 Yearly: 0.5
+    2024 Yearly: -1.03
+    2025 Yearly: -4.11
+    2026 Yearly: -2.2
+    2027 Yearly: -0.26
+    2028 Yearly: 0.42
+    2029 Yearly: -0.04

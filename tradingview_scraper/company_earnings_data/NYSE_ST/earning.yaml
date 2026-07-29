@@ -1,0 +1,78 @@
+currency: USD
+company_name: Sensata Technologies Holding plc
+sector: Electronic Technology
+market_cap_billions: 6.69
+revenue:
+  quarterly:
+    Q3 2024: 982.83
+    Q4 2024: 907.69
+    Q1 2025: 911.25
+    Q2 2025: 943.38
+    Q3 2025: 931.98
+    Q4 2025: 917.9
+    Q1 2026: 934.8
+  annual:
+    2021 Yearly: 3820.0
+    2022 Yearly: 4030.0000000000005
+    2023 Yearly: 4050.0
+    2024 Yearly: 3930.0
+    2025 Yearly: 3700.0
+  quarterly_forecast:
+    Q3 2024: 983.93
+    Q4 2024: 884.9
+    Q1 2025: 882.55
+    Q2 2025: 935.38
+    Q3 2025: 922.58
+    Q4 2025: 911.92
+    Q1 2026: 928.85
+    Q2 2026: 970.39
+    Q3 2026: 970.58
+    Q4 2026: 966.56
+    Q1 2027: 969.94
+  annual_forecast:
+    2021 Yearly: 3800.0
+    2022 Yearly: 4019.9999999999995
+    2023 Yearly: 4040.0
+    2024 Yearly: 3910.0
+    2025 Yearly: 3700.0
+    2026 Yearly: 3840.0
+    2027 Yearly: 4019.9999999999995
+    2028 Yearly: 4210.0
+    2029 Yearly: 4660.0
+eps:
+  quarterly:
+    Q3 2024: 0.86
+    Q4 2024: 0.76
+    Q1 2025: 0.78
+    Q2 2025: 0.87
+    Q3 2025: 0.89
+    Q4 2025: 0.88
+    Q1 2026: 0.86
+  annual:
+    2021 Yearly: 3.56
+    2022 Yearly: 3.4
+    2023 Yearly: 3.61
+    2024 Yearly: 3.44
+    2025 Yearly: 3.42
+  quarterly_forecast:
+    Q3 2024: 0.86
+    Q4 2024: 0.75
+    Q1 2025: 0.72
+    Q2 2025: 0.84
+    Q3 2025: 0.85
+    Q4 2025: 0.86
+    Q1 2026: 0.83
+    Q2 2026: 0.93
+    Q3 2026: 0.95
+    Q4 2026: 0.96
+    Q1 2027: 0.93
+  annual_forecast:
+    2021 Yearly: 3.49
+    2022 Yearly: 3.32
+    2023 Yearly: 3.66
+    2024 Yearly: 3.43
+    2025 Yearly: 3.41
+    2026 Yearly: 3.7
+    2027 Yearly: 4.05
+    2028 Yearly: 4.42
+    2029 Yearly: 4.85

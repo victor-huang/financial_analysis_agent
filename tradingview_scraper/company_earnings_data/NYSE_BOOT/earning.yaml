@@ -1,0 +1,78 @@
+currency: USD
+company_name: Boot Barn Holdings, Inc.
+sector: Retail Trade
+market_cap_billions: 4.58
+revenue:
+  quarterly:
+    Q2 2024: 425.8
+    Q3 2024: 608.17
+    Q4 2024: 453.75
+    Q1 2025: 504.07
+    Q2 2025: 505.4
+    Q3 2025: 705.64
+    Q4 2025: 538.75
+  annual:
+    2021 Yearly: 1490.0
+    2022 Yearly: 1660.0
+    2023 Yearly: 1670.0
+    2024 Yearly: 1910.0
+    2025 Yearly: 2250.0
+  quarterly_forecast:
+    Q2 2024: 424.42
+    Q3 2024: 607.0
+    Q4 2024: 458.4
+    Q1 2025: 495.19
+    Q2 2025: 494.46
+    Q3 2025: 704.92
+    Q4 2025: 531.43
+    Q1 2026: 583.15
+    Q2 2026: 591.11
+    Q3 2026: 818.75
+    Q4 2026: 616.46
+  annual_forecast:
+    2021 Yearly: 1460.0
+    2022 Yearly: 1670.0
+    2023 Yearly: 1660.0
+    2024 Yearly: 1920.0
+    2025 Yearly: 2250.0
+    2026 Yearly: 2610.0
+    2027 Yearly: 2940.0
+    2028 Yearly: 3310.0
+    2029 Yearly: 3250.0
+eps:
+  quarterly:
+    Q2 2024: 0.95
+    Q3 2024: 2.43
+    Q4 2024: 1.22
+    Q1 2025: 1.74
+    Q2 2025: 1.37
+    Q3 2025: 2.79
+    Q4 2025: 1.45
+  annual:
+    2021 Yearly: 6.16
+    2022 Yearly: 5.57
+    2023 Yearly: 4.8
+    2024 Yearly: 5.88
+    2025 Yearly: 7.35
+  quarterly_forecast:
+    Q2 2024: 0.96
+    Q3 2024: 2.34
+    Q4 2024: 1.24
+    Q1 2025: 1.55
+    Q2 2025: 1.28
+    Q3 2025: 2.77
+    Q4 2025: 1.42
+    Q1 2026: 1.69
+    Q2 2026: 1.69
+    Q3 2026: 3.41
+    Q4 2026: 1.76
+  annual_forecast:
+    2021 Yearly: 6.16
+    2022 Yearly: 5.52
+    2023 Yearly: 4.73
+    2024 Yearly: 5.87
+    2025 Yearly: 7.33
+    2026 Yearly: 8.56
+    2027 Yearly: 9.92
+    2028 Yearly: 11.59
+    2029 Yearly: 9.36

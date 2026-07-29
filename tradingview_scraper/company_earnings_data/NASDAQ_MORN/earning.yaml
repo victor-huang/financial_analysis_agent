@@ -1,0 +1,76 @@
+currency: USD
+company_name: Morningstar, Inc.
+sector: Commercial Services
+market_cap_billions: 7.55
+revenue:
+  quarterly:
+    Q3 2024: 569.4
+    Q4 2024: 591.0
+    Q1 2025: 581.9
+    Q2 2025: 605.1
+    Q3 2025: 617.4
+    Q4 2025: 641.1
+    Q1 2026: 644.8
+  annual:
+    2021 Yearly: 1700.0
+    2022 Yearly: 1870.0
+    2023 Yearly: 2040.0
+    2024 Yearly: 2280.0
+    2025 Yearly: 2450.0
+  quarterly_forecast:
+    Q3 2024: 565.75
+    Q4 2024: 580.84
+    Q1 2025: 585.83
+    Q2 2025: 604.57
+    Q3 2025: 604.06
+    Q4 2025: 634.43
+    Q1 2026: 626.91
+    Q2 2026: 649.71
+    Q3 2026: 655.48
+    Q4 2026: 679.34
+    Q1 2027: 681.33
+  annual_forecast:
+    2022 Yearly: 1890.0
+    2023 Yearly: 2020.0
+    2024 Yearly: 2270.0
+    2025 Yearly: 2430.0
+    2026 Yearly: 2630.0
+    2027 Yearly: 2780.0
+    2028 Yearly: 2950.0
+    2029 Yearly: 3040.0
+eps:
+  quarterly:
+    Q3 2024: 2.0
+    Q4 2024: 2.14
+    Q1 2025: 2.23
+    Q2 2025: 2.4
+    Q3 2025: 2.55
+    Q4 2025: 2.71
+    Q1 2026: 3.18
+  annual:
+    2021 Yearly: 6.36
+    2022 Yearly: 3.87
+    2023 Yearly: 5.12
+    2024 Yearly: 7.89
+    2025 Yearly: 9.86
+  quarterly_forecast:
+    Q3 2024: 2.01
+    Q4 2024: 2.06
+    Q1 2025: 2.06
+    Q2 2025: 2.19
+    Q3 2025: 2.42
+    Q4 2025: 2.36
+    Q1 2026: 2.41
+    Q2 2026: 2.83
+    Q3 2026: 2.9
+    Q4 2026: 2.98
+    Q1 2027: 3.42
+  annual_forecast:
+    2022 Yearly: 4.64
+    2023 Yearly: 4.62
+    2024 Yearly: 7.84
+    2025 Yearly: 9.43
+    2026 Yearly: 11.92
+    2027 Yearly: 13.45
+    2028 Yearly: 15.97
+    2029 Yearly: 16.21

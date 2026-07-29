@@ -1,0 +1,74 @@
+currency: USD
+company_name: Ryerson Holding Corporation
+sector: Non-Energy Minerals
+market_cap_billions: 1.49
+revenue:
+  quarterly:
+    Q3 2024: 1130.0
+    Q4 2024: 1010.0
+    Q1 2025: 1140.0
+    Q2 2025: 1170.0
+    Q3 2025: 1160.0
+    Q4 2025: 1100.0
+    Q1 2026: 1570.0
+  annual:
+    2021 Yearly: 5680.0
+    2022 Yearly: 6320.0
+    2023 Yearly: 5110.0
+    2024 Yearly: 4600.0
+    2025 Yearly: 4570.0
+  quarterly_forecast:
+    Q3 2024: 1120.0
+    Q4 2024: 1020.0
+    Q1 2025: 1160.0
+    Q2 2025: 1180.0
+    Q3 2025: 1160.0
+    Q4 2025: 1100.0
+    Q1 2026: 1720.0
+    Q2 2026: 1900.0
+    Q3 2026: 1860.0
+    Q4 2026: 1740.0
+    Q1 2027: 1940.0
+  annual_forecast:
+    2021 Yearly: 5370.0
+    2022 Yearly: 6250.0
+    2023 Yearly: 5120.0
+    2024 Yearly: 4620.0
+    2025 Yearly: 4570.0
+    2026 Yearly: 7110.0
+    2027 Yearly: 7330.0
+eps:
+  quarterly:
+    Q3 2024: -0.2
+    Q4 2024: -0.14
+    Q1 2025: -0.18
+    Q2 2025: 0.08
+    Q3 2025: -0.46
+    Q4 2025: -1.01
+    Q1 2026: 0.3
+  annual:
+    2021 Yearly: 7.46
+    2022 Yearly: 10.54
+    2023 Yearly: 4.08
+    2024 Yearly: -0.18
+    2025 Yearly: -1.56
+  quarterly_forecast:
+    Q3 2024: 0.06
+    Q4 2024: -0.48
+    Q1 2025: -0.23
+    Q2 2025: 0.19
+    Q3 2025: 0.01
+    Q4 2025: -0.65
+    Q1 2026: 0.28
+    Q2 2026: 0.41
+    Q3 2026: 0.42
+    Q4 2026: 0.12
+    Q1 2027: 0.79
+  annual_forecast:
+    2021 Yearly: 6.16
+    2022 Yearly: 11.94
+    2023 Yearly: 3.62
+    2024 Yearly: -0.52
+    2025 Yearly: -1.21
+    2026 Yearly: 1.25
+    2027 Yearly: 2.35

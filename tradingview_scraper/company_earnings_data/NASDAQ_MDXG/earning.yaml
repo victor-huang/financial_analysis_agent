@@ -1,0 +1,78 @@
+currency: USD
+company_name: MiMedx Group, Inc
+sector: Health Technology
+market_cap_billions: 0.6300399999999999
+revenue:
+  quarterly:
+    Q3 2024: 84.06
+    Q4 2024: 92.91
+    Q1 2025: 88.2
+    Q2 2025: 98.61
+    Q3 2025: 113.72
+    Q4 2025: 118.09
+    Q1 2026: 58.99
+  annual:
+    2021 Yearly: 258.62
+    2022 Yearly: 267.84
+    2023 Yearly: 321.48
+    2024 Yearly: 348.88
+    2025 Yearly: 418.63
+  quarterly_forecast:
+    Q3 2024: 82.64
+    Q4 2024: 89.42
+    Q1 2025: 86.32
+    Q2 2025: 90.61
+    Q3 2025: 101.91
+    Q4 2025: 106.78
+    Q1 2026: 65.8
+    Q2 2026: 63.46
+    Q3 2026: 70.55
+    Q4 2026: 76.4
+    Q1 2027: 67.49
+  annual_forecast:
+    2021 Yearly: 254.89
+    2022 Yearly: 267.99
+    2023 Yearly: 319.81
+    2024 Yearly: 345.37
+    2025 Yearly: 407.31
+    2026 Yearly: 269.43
+    2027 Yearly: 302.87
+    2028 Yearly: 340.92
+    2029 Yearly: 375.3
+eps:
+  quarterly:
+    Q3 2024: 0.05
+    Q4 2024: 0.05
+    Q1 2025: 0.05
+    Q2 2025: 0.06
+    Q3 2025: 0.11
+    Q4 2025: 0.1
+    Q1 2026: -0.07
+  annual:
+    2021 Yearly: -0.15
+    2022 Yearly: -0.33
+    2023 Yearly: 0.37
+    2024 Yearly: 0.28
+    2025 Yearly: 0.32
+  quarterly_forecast:
+    Q3 2024: 0.04
+    Q4 2024: 0.07
+    Q1 2025: 0.05
+    Q2 2025: 0.05
+    Q3 2025: 0.08
+    Q4 2025: 0.09
+    Q1 2026: -0.03
+    Q2 2026: -0.05
+    Q3 2026: -0.02
+    Q4 2026: 0.01
+    Q1 2027: 0.0
+  annual_forecast:
+    2021 Yearly: -0.17
+    2022 Yearly: -0.3
+    2023 Yearly: 0.1
+    2024 Yearly: 0.3
+    2025 Yearly: 0.32
+    2026 Yearly: -0.12
+    2027 Yearly: 0.04
+    2028 Yearly: 0.16
+    2029 Yearly: 0.2

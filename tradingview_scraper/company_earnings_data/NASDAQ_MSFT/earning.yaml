@@ -1,0 +1,78 @@
+currency: USD
+company_name: Microsoft Corp.
+sector: Technology Services
+market_cap_billions: 2900.0
+revenue:
+  quarterly:
+    Q1 2025: 65580.0
+    Q2 2025: 69630.0
+    Q3 2025: 70070.0
+    Q4 2025: 76440.0
+    Q1 2026: 77670.0
+    Q2 2026: 81270.0
+    Q3 2026: 82890.0
+  annual:
+    2021 Yearly: 168090.0
+    2022 Yearly: 198270.0
+    2023 Yearly: 211910.0
+    2024 Yearly: 245120.0
+    2025 Yearly: 281720.0
+  quarterly_forecast:
+    Q1 2025: 64560.0
+    Q2 2025: 68870.0
+    Q3 2025: 68440.0
+    Q4 2025: 73930.0
+    Q1 2026: 75490.0
+    Q2 2026: 80310.0
+    Q3 2026: 81440.0
+    Q4 2026: 87620.0
+    Q1 2027: 89720.0
+    Q2 2027: 94370.0
+    Q3 2027: 96840.0
+  annual_forecast:
+    2021 Yearly: 166230.0
+    2022 Yearly: 198700.0
+    2023 Yearly: 211550.0
+    2024 Yearly: 244930.0
+    2025 Yearly: 279230.0
+    2026 Yearly: 329470.0
+    2027 Yearly: 384700.0
+    2028 Yearly: 456620.0
+    2029 Yearly: 538990.0
+eps:
+  quarterly:
+    Q1 2025: 3.3
+    Q2 2025: 3.23
+    Q3 2025: 3.46
+    Q4 2025: 3.65
+    Q1 2026: 4.13
+    Q2 2026: 4.14
+    Q3 2026: 4.27
+  annual:
+    2021 Yearly: 7.97
+    2022 Yearly: 9.21
+    2023 Yearly: 9.81
+    2024 Yearly: 11.8
+    2025 Yearly: 13.64
+  quarterly_forecast:
+    Q1 2025: 3.1
+    Q2 2025: 3.12
+    Q3 2025: 3.22
+    Q4 2025: 3.37
+    Q1 2026: 3.67
+    Q2 2026: 3.9
+    Q3 2026: 4.06
+    Q4 2026: 4.24
+    Q1 2027: 4.63
+    Q2 2027: 4.78
+    Q3 2027: 4.87
+  annual_forecast:
+    2021 Yearly: 7.77
+    2022 Yearly: 9.27
+    2023 Yearly: 9.62
+    2024 Yearly: 11.83
+    2025 Yearly: 13.42
+    2026 Yearly: 17.0
+    2027 Yearly: 19.46
+    2028 Yearly: 22.78
+    2029 Yearly: 27.08

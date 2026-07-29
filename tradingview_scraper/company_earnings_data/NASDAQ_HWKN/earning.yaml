@@ -1,0 +1,74 @@
+currency: USD
+company_name: Hawkins, Inc.
+sector: Process Industries
+market_cap_billions: 2.9
+revenue:
+  quarterly:
+    Q3 2024: 226.21
+    Q4 2024: 245.32
+    Q1 2025: 293.27
+    Q2 2025: 280.43
+    Q3 2025: 244.08
+    Q4 2025: 265.91
+    Q1 2026: 315.68
+  annual:
+    2021 Yearly: 774.54
+    2022 Yearly: 935.1
+    2023 Yearly: 919.16
+    2024 Yearly: 974.43
+    2025 Yearly: 1080.0
+  quarterly_forecast:
+    Q3 2024: 217.51
+    Q4 2024: 230.69
+    Q1 2025: 280.82
+    Q2 2025: 284.42
+    Q3 2025: 252.51
+    Q4 2025: 255.28
+    Q1 2026: 313.42
+    Q2 2026: 300.8
+    Q3 2026: 268.29
+    Q4 2026: 283.91
+    Q1 2027: 332.45
+  annual_forecast:
+    2021 Yearly: 740.47
+    2022 Yearly: 921.39
+    2023 Yearly: 913.63
+    2024 Yearly: 959.8
+    2025 Yearly: 1070.0
+    2026 Yearly: 1170.0
+    2027 Yearly: 1230.0
+eps:
+  quarterly:
+    Q3 2024: 0.72
+    Q4 2024: 0.78
+    Q1 2025: 1.4
+    Q2 2025: 1.08
+    Q3 2025: 0.69
+    Q4 2025: 0.74
+    Q1 2026: 1.35
+  annual:
+    2021 Yearly: 2.44
+    2022 Yearly: 2.86
+    2023 Yearly: 3.59
+    2024 Yearly: 4.03
+    2025 Yearly: 3.91
+  quarterly_forecast:
+    Q3 2024: 0.63
+    Q4 2024: 0.73
+    Q1 2025: 1.33
+    Q2 2025: 1.24
+    Q3 2025: 0.74
+    Q4 2025: 0.75
+    Q1 2026: 1.39
+    Q2 2026: 1.24
+    Q3 2026: 0.77
+    Q4 2026: 0.84
+    Q1 2027: 1.53
+  annual_forecast:
+    2021 Yearly: 2.36
+    2022 Yearly: 2.8
+    2023 Yearly: 3.61
+    2024 Yearly: 4.0
+    2025 Yearly: 3.93
+    2026 Yearly: 4.25
+    2027 Yearly: 4.8

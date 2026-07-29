@@ -1,0 +1,76 @@
+currency: USD
+company_name: Ingevity Corporation
+sector: Process Industries
+market_cap_billions: 2.46
+revenue:
+  quarterly:
+    Q3 2024: 376.9
+    Q4 2024: 298.8
+    Q1 2025: 284.0
+    Q2 2025: 365.1
+    Q3 2025: 333.1
+    Q4 2025: 255.1
+    Q1 2026: 258.0
+  annual:
+    2021 Yearly: 1390.0
+    2022 Yearly: 1670.0
+    2023 Yearly: 1690.0
+    2024 Yearly: 1410.0
+    2025 Yearly: 1170.0
+  quarterly_forecast:
+    Q3 2024: 376.95
+    Q4 2024: 310.89
+    Q1 2025: 285.46
+    Q2 2025: 378.7
+    Q3 2025: 360.43
+    Q4 2025: 257.27
+    Q1 2026: 254.73
+    Q2 2026: 312.2
+    Q3 2026: 305.35
+    Q4 2026: 242.45
+    Q1 2027: 255.35
+  annual_forecast:
+    2021 Yearly: 1350.0
+    2022 Yearly: 1680.0
+    2023 Yearly: 1640.0
+    2024 Yearly: 1410.0
+    2025 Yearly: 1250.0
+    2026 Yearly: 1110.0
+    2027 Yearly: 1130.0
+    2028 Yearly: 1150.0
+eps:
+  quarterly:
+    Q3 2024: 1.1
+    Q4 2024: 0.95
+    Q1 2025: 0.99
+    Q2 2025: 1.39
+    Q3 2025: 1.52
+    Q4 2025: 0.63
+    Q1 2026: 1.15
+  annual:
+    2021 Yearly: 5.23
+    2022 Yearly: 6.01
+    2023 Yearly: 3.94
+    2024 Yearly: 3.51
+    2025 Yearly: 4.55
+  quarterly_forecast:
+    Q3 2024: 0.88
+    Q4 2024: 0.31
+    Q1 2025: 0.74
+    Q2 2025: 1.16
+    Q3 2025: 1.37
+    Q4 2025: 0.67
+    Q1 2026: 0.83
+    Q2 2026: 1.33
+    Q3 2026: 1.58
+    Q4 2026: 0.95
+    Q1 2027: 1.17
+  annual_forecast:
+    2021 Yearly: 5.22
+    2022 Yearly: 6.3
+    2023 Yearly: 3.58
+    2024 Yearly: 2.93
+    2025 Yearly: 4.46
+    2026 Yearly: 5.01
+    2027 Yearly: 5.94
+    2028 Yearly: 6.73

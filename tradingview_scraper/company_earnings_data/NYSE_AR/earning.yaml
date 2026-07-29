@@ -1,0 +1,78 @@
+currency: USD
+company_name: Antero Resources Corporation
+sector: Energy Minerals
+market_cap_billions: 10.89
+revenue:
+  quarterly:
+    Q3 2024: 1060.0
+    Q4 2024: 1170.0
+    Q1 2025: 1350.0
+    Q2 2025: 1300.0
+    Q3 2025: 1210.0
+    Q4 2025: 1410.0
+    Q1 2026: 1950.0
+  annual:
+    2021 Yearly: 4620.0
+    2022 Yearly: 7140.0
+    2023 Yearly: 4680.0
+    2024 Yearly: 4330.0
+    2025 Yearly: 5280.0
+  quarterly_forecast:
+    Q3 2024: 1030.0
+    Q4 2024: 1170.0
+    Q1 2025: 1400.0
+    Q2 2025: 1240.0
+    Q3 2025: 1170.0
+    Q4 2025: 1310.0
+    Q1 2026: 1670.0
+    Q2 2026: 1530.0
+    Q3 2026: 1580.0
+    Q4 2026: 1670.0
+    Q1 2027: 1700.0
+  annual_forecast:
+    2021 Yearly: 4540.0
+    2022 Yearly: 6750.0
+    2023 Yearly: 4540.0
+    2024 Yearly: 4290.0
+    2025 Yearly: 5130.0
+    2026 Yearly: 6630.0
+    2027 Yearly: 6620.0
+    2028 Yearly: 7120.0
+    2029 Yearly: 7480.0
+eps:
+  quarterly:
+    Q3 2024: -0.12
+    Q4 2024: 0.58
+    Q1 2025: 0.78
+    Q2 2025: 0.35
+    Q3 2025: 0.15
+    Q4 2025: 0.42
+    Q1 2026: 1.15
+  annual:
+    2021 Yearly: 1.44
+    2022 Yearly: 5.21
+    2023 Yearly: 0.54
+    2024 Yearly: 0.35
+    2025 Yearly: 1.72
+  quarterly_forecast:
+    Q3 2024: -0.05
+    Q4 2024: 0.3
+    Q1 2025: 0.83
+    Q2 2025: 0.42
+    Q3 2025: 0.24
+    Q4 2025: 0.5
+    Q1 2026: 1.17
+    Q2 2026: 0.83
+    Q3 2026: 0.95
+    Q4 2026: 1.08
+    Q1 2027: 1.19
+  annual_forecast:
+    2021 Yearly: 1.53
+    2022 Yearly: 5.45
+    2023 Yearly: 0.53
+    2024 Yearly: 0.07
+    2025 Yearly: 1.81
+    2026 Yearly: 4.1
+    2027 Yearly: 4.18
+    2028 Yearly: 5.37
+    2029 Yearly: 6.04

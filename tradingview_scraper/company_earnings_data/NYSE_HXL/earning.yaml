@@ -1,0 +1,78 @@
+currency: USD
+company_name: Hexcel Corporation
+sector: Electronic Technology
+market_cap_billions: 7.97
+revenue:
+  quarterly:
+    Q3 2024: 456.5
+    Q4 2024: 473.8
+    Q1 2025: 456.5
+    Q2 2025: 489.9
+    Q3 2025: 456.2
+    Q4 2025: 491.3
+    Q1 2026: 501.5
+  annual:
+    2021 Yearly: 1320.0
+    2022 Yearly: 1580.0
+    2023 Yearly: 1790.0
+    2024 Yearly: 1900.0
+    2025 Yearly: 1890.0
+  quarterly_forecast:
+    Q3 2024: 459.6
+    Q4 2024: 472.92
+    Q1 2025: 473.32
+    Q2 2025: 473.29
+    Q3 2025: 443.2
+    Q4 2025: 479.24
+    Q1 2026: 484.64
+    Q2 2026: 528.08
+    Q3 2026: 496.72
+    Q4 2026: 548.53
+    Q1 2027: 545.98
+  annual_forecast:
+    2021 Yearly: 1330.0
+    2022 Yearly: 1550.0
+    2023 Yearly: 1810.0
+    2024 Yearly: 1900.0
+    2025 Yearly: 1880.0
+    2026 Yearly: 2080.0
+    2027 Yearly: 2290.0
+    2028 Yearly: 2480.0
+    2029 Yearly: 2830.0
+eps:
+  quarterly:
+    Q3 2024: 0.47
+    Q4 2024: 0.52
+    Q1 2025: 0.37
+    Q2 2025: 0.5
+    Q3 2025: 0.37
+    Q4 2025: 0.52
+    Q1 2026: 0.59
+  annual:
+    2021 Yearly: 0.27
+    2022 Yearly: 1.28
+    2023 Yearly: 1.81
+    2024 Yearly: 2.03
+    2025 Yearly: 1.76
+  quarterly_forecast:
+    Q3 2024: 0.46
+    Q4 2024: 0.5
+    Q1 2025: 0.43
+    Q2 2025: 0.46
+    Q3 2025: 0.36
+    Q4 2025: 0.49
+    Q1 2026: 0.43
+    Q2 2026: 0.57
+    Q3 2026: 0.48
+    Q4 2026: 0.65
+    Q1 2027: 0.65
+  annual_forecast:
+    2021 Yearly: 0.24
+    2022 Yearly: 1.21
+    2023 Yearly: 1.87
+    2024 Yearly: 2.01
+    2025 Yearly: 1.73
+    2026 Yearly: 2.3
+    2027 Yearly: 3.07
+    2028 Yearly: 3.71
+    2029 Yearly: 5.22

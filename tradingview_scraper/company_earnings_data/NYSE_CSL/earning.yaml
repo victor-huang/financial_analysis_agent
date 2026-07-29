@@ -1,0 +1,78 @@
+currency: USD
+company_name: Carlisle Companies Incorporated
+sector: Producer Manufacturing
+market_cap_billions: 13.54
+revenue:
+  quarterly:
+    Q3 2024: 1330.0
+    Q4 2024: 1120.0
+    Q1 2025: 1100.0
+    Q2 2025: 1450.0
+    Q3 2025: 1350.0
+    Q4 2025: 1130.0
+    Q1 2026: 1050.0
+  annual:
+    2021 Yearly: 4810.0
+    2022 Yearly: 6590.0
+    2023 Yearly: 4590.0
+    2024 Yearly: 5000.0
+    2025 Yearly: 5020.0
+  quarterly_forecast:
+    Q3 2024: 1380.0
+    Q4 2024: 1160.0
+    Q1 2025: 1090.0
+    Q2 2025: 1490.0
+    Q3 2025: 1320.0
+    Q4 2025: 1110.0
+    Q1 2026: 1060.0
+    Q2 2026: 1480.0
+    Q3 2026: 1420.0
+    Q4 2026: 1200.0
+    Q1 2027: 1130.0
+  annual_forecast:
+    2021 Yearly: 4710.0
+    2022 Yearly: 6580.0
+    2023 Yearly: 4550.0
+    2024 Yearly: 5040.0
+    2025 Yearly: 5000.0
+    2026 Yearly: 5150.0
+    2027 Yearly: 5390.0
+    2028 Yearly: 5580.0
+    2029 Yearly: 5830.0
+eps:
+  quarterly:
+    Q3 2024: 5.78
+    Q4 2024: 4.47
+    Q1 2025: 3.61
+    Q2 2025: 6.27
+    Q3 2025: 5.61
+    Q4 2025: 3.9
+    Q1 2026: 3.63
+  annual:
+    2021 Yearly: 9.44
+    2022 Yearly: 20.01
+    2023 Yearly: 15.52
+    2024 Yearly: 20.2
+    2025 Yearly: 19.4
+  quarterly_forecast:
+    Q3 2024: 5.82
+    Q4 2024: 4.42
+    Q1 2025: 3.42
+    Q2 2025: 6.58
+    Q3 2025: 5.36
+    Q4 2025: 3.58
+    Q1 2026: 3.33
+    Q2 2026: 6.35
+    Q3 2026: 6.27
+    Q4 2026: 4.42
+    Q1 2027: 4.08
+  annual_forecast:
+    2021 Yearly: 9.21
+    2022 Yearly: 19.85
+    2023 Yearly: 14.93
+    2024 Yearly: 20.17
+    2025 Yearly: 19.09
+    2026 Yearly: 20.67
+    2027 Yearly: 23.27
+    2028 Yearly: 26.34
+    2029 Yearly: 27.65

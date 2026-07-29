@@ -1,0 +1,78 @@
+currency: USD
+company_name: Carvana Co.
+sector: Retail Trade
+market_cap_billions: 72.74
+revenue:
+  quarterly:
+    Q3 2024: 3650.0
+    Q4 2024: 3550.0
+    Q1 2025: 4230.0
+    Q2 2025: 4840.0
+    Q3 2025: 5650.0
+    Q4 2025: 5600.0
+    Q1 2026: 6430.0
+  annual:
+    2021 Yearly: 12810.0
+    2022 Yearly: 13600.0
+    2023 Yearly: 10770.0
+    2024 Yearly: 13670.0
+    2025 Yearly: 20320.0
+  quarterly_forecast:
+    Q3 2024: 3470.0
+    Q4 2024: 3340.0
+    Q1 2025: 4000.0
+    Q2 2025: 4580.0
+    Q3 2025: 5110.0
+    Q4 2025: 5270.0
+    Q1 2026: 6120.0
+    Q2 2026: 6900.0
+    Q3 2026: 7320.0
+    Q4 2026: 7230.0
+    Q1 2027: 8200.0
+  annual_forecast:
+    2021 Yearly: 12570.0
+    2022 Yearly: 13860.0
+    2023 Yearly: 10930.0
+    2024 Yearly: 13470.0
+    2025 Yearly: 20000.0
+    2026 Yearly: 27900.0
+    2027 Yearly: 35000.0
+    2028 Yearly: 42500.0
+    2029 Yearly: 49140.0
+eps:
+  quarterly:
+    Q3 2024: 0.13
+    Q4 2024: 0.15
+    Q1 2025: 0.3
+    Q2 2025: 0.27
+    Q3 2025: 0.21
+    Q4 2025: 0.84
+    Q1 2026: 0.34
+  annual:
+    2021 Yearly: -0.33
+    2022 Yearly: -3.15
+    2023 Yearly: 0.15
+    2024 Yearly: 0.39
+    2025 Yearly: 1.69
+  quarterly_forecast:
+    Q3 2024: 0.06
+    Q4 2024: 0.06
+    Q1 2025: 0.15
+    Q2 2025: 0.23
+    Q3 2025: 0.26
+    Q4 2025: 0.23
+    Q1 2026: 0.32
+    Q2 2026: 0.38
+    Q3 2026: 0.42
+    Q4 2026: 0.36
+    Q1 2027: 0.44
+  annual_forecast:
+    2021 Yearly: -0.28
+    2022 Yearly: -2.0
+    2023 Yearly: 0.21
+    2024 Yearly: 0.32
+    2025 Yearly: 1.01
+    2026 Yearly: 1.52
+    2027 Yearly: 2.04
+    2028 Yearly: 2.63
+    2029 Yearly: 2.66

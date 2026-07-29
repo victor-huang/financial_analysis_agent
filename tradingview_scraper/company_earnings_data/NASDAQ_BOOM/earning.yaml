@@ -1,0 +1,74 @@
+currency: USD
+company_name: DMC Global Inc.
+sector: Industrial Services
+market_cap_billions: 0.11094
+revenue:
+  quarterly:
+    Q4 2024: 152.37
+    Q1 2025: 159.29
+    Q2 2025: 155.49
+    Q3 2025: 151.53
+    Q4 2025: 143.53
+    Q1 2026: 135.59
+    Q2 2026: 156.95
+  annual:
+    2021 Yearly: 260.12
+    2022 Yearly: 654.09
+    2023 Yearly: 719.19
+    2024 Yearly: 642.85
+    2025 Yearly: 609.84
+  quarterly_forecast:
+    Q4 2024: 140.5
+    Q1 2025: 149.0
+    Q2 2025: 151.4
+    Q3 2025: 145.03
+    Q4 2025: 142.37
+    Q1 2026: 134.23
+    Q2 2026: 148.97
+    Q3 2026: 156.4
+    Q4 2026: 154.27
+    Q1 2027: 153.1
+    Q2 2027: 164.3
+  annual_forecast:
+    2021 Yearly: 258.89
+    2022 Yearly: 650.3
+    2023 Yearly: 715.47
+    2024 Yearly: 630.97
+    2025 Yearly: 608.93
+    2026 Yearly: 595.23
+    2027 Yearly: 648.97
+eps:
+  quarterly:
+    Q4 2024: 0.09
+    Q1 2025: 0.11
+    Q2 2025: 0.12
+    Q3 2025: -0.08
+    Q4 2025: -0.5
+    Q1 2026: -0.28
+    Q2 2026: 0.04
+  annual:
+    2021 Yearly: 0.16
+    2022 Yearly: 0.7
+    2023 Yearly: 1.81
+    2024 Yearly: 0.1
+    2025 Yearly: -0.35
+  quarterly_forecast:
+    Q4 2024: -0.27
+    Q1 2025: -0.1
+    Q2 2025: 0.06
+    Q3 2025: 0.03
+    Q4 2025: -0.13
+    Q1 2026: -0.33
+    Q2 2026: -0.15
+    Q3 2026: 0.0
+    Q4 2026: 0.02
+    Q1 2027: 0.03
+    Q2 2027: 0.12
+  annual_forecast:
+    2021 Yearly: 0.17
+    2022 Yearly: 0.51
+    2023 Yearly: 1.71
+    2024 Yearly: -0.28
+    2025 Yearly: 0.03
+    2026 Yearly: -0.43
+    2027 Yearly: 0.42

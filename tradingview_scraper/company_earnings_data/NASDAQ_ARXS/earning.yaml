@@ -1,0 +1,37 @@
+currency: USD
+company_name: Arxis, Inc.
+sector: Electronic Technology
+market_cap_billions: 17.43
+revenue:
+  quarterly:
+    Q1 2026: 458.86
+  annual:
+    2025 Yearly: 1590.0
+  quarterly_forecast:
+    Q1 2026: 422.73
+    Q2 2026: 474.66
+    Q3 2026: 481.48
+    Q4 2026: 469.62
+    Q1 2027: 506.26
+  annual_forecast:
+    2025 Yearly: 1600.0
+    2026 Yearly: 1880.0
+    2027 Yearly: 2080.0
+    2028 Yearly: 2260.0
+    2029 Yearly: 2420.0
+eps:
+  quarterly:
+    Q1 2026: 0.13
+  annual:
+    2025 Yearly: 0.31
+  quarterly_forecast:
+    Q1 2026: 0.09
+    Q2 2026: -0.08
+    Q3 2026: 0.16
+    Q4 2026: 0.15
+    Q1 2027: 0.16
+  annual_forecast:
+    2026 Yearly: 0.35
+    2027 Yearly: 0.71
+    2028 Yearly: 0.89
+    2029 Yearly: 1.07

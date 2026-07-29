@@ -1,0 +1,74 @@
+currency: USD
+company_name: Beacon Financial Corporation
+sector: Finance
+market_cap_billions: 2.51
+revenue:
+  quarterly:
+    Q4 2024: 110.18
+    Q1 2025: 110.44
+    Q2 2025: 113.67
+    Q3 2025: 144.95
+    Q4 2025: 225.66
+    Q1 2026: 214.72
+    Q2 2026: 219.19
+  annual:
+    2021 Yearly: 434.41
+    2022 Yearly: 415.56
+    2023 Yearly: 411.83
+    2024 Yearly: 400.0
+    2025 Yearly: 553.0
+  quarterly_forecast:
+    Q4 2024: 107.89
+    Q1 2025: 109.58
+    Q2 2025: 113.34
+    Q3 2025: 145.16
+    Q4 2025: 230.94
+    Q1 2026: 230.21
+    Q2 2026: 221.13
+    Q3 2026: 226.13
+    Q4 2026: 229.7
+    Q1 2027: 226.71
+    Q2 2027: 231.57
+  annual_forecast:
+    2021 Yearly: 415.97
+    2022 Yearly: 410.19
+    2023 Yearly: 441.12
+    2024 Yearly: 410.86
+    2025 Yearly: 573.19
+    2026 Yearly: 892.31
+    2027 Yearly: 932.56
+eps:
+  quarterly:
+    Q4 2024: 0.6
+    Q1 2025: 0.6
+    Q2 2025: 0.69
+    Q3 2025: 0.44
+    Q4 2025: 0.79
+    Q1 2026: 0.7
+    Q2 2026: 0.77
+  annual:
+    2021 Yearly: 1.69
+    2022 Yearly: 2.19
+    2023 Yearly: 2.14
+    2024 Yearly: 2.22
+    2025 Yearly: 1.62
+  quarterly_forecast:
+    Q4 2024: 0.55
+    Q1 2025: 0.53
+    Q2 2025: 0.59
+    Q3 2025: 0.68
+    Q4 2025: 0.79
+    Q1 2026: 0.84
+    Q2 2026: 0.77
+    Q3 2026: 0.8
+    Q4 2026: 0.84
+    Q1 2027: 0.81
+    Q2 2027: 0.84
+  annual_forecast:
+    2021 Yearly: 1.67
+    2022 Yearly: 2.14
+    2023 Yearly: 2.16
+    2024 Yearly: 2.17
+    2025 Yearly: 1.93
+    2026 Yearly: 3.1
+    2027 Yearly: 3.42

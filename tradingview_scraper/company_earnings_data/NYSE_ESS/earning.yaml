@@ -1,0 +1,78 @@
+currency: USD
+company_name: Essex Property Trust, Inc.
+sector: Finance
+market_cap_billions: 19.07
+revenue:
+  quarterly:
+    Q3 2024: 448.13
+    Q4 2024: 452.08
+    Q1 2025: 462.09
+    Q2 2025: 467.61
+    Q3 2025: 470.94
+    Q4 2025: 477.32
+    Q1 2026: 482.44
+  annual:
+    2021 Yearly: 1430.0
+    2022 Yearly: 1600.0
+    2023 Yearly: 1660.0
+    2024 Yearly: 1760.0
+    2025 Yearly: 1880.0
+  quarterly_forecast:
+    Q3 2024: 443.45
+    Q4 2024: 449.06
+    Q1 2025: 456.69
+    Q2 2025: 466.33
+    Q3 2025: 472.11
+    Q4 2025: 473.98
+    Q1 2026: 479.89
+    Q2 2026: 485.12
+    Q3 2026: 489.42
+    Q4 2026: 492.26
+    Q1 2027: 496.58
+  annual_forecast:
+    2021 Yearly: 1430.0
+    2022 Yearly: 1600.0
+    2023 Yearly: 1660.0
+    2024 Yearly: 1760.0
+    2025 Yearly: 1880.0
+    2026 Yearly: 1950.0
+    2027 Yearly: 2020.0
+    2028 Yearly: 2090.0
+    2029 Yearly: 2130.0
+eps:
+  quarterly:
+    Q3 2024: 1.84
+    Q4 2024: 4.0
+    Q1 2025: 3.16
+    Q2 2025: 3.44
+    Q3 2025: 2.56
+    Q4 2025: 1.25
+    Q1 2026: 1.65
+  annual:
+    2021 Yearly: 7.51
+    2022 Yearly: 6.27
+    2023 Yearly: 6.32
+    2024 Yearly: 11.54
+    2025 Yearly: 10.4
+  quarterly_forecast:
+    Q3 2024: 1.35
+    Q4 2024: 1.36
+    Q1 2025: 1.42
+    Q2 2025: 1.48
+    Q3 2025: 1.56
+    Q4 2025: 1.45
+    Q1 2026: 1.42
+    Q2 2026: 1.46
+    Q3 2026: 1.42
+    Q4 2026: 1.44
+    Q1 2027: 1.52
+  annual_forecast:
+    2021 Yearly: 6.42
+    2022 Yearly: 4.71
+    2023 Yearly: 6.61
+    2024 Yearly: 8.82
+    2025 Yearly: 10.51
+    2026 Yearly: 5.95
+    2027 Yearly: 6.2
+    2028 Yearly: 6.75
+    2029 Yearly: 8.32

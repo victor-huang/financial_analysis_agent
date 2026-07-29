@@ -1,0 +1,78 @@
+currency: USD
+company_name: Bausch Health Companies Inc.
+sector: Health Technology
+market_cap_billions: 1.75
+revenue:
+  quarterly:
+    Q4 2024: 2520.0
+    Q1 2025: 2170.0
+    Q2 2025: 2570.0
+    Q3 2025: 2690.0
+    Q4 2025: 2790.0
+    Q1 2026: 2470.0
+    Q2 2026: 2830.0
+  annual:
+    2021 Yearly: 8480.0
+    2022 Yearly: 8119.999999999999
+    2023 Yearly: 8920.0
+    2024 Yearly: 9490.0
+    2025 Yearly: 10230.0
+  quarterly_forecast:
+    Q4 2024: 2500.0
+    Q1 2025: 2210.0
+    Q2 2025: 2510.0
+    Q3 2025: 2630.0
+    Q4 2025: 2730.0
+    Q1 2026: 2370.0
+    Q2 2026: 2590.0
+    Q3 2026: 2670.0
+    Q4 2026: 2760.0
+    Q1 2027: 2380.0
+    Q2 2027: 2550.0
+  annual_forecast:
+    2021 Yearly: 8390.0
+    2022 Yearly: 8050.000000000001
+    2023 Yearly: 8810.0
+    2024 Yearly: 9590.0
+    2025 Yearly: 10250.0
+    2026 Yearly: 10500.0
+    2027 Yearly: 10520.0
+    2028 Yearly: 9710.0
+    2029 Yearly: 9380.0
+eps:
+  quarterly:
+    Q4 2024: 1.13
+    Q1 2025: 0.58
+    Q2 2025: 1.06
+    Q3 2025: 1.16
+    Q4 2025: 1.07
+    Q1 2026: 0.76
+    Q2 2026: 1.25
+  annual:
+    2021 Yearly: 4.43
+    2022 Yearly: 3.36
+    2023 Yearly: 3.54
+    2024 Yearly: 3.96
+    2025 Yearly: 3.83
+  quarterly_forecast:
+    Q4 2024: 1.13
+    Q1 2025: 0.8
+    Q2 2025: 0.93
+    Q3 2025: 1.06
+    Q4 2025: 1.21
+    Q1 2026: 0.66
+    Q2 2026: 0.98
+    Q3 2026: 1.17
+    Q4 2026: 1.28
+    Q1 2027: 0.73
+    Q2 2027: 0.86
+  annual_forecast:
+    2021 Yearly: 4.21
+    2022 Yearly: 2.97
+    2023 Yearly: 3.46
+    2024 Yearly: 3.75
+    2025 Yearly: 3.87
+    2026 Yearly: 4.22
+    2027 Yearly: 4.03
+    2028 Yearly: 3.08
+    2029 Yearly: 2.78

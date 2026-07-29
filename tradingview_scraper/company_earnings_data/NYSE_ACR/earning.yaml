@@ -1,0 +1,74 @@
+currency: USD
+company_name: ACRES Commercial Realty Corp.
+sector: Finance
+market_cap_billions: 0.1305
+revenue:
+  quarterly:
+    Q3 2024: 22.4
+    Q4 2024: 21.42
+    Q1 2025: 17.0
+    Q2 2025: 21.87
+    Q3 2025: 21.04
+    Q4 2025: 20.0
+    Q1 2026: 17.82
+  annual:
+    2021 Yearly: 50.08
+    2022 Yearly: 75.17
+    2023 Yearly: 91.1
+    2024 Yearly: 83.49
+    2025 Yearly: 79.9
+  quarterly_forecast:
+    Q3 2024: 21.08
+    Q4 2024: 21.96
+    Q1 2025: 21.84
+    Q2 2025: 20.32
+    Q3 2025: 22.15
+    Q4 2025: 20.58
+    Q1 2026: 20.55
+    Q2 2026: 20.32
+    Q3 2026: 20.46
+    Q4 2026: 20.61
+    Q1 2027: 19.1
+  annual_forecast:
+    2021 Yearly: 47.95
+    2022 Yearly: 63.95
+    2023 Yearly: 78.2
+    2024 Yearly: 83.98
+    2025 Yearly: 80.78
+    2026 Yearly: 81.02
+    2027 Yearly: 75.32
+eps:
+  quarterly:
+    Q3 2024: 0.24
+    Q4 2024: 0.48
+    Q1 2025: -0.86
+    Q2 2025: 0.04
+    Q3 2025: 1.01
+    Q4 2025: -0.48
+    Q1 2026: 0.02
+  annual:
+    2021 Yearly: -0.05
+    2022 Yearly: 1.17
+    2023 Yearly: 2.4
+    2024 Yearly: 1.39
+    2025 Yearly: -0.26
+  quarterly_forecast:
+    Q3 2024: 0.39
+    Q4 2024: 0.36
+    Q1 2025: 0.45
+    Q2 2025: 0.17
+    Q3 2025: 0.1
+    Q4 2025: 0.14
+    Q1 2026: 0.17
+    Q2 2026: 0.18
+    Q3 2026: 0.21
+    Q4 2026: 0.25
+    Q1 2027: 0.3
+  annual_forecast:
+    2021 Yearly: 0.36
+    2022 Yearly: 0.86
+    2023 Yearly: 1.97
+    2024 Yearly: 1.36
+    2025 Yearly: -0.01
+    2026 Yearly: 0.66
+    2027 Yearly: 1.44

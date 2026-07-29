@@ -1,0 +1,74 @@
+currency: USD
+company_name: Farmland Partners Inc.
+sector: Finance
+market_cap_billions: 0.41524
+revenue:
+  quarterly:
+    Q3 2024: 9.75
+    Q4 2024: 17.62
+    Q1 2025: 6.97
+    Q2 2025: 6.02
+    Q3 2025: 5.99
+    Q4 2025: 16.94
+    Q1 2026: 6.3
+  annual:
+    2021 Yearly: 45.25
+    2022 Yearly: 45.62
+    2023 Yearly: 57.47
+    2024 Yearly: 47.12
+    2025 Yearly: 35.93
+  quarterly_forecast:
+    Q3 2024: 10.12
+    Q4 2024: 16.54
+    Q1 2025: 6.76
+    Q2 2025: 6.57
+    Q3 2025: 6.38
+    Q4 2025: 14.49
+    Q1 2026: 5.67
+    Q2 2026: 5.64
+    Q3 2026: 5.7
+    Q4 2026: 12.55
+    Q1 2027: 5.84
+  annual_forecast:
+    2021 Yearly: 46.12
+    2022 Yearly: 51.04
+    2023 Yearly: 50.01
+    2024 Yearly: 46.03
+    2025 Yearly: 33.47
+    2026 Yearly: 37.78
+    2027 Yearly: 36.21
+eps:
+  quarterly:
+    Q3 2024: 0.02
+    Q4 2024: 1.09
+    Q1 2025: 0.03
+    Q2 2025: 0.14
+    Q3 2025: 0.0
+    Q4 2025: 0.44
+    Q1 2026: 0.01
+  annual:
+    2021 Yearly: -0.17
+    2022 Yearly: 0.16
+    2023 Yearly: 0.53
+    2024 Yearly: 1.06
+    2025 Yearly: 0.61
+  quarterly_forecast:
+    Q3 2024: -0.04
+    Q4 2024: 1.13
+    Q1 2025: 0.01
+    Q2 2025: 0.0
+    Q3 2025: 0.03
+    Q4 2025: 0.17
+    Q1 2026: 0.01
+    Q2 2026: 0.01
+    Q3 2026: 0.02
+    Q4 2026: 0.14
+    Q1 2027: 0.01
+  annual_forecast:
+    2021 Yearly: -0.21
+    2022 Yearly: 0.21
+    2023 Yearly: 0.43
+    2024 Yearly: 1.1
+    2025 Yearly: 0.34
+    2026 Yearly: 0.18
+    2027 Yearly: 0.2

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Tyler Technologies, Inc.
+sector: Technology Services
+market_cap_billions: 14.06
+revenue:
+  quarterly:
+    Q3 2024: 543.34
+    Q4 2024: 541.13
+    Q1 2025: 565.16
+    Q2 2025: 596.12
+    Q3 2025: 595.88
+    Q4 2025: 575.18
+    Q1 2026: 613.5
+  annual:
+    2021 Yearly: 1590.0
+    2022 Yearly: 1850.0
+    2023 Yearly: 1950.0
+    2024 Yearly: 2140.0
+    2025 Yearly: 2330.0
+  quarterly_forecast:
+    Q3 2024: 546.02
+    Q4 2024: 540.71
+    Q1 2025: 556.76
+    Q2 2025: 587.58
+    Q3 2025: 594.31
+    Q4 2025: 591.04
+    Q1 2026: 608.66
+    Q2 2026: 648.02
+    Q3 2026: 652.28
+    Q4 2026: 644.34
+    Q1 2027: 673.35
+  annual_forecast:
+    2021 Yearly: 1590.0
+    2022 Yearly: 1850.0
+    2023 Yearly: 1960.0
+    2024 Yearly: 2140.0
+    2025 Yearly: 2350.0
+    2026 Yearly: 2560.0
+    2027 Yearly: 2810.0
+    2028 Yearly: 3060.0
+    2029 Yearly: 3370.0
+eps:
+  quarterly:
+    Q3 2024: 2.52
+    Q4 2024: 2.43
+    Q1 2025: 2.78
+    Q2 2025: 3.01
+    Q3 2025: 2.97
+    Q4 2025: 2.64
+    Q1 2026: 3.09
+  annual:
+    2021 Yearly: 7.02
+    2022 Yearly: 7.5
+    2023 Yearly: 7.8
+    2024 Yearly: 9.55
+    2025 Yearly: 11.31
+  quarterly_forecast:
+    Q3 2024: 2.46
+    Q4 2024: 2.43
+    Q1 2025: 2.56
+    Q2 2025: 2.77
+    Q3 2025: 2.86
+    Q4 2025: 2.72
+    Q1 2026: 3.0
+    Q2 2026: 3.05
+    Q3 2026: 3.41
+    Q4 2026: 3.37
+    Q1 2027: 3.55
+  annual_forecast:
+    2021 Yearly: 7.01
+    2022 Yearly: 7.59
+    2023 Yearly: 7.77
+    2024 Yearly: 9.55
+    2025 Yearly: 11.41
+    2026 Yearly: 12.91
+    2027 Yearly: 14.9
+    2028 Yearly: 17.36
+    2029 Yearly: 20.26

@@ -1,0 +1,74 @@
+currency: USD
+company_name: German American Bancorp, Inc.
+sector: Finance
+market_cap_billions: 1.93
+revenue:
+  quarterly:
+    Q4 2024: 65.15
+    Q1 2025: 82.73
+    Q2 2025: 91.16
+    Q3 2025: 94.45
+    Q4 2025: 97.85
+    Q1 2026: 97.43
+    Q2 2026: 101.34
+  annual:
+    2021 Yearly: 220.29
+    2022 Yearly: 259.72
+    2023 Yearly: 250.69
+    2024 Yearly: 253.25
+    2025 Yearly: 366.19
+  quarterly_forecast:
+    Q4 2024: 63.98
+    Q1 2025: 79.56
+    Q2 2025: 90.31
+    Q3 2025: 92.18
+    Q4 2025: 94.63
+    Q1 2026: 95.84
+    Q2 2026: 99.22
+    Q3 2026: 101.88
+    Q4 2026: 103.22
+    Q1 2027: 101.83
+    Q2 2027: 104.47
+  annual_forecast:
+    2021 Yearly: 220.86
+    2022 Yearly: 265.15
+    2023 Yearly: 257.29
+    2024 Yearly: 253.59
+    2025 Yearly: 362.11
+    2026 Yearly: 402.98
+    2027 Yearly: 420.21
+eps:
+  quarterly:
+    Q4 2024: 0.78
+    Q1 2025: 0.3
+    Q2 2025: 0.84
+    Q3 2025: 0.94
+    Q4 2025: 0.95
+    Q1 2026: 0.88
+    Q2 2026: 1.02
+  annual:
+    2021 Yearly: 3.17
+    2022 Yearly: 2.78
+    2023 Yearly: 2.91
+    2024 Yearly: 2.83
+    2025 Yearly: 3.06
+  quarterly_forecast:
+    Q4 2024: 0.67
+    Q1 2025: 0.43
+    Q2 2025: 0.73
+    Q3 2025: 0.86
+    Q4 2025: 0.91
+    Q1 2026: 0.88
+    Q2 2026: 0.92
+    Q3 2026: 0.98
+    Q4 2026: 0.99
+    Q1 2027: 0.95
+    Q2 2027: 1.01
+  annual_forecast:
+    2021 Yearly: 3.17
+    2022 Yearly: 2.79
+    2023 Yearly: 2.85
+    2024 Yearly: 2.71
+    2025 Yearly: 2.99
+    2026 Yearly: 3.82
+    2027 Yearly: 4.03

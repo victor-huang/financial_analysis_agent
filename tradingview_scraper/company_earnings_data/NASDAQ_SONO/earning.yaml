@@ -1,0 +1,76 @@
+currency: USD
+company_name: Sonos, Inc.
+sector: Consumer Durables
+market_cap_billions: 2.09
+revenue:
+  quarterly:
+    Q4 2024: 255.4
+    Q1 2025: 550.86
+    Q2 2025: 259.76
+    Q3 2025: 344.76
+    Q4 2025: 287.9
+    Q1 2026: 545.66
+    Q2 2026: 281.53
+  annual:
+    2021 Yearly: 1720.0
+    2022 Yearly: 1750.0
+    2023 Yearly: 1660.0
+    2024 Yearly: 1520.0
+    2025 Yearly: 1440.0
+  quarterly_forecast:
+    Q4 2024: 247.92
+    Q1 2025: 519.76
+    Q2 2025: 254.1
+    Q3 2025: 324.84
+    Q4 2025: 275.83
+    Q1 2026: 536.92
+    Q2 2026: 267.72
+    Q3 2026: 365.66
+    Q4 2026: 303.81
+    Q1 2027: 583.11
+    Q2 2027: 293.6
+  annual_forecast:
+    2021 Yearly: 1720.0
+    2022 Yearly: 1740.0
+    2023 Yearly: 1650.0
+    2024 Yearly: 1510.0
+    2025 Yearly: 1430.0
+    2026 Yearly: 1500.0
+    2027 Yearly: 1600.0
+    2028 Yearly: 1730.0
+eps:
+  quarterly:
+    Q4 2024: -0.44
+    Q1 2025: 0.4
+    Q2 2025: -0.58
+    Q3 2025: -0.03
+    Q4 2025: -0.31
+    Q1 2026: 0.75
+    Q2 2026: -0.24
+  annual:
+    2021 Yearly: 1.13
+    2022 Yearly: 0.49
+    2023 Yearly: -0.08
+    2024 Yearly: -0.31
+    2025 Yearly: -0.51
+  quarterly_forecast:
+    Q4 2024: -0.4
+    Q1 2025: 0.17
+    Q2 2025: -0.44
+    Q3 2025: -0.1
+    Q4 2025: -0.24
+    Q1 2026: 0.64
+    Q2 2026: -0.24
+    Q3 2026: 0.04
+    Q4 2026: -0.22
+    Q1 2027: 0.74
+    Q2 2027: -0.1
+  annual_forecast:
+    2021 Yearly: 1.11
+    2022 Yearly: 0.59
+    2023 Yearly: -0.04
+    2024 Yearly: -0.28
+    2025 Yearly: -0.43
+    2026 Yearly: 0.39
+    2027 Yearly: 0.52
+    2028 Yearly: 0.63

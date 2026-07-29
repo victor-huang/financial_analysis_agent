@@ -1,0 +1,59 @@
+currency: USD
+company_name: GBank Financial Holdings Inc.
+sector: Finance
+market_cap_billions: 0.43439999999999995
+revenue:
+  quarterly:
+    Q4 2024: 17.5
+    Q1 2025: 17.36
+    Q2 2025: 17.77
+    Q3 2025: 20.18
+    Q4 2025: 20.72
+    Q1 2026: 19.64
+    Q2 2026: 21.95
+  annual:
+    2024 Yearly: 62.38
+    2025 Yearly: 76.02
+  quarterly_forecast:
+    Q4 2025: 20.5
+    Q1 2026: 22.1
+    Q2 2026: 21.8
+    Q3 2026: 23.6
+    Q4 2026: 25.6
+    Q1 2027: 27.7
+    Q2 2027: 30.8
+  annual_forecast:
+    2025 Yearly: 75.8
+    2026 Yearly: 90.65
+    2027 Yearly: 131.64
+eps:
+  quarterly:
+    Q4 2024: 0.36
+    Q1 2025: 0.31
+    Q2 2025: 0.33
+    Q3 2025: 0.44
+    Q4 2025: 0.52
+    Q1 2026: 0.31
+    Q2 2026: 0.38
+  annual:
+    2023 Yearly: 0.84
+    2024 Yearly: 1.37
+    2025 Yearly: 1.66
+  quarterly_forecast:
+    Q4 2024: 0.32
+    Q1 2025: 0.31
+    Q2 2025: 0.39
+    Q3 2025: 0.45
+    Q4 2025: 0.5
+    Q1 2026: 0.52
+    Q2 2026: 0.48
+    Q3 2026: 0.57
+    Q4 2026: 0.65
+    Q1 2027: 0.71
+    Q2 2027: 0.81
+  annual_forecast:
+    2023 Yearly: 0.8
+    2024 Yearly: 1.32
+    2025 Yearly: 1.58
+    2026 Yearly: 2.02
+    2027 Yearly: 3.54

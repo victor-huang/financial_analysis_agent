@@ -1,0 +1,76 @@
+currency: USD
+company_name: Coursera, Inc.
+sector: Commercial Services
+market_cap_billions: 1.77
+revenue:
+  quarterly:
+    Q3 2024: 176.09
+    Q4 2024: 179.18
+    Q1 2025: 179.3
+    Q2 2025: 187.1
+    Q3 2025: 194.2
+    Q4 2025: 196.9
+    Q1 2026: 195.7
+  annual:
+    2021 Yearly: 415.29
+    2022 Yearly: 523.76
+    2023 Yearly: 635.76
+    2024 Yearly: 694.67
+    2025 Yearly: 757.5
+  quarterly_forecast:
+    Q3 2024: 173.98
+    Q4 2024: 176.55
+    Q1 2025: 175.38
+    Q2 2025: 180.52
+    Q3 2025: 190.29
+    Q4 2025: 191.79
+    Q1 2026: 195.06
+    Q2 2026: 293.6
+    Q3 2026: 367.63
+    Q4 2026: 372.89
+    Q1 2027: 374.25
+  annual_forecast:
+    2021 Yearly: 412.22
+    2022 Yearly: 519.55
+    2023 Yearly: 631.0
+    2024 Yearly: 691.99
+    2025 Yearly: 752.36
+    2026 Yearly: 1230.0
+    2027 Yearly: 1490.0
+    2028 Yearly: 874.18
+eps:
+  quarterly:
+    Q3 2024: 0.1
+    Q4 2024: 0.08
+    Q1 2025: 0.12
+    Q2 2025: 0.12
+    Q3 2025: 0.1
+    Q4 2025: 0.06
+    Q1 2026: 0.07
+  annual:
+    2021 Yearly: -0.46
+    2022 Yearly: -0.37
+    2023 Yearly: 0.01
+    2024 Yearly: 0.34
+    2025 Yearly: 0.39
+  quarterly_forecast:
+    Q3 2024: 0.02
+    Q4 2024: 0.04
+    Q1 2025: 0.08
+    Q2 2025: 0.09
+    Q3 2025: 0.08
+    Q4 2025: 0.06
+    Q1 2026: 0.08
+    Q2 2026: 0.1
+    Q3 2026: 0.17
+    Q4 2026: 0.19
+    Q1 2027: 0.18
+  annual_forecast:
+    2021 Yearly: -0.45
+    2022 Yearly: -0.45
+    2023 Yearly: -0.05
+    2024 Yearly: 0.3
+    2025 Yearly: 0.39
+    2026 Yearly: 0.55
+    2027 Yearly: 0.77
+    2028 Yearly: 0.72

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Regency Centers Corporation
+sector: Finance
+market_cap_billions: 14.85
+revenue:
+  quarterly:
+    Q3 2024: 363.1
+    Q4 2024: 364.56
+    Q1 2025: 392.5
+    Q2 2025: 391.39
+    Q3 2025: 403.39
+    Q4 2025: 455.09
+    Q1 2026: 419.1
+  annual:
+    2021 Yearly: 1190.0
+    2022 Yearly: 1250.0
+    2023 Yearly: 1360.0
+    2024 Yearly: 1460.0
+    2025 Yearly: 1610.0
+  quarterly_forecast:
+    Q3 2024: 357.75
+    Q4 2024: 366.17
+    Q1 2025: 375.43
+    Q2 2025: 378.8
+    Q3 2025: 388.68
+    Q4 2025: 402.84
+    Q1 2026: 415.27
+    Q2 2026: 411.07
+    Q3 2026: 415.99
+    Q4 2026: 426.89
+    Q1 2027: 433.51
+  annual_forecast:
+    2021 Yearly: 1150.0
+    2022 Yearly: 1220.0
+    2023 Yearly: 1320.0
+    2024 Yearly: 1450.0
+    2025 Yearly: 1570.0
+    2026 Yearly: 1690.0
+    2027 Yearly: 1740.0
+    2028 Yearly: 1820.0
+    2029 Yearly: 1900.0
+eps:
+  quarterly:
+    Q3 2024: 0.54
+    Q4 2024: 0.46
+    Q1 2025: 0.58
+    Q2 2025: 0.56
+    Q3 2025: 0.58
+    Q4 2025: 1.09
+    Q1 2026: 0.68
+  annual:
+    2021 Yearly: 2.12
+    2022 Yearly: 2.82
+    2023 Yearly: 2.03
+    2024 Yearly: 2.11
+    2025 Yearly: 2.82
+  quarterly_forecast:
+    Q3 2024: 0.46
+    Q4 2024: 0.48
+    Q1 2025: 0.56
+    Q2 2025: 0.55
+    Q3 2025: 0.56
+    Q4 2025: 0.58
+    Q1 2026: 0.62
+    Q2 2026: 0.59
+    Q3 2026: 0.6
+    Q4 2026: 0.61
+    Q1 2027: 0.64
+  annual_forecast:
+    2021 Yearly: 2.13
+    2022 Yearly: 2.48
+    2023 Yearly: 2.08
+    2024 Yearly: 2.1
+    2025 Yearly: 2.32
+    2026 Yearly: 2.48
+    2027 Yearly: 2.55
+    2028 Yearly: 2.79
+    2029 Yearly: 2.92

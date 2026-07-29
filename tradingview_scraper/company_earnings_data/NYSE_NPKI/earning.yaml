@@ -1,0 +1,74 @@
+currency: USD
+company_name: NPK International Inc.
+sector: Producer Manufacturing
+market_cap_billions: 1.02
+revenue:
+  quarterly:
+    Q3 2024: 44.21
+    Q4 2024: 57.52
+    Q1 2025: 64.78
+    Q2 2025: 68.23
+    Q3 2025: 68.84
+    Q4 2025: 75.19
+    Q1 2026: 75.07
+  annual:
+    2021 Yearly: 614.78
+    2022 Yearly: 815.59
+    2023 Yearly: 749.6
+    2024 Yearly: 217.49
+    2025 Yearly: 277.04
+  quarterly_forecast:
+    Q3 2024: 54.19
+    Q4 2024: 58.8
+    Q1 2025: 56.2
+    Q2 2025: 59.57
+    Q3 2025: 57.82
+    Q4 2025: 68.85
+    Q1 2026: 73.27
+    Q2 2026: 78.58
+    Q3 2026: 78.64
+    Q4 2026: 84.92
+    Q1 2027: 83.5
+  annual_forecast:
+    2021 Yearly: 599.2
+    2022 Yearly: 713.3
+    2023 Yearly: 752.93
+    2024 Yearly: 219.05
+    2025 Yearly: 270.71
+    2026 Yearly: 317.21
+    2027 Yearly: 353.5
+eps:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.08
+    Q1 2025: 0.12
+    Q2 2025: 0.11
+    Q3 2025: 0.07
+    Q4 2025: 0.13
+    Q1 2026: 0.12
+  annual:
+    2021 Yearly: -0.2
+    2022 Yearly: 0.13
+    2023 Yearly: 0.31
+    2024 Yearly: 0.23
+    2025 Yearly: 0.42
+  quarterly_forecast:
+    Q3 2024: 0.06
+    Q4 2024: 0.07
+    Q1 2025: 0.08
+    Q2 2025: 0.09
+    Q3 2025: 0.07
+    Q4 2025: 0.11
+    Q1 2026: 0.11
+    Q2 2026: 0.13
+    Q3 2026: 0.12
+    Q4 2026: 0.15
+    Q1 2027: 0.14
+  annual_forecast:
+    2021 Yearly: -0.22
+    2022 Yearly: 0.17
+    2023 Yearly: 0.34
+    2024 Yearly: 0.32
+    2025 Yearly: 0.4
+    2026 Yearly: 0.53
+    2027 Yearly: 0.62

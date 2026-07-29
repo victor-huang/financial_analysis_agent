@@ -1,0 +1,43 @@
+currency: USD
+company_name: NewMarket Corp
+sector: Process Industries
+market_cap_billions: 7.24
+revenue:
+  quarterly:
+    Q3 2024: 724.95
+    Q4 2024: 654.65
+    Q1 2025: 700.95
+    Q2 2025: 698.51
+    Q3 2025: 690.31
+    Q4 2025: 635.4
+    Q1 2026: 669.72
+  annual:
+    2023 Yearly: 2700.0
+    2024 Yearly: 2790.0
+    2025 Yearly: 2730.0
+  quarterly_forecast: {}
+  annual_forecast:
+    2021 Yearly: 2320.0
+    2022 Yearly: 2460.0
+    2023 Yearly: 2470.0
+    2024 Yearly: 2320.0
+    2025 Yearly: 2460.0
+    2026 Yearly: 2470.0
+eps:
+  quarterly:
+    Q3 2024: 13.79
+    Q4 2024: 11.56
+    Q1 2025: 13.26
+    Q2 2025: 11.84
+    Q3 2025: 10.67
+    Q4 2025: 8.65
+    Q1 2026: 12.62
+  annual:
+    2023 Yearly: 40.44
+    2024 Yearly: 48.22
+    2025 Yearly: 44.44
+  quarterly_forecast: {}
+  annual_forecast:
+    2022 Yearly: 25.35
+    2023 Yearly: 28.1
+    2024 Yearly: 27.85

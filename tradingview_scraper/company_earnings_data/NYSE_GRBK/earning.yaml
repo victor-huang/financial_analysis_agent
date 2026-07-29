@@ -1,0 +1,74 @@
+currency: USD
+company_name: Green Brick Partners, Inc.
+sector: Consumer Durables
+market_cap_billions: 3.09
+revenue:
+  quarterly:
+    Q3 2024: 523.66
+    Q4 2024: 567.31
+    Q1 2025: 497.62
+    Q2 2025: 549.15
+    Q3 2025: 499.09
+    Q4 2025: 552.61
+    Q1 2026: 456.0
+  annual:
+    2021 Yearly: 1400.0
+    2022 Yearly: 1760.0
+    2023 Yearly: 1780.0
+    2024 Yearly: 2100.0
+    2025 Yearly: 2100.0
+  quarterly_forecast:
+    Q3 2024: 539.86
+    Q4 2024: 555.75
+    Q1 2025: 503.82
+    Q2 2025: 538.46
+    Q3 2025: 452.37
+    Q4 2025: 473.25
+    Q1 2026: 423.5
+    Q2 2026: 470.0
+    Q3 2026: 479.82
+    Q4 2026: 496.09
+    Q1 2027: 455.05
+  annual_forecast:
+    2021 Yearly: 1330.0
+    2022 Yearly: 1650.0
+    2023 Yearly: 1810.0
+    2024 Yearly: 2090.0
+    2025 Yearly: 2020.0
+    2026 Yearly: 1900.0
+    2027 Yearly: 2050.0
+eps:
+  quarterly:
+    Q3 2024: 1.98
+    Q4 2024: 2.31
+    Q1 2025: 1.67
+    Q2 2025: 1.85
+    Q3 2025: 1.77
+    Q4 2025: 1.78
+    Q1 2026: 1.39
+  annual:
+    2021 Yearly: 3.72
+    2022 Yearly: 6.02
+    2023 Yearly: 6.14
+    2024 Yearly: 8.45
+    2025 Yearly: 7.07
+  quarterly_forecast:
+    Q3 2024: 2.07
+    Q4 2024: 2.02
+    Q1 2025: 1.76
+    Q2 2025: 1.93
+    Q3 2025: 1.47
+    Q4 2025: 1.63
+    Q1 2026: 1.18
+    Q2 2026: 1.42
+    Q3 2026: 1.48
+    Q4 2026: 1.53
+    Q1 2027: 1.36
+  annual_forecast:
+    2021 Yearly: 3.65
+    2022 Yearly: 6.02
+    2023 Yearly: 6.35
+    2024 Yearly: 8.13
+    2025 Yearly: 6.94
+    2026 Yearly: 5.83
+    2027 Yearly: 6.45

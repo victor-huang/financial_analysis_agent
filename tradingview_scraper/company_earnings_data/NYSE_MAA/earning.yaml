@@ -1,0 +1,60 @@
+currency: null
+company_name: Mid-America Apartment Communities, Inc.
+sector: Finance
+market_cap_billions: 15.99
+revenue:
+  quarterly:
+    Q3 2024: 551.13
+    Q4 2024: 549.83
+    Q1 2025: 549.29
+    Q2 2025: 549.9
+    Q3 2025: 554.37
+    Q4 2025: 555.56
+    Q1 2026: 553.73
+  annual:
+    2021 Yearly: 1780.0
+    2022 Yearly: 2020.0
+    2023 Yearly: 2150.0
+    2024 Yearly: 2190.0
+    2025 Yearly: 2210.0
+  quarterly_forecast:
+    Q3 2024: 548.53
+    Q4 2024: 551.61
+    Q1 2025: 550.72
+    Q2 2025: 551.49
+    Q3 2025: 554.92
+    Q4 2025: 556.36
+    Q1 2026: 555.75
+    Q2 2026: 556.18
+    Q3 2026: 561.78
+    Q4 2026: 564.56
+    Q1 2027: 567.56
+  annual_forecast:
+    2021 Yearly: 1780.0
+    2022 Yearly: 2020.0
+    2023 Yearly: 2150.0
+    2024 Yearly: 2190.0
+    2025 Yearly: 2210.0
+    2026 Yearly: 2240.0
+    2027 Yearly: 2300.0
+    2028 Yearly: 2390.0
+    2029 Yearly: 2500.0
+eps:
+  quarterly: {}
+  annual:
+    2021 Yearly: 4.44
+    2022 Yearly: 5.31
+    2023 Yearly: 4.71
+    2024 Yearly: 4.63
+    2025 Yearly: 3.78
+  quarterly_forecast: {}
+  annual_forecast:
+    2021 Yearly: 3.83
+    2022 Yearly: 4.9
+    2023 Yearly: 4.4
+    2024 Yearly: 4.08
+    2025 Yearly: 4.14
+    2026 Yearly: 3.43
+    2027 Yearly: 3.32
+    2028 Yearly: 3.59
+    2029 Yearly: 4.0

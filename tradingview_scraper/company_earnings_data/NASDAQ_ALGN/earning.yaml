@@ -1,0 +1,78 @@
+currency: USD
+company_name: Align Technology, Inc.
+sector: Health Technology
+market_cap_billions: 12.9
+revenue:
+  quarterly:
+    Q3 2024: 977.87
+    Q4 2024: 995.22
+    Q1 2025: 979.26
+    Q2 2025: 1010.0
+    Q3 2025: 995.7
+    Q4 2025: 1050.0
+    Q1 2026: 1040.0
+  annual:
+    2021 Yearly: 3950.0
+    2022 Yearly: 3730.0
+    2023 Yearly: 3860.0
+    2024 Yearly: 4000.0
+    2025 Yearly: 4030.0000000000005
+  quarterly_forecast:
+    Q3 2024: 990.05
+    Q4 2024: 996.9
+    Q1 2025: 975.25
+    Q2 2025: 1060.0
+    Q3 2025: 976.35
+    Q4 2025: 1030.0
+    Q1 2026: 1020.0
+    Q2 2026: 1050.0
+    Q3 2026: 1020.0
+    Q4 2026: 1070.0
+    Q1 2027: 1080.0
+  annual_forecast:
+    2021 Yearly: 3950.0
+    2022 Yearly: 3730.0
+    2023 Yearly: 3840.0
+    2024 Yearly: 4000.0
+    2025 Yearly: 4019.9999999999995
+    2026 Yearly: 4180.0
+    2027 Yearly: 4360.0
+    2028 Yearly: 4590.0
+    2029 Yearly: 4900.0
+eps:
+  quarterly:
+    Q3 2024: 2.35
+    Q4 2024: 2.44
+    Q1 2025: 2.13
+    Q2 2025: 2.49
+    Q3 2025: 2.61
+    Q4 2025: 3.29
+    Q1 2026: 2.58
+  annual:
+    2021 Yearly: 11.22
+    2022 Yearly: 7.76
+    2023 Yearly: 8.61
+    2024 Yearly: 9.33
+    2025 Yearly: 10.51
+  quarterly_forecast:
+    Q3 2024: 2.31
+    Q4 2024: 2.45
+    Q1 2025: 1.99
+    Q2 2025: 2.57
+    Q3 2025: 2.4
+    Q4 2025: 2.97
+    Q1 2026: 2.3
+    Q2 2026: 2.62
+    Q3 2026: 2.9
+    Q4 2026: 3.27
+    Q1 2027: 2.69
+  annual_forecast:
+    2021 Yearly: 11.15
+    2022 Yearly: 7.03
+    2023 Yearly: 8.37
+    2024 Yearly: 9.33
+    2025 Yearly: 10.2
+    2026 Yearly: 11.36
+    2027 Yearly: 12.36
+    2028 Yearly: 13.6
+    2029 Yearly: 15.84

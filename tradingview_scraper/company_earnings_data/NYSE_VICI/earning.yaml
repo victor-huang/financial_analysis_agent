@@ -1,0 +1,76 @@
+currency: USD
+company_name: VICI Properties Inc.
+sector: Finance
+market_cap_billions: 29.0
+revenue:
+  quarterly:
+    Q3 2024: 964.67
+    Q4 2024: 976.05
+    Q1 2025: 984.2
+    Q2 2025: 1000.0
+    Q3 2025: 1010.0
+    Q4 2025: 1010.0
+    Q1 2026: 1020.0
+  annual:
+    2021 Yearly: 1510.0
+    2022 Yearly: 2600.0
+    2023 Yearly: 3610.0
+    2024 Yearly: 3850.0
+    2025 Yearly: 4010.0
+  quarterly_forecast:
+    Q3 2024: 953.19
+    Q4 2024: 970.53
+    Q1 2025: 976.03
+    Q2 2025: 993.07
+    Q3 2025: 998.92
+    Q4 2025: 1010.0
+    Q1 2026: 1010.0
+    Q2 2026: 1040.0
+    Q3 2026: 1050.0
+    Q4 2026: 1060.0
+    Q1 2027: 1060.0
+  annual_forecast:
+    2021 Yearly: 1490.0
+    2022 Yearly: 2560.0
+    2023 Yearly: 3580.0
+    2024 Yearly: 3840.0
+    2025 Yearly: 3990.0
+    2026 Yearly: 4160.0
+    2027 Yearly: 4310.0
+    2028 Yearly: 4460.0
+    2029 Yearly: 4600.0
+eps:
+  quarterly:
+    Q3 2024: 0.7
+    Q4 2024: 0.58
+    Q1 2025: 0.51
+    Q2 2025: 0.82
+    Q3 2025: 0.71
+    Q4 2025: 0.57
+    Q1 2026: 0.82
+  annual:
+    2021 Yearly: 1.76
+    2022 Yearly: 1.27
+    2023 Yearly: 2.47
+    2024 Yearly: 2.56
+    2025 Yearly: 2.61
+  quarterly_forecast:
+    Q3 2024: 0.67
+    Q4 2024: 0.68
+    Q1 2025: 0.68
+    Q2 2025: 0.69
+    Q3 2025: 0.69
+    Q4 2025: 0.7
+    Q1 2026: 0.71
+    Q2 2026: 0.71
+    Q3 2026: 0.71
+    Q4 2026: 0.72
+    Q1 2027: 0.73
+  annual_forecast:
+    2022 Yearly: 1.77
+    2023 Yearly: 1.22
+    2024 Yearly: 2.43
+    2025 Yearly: 2.65
+    2026 Yearly: 2.75
+    2027 Yearly: 2.95
+    2028 Yearly: 2.94

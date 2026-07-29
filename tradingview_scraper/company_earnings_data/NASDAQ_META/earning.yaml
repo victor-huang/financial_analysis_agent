@@ -1,0 +1,78 @@
+currency: USD
+company_name: Meta Platforms, Inc.
+sector: Technology Services
+market_cap_billions: 1490.0
+revenue:
+  quarterly:
+    Q3 2024: 40590.0
+    Q4 2024: 48380.0
+    Q1 2025: 42310.0
+    Q2 2025: 47520.0
+    Q3 2025: 51240.0
+    Q4 2025: 59890.0
+    Q1 2026: 56310.0
+  annual:
+    2021 Yearly: 117930.0
+    2022 Yearly: 116610.0
+    2023 Yearly: 134900.0
+    2024 Yearly: 164500.0
+    2025 Yearly: 200970.0
+  quarterly_forecast:
+    Q3 2024: 40200.0
+    Q4 2024: 47000.0
+    Q1 2025: 41340.0
+    Q2 2025: 44820.0
+    Q3 2025: 49510.0
+    Q4 2025: 58460.0
+    Q1 2026: 55560.0
+    Q2 2026: 60220.0
+    Q3 2026: 63140.0
+    Q4 2026: 73300.0
+    Q1 2027: 67450.0
+  annual_forecast:
+    2021 Yearly: 117560.0
+    2022 Yearly: 116050.0
+    2023 Yearly: 133680.0
+    2024 Yearly: 163120.0
+    2025 Yearly: 199570.0
+    2026 Yearly: 253320.0
+    2027 Yearly: 303620.0
+    2028 Yearly: 358310.0
+    2029 Yearly: 428780.0
+eps:
+  quarterly:
+    Q3 2024: 6.03
+    Q4 2024: 8.02
+    Q1 2025: 6.43
+    Q2 2025: 7.14
+    Q3 2025: 1.05
+    Q4 2025: 8.88
+    Q1 2026: 10.44
+  annual:
+    2021 Yearly: 13.77
+    2022 Yearly: 8.59
+    2023 Yearly: 14.87
+    2024 Yearly: 23.86
+    2025 Yearly: 23.49
+  quarterly_forecast:
+    Q3 2024: 5.22
+    Q4 2024: 6.76
+    Q1 2025: 5.23
+    Q2 2025: 5.88
+    Q3 2025: 6.72
+    Q4 2025: 8.21
+    Q1 2026: 6.7
+    Q2 2026: 7.19
+    Q3 2026: 7.02
+    Q4 2026: 8.48
+    Q1 2027: 8.28
+  annual_forecast:
+    2021 Yearly: 13.97
+    2022 Yearly: 9.08
+    2023 Yearly: 14.41
+    2024 Yearly: 22.68
+    2025 Yearly: 22.92
+    2026 Yearly: 32.93
+    2027 Yearly: 35.13
+    2028 Yearly: 40.66
+    2029 Yearly: 51.55

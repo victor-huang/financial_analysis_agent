@@ -1,0 +1,70 @@
+currency: USD
+company_name: Medallion Financial Corp.
+sector: Finance
+market_cap_billions: 0.22951
+revenue:
+  quarterly:
+    Q4 2024: 52.01
+    Q1 2025: 52.22
+    Q2 2025: 53.37
+    Q3 2025: 55.69
+    Q4 2025: 56.42
+    Q1 2026: 54.06
+    Q2 2026: 58.06
+  annual:
+    2021 Yearly: 159.39
+    2022 Yearly: 169.96
+    2023 Yearly: 188.09
+    2024 Yearly: 202.53
+    2025 Yearly: 216.89
+  quarterly_forecast:
+    Q4 2024: 53.1
+    Q4 2025: 55.92
+    Q2 2026: 58.98
+    Q3 2026: 60.86
+    Q4 2026: 62.19
+    Q1 2027: 61.62
+    Q2 2027: 63.66
+  annual_forecast:
+    2021 Yearly: 146.57
+    2022 Yearly: 152.56
+    2023 Yearly: 169.92
+    2024 Yearly: 204.71
+    2025 Yearly: 217.91
+    2026 Yearly: 238.58
+    2027 Yearly: 259.01
+eps:
+  quarterly:
+    Q4 2024: 0.43
+    Q1 2025: 0.5
+    Q2 2025: 0.46
+    Q3 2025: 0.32
+    Q4 2025: 0.5
+    Q1 2026: 0.2
+    Q2 2026: 0.31
+  annual:
+    2021 Yearly: 2.17
+    2022 Yearly: 1.83
+    2023 Yearly: 2.37
+    2024 Yearly: 1.52
+    2025 Yearly: 1.78
+  quarterly_forecast:
+    Q4 2024: 0.37
+    Q1 2025: 0.36
+    Q2 2025: 0.32
+    Q3 2025: 0.34
+    Q4 2025: 0.41
+    Q1 2026: 0.34
+    Q2 2026: 0.29
+    Q3 2026: 0.32
+    Q4 2026: 0.31
+    Q1 2027: 0.32
+    Q2 2027: 0.34
+  annual_forecast:
+    2021 Yearly: 1.65
+    2022 Yearly: 1.56
+    2023 Yearly: 2.4
+    2024 Yearly: 1.46
+    2025 Yearly: 1.69
+    2026 Yearly: 1.13
+    2027 Yearly: 1.41

@@ -1,0 +1,71 @@
+currency: USD
+company_name: SiriusPoint Ltd.
+sector: Finance
+market_cap_billions: 3.03
+revenue:
+  quarterly:
+    Q3 2024: 714.0
+    Q4 2024: 759.5
+    Q1 2025: 984.7
+    Q2 2025: 948.2
+    Q3 2025: 874.4
+    Q4 2025: 898.3
+    Q1 2026: 1000.0
+  annual:
+    2021 Yearly: 2240.0
+    2022 Yearly: 3410.0
+    2023 Yearly: 3430.0
+    2024 Yearly: 3240.0
+    2025 Yearly: 3710.0
+  quarterly_forecast:
+    Q1 2025: 980.0
+    Q2 2025: 780.5
+    Q3 2025: 564.0
+    Q4 2025: 705.51
+    Q1 2026: 857.58
+    Q2 2026: 798.95
+    Q3 2026: 767.02
+    Q4 2026: 785.63
+    Q1 2027: 860.03
+  annual_forecast:
+    2021 Yearly: 667.93
+    2025 Yearly: 3050.0
+    2026 Yearly: 3140.0
+    2027 Yearly: 3360.0
+    2028 Yearly: 3710.0
+eps:
+  quarterly:
+    Q3 2024: 0.03
+    Q4 2024: 0.27
+    Q1 2025: 0.49
+    Q2 2025: 0.66
+    Q3 2025: 0.72
+    Q4 2025: 0.7
+    Q1 2026: 0.7
+  annual:
+    2021 Yearly: 0.27
+    2022 Yearly: -2.51
+    2023 Yearly: 1.85
+    2024 Yearly: 1.75
+    2025 Yearly: 2.55
+  quarterly_forecast:
+    Q3 2024: 0.05
+    Q4 2024: 0.4
+    Q1 2025: 0.23
+    Q2 2025: 0.57
+    Q3 2025: 0.51
+    Q4 2025: 0.58
+    Q1 2026: 0.68
+    Q2 2026: 0.65
+    Q3 2026: 0.58
+    Q4 2026: 0.61
+    Q1 2027: 0.75
+  annual_forecast:
+    2021 Yearly: 1.2
+    2022 Yearly: -1.87
+    2023 Yearly: 1.75
+    2024 Yearly: 1.6
+    2025 Yearly: 2.46
+    2026 Yearly: 2.57
+    2027 Yearly: 2.77
+    2028 Yearly: 3.1

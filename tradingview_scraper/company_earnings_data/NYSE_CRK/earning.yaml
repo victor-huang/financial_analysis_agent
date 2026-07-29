@@ -1,0 +1,78 @@
+currency: USD
+company_name: Comstock Resources, Inc.
+sector: Energy Minerals
+market_cap_billions: 3.7
+revenue:
+  quarterly:
+    Q4 2024: 366.51
+    Q1 2025: 512.85
+    Q2 2025: 470.26
+    Q3 2025: 449.85
+    Q4 2025: 789.81
+    Q1 2026: 587.35
+    Q2 2026: 353.28
+  annual:
+    2021 Yearly: 1430.0
+    2022 Yearly: 2770.0
+    2023 Yearly: 1650.0
+    2024 Yearly: 1250.0
+    2025 Yearly: 2220.0
+  quarterly_forecast:
+    Q4 2024: 356.76
+    Q1 2025: 440.38
+    Q2 2025: 416.38
+    Q3 2025: 412.86
+    Q4 2025: 505.91
+    Q1 2026: 554.01
+    Q2 2026: 419.22
+    Q3 2026: 497.25
+    Q4 2026: 572.05
+    Q1 2027: 593.42
+    Q2 2027: 557.14
+  annual_forecast:
+    2021 Yearly: 1650.0
+    2022 Yearly: 2820.0
+    2023 Yearly: 1540.0
+    2024 Yearly: 1220.0
+    2025 Yearly: 1930.0
+    2026 Yearly: 2090.0
+    2027 Yearly: 2440.0
+    2028 Yearly: 2700.0
+    2029 Yearly: 3000.0
+eps:
+  quarterly:
+    Q4 2024: 0.16
+    Q1 2025: 0.18
+    Q2 2025: 0.13
+    Q3 2025: 0.09
+    Q4 2025: 0.16
+    Q1 2026: 0.15
+    Q2 2026: 0.03
+  annual:
+    2021 Yearly: 1.16
+    2022 Yearly: 3.73
+    2023 Yearly: 0.47
+    2024 Yearly: -0.24
+    2025 Yearly: 0.54
+  quarterly_forecast:
+    Q4 2024: 0.02
+    Q1 2025: 0.16
+    Q2 2025: 0.09
+    Q3 2025: 0.05
+    Q4 2025: 0.12
+    Q1 2026: 0.22
+    Q2 2026: 0.02
+    Q3 2026: 0.08
+    Q4 2026: 0.17
+    Q1 2027: 0.23
+    Q2 2027: 0.06
+  annual_forecast:
+    2021 Yearly: 1.34
+    2022 Yearly: 3.54
+    2023 Yearly: 0.5
+    2024 Yearly: -0.38
+    2025 Yearly: 0.53
+    2026 Yearly: 0.42
+    2027 Yearly: 0.77
+    2028 Yearly: 1.37
+    2029 Yearly: 1.76

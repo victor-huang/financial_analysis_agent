@@ -1,0 +1,78 @@
+currency: USD
+company_name: Sprouts Farmers Market, Inc.
+sector: Retail Trade
+market_cap_billions: 7.44
+revenue:
+  quarterly:
+    Q3 2024: 1950.0
+    Q4 2024: 2000.0
+    Q1 2025: 2240.0
+    Q2 2025: 2220.0
+    Q3 2025: 2200.0
+    Q4 2025: 2150.0
+    Q1 2026: 2330.0
+  annual:
+    2021 Yearly: 6100.0
+    2022 Yearly: 6400.0
+    2023 Yearly: 6840.0
+    2024 Yearly: 7720.0
+    2025 Yearly: 8810.0
+  quarterly_forecast:
+    Q3 2024: 1880.0
+    Q4 2024: 1960.0
+    Q1 2025: 2210.0
+    Q2 2025: 2170.0
+    Q3 2025: 2220.0
+    Q4 2025: 2150.0
+    Q1 2026: 2320.0
+    Q2 2026: 2320.0
+    Q3 2026: 2340.0
+    Q4 2026: 2500.0
+    Q1 2027: 2540.0
+  annual_forecast:
+    2021 Yearly: 6080.0
+    2022 Yearly: 6390.0
+    2023 Yearly: 6830.0
+    2024 Yearly: 7680.0
+    2025 Yearly: 8810.0
+    2026 Yearly: 9490.0
+    2027 Yearly: 10200.0
+    2028 Yearly: 11100.0
+    2029 Yearly: 12280.0
+eps:
+  quarterly:
+    Q3 2024: 0.91
+    Q4 2024: 0.79
+    Q1 2025: 1.81
+    Q2 2025: 1.35
+    Q3 2025: 1.22
+    Q4 2025: 0.92
+    Q1 2026: 1.71
+  annual:
+    2021 Yearly: 2.1
+    2022 Yearly: 2.39
+    2023 Yearly: 2.84
+    2024 Yearly: 3.75
+    2025 Yearly: 5.31
+  quarterly_forecast:
+    Q3 2024: 0.77
+    Q4 2024: 0.73
+    Q1 2025: 1.55
+    Q2 2025: 1.24
+    Q3 2025: 1.18
+    Q4 2025: 0.89
+    Q1 2026: 1.68
+    Q2 2026: 1.34
+    Q3 2026: 1.28
+    Q4 2026: 1.22
+    Q1 2027: 1.89
+  annual_forecast:
+    2021 Yearly: 2.07
+    2022 Yearly: 2.34
+    2023 Yearly: 2.8
+    2024 Yearly: 3.7
+    2025 Yearly: 5.27
+    2026 Yearly: 5.55
+    2027 Yearly: 5.91
+    2028 Yearly: 6.44
+    2029 Yearly: 7.38

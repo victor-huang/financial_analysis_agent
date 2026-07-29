@@ -1,0 +1,76 @@
+currency: USD
+company_name: Pebblebrook Hotel Trust
+sector: Finance
+market_cap_billions: 2.18
+revenue:
+  quarterly:
+    Q4 2024: 337.6
+    Q1 2025: 320.27
+    Q2 2025: 407.54
+    Q3 2025: 398.72
+    Q4 2025: 349.02
+    Q1 2026: 345.66
+    Q2 2026: 407.14
+  annual:
+    2021 Yearly: 733.04
+    2022 Yearly: 1390.0
+    2023 Yearly: 1420.0
+    2024 Yearly: 1450.0
+    2025 Yearly: 1480.0
+  quarterly_forecast:
+    Q4 2024: 330.58
+    Q1 2025: 311.9
+    Q2 2025: 399.26
+    Q3 2025: 397.08
+    Q4 2025: 342.13
+    Q1 2026: 331.23
+    Q2 2026: 400.05
+    Q3 2026: 388.51
+    Q4 2026: 344.35
+    Q1 2027: 340.86
+    Q2 2027: 405.53
+  annual_forecast:
+    2021 Yearly: 727.21
+    2022 Yearly: 1390.0
+    2023 Yearly: 1410.0
+    2024 Yearly: 1450.0
+    2025 Yearly: 1470.0
+    2026 Yearly: 1480.0
+    2027 Yearly: 1500.0
+    2028 Yearly: 1560.0
+eps:
+  quarterly:
+    Q4 2024: -0.51
+    Q1 2025: -0.37
+    Q2 2025: 0.06
+    Q3 2025: -0.37
+    Q4 2025: -0.23
+    Q1 2026: -0.26
+    Q2 2026: 0.17
+  annual:
+    2021 Yearly: -1.8
+    2022 Yearly: -0.95
+    2023 Yearly: -0.93
+    2024 Yearly: -0.39
+    2025 Yearly: -0.9
+  quarterly_forecast:
+    Q4 2024: -0.39
+    Q1 2025: -0.38
+    Q2 2025: 0.06
+    Q3 2025: -0.01
+    Q4 2025: -0.32
+    Q1 2026: -0.31
+    Q2 2026: 0.12
+    Q3 2026: 0.02
+    Q4 2026: -0.22
+    Q1 2027: -0.18
+    Q2 2027: 0.16
+  annual_forecast:
+    2021 Yearly: -1.84
+    2022 Yearly: -0.77
+    2023 Yearly: -0.93
+    2024 Yearly: -0.29
+    2025 Yearly: -0.89
+    2026 Yearly: -0.32
+    2027 Yearly: -0.23
+    2028 Yearly: -0.38

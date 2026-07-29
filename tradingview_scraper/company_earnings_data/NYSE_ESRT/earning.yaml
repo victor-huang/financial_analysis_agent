@@ -1,0 +1,59 @@
+currency: USD
+company_name: Empire State Realty Trust, Inc.
+sector: Finance
+market_cap_billions: 1.0
+revenue:
+  quarterly:
+    Q4 2024: 197.6
+    Q1 2025: 180.07
+    Q2 2025: 191.25
+    Q3 2025: 197.73
+    Q4 2025: 199.22
+    Q1 2026: 190.32
+    Q2 2026: 196.9
+  annual:
+    2021 Yearly: 624.09
+    2022 Yearly: 727.04
+    2023 Yearly: 739.57
+    2024 Yearly: 767.92
+    2025 Yearly: 768.27
+  quarterly_forecast:
+    Q4 2024: 188.76
+    Q1 2025: 179.43
+    Q2 2025: 188.52
+    Q3 2025: 191.34
+    Q4 2025: 192.42
+    Q1 2026: 183.38
+    Q2 2026: 198.06
+    Q3 2026: 201.95
+    Q4 2026: 203.77
+    Q1 2027: 152.85
+    Q2 2027: 206.27
+  annual_forecast:
+    2021 Yearly: 625.34
+    2022 Yearly: 715.16
+    2023 Yearly: 720.63
+    2024 Yearly: 747.38
+    2025 Yearly: 752.21
+    2026 Yearly: 762.59
+    2027 Yearly: 821.89
+    2028 Yearly: 586.74
+eps:
+  quarterly:
+    Q4 2024: 0.07
+    Q1 2025: 0.05
+    Q2 2025: 0.04
+    Q3 2025: 0.05
+    Q4 2025: 0.12
+    Q1 2026: 0.01
+    Q2 2026: -0.15
+  annual:
+    2021 Yearly: -0.06
+    2022 Yearly: 0.22
+    2023 Yearly: 0.3
+    2024 Yearly: 0.28
+    2025 Yearly: 0.25
+  quarterly_forecast: {}
+  annual_forecast:
+    2024 Yearly: 0.64
+    2025 Yearly: 0.83

@@ -1,0 +1,74 @@
+currency: USD
+company_name: Employers Holdings Inc
+sector: Finance
+market_cap_billions: 0.9074
+revenue:
+  quarterly:
+    Q4 2024: 216.6
+    Q1 2025: 202.6
+    Q2 2025: 246.3
+    Q3 2025: 239.3
+    Q4 2025: 170.5
+    Q1 2026: 207.6
+    Q2 2026: 220.2
+  annual:
+    2021 Yearly: 703.1
+    2022 Yearly: 713.5
+    2023 Yearly: 850.9
+    2024 Yearly: 880.7
+    2025 Yearly: 858.7
+  quarterly_forecast:
+    Q4 2024: 221.18
+    Q1 2025: 217.91
+    Q2 2025: 217.17
+    Q3 2025: 216.6
+    Q4 2025: 216.49
+    Q1 2026: 213.04
+    Q2 2026: 203.51
+    Q3 2026: 198.02
+    Q4 2026: 194.61
+    Q1 2027: 193.08
+    Q2 2027: 194.66
+  annual_forecast:
+    2021 Yearly: 666.29
+    2022 Yearly: 688.72
+    2023 Yearly: 840.59
+    2024 Yearly: 885.27
+    2025 Yearly: 904.69
+    2026 Yearly: 803.74
+    2027 Yearly: 781.52
+eps:
+  quarterly:
+    Q4 2024: 1.15
+    Q1 2025: 0.87
+    Q2 2025: 0.48
+    Q3 2025: -1.1
+    Q4 2025: 0.66
+    Q1 2026: 0.53
+    Q2 2026: 0.7
+  annual:
+    2021 Yearly: 2.37
+    2022 Yearly: 2.93
+    2023 Yearly: 3.83
+    2024 Yearly: 3.73
+    2025 Yearly: 0.93
+  quarterly_forecast:
+    Q4 2024: 1.09
+    Q1 2025: 0.75
+    Q2 2025: 0.99
+    Q3 2025: 0.52
+    Q4 2025: 0.53
+    Q1 2026: 0.55
+    Q2 2026: 0.57
+    Q3 2026: 0.61
+    Q4 2026: 0.62
+    Q1 2027: 0.54
+    Q2 2027: 0.59
+  annual_forecast:
+    2021 Yearly: 2.02
+    2022 Yearly: 2.53
+    2023 Yearly: 3.54
+    2024 Yearly: 3.67
+    2025 Yearly: 0.83
+    2026 Yearly: 2.24
+    2027 Yearly: 2.51

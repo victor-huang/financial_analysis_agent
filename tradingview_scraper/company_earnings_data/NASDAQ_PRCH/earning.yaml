@@ -1,0 +1,76 @@
+currency: USD
+company_name: Porch Group, Inc.
+sector: Finance
+market_cap_billions: 1.35
+revenue:
+  quarterly:
+    Q3 2024: 111.2
+    Q4 2024: 100.36
+    Q1 2025: 84.55
+    Q2 2025: 107.02
+    Q3 2025: 115.07
+    Q4 2025: 112.25
+    Q1 2026: 109.44
+  annual:
+    2021 Yearly: 192.43
+    2022 Yearly: 275.95
+    2023 Yearly: 430.3
+    2024 Yearly: 437.85
+    2025 Yearly: 418.89
+  quarterly_forecast:
+    Q3 2024: 116.72
+    Q4 2024: 110.31
+    Q1 2025: 79.46
+    Q2 2025: 97.72
+    Q3 2025: 112.19
+    Q4 2025: 108.36
+    Q1 2026: 94.72
+    Q2 2026: 122.3
+    Q3 2026: 135.64
+    Q4 2026: 134.38
+    Q1 2027: 121.03
+  annual_forecast:
+    2021 Yearly: 195.54
+    2022 Yearly: 274.91
+    2023 Yearly: 415.09
+    2024 Yearly: 447.79
+    2025 Yearly: 415.26
+    2026 Yearly: 501.76
+    2027 Yearly: 584.26
+    2028 Yearly: 687.3
+eps:
+  quarterly:
+    Q3 2024: 0.12
+    Q4 2024: 0.3
+    Q1 2025: 0.08
+    Q2 2025: 0.03
+    Q3 2025: -0.1
+    Q4 2025: -0.03
+    Q1 2026: -0.04
+  annual:
+    2021 Yearly: -1.16
+    2022 Yearly: -1.61
+    2023 Yearly: -1.39
+    2024 Yearly: -0.33
+    2025 Yearly: -0.03
+  quarterly_forecast:
+    Q3 2024: -0.31
+    Q4 2024: 0.06
+    Q1 2025: -0.11
+    Q2 2025: -0.09
+    Q3 2025: -0.02
+    Q4 2025: -0.07
+    Q1 2026: -0.07
+    Q2 2026: -0.03
+    Q3 2026: 0.01
+    Q4 2026: 0.02
+    Q1 2027: -0.03
+  annual_forecast:
+    2021 Yearly: -1.0
+    2022 Yearly: -1.51
+    2023 Yearly: -1.58
+    2024 Yearly: -0.56
+    2025 Yearly: -0.04
+    2026 Yearly: -0.04
+    2027 Yearly: 0.21
+    2028 Yearly: 0.86

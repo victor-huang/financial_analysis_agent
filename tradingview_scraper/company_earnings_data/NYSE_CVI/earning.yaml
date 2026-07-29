@@ -1,0 +1,76 @@
+currency: USD
+company_name: CVR Energy Inc.
+sector: Energy Minerals
+market_cap_billions: 3.39
+revenue:
+  quarterly:
+    Q3 2024: 1830.0
+    Q4 2024: 1950.0
+    Q1 2025: 1650.0
+    Q2 2025: 1760.0
+    Q3 2025: 1940.0
+    Q4 2025: 1810.0
+    Q1 2026: 1980.0
+  annual:
+    2021 Yearly: 7240.0
+    2022 Yearly: 10900.0
+    2023 Yearly: 9250.0
+    2024 Yearly: 7610.0
+    2025 Yearly: 7160.0
+  quarterly_forecast:
+    Q3 2024: 1910.0
+    Q4 2024: 1850.0
+    Q1 2025: 1310.0
+    Q2 2025: 1690.0
+    Q3 2025: 1880.0
+    Q4 2025: 1700.0
+    Q1 2026: 1730.0
+    Q2 2026: 2220.0
+    Q3 2026: 2080.0
+    Q4 2026: 1970.0
+    Q1 2027: 1850.0
+  annual_forecast:
+    2022 Yearly: 6870.0
+    2023 Yearly: 10600.0
+    2024 Yearly: 9300.0
+    2025 Yearly: 7510.0
+    2026 Yearly: 7100.0
+    2027 Yearly: 8250.0
+    2028 Yearly: 7550.0
+eps:
+  quarterly:
+    Q3 2024: -0.5
+    Q4 2024: -0.13
+    Q1 2025: -0.58
+    Q2 2025: -0.23
+    Q3 2025: 0.4
+    Q4 2025: -0.8
+    Q1 2026: -1.24
+  annual:
+    2021 Yearly: -0.93
+    2022 Yearly: 6.04
+    2023 Yearly: 5.64
+    2024 Yearly: -0.51
+    2025 Yearly: -1.22
+  quarterly_forecast:
+    Q3 2024: -0.09
+    Q4 2024: -0.63
+    Q1 2025: -0.89
+    Q2 2025: -0.13
+    Q3 2025: 0.22
+    Q4 2025: -0.85
+    Q1 2026: -0.57
+    Q2 2026: 0.26
+    Q3 2026: 0.61
+    Q4 2026: 0.21
+    Q1 2027: 0.28
+  annual_forecast:
+    2021 Yearly: -1.34
+    2022 Yearly: 6.11
+    2023 Yearly: 5.23
+    2024 Yearly: -0.97
+    2025 Yearly: -1.26
+    2026 Yearly: -0.25
+    2027 Yearly: 1.63
+    2028 Yearly: 1.62
+    2029 Yearly: 1.65

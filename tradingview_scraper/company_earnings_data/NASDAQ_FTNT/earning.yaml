@@ -1,0 +1,78 @@
+currency: USD
+company_name: Fortinet, Inc.
+sector: Technology Services
+market_cap_billions: 112.26
+revenue:
+  quarterly:
+    Q3 2024: 1510.0
+    Q4 2024: 1660.0
+    Q1 2025: 1540.0
+    Q2 2025: 1630.0
+    Q3 2025: 1720.0
+    Q4 2025: 1910.0
+    Q1 2026: 1850.0
+  annual:
+    2021 Yearly: 3340.0
+    2022 Yearly: 4420.0
+    2023 Yearly: 5300.0
+    2024 Yearly: 5960.0
+    2025 Yearly: 6800.0
+  quarterly_forecast:
+    Q3 2024: 1480.0
+    Q4 2024: 1590.0
+    Q1 2025: 1540.0
+    Q2 2025: 1630.0
+    Q3 2025: 1700.0
+    Q4 2025: 1860.0
+    Q1 2026: 1730.0
+    Q2 2026: 1890.0
+    Q3 2026: 1950.0
+    Q4 2026: 2120.0
+    Q1 2027: 2020.0
+  annual_forecast:
+    2021 Yearly: 3340.0
+    2022 Yearly: 4430.0
+    2023 Yearly: 5300.0
+    2024 Yearly: 5890.0
+    2025 Yearly: 6750.0
+    2026 Yearly: 7810.0
+    2027 Yearly: 8640.0
+    2028 Yearly: 9520.0
+    2029 Yearly: 11230.0
+eps:
+  quarterly:
+    Q3 2024: 0.63
+    Q4 2024: 0.74
+    Q1 2025: 0.58
+    Q2 2025: 0.64
+    Q3 2025: 0.74
+    Q4 2025: 0.81
+    Q1 2026: 0.82
+  annual:
+    2021 Yearly: 0.8
+    2022 Yearly: 1.19
+    2023 Yearly: 1.63
+    2024 Yearly: 2.37
+    2025 Yearly: 2.76
+  quarterly_forecast:
+    Q3 2024: 0.52
+    Q4 2024: 0.61
+    Q1 2025: 0.53
+    Q2 2025: 0.59
+    Q3 2025: 0.63
+    Q4 2025: 0.74
+    Q1 2026: 0.62
+    Q2 2026: 0.75
+    Q3 2026: 0.76
+    Q4 2026: 0.83
+    Q1 2027: 0.79
+  annual_forecast:
+    2021 Yearly: 0.78
+    2022 Yearly: 1.15
+    2023 Yearly: 1.56
+    2024 Yearly: 2.24
+    2025 Yearly: 2.69
+    2026 Yearly: 3.15
+    2027 Yearly: 3.42
+    2028 Yearly: 3.82
+    2029 Yearly: 3.09

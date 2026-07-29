@@ -1,0 +1,78 @@
+currency: USD
+company_name: Impinj, Inc.
+sector: Electronic Technology
+market_cap_billions: 4.05
+revenue:
+  quarterly:
+    Q3 2024: 95.2
+    Q4 2024: 91.57
+    Q1 2025: 74.28
+    Q2 2025: 97.89
+    Q3 2025: 96.06
+    Q4 2025: 92.85
+    Q1 2026: 74.25
+  annual:
+    2021 Yearly: 190.28
+    2022 Yearly: 257.8
+    2023 Yearly: 307.5
+    2024 Yearly: 366.09
+    2025 Yearly: 361.07
+  quarterly_forecast:
+    Q3 2024: 92.86
+    Q4 2024: 93.06
+    Q1 2025: 71.72
+    Q2 2025: 93.89
+    Q3 2025: 92.64
+    Q4 2025: 92.32
+    Q1 2026: 72.53
+    Q2 2026: 104.6
+    Q3 2026: 98.33
+    Q4 2026: 96.17
+    Q1 2027: 92.42
+  annual_forecast:
+    2021 Yearly: 188.76
+    2022 Yearly: 256.37
+    2023 Yearly: 305.21
+    2024 Yearly: 367.49
+    2025 Yearly: 360.55
+    2026 Yearly: 373.38
+    2027 Yearly: 461.49
+    2028 Yearly: 602.18
+    2029 Yearly: 726.0
+eps:
+  quarterly:
+    Q3 2024: 0.56
+    Q4 2024: 0.48
+    Q1 2025: 0.21
+    Q2 2025: 0.8
+    Q3 2025: 0.58
+    Q4 2025: 0.5
+    Q1 2026: 0.14
+  annual:
+    2021 Yearly: 0.25
+    2022 Yearly: 0.96
+    2023 Yearly: 0.7
+    2024 Yearly: 2.11
+    2025 Yearly: 2.11
+  quarterly_forecast:
+    Q3 2024: 0.48
+    Q4 2024: 0.48
+    Q1 2025: 0.08
+    Q2 2025: 0.7
+    Q3 2025: 0.5
+    Q4 2025: 0.51
+    Q1 2026: 0.11
+    Q2 2026: 0.79
+    Q3 2026: 0.5
+    Q4 2026: 0.46
+    Q1 2027: 0.37
+  annual_forecast:
+    2021 Yearly: 0.08
+    2022 Yearly: 0.96
+    2023 Yearly: 0.64
+    2024 Yearly: 2.07
+    2025 Yearly: 2.09
+    2026 Yearly: 1.89
+    2027 Yearly: 2.82
+    2028 Yearly: 3.94
+    2029 Yearly: 3.59

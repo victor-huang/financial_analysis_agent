@@ -1,0 +1,74 @@
+currency: USD
+company_name: Alerus Financial Corporation
+sector: Finance
+market_cap_billions: 0.82799
+revenue:
+  quarterly:
+    Q4 2024: 72.16
+    Q1 2025: 68.79
+    Q2 2025: 74.8
+    Q3 2025: 72.57
+    Q4 2025: 77.83
+    Q1 2026: 75.76
+    Q2 2026: 80.0
+  annual:
+    2021 Yearly: 237.99
+    2022 Yearly: 210.95
+    2023 Yearly: 190.65
+    2024 Yearly: 221.98
+    2025 Yearly: 293.82
+  quarterly_forecast:
+    Q4 2024: 62.51
+    Q1 2025: 66.68
+    Q2 2025: 69.98
+    Q3 2025: 71.41
+    Q4 2025: 71.43
+    Q1 2026: 73.78
+    Q2 2026: 76.99
+    Q3 2026: 76.83
+    Q4 2026: 77.38
+    Q1 2027: 77.04
+    Q2 2027: 78.7
+  annual_forecast:
+    2021 Yearly: 231.93
+    2022 Yearly: 214.8
+    2023 Yearly: 182.33
+    2024 Yearly: 212.4
+    2025 Yearly: 287.34
+    2026 Yearly: 307.39
+    2027 Yearly: 317.12
+eps:
+  quarterly:
+    Q4 2024: 0.44
+    Q1 2025: 0.56
+    Q2 2025: 0.72
+    Q3 2025: 0.66
+    Q4 2025: 0.85
+    Q1 2026: 0.89
+    Q2 2026: 0.8
+  annual:
+    2021 Yearly: 2.97
+    2022 Yearly: 2.1
+    2023 Yearly: 1.4
+    2024 Yearly: 1.44
+    2025 Yearly: 2.78
+  quarterly_forecast:
+    Q4 2024: 0.32
+    Q1 2025: 0.43
+    Q2 2025: 0.55
+    Q3 2025: 0.59
+    Q4 2025: 0.57
+    Q1 2026: 0.59
+    Q2 2026: 0.77
+    Q3 2026: 0.67
+    Q4 2026: 0.67
+    Q1 2027: 0.66
+    Q2 2027: 0.69
+  annual_forecast:
+    2021 Yearly: 2.8
+    2022 Yearly: 2.21
+    2023 Yearly: 1.48
+    2024 Yearly: 1.28
+    2025 Yearly: 2.5
+    2026 Yearly: 3.0
+    2027 Yearly: 2.79

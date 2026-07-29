@@ -1,0 +1,76 @@
+currency: USD
+company_name: MGIC Investment Corporation
+sector: Finance
+market_cap_billions: 6.47
+revenue:
+  quarterly:
+    Q3 2024: 306.65
+    Q4 2024: 301.44
+    Q1 2025: 306.23
+    Q2 2025: 304.25
+    Q3 2025: 304.5
+    Q4 2025: 298.65
+    Q1 2026: 297.08
+  annual:
+    2021 Yearly: 1190.0
+    2022 Yearly: 1170.0
+    2023 Yearly: 1160.0
+    2024 Yearly: 1210.0
+    2025 Yearly: 1210.0
+  quarterly_forecast:
+    Q3 2024: 306.03
+    Q4 2024: 303.53
+    Q1 2025: 305.85
+    Q2 2025: 306.02
+    Q3 2025: 307.96
+    Q4 2025: 308.25
+    Q1 2026: 303.12
+    Q2 2026: 297.54
+    Q3 2026: 299.06
+    Q4 2026: 300.15
+    Q1 2027: 299.5
+  annual_forecast:
+    2021 Yearly: 1180.0
+    2022 Yearly: 1180.0
+    2023 Yearly: 1170.0
+    2024 Yearly: 1210.0
+    2025 Yearly: 1220.0
+    2026 Yearly: 1190.0
+    2027 Yearly: 1210.0
+    2028 Yearly: 1170.0
+eps:
+  quarterly:
+    Q3 2024: 0.77
+    Q4 2024: 0.72
+    Q1 2025: 0.75
+    Q2 2025: 0.82
+    Q3 2025: 0.83
+    Q4 2025: 0.75
+    Q1 2026: 0.76
+  annual:
+    2021 Yearly: 1.91
+    2022 Yearly: 2.91
+    2023 Yearly: 2.53
+    2024 Yearly: 2.91
+    2025 Yearly: 3.14
+  quarterly_forecast:
+    Q3 2024: 0.66
+    Q4 2024: 0.67
+    Q1 2025: 0.69
+    Q2 2025: 0.72
+    Q3 2025: 0.74
+    Q4 2025: 0.75
+    Q1 2026: 0.74
+    Q2 2026: 0.76
+    Q3 2026: 0.77
+    Q4 2026: 0.77
+    Q1 2027: 0.78
+  annual_forecast:
+    2021 Yearly: 1.75
+    2022 Yearly: 2.79
+    2023 Yearly: 2.42
+    2024 Yearly: 2.86
+    2025 Yearly: 3.14
+    2026 Yearly: 3.05
+    2027 Yearly: 3.27
+    2028 Yearly: 3.32

@@ -1,0 +1,73 @@
+currency: USD
+company_name: Aurora Innovation, Inc.
+sector: Technology Services
+market_cap_billions: 11.73
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 1.0
+    Q3 2025: 1.0
+    Q4 2025: 1.0
+    Q1 2026: 1.0
+  annual:
+    2021 Yearly: 82.54
+    2022 Yearly: 68.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 3.0
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q3 2025: 1.2
+    Q4 2025: 1.69
+    Q2 2026: 1.66
+    Q3 2026: 3.14
+    Q4 2026: 8.57
+    Q1 2027: 20.41
+  annual_forecast:
+    2021 Yearly: 95.25
+    2022 Yearly: 65.88
+    2023 Yearly: 0.0
+    2025 Yearly: 3.65
+    2026 Yearly: 14.54
+    2027 Yearly: 183.19
+    2028 Yearly: 620.99
+    2029 Yearly: 1730.0
+eps:
+  quarterly:
+    Q3 2024: -0.13
+    Q4 2024: -0.11
+    Q1 2025: -0.12
+    Q2 2025: -0.11
+    Q3 2025: -0.11
+    Q4 2025: -0.11
+    Q1 2026: -0.11
+  annual:
+    2021 Yearly: -1.22
+    2022 Yearly: -1.51
+    2023 Yearly: -0.6
+    2024 Yearly: -0.46
+    2025 Yearly: -0.44
+  quarterly_forecast:
+    Q3 2024: -0.11
+    Q4 2024: -0.11
+    Q1 2025: -0.11
+    Q2 2025: -0.12
+    Q3 2025: -0.12
+    Q4 2025: -0.12
+    Q1 2026: -0.12
+    Q2 2026: -0.12
+    Q3 2026: -0.12
+    Q4 2026: -0.12
+    Q1 2027: -0.11
+  annual_forecast:
+    2021 Yearly: -1.59
+    2022 Yearly: -0.74
+    2023 Yearly: -0.64
+    2024 Yearly: -0.46
+    2025 Yearly: -0.46
+    2026 Yearly: -0.46
+    2027 Yearly: -0.43
+    2028 Yearly: -0.32
+    2029 Yearly: -0.02

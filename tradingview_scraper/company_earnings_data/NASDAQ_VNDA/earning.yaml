@@ -1,0 +1,78 @@
+currency: USD
+company_name: Vanda Pharmaceuticals Inc.
+sector: Health Technology
+market_cap_billions: 0.30368
+revenue:
+  quarterly:
+    Q3 2024: 47.65
+    Q4 2024: 53.19
+    Q1 2025: 50.04
+    Q2 2025: 52.59
+    Q3 2025: 56.26
+    Q4 2025: 57.22
+    Q1 2026: 51.72
+  annual:
+    2021 Yearly: 268.68
+    2022 Yearly: 254.38
+    2023 Yearly: 192.64
+    2024 Yearly: 198.77
+    2025 Yearly: 216.1
+  quarterly_forecast:
+    Q3 2024: 49.17
+    Q4 2024: 52.25
+    Q1 2025: 45.13
+    Q2 2025: 54.77
+    Q3 2025: 58.83
+    Q4 2025: 59.27
+    Q1 2026: 54.98
+    Q2 2026: 61.92
+    Q3 2026: 69.15
+    Q4 2026: 79.22
+    Q1 2027: 80.5
+  annual_forecast:
+    2021 Yearly: 270.72
+    2022 Yearly: 257.5
+    2023 Yearly: 184.4
+    2024 Yearly: 199.45
+    2025 Yearly: 218.27
+    2026 Yearly: 262.1
+    2027 Yearly: 356.6
+    2028 Yearly: 425.37
+    2029 Yearly: 509.07
+eps:
+  quarterly:
+    Q3 2024: -0.09
+    Q4 2024: -0.08
+    Q1 2025: -0.5
+    Q2 2025: -0.46
+    Q3 2025: -0.38
+    Q4 2025: -2.39
+    Q1 2026: -0.82
+  annual:
+    2021 Yearly: 0.58
+    2022 Yearly: 0.11
+    2023 Yearly: 0.04
+    2024 Yearly: -0.33
+    2025 Yearly: -3.74
+  quarterly_forecast:
+    Q3 2024: -0.16
+    Q4 2024: -0.11
+    Q1 2025: -0.57
+    Q2 2025: -0.36
+    Q3 2025: -0.43
+    Q4 2025: -0.97
+    Q1 2026: -0.69
+    Q2 2026: -0.58
+    Q3 2026: -0.51
+    Q4 2026: -0.36
+    Q1 2027: -0.28
+  annual_forecast:
+    2021 Yearly: 0.56
+    2022 Yearly: 0.05
+    2023 Yearly: -0.01
+    2024 Yearly: -0.32
+    2025 Yearly: -2.67
+    2026 Yearly: -2.25
+    2027 Yearly: -0.76
+    2028 Yearly: -0.62
+    2029 Yearly: -0.05

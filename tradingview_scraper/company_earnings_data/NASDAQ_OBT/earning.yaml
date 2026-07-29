@@ -1,0 +1,74 @@
+currency: USD
+company_name: Orange County Bancorp, Inc.
+sector: Finance
+market_cap_billions: 0.5171399999999999
+revenue:
+  quarterly:
+    Q4 2024: 27.38
+    Q1 2025: 27.98
+    Q2 2025: 32.46
+    Q3 2025: 33.73
+    Q4 2025: 33.03
+    Q1 2026: 32.08
+    Q2 2026: 27.82
+  annual:
+    2021 Yearly: 23.8
+    2022 Yearly: 90.08
+    2023 Yearly: 101.81
+    2024 Yearly: 107.74
+    2025 Yearly: 127.2
+  quarterly_forecast:
+    Q4 2024: 27.1
+    Q1 2025: 27.0
+    Q2 2025: 29.4
+    Q3 2025: 30.5
+    Q4 2025: 31.4
+    Q1 2026: 32.3
+    Q2 2026: 33.0
+    Q3 2026: 34.2
+    Q4 2026: 34.7
+    Q1 2027: 34.7
+    Q2 2027: 35.85
+  annual_forecast:
+    2021 Yearly: 72.05
+    2022 Yearly: 89.0
+    2023 Yearly: 101.05
+    2024 Yearly: 107.4
+    2025 Yearly: 120.85
+    2026 Yearly: 133.95
+    2027 Yearly: 145.05
+eps:
+  quarterly:
+    Q4 2024: 0.63
+    Q1 2025: 0.77
+    Q2 2025: 0.7
+    Q3 2025: 0.66
+    Q4 2025: 0.93
+    Q1 2026: 0.85
+    Q2 2026: 0.94
+  annual:
+    2021 Yearly: 2.14
+    2022 Yearly: 2.17
+    2023 Yearly: 2.62
+    2024 Yearly: 2.47
+    2025 Yearly: 2.83
+  quarterly_forecast:
+    Q4 2024: 0.7
+    Q1 2025: 0.67
+    Q2 2025: 0.75
+    Q3 2025: 0.71
+    Q4 2025: 0.74
+    Q1 2026: 0.78
+    Q2 2026: 0.8
+    Q3 2026: 0.86
+    Q4 2026: 0.9
+    Q1 2027: 0.88
+    Q2 2027: 0.95
+  annual_forecast:
+    2021 Yearly: 1.93
+    2022 Yearly: 2.07
+    2023 Yearly: 2.75
+    2024 Yearly: 2.39
+    2025 Yearly: 2.84
+    2026 Yearly: 3.4
+    2027 Yearly: 3.83

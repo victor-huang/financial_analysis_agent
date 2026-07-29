@@ -1,0 +1,76 @@
+currency: USD
+company_name: Unisys Corporation New
+sector: Technology Services
+market_cap_billions: 0.25225
+revenue:
+  quarterly:
+    Q4 2024: 545.4
+    Q1 2025: 432.1
+    Q2 2025: 483.3
+    Q3 2025: 460.2
+    Q4 2025: 574.5
+    Q1 2026: 437.6
+    Q2 2026: 473.5
+  annual:
+    2021 Yearly: 2050.0
+    2022 Yearly: 1980.0
+    2023 Yearly: 2020.0
+    2024 Yearly: 2009.9999999999998
+    2025 Yearly: 1950.0
+  quarterly_forecast:
+    Q4 2024: 550.93
+    Q1 2025: 441.2
+    Q2 2025: 444.65
+    Q3 2025: 487.75
+    Q4 2025: 569.86
+    Q1 2026: 415.64
+    Q2 2026: 448.92
+    Q3 2026: 499.22
+    Q4 2026: 532.59
+    Q1 2027: 443.77
+    Q2 2027: 463.15
+  annual_forecast:
+    2021 Yearly: 2050.0
+    2022 Yearly: 1960.0
+    2023 Yearly: 1990.0
+    2024 Yearly: 2009.9999999999998
+    2025 Yearly: 1950.0
+    2026 Yearly: 1920.0
+    2027 Yearly: 1940.0
+    2028 Yearly: 1990.0
+eps:
+  quarterly:
+    Q4 2024: 0.33
+    Q1 2025: -0.05
+    Q2 2025: 0.19
+    Q3 2025: -0.08
+    Q4 2025: 0.86
+    Q1 2026: -0.14
+    Q2 2026: -0.08
+  annual:
+    2021 Yearly: 1.75
+    2022 Yearly: 1.1
+    2023 Yearly: 0.6
+    2024 Yearly: 0.45
+    2025 Yearly: 0.93
+  quarterly_forecast:
+    Q4 2024: 0.3
+    Q1 2025: -0.22
+    Q2 2025: -0.28
+    Q3 2025: 0.01
+    Q4 2025: 0.69
+    Q1 2026: -0.26
+    Q2 2026: -0.04
+    Q3 2026: 0.46
+    Q4 2026: 0.56
+    Q1 2027: 0.03
+    Q2 2027: 0.15
+  annual_forecast:
+    2021 Yearly: 1.59
+    2022 Yearly: 0.59
+    2023 Yearly: 0.3
+    2024 Yearly: 0.41
+    2025 Yearly: 0.7
+    2026 Yearly: 0.85
+    2027 Yearly: 1.17
+    2028 Yearly: 1.37

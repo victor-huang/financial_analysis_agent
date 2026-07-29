@@ -1,0 +1,78 @@
+currency: USD
+company_name: Corcept Therapeutics Incorporated
+sector: Health Technology
+market_cap_billions: 9.98
+revenue:
+  quarterly:
+    Q3 2024: 182.55
+    Q4 2024: 181.89
+    Q1 2025: 157.21
+    Q2 2025: 194.43
+    Q3 2025: 207.64
+    Q4 2025: 202.13
+    Q1 2026: 164.9
+  annual:
+    2021 Yearly: 365.98
+    2022 Yearly: 401.86
+    2023 Yearly: 482.38
+    2024 Yearly: 675.04
+    2025 Yearly: 761.41
+  quarterly_forecast:
+    Q3 2024: 171.97
+    Q4 2024: 198.74
+    Q1 2025: 177.93
+    Q2 2025: 199.39
+    Q3 2025: 223.16
+    Q4 2025: 256.88
+    Q1 2026: 185.27
+    Q2 2026: 221.15
+    Q3 2026: 278.83
+    Q4 2026: 334.57
+    Q1 2027: 318.6
+  annual_forecast:
+    2021 Yearly: 367.75
+    2022 Yearly: 403.88
+    2023 Yearly: 476.28
+    2024 Yearly: 692.67
+    2025 Yearly: 816.17
+    2026 Yearly: 999.54
+    2027 Yearly: 1420.0
+    2028 Yearly: 1910.0
+    2029 Yearly: 2620.0
+eps:
+  quarterly:
+    Q3 2024: 0.41
+    Q4 2024: 0.26
+    Q1 2025: 0.17
+    Q2 2025: 0.29
+    Q3 2025: 0.16
+    Q4 2025: 0.2
+    Q1 2026: -0.3
+  annual:
+    2021 Yearly: 0.89
+    2022 Yearly: 0.87
+    2023 Yearly: 0.94
+    2024 Yearly: 1.23
+    2025 Yearly: 0.82
+  quarterly_forecast:
+    Q3 2024: 0.28
+    Q4 2024: 0.43
+    Q1 2025: 0.14
+    Q2 2025: 0.19
+    Q3 2025: 0.16
+    Q4 2025: 0.33
+    Q1 2026: -0.11
+    Q2 2026: 0.02
+    Q3 2026: 0.31
+    Q4 2026: 0.6
+    Q1 2027: 0.48
+  annual_forecast:
+    2021 Yearly: 0.89
+    2022 Yearly: 0.96
+    2023 Yearly: 0.92
+    2024 Yearly: 1.41
+    2025 Yearly: 0.96
+    2026 Yearly: 0.75
+    2027 Yearly: 2.88
+    2028 Yearly: 5.4
+    2029 Yearly: 9.42

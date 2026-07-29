@@ -1,0 +1,78 @@
+currency: USD
+company_name: Lam Research Corporation
+sector: Producer Manufacturing
+market_cap_billions: 315.58
+revenue:
+  quarterly:
+    Q1 2025: 4170.0
+    Q2 2025: 4380.0
+    Q3 2025: 4720.0
+    Q4 2025: 5170.0
+    Q1 2026: 5320.0
+    Q2 2026: 5340.0
+    Q3 2026: 5840.0
+  annual:
+    2021 Yearly: 14630.0
+    2022 Yearly: 17230.0
+    2023 Yearly: 17430.0
+    2024 Yearly: 14910.0
+    2025 Yearly: 18440.0
+  quarterly_forecast:
+    Q1 2025: 4059.9999999999995
+    Q2 2025: 4320.0
+    Q3 2025: 4640.0
+    Q4 2025: 5000.0
+    Q1 2026: 5220.0
+    Q2 2026: 5230.0
+    Q3 2026: 5750.0
+    Q4 2026: 6660.0
+    Q1 2027: 7110.0
+    Q2 2027: 7560.0
+    Q3 2027: 7940.0
+  annual_forecast:
+    2021 Yearly: 14510.0
+    2022 Yearly: 16830.0
+    2023 Yearly: 17360.0
+    2024 Yearly: 14910.0
+    2025 Yearly: 18260.0
+    2026 Yearly: 23200.0
+    2027 Yearly: 31170.0
+    2028 Yearly: 36810.0
+    2029 Yearly: 40770.0
+eps:
+  quarterly:
+    Q1 2025: 0.86
+    Q2 2025: 0.91
+    Q3 2025: 1.04
+    Q4 2025: 1.33
+    Q1 2026: 1.26
+    Q2 2026: 1.27
+    Q3 2026: 1.47
+  annual:
+    2021 Yearly: 2.73
+    2022 Yearly: 3.31
+    2023 Yearly: 3.41
+    2024 Yearly: 3.03
+    2025 Yearly: 4.14
+  quarterly_forecast:
+    Q1 2025: 0.81
+    Q2 2025: 0.88
+    Q3 2025: 1.0
+    Q4 2025: 1.21
+    Q1 2026: 1.22
+    Q2 2026: 1.17
+    Q3 2026: 1.36
+    Q4 2026: 1.69
+    Q1 2027: 1.84
+    Q2 2027: 1.99
+    Q3 2027: 2.13
+  annual_forecast:
+    2021 Yearly: 2.68
+    2022 Yearly: 3.17
+    2023 Yearly: 3.32
+    2024 Yearly: 2.98
+    2025 Yearly: 4.01
+    2026 Yearly: 5.7
+    2027 Yearly: 8.22
+    2028 Yearly: 10.21
+    2029 Yearly: 11.36

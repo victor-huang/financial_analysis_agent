@@ -1,0 +1,78 @@
+currency: USD
+company_name: C.H. Robinson Worldwide, Inc.
+sector: Transportation
+market_cap_billions: 20.48
+revenue:
+  quarterly:
+    Q3 2024: 4640.0
+    Q4 2024: 4180.0
+    Q1 2025: 4050.0
+    Q2 2025: 4140.0
+    Q3 2025: 4140.0
+    Q4 2025: 3910.0
+    Q1 2026: 4010.0
+  annual:
+    2021 Yearly: 23100.0
+    2022 Yearly: 24700.0
+    2023 Yearly: 17600.0
+    2024 Yearly: 17720.0
+    2025 Yearly: 16230.0
+  quarterly_forecast:
+    Q3 2024: 4530.0
+    Q4 2024: 4440.0
+    Q1 2025: 4250.0
+    Q2 2025: 4170.0
+    Q3 2025: 4230.0
+    Q4 2025: 3990.0
+    Q1 2026: 4050.0
+    Q2 2026: 4350.0
+    Q3 2026: 4440.0
+    Q4 2026: 4270.0
+    Q1 2027: 4330.0
+  annual_forecast:
+    2021 Yearly: 22850.0
+    2022 Yearly: 25330.0
+    2023 Yearly: 17720.0
+    2024 Yearly: 18000.0
+    2025 Yearly: 16290.0
+    2026 Yearly: 17050.0
+    2027 Yearly: 18270.0
+    2028 Yearly: 19450.0
+    2029 Yearly: 18070.0
+eps:
+  quarterly:
+    Q3 2024: 1.28
+    Q4 2024: 1.21
+    Q1 2025: 1.17
+    Q2 2025: 1.29
+    Q3 2025: 1.4
+    Q4 2025: 1.23
+    Q1 2026: 1.35
+  annual:
+    2021 Yearly: 6.31
+    2022 Yearly: 7.62
+    2023 Yearly: 3.3
+    2024 Yearly: 4.51
+    2025 Yearly: 5.09
+  quarterly_forecast:
+    Q3 2024: 1.15
+    Q4 2024: 1.11
+    Q1 2025: 1.05
+    Q2 2025: 1.16
+    Q3 2025: 1.3
+    Q4 2025: 1.12
+    Q1 2026: 1.23
+    Q2 2026: 1.53
+    Q3 2026: 1.72
+    Q4 2026: 1.6
+    Q1 2027: 1.62
+  annual_forecast:
+    2021 Yearly: 6.41
+    2022 Yearly: 7.88
+    2023 Yearly: 3.52
+    2024 Yearly: 4.38
+    2025 Yearly: 4.98
+    2026 Yearly: 6.17
+    2027 Yearly: 7.46
+    2028 Yearly: 8.18
+    2029 Yearly: 7.65

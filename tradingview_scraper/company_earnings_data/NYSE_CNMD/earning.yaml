@@ -1,0 +1,76 @@
+currency: USD
+company_name: CONMED Corporation
+sector: Health Technology
+market_cap_billions: 1.3
+revenue:
+  quarterly:
+    Q3 2024: 316.7
+    Q4 2024: 345.94
+    Q1 2025: 321.26
+    Q2 2025: 342.35
+    Q3 2025: 337.93
+    Q4 2025: 373.2
+    Q1 2026: 317.05
+  annual:
+    2021 Yearly: 1010.0
+    2022 Yearly: 1050.0
+    2023 Yearly: 1240.0
+    2024 Yearly: 1310.0
+    2025 Yearly: 1370.0
+  quarterly_forecast:
+    Q3 2024: 317.78
+    Q4 2024: 341.0
+    Q1 2025: 313.4
+    Q2 2025: 338.35
+    Q3 2025: 336.39
+    Q4 2025: 366.88
+    Q1 2026: 310.64
+    Q2 2026: 337.6
+    Q3 2026: 334.93
+    Q4 2026: 372.24
+    Q1 2027: 332.15
+  annual_forecast:
+    2021 Yearly: 1010.0
+    2022 Yearly: 1100.0
+    2023 Yearly: 1250.0
+    2024 Yearly: 1300.0
+    2025 Yearly: 1370.0
+    2026 Yearly: 1360.0
+    2027 Yearly: 1430.0
+    2028 Yearly: 1510.0
+eps:
+  quarterly:
+    Q3 2024: 1.05
+    Q4 2024: 1.34
+    Q1 2025: 0.95
+    Q2 2025: 1.15
+    Q3 2025: 1.08
+    Q4 2025: 1.43
+    Q1 2026: 0.89
+  annual:
+    2021 Yearly: 3.21
+    2022 Yearly: 2.65
+    2023 Yearly: 3.45
+    2024 Yearly: 4.17
+    2025 Yearly: 4.59
+  quarterly_forecast:
+    Q3 2024: 1.02
+    Q4 2024: 1.2
+    Q1 2025: 0.81
+    Q2 2025: 1.12
+    Q3 2025: 1.06
+    Q4 2025: 1.32
+    Q1 2026: 0.82
+    Q2 2026: 1.11
+    Q3 2026: 1.03
+    Q4 2026: 1.32
+    Q1 2027: 0.97
+  annual_forecast:
+    2021 Yearly: 3.17
+    2022 Yearly: 3.12
+    2023 Yearly: 3.5
+    2024 Yearly: 4.03
+    2025 Yearly: 4.5
+    2026 Yearly: 4.34
+    2027 Yearly: 4.72
+    2028 Yearly: 5.43

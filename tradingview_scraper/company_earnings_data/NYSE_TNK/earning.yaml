@@ -1,0 +1,76 @@
+currency: USD
+company_name: Teekay Tankers Ltd.
+sector: Transportation
+market_cap_billions: 2.71
+revenue:
+  quarterly:
+    Q3 2024: 149.29
+    Q4 2024: 163.42
+    Q1 2025: 144.77
+    Q2 2025: 117.01
+    Q3 2025: 115.21
+    Q4 2025: 158.78
+    Q1 2026: 196.26
+  annual:
+    2021 Yearly: 227.25
+    2022 Yearly: 567.51
+    2023 Yearly: 890.08
+    2024 Yearly: 731.02
+    2025 Yearly: 506.64
+  quarterly_forecast:
+    Q3 2024: 154.19
+    Q4 2024: 153.88
+    Q1 2025: 145.4
+    Q2 2025: 156.92
+    Q3 2025: 144.84
+    Q4 2025: 180.09
+    Q1 2026: 212.51
+    Q2 2026: 299.03
+    Q3 2026: 191.21
+    Q4 2026: 188.24
+    Q1 2027: 177.9
+  annual_forecast:
+    2022 Yearly: 223.32
+    2023 Yearly: 530.93
+    2024 Yearly: 907.63
+    2025 Yearly: 721.15
+    2026 Yearly: 623.47
+    2027 Yearly: 892.58
+    2028 Yearly: 642.46
+eps:
+  quarterly:
+    Q3 2024: 1.84
+    Q4 2024: 1.5
+    Q1 2025: 1.21
+    Q2 2025: 1.41
+    Q3 2025: 1.54
+    Q4 2025: 2.8
+    Q1 2026: 3.69
+  annual:
+    2021 Yearly: -4.09
+    2022 Yearly: 6.39
+    2023 Yearly: 14.65
+    2024 Yearly: 10.31
+    2025 Yearly: 6.96
+  quarterly_forecast:
+    Q3 2024: 1.88
+    Q4 2024: 1.47
+    Q1 2025: 1.14
+    Q2 2025: 1.41
+    Q3 2025: 1.56
+    Q4 2025: 2.68
+    Q1 2026: 3.5
+    Q2 2026: 5.61
+    Q3 2026: 3.4
+    Q4 2026: 3.12
+    Q1 2027: 2.91
+  annual_forecast:
+    2021 Yearly: -4.22
+    2022 Yearly: 4.89
+    2023 Yearly: 15.14
+    2024 Yearly: 10.26
+    2025 Yearly: 6.82
+    2026 Yearly: 15.34
+    2027 Yearly: 8.69
+    2028 Yearly: 7.56
+    2029 Yearly: 9.78

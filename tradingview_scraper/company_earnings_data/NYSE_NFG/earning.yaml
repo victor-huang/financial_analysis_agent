@@ -1,0 +1,76 @@
+currency: USD
+company_name: National Fuel Gas Company
+sector: Energy Minerals
+market_cap_billions: 7.69
+revenue:
+  quarterly:
+    Q4 2024: 372.07
+    Q1 2025: 549.48
+    Q2 2025: 729.95
+    Q3 2025: 531.83
+    Q4 2025: 456.41
+    Q1 2026: 651.51
+    Q2 2026: 858.37
+  annual:
+    2021 Yearly: 1740.0
+    2022 Yearly: 2190.0
+    2023 Yearly: 2170.0
+    2024 Yearly: 1940.0
+    2025 Yearly: 2280.0
+  quarterly_forecast:
+    Q4 2024: 524.69
+    Q1 2025: 617.14
+    Q2 2025: 774.56
+    Q3 2025: 596.11
+    Q4 2025: 513.48
+    Q1 2026: 653.76
+    Q2 2026: 856.57
+    Q3 2026: 564.33
+    Q4 2026: 489.06
+    Q1 2027: 805.12
+    Q2 2027: 1020.0
+  annual_forecast:
+    2021 Yearly: 1890.0
+    2022 Yearly: 2290.0
+    2023 Yearly: 2340.0
+    2024 Yearly: 2170.0
+    2025 Yearly: 2400.0
+    2026 Yearly: 2580.0
+    2027 Yearly: 3030.0
+    2028 Yearly: 2980.0
+eps:
+  quarterly:
+    Q4 2024: 0.77
+    Q1 2025: 1.66
+    Q2 2025: 2.39
+    Q3 2025: 1.64
+    Q4 2025: 1.22
+    Q1 2026: 2.06
+    Q2 2026: 2.71
+  annual:
+    2021 Yearly: 4.29
+    2022 Yearly: 5.88
+    2023 Yearly: 5.17
+    2024 Yearly: 5.01
+    2025 Yearly: 6.91
+  quarterly_forecast:
+    Q4 2024: 0.82
+    Q1 2025: 1.53
+    Q2 2025: 2.21
+    Q3 2025: 1.52
+    Q4 2025: 1.11
+    Q1 2026: 1.94
+    Q2 2026: 2.84
+    Q3 2026: 1.44
+    Q4 2026: 1.22
+    Q1 2027: 2.12
+    Q2 2027: 2.79
+  annual_forecast:
+    2021 Yearly: 4.09
+    2022 Yearly: 5.94
+    2023 Yearly: 5.22
+    2024 Yearly: 4.54
+    2025 Yearly: 6.82
+    2026 Yearly: 7.37
+    2027 Yearly: 7.78
+    2028 Yearly: 7.67

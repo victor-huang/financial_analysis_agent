@@ -1,0 +1,78 @@
+currency: USD
+company_name: Cimpress plc
+sector: Commercial Services
+market_cap_billions: 2.37
+revenue:
+  quarterly:
+    Q2 2025: 939.16
+    Q3 2025: 789.47
+    Q4 2025: 869.48
+    Q1 2026: 863.28
+    Q2 2026: 1040.0
+    Q3 2026: 886.21
+    Q4 2026: 944.96
+  annual:
+    2021 Yearly: 2590.0
+    2022 Yearly: 2890.0
+    2023 Yearly: 3080.0
+    2024 Yearly: 3290.0
+    2025 Yearly: 3400.0
+  quarterly_forecast:
+    Q2 2025: 963.44
+    Q3 2025: 798.1
+    Q4 2025: 844.24
+    Q1 2026: 842.7
+    Q2 2026: 993.75
+    Q3 2026: 858.8
+    Q4 2026: 945.53
+    Q1 2027: 937.86
+    Q2 2027: 1120.0
+    Q3 2027: 949.99
+    Q4 2027: 1020.0
+  annual_forecast:
+    2021 Yearly: 2570.0
+    2022 Yearly: 2850.0
+    2023 Yearly: 3080.0
+    2024 Yearly: 3290.0
+    2025 Yearly: 3380.0
+    2026 Yearly: 3740.0
+    2027 Yearly: 3980.0
+    2028 Yearly: 4290.0
+    2029 Yearly: 4530.0
+eps:
+  quarterly:
+    Q2 2025: 2.36
+    Q3 2025: -0.33
+    Q4 2025: -1.02
+    Q1 2026: 0.3
+    Q2 2026: 1.95
+    Q3 2026: 0.55
+    Q4 2026: 0.97
+  annual:
+    2021 Yearly: -2.99
+    2022 Yearly: -2.08
+    2023 Yearly: -7.08
+    2024 Yearly: 6.43
+    2025 Yearly: 0.58
+  quarterly_forecast:
+    Q2 2025: 2.43
+    Q3 2025: 0.55
+    Q4 2025: 0.98
+    Q1 2026: 0.28
+    Q2 2026: 1.64
+    Q3 2026: 0.17
+    Q4 2026: 1.22
+    Q1 2027: 0.96
+    Q2 2027: 2.21
+    Q3 2027: 0.92
+    Q4 2027: 1.66
+  annual_forecast:
+    2021 Yearly: -0.8
+    2022 Yearly: -1.69
+    2023 Yearly: -7.83
+    2024 Yearly: 2.94
+    2025 Yearly: 2.5
+    2026 Yearly: 3.92
+    2027 Yearly: 5.14
+    2028 Yearly: 8.32
+    2029 Yearly: 9.97
