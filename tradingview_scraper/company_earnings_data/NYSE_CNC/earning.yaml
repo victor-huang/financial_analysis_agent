@@ -1,7 +1,7 @@
 currency: USD
 company_name: Centene Corporation
 sector: Health Services
-market_cap_billions: 31.56
+market_cap_billions: 30.65
 revenue:
   quarterly:
     Q4 2024: 40800.0
@@ -25,19 +25,19 @@ revenue:
     Q4 2025: 48390.0
     Q1 2026: 47530.0
     Q2 2026: 47640.0
-    Q3 2026: 47320.0
-    Q4 2026: 46140.0
-    Q1 2027: 48710.0
-    Q2 2027: 47830.0
+    Q3 2026: 47120.0
+    Q4 2026: 45970.0
+    Q1 2027: 48950.0
+    Q2 2027: 49680.0
   annual_forecast:
     2021 Yearly: 126050.0
     2022 Yearly: 144420.0
     2023 Yearly: 150810.0
     2024 Yearly: 161260.0
     2025 Yearly: 193570.0
-    2026 Yearly: 191610.0
-    2027 Yearly: 191440.0
-    2028 Yearly: 198560.0
+    2026 Yearly: 194460.0
+    2027 Yearly: 193250.0
+    2028 Yearly: 199550.0
     2029 Yearly: 204600.0
 eps:
   quarterly:
@@ -62,17 +62,17 @@ eps:
     Q4 2025: -1.22
     Q1 2026: 2.23
     Q2 2026: 1.09
-    Q3 2026: 0.07
-    Q4 2026: -1.01
-    Q1 2027: 3.32
-    Q2 2027: 1.57
+    Q3 2026: 0.09
+    Q4 2026: -1.06
+    Q1 2027: 3.36
+    Q2 2027: 2.03
   annual_forecast:
     2021 Yearly: 5.12
     2022 Yearly: 5.73
     2023 Yearly: 6.58
     2024 Yearly: 6.84
     2025 Yearly: 2.03
-    2026 Yearly: 3.64
-    2027 Yearly: 4.56
-    2028 Yearly: 5.96
+    2026 Yearly: 4.4
+    2027 Yearly: 5.01
+    2028 Yearly: 6.36
     2029 Yearly: 7.2

@@ -1,7 +1,7 @@
 currency: USD
 company_name: Nautilus Biotechnology, Inc.
 sector: Health Technology
-market_cap_billions: 0.15249000000000001
+market_cap_billions: 0.13343
 revenue:
   quarterly:
     Q4 2024: 0.0
@@ -62,7 +62,7 @@ eps:
     2023 Yearly: -0.56
     2024 Yearly: -0.6
     2025 Yearly: -0.53
-    2026 Yearly: -0.5
-    2027 Yearly: -0.51
+    2026 Yearly: -0.51
+    2027 Yearly: -0.52
     2028 Yearly: -0.42
     2029 Yearly: -0.38

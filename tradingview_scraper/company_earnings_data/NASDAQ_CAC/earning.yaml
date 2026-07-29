@@ -1,7 +1,7 @@
 currency: USD
 company_name: Camden National Corporation
 sector: Finance
-market_cap_billions: 0.97851
+market_cap_billions: 0.98866
 revenue:
   quarterly:
     Q4 2024: 47.58
@@ -35,8 +35,8 @@ revenue:
     2023 Yearly: 169.94
     2024 Yearly: 174.95
     2025 Yearly: 253.79
-    2026 Yearly: 270.43
-    2027 Yearly: 287.48
+    2026 Yearly: 270.83
+    2027 Yearly: 286.88
 eps:
   quarterly:
     Q4 2024: 1.03
@@ -60,15 +60,15 @@ eps:
     Q4 2025: 1.32
     Q1 2026: 1.25
     Q2 2026: 1.29
-    Q3 2026: 1.35
-    Q4 2026: 1.42
+    Q3 2026: 1.36
+    Q4 2026: 1.43
     Q1 2027: 1.35
-    Q2 2027: 1.42
+    Q2 2027: 1.43
   annual_forecast:
     2021 Yearly: 4.47
     2022 Yearly: 4.16
     2023 Yearly: 3.55
     2024 Yearly: 3.5
     2025 Yearly: 4.43
-    2026 Yearly: 5.35
-    2027 Yearly: 5.79
+    2026 Yearly: 5.38
+    2027 Yearly: 5.81

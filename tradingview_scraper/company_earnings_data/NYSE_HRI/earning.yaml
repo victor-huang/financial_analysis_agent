@@ -1,7 +1,7 @@
 currency: USD
 company_name: Herc Holdings Inc.
 sector: Finance
-market_cap_billions: 4.95
+market_cap_billions: 4.79
 revenue:
   quarterly:
     Q4 2024: 951.0
@@ -10,7 +10,7 @@ revenue:
     Q3 2025: 1300.0
     Q4 2025: 1210.0
     Q1 2026: 1140.0
-    Q2 2026: 1150.0
+    Q2 2026: 1200.0
   annual:
     2021 Yearly: 2070.0
     2022 Yearly: 2740.0
@@ -25,19 +25,19 @@ revenue:
     Q4 2025: 1250.0
     Q1 2026: 1060.0
     Q2 2026: 1160.0
-    Q3 2026: 1290.0
-    Q4 2026: 1230.0
-    Q1 2027: 1180.0
-    Q2 2027: 1220.0
+    Q3 2026: 1340.0
+    Q4 2026: 1240.0
+    Q1 2027: 1200.0
+    Q2 2027: 1330.0
   annual_forecast:
     2021 Yearly: 2080.0
     2022 Yearly: 2730.0
     2023 Yearly: 3310.0
     2024 Yearly: 3530.0
     2025 Yearly: 4420.0
-    2026 Yearly: 4780.0
-    2027 Yearly: 5090.0
-    2028 Yearly: 5520.0
+    2026 Yearly: 4880.0
+    2027 Yearly: 5210.0
+    2028 Yearly: 5610.0
     2029 Yearly: 5950.0
 eps:
   quarterly:
@@ -62,17 +62,17 @@ eps:
     Q4 2025: 1.87
     Q1 2026: -0.21
     Q2 2026: 0.76
-    Q3 2026: 2.72
-    Q4 2026: 2.37
-    Q1 2027: 0.66
-    Q2 2027: 1.56
+    Q3 2026: 2.87
+    Q4 2026: 2.21
+    Q1 2027: 0.72
+    Q2 2027: 2.13
   annual_forecast:
     2021 Yearly: 7.49
     2022 Yearly: 11.39
     2023 Yearly: 12.45
     2024 Yearly: 13.3
     2025 Yearly: 7.28
-    2026 Yearly: 6.21
-    2027 Yearly: 9.52
-    2028 Yearly: 14.43
+    2026 Yearly: 6.67
+    2027 Yearly: 9.88
+    2028 Yearly: 15.07
     2029 Yearly: 20.3

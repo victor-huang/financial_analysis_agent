@@ -1,7 +1,7 @@
 currency: USD
 company_name: Travelzoo
 sector: Commercial Services
-market_cap_billions: 0.07781999999999999
+market_cap_billions: 0.07761
 revenue:
   quarterly:
     Q4 2024: 20.68
@@ -25,19 +25,19 @@ revenue:
     Q4 2025: 22.79
     Q1 2026: 24.62
     Q2 2026: 25.0
-    Q3 2026: 24.58
-    Q4 2026: 25.27
-    Q1 2027: 26.04
-    Q2 2027: 27.5
+    Q3 2026: 23.75
+    Q4 2026: 24.66
+    Q1 2027: 26.05
+    Q2 2027: 26.43
   annual_forecast:
     2021 Yearly: 67.09
     2022 Yearly: 67.65
     2023 Yearly: 84.85
     2024 Yearly: 85.31
     2025 Yearly: 92.01
-    2026 Yearly: 99.13
-    2027 Yearly: 109.45
-    2028 Yearly: 110.94
+    2026 Yearly: 96.58
+    2027 Yearly: 107.22
+    2028 Yearly: 106.09
 eps:
   quarterly:
     Q4 2024: 0.26
@@ -61,16 +61,16 @@ eps:
     Q4 2025: 0.11
     Q1 2026: 0.16
     Q2 2026: 0.14
-    Q3 2026: 0.11
-    Q4 2026: 0.21
+    Q3 2026: 0.0
+    Q4 2026: 0.08
     Q1 2027: 0.23
-    Q2 2027: 0.24
+    Q2 2027: 0.17
   annual_forecast:
     2021 Yearly: 0.54
     2022 Yearly: 0.46
     2023 Yearly: 0.83
     2024 Yearly: 1.13
     2025 Yearly: 0.53
-    2026 Yearly: 0.68
-    2027 Yearly: 0.98
-    2028 Yearly: 0.93
+    2026 Yearly: 0.26
+    2027 Yearly: 0.88
+    2028 Yearly: 0.77

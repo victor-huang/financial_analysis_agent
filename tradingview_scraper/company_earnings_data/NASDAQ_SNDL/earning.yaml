@@ -1,7 +1,7 @@
 currency: USD
 company_name: SNDL Inc.
 sector: Process Industries
-market_cap_billions: 0.31757
+market_cap_billions: 0.31887
 revenue:
   quarterly:
     Q4 2024: 179.06
@@ -25,20 +25,20 @@ revenue:
     Q4 2025: 187.86
     Q1 2026: 151.19
     Q2 2026: 166.26
-    Q3 2026: 166.4
-    Q4 2026: 173.44
-    Q1 2027: 141.13
-    Q2 2027: 169.41
+    Q3 2026: 165.63
+    Q4 2026: 172.82
+    Q1 2027: 140.36
+    Q2 2027: 167.83
   annual_forecast:
     2021 Yearly: 41.51
     2022 Yearly: 506.37
     2023 Yearly: 684.44
     2024 Yearly: 634.33
     2025 Yearly: 693.16
-    2026 Yearly: 645.24
-    2027 Yearly: 661.02
-    2028 Yearly: 707.91
-    2029 Yearly: 746.84
+    2026 Yearly: 644.27
+    2027 Yearly: 655.11
+    2028 Yearly: 691.57
+    2029 Yearly: 730.25
 eps:
   quarterly:
     Q4 2024: -0.17
@@ -62,17 +62,17 @@ eps:
     Q4 2025: 0.01
     Q1 2026: -0.03
     Q2 2026: 0.0
-    Q3 2026: 0.0
-    Q4 2026: 0.01
-    Q1 2027: -0.02
-    Q2 2027: 0.01
+    Q3 2026: -0.01
+    Q4 2026: 0.0
+    Q1 2027: -0.03
+    Q2 2027: 0.0
   annual_forecast:
     2021 Yearly: -0.63
     2022 Yearly: -0.58
     2023 Yearly: -0.22
     2024 Yearly: -0.12
     2025 Yearly: -0.06
-    2026 Yearly: -0.04
-    2027 Yearly: 0.02
-    2028 Yearly: 0.07
+    2026 Yearly: -0.06
+    2027 Yearly: 0.01
+    2028 Yearly: 0.06
     2029 Yearly: 0.13

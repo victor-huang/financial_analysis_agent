@@ -1,0 +1,38 @@
+currency: USD
+company_name: Oxford Lane Capital Corp.
+sector: Finance
+market_cap_billions: 0.854
+revenue:
+  quarterly: {}
+  annual:
+    2021 Yearly: 199.3
+    2022 Yearly: 262.26
+    2023 Yearly: 306.79
+    2024 Yearly: 434.0
+    2025 Yearly: 346.0
+  quarterly_forecast: {}
+  annual_forecast:
+    2021 Yearly: 201.33
+    2022 Yearly: 262.57
+    2023 Yearly: 296.08
+    2024 Yearly: 372.16
+    2025 Yearly: 424.8
+    2026 Yearly: 395.0
+    2027 Yearly: 484.0
+eps:
+  quarterly: {}
+  annual:
+    2021 Yearly: 1.64
+    2022 Yearly: 1.22
+    2023 Yearly: 1.58
+    2024 Yearly: 1.25
+    2025 Yearly: 3.37
+  quarterly_forecast: {}
+  annual_forecast:
+    2021 Yearly: 1.6
+    2022 Yearly: 1.04
+    2023 Yearly: 1.22
+    2024 Yearly: 1.04
+    2025 Yearly: 3.99
+    2026 Yearly: 3.9
+    2027 Yearly: 4.5

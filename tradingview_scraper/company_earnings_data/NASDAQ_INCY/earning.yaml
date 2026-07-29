@@ -1,7 +1,7 @@
 currency: USD
 company_name: Incyte Corporation
 sector: Health Technology
-market_cap_billions: 25.96
+market_cap_billions: 25.37
 revenue:
   quarterly:
     Q4 2024: 1180.0
@@ -25,20 +25,20 @@ revenue:
     Q4 2025: 1350.0
     Q1 2026: 1220.0
     Q2 2026: 1500.0
-    Q3 2026: 1460.0
+    Q3 2026: 1470.0
     Q4 2026: 1530.0
-    Q1 2027: 1350.0
-    Q2 2027: 1500.0
+    Q1 2027: 1360.0
+    Q2 2027: 1510.0
   annual_forecast:
     2021 Yearly: 2920.0
     2022 Yearly: 3340.0
     2023 Yearly: 3690.0
     2024 Yearly: 4200.0
     2025 Yearly: 4980.0
-    2026 Yearly: 5780.0
-    2027 Yearly: 6190.0
-    2028 Yearly: 6520.0
-    2029 Yearly: 4700.0
+    2026 Yearly: 5870.0
+    2027 Yearly: 6220.0
+    2028 Yearly: 6550.0
+    2029 Yearly: 4740.0
 eps:
   quarterly:
     Q4 2024: 1.43
@@ -62,9 +62,9 @@ eps:
     Q4 2025: 1.93
     Q1 2026: 1.38
     Q2 2026: 2.2
-    Q3 2026: -1.21
-    Q4 2026: 2.04
-    Q1 2027: 1.81
+    Q3 2026: -1.59
+    Q4 2026: 1.98
+    Q1 2027: 1.79
     Q2 2027: 2.17
   annual_forecast:
     2021 Yearly: 2.58
@@ -72,7 +72,7 @@ eps:
     2023 Yearly: 3.6
     2024 Yearly: 1.28
     2025 Yearly: 6.76
-    2026 Yearly: 5.47
-    2027 Yearly: 8.75
-    2028 Yearly: 9.41
-    2029 Yearly: 3.57
+    2026 Yearly: 5.33
+    2027 Yearly: 8.72
+    2028 Yearly: 9.3
+    2029 Yearly: 3.56

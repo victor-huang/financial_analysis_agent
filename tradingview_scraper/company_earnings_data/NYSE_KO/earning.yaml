@@ -1,7 +1,7 @@
 currency: USD
 company_name: Coca-Cola Company (The)
 sector: Consumer Non-Durables
-market_cap_billions: 379.78
+market_cap_billions: 382.49
 revenue:
   quarterly:
     Q4 2024: 11400.0
@@ -25,20 +25,20 @@ revenue:
     Q4 2025: 12050.0
     Q1 2026: 12240.0
     Q2 2026: 13170.0
-    Q3 2026: 12340.0
+    Q3 2026: 12860.0
     Q4 2026: 11000.0
-    Q1 2027: 12190.0
-    Q2 2027: 12960.0
+    Q1 2027: 12110.0
+    Q2 2027: 13170.0
   annual_forecast:
     2021 Yearly: 38130.0
     2022 Yearly: 42830.0
     2023 Yearly: 45480.0
     2024 Yearly: 46200.0
     2025 Yearly: 48270.0
-    2026 Yearly: 49040.0
-    2027 Yearly: 49850.0
-    2028 Yearly: 52370.0
-    2029 Yearly: 53800.0
+    2026 Yearly: 49620.0
+    2027 Yearly: 49910.0
+    2028 Yearly: 52320.0
+    2029 Yearly: 54020.0
 eps:
   quarterly:
     Q4 2024: 0.55
@@ -64,15 +64,15 @@ eps:
     Q2 2026: 0.93
     Q3 2026: 0.88
     Q4 2026: 0.6
-    Q1 2027: 0.89
-    Q2 2027: 0.99
+    Q1 2027: 0.9
+    Q2 2027: 1.03
   annual_forecast:
     2021 Yearly: 2.29
     2022 Yearly: 2.49
     2023 Yearly: 2.69
     2024 Yearly: 2.85
     2025 Yearly: 2.99
-    2026 Yearly: 3.27
-    2027 Yearly: 3.49
-    2028 Yearly: 3.73
-    2029 Yearly: 3.97
+    2026 Yearly: 3.3
+    2027 Yearly: 3.53
+    2028 Yearly: 3.8
+    2029 Yearly: 4.26

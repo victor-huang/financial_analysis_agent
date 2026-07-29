@@ -1,7 +1,7 @@
 currency: USD
 company_name: Armstrong World Industries Inc
 sector: Producer Manufacturing
-market_cap_billions: 7.62
+market_cap_billions: 7.43
 revenue:
   quarterly:
     Q4 2024: 367.7
@@ -25,19 +25,19 @@ revenue:
     Q4 2025: 400.91
     Q1 2026: 409.46
     Q2 2026: 461.67
-    Q3 2026: 470.51
-    Q4 2026: 430.81
-    Q1 2027: 441.41
-    Q2 2027: 495.96
+    Q3 2026: 472.57
+    Q4 2026: 432.24
+    Q1 2027: 441.97
+    Q2 2027: 505.62
   annual_forecast:
     2021 Yearly: 1100.0
     2022 Yearly: 1230.0
     2023 Yearly: 1290.0
     2024 Yearly: 1430.0
     2025 Yearly: 1630.0
-    2026 Yearly: 1770.0
-    2027 Yearly: 1900.0
-    2028 Yearly: 1980.0
+    2026 Yearly: 1790.0
+    2027 Yearly: 1910.0
+    2028 Yearly: 2000.0
 eps:
   quarterly:
     Q4 2024: 1.5
@@ -61,16 +61,16 @@ eps:
     Q4 2025: 1.68
     Q1 2026: 1.81
     Q2 2026: 2.25
-    Q3 2026: 2.38
-    Q4 2026: 1.98
-    Q1 2027: 1.96
-    Q2 2027: 2.54
+    Q3 2026: 2.39
+    Q4 2026: 2.0
+    Q1 2027: 1.97
+    Q2 2027: 2.59
   annual_forecast:
     2021 Yearly: 4.28
     2022 Yearly: 4.78
     2023 Yearly: 5.13
     2024 Yearly: 6.19
     2025 Yearly: 7.48
-    2026 Yearly: 8.32
-    2027 Yearly: 9.41
-    2028 Yearly: 10.14
+    2026 Yearly: 8.44
+    2027 Yearly: 9.54
+    2028 Yearly: 10.47

@@ -1,7 +1,7 @@
 currency: USD
 company_name: Textron Inc.
 sector: Electronic Technology
-market_cap_billions: 15.64
+market_cap_billions: 14.96
 revenue:
   quarterly:
     Q4 2024: 3610.0
@@ -25,20 +25,20 @@ revenue:
     Q4 2025: 4040.0
     Q1 2026: 3500.0
     Q2 2026: 3810.0
-    Q3 2026: 3820.0
-    Q4 2026: 4310.0
+    Q3 2026: 3790.0
+    Q4 2026: 4280.0
     Q1 2027: 3830.0
-    Q2 2027: 4019.9999999999995
+    Q2 2027: 3970.0
   annual_forecast:
     2021 Yearly: 12480.0
     2022 Yearly: 12890.0
     2023 Yearly: 13760.0
     2024 Yearly: 13830.0
     2025 Yearly: 14760.0
-    2026 Yearly: 15610.0
+    2026 Yearly: 15580.0
     2027 Yearly: 16160.0
-    2028 Yearly: 16660.0
-    2029 Yearly: 17290.0
+    2028 Yearly: 16640.0
+    2029 Yearly: 17140.0
 eps:
   quarterly:
     Q4 2024: 1.34
@@ -62,17 +62,17 @@ eps:
     Q4 2025: 1.7
     Q1 2026: 1.3
     Q2 2026: 1.55
-    Q3 2026: 1.64
-    Q4 2026: 1.88
+    Q3 2026: 1.56
+    Q4 2026: 1.86
     Q1 2027: 1.51
-    Q2 2027: 1.74
+    Q2 2027: 1.73
   annual_forecast:
     2021 Yearly: 3.32
     2022 Yearly: 4.01
     2023 Yearly: 5.52
     2024 Yearly: 5.41
     2025 Yearly: 6.13
-    2026 Yearly: 6.52
-    2027 Yearly: 7.28
-    2028 Yearly: 8.05
-    2029 Yearly: 8.35
+    2026 Yearly: 6.47
+    2027 Yearly: 7.24
+    2028 Yearly: 7.97
+    2029 Yearly: 8.31

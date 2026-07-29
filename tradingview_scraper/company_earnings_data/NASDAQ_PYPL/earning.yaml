@@ -1,7 +1,7 @@
 currency: USD
 company_name: PayPal Holdings, Inc.
 sector: Commercial Services
-market_cap_billions: 51.44
+market_cap_billions: 52.11
 revenue:
   quarterly:
     Q4 2024: 8370.0
@@ -25,20 +25,20 @@ revenue:
     Q4 2025: 8790.0
     Q1 2026: 8050.000000000001
     Q2 2026: 8470.0
-    Q3 2026: 8650.0
-    Q4 2026: 8940.0
-    Q1 2027: 8670.0
-    Q2 2027: 8850.0
+    Q3 2026: 8690.0
+    Q4 2026: 8970.0
+    Q1 2027: 8660.0
+    Q2 2027: 8980.0
   annual_forecast:
     2021 Yearly: 25340.0
     2022 Yearly: 27520.0
     2023 Yearly: 29610.0
     2024 Yearly: 31690.0
     2025 Yearly: 33270.0
-    2026 Yearly: 34450.0
-    2027 Yearly: 35850.0
-    2028 Yearly: 37270.0
-    2029 Yearly: 37650.0
+    2026 Yearly: 34630.0
+    2027 Yearly: 36070.0
+    2028 Yearly: 37690.0
+    2029 Yearly: 38810.0
 eps:
   quarterly:
     Q4 2024: 1.19
@@ -62,17 +62,17 @@ eps:
     Q4 2025: 1.29
     Q1 2026: 1.27
     Q2 2026: 1.28
-    Q3 2026: 1.33
-    Q4 2026: 1.36
-    Q1 2027: 1.44
-    Q2 2027: 1.4
+    Q3 2026: 1.32
+    Q4 2026: 1.35
+    Q1 2027: 1.43
+    Q2 2027: 1.45
   annual_forecast:
     2021 Yearly: 4.6
     2022 Yearly: 4.08
     2023 Yearly: 4.98
     2024 Yearly: 4.59
     2025 Yearly: 5.36
-    2026 Yearly: 5.32
-    2027 Yearly: 5.75
-    2028 Yearly: 6.25
-    2029 Yearly: 6.12
+    2026 Yearly: 5.36
+    2027 Yearly: 5.78
+    2028 Yearly: 6.29
+    2029 Yearly: 6.28

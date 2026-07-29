@@ -1,7 +1,7 @@
 currency: USD
 company_name: Rithm Capital Corp.
 sector: Finance
-market_cap_billions: 5.46
+market_cap_billions: 5.56
 revenue:
   quarterly:
     Q4 2024: 2100.0
@@ -25,7 +25,7 @@ revenue:
     Q4 2025: 1370.0
     Q1 2026: 1270.0
     Q2 2026: 1430.0
-    Q3 2026: 1440.0
+    Q3 2026: 1450.0
     Q4 2026: 1720.0
     Q1 2027: 1450.0
     Q2 2027: 1500.0
@@ -35,9 +35,9 @@ revenue:
     2023 Yearly: 3840.0
     2024 Yearly: 4370.0
     2025 Yearly: 4460.0
-    2026 Yearly: 5920.0
-    2027 Yearly: 6320.0
-    2028 Yearly: 7290.0
+    2026 Yearly: 5880.0
+    2027 Yearly: 6300.0
+    2028 Yearly: 6850.0
 eps:
   quarterly:
     Q4 2024: 0.6
@@ -61,10 +61,10 @@ eps:
     Q4 2025: 0.58
     Q1 2026: 0.5
     Q2 2026: 0.5
-    Q3 2026: 0.52
-    Q4 2026: 0.71
-    Q1 2027: 0.51
-    Q2 2027: 0.54
+    Q3 2026: 0.51
+    Q4 2026: 0.7
+    Q1 2027: 0.5
+    Q2 2027: 0.53
   annual_forecast:
     2021 Yearly: 1.49
     2022 Yearly: 1.28
@@ -72,5 +72,5 @@ eps:
     2024 Yearly: 1.92
     2025 Yearly: 2.17
     2026 Yearly: 2.26
-    2027 Yearly: 2.36
-    2028 Yearly: 2.47
+    2027 Yearly: 2.35
+    2028 Yearly: 2.46

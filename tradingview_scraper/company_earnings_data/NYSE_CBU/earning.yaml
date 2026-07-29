@@ -1,7 +1,7 @@
 currency: USD
 company_name: Community Financial System, Inc.
 sector: Finance
-market_cap_billions: 3.4
+market_cap_billions: 3.37
 revenue:
   quarterly:
     Q4 2024: 196.04
@@ -25,18 +25,18 @@ revenue:
     Q4 2025: 212.85
     Q1 2026: 216.36
     Q2 2026: 221.77
-    Q3 2026: 227.77
-    Q4 2026: 231.45
-    Q1 2027: 232.3
-    Q2 2027: 238.21
+    Q3 2026: 227.95
+    Q4 2026: 231.81
+    Q1 2027: 232.74
+    Q2 2027: 238.69
   annual_forecast:
     2021 Yearly: 620.05
     2022 Yearly: 682.56
     2023 Yearly: 693.1
     2024 Yearly: 742.83
     2025 Yearly: 816.71
-    2026 Yearly: 895.29
-    2027 Yearly: 963.53
+    2026 Yearly: 898.22
+    2027 Yearly: 966.76
 eps:
   quarterly:
     Q4 2024: 0.94
@@ -61,14 +61,14 @@ eps:
     Q1 2026: 1.09
     Q2 2026: 1.18
     Q3 2026: 1.24
-    Q4 2026: 1.25
+    Q4 2026: 1.26
     Q1 2027: 1.26
-    Q2 2027: 1.31
+    Q2 2027: 1.29
   annual_forecast:
     2021 Yearly: 3.46
     2022 Yearly: 3.53
     2023 Yearly: 3.43
     2024 Yearly: 3.39
     2025 Yearly: 4.09
-    2026 Yearly: 4.77
-    2027 Yearly: 5.36
+    2026 Yearly: 4.76
+    2027 Yearly: 5.34

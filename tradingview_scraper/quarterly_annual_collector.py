@@ -91,14 +91,15 @@ def resolve_exchange(ticker: str) -> Optional[str]:
         and s.get("country") == "US"
     ]
 
-    if not candidates:
-        return None
-
     # Priority order to try, each verified against the live forecast page:
     # 1. Preferred exchanges the search API actually reported for this ticker
     # 2. Preferred exchanges tried directly, even if the search API reported
-    #    something else entirely (its exchange field doesn't always match
-    #    the page-routing exchange TradingView's URLs use — see PRK)
+    #    something else entirely, or nothing at all for the exact ticker
+    #    (its exchange field doesn't always match the page-routing exchange
+    #    TradingView's URLs use — see PRK; and for a ticker like OXLC, whose
+    #    many preferred-stock/notes variants like OXLCZ crowd it out, search
+    #    can omit the plain common-stock ticker from its results entirely
+    #    even though its forecast page exists)
     # 3. Last resort: whatever other exchange the search API reported. This
     #    is tried last on purpose: a ticker can have a working forecast page
     #    under an obscure alternate-venue code (e.g. "BOATS", Blue Ocean ATS)

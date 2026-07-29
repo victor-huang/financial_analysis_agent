@@ -1,7 +1,7 @@
 currency: USD
 company_name: Corning Incorporated
 sector: Electronic Technology
-market_cap_billions: 108.45
+market_cap_billions: 108.8
 revenue:
   quarterly:
     Q4 2024: 3870.0
@@ -26,19 +26,19 @@ revenue:
     Q1 2026: 4300.0
     Q2 2026: 4630.0
     Q3 2026: 4980.0
-    Q4 2026: 5080.0
-    Q1 2027: 5060.0
-    Q2 2027: 5350.0
+    Q4 2026: 5120.0
+    Q1 2027: 5110.0
+    Q2 2027: 5410.0
   annual_forecast:
     2021 Yearly: 14000.0
     2022 Yearly: 14710.0
     2023 Yearly: 13560.0
     2024 Yearly: 14360.0
     2025 Yearly: 16360.0
-    2026 Yearly: 19100.0
-    2027 Yearly: 22700.0
-    2028 Yearly: 27800.0
-    2029 Yearly: 30730.0
+    2026 Yearly: 19240.0
+    2027 Yearly: 22820.0
+    2028 Yearly: 27540.0
+    2029 Yearly: 30980.0
 eps:
   quarterly:
     Q4 2024: 0.57
@@ -62,17 +62,17 @@ eps:
     Q4 2025: 0.71
     Q1 2026: 0.69
     Q2 2026: 0.76
-    Q3 2026: 0.85
-    Q4 2026: 0.88
-    Q1 2027: 0.89
-    Q2 2027: 0.99
+    Q3 2026: 0.87
+    Q4 2026: 0.91
+    Q1 2027: 0.9
+    Q2 2027: 1.01
   annual_forecast:
     2021 Yearly: 2.06
     2022 Yearly: 2.07
     2023 Yearly: 1.7
     2024 Yearly: 1.95
     2025 Yearly: 2.52
-    2026 Yearly: 3.2
-    2027 Yearly: 4.26
-    2028 Yearly: 5.85
+    2026 Yearly: 3.26
+    2027 Yearly: 4.31
+    2028 Yearly: 5.84
     2029 Yearly: 6.4

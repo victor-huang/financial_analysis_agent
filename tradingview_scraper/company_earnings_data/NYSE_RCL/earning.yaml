@@ -1,7 +1,7 @@
 currency: USD
 company_name: Royal Caribbean Cruises Ltd.
 sector: Consumer Services
-market_cap_billions: 86.49
+market_cap_billions: 87.34
 revenue:
   quarterly:
     Q4 2024: 3760.0
@@ -25,10 +25,10 @@ revenue:
     Q4 2025: 4260.0
     Q1 2026: 4460.0
     Q2 2026: 4820.0
-    Q3 2026: 5620.0
-    Q4 2026: 4660.0
+    Q3 2026: 5600.0
+    Q4 2026: 4670.0
     Q1 2027: 4770.0
-    Q2 2027: 5260.0
+    Q2 2027: 5250.0
   annual_forecast:
     2021 Yearly: 1630.0
     2022 Yearly: 8850.0
@@ -36,9 +36,9 @@ revenue:
     2024 Yearly: 16490.0
     2025 Yearly: 17940.0
     2026 Yearly: 19550.0
-    2027 Yearly: 20980.0
+    2027 Yearly: 20960.0
     2028 Yearly: 22820.0
-    2029 Yearly: 24590.0
+    2029 Yearly: 24550.0
 eps:
   quarterly:
     Q4 2024: 1.63
@@ -62,17 +62,17 @@ eps:
     Q4 2025: 2.8
     Q1 2026: 3.24
     Q2 2026: 3.98
-    Q3 2026: 6.26
-    Q4 2026: 3.48
-    Q1 2027: 3.88
-    Q2 2027: 4.87
+    Q3 2026: 6.33
+    Q4 2026: 3.62
+    Q1 2027: 3.9
+    Q2 2027: 4.97
   annual_forecast:
     2021 Yearly: -18.18
     2022 Yearly: -7.74
     2023 Yearly: 6.63
     2024 Yearly: 11.69
     2025 Yearly: 15.65
-    2026 Yearly: 17.35
-    2027 Yearly: 19.95
-    2028 Yearly: 22.72
-    2029 Yearly: 25.43
+    2026 Yearly: 17.66
+    2027 Yearly: 20.19
+    2028 Yearly: 23.01
+    2029 Yearly: 25.38

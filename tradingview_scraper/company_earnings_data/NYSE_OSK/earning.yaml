@@ -1,7 +1,7 @@
 currency: USD
 company_name: Oshkosh Corporation (Holding Company)
 sector: Consumer Durables
-market_cap_billions: 9.51
+market_cap_billions: 8.91
 revenue:
   quarterly:
     Q4 2024: 2620.0
@@ -24,20 +24,20 @@ revenue:
     Q3 2025: 2840.0
     Q4 2025: 2600.0
     Q1 2026: 2290.0
-    Q2 2026: 2790.0
-    Q3 2026: 2930.0
-    Q4 2026: 2920.0
-    Q1 2027: 2470.0
-    Q2 2027: 3070.0
+    Q2 2026: 2800.0
+    Q3 2026: 2950.0
+    Q4 2026: 2980.0
+    Q1 2027: 2560.0
+    Q2 2027: 3120.0
   annual_forecast:
     2021 Yearly: 7740.0
     2022 Yearly: 8270.0
     2023 Yearly: 9650.0
     2024 Yearly: 10540.0
     2025 Yearly: 10310.0
-    2026 Yearly: 10960.0
-    2027 Yearly: 11740.0
-    2028 Yearly: 12370.0
+    2026 Yearly: 11130.0
+    2027 Yearly: 11960.0
+    2028 Yearly: 12550.0
 eps:
   quarterly:
     Q4 2024: 2.58
@@ -60,17 +60,17 @@ eps:
     Q3 2025: 3.1
     Q4 2025: 2.31
     Q1 2026: 1.04
-    Q2 2026: 2.61
-    Q3 2026: 3.69
-    Q4 2026: 3.65
-    Q1 2027: 2.12
-    Q2 2027: 3.92
+    Q2 2026: 2.63
+    Q3 2026: 3.31
+    Q4 2026: 3.78
+    Q1 2027: 2.18
+    Q2 2027: 3.82
   annual_forecast:
     2021 Yearly: 5.69
     2022 Yearly: 3.47
     2023 Yearly: 9.6
     2024 Yearly: 11.33
     2025 Yearly: 10.84
-    2026 Yearly: 10.81
-    2027 Yearly: 13.94
-    2028 Yearly: 16.27
+    2026 Yearly: 10.74
+    2027 Yearly: 13.97
+    2028 Yearly: 16.53

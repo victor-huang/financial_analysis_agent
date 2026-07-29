@@ -1,7 +1,7 @@
 currency: USD
 company_name: Axalta Coating Systems Ltd.
 sector: Process Industries
-market_cap_billions: 7.58
+market_cap_billions: 7.46
 revenue:
   quarterly:
     Q4 2024: 1310.0
@@ -25,19 +25,19 @@ revenue:
     Q4 2025: 1270.0
     Q1 2026: 1210.0
     Q2 2026: 1310.0
-    Q3 2026: 1340.0
-    Q4 2026: 1320.0
+    Q3 2026: 1330.0
+    Q4 2026: 1310.0
     Q1 2027: 1310.0
-    Q2 2027: 1360.0
+    Q2 2027: 1390.0
   annual_forecast:
     2021 Yearly: 4420.0
     2022 Yearly: 4870.0
     2023 Yearly: 5170.0
     2024 Yearly: 5270.0
     2025 Yearly: 5120.0
-    2026 Yearly: 5220.0
-    2027 Yearly: 5400.0
-    2028 Yearly: 5540.0
+    2026 Yearly: 5240.0
+    2027 Yearly: 5410.0
+    2028 Yearly: 5550.0
     2029 Yearly: 5540.0
 eps:
   quarterly:
@@ -65,14 +65,14 @@ eps:
     Q3 2026: 0.72
     Q4 2026: 0.67
     Q1 2027: 0.6
-    Q2 2027: 0.72
+    Q2 2027: 0.76
   annual_forecast:
     2021 Yearly: 1.68
     2022 Yearly: 1.45
     2023 Yearly: 1.59
     2024 Yearly: 2.15
     2025 Yearly: 2.49
-    2026 Yearly: 2.61
-    2027 Yearly: 2.83
-    2028 Yearly: 3.06
+    2026 Yearly: 2.65
+    2027 Yearly: 2.86
+    2028 Yearly: 3.08
     2029 Yearly: 3.47

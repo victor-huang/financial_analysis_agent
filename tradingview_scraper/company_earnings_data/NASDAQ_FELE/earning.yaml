@@ -1,7 +1,7 @@
 currency: USD
 company_name: Franklin Electric Co., Inc.
 sector: Producer Manufacturing
-market_cap_billions: 4.85
+market_cap_billions: 4.65
 revenue:
   quarterly:
     Q4 2024: 485.75
@@ -25,18 +25,18 @@ revenue:
     Q4 2025: 516.17
     Q1 2026: 479.21
     Q2 2026: 605.92
-    Q3 2026: 602.76
-    Q4 2026: 527.37
-    Q1 2027: 527.4
-    Q2 2027: 635.8
+    Q3 2026: 605.52
+    Q4 2026: 528.57
+    Q1 2027: 530.9
+    Q2 2027: 644.76
   annual_forecast:
     2021 Yearly: 1620.0
     2022 Yearly: 2029.9999999999998
     2023 Yearly: 2080.0
     2024 Yearly: 2000.0
     2025 Yearly: 2140.0
-    2026 Yearly: 2240.0
-    2027 Yearly: 2340.0
+    2026 Yearly: 2250.0
+    2027 Yearly: 2350.0
 eps:
   quarterly:
     Q4 2024: 0.72
@@ -61,14 +61,14 @@ eps:
     Q1 2026: 0.75
     Q2 2026: 1.44
     Q3 2026: 1.43
-    Q4 2026: 0.91
+    Q4 2026: 0.9
     Q1 2027: 0.95
-    Q2 2027: 1.57
+    Q2 2027: 1.59
   annual_forecast:
     2021 Yearly: 3.04
     2022 Yearly: 4.08
     2023 Yearly: 4.13
     2024 Yearly: 3.79
     2025 Yearly: 4.16
-    2026 Yearly: 4.59
-    2027 Yearly: 5.12
+    2026 Yearly: 4.61
+    2027 Yearly: 5.13

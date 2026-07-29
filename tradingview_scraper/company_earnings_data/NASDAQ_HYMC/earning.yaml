@@ -1,15 +1,17 @@
 currency: USD
 company_name: Hycroft Mining Holding Corporation
 sector: Non-Energy Minerals
-market_cap_billions: 1.84
+market_cap_billions: 1.78
 revenue:
   quarterly:
+    Q4 2024: 3.47
     Q4 2025: 3.47
   annual:
     2021 Yearly: 105.7
     2022 Yearly: 33.23
     2024 Yearly: 14.0
-  quarterly_forecast: {}
+  quarterly_forecast:
+    Q2 2027: 1.04
   annual_forecast:
     2021 Yearly: 98.1
     2022 Yearly: 23.0
@@ -47,6 +49,7 @@ eps:
     Q3 2026: -0.17
     Q4 2026: -0.18
     Q1 2027: -0.22
+    Q2 2027: -0.16
   annual_forecast:
     2021 Yearly: -11.7
     2022 Yearly: -2.8

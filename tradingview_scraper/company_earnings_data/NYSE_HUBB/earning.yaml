@@ -1,7 +1,7 @@
 currency: USD
 company_name: Hubbell Inc
 sector: Producer Manufacturing
-market_cap_billions: 25.56
+market_cap_billions: 24.35
 revenue:
   quarterly:
     Q4 2024: 1330.0
@@ -25,19 +25,19 @@ revenue:
     Q4 2025: 1490.0
     Q1 2026: 1500.0
     Q2 2026: 1660.0
-    Q3 2026: 1730.0
-    Q4 2026: 1670.0
-    Q1 2027: 1680.0
-    Q2 2027: 1820.0
+    Q3 2026: 1810.0
+    Q4 2026: 1750.0
+    Q1 2027: 1740.0
+    Q2 2027: 1890.0
   annual_forecast:
     2021 Yearly: 4700.0
     2022 Yearly: 4970.0
     2023 Yearly: 5350.0
     2024 Yearly: 5710.0
     2025 Yearly: 5840.0
-    2026 Yearly: 6590.0
-    2027 Yearly: 7120.0
-    2028 Yearly: 7520.0
+    2026 Yearly: 6720.0
+    2027 Yearly: 7300.0
+    2028 Yearly: 7780.0
 eps:
   quarterly:
     Q4 2024: 4.1
@@ -61,16 +61,16 @@ eps:
     Q4 2025: 4.71
     Q1 2026: 3.87
     Q2 2026: 5.39
-    Q3 2026: 5.53
-    Q4 2026: 5.05
-    Q1 2027: 4.47
-    Q2 2027: 5.98
+    Q3 2026: 5.66
+    Q4 2026: 5.21
+    Q1 2027: 4.53
+    Q2 2027: 6.03
   annual_forecast:
     2021 Yearly: 8.4
     2022 Yearly: 10.41
     2023 Yearly: 15.2
     2024 Yearly: 16.47
     2025 Yearly: 18.19
-    2026 Yearly: 19.89
-    2027 Yearly: 22.19
-    2028 Yearly: 24.3
+    2026 Yearly: 20.28
+    2027 Yearly: 22.57
+    2028 Yearly: 24.9

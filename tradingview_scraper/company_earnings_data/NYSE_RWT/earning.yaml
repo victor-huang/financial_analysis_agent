@@ -1,7 +1,7 @@
 currency: USD
 company_name: Redwood Trust, Inc.
 sector: Finance
-market_cap_billions: 0.58476
+market_cap_billions: 0.58413
 revenue:
   quarterly:
     Q4 2024: 45.2
@@ -25,8 +25,8 @@ revenue:
     Q4 2025: 76.47
     Q1 2026: 87.01
     Q2 2026: 89.45
-    Q3 2026: 97.83
-    Q4 2026: 97.15
+    Q3 2026: 95.5
+    Q4 2026: 93.83
     Q1 2027: 93.27
     Q2 2027: 99.31
   annual_forecast:
@@ -35,8 +35,8 @@ revenue:
     2023 Yearly: 175.01
     2024 Yearly: 266.35
     2025 Yearly: 264.94
-    2026 Yearly: 345.65
-    2027 Yearly: 407.91
+    2026 Yearly: 324.22
+    2027 Yearly: 401.92
     2028 Yearly: 441.76
 eps:
   quarterly:
@@ -62,7 +62,7 @@ eps:
     Q1 2026: 0.21
     Q2 2026: 0.23
     Q3 2026: 0.23
-    Q4 2026: 0.23
+    Q4 2026: 0.22
     Q1 2027: 0.21
     Q2 2027: 0.25
   annual_forecast:
@@ -71,6 +71,6 @@ eps:
     2023 Yearly: -0.1
     2024 Yearly: 0.5
     2025 Yearly: -0.31
-    2026 Yearly: 0.93
+    2026 Yearly: 0.92
     2027 Yearly: 1.02
     2028 Yearly: 1.1

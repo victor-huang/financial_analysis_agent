@@ -100,6 +100,22 @@ class TestResolveExchange:
         ):
             assert resolve_exchange("PRK") is None
 
+    def test_falls_back_to_preferred_exchanges_when_search_omits_exact_ticker(self):
+        """Regression test for OXLC: the search API returned only its preferred-stock
+        and notes variants (OXLCZ, OXLCM, ...), never the plain common-stock ticker
+        itself, even though NASDAQ-OXLC's forecast page genuinely exists. An empty
+        exact-match candidate list must not short-circuit to None before trying
+        well-known exchanges directly."""
+        symbols = [
+            {"symbol": "OXLCZ", "exchange": "NASDAQ", "country": "US"},
+            {"symbol": "OXLCM", "exchange": "NASDAQ", "country": "US"},
+        ]
+        with patch(
+            "quarterly_annual_collector.requests.get",
+            side_effect=_mock_requests_get(symbols, working_exchanges={"NASDAQ"}),
+        ):
+            assert resolve_exchange("OXLC") == "NASDAQ"
+
 
 class TestTransformFinancialDataForecastRetention:
     """TradingView shows the original analyst estimate alongside the reported value

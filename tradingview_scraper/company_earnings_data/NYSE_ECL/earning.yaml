@@ -1,7 +1,7 @@
 currency: USD
 company_name: Ecolab Inc.
 sector: Process Industries
-market_cap_billions: 79.62
+market_cap_billions: 79.27
 revenue:
   quarterly:
     Q4 2024: 4010.0
@@ -28,16 +28,16 @@ revenue:
     Q3 2026: 4700.0
     Q4 2026: 4740.0
     Q1 2027: 4480.0
-    Q2 2027: 4790.0
+    Q2 2027: 4820.0
   annual_forecast:
     2021 Yearly: 12730.0
     2022 Yearly: 14220.0
     2023 Yearly: 15330.0
     2024 Yearly: 15740.0
     2025 Yearly: 16059.999999999998
-    2026 Yearly: 17850.0
-    2027 Yearly: 19170.0
-    2028 Yearly: 20270.0
+    2026 Yearly: 17880.0
+    2027 Yearly: 19230.0
+    2028 Yearly: 20410.0
 eps:
   quarterly:
     Q4 2024: 1.81
@@ -61,16 +61,16 @@ eps:
     Q4 2025: 2.07
     Q1 2026: 1.7
     Q2 2026: 2.08
-    Q3 2026: 2.18
-    Q4 2026: 2.2
-    Q1 2027: 1.9
-    Q2 2027: 2.33
+    Q3 2026: 2.19
+    Q4 2026: 2.21
+    Q1 2027: 1.92
+    Q2 2027: 2.34
   annual_forecast:
     2021 Yearly: 4.73
     2022 Yearly: 4.47
     2023 Yearly: 5.19
     2024 Yearly: 6.65
     2025 Yearly: 7.53
-    2026 Yearly: 8.18
-    2027 Yearly: 9.37
-    2028 Yearly: 10.71
+    2026 Yearly: 8.2
+    2027 Yearly: 9.42
+    2028 Yearly: 10.72

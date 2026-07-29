@@ -1,7 +1,7 @@
 currency: USD
 company_name: United Parcel Service, Inc.
 sector: Transportation
-market_cap_billions: 89.7
+market_cap_billions: 89.06
 revenue:
   quarterly:
     Q4 2024: 25300.0
@@ -25,20 +25,20 @@ revenue:
     Q4 2025: 24010.0
     Q1 2026: 20990.0
     Q2 2026: 21860.0
-    Q3 2026: 22090.0
-    Q4 2026: 25370.0
-    Q1 2027: 22330.0
-    Q2 2027: 22770.0
+    Q3 2026: 22160.0
+    Q4 2026: 25360.0
+    Q1 2027: 22140.0
+    Q2 2027: 23450.0
   annual_forecast:
     2021 Yearly: 96580.0
     2022 Yearly: 101360.0
     2023 Yearly: 91540.0
     2024 Yearly: 91190.0
     2025 Yearly: 88190.0
-    2026 Yearly: 90590.0
-    2027 Yearly: 94200.0
-    2028 Yearly: 96800.0
-    2029 Yearly: 102200.0
+    2026 Yearly: 91300.0
+    2027 Yearly: 94900.0
+    2028 Yearly: 97850.0
+    2029 Yearly: 102560.0
 eps:
   quarterly:
     Q4 2024: 2.75
@@ -62,17 +62,17 @@ eps:
     Q4 2025: 2.2
     Q1 2026: 1.02
     Q2 2026: 1.66
-    Q3 2026: 1.72
-    Q4 2026: 2.67
-    Q1 2027: 1.54
-    Q2 2027: 1.87
+    Q3 2026: 1.65
+    Q4 2026: 2.74
+    Q1 2027: 1.48
+    Q2 2027: 1.93
   annual_forecast:
     2021 Yearly: 11.63
     2022 Yearly: 12.9
     2023 Yearly: 8.78
     2024 Yearly: 7.5
     2025 Yearly: 6.91
-    2026 Yearly: 7.11
-    2027 Yearly: 7.95
-    2028 Yearly: 8.56
-    2029 Yearly: 10.1
+    2026 Yearly: 7.18
+    2027 Yearly: 8.03
+    2028 Yearly: 8.65
+    2029 Yearly: 10.18

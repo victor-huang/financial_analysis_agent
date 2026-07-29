@@ -1,7 +1,7 @@
 currency: USD
 company_name: AllianceBernstein Holding L.P.
 sector: Finance
-market_cap_billions: 3.49
+market_cap_billions: 3.48
 revenue:
   quarterly:
     Q4 2024: 973.29
@@ -25,19 +25,19 @@ revenue:
     Q4 2025: 956.06
     Q1 2026: 894.7
     Q2 2026: 907.67
-    Q3 2026: 939.01
-    Q4 2026: 1020.0
-    Q1 2027: 1390.0
-    Q2 2027: 989.75
+    Q3 2026: 926.77
+    Q4 2026: 1010.0
+    Q1 2027: 1240.0
+    Q2 2027: 971.32
   annual_forecast:
     2021 Yearly: 3710.0
     2022 Yearly: 3600.0
     2023 Yearly: 3360.0
     2024 Yearly: 3450.0
     2025 Yearly: 3520.0
-    2026 Yearly: 3740.0
-    2027 Yearly: 4040.0
-    2028 Yearly: 4350.0
+    2026 Yearly: 3700.0
+    2027 Yearly: 3980.0
+    2028 Yearly: 4190.0
 eps:
   quarterly:
     Q4 2024: 1.05
@@ -61,16 +61,16 @@ eps:
     Q4 2025: 0.92
     Q1 2026: 0.83
     Q2 2026: 0.83
-    Q3 2026: 0.89
+    Q3 2026: 0.87
     Q4 2026: 0.97
-    Q1 2027: 0.91
-    Q2 2027: 0.92
+    Q1 2027: 0.9
+    Q2 2027: 0.93
   annual_forecast:
     2021 Yearly: 3.61
     2022 Yearly: 2.81
     2023 Yearly: 2.56
     2024 Yearly: 3.06
     2025 Yearly: 3.33
-    2026 Yearly: 3.51
-    2027 Yearly: 3.92
-    2028 Yearly: 4.39
+    2026 Yearly: 3.49
+    2027 Yearly: 3.89
+    2028 Yearly: 4.19
