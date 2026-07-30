@@ -1,4 +1,4 @@
-currency: null
+currency: USD
 company_name: OFS Capital Corporation
 sector: Miscellaneous
 market_cap_billions: 0.04408
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 10.55
     Q4 2025: 9.37
     Q1 2026: 8.9
+    Q2 2026: 6.84
   annual:
     2021 Yearly: 47.76
     2022 Yearly: 48.74
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 7.82
     Q4 2026: 7.68
     Q1 2027: 7.4
+    Q2 2027: 7.34
   annual_forecast:
     2021 Yearly: 43.67
     2022 Yearly: 48.82
@@ -46,6 +48,7 @@ eps:
     Q3 2025: 0.22
     Q4 2025: 0.2
     Q1 2026: 0.18
+    Q2 2026: 0.08
   annual:
     2021 Yearly: 1.0
     2022 Yearly: 1.37
@@ -64,6 +67,7 @@ eps:
     Q3 2026: 0.14
     Q4 2026: 0.14
     Q1 2027: 0.13
+    Q2 2027: 0.13
   annual_forecast:
     2021 Yearly: 0.92
     2022 Yearly: 1.37

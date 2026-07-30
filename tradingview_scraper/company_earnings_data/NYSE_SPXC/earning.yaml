@@ -1,7 +1,7 @@
 currency: USD
 company_name: SPX Technologies, Inc.
 sector: Producer Manufacturing
-market_cap_billions: 9.39
+market_cap_billions: 9.98
 revenue:
   quarterly:
     Q3 2024: 483.7
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 592.8
     Q4 2025: 637.3
     Q1 2026: 566.8
+    Q2 2026: 679.0
   annual:
     2021 Yearly: 1220.0
     2022 Yearly: 1460.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 672.3
     Q4 2026: 736.38
     Q1 2027: 625.1
+    Q2 2027: 695.97
   annual_forecast:
     2021 Yearly: 1250.0
     2022 Yearly: 1450.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 1.84
     Q4 2025: 1.88
     Q1 2026: 1.69
+    Q2 2026: 2.02
   annual:
     2021 Yearly: 2.33
     2022 Yearly: 3.1
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 2.11
     Q4 2026: 2.36
     Q1 2027: 1.92
+    Q2 2027: 2.21
   annual_forecast:
     2021 Yearly: 2.25
     2022 Yearly: 2.91
