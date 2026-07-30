@@ -1,0 +1,67 @@
+currency: USD
+company_name: Gran Tierra Energy Inc.
+sector: Energy Minerals
+market_cap_billions: 0.23656
+revenue:
+  quarterly:
+    Q3 2024: 151.37
+    Q4 2024: 147.29
+    Q1 2025: 170.53
+    Q2 2025: 118.19
+    Q3 2025: 149.25
+    Q4 2025: 129.93
+    Q1 2026: 172.06
+  annual:
+    2021 Yearly: 473.72
+    2022 Yearly: 711.39
+    2023 Yearly: 636.96
+    2024 Yearly: 621.85
+    2025 Yearly: 596.71
+  quarterly_forecast:
+    Q2 2026: 153.0
+    Q3 2026: 150.0
+    Q4 2026: 157.0
+  annual_forecast:
+    2021 Yearly: 467.0
+    2022 Yearly: 809.0
+    2023 Yearly: 636.96
+    2024 Yearly: 674.0
+    2025 Yearly: 628.9
+    2026 Yearly: 679.97
+    2027 Yearly: 736.24
+    2028 Yearly: 793.49
+    2029 Yearly: 765.68
+eps:
+  quarterly:
+    Q3 2024: 0.04
+    Q4 2024: -1.04
+    Q1 2025: -0.54
+    Q2 2025: -0.36
+    Q3 2025: -0.57
+    Q4 2025: -4.0
+    Q1 2026: -3.38
+  annual:
+    2021 Yearly: 1.2
+    2022 Yearly: 3.8
+    2023 Yearly: -0.19
+    2024 Yearly: 0.1
+    2025 Yearly: -5.45
+  quarterly_forecast:
+    Q3 2024: -0.29
+    Q4 2024: -0.43
+    Q4 2025: -0.13
+    Q1 2026: -1.32
+    Q2 2026: 0.56
+    Q3 2026: 0.16
+    Q4 2026: 0.2
+    Q1 2027: 0.27
+  annual_forecast:
+    2021 Yearly: 0.69
+    2022 Yearly: 4.75
+    2023 Yearly: 0.67
+    2024 Yearly: 1.46
+    2025 Yearly: -1.24
+    2026 Yearly: -0.75
+    2027 Yearly: 1.16
+    2028 Yearly: 1.36
+    2029 Yearly: -0.38

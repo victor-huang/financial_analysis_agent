@@ -1,0 +1,78 @@
+currency: USD
+company_name: SPX Technologies, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 9.39
+revenue:
+  quarterly:
+    Q3 2024: 483.7
+    Q4 2024: 533.7
+    Q1 2025: 482.6
+    Q2 2025: 552.4
+    Q3 2025: 592.8
+    Q4 2025: 637.3
+    Q1 2026: 566.8
+  annual:
+    2021 Yearly: 1220.0
+    2022 Yearly: 1460.0
+    2023 Yearly: 1740.0
+    2024 Yearly: 1980.0
+    2025 Yearly: 2270.0
+  quarterly_forecast:
+    Q3 2024: 488.94
+    Q4 2024: 532.66
+    Q1 2025: 481.96
+    Q2 2025: 546.69
+    Q3 2025: 577.76
+    Q4 2025: 625.98
+    Q1 2026: 557.62
+    Q2 2026: 640.18
+    Q3 2026: 672.3
+    Q4 2026: 736.38
+    Q1 2027: 625.1
+  annual_forecast:
+    2021 Yearly: 1250.0
+    2022 Yearly: 1450.0
+    2023 Yearly: 1750.0
+    2024 Yearly: 1980.0
+    2025 Yearly: 2250.0
+    2026 Yearly: 2620.0
+    2027 Yearly: 2850.0
+    2028 Yearly: 3090.0
+    2029 Yearly: 2820.0
+eps:
+  quarterly:
+    Q3 2024: 1.39
+    Q4 2024: 1.51
+    Q1 2025: 1.38
+    Q2 2025: 1.65
+    Q3 2025: 1.84
+    Q4 2025: 1.88
+    Q1 2026: 1.69
+  annual:
+    2021 Yearly: 2.33
+    2022 Yearly: 3.1
+    2023 Yearly: 4.31
+    2024 Yearly: 5.58
+    2025 Yearly: 6.76
+  quarterly_forecast:
+    Q3 2024: 1.38
+    Q4 2024: 1.51
+    Q1 2025: 1.17
+    Q2 2025: 1.45
+    Q3 2025: 1.61
+    Q4 2025: 1.87
+    Q1 2026: 1.56
+    Q2 2026: 1.85
+    Q3 2026: 2.11
+    Q4 2026: 2.36
+    Q1 2027: 1.92
+  annual_forecast:
+    2021 Yearly: 2.25
+    2022 Yearly: 2.91
+    2023 Yearly: 4.31
+    2024 Yearly: 5.57
+    2025 Yearly: 6.74
+    2026 Yearly: 8.04
+    2027 Yearly: 9.1
+    2028 Yearly: 10.07
+    2029 Yearly: 9.58

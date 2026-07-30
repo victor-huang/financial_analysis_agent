@@ -1,0 +1,74 @@
+currency: USD
+company_name: Great Elm Capital Corp.
+sector: Miscellaneous
+market_cap_billions: 0.0721
+revenue:
+  quarterly:
+    Q3 2024: 11.73
+    Q4 2024: 9.1
+    Q1 2025: 12.49
+    Q2 2025: 14.28
+    Q3 2025: 10.64
+    Q4 2025: 12.6
+    Q1 2026: 9.54
+  annual:
+    2021 Yearly: 25.25
+    2022 Yearly: 24.43
+    2023 Yearly: 35.83
+    2024 Yearly: 39.32
+    2025 Yearly: 49.99
+  quarterly_forecast:
+    Q3 2024: 11.02
+    Q4 2024: 11.14
+    Q1 2025: 12.11
+    Q2 2025: 13.51
+    Q3 2025: 10.59
+    Q4 2025: 13.08
+    Q1 2026: 10.74
+    Q2 2026: 11.32
+    Q3 2026: 10.07
+    Q4 2026: 10.27
+    Q1 2027: 10.1
+  annual_forecast:
+    2021 Yearly: 26.68
+    2022 Yearly: 23.39
+    2023 Yearly: 35.73
+    2024 Yearly: 41.33
+    2025 Yearly: 50.48
+    2026 Yearly: 41.17
+    2027 Yearly: 43.02
+eps:
+  quarterly:
+    Q3 2024: 0.39
+    Q4 2024: 0.2
+    Q1 2025: 0.4
+    Q2 2025: 0.51
+    Q3 2025: 0.2
+    Q4 2025: 0.31
+    Q1 2026: 0.36
+  annual:
+    2021 Yearly: 3.02
+    2022 Yearly: 1.67
+    2023 Yearly: 1.65
+    2024 Yearly: 1.27
+    2025 Yearly: 1.42
+  quarterly_forecast:
+    Q3 2024: 0.36
+    Q4 2024: 0.35
+    Q1 2025: 0.39
+    Q2 2025: 0.43
+    Q3 2025: 0.25
+    Q4 2025: 0.34
+    Q1 2026: 0.32
+    Q2 2026: 0.35
+    Q3 2026: 0.2
+    Q4 2026: 0.21
+    Q1 2027: 0.22
+  annual_forecast:
+    2021 Yearly: 1.89
+    2022 Yearly: 1.81
+    2023 Yearly: 1.67
+    2024 Yearly: 1.43
+    2025 Yearly: 1.45
+    2026 Yearly: 1.13
+    2027 Yearly: 1.02

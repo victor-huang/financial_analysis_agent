@@ -1,0 +1,78 @@
+currency: USD
+company_name: Stryker Corporation
+sector: Health Technology
+market_cap_billions: 133.42
+revenue:
+  quarterly:
+    Q3 2024: 5490.0
+    Q4 2024: 6440.0
+    Q1 2025: 5870.0
+    Q2 2025: 6020.0
+    Q3 2025: 6060.0
+    Q4 2025: 7170.0
+    Q1 2026: 6020.0
+  annual:
+    2021 Yearly: 17110.0
+    2022 Yearly: 18450.0
+    2023 Yearly: 20500.0
+    2024 Yearly: 22590.0
+    2025 Yearly: 25120.0
+  quarterly_forecast:
+    Q3 2024: 5370.0
+    Q4 2024: 6360.0
+    Q1 2025: 5690.0
+    Q2 2025: 5940.0
+    Q3 2025: 6040.0
+    Q4 2025: 7120.0
+    Q1 2026: 6340.0
+    Q2 2026: 6580.0
+    Q3 2026: 6720.0
+    Q4 2026: 7950.0
+    Q1 2027: 6710.0
+  annual_forecast:
+    2021 Yearly: 17060.0
+    2022 Yearly: 18210.0
+    2023 Yearly: 20280.0
+    2024 Yearly: 22520.0
+    2025 Yearly: 25070.0
+    2026 Yearly: 27260.0
+    2027 Yearly: 29600.0
+    2028 Yearly: 32020.000000000004
+    2029 Yearly: 34950.0
+eps:
+  quarterly:
+    Q3 2024: 2.87
+    Q4 2024: 4.01
+    Q1 2025: 2.84
+    Q2 2025: 3.13
+    Q3 2025: 3.19
+    Q4 2025: 4.47
+    Q1 2026: 2.6
+  annual:
+    2021 Yearly: 9.09
+    2022 Yearly: 9.34
+    2023 Yearly: 10.6
+    2024 Yearly: 12.19
+    2025 Yearly: 13.63
+  quarterly_forecast:
+    Q3 2024: 2.77
+    Q4 2024: 3.87
+    Q1 2025: 2.71
+    Q2 2025: 3.07
+    Q3 2025: 3.13
+    Q4 2025: 4.4
+    Q1 2026: 2.98
+    Q2 2026: 3.49
+    Q3 2026: 3.68
+    Q4 2026: 5.18
+    Q1 2027: 3.36
+  annual_forecast:
+    2021 Yearly: 9.11
+    2022 Yearly: 9.18
+    2023 Yearly: 10.41
+    2024 Yearly: 12.05
+    2025 Yearly: 13.56
+    2026 Yearly: 14.97
+    2027 Yearly: 16.73
+    2028 Yearly: 18.63
+    2029 Yearly: 20.83

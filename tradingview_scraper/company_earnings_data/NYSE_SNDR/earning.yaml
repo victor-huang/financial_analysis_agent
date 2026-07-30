@@ -1,0 +1,76 @@
+currency: USD
+company_name: Schneider National, Inc.
+sector: Transportation
+market_cap_billions: 5.98
+revenue:
+  quarterly:
+    Q3 2024: 1320.0
+    Q4 2024: 1340.0
+    Q1 2025: 1400.0
+    Q2 2025: 1420.0
+    Q3 2025: 1450.0
+    Q4 2025: 1400.0
+    Q1 2026: 1400.0
+  annual:
+    2021 Yearly: 5610.0
+    2022 Yearly: 6600.0
+    2023 Yearly: 5500.0
+    2024 Yearly: 5290.0
+    2025 Yearly: 5670.0
+  quarterly_forecast:
+    Q3 2024: 1330.0
+    Q4 2024: 1360.0
+    Q1 2025: 1410.0
+    Q2 2025: 1410.0
+    Q3 2025: 1430.0
+    Q4 2025: 1450.0
+    Q1 2026: 1420.0
+    Q2 2026: 1520.0
+    Q3 2026: 1550.0
+    Q4 2026: 1540.0
+    Q1 2027: 1520.0
+  annual_forecast:
+    2021 Yearly: 5550.0
+    2022 Yearly: 6700.0
+    2023 Yearly: 5480.0
+    2024 Yearly: 5310.0
+    2025 Yearly: 5730.0
+    2026 Yearly: 6010.0
+    2027 Yearly: 6410.0
+    2028 Yearly: 6670.0
+eps:
+  quarterly:
+    Q3 2024: 0.18
+    Q4 2024: 0.2
+    Q1 2025: 0.16
+    Q2 2025: 0.21
+    Q3 2025: 0.12
+    Q4 2025: 0.13
+    Q1 2026: 0.12
+  annual:
+    2021 Yearly: 2.29
+    2022 Yearly: 2.64
+    2023 Yearly: 1.37
+    2024 Yearly: 0.69
+    2025 Yearly: 0.63
+  quarterly_forecast:
+    Q3 2024: 0.23
+    Q4 2024: 0.2
+    Q1 2025: 0.14
+    Q2 2025: 0.2
+    Q3 2025: 0.21
+    Q4 2025: 0.2
+    Q1 2026: 0.1
+    Q2 2026: 0.23
+    Q3 2026: 0.27
+    Q4 2026: 0.33
+    Q1 2027: 0.26
+  annual_forecast:
+    2021 Yearly: 2.16
+    2022 Yearly: 2.59
+    2023 Yearly: 1.4
+    2024 Yearly: 0.69
+    2025 Yearly: 0.7
+    2026 Yearly: 0.96
+    2027 Yearly: 1.64
+    2028 Yearly: 2.27

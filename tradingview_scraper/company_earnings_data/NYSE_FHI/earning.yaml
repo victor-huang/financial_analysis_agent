@@ -1,0 +1,78 @@
+currency: USD
+company_name: Federated Hermes, Inc.
+sector: Finance
+market_cap_billions: 4.51
+revenue:
+  quarterly:
+    Q3 2024: 408.46
+    Q4 2024: 424.68
+    Q1 2025: 423.54
+    Q2 2025: 424.84
+    Q3 2025: 469.45
+    Q4 2025: 482.83
+    Q1 2026: 478.96
+  annual:
+    2021 Yearly: 1300.0
+    2022 Yearly: 1450.0
+    2023 Yearly: 1610.0
+    2024 Yearly: 1630.0
+    2025 Yearly: 1800.0
+  quarterly_forecast:
+    Q3 2024: 410.26
+    Q4 2024: 419.76
+    Q1 2025: 420.94
+    Q2 2025: 422.81
+    Q3 2025: 443.53
+    Q4 2025: 470.21
+    Q1 2026: 475.22
+    Q2 2026: 488.34
+    Q3 2026: 496.92
+    Q4 2026: 508.22
+    Q1 2027: 515.9
+  annual_forecast:
+    2021 Yearly: 1320.0
+    2022 Yearly: 1460.0
+    2023 Yearly: 1600.0
+    2024 Yearly: 1630.0
+    2025 Yearly: 1790.0
+    2026 Yearly: 1970.0
+    2027 Yearly: 2080.0
+    2028 Yearly: 2150.0
+    2029 Yearly: 2250.0
+eps:
+  quarterly:
+    Q3 2024: 1.06
+    Q4 2024: 1.04
+    Q1 2025: 1.25
+    Q2 2025: 1.16
+    Q3 2025: 1.34
+    Q4 2025: 1.39
+    Q1 2026: 1.27
+  annual:
+    2021 Yearly: 2.75
+    2022 Yearly: 2.65
+    2023 Yearly: 3.4
+    2024 Yearly: 3.23
+    2025 Yearly: 5.13
+  quarterly_forecast:
+    Q3 2024: 0.92
+    Q4 2024: 0.97
+    Q1 2025: 0.91
+    Q2 2025: 1.03
+    Q3 2025: 1.13
+    Q4 2025: 1.22
+    Q1 2026: 1.19
+    Q2 2026: 1.19
+    Q3 2026: 1.35
+    Q4 2026: 1.39
+    Q1 2027: 1.31
+  annual_forecast:
+    2021 Yearly: 2.78
+    2022 Yearly: 2.78
+    2023 Yearly: 3.28
+    2024 Yearly: 3.32
+    2025 Yearly: 4.97
+    2026 Yearly: 5.37
+    2027 Yearly: 5.93
+    2028 Yearly: 7.07
+    2029 Yearly: 6.7

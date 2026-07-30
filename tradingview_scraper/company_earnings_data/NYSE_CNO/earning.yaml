@@ -1,0 +1,78 @@
+currency: USD
+company_name: CNO Financial Group, Inc.
+sector: Finance
+market_cap_billions: 4.99
+revenue:
+  quarterly:
+    Q3 2024: 1130.0
+    Q4 2024: 1100.0
+    Q1 2025: 1000.0
+    Q2 2025: 1150.0
+    Q3 2025: 1190.0
+    Q4 2025: 1140.0
+    Q1 2026: 1030.0
+  annual:
+    2021 Yearly: 4120.0
+    2022 Yearly: 3580.0
+    2023 Yearly: 4150.0
+    2024 Yearly: 4450.0
+    2025 Yearly: 4490.0
+  quarterly_forecast:
+    Q3 2024: 945.44
+    Q4 2024: 970.42
+    Q1 2025: 755.05
+    Q2 2025: 747.81
+    Q3 2025: 973.5
+    Q4 2025: 1000.0
+    Q1 2026: 1000.0
+    Q2 2026: 999.45
+    Q3 2026: 1010.0
+    Q4 2026: 1030.0
+    Q1 2027: 1040.0
+  annual_forecast:
+    2021 Yearly: 3650.0
+    2022 Yearly: 3620.0
+    2023 Yearly: 3650.0
+    2024 Yearly: 3380.0
+    2025 Yearly: 3910.0
+    2026 Yearly: 4050.0
+    2027 Yearly: 4200.0
+    2028 Yearly: 4350.0
+    2029 Yearly: 4590.0
+eps:
+  quarterly:
+    Q3 2024: 1.11
+    Q4 2024: 1.31
+    Q1 2025: 0.79
+    Q2 2025: 0.87
+    Q3 2025: 1.29
+    Q4 2025: 1.47
+    Q1 2026: 1.05
+  annual:
+    2021 Yearly: 2.79
+    2022 Yearly: 2.33
+    2023 Yearly: 3.09
+    2024 Yearly: 3.97
+    2025 Yearly: 4.4
+  quarterly_forecast:
+    Q3 2024: 0.82
+    Q4 2024: 1.07
+    Q1 2025: 0.79
+    Q2 2025: 0.86
+    Q3 2025: 0.92
+    Q4 2025: 1.21
+    Q1 2026: 0.94
+    Q2 2026: 0.97
+    Q3 2026: 1.07
+    Q4 2026: 1.33
+    Q1 2027: 1.05
+  annual_forecast:
+    2021 Yearly: 2.54
+    2022 Yearly: 2.31
+    2023 Yearly: 2.78
+    2024 Yearly: 3.74
+    2025 Yearly: 4.14
+    2026 Yearly: 4.42
+    2027 Yearly: 4.95
+    2028 Yearly: 5.47
+    2029 Yearly: 6.2

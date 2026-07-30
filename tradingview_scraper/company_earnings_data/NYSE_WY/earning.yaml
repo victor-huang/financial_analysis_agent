@@ -1,0 +1,76 @@
+currency: USD
+company_name: Weyerhaeuser Company
+sector: Finance
+market_cap_billions: 16.94
+revenue:
+  quarterly:
+    Q3 2024: 1680.0
+    Q4 2024: 1710.0
+    Q1 2025: 1760.0
+    Q2 2025: 1880.0
+    Q3 2025: 1720.0
+    Q4 2025: 1540.0
+    Q1 2026: 1730.0
+  annual:
+    2021 Yearly: 10200.0
+    2022 Yearly: 10180.0
+    2023 Yearly: 7670.0
+    2024 Yearly: 7120.0
+    2025 Yearly: 6910.0
+  quarterly_forecast:
+    Q3 2024: 1690.0
+    Q4 2024: 1720.0
+    Q1 2025: 1760.0
+    Q2 2025: 1830.0
+    Q3 2025: 1660.0
+    Q4 2025: 1570.0
+    Q1 2026: 1720.0
+    Q2 2026: 1850.0
+    Q3 2026: 1830.0
+    Q4 2026: 1690.0
+    Q1 2027: 1760.0
+  annual_forecast:
+    2021 Yearly: 10160.0
+    2022 Yearly: 10260.0
+    2023 Yearly: 7710.0
+    2024 Yearly: 7140.0
+    2025 Yearly: 6930.0
+    2026 Yearly: 7030.0
+    2027 Yearly: 7670.0
+    2028 Yearly: 7990.0
+eps:
+  quarterly:
+    Q3 2024: 0.05
+    Q4 2024: 0.11
+    Q1 2025: 0.11
+    Q2 2025: 0.12
+    Q3 2025: 0.06
+    Q4 2025: -0.09
+    Q1 2026: 0.11
+  annual:
+    2021 Yearly: 3.37
+    2022 Yearly: 3.02
+    2023 Yearly: 1.02
+    2024 Yearly: 0.53
+    2025 Yearly: 0.2
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.07
+    Q1 2025: 0.1
+    Q2 2025: 0.1
+    Q3 2025: -0.08
+    Q4 2025: -0.13
+    Q1 2026: 0.06
+    Q2 2026: 0.08
+    Q3 2026: 0.09
+    Q4 2026: 0.03
+    Q1 2027: 0.11
+  annual_forecast:
+    2021 Yearly: 3.37
+    2022 Yearly: 2.91
+    2023 Yearly: 0.99
+    2024 Yearly: 0.49
+    2025 Yearly: 0.17
+    2026 Yearly: 0.32
+    2027 Yearly: 0.72
+    2028 Yearly: 1.03

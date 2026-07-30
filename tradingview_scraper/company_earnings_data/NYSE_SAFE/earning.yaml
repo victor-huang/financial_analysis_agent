@@ -1,0 +1,78 @@
+currency: USD
+company_name: Safehold Inc. New
+sector: Finance
+market_cap_billions: 1.13
+revenue:
+  quarterly:
+    Q3 2024: 90.7
+    Q4 2024: 91.9
+    Q1 2025: 97.68
+    Q2 2025: 93.84
+    Q3 2025: 96.2
+    Q4 2025: 97.87
+    Q1 2026: 110.85
+  annual:
+    2021 Yearly: 465.0
+    2022 Yearly: 269.55
+    2023 Yearly: 352.58
+    2024 Yearly: 365.7
+    2025 Yearly: 385.55
+  quarterly_forecast:
+    Q3 2024: 89.45
+    Q4 2024: 90.67
+    Q1 2025: 93.55
+    Q2 2025: 92.61
+    Q3 2025: 93.58
+    Q4 2025: 95.97
+    Q1 2026: 97.44
+    Q2 2026: 110.78
+    Q3 2026: 114.96
+    Q4 2026: 110.63
+    Q1 2027: 111.88
+  annual_forecast:
+    2021 Yearly: 514.77
+    2022 Yearly: 172.2
+    2023 Yearly: 330.01
+    2024 Yearly: 358.8
+    2025 Yearly: 380.59
+    2026 Yearly: 443.82
+    2027 Yearly: 467.02
+    2028 Yearly: 478.92
+    2029 Yearly: 524.03
+eps:
+  quarterly:
+    Q3 2024: 0.37
+    Q4 2024: 0.36
+    Q1 2025: 0.44
+    Q2 2025: 0.39
+    Q3 2025: 0.41
+    Q4 2025: 0.42
+    Q1 2026: 0.4
+  annual:
+    2021 Yearly: 8.85
+    2022 Yearly: 22.78
+    2023 Yearly: 1.45
+    2024 Yearly: 1.57
+    2025 Yearly: 1.65
+  quarterly_forecast:
+    Q3 2024: 0.37
+    Q4 2024: 0.37
+    Q1 2025: 0.42
+    Q2 2025: 0.4
+    Q3 2025: 0.39
+    Q4 2025: 0.41
+    Q1 2026: 0.44
+    Q2 2026: 0.42
+    Q3 2026: 0.45
+    Q4 2026: 0.38
+    Q1 2027: 0.42
+  annual_forecast:
+    2021 Yearly: 5.96
+    2022 Yearly: 17.55
+    2023 Yearly: 1.44
+    2024 Yearly: 1.55
+    2025 Yearly: 1.64
+    2026 Yearly: 1.65
+    2027 Yearly: 1.73
+    2028 Yearly: 1.77
+    2029 Yearly: 1.77

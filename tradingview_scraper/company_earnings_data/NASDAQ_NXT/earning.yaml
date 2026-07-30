@@ -1,0 +1,74 @@
+currency: USD
+company_name: Nextpower Inc.
+sector: Electronic Technology
+market_cap_billions: 14.7
+revenue:
+  quarterly:
+    Q2 2024: 635.57
+    Q3 2024: 679.36
+    Q4 2024: 924.34
+    Q1 2025: 864.25
+    Q2 2025: 905.0
+    Q3 2025: 909.35
+    Q4 2025: 880.52
+  annual:
+    2022 Yearly: 1900.0
+    2023 Yearly: 2500.0
+    2024 Yearly: 2960.0
+    2025 Yearly: 3560.0
+  quarterly_forecast:
+    Q2 2024: 613.34
+    Q3 2024: 646.02
+    Q4 2024: 829.06
+    Q1 2025: 840.84
+    Q2 2025: 857.66
+    Q3 2025: 815.25
+    Q4 2025: 826.26
+    Q1 2026: 935.39
+    Q2 2026: 1050.0
+    Q3 2026: 1140.0
+    Q4 2026: 1140.0
+  annual_forecast:
+    2022 Yearly: 1890.0
+    2023 Yearly: 2450.0
+    2024 Yearly: 2870.0
+    2025 Yearly: 3510.0
+    2026 Yearly: 4250.0
+    2027 Yearly: 4980.0
+    2028 Yearly: 5760.0
+    2029 Yearly: 6690.0
+eps:
+  quarterly:
+    Q2 2024: 0.97
+    Q3 2024: 1.03
+    Q4 2024: 1.29
+    Q1 2025: 1.16
+    Q2 2025: 1.19
+    Q3 2025: 1.1
+    Q4 2025: 1.05
+  annual:
+    2022 Yearly: 1.05
+    2023 Yearly: 3.06
+    2024 Yearly: 4.22
+    2025 Yearly: 4.5
+  quarterly_forecast:
+    Q2 2024: 0.6
+    Q3 2024: 0.58
+    Q4 2024: 0.96
+    Q1 2025: 1.03
+    Q2 2025: 1.06
+    Q3 2025: 0.93
+    Q4 2025: 0.92
+    Q1 2026: 1.05
+    Q2 2026: 1.14
+    Q3 2026: 1.25
+    Q4 2026: 1.22
+  annual_forecast:
+    2022 Yearly: 1.0
+    2023 Yearly: 2.71
+    2024 Yearly: 3.84
+    2025 Yearly: 4.37
+    2026 Yearly: 4.61
+    2027 Yearly: 5.71
+    2028 Yearly: 6.88
+    2029 Yearly: 7.93

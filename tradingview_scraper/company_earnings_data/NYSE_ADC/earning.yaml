@@ -1,0 +1,78 @@
+currency: USD
+company_name: Agree Realty Corporation
+sector: Finance
+market_cap_billions: 9.42
+revenue:
+  quarterly:
+    Q3 2024: 154.33
+    Q4 2024: 160.73
+    Q1 2025: 169.16
+    Q2 2025: 175.53
+    Q3 2025: 183.22
+    Q4 2025: 190.49
+    Q1 2026: 200.81
+  annual:
+    2021 Yearly: 339.32
+    2022 Yearly: 429.81
+    2023 Yearly: 537.5
+    2024 Yearly: 617.1
+    2025 Yearly: 718.4
+  quarterly_forecast:
+    Q3 2024: 152.83
+    Q4 2024: 158.25
+    Q1 2025: 164.62
+    Q2 2025: 173.17
+    Q3 2025: 180.18
+    Q4 2025: 185.71
+    Q1 2026: 195.86
+    Q2 2026: 204.53
+    Q3 2026: 211.99
+    Q4 2026: 211.61
+    Q1 2027: 215.09
+  annual_forecast:
+    2021 Yearly: 336.61
+    2022 Yearly: 428.39
+    2023 Yearly: 534.62
+    2024 Yearly: 615.36
+    2025 Yearly: 717.2
+    2026 Yearly: 830.42
+    2027 Yearly: 906.54
+    2028 Yearly: 1000.0
+    2029 Yearly: 1100.0
+eps:
+  quarterly:
+    Q3 2024: 0.42
+    Q4 2024: 0.41
+    Q1 2025: 0.42
+    Q2 2025: 0.43
+    Q3 2025: 0.45
+    Q4 2025: 0.47
+    Q1 2026: 0.5
+  annual:
+    2021 Yearly: 1.78
+    2022 Yearly: 1.83
+    2023 Yearly: 1.7
+    2024 Yearly: 1.78
+    2025 Yearly: 1.77
+  quarterly_forecast:
+    Q3 2024: 0.43
+    Q4 2024: 0.43
+    Q1 2025: 0.42
+    Q2 2025: 0.45
+    Q3 2025: 0.45
+    Q4 2025: 0.47
+    Q1 2026: 0.48
+    Q2 2026: 0.48
+    Q3 2026: 0.48
+    Q4 2026: 0.49
+    Q1 2027: 0.51
+  annual_forecast:
+    2021 Yearly: 1.82
+    2022 Yearly: 1.81
+    2023 Yearly: 1.72
+    2024 Yearly: 1.79
+    2025 Yearly: 1.79
+    2026 Yearly: 1.94
+    2027 Yearly: 2.06
+    2028 Yearly: 2.1
+    2029 Yearly: 2.15

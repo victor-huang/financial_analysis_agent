@@ -1,0 +1,78 @@
+currency: USD
+company_name: Middlesex Water Company
+sector: Utilities
+market_cap_billions: 1.04
+revenue:
+  quarterly:
+    Q3 2024: 55.1
+    Q4 2024: 47.11
+    Q1 2025: 44.3
+    Q2 2025: 49.32
+    Q3 2025: 54.09
+    Q4 2025: 46.98
+    Q1 2026: 48.71
+  annual:
+    2021 Yearly: 143.14
+    2022 Yearly: 162.43
+    2023 Yearly: 166.27
+    2024 Yearly: 191.88
+    2025 Yearly: 194.69
+  quarterly_forecast:
+    Q3 2024: 52.4
+    Q4 2024: 43.0
+    Q1 2025: 43.79
+    Q2 2025: 51.34
+    Q3 2025: 56.08
+    Q4 2025: 46.91
+    Q1 2026: 49.75
+    Q2 2026: 54.51
+    Q3 2026: 58.66
+    Q4 2026: 51.2
+    Q1 2027: 53.31
+  annual_forecast:
+    2021 Yearly: 145.0
+    2022 Yearly: 165.25
+    2023 Yearly: 172.75
+    2024 Yearly: 186.25
+    2025 Yearly: 195.21
+    2026 Yearly: 213.09
+    2027 Yearly: 268.56
+    2028 Yearly: 248.05
+    2029 Yearly: 263.41
+eps:
+  quarterly:
+    Q3 2024: 0.8
+    Q4 2024: 0.49
+    Q1 2025: 0.53
+    Q2 2025: 0.6
+    Q3 2025: 0.77
+    Q4 2025: 0.46
+    Q1 2026: 0.57
+  annual:
+    2021 Yearly: 2.07
+    2022 Yearly: 2.39
+    2023 Yearly: 1.76
+    2024 Yearly: 2.47
+    2025 Yearly: 2.36
+  quarterly_forecast:
+    Q3 2024: 0.69
+    Q4 2024: 0.37
+    Q1 2025: 0.6
+    Q2 2025: 0.66
+    Q3 2025: 0.87
+    Q4 2025: 0.46
+    Q1 2026: 0.57
+    Q2 2026: 0.66
+    Q3 2026: 0.81
+    Q4 2026: 0.49
+    Q1 2027: 0.6
+  annual_forecast:
+    2021 Yearly: 2.18
+    2022 Yearly: 2.43
+    2023 Yearly: 1.96
+    2024 Yearly: 2.34
+    2025 Yearly: 2.36
+    2026 Yearly: 2.52
+    2027 Yearly: 2.77
+    2028 Yearly: 3.06
+    2029 Yearly: 3.42

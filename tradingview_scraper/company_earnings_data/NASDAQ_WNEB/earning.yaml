@@ -1,0 +1,69 @@
+currency: USD
+company_name: Western New England Bancorp, Inc.
+sector: Finance
+market_cap_billions: 0.26344
+revenue:
+  quarterly:
+    Q4 2024: 18.53
+    Q1 2025: 18.29
+    Q2 2025: 21.05
+    Q3 2025: 21.27
+    Q4 2025: 22.0
+    Q1 2026: 22.26
+    Q2 2026: 22.71
+  annual:
+    2021 Yearly: 85.74
+    2022 Yearly: 92.56
+    2023 Yearly: 78.81
+    2024 Yearly: 72.72
+    2025 Yearly: 82.61
+  quarterly_forecast:
+    Q4 2024: 22.95
+    Q1 2026: 21.96
+    Q2 2026: 22.74
+    Q3 2026: 23.4
+    Q4 2026: 23.94
+    Q1 2027: 23.77
+    Q2 2027: 24.41
+  annual_forecast:
+    2021 Yearly: 85.33
+    2022 Yearly: 90.79
+    2023 Yearly: 84.85
+    2024 Yearly: 87.84
+    2026 Yearly: 91.88
+    2027 Yearly: 98.83
+eps:
+  quarterly:
+    Q4 2024: 0.16
+    Q1 2025: 0.11
+    Q2 2025: 0.23
+    Q3 2025: 0.16
+    Q4 2025: 0.26
+    Q1 2026: 0.24
+    Q2 2026: 0.18
+  annual:
+    2021 Yearly: 1.02
+    2022 Yearly: 1.18
+    2023 Yearly: 0.7
+    2024 Yearly: 0.56
+    2025 Yearly: 0.75
+  quarterly_forecast:
+    Q4 2024: 0.12
+    Q1 2025: 0.12
+    Q2 2025: 0.14
+    Q3 2025: 0.18
+    Q4 2025: 0.21
+    Q1 2026: 0.21
+    Q2 2026: 0.24
+    Q3 2026: 0.26
+    Q4 2026: 0.26
+    Q1 2027: 0.26
+    Q2 2027: 0.27
+  annual_forecast:
+    2021 Yearly: 0.97
+    2022 Yearly: 1.06
+    2023 Yearly: 0.74
+    2024 Yearly: 0.46
+    2025 Yearly: 0.69
+    2026 Yearly: 0.95
+    2027 Yearly: 1.11

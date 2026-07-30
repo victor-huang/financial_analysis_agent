@@ -1,0 +1,78 @@
+currency: USD
+company_name: SPS Commerce, Inc.
+sector: Technology Services
+market_cap_billions: 2.42
+revenue:
+  quarterly:
+    Q3 2024: 163.69
+    Q4 2024: 170.91
+    Q1 2025: 181.55
+    Q2 2025: 187.4
+    Q3 2025: 189.9
+    Q4 2025: 192.65
+    Q1 2026: 192.12
+  annual:
+    2021 Yearly: 385.28
+    2022 Yearly: 450.88
+    2023 Yearly: 536.91
+    2024 Yearly: 637.76
+    2025 Yearly: 751.5
+  quarterly_forecast:
+    Q3 2024: 160.3
+    Q4 2024: 168.76
+    Q1 2025: 179.02
+    Q2 2025: 185.83
+    Q3 2025: 191.89
+    Q4 2025: 193.6
+    Q1 2026: 192.47
+    Q2 2026: 195.46
+    Q3 2026: 201.9
+    Q4 2026: 207.05
+    Q1 2027: 205.84
+  annual_forecast:
+    2021 Yearly: 383.19
+    2022 Yearly: 449.65
+    2023 Yearly: 535.07
+    2024 Yearly: 636.18
+    2025 Yearly: 752.46
+    2026 Yearly: 796.22
+    2027 Yearly: 850.31
+    2028 Yearly: 912.95
+    2029 Yearly: 993.52
+eps:
+  quarterly:
+    Q3 2024: 0.92
+    Q4 2024: 0.89
+    Q1 2025: 1.0
+    Q2 2025: 1.0
+    Q3 2025: 1.13
+    Q4 2025: 1.14
+    Q1 2026: 1.1
+  annual:
+    2021 Yearly: 1.82
+    2022 Yearly: 2.35
+    2023 Yearly: 2.85
+    2024 Yearly: 3.48
+    2025 Yearly: 4.27
+  quarterly_forecast:
+    Q3 2024: 0.83
+    Q4 2024: 0.87
+    Q1 2025: 0.85
+    Q2 2025: 0.91
+    Q3 2025: 1.05
+    Q4 2025: 1.01
+    Q1 2026: 1.02
+    Q2 2026: 1.09
+    Q3 2026: 1.24
+    Q4 2026: 1.31
+    Q1 2027: 1.22
+  annual_forecast:
+    2021 Yearly: 1.77
+    2022 Yearly: 2.25
+    2023 Yearly: 2.8
+    2024 Yearly: 3.44
+    2025 Yearly: 4.13
+    2026 Yearly: 4.74
+    2027 Yearly: 5.2
+    2028 Yearly: 5.94
+    2029 Yearly: 6.49

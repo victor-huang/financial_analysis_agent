@@ -1,0 +1,76 @@
+currency: USD
+company_name: Universal Display Corporation
+sector: Electronic Technology
+market_cap_billions: 3.76
+revenue:
+  quarterly:
+    Q3 2024: 161.63
+    Q4 2024: 162.29
+    Q1 2025: 166.28
+    Q2 2025: 171.79
+    Q3 2025: 139.61
+    Q4 2025: 172.93
+    Q1 2026: 142.21
+  annual:
+    2021 Yearly: 553.52
+    2022 Yearly: 616.62
+    2023 Yearly: 576.4
+    2024 Yearly: 647.68
+    2025 Yearly: 650.61
+  quarterly_forecast:
+    Q3 2024: 163.55
+    Q4 2024: 150.06
+    Q1 2025: 156.08
+    Q2 2025: 160.8
+    Q3 2025: 164.15
+    Q4 2025: 173.23
+    Q1 2026: 161.23
+    Q2 2026: 157.55
+    Q3 2026: 164.07
+    Q4 2026: 178.1
+    Q1 2027: 163.95
+  annual_forecast:
+    2021 Yearly: 552.05
+    2022 Yearly: 596.92
+    2023 Yearly: 579.17
+    2024 Yearly: 635.41
+    2025 Yearly: 650.9
+    2026 Yearly: 643.83
+    2027 Yearly: 696.21
+    2028 Yearly: 770.2
+eps:
+  quarterly:
+    Q3 2024: 1.4
+    Q4 2024: 0.96
+    Q1 2025: 1.35
+    Q2 2025: 1.41
+    Q3 2025: 0.92
+    Q4 2025: 1.39
+    Q1 2026: 0.76
+  annual:
+    2021 Yearly: 3.87
+    2022 Yearly: 4.4
+    2023 Yearly: 4.24
+    2024 Yearly: 4.65
+    2025 Yearly: 5.08
+  quarterly_forecast:
+    Q3 2024: 1.31
+    Q4 2024: 1.06
+    Q1 2025: 1.09
+    Q2 2025: 1.16
+    Q3 2025: 1.11
+    Q4 2025: 1.28
+    Q1 2026: 1.02
+    Q2 2026: 1.03
+    Q3 2026: 1.13
+    Q4 2026: 1.26
+    Q1 2027: 1.12
+  annual_forecast:
+    2021 Yearly: 3.93
+    2022 Yearly: 3.98
+    2023 Yearly: 4.11
+    2024 Yearly: 4.76
+    2025 Yearly: 4.94
+    2026 Yearly: 4.22
+    2027 Yearly: 4.91
+    2028 Yearly: 5.77

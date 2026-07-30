@@ -1,0 +1,76 @@
+currency: USD
+company_name: Eastman Chemical Company
+sector: Process Industries
+market_cap_billions: 8.01
+revenue:
+  quarterly:
+    Q3 2024: 2460.0
+    Q4 2024: 2250.0
+    Q1 2025: 2290.0
+    Q2 2025: 2290.0
+    Q3 2025: 2200.0
+    Q4 2025: 1970.0
+    Q1 2026: 2180.0
+  annual:
+    2021 Yearly: 10480.0
+    2022 Yearly: 10580.0
+    2023 Yearly: 9210.0
+    2024 Yearly: 9380.0
+    2025 Yearly: 8750.0
+  quarterly_forecast:
+    Q3 2024: 2380.0
+    Q4 2024: 2270.0
+    Q1 2025: 2330.0
+    Q2 2025: 2300.0
+    Q3 2025: 2260.0
+    Q4 2025: 2020.0
+    Q1 2026: 2170.0
+    Q2 2026: 2400.0
+    Q3 2026: 2390.0
+    Q4 2026: 2150.0
+    Q1 2027: 2300.0
+  annual_forecast:
+    2021 Yearly: 10190.0
+    2022 Yearly: 10600.0
+    2023 Yearly: 9210.0
+    2024 Yearly: 9410.0
+    2025 Yearly: 8790.0
+    2026 Yearly: 9130.0
+    2027 Yearly: 9370.0
+    2028 Yearly: 9650.0
+eps:
+  quarterly:
+    Q3 2024: 2.26
+    Q4 2024: 1.87
+    Q1 2025: 1.91
+    Q2 2025: 1.6
+    Q3 2025: 1.14
+    Q4 2025: 0.75
+    Q1 2026: 1.09
+  annual:
+    2021 Yearly: 8.85
+    2022 Yearly: 7.88
+    2023 Yearly: 6.4
+    2024 Yearly: 7.89
+    2025 Yearly: 5.42
+  quarterly_forecast:
+    Q3 2024: 2.15
+    Q4 2024: 1.57
+    Q1 2025: 1.89
+    Q2 2025: 1.73
+    Q3 2025: 1.16
+    Q4 2025: 0.72
+    Q1 2026: 1.06
+    Q2 2026: 1.82
+    Q3 2026: 1.91
+    Q4 2026: 1.45
+    Q1 2027: 1.49
+  annual_forecast:
+    2021 Yearly: 8.93
+    2022 Yearly: 8.18
+    2023 Yearly: 6.39
+    2024 Yearly: 7.6
+    2025 Yearly: 5.37
+    2026 Yearly: 6.27
+    2027 Yearly: 6.84
+    2028 Yearly: 7.55

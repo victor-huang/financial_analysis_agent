@@ -1,0 +1,76 @@
+currency: USD
+company_name: Olin Corporation
+sector: Process Industries
+market_cap_billions: 2.53
+revenue:
+  quarterly:
+    Q3 2024: 1590.0
+    Q4 2024: 1670.0
+    Q1 2025: 1640.0
+    Q2 2025: 1760.0
+    Q3 2025: 1710.0
+    Q4 2025: 1670.0
+    Q1 2026: 1580.0
+  annual:
+    2021 Yearly: 8910.0
+    2022 Yearly: 9380.0
+    2023 Yearly: 6830.0
+    2024 Yearly: 6540.0
+    2025 Yearly: 6780.0
+  quarterly_forecast:
+    Q3 2024: 1580.0
+    Q4 2024: 1550.0
+    Q1 2025: 1580.0
+    Q2 2025: 1660.0
+    Q3 2025: 1730.0
+    Q4 2025: 1540.0
+    Q1 2026: 1620.0
+    Q2 2026: 1810.0
+    Q3 2026: 1870.0
+    Q4 2026: 1800.0
+    Q1 2027: 1760.0
+  annual_forecast:
+    2021 Yearly: 8850.0
+    2022 Yearly: 9460.0
+    2023 Yearly: 6710.0
+    2024 Yearly: 6410.0
+    2025 Yearly: 6650.0
+    2026 Yearly: 7060.0
+    2027 Yearly: 7330.0
+    2028 Yearly: 7650.0
+eps:
+  quarterly:
+    Q3 2024: -0.14
+    Q4 2024: 0.18
+    Q1 2025: 0.04
+    Q2 2025: 0.05
+    Q3 2025: 0.4
+    Q4 2025: -0.58
+    Q1 2026: -0.33
+  annual:
+    2021 Yearly: 8.12
+    2022 Yearly: 9.02
+    2023 Yearly: 3.93
+    2024 Yearly: 1.19
+    2025 Yearly: -0.08
+  quarterly_forecast:
+    Q3 2024: 0.04
+    Q4 2024: -0.03
+    Q1 2025: -0.1
+    Q2 2025: 0.01
+    Q3 2025: 0.08
+    Q4 2025: -0.64
+    Q1 2026: -0.68
+    Q2 2026: 0.13
+    Q3 2026: 0.41
+    Q4 2026: -0.01
+    Q1 2027: -0.04
+  annual_forecast:
+    2021 Yearly: 8.43
+    2022 Yearly: 8.82
+    2023 Yearly: 3.66
+    2024 Yearly: 0.92
+    2025 Yearly: -0.2
+    2026 Yearly: 0.09
+    2027 Yearly: 0.91
+    2028 Yearly: 1.85

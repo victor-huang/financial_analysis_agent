@@ -1,0 +1,40 @@
+currency: USD
+company_name: FatPipe, Inc.
+sector: Technology Services
+market_cap_billions: 0.07181
+revenue:
+  quarterly:
+    Q3 2025: 4.1
+    Q4 2025: 7.2
+  annual:
+    2025 Yearly: 19.2
+  quarterly_forecast:
+    Q4 2025: 6.53
+    Q1 2026: 4.83
+    Q2 2026: 5.11
+    Q3 2026: 5.31
+    Q4 2026: 7.38
+  annual_forecast:
+    2025 Yearly: 18.17
+    2026 Yearly: 22.83
+    2027 Yearly: 29.41
+    2028 Yearly: 47.84
+    2029 Yearly: 67.16
+eps:
+  quarterly:
+    Q3 2025: 0.02
+    Q4 2025: 0.33
+  annual:
+    2025 Yearly: 0.35
+  quarterly_forecast:
+    Q4 2025: 0.12
+    Q1 2026: 0.05
+    Q2 2026: 0.02
+    Q3 2026: 0.05
+    Q4 2026: 0.17
+  annual_forecast:
+    2025 Yearly: 0.19
+    2026 Yearly: 0.29
+    2027 Yearly: 0.35
+    2028 Yearly: 0.09
+    2029 Yearly: 0.13

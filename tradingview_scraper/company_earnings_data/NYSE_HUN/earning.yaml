@@ -1,0 +1,76 @@
+currency: USD
+company_name: Huntsman Corporation
+sector: Process Industries
+market_cap_billions: 2.12
+revenue:
+  quarterly:
+    Q3 2024: 1540.0
+    Q4 2024: 1450.0
+    Q1 2025: 1410.0
+    Q2 2025: 1460.0
+    Q3 2025: 1460.0
+    Q4 2025: 1350.0
+    Q1 2026: 1420.0
+  annual:
+    2021 Yearly: 8450.0
+    2022 Yearly: 8410.0
+    2023 Yearly: 6110.0
+    2024 Yearly: 6040.0
+    2025 Yearly: 5680.0
+  quarterly_forecast:
+    Q3 2024: 1550.0
+    Q4 2024: 1440.0
+    Q1 2025: 1490.0
+    Q2 2025: 1490.0
+    Q3 2025: 1450.0
+    Q4 2025: 1340.0
+    Q1 2026: 1390.0
+    Q2 2026: 1600.0
+    Q3 2026: 1580.0
+    Q4 2026: 1450.0
+    Q1 2027: 1520.0
+  annual_forecast:
+    2021 Yearly: 8280.0
+    2022 Yearly: 8290.0
+    2023 Yearly: 6040.0
+    2024 Yearly: 6030.0
+    2025 Yearly: 5660.0
+    2026 Yearly: 6020.0
+    2027 Yearly: 6230.0
+    2028 Yearly: 6460.0
+eps:
+  quarterly:
+    Q3 2024: 0.1
+    Q4 2024: -0.25
+    Q1 2025: -0.11
+    Q2 2025: -0.2
+    Q3 2025: -0.03
+    Q4 2025: -0.37
+    Q1 2026: -0.2
+  annual:
+    2021 Yearly: 3.54
+    2022 Yearly: 3.13
+    2023 Yearly: 0.37
+    2024 Yearly: -0.08
+    2025 Yearly: -0.7
+  quarterly_forecast:
+    Q3 2024: 0.1
+    Q4 2024: -0.1
+    Q1 2025: -0.11
+    Q2 2025: -0.13
+    Q3 2025: -0.16
+    Q4 2025: -0.33
+    Q1 2026: -0.2
+    Q2 2026: 0.06
+    Q3 2026: 0.08
+    Q4 2026: -0.11
+    Q1 2027: -0.04
+  annual_forecast:
+    2021 Yearly: 3.48
+    2022 Yearly: 3.31
+    2023 Yearly: 0.41
+    2024 Yearly: 0.08
+    2025 Yearly: -0.68
+    2026 Yearly: -0.17
+    2027 Yearly: 0.1
+    2028 Yearly: 0.5

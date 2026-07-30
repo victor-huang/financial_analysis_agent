@@ -1,0 +1,78 @@
+currency: USD
+company_name: Rivian Automotive, Inc.
+sector: Consumer Durables
+market_cap_billions: 24.36
+revenue:
+  quarterly:
+    Q3 2024: 874.0
+    Q4 2024: 1730.0
+    Q1 2025: 1240.0
+    Q2 2025: 1300.0
+    Q3 2025: 1560.0
+    Q4 2025: 1290.0
+    Q1 2026: 1380.0
+  annual:
+    2021 Yearly: 55.0
+    2022 Yearly: 1660.0
+    2023 Yearly: 4430.0
+    2024 Yearly: 4970.0
+    2025 Yearly: 5390.0
+  quarterly_forecast:
+    Q3 2024: 991.51
+    Q4 2024: 1400.0
+    Q1 2025: 997.71
+    Q2 2025: 1290.0
+    Q3 2025: 1510.0
+    Q4 2025: 1260.0
+    Q1 2026: 1370.0
+    Q2 2026: 1520.0
+    Q3 2026: 1970.0
+    Q4 2026: 2350.0
+    Q1 2027: 2480.0
+  annual_forecast:
+    2021 Yearly: 60.5
+    2022 Yearly: 1700.0
+    2023 Yearly: 4410.0
+    2024 Yearly: 4650.0
+    2025 Yearly: 5360.0
+    2026 Yearly: 7240.0
+    2027 Yearly: 11770.0
+    2028 Yearly: 16250.0
+    2029 Yearly: 26940.0
+eps:
+  quarterly:
+    Q3 2024: -0.97
+    Q4 2024: -0.48
+    Q1 2025: -0.41
+    Q2 2025: -0.8
+    Q3 2025: -0.66
+    Q4 2025: -0.53
+    Q1 2026: -0.55
+  annual:
+    2021 Yearly: -14.78
+    2022 Yearly: -6.34
+    2023 Yearly: -4.88
+    2024 Yearly: -3.89
+    2025 Yearly: -2.4
+  quarterly_forecast:
+    Q3 2024: -0.96
+    Q4 2024: -0.68
+    Q1 2025: -0.77
+    Q2 2025: -0.65
+    Q3 2025: -0.74
+    Q4 2025: -0.71
+    Q1 2026: -0.63
+    Q2 2026: -0.66
+    Q3 2026: -0.66
+    Q4 2026: -0.57
+    Q1 2027: -0.5
+  annual_forecast:
+    2021 Yearly: -9.17
+    2022 Yearly: -6.55
+    2023 Yearly: -5.07
+    2024 Yearly: -4.13
+    2025 Yearly: -2.69
+    2026 Yearly: -2.41
+    2027 Yearly: -1.93
+    2028 Yearly: -1.25
+    2029 Yearly: -0.53

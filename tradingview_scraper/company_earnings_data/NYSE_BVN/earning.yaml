@@ -1,0 +1,72 @@
+currency: USD
+company_name: Buenaventura Mining Company Inc.
+sector: Non-Energy Minerals
+market_cap_billions: 7.98
+revenue:
+  quarterly:
+    Q3 2024: 331.1
+    Q4 2024: 299.6
+    Q1 2025: 307.7
+    Q2 2025: 369.5
+    Q3 2025: 431.0
+    Q4 2025: 623.4
+    Q1 2026: 624.6
+  annual:
+    2021 Yearly: 900.5
+    2022 Yearly: 823.4
+    2023 Yearly: 823.8
+    2024 Yearly: 1150.0
+    2025 Yearly: 1730.0
+  quarterly_forecast:
+    Q1 2025: 275.01
+    Q2 2025: 297.26
+    Q3 2025: 296.9
+    Q4 2025: 336.43
+    Q1 2026: 384.19
+    Q2 2026: 522.2
+    Q3 2026: 666.0
+  annual_forecast:
+    2021 Yearly: 886.72
+    2022 Yearly: 773.51
+    2023 Yearly: 928.24
+    2024 Yearly: 1290.0
+    2025 Yearly: 1580.0
+    2026 Yearly: 2500.0
+    2027 Yearly: 2260.0
+    2028 Yearly: 2240.0
+eps:
+  quarterly:
+    Q3 2024: 0.93
+    Q4 2024: 0.13
+    Q1 2025: 0.55
+    Q2 2025: 0.36
+    Q3 2025: 0.71
+    Q4 2025: 1.51
+    Q1 2026: 1.4
+  annual:
+    2021 Yearly: -1.04
+    2022 Yearly: 2.37
+    2023 Yearly: 0.08
+    2024 Yearly: 1.59
+    2025 Yearly: 3.08
+  quarterly_forecast:
+    Q3 2024: 0.28
+    Q4 2024: 0.28
+    Q1 2025: 0.26
+    Q2 2025: 0.35
+    Q3 2025: 0.4
+    Q4 2025: 0.67
+    Q1 2026: 1.09
+    Q2 2026: 1.06
+    Q3 2026: 0.95
+    Q4 2026: 1.03
+    Q1 2027: 0.99
+  annual_forecast:
+    2021 Yearly: 0.28
+    2022 Yearly: 2.29
+    2023 Yearly: 0.27
+    2024 Yearly: 1.48
+    2025 Yearly: 2.17
+    2026 Yearly: 4.67
+    2027 Yearly: 4.06
+    2028 Yearly: 4.05

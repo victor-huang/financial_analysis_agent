@@ -1,0 +1,78 @@
+currency: USD
+company_name: Mohawk Industries, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 7.29
+revenue:
+  quarterly:
+    Q3 2024: 2720.0
+    Q4 2024: 2640.0
+    Q1 2025: 2530.0
+    Q2 2025: 2800.0
+    Q3 2025: 2760.0
+    Q4 2025: 2700.0
+    Q1 2026: 2730.0
+  annual:
+    2021 Yearly: 11200.0
+    2022 Yearly: 11740.0
+    2023 Yearly: 11140.0
+    2024 Yearly: 10840.0
+    2025 Yearly: 10790.0
+  quarterly_forecast:
+    Q3 2024: 2700.0
+    Q4 2024: 2540.0
+    Q1 2025: 2560.0
+    Q2 2025: 2760.0
+    Q3 2025: 2730.0
+    Q4 2025: 2680.0
+    Q1 2026: 2740.0
+    Q2 2026: 2790.0
+    Q3 2026: 2800.0
+    Q4 2026: 2600.0
+    Q1 2027: 2780.0
+  annual_forecast:
+    2021 Yearly: 11160.0
+    2022 Yearly: 11780.0
+    2023 Yearly: 11080.0
+    2024 Yearly: 10740.0
+    2025 Yearly: 10770.0
+    2026 Yearly: 10910.0
+    2027 Yearly: 11250.0
+    2028 Yearly: 11680.0
+    2029 Yearly: 12060.0
+eps:
+  quarterly:
+    Q3 2024: 2.9
+    Q4 2024: 1.95
+    Q1 2025: 1.52
+    Q2 2025: 2.77
+    Q3 2025: 2.67
+    Q4 2025: 2.0
+    Q1 2026: 1.9
+  annual:
+    2021 Yearly: 14.86
+    2022 Yearly: 12.85
+    2023 Yearly: 9.19
+    2024 Yearly: 9.7
+    2025 Yearly: 8.96
+  quarterly_forecast:
+    Q3 2024: 2.89
+    Q4 2024: 1.85
+    Q1 2025: 1.41
+    Q2 2025: 2.61
+    Q3 2025: 2.64
+    Q4 2025: 1.98
+    Q1 2026: 1.81
+    Q2 2026: 2.58
+    Q3 2026: 2.38
+    Q4 2026: 1.7
+    Q1 2027: 1.91
+  annual_forecast:
+    2021 Yearly: 14.77
+    2022 Yearly: 12.87
+    2023 Yearly: 9.1
+    2024 Yearly: 9.61
+    2025 Yearly: 8.94
+    2026 Yearly: 8.57
+    2027 Yearly: 9.76
+    2028 Yearly: 11.25
+    2029 Yearly: 15.73

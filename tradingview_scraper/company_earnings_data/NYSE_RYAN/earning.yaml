@@ -1,0 +1,76 @@
+currency: USD
+company_name: Ryan Specialty Holdings, Inc.
+sector: Finance
+market_cap_billions: 11.62
+revenue:
+  quarterly:
+    Q3 2024: 604.69
+    Q4 2024: 663.5
+    Q1 2025: 690.17
+    Q2 2025: 855.17
+    Q3 2025: 754.58
+    Q4 2025: 751.21
+    Q1 2026: 795.23
+  annual:
+    2021 Yearly: 1430.0
+    2022 Yearly: 1730.0
+    2023 Yearly: 2080.0
+    2024 Yearly: 2520.0
+    2025 Yearly: 3050.0
+  quarterly_forecast:
+    Q3 2024: 602.04
+    Q4 2024: 658.37
+    Q1 2025: 679.77
+    Q2 2025: 832.02
+    Q3 2025: 735.46
+    Q4 2025: 777.08
+    Q1 2026: 781.44
+    Q2 2026: 873.93
+    Q3 2026: 803.71
+    Q4 2026: 794.91
+    Q1 2027: 855.64
+  annual_forecast:
+    2021 Yearly: 1430.0
+    2022 Yearly: 1710.0
+    2023 Yearly: 2070.0
+    2024 Yearly: 2510.0
+    2025 Yearly: 3080.0
+    2026 Yearly: 3250.0
+    2027 Yearly: 3510.0
+    2028 Yearly: 3810.0
+eps:
+  quarterly:
+    Q3 2024: 0.41
+    Q4 2024: 0.45
+    Q1 2025: 0.39
+    Q2 2025: 0.66
+    Q3 2025: 0.47
+    Q4 2025: 0.45
+    Q1 2026: 0.47
+  annual:
+    2021 Yearly: 1.08
+    2022 Yearly: 1.15
+    2023 Yearly: 1.38
+    2024 Yearly: 1.79
+    2025 Yearly: 1.96
+  quarterly_forecast:
+    Q3 2024: 0.41
+    Q4 2024: 0.45
+    Q1 2025: 0.39
+    Q2 2025: 0.65
+    Q3 2025: 0.47
+    Q4 2025: 0.49
+    Q1 2026: 0.43
+    Q2 2026: 0.6
+    Q3 2026: 0.51
+    Q4 2026: 0.48
+    Q1 2027: 0.53
+  annual_forecast:
+    2021 Yearly: 1.09
+    2022 Yearly: 1.14
+    2023 Yearly: 1.38
+    2024 Yearly: 1.8
+    2025 Yearly: 2.01
+    2026 Yearly: 2.05
+    2027 Yearly: 2.34
+    2028 Yearly: 2.6

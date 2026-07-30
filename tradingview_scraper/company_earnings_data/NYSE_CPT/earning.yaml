@@ -1,0 +1,78 @@
+currency: USD
+company_name: Camden Property Trust
+sector: Finance
+market_cap_billions: 15.32
+revenue:
+  quarterly:
+    Q3 2024: 387.23
+    Q4 2024: 386.32
+    Q1 2025: 390.56
+    Q2 2025: 396.51
+    Q3 2025: 395.68
+    Q4 2025: 390.79
+    Q1 2026: 388.77
+  annual:
+    2021 Yearly: 1140.0
+    2022 Yearly: 1420.0
+    2023 Yearly: 1540.0
+    2024 Yearly: 1540.0
+    2025 Yearly: 1570.0
+  quarterly_forecast:
+    Q3 2024: 389.65
+    Q4 2024: 386.66
+    Q1 2025: 388.75
+    Q2 2025: 393.97
+    Q3 2025: 398.78
+    Q4 2025: 393.37
+    Q1 2026: 380.13
+    Q2 2026: 392.87
+    Q3 2026: 385.88
+    Q4 2026: 386.33
+    Q1 2027: 389.18
+  annual_forecast:
+    2021 Yearly: 1140.0
+    2022 Yearly: 1420.0
+    2023 Yearly: 1540.0
+    2024 Yearly: 1540.0
+    2025 Yearly: 1580.0
+    2026 Yearly: 1560.0
+    2027 Yearly: 1580.0
+    2028 Yearly: 1640.0
+    2029 Yearly: 1700.0
+eps:
+  quarterly:
+    Q3 2024: -0.04
+    Q4 2024: 0.37
+    Q1 2025: 0.36
+    Q2 2025: 0.74
+    Q3 2025: 1.0
+    Q4 2025: 1.44
+    Q1 2026: 0.4
+  annual:
+    2021 Yearly: 2.96
+    2022 Yearly: 5.7
+    2023 Yearly: 3.7
+    2024 Yearly: 1.5
+    2025 Yearly: 3.54
+  quarterly_forecast:
+    Q3 2024: 0.36
+    Q4 2024: 0.36
+    Q1 2025: 0.36
+    Q2 2025: 0.33
+    Q3 2025: 0.44
+    Q4 2025: 0.34
+    Q1 2026: 0.28
+    Q2 2026: 0.31
+    Q3 2026: 0.21
+    Q4 2026: 0.31
+    Q1 2027: 0.31
+  annual_forecast:
+    2021 Yearly: 1.39
+    2022 Yearly: 5.76
+    2023 Yearly: 2.0
+    2024 Yearly: 1.52
+    2025 Yearly: 2.45
+    2026 Yearly: 1.12
+    2027 Yearly: 1.21
+    2028 Yearly: 1.54
+    2029 Yearly: 2.19

@@ -1,0 +1,76 @@
+currency: USD
+company_name: Grid Dynamics Holdings, Inc.
+sector: Technology Services
+market_cap_billions: 0.5903999999999999
+revenue:
+  quarterly:
+    Q3 2024: 87.44
+    Q4 2024: 100.28
+    Q1 2025: 100.42
+    Q2 2025: 101.09
+    Q3 2025: 104.16
+    Q4 2025: 106.15
+    Q1 2026: 104.1
+  annual:
+    2021 Yearly: 211.28
+    2022 Yearly: 310.48
+    2023 Yearly: 312.91
+    2024 Yearly: 350.57
+    2025 Yearly: 411.83
+  quarterly_forecast:
+    Q3 2024: 85.09
+    Q4 2024: 96.09
+    Q1 2025: 98.36
+    Q2 2025: 100.72
+    Q3 2025: 103.74
+    Q4 2025: 105.93
+    Q1 2026: 103.32
+    Q2 2026: 106.55
+    Q3 2026: 111.82
+    Q4 2026: 116.45
+    Q1 2027: 114.45
+  annual_forecast:
+    2021 Yearly: 203.59
+    2022 Yearly: 307.62
+    2023 Yearly: 311.47
+    2024 Yearly: 346.49
+    2025 Yearly: 411.66
+    2026 Yearly: 438.88
+    2027 Yearly: 482.78
+    2028 Yearly: 542.3
+eps:
+  quarterly:
+    Q3 2024: 0.1
+    Q4 2024: 0.12
+    Q1 2025: 0.11
+    Q2 2025: 0.1
+    Q3 2025: 0.09
+    Q4 2025: 0.1
+    Q1 2026: 0.09
+  annual:
+    2021 Yearly: 0.36
+    2022 Yearly: 0.51
+    2023 Yearly: 0.32
+    2024 Yearly: 0.47
+    2025 Yearly: 0.4
+  quarterly_forecast:
+    Q3 2024: 0.09
+    Q4 2024: 0.1
+    Q1 2025: 0.09
+    Q2 2025: 0.09
+    Q3 2025: 0.09
+    Q4 2025: 0.09
+    Q1 2026: 0.08
+    Q2 2026: 0.1
+    Q3 2026: 0.12
+    Q4 2026: 0.13
+    Q1 2027: 0.1
+  annual_forecast:
+    2021 Yearly: 0.35
+    2022 Yearly: 0.48
+    2023 Yearly: 0.32
+    2024 Yearly: 0.34
+    2025 Yearly: 0.4
+    2026 Yearly: 0.45
+    2027 Yearly: 0.51
+    2028 Yearly: 0.6

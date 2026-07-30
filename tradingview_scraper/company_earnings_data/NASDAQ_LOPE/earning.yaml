@@ -1,0 +1,76 @@
+currency: USD
+company_name: Grand Canyon Education, Inc.
+sector: Commercial Services
+market_cap_billions: 3.98
+revenue:
+  quarterly:
+    Q3 2024: 238.29
+    Q4 2024: 292.57
+    Q1 2025: 289.31
+    Q2 2025: 247.5
+    Q3 2025: 261.14
+    Q4 2025: 308.12
+    Q1 2026: 308.8
+  annual:
+    2021 Yearly: 896.56
+    2022 Yearly: 911.3
+    2023 Yearly: 960.9
+    2024 Yearly: 1030.0
+    2025 Yearly: 1110.0
+  quarterly_forecast:
+    Q3 2024: 239.69
+    Q4 2024: 289.61
+    Q1 2025: 287.18
+    Q2 2025: 240.91
+    Q3 2025: 260.25
+    Q4 2025: 308.1
+    Q1 2026: 307.75
+    Q2 2026: 261.8
+    Q3 2026: 270.1
+    Q4 2026: 326.55
+    Q1 2027: 323.21
+  annual_forecast:
+    2021 Yearly: 897.45
+    2022 Yearly: 908.79
+    2023 Yearly: 957.84
+    2024 Yearly: 1030.0
+    2025 Yearly: 1110.0
+    2026 Yearly: 1170.0
+    2027 Yearly: 1230.0
+    2028 Yearly: 1310.0
+eps:
+  quarterly:
+    Q3 2024: 1.48
+    Q4 2024: 2.95
+    Q1 2025: 2.57
+    Q2 2025: 1.53
+    Q3 2025: 1.78
+    Q4 2025: 3.21
+    Q1 2026: 2.86
+  annual:
+    2021 Yearly: 6.0
+    2022 Yearly: 5.96
+    2023 Yearly: 7.04
+    2024 Yearly: 8.04
+    2025 Yearly: 9.08
+  quarterly_forecast:
+    Q3 2024: 1.47
+    Q4 2024: 2.94
+    Q1 2025: 2.51
+    Q2 2025: 1.38
+    Q3 2025: 1.78
+    Q4 2025: 3.19
+    Q1 2026: 2.78
+    Q2 2026: 1.67
+    Q3 2026: 1.82
+    Q4 2026: 3.72
+    Q1 2027: 3.14
+  annual_forecast:
+    2021 Yearly: 6.03
+    2022 Yearly: 5.85
+    2023 Yearly: 6.98
+    2024 Yearly: 8.03
+    2025 Yearly: 9.09
+    2026 Yearly: 10.07
+    2027 Yearly: 11.16
+    2028 Yearly: 12.17

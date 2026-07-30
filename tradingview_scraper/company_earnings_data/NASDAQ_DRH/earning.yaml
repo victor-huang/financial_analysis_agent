@@ -1,0 +1,76 @@
+currency: USD
+company_name: Diamondrock Hospitality Company
+sector: Finance
+market_cap_billions: 2.65
+revenue:
+  quarterly:
+    Q3 2024: 285.13
+    Q4 2024: 279.05
+    Q1 2025: 254.9
+    Q2 2025: 305.7
+    Q3 2025: 285.38
+    Q4 2025: 274.53
+    Q1 2026: 258.2
+  annual:
+    2021 Yearly: 567.13
+    2022 Yearly: 1000.0
+    2023 Yearly: 1070.0
+    2024 Yearly: 1130.0
+    2025 Yearly: 1120.0
+  quarterly_forecast:
+    Q3 2024: 285.93
+    Q4 2024: 272.23
+    Q1 2025: 256.1
+    Q2 2025: 303.52
+    Q3 2025: 277.72
+    Q4 2025: 273.38
+    Q1 2026: 256.61
+    Q2 2026: 314.98
+    Q3 2026: 289.97
+    Q4 2026: 277.77
+    Q1 2027: 263.71
+  annual_forecast:
+    2021 Yearly: 558.44
+    2022 Yearly: 996.52
+    2023 Yearly: 1070.0
+    2024 Yearly: 1120.0
+    2025 Yearly: 1120.0
+    2026 Yearly: 1140.0
+    2027 Yearly: 1160.0
+    2028 Yearly: 1200.0
+eps:
+  quarterly:
+    Q3 2024: 0.11
+    Q4 2024: -0.07
+    Q1 2025: 0.04
+    Q2 2025: 0.18
+    Q3 2025: 0.1
+    Q4 2025: 0.12
+    Q1 2026: 0.07
+  annual:
+    2021 Yearly: -0.96
+    2022 Yearly: 0.47
+    2023 Yearly: 0.36
+    2024 Yearly: 0.18
+    2025 Yearly: 0.44
+  quarterly_forecast:
+    Q3 2024: 0.12
+    Q4 2024: 0.07
+    Q1 2025: 0.04
+    Q2 2025: 0.19
+    Q3 2025: 0.1
+    Q4 2025: 0.08
+    Q1 2026: 0.04
+    Q2 2026: 0.22
+    Q3 2026: 0.15
+    Q4 2026: 0.12
+    Q1 2027: 0.07
+  annual_forecast:
+    2021 Yearly: -0.85
+    2022 Yearly: 0.52
+    2023 Yearly: 0.39
+    2024 Yearly: 0.33
+    2025 Yearly: 0.42
+    2026 Yearly: 0.56
+    2027 Yearly: 0.58
+    2028 Yearly: 0.57

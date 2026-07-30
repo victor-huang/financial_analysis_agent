@@ -1,0 +1,74 @@
+currency: USD
+company_name: Amazon.com, Inc.
+sector: Retail Trade
+market_cap_billions: 2530.0
+revenue:
+  quarterly:
+    Q3 2024: 158880.0
+    Q4 2024: 187790.0
+    Q1 2025: 155670.0
+    Q2 2025: 167700.0
+    Q3 2025: 180170.0
+    Q4 2025: 213390.0
+    Q1 2026: 181520.0
+  annual:
+    2021 Yearly: 469820.0
+    2022 Yearly: 513980.0
+    2023 Yearly: 574780.0
+    2024 Yearly: 637960.0
+    2025 Yearly: 716920.0
+  quarterly_forecast:
+    Q3 2024: 157280.0
+    Q4 2024: 187340.0
+    Q1 2025: 155150.0
+    Q2 2025: 162430.0
+    Q3 2025: 177910.0
+    Q4 2025: 211450.0
+    Q1 2026: 177280.0
+    Q2 2026: 197030.0
+    Q3 2026: 203910.0
+    Q4 2026: 242760.0
+    Q1 2027: 206470.0
+  annual_forecast:
+    2023 Yearly: 470300.0
+    2024 Yearly: 510350.0
+    2025 Yearly: 570870.0
+    2026 Yearly: 637880.0
+    2027 Yearly: 714690.0
+eps:
+  quarterly:
+    Q3 2024: 1.43
+    Q4 2024: 1.86
+    Q1 2025: 1.59
+    Q2 2025: 1.68
+    Q3 2025: 1.95
+    Q4 2025: 1.95
+    Q1 2026: 2.78
+  annual:
+    2021 Yearly: 3.24
+    2022 Yearly: -0.27
+    2023 Yearly: 2.9
+    2024 Yearly: 5.53
+    2025 Yearly: 7.17
+  quarterly_forecast:
+    Q3 2024: 1.14
+    Q4 2024: 1.49
+    Q1 2025: 1.37
+    Q2 2025: 1.33
+    Q3 2025: 1.57
+    Q4 2025: 1.97
+    Q1 2026: 1.63
+    Q2 2026: 1.82
+    Q3 2026: 1.93
+    Q4 2026: 2.41
+    Q1 2027: 2.33
+  annual_forecast:
+    2021 Yearly: 2.05
+    2022 Yearly: -0.11
+    2023 Yearly: 2.7
+    2024 Yearly: 5.15
+    2025 Yearly: 7.15
+    2026 Yearly: 8.87
+    2027 Yearly: 10.09
+    2028 Yearly: 13.17
+    2029 Yearly: 15.46

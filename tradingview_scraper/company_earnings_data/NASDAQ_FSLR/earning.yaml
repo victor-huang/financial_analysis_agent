@@ -1,0 +1,78 @@
+currency: USD
+company_name: First Solar, Inc.
+sector: Electronic Technology
+market_cap_billions: 22.14
+revenue:
+  quarterly:
+    Q3 2024: 887.67
+    Q4 2024: 1510.0
+    Q1 2025: 844.57
+    Q2 2025: 1100.0
+    Q3 2025: 1590.0
+    Q4 2025: 1680.0
+    Q1 2026: 1040.0
+  annual:
+    2021 Yearly: 2920.0
+    2022 Yearly: 2620.0
+    2023 Yearly: 3320.0
+    2024 Yearly: 4210.0
+    2025 Yearly: 5220.0
+  quarterly_forecast:
+    Q3 2024: 1060.0
+    Q4 2024: 1480.0
+    Q1 2025: 842.51
+    Q2 2025: 1040.0
+    Q3 2025: 1580.0
+    Q4 2025: 1570.0
+    Q1 2026: 1030.0
+    Q2 2026: 1060.0
+    Q3 2026: 1390.0
+    Q4 2026: 1550.0
+    Q1 2027: 1300.0
+  annual_forecast:
+    2021 Yearly: 2930.0
+    2022 Yearly: 2620.0
+    2023 Yearly: 3480.0
+    2024 Yearly: 4170.0
+    2025 Yearly: 5110.0
+    2026 Yearly: 5080.0
+    2027 Yearly: 5930.0
+    2028 Yearly: 6550.0
+    2029 Yearly: 7190.0
+eps:
+  quarterly:
+    Q3 2024: 2.91
+    Q4 2024: 3.65
+    Q1 2025: 1.95
+    Q2 2025: 3.18
+    Q3 2025: 4.24
+    Q4 2025: 4.84
+    Q1 2026: 3.22
+  annual:
+    2021 Yearly: 4.38
+    2022 Yearly: -0.41
+    2023 Yearly: 7.74
+    2024 Yearly: 12.02
+    2025 Yearly: 14.21
+  quarterly_forecast:
+    Q3 2024: 3.15
+    Q4 2024: 4.7
+    Q1 2025: 2.49
+    Q2 2025: 2.66
+    Q3 2025: 4.24
+    Q4 2025: 5.14
+    Q1 2026: 3.03
+    Q2 2026: 2.9
+    Q3 2026: 5.17
+    Q4 2026: 5.91
+    Q1 2027: 5.1
+  annual_forecast:
+    2021 Yearly: 4.22
+    2022 Yearly: -0.74
+    2023 Yearly: 7.64
+    2024 Yearly: 13.12
+    2025 Yearly: 14.59
+    2026 Yearly: 17.69
+    2027 Yearly: 24.05
+    2028 Yearly: 29.6
+    2029 Yearly: 34.97

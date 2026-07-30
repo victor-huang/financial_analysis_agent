@@ -1,0 +1,76 @@
+currency: USD
+company_name: Cohu, Inc.
+sector: Electronic Technology
+market_cap_billions: 2.19
+revenue:
+  quarterly:
+    Q3 2024: 95.34
+    Q4 2024: 94.12
+    Q1 2025: 96.8
+    Q2 2025: 107.68
+    Q3 2025: 126.25
+    Q4 2025: 122.23
+    Q1 2026: 125.12
+  annual:
+    2021 Yearly: 887.21
+    2022 Yearly: 812.77
+    2023 Yearly: 636.32
+    2024 Yearly: 401.78
+    2025 Yearly: 452.96
+  quarterly_forecast:
+    Q3 2024: 95.75
+    Q4 2024: 95.11
+    Q1 2025: 96.62
+    Q2 2025: 106.0
+    Q3 2025: 124.98
+    Q4 2025: 122.1
+    Q1 2026: 122.14
+    Q2 2026: 144.2
+    Q3 2026: 146.39
+    Q4 2026: 143.35
+    Q1 2027: 150.44
+  annual_forecast:
+    2021 Yearly: 884.43
+    2022 Yearly: 810.19
+    2023 Yearly: 635.93
+    2024 Yearly: 402.85
+    2025 Yearly: 452.8
+    2026 Yearly: 558.76
+    2027 Yearly: 683.66
+    2028 Yearly: 758.01
+eps:
+  quarterly:
+    Q3 2024: -0.08
+    Q4 2024: -0.15
+    Q1 2025: -0.02
+    Q2 2025: 0.02
+    Q3 2025: -0.06
+    Q4 2025: -0.15
+    Q1 2026: 0.01
+  annual:
+    2021 Yearly: 3.2
+    2022 Yearly: 2.91
+    2023 Yearly: 1.62
+    2024 Yearly: -0.23
+    2025 Yearly: -0.22
+  quarterly_forecast:
+    Q3 2024: -0.06
+    Q4 2024: -0.11
+    Q1 2025: -0.17
+    Q2 2025: -0.01
+    Q3 2025: -0.2
+    Q4 2025: 0.06
+    Q1 2026: 0.03
+    Q2 2026: 0.14
+    Q3 2026: 0.22
+    Q4 2026: 0.2
+    Q1 2027: 0.25
+  annual_forecast:
+    2021 Yearly: 3.02
+    2022 Yearly: 2.81
+    2023 Yearly: 1.61
+    2024 Yearly: -0.2
+    2025 Yearly: 0.0
+    2026 Yearly: 0.58
+    2027 Yearly: 1.48
+    2028 Yearly: 2.23

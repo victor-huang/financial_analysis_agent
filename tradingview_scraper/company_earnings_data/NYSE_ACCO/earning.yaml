@@ -1,0 +1,74 @@
+currency: USD
+company_name: Acco Brands Corporation
+sector: Producer Manufacturing
+market_cap_billions: 0.39025
+revenue:
+  quarterly:
+    Q3 2024: 420.9
+    Q4 2024: 448.1
+    Q1 2025: 317.4
+    Q2 2025: 394.8
+    Q3 2025: 383.7
+    Q4 2025: 428.8
+    Q1 2026: 343.7
+  annual:
+    2021 Yearly: 2029.9999999999998
+    2022 Yearly: 1950.0
+    2023 Yearly: 1830.0
+    2024 Yearly: 1670.0
+    2025 Yearly: 1520.0
+  quarterly_forecast:
+    Q3 2024: 418.2
+    Q4 2024: 455.06
+    Q1 2025: 318.75
+    Q2 2025: 389.8
+    Q3 2025: 391.07
+    Q4 2025: 431.93
+    Q1 2026: 319.93
+    Q2 2026: 402.53
+    Q3 2026: 381.27
+    Q4 2026: 428.47
+    Q1 2027: 328.5
+  annual_forecast:
+    2021 Yearly: 2020.0
+    2022 Yearly: 1950.0
+    2023 Yearly: 1820.0
+    2024 Yearly: 1670.0
+    2025 Yearly: 1530.0
+    2026 Yearly: 1560.0
+    2027 Yearly: 1570.0
+eps:
+  quarterly:
+    Q3 2024: 0.23
+    Q4 2024: 0.39
+    Q1 2025: -0.02
+    Q2 2025: 0.28
+    Q3 2025: 0.21
+    Q4 2025: 0.38
+    Q1 2026: 0.02
+  annual:
+    2021 Yearly: 1.41
+    2022 Yearly: 1.04
+    2023 Yearly: 1.09
+    2024 Yearly: 1.02
+    2025 Yearly: 0.84
+  quarterly_forecast:
+    Q3 2024: 0.23
+    Q4 2024: 0.41
+    Q1 2025: -0.04
+    Q2 2025: 0.29
+    Q3 2025: 0.22
+    Q4 2025: 0.38
+    Q1 2026: -0.05
+    Q2 2026: 0.27
+    Q3 2026: 0.21
+    Q4 2026: 0.37
+    Q1 2027: -0.02
+  annual_forecast:
+    2021 Yearly: 1.35
+    2022 Yearly: 1.06
+    2023 Yearly: 1.03
+    2024 Yearly: 1.04
+    2025 Yearly: 0.84
+    2026 Yearly: 0.87
+    2027 Yearly: 0.96

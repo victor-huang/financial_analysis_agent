@@ -1,0 +1,78 @@
+currency: USD
+company_name: Innoviva, Inc.
+sector: Health Technology
+market_cap_billions: 1.57
+revenue:
+  quarterly:
+    Q3 2024: 89.51
+    Q4 2024: 91.81
+    Q1 2025: 88.63
+    Q2 2025: 100.28
+    Q3 2025: 107.8
+    Q4 2025: 114.61
+    Q1 2026: 97.99
+  annual:
+    2021 Yearly: 391.87
+    2022 Yearly: 331.34
+    2023 Yearly: 310.46
+    2024 Yearly: 358.71
+    2025 Yearly: 411.33
+  quarterly_forecast:
+    Q3 2024: 76.91
+    Q4 2024: 86.8
+    Q1 2025: 82.67
+    Q2 2025: 92.04
+    Q3 2025: 91.36
+    Q4 2025: 102.62
+    Q1 2026: 101.57
+    Q2 2026: 110.98
+    Q3 2026: 113.48
+    Q4 2026: 119.17
+    Q1 2027: 119.27
+  annual_forecast:
+    2021 Yearly: 292.18
+    2022 Yearly: 337.53
+    2023 Yearly: 300.14
+    2024 Yearly: 353.7
+    2025 Yearly: 399.31
+    2026 Yearly: 440.56
+    2027 Yearly: 483.98
+    2028 Yearly: 511.6
+    2029 Yearly: 568.87
+eps:
+  quarterly:
+    Q3 2024: 0.02
+    Q4 2024: 0.26
+    Q1 2025: -0.74
+    Q2 2025: 0.77
+    Q3 2025: 1.08
+    Q4 2025: 1.94
+    Q1 2026: 2.22
+  annual:
+    2021 Yearly: 2.87
+    2022 Yearly: 2.37
+    2023 Yearly: 2.2
+    2024 Yearly: 0.36
+    2025 Yearly: 3.3
+  quarterly_forecast:
+    Q3 2024: 0.27
+    Q4 2024: 0.37
+    Q1 2025: 0.29
+    Q2 2025: 0.5
+    Q3 2025: 0.46
+    Q4 2025: 0.55
+    Q1 2026: 0.39
+    Q2 2026: 0.44
+    Q3 2026: 0.51
+    Q4 2026: 0.54
+    Q1 2027: 0.53
+  annual_forecast:
+    2021 Yearly: 2.02
+    2022 Yearly: 3.71
+    2023 Yearly: 1.67
+    2024 Yearly: 0.42
+    2025 Yearly: 1.9
+    2026 Yearly: 3.57
+    2027 Yearly: 2.24
+    2028 Yearly: 2.05
+    2029 Yearly: 1.89

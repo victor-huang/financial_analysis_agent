@@ -1,0 +1,78 @@
+currency: USD
+company_name: LPL Financial Holdings Inc.
+sector: Finance
+market_cap_billions: 27.13
+revenue:
+  quarterly:
+    Q3 2024: 3110.0
+    Q4 2024: 3510.0
+    Q1 2025: 3670.0
+    Q2 2025: 3840.0
+    Q3 2025: 4550.0
+    Q4 2025: 4930.0
+    Q1 2026: 4940.0
+  annual:
+    2021 Yearly: 7720.0
+    2022 Yearly: 8600.0
+    2023 Yearly: 10050.0
+    2024 Yearly: 12390.0
+    2025 Yearly: 16990.0
+  quarterly_forecast:
+    Q3 2024: 3040.0
+    Q4 2024: 3340.0
+    Q1 2025: 3610.0
+    Q2 2025: 3770.0
+    Q3 2025: 4350.0
+    Q4 2025: 4910.0
+    Q1 2026: 4980.0
+    Q2 2026: 5040.0
+    Q3 2026: 5320.0
+    Q4 2026: 5490.0
+    Q1 2027: 5650.0
+  annual_forecast:
+    2021 Yearly: 7680.0
+    2022 Yearly: 8590.0
+    2023 Yearly: 9910.0
+    2024 Yearly: 12100.0
+    2025 Yearly: 16820.0
+    2026 Yearly: 20760.0
+    2027 Yearly: 23690.0
+    2028 Yearly: 26570.0
+    2029 Yearly: 31220.0
+eps:
+  quarterly:
+    Q3 2024: 4.16
+    Q4 2024: 4.25
+    Q1 2025: 5.15
+    Q2 2025: 4.51
+    Q3 2025: 5.2
+    Q4 2025: 5.23
+    Q1 2026: 5.6
+  annual:
+    2021 Yearly: 7.02
+    2022 Yearly: 11.52
+    2023 Yearly: 15.72
+    2024 Yearly: 16.51
+    2025 Yearly: 20.09
+  quarterly_forecast:
+    Q3 2024: 3.71
+    Q4 2024: 3.96
+    Q1 2025: 4.68
+    Q2 2025: 4.23
+    Q3 2025: 4.49
+    Q4 2025: 4.92
+    Q1 2026: 5.48
+    Q2 2026: 5.39
+    Q3 2026: 5.97
+    Q4 2026: 6.4
+    Q1 2027: 7.07
+  annual_forecast:
+    2021 Yearly: 6.89
+    2022 Yearly: 11.32
+    2023 Yearly: 15.55
+    2024 Yearly: 16.2
+    2025 Yearly: 19.81
+    2026 Yearly: 23.38
+    2027 Yearly: 29.53
+    2028 Yearly: 35.46
+    2029 Yearly: 39.76

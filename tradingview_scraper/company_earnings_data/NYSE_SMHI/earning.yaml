@@ -1,0 +1,70 @@
+currency: USD
+company_name: SEACOR Marine Holdings Inc.
+sector: Transportation
+market_cap_billions: 0.25817
+revenue:
+  quarterly:
+    Q4 2024: 69.81
+    Q1 2025: 55.5
+    Q2 2025: 60.81
+    Q3 2025: 59.19
+    Q4 2025: 52.33
+    Q1 2026: 44.28
+    Q2 2026: 54.63
+  annual:
+    2021 Yearly: 170.94
+    2022 Yearly: 217.32
+    2023 Yearly: 279.51
+    2024 Yearly: 271.36
+    2025 Yearly: 227.83
+  quarterly_forecast:
+    Q4 2024: 65.58
+    Q1 2025: 65.29
+    Q2 2025: 69.35
+    Q3 2025: 65.9
+    Q4 2025: 55.8
+    Q1 2026: 49.3
+    Q2 2026: 45.6
+    Q3 2026: 52.99
+    Q4 2026: 45.78
+  annual_forecast:
+    2021 Yearly: 169.0
+    2022 Yearly: 218.0
+    2023 Yearly: 266.0
+    2024 Yearly: 274.57
+    2025 Yearly: 231.3
+    2026 Yearly: 197.68
+    2027 Yearly: 209.58
+    2028 Yearly: 257.0
+    2029 Yearly: 249.0
+eps:
+  quarterly:
+    Q4 2024: -0.94
+    Q1 2025: -0.56
+    Q2 2025: -0.26
+    Q3 2025: 0.35
+    Q4 2025: -0.57
+    Q1 2026: -0.61
+    Q2 2026: 0.12
+  annual:
+    2021 Yearly: 0.4
+    2022 Yearly: -2.69
+    2023 Yearly: -0.34
+    2024 Yearly: -2.82
+    2025 Yearly: -1.06
+  quarterly_forecast:
+    Q4 2024: -0.67
+    Q1 2025: -0.57
+    Q2 2025: -0.27
+    Q3 2025: -0.59
+    Q4 2025: -0.65
+    Q1 2026: -0.92
+    Q2 2026: -1.24
+    Q3 2026: -0.61
+    Q4 2026: -0.92
+  annual_forecast:
+    2023 Yearly: -2.84
+    2024 Yearly: -2.2
+    2025 Yearly: -1.05
+    2026 Yearly: -2.44
+    2027 Yearly: -1.12

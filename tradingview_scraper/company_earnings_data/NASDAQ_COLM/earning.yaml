@@ -1,0 +1,78 @@
+currency: USD
+company_name: Columbia Sportswear Company
+sector: Consumer Non-Durables
+market_cap_billions: 3.21
+revenue:
+  quarterly:
+    Q3 2024: 931.77
+    Q4 2024: 1100.0
+    Q1 2025: 778.45
+    Q2 2025: 605.25
+    Q3 2025: 943.42
+    Q4 2025: 1070.0
+    Q1 2026: 779.01
+  annual:
+    2021 Yearly: 3130.0
+    2022 Yearly: 3460.0
+    2023 Yearly: 3490.0
+    2024 Yearly: 3370.0
+    2025 Yearly: 3400.0
+  quarterly_forecast:
+    Q3 2024: 937.35
+    Q4 2024: 1080.0
+    Q1 2025: 757.3
+    Q2 2025: 588.52
+    Q3 2025: 922.15
+    Q4 2025: 1030.0
+    Q1 2026: 758.26
+    Q2 2026: 606.97
+    Q3 2026: 972.35
+    Q4 2026: 1120.0
+    Q1 2027: 809.45
+  annual_forecast:
+    2021 Yearly: 3060.0
+    2022 Yearly: 3450.0
+    2023 Yearly: 3510.0
+    2024 Yearly: 3350.0
+    2025 Yearly: 3360.0
+    2026 Yearly: 3470.0
+    2027 Yearly: 3590.0
+    2028 Yearly: 3670.0
+    2029 Yearly: 3830.0
+eps:
+  quarterly:
+    Q3 2024: 1.56
+    Q4 2024: 1.8
+    Q1 2025: 0.75
+    Q2 2025: -0.19
+    Q3 2025: 1.41
+    Q4 2025: 1.73
+    Q1 2026: 0.65
+  annual:
+    2021 Yearly: 5.33
+    2022 Yearly: 5.38
+    2023 Yearly: 4.09
+    2024 Yearly: 3.82
+    2025 Yearly: 3.69
+  quarterly_forecast:
+    Q3 2024: 1.41
+    Q4 2024: 1.89
+    Q1 2025: 0.66
+    Q2 2025: -0.23
+    Q3 2025: 1.21
+    Q4 2025: 1.19
+    Q1 2026: 0.35
+    Q2 2026: -0.39
+    Q3 2026: 1.55
+    Q4 2026: 2.04
+    Q1 2027: 0.72
+  annual_forecast:
+    2021 Yearly: 4.76
+    2022 Yearly: 5.2
+    2023 Yearly: 4.51
+    2024 Yearly: 3.92
+    2025 Yearly: 3.18
+    2026 Yearly: 3.85
+    2027 Yearly: 4.23
+    2028 Yearly: 4.35
+    2029 Yearly: 4.03

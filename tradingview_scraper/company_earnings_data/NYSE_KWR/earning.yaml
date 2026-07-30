@@ -1,0 +1,76 @@
+currency: USD
+company_name: Quaker Houghton
+sector: Process Industries
+market_cap_billions: 2.69
+revenue:
+  quarterly:
+    Q3 2024: 462.27
+    Q4 2024: 444.09
+    Q1 2025: 442.91
+    Q2 2025: 483.4
+    Q3 2025: 493.84
+    Q4 2025: 468.48
+    Q1 2026: 480.48
+  annual:
+    2021 Yearly: 1760.0
+    2022 Yearly: 1940.0
+    2023 Yearly: 1950.0
+    2024 Yearly: 1840.0
+    2025 Yearly: 1890.0
+  quarterly_forecast:
+    Q3 2024: 469.17
+    Q4 2024: 430.47
+    Q1 2025: 454.75
+    Q2 2025: 461.14
+    Q3 2025: 475.06
+    Q4 2025: 465.17
+    Q1 2026: 463.7
+    Q2 2026: 504.63
+    Q3 2026: 514.55
+    Q4 2026: 489.9
+    Q1 2027: 516.46
+  annual_forecast:
+    2021 Yearly: 1760.0
+    2022 Yearly: 1920.0
+    2023 Yearly: 1960.0
+    2024 Yearly: 1830.0
+    2025 Yearly: 1880.0
+    2026 Yearly: 1990.0
+    2027 Yearly: 2080.0
+    2028 Yearly: 2170.0
+eps:
+  quarterly:
+    Q3 2024: 1.89
+    Q4 2024: 1.33
+    Q1 2025: 1.58
+    Q2 2025: 1.71
+    Q3 2025: 2.08
+    Q4 2025: 1.65
+    Q1 2026: 1.63
+  annual:
+    2021 Yearly: 6.85
+    2022 Yearly: 5.87
+    2023 Yearly: 7.65
+    2024 Yearly: 7.44
+    2025 Yearly: 7.02
+  quarterly_forecast:
+    Q3 2024: 2.08
+    Q4 2024: 1.52
+    Q1 2025: 1.57
+    Q2 2025: 1.83
+    Q3 2025: 1.98
+    Q4 2025: 1.75
+    Q1 2026: 1.62
+    Q2 2026: 1.66
+    Q3 2026: 1.93
+    Q4 2026: 1.79
+    Q1 2027: 1.93
+  annual_forecast:
+    2021 Yearly: 7.11
+    2022 Yearly: 5.71
+    2023 Yearly: 7.56
+    2024 Yearly: 7.65
+    2025 Yearly: 7.12
+    2026 Yearly: 7.01
+    2027 Yearly: 8.76
+    2028 Yearly: 10.38

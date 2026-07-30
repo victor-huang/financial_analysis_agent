@@ -1,0 +1,78 @@
+currency: USD
+company_name: Coinbase Global, Inc.
+sector: Finance
+market_cap_billions: 43.1
+revenue:
+  quarterly:
+    Q3 2024: 1210.0
+    Q4 2024: 2270.0
+    Q1 2025: 2029.9999999999998
+    Q2 2025: 1500.0
+    Q3 2025: 1870.0
+    Q4 2025: 1780.0
+    Q1 2026: 1410.0
+  annual:
+    2021 Yearly: 7840.0
+    2022 Yearly: 3190.0
+    2023 Yearly: 3110.0
+    2024 Yearly: 6560.0
+    2025 Yearly: 7180.0
+  quarterly_forecast:
+    Q3 2024: 1260.0
+    Q4 2024: 1840.0
+    Q1 2025: 2070.0
+    Q2 2025: 1590.0
+    Q3 2025: 1800.0
+    Q4 2025: 1810.0
+    Q1 2026: 1490.0
+    Q2 2026: 1290.0
+    Q3 2026: 1470.0
+    Q4 2026: 1650.0
+    Q1 2027: 1720.0
+  annual_forecast:
+    2021 Yearly: 7320.0
+    2022 Yearly: 3140.0
+    2023 Yearly: 2960.0
+    2024 Yearly: 6060.0
+    2025 Yearly: 7200.0
+    2026 Yearly: 5810.0
+    2027 Yearly: 7420.0
+    2028 Yearly: 8400.0
+    2029 Yearly: 8870.0
+eps:
+  quarterly:
+    Q3 2024: 0.28
+    Q4 2024: 4.66
+    Q1 2025: 0.24
+    Q2 2025: 5.14
+    Q3 2025: 1.5
+    Q4 2025: -2.49
+    Q1 2026: -1.49
+  annual:
+    2021 Yearly: 14.5
+    2022 Yearly: -11.83
+    2023 Yearly: 0.37
+    2024 Yearly: 9.48
+    2025 Yearly: 4.45
+  quarterly_forecast:
+    Q3 2024: 0.41
+    Q4 2024: 2.26
+    Q1 2025: 1.94
+    Q2 2025: 1.25
+    Q3 2025: 1.15
+    Q4 2025: 0.99
+    Q1 2026: 0.06
+    Q2 2026: -0.44
+    Q3 2026: 0.44
+    Q4 2026: 0.77
+    Q1 2027: 0.85
+  annual_forecast:
+    2021 Yearly: 13.3
+    2022 Yearly: -11.91
+    2023 Yearly: -0.77
+    2024 Yearly: 7.01
+    2025 Yearly: 7.5
+    2026 Yearly: -0.31
+    2027 Yearly: 4.74
+    2028 Yearly: 6.46
+    2029 Yearly: 6.39

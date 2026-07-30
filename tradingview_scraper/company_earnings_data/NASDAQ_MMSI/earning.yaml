@@ -1,0 +1,78 @@
+currency: USD
+company_name: Merit Medical Systems, Inc.
+sector: Health Technology
+market_cap_billions: 4.97
+revenue:
+  quarterly:
+    Q3 2024: 339.85
+    Q4 2024: 355.16
+    Q1 2025: 355.35
+    Q2 2025: 382.46
+    Q3 2025: 384.2
+    Q4 2025: 393.94
+    Q1 2026: 381.88
+  annual:
+    2021 Yearly: 1070.0
+    2022 Yearly: 1150.0
+    2023 Yearly: 1260.0
+    2024 Yearly: 1360.0
+    2025 Yearly: 1520.0
+  quarterly_forecast:
+    Q3 2024: 334.6
+    Q4 2024: 351.62
+    Q1 2025: 352.54
+    Q2 2025: 374.15
+    Q3 2025: 371.92
+    Q4 2025: 389.94
+    Q1 2026: 377.59
+    Q2 2026: 405.25
+    Q3 2026: 408.63
+    Q4 2026: 423.97
+    Q1 2027: 406.9
+  annual_forecast:
+    2021 Yearly: 1070.0
+    2022 Yearly: 1150.0
+    2023 Yearly: 1250.0
+    2024 Yearly: 1350.0
+    2025 Yearly: 1510.0
+    2026 Yearly: 1620.0
+    2027 Yearly: 1720.0
+    2028 Yearly: 1820.0
+    2029 Yearly: 1930.0
+eps:
+  quarterly:
+    Q3 2024: 0.86
+    Q4 2024: 0.93
+    Q1 2025: 0.86
+    Q2 2025: 1.01
+    Q3 2025: 0.92
+    Q4 2025: 1.04
+    Q1 2026: 0.94
+  annual:
+    2021 Yearly: 2.37
+    2022 Yearly: 2.7
+    2023 Yearly: 3.01
+    2024 Yearly: 3.46
+    2025 Yearly: 3.83
+  quarterly_forecast:
+    Q3 2024: 0.8
+    Q4 2024: 0.83
+    Q1 2025: 0.75
+    Q2 2025: 0.85
+    Q3 2025: 0.83
+    Q4 2025: 0.95
+    Q1 2026: 0.83
+    Q2 2026: 0.96
+    Q3 2026: 1.02
+    Q4 2026: 1.14
+    Q1 2027: 0.97
+  annual_forecast:
+    2021 Yearly: 2.17
+    2022 Yearly: 2.58
+    2023 Yearly: 2.97
+    2024 Yearly: 3.36
+    2025 Yearly: 3.75
+    2026 Yearly: 4.07
+    2027 Yearly: 4.4
+    2028 Yearly: 4.75
+    2029 Yearly: 5.03

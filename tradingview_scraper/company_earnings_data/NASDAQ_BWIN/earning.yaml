@@ -1,0 +1,76 @@
+currency: USD
+company_name: The Baldwin Insurance Group, Inc.
+sector: Finance
+market_cap_billions: 3.81
+revenue:
+  quarterly:
+    Q3 2024: 338.94
+    Q4 2024: 329.89
+    Q1 2025: 413.4
+    Q2 2025: 378.81
+    Q3 2025: 365.39
+    Q4 2025: 347.28
+    Q1 2026: 532.24
+  annual:
+    2021 Yearly: 567.29
+    2022 Yearly: 980.72
+    2023 Yearly: 1210.0
+    2024 Yearly: 1390.0
+    2025 Yearly: 1500.0
+  quarterly_forecast:
+    Q3 2024: 345.6
+    Q4 2024: 326.48
+    Q1 2025: 417.49
+    Q2 2025: 374.88
+    Q3 2025: 362.75
+    Q4 2025: 352.19
+    Q1 2026: 524.07
+    Q2 2026: 492.33
+    Q3 2026: 492.82
+    Q4 2026: 489.16
+    Q1 2027: 585.86
+  annual_forecast:
+    2021 Yearly: 548.63
+    2022 Yearly: 968.44
+    2023 Yearly: 1210.0
+    2024 Yearly: 1380.0
+    2025 Yearly: 1510.0
+    2026 Yearly: 2009.9999999999998
+    2027 Yearly: 2200.0
+    2028 Yearly: 2440.0
+eps:
+  quarterly:
+    Q3 2024: 0.33
+    Q4 2024: 0.27
+    Q1 2025: 0.65
+    Q2 2025: 0.42
+    Q3 2025: 0.31
+    Q4 2025: 0.31
+    Q1 2026: 0.63
+  annual:
+    2021 Yearly: 0.8
+    2022 Yearly: 1.03
+    2023 Yearly: 1.12
+    2024 Yearly: 1.5
+    2025 Yearly: 1.67
+  quarterly_forecast:
+    Q3 2024: 0.34
+    Q4 2024: 0.26
+    Q1 2025: 0.64
+    Q2 2025: 0.42
+    Q3 2025: 0.3
+    Q4 2025: 0.29
+    Q1 2026: 0.63
+    Q2 2026: 0.47
+    Q3 2026: 0.44
+    Q4 2026: 0.47
+    Q1 2027: 0.8
+  annual_forecast:
+    2021 Yearly: 0.77
+    2022 Yearly: 1.01
+    2023 Yearly: 1.1
+    2024 Yearly: 1.48
+    2025 Yearly: 1.66
+    2026 Yearly: 2.02
+    2027 Yearly: 2.52
+    2028 Yearly: 3.03

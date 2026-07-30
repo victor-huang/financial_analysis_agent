@@ -1,0 +1,74 @@
+currency: USD
+company_name: First Business Financial Services, Inc.
+sector: Finance
+market_cap_billions: 0.56244
+revenue:
+  quarterly:
+    Q3 2024: 38.07
+    Q4 2024: 41.15
+    Q1 2025: 40.84
+    Q2 2025: 41.04
+    Q3 2025: 44.29
+    Q4 2025: 42.22
+    Q1 2026: 44.29
+  annual:
+    2021 Yearly: 112.73
+    2022 Yearly: 127.04
+    2023 Yearly: 143.94
+    2024 Yearly: 153.47
+    2025 Yearly: 168.39
+  quarterly_forecast:
+    Q3 2024: 38.77
+    Q4 2024: 39.31
+    Q1 2025: 40.13
+    Q2 2025: 41.55
+    Q3 2025: 42.3
+    Q4 2025: 42.8
+    Q1 2026: 43.4
+    Q2 2026: 45.42
+    Q3 2026: 46.45
+    Q4 2026: 47.38
+    Q1 2027: 47.52
+  annual_forecast:
+    2021 Yearly: 112.88
+    2022 Yearly: 127.87
+    2023 Yearly: 144.6
+    2024 Yearly: 151.53
+    2025 Yearly: 168.47
+    2026 Yearly: 183.25
+    2027 Yearly: 197.95
+eps:
+  quarterly:
+    Q3 2024: 1.24
+    Q4 2024: 1.71
+    Q1 2025: 1.32
+    Q2 2025: 1.35
+    Q3 2025: 1.7
+    Q4 2025: 1.58
+    Q1 2026: 1.44
+  annual:
+    2021 Yearly: 4.17
+    2022 Yearly: 4.75
+    2023 Yearly: 4.33
+    2024 Yearly: 5.2
+    2025 Yearly: 5.94
+  quarterly_forecast:
+    Q3 2024: 1.19
+    Q4 2024: 1.27
+    Q1 2025: 1.27
+    Q2 2025: 1.33
+    Q3 2025: 1.39
+    Q4 2025: 1.39
+    Q1 2026: 1.42
+    Q2 2026: 1.56
+    Q3 2026: 1.59
+    Q4 2026: 1.63
+    Q1 2027: 1.56
+  annual_forecast:
+    2021 Yearly: 4.08
+    2022 Yearly: 4.69
+    2023 Yearly: 4.35
+    2024 Yearly: 4.79
+    2025 Yearly: 5.72
+    2026 Yearly: 6.22
+    2027 Yearly: 6.73

@@ -1,0 +1,76 @@
+currency: USD
+company_name: Cerus Corporation
+sector: Health Technology
+market_cap_billions: 0.5790700000000001
+revenue:
+  quarterly:
+    Q3 2024: 50.66
+    Q4 2024: 56.75
+    Q1 2025: 48.9
+    Q2 2025: 60.1
+    Q3 2025: 60.2
+    Q4 2025: 64.6
+    Q1 2026: 59.9
+  annual:
+    2021 Yearly: 159.52
+    2022 Yearly: 188.31
+    2023 Yearly: 186.8
+    2024 Yearly: 201.32
+    2025 Yearly: 233.8
+  quarterly_forecast:
+    Q3 2024: 50.82
+    Q4 2024: 54.39
+    Q1 2025: 49.61
+    Q2 2025: 54.37
+    Q3 2025: 57.79
+    Q4 2025: 61.83
+    Q1 2026: 55.68
+    Q2 2026: 62.9
+    Q3 2026: 63.43
+    Q4 2026: 66.52
+    Q1 2027: 63.04
+  annual_forecast:
+    2021 Yearly: 149.11
+    2022 Yearly: 186.16
+    2023 Yearly: 187.01
+    2024 Yearly: 198.96
+    2025 Yearly: 231.03
+    2026 Yearly: 252.78
+    2027 Yearly: 274.17
+    2028 Yearly: 312.0
+eps:
+  quarterly:
+    Q3 2024: -0.02
+    Q4 2024: -0.01
+    Q1 2025: -0.04
+    Q2 2025: -0.03
+    Q3 2025: 0.0
+    Q4 2025: -0.01
+    Q1 2026: -0.01
+  annual:
+    2021 Yearly: -0.32
+    2022 Yearly: -0.24
+    2023 Yearly: -0.21
+    2024 Yearly: -0.11
+    2025 Yearly: -0.08
+  quarterly_forecast:
+    Q3 2024: -0.03
+    Q4 2024: -0.01
+    Q1 2025: -0.04
+    Q2 2025: -0.03
+    Q3 2025: -0.03
+    Q4 2025: -0.01
+    Q1 2026: -0.04
+    Q2 2026: -0.01
+    Q3 2026: -0.01
+    Q4 2026: 0.0
+    Q1 2027: -0.01
+  annual_forecast:
+    2021 Yearly: -0.34
+    2022 Yearly: -0.22
+    2023 Yearly: -0.22
+    2024 Yearly: -0.11
+    2025 Yearly: -0.08
+    2026 Yearly: -0.03
+    2027 Yearly: 0.0
+    2028 Yearly: 0.1

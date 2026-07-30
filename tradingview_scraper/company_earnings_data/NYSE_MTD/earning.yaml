@@ -1,0 +1,78 @@
+currency: USD
+company_name: Mettler-Toledo International, Inc.
+sector: Health Technology
+market_cap_billions: 27.9
+revenue:
+  quarterly:
+    Q3 2024: 954.53
+    Q4 2024: 1050.0
+    Q1 2025: 883.74
+    Q2 2025: 983.22
+    Q3 2025: 1030.0
+    Q4 2025: 1130.0
+    Q1 2026: 947.13
+  annual:
+    2021 Yearly: 3720.0
+    2022 Yearly: 3920.0
+    2023 Yearly: 3790.0
+    2024 Yearly: 3870.0
+    2025 Yearly: 4030.0000000000005
+  quarterly_forecast:
+    Q3 2024: 944.75
+    Q4 2024: 1010.0
+    Q1 2025: 876.56
+    Q2 2025: 957.65
+    Q3 2025: 997.29
+    Q4 2025: 1100.0
+    Q1 2026: 943.14
+    Q2 2026: 1030.0
+    Q3 2026: 1070.0
+    Q4 2026: 1190.0
+    Q1 2027: 989.33
+  annual_forecast:
+    2021 Yearly: 3700.0
+    2022 Yearly: 3890.0
+    2023 Yearly: 3820.0
+    2024 Yearly: 3840.0
+    2025 Yearly: 4000.0
+    2026 Yearly: 4230.0
+    2027 Yearly: 4430.0
+    2028 Yearly: 4670.0
+    2029 Yearly: 4890.0
+eps:
+  quarterly:
+    Q3 2024: 10.21
+    Q4 2024: 12.41
+    Q1 2025: 8.19
+    Q2 2025: 10.09
+    Q3 2025: 11.15
+    Q4 2025: 13.36
+    Q1 2026: 8.91
+  annual:
+    2021 Yearly: 34.01
+    2022 Yearly: 39.65
+    2023 Yearly: 38.03
+    2024 Yearly: 41.11
+    2025 Yearly: 42.73
+  quarterly_forecast:
+    Q3 2024: 10.01
+    Q4 2024: 11.72
+    Q1 2025: 7.88
+    Q2 2025: 9.6
+    Q3 2025: 10.66
+    Q4 2025: 12.8
+    Q1 2026: 8.71
+    Q2 2026: 10.8
+    Q3 2026: 12.08
+    Q4 2026: 14.92
+    Q1 2027: 10.02
+  annual_forecast:
+    2021 Yearly: 33.46
+    2022 Yearly: 39.07
+    2023 Yearly: 38.8
+    2024 Yearly: 40.45
+    2025 Yearly: 42.19
+    2026 Yearly: 46.67
+    2027 Yearly: 51.12
+    2028 Yearly: 56.87
+    2029 Yearly: 63.2

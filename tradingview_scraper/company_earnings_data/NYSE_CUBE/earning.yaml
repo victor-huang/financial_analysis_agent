@@ -1,0 +1,78 @@
+currency: USD
+company_name: CubeSmart
+sector: Finance
+market_cap_billions: 9.34
+revenue:
+  quarterly:
+    Q3 2024: 270.89
+    Q4 2024: 267.72
+    Q1 2025: 273.04
+    Q2 2025: 282.3
+    Q3 2025: 285.08
+    Q4 2025: 282.71
+    Q1 2026: 281.93
+  annual:
+    2021 Yearly: 822.56
+    2022 Yearly: 1010.0
+    2023 Yearly: 1050.0
+    2024 Yearly: 1070.0
+    2025 Yearly: 1120.0
+  quarterly_forecast:
+    Q3 2024: 267.49
+    Q4 2024: 265.37
+    Q1 2025: 263.54
+    Q2 2025: 273.96
+    Q3 2025: 280.46
+    Q4 2025: 276.52
+    Q1 2026: 275.25
+    Q2 2026: 281.12
+    Q3 2026: 286.66
+    Q4 2026: 285.14
+    Q1 2027: 286.47
+  annual_forecast:
+    2021 Yearly: 780.44
+    2022 Yearly: 967.67
+    2023 Yearly: 1030.0
+    2024 Yearly: 1050.0
+    2025 Yearly: 1100.0
+    2026 Yearly: 1130.0
+    2027 Yearly: 1170.0
+    2028 Yearly: 1220.0
+    2029 Yearly: 1290.0
+eps:
+  quarterly:
+    Q3 2024: 0.44
+    Q4 2024: 0.45
+    Q1 2025: 0.39
+    Q2 2025: 0.36
+    Q3 2025: 0.36
+    Q4 2025: 0.34
+    Q1 2026: 0.36
+  annual:
+    2021 Yearly: 1.09
+    2022 Yearly: 1.29
+    2023 Yearly: 1.82
+    2024 Yearly: 1.72
+    2025 Yearly: 1.46
+  quarterly_forecast:
+    Q3 2024: 0.45
+    Q4 2024: 0.46
+    Q1 2025: 0.38
+    Q2 2025: 0.37
+    Q3 2025: 0.38
+    Q4 2025: 0.37
+    Q1 2026: 0.34
+    Q2 2026: 0.36
+    Q3 2026: 0.37
+    Q4 2026: 0.37
+    Q1 2027: 0.36
+  annual_forecast:
+    2021 Yearly: 1.15
+    2022 Yearly: 1.22
+    2023 Yearly: 1.77
+    2024 Yearly: 1.73
+    2025 Yearly: 1.48
+    2026 Yearly: 1.47
+    2027 Yearly: 1.5
+    2028 Yearly: 1.54
+    2029 Yearly: 1.54

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Strategy Inc
+sector: Technology Services
+market_cap_billions: 34.25
+revenue:
+  quarterly:
+    Q3 2024: 116.07
+    Q4 2024: 120.7
+    Q1 2025: 111.1
+    Q2 2025: 114.49
+    Q3 2025: 128.69
+    Q4 2025: 122.99
+    Q1 2026: 124.3
+  annual:
+    2021 Yearly: 510.76
+    2022 Yearly: 499.26
+    2023 Yearly: 496.26
+    2024 Yearly: 463.46
+    2025 Yearly: 477.23
+  quarterly_forecast:
+    Q3 2024: 121.45
+    Q4 2024: 122.45
+    Q1 2025: 116.19
+    Q2 2025: 113.54
+    Q3 2025: 116.65
+    Q4 2025: 119.12
+    Q1 2026: 120.75
+    Q2 2026: 122.9
+    Q3 2026: 129.46
+    Q4 2026: 126.68
+    Q1 2027: 128.72
+  annual_forecast:
+    2021 Yearly: 509.47
+    2022 Yearly: 497.71
+    2023 Yearly: 504.84
+    2024 Yearly: 464.48
+    2025 Yearly: 473.3
+    2026 Yearly: 499.9
+    2027 Yearly: 506.68
+    2028 Yearly: 520.85
+    2029 Yearly: 476.39
+eps:
+  quarterly:
+    Q3 2024: -1.72
+    Q4 2024: -3.03
+    Q1 2025: -16.49
+    Q2 2025: 32.6
+    Q3 2025: 8.42
+    Q4 2025: -42.93
+    Q1 2026: -38.25
+  annual:
+    2021 Yearly: -5.34
+    2022 Yearly: -12.98
+    2023 Yearly: 2.64
+    2024 Yearly: -6.06
+    2025 Yearly: -15.23
+  quarterly_forecast:
+    Q3 2024: -0.12
+    Q4 2024: -0.09
+    Q1 2025: -2.44
+    Q2 2025: -0.1
+    Q3 2025: -0.1
+    Q4 2025: -0.08
+    Q1 2026: -0.86
+    Q2 2026: -2.19
+    Q3 2026: 7.53
+    Q4 2026: 10.54
+    Q1 2027: 1.49
+  annual_forecast:
+    2021 Yearly: -4.77
+    2022 Yearly: -10.77
+    2023 Yearly: 2.27
+    2024 Yearly: -2.54
+    2025 Yearly: 16.51
+    2026 Yearly: 3.69
+    2027 Yearly: 3.92
+    2028 Yearly: 47.66
+    2029 Yearly: 391.6

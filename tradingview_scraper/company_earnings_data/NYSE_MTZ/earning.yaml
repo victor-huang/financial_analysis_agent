@@ -1,0 +1,78 @@
+currency: USD
+company_name: MasTec, Inc.
+sector: Industrial Services
+market_cap_billions: 25.64
+revenue:
+  quarterly:
+    Q3 2024: 3250.0
+    Q4 2024: 3400.0
+    Q1 2025: 2850.0
+    Q2 2025: 3540.0
+    Q3 2025: 3970.0
+    Q4 2025: 3940.0
+    Q1 2026: 3830.0
+  annual:
+    2021 Yearly: 7950.0
+    2022 Yearly: 9780.0
+    2023 Yearly: 12000.0
+    2024 Yearly: 12300.0
+    2025 Yearly: 14300.0
+  quarterly_forecast:
+    Q3 2024: 3430.0
+    Q4 2024: 3320.0
+    Q1 2025: 2710.0
+    Q2 2025: 3400.0
+    Q3 2025: 3910.0
+    Q4 2025: 3720.0
+    Q1 2026: 3470.0
+    Q2 2026: 4300.0
+    Q3 2026: 5120.0
+    Q4 2026: 5200.0
+    Q1 2027: 4920.0
+  annual_forecast:
+    2021 Yearly: 8020.0
+    2022 Yearly: 9680.0
+    2023 Yearly: 11980.0
+    2024 Yearly: 12220.0
+    2025 Yearly: 14070.0
+    2026 Yearly: 18470.0
+    2027 Yearly: 22440.0
+    2028 Yearly: 25430.0
+    2029 Yearly: 28920.0
+eps:
+  quarterly:
+    Q3 2024: 1.63
+    Q4 2024: 1.44
+    Q1 2025: 0.51
+    Q2 2025: 1.49
+    Q3 2025: 2.48
+    Q4 2025: 2.07
+    Q1 2026: 1.39
+  annual:
+    2021 Yearly: 5.58
+    2022 Yearly: 3.05
+    2023 Yearly: 1.97
+    2024 Yearly: 3.95
+    2025 Yearly: 6.55
+  quarterly_forecast:
+    Q3 2024: 1.23
+    Q4 2024: 1.25
+    Q1 2025: 0.34
+    Q2 2025: 1.4
+    Q3 2025: 2.32
+    Q4 2025: 1.95
+    Q1 2026: 0.99
+    Q2 2026: 2.23
+    Q3 2026: 2.91
+    Q4 2026: 2.61
+    Q1 2027: 2.05
+  annual_forecast:
+    2021 Yearly: 5.52
+    2022 Yearly: 3.05
+    2023 Yearly: 1.78
+    2024 Yearly: 3.72
+    2025 Yearly: 6.42
+    2026 Yearly: 9.14
+    2027 Yearly: 12.39
+    2028 Yearly: 16.15
+    2029 Yearly: 20.59

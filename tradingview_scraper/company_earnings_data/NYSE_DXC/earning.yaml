@@ -1,0 +1,76 @@
+currency: USD
+company_name: DXC Technology Company
+sector: Technology Services
+market_cap_billions: 1.82
+revenue:
+  quarterly:
+    Q2 2024: 3240.0
+    Q3 2024: 3230.0
+    Q4 2024: 3170.0
+    Q1 2025: 3160.0
+    Q2 2025: 3160.0
+    Q3 2025: 3190.0
+    Q4 2025: 3130.0
+  annual:
+    2021 Yearly: 16270.0
+    2022 Yearly: 14430.0
+    2023 Yearly: 13670.0
+    2024 Yearly: 12870.0
+    2025 Yearly: 12640.0
+  quarterly_forecast:
+    Q2 2024: 3200.0
+    Q3 2024: 3250.0
+    Q4 2024: 3130.0
+    Q1 2025: 3080.0
+    Q2 2025: 3170.0
+    Q3 2025: 3180.0
+    Q4 2025: 3170.0
+    Q1 2026: 2990.0
+    Q2 2026: 3030.0
+    Q3 2026: 3090.0
+    Q4 2026: 3050.0
+  annual_forecast:
+    2021 Yearly: 16379.999999999998
+    2022 Yearly: 14710.0
+    2023 Yearly: 13650.0
+    2024 Yearly: 12840.0
+    2025 Yearly: 12690.0
+    2026 Yearly: 12150.0
+    2027 Yearly: 11980.0
+    2028 Yearly: 12150.0
+eps:
+  quarterly:
+    Q2 2024: 0.93
+    Q3 2024: 0.92
+    Q4 2024: 0.84
+    Q1 2025: 0.68
+    Q2 2025: 0.84
+    Q3 2025: 0.96
+    Q4 2025: 0.77
+  annual:
+    2021 Yearly: 3.5
+    2022 Yearly: 3.47
+    2023 Yearly: 3.13
+    2024 Yearly: 3.43
+    2025 Yearly: 3.23
+  quarterly_forecast:
+    Q2 2024: 0.72
+    Q3 2024: 0.77
+    Q4 2024: 0.78
+    Q1 2025: 0.62
+    Q2 2025: 0.71
+    Q3 2025: 0.86
+    Q4 2025: 0.7
+    Q1 2026: 0.41
+    Q2 2026: 0.7
+    Q3 2026: 0.76
+    Q4 2026: 0.69
+  annual_forecast:
+    2021 Yearly: 3.65
+    2022 Yearly: 3.48
+    2023 Yearly: 3.02
+    2024 Yearly: 3.37
+    2025 Yearly: 3.18
+    2026 Yearly: 2.56
+    2027 Yearly: 3.08
+    2028 Yearly: 3.55

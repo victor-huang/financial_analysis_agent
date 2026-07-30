@@ -1,0 +1,78 @@
+currency: USD
+company_name: Alliant Energy Corporation
+sector: Utilities
+market_cap_billions: 18.31
+revenue:
+  quarterly:
+    Q3 2024: 1080.0
+    Q4 2024: 976.0
+    Q1 2025: 1130.0
+    Q2 2025: 961.0
+    Q3 2025: 1210.0
+    Q4 2025: 1060.0
+    Q1 2026: 1180.0
+  annual:
+    2021 Yearly: 3670.0
+    2022 Yearly: 4210.0
+    2023 Yearly: 4030.0000000000005
+    2024 Yearly: 3980.0
+    2025 Yearly: 4360.0
+  quarterly_forecast:
+    Q3 2024: 1090.0
+    Q4 2024: 870.07
+    Q1 2025: 985.5
+    Q2 2025: 887.24
+    Q3 2025: 1240.0
+    Q4 2025: 706.15
+    Q1 2026: 1080.0
+    Q2 2026: 896.94
+    Q3 2026: 1380.0
+    Q4 2026: 1030.0
+    Q1 2027: 1220.0
+  annual_forecast:
+    2021 Yearly: 3470.0
+    2022 Yearly: 3810.0
+    2023 Yearly: 4230.0
+    2024 Yearly: 4170.0
+    2025 Yearly: 4120.0
+    2026 Yearly: 4430.0
+    2027 Yearly: 4640.0
+    2028 Yearly: 4940.0
+    2029 Yearly: 5220.0
+eps:
+  quarterly:
+    Q3 2024: 1.15
+    Q4 2024: 0.7
+    Q1 2025: 0.83
+    Q2 2025: 0.68
+    Q3 2025: 1.12
+    Q4 2025: 0.6
+    Q1 2026: 0.82
+  annual:
+    2021 Yearly: 2.63
+    2022 Yearly: 2.8
+    2023 Yearly: 2.82
+    2024 Yearly: 3.04
+    2025 Yearly: 3.22
+  quarterly_forecast:
+    Q3 2024: 1.11
+    Q4 2024: 0.68
+    Q1 2025: 0.69
+    Q2 2025: 0.64
+    Q3 2025: 1.19
+    Q4 2025: 0.59
+    Q1 2026: 0.79
+    Q2 2026: 0.58
+    Q3 2026: 1.22
+    Q4 2026: 0.78
+    Q1 2027: 0.85
+  annual_forecast:
+    2021 Yearly: 2.63
+    2022 Yearly: 2.8
+    2023 Yearly: 2.89
+    2024 Yearly: 3.02
+    2025 Yearly: 3.21
+    2026 Yearly: 3.42
+    2027 Yearly: 3.68
+    2028 Yearly: 4.04
+    2029 Yearly: 4.38

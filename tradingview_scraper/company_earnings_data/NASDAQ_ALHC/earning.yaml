@@ -1,0 +1,78 @@
+currency: USD
+company_name: Alignment Healthcare, Inc.
+sector: Health Services
+market_cap_billions: 3.85
+revenue:
+  quarterly:
+    Q4 2024: 701.24
+    Q1 2025: 926.93
+    Q2 2025: 1020.0
+    Q3 2025: 993.7
+    Q4 2025: 1010.0
+    Q1 2026: 1240.0
+    Q2 2026: 1340.0
+  annual:
+    2021 Yearly: 1170.0
+    2022 Yearly: 1430.0
+    2023 Yearly: 1820.0
+    2024 Yearly: 2700.0
+    2025 Yearly: 3950.0
+  quarterly_forecast:
+    Q4 2024: 676.79
+    Q1 2025: 888.23
+    Q2 2025: 960.51
+    Q3 2025: 981.34
+    Q4 2025: 1000.0
+    Q1 2026: 1220.0
+    Q2 2026: 1310.0
+    Q3 2026: 1320.0
+    Q4 2026: 1330.0
+    Q1 2027: 1560.0
+    Q2 2027: 1640.0
+  annual_forecast:
+    2021 Yearly: 1140.0
+    2022 Yearly: 1410.0
+    2023 Yearly: 1800.0
+    2024 Yearly: 2680.0
+    2025 Yearly: 3940.0
+    2026 Yearly: 5190.0
+    2027 Yearly: 6510.0
+    2028 Yearly: 8060.000000000001
+    2029 Yearly: 10800.0
+eps:
+  quarterly:
+    Q4 2024: -0.16
+    Q1 2025: -0.05
+    Q2 2025: 0.07
+    Q3 2025: 0.02
+    Q4 2025: -0.05
+    Q1 2026: 0.05
+    Q2 2026: 0.17
+  annual:
+    2021 Yearly: -1.14
+    2022 Yearly: -0.83
+    2023 Yearly: -0.79
+    2024 Yearly: -0.67
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q4 2024: -0.19
+    Q1 2025: -0.13
+    Q2 2025: -0.07
+    Q3 2025: -0.08
+    Q4 2025: -0.15
+    Q1 2026: 0.01
+    Q2 2026: 0.13
+    Q3 2026: 0.05
+    Q4 2026: -0.05
+    Q1 2027: 0.11
+    Q2 2027: 0.21
+  annual_forecast:
+    2021 Yearly: -0.95
+    2022 Yearly: -0.7
+    2023 Yearly: -0.66
+    2024 Yearly: -0.68
+    2025 Yearly: -0.1
+    2026 Yearly: 0.19
+    2027 Yearly: 0.43
+    2028 Yearly: 0.75
+    2029 Yearly: 1.23

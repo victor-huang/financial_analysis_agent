@@ -1,0 +1,76 @@
+currency: USD
+company_name: AXT Inc
+sector: Electronic Technology
+market_cap_billions: 3.07
+revenue:
+  quarterly:
+    Q3 2024: 23.64
+    Q4 2024: 25.11
+    Q1 2025: 19.36
+    Q2 2025: 17.97
+    Q3 2025: 27.95
+    Q4 2025: 23.04
+    Q1 2026: 26.92
+  annual:
+    2021 Yearly: 137.39
+    2022 Yearly: 141.12
+    2023 Yearly: 75.8
+    2024 Yearly: 99.36
+    2025 Yearly: 88.33
+  quarterly_forecast:
+    Q3 2024: 25.99
+    Q4 2024: 23.94
+    Q1 2025: 18.98
+    Q2 2025: 19.78
+    Q3 2025: 20.3
+    Q4 2025: 25.18
+    Q1 2026: 26.22
+    Q2 2026: 34.08
+    Q3 2026: 38.81
+    Q4 2026: 43.28
+    Q1 2027: 46.94
+  annual_forecast:
+    2021 Yearly: 135.84
+    2022 Yearly: 143.0
+    2023 Yearly: 72.96
+    2024 Yearly: 98.19
+    2025 Yearly: 90.49
+    2026 Yearly: 143.08
+    2027 Yearly: 222.35
+    2028 Yearly: 382.12
+eps:
+  quarterly:
+    Q3 2024: -0.05
+    Q4 2024: -0.1
+    Q1 2025: -0.19
+    Q2 2025: -0.15
+    Q3 2025: -0.03
+    Q4 2025: -0.05
+    Q1 2026: -0.01
+  annual:
+    2021 Yearly: 0.34
+    2022 Yearly: 0.46
+    2023 Yearly: -0.34
+    2024 Yearly: -0.2
+    2025 Yearly: -0.41
+  quarterly_forecast:
+    Q3 2024: -0.06
+    Q4 2024: -0.04
+    Q1 2025: -0.14
+    Q2 2025: -0.13
+    Q3 2025: -0.12
+    Q4 2025: -0.06
+    Q1 2026: -0.05
+    Q2 2026: 0.07
+    Q3 2026: 0.1
+    Q4 2026: 0.13
+    Q1 2027: 0.15
+  annual_forecast:
+    2021 Yearly: 0.3
+    2022 Yearly: 0.39
+    2023 Yearly: -0.4
+    2024 Yearly: -0.14
+    2025 Yearly: -0.42
+    2026 Yearly: 0.3
+    2027 Yearly: 0.78
+    2028 Yearly: 1.8

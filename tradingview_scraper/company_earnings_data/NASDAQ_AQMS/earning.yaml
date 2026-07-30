@@ -1,0 +1,40 @@
+currency: USD
+company_name: Aqua Metals, Inc.
+sector: Non-Energy Minerals
+market_cap_billions: 0.01017
+revenue:
+  quarterly: {}
+  annual: {}
+  quarterly_forecast:
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+  annual_forecast:
+    2024 Yearly: 0.0
+    2026 Yearly: 0.0
+    2028 Yearly: 0.0
+eps:
+  quarterly:
+    Q3 2024: -7.6
+    Q4 2024: -10.7
+    Q1 2025: -10.3
+    Q2 2025: -7.44
+    Q3 2025: -2.19
+  annual:
+    2021 Yearly: -52.0
+    2022 Yearly: -40.0
+    2023 Yearly: -40.0
+    2024 Yearly: -38.3
+  quarterly_forecast:
+    Q2 2025: -8.0
+    Q3 2025: -4.0
+    Q4 2025: -6.0
+  annual_forecast:
+    2021 Yearly: -51.0
+    2022 Yearly: -42.0
+    2023 Yearly: -34.0
+    2024 Yearly: -29.0
+    2025 Yearly: -16.0
+    2026 Yearly: -24.0
+    2027 Yearly: -10.0
+    2028 Yearly: 8.0

@@ -1,0 +1,76 @@
+currency: USD
+company_name: Arthur J. Gallagher & Co.
+sector: Finance
+market_cap_billions: 65.88
+revenue:
+  quarterly:
+    Q3 2024: 2770.0
+    Q4 2024: 2680.0
+    Q1 2025: 3690.0
+    Q2 2025: 3180.0
+    Q3 2025: 3330.0
+    Q4 2025: 3590.0
+    Q1 2026: 4720.0
+  annual:
+    2021 Yearly: 8080.0
+    2022 Yearly: 8420.0
+    2023 Yearly: 9930.0
+    2024 Yearly: 11400.0
+    2025 Yearly: 13780.0
+  quarterly_forecast:
+    Q3 2024: 2780.0
+    Q4 2024: 2700.0
+    Q1 2025: 3710.0
+    Q2 2025: 3200.0
+    Q3 2025: 3470.0
+    Q4 2025: 3600.0
+    Q1 2026: 4730.0
+    Q2 2026: 4010.0
+    Q3 2026: 4070.0000000000005
+    Q4 2026: 3890.0
+    Q1 2027: 5140.0
+  annual_forecast:
+    2021 Yearly: 7960.0
+    2022 Yearly: 8410.0
+    2023 Yearly: 10000.0
+    2024 Yearly: 11450.0
+    2025 Yearly: 13850.0
+    2026 Yearly: 16740.0
+    2027 Yearly: 18240.0
+    2028 Yearly: 20030.0
+eps:
+  quarterly:
+    Q3 2024: 2.26
+    Q4 2024: 2.13
+    Q1 2025: 3.67
+    Q2 2025: 2.33
+    Q3 2025: 2.32
+    Q4 2025: 2.38
+    Q1 2026: 4.47
+  annual:
+    2021 Yearly: 5.48
+    2022 Yearly: 7.74
+    2023 Yearly: 8.76
+    2024 Yearly: 10.09
+    2025 Yearly: 10.69
+  quarterly_forecast:
+    Q3 2024: 2.26
+    Q4 2024: 2.03
+    Q1 2025: 3.57
+    Q2 2025: 2.36
+    Q3 2025: 2.54
+    Q4 2025: 2.35
+    Q1 2026: 4.43
+    Q2 2026: 2.81
+    Q3 2026: 3.08
+    Q4 2026: 2.82
+    Q1 2027: 4.93
+  annual_forecast:
+    2021 Yearly: 5.42
+    2022 Yearly: 7.74
+    2023 Yearly: 8.78
+    2024 Yearly: 10.03
+    2025 Yearly: 10.69
+    2026 Yearly: 13.22
+    2027 Yearly: 14.9
+    2028 Yearly: 16.72

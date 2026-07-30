@@ -1,0 +1,78 @@
+currency: USD
+company_name: DexCom, Inc.
+sector: Health Technology
+market_cap_billions: 28.76
+revenue:
+  quarterly:
+    Q3 2024: 994.2
+    Q4 2024: 1110.0
+    Q1 2025: 1040.0
+    Q2 2025: 1160.0
+    Q3 2025: 1210.0
+    Q4 2025: 1260.0
+    Q1 2026: 1190.0
+  annual:
+    2021 Yearly: 2450.0
+    2022 Yearly: 2910.0
+    2023 Yearly: 3620.0
+    2024 Yearly: 4030.0000000000005
+    2025 Yearly: 4660.0
+  quarterly_forecast:
+    Q3 2024: 990.44
+    Q4 2024: 1110.0
+    Q1 2025: 1020.0
+    Q2 2025: 1120.0
+    Q3 2025: 1180.0
+    Q4 2025: 1250.0
+    Q1 2026: 1170.0
+    Q2 2026: 1290.0
+    Q3 2026: 1330.0
+    Q4 2026: 1400.0
+    Q1 2027: 1330.0
+  annual_forecast:
+    2021 Yearly: 2450.0
+    2022 Yearly: 2910.0
+    2023 Yearly: 3600.0
+    2024 Yearly: 4030.0000000000005
+    2025 Yearly: 4650.0
+    2026 Yearly: 5220.0
+    2027 Yearly: 5820.0
+    2028 Yearly: 6500.0
+    2029 Yearly: 7210.0
+eps:
+  quarterly:
+    Q3 2024: 0.45
+    Q4 2024: 0.45
+    Q1 2025: 0.32
+    Q2 2025: 0.48
+    Q3 2025: 0.61
+    Q4 2025: 0.68
+    Q1 2026: 0.56
+  annual:
+    2021 Yearly: 0.67
+    2022 Yearly: 0.87
+    2023 Yearly: 1.52
+    2024 Yearly: 1.64
+    2025 Yearly: 2.09
+  quarterly_forecast:
+    Q3 2024: 0.43
+    Q4 2024: 0.48
+    Q1 2025: 0.33
+    Q2 2025: 0.44
+    Q3 2025: 0.58
+    Q4 2025: 0.65
+    Q1 2026: 0.47
+    Q2 2026: 0.61
+    Q3 2026: 0.67
+    Q4 2026: 0.75
+    Q1 2027: 0.64
+  annual_forecast:
+    2021 Yearly: 0.71
+    2022 Yearly: 0.8
+    2023 Yearly: 1.44
+    2024 Yearly: 1.67
+    2025 Yearly: 2.06
+    2026 Yearly: 2.59
+    2027 Yearly: 3.09
+    2028 Yearly: 3.69
+    2029 Yearly: 4.25

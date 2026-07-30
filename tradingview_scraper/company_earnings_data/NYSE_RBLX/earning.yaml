@@ -1,0 +1,78 @@
+currency: USD
+company_name: Roblox Corporation
+sector: Technology Services
+market_cap_billions: 34.85
+revenue:
+  quarterly:
+    Q3 2024: 1130.0
+    Q4 2024: 1360.0
+    Q1 2025: 1210.0
+    Q2 2025: 1440.0
+    Q3 2025: 1920.0
+    Q4 2025: 2220.0
+    Q1 2026: 1730.0
+  annual:
+    2021 Yearly: 2730.0
+    2022 Yearly: 2870.0
+    2023 Yearly: 3520.0
+    2024 Yearly: 4370.0
+    2025 Yearly: 6790.0
+  quarterly_forecast:
+    Q3 2024: 1020.0
+    Q4 2024: 1370.0
+    Q1 2025: 1140.0
+    Q2 2025: 1270.0
+    Q3 2025: 1710.0
+    Q4 2025: 2080.0
+    Q1 2026: 1740.0
+    Q2 2026: 1600.0
+    Q3 2026: 1870.0
+    Q4 2026: 2280.0
+    Q1 2027: 1910.0
+  annual_forecast:
+    2021 Yearly: 2720.0
+    2022 Yearly: 2800.0
+    2023 Yearly: 3460.0
+    2024 Yearly: 4380.0
+    2025 Yearly: 6620.0
+    2026 Yearly: 7500.0
+    2027 Yearly: 8850.0
+    2028 Yearly: 10550.0
+    2029 Yearly: 12860.0
+eps:
+  quarterly:
+    Q3 2024: -0.37
+    Q4 2024: -0.33
+    Q1 2025: -0.32
+    Q2 2025: -0.41
+    Q3 2025: -0.37
+    Q4 2025: -0.45
+    Q1 2026: -0.35
+  annual:
+    2021 Yearly: -0.97
+    2022 Yearly: -1.55
+    2023 Yearly: -1.87
+    2024 Yearly: -1.44
+    2025 Yearly: -1.54
+  quarterly_forecast:
+    Q3 2024: -0.38
+    Q4 2024: -0.45
+    Q1 2025: -0.4
+    Q2 2025: -0.36
+    Q3 2025: -0.49
+    Q4 2025: -0.47
+    Q1 2026: -0.41
+    Q2 2026: -0.34
+    Q3 2026: -0.39
+    Q4 2026: -0.41
+    Q1 2027: -0.23
+  annual_forecast:
+    2021 Yearly: -0.81
+    2022 Yearly: -1.56
+    2023 Yearly: -1.9
+    2024 Yearly: -1.55
+    2025 Yearly: -1.55
+    2026 Yearly: -1.48
+    2027 Yearly: -1.12
+    2028 Yearly: -0.78
+    2029 Yearly: -1.01

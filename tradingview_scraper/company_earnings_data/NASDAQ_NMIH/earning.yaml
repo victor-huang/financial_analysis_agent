@@ -1,0 +1,76 @@
+currency: USD
+company_name: NMI Holdings Inc
+sector: Finance
+market_cap_billions: 3.3
+revenue:
+  quarterly:
+    Q3 2024: 143.34
+    Q4 2024: 143.52
+    Q1 2025: 149.37
+    Q2 2025: 149.07
+    Q3 2025: 151.32
+    Q4 2025: 152.46
+    Q1 2026: 154.81
+  annual:
+    2021 Yearly: 444.29
+    2022 Yearly: 475.27
+    2023 Yearly: 510.77
+    2024 Yearly: 564.69
+    2025 Yearly: 602.21
+  quarterly_forecast:
+    Q3 2024: 142.56
+    Q4 2024: 145.25
+    Q1 2025: 144.85
+    Q2 2025: 149.57
+    Q3 2025: 151.36
+    Q4 2025: 152.74
+    Q1 2026: 153.99
+    Q2 2026: 156.26
+    Q3 2026: 158.16
+    Q4 2026: 159.93
+    Q1 2027: 160.73
+  annual_forecast:
+    2021 Yearly: 445.11
+    2022 Yearly: 477.88
+    2023 Yearly: 509.55
+    2024 Yearly: 566.4
+    2025 Yearly: 602.59
+    2026 Yearly: 628.95
+    2027 Yearly: 652.95
+    2028 Yearly: 673.01
+eps:
+  quarterly:
+    Q3 2024: 1.15
+    Q4 2024: 1.07
+    Q1 2025: 1.28
+    Q2 2025: 1.22
+    Q3 2025: 1.21
+    Q4 2025: 1.2
+    Q1 2026: 1.28
+  annual:
+    2021 Yearly: 2.73
+    2022 Yearly: 3.39
+    2023 Yearly: 3.84
+    2024 Yearly: 4.5
+    2025 Yearly: 4.92
+  quarterly_forecast:
+    Q3 2024: 1.13
+    Q4 2024: 1.12
+    Q1 2025: 1.1
+    Q2 2025: 1.2
+    Q3 2025: 1.2
+    Q4 2025: 1.19
+    Q1 2026: 1.23
+    Q2 2026: 1.28
+    Q3 2026: 1.28
+    Q4 2026: 1.28
+    Q1 2027: 1.32
+  annual_forecast:
+    2021 Yearly: 2.7
+    2022 Yearly: 3.37
+    2023 Yearly: 3.78
+    2024 Yearly: 4.56
+    2025 Yearly: 4.9
+    2026 Yearly: 5.15
+    2027 Yearly: 5.35
+    2028 Yearly: 5.57

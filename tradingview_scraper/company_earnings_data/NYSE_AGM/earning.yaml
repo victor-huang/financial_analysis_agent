@@ -1,0 +1,74 @@
+currency: USD
+company_name: Federal Agricultural Mortgage Corporation
+sector: Finance
+market_cap_billions: 2.33
+revenue:
+  quarterly:
+    Q3 2024: 91.53
+    Q4 2024: 92.12
+    Q1 2025: 96.79
+    Q2 2025: 100.51
+    Q3 2025: 105.09
+    Q4 2025: 107.91
+    Q1 2026: 109.9
+  annual:
+    2021 Yearly: 246.42
+    2022 Yearly: 275.36
+    2023 Yearly: 349.21
+    2024 Yearly: 361.99
+    2025 Yearly: 410.3
+  quarterly_forecast:
+    Q3 2024: 91.73
+    Q4 2024: 92.81
+    Q1 2025: 94.02
+    Q2 2025: 94.75
+    Q3 2025: 100.96
+    Q4 2025: 107.45
+    Q1 2026: 110.76
+    Q2 2026: 113.51
+    Q3 2026: 117.12
+    Q4 2026: 119.89
+    Q1 2027: 118.84
+  annual_forecast:
+    2021 Yearly: 243.16
+    2022 Yearly: 269.34
+    2023 Yearly: 344.42
+    2024 Yearly: 362.7
+    2025 Yearly: 409.84
+    2026 Yearly: 460.42
+    2027 Yearly: 518.61
+eps:
+  quarterly:
+    Q3 2024: 4.1
+    Q4 2024: 3.97
+    Q1 2025: 4.19
+    Q2 2025: 4.32
+    Q3 2025: 4.52
+    Q4 2025: 3.66
+    Q1 2026: 4.74
+  annual:
+    2021 Yearly: 10.47
+    2022 Yearly: 11.42
+    2023 Yearly: 15.65
+    2024 Yearly: 15.64
+    2025 Yearly: 16.66
+  quarterly_forecast:
+    Q3 2024: 4.11
+    Q4 2024: 4.17
+    Q1 2025: 4.06
+    Q2 2025: 4.29
+    Q3 2025: 4.47
+    Q4 2025: 4.53
+    Q1 2026: 4.44
+    Q2 2026: 4.87
+    Q3 2026: 4.89
+    Q4 2026: 5.03
+    Q1 2027: 4.86
+  annual_forecast:
+    2021 Yearly: 10.41
+    2022 Yearly: 11.19
+    2023 Yearly: 15.59
+    2024 Yearly: 15.86
+    2025 Yearly: 17.58
+    2026 Yearly: 19.52
+    2027 Yearly: 21.35

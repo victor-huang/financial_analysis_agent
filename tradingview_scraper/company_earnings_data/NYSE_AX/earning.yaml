@@ -1,0 +1,76 @@
+currency: USD
+company_name: Axos Financial, Inc.
+sector: Finance
+market_cap_billions: 5.6
+revenue:
+  quarterly:
+    Q1 2025: 320.66
+    Q2 2025: 307.9
+    Q3 2025: 308.84
+    Q4 2025: 321.45
+    Q1 2026: 323.39
+    Q2 2026: 385.09
+    Q3 2026: 392.25
+  annual:
+    2021 Yearly: 644.0
+    2022 Yearly: 720.52
+    2023 Yearly: 903.61
+    2024 Yearly: 1180.0
+    2025 Yearly: 1260.0
+  quarterly_forecast:
+    Q1 2025: 298.57
+    Q2 2025: 303.17
+    Q3 2025: 305.04
+    Q4 2025: 312.29
+    Q1 2026: 319.15
+    Q2 2026: 347.25
+    Q3 2026: 372.51
+    Q4 2026: 375.54
+    Q1 2027: 365.95
+    Q2 2027: 379.83
+    Q3 2027: 382.07
+  annual_forecast:
+    2021 Yearly: 640.8
+    2022 Yearly: 696.18
+    2023 Yearly: 895.77
+    2024 Yearly: 1120.0
+    2025 Yearly: 1250.0
+    2026 Yearly: 1460.0
+    2027 Yearly: 1550.0
+    2028 Yearly: 1780.0
+eps:
+  quarterly:
+    Q1 2025: 1.93
+    Q2 2025: 1.8
+    Q3 2025: 1.81
+    Q4 2025: 1.92
+    Q1 2026: 1.94
+    Q2 2026: 2.22
+    Q3 2026: 2.15
+  annual:
+    2021 Yearly: 3.56
+    2022 Yearly: 3.97
+    2023 Yearly: 5.07
+    2024 Yearly: 7.66
+    2025 Yearly: 7.43
+  quarterly_forecast:
+    Q1 2025: 1.79
+    Q2 2025: 1.75
+    Q3 2025: 1.74
+    Q4 2025: 1.78
+    Q1 2026: 1.85
+    Q2 2026: 2.08
+    Q3 2026: 2.17
+    Q4 2026: 2.16
+    Q1 2027: 2.27
+    Q2 2027: 2.41
+    Q3 2027: 2.4
+  annual_forecast:
+    2021 Yearly: 3.54
+    2022 Yearly: 3.99
+    2023 Yearly: 4.88
+    2024 Yearly: 7.69
+    2025 Yearly: 7.3
+    2026 Yearly: 8.47
+    2027 Yearly: 9.61
+    2028 Yearly: 10.65

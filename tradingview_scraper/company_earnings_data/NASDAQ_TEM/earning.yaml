@@ -1,0 +1,66 @@
+currency: USD
+company_name: Tempus AI, Inc.
+sector: Technology Services
+market_cap_billions: 7.98
+revenue:
+  quarterly:
+    Q3 2024: 180.93
+    Q4 2024: 200.68
+    Q1 2025: 255.74
+    Q2 2025: 314.63
+    Q3 2025: 334.21
+    Q4 2025: 367.21
+    Q1 2026: 348.12
+  annual:
+    2024 Yearly: 693.4
+    2025 Yearly: 1270.0
+  quarterly_forecast:
+    Q3 2024: 179.52
+    Q4 2024: 203.12
+    Q1 2025: 248.13
+    Q2 2025: 297.74
+    Q3 2025: 328.7
+    Q4 2025: 362.83
+    Q1 2026: 345.44
+    Q2 2026: 379.69
+    Q3 2026: 413.53
+    Q4 2026: 450.97
+    Q1 2027: 436.15
+  annual_forecast:
+    2024 Yearly: 696.27
+    2025 Yearly: 1270.0
+    2026 Yearly: 1590.0
+    2027 Yearly: 1960.0
+    2028 Yearly: 2340.0
+    2029 Yearly: 2770.0
+eps:
+  quarterly:
+    Q3 2024: -0.25
+    Q4 2024: -0.18
+    Q1 2025: -0.24
+    Q2 2025: -0.22
+    Q3 2025: -0.11
+    Q4 2025: -0.04
+    Q1 2026: -0.13
+  annual:
+    2024 Yearly: -1.58
+    2025 Yearly: -0.61
+  quarterly_forecast:
+    Q3 2024: -0.27
+    Q4 2024: -0.16
+    Q1 2025: -0.26
+    Q2 2025: -0.23
+    Q3 2025: -0.17
+    Q4 2025: -0.03
+    Q1 2026: -0.2
+    Q2 2026: -0.14
+    Q3 2026: -0.11
+    Q4 2026: -0.03
+    Q1 2027: -0.11
+  annual_forecast:
+    2024 Yearly: -1.76
+    2025 Yearly: -0.6
+    2026 Yearly: -0.34
+    2027 Yearly: -0.04
+    2028 Yearly: 0.71
+    2029 Yearly: 1.75

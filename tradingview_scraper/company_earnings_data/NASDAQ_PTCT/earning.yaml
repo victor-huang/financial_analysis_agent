@@ -1,0 +1,78 @@
+currency: USD
+company_name: PTC Therapeutics, Inc.
+sector: Health Technology
+market_cap_billions: 6.26
+revenue:
+  quarterly:
+    Q3 2024: 196.79
+    Q4 2024: 213.17
+    Q1 2025: 1180.0
+    Q2 2025: 178.88
+    Q3 2025: 211.01
+    Q4 2025: 164.68
+    Q1 2026: 272.55
+  annual:
+    2021 Yearly: 538.59
+    2022 Yearly: 698.8
+    2023 Yearly: 937.82
+    2024 Yearly: 806.78
+    2025 Yearly: 1730.0
+  quarterly_forecast:
+    Q3 2024: 170.59
+    Q4 2024: 232.44
+    Q1 2025: 169.93
+    Q2 2025: 172.3
+    Q3 2025: 172.9
+    Q4 2025: 279.48
+    Q1 2026: 217.42
+    Q2 2026: 298.63
+    Q3 2026: 298.18
+    Q4 2026: 314.58
+    Q1 2027: 281.04
+  annual_forecast:
+    2021 Yearly: 524.98
+    2022 Yearly: 716.43
+    2023 Yearly: 943.98
+    2024 Yearly: 803.68
+    2025 Yearly: 1850.0
+    2026 Yearly: 1180.0
+    2027 Yearly: 1340.0
+    2028 Yearly: 1590.0
+    2029 Yearly: 1760.0
+eps:
+  quarterly:
+    Q3 2024: -1.39
+    Q4 2024: -0.85
+    Q1 2025: 10.04
+    Q2 2025: -0.83
+    Q3 2025: 0.2
+    Q4 2025: -1.67
+    Q1 2026: -0.03
+  annual:
+    2021 Yearly: -7.43
+    2022 Yearly: -7.79
+    2023 Yearly: -8.37
+    2024 Yearly: -4.73
+    2025 Yearly: 7.78
+  quarterly_forecast:
+    Q3 2024: -1.52
+    Q4 2024: -0.54
+    Q1 2025: -1.01
+    Q2 2025: -1.02
+    Q3 2025: -1.13
+    Q4 2025: 0.1
+    Q1 2026: -0.47
+    Q2 2026: 0.24
+    Q3 2026: 0.28
+    Q4 2026: 0.2
+    Q1 2027: -0.16
+  annual_forecast:
+    2021 Yearly: -6.68
+    2022 Yearly: -6.96
+    2023 Yearly: -7.09
+    2024 Yearly: -4.45
+    2025 Yearly: 9.5
+    2026 Yearly: 0.58
+    2027 Yearly: 2.58
+    2028 Yearly: 4.59
+    2029 Yearly: 4.54

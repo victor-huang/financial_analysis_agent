@@ -1,0 +1,78 @@
+currency: USD
+company_name: Monolithic Power Systems, Inc.
+sector: Electronic Technology
+market_cap_billions: 64.66
+revenue:
+  quarterly:
+    Q3 2024: 620.12
+    Q4 2024: 621.66
+    Q1 2025: 637.55
+    Q2 2025: 664.57
+    Q3 2025: 737.18
+    Q4 2025: 751.15
+    Q1 2026: 804.18
+  annual:
+    2021 Yearly: 1210.0
+    2022 Yearly: 1790.0
+    2023 Yearly: 1820.0
+    2024 Yearly: 2210.0
+    2025 Yearly: 2790.0
+  quarterly_forecast:
+    Q3 2024: 600.6
+    Q4 2024: 608.07
+    Q1 2025: 634.2
+    Q2 2025: 651.99
+    Q3 2025: 722.4
+    Q4 2025: 742.4
+    Q1 2026: 781.93
+    Q2 2026: 903.3
+    Q3 2026: 986.8
+    Q4 2026: 1020.0
+    Q1 2027: 1030.0
+  annual_forecast:
+    2021 Yearly: 1190.0
+    2022 Yearly: 1790.0
+    2023 Yearly: 1820.0
+    2024 Yearly: 2190.0
+    2025 Yearly: 2780.0
+    2026 Yearly: 3710.0
+    2027 Yearly: 4560.0
+    2028 Yearly: 5240.0
+    2029 Yearly: 6030.0
+eps:
+  quarterly:
+    Q3 2024: 4.06
+    Q4 2024: 4.09
+    Q1 2025: 4.04
+    Q2 2025: 4.21
+    Q3 2025: 4.73
+    Q4 2025: 4.79
+    Q1 2026: 5.1
+  annual:
+    2021 Yearly: 7.45
+    2022 Yearly: 12.41
+    2023 Yearly: 11.78
+    2024 Yearly: 14.12
+    2025 Yearly: 17.77
+  quarterly_forecast:
+    Q3 2024: 3.97
+    Q4 2024: 3.98
+    Q1 2025: 4.01
+    Q2 2025: 4.12
+    Q3 2025: 4.64
+    Q4 2025: 4.74
+    Q1 2026: 4.9
+    Q2 2026: 5.87
+    Q3 2026: 6.49
+    Q4 2026: 6.69
+    Q1 2027: 6.72
+  annual_forecast:
+    2021 Yearly: 7.2
+    2022 Yearly: 12.36
+    2023 Yearly: 11.75
+    2024 Yearly: 14.01
+    2025 Yearly: 17.71
+    2026 Yearly: 24.17
+    2027 Yearly: 30.6
+    2028 Yearly: 35.38
+    2029 Yearly: 41.25

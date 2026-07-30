@@ -1,0 +1,78 @@
+currency: USD
+company_name: Guardant Health, Inc.
+sector: Health Technology
+market_cap_billions: 20.2
+revenue:
+  quarterly:
+    Q3 2024: 191.48
+    Q4 2024: 201.81
+    Q1 2025: 203.47
+    Q2 2025: 232.09
+    Q3 2025: 265.2
+    Q4 2025: 281.27
+    Q1 2026: 301.67
+  annual:
+    2021 Yearly: 373.65
+    2022 Yearly: 449.54
+    2023 Yearly: 563.95
+    2024 Yearly: 739.02
+    2025 Yearly: 982.02
+  quarterly_forecast:
+    Q3 2024: 170.49
+    Q4 2024: 192.13
+    Q1 2025: 190.1
+    Q2 2025: 211.47
+    Q3 2025: 235.61
+    Q4 2025: 272.42
+    Q1 2026: 279.15
+    Q2 2026: 314.23
+    Q3 2026: 338.76
+    Q4 2026: 358.9
+    Q1 2027: 379.0
+  annual_forecast:
+    2021 Yearly: 364.29
+    2022 Yearly: 446.54
+    2023 Yearly: 558.07
+    2024 Yearly: 729.04
+    2025 Yearly: 973.05
+    2026 Yearly: 1310.0
+    2027 Yearly: 1730.0
+    2028 Yearly: 2270.0
+    2029 Yearly: 2890.0
+eps:
+  quarterly:
+    Q3 2024: -0.88
+    Q4 2024: -0.9
+    Q1 2025: -0.77
+    Q2 2025: -0.8
+    Q3 2025: -0.74
+    Q4 2025: -1.0
+    Q1 2026: -0.85
+  annual:
+    2021 Yearly: -4.0
+    2022 Yearly: -6.41
+    2023 Yearly: -4.28
+    2024 Yearly: -3.56
+    2025 Yearly: -3.32
+  quarterly_forecast:
+    Q3 2024: -0.73
+    Q4 2024: -0.78
+    Q1 2025: -0.79
+    Q2 2025: -0.74
+    Q3 2025: -0.79
+    Q4 2025: -0.77
+    Q1 2026: -0.81
+    Q2 2026: -0.76
+    Q3 2026: -0.66
+    Q4 2026: -0.63
+    Q1 2027: -0.58
+  annual_forecast:
+    2021 Yearly: -4.26
+    2022 Yearly: -6.45
+    2023 Yearly: -3.58
+    2024 Yearly: -3.41
+    2025 Yearly: -3.08
+    2026 Yearly: -2.88
+    2027 Yearly: -1.88
+    2028 Yearly: 0.04
+    2029 Yearly: 1.81

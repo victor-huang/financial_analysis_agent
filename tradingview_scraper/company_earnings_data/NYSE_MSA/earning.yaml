@@ -1,0 +1,76 @@
+currency: USD
+company_name: MSA Safety Incorporated
+sector: Electronic Technology
+market_cap_billions: 6.73
+revenue:
+  quarterly:
+    Q3 2024: 432.68
+    Q4 2024: 499.7
+    Q1 2025: 421.34
+    Q2 2025: 474.12
+    Q3 2025: 468.4
+    Q4 2025: 511.0
+    Q1 2026: 463.63
+  annual:
+    2021 Yearly: 1400.0
+    2022 Yearly: 1530.0
+    2023 Yearly: 1790.0
+    2024 Yearly: 1810.0
+    2025 Yearly: 1880.0
+  quarterly_forecast:
+    Q3 2024: 449.95
+    Q4 2024: 518.1
+    Q1 2025: 402.63
+    Q2 2025: 446.78
+    Q3 2025: 461.36
+    Q4 2025: 508.1
+    Q1 2026: 451.28
+    Q2 2026: 496.27
+    Q3 2026: 499.24
+    Q4 2026: 555.08
+    Q1 2027: 504.53
+  annual_forecast:
+    2021 Yearly: 1390.0
+    2022 Yearly: 1510.0
+    2023 Yearly: 1760.0
+    2024 Yearly: 1830.0
+    2025 Yearly: 1870.0
+    2026 Yearly: 2009.9999999999998
+    2027 Yearly: 2140.0
+    2028 Yearly: 2280.0
+eps:
+  quarterly:
+    Q3 2024: 1.83
+    Q4 2024: 2.25
+    Q1 2025: 1.68
+    Q2 2025: 1.93
+    Q3 2025: 1.94
+    Q4 2025: 2.38
+    Q1 2026: 1.99
+  annual:
+    2021 Yearly: 4.68
+    2022 Yearly: 5.65
+    2023 Yearly: 7.03
+    2024 Yearly: 7.7
+    2025 Yearly: 7.93
+  quarterly_forecast:
+    Q3 2024: 1.8
+    Q4 2024: 2.24
+    Q1 2025: 1.58
+    Q2 2025: 1.75
+    Q3 2025: 1.87
+    Q4 2025: 2.26
+    Q1 2026: 1.83
+    Q2 2026: 2.14
+    Q3 2026: 2.17
+    Q4 2026: 2.61
+    Q1 2027: 2.13
+  annual_forecast:
+    2021 Yearly: 4.18
+    2022 Yearly: 5.48
+    2023 Yearly: 6.85
+    2024 Yearly: 7.69
+    2025 Yearly: 7.79
+    2026 Yearly: 8.89
+    2027 Yearly: 9.71
+    2028 Yearly: 10.98

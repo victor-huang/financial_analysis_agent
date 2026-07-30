@@ -1,0 +1,76 @@
+currency: USD
+company_name: BJ's Restaurants, Inc.
+sector: Consumer Services
+market_cap_billions: 1.56
+revenue:
+  quarterly:
+    Q3 2024: 325.7
+    Q4 2024: 344.34
+    Q1 2025: 347.97
+    Q2 2025: 365.6
+    Q3 2025: 330.16
+    Q4 2025: 355.4
+    Q1 2026: 358.12
+  annual:
+    2021 Yearly: 1090.0
+    2022 Yearly: 1280.0
+    2023 Yearly: 1330.0
+    2024 Yearly: 1360.0
+    2025 Yearly: 1400.0
+  quarterly_forecast:
+    Q3 2024: 324.97
+    Q4 2024: 337.32
+    Q1 2025: 347.97
+    Q2 2025: 364.47
+    Q3 2025: 334.21
+    Q4 2025: 354.37
+    Q1 2026: 356.97
+    Q2 2026: 377.07
+    Q3 2026: 341.86
+    Q4 2026: 365.38
+    Q1 2027: 370.88
+  annual_forecast:
+    2021 Yearly: 1090.0
+    2022 Yearly: 1280.0
+    2023 Yearly: 1340.0
+    2024 Yearly: 1350.0
+    2025 Yearly: 1400.0
+    2026 Yearly: 1440.0
+    2027 Yearly: 1500.0
+    2028 Yearly: 1570.0
+eps:
+  quarterly:
+    Q3 2024: -0.13
+    Q4 2024: 0.47
+    Q1 2025: 0.59
+    Q2 2025: 0.97
+    Q3 2025: 0.04
+    Q4 2025: 0.66
+    Q1 2026: 0.57
+  annual:
+    2021 Yearly: -0.24
+    2022 Yearly: 0.07
+    2023 Yearly: 0.82
+    2024 Yearly: 1.47
+    2025 Yearly: 2.26
+  quarterly_forecast:
+    Q3 2024: 0.02
+    Q4 2024: 0.34
+    Q1 2025: 0.39
+    Q2 2025: 0.72
+    Q3 2025: 0.03
+    Q4 2025: 0.62
+    Q1 2026: 0.6
+    Q2 2026: 0.9
+    Q3 2026: 0.14
+    Q4 2026: 0.71
+    Q1 2027: 0.7
+  annual_forecast:
+    2021 Yearly: -0.01
+    2022 Yearly: 0.04
+    2023 Yearly: 0.76
+    2024 Yearly: 1.26
+    2025 Yearly: 2.22
+    2026 Yearly: 2.29
+    2027 Yearly: 2.66
+    2028 Yearly: 2.86

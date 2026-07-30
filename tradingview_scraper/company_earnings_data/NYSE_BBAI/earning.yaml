@@ -1,0 +1,74 @@
+currency: USD
+company_name: BigBear.ai, Inc.
+sector: Technology Services
+market_cap_billions: 1.36
+revenue:
+  quarterly:
+    Q3 2024: 41.51
+    Q4 2024: 43.83
+    Q1 2025: 34.76
+    Q2 2025: 32.47
+    Q3 2025: 33.14
+    Q4 2025: 27.3
+    Q1 2026: 34.44
+  annual:
+    2021 Yearly: 145.58
+    2022 Yearly: 155.01
+    2023 Yearly: 155.16
+    2024 Yearly: 158.24
+    2025 Yearly: 127.67
+  quarterly_forecast:
+    Q3 2024: 45.04
+    Q4 2024: 54.61
+    Q1 2025: 36.26
+    Q2 2025: 41.0
+    Q3 2025: 31.81
+    Q4 2025: 33.32
+    Q1 2026: 33.6
+    Q2 2026: 36.37
+    Q3 2026: 38.11
+    Q4 2026: 34.53
+    Q1 2027: 37.88
+  annual_forecast:
+    2021 Yearly: 154.33
+    2022 Yearly: 154.62
+    2023 Yearly: 157.32
+    2024 Yearly: 168.95
+    2025 Yearly: 133.7
+    2026 Yearly: 143.45
+    2027 Yearly: 154.34
+eps:
+  quarterly:
+    Q3 2024: -0.05
+    Q4 2024: -0.43
+    Q1 2025: -0.25
+    Q2 2025: -0.71
+    Q3 2025: 0.01
+    Q4 2025: -0.01
+    Q1 2026: -0.12
+  annual:
+    2021 Yearly: -1.15
+    2022 Yearly: -0.95
+    2023 Yearly: -0.4
+    2024 Yearly: -1.1
+    2025 Yearly: -0.82
+  quarterly_forecast:
+    Q3 2024: -0.07
+    Q4 2024: -0.05
+    Q1 2025: -0.06
+    Q2 2025: -0.06
+    Q3 2025: -0.07
+    Q4 2025: -0.06
+    Q1 2026: -0.08
+    Q2 2026: -0.04
+    Q3 2026: -0.04
+    Q4 2026: -0.04
+    Q1 2027: -0.03
+  annual_forecast:
+    2021 Yearly: -0.09
+    2022 Yearly: -0.55
+    2023 Yearly: -0.28
+    2024 Yearly: -0.75
+    2025 Yearly: -0.93
+    2026 Yearly: -0.25
+    2027 Yearly: -0.14

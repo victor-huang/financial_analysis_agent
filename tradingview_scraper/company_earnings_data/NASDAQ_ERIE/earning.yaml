@@ -1,0 +1,70 @@
+currency: USD
+company_name: Erie Indemnity Company
+sector: Finance
+market_cap_billions: 10.88
+revenue:
+  quarterly:
+    Q3 2024: 999.89
+    Q4 2024: 924.09
+    Q1 2025: 989.4
+    Q2 2025: 1060.0
+    Q3 2025: 1070.0
+    Q4 2025: 951.02
+    Q1 2026: 1010.0
+  annual:
+    2021 Yearly: 2630.0
+    2022 Yearly: 2840.0
+    2023 Yearly: 3270.0
+    2024 Yearly: 3800.0
+    2025 Yearly: 4070.0000000000005
+  quarterly_forecast:
+    Q3 2024: 985.1
+    Q4 2024: 925.12
+    Q1 2025: 986.48
+    Q2 2025: 1090.0
+    Q3 2025: 1120.0
+    Q4 2025: 975.56
+    Q1 2026: 1090.0
+    Q2 2026: 1090.0
+    Q3 2026: 1090.0
+    Q4 2026: 986.26
+  annual_forecast:
+    2021 Yearly: 2630.0
+    2022 Yearly: 2820.0
+    2023 Yearly: 3220.0
+    2024 Yearly: 3800.0
+    2025 Yearly: 4090.0
+    2026 Yearly: 4180.0
+eps:
+  quarterly:
+    Q3 2024: 3.06
+    Q4 2024: 2.91
+    Q1 2025: 2.65
+    Q2 2025: 3.34
+    Q3 2025: 3.5
+    Q4 2025: 1.21
+    Q1 2026: 2.88
+  annual:
+    2021 Yearly: 5.69
+    2022 Yearly: 5.71
+    2023 Yearly: 8.53
+    2024 Yearly: 11.48
+    2025 Yearly: 10.69
+  quarterly_forecast:
+    Q3 2024: 3.02
+    Q4 2024: 2.76
+    Q1 2025: 3.1
+    Q2 2025: 3.48
+    Q3 2025: 3.37
+    Q4 2025: 1.59
+    Q1 2026: 3.06
+    Q2 2026: 3.35
+    Q3 2026: 3.46
+    Q4 2026: 2.95
+  annual_forecast:
+    2021 Yearly: 5.77
+    2022 Yearly: 6.12
+    2023 Yearly: 8.49
+    2024 Yearly: 11.33
+    2025 Yearly: 11.08
+    2026 Yearly: 12.66

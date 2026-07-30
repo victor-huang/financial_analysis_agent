@@ -1,0 +1,76 @@
+currency: USD
+company_name: American Homes 4 Rent
+sector: Finance
+market_cap_billions: 11.95
+revenue:
+  quarterly:
+    Q3 2024: 445.06
+    Q4 2024: 436.59
+    Q1 2025: 459.28
+    Q2 2025: 457.5
+    Q3 2025: 478.46
+    Q4 2025: 454.99
+    Q1 2026: 472.02
+  annual:
+    2021 Yearly: 1300.0
+    2022 Yearly: 1490.0
+    2023 Yearly: 1620.0
+    2024 Yearly: 1730.0
+    2025 Yearly: 1850.0
+  quarterly_forecast:
+    Q3 2024: 443.81
+    Q4 2024: 442.36
+    Q1 2025: 454.36
+    Q2 2025: 450.19
+    Q3 2025: 476.76
+    Q4 2025: 459.24
+    Q1 2026: 470.62
+    Q2 2026: 466.51
+    Q3 2026: 487.66
+    Q4 2026: 469.64
+    Q1 2027: 488.36
+  annual_forecast:
+    2022 Yearly: 1310.0
+    2023 Yearly: 1490.0
+    2024 Yearly: 1630.0
+    2025 Yearly: 1740.0
+    2026 Yearly: 1850.0
+    2027 Yearly: 1900.0
+    2028 Yearly: 1960.0
+eps:
+  quarterly:
+    Q3 2024: 0.2
+    Q4 2024: 0.33
+    Q1 2025: 0.3
+    Q2 2025: 0.28
+    Q3 2025: 0.27
+    Q4 2025: 0.33
+    Q1 2026: 0.35
+  annual:
+    2021 Yearly: 0.41
+    2022 Yearly: 0.71
+    2023 Yearly: 1.01
+    2024 Yearly: 1.08
+    2025 Yearly: 1.18
+  quarterly_forecast:
+    Q3 2024: 0.15
+    Q4 2024: 0.16
+    Q1 2025: 0.15
+    Q2 2025: 0.17
+    Q3 2025: 0.19
+    Q4 2025: 0.19
+    Q1 2026: 0.18
+    Q2 2026: 0.18
+    Q3 2026: 0.18
+    Q4 2026: 0.19
+    Q1 2027: 0.18
+  annual_forecast:
+    2021 Yearly: 0.38
+    2022 Yearly: 0.57
+    2023 Yearly: 0.91
+    2024 Yearly: 0.89
+    2025 Yearly: 1.02
+    2026 Yearly: 0.88
+    2027 Yearly: 0.79
+    2028 Yearly: 0.7
+    2029 Yearly: 0.86

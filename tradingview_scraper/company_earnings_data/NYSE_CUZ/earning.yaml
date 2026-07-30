@@ -1,0 +1,78 @@
+currency: USD
+company_name: Cousins Properties Incorporated
+sector: Finance
+market_cap_billions: 5.25
+revenue:
+  quarterly:
+    Q3 2024: 207.26
+    Q4 2024: 220.22
+    Q1 2025: 243.03
+    Q2 2025: 237.72
+    Q3 2025: 246.46
+    Q4 2025: 253.34
+    Q1 2026: 261.11
+  annual:
+    2021 Yearly: 739.06
+    2022 Yearly: 753.51
+    2023 Yearly: 799.05
+    2024 Yearly: 847.77
+    2025 Yearly: 980.55
+  quarterly_forecast:
+    Q3 2024: 212.54
+    Q4 2024: 213.43
+    Q1 2025: 232.63
+    Q2 2025: 243.57
+    Q3 2025: 239.65
+    Q4 2025: 250.9
+    Q1 2026: 256.77
+    Q2 2026: 263.55
+    Q3 2026: 263.73
+    Q4 2026: 265.11
+    Q1 2027: 266.0
+  annual_forecast:
+    2021 Yearly: 737.46
+    2022 Yearly: 754.39
+    2023 Yearly: 801.65
+    2024 Yearly: 841.24
+    2025 Yearly: 980.49
+    2026 Yearly: 1050.0
+    2027 Yearly: 1090.0
+    2028 Yearly: 1120.0
+    2029 Yearly: 1180.0
+eps:
+  quarterly:
+    Q3 2024: 0.07
+    Q4 2024: 0.09
+    Q1 2025: 0.12
+    Q2 2025: 0.09
+    Q3 2025: 0.05
+    Q4 2025: -0.02
+    Q1 2026: -0.15
+  annual:
+    2021 Yearly: 1.87
+    2022 Yearly: 1.11
+    2023 Yearly: 0.55
+    2024 Yearly: 0.3
+    2025 Yearly: 0.24
+  quarterly_forecast:
+    Q3 2024: 0.05
+    Q4 2024: 0.1
+    Q1 2025: 0.13
+    Q2 2025: 0.08
+    Q3 2025: 0.07
+    Q4 2025: 0.06
+    Q1 2026: 0.06
+    Q2 2026: 0.07
+    Q3 2026: 0.08
+    Q4 2026: 0.08
+    Q1 2027: 0.09
+  annual_forecast:
+    2021 Yearly: 0.93
+    2022 Yearly: 1.07
+    2023 Yearly: 0.54
+    2024 Yearly: 0.31
+    2025 Yearly: 0.32
+    2026 Yearly: 0.08
+    2027 Yearly: 0.4
+    2028 Yearly: 0.47
+    2029 Yearly: 0.48

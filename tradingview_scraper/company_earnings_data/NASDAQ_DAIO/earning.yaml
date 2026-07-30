@@ -1,0 +1,74 @@
+currency: USD
+company_name: Data I/O Corporation
+sector: Producer Manufacturing
+market_cap_billions: 0.02743
+revenue:
+  quarterly:
+    Q3 2024: 5.42
+    Q4 2024: 5.18
+    Q1 2025: 6.18
+    Q2 2025: 5.95
+    Q3 2025: 5.39
+    Q4 2025: 3.98
+    Q1 2026: 3.25
+  annual:
+    2021 Yearly: 25.84
+    2022 Yearly: 24.22
+    2023 Yearly: 28.06
+    2024 Yearly: 21.77
+    2025 Yearly: 21.5
+  quarterly_forecast:
+    Q3 2024: 5.87
+    Q4 2024: 5.7
+    Q1 2025: 5.29
+    Q2 2025: 5.33
+    Q3 2025: 5.6
+    Q4 2025: 5.41
+    Q1 2026: 4.0
+    Q2 2026: 5.2
+    Q3 2026: 6.25
+    Q4 2026: 7.5
+    Q1 2027: 6.0
+  annual_forecast:
+    2021 Yearly: 25.28
+    2022 Yearly: 23.8
+    2023 Yearly: 28.0
+    2024 Yearly: 22.3
+    2025 Yearly: 22.92
+    2026 Yearly: 22.2
+    2027 Yearly: 27.75
+eps:
+  quarterly:
+    Q3 2024: -0.04
+    Q4 2024: -0.14
+    Q1 2025: -0.04
+    Q2 2025: -0.08
+    Q3 2025: -0.15
+    Q4 2025: -0.27
+    Q1 2026: -0.34
+  annual:
+    2021 Yearly: -0.06
+    2022 Yearly: -0.16
+    2023 Yearly: 0.05
+    2024 Yearly: -0.35
+    2025 Yearly: -0.53
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: -0.03
+    Q1 2025: -0.09
+    Q2 2025: -0.05
+    Q3 2025: -0.1
+    Q4 2025: -0.11
+    Q1 2026: -0.17
+    Q2 2026: -0.04
+    Q3 2026: 0.01
+    Q4 2026: 0.08
+    Q1 2027: -0.05
+  annual_forecast:
+    2021 Yearly: -0.09
+    2022 Yearly: -0.2
+    2023 Yearly: 0.04
+    2024 Yearly: -0.24
+    2025 Yearly: -0.37
+    2026 Yearly: -0.3
+    2027 Yearly: 0.15

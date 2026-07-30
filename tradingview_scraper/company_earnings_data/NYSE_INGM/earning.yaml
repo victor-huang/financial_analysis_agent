@@ -1,0 +1,66 @@
+currency: USD
+company_name: Ingram Micro Holding Corporation
+sector: Technology Services
+market_cap_billions: 7.04
+revenue:
+  quarterly:
+    Q3 2024: 11760.0
+    Q4 2024: 13340.0
+    Q1 2025: 12280.0
+    Q2 2025: 12790.0
+    Q3 2025: 12600.0
+    Q4 2025: 14880.0
+    Q1 2026: 13960.0
+  annual:
+    2024 Yearly: 47980.0
+    2025 Yearly: 52560.0
+  quarterly_forecast:
+    Q3 2024: 11740.0
+    Q4 2024: 13190.0
+    Q1 2025: 11610.0
+    Q2 2025: 11970.0
+    Q3 2025: 12200.0
+    Q4 2025: 14160.0
+    Q1 2026: 12760.0
+    Q2 2026: 13850.0
+    Q3 2026: 13510.0
+    Q4 2026: 15340.0
+    Q1 2027: 14150.0
+  annual_forecast:
+    2024 Yearly: 47840.0
+    2025 Yearly: 51980.0
+    2026 Yearly: 56660.0
+    2027 Yearly: 58380.0
+    2028 Yearly: 60020.0
+    2029 Yearly: 58910.0
+eps:
+  quarterly:
+    Q3 2024: 0.72
+    Q4 2024: 0.92
+    Q1 2025: 0.61
+    Q2 2025: 0.61
+    Q3 2025: 0.72
+    Q4 2025: 0.96
+    Q1 2026: 0.75
+  annual:
+    2024 Yearly: 2.79
+    2025 Yearly: 2.9
+  quarterly_forecast:
+    Q3 2024: 0.67
+    Q4 2024: 0.91
+    Q1 2025: 0.57
+    Q2 2025: 0.59
+    Q3 2025: 0.67
+    Q4 2025: 0.9
+    Q1 2026: 0.72
+    Q2 2026: 0.74
+    Q3 2026: 0.75
+    Q4 2026: 1.03
+    Q1 2027: 0.81
+  annual_forecast:
+    2024 Yearly: 2.79
+    2025 Yearly: 2.84
+    2026 Yearly: 3.29
+    2027 Yearly: 3.68
+    2028 Yearly: 4.11
+    2029 Yearly: 4.06

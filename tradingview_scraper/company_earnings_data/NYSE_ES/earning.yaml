@@ -1,0 +1,78 @@
+currency: USD
+company_name: Eversource Energy (D/B/A)
+sector: Utilities
+market_cap_billions: 27.77
+revenue:
+  quarterly:
+    Q3 2024: 3060.0
+    Q4 2024: 2970.0
+    Q1 2025: 4120.0
+    Q2 2025: 2840.0
+    Q3 2025: 3220.0
+    Q4 2025: 3370.0
+    Q1 2026: 4500.0
+  annual:
+    2021 Yearly: 9860.0
+    2022 Yearly: 12290.0
+    2023 Yearly: 11910.0
+    2024 Yearly: 11900.0
+    2025 Yearly: 13550.0
+  quarterly_forecast:
+    Q3 2024: 3060.0
+    Q4 2024: 3140.0
+    Q1 2025: 3680.0
+    Q2 2025: 2930.0
+    Q3 2025: 3170.0
+    Q4 2025: 2710.0
+    Q1 2026: 4210.0
+    Q2 2026: 2990.0
+    Q3 2026: 3290.0
+    Q4 2026: 3430.0
+    Q1 2027: 4300.0
+  annual_forecast:
+    2021 Yearly: 9510.0
+    2022 Yearly: 10930.0
+    2023 Yearly: 12720.0
+    2024 Yearly: 12380.0
+    2025 Yearly: 12790.0
+    2026 Yearly: 13750.0
+    2027 Yearly: 14260.0
+    2028 Yearly: 14850.0
+    2029 Yearly: 15500.0
+eps:
+  quarterly:
+    Q3 2024: 1.13
+    Q4 2024: 1.01
+    Q1 2025: 1.5
+    Q2 2025: 0.96
+    Q3 2025: 1.19
+    Q4 2025: 1.12
+    Q1 2026: 1.73
+  annual:
+    2021 Yearly: 3.86
+    2022 Yearly: 4.09
+    2023 Yearly: 4.34
+    2024 Yearly: 4.57
+    2025 Yearly: 4.76
+  quarterly_forecast:
+    Q3 2024: 1.08
+    Q4 2024: 0.99
+    Q1 2025: 1.51
+    Q2 2025: 0.95
+    Q3 2025: 1.15
+    Q4 2025: 1.1
+    Q1 2026: 1.63
+    Q2 2026: 0.87
+    Q3 2026: 1.04
+    Q4 2026: 1.02
+    Q1 2027: 1.7
+  annual_forecast:
+    2021 Yearly: 3.84
+    2022 Yearly: 4.09
+    2023 Yearly: 4.35
+    2024 Yearly: 4.56
+    2025 Yearly: 4.75
+    2026 Yearly: 4.65
+    2027 Yearly: 4.92
+    2028 Yearly: 5.26
+    2029 Yearly: 5.6

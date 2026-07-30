@@ -1,0 +1,78 @@
+currency: USD
+company_name: VALE S.A.
+sector: Non-Energy Minerals
+market_cap_billions: 60.89
+revenue:
+  quarterly:
+    Q3 2024: 9550.0
+    Q4 2024: 10120.0
+    Q1 2025: 8119.999999999999
+    Q2 2025: 8800.0
+    Q3 2025: 10420.0
+    Q4 2025: 11060.0
+    Q1 2026: 9260.0
+  annual:
+    2021 Yearly: 54500.0
+    2022 Yearly: 43840.0
+    2023 Yearly: 41780.0
+    2024 Yearly: 38060.0
+    2025 Yearly: 38400.0
+  quarterly_forecast:
+    Q3 2024: 9620.0
+    Q4 2024: 10080.0
+    Q1 2025: 8150.0
+    Q2 2025: 8890.0
+    Q3 2025: 10350.0
+    Q4 2025: 10900.0
+    Q1 2026: 9530.0
+    Q2 2026: 10470.0
+    Q3 2026: 10560.0
+    Q4 2026: 10890.0
+    Q1 2027: 9110.0
+  annual_forecast:
+    2021 Yearly: 54390.0
+    2022 Yearly: 43280.0
+    2023 Yearly: 41700.0
+    2024 Yearly: 37630.0
+    2025 Yearly: 38100.0
+    2026 Yearly: 41520.0
+    2027 Yearly: 41280.0
+    2028 Yearly: 42370.0
+    2029 Yearly: 44910.0
+eps:
+  quarterly:
+    Q3 2024: 0.56
+    Q4 2024: -0.16
+    Q1 2025: 0.33
+    Q2 2025: 0.5
+    Q3 2025: 0.63
+    Q4 2025: -0.9
+    Q1 2026: 0.44
+  annual:
+    2021 Yearly: 4.47
+    2022 Yearly: 4.05
+    2023 Yearly: 1.83
+    2024 Yearly: 1.44
+    2025 Yearly: 0.55
+  quarterly_forecast:
+    Q3 2024: 0.43
+    Q4 2024: 0.46
+    Q1 2025: 0.37
+    Q2 2025: 0.35
+    Q3 2025: 0.51
+    Q4 2025: 0.59
+    Q1 2026: 0.52
+    Q2 2026: 0.46
+    Q3 2026: 0.48
+    Q4 2026: 0.5
+    Q1 2027: 0.4
+  annual_forecast:
+    2021 Yearly: 4.26
+    2022 Yearly: 3.54
+    2023 Yearly: 2.31
+    2024 Yearly: 1.96
+    2025 Yearly: 2.01
+    2026 Yearly: 1.95
+    2027 Yearly: 1.9
+    2028 Yearly: 1.93
+    2029 Yearly: 2.14

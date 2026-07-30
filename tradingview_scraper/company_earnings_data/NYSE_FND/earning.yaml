@@ -1,0 +1,76 @@
+currency: USD
+company_name: Floor & Decor Holdings, Inc.
+sector: Retail Trade
+market_cap_billions: 5.98
+revenue:
+  quarterly:
+    Q3 2024: 1120.0
+    Q4 2024: 1110.0
+    Q1 2025: 1160.0
+    Q2 2025: 1210.0
+    Q3 2025: 1180.0
+    Q4 2025: 1130.0
+    Q1 2026: 1150.0
+  annual:
+    2021 Yearly: 3430.0
+    2022 Yearly: 4260.0
+    2023 Yearly: 4410.0
+    2024 Yearly: 4460.0
+    2025 Yearly: 4680.0
+  quarterly_forecast:
+    Q3 2024: 1130.0
+    Q4 2024: 1090.0
+    Q1 2025: 1160.0
+    Q2 2025: 1210.0
+    Q3 2025: 1170.0
+    Q4 2025: 1130.0
+    Q1 2026: 1190.0
+    Q2 2026: 1230.0
+    Q3 2026: 1220.0
+    Q4 2026: 1230.0
+    Q1 2027: 1220.0
+  annual_forecast:
+    2021 Yearly: 3430.0
+    2022 Yearly: 4280.0
+    2023 Yearly: 4380.0
+    2024 Yearly: 4430.0
+    2025 Yearly: 4690.0
+    2026 Yearly: 4830.0
+    2027 Yearly: 5110.0
+    2028 Yearly: 5540.0
+eps:
+  quarterly:
+    Q3 2024: 0.48
+    Q4 2024: 0.44
+    Q1 2025: 0.45
+    Q2 2025: 0.58
+    Q3 2025: 0.53
+    Q4 2025: 0.36
+    Q1 2026: 0.37
+  annual:
+    2021 Yearly: 2.44
+    2022 Yearly: 2.76
+    2023 Yearly: 2.28
+    2024 Yearly: 1.9
+    2025 Yearly: 1.92
+  quarterly_forecast:
+    Q3 2024: 0.45
+    Q4 2024: 0.25
+    Q1 2025: 0.45
+    Q2 2025: 0.56
+    Q3 2025: 0.47
+    Q4 2025: 0.34
+    Q1 2026: 0.41
+    Q2 2026: 0.57
+    Q3 2026: 0.56
+    Q4 2026: 0.42
+    Q1 2027: 0.43
+  annual_forecast:
+    2021 Yearly: 2.46
+    2022 Yearly: 2.7
+    2023 Yearly: 2.21
+    2024 Yearly: 1.71
+    2025 Yearly: 1.91
+    2026 Yearly: 1.91
+    2027 Yearly: 2.21
+    2028 Yearly: 2.68

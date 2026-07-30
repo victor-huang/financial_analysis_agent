@@ -1,0 +1,76 @@
+currency: USD
+company_name: POSCO HOLDINGS INC.
+sector: Non-Energy Minerals
+market_cap_billions: 14.7
+revenue:
+  quarterly:
+    Q3 2024: 13250.0
+    Q4 2024: 12140.0
+    Q1 2025: 12150.0
+    Q2 2025: 12660.0
+    Q3 2025: 12060.0
+    Q4 2025: 11810.0
+    Q1 2026: 12050.0
+  annual:
+    2021 Yearly: 61070.0
+    2022 Yearly: 68830.0
+    2023 Yearly: 57840.0
+    2024 Yearly: 49550.0
+    2025 Yearly: 48450.0
+  quarterly_forecast:
+    Q3 2024: 13720.0
+    Q4 2024: 12480.0
+    Q1 2025: 12120.0
+    Q2 2025: 13210.0
+    Q3 2025: 12610.0
+    Q4 2025: 11860.0
+    Q1 2026: 11730.0
+    Q2 2026: 12050.0
+    Q3 2026: 12070.0
+    Q4 2026: 12200.0
+    Q1 2027: 11780.0
+  annual_forecast:
+    2021 Yearly: 63370.0
+    2022 Yearly: 65310.0
+    2023 Yearly: 59090.0
+    2024 Yearly: 51490.0
+    2025 Yearly: 48040.0
+    2026 Yearly: 48590.0
+    2027 Yearly: 50710.0
+    2028 Yearly: 52180.0
+    2029 Yearly: 57210.0
+eps:
+  quarterly:
+    Q3 2024: 0.99
+    Q4 2024: -0.85
+    Q1 2025: 0.65
+    Q2 2025: 0.36
+    Q3 2025: 0.91
+    Q4 2025: -0.5
+    Q1 2026: 0.99
+  annual:
+    2021 Yearly: 15.35
+    2022 Yearly: 9.54
+    2023 Yearly: 3.76
+    2024 Yearly: 2.26
+    2025 Yearly: 1.42
+  quarterly_forecast:
+    Q3 2024: 1.19
+    Q4 2024: 0.74
+    Q1 2025: 0.69
+    Q2 2025: 0.78
+    Q3 2025: 0.9
+    Q4 2025: 1.03
+    Q1 2026: 0.8
+    Q2 2026: 0.83
+    Q3 2026: 1.03
+    Q4 2026: 1.11
+    Q1 2027: 1.22
+  annual_forecast:
+    2022 Yearly: 16.56
+    2023 Yearly: 9.72
+    2024 Yearly: 5.58
+    2025 Yearly: 3.91
+    2026 Yearly: 2.34
+    2027 Yearly: 4.03
+    2028 Yearly: 5.12

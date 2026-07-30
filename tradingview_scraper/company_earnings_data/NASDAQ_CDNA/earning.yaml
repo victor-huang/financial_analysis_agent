@@ -1,0 +1,76 @@
+currency: USD
+company_name: CareDx, Inc.
+sector: Health Technology
+market_cap_billions: 1.97
+revenue:
+  quarterly:
+    Q3 2024: 82.88
+    Q4 2024: 86.58
+    Q1 2025: 84.69
+    Q2 2025: 86.68
+    Q3 2025: 100.06
+    Q4 2025: 108.39
+    Q1 2026: 117.7
+  annual:
+    2021 Yearly: 296.4
+    2022 Yearly: 321.79
+    2023 Yearly: 280.32
+    2024 Yearly: 333.79
+    2025 Yearly: 379.81
+  quarterly_forecast:
+    Q3 2024: 80.04
+    Q4 2024: 84.11
+    Q1 2025: 84.35
+    Q2 2025: 90.57
+    Q3 2025: 95.38
+    Q4 2025: 103.27
+    Q1 2026: 102.03
+    Q2 2026: 113.83
+    Q3 2026: 111.48
+    Q4 2026: 112.71
+    Q1 2027: 113.22
+  annual_forecast:
+    2021 Yearly: 294.49
+    2022 Yearly: 321.02
+    2023 Yearly: 278.36
+    2024 Yearly: 331.35
+    2025 Yearly: 374.6
+    2026 Yearly: 455.93
+    2027 Yearly: 481.27
+    2028 Yearly: 507.21
+eps:
+  quarterly:
+    Q3 2024: -0.14
+    Q4 2024: 1.51
+    Q1 2025: -0.19
+    Q2 2025: -0.16
+    Q3 2025: 0.03
+    Q4 2025: 0.12
+    Q1 2026: 0.34
+  annual:
+    2021 Yearly: -0.59
+    2022 Yearly: -1.44
+    2023 Yearly: -3.54
+    2024 Yearly: 0.93
+    2025 Yearly: 0.58
+  quarterly_forecast:
+    Q3 2024: -0.25
+    Q4 2024: -0.41
+    Q1 2025: -0.21
+    Q2 2025: -0.1
+    Q3 2025: -0.08
+    Q4 2025: 0.02
+    Q1 2026: 0.13
+    Q2 2026: 0.23
+    Q3 2026: 0.19
+    Q4 2026: 0.17
+    Q1 2027: 0.23
+  annual_forecast:
+    2021 Yearly: -0.3
+    2022 Yearly: -1.43
+    2023 Yearly: -1.83
+    2024 Yearly: -0.9
+    2025 Yearly: -0.3
+    2026 Yearly: 0.93
+    2027 Yearly: 1.13
+    2028 Yearly: 1.53

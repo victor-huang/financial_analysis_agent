@@ -1,0 +1,74 @@
+currency: USD
+company_name: First Internet Bancorp
+sector: Finance
+market_cap_billions: 0.22916
+revenue:
+  quarterly:
+    Q3 2024: 33.79
+    Q4 2024: 34.75
+    Q1 2025: 35.52
+    Q2 2025: 33.55
+    Q3 2025: 43.53
+    Q4 2025: 42.11
+    Q1 2026: 43.12
+  annual:
+    2021 Yearly: 117.69
+    2022 Yearly: 118.35
+    2023 Yearly: 101.03
+    2024 Yearly: 129.99
+    2025 Yearly: 154.71
+  quarterly_forecast:
+    Q3 2024: 34.75
+    Q4 2024: 36.53
+    Q1 2025: 37.74
+    Q2 2025: 35.99
+    Q3 2025: 45.48
+    Q4 2025: 43.5
+    Q1 2026: 45.67
+    Q2 2026: 43.83
+    Q3 2026: 46.87
+    Q4 2026: 49.64
+    Q1 2027: 51.22
+  annual_forecast:
+    2021 Yearly: 121.49
+    2022 Yearly: 122.6
+    2023 Yearly: 103.04
+    2024 Yearly: 134.41
+    2025 Yearly: 149.25
+    2026 Yearly: 184.34
+    2027 Yearly: 210.54
+eps:
+  quarterly:
+    Q3 2024: 0.8
+    Q4 2024: 0.41
+    Q1 2025: 0.11
+    Q2 2025: 0.02
+    Q3 2025: -1.43
+    Q4 2025: 0.64
+    Q1 2026: 0.29
+  annual:
+    2021 Yearly: 4.74
+    2022 Yearly: 3.86
+    2023 Yearly: 1.83
+    2024 Yearly: 2.51
+    2025 Yearly: -0.66
+  quarterly_forecast:
+    Q3 2024: 0.82
+    Q4 2024: 0.92
+    Q1 2025: 0.76
+    Q2 2025: 0.29
+    Q3 2025: 0.63
+    Q4 2025: 0.57
+    Q1 2026: 0.09
+    Q2 2026: 0.15
+    Q3 2026: 0.75
+    Q4 2026: 0.98
+    Q1 2027: 1.16
+  annual_forecast:
+    2021 Yearly: 4.68
+    2022 Yearly: 3.84
+    2023 Yearly: 1.1
+    2024 Yearly: 3.01
+    2025 Yearly: -1.97
+    2026 Yearly: 2.16
+    2027 Yearly: 4.62

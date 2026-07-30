@@ -1,0 +1,78 @@
+currency: USD
+company_name: Live Nation Entertainment, Inc.
+sector: Consumer Services
+market_cap_billions: 42.72
+revenue:
+  quarterly:
+    Q3 2024: 7650.0
+    Q4 2024: 5680.0
+    Q1 2025: 3380.0
+    Q2 2025: 7010.0
+    Q3 2025: 8500.0
+    Q4 2025: 6310.0
+    Q1 2026: 3790.0
+  annual:
+    2021 Yearly: 6270.0
+    2022 Yearly: 16680.0
+    2023 Yearly: 22750.0
+    2024 Yearly: 23160.0
+    2025 Yearly: 25200.0
+  quarterly_forecast:
+    Q3 2024: 7750.0
+    Q4 2024: 5600.0
+    Q1 2025: 3480.0
+    Q2 2025: 6850.0
+    Q3 2025: 8560.0
+    Q4 2025: 6100.0
+    Q1 2026: 3570.0
+    Q2 2026: 7560.0
+    Q3 2026: 9500.0
+    Q4 2026: 6940.0
+    Q1 2027: 4110.0
+  annual_forecast:
+    2021 Yearly: 5670.0
+    2022 Yearly: 16000.0
+    2023 Yearly: 21720.0
+    2024 Yearly: 23090.0
+    2025 Yearly: 25000.0
+    2026 Yearly: 27780.0
+    2027 Yearly: 30400.0
+    2028 Yearly: 33390.0
+    2029 Yearly: 36630.0
+eps:
+  quarterly:
+    Q3 2024: 1.66
+    Q4 2024: 0.58
+    Q1 2025: -0.32
+    Q2 2025: 0.41
+    Q3 2025: 0.73
+    Q4 2025: -1.06
+    Q1 2026: -1.85
+  annual:
+    2021 Yearly: -3.09
+    2022 Yearly: 0.64
+    2023 Yearly: 1.37
+    2024 Yearly: 2.74
+    2025 Yearly: -0.24
+  quarterly_forecast:
+    Q3 2024: 1.61
+    Q4 2024: -1.12
+    Q1 2025: -0.41
+    Q2 2025: 1.03
+    Q3 2025: 1.31
+    Q4 2025: -1.02
+    Q1 2026: -0.35
+    Q2 2026: 0.66
+    Q3 2026: 1.94
+    Q4 2026: -0.96
+    Q1 2027: -0.08
+  annual_forecast:
+    2021 Yearly: -2.58
+    2022 Yearly: 0.87
+    2023 Yearly: 1.6
+    2024 Yearly: 1.1
+    2025 Yearly: -0.21
+    2026 Yearly: -0.26
+    2027 Yearly: 2.43
+    2028 Yearly: 3.41
+    2029 Yearly: 4.0

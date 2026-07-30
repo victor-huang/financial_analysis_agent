@@ -1,0 +1,74 @@
+currency: USD
+company_name: Farmers & Merchants Bancorp, Inc.
+sector: Finance
+market_cap_billions: 0.45903
+revenue:
+  quarterly:
+    Q4 2024: 26.83
+    Q1 2025: 28.07
+    Q2 2025: 29.65
+    Q3 2025: 31.26
+    Q4 2025: 32.45
+    Q1 2026: 32.44
+    Q2 2026: 34.35
+  annual:
+    2021 Yearly: 87.11
+    2022 Yearly: 102.32
+    2023 Yearly: 97.44
+    2024 Yearly: 101.53
+    2025 Yearly: 121.43
+  quarterly_forecast:
+    Q4 2024: 26.09
+    Q1 2025: 26.92
+    Q2 2025: 28.43
+    Q3 2025: 30.54
+    Q4 2025: 31.45
+    Q1 2026: 32.6
+    Q2 2026: 33.05
+    Q3 2026: 34.65
+    Q4 2026: 34.85
+    Q1 2027: 35.5
+    Q2 2027: 36.0
+  annual_forecast:
+    2021 Yearly: 85.17
+    2022 Yearly: 103.7
+    2023 Yearly: 96.9
+    2024 Yearly: 100.41
+    2025 Yearly: 120.49
+    2026 Yearly: 136.65
+    2027 Yearly: 144.8
+eps:
+  quarterly:
+    Q4 2024: 0.61
+    Q1 2025: 0.51
+    Q2 2025: 0.56
+    Q3 2025: 0.64
+    Q4 2025: 0.71
+    Q1 2026: 0.7
+    Q2 2026: 0.86
+  annual:
+    2021 Yearly: 2.28
+    2022 Yearly: 2.62
+    2023 Yearly: 1.68
+    2024 Yearly: 1.9
+    2025 Yearly: 2.43
+  quarterly_forecast:
+    Q4 2024: 0.48
+    Q1 2025: 0.42
+    Q2 2025: 0.5
+    Q3 2025: 0.59
+    Q4 2025: 0.66
+    Q1 2026: 0.68
+    Q2 2026: 0.67
+    Q3 2026: 0.78
+    Q4 2026: 0.78
+    Q1 2027: 0.79
+    Q2 2027: 0.79
+  annual_forecast:
+    2021 Yearly: 2.14
+    2022 Yearly: 2.63
+    2023 Yearly: 1.68
+    2024 Yearly: 1.74
+    2025 Yearly: 2.38
+    2026 Yearly: 3.07
+    2027 Yearly: 3.19

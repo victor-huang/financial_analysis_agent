@@ -1,0 +1,78 @@
+currency: USD
+company_name: Myriad Genetics, Inc.
+sector: Health Technology
+market_cap_billions: 0.50719
+revenue:
+  quarterly:
+    Q3 2024: 213.3
+    Q4 2024: 210.6
+    Q1 2025: 195.9
+    Q2 2025: 213.1
+    Q3 2025: 205.7
+    Q4 2025: 209.8
+    Q1 2026: 200.4
+  annual:
+    2021 Yearly: 690.6
+    2022 Yearly: 678.4
+    2023 Yearly: 753.2
+    2024 Yearly: 837.6
+    2025 Yearly: 824.5
+  quarterly_forecast:
+    Q3 2024: 210.76
+    Q4 2024: 211.62
+    Q1 2025: 200.54
+    Q2 2025: 201.86
+    Q3 2025: 204.82
+    Q4 2025: 207.44
+    Q1 2026: 202.42
+    Q2 2026: 206.03
+    Q3 2026: 224.85
+    Q4 2026: 232.29
+    Q1 2027: 215.98
+  annual_forecast:
+    2021 Yearly: 691.23
+    2022 Yearly: 670.07
+    2023 Yearly: 751.44
+    2024 Yearly: 838.87
+    2025 Yearly: 822.22
+    2026 Yearly: 863.57
+    2027 Yearly: 915.78
+    2028 Yearly: 970.1
+    2029 Yearly: 1080.0
+eps:
+  quarterly:
+    Q3 2024: 0.06
+    Q4 2024: 0.03
+    Q1 2025: -0.03
+    Q2 2025: 0.05
+    Q3 2025: 0.0
+    Q4 2025: 0.04
+    Q1 2026: -0.09
+  annual:
+    2021 Yearly: 0.02
+    2022 Yearly: -0.3
+    2023 Yearly: -0.27
+    2024 Yearly: 0.14
+    2025 Yearly: 0.06
+  quarterly_forecast:
+    Q3 2024: 0.02
+    Q4 2024: 0.03
+    Q1 2025: -0.05
+    Q2 2025: -0.01
+    Q3 2025: -0.01
+    Q4 2025: -0.01
+    Q1 2026: -0.07
+    Q2 2026: -0.06
+    Q3 2026: 0.07
+    Q4 2026: 0.12
+    Q1 2027: -0.02
+  annual_forecast:
+    2021 Yearly: 0.0
+    2022 Yearly: -0.34
+    2023 Yearly: -0.3
+    2024 Yearly: 0.13
+    2025 Yearly: 0.01
+    2026 Yearly: 0.06
+    2027 Yearly: 0.15
+    2028 Yearly: 0.27
+    2029 Yearly: 0.57

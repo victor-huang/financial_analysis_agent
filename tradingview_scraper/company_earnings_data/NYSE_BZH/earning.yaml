@@ -1,0 +1,74 @@
+currency: USD
+company_name: Beazer Homes USA, Inc.
+sector: Consumer Durables
+market_cap_billions: 0.89081
+revenue:
+  quarterly:
+    Q4 2024: 806.16
+    Q1 2025: 468.95
+    Q2 2025: 565.34
+    Q3 2025: 545.37
+    Q4 2025: 791.9
+    Q1 2026: 363.49
+    Q2 2026: 409.85
+  annual:
+    2021 Yearly: 2140.0
+    2022 Yearly: 2320.0
+    2023 Yearly: 2210.0
+    2024 Yearly: 2330.0
+    2025 Yearly: 2370.0
+  quarterly_forecast:
+    Q4 2024: 775.42
+    Q1 2025: 464.42
+    Q2 2025: 541.84
+    Q3 2025: 559.05
+    Q4 2025: 677.29
+    Q1 2026: 423.39
+    Q2 2026: 448.79
+    Q3 2026: 510.55
+    Q4 2026: 819.92
+    Q1 2027: 468.4
+    Q2 2027: 499.43
+  annual_forecast:
+    2021 Yearly: 2130.0
+    2022 Yearly: 2200.0
+    2023 Yearly: 2190.0
+    2024 Yearly: 2300.0
+    2025 Yearly: 2260.0
+    2026 Yearly: 2100.0
+    2027 Yearly: 2410.0
+eps:
+  quarterly:
+    Q4 2024: 1.69
+    Q1 2025: 0.1
+    Q2 2025: 0.42
+    Q3 2025: -0.01
+    Q4 2025: 1.02
+    Q1 2026: -1.13
+    Q2 2026: -0.03
+  annual:
+    2021 Yearly: 4.01
+    2022 Yearly: 7.24
+    2023 Yearly: 5.16
+    2024 Yearly: 4.53
+    2025 Yearly: 1.52
+  quarterly_forecast:
+    Q4 2024: 1.35
+    Q1 2025: 0.31
+    Q2 2025: 0.27
+    Q3 2025: 0.42
+    Q4 2025: 0.8
+    Q1 2026: -0.47
+    Q2 2026: -0.72
+    Q3 2026: -0.36
+    Q4 2026: 0.8
+    Q1 2027: -0.27
+    Q2 2027: 0.0
+  annual_forecast:
+    2021 Yearly: 3.28
+    2022 Yearly: 6.42
+    2023 Yearly: 4.75
+    2024 Yearly: 4.19
+    2025 Yearly: 1.4
+    2026 Yearly: -0.71
+    2027 Yearly: 1.41

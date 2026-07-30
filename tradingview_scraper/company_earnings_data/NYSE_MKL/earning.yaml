@@ -1,0 +1,76 @@
+currency: USD
+company_name: Markel Group Inc.
+sector: Finance
+market_cap_billions: 23.6
+revenue:
+  quarterly:
+    Q4 2024: 3370.0
+    Q1 2025: 4220.0
+    Q2 2025: 5140.0
+    Q3 2025: 2720.0
+    Q4 2025: 4220.0
+    Q1 2026: 2820.0
+    Q2 2026: 3980.0
+  annual:
+    2021 Yearly: 11440.0
+    2022 Yearly: 13200.0
+    2023 Yearly: 10280.0
+    2024 Yearly: 10550.0
+    2025 Yearly: 16590.0
+  quarterly_forecast:
+    Q4 2024: 3160.0
+    Q1 2025: 3920.0
+    Q2 2025: 4820.0
+    Q3 2025: 3750.0
+    Q4 2025: 3640.0
+    Q1 2026: 3660.0
+    Q2 2026: 4500.0
+    Q3 2026: 3790.0
+    Q4 2026: 3770.0
+    Q1 2027: 3560.0
+    Q2 2027: 4030.0000000000005
+  annual_forecast:
+    2021 Yearly: 11460.0
+    2022 Yearly: 13320.0
+    2023 Yearly: 14110.0
+    2024 Yearly: 15000.0
+    2025 Yearly: 16860.0
+    2026 Yearly: 14850.0
+    2027 Yearly: 15240.0
+    2028 Yearly: 15930.0
+eps:
+  quarterly:
+    Q4 2024: 22.86
+    Q1 2025: 23.13
+    Q2 2025: 25.52
+    Q3 2025: 31.27
+    Q4 2025: 33.63
+    Q1 2026: 23.26
+    Q2 2026: 31.75
+  annual:
+    2021 Yearly: 179.91
+    2022 Yearly: -28.72
+    2023 Yearly: 61.83
+    2024 Yearly: 90.57
+    2025 Yearly: 114.35
+  quarterly_forecast:
+    Q4 2024: 19.0
+    Q1 2025: 16.77
+    Q2 2025: 24.97
+    Q3 2025: 24.02
+    Q4 2025: 27.62
+    Q1 2026: 26.47
+    Q2 2026: 30.64
+    Q3 2026: 28.32
+    Q4 2026: 27.91
+    Q1 2027: 27.79
+    Q2 2027: 32.21
+  annual_forecast:
+    2021 Yearly: 58.3
+    2022 Yearly: 62.52
+    2023 Yearly: 77.39
+    2024 Yearly: 85.73
+    2025 Yearly: 108.52
+    2026 Yearly: 111.79
+    2027 Yearly: 119.59
+    2028 Yearly: 126.5

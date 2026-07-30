@@ -1,0 +1,76 @@
+currency: USD
+company_name: AptarGroup, Inc.
+sector: Process Industries
+market_cap_billions: 8.54
+revenue:
+  quarterly:
+    Q3 2024: 909.29
+    Q4 2024: 848.09
+    Q1 2025: 887.3
+    Q2 2025: 966.01
+    Q3 2025: 961.13
+    Q4 2025: 962.74
+    Q1 2026: 982.87
+  annual:
+    2021 Yearly: 3230.0
+    2022 Yearly: 3320.0
+    2023 Yearly: 3490.0
+    2024 Yearly: 3580.0
+    2025 Yearly: 3780.0
+  quarterly_forecast:
+    Q3 2024: 922.33
+    Q4 2024: 852.26
+    Q1 2025: 898.64
+    Q2 2025: 954.93
+    Q3 2025: 953.51
+    Q4 2025: 878.58
+    Q1 2026: 955.95
+    Q2 2026: 1010.0
+    Q3 2026: 991.9
+    Q4 2026: 989.58
+    Q1 2027: 1020.0
+  annual_forecast:
+    2021 Yearly: 3200.0
+    2022 Yearly: 3310.0
+    2023 Yearly: 3490.0
+    2024 Yearly: 3590.0
+    2025 Yearly: 3690.0
+    2026 Yearly: 3980.0
+    2027 Yearly: 4160.0
+    2028 Yearly: 4420.0
+eps:
+  quarterly:
+    Q3 2024: 1.49
+    Q4 2024: 1.52
+    Q1 2025: 1.2
+    Q2 2025: 1.66
+    Q3 2025: 1.62
+    Q4 2025: 1.25
+    Q1 2026: 1.19
+  annual:
+    2021 Yearly: 3.88
+    2022 Yearly: 3.79
+    2023 Yearly: 4.78
+    2024 Yearly: 5.64
+    2025 Yearly: 5.74
+  quarterly_forecast:
+    Q3 2024: 1.42
+    Q4 2024: 1.26
+    Q1 2025: 1.16
+    Q2 2025: 1.59
+    Q3 2025: 1.57
+    Q4 2025: 1.23
+    Q1 2026: 1.15
+    Q2 2026: 1.35
+    Q3 2026: 1.46
+    Q4 2026: 1.48
+    Q1 2027: 1.36
+  annual_forecast:
+    2021 Yearly: 3.85
+    2022 Yearly: 3.66
+    2023 Yearly: 4.68
+    2024 Yearly: 5.38
+    2025 Yearly: 5.71
+    2026 Yearly: 5.49
+    2027 Yearly: 6.34
+    2028 Yearly: 7.08

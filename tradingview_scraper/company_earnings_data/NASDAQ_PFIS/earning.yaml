@@ -1,0 +1,72 @@
+currency: USD
+company_name: Peoples Financial Services Corp.
+sector: Finance
+market_cap_billions: 0.71187
+revenue:
+  quarterly:
+    Q3 2024: 44.97
+    Q4 2024: 44.18
+    Q1 2025: 45.8
+    Q2 2025: 48.44
+    Q3 2025: 46.68
+    Q4 2025: 46.76
+    Q1 2026: 49.77
+  annual:
+    2021 Yearly: 110.3
+    2022 Yearly: 108.04
+    2023 Yearly: 100.32
+    2024 Yearly: 134.32
+    2025 Yearly: 187.69
+  quarterly_forecast:
+    Q3 2024: 37.0
+    Q4 2024: 45.6
+    Q1 2025: 44.3
+    Q2 2025: 46.85
+    Q3 2025: 48.85
+    Q4 2025: 48.25
+    Q1 2026: 49.95
+    Q2 2026: 52.35
+    Q3 2026: 53.55
+    Q4 2026: 54.3
+    Q1 2027: 54.25
+  annual_forecast:
+    2022 Yearly: 111.3
+    2023 Yearly: 103.2
+    2024 Yearly: 136.55
+    2025 Yearly: 190.2
+    2026 Yearly: 209.45
+    2027 Yearly: 222.4
+eps:
+  quarterly:
+    Q3 2024: 1.64
+    Q4 2024: 0.99
+    Q1 2025: 1.51
+    Q2 2025: 1.69
+    Q3 2025: 1.51
+    Q4 2025: 1.36
+    Q1 2026: 1.43
+  annual:
+    2021 Yearly: 3.92
+    2022 Yearly: 5.5
+    2023 Yearly: 4.03
+    2024 Yearly: 3.77
+    2025 Yearly: 6.07
+  quarterly_forecast:
+    Q3 2024: 1.07
+    Q4 2024: 1.51
+    Q1 2025: 1.32
+    Q2 2025: 1.47
+    Q3 2025: 1.53
+    Q4 2025: 1.52
+    Q1 2026: 1.53
+    Q2 2026: 1.64
+    Q3 2026: 1.72
+    Q4 2026: 1.75
+    Q1 2027: 1.75
+  annual_forecast:
+    2022 Yearly: 5.22
+    2023 Yearly: 4.3
+    2024 Yearly: 4.29
+    2025 Yearly: 6.22
+    2026 Yearly: 3.92
+    2027 Yearly: 7.08

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Veracyte, Inc.
+sector: Health Technology
+market_cap_billions: 4.77
+revenue:
+  quarterly:
+    Q3 2024: 115.86
+    Q4 2024: 118.63
+    Q1 2025: 114.5
+    Q2 2025: 130.2
+    Q3 2025: 131.87
+    Q4 2025: 140.64
+    Q1 2026: 139.07
+  annual:
+    2021 Yearly: 219.51
+    2022 Yearly: 296.54
+    2023 Yearly: 361.05
+    2024 Yearly: 445.76
+    2025 Yearly: 517.14
+  quarterly_forecast:
+    Q3 2024: 109.82
+    Q4 2024: 116.7
+    Q1 2025: 111.27
+    Q2 2025: 121.04
+    Q3 2025: 124.97
+    Q4 2025: 135.43
+    Q1 2026: 130.36
+    Q2 2026: 144.59
+    Q3 2026: 148.71
+    Q4 2026: 154.96
+    Q1 2027: 152.71
+  annual_forecast:
+    2021 Yearly: 214.82
+    2022 Yearly: 291.31
+    2023 Yearly: 354.58
+    2024 Yearly: 443.91
+    2025 Yearly: 511.67
+    2026 Yearly: 586.37
+    2027 Yearly: 655.98
+    2028 Yearly: 721.16
+    2029 Yearly: 836.7
+eps:
+  quarterly:
+    Q3 2024: 0.19
+    Q4 2024: 0.06
+    Q1 2025: 0.31
+    Q2 2025: 0.44
+    Q3 2025: 0.51
+    Q4 2025: 0.53
+    Q1 2026: 0.52
+  annual:
+    2021 Yearly: -1.11
+    2022 Yearly: -0.51
+    2023 Yearly: -1.02
+    2024 Yearly: 0.31
+    2025 Yearly: 1.78
+  quarterly_forecast:
+    Q3 2024: 0.03
+    Q4 2024: 0.11
+    Q1 2025: 0.12
+    Q2 2025: 0.28
+    Q3 2025: 0.32
+    Q4 2025: 0.41
+    Q1 2026: 0.33
+    Q2 2026: 0.43
+    Q3 2026: 0.43
+    Q4 2026: 0.45
+    Q1 2027: 0.44
+  annual_forecast:
+    2021 Yearly: -1.14
+    2022 Yearly: -0.61
+    2023 Yearly: -0.71
+    2024 Yearly: 0.36
+    2025 Yearly: 1.66
+    2026 Yearly: 1.81
+    2027 Yearly: 1.88
+    2028 Yearly: 2.01
+    2029 Yearly: 2.19
