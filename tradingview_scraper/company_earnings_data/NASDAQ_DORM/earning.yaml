@@ -1,0 +1,76 @@
+currency: USD
+company_name: Dorman Products, Inc.
+sector: Consumer Durables
+market_cap_billions: 3.98
+revenue:
+  quarterly:
+    Q3 2024: 503.77
+    Q4 2024: 533.77
+    Q1 2025: 507.69
+    Q2 2025: 540.96
+    Q3 2025: 543.74
+    Q4 2025: 537.93
+    Q1 2026: 528.77
+  annual:
+    2021 Yearly: 1350.0
+    2022 Yearly: 1730.0
+    2023 Yearly: 1930.0
+    2024 Yearly: 2009.9999999999998
+    2025 Yearly: 2130.0
+  quarterly_forecast:
+    Q3 2024: 509.54
+    Q4 2024: 523.83
+    Q1 2025: 483.09
+    Q2 2025: 516.99
+    Q3 2025: 548.66
+    Q4 2025: 573.43
+    Q1 2026: 524.8
+    Q2 2026: 582.32
+    Q3 2026: 584.46
+    Q4 2026: 594.12
+    Q1 2027: 562.33
+  annual_forecast:
+    2021 Yearly: 1310.0
+    2022 Yearly: 1680.0
+    2023 Yearly: 1930.0
+    2024 Yearly: 2000.0
+    2025 Yearly: 2170.0
+    2026 Yearly: 2290.0
+    2027 Yearly: 2410.0
+    2028 Yearly: 2570.0
+    2029 Yearly: 2700.0
+eps:
+  quarterly:
+    Q3 2024: 1.96
+    Q4 2024: 2.2
+    Q1 2025: 2.02
+    Q2 2025: 2.06
+    Q3 2025: 2.62
+    Q4 2025: 2.17
+    Q1 2026: 1.57
+  annual:
+    2021 Yearly: 4.64
+    2022 Yearly: 4.76
+    2023 Yearly: 4.54
+    2024 Yearly: 7.13
+    2025 Yearly: 8.87
+  quarterly_forecast:
+    Q3 2024: 1.53
+    Q4 2024: 1.97
+    Q1 2025: 1.46
+    Q2 2025: 1.8
+    Q3 2025: 2.5
+    Q4 2025: 2.12
+    Q1 2026: 1.57
+    Q2 2026: 1.89
+    Q3 2026: 2.35
+    Q4 2026: 2.47
+    Q1 2027: 1.97
+  annual_forecast:
+    2022 Yearly: 4.67
+    2023 Yearly: 4.8
+    2024 Yearly: 4.38
+    2025 Yearly: 6.9
+    2026 Yearly: 8.82
+    2027 Yearly: 8.28
+    2028 Yearly: 9.38

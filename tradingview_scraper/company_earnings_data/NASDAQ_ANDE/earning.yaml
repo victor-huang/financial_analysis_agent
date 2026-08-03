@@ -1,0 +1,74 @@
+currency: USD
+company_name: The Andersons, Inc.
+sector: Commercial Services
+market_cap_billions: 2.41
+revenue:
+  quarterly:
+    Q3 2024: 2620.0
+    Q4 2024: 3120.0
+    Q1 2025: 2660.0
+    Q2 2025: 3140.0
+    Q3 2025: 2680.0
+    Q4 2025: 2540.0
+    Q1 2026: 2630.0
+  annual:
+    2021 Yearly: 12610.0
+    2022 Yearly: 17330.0
+    2023 Yearly: 14750.0
+    2024 Yearly: 11260.0
+    2025 Yearly: 11010.0
+  quarterly_forecast:
+    Q3 2024: 2900.0
+    Q4 2024: 2720.0
+    Q1 2025: 2830.0
+    Q2 2025: 2860.0
+    Q3 2025: 2890.0
+    Q4 2025: 3280.0
+    Q1 2026: 2710.0
+    Q2 2026: 3280.0
+    Q3 2026: 2950.0
+    Q4 2026: 3120.0
+    Q1 2027: 2910.0
+  annual_forecast:
+    2021 Yearly: 11940.0
+    2022 Yearly: 16930.0
+    2023 Yearly: 15830.0
+    2024 Yearly: 10850.0
+    2025 Yearly: 11750.0
+    2026 Yearly: 11980.0
+    2027 Yearly: 12510.0
+    2028 Yearly: 13780.0
+eps:
+  quarterly:
+    Q3 2024: 0.8
+    Q4 2024: 1.31
+    Q1 2025: 0.01
+    Q2 2025: 0.23
+    Q3 2025: 0.59
+    Q4 2025: 1.97
+    Q1 2026: 0.97
+  annual:
+    2021 Yearly: 3.07
+    2022 Yearly: 3.81
+    2023 Yearly: 2.94
+    2024 Yearly: 3.32
+    2025 Yearly: 2.79
+  quarterly_forecast:
+    Q3 2024: 0.43
+    Q4 2024: 0.92
+    Q1 2025: -0.1
+    Q2 2025: 0.51
+    Q3 2025: 0.47
+    Q4 2025: 1.56
+    Q1 2026: 0.7
+    Q2 2026: 1.48
+    Q3 2026: 1.04
+    Q4 2026: 1.92
+    Q1 2027: 1.12
+  annual_forecast:
+    2022 Yearly: 2.78
+    2023 Yearly: 3.5
+    2024 Yearly: 2.54
+    2025 Yearly: 2.83
+    2026 Yearly: 2.38
+    2027 Yearly: 5.42

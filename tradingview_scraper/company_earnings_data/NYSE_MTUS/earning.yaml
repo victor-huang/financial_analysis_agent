@@ -1,0 +1,74 @@
+currency: USD
+company_name: Metallus Inc.
+sector: Non-Energy Minerals
+market_cap_billions: 0.8375499999999999
+revenue:
+  quarterly:
+    Q3 2024: 227.2
+    Q4 2024: 240.5
+    Q1 2025: 280.5
+    Q2 2025: 304.6
+    Q3 2025: 305.9
+    Q4 2025: 267.3
+    Q1 2026: 308.3
+  annual:
+    2021 Yearly: 1280.0
+    2022 Yearly: 1330.0
+    2023 Yearly: 1360.0
+    2024 Yearly: 1080.0
+    2025 Yearly: 1160.0
+  quarterly_forecast:
+    Q3 2024: 274.37
+    Q4 2024: 241.6
+    Q1 2025: 264.03
+    Q2 2025: 296.13
+    Q3 2025: 306.4
+    Q4 2025: 290.82
+    Q1 2026: 303.47
+    Q2 2026: 330.85
+    Q3 2026: 332.48
+    Q4 2026: 295.77
+    Q1 2027: 336.93
+  annual_forecast:
+    2021 Yearly: 1240.0
+    2022 Yearly: 1410.0
+    2023 Yearly: 1360.0
+    2024 Yearly: 1090.0
+    2025 Yearly: 1180.0
+    2026 Yearly: 1270.0
+    2027 Yearly: 1360.0
+eps:
+  quarterly:
+    Q3 2024: -0.09
+    Q4 2024: -0.08
+    Q1 2025: 0.07
+    Q2 2025: 0.2
+    Q3 2025: 0.28
+    Q4 2025: -0.18
+    Q1 2026: 0.18
+  annual:
+    2021 Yearly: 3.21
+    2022 Yearly: 1.87
+    2023 Yearly: 1.91
+    2024 Yearly: 0.57
+    2025 Yearly: 0.37
+  quarterly_forecast:
+    Q3 2024: -0.02
+    Q4 2024: 0.0
+    Q1 2025: 0.12
+    Q2 2025: 0.17
+    Q3 2025: 0.18
+    Q4 2025: 0.04
+    Q1 2026: 0.15
+    Q2 2026: 0.24
+    Q3 2026: 0.3
+    Q4 2026: 0.13
+    Q1 2027: 0.29
+  annual_forecast:
+    2021 Yearly: 2.84
+    2022 Yearly: 1.99
+    2023 Yearly: 1.82
+    2024 Yearly: 0.63
+    2025 Yearly: 0.58
+    2026 Yearly: 0.83
+    2027 Yearly: 1.33

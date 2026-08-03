@@ -1,0 +1,76 @@
+currency: USD
+company_name: Tetra Technologies, Inc.
+sector: Process Industries
+market_cap_billions: 1.13
+revenue:
+  quarterly:
+    Q3 2024: 141.7
+    Q4 2024: 134.5
+    Q1 2025: 157.14
+    Q2 2025: 173.87
+    Q3 2025: 153.24
+    Q4 2025: 146.68
+    Q1 2026: 156.25
+  annual:
+    2021 Yearly: 388.27
+    2022 Yearly: 553.21
+    2023 Yearly: 626.26
+    2024 Yearly: 599.11
+    2025 Yearly: 630.93
+  quarterly_forecast:
+    Q3 2024: 148.04
+    Q4 2024: 139.33
+    Q1 2025: 158.93
+    Q2 2025: 173.65
+    Q3 2025: 143.19
+    Q4 2025: 141.06
+    Q1 2026: 151.2
+    Q2 2026: 176.16
+    Q3 2026: 161.82
+    Q4 2026: 160.14
+    Q1 2027: 163.25
+  annual_forecast:
+    2021 Yearly: 383.35
+    2022 Yearly: 541.37
+    2023 Yearly: 622.46
+    2024 Yearly: 603.83
+    2025 Yearly: 625.29
+    2026 Yearly: 654.4
+    2027 Yearly: 720.64
+    2028 Yearly: 826.0
+eps:
+  quarterly:
+    Q3 2024: 0.03
+    Q4 2024: 0.03
+    Q1 2025: 0.11
+    Q2 2025: 0.09
+    Q3 2025: 0.04
+    Q4 2025: 0.02
+    Q1 2026: 0.06
+  annual:
+    2021 Yearly: -0.04
+    2022 Yearly: 0.15
+    2023 Yearly: 0.26
+    2024 Yearly: 0.17
+    2025 Yearly: 0.26
+  quarterly_forecast:
+    Q3 2024: 0.03
+    Q4 2024: 0.03
+    Q1 2025: 0.06
+    Q2 2025: 0.08
+    Q3 2025: 0.03
+    Q4 2025: 0.02
+    Q1 2026: 0.03
+    Q2 2026: 0.08
+    Q3 2026: 0.07
+    Q4 2026: 0.06
+    Q1 2027: 0.07
+  annual_forecast:
+    2021 Yearly: -0.04
+    2022 Yearly: 0.16
+    2023 Yearly: 0.28
+    2024 Yearly: 0.17
+    2025 Yearly: 0.22
+    2026 Yearly: 0.27
+    2027 Yearly: 0.4
+    2028 Yearly: 0.54

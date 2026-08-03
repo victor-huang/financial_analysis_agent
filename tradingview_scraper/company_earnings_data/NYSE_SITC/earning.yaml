@@ -1,0 +1,74 @@
+currency: USD
+company_name: SITE Centers Corp.
+sector: Finance
+market_cap_billions: 0.22459
+revenue:
+  quarterly:
+    Q3 2024: 89.43
+    Q4 2024: 32.87
+    Q1 2025: 22.55
+    Q2 2025: 30.66
+    Q3 2025: 24.2
+    Q4 2025: 17.27
+    Q1 2026: 9.24
+  annual:
+    2021 Yearly: 492.34
+    2022 Yearly: 540.81
+    2023 Yearly: 539.46
+    2024 Yearly: 271.09
+    2025 Yearly: 103.59
+  quarterly_forecast:
+    Q3 2024: 104.55
+    Q4 2024: 43.58
+    Q1 2025: 26.65
+    Q2 2025: 27.74
+    Q3 2025: 23.41
+    Q4 2025: 22.39
+    Q1 2026: 10.2
+    Q2 2026: 8.2
+    Q3 2026: 8.2
+    Q4 2026: 8.5
+    Q1 2027: 8.4
+  annual_forecast:
+    2021 Yearly: 490.28
+    2022 Yearly: 542.18
+    2023 Yearly: 542.24
+    2024 Yearly: 363.0
+    2025 Yearly: 118.7
+    2026 Yearly: 34.2
+    2027 Yearly: 33.8
+    2028 Yearly: 417.0
+eps:
+  quarterly:
+    Q3 2024: 6.07
+    Q4 2024: -0.25
+    Q1 2025: 0.06
+    Q2 2025: 0.88
+    Q3 2025: -0.13
+    Q4 2025: 2.55
+    Q1 2026: 0.02
+  annual:
+    2021 Yearly: 0.4
+    2022 Yearly: 0.57
+    2023 Yearly: 0.94
+    2024 Yearly: 9.65
+    2025 Yearly: 3.36
+  quarterly_forecast:
+    Q4 2024: -0.05
+    Q1 2025: -0.41
+    Q2 2025: -0.11
+    Q3 2025: -0.16
+    Q4 2025: -0.26
+    Q1 2026: -0.24
+    Q2 2026: -0.11
+    Q3 2026: -0.11
+    Q4 2026: -0.1
+  annual_forecast:
+    2021 Yearly: 0.23
+    2022 Yearly: 0.49
+    2023 Yearly: 0.25
+    2024 Yearly: 9.66
+    2025 Yearly: -0.6
+    2026 Yearly: -0.43
+    2027 Yearly: 0.12
+    2028 Yearly: 0.05

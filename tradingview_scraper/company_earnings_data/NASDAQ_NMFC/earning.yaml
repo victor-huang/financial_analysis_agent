@@ -1,0 +1,76 @@
+currency: USD
+company_name: New Mountain Finance Corporation
+sector: Miscellaneous
+market_cap_billions: 0.65078
+revenue:
+  quarterly:
+    Q3 2024: 95.33
+    Q4 2024: 91.17
+    Q1 2025: 85.66
+    Q2 2025: 83.49
+    Q3 2025: 80.53
+    Q4 2025: 77.38
+    Q1 2026: 68.79
+  annual:
+    2021 Yearly: 270.96
+    2022 Yearly: 294.63
+    2023 Yearly: 374.84
+    2024 Yearly: 371.67
+    2025 Yearly: 327.08
+  quarterly_forecast:
+    Q3 2024: 94.1
+    Q4 2024: 93.23
+    Q1 2025: 86.65
+    Q2 2025: 84.57
+    Q3 2025: 84.88
+    Q4 2025: 78.91
+    Q1 2026: 67.76
+    Q2 2026: 62.78
+    Q3 2026: 63.02
+    Q4 2026: 63.05
+    Q1 2027: 62.93
+  annual_forecast:
+    2021 Yearly: 269.55
+    2022 Yearly: 302.05
+    2023 Yearly: 375.23
+    2024 Yearly: 373.66
+    2025 Yearly: 328.48
+    2026 Yearly: 257.88
+    2027 Yearly: 252.65
+    2028 Yearly: 244.42
+eps:
+  quarterly:
+    Q3 2024: 0.33
+    Q4 2024: 0.32
+    Q1 2025: 0.32
+    Q2 2025: 0.32
+    Q3 2025: 0.32
+    Q4 2025: 0.32
+    Q1 2026: 0.3
+  annual:
+    2021 Yearly: 1.16
+    2022 Yearly: 1.18
+    2023 Yearly: 1.57
+    2024 Yearly: 1.29
+    2025 Yearly: 1.28
+  quarterly_forecast:
+    Q3 2024: 0.35
+    Q4 2024: 0.33
+    Q1 2025: 0.32
+    Q2 2025: 0.32
+    Q3 2025: 0.32
+    Q4 2025: 0.32
+    Q1 2026: 0.32
+    Q2 2026: 0.26
+    Q3 2026: 0.26
+    Q4 2026: 0.26
+    Q1 2027: 0.26
+  annual_forecast:
+    2021 Yearly: 1.2
+    2022 Yearly: 1.28
+    2023 Yearly: 1.57
+    2024 Yearly: 1.39
+    2025 Yearly: 1.28
+    2026 Yearly: 1.09
+    2027 Yearly: 1.05
+    2028 Yearly: 1.01

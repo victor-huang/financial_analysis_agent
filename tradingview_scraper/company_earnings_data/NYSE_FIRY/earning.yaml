@@ -1,0 +1,74 @@
+currency: USD
+company_name: Firy Inc.
+sector: Technology Services
+market_cap_billions: 0.14796
+revenue:
+  quarterly:
+    Q3 2024: 24.56
+    Q4 2024: 20.37
+    Q1 2025: 22.41
+    Q2 2025: 27.37
+    Q3 2025: 27.37
+    Q4 2025: 30.01
+    Q1 2026: 29.11
+  annual:
+    2021 Yearly: 384.09
+    2022 Yearly: 269.71
+    2023 Yearly: 150.11
+    2024 Yearly: 95.47
+    2025 Yearly: 104.5
+  quarterly_forecast:
+    Q3 2024: 26.66
+    Q4 2024: 25.04
+    Q1 2025: 20.75
+    Q2 2025: 22.8
+    Q3 2025: 29.05
+    Q4 2025: 26.0
+    Q1 2026: 31.25
+    Q2 2026: 33.2
+    Q3 2026: 33.9
+    Q4 2026: 36.2
+    Q1 2027: 30.5
+  annual_forecast:
+    2021 Yearly: 389.25
+    2022 Yearly: 275.15
+    2023 Yearly: 158.55
+    2024 Yearly: 100.13
+    2025 Yearly: 103.2
+    2026 Yearly: 130.0
+    2027 Yearly: 148.0
+    2028 Yearly: 175.0
+eps:
+  quarterly:
+    Q3 2024: -1.2
+    Q4 2024: -1.5
+    Q1 2025: -0.92
+    Q2 2025: -0.58
+    Q3 2025: -1.14
+    Q4 2025: -1.07
+    Q1 2026: -0.69
+  annual:
+    2021 Yearly: -9.4
+    2022 Yearly: -21.4
+    2023 Yearly: -5.11
+    2024 Yearly: -2.7
+    2025 Yearly: -4.51
+  quarterly_forecast:
+    Q4 2024: -1.11
+    Q1 2025: -1.13
+    Q2 2025: -1.09
+    Q3 2025: -1.34
+    Q4 2025: -1.1
+    Q1 2026: -1.03
+    Q2 2026: -0.69
+    Q3 2026: -0.7
+    Q4 2026: -0.6
+  annual_forecast:
+    2021 Yearly: -8.77
+    2022 Yearly: -16.6
+    2023 Yearly: -5.57
+    2024 Yearly: -2.37
+    2025 Yearly: -3.67
+    2026 Yearly: -3.7
+    2027 Yearly: -2.7
+    2028 Yearly: -1.8

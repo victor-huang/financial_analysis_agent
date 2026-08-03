@@ -1,0 +1,78 @@
+currency: USD
+company_name: Innovex International, Inc.
+sector: Industrial Services
+market_cap_billions: 1.96
+revenue:
+  quarterly:
+    Q3 2024: 151.82
+    Q4 2024: 250.69
+    Q1 2025: 240.41
+    Q2 2025: 224.23
+    Q3 2025: 240.0
+    Q4 2025: 273.6
+    Q1 2026: 239.03
+  annual:
+    2021 Yearly: 322.94
+    2022 Yearly: 362.07
+    2023 Yearly: 424.06
+    2024 Yearly: 660.8
+    2025 Yearly: 978.25
+  quarterly_forecast:
+    Q3 2024: 145.06
+    Q4 2024: 230.46
+    Q1 2025: 247.73
+    Q2 2025: 234.59
+    Q3 2025: 235.32
+    Q4 2025: 240.42
+    Q1 2026: 227.48
+    Q2 2026: 241.58
+    Q3 2026: 262.36
+    Q4 2026: 282.12
+    Q1 2027: 270.44
+  annual_forecast:
+    2021 Yearly: 327.14
+    2022 Yearly: 354.19
+    2023 Yearly: 416.49
+    2024 Yearly: 640.58
+    2025 Yearly: 944.83
+    2026 Yearly: 1030.0
+    2027 Yearly: 1140.0
+    2028 Yearly: 1190.0
+    2029 Yearly: 1290.0
+eps:
+  quarterly:
+    Q3 2024: 0.55
+    Q4 2024: 0.59
+    Q1 2025: 0.34
+    Q2 2025: 0.28
+    Q3 2025: 0.13
+    Q4 2025: 0.33
+    Q1 2026: 0.5
+  annual:
+    2021 Yearly: -1.54
+    2022 Yearly: -0.28
+    2023 Yearly: -0.17
+    2024 Yearly: 1.32
+    2025 Yearly: 1.15
+  quarterly_forecast:
+    Q3 2024: 0.33
+    Q4 2024: 0.25
+    Q1 2025: 0.36
+    Q2 2025: 0.3
+    Q3 2025: 0.29
+    Q4 2025: 0.29
+    Q1 2026: 0.24
+    Q2 2026: 0.31
+    Q3 2026: 0.38
+    Q4 2026: 0.44
+    Q1 2027: 0.42
+  annual_forecast:
+    2021 Yearly: -1.42
+    2022 Yearly: -0.37
+    2023 Yearly: -0.02
+    2024 Yearly: 1.33
+    2025 Yearly: 1.12
+    2026 Yearly: 1.64
+    2027 Yearly: 1.94
+    2028 Yearly: 2.26
+    2029 Yearly: 2.73

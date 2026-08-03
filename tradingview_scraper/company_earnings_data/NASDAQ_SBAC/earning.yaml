@@ -1,0 +1,78 @@
+currency: USD
+company_name: SBA Communications Corporation
+sector: Finance
+market_cap_billions: 19.2
+revenue:
+  quarterly:
+    Q3 2024: 667.6
+    Q4 2024: 693.7
+    Q1 2025: 664.25
+    Q2 2025: 698.98
+    Q3 2025: 732.33
+    Q4 2025: 719.58
+    Q1 2026: 703.44
+  annual:
+    2021 Yearly: 2310.0
+    2022 Yearly: 2630.0
+    2023 Yearly: 2710.0
+    2024 Yearly: 2680.0
+    2025 Yearly: 2820.0
+  quarterly_forecast:
+    Q3 2024: 669.3
+    Q4 2024: 681.61
+    Q1 2025: 661.95
+    Q2 2025: 671.15
+    Q3 2025: 714.05
+    Q4 2025: 726.28
+    Q1 2026: 696.24
+    Q2 2026: 706.01
+    Q3 2026: 726.46
+    Q4 2026: 723.67
+    Q1 2027: 721.82
+  annual_forecast:
+    2021 Yearly: 2300.0
+    2022 Yearly: 2630.0
+    2023 Yearly: 2720.0
+    2024 Yearly: 2670.0
+    2025 Yearly: 2820.0
+    2026 Yearly: 2860.0
+    2027 Yearly: 2940.0
+    2028 Yearly: 3050.0
+    2029 Yearly: 3190.0
+eps:
+  quarterly:
+    Q3 2024: 2.4
+    Q4 2024: 1.61
+    Q1 2025: 1.77
+    Q2 2025: 2.09
+    Q3 2025: 2.2
+    Q4 2025: 3.47
+    Q1 2026: 1.74
+  annual:
+    2021 Yearly: 2.14
+    2022 Yearly: 4.22
+    2023 Yearly: 4.61
+    2024 Yearly: 6.94
+    2025 Yearly: 9.8
+  quarterly_forecast:
+    Q3 2024: 2.26
+    Q4 2024: 2.07
+    Q1 2025: 2.14
+    Q2 2025: 2.13
+    Q3 2025: 2.19
+    Q4 2025: 3.79
+    Q1 2026: 1.78
+    Q2 2026: 1.85
+    Q3 2026: 1.97
+    Q4 2026: 1.86
+    Q1 2027: 1.89
+  annual_forecast:
+    2021 Yearly: 2.39
+    2022 Yearly: 4.36
+    2023 Yearly: 4.97
+    2024 Yearly: 7.39
+    2025 Yearly: 9.85
+    2026 Yearly: 7.43
+    2027 Yearly: 8.35
+    2028 Yearly: 9.19
+    2029 Yearly: 9.4

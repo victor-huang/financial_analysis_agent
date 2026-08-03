@@ -1,0 +1,76 @@
+currency: USD
+company_name: Tidewater Inc.
+sector: Transportation
+market_cap_billions: 3.73
+revenue:
+  quarterly:
+    Q3 2024: 340.36
+    Q4 2024: 345.08
+    Q1 2025: 333.44
+    Q2 2025: 341.43
+    Q3 2025: 341.11
+    Q4 2025: 336.8
+    Q1 2026: 326.22
+  annual:
+    2021 Yearly: 371.03
+    2022 Yearly: 647.68
+    2023 Yearly: 1010.0
+    2024 Yearly: 1350.0
+    2025 Yearly: 1350.0
+  quarterly_forecast:
+    Q3 2024: 344.61
+    Q4 2024: 340.58
+    Q1 2025: 324.15
+    Q2 2025: 321.69
+    Q3 2025: 332.75
+    Q4 2025: 331.19
+    Q1 2026: 322.83
+    Q2 2026: 329.97
+    Q3 2026: 388.22
+    Q4 2026: 405.38
+    Q1 2027: 398.65
+  annual_forecast:
+    2021 Yearly: 360.3
+    2022 Yearly: 655.0
+    2023 Yearly: 1020.0
+    2024 Yearly: 1340.0
+    2025 Yearly: 1340.0
+    2026 Yearly: 1450.0
+    2027 Yearly: 1660.0
+    2028 Yearly: 1780.0
+eps:
+  quarterly:
+    Q3 2024: 0.87
+    Q4 2024: 0.7
+    Q1 2025: 0.83
+    Q2 2025: 1.46
+    Q3 2025: -0.02
+    Q4 2025: 4.41
+    Q1 2026: 0.12
+  annual:
+    2021 Yearly: -2.45
+    2022 Yearly: 0.22
+    2023 Yearly: 1.84
+    2024 Yearly: 3.4
+    2025 Yearly: 6.64
+  quarterly_forecast:
+    Q3 2024: 1.07
+    Q4 2024: 0.93
+    Q1 2025: 0.61
+    Q2 2025: 0.52
+    Q3 2025: 0.52
+    Q4 2025: 0.77
+    Q1 2026: 0.68
+    Q2 2026: 0.46
+    Q3 2026: 1.16
+    Q4 2026: 1.37
+    Q1 2027: 1.25
+  annual_forecast:
+    2021 Yearly: -2.77
+    2022 Yearly: -0.29
+    2023 Yearly: 1.89
+    2024 Yearly: 3.58
+    2025 Yearly: 3.17
+    2026 Yearly: 3.15
+    2027 Yearly: 6.0
+    2028 Yearly: 7.24

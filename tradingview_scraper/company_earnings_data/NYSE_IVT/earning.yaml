@@ -1,0 +1,76 @@
+currency: USD
+company_name: InvenTrust Properties Corp.
+sector: Finance
+market_cap_billions: 2.76
+revenue:
+  quarterly:
+    Q3 2024: 68.52
+    Q4 2024: 71.23
+    Q1 2025: 73.77
+    Q2 2025: 73.55
+    Q3 2025: 74.47
+    Q4 2025: 77.38
+    Q1 2026: 82.58
+  annual:
+    2021 Yearly: 136.81
+    2022 Yearly: 236.71
+    2023 Yearly: 258.68
+    2024 Yearly: 273.97
+    2025 Yearly: 299.17
+  quarterly_forecast:
+    Q3 2024: 67.38
+    Q4 2024: 69.56
+    Q1 2025: 73.43
+    Q2 2025: 72.59
+    Q3 2025: 73.37
+    Q4 2025: 76.54
+    Q1 2026: 78.79
+    Q2 2026: 82.44
+    Q3 2026: 82.76
+    Q4 2026: 86.16
+    Q1 2027: 88.94
+  annual_forecast:
+    2022 Yearly: 232.21
+    2023 Yearly: 257.5
+    2024 Yearly: 271.98
+    2025 Yearly: 297.58
+    2026 Yearly: 333.63
+    2027 Yearly: 357.05
+    2028 Yearly: 376.1
+    2029 Yearly: 441.89
+eps:
+  quarterly:
+    Q3 2024: -0.01
+    Q4 2024: 0.13
+    Q1 2025: 0.09
+    Q2 2025: 1.23
+    Q3 2025: 0.08
+    Q4 2025: 0.03
+    Q1 2026: 0.07
+  annual:
+    2021 Yearly: 0.19
+    2022 Yearly: 0.77
+    2023 Yearly: 0.08
+    2024 Yearly: 0.19
+    2025 Yearly: 1.42
+  quarterly_forecast:
+    Q3 2024: 0.01
+    Q4 2024: 0.05
+    Q1 2025: 0.08
+    Q2 2025: 0.06
+    Q3 2025: 0.07
+    Q4 2025: -0.05
+    Q1 2026: 0.06
+    Q2 2026: 0.04
+    Q3 2026: 0.04
+    Q4 2026: 0.03
+    Q1 2027: 0.05
+  annual_forecast:
+    2022 Yearly: 0.73
+    2023 Yearly: 0.01
+    2024 Yearly: 0.11
+    2025 Yearly: 1.08
+    2026 Yearly: 0.17
+    2027 Yearly: 0.17
+    2028 Yearly: 0.21
+    2029 Yearly: 0.38

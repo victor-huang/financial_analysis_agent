@@ -1,0 +1,76 @@
+currency: USD
+company_name: Gulfport Energy Corporation
+sector: Energy Minerals
+market_cap_billions: 2.9
+revenue:
+  quarterly:
+    Q3 2024: 253.91
+    Q4 2024: 239.87
+    Q1 2025: 197.03
+    Q2 2025: 448.0
+    Q3 2025: 379.75
+    Q4 2025: 398.19
+    Q1 2026: 437.53
+  annual:
+    2022 Yearly: 1660.0
+    2023 Yearly: 1200.0
+    2024 Yearly: 958.13
+    2025 Yearly: 1420.0
+  quarterly_forecast:
+    Q3 2024: 295.38
+    Q4 2024: 322.84
+    Q1 2025: 325.99
+    Q2 2025: 330.87
+    Q3 2025: 340.24
+    Q4 2025: 368.81
+    Q1 2026: 401.18
+    Q2 2026: 303.75
+    Q3 2026: 357.24
+    Q4 2026: 413.53
+    Q1 2027: 417.53
+  annual_forecast:
+    2022 Yearly: 960.0
+    2023 Yearly: 1400.0
+    2024 Yearly: 1080.0
+    2025 Yearly: 1380.0
+    2026 Yearly: 1500.0
+    2027 Yearly: 1560.0
+    2028 Yearly: 1640.0
+    2029 Yearly: 1710.0
+eps:
+  quarterly:
+    Q3 2024: 3.37
+    Q4 2024: 4.74
+    Q1 2025: 5.63
+    Q2 2025: 5.42
+    Q3 2025: 4.93
+    Q4 2025: 5.75
+    Q1 2026: 7.28
+  annual:
+    2021 Yearly: 7.95
+    2022 Yearly: 18.11
+    2023 Yearly: 18.27
+    2024 Yearly: 15.41
+    2025 Yearly: 20.38
+  quarterly_forecast:
+    Q3 2024: 2.96
+    Q4 2024: 4.17
+    Q1 2025: 5.4
+    Q2 2025: 5.18
+    Q3 2025: 4.66
+    Q4 2025: 5.53
+    Q1 2026: 7.41
+    Q2 2026: 3.91
+    Q3 2026: 5.51
+    Q4 2026: 7.11
+    Q1 2027: 7.98
+  annual_forecast:
+    2021 Yearly: 10.13
+    2022 Yearly: 17.55
+    2023 Yearly: 17.61
+    2024 Yearly: 14.48
+    2025 Yearly: 21.45
+    2026 Yearly: 23.77
+    2027 Yearly: 28.15
+    2028 Yearly: 36.2
+    2029 Yearly: 31.11

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Hillman Solutions Corp.
+sector: Distribution Services
+market_cap_billions: 1.54
+revenue:
+  quarterly:
+    Q3 2024: 393.3
+    Q4 2024: 349.56
+    Q1 2025: 359.34
+    Q2 2025: 402.8
+    Q3 2025: 424.94
+    Q4 2025: 365.14
+    Q1 2026: 370.1
+  annual:
+    2021 Yearly: 1430.0
+    2022 Yearly: 1490.0
+    2023 Yearly: 1480.0
+    2024 Yearly: 1470.0
+    2025 Yearly: 1550.0
+  quarterly_forecast:
+    Q3 2024: 389.5
+    Q4 2024: 350.48
+    Q1 2025: 357.66
+    Q2 2025: 389.83
+    Q3 2025: 425.69
+    Q4 2025: 371.78
+    Q1 2026: 371.73
+    Q2 2026: 433.67
+    Q3 2026: 456.84
+    Q4 2026: 397.61
+    Q1 2027: 394.97
+  annual_forecast:
+    2021 Yearly: 1410.0
+    2022 Yearly: 1480.0
+    2023 Yearly: 1470.0
+    2024 Yearly: 1470.0
+    2025 Yearly: 1560.0
+    2026 Yearly: 1660.0
+    2027 Yearly: 1740.0
+    2028 Yearly: 1840.0
+    2029 Yearly: 1900.0
+eps:
+  quarterly:
+    Q3 2024: 0.16
+    Q4 2024: 0.1
+    Q1 2025: 0.1
+    Q2 2025: 0.17
+    Q3 2025: 0.22
+    Q4 2025: 0.1
+    Q1 2026: 0.07
+  annual:
+    2021 Yearly: 0.51
+    2022 Yearly: 0.43
+    2023 Yearly: 0.41
+    2024 Yearly: 0.49
+    2025 Yearly: 0.58
+  quarterly_forecast:
+    Q3 2024: 0.16
+    Q4 2024: 0.11
+    Q1 2025: 0.1
+    Q2 2025: 0.14
+    Q3 2025: 0.2
+    Q4 2025: 0.1
+    Q1 2026: 0.08
+    Q2 2026: 0.17
+    Q3 2026: 0.2
+    Q4 2026: 0.14
+    Q1 2027: 0.1
+  annual_forecast:
+    2021 Yearly: 0.02
+    2022 Yearly: 0.44
+    2023 Yearly: 0.39
+    2024 Yearly: 0.52
+    2025 Yearly: 0.58
+    2026 Yearly: 0.58
+    2027 Yearly: 0.68
+    2028 Yearly: 0.87
+    2029 Yearly: 1.04

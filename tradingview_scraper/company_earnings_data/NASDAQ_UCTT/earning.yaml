@@ -1,0 +1,78 @@
+currency: USD
+company_name: Ultra Clean Holdings, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 3.73
+revenue:
+  quarterly:
+    Q3 2024: 540.4
+    Q4 2024: 563.3
+    Q1 2025: 518.6
+    Q2 2025: 518.8
+    Q3 2025: 510.0
+    Q4 2025: 506.6
+    Q1 2026: 533.7
+  annual:
+    2021 Yearly: 2100.0
+    2022 Yearly: 2370.0
+    2023 Yearly: 1730.0
+    2024 Yearly: 2100.0
+    2025 Yearly: 2050.0
+  quarterly_forecast:
+    Q3 2024: 515.88
+    Q4 2024: 559.19
+    Q1 2025: 526.13
+    Q2 2025: 500.83
+    Q3 2025: 505.23
+    Q4 2025: 503.33
+    Q1 2026: 525.28
+    Q2 2026: 587.65
+    Q3 2026: 664.78
+    Q4 2026: 751.57
+    Q1 2027: 795.48
+  annual_forecast:
+    2021 Yearly: 2090.0
+    2022 Yearly: 2370.0
+    2023 Yearly: 1730.0
+    2024 Yearly: 2090.0
+    2025 Yearly: 2050.0
+    2026 Yearly: 2540.0
+    2027 Yearly: 3330.0
+    2028 Yearly: 4400.0
+    2029 Yearly: 3960.0
+eps:
+  quarterly:
+    Q3 2024: 0.35
+    Q4 2024: 0.51
+    Q1 2025: 0.28
+    Q2 2025: 0.27
+    Q3 2025: 0.28
+    Q4 2025: 0.22
+    Q1 2026: 0.31
+  annual:
+    2021 Yearly: 4.2
+    2022 Yearly: 3.98
+    2023 Yearly: 0.56
+    2024 Yearly: 1.44
+    2025 Yearly: 1.05
+  quarterly_forecast:
+    Q3 2024: 0.33
+    Q4 2024: 0.44
+    Q1 2025: 0.31
+    Q2 2025: 0.27
+    Q3 2025: 0.22
+    Q4 2025: 0.22
+    Q1 2026: 0.26
+    Q2 2026: 0.53
+    Q3 2026: 0.76
+    Q4 2026: 0.97
+    Q1 2027: 1.13
+  annual_forecast:
+    2021 Yearly: 4.18
+    2022 Yearly: 3.82
+    2023 Yearly: 0.49
+    2024 Yearly: 1.38
+    2025 Yearly: 1.05
+    2026 Yearly: 2.57
+    2027 Yearly: 4.93
+    2028 Yearly: 7.86
+    2029 Yearly: 6.14

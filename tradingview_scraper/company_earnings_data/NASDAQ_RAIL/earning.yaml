@@ -1,0 +1,78 @@
+currency: USD
+company_name: Freightcar America, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 0.26122
+revenue:
+  quarterly:
+    Q3 2024: 113.25
+    Q4 2024: 137.7
+    Q1 2025: 96.29
+    Q2 2025: 118.6
+    Q3 2025: 160.51
+    Q4 2025: 125.57
+    Q1 2026: 64.31
+  annual:
+    2021 Yearly: 203.05
+    2022 Yearly: 364.75
+    2023 Yearly: 358.09
+    2024 Yearly: 559.42
+    2025 Yearly: 500.99
+  quarterly_forecast:
+    Q3 2024: 139.29
+    Q4 2024: 152.02
+    Q1 2025: 102.73
+    Q2 2025: 114.89
+    Q3 2025: 157.15
+    Q4 2025: 144.94
+    Q1 2026: 74.6
+    Q2 2026: 110.41
+    Q3 2026: 164.59
+    Q4 2026: 166.97
+    Q1 2027: 134.69
+  annual_forecast:
+    2021 Yearly: 195.0
+    2022 Yearly: 351.6
+    2023 Yearly: 357.2
+    2024 Yearly: 573.75
+    2025 Yearly: 520.35
+    2026 Yearly: 506.24
+    2027 Yearly: 653.35
+    2028 Yearly: 715.36
+    2029 Yearly: 783.18
+eps:
+  quarterly:
+    Q3 2024: 0.08
+    Q4 2024: 0.21
+    Q1 2025: 0.05
+    Q2 2025: 0.11
+    Q3 2025: 0.24
+    Q4 2025: 0.16
+    Q1 2026: -0.04
+  annual:
+    2021 Yearly: -2.0
+    2022 Yearly: -1.56
+    2023 Yearly: -0.39
+    2024 Yearly: 0.15
+    2025 Yearly: 0.5
+  quarterly_forecast:
+    Q3 2024: 0.05
+    Q4 2024: 0.04
+    Q1 2025: 0.08
+    Q2 2025: 0.06
+    Q3 2025: 0.15
+    Q4 2025: 0.19
+    Q1 2026: -0.03
+    Q2 2026: 0.0
+    Q3 2026: 0.19
+    Q4 2026: 0.31
+    Q1 2027: 0.15
+  annual_forecast:
+    2021 Yearly: -1.35
+    2022 Yearly: -0.16
+    2023 Yearly: -0.34
+    2024 Yearly: 0.23
+    2025 Yearly: 0.57
+    2026 Yearly: 0.46
+    2027 Yearly: 0.91
+    2028 Yearly: 0.95
+    2029 Yearly: 1.1

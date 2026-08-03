@@ -1,0 +1,78 @@
+currency: USD
+company_name: Cabot Corporation
+sector: Process Industries
+market_cap_billions: 4.54
+revenue:
+  quarterly:
+    Q4 2024: 1000.0
+    Q1 2025: 955.0
+    Q2 2025: 936.0
+    Q3 2025: 923.0
+    Q4 2025: 899.0
+    Q1 2026: 849.0
+    Q2 2026: 904.0
+  annual:
+    2021 Yearly: 3410.0
+    2022 Yearly: 4320.0
+    2023 Yearly: 3930.0
+    2024 Yearly: 3990.0
+    2025 Yearly: 3710.0
+  quarterly_forecast:
+    Q4 2024: 1010.0
+    Q1 2025: 993.82
+    Q2 2025: 1020.0
+    Q3 2025: 954.95
+    Q4 2025: 960.66
+    Q1 2026: 887.04
+    Q2 2026: 900.31
+    Q3 2026: 943.16
+    Q4 2026: 916.11
+    Q1 2027: 841.6
+    Q2 2027: 958.97
+  annual_forecast:
+    2021 Yearly: 3370.0
+    2022 Yearly: 4280.0
+    2023 Yearly: 3980.0
+    2024 Yearly: 3980.0
+    2025 Yearly: 3770.0
+    2026 Yearly: 3620.0
+    2027 Yearly: 3750.0
+    2028 Yearly: 3870.0
+    2029 Yearly: 4090.0
+eps:
+  quarterly:
+    Q4 2024: 1.8
+    Q1 2025: 1.76
+    Q2 2025: 1.9
+    Q3 2025: 1.9
+    Q4 2025: 1.7
+    Q1 2026: 1.53
+    Q2 2026: 1.61
+  annual:
+    2021 Yearly: 5.02
+    2022 Yearly: 6.28
+    2023 Yearly: 5.38
+    2024 Yearly: 7.06
+    2025 Yearly: 7.25
+  quarterly_forecast:
+    Q4 2024: 1.81
+    Q1 2025: 1.72
+    Q2 2025: 1.85
+    Q3 2025: 1.82
+    Q4 2025: 1.68
+    Q1 2026: 1.45
+    Q2 2026: 1.46
+    Q3 2026: 1.65
+    Q4 2026: 1.53
+    Q1 2027: 1.61
+    Q2 2027: 1.75
+  annual_forecast:
+    2021 Yearly: 4.96
+    2022 Yearly: 6.17
+    2023 Yearly: 5.21
+    2024 Yearly: 7.06
+    2025 Yearly: 7.26
+    2026 Yearly: 6.33
+    2027 Yearly: 7.03
+    2028 Yearly: 7.65
+    2029 Yearly: 8.7

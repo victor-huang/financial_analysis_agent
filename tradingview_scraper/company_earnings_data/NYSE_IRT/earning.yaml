@@ -1,0 +1,78 @@
+currency: USD
+company_name: Independence Realty Trust, Inc.
+sector: Finance
+market_cap_billions: 4.02
+revenue:
+  quarterly:
+    Q3 2024: 159.86
+    Q4 2024: 160.62
+    Q1 2025: 160.91
+    Q2 2025: 161.89
+    Q3 2025: 166.89
+    Q4 2025: 166.8
+    Q1 2026: 165.21
+  annual:
+    2021 Yearly: 249.49
+    2022 Yearly: 627.41
+    2023 Yearly: 659.84
+    2024 Yearly: 638.91
+    2025 Yearly: 656.48
+  quarterly_forecast:
+    Q3 2024: 159.63
+    Q4 2024: 163.27
+    Q1 2025: 163.49
+    Q2 2025: 164.68
+    Q3 2025: 168.36
+    Q4 2025: 169.89
+    Q1 2026: 166.35
+    Q2 2026: 166.92
+    Q3 2026: 170.02
+    Q4 2026: 170.97
+    Q1 2027: 162.27
+  annual_forecast:
+    2021 Yearly: 234.59
+    2022 Yearly: 629.08
+    2023 Yearly: 660.36
+    2024 Yearly: 642.43
+    2025 Yearly: 660.19
+    2026 Yearly: 673.22
+    2027 Yearly: 693.7
+    2028 Yearly: 719.27
+    2029 Yearly: 743.9
+eps:
+  quarterly:
+    Q3 2024: 0.05
+    Q4 2024: 0.0
+    Q1 2025: 0.04
+    Q2 2025: 0.03
+    Q3 2025: 0.03
+    Q4 2025: 0.14
+    Q1 2026: 0.0
+  annual:
+    2021 Yearly: 0.41
+    2022 Yearly: 0.53
+    2023 Yearly: -0.08
+    2024 Yearly: 0.17
+    2025 Yearly: 0.24
+  quarterly_forecast:
+    Q3 2024: 0.09
+    Q4 2024: 0.06
+    Q1 2025: 0.04
+    Q2 2025: 0.04
+    Q3 2025: 0.08
+    Q4 2025: 0.09
+    Q1 2026: 0.02
+    Q2 2026: 0.03
+    Q3 2026: 0.04
+    Q4 2026: 0.06
+    Q1 2027: 0.02
+  annual_forecast:
+    2021 Yearly: 0.23
+    2022 Yearly: 0.44
+    2023 Yearly: 0.19
+    2024 Yearly: 0.24
+    2025 Yearly: 0.19
+    2026 Yearly: 0.13
+    2027 Yearly: 0.12
+    2028 Yearly: 0.13
+    2029 Yearly: 0.19

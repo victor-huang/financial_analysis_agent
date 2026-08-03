@@ -1,0 +1,74 @@
+currency: USD
+company_name: United Fire Group, Inc
+sector: Finance
+market_cap_billions: 1.32
+revenue:
+  quarterly:
+    Q3 2024: 300.19
+    Q4 2024: 308.14
+    Q1 2025: 308.41
+    Q2 2025: 314.8
+    Q3 2025: 328.43
+    Q4 2025: 341.05
+    Q1 2026: 342.98
+  annual:
+    2021 Yearly: 962.82
+    2022 Yearly: 951.54
+    2023 Yearly: 1030.0
+    2024 Yearly: 1180.0
+    2025 Yearly: 1290.0
+  quarterly_forecast:
+    Q3 2024: 288.6
+    Q4 2024: 303.0
+    Q1 2025: 312.34
+    Q2 2025: 314.38
+    Q3 2025: 332.23
+    Q4 2025: 305.97
+    Q1 2026: 340.15
+    Q2 2026: 347.76
+    Q3 2026: 364.28
+    Q4 2026: 377.26
+    Q1 2027: 394.94
+  annual_forecast:
+    2021 Yearly: 1030.0
+    2022 Yearly: 946.3
+    2023 Yearly: 1030.0
+    2024 Yearly: 1170.0
+    2025 Yearly: 1260.0
+    2026 Yearly: 1430.0
+    2027 Yearly: 1670.0
+eps:
+  quarterly:
+    Q3 2024: 0.81
+    Q4 2024: 1.25
+    Q1 2025: 0.7
+    Q2 2025: 0.9
+    Q3 2025: 1.5
+    Q4 2025: 1.5
+    Q1 2026: 1.16
+  annual:
+    2021 Yearly: 1.69
+    2022 Yearly: 1.09
+    2023 Yearly: -1.22
+    2024 Yearly: 2.56
+    2025 Yearly: 4.6
+  quarterly_forecast:
+    Q3 2024: 0.33
+    Q4 2024: 0.75
+    Q1 2025: 0.64
+    Q2 2025: 0.54
+    Q3 2025: 0.81
+    Q4 2025: 1.07
+    Q1 2026: 0.9
+    Q2 2026: 0.69
+    Q3 2026: 1.31
+    Q4 2026: 1.37
+    Q1 2027: 1.11
+  annual_forecast:
+    2021 Yearly: 0.43
+    2022 Yearly: 1.46
+    2023 Yearly: -1.32
+    2024 Yearly: 2.0
+    2025 Yearly: 4.12
+    2026 Yearly: 4.52
+    2027 Yearly: 4.64

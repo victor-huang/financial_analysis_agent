@@ -1,0 +1,76 @@
+currency: USD
+company_name: Alector, Inc.
+sector: Health Technology
+market_cap_billions: 0.16765
+revenue:
+  quarterly:
+    Q3 2024: 15.34
+    Q4 2024: 54.24
+    Q1 2025: 3.7
+    Q2 2025: 7.87
+    Q3 2025: 3.26
+    Q4 2025: 6.24
+    Q1 2026: 1.05
+  annual:
+    2021 Yearly: 207.09
+    2022 Yearly: 133.62
+    2023 Yearly: 97.06
+    2024 Yearly: 100.56
+    2025 Yearly: 21.05
+  quarterly_forecast:
+    Q4 2024: 15.7
+    Q1 2025: 19.78
+    Q2 2025: 4.38
+    Q3 2025: 2.8
+    Q4 2025: 3.49
+    Q1 2026: 1.96
+    Q2 2026: 9.67
+    Q3 2026: 1.43
+    Q4 2026: 1.5
+  annual_forecast:
+    2021 Yearly: 243.75
+    2022 Yearly: 150.84
+    2023 Yearly: 91.16
+    2024 Yearly: 65.66
+    2025 Yearly: 16.92
+    2026 Yearly: 6.0
+    2027 Yearly: 26.15
+    2028 Yearly: 3.34
+    2029 Yearly: 2.75
+eps:
+  quarterly:
+    Q3 2024: -0.43
+    Q4 2024: -0.02
+    Q1 2025: -0.41
+    Q2 2025: -0.3
+    Q3 2025: -0.34
+    Q4 2025: -0.34
+    Q1 2026: -0.21
+  annual:
+    2021 Yearly: -0.45
+    2022 Yearly: -1.62
+    2023 Yearly: -1.56
+    2024 Yearly: -1.23
+    2025 Yearly: -1.39
+  quarterly_forecast:
+    Q3 2024: -0.53
+    Q4 2024: -0.62
+    Q1 2025: -0.48
+    Q2 2025: -0.46
+    Q3 2025: -0.41
+    Q4 2025: -0.37
+    Q1 2026: -0.29
+    Q2 2026: -0.22
+    Q3 2026: -0.22
+    Q4 2026: -0.22
+    Q1 2027: -0.02
+  annual_forecast:
+    2021 Yearly: 0.1
+    2022 Yearly: -1.39
+    2023 Yearly: -1.83
+    2024 Yearly: -1.77
+    2025 Yearly: -1.4
+    2026 Yearly: -0.87
+    2027 Yearly: -0.62
+    2028 Yearly: -0.64
+    2029 Yearly: -0.37

@@ -1,0 +1,74 @@
+currency: USD
+company_name: Adeia Inc.
+sector: Technology Services
+market_cap_billions: 2.94
+revenue:
+  quarterly:
+    Q3 2024: 86.1
+    Q4 2024: 119.2
+    Q1 2025: 87.7
+    Q2 2025: 85.7
+    Q3 2025: 87.34
+    Q4 2025: 182.6
+    Q1 2026: 104.77
+  annual:
+    2021 Yearly: 877.7
+    2022 Yearly: 438.9
+    2023 Yearly: 388.8
+    2024 Yearly: 376.0
+    2025 Yearly: 443.4
+  quarterly_forecast:
+    Q3 2024: 111.13
+    Q4 2024: 114.22
+    Q1 2025: 88.96
+    Q2 2025: 88.48
+    Q3 2025: 100.68
+    Q4 2025: 168.45
+    Q1 2026: 99.72
+    Q2 2026: 96.79
+    Q3 2026: 104.38
+    Q4 2026: 111.11
+    Q1 2027: 104.58
+  annual_forecast:
+    2021 Yearly: 880.05
+    2022 Yearly: 437.14
+    2023 Yearly: 390.78
+    2024 Yearly: 371.1
+    2025 Yearly: 429.2
+    2026 Yearly: 417.06
+    2027 Yearly: 447.5
+eps:
+  quarterly:
+    Q3 2024: 0.27
+    Q4 2024: 0.47
+    Q1 2025: 0.26
+    Q2 2025: 0.25
+    Q3 2025: 0.28
+    Q4 2025: 0.86
+    Q1 2026: 0.38
+  annual:
+    2021 Yearly: 0.95
+    2022 Yearly: 2.04
+    2023 Yearly: 1.39
+    2024 Yearly: 1.26
+    2025 Yearly: 1.65
+  quarterly_forecast:
+    Q3 2024: 0.4
+    Q4 2024: 0.43
+    Q1 2025: 0.25
+    Q2 2025: 0.26
+    Q3 2025: 0.35
+    Q4 2025: 0.65
+    Q1 2026: 0.33
+    Q2 2026: 0.31
+    Q3 2026: 0.35
+    Q4 2026: 0.38
+    Q1 2027: 0.35
+  annual_forecast:
+    2021 Yearly: 0.97
+    2022 Yearly: 1.93
+    2023 Yearly: 1.37
+    2024 Yearly: 1.22
+    2025 Yearly: 1.44
+    2026 Yearly: 1.42
+    2027 Yearly: 1.55

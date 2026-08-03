@@ -1,0 +1,76 @@
+currency: USD
+company_name: The ONE Group Hospitality, Inc.
+sector: Consumer Services
+market_cap_billions: 0.05618
+revenue:
+  quarterly:
+    Q3 2024: 193.97
+    Q4 2024: 217.8
+    Q1 2025: 211.13
+    Q2 2025: 203.91
+    Q3 2025: 180.2
+    Q4 2025: 203.03
+    Q1 2026: 209.29
+  annual:
+    2021 Yearly: 277.18
+    2022 Yearly: 316.64
+    2023 Yearly: 317.37
+    2024 Yearly: 658.91
+    2025 Yearly: 791.76
+  quarterly_forecast:
+    Q3 2024: 215.6
+    Q4 2024: 217.71
+    Q1 2025: 203.41
+    Q2 2025: 208.94
+    Q3 2025: 191.14
+    Q4 2025: 210.28
+    Q1 2026: 218.55
+    Q2 2026: 204.78
+    Q3 2026: 193.65
+    Q4 2026: 227.49
+    Q1 2027: 231.84
+  annual_forecast:
+    2021 Yearly: 273.11
+    2022 Yearly: 318.04
+    2023 Yearly: 340.86
+    2024 Yearly: 669.19
+    2025 Yearly: 812.03
+    2026 Yearly: 839.33
+    2027 Yearly: 921.02
+    2028 Yearly: 1030.0
+    2029 Yearly: 1010.0
+eps:
+  quarterly:
+    Q3 2024: -0.3
+    Q4 2024: -0.03
+    Q1 2025: 0.14
+    Q2 2025: 0.05
+    Q3 2025: -0.51
+    Q4 2025: 0.18
+    Q1 2026: 0.23
+  annual:
+    2021 Yearly: 0.59
+    2022 Yearly: 0.55
+    2023 Yearly: 0.24
+    2024 Yearly: -0.28
+    2025 Yearly: -1.85
+  quarterly_forecast:
+    Q3 2024: 0.01
+    Q4 2024: 0.03
+    Q1 2025: -0.14
+    Q2 2025: 0.09
+    Q3 2025: -0.16
+    Q4 2025: 0.18
+    Q1 2026: 0.13
+    Q2 2026: 0.07
+    Q3 2026: -0.17
+    Q4 2026: 0.29
+    Q1 2027: 0.23
+  annual_forecast:
+    2022 Yearly: 0.56
+    2023 Yearly: 0.49
+    2024 Yearly: 0.23
+    2025 Yearly: -0.19
+    2026 Yearly: -0.05
+    2027 Yearly: 0.33
+    2028 Yearly: 0.84

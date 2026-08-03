@@ -1,0 +1,76 @@
+currency: USD
+company_name: Golub Capital BDC, Inc.
+sector: Finance
+market_cap_billions: 3.34
+revenue:
+  quarterly:
+    Q4 2024: 224.41
+    Q1 2025: 220.7
+    Q2 2025: 213.89
+    Q3 2025: 218.34
+    Q4 2025: 217.84
+    Q1 2026: 207.01
+    Q2 2026: 188.13
+  annual:
+    2021 Yearly: 307.13
+    2022 Yearly: 387.8
+    2023 Yearly: 603.09
+    2024 Yearly: 724.68
+    2025 Yearly: 870.74
+  quarterly_forecast:
+    Q4 2024: 233.97
+    Q1 2025: 227.69
+    Q2 2025: 224.64
+    Q3 2025: 216.47
+    Q4 2025: 221.71
+    Q1 2026: 209.8
+    Q2 2026: 201.71
+    Q3 2026: 189.91
+    Q4 2026: 190.25
+    Q1 2027: 189.28
+    Q2 2027: 188.93
+  annual_forecast:
+    2021 Yearly: 312.98
+    2022 Yearly: 382.94
+    2023 Yearly: 597.61
+    2024 Yearly: 711.3
+    2025 Yearly: 878.13
+    2026 Yearly: 776.71
+    2027 Yearly: 756.29
+    2028 Yearly: 742.49
+eps:
+  quarterly:
+    Q4 2024: 0.47
+    Q1 2025: 0.39
+    Q2 2025: 0.39
+    Q3 2025: 0.39
+    Q4 2025: 0.39
+    Q1 2026: 0.38
+    Q2 2026: 0.34
+  annual:
+    2021 Yearly: 1.17
+    2022 Yearly: 1.28
+    2023 Yearly: 1.73
+    2024 Yearly: 1.96
+    2025 Yearly: 1.56
+  quarterly_forecast:
+    Q4 2024: 0.45
+    Q1 2025: 0.43
+    Q2 2025: 0.41
+    Q3 2025: 0.39
+    Q4 2025: 0.39
+    Q1 2026: 0.38
+    Q2 2026: 0.36
+    Q3 2026: 0.33
+    Q4 2026: 0.33
+    Q1 2027: 0.32
+    Q2 2027: 0.32
+  annual_forecast:
+    2021 Yearly: 1.17
+    2022 Yearly: 1.2
+    2023 Yearly: 1.72
+    2024 Yearly: 1.93
+    2025 Yearly: 1.56
+    2026 Yearly: 1.37
+    2027 Yearly: 1.27
+    2028 Yearly: 1.27

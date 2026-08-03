@@ -1,0 +1,78 @@
+currency: USD
+company_name: Clorox Company (The)
+sector: Consumer Non-Durables
+market_cap_billions: 11.55
+revenue:
+  quarterly:
+    Q1 2025: 1760.0
+    Q2 2025: 1690.0
+    Q3 2025: 1670.0
+    Q4 2025: 1990.0
+    Q1 2026: 1430.0
+    Q2 2026: 1670.0
+    Q3 2026: 1670.0
+  annual:
+    2021 Yearly: 7340.0
+    2022 Yearly: 7110.0
+    2023 Yearly: 7390.0
+    2024 Yearly: 7090.0
+    2025 Yearly: 7100.0
+  quarterly_forecast:
+    Q1 2025: 1650.0
+    Q2 2025: 1630.0
+    Q3 2025: 1720.0
+    Q4 2025: 1930.0
+    Q1 2026: 1390.0
+    Q2 2026: 1640.0
+    Q3 2026: 1670.0
+    Q4 2026: 1910.0
+    Q1 2027: 1830.0
+    Q2 2027: 1910.0
+    Q3 2027: 1900.0
+  annual_forecast:
+    2021 Yearly: 7450.0
+    2022 Yearly: 7160.0
+    2023 Yearly: 7240.0
+    2024 Yearly: 7150.0
+    2025 Yearly: 7040.0
+    2026 Yearly: 6680.0
+    2027 Yearly: 7590.0
+    2028 Yearly: 7780.0
+    2029 Yearly: 7970.0
+eps:
+  quarterly:
+    Q1 2025: 1.86
+    Q2 2025: 1.55
+    Q3 2025: 1.45
+    Q4 2025: 2.87
+    Q1 2026: 0.85
+    Q2 2026: 1.39
+    Q3 2026: 1.64
+  annual:
+    2021 Yearly: 7.25
+    2022 Yearly: 4.1
+    2023 Yearly: 5.09
+    2024 Yearly: 6.17
+    2025 Yearly: 7.72
+  quarterly_forecast:
+    Q1 2025: 1.41
+    Q2 2025: 1.4
+    Q3 2025: 1.55
+    Q4 2025: 2.2
+    Q1 2026: 0.78
+    Q2 2026: 1.43
+    Q3 2026: 1.55
+    Q4 2026: 1.64
+    Q1 2027: 1.17
+    Q2 2027: 1.41
+    Q3 2027: 1.61
+  annual_forecast:
+    2021 Yearly: 7.7
+    2022 Yearly: 4.1
+    2023 Yearly: 4.59
+    2024 Yearly: 5.92
+    2025 Yearly: 7.04
+    2026 Yearly: 5.52
+    2027 Yearly: 5.93
+    2028 Yearly: 6.29
+    2029 Yearly: 6.55

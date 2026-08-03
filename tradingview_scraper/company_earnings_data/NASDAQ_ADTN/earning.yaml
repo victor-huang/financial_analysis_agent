@@ -1,0 +1,76 @@
+currency: USD
+company_name: ADTRAN Holdings, Inc.
+sector: Electronic Technology
+market_cap_billions: 0.68929
+revenue:
+  quarterly:
+    Q3 2024: 227.7
+    Q4 2024: 242.85
+    Q1 2025: 247.74
+    Q2 2025: 265.07
+    Q3 2025: 279.44
+    Q4 2025: 291.56
+    Q1 2026: 286.09
+  annual:
+    2021 Yearly: 563.0
+    2022 Yearly: 1030.0
+    2023 Yearly: 1150.0
+    2024 Yearly: 922.72
+    2025 Yearly: 1080.0
+  quarterly_forecast:
+    Q3 2024: 226.92
+    Q4 2024: 237.95
+    Q1 2025: 245.15
+    Q2 2025: 260.18
+    Q3 2025: 274.7
+    Q4 2025: 281.46
+    Q1 2026: 285.48
+    Q2 2026: 290.19
+    Q3 2026: 298.85
+    Q4 2026: 304.85
+    Q1 2027: 302.25
+  annual_forecast:
+    2021 Yearly: 550.12
+    2022 Yearly: 1030.0
+    2023 Yearly: 1150.0
+    2024 Yearly: 918.73
+    2025 Yearly: 1080.0
+    2026 Yearly: 1180.0
+    2027 Yearly: 1290.0
+    2028 Yearly: 1430.0
+eps:
+  quarterly:
+    Q3 2024: -0.05
+    Q4 2024: 0.0
+    Q1 2025: 0.03
+    Q2 2025: 0.0
+    Q3 2025: 0.05
+    Q4 2025: 0.16
+    Q1 2026: 0.14
+  annual:
+    2021 Yearly: 0.38
+    2022 Yearly: 0.6
+    2023 Yearly: -1.51
+    2024 Yearly: -0.36
+    2025 Yearly: 0.23
+  quarterly_forecast:
+    Q3 2024: -0.04
+    Q4 2024: -0.03
+    Q1 2025: -0.03
+    Q2 2025: 0.01
+    Q3 2025: 0.06
+    Q4 2025: 0.08
+    Q1 2026: 0.09
+    Q2 2026: 0.1
+    Q3 2026: 0.13
+    Q4 2026: 0.16
+    Q1 2027: 0.15
+  annual_forecast:
+    2021 Yearly: 0.24
+    2022 Yearly: 0.63
+    2023 Yearly: -0.32
+    2024 Yearly: -0.4
+    2025 Yearly: 0.16
+    2026 Yearly: 0.52
+    2027 Yearly: 0.78
+    2028 Yearly: 1.01

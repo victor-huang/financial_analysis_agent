@@ -1,0 +1,78 @@
+currency: USD
+company_name: Ichor Holdings
+sector: Producer Manufacturing
+market_cap_billions: 2.62
+revenue:
+  quarterly:
+    Q3 2024: 211.14
+    Q4 2024: 233.29
+    Q1 2025: 244.47
+    Q2 2025: 240.28
+    Q3 2025: 239.3
+    Q4 2025: 223.61
+    Q1 2026: 256.07
+  annual:
+    2021 Yearly: 1100.0
+    2022 Yearly: 1280.0
+    2023 Yearly: 811.12
+    2024 Yearly: 849.04
+    2025 Yearly: 947.65
+  quarterly_forecast:
+    Q3 2024: 203.24
+    Q4 2024: 232.75
+    Q1 2025: 244.99
+    Q2 2025: 234.51
+    Q3 2025: 235.14
+    Q4 2025: 220.84
+    Q1 2026: 251.32
+    Q2 2026: 300.17
+    Q3 2026: 314.52
+    Q4 2026: 326.75
+    Q1 2027: 337.6
+  annual_forecast:
+    2021 Yearly: 1100.0
+    2022 Yearly: 1280.0
+    2023 Yearly: 804.98
+    2024 Yearly: 848.46
+    2025 Yearly: 944.88
+    2026 Yearly: 1200.0
+    2027 Yearly: 1440.0
+    2028 Yearly: 1590.0
+    2029 Yearly: 1740.0
+eps:
+  quarterly:
+    Q3 2024: 0.12
+    Q4 2024: 0.08
+    Q1 2025: 0.12
+    Q2 2025: 0.03
+    Q3 2025: 0.07
+    Q4 2025: 0.01
+    Q1 2026: 0.15
+  annual:
+    2021 Yearly: 3.37
+    2022 Yearly: 3.62
+    2023 Yearly: 0.42
+    2024 Yearly: 0.18
+    2025 Yearly: 0.23
+  quarterly_forecast:
+    Q3 2024: 0.11
+    Q4 2024: 0.09
+    Q1 2025: 0.26
+    Q2 2025: 0.14
+    Q3 2025: 0.12
+    Q4 2025: -0.06
+    Q1 2026: 0.13
+    Q2 2026: 0.31
+    Q3 2026: 0.41
+    Q4 2026: 0.51
+    Q1 2027: 0.54
+  annual_forecast:
+    2021 Yearly: 3.38
+    2022 Yearly: 3.61
+    2023 Yearly: 0.55
+    2024 Yearly: 0.18
+    2025 Yearly: 0.17
+    2026 Yearly: 1.38
+    2027 Yearly: 2.69
+    2028 Yearly: 2.63
+    2029 Yearly: 2.87

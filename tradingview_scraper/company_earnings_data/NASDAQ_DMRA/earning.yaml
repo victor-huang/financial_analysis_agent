@@ -1,0 +1,63 @@
+currency: USD
+company_name: Damora Therapeutics, Inc.
+sector: Health Technology
+market_cap_billions: 1.78
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+  annual_forecast:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 0.0
+    2028 Yearly: 0.0
+    2029 Yearly: 0.0
+eps:
+  quarterly:
+    Q3 2024: -3.39
+    Q1 2025: -1.92
+    Q2 2025: -2.6
+    Q3 2025: -2.36
+    Q4 2025: -3.24
+    Q1 2026: -0.62
+  annual:
+    2021 Yearly: -51.25
+    2022 Yearly: -60.75
+    2023 Yearly: -36.08
+    2024 Yearly: -18.53
+    2025 Yearly: -3.98
+  quarterly_forecast:
+    Q3 2024: -3.7
+    Q4 2024: -2.97
+    Q4 2025: -0.1
+    Q1 2026: -0.39
+    Q2 2026: -0.41
+    Q3 2026: -0.45
+    Q4 2026: -0.48
+    Q1 2027: -0.46
+  annual_forecast:
+    2021 Yearly: -53.22
+    2022 Yearly: -61.25
+    2023 Yearly: -39.0
+    2024 Yearly: -15.91
+    2025 Yearly: -1.94
+    2026 Yearly: -1.92
+    2027 Yearly: -2.06
+    2028 Yearly: -2.5
+    2029 Yearly: -2.35

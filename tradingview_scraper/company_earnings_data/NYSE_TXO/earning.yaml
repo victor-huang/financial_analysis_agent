@@ -1,0 +1,72 @@
+currency: USD
+company_name: TXO Partners, L.P.
+sector: Energy Minerals
+market_cap_billions: 0.74191
+revenue:
+  quarterly:
+    Q3 2024: 69.77
+    Q4 2024: 88.43
+    Q1 2025: 89.16
+    Q2 2025: 89.94
+    Q3 2025: 100.94
+    Q4 2025: 125.93
+    Q1 2026: 28.14
+  annual:
+    2022 Yearly: 246.4
+    2023 Yearly: 380.72
+    2024 Yearly: 282.81
+    2025 Yearly: 401.01
+  quarterly_forecast:
+    Q3 2024: 68.73
+    Q4 2024: 83.68
+    Q1 2025: 89.62
+    Q2 2025: 85.54
+    Q3 2025: 100.94
+    Q4 2025: 105.05
+    Q1 2026: 67.71
+    Q2 2026: 116.24
+    Q3 2026: 98.07
+    Q4 2026: 109.94
+    Q1 2027: 111.56
+  annual_forecast:
+    2023 Yearly: 222.0
+    2024 Yearly: 357.0
+    2025 Yearly: 278.32
+    2026 Yearly: 385.09
+    2027 Yearly: 352.89
+    2028 Yearly: 436.25
+eps:
+  quarterly:
+    Q3 2024: 0.02
+    Q4 2024: 0.34
+    Q1 2025: 0.15
+    Q2 2025: -0.08
+    Q3 2025: 0.01
+    Q4 2025: -0.28
+    Q1 2026: -0.67
+  annual:
+    2022 Yearly: 1.52
+    2023 Yearly: -1.49
+    2024 Yearly: 0.79
+    2025 Yearly: -0.43
+  quarterly_forecast:
+    Q3 2024: 0.01
+    Q4 2024: 0.47
+    Q1 2025: 0.24
+    Q2 2025: -0.13
+    Q3 2025: 0.01
+    Q4 2025: 0.1
+    Q1 2026: -0.05
+    Q2 2026: 0.1
+    Q3 2026: 0.04
+    Q4 2026: 0.13
+    Q1 2027: 0.3
+  annual_forecast:
+    2022 Yearly: 3.31
+    2023 Yearly: 0.43
+    2024 Yearly: 0.85
+    2025 Yearly: 0.18
+    2026 Yearly: -0.39
+    2027 Yearly: 0.97
+    2028 Yearly: 0.0
+    2029 Yearly: -0.01

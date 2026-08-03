@@ -1,0 +1,72 @@
+currency: USD
+company_name: Innovative Industrial Properties, Inc.
+sector: Finance
+market_cap_billions: 1.71
+revenue:
+  quarterly:
+    Q3 2024: 76.53
+    Q4 2024: 76.74
+    Q1 2025: 71.72
+    Q2 2025: 62.89
+    Q3 2025: 64.69
+    Q4 2025: 66.66
+    Q1 2026: 69.0
+  annual:
+    2021 Yearly: 204.55
+    2022 Yearly: 276.36
+    2023 Yearly: 309.51
+    2024 Yearly: 308.52
+    2025 Yearly: 265.95
+  quarterly_forecast:
+    Q3 2024: 77.3
+    Q4 2024: 76.29
+    Q1 2025: 71.66
+    Q2 2025: 64.41
+    Q3 2025: 63.67
+    Q4 2025: 65.77
+    Q1 2026: 65.65
+    Q2 2026: 67.96
+    Q3 2026: 68.66
+    Q4 2026: 69.36
+    Q1 2027: 69.28
+  annual_forecast:
+    2021 Yearly: 202.27
+    2022 Yearly: 273.43
+    2023 Yearly: 306.43
+    2024 Yearly: 307.56
+    2025 Yearly: 264.97
+    2026 Yearly: 273.75
+    2027 Yearly: 283.89
+eps:
+  quarterly:
+    Q3 2024: 1.37
+    Q4 2024: 1.36
+    Q1 2025: 1.03
+    Q2 2025: 0.86
+    Q3 2025: 0.97
+    Q4 2025: 1.06
+    Q1 2026: 1.02
+  annual:
+    2021 Yearly: 4.55
+    2022 Yearly: 5.52
+    2023 Yearly: 5.77
+    2024 Yearly: 5.52
+    2025 Yearly: 3.93
+  quarterly_forecast:
+    Q4 2024: 1.45
+    Q1 2025: 1.36
+    Q2 2025: 1.15
+    Q3 2025: 0.91
+    Q4 2025: 0.9
+    Q1 2026: 1.05
+    Q2 2026: 1.07
+    Q3 2026: 1.02
+    Q4 2026: 1.09
+  annual_forecast:
+    2021 Yearly: 4.65
+    2022 Yearly: 5.31
+    2023 Yearly: 5.75
+    2024 Yearly: 5.57
+    2025 Yearly: 3.95
+    2026 Yearly: 4.28
+    2027 Yearly: 4.79

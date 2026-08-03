@@ -1,0 +1,74 @@
+currency: USD
+company_name: Cherry Hill Mortgage Investment Corporation
+sector: Finance
+market_cap_billions: 0.08303
+revenue:
+  quarterly:
+    Q3 2024: -7.08
+    Q4 2024: 18.73
+    Q1 2025: -3.05
+    Q2 2025: 6.04
+    Q3 2025: 8.57
+    Q4 2025: 11.76
+    Q1 2026: 4.64
+  annual:
+    2021 Yearly: 27.59
+    2022 Yearly: 40.19
+    2023 Yearly: -21.2
+    2024 Yearly: 34.58
+    2025 Yearly: 23.32
+  quarterly_forecast:
+    Q3 2024: 13.6
+    Q4 2024: 9.97
+    Q1 2025: 11.03
+    Q2 2025: 9.88
+    Q3 2025: 9.9
+    Q4 2025: 10.35
+    Q1 2026: 10.3
+    Q2 2026: 10.75
+    Q3 2026: 10.9
+    Q4 2026: 10.8
+    Q1 2027: 9.1
+  annual_forecast:
+    2021 Yearly: 29.11
+    2022 Yearly: 85.32
+    2023 Yearly: 22.77
+    2024 Yearly: 25.82
+    2025 Yearly: 21.9
+    2026 Yearly: 37.8
+    2027 Yearly: 44.4
+eps:
+  quarterly:
+    Q3 2024: 0.08
+    Q4 2024: 0.1
+    Q1 2025: 0.17
+    Q2 2025: 0.1
+    Q3 2025: 0.09
+    Q4 2025: 0.11
+    Q1 2026: 0.14
+  annual:
+    2021 Yearly: 1.06
+    2022 Yearly: 1.12
+    2023 Yearly: 0.7
+    2024 Yearly: 0.39
+    2025 Yearly: 0.47
+  quarterly_forecast:
+    Q3 2024: 0.17
+    Q4 2024: 0.1
+    Q1 2025: 0.1
+    Q2 2025: 0.11
+    Q3 2025: 0.1
+    Q4 2025: 0.1
+    Q1 2026: 0.12
+    Q2 2026: 0.13
+    Q3 2026: 0.14
+    Q4 2026: 0.13
+    Q1 2027: 0.14
+  annual_forecast:
+    2021 Yearly: 1.02
+    2022 Yearly: 1.16
+    2023 Yearly: 0.73
+    2024 Yearly: 0.39
+    2025 Yearly: 0.47
+    2026 Yearly: 0.55
+    2027 Yearly: 0.55

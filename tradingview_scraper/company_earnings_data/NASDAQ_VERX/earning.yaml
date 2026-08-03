@@ -1,0 +1,76 @@
+currency: USD
+company_name: Vertex, Inc.
+sector: Technology Services
+market_cap_billions: 2.09
+revenue:
+  quarterly:
+    Q3 2024: 170.44
+    Q4 2024: 178.46
+    Q1 2025: 177.06
+    Q2 2025: 184.56
+    Q3 2025: 192.11
+    Q4 2025: 194.71
+    Q1 2026: 196.65
+  annual:
+    2021 Yearly: 425.55
+    2022 Yearly: 491.62
+    2023 Yearly: 572.39
+    2024 Yearly: 666.78
+    2025 Yearly: 748.44
+  quarterly_forecast:
+    Q3 2024: 165.7
+    Q4 2024: 176.9
+    Q1 2025: 177.0
+    Q2 2025: 184.6
+    Q3 2025: 191.73
+    Q4 2025: 194.32
+    Q1 2026: 194.82
+    Q2 2026: 202.3
+    Q3 2026: 211.7
+    Q4 2026: 216.88
+    Q1 2027: 218.68
+  annual_forecast:
+    2021 Yearly: 423.07
+    2022 Yearly: 486.39
+    2023 Yearly: 563.92
+    2024 Yearly: 665.18
+    2025 Yearly: 748.1
+    2026 Yearly: 827.21
+    2027 Yearly: 919.81
+    2028 Yearly: 1030.0
+eps:
+  quarterly:
+    Q3 2024: 0.16
+    Q4 2024: 0.15
+    Q1 2025: 0.15
+    Q2 2025: 0.15
+    Q3 2025: 0.17
+    Q4 2025: 0.17
+    Q1 2026: 0.17
+  annual:
+    2021 Yearly: 0.33
+    2022 Yearly: 0.3
+    2023 Yearly: 0.39
+    2024 Yearly: 0.61
+    2025 Yearly: 0.64
+  quarterly_forecast:
+    Q3 2024: 0.14
+    Q4 2024: 0.14
+    Q1 2025: 0.13
+    Q2 2025: 0.14
+    Q3 2025: 0.16
+    Q4 2025: 0.16
+    Q1 2026: 0.16
+    Q2 2026: 0.19
+    Q3 2026: 0.22
+    Q4 2026: 0.23
+    Q1 2027: 0.23
+  annual_forecast:
+    2021 Yearly: 0.29
+    2022 Yearly: 0.29
+    2023 Yearly: 0.38
+    2024 Yearly: 0.61
+    2025 Yearly: 0.64
+    2026 Yearly: 0.8
+    2027 Yearly: 1.04
+    2028 Yearly: 1.24

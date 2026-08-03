@@ -1,0 +1,78 @@
+currency: USD
+company_name: Williams Companies, Inc. (The)
+sector: Industrial Services
+market_cap_billions: 87.49
+revenue:
+  quarterly:
+    Q3 2024: 2650.0
+    Q4 2024: 2740.0
+    Q1 2025: 3050.0
+    Q2 2025: 2780.0
+    Q3 2025: 2920.0
+    Q4 2025: 3200.0
+    Q1 2026: 3030.0
+  annual:
+    2021 Yearly: 10630.0
+    2022 Yearly: 10960.0
+    2023 Yearly: 10910.0
+    2024 Yearly: 10500.0
+    2025 Yearly: 11950.0
+  quarterly_forecast:
+    Q3 2024: 2520.0
+    Q4 2024: 2680.0
+    Q1 2025: 2940.0
+    Q2 2025: 2730.0
+    Q3 2025: 2880.0
+    Q4 2025: 3020.0
+    Q1 2026: 3280.0
+    Q2 2026: 2840.0
+    Q3 2026: 2960.0
+    Q4 2026: 3150.0
+    Q1 2027: 3510.0
+  annual_forecast:
+    2021 Yearly: 10000.0
+    2022 Yearly: 11100.0
+    2023 Yearly: 10740.0
+    2024 Yearly: 10440.0
+    2025 Yearly: 11420.0
+    2026 Yearly: 12160.0
+    2027 Yearly: 13430.0
+    2028 Yearly: 15240.0
+    2029 Yearly: 16290.0
+eps:
+  quarterly:
+    Q3 2024: 0.43
+    Q4 2024: 0.47
+    Q1 2025: 0.6
+    Q2 2025: 0.46
+    Q3 2025: 0.49
+    Q4 2025: 0.55
+    Q1 2026: 0.73
+  annual:
+    2021 Yearly: 1.36
+    2022 Yearly: 1.82
+    2023 Yearly: 1.91
+    2024 Yearly: 1.92
+    2025 Yearly: 2.1
+  quarterly_forecast:
+    Q3 2024: 0.42
+    Q4 2024: 0.46
+    Q1 2025: 0.57
+    Q2 2025: 0.48
+    Q3 2025: 0.51
+    Q4 2025: 0.57
+    Q1 2026: 0.63
+    Q2 2026: 0.5
+    Q3 2026: 0.54
+    Q4 2026: 0.6
+    Q1 2027: 0.66
+  annual_forecast:
+    2021 Yearly: 1.21
+    2022 Yearly: 1.7
+    2023 Yearly: 2.01
+    2024 Yearly: 1.91
+    2025 Yearly: 2.12
+    2026 Yearly: 2.36
+    2027 Yearly: 2.52
+    2028 Yearly: 3.05
+    2029 Yearly: 3.92

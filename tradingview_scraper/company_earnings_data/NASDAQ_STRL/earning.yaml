@@ -1,0 +1,78 @@
+currency: USD
+company_name: Sterling Infrastructure, Inc.
+sector: Industrial Services
+market_cap_billions: 18.31
+revenue:
+  quarterly:
+    Q3 2024: 593.74
+    Q4 2024: 498.83
+    Q1 2025: 430.95
+    Q2 2025: 614.47
+    Q3 2025: 689.02
+    Q4 2025: 755.61
+    Q1 2026: 825.67
+  annual:
+    2021 Yearly: 1580.0
+    2022 Yearly: 1770.0
+    2023 Yearly: 1970.0
+    2024 Yearly: 2120.0
+    2025 Yearly: 2490.0
+  quarterly_forecast:
+    Q3 2024: 613.63
+    Q4 2024: 531.25
+    Q1 2025: 409.05
+    Q2 2025: 554.35
+    Q3 2025: 621.27
+    Q4 2025: 640.27
+    Q1 2026: 603.58
+    Q2 2026: 969.22
+    Q3 2026: 1030.0
+    Q4 2026: 941.24
+    Q1 2027: 933.45
+  annual_forecast:
+    2021 Yearly: 1520.0
+    2022 Yearly: 1920.0
+    2023 Yearly: 2009.9999999999998
+    2024 Yearly: 2150.0
+    2025 Yearly: 2370.0
+    2026 Yearly: 3750.0
+    2027 Yearly: 4450.0
+    2028 Yearly: 5630.0
+    2029 Yearly: 6570.0
+eps:
+  quarterly:
+    Q3 2024: 1.97
+    Q4 2024: 1.46
+    Q1 2025: 1.63
+    Q2 2025: 2.69
+    Q3 2025: 3.48
+    Q4 2025: 3.08
+    Q1 2026: 3.59
+  annual:
+    2021 Yearly: 2.25
+    2022 Yearly: 3.16
+    2023 Yearly: 4.47
+    2024 Yearly: 6.1
+    2025 Yearly: 10.88
+  quarterly_forecast:
+    Q3 2024: 1.71
+    Q4 2024: 1.33
+    Q1 2025: 1.45
+    Q2 2025: 2.25
+    Q3 2025: 2.81
+    Q4 2025: 2.62
+    Q1 2026: 2.28
+    Q2 2026: 5.01
+    Q3 2026: 5.7
+    Q4 2026: 4.58
+    Q1 2027: 4.18
+  annual_forecast:
+    2021 Yearly: 2.15
+    2022 Yearly: 3.14
+    2023 Yearly: 4.17
+    2024 Yearly: 5.96
+    2025 Yearly: 10.36
+    2026 Yearly: 18.89
+    2027 Yearly: 24.05
+    2028 Yearly: 28.91
+    2029 Yearly: 34.68

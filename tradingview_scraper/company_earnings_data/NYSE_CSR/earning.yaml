@@ -1,0 +1,76 @@
+currency: USD
+company_name: D/B/A Centerspace
+sector: Finance
+market_cap_billions: 0.92148
+revenue:
+  quarterly:
+    Q3 2024: 65.03
+    Q4 2024: 66.4
+    Q1 2025: 67.09
+    Q2 2025: 68.55
+    Q3 2025: 71.4
+    Q4 2025: 66.62
+    Q1 2026: 65.07
+  annual:
+    2021 Yearly: 201.71
+    2022 Yearly: 256.72
+    2023 Yearly: 261.3
+    2024 Yearly: 260.99
+    2025 Yearly: 273.66
+  quarterly_forecast:
+    Q3 2024: 65.88
+    Q4 2024: 65.82
+    Q1 2025: 66.49
+    Q2 2025: 67.99
+    Q3 2025: 68.98
+    Q4 2025: 69.99
+    Q1 2026: 66.54
+    Q2 2026: 66.29
+    Q3 2026: 66.41
+    Q4 2026: 64.82
+    Q1 2027: 63.44
+  annual_forecast:
+    2021 Yearly: 197.2
+    2022 Yearly: 255.64
+    2023 Yearly: 261.81
+    2024 Yearly: 260.3
+    2025 Yearly: 277.03
+    2026 Yearly: 262.59
+    2027 Yearly: 259.22
+    2028 Yearly: 253.91
+eps:
+  quarterly:
+    Q3 2024: -0.4
+    Q4 2024: -0.31
+    Q1 2025: -0.22
+    Q2 2025: -0.87
+    Q3 2025: 3.19
+    Q4 2025: -1.1
+    Q1 2026: -0.77
+  annual:
+    2021 Yearly: -0.47
+    2022 Yearly: -1.35
+    2023 Yearly: 2.32
+    2024 Yearly: -1.27
+    2025 Yearly: 1.02
+  quarterly_forecast:
+    Q3 2024: -0.23
+    Q4 2024: -0.2
+    Q1 2025: -0.18
+    Q2 2025: -0.12
+    Q3 2025: 0.15
+    Q4 2025: -0.22
+    Q1 2026: -0.29
+    Q2 2026: -0.13
+    Q3 2026: -0.1
+    Q4 2026: -0.07
+    Q1 2027: -0.15
+  annual_forecast:
+    2021 Yearly: -0.02
+    2022 Yearly: -1.2
+    2023 Yearly: 2.56
+    2024 Yearly: -1.08
+    2025 Yearly: 1.74
+    2026 Yearly: -1.02
+    2027 Yearly: -0.38
+    2028 Yearly: 0.03

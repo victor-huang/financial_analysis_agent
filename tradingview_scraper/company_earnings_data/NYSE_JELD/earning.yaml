@@ -1,0 +1,76 @@
+currency: USD
+company_name: JELD-WEN Holding, Inc.
+sector: Non-Energy Minerals
+market_cap_billions: 0.12233
+revenue:
+  quarterly:
+    Q3 2024: 934.7
+    Q4 2024: 895.7
+    Q1 2025: 776.0
+    Q2 2025: 823.7
+    Q3 2025: 809.5
+    Q4 2025: 802.0
+    Q1 2026: 722.1
+  annual:
+    2021 Yearly: 4770.0
+    2022 Yearly: 5130.0
+    2023 Yearly: 4300.0
+    2024 Yearly: 3780.0
+    2025 Yearly: 3210.0
+  quarterly_forecast:
+    Q3 2024: 990.64
+    Q4 2024: 859.96
+    Q1 2025: 766.95
+    Q2 2025: 810.12
+    Q3 2025: 823.69
+    Q4 2025: 745.22
+    Q1 2026: 721.62
+    Q2 2026: 792.64
+    Q3 2026: 792.51
+    Q4 2026: 784.9
+    Q1 2027: 728.2
+  annual_forecast:
+    2021 Yearly: 4700.0
+    2022 Yearly: 5020.0
+    2023 Yearly: 4370.0
+    2024 Yearly: 3730.0
+    2025 Yearly: 3150.0
+    2026 Yearly: 3090.0
+    2027 Yearly: 3160.0
+    2028 Yearly: 3250.0
+eps:
+  quarterly:
+    Q3 2024: 0.32
+    Q4 2024: -0.1
+    Q1 2025: -0.17
+    Q2 2025: -0.04
+    Q3 2025: -0.2
+    Q4 2025: -0.42
+    Q1 2026: -0.5
+  annual:
+    2021 Yearly: 1.8
+    2022 Yearly: 1.68
+    2023 Yearly: 1.59
+    2024 Yearly: 0.78
+    2025 Yearly: -0.82
+  quarterly_forecast:
+    Q3 2024: 0.4
+    Q4 2024: -0.07
+    Q1 2025: -0.19
+    Q2 2025: -0.08
+    Q3 2025: 0.14
+    Q4 2025: -0.29
+    Q1 2026: -0.3
+    Q2 2026: -0.14
+    Q3 2026: 0.01
+    Q4 2026: -0.12
+    Q1 2027: -0.25
+  annual_forecast:
+    2021 Yearly: 1.85
+    2022 Yearly: 1.67
+    2023 Yearly: 1.55
+    2024 Yearly: 0.81
+    2025 Yearly: -0.73
+    2026 Yearly: -0.67
+    2027 Yearly: -0.2
+    2028 Yearly: 0.07

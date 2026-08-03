@@ -1,0 +1,78 @@
+currency: USD
+company_name: AH Realty Trust, Inc.
+sector: Finance
+market_cap_billions: 0.67701
+revenue:
+  quarterly:
+    Q3 2024: 68.6
+    Q4 2024: 62.95
+    Q1 2025: 63.8
+    Q2 2025: 65.15
+    Q3 2025: 68.72
+    Q4 2025: 71.95
+    Q1 2026: 52.32
+  annual:
+    2021 Yearly: 192.14
+    2022 Yearly: 219.29
+    2023 Yearly: 238.92
+    2024 Yearly: 256.7
+    2025 Yearly: 269.62
+  quarterly_forecast:
+    Q3 2024: 65.01
+    Q4 2024: 66.67
+    Q1 2025: 63.18
+    Q2 2025: 64.42
+    Q3 2025: 66.62
+    Q4 2025: 68.62
+    Q1 2026: 52.43
+    Q2 2026: 52.33
+    Q3 2026: 52.58
+    Q4 2026: 52.84
+    Q1 2027: 53.16
+  annual_forecast:
+    2021 Yearly: 192.31
+    2022 Yearly: 217.85
+    2023 Yearly: 242.89
+    2024 Yearly: 259.36
+    2025 Yearly: 266.27
+    2026 Yearly: 210.07
+    2027 Yearly: 215.13
+    2028 Yearly: 230.85
+    2029 Yearly: 242.9
+eps:
+  quarterly:
+    Q3 2024: -0.1
+    Q4 2024: 0.26
+    Q1 2025: -0.07
+    Q2 2025: 0.04
+    Q3 2025: -0.04
+    Q4 2025: -0.01
+    Q1 2026: -0.33
+  annual:
+    2021 Yearly: 0.17
+    2022 Yearly: 0.93
+    2023 Yearly: -0.05
+    2024 Yearly: 0.33
+    2025 Yearly: -0.08
+  quarterly_forecast:
+    Q3 2024: 0.08
+    Q4 2024: 0.03
+    Q1 2025: 0.02
+    Q2 2025: 0.04
+    Q3 2025: 0.06
+    Q4 2025: 0.02
+    Q1 2026: -0.04
+    Q2 2026: 0.02
+    Q3 2026: 0.04
+    Q4 2026: -0.1
+    Q1 2027: 0.01
+  annual_forecast:
+    2021 Yearly: 0.32
+    2022 Yearly: 0.95
+    2023 Yearly: 0.31
+    2024 Yearly: 0.18
+    2025 Yearly: -0.04
+    2026 Yearly: 0.13
+    2027 Yearly: -0.29
+    2028 Yearly: -0.28
+    2029 Yearly: -0.27

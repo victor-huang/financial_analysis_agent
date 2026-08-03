@@ -1,0 +1,62 @@
+currency: USD
+company_name: Celldex Therapeutics, Inc.
+sector: Health Technology
+market_cap_billions: 2.99
+revenue:
+  quarterly:
+    Q3 2024: 3.19
+    Q4 2024: 1.18
+    Q4 2025: 0.0
+  annual:
+    2021 Yearly: 4.65
+    2022 Yearly: 2.36
+    2023 Yearly: 6.88
+    2024 Yearly: 7.02
+    2025 Yearly: 1.54
+  quarterly_forecast: {}
+  annual_forecast:
+    2021 Yearly: 5.34
+    2023 Yearly: 4.11
+    2024 Yearly: 6.86
+    2025 Yearly: 2.71
+    2026 Yearly: 2.21
+    2027 Yearly: 11.04
+    2028 Yearly: 119.26
+    2029 Yearly: 430.35
+eps:
+  quarterly:
+    Q3 2024: -0.64
+    Q4 2024: -0.71
+    Q1 2025: -0.81
+    Q2 2025: -0.85
+    Q3 2025: -1.01
+    Q4 2025: -1.22
+    Q1 2026: -1.18
+  annual:
+    2021 Yearly: -1.64
+    2022 Yearly: -2.4
+    2023 Yearly: -2.92
+    2024 Yearly: -2.45
+    2025 Yearly: -3.9
+  quarterly_forecast:
+    Q3 2024: -0.67
+    Q4 2024: -0.74
+    Q1 2025: -0.75
+    Q2 2025: -0.86
+    Q3 2025: -0.9
+    Q4 2025: -1.02
+    Q1 2026: -1.15
+    Q2 2026: -1.06
+    Q3 2026: -1.07
+    Q4 2026: -1.07
+    Q1 2027: -1.03
+  annual_forecast:
+    2021 Yearly: -1.64
+    2022 Yearly: -2.38
+    2023 Yearly: -2.8
+    2024 Yearly: -2.48
+    2025 Yearly: -3.71
+    2026 Yearly: -4.35
+    2027 Yearly: -4.35
+    2028 Yearly: -3.22
+    2029 Yearly: -0.47

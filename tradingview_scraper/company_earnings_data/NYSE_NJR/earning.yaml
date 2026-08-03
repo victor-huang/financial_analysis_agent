@@ -1,0 +1,78 @@
+currency: USD
+company_name: NewJersey Resources Corporation
+sector: Utilities
+market_cap_billions: 5.84
+revenue:
+  quarterly:
+    Q4 2024: 395.78
+    Q1 2025: 488.36
+    Q2 2025: 913.03
+    Q3 2025: 298.95
+    Q4 2025: 336.08
+    Q1 2026: 604.85
+    Q2 2026: 939.4
+  annual:
+    2021 Yearly: 2160.0
+    2022 Yearly: 2910.0
+    2023 Yearly: 1960.0
+    2024 Yearly: 1800.0
+    2025 Yearly: 2040.0
+  quarterly_forecast:
+    Q4 2024: 406.97
+    Q1 2025: 749.77
+    Q2 2025: 731.72
+    Q3 2025: 306.91
+    Q4 2025: 299.63
+    Q1 2026: 551.7
+    Q2 2026: 849.95
+    Q3 2026: 342.13
+    Q4 2026: 370.7
+    Q1 2027: 614.5
+    Q2 2027: 948.6
+  annual_forecast:
+    2021 Yearly: 2220.0
+    2022 Yearly: 2470.0
+    2023 Yearly: 2710.0
+    2024 Yearly: 1970.0
+    2025 Yearly: 1970.0
+    2026 Yearly: 2210.0
+    2027 Yearly: 2160.0
+    2028 Yearly: 2260.0
+    2029 Yearly: 2260.0
+eps:
+  quarterly:
+    Q4 2024: 0.89
+    Q1 2025: 1.29
+    Q2 2025: 1.78
+    Q3 2025: 0.06
+    Q4 2025: 0.16
+    Q1 2026: 1.17
+    Q2 2026: 2.2
+  annual:
+    2021 Yearly: 2.16
+    2022 Yearly: 2.5
+    2023 Yearly: 2.7
+    2024 Yearly: 2.95
+    2025 Yearly: 3.29
+  quarterly_forecast:
+    Q4 2024: 0.88
+    Q1 2025: 1.06
+    Q2 2025: 1.64
+    Q3 2025: -0.05
+    Q4 2025: 0.15
+    Q1 2026: 0.98
+    Q2 2026: 1.9
+    Q3 2026: 0.07
+    Q4 2026: 0.18
+    Q1 2027: 1.24
+    Q2 2027: 1.7
+  annual_forecast:
+    2021 Yearly: 2.16
+    2022 Yearly: 2.45
+    2023 Yearly: 2.7
+    2024 Yearly: 2.93
+    2025 Yearly: 3.26
+    2026 Yearly: 3.6
+    2027 Yearly: 3.42
+    2028 Yearly: 3.7
+    2029 Yearly: 3.97

@@ -1,0 +1,78 @@
+currency: USD
+company_name: V2X, Inc.
+sector: Commercial Services
+market_cap_billions: 2.83
+revenue:
+  quarterly:
+    Q3 2024: 1080.0
+    Q4 2024: 1160.0
+    Q1 2025: 1020.0
+    Q2 2025: 1080.0
+    Q3 2025: 1170.0
+    Q4 2025: 1220.0
+    Q1 2026: 1250.0
+  annual:
+    2021 Yearly: 1780.0
+    2022 Yearly: 2890.0
+    2023 Yearly: 3960.0
+    2024 Yearly: 4320.0
+    2025 Yearly: 4480.0
+  quarterly_forecast:
+    Q3 2024: 1070.0
+    Q4 2024: 1100.0
+    Q1 2025: 1030.0
+    Q2 2025: 1050.0
+    Q3 2025: 1130.0
+    Q4 2025: 1210.0
+    Q1 2026: 1130.0
+    Q2 2026: 1210.0
+    Q3 2026: 1210.0
+    Q4 2026: 1250.0
+    Q1 2027: 1310.0
+  annual_forecast:
+    2021 Yearly: 1780.0
+    2022 Yearly: 3040.0
+    2023 Yearly: 3930.0
+    2024 Yearly: 4260.0
+    2025 Yearly: 4470.0
+    2026 Yearly: 4930.0
+    2027 Yearly: 5200.0
+    2028 Yearly: 5420.0
+    2029 Yearly: 5640.0
+eps:
+  quarterly:
+    Q3 2024: 1.29
+    Q4 2024: 1.33
+    Q1 2025: 0.98
+    Q2 2025: 1.33
+    Q3 2025: 1.37
+    Q4 2025: 1.56
+    Q1 2026: 1.53
+  annual:
+    2021 Yearly: 4.77
+    2022 Yearly: 4.6
+    2023 Yearly: 3.74
+    2024 Yearly: 4.34
+    2025 Yearly: 5.24
+  quarterly_forecast:
+    Q3 2024: 1.05
+    Q4 2024: 1.14
+    Q1 2025: 0.93
+    Q2 2025: 1.03
+    Q3 2025: 1.22
+    Q4 2025: 1.34
+    Q1 2026: 1.24
+    Q2 2026: 1.44
+    Q3 2026: 1.51
+    Q4 2026: 1.62
+    Q1 2027: 1.59
+  annual_forecast:
+    2021 Yearly: 4.99
+    2022 Yearly: 4.32
+    2023 Yearly: 3.62
+    2024 Yearly: 4.17
+    2025 Yearly: 5.02
+    2026 Yearly: 6.1
+    2027 Yearly: 6.79
+    2028 Yearly: 7.6
+    2029 Yearly: 8.35

@@ -1,0 +1,78 @@
+currency: USD
+company_name: EverQuote, Inc.
+sector: Technology Services
+market_cap_billions: 0.89211
+revenue:
+  quarterly:
+    Q3 2024: 144.53
+    Q4 2024: 147.46
+    Q1 2025: 166.63
+    Q2 2025: 156.63
+    Q3 2025: 173.94
+    Q4 2025: 195.32
+    Q1 2026: 190.85
+  annual:
+    2021 Yearly: 418.51
+    2022 Yearly: 404.13
+    2023 Yearly: 287.92
+    2024 Yearly: 500.19
+    2025 Yearly: 692.52
+  quarterly_forecast:
+    Q3 2024: 140.3
+    Q4 2024: 133.77
+    Q1 2025: 157.97
+    Q2 2025: 157.22
+    Q3 2025: 166.13
+    Q4 2025: 176.89
+    Q1 2026: 180.1
+    Q2 2026: 190.56
+    Q3 2026: 202.13
+    Q4 2026: 214.43
+    Q1 2027: 210.46
+  annual_forecast:
+    2021 Yearly: 413.37
+    2022 Yearly: 406.1
+    2023 Yearly: 282.04
+    2024 Yearly: 486.57
+    2025 Yearly: 674.04
+    2026 Yearly: 797.87
+    2027 Yearly: 880.43
+    2028 Yearly: 965.54
+    2029 Yearly: 999.1
+eps:
+  quarterly:
+    Q3 2024: 0.31
+    Q4 2024: 0.33
+    Q1 2025: 0.42
+    Q2 2025: 0.39
+    Q3 2025: 0.5
+    Q4 2025: 1.54
+    Q1 2026: 0.51
+  annual:
+    2021 Yearly: -0.67
+    2022 Yearly: -0.77
+    2023 Yearly: -1.54
+    2024 Yearly: 0.88
+    2025 Yearly: 2.63
+  quarterly_forecast:
+    Q3 2024: 0.22
+    Q4 2024: 0.2
+    Q1 2025: 0.33
+    Q2 2025: 0.35
+    Q3 2025: 0.38
+    Q4 2025: 0.36
+    Q1 2026: 0.44
+    Q2 2026: 0.52
+    Q3 2026: 0.52
+    Q4 2026: 0.54
+    Q1 2027: 0.58
+  annual_forecast:
+    2021 Yearly: -0.69
+    2022 Yearly: -0.77
+    2023 Yearly: -1.67
+    2024 Yearly: 0.74
+    2025 Yearly: 1.47
+    2026 Yearly: 2.1
+    2027 Yearly: 2.43
+    2028 Yearly: 2.65
+    2029 Yearly: 2.82
