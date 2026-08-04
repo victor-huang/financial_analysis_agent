@@ -1,0 +1,78 @@
+currency: USD
+company_name: Devon Energy Corporation
+sector: Energy Minerals
+market_cap_billions: 51.41
+revenue:
+  quarterly:
+    Q3 2024: 4019.9999999999995
+    Q4 2024: 4400.0
+    Q1 2025: 4450.0
+    Q2 2025: 4280.0
+    Q3 2025: 4330.0
+    Q4 2025: 4120.0
+    Q1 2026: 3810.0
+  annual:
+    2021 Yearly: 12210.0
+    2022 Yearly: 19170.0
+    2023 Yearly: 15260.0
+    2024 Yearly: 15940.0
+    2025 Yearly: 17190.0
+  quarterly_forecast:
+    Q3 2024: 3720.0
+    Q4 2024: 4210.0
+    Q1 2025: 4430.0
+    Q2 2025: 4030.0000000000005
+    Q3 2025: 4140.0
+    Q4 2025: 4000.0
+    Q1 2026: 4340.0
+    Q2 2026: 6010.0
+    Q3 2026: 6560.0
+    Q4 2026: 6660.0
+    Q1 2027: 6580.0
+  annual_forecast:
+    2021 Yearly: 12010.0
+    2022 Yearly: 19350.0
+    2023 Yearly: 14970.0
+    2024 Yearly: 15510.0
+    2025 Yearly: 16390.0
+    2026 Yearly: 22910.0
+    2027 Yearly: 26270.0
+    2028 Yearly: 27020.0
+    2029 Yearly: 27210.0
+eps:
+  quarterly:
+    Q3 2024: 1.1
+    Q4 2024: 1.16
+    Q1 2025: 1.21
+    Q2 2025: 0.84
+    Q3 2025: 1.04
+    Q4 2025: 0.82
+    Q1 2026: 1.04
+  annual:
+    2021 Yearly: 3.53
+    2022 Yearly: 8.31
+    2023 Yearly: 5.71
+    2024 Yearly: 4.82
+    2025 Yearly: 3.92
+  quarterly_forecast:
+    Q3 2024: 1.09
+    Q4 2024: 1.0
+    Q1 2025: 1.24
+    Q2 2025: 0.86
+    Q3 2025: 0.93
+    Q4 2025: 0.81
+    Q1 2026: 1.06
+    Q2 2026: 1.4
+    Q3 2026: 1.18
+    Q4 2026: 1.23
+    Q1 2027: 1.32
+  annual_forecast:
+    2021 Yearly: 3.39
+    2022 Yearly: 8.55
+    2023 Yearly: 5.66
+    2024 Yearly: 4.71
+    2025 Yearly: 4.0
+    2026 Yearly: 4.91
+    2027 Yearly: 5.27
+    2028 Yearly: 5.99
+    2029 Yearly: 6.08

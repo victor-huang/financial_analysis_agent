@@ -1,0 +1,76 @@
+currency: USD
+company_name: Stride, Inc.
+sector: Consumer Services
+market_cap_billions: 3.41
+revenue:
+  quarterly:
+    Q1 2025: 551.08
+    Q2 2025: 587.21
+    Q3 2025: 613.38
+    Q4 2025: 653.65
+    Q1 2026: 620.88
+    Q2 2026: 631.26
+    Q3 2026: 629.87
+  annual:
+    2022 Yearly: 1690.0
+    2023 Yearly: 1840.0
+    2024 Yearly: 2040.0
+    2025 Yearly: 2410.0
+  quarterly_forecast:
+    Q1 2025: 504.29
+    Q2 2025: 569.73
+    Q3 2025: 590.07
+    Q4 2025: 625.44
+    Q1 2026: 613.31
+    Q2 2026: 627.9
+    Q3 2026: 629.69
+    Q4 2026: 626.52
+    Q1 2027: 652.28
+    Q2 2027: 667.31
+    Q3 2027: 666.13
+  annual_forecast:
+    2022 Yearly: 1670.0
+    2023 Yearly: 1820.0
+    2024 Yearly: 2029.9999999999998
+    2025 Yearly: 2380.0
+    2026 Yearly: 2510.0
+    2027 Yearly: 2640.0
+    2028 Yearly: 2730.0
+    2029 Yearly: 2990.0
+    2030 Yearly: 3130.0
+eps:
+  quarterly:
+    Q1 2025: 0.94
+    Q2 2025: 2.03
+    Q3 2025: 2.02
+    Q4 2025: 1.03
+    Q1 2026: 1.4
+    Q2 2026: 2.12
+    Q3 2026: 1.93
+  annual:
+    2022 Yearly: 2.52
+    2023 Yearly: 2.97
+    2024 Yearly: 4.69
+    2025 Yearly: 5.95
+  quarterly_forecast:
+    Q1 2025: 0.22
+    Q2 2025: 1.95
+    Q3 2025: 2.05
+    Q4 2025: 1.78
+    Q1 2026: 1.07
+    Q2 2026: 2.0
+    Q3 2026: 1.92
+    Q4 2026: 1.64
+    Q1 2027: 1.13
+    Q2 2027: 2.31
+    Q3 2027: 2.15
+  annual_forecast:
+    2022 Yearly: 2.53
+    2023 Yearly: 2.83
+    2024 Yearly: 4.53
+    2025 Yearly: 6.89
+    2026 Yearly: 7.07
+    2027 Yearly: 7.43
+    2028 Yearly: 8.09
+    2029 Yearly: 9.03
+    2030 Yearly: 9.66

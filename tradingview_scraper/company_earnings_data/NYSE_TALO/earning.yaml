@@ -1,0 +1,78 @@
+currency: USD
+company_name: Talos Energy, Inc.
+sector: Energy Minerals
+market_cap_billions: 2.48
+revenue:
+  quarterly:
+    Q3 2024: 509.29
+    Q4 2024: 485.19
+    Q1 2025: 513.06
+    Q2 2025: 424.72
+    Q3 2025: 450.05
+    Q4 2025: 392.24
+    Q1 2026: 472.31
+  annual:
+    2021 Yearly: 1240.0
+    2022 Yearly: 1650.0
+    2023 Yearly: 1460.0
+    2024 Yearly: 1970.0
+    2025 Yearly: 1780.0
+  quarterly_forecast:
+    Q3 2024: 504.44
+    Q4 2024: 492.42
+    Q1 2025: 499.98
+    Q2 2025: 436.35
+    Q3 2025: 430.09
+    Q4 2025: 432.22
+    Q1 2026: 446.39
+    Q2 2026: 577.92
+    Q3 2026: 490.27
+    Q4 2026: 544.51
+    Q1 2027: 530.44
+  annual_forecast:
+    2021 Yearly: 1200.0
+    2022 Yearly: 1460.0
+    2023 Yearly: 1460.0
+    2024 Yearly: 1980.0
+    2025 Yearly: 1810.0
+    2026 Yearly: 2070.0
+    2027 Yearly: 2090.0
+    2028 Yearly: 2029.9999999999998
+    2029 Yearly: 2060.0
+eps:
+  quarterly:
+    Q3 2024: -0.14
+    Q4 2024: 0.08
+    Q1 2025: 0.06
+    Q2 2025: -0.27
+    Q3 2025: -0.19
+    Q4 2025: -0.44
+    Q1 2026: -0.07
+  annual:
+    2021 Yearly: 0.07
+    2022 Yearly: 2.92
+    2023 Yearly: 0.23
+    2024 Yearly: -0.21
+    2025 Yearly: -0.84
+  quarterly_forecast:
+    Q3 2024: -0.06
+    Q4 2024: -0.07
+    Q1 2025: -0.1
+    Q2 2025: -0.26
+    Q3 2025: -0.37
+    Q4 2025: -0.32
+    Q1 2026: -0.14
+    Q2 2026: 0.37
+    Q3 2026: -0.04
+    Q4 2026: 0.08
+    Q1 2027: 0.04
+  annual_forecast:
+    2021 Yearly: -0.26
+    2022 Yearly: 3.16
+    2023 Yearly: 0.51
+    2024 Yearly: -0.3
+    2025 Yearly: -0.98
+    2026 Yearly: 0.26
+    2027 Yearly: 0.16
+    2028 Yearly: 0.03
+    2029 Yearly: 0.46

@@ -1,0 +1,70 @@
+currency: USD
+company_name: MasterBrand, Inc.
+sector: Consumer Durables
+market_cap_billions: 1.83
+revenue:
+  quarterly:
+    Q3 2024: 718.1
+    Q4 2024: 667.7
+    Q1 2025: 660.3
+    Q2 2025: 730.9
+    Q3 2025: 698.9
+    Q4 2025: 644.6
+    Q1 2026: 618.0
+  annual:
+    2022 Yearly: 3280.0
+    2023 Yearly: 2730.0
+    2024 Yearly: 2700.0
+    2025 Yearly: 2730.0
+  quarterly_forecast:
+    Q3 2024: 724.7
+    Q4 2024: 717.7
+    Q1 2025: 644.5
+    Q2 2025: 683.3
+    Q3 2025: 678.6
+    Q4 2025: 607.6
+    Q1 2026: 591.35
+    Q2 2026: 743.05
+    Q3 2026: 851.05
+    Q4 2026: 819.45
+    Q1 2027: 963.3
+  annual_forecast:
+    2022 Yearly: 3260.0
+    2023 Yearly: 2720.0
+    2024 Yearly: 2750.0
+    2025 Yearly: 2700.0
+    2026 Yearly: 3030.0
+    2027 Yearly: 3400.0
+eps:
+  quarterly:
+    Q3 2024: 0.4
+    Q4 2024: 0.21
+    Q1 2025: 0.18
+    Q2 2025: 0.4
+    Q3 2025: 0.33
+    Q4 2025: -0.02
+    Q1 2026: 0.06
+  annual:
+    2022 Yearly: 1.2
+    2023 Yearly: 1.4
+    2024 Yearly: 1.37
+    2025 Yearly: 0.91
+  quarterly_forecast:
+    Q3 2024: 0.36
+    Q4 2024: 0.4
+    Q1 2025: 0.22
+    Q2 2025: 0.34
+    Q3 2025: 0.36
+    Q4 2025: 0.14
+    Q1 2026: -0.04
+    Q2 2026: 0.1
+    Q3 2026: 0.14
+    Q4 2026: 0.07
+    Q1 2027: 0.05
+  annual_forecast:
+    2022 Yearly: 1.88
+    2023 Yearly: 1.44
+    2024 Yearly: 1.54
+    2025 Yearly: 1.05
+    2026 Yearly: 0.37
+    2027 Yearly: 0.51

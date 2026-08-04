@@ -1,0 +1,78 @@
+currency: USD
+company_name: Arista Networks, Inc.
+sector: Electronic Technology
+market_cap_billions: 232.81
+revenue:
+  quarterly:
+    Q3 2024: 1810.0
+    Q4 2024: 1930.0
+    Q1 2025: 2000.0
+    Q2 2025: 2200.0
+    Q3 2025: 2310.0
+    Q4 2025: 2490.0
+    Q1 2026: 2710.0
+  annual:
+    2021 Yearly: 2950.0
+    2022 Yearly: 4380.0
+    2023 Yearly: 5860.0
+    2024 Yearly: 7000.0
+    2025 Yearly: 9010.0
+  quarterly_forecast:
+    Q3 2024: 1760.0
+    Q4 2024: 1900.0
+    Q1 2025: 1970.0
+    Q2 2025: 2110.0
+    Q3 2025: 2260.0
+    Q4 2025: 2380.0
+    Q1 2026: 2620.0
+    Q2 2026: 2830.0
+    Q3 2026: 2950.0
+    Q4 2026: 3130.0
+    Q1 2027: 3280.0
+  annual_forecast:
+    2021 Yearly: 2910.0
+    2022 Yearly: 4310.0
+    2023 Yearly: 5860.0
+    2024 Yearly: 6970.0
+    2025 Yearly: 8900.0
+    2026 Yearly: 11620.0
+    2027 Yearly: 14400.0
+    2028 Yearly: 17450.0
+    2029 Yearly: 21980.0
+eps:
+  quarterly:
+    Q3 2024: 0.6
+    Q4 2024: 0.65
+    Q1 2025: 0.65
+    Q2 2025: 0.73
+    Q3 2025: 0.75
+    Q4 2025: 0.82
+    Q1 2026: 0.87
+  annual:
+    2021 Yearly: 0.72
+    2022 Yearly: 1.15
+    2023 Yearly: 1.74
+    2024 Yearly: 2.27
+    2025 Yearly: 2.98
+  quarterly_forecast:
+    Q3 2024: 0.52
+    Q4 2024: 0.57
+    Q1 2025: 0.59
+    Q2 2025: 0.65
+    Q3 2025: 0.72
+    Q4 2025: 0.76
+    Q1 2026: 0.81
+    Q2 2026: 0.89
+    Q3 2026: 0.92
+    Q4 2026: 0.97
+    Q1 2027: 1.02
+  annual_forecast:
+    2021 Yearly: 0.68
+    2022 Yearly: 1.1
+    2023 Yearly: 1.64
+    2024 Yearly: 2.19
+    2025 Yearly: 2.88
+    2026 Yearly: 3.64
+    2027 Yearly: 4.47
+    2028 Yearly: 5.47
+    2029 Yearly: 7.15

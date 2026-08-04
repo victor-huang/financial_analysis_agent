@@ -1,0 +1,74 @@
+currency: USD
+company_name: Digital Turbine, Inc.
+sector: Technology Services
+market_cap_billions: 1.09
+revenue:
+  quarterly:
+    Q2 2024: 118.73
+    Q3 2024: 134.64
+    Q4 2024: 119.15
+    Q1 2025: 130.93
+    Q2 2025: 140.38
+    Q3 2025: 151.4
+    Q4 2025: 142.55
+  annual:
+    2021 Yearly: 747.6
+    2022 Yearly: 665.92
+    2023 Yearly: 544.48
+    2024 Yearly: 490.51
+    2025 Yearly: 565.25
+  quarterly_forecast:
+    Q2 2024: 125.85
+    Q3 2024: 123.68
+    Q4 2024: 116.64
+    Q1 2025: 121.94
+    Q2 2025: 127.61
+    Q3 2025: 149.45
+    Q4 2025: 133.23
+    Q1 2026: 149.98
+    Q2 2026: 161.2
+    Q3 2026: 173.32
+    Q4 2026: 154.91
+  annual_forecast:
+    2021 Yearly: 1140.0
+    2022 Yearly: 664.53
+    2023 Yearly: 549.97
+    2024 Yearly: 487.99
+    2025 Yearly: 555.93
+    2026 Yearly: 642.19
+    2027 Yearly: 712.89
+eps:
+  quarterly:
+    Q2 2024: 0.05
+    Q3 2024: 0.13
+    Q4 2024: 0.1
+    Q1 2025: 0.05
+    Q2 2025: 0.15
+    Q3 2025: 0.18
+    Q4 2025: 0.16
+  annual:
+    2021 Yearly: 1.66
+    2022 Yearly: 1.15
+    2023 Yearly: 0.58
+    2024 Yearly: 0.35
+    2025 Yearly: 0.56
+  quarterly_forecast:
+    Q2 2024: 0.06
+    Q3 2024: -0.01
+    Q4 2024: 0.04
+    Q1 2025: 0.08
+    Q2 2025: 0.05
+    Q3 2025: 0.16
+    Q4 2025: 0.09
+    Q1 2026: 0.14
+    Q2 2026: 0.17
+    Q3 2026: 0.21
+    Q4 2026: 0.16
+  annual_forecast:
+    2021 Yearly: 1.67
+    2022 Yearly: 1.18
+    2023 Yearly: 0.5
+    2024 Yearly: 0.29
+    2025 Yearly: 0.4
+    2026 Yearly: 0.73
+    2027 Yearly: 0.98

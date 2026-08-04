@@ -1,0 +1,76 @@
+currency: USD
+company_name: Fortune Brands Innovations, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 6.22
+revenue:
+  quarterly:
+    Q3 2024: 1160.0
+    Q4 2024: 1100.0
+    Q1 2025: 1030.0
+    Q2 2025: 1200.0
+    Q3 2025: 1150.0
+    Q4 2025: 1080.0
+    Q1 2026: 1010.0
+  annual:
+    2021 Yearly: 7660.0
+    2022 Yearly: 4720.0
+    2023 Yearly: 4630.0
+    2024 Yearly: 4610.0
+    2025 Yearly: 4460.0
+  quarterly_forecast:
+    Q3 2024: 1240.0
+    Q4 2024: 1150.0
+    Q1 2025: 1070.0
+    Q2 2025: 1190.0
+    Q3 2025: 1180.0
+    Q4 2025: 1140.0
+    Q1 2026: 1010.0
+    Q2 2026: 1160.0
+    Q3 2026: 1130.0
+    Q4 2026: 1070.0
+    Q1 2027: 1030.0
+  annual_forecast:
+    2021 Yearly: 7620.0
+    2022 Yearly: 7810.0
+    2023 Yearly: 4480.0
+    2024 Yearly: 4650.0
+    2025 Yearly: 4520.0
+    2026 Yearly: 4370.0
+    2027 Yearly: 4480.0
+    2028 Yearly: 4700.0
+eps:
+  quarterly:
+    Q3 2024: 1.16
+    Q4 2024: 0.98
+    Q1 2025: 0.66
+    Q2 2025: 1.0
+    Q3 2025: 1.09
+    Q4 2025: 0.86
+    Q1 2026: 0.53
+  annual:
+    2021 Yearly: 4.9
+    2022 Yearly: 4.24
+    2023 Yearly: 3.91
+    2024 Yearly: 4.12
+    2025 Yearly: 3.61
+  quarterly_forecast:
+    Q3 2024: 1.15
+    Q4 2024: 1.05
+    Q1 2025: 0.66
+    Q2 2025: 0.96
+    Q3 2025: 1.1
+    Q4 2025: 0.99
+    Q1 2026: 0.52
+    Q2 2026: 0.8
+    Q3 2026: 0.91
+    Q4 2026: 0.87
+    Q1 2027: 0.64
+  annual_forecast:
+    2021 Yearly: 4.87
+    2022 Yearly: 6.03
+    2023 Yearly: 3.88
+    2024 Yearly: 4.2
+    2025 Yearly: 3.74
+    2026 Yearly: 3.12
+    2027 Yearly: 3.58
+    2028 Yearly: 4.17

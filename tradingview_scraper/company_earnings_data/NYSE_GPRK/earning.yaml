@@ -1,0 +1,68 @@
+currency: USD
+company_name: Geopark Ltd
+sector: Energy Minerals
+market_cap_billions: 0.61445
+revenue:
+  quarterly:
+    Q3 2024: 159.5
+    Q4 2024: 143.7
+    Q1 2025: 137.3
+    Q2 2025: 119.8
+    Q3 2025: 125.1
+    Q4 2025: 110.3
+    Q1 2026: 128.4
+  annual:
+    2021 Yearly: 688.5
+    2022 Yearly: 1050.0
+    2023 Yearly: 756.6
+    2024 Yearly: 660.8
+    2025 Yearly: 492.5
+  quarterly_forecast:
+    Q4 2024: 161.33
+    Q1 2025: 141.83
+    Q2 2025: 136.02
+    Q3 2025: 118.22
+    Q4 2025: 118.67
+    Q1 2026: 103.92
+    Q2 2026: 140.0
+  annual_forecast:
+    2021 Yearly: 606.0
+    2022 Yearly: 1070.0
+    2023 Yearly: 763.74
+    2024 Yearly: 660.1
+    2025 Yearly: 489.04
+    2026 Yearly: 594.33
+    2027 Yearly: 663.0
+    2028 Yearly: 711.0
+eps:
+  quarterly:
+    Q3 2024: 0.49
+    Q4 2024: 0.3
+    Q1 2025: 0.25
+    Q2 2025: -0.2
+    Q3 2025: 0.31
+    Q4 2025: 0.6
+    Q1 2026: 0.36
+  annual:
+    2021 Yearly: 1.0
+    2022 Yearly: 3.8
+    2023 Yearly: 2.0
+    2024 Yearly: 1.8
+    2025 Yearly: 0.96
+  quarterly_forecast:
+    Q4 2024: 0.62
+    Q1 2025: 0.36
+    Q2 2025: 0.46
+    Q3 2025: 0.15
+    Q4 2025: 0.3
+    Q1 2026: -0.01
+    Q2 2026: 0.23
+  annual_forecast:
+    2021 Yearly: 0.97
+    2022 Yearly: 4.14
+    2023 Yearly: 2.28
+    2024 Yearly: 2.01
+    2025 Yearly: 0.9
+    2026 Yearly: 1.35
+    2027 Yearly: 1.88
+    2028 Yearly: 1.63

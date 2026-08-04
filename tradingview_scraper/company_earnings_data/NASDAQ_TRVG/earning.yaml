@@ -1,0 +1,78 @@
+currency: USD
+company_name: trivago N.V.
+sector: Technology Services
+market_cap_billions: 2.63
+revenue:
+  quarterly:
+    Q3 2024: 162.65
+    Q4 2024: 98.14
+    Q1 2025: 134.26
+    Q2 2025: 164.09
+    Q3 2025: 194.32
+    Q4 2025: 140.89
+    Q1 2026: 165.1
+  annual:
+    2021 Yearly: 410.86
+    2022 Yearly: 572.58
+    2023 Yearly: 535.35
+    2024 Yearly: 477.03
+    2025 Yearly: 644.7
+  quarterly_forecast:
+    Q3 2024: 171.78
+    Q4 2024: 95.75
+    Q1 2025: 121.12
+    Q2 2025: 162.54
+    Q3 2025: 194.95
+    Q4 2025: 125.08
+    Q1 2026: 165.15
+    Q2 2026: 184.76
+    Q3 2026: 217.85
+    Q4 2026: 148.68
+    Q1 2027: 188.45
+  annual_forecast:
+    2021 Yearly: 414.93
+    2022 Yearly: 563.59
+    2023 Yearly: 552.39
+    2024 Yearly: 474.71
+    2025 Yearly: 628.91
+    2026 Yearly: 717.52
+    2027 Yearly: 787.64
+    2028 Yearly: 871.28
+    2029 Yearly: 904.47
+eps:
+  quarterly:
+    Q3 2024: -0.04
+    Q4 2024: 0.01
+    Q1 2025: -0.02
+    Q2 2025: -0.02
+    Q3 2025: 0.04
+    Q4 2025: 0.05
+    Q1 2026: -0.02
+  annual:
+    2021 Yearly: 0.17
+    2022 Yearly: 1.23
+    2023 Yearly: 0.16
+    2024 Yearly: -0.07
+    2025 Yearly: 0.04
+  quarterly_forecast:
+    Q3 2024: 0.02
+    Q4 2024: -0.01
+    Q1 2025: -0.02
+    Q2 2025: -0.02
+    Q3 2025: 0.02
+    Q4 2025: 0.01
+    Q1 2026: -0.06
+    Q2 2026: -0.02
+    Q3 2026: 0.04
+    Q4 2026: 0.02
+    Q1 2027: -0.02
+  annual_forecast:
+    2021 Yearly: 0.07
+    2022 Yearly: -1.85
+    2023 Yearly: 0.31
+    2024 Yearly: -0.18
+    2025 Yearly: 0.02
+    2026 Yearly: 0.02
+    2027 Yearly: 0.05
+    2028 Yearly: 0.08
+    2029 Yearly: 0.05

@@ -1,0 +1,76 @@
+currency: USD
+company_name: Mayville Engineering Company, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 0.67687
+revenue:
+  quarterly:
+    Q3 2024: 135.39
+    Q4 2024: 121.31
+    Q1 2025: 135.58
+    Q2 2025: 132.33
+    Q3 2025: 144.31
+    Q4 2025: 134.27
+    Q1 2026: 144.78
+  annual:
+    2021 Yearly: 454.83
+    2022 Yearly: 539.39
+    2023 Yearly: 588.42
+    2024 Yearly: 581.6
+    2025 Yearly: 546.49
+  quarterly_forecast:
+    Q3 2024: 157.56
+    Q4 2024: 124.12
+    Q1 2025: 134.52
+    Q2 2025: 137.98
+    Q3 2025: 139.91
+    Q4 2025: 133.59
+    Q1 2026: 139.18
+    Q2 2026: 150.59
+    Q3 2026: 159.66
+    Q4 2026: 156.3
+    Q1 2027: 166.6
+  annual_forecast:
+    2021 Yearly: 452.13
+    2022 Yearly: 532.03
+    2023 Yearly: 592.14
+    2024 Yearly: 584.41
+    2025 Yearly: 545.83
+    2026 Yearly: 611.32
+    2027 Yearly: 693.17
+    2028 Yearly: 749.08
+    2029 Yearly: 770.34
+eps:
+  quarterly:
+    Q3 2024: 0.21
+    Q4 2024: -0.07
+    Q1 2025: 0.04
+    Q2 2025: 0.1
+    Q3 2025: 0.1
+    Q4 2025: -0.08
+    Q1 2026: -0.15
+  annual:
+    2021 Yearly: -0.36
+    2022 Yearly: 0.91
+    2023 Yearly: 0.79
+    2024 Yearly: 0.62
+    2025 Yearly: 0.31
+  quarterly_forecast:
+    Q3 2024: 0.24
+    Q4 2024: -0.08
+    Q1 2025: 0.02
+    Q2 2025: 0.06
+    Q3 2025: 0.02
+    Q4 2025: -0.07
+    Q1 2026: -0.24
+    Q2 2026: -0.05
+    Q3 2026: 0.21
+    Q4 2026: 0.21
+    Q1 2027: 0.18
+  annual_forecast:
+    2022 Yearly: 0.41
+    2023 Yearly: 1.03
+    2024 Yearly: 0.74
+    2025 Yearly: 0.61
+    2026 Yearly: 0.12
+    2027 Yearly: 0.25
+    2028 Yearly: 1.12

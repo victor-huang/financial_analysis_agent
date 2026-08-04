@@ -1,0 +1,78 @@
+currency: USD
+company_name: Advanced Micro Devices Inc
+sector: Electronic Technology
+market_cap_billions: 790.25
+revenue:
+  quarterly:
+    Q3 2024: 6820.0
+    Q4 2024: 7660.0
+    Q1 2025: 7440.0
+    Q2 2025: 7680.0
+    Q3 2025: 9250.0
+    Q4 2025: 10270.0
+    Q1 2026: 10250.0
+  annual:
+    2021 Yearly: 16430.0
+    2022 Yearly: 23600.0
+    2023 Yearly: 22680.0
+    2024 Yearly: 25790.0
+    2025 Yearly: 34640.0
+  quarterly_forecast:
+    Q3 2024: 6710.0
+    Q4 2024: 7530.0
+    Q1 2025: 7120.0
+    Q2 2025: 7410.0
+    Q3 2025: 8760.0
+    Q4 2025: 9670.0
+    Q1 2026: 9900.0
+    Q2 2026: 11310.0
+    Q3 2026: 12540.0
+    Q4 2026: 15680.0
+    Q1 2027: 16830.0
+  annual_forecast:
+    2021 Yearly: 16129.999999999998
+    2022 Yearly: 23520.0
+    2023 Yearly: 22670.0
+    2024 Yearly: 25670.0
+    2025 Yearly: 34090.0
+    2026 Yearly: 50220.0
+    2027 Yearly: 79790.0
+    2028 Yearly: 107960.0
+    2029 Yearly: 146220.0
+eps:
+  quarterly:
+    Q3 2024: 0.92
+    Q4 2024: 1.09
+    Q1 2025: 0.96
+    Q2 2025: 0.48
+    Q3 2025: 1.2
+    Q4 2025: 1.53
+    Q1 2026: 1.37
+  annual:
+    2021 Yearly: 2.79
+    2022 Yearly: 3.5
+    2023 Yearly: 2.65
+    2024 Yearly: 3.31
+    2025 Yearly: 4.17
+  quarterly_forecast:
+    Q3 2024: 0.92
+    Q4 2024: 1.08
+    Q1 2025: 0.94
+    Q2 2025: 0.48
+    Q3 2025: 1.17
+    Q4 2025: 1.32
+    Q1 2026: 1.29
+    Q2 2026: 1.62
+    Q3 2026: 1.89
+    Q4 2026: 2.65
+    Q1 2027: 2.83
+  annual_forecast:
+    2021 Yearly: 2.65
+    2022 Yearly: 3.5
+    2023 Yearly: 2.65
+    2024 Yearly: 3.31
+    2025 Yearly: 3.96
+    2026 Yearly: 7.51
+    2027 Yearly: 13.87
+    2028 Yearly: 19.46
+    2029 Yearly: 27.11

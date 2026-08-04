@@ -1,0 +1,78 @@
+currency: USD
+company_name: ACADIA Pharmaceuticals Inc.
+sector: Health Technology
+market_cap_billions: 4.39
+revenue:
+  quarterly:
+    Q3 2024: 250.4
+    Q4 2024: 259.6
+    Q1 2025: 244.32
+    Q2 2025: 264.57
+    Q3 2025: 278.63
+    Q4 2025: 283.99
+    Q1 2026: 268.1
+  annual:
+    2021 Yearly: 484.14
+    2022 Yearly: 517.24
+    2023 Yearly: 726.44
+    2024 Yearly: 957.8
+    2025 Yearly: 1070.0
+  quarterly_forecast:
+    Q3 2024: 248.83
+    Q4 2024: 255.61
+    Q1 2025: 238.77
+    Q2 2025: 262.02
+    Q3 2025: 276.54
+    Q4 2025: 292.79
+    Q1 2026: 280.25
+    Q2 2026: 295.51
+    Q3 2026: 325.64
+    Q4 2026: 352.25
+    Q1 2027: 331.85
+  annual_forecast:
+    2021 Yearly: 487.98
+    2022 Yearly: 514.79
+    2023 Yearly: 719.17
+    2024 Yearly: 968.63
+    2025 Yearly: 1080.0
+    2026 Yearly: 1240.0
+    2027 Yearly: 1400.0
+    2028 Yearly: 1590.0
+    2029 Yearly: 1670.0
+eps:
+  quarterly:
+    Q3 2024: 0.2
+    Q4 2024: 0.86
+    Q1 2025: 0.11
+    Q2 2025: 0.16
+    Q3 2025: 0.42
+    Q4 2025: 1.6
+    Q1 2026: 0.02
+  annual:
+    2021 Yearly: -1.05
+    2022 Yearly: -1.34
+    2023 Yearly: -0.37
+    2024 Yearly: 1.36
+    2025 Yearly: 2.3
+  quarterly_forecast:
+    Q3 2024: 0.14
+    Q4 2024: 0.22
+    Q1 2025: 0.09
+    Q2 2025: 0.14
+    Q3 2025: 0.17
+    Q4 2025: 0.14
+    Q1 2026: 0.05
+    Q2 2026: 0.06
+    Q3 2026: 0.14
+    Q4 2026: 0.18
+    Q1 2027: 0.07
+  annual_forecast:
+    2021 Yearly: -1.02
+    2022 Yearly: -1.32
+    2023 Yearly: -0.36
+    2024 Yearly: 0.72
+    2025 Yearly: 0.81
+    2026 Yearly: 0.39
+    2027 Yearly: 0.83
+    2028 Yearly: 1.5
+    2029 Yearly: 1.78

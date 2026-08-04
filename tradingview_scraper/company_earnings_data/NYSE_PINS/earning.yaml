@@ -1,0 +1,78 @@
+currency: USD
+company_name: Pinterest, Inc.
+sector: Technology Services
+market_cap_billions: 13.53
+revenue:
+  quarterly:
+    Q3 2024: 898.37
+    Q4 2024: 1150.0
+    Q1 2025: 854.99
+    Q2 2025: 998.23
+    Q3 2025: 1050.0
+    Q4 2025: 1320.0
+    Q1 2026: 1010.0
+  annual:
+    2021 Yearly: 2580.0
+    2022 Yearly: 2800.0
+    2023 Yearly: 3060.0
+    2024 Yearly: 3650.0
+    2025 Yearly: 4220.0
+  quarterly_forecast:
+    Q3 2024: 896.89
+    Q4 2024: 1140.0
+    Q1 2025: 846.48
+    Q2 2025: 974.93
+    Q3 2025: 1050.0
+    Q4 2025: 1330.0
+    Q1 2026: 965.84
+    Q2 2026: 1150.0
+    Q3 2026: 1200.0
+    Q4 2026: 1510.0
+    Q1 2027: 1140.0
+  annual_forecast:
+    2021 Yearly: 2560.0
+    2022 Yearly: 2810.0
+    2023 Yearly: 3060.0
+    2024 Yearly: 3630.0
+    2025 Yearly: 4230.0
+    2026 Yearly: 4870.0
+    2027 Yearly: 5490.0
+    2028 Yearly: 6120.0
+    2029 Yearly: 6610.0
+eps:
+  quarterly:
+    Q3 2024: 0.4
+    Q4 2024: 0.56
+    Q1 2025: 0.23
+    Q2 2025: 0.33
+    Q3 2025: 0.38
+    Q4 2025: 0.67
+    Q1 2026: 0.27
+  annual:
+    2021 Yearly: 1.13
+    2022 Yearly: 0.62
+    2023 Yearly: 1.09
+    2024 Yearly: 1.29
+    2025 Yearly: 1.6
+  quarterly_forecast:
+    Q3 2024: 0.34
+    Q4 2024: 0.64
+    Q1 2025: 0.26
+    Q2 2025: 0.35
+    Q3 2025: 0.42
+    Q4 2025: 0.67
+    Q1 2026: 0.23
+    Q2 2026: 0.36
+    Q3 2026: 0.44
+    Q4 2026: 0.79
+    Q1 2027: 0.31
+  annual_forecast:
+    2021 Yearly: 1.1
+    2022 Yearly: 0.61
+    2023 Yearly: 1.06
+    2024 Yearly: 1.48
+    2025 Yearly: 1.65
+    2026 Yearly: 1.88
+    2027 Yearly: 2.22
+    2028 Yearly: 2.46
+    2029 Yearly: 2.61

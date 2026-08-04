@@ -1,0 +1,76 @@
+currency: USD
+company_name: Community Healthcare Trust Incorporated
+sector: Finance
+market_cap_billions: 0.5217200000000001
+revenue:
+  quarterly:
+    Q3 2024: 29.34
+    Q4 2024: 28.98
+    Q1 2025: 29.73
+    Q2 2025: 30.13
+    Q3 2025: 30.81
+    Q4 2025: 30.68
+    Q1 2026: 31.27
+  annual:
+    2021 Yearly: 87.66
+    2022 Yearly: 94.1
+    2023 Yearly: 108.68
+    2024 Yearly: 114.56
+    2025 Yearly: 121.35
+  quarterly_forecast:
+    Q3 2024: 29.38
+    Q4 2024: 29.62
+    Q1 2025: 29.58
+    Q2 2025: 30.14
+    Q3 2025: 30.5
+    Q4 2025: 31.19
+    Q1 2026: 31.03
+    Q2 2026: 31.77
+    Q3 2026: 32.19
+    Q4 2026: 32.38
+    Q1 2027: 33.02
+  annual_forecast:
+    2021 Yearly: 89.89
+    2022 Yearly: 95.93
+    2023 Yearly: 110.88
+    2024 Yearly: 115.67
+    2025 Yearly: 121.76
+    2026 Yearly: 127.82
+    2027 Yearly: 133.37
+    2028 Yearly: 139.2
+    2029 Yearly: 142.19
+eps:
+  quarterly:
+    Q3 2024: 0.04
+    Q4 2024: 0.04
+    Q1 2025: 0.03
+    Q2 2025: -0.5
+    Q3 2025: 0.03
+    Q4 2025: 0.51
+    Q1 2026: 0.07
+  annual:
+    2021 Yearly: 0.87
+    2022 Yearly: 0.81
+    2023 Yearly: 0.2
+    2024 Yearly: -0.23
+    2025 Yearly: 0.08
+  quarterly_forecast:
+    Q3 2024: 0.07
+    Q4 2024: 0.07
+    Q1 2025: 0.07
+    Q2 2025: -0.13
+    Q3 2025: 0.08
+    Q4 2025: 0.11
+    Q1 2026: 0.1
+    Q2 2026: 0.11
+    Q3 2026: 0.12
+    Q4 2026: 0.13
+    Q1 2027: 0.13
+  annual_forecast:
+    2022 Yearly: 0.93
+    2023 Yearly: 0.94
+    2024 Yearly: 0.27
+    2025 Yearly: -0.12
+    2026 Yearly: -0.24
+    2027 Yearly: 0.46
+    2028 Yearly: 0.59

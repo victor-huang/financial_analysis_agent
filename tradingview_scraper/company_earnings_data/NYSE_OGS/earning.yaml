@@ -1,0 +1,78 @@
+currency: USD
+company_name: ONE Gas, Inc.
+sector: Utilities
+market_cap_billions: 4.92
+revenue:
+  quarterly:
+    Q3 2024: 340.4
+    Q4 2024: 630.7
+    Q1 2025: 935.19
+    Q2 2025: 423.7
+    Q3 2025: 379.1
+    Q4 2025: 689.4
+    Q1 2026: 831.71
+  annual:
+    2021 Yearly: 1810.0
+    2022 Yearly: 2580.0
+    2023 Yearly: 2370.0
+    2024 Yearly: 2080.0
+    2025 Yearly: 2430.0
+  quarterly_forecast:
+    Q3 2024: 356.81
+    Q4 2024: 973.58
+    Q1 2025: 934.55
+    Q2 2025: 531.58
+    Q3 2025: 509.73
+    Q4 2025: 990.44
+    Q1 2026: 969.36
+    Q2 2026: 410.29
+    Q3 2026: 365.15
+    Q4 2026: 784.31
+    Q1 2027: 1060.0
+  annual_forecast:
+    2021 Yearly: 1700.0
+    2022 Yearly: 2160.0
+    2023 Yearly: 2500.0
+    2024 Yearly: 2390.0
+    2025 Yearly: 2550.0
+    2026 Yearly: 2480.0
+    2027 Yearly: 2560.0
+    2028 Yearly: 2640.0
+    2029 Yearly: 2760.0
+eps:
+  quarterly:
+    Q3 2024: 0.34
+    Q4 2024: 1.34
+    Q1 2025: 1.98
+    Q2 2025: 0.53
+    Q3 2025: 0.44
+    Q4 2025: 1.48
+    Q1 2026: 2.11
+  annual:
+    2021 Yearly: 3.85
+    2022 Yearly: 4.08
+    2023 Yearly: 4.14
+    2024 Yearly: 3.91
+    2025 Yearly: 4.48
+  quarterly_forecast:
+    Q3 2024: 0.39
+    Q4 2024: 1.33
+    Q1 2025: 1.85
+    Q2 2025: 0.53
+    Q3 2025: 0.42
+    Q4 2025: 1.43
+    Q1 2026: 2.17
+    Q2 2026: 0.63
+    Q3 2026: 0.49
+    Q4 2026: 1.62
+    Q1 2027: 2.06
+  annual_forecast:
+    2021 Yearly: 3.85
+    2022 Yearly: 4.07
+    2023 Yearly: 4.14
+    2024 Yearly: 3.9
+    2025 Yearly: 4.38
+    2026 Yearly: 4.85
+    2027 Yearly: 5.02
+    2028 Yearly: 5.46
+    2029 Yearly: 5.76

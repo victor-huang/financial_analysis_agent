@@ -1,0 +1,78 @@
+currency: USD
+company_name: Travere Therapeutics, Inc.
+sector: Health Technology
+market_cap_billions: 5.11
+revenue:
+  quarterly:
+    Q3 2024: 62.9
+    Q4 2024: 73.55
+    Q1 2025: 75.86
+    Q2 2025: 94.84
+    Q3 2025: 164.86
+    Q4 2025: 129.69
+    Q1 2026: 127.2
+  annual:
+    2021 Yearly: 227.49
+    2022 Yearly: 212.02
+    2023 Yearly: 145.24
+    2024 Yearly: 226.71
+    2025 Yearly: 490.73
+  quarterly_forecast:
+    Q3 2024: 60.87
+    Q4 2024: 73.08
+    Q1 2025: 77.27
+    Q2 2025: 99.47
+    Q3 2025: 105.21
+    Q4 2025: 144.55
+    Q1 2026: 136.23
+    Q2 2026: 157.27
+    Q3 2026: 183.37
+    Q4 2026: 213.01
+    Q1 2027: 210.91
+  annual_forecast:
+    2021 Yearly: 225.72
+    2022 Yearly: 208.36
+    2023 Yearly: 195.51
+    2024 Yearly: 230.97
+    2025 Yearly: 499.28
+    2026 Yearly: 679.11
+    2027 Yearly: 974.32
+    2028 Yearly: 1200.0
+    2029 Yearly: 1470.0
+eps:
+  quarterly:
+    Q3 2024: -0.7
+    Q4 2024: -0.73
+    Q1 2025: -0.47
+    Q2 2025: -0.14
+    Q3 2025: 0.28
+    Q4 2025: 0.03
+    Q1 2026: -0.4
+  annual:
+    2021 Yearly: -3.01
+    2022 Yearly: -4.37
+    2023 Yearly: -1.5
+    2024 Yearly: -4.08
+    2025 Yearly: -0.29
+  quarterly_forecast:
+    Q3 2024: -0.67
+    Q4 2024: -0.56
+    Q1 2025: -0.57
+    Q2 2025: -0.31
+    Q3 2025: -0.3
+    Q4 2025: 0.0
+    Q1 2026: -0.24
+    Q2 2026: -0.13
+    Q3 2026: -0.18
+    Q4 2026: 0.3
+    Q1 2027: 0.34
+  annual_forecast:
+    2021 Yearly: -3.01
+    2022 Yearly: -4.48
+    2023 Yearly: -1.62
+    2024 Yearly: -3.65
+    2025 Yearly: -0.34
+    2026 Yearly: -0.16
+    2027 Yearly: 2.35
+    2028 Yearly: 3.68
+    2029 Yearly: 3.97

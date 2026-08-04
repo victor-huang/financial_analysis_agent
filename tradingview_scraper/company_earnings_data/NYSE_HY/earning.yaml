@@ -1,0 +1,78 @@
+currency: USD
+company_name: Hyster-Yale, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 0.62813
+revenue:
+  quarterly:
+    Q3 2024: 1020.0
+    Q4 2024: 1070.0
+    Q1 2025: 910.4
+    Q2 2025: 956.6
+    Q3 2025: 979.1
+    Q4 2025: 923.2
+    Q1 2026: 795.2
+  annual:
+    2021 Yearly: 3080.0
+    2022 Yearly: 3550.0
+    2023 Yearly: 4120.0
+    2024 Yearly: 4310.0
+    2025 Yearly: 3770.0
+  quarterly_forecast:
+    Q3 2024: 1060.0
+    Q4 2024: 1020.0
+    Q1 2025: 947.79
+    Q2 2025: 936.9
+    Q3 2025: 955.68
+    Q4 2025: 916.43
+    Q1 2026: 878.1
+    Q2 2026: 804.62
+    Q3 2026: 950.63
+    Q4 2026: 980.54
+    Q1 2027: 913.91
+  annual_forecast:
+    2021 Yearly: 3030.0
+    2022 Yearly: 3460.0
+    2023 Yearly: 4110.0
+    2024 Yearly: 4260.0
+    2025 Yearly: 3760.0
+    2026 Yearly: 3530.0
+    2027 Yearly: 3850.0
+    2028 Yearly: 4320.0
+    2029 Yearly: 4530.0
+eps:
+  quarterly:
+    Q3 2024: 0.97
+    Q4 2024: 0.58
+    Q1 2025: 0.48
+    Q2 2025: -0.79
+    Q3 2025: -0.13
+    Q4 2025: -2.96
+    Q1 2026: -1.71
+  annual:
+    2021 Yearly: -10.29
+    2022 Yearly: -4.38
+    2023 Yearly: 7.24
+    2024 Yearly: 8.04
+    2025 Yearly: -3.4
+  quarterly_forecast:
+    Q3 2024: 1.97
+    Q4 2024: 1.38
+    Q1 2025: 0.34
+    Q2 2025: -0.39
+    Q3 2025: -0.24
+    Q4 2025: -2.0
+    Q1 2026: -2.02
+    Q2 2026: -2.21
+    Q3 2026: -0.07
+    Q4 2026: 0.56
+    Q1 2027: -0.34
+  annual_forecast:
+    2021 Yearly: -5.24
+    2022 Yearly: -5.06
+    2023 Yearly: 7.55
+    2024 Yearly: 8.85
+    2025 Yearly: -2.44
+    2026 Yearly: -3.42
+    2027 Yearly: 1.51
+    2028 Yearly: 4.15
+    2029 Yearly: 4.75

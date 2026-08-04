@@ -1,0 +1,76 @@
+currency: USD
+company_name: Tanger Inc.
+sector: Finance
+market_cap_billions: 4.68
+revenue:
+  quarterly:
+    Q3 2024: 125.22
+    Q4 2024: 132.17
+    Q1 2025: 129.28
+    Q2 2025: 133.44
+    Q3 2025: 137.22
+    Q4 2025: 150.95
+    Q1 2026: 143.54
+  annual:
+    2021 Yearly: 407.77
+    2022 Yearly: 421.42
+    2023 Yearly: 438.89
+    2024 Yearly: 497.52
+    2025 Yearly: 550.9
+  quarterly_forecast:
+    Q3 2024: 125.8
+    Q4 2024: 129.31
+    Q1 2025: 127.34
+    Q2 2025: 131.49
+    Q3 2025: 136.96
+    Q4 2025: 143.07
+    Q1 2026: 142.94
+    Q2 2026: 142.58
+    Q3 2026: 147.3
+    Q4 2026: 155.4
+    Q1 2027: 149.22
+  annual_forecast:
+    2021 Yearly: 415.67
+    2022 Yearly: 429.87
+    2023 Yearly: 444.23
+    2024 Yearly: 501.46
+    2025 Yearly: 550.04
+    2026 Yearly: 592.74
+    2027 Yearly: 619.87
+    2028 Yearly: 672.9
+eps:
+  quarterly:
+    Q3 2024: 0.22
+    Q4 2024: 0.23
+    Q1 2025: 0.17
+    Q2 2025: 0.26
+    Q3 2025: 0.28
+    Q4 2025: 0.29
+    Q1 2026: 0.24
+  annual:
+    2021 Yearly: 0.08
+    2022 Yearly: 0.77
+    2023 Yearly: 0.92
+    2024 Yearly: 0.88
+    2025 Yearly: 0.99
+  quarterly_forecast:
+    Q3 2024: 0.21
+    Q4 2024: 0.2
+    Q1 2025: 0.21
+    Q2 2025: 0.22
+    Q3 2025: 0.25
+    Q4 2025: 0.26
+    Q1 2026: 0.23
+    Q2 2026: 0.25
+    Q3 2026: 0.28
+    Q4 2026: 0.3
+    Q1 2027: 0.26
+  annual_forecast:
+    2021 Yearly: 0.3
+    2022 Yearly: 0.77
+    2023 Yearly: 0.87
+    2024 Yearly: 0.82
+    2025 Yearly: 0.94
+    2026 Yearly: 1.06
+    2027 Yearly: 1.17
+    2028 Yearly: 1.37

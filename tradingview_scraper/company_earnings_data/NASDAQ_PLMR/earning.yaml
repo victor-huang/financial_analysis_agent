@@ -1,0 +1,74 @@
+currency: USD
+company_name: Palomar Holdings, Inc.
+sector: Finance
+market_cap_billions: 3.62
+revenue:
+  quarterly:
+    Q3 2024: 414.98
+    Q4 2024: 373.72
+    Q1 2025: 442.16
+    Q2 2025: 496.29
+    Q3 2025: 597.17
+    Q4 2025: 492.63
+    Q1 2026: 629.83
+  annual:
+    2021 Yearly: 535.17
+    2022 Yearly: 881.87
+    2023 Yearly: 1140.0
+    2024 Yearly: 1540.0
+    2025 Yearly: 2029.9999999999998
+  quarterly_forecast:
+    Q3 2024: 440.13
+    Q4 2024: 373.29
+    Q1 2025: 444.85
+    Q2 2025: 464.12
+    Q3 2025: 530.37
+    Q4 2025: 481.03
+    Q1 2026: 557.79
+    Q2 2026: 621.52
+    Q3 2026: 748.2
+    Q4 2026: 612.88
+    Q1 2027: 768.72
+  annual_forecast:
+    2022 Yearly: 525.12
+    2023 Yearly: 864.35
+    2024 Yearly: 1140.0
+    2025 Yearly: 1540.0
+    2026 Yearly: 2020.0
+    2027 Yearly: 2610.0
+eps:
+  quarterly:
+    Q3 2024: 1.23
+    Q4 2024: 1.52
+    Q1 2025: 1.87
+    Q2 2025: 1.76
+    Q3 2025: 2.01
+    Q4 2025: 2.24
+    Q1 2026: 2.31
+  annual:
+    2021 Yearly: 2.05
+    2022 Yearly: 2.77
+    2023 Yearly: 3.69
+    2024 Yearly: 5.09
+    2025 Yearly: 7.86
+  quarterly_forecast:
+    Q3 2024: 1.03
+    Q4 2024: 1.23
+    Q1 2025: 1.59
+    Q2 2025: 1.67
+    Q3 2025: 1.6
+    Q4 2025: 2.08
+    Q1 2026: 2.21
+    Q2 2026: 2.19
+    Q3 2026: 2.69
+    Q4 2026: 2.72
+    Q1 2027: 2.54
+  annual_forecast:
+    2021 Yearly: 1.95
+    2022 Yearly: 2.44
+    2023 Yearly: 3.53
+    2024 Yearly: 4.8
+    2025 Yearly: 7.72
+    2026 Yearly: 9.83
+    2027 Yearly: 11.04
+    2028 Yearly: 11.98

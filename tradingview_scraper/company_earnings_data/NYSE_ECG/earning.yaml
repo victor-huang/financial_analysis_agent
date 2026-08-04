@@ -1,0 +1,66 @@
+currency: USD
+company_name: Everus Construction Group, Inc.
+sector: Industrial Services
+market_cap_billions: 6.77
+revenue:
+  quarterly:
+    Q3 2024: 760.99
+    Q4 2024: 759.64
+    Q1 2025: 826.6
+    Q2 2025: 921.47
+    Q3 2025: 986.82
+    Q4 2025: 1010.0
+    Q1 2026: 1040.0
+  annual:
+    2024 Yearly: 2850.0
+    2025 Yearly: 3750.0
+  quarterly_forecast:
+    Q3 2024: 760.99
+    Q4 2024: 674.94
+    Q1 2025: 676.35
+    Q2 2025: 738.45
+    Q3 2025: 830.6
+    Q4 2025: 879.57
+    Q1 2026: 933.81
+    Q2 2026: 1080.0
+    Q3 2026: 1120.0
+    Q4 2026: 1130.0
+    Q1 2027: 1140.0
+  annual_forecast:
+    2024 Yearly: 2760.0
+    2025 Yearly: 3610.0
+    2026 Yearly: 4380.0
+    2027 Yearly: 4850.0
+    2028 Yearly: 5200.0
+    2029 Yearly: 5700.0
+eps:
+  quarterly:
+    Q3 2024: 0.82
+    Q4 2024: 0.67
+    Q1 2025: 0.72
+    Q2 2025: 1.03
+    Q3 2025: 1.11
+    Q4 2025: 1.08
+    Q1 2026: 1.14
+  annual:
+    2024 Yearly: 2.81
+    2025 Yearly: 3.95
+  quarterly_forecast:
+    Q3 2024: 0.82
+    Q4 2024: 0.69
+    Q1 2025: 0.43
+    Q2 2025: 0.59
+    Q3 2025: 0.62
+    Q4 2025: 0.77
+    Q1 2026: 0.81
+    Q2 2026: 1.14
+    Q3 2026: 1.18
+    Q4 2026: 1.12
+    Q1 2027: 1.23
+  annual_forecast:
+    2024 Yearly: 2.79
+    2025 Yearly: 3.64
+    2026 Yearly: 4.58
+    2027 Yearly: 5.12
+    2028 Yearly: 5.93
+    2029 Yearly: 6.45

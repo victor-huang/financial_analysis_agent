@@ -1,0 +1,78 @@
+currency: USD
+company_name: Xencor, Inc.
+sector: Health Technology
+market_cap_billions: 1.44
+revenue:
+  quarterly:
+    Q3 2024: 10.71
+    Q4 2024: 52.79
+    Q1 2025: 32.73
+    Q2 2025: 43.61
+    Q3 2025: 21.0
+    Q4 2025: 28.24
+    Q1 2026: 4.52
+  annual:
+    2021 Yearly: 275.11
+    2022 Yearly: 164.58
+    2023 Yearly: 168.34
+    2024 Yearly: 110.49
+    2025 Yearly: 125.58
+  quarterly_forecast:
+    Q3 2024: 14.59
+    Q4 2024: 20.43
+    Q1 2025: 22.32
+    Q2 2025: 22.59
+    Q3 2025: 28.71
+    Q4 2025: 29.96
+    Q1 2026: 27.86
+    Q2 2026: 18.89
+    Q3 2026: 25.23
+    Q4 2026: 28.45
+    Q1 2027: 17.67
+  annual_forecast:
+    2021 Yearly: 194.55
+    2022 Yearly: 164.55
+    2023 Yearly: 197.61
+    2024 Yearly: 61.23
+    2025 Yearly: 128.83
+    2026 Yearly: 76.73
+    2027 Yearly: 117.35
+    2028 Yearly: 119.3
+    2029 Yearly: 215.62
+eps:
+  quarterly:
+    Q3 2024: -0.71
+    Q4 2024: -0.62
+    Q1 2025: -0.66
+    Q2 2025: -0.41
+    Q3 2025: -0.08
+    Q4 2025: -0.09
+    Q1 2026: -1.71
+  annual:
+    2021 Yearly: 1.37
+    2022 Yearly: -0.93
+    2023 Yearly: -2.08
+    2024 Yearly: -3.58
+    2025 Yearly: -1.24
+  quarterly_forecast:
+    Q3 2024: -0.98
+    Q4 2024: -0.78
+    Q1 2025: -0.58
+    Q2 2025: -0.72
+    Q3 2025: -0.69
+    Q4 2025: -0.6
+    Q1 2026: -0.83
+    Q2 2026: -0.8
+    Q3 2026: -0.78
+    Q4 2026: -0.66
+    Q1 2027: -0.85
+  annual_forecast:
+    2021 Yearly: 0.24
+    2022 Yearly: -1.51
+    2023 Yearly: -1.9
+    2024 Yearly: -3.66
+    2025 Yearly: -1.77
+    2026 Yearly: -3.83
+    2027 Yearly: -3.18
+    2028 Yearly: -3.18
+    2029 Yearly: -2.02

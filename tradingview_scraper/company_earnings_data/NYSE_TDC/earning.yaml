@@ -1,0 +1,76 @@
+currency: USD
+company_name: Teradata Corporation
+sector: Technology Services
+market_cap_billions: 3.02
+revenue:
+  quarterly:
+    Q3 2024: 440.0
+    Q4 2024: 409.0
+    Q1 2025: 418.0
+    Q2 2025: 408.0
+    Q3 2025: 416.0
+    Q4 2025: 421.0
+    Q1 2026: 444.0
+  annual:
+    2021 Yearly: 1920.0
+    2022 Yearly: 1790.0
+    2023 Yearly: 1830.0
+    2024 Yearly: 1750.0
+    2025 Yearly: 1660.0
+  quarterly_forecast:
+    Q3 2024: 417.71
+    Q4 2024: 416.29
+    Q1 2025: 423.21
+    Q2 2025: 399.65
+    Q3 2025: 406.28
+    Q4 2025: 400.51
+    Q1 2026: 430.1
+    Q2 2026: 396.13
+    Q3 2026: 403.66
+    Q4 2026: 408.97
+    Q1 2027: 445.94
+  annual_forecast:
+    2021 Yearly: 1920.0
+    2022 Yearly: 1780.0
+    2023 Yearly: 1830.0
+    2024 Yearly: 1760.0
+    2025 Yearly: 1640.0
+    2026 Yearly: 1650.0
+    2027 Yearly: 1680.0
+    2028 Yearly: 1720.0
+eps:
+  quarterly:
+    Q3 2024: 0.69
+    Q4 2024: 0.53
+    Q1 2025: 0.66
+    Q2 2025: 0.47
+    Q3 2025: 0.72
+    Q4 2025: 0.74
+    Q1 2026: 0.88
+  annual:
+    2021 Yearly: 2.43
+    2022 Yearly: 1.64
+    2023 Yearly: 2.07
+    2024 Yearly: 2.42
+    2025 Yearly: 2.58
+  quarterly_forecast:
+    Q3 2024: 0.56
+    Q4 2024: 0.42
+    Q1 2025: 0.56
+    Q2 2025: 0.4
+    Q3 2025: 0.54
+    Q4 2025: 0.56
+    Q1 2026: 0.77
+    Q2 2026: 0.56
+    Q3 2026: 0.62
+    Q4 2026: 0.61
+    Q1 2027: 0.87
+  annual_forecast:
+    2021 Yearly: 2.12
+    2022 Yearly: 1.6
+    2023 Yearly: 2.02
+    2024 Yearly: 2.32
+    2025 Yearly: 2.4
+    2026 Yearly: 2.67
+    2027 Yearly: 2.89
+    2028 Yearly: 3.26

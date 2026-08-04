@@ -1,0 +1,78 @@
+currency: USD
+company_name: American Well Corporation
+sector: Technology Services
+market_cap_billions: 0.17978
+revenue:
+  quarterly:
+    Q3 2024: 61.05
+    Q4 2024: 71.01
+    Q1 2025: 66.83
+    Q2 2025: 70.9
+    Q3 2025: 56.29
+    Q4 2025: 55.31
+    Q1 2026: 54.88
+  annual:
+    2021 Yearly: 252.79
+    2022 Yearly: 277.2
+    2023 Yearly: 259.05
+    2024 Yearly: 254.36
+    2025 Yearly: 249.32
+  quarterly_forecast:
+    Q3 2024: 62.87
+    Q4 2024: 66.68
+    Q1 2025: 60.16
+    Q2 2025: 63.47
+    Q3 2025: 55.06
+    Q4 2025: 52.64
+    Q1 2026: 51.54
+    Q2 2026: 49.87
+    Q3 2026: 47.45
+    Q4 2026: 50.47
+    Q1 2027: 54.75
+  annual_forecast:
+    2021 Yearly: 248.95
+    2022 Yearly: 276.06
+    2023 Yearly: 258.58
+    2024 Yearly: 249.88
+    2025 Yearly: 246.57
+    2026 Yearly: 202.28
+    2027 Yearly: 208.63
+    2028 Yearly: 217.76
+    2029 Yearly: 220.22
+eps:
+  quarterly:
+    Q3 2024: -2.87
+    Q4 2024: -2.77
+    Q1 2025: -1.19
+    Q2 2025: -1.24
+    Q3 2025: -2.0
+    Q4 2025: -1.52
+    Q1 2026: -0.66
+  annual:
+    2021 Yearly: -13.8
+    2022 Yearly: -19.8
+    2023 Yearly: -47.6
+    2024 Yearly: -13.88
+    2025 Yearly: -5.96
+  quarterly_forecast:
+    Q3 2024: -3.41
+    Q4 2024: -2.93
+    Q1 2025: -2.77
+    Q2 2025: -1.77
+    Q3 2025: -1.81
+    Q4 2025: -1.8
+    Q1 2026: -1.17
+    Q2 2026: -0.86
+    Q3 2026: -0.9
+    Q4 2026: -0.73
+    Q1 2027: -0.6
+  annual_forecast:
+    2021 Yearly: -15.79
+    2022 Yearly: -20.47
+    2023 Yearly: -48.14
+    2024 Yearly: -13.23
+    2025 Yearly: -6.17
+    2026 Yearly: -3.19
+    2027 Yearly: -2.26
+    2028 Yearly: -1.14
+    2029 Yearly: -0.29

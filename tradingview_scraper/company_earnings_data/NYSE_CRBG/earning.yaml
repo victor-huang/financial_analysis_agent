@@ -1,0 +1,74 @@
+currency: USD
+company_name: Corebridge Financial Inc.
+sector: Finance
+market_cap_billions: 13.96
+revenue:
+  quarterly:
+    Q3 2024: 4530.0
+    Q4 2024: 5020.0
+    Q1 2025: 4740.0
+    Q2 2025: 4420.0
+    Q3 2025: 5630.0
+    Q4 2025: 6340.0
+    Q1 2026: 4080.0
+  annual:
+    2022 Yearly: 18020.0
+    2023 Yearly: 21210.0
+    2024 Yearly: 19580.0
+    2025 Yearly: 20460.0
+  quarterly_forecast:
+    Q3 2024: 5660.0
+    Q4 2024: 5810.0
+    Q1 2025: 5280.0
+    Q2 2025: 4890.0
+    Q3 2025: 4760.0
+    Q4 2025: 5160.0
+    Q1 2026: 5060.0
+    Q2 2026: 4660.0
+    Q3 2026: 5350.0
+    Q4 2026: 5720.0
+    Q1 2027: 5490.0
+  annual_forecast:
+    2022 Yearly: 17980.0
+    2023 Yearly: 20770.0
+    2024 Yearly: 20330.0
+    2025 Yearly: 19570.0
+    2026 Yearly: 19950.0
+    2027 Yearly: 21900.0
+    2028 Yearly: 22910.0
+    2029 Yearly: 24950.0
+eps:
+  quarterly:
+    Q3 2024: 1.38
+    Q4 2024: 1.23
+    Q1 2025: 1.16
+    Q2 2025: 1.36
+    Q3 2025: 0.96
+    Q4 2025: 1.22
+    Q1 2026: 1.05
+  annual:
+    2022 Yearly: 2.87
+    2023 Yearly: 4.1
+    2024 Yearly: 4.83
+    2025 Yearly: 4.42
+  quarterly_forecast:
+    Q3 2024: 1.17
+    Q4 2024: 1.2
+    Q1 2025: 1.14
+    Q2 2025: 1.14
+    Q3 2025: 1.08
+    Q4 2025: 1.11
+    Q1 2026: 1.03
+    Q2 2026: 1.07
+    Q3 2026: 1.18
+    Q4 2026: 1.16
+    Q1 2027: 1.35
+  annual_forecast:
+    2022 Yearly: 2.67
+    2023 Yearly: 4.03
+    2024 Yearly: 4.8
+    2025 Yearly: 4.31
+    2026 Yearly: 4.48
+    2027 Yearly: 5.77
+    2028 Yearly: 6.64
+    2029 Yearly: 7.86

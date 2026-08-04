@@ -1,0 +1,76 @@
+currency: USD
+company_name: loanDepot, Inc.
+sector: Finance
+market_cap_billions: 0.36485
+revenue:
+  quarterly:
+    Q3 2024: 314.6
+    Q4 2024: 257.46
+    Q1 2025: 273.62
+    Q2 2025: 282.54
+    Q3 2025: 323.32
+    Q4 2025: 310.26
+    Q1 2026: 286.39
+  annual:
+    2021 Yearly: 3720.0
+    2022 Yearly: 1260.0
+    2023 Yearly: 974.02
+    2024 Yearly: 1060.0
+    2025 Yearly: 1190.0
+  quarterly_forecast:
+    Q3 2024: 276.06
+    Q4 2024: 310.09
+    Q1 2025: 274.96
+    Q2 2025: 315.79
+    Q3 2025: 312.94
+    Q4 2025: 335.45
+    Q1 2026: 306.75
+    Q2 2026: 339.51
+    Q3 2026: 355.89
+    Q4 2026: 341.85
+    Q1 2027: 313.28
+  annual_forecast:
+    2021 Yearly: 3730.0
+    2022 Yearly: 1270.0
+    2023 Yearly: 986.85
+    2024 Yearly: 1120.0
+    2025 Yearly: 1220.0
+    2026 Yearly: 1330.0
+    2027 Yearly: 1460.0
+    2028 Yearly: 1590.0
+eps:
+  quarterly:
+    Q3 2024: 0.03
+    Q4 2024: 0.16
+    Q1 2025: -0.08
+    Q2 2025: -0.07
+    Q3 2025: -0.01
+    Q4 2025: -0.06
+    Q1 2026: -0.15
+  annual:
+    2021 Yearly: 1.72
+    2022 Yearly: -1.49
+    2023 Yearly: -0.44
+    2024 Yearly: -0.29
+    2025 Yearly: -0.2
+  quarterly_forecast:
+    Q3 2024: -0.04
+    Q4 2024: 0.0
+    Q1 2025: -0.07
+    Q2 2025: -0.03
+    Q3 2025: -0.02
+    Q4 2025: -0.02
+    Q1 2026: -0.05
+    Q2 2026: 0.0
+    Q3 2026: 0.04
+    Q4 2026: 0.01
+    Q1 2027: -0.04
+  annual_forecast:
+    2021 Yearly: 1.82
+    2022 Yearly: -1.45
+    2023 Yearly: -0.48
+    2024 Yearly: -0.21
+    2025 Yearly: -0.17
+    2026 Yearly: -0.07
+    2027 Yearly: 0.15
+    2028 Yearly: 0.33

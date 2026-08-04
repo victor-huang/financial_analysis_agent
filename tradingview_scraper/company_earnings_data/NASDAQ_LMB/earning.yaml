@@ -1,0 +1,76 @@
+currency: USD
+company_name: Limbach Holdings, Inc.
+sector: Miscellaneous
+market_cap_billions: 0.87322
+revenue:
+  quarterly:
+    Q3 2024: 133.92
+    Q4 2024: 143.65
+    Q1 2025: 133.11
+    Q2 2025: 142.24
+    Q3 2025: 184.58
+    Q4 2025: 186.87
+    Q1 2026: 138.86
+  annual:
+    2021 Yearly: 490.35
+    2022 Yearly: 496.78
+    2023 Yearly: 516.35
+    2024 Yearly: 518.78
+    2025 Yearly: 646.8
+  quarterly_forecast:
+    Q3 2024: 129.5
+    Q4 2024: 149.37
+    Q1 2025: 121.06
+    Q2 2025: 144.21
+    Q3 2025: 184.48
+    Q4 2025: 197.56
+    Q1 2026: 134.23
+    Q2 2026: 177.33
+    Q3 2026: 209.01
+    Q4 2026: 218.11
+    Q1 2027: 145.07
+  annual_forecast:
+    2021 Yearly: 492.1
+    2022 Yearly: 507.3
+    2023 Yearly: 503.05
+    2024 Yearly: 524.48
+    2025 Yearly: 657.49
+    2026 Yearly: 743.34
+    2027 Yearly: 786.2
+    2028 Yearly: 841.2
+eps:
+  quarterly:
+    Q3 2024: 0.62
+    Q4 2024: 1.15
+    Q1 2025: 1.12
+    Q2 2025: 0.93
+    Q3 2025: 1.05
+    Q4 2025: 1.4
+    Q1 2026: 0.64
+  annual:
+    2021 Yearly: 0.66
+    2022 Yearly: 0.64
+    2023 Yearly: 1.76
+    2024 Yearly: 3.6
+    2025 Yearly: 4.51
+  quarterly_forecast:
+    Q3 2024: 0.52
+    Q4 2024: 0.79
+    Q1 2025: 0.43
+    Q2 2025: 0.77
+    Q3 2025: 1.05
+    Q4 2025: 1.24
+    Q1 2026: 0.21
+    Q2 2026: 0.93
+    Q3 2026: 1.52
+    Q4 2026: 1.77
+    Q1 2027: 0.28
+  annual_forecast:
+    2021 Yearly: 0.69
+    2022 Yearly: 0.74
+    2023 Yearly: 1.79
+    2024 Yearly: 2.55
+    2025 Yearly: 4.16
+    2026 Yearly: 4.98
+    2027 Yearly: 5.09
+    2028 Yearly: 5.23

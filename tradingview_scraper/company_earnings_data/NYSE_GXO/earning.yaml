@@ -1,0 +1,76 @@
+currency: USD
+company_name: GXO Logistics, Inc.
+sector: Transportation
+market_cap_billions: 5.82
+revenue:
+  quarterly:
+    Q3 2024: 3160.0
+    Q4 2024: 3250.0
+    Q1 2025: 2980.0
+    Q2 2025: 3300.0
+    Q3 2025: 3400.0
+    Q4 2025: 3510.0
+    Q1 2026: 3300.0
+  annual:
+    2021 Yearly: 7940.0
+    2022 Yearly: 8990.0
+    2023 Yearly: 9780.0
+    2024 Yearly: 11710.0
+    2025 Yearly: 13180.0
+  quarterly_forecast:
+    Q3 2024: 3010.0
+    Q4 2024: 3210.0
+    Q1 2025: 2930.0
+    Q2 2025: 3100.0
+    Q3 2025: 3390.0
+    Q4 2025: 3480.0
+    Q1 2026: 3220.0
+    Q2 2026: 3460.0
+    Q3 2026: 3560.0
+    Q4 2026: 3680.0
+    Q1 2027: 3450.0
+  annual_forecast:
+    2021 Yearly: 7730.0
+    2022 Yearly: 8990.0
+    2023 Yearly: 9730.0
+    2024 Yearly: 11670.0
+    2025 Yearly: 13150.0
+    2026 Yearly: 14010.0
+    2027 Yearly: 14800.0
+    2028 Yearly: 15530.0
+eps:
+  quarterly:
+    Q3 2024: 0.79
+    Q4 2024: 1.0
+    Q1 2025: 0.29
+    Q2 2025: 0.57
+    Q3 2025: 0.79
+    Q4 2025: 0.87
+    Q1 2026: 0.5
+  annual:
+    2021 Yearly: 2.09
+    2022 Yearly: 2.85
+    2023 Yearly: 2.59
+    2024 Yearly: 2.8
+    2025 Yearly: 2.51
+  quarterly_forecast:
+    Q3 2024: 0.77
+    Q4 2024: 0.94
+    Q1 2025: 0.25
+    Q2 2025: 0.55
+    Q3 2025: 0.78
+    Q4 2025: 0.83
+    Q1 2026: 0.37
+    Q2 2026: 0.58
+    Q3 2026: 0.92
+    Q4 2026: 1.04
+    Q1 2027: 0.56
+  annual_forecast:
+    2021 Yearly: 1.79
+    2022 Yearly: 2.75
+    2023 Yearly: 2.58
+    2024 Yearly: 2.74
+    2025 Yearly: 2.47
+    2026 Yearly: 3.04
+    2027 Yearly: 3.53
+    2028 Yearly: 4.35

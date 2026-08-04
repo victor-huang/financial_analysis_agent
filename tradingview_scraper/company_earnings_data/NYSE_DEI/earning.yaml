@@ -1,0 +1,78 @@
+currency: USD
+company_name: Douglas Emmett, Inc.
+sector: Finance
+market_cap_billions: 1.99
+revenue:
+  quarterly:
+    Q3 2024: 250.75
+    Q4 2024: 244.98
+    Q1 2025: 251.53
+    Q2 2025: 252.43
+    Q3 2025: 250.58
+    Q4 2025: 249.43
+    Q1 2026: 250.96
+  annual:
+    2021 Yearly: 918.4
+    2022 Yearly: 993.65
+    2023 Yearly: 1020.0
+    2024 Yearly: 986.48
+    2025 Yearly: 1000.0
+  quarterly_forecast:
+    Q3 2024: 243.37
+    Q4 2024: 245.45
+    Q1 2025: 246.28
+    Q2 2025: 251.43
+    Q3 2025: 252.69
+    Q4 2025: 252.26
+    Q1 2026: 251.11
+    Q2 2026: 253.36
+    Q3 2026: 253.32
+    Q4 2026: 256.25
+    Q1 2027: 232.2
+  annual_forecast:
+    2021 Yearly: 918.78
+    2022 Yearly: 995.63
+    2023 Yearly: 1010.0
+    2024 Yearly: 987.31
+    2025 Yearly: 1010.0
+    2026 Yearly: 1010.0
+    2027 Yearly: 1050.0
+    2028 Yearly: 989.08
+    2029 Yearly: 1170.0
+eps:
+  quarterly:
+    Q3 2024: 0.03
+    Q4 2024: -0.01
+    Q1 2025: 0.24
+    Q2 2025: -0.04
+    Q3 2025: -0.07
+    Q4 2025: -0.04
+    Q1 2026: -0.02
+  annual:
+    2021 Yearly: 0.37
+    2022 Yearly: 0.55
+    2023 Yearly: -0.26
+    2024 Yearly: 0.13
+    2025 Yearly: 0.09
+  quarterly_forecast:
+    Q3 2024: -0.01
+    Q4 2024: -0.05
+    Q1 2025: -0.02
+    Q2 2025: -0.06
+    Q3 2025: -0.07
+    Q4 2025: -0.05
+    Q1 2026: -0.05
+    Q2 2026: -0.03
+    Q3 2026: -0.04
+    Q4 2026: -0.04
+    Q1 2027: -0.07
+  annual_forecast:
+    2021 Yearly: 0.37
+    2022 Yearly: 0.54
+    2023 Yearly: -0.11
+    2024 Yearly: 0.09
+    2025 Yearly: 0.08
+    2026 Yearly: -0.12
+    2027 Yearly: -0.1
+    2028 Yearly: 0.01
+    2029 Yearly: -0.07

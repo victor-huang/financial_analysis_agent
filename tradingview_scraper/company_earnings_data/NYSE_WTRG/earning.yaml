@@ -1,0 +1,78 @@
+currency: USD
+company_name: Essential Utilities, Inc.
+sector: Utilities
+market_cap_billions: 11.0
+revenue:
+  quarterly:
+    Q3 2024: 435.25
+    Q4 2024: 604.38
+    Q1 2025: 783.63
+    Q2 2025: 514.91
+    Q3 2025: 476.97
+    Q4 2025: 699.11
+    Q1 2026: 861.76
+  annual:
+    2021 Yearly: 1880.0
+    2022 Yearly: 2290.0
+    2023 Yearly: 2050.0
+    2024 Yearly: 2090.0
+    2025 Yearly: 2470.0
+  quarterly_forecast:
+    Q3 2024: 416.95
+    Q4 2024: 643.18
+    Q1 2025: 701.9
+    Q2 2025: 469.75
+    Q3 2025: 472.4
+    Q4 2025: 611.6
+    Q1 2026: 782.9
+    Q2 2026: 538.9
+    Q3 2026: 506.3
+    Q4 2026: 748.6
+    Q1 2027: 846.7
+  annual_forecast:
+    2021 Yearly: 1840.0
+    2022 Yearly: 2080.0
+    2023 Yearly: 2320.0
+    2024 Yearly: 2130.0
+    2025 Yearly: 2270.0
+    2026 Yearly: 2570.0
+    2027 Yearly: 2730.0
+    2028 Yearly: 2900.0
+    2029 Yearly: 3010.0
+eps:
+  quarterly:
+    Q3 2024: 0.25
+    Q4 2024: 0.67
+    Q1 2025: 1.03
+    Q2 2025: 0.38
+    Q3 2025: 0.33
+    Q4 2025: 0.47
+    Q1 2026: 0.83
+  annual:
+    2021 Yearly: 1.67
+    2022 Yearly: 1.77
+    2023 Yearly: 1.86
+    2024 Yearly: 1.97
+    2025 Yearly: 2.2
+  quarterly_forecast:
+    Q3 2024: 0.24
+    Q4 2024: 0.64
+    Q1 2025: 0.8
+    Q2 2025: 0.3
+    Q3 2025: 0.28
+    Q4 2025: 0.42
+    Q1 2026: 0.91
+    Q2 2026: 0.37
+    Q3 2026: 0.35
+    Q4 2026: 0.69
+    Q1 2027: 0.81
+  annual_forecast:
+    2021 Yearly: 1.67
+    2022 Yearly: 1.77
+    2023 Yearly: 1.86
+    2024 Yearly: 1.95
+    2025 Yearly: 2.14
+    2026 Yearly: 2.23
+    2027 Yearly: 2.36
+    2028 Yearly: 2.49
+    2029 Yearly: 2.48

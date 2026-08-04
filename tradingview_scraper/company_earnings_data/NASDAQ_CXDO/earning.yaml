@@ -1,0 +1,78 @@
+currency: USD
+company_name: Crexendo, Inc.
+sector: Technology Services
+market_cap_billions: 0.23404
+revenue:
+  quarterly:
+    Q3 2024: 15.63
+    Q4 2024: 16.2
+    Q1 2025: 16.06
+    Q2 2025: 16.55
+    Q3 2025: 17.5
+    Q4 2025: 18.1
+    Q1 2026: 20.71
+  annual:
+    2021 Yearly: 28.09
+    2022 Yearly: 37.55
+    2023 Yearly: 53.2
+    2024 Yearly: 60.84
+    2025 Yearly: 68.17
+  quarterly_forecast:
+    Q3 2024: 15.14
+    Q4 2024: 15.64
+    Q1 2025: 15.8
+    Q2 2025: 16.26
+    Q3 2025: 17.05
+    Q4 2025: 18.13
+    Q1 2026: 19.63
+    Q2 2026: 24.65
+    Q3 2026: 25.93
+    Q4 2026: 27.11
+    Q1 2027: 25.86
+  annual_forecast:
+    2021 Yearly: 27.92
+    2022 Yearly: 36.79
+    2023 Yearly: 52.86
+    2024 Yearly: 60.27
+    2025 Yearly: 68.24
+    2026 Yearly: 98.39
+    2027 Yearly: 111.97
+    2028 Yearly: 120.64
+    2029 Yearly: 110.6
+eps:
+  quarterly:
+    Q3 2024: 0.06
+    Q4 2024: 0.06
+    Q1 2025: 0.08
+    Q2 2025: 0.09
+    Q3 2025: 0.1
+    Q4 2025: 0.09
+    Q1 2026: 0.1
+  annual:
+    2021 Yearly: 0.07
+    2022 Yearly: 0.16
+    2023 Yearly: 0.24
+    2024 Yearly: 0.26
+    2025 Yearly: 0.36
+  quarterly_forecast:
+    Q3 2024: 0.05
+    Q4 2024: 0.05
+    Q1 2025: 0.06
+    Q2 2025: 0.06
+    Q3 2025: 0.07
+    Q4 2025: 0.08
+    Q1 2026: 0.08
+    Q2 2026: 0.1
+    Q3 2026: 0.11
+    Q4 2026: 0.11
+    Q1 2027: 0.11
+  annual_forecast:
+    2021 Yearly: 0.08
+    2022 Yearly: 0.09
+    2023 Yearly: 0.23
+    2024 Yearly: 0.24
+    2025 Yearly: 0.35
+    2026 Yearly: 0.42
+    2027 Yearly: 0.52
+    2028 Yearly: 0.61
+    2029 Yearly: 0.83

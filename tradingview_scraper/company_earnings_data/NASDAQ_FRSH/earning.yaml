@@ -1,0 +1,76 @@
+currency: USD
+company_name: Freshworks Inc.
+sector: Technology Services
+market_cap_billions: 3.38
+revenue:
+  quarterly:
+    Q3 2024: 186.57
+    Q4 2024: 194.57
+    Q1 2025: 196.27
+    Q2 2025: 204.68
+    Q3 2025: 215.12
+    Q4 2025: 222.74
+    Q1 2026: 228.63
+  annual:
+    2021 Yearly: 371.02
+    2022 Yearly: 498.0
+    2023 Yearly: 596.43
+    2024 Yearly: 720.42
+    2025 Yearly: 838.81
+  quarterly_forecast:
+    Q3 2024: 181.7
+    Q4 2024: 189.4
+    Q1 2025: 191.95
+    Q2 2025: 198.84
+    Q3 2025: 208.72
+    Q4 2025: 218.76
+    Q1 2026: 223.64
+    Q2 2026: 233.62
+    Q3 2026: 244.89
+    Q4 2026: 254.19
+    Q1 2027: 261.05
+  annual_forecast:
+    2021 Yearly: 365.95
+    2022 Yearly: 495.18
+    2023 Yearly: 594.67
+    2024 Yearly: 715.25
+    2025 Yearly: 834.82
+    2026 Yearly: 961.27
+    2027 Yearly: 1100.0
+    2028 Yearly: 1270.0
+eps:
+  quarterly:
+    Q3 2024: 0.11
+    Q4 2024: 0.14
+    Q1 2025: 0.18
+    Q2 2025: 0.18
+    Q3 2025: 0.16
+    Q4 2025: 0.14
+    Q1 2026: 0.11
+  annual:
+    2021 Yearly: -0.21
+    2022 Yearly: -0.07
+    2023 Yearly: 0.26
+    2024 Yearly: 0.43
+    2025 Yearly: 0.66
+  quarterly_forecast:
+    Q3 2024: 0.08
+    Q4 2024: 0.1
+    Q1 2025: 0.13
+    Q2 2025: 0.11
+    Q3 2025: 0.13
+    Q4 2025: 0.11
+    Q1 2026: 0.11
+    Q2 2026: 0.13
+    Q3 2026: 0.18
+    Q4 2026: 0.2
+    Q1 2027: 0.17
+  annual_forecast:
+    2021 Yearly: -0.2
+    2022 Yearly: -0.11
+    2023 Yearly: 0.24
+    2024 Yearly: 0.39
+    2025 Yearly: 0.63
+    2026 Yearly: 0.62
+    2027 Yearly: 0.8
+    2028 Yearly: 0.93

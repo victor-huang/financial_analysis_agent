@@ -1,0 +1,76 @@
+currency: USD
+company_name: ViaSat, Inc.
+sector: Electronic Technology
+market_cap_billions: 11.2
+revenue:
+  quarterly:
+    Q2 2024: 1120.0
+    Q3 2024: 1120.0
+    Q4 2024: 1150.0
+    Q1 2025: 1170.0
+    Q2 2025: 1140.0
+    Q3 2025: 1160.0
+    Q4 2025: 1170.0
+  annual:
+    2021 Yearly: 2790.0
+    2022 Yearly: 2560.0
+    2023 Yearly: 4280.0
+    2024 Yearly: 4520.0
+    2025 Yearly: 4640.0
+  quarterly_forecast:
+    Q2 2024: 1110.0
+    Q3 2024: 1130.0
+    Q4 2024: 1130.0
+    Q1 2025: 1130.0
+    Q2 2025: 1150.0
+    Q3 2025: 1170.0
+    Q4 2025: 1200.0
+    Q1 2026: 1200.0
+    Q2 2026: 1190.0
+    Q3 2026: 1220.0
+    Q4 2026: 1250.0
+  annual_forecast:
+    2021 Yearly: 2810.0
+    2022 Yearly: 2590.0
+    2023 Yearly: 4230.0
+    2024 Yearly: 4500.0
+    2025 Yearly: 4670.0
+    2026 Yearly: 4850.0
+    2027 Yearly: 5070.0
+    2028 Yearly: 5270.0
+    2029 Yearly: 5950.0
+eps:
+  quarterly:
+    Q2 2024: -1.07
+    Q3 2024: -1.23
+    Q4 2024: -1.89
+    Q1 2025: -0.43
+    Q2 2025: -0.45
+    Q3 2025: 0.18
+    Q4 2025: 0.41
+  annual:
+    2021 Yearly: 1.18
+    2022 Yearly: -0.01
+    2023 Yearly: 1.25
+    2024 Yearly: -4.48
+    2025 Yearly: -0.25
+  quarterly_forecast:
+    Q2 2024: -0.55
+    Q3 2024: -0.85
+    Q4 2024: -0.58
+    Q1 2025: -0.65
+    Q2 2025: -0.52
+    Q3 2025: -0.3
+    Q4 2025: -0.3
+    Q1 2026: -0.32
+    Q2 2026: -0.34
+    Q3 2026: -0.35
+    Q4 2026: -0.33
+  annual_forecast:
+    2022 Yearly: 1.19
+    2023 Yearly: -0.66
+    2024 Yearly: -5.02
+    2025 Yearly: -3.06
+    2026 Yearly: -1.01
+    2027 Yearly: -1.18
+    2028 Yearly: -1.14

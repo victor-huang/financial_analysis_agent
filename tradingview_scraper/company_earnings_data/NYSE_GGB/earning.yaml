@@ -1,0 +1,78 @@
+currency: USD
+company_name: Gerdau S.A.
+sector: Non-Energy Minerals
+market_cap_billions: 9.11
+revenue:
+  quarterly:
+    Q3 2024: 3040.0
+    Q4 2024: 2890.0
+    Q1 2025: 3080.0
+    Q2 2025: 3160.0
+    Q3 2025: 3340.0
+    Q4 2025: 3290.0
+    Q1 2026: 3340.0
+  annual:
+    2021 Yearly: 15580.0
+    2022 Yearly: 15870.0
+    2023 Yearly: 13960.0
+    2024 Yearly: 11510.0
+    2025 Yearly: 13560.0
+  quarterly_forecast:
+    Q3 2024: 3080.0
+    Q4 2024: 2860.0
+    Q1 2025: 2910.0
+    Q2 2025: 3210.0
+    Q3 2025: 3320.0
+    Q4 2025: 3150.0
+    Q1 2026: 3360.0
+    Q2 2026: 3410.0
+    Q3 2026: 3610.0
+    Q4 2026: 3330.0
+    Q1 2027: 3530.0
+  annual_forecast:
+    2021 Yearly: 14120.0
+    2022 Yearly: 16079.999999999998
+    2023 Yearly: 14150.0
+    2024 Yearly: 11550.0
+    2025 Yearly: 13060.0
+    2026 Yearly: 13860.0
+    2027 Yearly: 14300.0
+    2028 Yearly: 14870.0
+    2029 Yearly: 16560.0
+eps:
+  quarterly:
+    Q3 2024: 0.11
+    Q4 2024: 0.03
+    Q1 2025: 0.07
+    Q2 2025: 0.08
+    Q3 2025: 0.1
+    Q4 2025: -0.13
+    Q1 2026: 0.1
+  annual:
+    2021 Yearly: 1.43
+    2022 Yearly: 1.12
+    2023 Yearly: 0.7
+    2024 Yearly: 0.37
+    2025 Yearly: 0.13
+  quarterly_forecast:
+    Q3 2024: 0.11
+    Q4 2024: 0.05
+    Q1 2025: 0.09
+    Q2 2025: 0.09
+    Q3 2025: 0.11
+    Q4 2025: 0.07
+    Q1 2026: 0.12
+    Q2 2026: 0.15
+    Q3 2026: 0.17
+    Q4 2026: 0.11
+    Q1 2027: 0.15
+  annual_forecast:
+    2021 Yearly: 1.23
+    2022 Yearly: 1.14
+    2023 Yearly: 0.76
+    2024 Yearly: 0.4
+    2025 Yearly: 0.34
+    2026 Yearly: 0.53
+    2027 Yearly: 0.59
+    2028 Yearly: 0.58
+    2029 Yearly: 0.68

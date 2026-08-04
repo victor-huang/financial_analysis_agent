@@ -1,0 +1,52 @@
+currency: USD
+company_name: MNTN, Inc.
+sector: Technology Services
+market_cap_billions: 0.7045
+revenue:
+  quarterly:
+    Q1 2025: 64.5
+    Q2 2025: 68.46
+    Q3 2025: 70.02
+    Q4 2025: 87.1
+    Q1 2026: 73.67
+  annual:
+    2025 Yearly: 290.09
+  quarterly_forecast:
+    Q2 2025: 64.48
+    Q3 2025: 70.11
+    Q4 2025: 86.18
+    Q1 2026: 72.63
+    Q2 2026: 82.34
+    Q3 2026: 87.51
+    Q4 2026: 108.53
+    Q1 2027: 90.1
+  annual_forecast:
+    2025 Yearly: 288.29
+    2026 Yearly: 351.99
+    2027 Yearly: 416.63
+    2028 Yearly: 485.0
+    2029 Yearly: 545.5
+eps:
+  quarterly:
+    Q1 2025: -0.28
+    Q2 2025: -0.65
+    Q3 2025: 0.08
+    Q4 2025: 0.43
+    Q1 2026: 0.11
+  annual:
+    2025 Yearly: -0.13
+  quarterly_forecast:
+    Q2 2025: -0.06
+    Q3 2025: 0.04
+    Q4 2025: 0.24
+    Q1 2026: 0.11
+    Q2 2026: 0.19
+    Q3 2026: 0.22
+    Q4 2026: 0.4
+    Q1 2027: 0.18
+  annual_forecast:
+    2025 Yearly: -0.27
+    2026 Yearly: 0.93
+    2027 Yearly: 1.14
+    2028 Yearly: 1.39
+    2029 Yearly: 1.57

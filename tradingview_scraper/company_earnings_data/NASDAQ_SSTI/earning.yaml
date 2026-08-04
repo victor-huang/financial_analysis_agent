@@ -1,0 +1,76 @@
+currency: USD
+company_name: SoundThinking, Inc.
+sector: Technology Services
+market_cap_billions: 0.10169
+revenue:
+  quarterly:
+    Q3 2024: 26.25
+    Q4 2024: 23.41
+    Q1 2025: 28.35
+    Q2 2025: 25.89
+    Q3 2025: 25.1
+    Q4 2025: 24.79
+    Q1 2026: 24.18
+  annual:
+    2021 Yearly: 58.16
+    2022 Yearly: 81.0
+    2023 Yearly: 92.72
+    2024 Yearly: 102.03
+    2025 Yearly: 104.13
+  quarterly_forecast:
+    Q3 2024: 25.99
+    Q4 2024: 26.65
+    Q1 2025: 26.92
+    Q2 2025: 26.33
+    Q3 2025: 27.96
+    Q4 2025: 24.69
+    Q1 2026: 24.27
+    Q2 2026: 25.77
+    Q3 2026: 28.52
+    Q4 2026: 30.76
+    Q1 2027: 26.99
+  annual_forecast:
+    2021 Yearly: 60.25
+    2022 Yearly: 81.39
+    2023 Yearly: 93.0
+    2024 Yearly: 105.26
+    2025 Yearly: 104.02
+    2026 Yearly: 109.23
+    2027 Yearly: 118.79
+    2028 Yearly: 126.36
+eps:
+  quarterly:
+    Q3 2024: -0.11
+    Q4 2024: -0.32
+    Q1 2025: -0.12
+    Q2 2025: -0.24
+    Q3 2025: -0.16
+    Q4 2025: -0.22
+    Q1 2026: -0.54
+  annual:
+    2021 Yearly: -0.38
+    2022 Yearly: 0.52
+    2023 Yearly: -0.22
+    2024 Yearly: -0.72
+    2025 Yearly: -0.74
+  quarterly_forecast:
+    Q3 2024: -0.07
+    Q4 2024: 0.0
+    Q1 2025: -0.11
+    Q2 2025: -0.13
+    Q3 2025: -0.06
+    Q4 2025: -0.18
+    Q1 2026: -0.23
+    Q2 2026: -0.25
+    Q3 2026: -0.03
+    Q4 2026: 0.14
+    Q1 2027: -0.2
+  annual_forecast:
+    2021 Yearly: -0.09
+    2022 Yearly: 0.54
+    2023 Yearly: -0.46
+    2024 Yearly: -0.4
+    2025 Yearly: -0.7
+    2026 Yearly: -0.68
+    2027 Yearly: -0.26
+    2028 Yearly: 0.06

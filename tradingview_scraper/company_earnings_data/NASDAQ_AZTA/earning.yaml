@@ -1,0 +1,78 @@
+currency: USD
+company_name: Azenta, Inc.
+sector: Health Services
+market_cap_billions: 1.38
+revenue:
+  quarterly:
+    Q4 2024: 170.06
+    Q1 2025: 147.51
+    Q2 2025: 143.42
+    Q3 2025: 143.94
+    Q4 2025: 159.19
+    Q1 2026: 148.64
+    Q2 2026: 144.79
+  annual:
+    2021 Yearly: 988.1
+    2022 Yearly: 555.0
+    2023 Yearly: 665.0
+    2024 Yearly: 656.32
+    2025 Yearly: 593.82
+  quarterly_forecast:
+    Q4 2024: 169.66
+    Q1 2025: 146.21
+    Q2 2025: 140.88
+    Q3 2025: 149.38
+    Q4 2025: 156.2
+    Q1 2026: 147.09
+    Q2 2026: 148.47
+    Q3 2026: 149.31
+    Q4 2026: 157.83
+    Q1 2027: 155.21
+    Q2 2027: 154.91
+  annual_forecast:
+    2021 Yearly: 1190.0
+    2022 Yearly: 551.68
+    2023 Yearly: 656.85
+    2024 Yearly: 655.38
+    2025 Yearly: 591.02
+    2026 Yearly: 600.44
+    2027 Yearly: 630.12
+    2028 Yearly: 675.02
+    2029 Yearly: 683.5
+eps:
+  quarterly:
+    Q4 2024: 0.18
+    Q1 2025: 0.08
+    Q2 2025: 0.05
+    Q3 2025: 0.19
+    Q4 2025: 0.21
+    Q1 2026: 0.09
+    Q2 2026: -0.04
+  annual:
+    2021 Yearly: 1.9
+    2022 Yearly: 0.51
+    2023 Yearly: 0.31
+    2024 Yearly: 0.41
+    2025 Yearly: 0.51
+  quarterly_forecast:
+    Q4 2024: 0.1
+    Q1 2025: 0.06
+    Q2 2025: 0.07
+    Q3 2025: 0.14
+    Q4 2025: 0.19
+    Q1 2026: 0.14
+    Q2 2026: 0.12
+    Q3 2026: 0.11
+    Q4 2026: 0.22
+    Q1 2027: 0.16
+    Q2 2027: 0.17
+  annual_forecast:
+    2021 Yearly: 2.53
+    2022 Yearly: 0.42
+    2023 Yearly: 0.2
+    2024 Yearly: 0.33
+    2025 Yearly: 0.5
+    2026 Yearly: 0.39
+    2027 Yearly: 0.61
+    2028 Yearly: 0.85
+    2029 Yearly: 1.3

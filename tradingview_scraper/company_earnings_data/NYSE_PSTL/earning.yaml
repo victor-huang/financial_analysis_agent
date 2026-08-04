@@ -1,0 +1,78 @@
+currency: USD
+company_name: Postal Realty Trust, Inc.
+sector: Finance
+market_cap_billions: 0.76603
+revenue:
+  quarterly:
+    Q3 2024: 18.77
+    Q4 2024: 20.4
+    Q1 2025: 21.48
+    Q2 2025: 22.73
+    Q3 2025: 23.69
+    Q4 2025: 25.4
+    Q1 2026: 26.11
+  annual:
+    2021 Yearly: 38.28
+    2022 Yearly: 50.88
+    2023 Yearly: 60.97
+    2024 Yearly: 73.14
+    2025 Yearly: 93.31
+  quarterly_forecast:
+    Q3 2024: 17.88
+    Q4 2024: 17.9
+    Q1 2025: 19.45
+    Q2 2025: 20.62
+    Q3 2025: 22.81
+    Q4 2025: 23.59
+    Q1 2026: 25.43
+    Q2 2026: 26.26
+    Q3 2026: 26.92
+    Q4 2026: 27.53
+    Q1 2027: 27.5
+  annual_forecast:
+    2021 Yearly: 37.08
+    2022 Yearly: 50.15
+    2023 Yearly: 57.93
+    2024 Yearly: 68.86
+    2025 Yearly: 88.64
+    2026 Yearly: 103.79
+    2027 Yearly: 115.43
+    2028 Yearly: 129.3
+    2029 Yearly: 149.44
+eps:
+  quarterly:
+    Q3 2024: 0.03
+    Q4 2024: 0.17
+    Q1 2025: 0.06
+    Q2 2025: 0.12
+    Q3 2025: 0.13
+    Q4 2025: 0.15
+    Q1 2026: 0.11
+  annual:
+    2021 Yearly: 0.1
+    2022 Yearly: 0.15
+    2023 Yearly: 0.12
+    2024 Yearly: 0.21
+    2025 Yearly: 0.47
+  quarterly_forecast:
+    Q3 2024: 0.03
+    Q4 2024: 0.01
+    Q1 2025: 0.04
+    Q2 2025: 0.08
+    Q3 2025: 0.09
+    Q4 2025: 0.1
+    Q1 2026: 0.1
+    Q2 2026: 0.14
+    Q3 2026: 0.16
+    Q4 2026: 0.14
+    Q1 2027: 0.13
+  annual_forecast:
+    2021 Yearly: 0.15
+    2022 Yearly: 0.18
+    2023 Yearly: 0.16
+    2024 Yearly: 0.11
+    2025 Yearly: 0.52
+    2026 Yearly: 0.61
+    2027 Yearly: 0.66
+    2028 Yearly: 0.66
+    2029 Yearly: 0.75

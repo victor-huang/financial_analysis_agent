@@ -1,0 +1,76 @@
+currency: USD
+company_name: RB Global, Inc.
+sector: Technology Services
+market_cap_billions: 20.91
+revenue:
+  quarterly:
+    Q3 2024: 1010.0
+    Q4 2024: 1130.0
+    Q1 2025: 1070.0
+    Q2 2025: 1200.0
+    Q3 2025: 1100.0
+    Q4 2025: 1200.0
+    Q1 2026: 1210.0
+  annual:
+    2021 Yearly: 1430.0
+    2022 Yearly: 1730.0
+    2023 Yearly: 3750.0
+    2024 Yearly: 4230.0
+    2025 Yearly: 4570.0
+  quarterly_forecast:
+    Q3 2024: 1030.0
+    Q4 2024: 1040.0
+    Q1 2025: 1020.0
+    Q2 2025: 1150.0
+    Q3 2025: 1050.0
+    Q4 2025: 1180.0
+    Q1 2026: 1130.0
+    Q2 2026: 1210.0
+    Q3 2026: 1150.0
+    Q4 2026: 1260.0
+    Q1 2027: 1270.0
+  annual_forecast:
+    2021 Yearly: 1450.0
+    2022 Yearly: 1690.0
+    2023 Yearly: 3760.0
+    2024 Yearly: 4170.0
+    2025 Yearly: 4560.0
+    2026 Yearly: 4880.0
+    2027 Yearly: 5140.0
+    2028 Yearly: 5360.0
+eps:
+  quarterly:
+    Q3 2024: 0.73
+    Q4 2024: 0.94
+    Q1 2025: 0.86
+    Q2 2025: 1.08
+    Q3 2025: 0.94
+    Q4 2025: 1.1
+    Q1 2026: 0.99
+  annual:
+    2021 Yearly: 1.95
+    2022 Yearly: 2.41
+    2023 Yearly: 3.05
+    2024 Yearly: 3.45
+    2025 Yearly: 3.98
+  quarterly_forecast:
+    Q3 2024: 0.67
+    Q4 2024: 0.78
+    Q1 2025: 0.82
+    Q2 2025: 0.97
+    Q3 2025: 0.81
+    Q4 2025: 0.99
+    Q1 2026: 0.97
+    Q2 2026: 1.12
+    Q3 2026: 1.01
+    Q4 2026: 1.22
+    Q1 2027: 1.15
+  annual_forecast:
+    2021 Yearly: 2.0
+    2022 Yearly: 2.27
+    2023 Yearly: 2.86
+    2024 Yearly: 3.3
+    2025 Yearly: 3.87
+    2026 Yearly: 4.37
+    2027 Yearly: 4.78
+    2028 Yearly: 5.41

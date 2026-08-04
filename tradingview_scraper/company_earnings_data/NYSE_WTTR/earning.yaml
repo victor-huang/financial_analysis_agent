@@ -1,0 +1,76 @@
+currency: USD
+company_name: Select Water Solutions, Inc.
+sector: Energy Minerals
+market_cap_billions: 2.58
+revenue:
+  quarterly:
+    Q3 2024: 371.35
+    Q4 2024: 349.05
+    Q1 2025: 374.38
+    Q2 2025: 364.21
+    Q3 2025: 322.24
+    Q4 2025: 346.5
+    Q1 2026: 365.96
+  annual:
+    2021 Yearly: 764.62
+    2022 Yearly: 1390.0
+    2023 Yearly: 1590.0
+    2024 Yearly: 1450.0
+    2025 Yearly: 1410.0
+  quarterly_forecast:
+    Q3 2024: 352.98
+    Q4 2024: 335.55
+    Q1 2025: 362.72
+    Q2 2025: 366.74
+    Q3 2025: 308.21
+    Q4 2025: 321.63
+    Q1 2026: 344.63
+    Q2 2026: 373.33
+    Q3 2026: 380.28
+    Q4 2026: 380.24
+    Q1 2027: 387.3
+  annual_forecast:
+    2021 Yearly: 740.79
+    2022 Yearly: 1390.0
+    2023 Yearly: 1590.0
+    2024 Yearly: 1440.0
+    2025 Yearly: 1380.0
+    2026 Yearly: 1500.0
+    2027 Yearly: 1600.0
+    2028 Yearly: 1690.0
+eps:
+  quarterly:
+    Q3 2024: 0.15
+    Q4 2024: -0.02
+    Q1 2025: 0.08
+    Q2 2025: 0.1
+    Q3 2025: 0.03
+    Q4 2025: 0.06
+    Q1 2026: 0.13
+  annual:
+    2021 Yearly: -0.42
+    2022 Yearly: 0.69
+    2023 Yearly: 0.72
+    2024 Yearly: 0.3
+    2025 Yearly: 0.44
+  quarterly_forecast:
+    Q3 2024: 0.14
+    Q4 2024: 0.08
+    Q1 2025: 0.06
+    Q2 2025: 0.13
+    Q3 2025: 0.0
+    Q4 2025: 0.03
+    Q1 2026: 0.07
+    Q2 2026: 0.13
+    Q3 2026: 0.14
+    Q4 2026: 0.14
+    Q1 2027: 0.15
+  annual_forecast:
+    2021 Yearly: -0.6
+    2022 Yearly: 0.66
+    2023 Yearly: 0.68
+    2024 Yearly: 0.4
+    2025 Yearly: 0.24
+    2026 Yearly: 0.53
+    2027 Yearly: 0.71
+    2028 Yearly: 1.21

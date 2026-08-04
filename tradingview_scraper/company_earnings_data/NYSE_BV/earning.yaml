@@ -1,0 +1,76 @@
+currency: USD
+company_name: BrightView Holdings, Inc.
+sector: Commercial Services
+market_cap_billions: 1.26
+revenue:
+  quarterly:
+    Q4 2024: 728.7
+    Q1 2025: 599.2
+    Q2 2025: 662.6
+    Q3 2025: 708.3
+    Q4 2025: 702.8
+    Q1 2026: 614.7
+    Q2 2026: 702.9
+  annual:
+    2021 Yearly: 2550.0
+    2022 Yearly: 2770.0
+    2023 Yearly: 2820.0
+    2024 Yearly: 2770.0
+    2025 Yearly: 2670.0
+  quarterly_forecast:
+    Q4 2024: 723.01
+    Q1 2025: 611.27
+    Q2 2025: 645.17
+    Q3 2025: 719.49
+    Q4 2025: 718.57
+    Q1 2026: 589.08
+    Q2 2026: 638.8
+    Q3 2026: 726.13
+    Q4 2026: 731.18
+    Q1 2027: 611.08
+    Q2 2027: 673.44
+  annual_forecast:
+    2021 Yearly: 2530.0
+    2022 Yearly: 2780.0
+    2023 Yearly: 2820.0
+    2024 Yearly: 2760.0
+    2025 Yearly: 2690.0
+    2026 Yearly: 2770.0
+    2027 Yearly: 2790.0
+    2028 Yearly: 2900.0
+    2029 Yearly: 3210.0
+eps:
+  quarterly:
+    Q4 2024: 0.3
+    Q1 2025: 0.04
+    Q2 2025: 0.14
+    Q3 2025: 0.3
+    Q4 2025: 0.27
+    Q1 2026: -0.01
+    Q2 2026: 0.09
+  annual:
+    2021 Yearly: 1.2
+    2022 Yearly: 1.03
+    2023 Yearly: 0.59
+    2024 Yearly: 0.76
+    2025 Yearly: 0.76
+  quarterly_forecast:
+    Q4 2024: 0.3
+    Q1 2025: 0.04
+    Q2 2025: 0.11
+    Q3 2025: 0.34
+    Q4 2025: 0.32
+    Q1 2026: 0.02
+    Q2 2026: 0.1
+    Q3 2026: 0.29
+    Q4 2026: 0.3
+    Q1 2027: -0.01
+    Q2 2027: 0.09
+  annual_forecast:
+    2022 Yearly: 1.24
+    2023 Yearly: 1.04
+    2024 Yearly: 0.69
+    2025 Yearly: 0.76
+    2026 Yearly: 0.8
+    2027 Yearly: 0.66
+    2028 Yearly: 0.72

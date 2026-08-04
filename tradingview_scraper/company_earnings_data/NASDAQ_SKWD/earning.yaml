@@ -1,0 +1,72 @@
+currency: USD
+company_name: Skyward Specialty Insurance Group, Inc.
+sector: Finance
+market_cap_billions: 2.47
+revenue:
+  quarterly:
+    Q3 2024: 400.01
+    Q4 2024: 388.36
+    Q1 2025: 535.33
+    Q2 2025: 584.93
+    Q3 2025: 606.51
+    Q4 2025: 439.58
+    Q1 2026: 667.7
+  annual:
+    2022 Yearly: 1140.0
+    2023 Yearly: 1460.0
+    2024 Yearly: 1740.0
+    2025 Yearly: 2170.0
+  quarterly_forecast:
+    Q3 2024: 410.32
+    Q4 2024: 383.42
+    Q1 2025: 527.42
+    Q2 2025: 526.85
+    Q3 2025: 453.72
+    Q4 2025: 434.08
+    Q1 2026: 665.12
+    Q2 2026: 706.59
+    Q3 2026: 750.09
+    Q4 2026: 578.36
+    Q1 2027: 730.48
+  annual_forecast:
+    2022 Yearly: 643.47
+    2023 Yearly: 1460.0
+    2024 Yearly: 1730.0
+    2025 Yearly: 2160.0
+    2026 Yearly: 2720.0
+    2027 Yearly: 2970.0
+    2028 Yearly: 2950.0
+eps:
+  quarterly:
+    Q3 2024: 0.71
+    Q4 2024: 0.8
+    Q1 2025: 0.9
+    Q2 2025: 0.89
+    Q3 2025: 1.05
+    Q4 2025: 1.17
+    Q1 2026: 1.25
+  annual:
+    2022 Yearly: 1.79
+    2023 Yearly: 2.11
+    2024 Yearly: 3.06
+    2025 Yearly: 4.0
+  quarterly_forecast:
+    Q3 2024: 0.65
+    Q4 2024: 0.77
+    Q1 2025: 0.77
+    Q2 2025: 0.86
+    Q3 2025: 0.89
+    Q4 2025: 1.03
+    Q1 2026: 1.13
+    Q2 2026: 1.17
+    Q3 2026: 1.2
+    Q4 2026: 1.27
+    Q1 2027: 1.36
+  annual_forecast:
+    2022 Yearly: 1.21
+    2023 Yearly: 2.07
+    2024 Yearly: 3.04
+    2025 Yearly: 3.87
+    2026 Yearly: 4.89
+    2027 Yearly: 5.48
+    2028 Yearly: 6.03

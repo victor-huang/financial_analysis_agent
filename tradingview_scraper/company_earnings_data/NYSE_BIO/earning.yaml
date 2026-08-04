@@ -1,0 +1,78 @@
+currency: USD
+company_name: Bio-Rad Laboratories, Inc.
+sector: Health Technology
+market_cap_billions: 8.97
+revenue:
+  quarterly:
+    Q3 2024: 649.73
+    Q4 2024: 667.5
+    Q1 2025: 585.4
+    Q2 2025: 651.6
+    Q3 2025: 653.0
+    Q4 2025: 693.2
+    Q1 2026: 592.1
+  annual:
+    2021 Yearly: 2920.0
+    2022 Yearly: 2800.0
+    2023 Yearly: 2670.0
+    2024 Yearly: 2570.0
+    2025 Yearly: 2580.0
+  quarterly_forecast:
+    Q3 2024: 628.18
+    Q4 2024: 679.29
+    Q1 2025: 573.26
+    Q2 2025: 615.2
+    Q3 2025: 652.24
+    Q4 2025: 688.81
+    Q1 2026: 589.91
+    Q2 2026: 623.99
+    Q3 2026: 651.15
+    Q4 2026: 708.85
+    Q1 2027: 612.5
+  annual_forecast:
+    2021 Yearly: 2890.0
+    2022 Yearly: 2820.0
+    2023 Yearly: 2680.0
+    2024 Yearly: 2580.0
+    2025 Yearly: 2580.0
+    2026 Yearly: 2580.0
+    2027 Yearly: 2660.0
+    2028 Yearly: 2760.0
+    2029 Yearly: 2810.0
+eps:
+  quarterly:
+    Q3 2024: 2.01
+    Q4 2024: 2.9
+    Q1 2025: 2.54
+    Q2 2025: 2.61
+    Q3 2025: 2.26
+    Q4 2025: 2.51
+    Q1 2026: 1.89
+  annual:
+    2021 Yearly: 15.66
+    2022 Yearly: 14.42
+    2023 Yearly: 11.78
+    2024 Yearly: 10.31
+    2025 Yearly: 9.92
+  quarterly_forecast:
+    Q3 2024: 1.16
+    Q4 2024: 2.87
+    Q1 2025: 1.81
+    Q2 2025: 1.73
+    Q3 2025: 1.95
+    Q4 2025: 2.71
+    Q1 2026: 1.97
+    Q2 2026: 1.75
+    Q3 2026: 2.38
+    Q4 2026: 3.03
+    Q1 2027: 2.38
+  annual_forecast:
+    2021 Yearly: 15.31
+    2022 Yearly: 14.39
+    2023 Yearly: 11.48
+    2024 Yearly: 10.28
+    2025 Yearly: 10.12
+    2026 Yearly: 9.04
+    2027 Yearly: 9.96
+    2028 Yearly: 11.15
+    2029 Yearly: 12.17

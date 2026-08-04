@@ -1,0 +1,76 @@
+currency: USD
+company_name: DigitalBridge Group, Inc.
+sector: Finance
+market_cap_billions: 2.97
+revenue:
+  quarterly:
+    Q3 2024: 76.13
+    Q4 2024: 66.17
+    Q1 2025: 45.45
+    Q2 2025: -3.21
+    Q3 2025: 3.82
+    Q4 2025: 47.9
+    Q1 2026: 72.24
+  annual:
+    2021 Yearly: 965.8
+    2022 Yearly: 1140.0
+    2023 Yearly: 1500.0
+    2024 Yearly: 607.03
+    2025 Yearly: 93.96
+  quarterly_forecast:
+    Q4 2024: 98.28
+    Q1 2025: 94.81
+    Q2 2025: 104.13
+    Q3 2025: 101.55
+    Q4 2025: 99.23
+    Q1 2026: 103.93
+    Q2 2026: 103.0
+    Q3 2026: 102.9
+    Q4 2026: 103.27
+  annual_forecast:
+    2021 Yearly: 1050.0
+    2022 Yearly: 1140.0
+    2023 Yearly: 1410.0
+    2024 Yearly: 635.66
+    2025 Yearly: 150.42
+    2026 Yearly: 429.39
+    2027 Yearly: 492.7
+    2028 Yearly: 581.34
+    2029 Yearly: 635.12
+eps:
+  quarterly:
+    Q3 2024: -0.01
+    Q4 2024: -0.12
+    Q1 2025: -0.01
+    Q2 2025: 0.1
+    Q3 2025: 0.09
+    Q4 2025: 0.27
+    Q1 2026: 0.03
+  annual:
+    2021 Yearly: -3.12
+    2022 Yearly: -2.47
+    2023 Yearly: 0.73
+    2024 Yearly: 0.03
+    2025 Yearly: 0.46
+  quarterly_forecast:
+    Q3 2024: 0.06
+    Q4 2024: -0.03
+    Q1 2025: -0.07
+    Q2 2025: 0.02
+    Q3 2025: 0.01
+    Q4 2025: 0.05
+    Q1 2026: 0.04
+    Q2 2026: 0.04
+    Q3 2026: 0.04
+    Q4 2026: 0.05
+    Q1 2027: 0.11
+  annual_forecast:
+    2021 Yearly: -3.32
+    2022 Yearly: -2.42
+    2023 Yearly: -0.11
+    2024 Yearly: 0.11
+    2025 Yearly: 0.23
+    2026 Yearly: 0.35
+    2027 Yearly: 1.16
+    2028 Yearly: 0.93
+    2029 Yearly: 1.13

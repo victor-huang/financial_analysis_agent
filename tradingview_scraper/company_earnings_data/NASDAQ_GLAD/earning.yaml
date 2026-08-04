@@ -1,0 +1,74 @@
+currency: USD
+company_name: Gladstone Capital Corporation
+sector: Miscellaneous
+market_cap_billions: 0.42972000000000005
+revenue:
+  quarterly:
+    Q4 2024: 23.71
+    Q1 2025: 21.96
+    Q2 2025: 21.57
+    Q3 2025: 21.66
+    Q4 2025: 23.94
+    Q1 2026: 24.51
+    Q2 2026: 25.99
+  annual:
+    2021 Yearly: 53.79
+    2022 Yearly: 63.15
+    2023 Yearly: 86.43
+    2024 Yearly: 96.62
+    2025 Yearly: 89.12
+  quarterly_forecast:
+    Q4 2024: 23.92
+    Q1 2025: 24.31
+    Q2 2025: 22.78
+    Q3 2025: 21.88
+    Q4 2025: 22.59
+    Q1 2026: 24.37
+    Q2 2026: 25.19
+    Q3 2026: 24.9
+    Q4 2026: 25.43
+    Q1 2027: 26.2
+    Q2 2027: 26.33
+  annual_forecast:
+    2021 Yearly: 53.19
+    2022 Yearly: 63.26
+    2023 Yearly: 86.16
+    2024 Yearly: 96.29
+    2025 Yearly: 87.7
+    2026 Yearly: 100.81
+    2027 Yearly: 104.51
+eps:
+  quarterly:
+    Q4 2024: 0.5
+    Q1 2025: 0.5
+    Q2 2025: 0.5
+    Q3 2025: 0.5
+    Q4 2025: 0.52
+    Q1 2026: 0.5
+    Q2 2026: 0.52
+  annual:
+    2021 Yearly: 1.58
+    2022 Yearly: 1.88
+    2023 Yearly: 2.2
+    2024 Yearly: 2.11
+    2025 Yearly: 2.02
+  quarterly_forecast:
+    Q4 2024: 0.53
+    Q1 2025: 0.53
+    Q2 2025: 0.51
+    Q3 2025: 0.5
+    Q4 2025: 0.5
+    Q1 2026: 0.49
+    Q2 2026: 0.49
+    Q3 2026: 0.48
+    Q4 2026: 0.48
+    Q1 2027: 0.49
+    Q2 2027: 0.49
+  annual_forecast:
+    2021 Yearly: 1.57
+    2022 Yearly: 1.71
+    2023 Yearly: 2.23
+    2024 Yearly: 2.05
+    2025 Yearly: 2.06
+    2026 Yearly: 1.97
+    2027 Yearly: 1.96

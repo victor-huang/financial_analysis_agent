@@ -1,0 +1,77 @@
+currency: USD
+company_name: Alight, Inc.
+sector: Technology Services
+market_cap_billions: 0.5273
+revenue:
+  quarterly:
+    Q3 2024: 555.0
+    Q4 2024: 680.0
+    Q1 2025: 548.0
+    Q2 2025: 528.0
+    Q3 2025: 533.0
+    Q4 2025: 653.0
+    Q1 2026: 534.0
+  annual:
+    2020 Yearly: 2730.0
+    2021 Yearly: 2920.0
+    2022 Yearly: 3130.0
+    2023 Yearly: 3410.0
+    2024 Yearly: 2330.0
+    2025 Yearly: 2260.0
+  quarterly_forecast:
+    Q3 2024: 539.77
+    Q4 2024: 676.53
+    Q1 2025: 541.51
+    Q2 2025: 523.79
+    Q3 2025: 535.56
+    Q4 2025: 655.01
+    Q1 2026: 502.74
+    Q2 2026: 497.02
+    Q3 2026: 501.79
+    Q4 2026: 614.69
+    Q1 2027: 528.05
+  annual_forecast:
+    2021 Yearly: 2850.0
+    2022 Yearly: 3110.0
+    2023 Yearly: 3480.0
+    2024 Yearly: 2340.0
+    2025 Yearly: 2260.0
+    2026 Yearly: 2150.0
+    2027 Yearly: 2150.0
+    2028 Yearly: 2260.0
+eps:
+  quarterly:
+    Q3 2024: 1.8
+    Q4 2024: 4.74
+    Q1 2025: 2.0
+    Q2 2025: 2.0
+    Q3 2025: 2.4
+    Q4 2025: 3.6
+    Q1 2026: 1.2
+  annual:
+    2021 Yearly: 8.04
+    2022 Yearly: 11.4
+    2023 Yearly: 14.2
+    2024 Yearly: 11.64
+    2025 Yearly: 10.0
+  quarterly_forecast:
+    Q3 2024: 1.75
+    Q4 2024: 4.46
+    Q1 2025: 2.0
+    Q2 2025: 2.09
+    Q3 2025: 2.58
+    Q4 2025: 4.62
+    Q1 2026: 0.87
+    Q2 2026: 0.76
+    Q3 2026: 1.19
+    Q4 2026: 2.43
+    Q1 2027: 0.82
+  annual_forecast:
+    2021 Yearly: 9.2
+    2022 Yearly: 11.28
+    2023 Yearly: 13.37
+    2024 Yearly: 10.67
+    2025 Yearly: 11.07
+    2026 Yearly: 5.62
+    2027 Yearly: 5.89
+    2028 Yearly: 4.78

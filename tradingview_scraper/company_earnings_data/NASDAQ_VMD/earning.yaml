@@ -1,0 +1,76 @@
+currency: USD
+company_name: Viemed Healthcare, Inc.
+sector: Health Services
+market_cap_billions: 0.44816
+revenue:
+  quarterly:
+    Q4 2024: 60.7
+    Q1 2025: 59.1
+    Q2 2025: 63.1
+    Q3 2025: 71.91
+    Q4 2025: 76.18
+    Q1 2026: 75.41
+    Q2 2026: 78.1
+  annual:
+    2021 Yearly: 117.06
+    2022 Yearly: 138.83
+    2023 Yearly: 183.01
+    2024 Yearly: 224.26
+    2025 Yearly: 270.28
+  quarterly_forecast:
+    Q4 2024: 59.95
+    Q1 2025: 60.6
+    Q2 2025: 63.25
+    Q3 2025: 72.0
+    Q4 2025: 77.7
+    Q1 2026: 74.4
+    Q2 2026: 78.0
+    Q3 2026: 80.85
+    Q4 2026: 83.15
+    Q1 2027: 83.75
+    Q2 2027: 87.5
+  annual_forecast:
+    2021 Yearly: 114.83
+    2022 Yearly: 139.28
+    2023 Yearly: 182.7
+    2024 Yearly: 223.8
+    2025 Yearly: 272.0
+    2026 Yearly: 317.3
+    2027 Yearly: 360.45
+    2028 Yearly: 417.0
+eps:
+  quarterly:
+    Q4 2024: 0.1
+    Q1 2025: 0.06
+    Q2 2025: 0.08
+    Q3 2025: 0.09
+    Q4 2025: 0.14
+    Q1 2026: 0.06
+    Q2 2026: 0.07
+  annual:
+    2021 Yearly: 0.22
+    2022 Yearly: 0.16
+    2023 Yearly: 0.25
+    2024 Yearly: 0.28
+    2025 Yearly: 0.37
+  quarterly_forecast:
+    Q4 2024: 0.1
+    Q1 2025: 0.06
+    Q2 2025: 0.09
+    Q3 2025: 0.09
+    Q4 2025: 0.13
+    Q1 2026: 0.09
+    Q2 2026: 0.12
+    Q3 2026: 0.13
+    Q4 2026: 0.15
+    Q1 2027: 0.12
+    Q2 2027: 0.13
+  annual_forecast:
+    2021 Yearly: 0.23
+    2022 Yearly: 0.19
+    2023 Yearly: 0.31
+    2024 Yearly: 0.28
+    2025 Yearly: 0.4
+    2026 Yearly: 0.46
+    2027 Yearly: 0.61
+    2028 Yearly: 0.85

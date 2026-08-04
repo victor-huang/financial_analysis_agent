@@ -1,0 +1,76 @@
+currency: USD
+company_name: Celanese Corporation
+sector: Process Industries
+market_cap_billions: 4.81
+revenue:
+  quarterly:
+    Q3 2024: 2650.0
+    Q4 2024: 2370.0
+    Q1 2025: 2390.0
+    Q2 2025: 2530.0
+    Q3 2025: 2420.0
+    Q4 2025: 2200.0
+    Q1 2026: 2340.0
+  annual:
+    2021 Yearly: 8540.0
+    2022 Yearly: 9670.0
+    2023 Yearly: 10940.0
+    2024 Yearly: 10280.0
+    2025 Yearly: 9540.0
+  quarterly_forecast:
+    Q3 2024: 2700.0
+    Q4 2024: 2370.0
+    Q1 2025: 2250.0
+    Q2 2025: 2490.0
+    Q3 2025: 2500.0
+    Q4 2025: 2250.0
+    Q1 2026: 2340.0
+    Q2 2026: 2750.0
+    Q3 2026: 2640.0
+    Q4 2026: 2330.0
+    Q1 2027: 2470.0
+  annual_forecast:
+    2022 Yearly: 8540.0
+    2023 Yearly: 9760.0
+    2024 Yearly: 10970.0
+    2025 Yearly: 10270.0
+    2026 Yearly: 9600.0
+    2027 Yearly: 10030.0
+    2028 Yearly: 10050.0
+eps:
+  quarterly:
+    Q3 2024: 2.44
+    Q4 2024: 1.45
+    Q1 2025: 0.57
+    Q2 2025: 1.44
+    Q3 2025: 1.34
+    Q4 2025: 0.67
+    Q1 2026: 0.85
+  annual:
+    2021 Yearly: 18.12
+    2022 Yearly: 15.88
+    2023 Yearly: 8.92
+    2024 Yearly: 8.37
+    2025 Yearly: 3.98
+  quarterly_forecast:
+    Q3 2024: 2.85
+    Q4 2024: 1.2
+    Q1 2025: 0.38
+    Q2 2025: 1.4
+    Q3 2025: 1.22
+    Q4 2025: 0.91
+    Q1 2026: 0.89
+    Q2 2026: 2.23
+    Q3 2026: 1.78
+    Q4 2026: 1.22
+    Q1 2027: 1.38
+  annual_forecast:
+    2021 Yearly: 18.36
+    2022 Yearly: 16.08
+    2023 Yearly: 8.99
+    2024 Yearly: 8.11
+    2025 Yearly: 4.25
+    2026 Yearly: 6.08
+    2027 Yearly: 6.59
+    2028 Yearly: 7.76
+    2029 Yearly: 11.95

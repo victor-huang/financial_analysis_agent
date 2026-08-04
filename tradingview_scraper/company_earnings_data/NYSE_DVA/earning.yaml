@@ -1,0 +1,78 @@
+currency: USD
+company_name: DaVita Inc.
+sector: Health Services
+market_cap_billions: 15.0
+revenue:
+  quarterly:
+    Q3 2024: 3260.0
+    Q4 2024: 3290.0
+    Q1 2025: 3220.0
+    Q2 2025: 3380.0
+    Q3 2025: 3420.0
+    Q4 2025: 3620.0
+    Q1 2026: 3420.0
+  annual:
+    2021 Yearly: 11620.0
+    2022 Yearly: 11610.0
+    2023 Yearly: 12140.0
+    2024 Yearly: 12820.0
+    2025 Yearly: 13640.0
+  quarterly_forecast:
+    Q3 2024: 3250.0
+    Q4 2024: 3260.0
+    Q1 2025: 3210.0
+    Q2 2025: 3360.0
+    Q3 2025: 3430.0
+    Q4 2025: 3510.0
+    Q1 2026: 3360.0
+    Q2 2026: 3500.0
+    Q3 2026: 3530.0
+    Q4 2026: 3650.0
+    Q1 2027: 3510.0
+  annual_forecast:
+    2021 Yearly: 11590.0
+    2022 Yearly: 11620.0
+    2023 Yearly: 12010.0
+    2024 Yearly: 12780.0
+    2025 Yearly: 13530.0
+    2026 Yearly: 14090.0
+    2027 Yearly: 14520.0
+    2028 Yearly: 14600.0
+    2029 Yearly: 15890.0
+eps:
+  quarterly:
+    Q3 2024: 2.59
+    Q4 2024: 2.24
+    Q1 2025: 2.0
+    Q2 2025: 2.95
+    Q3 2025: 2.51
+    Q4 2025: 3.4
+    Q1 2026: 2.87
+  annual:
+    2021 Yearly: 9.13
+    2022 Yearly: 6.6
+    2023 Yearly: 8.47
+    2024 Yearly: 9.68
+    2025 Yearly: 10.78
+  quarterly_forecast:
+    Q3 2024: 2.72
+    Q4 2024: 2.13
+    Q1 2025: 1.95
+    Q2 2025: 2.77
+    Q3 2025: 3.22
+    Q4 2025: 3.24
+    Q1 2026: 2.33
+    Q2 2026: 3.88
+    Q3 2026: 3.92
+    Q4 2026: 4.25
+    Q1 2027: 3.26
+  annual_forecast:
+    2021 Yearly: 8.89
+    2022 Yearly: 6.21
+    2023 Yearly: 7.98
+    2024 Yearly: 9.68
+    2025 Yearly: 10.56
+    2026 Yearly: 14.88
+    2027 Yearly: 17.33
+    2028 Yearly: 19.16
+    2029 Yearly: 18.12

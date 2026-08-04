@@ -1,0 +1,78 @@
+currency: USD
+company_name: Rigel Pharmaceuticals, Inc.
+sector: Health Technology
+market_cap_billions: 0.69253
+revenue:
+  quarterly:
+    Q3 2024: 55.31
+    Q4 2024: 57.6
+    Q1 2025: 53.33
+    Q2 2025: 101.69
+    Q3 2025: 69.46
+    Q4 2025: 69.8
+    Q1 2026: 58.82
+  annual:
+    2021 Yearly: 149.24
+    2022 Yearly: 120.24
+    2023 Yearly: 116.88
+    2024 Yearly: 179.28
+    2025 Yearly: 294.28
+  quarterly_forecast:
+    Q3 2024: 41.94
+    Q4 2024: 50.1
+    Q1 2025: 43.87
+    Q2 2025: 88.95
+    Q3 2025: 61.88
+    Q4 2025: 68.7
+    Q1 2026: 62.4
+    Q2 2026: 55.27
+    Q3 2026: 79.23
+    Q4 2026: 85.55
+    Q1 2027: 77.96
+  annual_forecast:
+    2021 Yearly: 150.63
+    2022 Yearly: 97.78
+    2023 Yearly: 114.73
+    2024 Yearly: 171.8
+    2025 Yearly: 293.19
+    2026 Yearly: 278.89
+    2027 Yearly: 339.19
+    2028 Yearly: 408.99
+    2029 Yearly: 442.35
+eps:
+  quarterly:
+    Q3 2024: 0.7
+    Q4 2024: 0.8
+    Q1 2025: 0.63
+    Q2 2025: 3.28
+    Q3 2025: 1.46
+    Q4 2025: 13.54
+    Q1 2026: 0.44
+  annual:
+    2021 Yearly: -1.1
+    2022 Yearly: -3.4
+    2023 Yearly: -1.4
+    2024 Yearly: 0.99
+    2025 Yearly: 19.48
+  quarterly_forecast:
+    Q3 2024: 0.06
+    Q4 2024: 0.45
+    Q1 2025: 0.09
+    Q2 2025: 2.58
+    Q3 2025: 0.9
+    Q4 2025: 1.2
+    Q1 2026: 0.8
+    Q2 2026: 0.09
+    Q3 2026: 1.17
+    Q4 2026: 1.21
+    Q1 2027: 0.69
+  annual_forecast:
+    2021 Yearly: -1.02
+    2022 Yearly: -4.53
+    2023 Yearly: -1.7
+    2024 Yearly: 0.39
+    2025 Yearly: 6.64
+    2026 Yearly: 2.98
+    2027 Yearly: 4.59
+    2028 Yearly: 5.14
+    2029 Yearly: 4.03

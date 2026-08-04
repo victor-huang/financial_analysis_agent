@@ -1,0 +1,74 @@
+currency: USD
+company_name: TrueBlue, Inc.
+sector: Commercial Services
+market_cap_billions: 0.22925
+revenue:
+  quarterly:
+    Q3 2024: 382.36
+    Q4 2024: 385.95
+    Q1 2025: 370.25
+    Q2 2025: 396.3
+    Q3 2025: 431.27
+    Q4 2025: 418.18
+    Q1 2026: 398.57
+  annual:
+    2021 Yearly: 2170.0
+    2022 Yearly: 2250.0
+    2023 Yearly: 1910.0
+    2024 Yearly: 1570.0
+    2025 Yearly: 1620.0
+  quarterly_forecast:
+    Q3 2024: 386.07
+    Q4 2024: 384.94
+    Q1 2025: 362.37
+    Q2 2025: 400.52
+    Q3 2025: 409.01
+    Q4 2025: 414.55
+    Q1 2026: 390.51
+    Q2 2026: 417.84
+    Q3 2026: 454.17
+    Q4 2026: 438.8
+    Q1 2027: 422.54
+  annual_forecast:
+    2021 Yearly: 2130.0
+    2022 Yearly: 2260.0
+    2023 Yearly: 1890.0
+    2024 Yearly: 1570.0
+    2025 Yearly: 1610.0
+    2026 Yearly: 1710.0
+    2027 Yearly: 1780.0
+eps:
+  quarterly:
+    Q3 2024: -0.11
+    Q4 2024: -0.02
+    Q1 2025: -0.4
+    Q2 2025: -0.07
+    Q3 2025: 0.03
+    Q4 2025: -0.25
+    Q1 2026: -0.41
+  annual:
+    2021 Yearly: 2.0
+    2022 Yearly: 2.43
+    2023 Yearly: 0.28
+    2024 Yearly: -0.46
+    2025 Yearly: -0.68
+  quarterly_forecast:
+    Q3 2024: -0.15
+    Q4 2024: -0.16
+    Q1 2025: -0.32
+    Q2 2025: -0.1
+    Q3 2025: -0.08
+    Q4 2025: -0.05
+    Q1 2026: -0.45
+    Q2 2026: -0.1
+    Q3 2026: 0.17
+    Q4 2026: 0.12
+    Q1 2027: -0.04
+  annual_forecast:
+    2021 Yearly: 1.76
+    2022 Yearly: 2.48
+    2023 Yearly: 0.24
+    2024 Yearly: -0.6
+    2025 Yearly: -0.51
+    2026 Yearly: -0.24
+    2027 Yearly: 0.62

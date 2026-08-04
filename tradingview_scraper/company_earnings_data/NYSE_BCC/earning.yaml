@@ -1,0 +1,76 @@
+currency: USD
+company_name: Boise Cascade, L.L.C.
+sector: Distribution Services
+market_cap_billions: 2.92
+revenue:
+  quarterly:
+    Q4 2024: 1570.0
+    Q1 2025: 1540.0
+    Q2 2025: 1740.0
+    Q3 2025: 1670.0
+    Q4 2025: 1460.0
+    Q1 2026: 1500.0
+    Q2 2026: 1830.0
+  annual:
+    2021 Yearly: 7930.0
+    2022 Yearly: 8390.0
+    2023 Yearly: 6840.0
+    2024 Yearly: 6720.0
+    2025 Yearly: 6400.0
+  quarterly_forecast:
+    Q4 2024: 1570.0
+    Q1 2025: 1520.0
+    Q2 2025: 1750.0
+    Q3 2025: 1620.0
+    Q4 2025: 1450.0
+    Q1 2026: 1460.0
+    Q2 2026: 1770.0
+    Q3 2026: 1750.0
+    Q4 2026: 1550.0
+    Q1 2027: 1580.0
+    Q2 2027: 1860.0
+  annual_forecast:
+    2021 Yearly: 7720.0
+    2022 Yearly: 8540.0
+    2023 Yearly: 6830.0
+    2024 Yearly: 6730.0
+    2025 Yearly: 6400.0
+    2026 Yearly: 6570.0
+    2027 Yearly: 6860.0
+    2028 Yearly: 6850.0
+eps:
+  quarterly:
+    Q4 2024: 1.78
+    Q1 2025: 1.06
+    Q2 2025: 1.64
+    Q3 2025: 0.58
+    Q4 2025: 0.24
+    Q1 2026: 0.5
+    Q2 2026: 1.63
+  annual:
+    2021 Yearly: 17.97
+    2022 Yearly: 21.56
+    2023 Yearly: 12.12
+    2024 Yearly: 9.57
+    2025 Yearly: 3.53
+  quarterly_forecast:
+    Q4 2024: 1.79
+    Q1 2025: 1.31
+    Q2 2025: 1.7
+    Q3 2025: 0.61
+    Q4 2025: 0.12
+    Q1 2026: 0.42
+    Q2 2026: 1.23
+    Q3 2026: 1.27
+    Q4 2026: 0.77
+    Q1 2027: 0.94
+    Q2 2027: 1.73
+  annual_forecast:
+    2021 Yearly: 16.01
+    2022 Yearly: 21.57
+    2023 Yearly: 12.26
+    2024 Yearly: 9.57
+    2025 Yearly: 3.4
+    2026 Yearly: 3.76
+    2027 Yearly: 5.37
+    2028 Yearly: 7.67

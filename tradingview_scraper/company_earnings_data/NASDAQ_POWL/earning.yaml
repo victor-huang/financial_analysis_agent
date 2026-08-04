@@ -1,0 +1,78 @@
+currency: USD
+company_name: Powell Industries, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 8.0
+revenue:
+  quarterly:
+    Q1 2025: 241.43
+    Q2 2025: 278.63
+    Q3 2025: 286.27
+    Q4 2025: 297.98
+    Q1 2026: 251.18
+    Q2 2026: 296.62
+    Q3 2026: 311.74
+  annual:
+    2021 Yearly: 470.56
+    2022 Yearly: 532.58
+    2023 Yearly: 699.31
+    2024 Yearly: 1010.0
+    2025 Yearly: 1100.0
+  quarterly_forecast:
+    Q1 2025: 232.62
+    Q2 2025: 282.68
+    Q3 2025: 298.34
+    Q4 2025: 291.5
+    Q1 2026: 256.46
+    Q2 2026: 298.12
+    Q3 2026: 316.7
+    Q4 2026: 332.29
+    Q1 2027: 275.97
+    Q2 2027: 327.25
+    Q3 2027: 370.16
+  annual_forecast:
+    2021 Yearly: 457.2
+    2022 Yearly: 510.9
+    2023 Yearly: 687.44
+    2024 Yearly: 1050.0
+    2025 Yearly: 1100.0
+    2026 Yearly: 1200.0
+    2027 Yearly: 1450.0
+    2028 Yearly: 1650.0
+    2029 Yearly: 1720.0
+eps:
+  quarterly:
+    Q1 2025: 0.95
+    Q2 2025: 1.27
+    Q3 2025: 1.32
+    Q4 2025: 1.41
+    Q1 2026: 1.13
+    Q2 2026: 1.25
+    Q3 2026: 1.42
+  annual:
+    2021 Yearly: 0.02
+    2022 Yearly: 0.38
+    2023 Yearly: 1.5
+    2024 Yearly: 4.1
+    2025 Yearly: 4.95
+  quarterly_forecast:
+    Q1 2025: 0.87
+    Q2 2025: 1.15
+    Q3 2025: 1.28
+    Q4 2025: 1.26
+    Q1 2026: 0.97
+    Q2 2026: 1.36
+    Q3 2026: 1.47
+    Q4 2026: 1.57
+    Q1 2027: 1.21
+    Q2 2027: 1.49
+    Q3 2027: 1.72
+  annual_forecast:
+    2021 Yearly: -0.09
+    2022 Yearly: -0.01
+    2023 Yearly: 1.18
+    2024 Yearly: 3.93
+    2025 Yearly: 4.8
+    2026 Yearly: 5.46
+    2027 Yearly: 6.57
+    2028 Yearly: 8.66
+    2029 Yearly: 8.13

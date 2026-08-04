@@ -1,0 +1,78 @@
+currency: USD
+company_name: Kratos Defense & Security Solutions, Inc.
+sector: Electronic Technology
+market_cap_billions: 9.23
+revenue:
+  quarterly:
+    Q3 2024: 275.9
+    Q4 2024: 283.1
+    Q1 2025: 302.6
+    Q2 2025: 351.5
+    Q3 2025: 347.6
+    Q4 2025: 345.1
+    Q1 2026: 371.0
+  annual:
+    2021 Yearly: 811.5
+    2022 Yearly: 898.3
+    2023 Yearly: 1040.0
+    2024 Yearly: 1140.0
+    2025 Yearly: 1350.0
+  quarterly_forecast:
+    Q3 2024: 276.81
+    Q4 2024: 288.08
+    Q1 2025: 291.76
+    Q2 2025: 306.45
+    Q3 2025: 321.97
+    Q4 2025: 327.18
+    Q1 2026: 345.0
+    Q2 2026: 410.36
+    Q3 2026: 461.61
+    Q4 2026: 499.76
+    Q1 2027: 470.82
+  annual_forecast:
+    2021 Yearly: 808.56
+    2022 Yearly: 891.03
+    2023 Yearly: 1020.0
+    2024 Yearly: 1140.0
+    2025 Yearly: 1330.0
+    2026 Yearly: 1740.0
+    2027 Yearly: 2170.0
+    2028 Yearly: 2630.0
+    2029 Yearly: 2980.0
+eps:
+  quarterly:
+    Q3 2024: 0.11
+    Q4 2024: 0.13
+    Q1 2025: 0.12
+    Q2 2025: 0.11
+    Q3 2025: 0.14
+    Q4 2025: 0.18
+    Q1 2026: 0.16
+  annual:
+    2021 Yearly: 0.36
+    2022 Yearly: 0.31
+    2023 Yearly: 0.42
+    2024 Yearly: 0.49
+    2025 Yearly: 0.55
+  quarterly_forecast:
+    Q3 2024: 0.08
+    Q4 2024: 0.1
+    Q1 2025: 0.09
+    Q2 2025: 0.1
+    Q3 2025: 0.13
+    Q4 2025: 0.16
+    Q1 2026: 0.13
+    Q2 2026: 0.14
+    Q3 2026: 0.21
+    Q4 2026: 0.25
+    Q1 2027: 0.22
+  annual_forecast:
+    2021 Yearly: 0.3
+    2022 Yearly: 0.26
+    2023 Yearly: 0.36
+    2024 Yearly: 0.47
+    2025 Yearly: 0.53
+    2026 Yearly: 0.78
+    2027 Yearly: 1.1
+    2028 Yearly: 1.46
+    2029 Yearly: 2.08

@@ -1,0 +1,76 @@
+currency: USD
+company_name: Fuel Tech, Inc.
+sector: Process Industries
+market_cap_billions: 0.04675
+revenue:
+  quarterly:
+    Q3 2024: 7.85
+    Q4 2024: 5.28
+    Q1 2025: 6.38
+    Q2 2025: 5.56
+    Q3 2025: 7.49
+    Q4 2025: 7.25
+    Q1 2026: 6.08
+  annual:
+    2021 Yearly: 24.26
+    2022 Yearly: 26.94
+    2023 Yearly: 27.08
+    2024 Yearly: 25.13
+    2025 Yearly: 26.68
+  quarterly_forecast:
+    Q3 2024: 8.47
+    Q4 2024: 5.63
+    Q1 2025: 6.64
+    Q2 2025: 6.09
+    Q3 2025: 9.39
+    Q4 2025: 7.47
+    Q1 2026: 7.62
+    Q2 2026: 6.58
+    Q3 2026: 7.7
+    Q4 2026: 7.96
+  annual_forecast:
+    2021 Yearly: 24.9
+    2022 Yearly: 26.3
+    2023 Yearly: 27.63
+    2024 Yearly: 25.48
+    2025 Yearly: 26.9
+    2026 Yearly: 28.32
+    2027 Yearly: 33.33
+    2028 Yearly: 38.8
+    2029 Yearly: 45.3
+eps:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: -0.06
+    Q1 2025: -0.02
+    Q2 2025: -0.02
+    Q3 2025: 0.01
+    Q4 2025: -0.04
+    Q1 2026: -0.04
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: -0.05
+    2023 Yearly: -0.05
+    2024 Yearly: -0.06
+    2025 Yearly: -0.08
+  quarterly_forecast:
+    Q3 2024: 0.01
+    Q4 2024: -0.03
+    Q1 2025: -0.02
+    Q2 2025: -0.03
+    Q3 2025: 0.01
+    Q4 2025: -0.03
+    Q1 2026: 0.0
+    Q2 2026: -0.02
+    Q3 2026: -0.01
+    Q4 2026: -0.04
+  annual_forecast:
+    2021 Yearly: 0.02
+    2022 Yearly: -0.06
+    2023 Yearly: -0.06
+    2024 Yearly: -0.03
+    2025 Yearly: -0.06
+    2026 Yearly: -0.12
+    2027 Yearly: -0.05
+    2028 Yearly: 0.0
+    2029 Yearly: 0.04

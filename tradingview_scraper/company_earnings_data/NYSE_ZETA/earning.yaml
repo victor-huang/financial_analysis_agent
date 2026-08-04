@@ -1,0 +1,78 @@
+currency: USD
+company_name: Zeta Global Holdings Corp.
+sector: Technology Services
+market_cap_billions: 5.62
+revenue:
+  quarterly:
+    Q3 2024: 268.3
+    Q4 2024: 314.67
+    Q1 2025: 264.42
+    Q2 2025: 308.44
+    Q3 2025: 337.17
+    Q4 2025: 394.64
+    Q1 2026: 396.3
+  annual:
+    2021 Yearly: 458.34
+    2022 Yearly: 590.96
+    2023 Yearly: 728.72
+    2024 Yearly: 1010.0
+    2025 Yearly: 1300.0
+  quarterly_forecast:
+    Q3 2024: 252.68
+    Q4 2024: 294.86
+    Q1 2025: 254.19
+    Q2 2025: 296.69
+    Q3 2025: 328.09
+    Q4 2025: 379.25
+    Q1 2026: 370.39
+    Q2 2026: 420.61
+    Q3 2026: 461.01
+    Q4 2026: 509.38
+    Q1 2027: 460.32
+  annual_forecast:
+    2021 Yearly: 446.42
+    2022 Yearly: 576.57
+    2023 Yearly: 725.94
+    2024 Yearly: 985.98
+    2025 Yearly: 1290.0
+    2026 Yearly: 1790.0
+    2027 Yearly: 2080.0
+    2028 Yearly: 2380.0
+    2029 Yearly: 2650.0
+eps:
+  quarterly:
+    Q3 2024: 0.18
+    Q4 2024: 0.24
+    Q1 2025: 0.1
+    Q2 2025: 0.14
+    Q3 2025: 0.2
+    Q4 2025: 0.28
+    Q1 2026: 0.13
+  annual:
+    2021 Yearly: 0.08
+    2022 Yearly: -2.01
+    2023 Yearly: -1.2
+    2024 Yearly: 0.59
+    2025 Yearly: 0.73
+  quarterly_forecast:
+    Q3 2024: -0.06
+    Q4 2024: 0.22
+    Q1 2025: 0.11
+    Q2 2025: 0.12
+    Q3 2025: 0.18
+    Q4 2025: 0.23
+    Q1 2026: 0.11
+    Q2 2026: 0.2
+    Q3 2026: 0.28
+    Q4 2026: 0.34
+    Q1 2027: 0.19
+  annual_forecast:
+    2021 Yearly: 0.16
+    2022 Yearly: -2.04
+    2023 Yearly: -1.17
+    2024 Yearly: 0.59
+    2025 Yearly: 0.66
+    2026 Yearly: 0.96
+    2027 Yearly: 1.14
+    2028 Yearly: 1.43
+    2029 Yearly: 1.49

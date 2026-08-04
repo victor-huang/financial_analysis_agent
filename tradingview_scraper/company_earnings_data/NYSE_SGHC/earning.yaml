@@ -1,0 +1,78 @@
+currency: USD
+company_name: Super Group (SGHC) Limited
+sector: Consumer Services
+market_cap_billions: 6.96
+revenue:
+  quarterly:
+    Q3 2024: 432.6
+    Q4 2024: 524.9
+    Q1 2025: 517.0
+    Q2 2025: 579.4
+    Q3 2025: 556.9
+    Q4 2025: 568.0
+    Q1 2026: 612.0
+  annual:
+    2021 Yearly: 1430.0
+    2022 Yearly: 1390.0
+    2023 Yearly: 1530.0
+    2024 Yearly: 1780.0
+    2025 Yearly: 2200.0
+  quarterly_forecast:
+    Q3 2024: 414.81
+    Q4 2024: 506.05
+    Q1 2025: 491.94
+    Q2 2025: 529.19
+    Q3 2025: 512.97
+    Q4 2025: 566.06
+    Q1 2026: 584.75
+    Q2 2026: 659.9
+    Q3 2026: 647.73
+    Q4 2026: 672.6
+    Q1 2027: 658.2
+  annual_forecast:
+    2021 Yearly: 1530.0
+    2022 Yearly: 1310.0
+    2023 Yearly: 1500.0
+    2024 Yearly: 1770.0
+    2025 Yearly: 2220.0
+    2026 Yearly: 2590.0
+    2027 Yearly: 2800.0
+    2028 Yearly: 3030.0
+    2029 Yearly: 3410.0
+eps:
+  quarterly:
+    Q3 2024: 0.02
+    Q4 2024: 0.15
+    Q1 2025: 0.12
+    Q2 2025: -0.01
+    Q3 2025: 0.19
+    Q4 2025: 0.13
+    Q1 2026: 0.17
+  annual:
+    2021 Yearly: 4.61
+    2022 Yearly: 0.28
+    2023 Yearly: -0.02
+    2024 Yearly: 0.24
+    2025 Yearly: 0.43
+  quarterly_forecast:
+    Q3 2024: 0.05
+    Q4 2024: 0.16
+    Q1 2025: 0.11
+    Q2 2025: 0.16
+    Q3 2025: 0.15
+    Q4 2025: 0.17
+    Q1 2026: 0.17
+    Q2 2026: 0.23
+    Q3 2026: 0.23
+    Q4 2026: 0.23
+    Q1 2027: 0.22
+  annual_forecast:
+    2021 Yearly: 0.47
+    2022 Yearly: 0.32
+    2023 Yearly: 0.1
+    2024 Yearly: 0.25
+    2025 Yearly: 0.51
+    2026 Yearly: 0.86
+    2027 Yearly: 0.99
+    2028 Yearly: 1.11
+    2029 Yearly: 1.29

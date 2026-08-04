@@ -1,0 +1,76 @@
+currency: USD
+company_name: Red Rock Resorts, Inc.
+sector: Consumer Services
+market_cap_billions: 6.85
+revenue:
+  quarterly:
+    Q3 2024: 468.02
+    Q4 2024: 495.69
+    Q1 2025: 497.86
+    Q2 2025: 526.27
+    Q3 2025: 475.57
+    Q4 2025: 511.78
+    Q1 2026: 507.32
+  annual:
+    2021 Yearly: 1620.0
+    2022 Yearly: 1660.0
+    2023 Yearly: 1720.0
+    2024 Yearly: 1940.0
+    2025 Yearly: 2009.9999999999998
+  quarterly_forecast:
+    Q3 2024: 458.2
+    Q4 2024: 490.4
+    Q1 2025: 495.95
+    Q2 2025: 488.07
+    Q3 2025: 479.52
+    Q4 2025: 503.54
+    Q1 2026: 505.63
+    Q2 2026: 500.08
+    Q3 2026: 479.38
+    Q4 2026: 526.89
+    Q1 2027: 535.64
+  annual_forecast:
+    2021 Yearly: 1600.0
+    2022 Yearly: 1660.0
+    2023 Yearly: 1700.0
+    2024 Yearly: 1930.0
+    2025 Yearly: 2000.0
+    2026 Yearly: 2009.9999999999998
+    2027 Yearly: 2140.0
+    2028 Yearly: 2260.0
+eps:
+  quarterly:
+    Q3 2024: 0.28
+    Q4 2024: 0.45
+    Q1 2025: 0.43
+    Q2 2025: 0.55
+    Q3 2025: 0.41
+    Q4 2025: 0.44
+    Q1 2026: 0.73
+  annual:
+    2021 Yearly: 2.08
+    2022 Yearly: 1.96
+    2023 Yearly: 1.71
+    2024 Yearly: 1.49
+    2025 Yearly: 1.83
+  quarterly_forecast:
+    Q3 2024: 0.36
+    Q4 2024: 0.43
+    Q1 2025: 0.55
+    Q2 2025: 0.41
+    Q3 2025: 0.39
+    Q4 2025: 0.49
+    Q1 2026: 0.9
+    Q2 2026: 0.51
+    Q3 2026: 0.45
+    Q4 2026: 0.63
+    Q1 2027: 0.77
+  annual_forecast:
+    2021 Yearly: 1.29
+    2022 Yearly: 1.66
+    2023 Yearly: 1.59
+    2024 Yearly: 1.52
+    2025 Yearly: 2.27
+    2026 Yearly: 2.78
+    2027 Yearly: 2.98
+    2028 Yearly: 3.33

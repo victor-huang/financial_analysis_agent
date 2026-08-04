@@ -1,0 +1,74 @@
+currency: null
+company_name: ePlus inc.
+sector: Technology Services
+market_cap_billions: 2.42
+revenue:
+  quarterly:
+    Q2 2024: 515.17
+    Q3 2024: 510.96
+    Q4 2024: 498.11
+    Q1 2025: 637.32
+    Q2 2025: 608.83
+    Q3 2025: 614.77
+    Q4 2025: 576.17
+  annual:
+    2021 Yearly: 1820.0
+    2022 Yearly: 2070.0
+    2023 Yearly: 2230.0
+    2024 Yearly: 2070.0
+    2025 Yearly: 2440.0
+  quarterly_forecast:
+    Q2 2024: 576.53
+    Q3 2024: 553.57
+    Q4 2024: 523.85
+    Q1 2025: 516.7
+    Q2 2025: 518.3
+    Q3 2025: 551.8
+    Q4 2025: 569.25
+    Q1 2026: 639.95
+    Q2 2026: 644.85
+    Q3 2026: 655.8
+    Q4 2026: 614.3
+  annual_forecast:
+    2021 Yearly: 1790.0
+    2022 Yearly: 2050.0
+    2023 Yearly: 2210.0
+    2024 Yearly: 2090.0
+    2025 Yearly: 2430.0
+    2026 Yearly: 2550.0
+    2027 Yearly: 2690.0
+eps:
+  quarterly:
+    Q2 2024: 1.36
+    Q3 2024: 1.06
+    Q4 2024: 1.11
+    Q1 2025: 1.26
+    Q2 2025: 1.53
+    Q3 2025: 1.45
+    Q4 2025: 1.0
+  annual:
+    2021 Yearly: 4.39
+    2022 Yearly: 5.02
+    2023 Yearly: 4.92
+    2024 Yearly: 4.67
+    2025 Yearly: 5.39
+  quarterly_forecast:
+    Q2 2024: 1.39
+    Q3 2024: 1.22
+    Q4 2024: 0.86
+    Q1 2025: 1.1
+    Q2 2025: 0.94
+    Q3 2025: 1.01
+    Q4 2025: 0.98
+    Q1 2026: 1.19
+    Q2 2026: 1.57
+    Q3 2026: 1.55
+    Q4 2026: 1.18
+  annual_forecast:
+    2021 Yearly: 4.12
+    2022 Yearly: 4.51
+    2023 Yearly: 5.1
+    2024 Yearly: 4.42
+    2025 Yearly: 5.21
+    2026 Yearly: 5.45
+    2027 Yearly: 5.85

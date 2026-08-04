@@ -1,0 +1,78 @@
+currency: USD
+company_name: eHealth, Inc.
+sector: Finance
+market_cap_billions: 0.0438
+revenue:
+  quarterly:
+    Q3 2024: 58.41
+    Q4 2024: 307.61
+    Q1 2025: 113.12
+    Q2 2025: 60.78
+    Q3 2025: 53.87
+    Q4 2025: 326.24
+    Q1 2026: 88.02
+  annual:
+    2021 Yearly: 538.2
+    2022 Yearly: 405.36
+    2023 Yearly: 452.87
+    2024 Yearly: 509.68
+    2025 Yearly: 554.01
+  quarterly_forecast:
+    Q3 2024: 58.56
+    Q4 2024: 284.11
+    Q1 2025: 99.63
+    Q2 2025: 45.98
+    Q3 2025: 52.12
+    Q4 2025: 325.23
+    Q1 2026: 81.21
+    Q2 2026: 33.28
+    Q3 2026: 33.72
+    Q4 2026: 274.15
+    Q1 2027: 85.14
+  annual_forecast:
+    2021 Yearly: 546.4
+    2022 Yearly: 391.91
+    2023 Yearly: 450.11
+    2024 Yearly: 501.34
+    2025 Yearly: 553.02
+    2026 Yearly: 429.27
+    2027 Yearly: 447.35
+    2028 Yearly: 485.39
+    2029 Yearly: 665.08
+eps:
+  quarterly:
+    Q3 2024: -1.32
+    Q4 2024: 3.16
+    Q1 2025: -0.47
+    Q2 2025: -1.26
+    Q3 2025: -1.26
+    Q4 2025: 2.58
+    Q1 2026: -0.3
+  annual:
+    2021 Yearly: -1.4
+    2022 Yearly: -2.11
+    2023 Yearly: -1.54
+    2024 Yearly: 0.68
+    2025 Yearly: 1.87
+  quarterly_forecast:
+    Q3 2024: -1.37
+    Q4 2024: 2.46
+    Q1 2025: -0.52
+    Q2 2025: -1.22
+    Q3 2025: -1.1
+    Q4 2025: 2.88
+    Q1 2026: -0.2
+    Q2 2026: -0.84
+    Q3 2026: -1.07
+    Q4 2026: 2.46
+    Q1 2027: -0.18
+  annual_forecast:
+    2021 Yearly: -0.92
+    2022 Yearly: -2.78
+    2023 Yearly: -0.68
+    2024 Yearly: -0.4
+    2025 Yearly: 1.41
+    2026 Yearly: 0.57
+    2027 Yearly: 0.82
+    2028 Yearly: -0.12
+    2029 Yearly: 1.98

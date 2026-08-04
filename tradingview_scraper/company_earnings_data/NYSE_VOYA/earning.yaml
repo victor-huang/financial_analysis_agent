@@ -1,0 +1,78 @@
+currency: USD
+company_name: Voya Financial, Inc.
+sector: Finance
+market_cap_billions: 9.07
+revenue:
+  quarterly:
+    Q3 2024: 1960.0
+    Q4 2024: 2009.9999999999998
+    Q1 2025: 1970.0
+    Q2 2025: 1980.0
+    Q3 2025: 2130.0
+    Q4 2025: 2110.0
+    Q1 2026: 2029.9999999999998
+  annual:
+    2021 Yearly: 6510.0
+    2022 Yearly: 3540.0
+    2023 Yearly: 4120.0
+    2024 Yearly: 8050.000000000001
+    2025 Yearly: 8189.999999999999
+  quarterly_forecast:
+    Q3 2024: 1860.0
+    Q4 2024: 1890.0
+    Q1 2025: 1930.0
+    Q2 2025: 1950.0
+    Q3 2025: 1990.0
+    Q4 2025: 1990.0
+    Q1 2026: 1980.0
+    Q2 2026: 1900.0
+    Q3 2026: 1970.0
+    Q4 2026: 2000.0
+    Q1 2027: 2009.9999999999998
+  annual_forecast:
+    2021 Yearly: 6410.0
+    2022 Yearly: 6160.0
+    2023 Yearly: 6840.0
+    2024 Yearly: 7470.0
+    2025 Yearly: 7710.0
+    2026 Yearly: 7790.0
+    2027 Yearly: 8140.000000000001
+    2028 Yearly: 7200.0
+    2029 Yearly: 8580.0
+eps:
+  quarterly:
+    Q3 2024: 1.9
+    Q4 2024: 1.4
+    Q1 2025: 2.0
+    Q2 2025: 2.46
+    Q3 2025: 2.45
+    Q4 2025: 1.94
+    Q1 2026: 2.26
+  annual:
+    2021 Yearly: 8.37
+    2022 Yearly: 7.58
+    2023 Yearly: 7.02
+    2024 Yearly: 7.25
+    2025 Yearly: 8.85
+  quarterly_forecast:
+    Q3 2024: 2.01
+    Q4 2024: 0.72
+    Q1 2025: 1.44
+    Q2 2025: 2.05
+    Q3 2025: 2.27
+    Q4 2025: 2.09
+    Q1 2026: 2.01
+    Q2 2026: 1.98
+    Q3 2026: 2.48
+    Q4 2026: 2.6
+    Q1 2027: 2.35
+  annual_forecast:
+    2021 Yearly: 8.0
+    2022 Yearly: 6.97
+    2023 Yearly: 7.2
+    2024 Yearly: 6.63
+    2025 Yearly: 9.0
+    2026 Yearly: 9.32
+    2027 Yearly: 11.29
+    2028 Yearly: 12.75
+    2029 Yearly: 12.9

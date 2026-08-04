@@ -1,0 +1,76 @@
+currency: USD
+company_name: SLR Investment Corp.
+sector: Miscellaneous
+market_cap_billions: 0.70921
+revenue:
+  quarterly:
+    Q3 2024: 59.77
+    Q4 2024: 55.58
+    Q1 2025: 53.18
+    Q2 2025: 53.91
+    Q3 2025: 56.99
+    Q4 2025: 54.46
+    Q1 2026: 49.29
+  annual:
+    2021 Yearly: 139.35
+    2022 Yearly: 177.5
+    2023 Yearly: 229.31
+    2024 Yearly: 232.43
+    2025 Yearly: 218.54
+  quarterly_forecast:
+    Q3 2024: 57.99
+    Q4 2024: 57.25
+    Q1 2025: 53.85
+    Q2 2025: 53.3
+    Q3 2025: 56.15
+    Q4 2025: 54.97
+    Q1 2026: 54.01
+    Q2 2026: 48.82
+    Q3 2026: 49.06
+    Q4 2026: 49.17
+    Q1 2027: 48.79
+  annual_forecast:
+    2021 Yearly: 140.94
+    2022 Yearly: 176.79
+    2023 Yearly: 228.84
+    2024 Yearly: 234.23
+    2025 Yearly: 218.84
+    2026 Yearly: 196.2
+    2027 Yearly: 195.78
+    2028 Yearly: 190.81
+eps:
+  quarterly:
+    Q3 2024: 0.4
+    Q4 2024: 0.44
+    Q1 2025: 0.41
+    Q2 2025: 0.4
+    Q3 2025: 0.4
+    Q4 2025: 0.4
+    Q1 2026: 0.33
+  annual:
+    2021 Yearly: 1.44
+    2022 Yearly: 1.48
+    2023 Yearly: 1.69
+    2024 Yearly: 1.77
+    2025 Yearly: 1.59
+  quarterly_forecast:
+    Q3 2024: 0.43
+    Q4 2024: 0.43
+    Q1 2025: 0.41
+    Q2 2025: 0.4
+    Q3 2025: 0.41
+    Q4 2025: 0.4
+    Q1 2026: 0.4
+    Q2 2026: 0.33
+    Q3 2026: 0.33
+    Q4 2026: 0.33
+    Q1 2027: 0.33
+  annual_forecast:
+    2021 Yearly: 1.46
+    2022 Yearly: 1.47
+    2023 Yearly: 1.69
+    2024 Yearly: 1.76
+    2025 Yearly: 1.6
+    2026 Yearly: 1.32
+    2027 Yearly: 1.33
+    2028 Yearly: 1.31

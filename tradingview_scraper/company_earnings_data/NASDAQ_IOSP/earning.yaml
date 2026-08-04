@@ -1,0 +1,74 @@
+currency: USD
+company_name: Innospec Inc.
+sector: Process Industries
+market_cap_billions: 2.11
+revenue:
+  quarterly:
+    Q3 2024: 443.4
+    Q4 2024: 466.8
+    Q1 2025: 440.8
+    Q2 2025: 439.7
+    Q3 2025: 441.9
+    Q4 2025: 455.6
+    Q1 2026: 453.2
+  annual:
+    2021 Yearly: 1480.0
+    2022 Yearly: 1960.0
+    2023 Yearly: 1950.0
+    2024 Yearly: 1850.0
+    2025 Yearly: 1780.0
+  quarterly_forecast:
+    Q3 2024: 442.13
+    Q4 2024: 447.43
+    Q1 2025: 462.03
+    Q2 2025: 433.34
+    Q3 2025: 437.45
+    Q4 2025: 460.87
+    Q1 2026: 432.14
+    Q2 2026: 457.25
+    Q3 2026: 471.62
+    Q4 2026: 492.0
+    Q1 2027: 499.07
+  annual_forecast:
+    2021 Yearly: 1450.0
+    2022 Yearly: 1940.0
+    2023 Yearly: 1930.0
+    2024 Yearly: 1830.0
+    2025 Yearly: 1780.0
+    2026 Yearly: 1870.0
+    2027 Yearly: 1990.0
+eps:
+  quarterly:
+    Q3 2024: 1.35
+    Q4 2024: 1.41
+    Q1 2025: 1.42
+    Q2 2025: 1.26
+    Q3 2025: 1.12
+    Q4 2025: 1.5
+    Q1 2026: 1.05
+  annual:
+    2021 Yearly: 4.8
+    2022 Yearly: 6.04
+    2023 Yearly: 6.09
+    2024 Yearly: 5.92
+    2025 Yearly: 5.27
+  quarterly_forecast:
+    Q3 2024: 1.35
+    Q4 2024: 1.36
+    Q1 2025: 1.42
+    Q2 2025: 1.21
+    Q3 2025: 1.06
+    Q4 2025: 1.25
+    Q1 2026: 1.01
+    Q2 2026: 1.05
+    Q3 2026: 1.26
+    Q4 2026: 1.45
+    Q1 2027: 1.5
+  annual_forecast:
+    2021 Yearly: 4.58
+    2022 Yearly: 6.24
+    2023 Yearly: 5.87
+    2024 Yearly: 5.87
+    2025 Yearly: 5.05
+    2026 Yearly: 4.81
+    2027 Yearly: 6.08

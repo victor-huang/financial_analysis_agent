@@ -1,0 +1,76 @@
+currency: USD
+company_name: Mercury General Corporation
+sector: Finance
+market_cap_billions: 5.94
+revenue:
+  quarterly:
+    Q3 2024: 1420.0
+    Q4 2024: 1310.0
+    Q1 2025: 1310.0
+    Q2 2025: 1480.0
+    Q3 2025: 1500.0
+    Q4 2025: 1430.0
+    Q1 2026: 1550.0
+  annual:
+    2021 Yearly: 3860.0
+    2022 Yearly: 3980.0
+    2023 Yearly: 4460.0
+    2024 Yearly: 5380.0
+    2025 Yearly: 5720.0
+  quarterly_forecast:
+    Q3 2024: 1400.0
+    Q4 2024: 1230.0
+    Q1 2025: 1360.0
+    Q2 2025: 1450.0
+    Q3 2025: 1490.0
+    Q4 2025: 1370.0
+    Q1 2026: 1460.0
+    Q2 2026: 1520.0
+    Q3 2026: 1610.0
+    Q4 2026: 1530.0
+    Q1 2027: 1610.0
+  annual_forecast:
+    2021 Yearly: 3830.0
+    2022 Yearly: 4050.0
+    2023 Yearly: 4390.0
+    2024 Yearly: 5300.0
+    2025 Yearly: 5670.0
+    2026 Yearly: 6210.0
+    2027 Yearly: 6540.0
+    2028 Yearly: 6870.0
+eps:
+  quarterly:
+    Q3 2024: 2.54
+    Q4 2024: 2.78
+    Q1 2025: -2.29
+    Q2 2025: 2.67
+    Q3 2025: 3.86
+    Q4 2025: 3.66
+    Q1 2026: 3.5
+  annual:
+    2021 Yearly: 2.88
+    2022 Yearly: -2.3
+    2023 Yearly: 0.3
+    2024 Yearly: 7.19
+    2025 Yearly: 7.9
+  quarterly_forecast:
+    Q3 2024: 1.7
+    Q4 2024: 1.12
+    Q1 2025: -3.25
+    Q2 2025: 1.65
+    Q3 2025: 2.45
+    Q4 2025: 2.66
+    Q1 2026: 2.52
+    Q2 2026: 2.52
+    Q3 2026: 3.35
+    Q4 2026: 3.1
+    Q1 2027: 3.45
+  annual_forecast:
+    2021 Yearly: 3.6
+    2022 Yearly: -1.2
+    2023 Yearly: -0.65
+    2024 Yearly: 5.53
+    2025 Yearly: 6.9
+    2026 Yearly: 11.5
+    2027 Yearly: 10.75
+    2028 Yearly: 12.25

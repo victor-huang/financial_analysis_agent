@@ -1,0 +1,46 @@
+currency: USD
+company_name: Angel Studios, Inc.
+sector: Consumer Services
+market_cap_billions: 0.7847999999999999
+revenue:
+  quarterly:
+    Q2 2025: 87.64
+    Q3 2025: 76.54
+    Q4 2025: 109.93
+    Q1 2026: 115.11
+  annual:
+    2025 Yearly: 321.56
+  quarterly_forecast:
+    Q3 2025: 71.6
+    Q4 2025: 94.7
+    Q1 2026: 107.67
+    Q2 2026: 109.67
+    Q3 2026: 123.09
+    Q4 2026: 136.96
+    Q1 2027: 139.88
+  annual_forecast:
+    2025 Yearly: 306.38
+    2026 Yearly: 484.8
+    2027 Yearly: 606.58
+    2028 Yearly: 774.4
+eps:
+  quarterly:
+    Q2 2025: -0.57
+    Q3 2025: -0.25
+    Q4 2025: -0.47
+    Q1 2026: -0.08
+  annual:
+    2025 Yearly: -1.1
+  quarterly_forecast:
+    Q3 2025: -0.26
+    Q4 2025: -0.22
+    Q1 2026: -0.13
+    Q2 2026: -0.14
+    Q3 2026: -0.08
+    Q4 2026: -0.12
+    Q1 2027: -0.07
+  annual_forecast:
+    2025 Yearly: -1.67
+    2026 Yearly: -0.41
+    2027 Yearly: -0.27
+    2028 Yearly: -0.19

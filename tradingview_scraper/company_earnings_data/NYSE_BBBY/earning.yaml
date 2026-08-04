@@ -1,0 +1,78 @@
+currency: USD
+company_name: Bed Bath & Beyond, Inc.
+sector: Retail Trade
+market_cap_billions: 0.39707
+revenue:
+  quarterly:
+    Q3 2024: 311.0
+    Q4 2024: 303.15
+    Q1 2025: 231.75
+    Q2 2025: 282.25
+    Q3 2025: 257.19
+    Q4 2025: 273.43
+    Q1 2026: 247.75
+  annual:
+    2021 Yearly: 2800.0
+    2022 Yearly: 1930.0
+    2023 Yearly: 1600.0
+    2024 Yearly: 1390.0
+    2025 Yearly: 1040.0
+  quarterly_forecast:
+    Q3 2024: 352.98
+    Q4 2024: 325.27
+    Q1 2025: 288.14
+    Q2 2025: 250.29
+    Q3 2025: 259.83
+    Q4 2025: 262.94
+    Q1 2026: 240.09
+    Q2 2026: 362.43
+    Q3 2026: 351.34
+    Q4 2026: 391.51
+    Q1 2027: 337.65
+  annual_forecast:
+    2021 Yearly: 2790.0
+    2022 Yearly: 1970.0
+    2023 Yearly: 1520.0
+    2024 Yearly: 1420.0
+    2025 Yearly: 1030.0
+    2026 Yearly: 1350.0
+    2027 Yearly: 1490.0
+    2028 Yearly: 2000.0
+    2029 Yearly: 2280.0
+eps:
+  quarterly:
+    Q3 2024: -1.33
+    Q4 2024: -0.91
+    Q1 2025: -0.42
+    Q2 2025: -0.34
+    Q3 2025: -0.07
+    Q4 2025: -0.3
+    Q1 2026: -0.24
+  annual:
+    2021 Yearly: 2.19
+    2022 Yearly: 0.52
+    2023 Yearly: -1.95
+    2024 Yearly: -3.84
+    2025 Yearly: -1.41
+  quarterly_forecast:
+    Q3 2024: -0.77
+    Q4 2024: -0.73
+    Q1 2025: -0.63
+    Q2 2025: -0.36
+    Q3 2025: -0.48
+    Q4 2025: -0.44
+    Q1 2026: -0.28
+    Q2 2026: -0.36
+    Q3 2026: -0.24
+    Q4 2026: -0.17
+    Q1 2027: -0.18
+  annual_forecast:
+    2021 Yearly: 2.23
+    2022 Yearly: 0.55
+    2023 Yearly: -1.51
+    2024 Yearly: -4.18
+    2025 Yearly: -2.09
+    2026 Yearly: -0.99
+    2027 Yearly: -0.34
+    2028 Yearly: 0.13
+    2029 Yearly: 0.58

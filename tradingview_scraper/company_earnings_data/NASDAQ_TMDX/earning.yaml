@@ -1,0 +1,78 @@
+currency: USD
+company_name: TransMedics Group, Inc.
+sector: Health Technology
+market_cap_billions: 2.82
+revenue:
+  quarterly:
+    Q3 2024: 108.76
+    Q4 2024: 121.62
+    Q1 2025: 143.54
+    Q2 2025: 157.37
+    Q3 2025: 143.82
+    Q4 2025: 160.76
+    Q1 2026: 173.93
+  annual:
+    2021 Yearly: 30.26
+    2022 Yearly: 93.46
+    2023 Yearly: 241.62
+    2024 Yearly: 441.54
+    2025 Yearly: 605.49
+  quarterly_forecast:
+    Q3 2024: 115.0
+    Q4 2024: 109.58
+    Q1 2025: 123.68
+    Q2 2025: 147.72
+    Q3 2025: 144.59
+    Q4 2025: 155.39
+    Q1 2026: 174.44
+    Q2 2026: 184.0
+    Q3 2026: 175.85
+    Q4 2026: 198.63
+    Q1 2027: 207.2
+  annual_forecast:
+    2021 Yearly: 28.29
+    2022 Yearly: 86.22
+    2023 Yearly: 228.47
+    2024 Yearly: 429.58
+    2025 Yearly: 600.69
+    2026 Yearly: 732.6
+    2027 Yearly: 867.12
+    2028 Yearly: 1010.0
+    2029 Yearly: 1170.0
+eps:
+  quarterly:
+    Q3 2024: 0.12
+    Q4 2024: 0.19
+    Q1 2025: 0.7
+    Q2 2025: 0.92
+    Q3 2025: 0.66
+    Q4 2025: 2.62
+    Q1 2026: 0.3
+  annual:
+    2021 Yearly: -1.6
+    2022 Yearly: -1.23
+    2023 Yearly: -0.77
+    2024 Yearly: 1.01
+    2025 Yearly: 4.87
+  quarterly_forecast:
+    Q3 2024: 0.29
+    Q4 2024: 0.16
+    Q1 2025: 0.26
+    Q2 2025: 0.45
+    Q3 2025: 0.36
+    Q4 2025: 0.44
+    Q1 2026: 0.6
+    Q2 2026: 0.5
+    Q3 2026: 0.45
+    Q4 2026: 0.67
+    Q1 2027: 0.7
+  annual_forecast:
+    2021 Yearly: -1.58
+    2022 Yearly: -1.33
+    2023 Yearly: -0.93
+    2024 Yearly: 0.98
+    2025 Yearly: 2.6
+    2026 Yearly: 1.83
+    2027 Yearly: 3.07
+    2028 Yearly: 4.46
+    2029 Yearly: 5.45

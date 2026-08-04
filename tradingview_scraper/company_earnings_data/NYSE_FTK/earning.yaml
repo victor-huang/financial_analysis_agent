@@ -1,0 +1,78 @@
+currency: USD
+company_name: Flotek Industries, Inc.
+sector: Industrial Services
+market_cap_billions: 0.96811
+revenue:
+  quarterly:
+    Q3 2024: 49.74
+    Q4 2024: 50.76
+    Q1 2025: 55.36
+    Q2 2025: 58.35
+    Q3 2025: 56.03
+    Q4 2025: 67.52
+    Q1 2026: 70.05
+  annual:
+    2021 Yearly: 43.27
+    2022 Yearly: 136.09
+    2023 Yearly: 188.06
+    2024 Yearly: 187.03
+    2025 Yearly: 237.26
+  quarterly_forecast:
+    Q3 2024: 47.34
+    Q4 2024: 49.82
+    Q1 2025: 47.74
+    Q2 2025: 54.76
+    Q3 2025: 54.5
+    Q4 2025: 53.56
+    Q1 2026: 63.08
+    Q2 2026: 69.51
+    Q3 2026: 71.82
+    Q4 2026: 73.87
+    Q1 2027: 74.9
+  annual_forecast:
+    2021 Yearly: 43.1
+    2022 Yearly: 142.75
+    2023 Yearly: 194.1
+    2024 Yearly: 186.08
+    2025 Yearly: 223.31
+    2026 Yearly: 285.26
+    2027 Yearly: 322.11
+    2028 Yearly: 305.6
+    2029 Yearly: 323.8
+eps:
+  quarterly:
+    Q3 2024: 0.08
+    Q4 2024: 0.14
+    Q1 2025: 0.17
+    Q2 2025: 0.16
+    Q3 2025: 0.3
+    Q4 2025: 0.08
+    Q1 2026: 0.12
+  annual:
+    2021 Yearly: -1.75
+    2022 Yearly: -3.09
+    2023 Yearly: 0.31
+    2024 Yearly: 0.34
+    2025 Yearly: 0.9
+  quarterly_forecast:
+    Q3 2024: 0.07
+    Q4 2024: 0.11
+    Q1 2025: 0.1
+    Q2 2025: 0.14
+    Q3 2025: 0.17
+    Q4 2025: 0.15
+    Q1 2026: 0.13
+    Q2 2026: 0.13
+    Q3 2026: 0.16
+    Q4 2026: 0.18
+    Q1 2027: 0.18
+  annual_forecast:
+    2021 Yearly: -2.07
+    2022 Yearly: -2.19
+    2023 Yearly: 0.15
+    2024 Yearly: 0.31
+    2025 Yearly: 0.99
+    2026 Yearly: 0.59
+    2027 Yearly: 0.94
+    2028 Yearly: 0.78
+    2029 Yearly: 0.91

@@ -1,0 +1,78 @@
+currency: USD
+company_name: NextCure, Inc.
+sector: Health Technology
+market_cap_billions: 0.0179
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+  annual_forecast:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 0.0
+    2028 Yearly: 10.3
+    2029 Yearly: 22.6
+eps:
+  quarterly:
+    Q3 2024: -4.92
+    Q4 2024: -5.04
+    Q1 2025: -4.68
+    Q2 2025: -11.29
+    Q3 2025: -3.22
+    Q4 2025: -0.46
+    Q1 2026: -1.87
+  annual:
+    2021 Yearly: -30.12
+    2022 Yearly: -32.28
+    2023 Yearly: -27.0
+    2024 Yearly: -23.88
+    2025 Yearly: -19.65
+  quarterly_forecast:
+    Q3 2024: -4.14
+    Q4 2024: -4.32
+    Q1 2025: -4.8
+    Q2 2025: -4.62
+    Q3 2025: -3.98
+    Q4 2025: -2.29
+    Q1 2026: -2.1
+    Q2 2026: -1.95
+    Q3 2026: -1.78
+    Q4 2026: -1.85
+    Q1 2027: -2.13
+  annual_forecast:
+    2021 Yearly: -30.82
+    2022 Yearly: -31.74
+    2023 Yearly: -27.31
+    2024 Yearly: -23.28
+    2025 Yearly: -17.63
+    2026 Yearly: -7.39
+    2027 Yearly: -5.95
+    2028 Yearly: -4.33
+    2029 Yearly: -3.73

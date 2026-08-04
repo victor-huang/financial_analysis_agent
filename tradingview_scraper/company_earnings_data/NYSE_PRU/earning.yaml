@@ -1,0 +1,78 @@
+currency: USD
+company_name: Prudential Financial, Inc.
+sector: Finance
+market_cap_billions: 42.67
+revenue:
+  quarterly:
+    Q3 2024: 19480.0
+    Q4 2024: 13010.0
+    Q1 2025: 13410.0
+    Q2 2025: 13510.0
+    Q3 2025: 16239.999999999998
+    Q4 2025: 14520.0
+    Q1 2026: 15230.0
+  annual:
+    2021 Yearly: 60720.0
+    2022 Yearly: 61690.0
+    2023 Yearly: 50890.0
+    2024 Yearly: 68050.0
+    2025 Yearly: 57680.0
+  quarterly_forecast:
+    Q3 2024: 14890.0
+    Q4 2024: 14710.0
+    Q1 2025: 14440.0
+    Q2 2025: 13510.0
+    Q3 2025: 14140.0
+    Q4 2025: 14670.0
+    Q1 2026: 14100.0
+    Q2 2026: 14360.0
+    Q3 2026: 14880.0
+    Q4 2026: 14890.0
+    Q1 2027: 15140.0
+  annual_forecast:
+    2021 Yearly: 60470.0
+    2022 Yearly: 62410.0
+    2023 Yearly: 50930.0
+    2024 Yearly: 69480.0
+    2025 Yearly: 57580.0
+    2026 Yearly: 59150.0
+    2027 Yearly: 60080.0
+    2028 Yearly: 61420.0
+    2029 Yearly: 64910.0
+eps:
+  quarterly:
+    Q3 2024: 3.48
+    Q4 2024: 2.96
+    Q1 2025: 3.29
+    Q2 2025: 3.58
+    Q3 2025: 4.26
+    Q4 2025: 3.3
+    Q1 2026: 3.61
+  annual:
+    2021 Yearly: 14.58
+    2022 Yearly: 9.46
+    2023 Yearly: 11.62
+    2024 Yearly: 12.62
+    2025 Yearly: 14.43
+  quarterly_forecast:
+    Q3 2024: 3.47
+    Q4 2024: 3.24
+    Q1 2025: 3.18
+    Q2 2025: 3.22
+    Q3 2025: 3.72
+    Q4 2025: 3.37
+    Q1 2026: 3.09
+    Q2 2026: 3.52
+    Q3 2026: 3.41
+    Q4 2026: 3.28
+    Q1 2027: 3.48
+  annual_forecast:
+    2021 Yearly: 14.05
+    2022 Yearly: 9.54
+    2023 Yearly: 11.66
+    2024 Yearly: 13.0
+    2025 Yearly: 14.5
+    2026 Yearly: 13.84
+    2027 Yearly: 14.6
+    2028 Yearly: 15.75
+    2029 Yearly: 18.35

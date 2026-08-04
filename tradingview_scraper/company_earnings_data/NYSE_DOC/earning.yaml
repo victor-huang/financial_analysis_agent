@@ -1,0 +1,76 @@
+currency: USD
+company_name: Healthpeak Properties, Inc.
+sector: Finance
+market_cap_billions: 15.29
+revenue:
+  quarterly:
+    Q3 2024: 700.4
+    Q4 2024: 697.99
+    Q1 2025: 702.89
+    Q2 2025: 678.54
+    Q3 2025: 690.34
+    Q4 2025: 704.78
+    Q1 2026: 738.78
+  annual:
+    2021 Yearly: 1900.0
+    2022 Yearly: 2060.0
+    2023 Yearly: 2180.0
+    2024 Yearly: 2700.0
+    2025 Yearly: 2760.0
+  quarterly_forecast:
+    Q3 2024: 682.51
+    Q4 2024: 688.87
+    Q1 2025: 683.23
+    Q2 2025: 689.32
+    Q3 2025: 686.88
+    Q4 2025: 691.65
+    Q1 2026: 694.59
+    Q2 2026: 725.64
+    Q3 2026: 727.87
+    Q4 2026: 734.6
+    Q1 2027: 749.61
+  annual_forecast:
+    2021 Yearly: 1880.0
+    2022 Yearly: 2040.0
+    2023 Yearly: 2170.0
+    2024 Yearly: 2670.0
+    2025 Yearly: 2760.0
+    2026 Yearly: 2970.0
+    2027 Yearly: 3130.0
+    2028 Yearly: 3390.0
+    2029 Yearly: 3670.0
+eps:
+  quarterly:
+    Q3 2024: 0.12
+    Q4 2024: 0.01
+    Q1 2025: 0.06
+    Q2 2025: 0.05
+    Q3 2025: -0.17
+    Q4 2025: 0.16
+    Q1 2026: 0.28
+  annual:
+    2021 Yearly: 0.93
+    2022 Yearly: 0.92
+    2023 Yearly: 0.56
+    2024 Yearly: 0.36
+    2025 Yearly: 0.1
+  quarterly_forecast:
+    Q3 2024: 0.07
+    Q4 2024: 0.05
+    Q1 2025: 0.05
+    Q2 2025: 0.06
+    Q3 2025: 0.06
+    Q4 2025: 0.07
+    Q1 2026: 0.05
+    Q2 2026: 0.03
+    Q3 2026: 0.02
+    Q4 2026: 0.03
+    Q1 2027: 0.04
+  annual_forecast:
+    2022 Yearly: 0.95
+    2023 Yearly: 1.0
+    2024 Yearly: 0.53
+    2025 Yearly: 0.4
+    2026 Yearly: 0.01
+    2027 Yearly: 0.33
+    2028 Yearly: 0.1

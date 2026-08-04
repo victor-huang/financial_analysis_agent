@@ -1,0 +1,76 @@
+currency: USD
+company_name: Ferroglobe PLC
+sector: Non-Energy Minerals
+market_cap_billions: 0.6073
+revenue:
+  quarterly:
+    Q3 2024: 433.53
+    Q4 2024: 367.5
+    Q1 2025: 307.18
+    Q2 2025: 386.86
+    Q3 2025: 311.7
+    Q4 2025: 329.38
+    Q1 2026: 347.75
+  annual:
+    2021 Yearly: 1780.0
+    2022 Yearly: 2600.0
+    2023 Yearly: 1650.0
+    2024 Yearly: 1640.0
+    2025 Yearly: 1340.0
+  quarterly_forecast:
+    Q3 2024: 443.5
+    Q4 2024: 377.5
+    Q1 2025: 336.05
+    Q2 2025: 389.3
+    Q3 2025: 378.1
+    Q4 2025: 293.6
+    Q1 2026: 341.5
+    Q2 2026: 374.8
+    Q3 2026: 391.3
+    Q4 2026: 405.85
+    Q1 2027: 458.8
+  annual_forecast:
+    2021 Yearly: 1710.0
+    2022 Yearly: 2610.0
+    2023 Yearly: 1590.0
+    2024 Yearly: 1650.0
+    2025 Yearly: 1300.0
+    2026 Yearly: 1520.0
+    2027 Yearly: 1840.0
+    2028 Yearly: 1940.0
+eps:
+  quarterly:
+    Q3 2024: 0.11
+    Q4 2024: 0.03
+    Q1 2025: -0.2
+    Q2 2025: -0.08
+    Q3 2025: -0.02
+    Q4 2025: -0.06
+    Q1 2026: -0.07
+  annual:
+    2021 Yearly: -0.18
+    2022 Yearly: 3.07
+    2023 Yearly: 0.71
+    2024 Yearly: 0.28
+    2025 Yearly: -0.39
+  quarterly_forecast:
+    Q3 2024: 0.2
+    Q4 2024: 0.01
+    Q1 2025: -0.23
+    Q2 2025: 0.0
+    Q3 2025: 0.05
+    Q4 2025: -0.07
+    Q1 2026: -0.07
+    Q2 2026: -0.07
+    Q3 2026: -0.04
+    Q4 2026: 0.03
+    Q1 2027: 0.06
+  annual_forecast:
+    2021 Yearly: -0.15
+    2022 Yearly: 2.69
+    2023 Yearly: 0.59
+    2024 Yearly: 0.26
+    2025 Yearly: -0.46
+    2026 Yearly: -0.14
+    2027 Yearly: 0.41
+    2028 Yearly: 0.49

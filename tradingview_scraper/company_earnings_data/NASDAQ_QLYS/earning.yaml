@@ -1,0 +1,78 @@
+currency: USD
+company_name: Qualys, Inc.
+sector: Technology Services
+market_cap_billions: 5.45
+revenue:
+  quarterly:
+    Q3 2024: 153.87
+    Q4 2024: 159.19
+    Q1 2025: 159.9
+    Q2 2025: 164.06
+    Q3 2025: 169.88
+    Q4 2025: 175.28
+    Q1 2026: 175.64
+  annual:
+    2021 Yearly: 411.17
+    2022 Yearly: 489.72
+    2023 Yearly: 554.46
+    2024 Yearly: 607.57
+    2025 Yearly: 669.13
+  quarterly_forecast:
+    Q3 2024: 150.74
+    Q4 2024: 156.21
+    Q1 2025: 157.11
+    Q2 2025: 161.23
+    Q3 2025: 166.3
+    Q4 2025: 173.16
+    Q1 2026: 173.63
+    Q2 2026: 178.57
+    Q3 2026: 182.62
+    Q4 2026: 187.68
+    Q1 2027: 188.44
+  annual_forecast:
+    2021 Yearly: 409.89
+    2022 Yearly: 489.05
+    2023 Yearly: 554.8
+    2024 Yearly: 604.27
+    2025 Yearly: 667.07
+    2026 Yearly: 724.52
+    2027 Yearly: 775.26
+    2028 Yearly: 825.08
+    2029 Yearly: 950.0
+eps:
+  quarterly:
+    Q3 2024: 1.56
+    Q4 2024: 1.6
+    Q1 2025: 1.67
+    Q2 2025: 1.68
+    Q3 2025: 1.86
+    Q4 2025: 1.87
+    Q1 2026: 1.95
+  annual:
+    2021 Yearly: 3.22
+    2022 Yearly: 3.72
+    2023 Yearly: 5.27
+    2024 Yearly: 6.13
+    2025 Yearly: 7.07
+  quarterly_forecast:
+    Q3 2024: 1.34
+    Q4 2024: 1.37
+    Q1 2025: 1.46
+    Q2 2025: 1.48
+    Q3 2025: 1.56
+    Q4 2025: 1.78
+    Q1 2026: 1.8
+    Q2 2026: 1.78
+    Q3 2026: 1.91
+    Q4 2026: 1.96
+    Q1 2027: 2.04
+  annual_forecast:
+    2021 Yearly: 3.18
+    2022 Yearly: 3.62
+    2023 Yearly: 5.12
+    2024 Yearly: 5.9
+    2025 Yearly: 6.99
+    2026 Yearly: 7.6
+    2027 Yearly: 8.31
+    2028 Yearly: 8.72
+    2029 Yearly: 10.1

@@ -1,0 +1,76 @@
+currency: USD
+company_name: Opendoor Technologies Inc
+sector: Finance
+market_cap_billions: 3.8
+revenue:
+  quarterly:
+    Q3 2024: 1380.0
+    Q4 2024: 1080.0
+    Q1 2025: 1150.0
+    Q2 2025: 1570.0
+    Q3 2025: 915.0
+    Q4 2025: 736.0
+    Q1 2026: 720.0
+  annual:
+    2021 Yearly: 8020.0
+    2022 Yearly: 15570.0
+    2023 Yearly: 6950.0
+    2024 Yearly: 5150.0
+    2025 Yearly: 4370.0
+  quarterly_forecast:
+    Q3 2024: 1270.0
+    Q4 2024: 982.32
+    Q1 2025: 1060.0
+    Q2 2025: 1500.0
+    Q3 2025: 849.59
+    Q4 2025: 594.05
+    Q1 2026: 666.01
+    Q2 2026: 905.98
+    Q3 2026: 1140.0
+    Q4 2026: 1160.0
+    Q1 2027: 1670.0
+  annual_forecast:
+    2021 Yearly: 7370.0
+    2022 Yearly: 15220.0
+    2023 Yearly: 6900.0
+    2024 Yearly: 5050.0
+    2025 Yearly: 4230.0
+    2026 Yearly: 3930.0
+    2027 Yearly: 6880.0
+    2028 Yearly: 8800.0
+eps:
+  quarterly:
+    Q3 2024: -0.11
+    Q4 2024: -0.16
+    Q1 2025: -0.12
+    Q2 2025: -0.04
+    Q3 2025: -0.12
+    Q4 2025: -1.26
+    Q1 2026: -0.18
+  annual:
+    2021 Yearly: -1.12
+    2022 Yearly: -2.16
+    2023 Yearly: -0.42
+    2024 Yearly: -0.56
+    2025 Yearly: -1.7
+  quarterly_forecast:
+    Q3 2024: -0.18
+    Q4 2024: -0.16
+    Q1 2025: -0.13
+    Q2 2025: -0.05
+    Q3 2025: -0.08
+    Q4 2025: -0.11
+    Q1 2026: -0.09
+    Q2 2026: -0.07
+    Q3 2026: -0.07
+    Q4 2026: -0.08
+    Q1 2027: -0.07
+  annual_forecast:
+    2021 Yearly: -1.02
+    2022 Yearly: -2.33
+    2023 Yearly: -0.54
+    2024 Yearly: -0.56
+    2025 Yearly: -0.4
+    2026 Yearly: -0.39
+    2027 Yearly: -0.24
+    2028 Yearly: -0.26

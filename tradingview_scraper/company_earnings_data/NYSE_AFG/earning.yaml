@@ -1,0 +1,76 @@
+currency: USD
+company_name: American Financial Group, Inc.
+sector: Finance
+market_cap_billions: 11.79
+revenue:
+  quarterly:
+    Q3 2024: 2060.0
+    Q4 2024: 1850.0
+    Q1 2025: 1580.0
+    Q2 2025: 1650.0
+    Q3 2025: 2009.9999999999998
+    Q4 2025: 1440.0
+    Q1 2026: 1660.0
+  annual:
+    2021 Yearly: 5400.0
+    2022 Yearly: 6080.0
+    2023 Yearly: 6530.0
+    2024 Yearly: 7040.0
+    2025 Yearly: 7110.0
+  quarterly_forecast:
+    Q3 2024: 1800.0
+    Q4 2024: 1780.0
+    Q1 2025: 1700.0
+    Q2 2025: 1710.0
+    Q3 2025: 1980.0
+    Q4 2025: 1900.0
+    Q1 2026: 1700.0
+    Q2 2026: 1850.0
+    Q3 2026: 2410.0
+    Q4 2026: 1670.0
+    Q1 2027: 1800.0
+  annual_forecast:
+    2021 Yearly: 5570.0
+    2022 Yearly: 6020.0
+    2023 Yearly: 6460.0
+    2024 Yearly: 7020.0
+    2025 Yearly: 7260.0
+    2026 Yearly: 7600.0
+    2027 Yearly: 7920.0
+    2028 Yearly: 8530.0
+eps:
+  quarterly:
+    Q3 2024: 2.31
+    Q4 2024: 3.12
+    Q1 2025: 1.81
+    Q2 2025: 2.14
+    Q3 2025: 2.69
+    Q4 2025: 3.65
+    Q1 2026: 2.47
+  annual:
+    2021 Yearly: 11.59
+    2022 Yearly: 11.63
+    2023 Yearly: 10.56
+    2024 Yearly: 10.75
+    2025 Yearly: 10.29
+  quarterly_forecast:
+    Q3 2024: 2.47
+    Q4 2024: 3.1
+    Q1 2025: 2.07
+    Q2 2025: 2.1
+    Q3 2025: 2.52
+    Q4 2025: 3.27
+    Q1 2026: 2.54
+    Q2 2026: 2.32
+    Q3 2026: 3.25
+    Q4 2026: 3.5
+    Q1 2027: 2.79
+  annual_forecast:
+    2021 Yearly: 10.46
+    2022 Yearly: 11.49
+    2023 Yearly: 10.63
+    2024 Yearly: 10.73
+    2025 Yearly: 9.9
+    2026 Yearly: 11.65
+    2027 Yearly: 12.11
+    2028 Yearly: 12.67

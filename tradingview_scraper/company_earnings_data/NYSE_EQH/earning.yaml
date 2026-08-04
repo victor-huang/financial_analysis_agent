@@ -1,0 +1,78 @@
+currency: USD
+company_name: Equitable Holdings, Inc.
+sector: Finance
+market_cap_billions: 13.1
+revenue:
+  quarterly:
+    Q3 2024: 3080.0
+    Q4 2024: 3910.0
+    Q1 2025: 4580.0
+    Q2 2025: 2360.0
+    Q3 2025: 1450.0
+    Q4 2025: 3280.0
+    Q1 2026: 4230.0
+  annual:
+    2021 Yearly: 14630.0
+    2022 Yearly: 14020.0
+    2023 Yearly: 13640.0
+    2024 Yearly: 15120.0
+    2025 Yearly: 15060.0
+  quarterly_forecast:
+    Q3 2024: 3780.0
+    Q4 2024: 3880.0
+    Q1 2025: 3830.0
+    Q2 2025: 3860.0
+    Q3 2025: 3500.0
+    Q4 2025: 3950.0
+    Q1 2026: 3940.0
+    Q2 2026: 3840.0
+    Q3 2026: 3960.0
+    Q4 2026: 4040.0
+    Q1 2027: 4100.0
+  annual_forecast:
+    2021 Yearly: 14350.0
+    2022 Yearly: 13870.0
+    2023 Yearly: 13630.0
+    2024 Yearly: 14910.0
+    2025 Yearly: 15010.0
+    2026 Yearly: 15640.0
+    2027 Yearly: 17120.0
+    2028 Yearly: 18640.0
+    2029 Yearly: 17810.0
+eps:
+  quarterly:
+    Q3 2024: 1.53
+    Q4 2024: 1.57
+    Q1 2025: 1.3
+    Q2 2025: 1.1
+    Q3 2025: 1.48
+    Q4 2025: 1.73
+    Q1 2026: 1.62
+  annual:
+    2021 Yearly: 6.58
+    2022 Yearly: 5.08
+    2023 Yearly: 4.59
+    2024 Yearly: 5.93
+    2025 Yearly: 5.64
+  quarterly_forecast:
+    Q3 2024: 1.53
+    Q4 2024: 1.62
+    Q1 2025: 1.47
+    Q2 2025: 1.28
+    Q3 2025: 1.61
+    Q4 2025: 1.75
+    Q1 2026: 1.61
+    Q2 2026: 1.65
+    Q3 2026: 1.89
+    Q4 2026: 1.95
+    Q1 2027: 2.01
+  annual_forecast:
+    2021 Yearly: 6.51
+    2022 Yearly: 5.22
+    2023 Yearly: 4.44
+    2024 Yearly: 6.01
+    2025 Yearly: 5.63
+    2026 Yearly: 7.13
+    2027 Yearly: 8.92
+    2028 Yearly: 10.49
+    2029 Yearly: 11.81

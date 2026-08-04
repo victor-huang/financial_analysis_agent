@@ -1,0 +1,76 @@
+currency: USD
+company_name: Horizon Technology Finance Corporation
+sector: Miscellaneous
+market_cap_billions: 0.30786
+revenue:
+  quarterly:
+    Q3 2024: 24.56
+    Q4 2024: 23.55
+    Q1 2025: 24.52
+    Q2 2025: 24.52
+    Q3 2025: 26.32
+    Q4 2025: 20.66
+    Q1 2026: 24.08
+  annual:
+    2021 Yearly: 60.02
+    2022 Yearly: 79.19
+    2023 Yearly: 113.47
+    2024 Yearly: 99.92
+    2025 Yearly: 96.02
+  quarterly_forecast:
+    Q3 2024: 23.53
+    Q4 2024: 23.7
+    Q1 2025: 24.03
+    Q2 2025: 22.24
+    Q3 2025: 20.25
+    Q4 2025: 21.58
+    Q1 2026: 22.86
+    Q2 2026: 25.22
+    Q3 2026: 26.86
+    Q4 2026: 29.36
+    Q1 2027: 30.26
+  annual_forecast:
+    2021 Yearly: 55.77
+    2022 Yearly: 72.9
+    2023 Yearly: 114.11
+    2024 Yearly: 94.06
+    2025 Yearly: 87.02
+    2026 Yearly: 105.52
+    2027 Yearly: 129.09
+    2028 Yearly: 80.92
+eps:
+  quarterly:
+    Q3 2024: 0.32
+    Q4 2024: 0.27
+    Q1 2025: 0.27
+    Q2 2025: 0.28
+    Q3 2025: 0.31
+    Q4 2025: 0.18
+    Q1 2026: 0.19
+  annual:
+    2021 Yearly: 1.41
+    2022 Yearly: 1.46
+    2023 Yearly: 1.98
+    2024 Yearly: 1.32
+    2025 Yearly: 1.05
+  quarterly_forecast:
+    Q3 2024: 0.35
+    Q4 2024: 0.32
+    Q1 2025: 0.33
+    Q2 2025: 0.28
+    Q3 2025: 0.27
+    Q4 2025: 0.29
+    Q1 2026: 0.18
+    Q2 2026: 0.13
+    Q3 2026: 0.17
+    Q4 2026: 0.18
+    Q1 2027: 0.19
+  annual_forecast:
+    2021 Yearly: 1.38
+    2022 Yearly: 1.44
+    2023 Yearly: 2.01
+    2024 Yearly: 1.38
+    2025 Yearly: 1.15
+    2026 Yearly: 0.67
+    2027 Yearly: 0.76
+    2028 Yearly: 0.73

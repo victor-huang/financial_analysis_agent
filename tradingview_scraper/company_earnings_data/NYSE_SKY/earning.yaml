@@ -1,0 +1,76 @@
+currency: USD
+company_name: Champion Homes, Inc.
+sector: Consumer Durables
+market_cap_billions: 4.44
+revenue:
+  quarterly:
+    Q2 2024: 616.88
+    Q3 2024: 644.92
+    Q4 2024: 593.87
+    Q1 2025: 701.32
+    Q2 2025: 684.43
+    Q3 2025: 656.61
+    Q4 2025: 621.28
+  annual:
+    2021 Yearly: 2210.0
+    2022 Yearly: 2610.0
+    2023 Yearly: 2020.0
+    2024 Yearly: 2480.0
+    2025 Yearly: 2660.0
+  quarterly_forecast:
+    Q2 2024: 600.52
+    Q3 2024: 590.44
+    Q4 2024: 595.42
+    Q1 2025: 642.19
+    Q2 2025: 636.96
+    Q3 2025: 649.4
+    Q4 2025: 607.39
+    Q1 2026: 701.98
+    Q2 2026: 697.82
+    Q3 2026: 688.53
+    Q4 2026: 662.12
+  annual_forecast:
+    2021 Yearly: 2130.0
+    2022 Yearly: 2640.0
+    2023 Yearly: 2050.0
+    2024 Yearly: 2490.0
+    2025 Yearly: 2650.0
+    2026 Yearly: 2750.0
+    2027 Yearly: 2920.0
+    2028 Yearly: 3150.0
+eps:
+  quarterly:
+    Q2 2024: 0.93
+    Q3 2024: 1.04
+    Q4 2024: 0.65
+    Q1 2025: 1.19
+    Q2 2025: 1.01
+    Q3 2025: 0.96
+    Q4 2025: 0.68
+  annual:
+    2021 Yearly: 4.33
+    2022 Yearly: 7.0
+    2023 Yearly: 3.15
+    2024 Yearly: 3.52
+    2025 Yearly: 3.85
+  quarterly_forecast:
+    Q2 2024: 0.75
+    Q3 2024: 0.8
+    Q4 2024: 0.76
+    Q1 2025: 0.82
+    Q2 2025: 0.82
+    Q3 2025: 0.84
+    Q4 2025: 0.62
+    Q1 2026: 0.87
+    Q2 2026: 0.89
+    Q3 2026: 0.9
+    Q4 2026: 0.74
+  annual_forecast:
+    2021 Yearly: 3.82
+    2022 Yearly: 6.94
+    2023 Yearly: 3.2
+    2024 Yearly: 3.62
+    2025 Yearly: 3.77
+    2026 Yearly: 3.4
+    2027 Yearly: 4.02
+    2028 Yearly: 4.6

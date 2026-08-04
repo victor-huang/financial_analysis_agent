@@ -1,0 +1,77 @@
+currency: USD
+company_name: Terreno Realty Corporation
+sector: Finance
+market_cap_billions: 7.62
+revenue:
+  quarterly:
+    Q3 2024: 99.64
+    Q4 2024: 103.71
+    Q1 2025: 110.42
+    Q2 2025: 112.23
+    Q3 2025: 116.25
+    Q4 2025: 137.49
+    Q1 2026: 124.44
+  annual:
+    2021 Yearly: 221.93
+    2022 Yearly: 276.21
+    2023 Yearly: 323.6
+    2024 Yearly: 382.62
+    2025 Yearly: 476.38
+  quarterly_forecast:
+    Q3 2024: 97.63
+    Q4 2024: 102.13
+    Q1 2025: 108.05
+    Q2 2025: 112.28
+    Q3 2025: 114.31
+    Q4 2025: 132.14
+    Q1 2026: 122.37
+    Q2 2026: 127.17
+    Q3 2026: 130.21
+    Q4 2026: 132.95
+    Q1 2027: 136.02
+  annual_forecast:
+    2021 Yearly: 223.63
+    2022 Yearly: 273.21
+    2023 Yearly: 321.48
+    2024 Yearly: 381.08
+    2025 Yearly: 473.72
+    2026 Yearly: 517.71
+    2027 Yearly: 577.73
+    2028 Yearly: 666.32
+    2029 Yearly: 736.8
+eps:
+  quarterly:
+    Q3 2024: 0.37
+    Q4 2024: 0.76
+    Q1 2025: 0.48
+    Q2 2025: 0.9
+    Q3 2025: 1.0
+    Q1 2026: 0.66
+  annual:
+    2021 Yearly: 1.23
+    2022 Yearly: 2.61
+    2023 Yearly: 1.81
+    2024 Yearly: 1.92
+    2025 Yearly: 3.92
+  quarterly_forecast:
+    Q3 2024: 0.36
+    Q4 2024: 0.36
+    Q1 2025: 0.36
+    Q2 2025: 0.39
+    Q3 2025: 0.38
+    Q4 2025: 1.2
+    Q1 2026: 0.3
+    Q2 2026: 0.41
+    Q3 2026: 0.43
+    Q4 2026: 0.45
+    Q1 2027: 0.43
+  annual_forecast:
+    2021 Yearly: 1.09
+    2022 Yearly: 2.29
+    2023 Yearly: 1.49
+    2024 Yearly: 1.51
+    2025 Yearly: 3.59
+    2026 Yearly: 1.95
+    2027 Yearly: 1.81
+    2028 Yearly: 1.9
+    2029 Yearly: 1.97

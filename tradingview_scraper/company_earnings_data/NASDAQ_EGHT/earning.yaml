@@ -1,0 +1,74 @@
+currency: USD
+company_name: 8x8 Inc
+sector: Technology Services
+market_cap_billions: 0.29207
+revenue:
+  quarterly:
+    Q2 2024: 181.0
+    Q3 2024: 178.88
+    Q4 2024: 177.04
+    Q1 2025: 181.36
+    Q2 2025: 184.09
+    Q3 2025: 185.05
+    Q4 2025: 185.25
+  annual:
+    2021 Yearly: 638.13
+    2022 Yearly: 743.94
+    2023 Yearly: 728.71
+    2024 Yearly: 715.07
+    2025 Yearly: 735.75
+  quarterly_forecast:
+    Q2 2024: 178.31
+    Q3 2024: 179.25
+    Q4 2024: 177.88
+    Q1 2025: 177.98
+    Q2 2025: 178.16
+    Q3 2025: 179.75
+    Q4 2025: 181.09
+    Q1 2026: 182.29
+    Q2 2026: 184.33
+    Q3 2026: 185.15
+    Q4 2026: 186.28
+  annual_forecast:
+    2021 Yearly: 637.98
+    2022 Yearly: 744.94
+    2023 Yearly: 728.09
+    2024 Yearly: 715.92
+    2025 Yearly: 731.6
+    2026 Yearly: 738.01
+    2027 Yearly: 747.69
+eps:
+  quarterly:
+    Q2 2024: 0.09
+    Q3 2024: 0.11
+    Q4 2024: 0.08
+    Q1 2025: 0.08
+    Q2 2025: 0.09
+    Q3 2025: 0.12
+    Q4 2025: 0.11
+  annual:
+    2021 Yearly: 0.08
+    2022 Yearly: 0.33
+    2023 Yearly: 0.47
+    2024 Yearly: 0.36
+    2025 Yearly: 0.4
+  quarterly_forecast:
+    Q2 2024: 0.08
+    Q3 2024: 0.09
+    Q4 2024: 0.08
+    Q1 2025: 0.08
+    Q2 2025: 0.07
+    Q3 2025: 0.09
+    Q4 2025: 0.08
+    Q1 2026: 0.08
+    Q2 2026: 0.08
+    Q3 2026: 0.09
+    Q4 2026: 0.09
+  annual_forecast:
+    2021 Yearly: 0.04
+    2022 Yearly: 0.31
+    2023 Yearly: 0.46
+    2024 Yearly: 0.36
+    2025 Yearly: 0.37
+    2026 Yearly: 0.36
+    2027 Yearly: 0.37

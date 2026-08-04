@@ -1,0 +1,78 @@
+currency: USD
+company_name: Transcat, Inc.
+sector: Electronic Technology
+market_cap_billions: 0.83845
+revenue:
+  quarterly:
+    Q2 2024: 67.83
+    Q3 2024: 66.75
+    Q4 2024: 77.13
+    Q1 2025: 76.42
+    Q2 2025: 82.27
+    Q3 2025: 83.86
+    Q4 2025: 89.33
+  annual:
+    2021 Yearly: 204.96
+    2022 Yearly: 230.57
+    2023 Yearly: 259.48
+    2024 Yearly: 278.42
+    2025 Yearly: 331.88
+  quarterly_forecast:
+    Q2 2024: 70.3
+    Q3 2024: 70.29
+    Q4 2024: 76.67
+    Q1 2025: 72.28
+    Q2 2025: 79.72
+    Q3 2025: 80.59
+    Q4 2025: 89.79
+    Q1 2026: 86.55
+    Q2 2026: 89.97
+    Q3 2026: 89.33
+    Q4 2026: 96.28
+  annual_forecast:
+    2021 Yearly: 204.26
+    2022 Yearly: 228.83
+    2023 Yearly: 257.16
+    2024 Yearly: 278.59
+    2025 Yearly: 332.34
+    2026 Yearly: 362.13
+    2027 Yearly: 386.66
+    2028 Yearly: 409.74
+    2029 Yearly: 433.7
+eps:
+  quarterly:
+    Q2 2024: 0.52
+    Q3 2024: 0.45
+    Q4 2024: 0.64
+    Q1 2025: 0.59
+    Q2 2025: 0.44
+    Q3 2025: 0.26
+    Q4 2025: 0.56
+  annual:
+    2021 Yearly: 1.5
+    2022 Yearly: 1.93
+    2023 Yearly: 2.36
+    2024 Yearly: 2.29
+    2025 Yearly: 1.84
+  quarterly_forecast:
+    Q2 2024: 0.57
+    Q3 2024: 0.45
+    Q4 2024: 0.52
+    Q1 2025: 0.4
+    Q2 2025: 0.49
+    Q3 2025: 0.32
+    Q4 2025: 0.56
+    Q1 2026: 0.38
+    Q2 2026: 0.42
+    Q3 2026: 0.33
+    Q4 2026: 0.64
+  annual_forecast:
+    2021 Yearly: 1.53
+    2022 Yearly: 1.59
+    2023 Yearly: 2.01
+    2024 Yearly: 2.02
+    2025 Yearly: 1.81
+    2026 Yearly: 1.76
+    2027 Yearly: 2.14
+    2028 Yearly: 3.18
+    2029 Yearly: 3.51

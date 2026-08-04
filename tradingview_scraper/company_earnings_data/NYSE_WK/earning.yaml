@@ -1,0 +1,76 @@
+currency: USD
+company_name: Workiva Inc.
+sector: Technology Services
+market_cap_billions: 3.43
+revenue:
+  quarterly:
+    Q3 2024: 185.62
+    Q4 2024: 199.89
+    Q1 2025: 206.0
+    Q2 2025: 215.19
+    Q3 2025: 224.17
+    Q4 2025: 238.94
+    Q1 2026: 247.0
+  annual:
+    2021 Yearly: 443.29
+    2022 Yearly: 537.88
+    2023 Yearly: 630.04
+    2024 Yearly: 738.68
+    2025 Yearly: 884.57
+  quarterly_forecast:
+    Q3 2024: 182.67
+    Q4 2024: 195.24
+    Q1 2025: 204.03
+    Q2 2025: 208.86
+    Q3 2025: 218.92
+    Q4 2025: 235.16
+    Q1 2026: 245.17
+    Q2 2026: 251.16
+    Q3 2026: 261.82
+    Q4 2026: 278.76
+    Q1 2027: 285.72
+  annual_forecast:
+    2021 Yearly: 439.88
+    2022 Yearly: 533.46
+    2023 Yearly: 628.1
+    2024 Yearly: 734.05
+    2025 Yearly: 881.18
+    2026 Yearly: 1040.0
+    2027 Yearly: 1200.0
+    2028 Yearly: 1400.0
+eps:
+  quarterly:
+    Q3 2024: 0.21
+    Q4 2024: 0.33
+    Q1 2025: 0.14
+    Q2 2025: 0.19
+    Q3 2025: 0.55
+    Q4 2025: 0.78
+    Q1 2026: 0.77
+  annual:
+    2021 Yearly: 0.37
+    2022 Yearly: -0.29
+    2023 Yearly: -0.42
+    2024 Yearly: 0.94
+    2025 Yearly: 1.78
+  quarterly_forecast:
+    Q3 2024: 0.23
+    Q4 2024: 0.33
+    Q1 2025: 0.07
+    Q2 2025: 0.05
+    Q3 2025: 0.39
+    Q4 2025: 0.69
+    Q1 2026: 0.65
+    Q2 2026: 0.63
+    Q3 2026: 0.68
+    Q4 2026: 0.82
+    Q1 2027: 0.81
+  annual_forecast:
+    2021 Yearly: 0.3
+    2022 Yearly: -0.46
+    2023 Yearly: -0.53
+    2024 Yearly: 0.94
+    2025 Yearly: 1.64
+    2026 Yearly: 2.91
+    2027 Yearly: 3.49
+    2028 Yearly: 4.47

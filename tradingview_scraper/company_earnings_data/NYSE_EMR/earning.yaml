@@ -1,0 +1,78 @@
+currency: USD
+company_name: Emerson Electric Company
+sector: Electronic Technology
+market_cap_billions: 86.73
+revenue:
+  quarterly:
+    Q4 2024: 4620.0
+    Q1 2025: 4170.0
+    Q2 2025: 4430.0
+    Q3 2025: 4550.0
+    Q4 2025: 4860.0
+    Q1 2026: 4350.0
+    Q2 2026: 4560.0
+  annual:
+    2021 Yearly: 18240.0
+    2022 Yearly: 19630.0
+    2023 Yearly: 15160.0
+    2024 Yearly: 17490.0
+    2025 Yearly: 18020.0
+  quarterly_forecast:
+    Q4 2024: 4570.0
+    Q1 2025: 4220.0
+    Q2 2025: 4390.0
+    Q3 2025: 4600.0
+    Q4 2025: 4900.0
+    Q1 2026: 4350.0
+    Q2 2026: 4590.0
+    Q3 2026: 4800.0
+    Q4 2026: 5100.0
+    Q1 2027: 4580.0
+    Q2 2027: 4810.0
+  annual_forecast:
+    2021 Yearly: 18380.0
+    2022 Yearly: 19570.0
+    2023 Yearly: 15270.0
+    2024 Yearly: 17450.0
+    2025 Yearly: 18060.0
+    2026 Yearly: 18820.0
+    2027 Yearly: 19850.0
+    2028 Yearly: 20880.0
+    2029 Yearly: 22430.0
+eps:
+  quarterly:
+    Q4 2024: 1.48
+    Q1 2025: 1.38
+    Q2 2025: 1.48
+    Q3 2025: 1.52
+    Q4 2025: 1.62
+    Q1 2026: 1.46
+    Q2 2026: 1.54
+  annual:
+    2021 Yearly: 4.1
+    2022 Yearly: 5.25
+    2023 Yearly: 4.44
+    2024 Yearly: 5.49
+    2025 Yearly: 6.0
+  quarterly_forecast:
+    Q4 2024: 1.47
+    Q1 2025: 1.29
+    Q2 2025: 1.41
+    Q3 2025: 1.51
+    Q4 2025: 1.62
+    Q1 2026: 1.42
+    Q2 2026: 1.53
+    Q3 2026: 1.68
+    Q4 2026: 1.83
+    Q1 2027: 1.6
+    Q2 2027: 1.71
+  annual_forecast:
+    2021 Yearly: 4.07
+    2022 Yearly: 5.1
+    2023 Yearly: 4.45
+    2024 Yearly: 5.49
+    2025 Yearly: 6.0
+    2026 Yearly: 6.51
+    2027 Yearly: 7.2
+    2028 Yearly: 8.01
+    2029 Yearly: 9.12

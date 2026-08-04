@@ -1,0 +1,74 @@
+currency: USD
+company_name: Finance of America Companies Inc.
+sector: Finance
+market_cap_billions: 0.20876
+revenue:
+  quarterly:
+    Q3 2024: 290.07
+    Q4 2024: -105.62
+    Q1 2025: 165.69
+    Q2 2025: 177.38
+    Q3 2025: 80.85
+    Q4 2025: 73.51
+    Q1 2026: 120.14
+  annual:
+    2021 Yearly: 1740.0
+    2022 Yearly: 573.24
+    2023 Yearly: 234.25
+    2024 Yearly: 338.17
+    2025 Yearly: 497.43
+  quarterly_forecast:
+    Q3 2024: 73.81
+    Q4 2024: 80.61
+    Q1 2025: 85.12
+    Q2 2025: 97.05
+    Q3 2025: 101.91
+    Q4 2025: 109.44
+    Q1 2026: 115.31
+    Q2 2026: 121.94
+    Q3 2026: 128.74
+    Q4 2026: 135.13
+    Q1 2027: 129.16
+  annual_forecast:
+    2021 Yearly: 1810.0
+    2022 Yearly: 618.04
+    2023 Yearly: 121.91
+    2024 Yearly: 417.32
+    2025 Yearly: 433.4
+    2026 Yearly: 505.98
+    2027 Yearly: 548.9
+eps:
+  quarterly:
+    Q3 2024: 0.67
+    Q4 2024: 0.21
+    Q1 2025: 0.52
+    Q2 2025: 0.55
+    Q3 2025: 1.33
+    Q4 2025: 0.69
+    Q1 2026: 1.1
+  annual:
+    2021 Yearly: 16.1
+    2022 Yearly: -3.2
+    2023 Yearly: 4.0
+    2024 Yearly: 0.6
+    2025 Yearly: 3.04
+  quarterly_forecast:
+    Q3 2024: 0.1
+    Q4 2024: 0.46
+    Q1 2025: 0.42
+    Q2 2025: 0.61
+    Q3 2025: 0.67
+    Q4 2025: 0.65
+    Q1 2026: 0.84
+    Q2 2026: 1.04
+    Q3 2026: 1.15
+    Q4 2026: 1.26
+    Q1 2027: 1.15
+  annual_forecast:
+    2021 Yearly: 15.92
+    2022 Yearly: -1.77
+    2023 Yearly: -3.99
+    2024 Yearly: 0.76
+    2025 Yearly: 3.0
+    2026 Yearly: 4.66
+    2027 Yearly: 5.18
