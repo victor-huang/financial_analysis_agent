@@ -1,7 +1,7 @@
 currency: USD
 company_name: Freightcar America, Inc.
 sector: Producer Manufacturing
-market_cap_billions: 0.26122
+market_cap_billions: 0.27007
 revenue:
   quarterly:
     Q3 2024: 113.25
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 160.51
     Q4 2025: 125.57
     Q1 2026: 64.31
+    Q2 2026: 113.14
   annual:
     2021 Yearly: 203.05
     2022 Yearly: 364.75
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 164.59
     Q4 2026: 166.97
     Q1 2027: 134.69
+    Q2 2027: 163.29
   annual_forecast:
     2021 Yearly: 195.0
     2022 Yearly: 351.6
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.24
     Q4 2025: 0.16
     Q1 2026: -0.04
+    Q2 2026: -0.02
   annual:
     2021 Yearly: -2.0
     2022 Yearly: -1.56
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.19
     Q4 2026: 0.31
     Q1 2027: 0.15
+    Q2 2027: 0.24
   annual_forecast:
     2021 Yearly: -1.35
     2022 Yearly: -0.16

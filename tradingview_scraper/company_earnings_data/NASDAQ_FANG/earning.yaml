@@ -1,7 +1,7 @@
 currency: USD
 company_name: Diamondback Energy, Inc.
 sector: Energy Minerals
-market_cap_billions: 57.09
+market_cap_billions: 55.91
 revenue:
   quarterly:
     Q3 2024: 2650.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 3920.0
     Q4 2025: 3030.0
     Q1 2026: 4240.0
+    Q2 2026: 5560.0
   annual:
     2021 Yearly: 6800.0
     2022 Yearly: 9640.0
@@ -26,19 +27,20 @@ revenue:
     Q4 2025: 3280.0
     Q1 2026: 3830.0
     Q2 2026: 4890.0
-    Q3 2026: 4290.0
-    Q4 2026: 4290.0
-    Q1 2027: 4210.0
+    Q3 2026: 4330.0
+    Q4 2026: 4320.0
+    Q1 2027: 4220.0
+    Q2 2027: 4200.0
   annual_forecast:
     2021 Yearly: 6480.0
     2022 Yearly: 9290.0
     2023 Yearly: 8240.0
     2024 Yearly: 10660.0
     2025 Yearly: 15040.0
-    2026 Yearly: 17590.0
-    2027 Yearly: 16640.0
-    2028 Yearly: 17110.0
-    2029 Yearly: 16230.0
+    2026 Yearly: 17650.0
+    2027 Yearly: 16660.0
+    2028 Yearly: 17130.0
+    2029 Yearly: 16200.0
 eps:
   quarterly:
     Q3 2024: 3.38
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 3.08
     Q4 2025: 1.74
     Q1 2026: 4.23
+    Q2 2026: 6.48
   annual:
     2021 Yearly: 11.27
     2022 Yearly: 24.04
@@ -63,16 +66,17 @@ eps:
     Q4 2025: 2.0
     Q1 2026: 3.74
     Q2 2026: 6.08
-    Q3 2026: 4.48
-    Q4 2026: 4.46
-    Q1 2027: 4.2
+    Q3 2026: 4.55
+    Q4 2026: 4.51
+    Q1 2027: 4.22
+    Q2 2027: 4.06
   annual_forecast:
     2021 Yearly: 10.97
     2022 Yearly: 24.15
     2023 Yearly: 17.99
     2024 Yearly: 15.53
     2025 Yearly: 12.53
-    2026 Yearly: 18.81
-    2027 Yearly: 16.7
-    2028 Yearly: 17.87
-    2029 Yearly: 17.15
+    2026 Yearly: 19.13
+    2027 Yearly: 16.76
+    2028 Yearly: 17.94
+    2029 Yearly: 17.24

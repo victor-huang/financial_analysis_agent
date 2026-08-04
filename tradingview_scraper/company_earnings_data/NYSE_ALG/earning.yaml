@@ -1,7 +1,7 @@
 currency: USD
 company_name: Alamo Group, Inc.
 sector: Producer Manufacturing
-market_cap_billions: 1.94
+market_cap_billions: 1.99
 revenue:
   quarterly:
     Q3 2024: 401.3
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 420.04
     Q4 2025: 373.65
     Q1 2026: 417.15
+    Q2 2026: 450.73
   annual:
     2021 Yearly: 1330.0
     2022 Yearly: 1510.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 439.31
     Q4 2026: 402.51
     Q1 2027: 424.65
+    Q2 2027: 457.48
   annual_forecast:
     2021 Yearly: 1320.0
     2022 Yearly: 1490.0
@@ -46,6 +48,7 @@ eps:
     Q3 2025: 2.1
     Q4 2025: 1.28
     Q1 2026: 2.41
+    Q2 2026: 2.55
   annual:
     2021 Yearly: 6.65
     2022 Yearly: 8.62
@@ -64,6 +67,7 @@ eps:
     Q3 2026: 2.74
     Q4 2026: 2.57
     Q1 2027: 2.74
+    Q2 2027: 3.15
   annual_forecast:
     2021 Yearly: 6.7
     2022 Yearly: 8.04

@@ -1,7 +1,7 @@
 currency: USD
 company_name: New Mountain Finance Corporation
 sector: Miscellaneous
-market_cap_billions: 0.65078
+market_cap_billions: 0.68289
 revenue:
   quarterly:
     Q3 2024: 95.33
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 80.53
     Q4 2025: 77.38
     Q1 2026: 68.79
+    Q2 2026: 61.48
   annual:
     2021 Yearly: 270.96
     2022 Yearly: 294.63
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 63.02
     Q4 2026: 63.05
     Q1 2027: 62.93
+    Q2 2027: 62.92
   annual_forecast:
     2021 Yearly: 269.55
     2022 Yearly: 302.05
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.32
     Q4 2025: 0.32
     Q1 2026: 0.3
+    Q2 2026: 0.26
   annual:
     2021 Yearly: 1.16
     2022 Yearly: 1.18
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.26
     Q4 2026: 0.26
     Q1 2027: 0.26
+    Q2 2027: 0.26
   annual_forecast:
     2021 Yearly: 1.2
     2022 Yearly: 1.28

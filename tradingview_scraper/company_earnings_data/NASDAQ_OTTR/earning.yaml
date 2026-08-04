@@ -1,7 +1,7 @@
 currency: USD
 company_name: Otter Tail Corporation
 sector: Utilities
-market_cap_billions: 3.71
+market_cap_billions: 3.79
 revenue:
   quarterly:
     Q3 2024: 338.03
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 325.56
     Q4 2025: 308.1
     Q1 2026: 347.03
+    Q2 2026: 334.38
   annual:
     2021 Yearly: 1200.0
     2022 Yearly: 1460.0
@@ -20,15 +21,15 @@ revenue:
   quarterly_forecast:
     Q3 2024: 377.15
     Q4 2024: 314.75
-    Q1 2025: 349.71
-    Q2 2025: 325.81
-    Q3 2025: 331.3
-    Q4 2025: 311.15
-    Q1 2026: 339.1
-    Q2 2026: 326.13
-    Q3 2026: 320.8
-    Q4 2026: 308.83
-    Q1 2027: 366.35
+    Q1 2025: 314.75
+    Q2 2025: 349.71
+    Q3 2025: 325.81
+    Q4 2025: 331.3
+    Q1 2026: 311.15
+    Q2 2026: 339.1
+    Q3 2026: 326.13
+    Q4 2026: 320.8
+    Q1 2027: 308.83
   annual_forecast:
     2021 Yearly: 1190.0
     2022 Yearly: 1480.0
@@ -48,6 +49,7 @@ eps:
     Q3 2025: 1.86
     Q4 2025: 1.23
     Q1 2026: 1.73
+    Q2 2026: 1.66
   annual:
     2021 Yearly: 4.23
     2022 Yearly: 6.78
@@ -66,6 +68,7 @@ eps:
     Q3 2026: 1.49
     Q4 2026: 1.18
     Q1 2027: 1.63
+    Q2 2027: 1.38
   annual_forecast:
     2021 Yearly: 4.18
     2022 Yearly: 6.62

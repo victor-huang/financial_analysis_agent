@@ -1,7 +1,7 @@
 currency: USD
 company_name: ONEOK, Inc.
 sector: Industrial Services
-market_cap_billions: 57.22
+market_cap_billions: 55.6
 revenue:
   quarterly:
     Q3 2024: 5020.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 8630.0
     Q4 2025: 9060.0
     Q1 2026: 9620.0
+    Q2 2026: 8630.0
   annual:
     2021 Yearly: 16540.0
     2022 Yearly: 22390.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 9370.0
     Q4 2026: 9790.0
     Q1 2027: 9580.0
+    Q2 2027: 11070.0
   annual_forecast:
     2021 Yearly: 15100.0
     2022 Yearly: 22310.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 1.49
     Q4 2025: 1.55
     Q1 2026: 1.23
+    Q2 2026: 1.53
   annual:
     2021 Yearly: 3.35
     2022 Yearly: 3.84
@@ -66,13 +69,14 @@ eps:
     Q3 2026: 1.47
     Q4 2026: 1.53
     Q1 2027: 1.47
+    Q2 2027: 1.5
   annual_forecast:
     2021 Yearly: 3.4
     2022 Yearly: 3.8
     2023 Yearly: 5.46
     2024 Yearly: 5.1
     2025 Yearly: 5.39
-    2026 Yearly: 5.69
-    2027 Yearly: 6.21
-    2028 Yearly: 6.92
+    2026 Yearly: 5.68
+    2027 Yearly: 6.2
+    2028 Yearly: 6.9
     2029 Yearly: 7.16

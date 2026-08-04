@@ -1,7 +1,7 @@
 currency: USD
 company_name: JBT Marel Corporation
 sector: Producer Manufacturing
-market_cap_billions: 7.21
+market_cap_billions: 7.41
 revenue:
   quarterly:
     Q3 2024: 453.8
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 1000.0
     Q4 2025: 1010.0
     Q1 2026: 936.0
+    Q2 2026: 981.0
   annual:
     2021 Yearly: 1870.0
     2022 Yearly: 2170.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 1040.0
     Q4 2026: 1060.0
     Q1 2027: 973.1
+    Q2 2027: 1040.0
   annual_forecast:
     2021 Yearly: 1900.0
     2022 Yearly: 2170.0
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 1.94
     Q4 2025: 1.98
     Q1 2026: 1.58
+    Q2 2026: 1.95
   annual:
     2021 Yearly: 4.03
     2022 Yearly: 4.77
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 2.29
     Q4 2026: 2.38
     Q1 2027: 1.93
+    Q2 2027: 2.33
   annual_forecast:
     2021 Yearly: 4.22
     2022 Yearly: 4.68

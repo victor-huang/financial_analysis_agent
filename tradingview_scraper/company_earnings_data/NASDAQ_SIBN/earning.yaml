@@ -1,7 +1,7 @@
 currency: USD
 company_name: SI-BONE, Inc.
 sector: Health Technology
-market_cap_billions: 0.78764
+market_cap_billions: 0.81824
 revenue:
   quarterly:
     Q3 2024: 40.34
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 48.66
     Q4 2025: 56.35
     Q1 2026: 52.59
+    Q2 2026: 56.01
   annual:
     2021 Yearly: 90.15
     2022 Yearly: 106.41
@@ -26,18 +27,19 @@ revenue:
     Q4 2025: 55.4
     Q1 2026: 51.16
     Q2 2026: 55.34
-    Q3 2026: 55.99
-    Q4 2026: 67.9
-    Q1 2027: 61.9
+    Q3 2026: 55.96
+    Q4 2026: 67.84
+    Q1 2027: 62.0
+    Q2 2027: 65.45
   annual_forecast:
     2021 Yearly: 89.6
     2022 Yearly: 105.83
     2023 Yearly: 137.8
     2024 Yearly: 166.15
     2025 Yearly: 199.89
-    2026 Yearly: 231.78
-    2027 Yearly: 267.62
-    2028 Yearly: 308.44
+    2026 Yearly: 231.96
+    2027 Yearly: 268.01
+    2028 Yearly: 309.52
     2029 Yearly: 350.2
 eps:
   quarterly:
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -0.11
     Q4 2025: -0.04
     Q1 2026: -0.1
+    Q2 2026: -0.09
   annual:
     2021 Yearly: -1.71
     2022 Yearly: -1.79
@@ -66,13 +69,14 @@ eps:
     Q3 2026: -0.12
     Q4 2026: -0.06
     Q1 2027: -0.11
+    Q2 2027: -0.1
   annual_forecast:
     2021 Yearly: -1.66
     2022 Yearly: -1.87
     2023 Yearly: -1.14
     2024 Yearly: -0.78
     2025 Yearly: -0.53
-    2026 Yearly: -0.43
+    2026 Yearly: -0.42
     2027 Yearly: -0.35
     2028 Yearly: -0.22
     2029 Yearly: 0.05

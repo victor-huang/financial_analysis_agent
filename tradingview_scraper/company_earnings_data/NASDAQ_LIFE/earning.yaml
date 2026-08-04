@@ -1,25 +1,27 @@
 currency: USD
 company_name: Ethos Technologies Inc.
 sector: Technology Services
-market_cap_billions: 1.29
+market_cap_billions: 1.44
 revenue:
   quarterly:
     Q3 2025: 93.8
     Q4 2025: 110.08
     Q1 2026: 193.1
+    Q2 2026: 189.56
   annual:
     2025 Yearly: 387.61
   quarterly_forecast:
     Q4 2025: 108.38
     Q1 2026: 144.98
     Q2 2026: 117.32
-    Q3 2026: 119.98
-    Q4 2026: 134.54
+    Q3 2026: 125.55
+    Q4 2026: 140.72
     Q1 2027: 210.11
+    Q2 2027: 142.15
   annual_forecast:
     2025 Yearly: 385.84
-    2026 Yearly: 564.94
-    2027 Yearly: 681.82
+    2026 Yearly: 588.78
+    2027 Yearly: 718.52
     2028 Yearly: 771.98
     2029 Yearly: 759.0
 eps:
@@ -27,6 +29,7 @@ eps:
     Q3 2025: 0.29
     Q4 2025: 0.42
     Q1 2026: -3.57
+    Q2 2026: 0.3
   annual:
     2025 Yearly: 1.22
   quarterly_forecast:
@@ -36,6 +39,7 @@ eps:
     Q3 2026: 0.06
     Q4 2026: 0.11
     Q1 2027: 0.29
+    Q2 2027: 0.09
   annual_forecast:
     2026 Yearly: 1.42
     2027 Yearly: -2.52

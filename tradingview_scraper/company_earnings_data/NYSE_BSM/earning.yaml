@@ -1,7 +1,7 @@
 currency: USD
 company_name: Black Stone Minerals, L.P.
 sector: Miscellaneous
-market_cap_billions: 3.18
+market_cap_billions: 3.2
 revenue:
   quarterly:
     Q3 2024: 134.86
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 132.47
     Q4 2025: 118.7
     Q1 2026: 123.91
+    Q2 2026: 148.97
   annual:
     2021 Yearly: 359.26
     2022 Yearly: 663.6
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 108.74
     Q4 2026: 114.52
     Q1 2027: 126.2
+    Q2 2027: 111.05
   annual_forecast:
     2021 Yearly: 314.37
     2022 Yearly: 564.1
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.4
     Q4 2025: 0.31
     Q1 2026: 0.03
+    Q2 2026: 0.47
   annual:
     2021 Yearly: 0.77
     2022 Yearly: 2.12
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.24
     Q4 2026: 0.25
     Q1 2027: 0.31
+    Q2 2027: 0.25
   annual_forecast:
     2021 Yearly: 0.35
     2022 Yearly: 1.59

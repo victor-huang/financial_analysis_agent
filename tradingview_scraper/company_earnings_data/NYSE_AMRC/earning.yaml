@@ -1,7 +1,7 @@
 currency: USD
 company_name: Ameresco, Inc.
 sector: Industrial Services
-market_cap_billions: 1.12
+market_cap_billions: 1.2
 revenue:
   quarterly:
     Q3 2024: 500.87
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 525.99
     Q4 2025: 581.03
     Q1 2026: 401.46
+    Q2 2026: 515.5
   annual:
     2021 Yearly: 1220.0
     2022 Yearly: 1820.0
@@ -26,9 +27,10 @@ revenue:
     Q4 2025: 556.09
     Q1 2026: 362.92
     Q2 2026: 465.18
-    Q3 2026: 590.77
-    Q4 2026: 650.06
+    Q3 2026: 587.79
+    Q4 2026: 650.91
     Q1 2027: 433.85
+    Q2 2027: 516.5
   annual_forecast:
     2021 Yearly: 1210.0
     2022 Yearly: 1860.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.35
     Q4 2025: 0.39
     Q1 2026: -0.33
+    Q2 2026: 0.2
   annual:
     2021 Yearly: 1.51
     2022 Yearly: 1.87
@@ -64,15 +67,16 @@ eps:
     Q1 2026: -0.29
     Q2 2026: 0.2
     Q3 2026: 0.53
-    Q4 2026: 0.71
+    Q4 2026: 0.72
     Q1 2027: -0.27
+    Q2 2027: 0.28
   annual_forecast:
     2021 Yearly: 1.43
     2022 Yearly: 1.88
     2023 Yearly: 1.14
     2024 Yearly: 1.15
     2025 Yearly: 0.8
-    2026 Yearly: 1.13
-    2027 Yearly: 1.69
-    2028 Yearly: 2.15
+    2026 Yearly: 1.14
+    2027 Yearly: 1.68
+    2028 Yearly: 2.14
     2029 Yearly: 2.58

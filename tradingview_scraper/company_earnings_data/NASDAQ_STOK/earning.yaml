@@ -1,7 +1,7 @@
 currency: USD
 company_name: Stoke Therapeutics, Inc.
 sector: Health Technology
-market_cap_billions: 1.8
+market_cap_billions: 1.84
 revenue:
   quarterly:
     Q3 2024: 4.89
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 10.63
     Q4 2025: 1.4
     Q1 2026: 6.23
+    Q2 2026: 9.3
   annual:
     2021 Yearly: 0.0
     2022 Yearly: 12.4
@@ -26,18 +27,19 @@ revenue:
     Q4 2025: 5.83
     Q1 2026: 6.48
     Q2 2026: 4.89
-    Q3 2026: 5.12
-    Q4 2026: 6.12
-    Q1 2027: 5.5
+    Q3 2026: 5.53
+    Q4 2026: 6.44
+    Q1 2027: 4.65
+    Q2 2027: 4.65
   annual_forecast:
     2021 Yearly: 0.0
     2022 Yearly: 11.7
     2023 Yearly: 9.53
     2024 Yearly: 17.92
     2025 Yearly: 188.8
-    2026 Yearly: 25.72
-    2027 Yearly: 47.14
-    2028 Yearly: 133.8
+    2026 Yearly: 27.45
+    2027 Yearly: 44.04
+    2028 Yearly: 135.47
     2029 Yearly: 341.24
 eps:
   quarterly:
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -0.65
     Q4 2025: -0.96
     Q1 2026: -0.79
+    Q2 2026: -0.93
   annual:
     2021 Yearly: -2.34
     2022 Yearly: -2.6
@@ -64,15 +67,16 @@ eps:
     Q1 2026: -0.81
     Q2 2026: -0.8
     Q3 2026: -0.84
-    Q4 2026: -0.9
-    Q1 2027: -0.91
+    Q4 2026: -0.89
+    Q1 2027: -0.92
+    Q2 2027: -0.93
   annual_forecast:
     2021 Yearly: -2.3
     2022 Yearly: -2.66
     2023 Yearly: -2.38
     2024 Yearly: -2.02
     2025 Yearly: 0.12
-    2026 Yearly: -3.33
-    2027 Yearly: -3.16
-    2028 Yearly: -1.76
-    2029 Yearly: 0.56
+    2026 Yearly: -3.35
+    2027 Yearly: -3.23
+    2028 Yearly: -1.83
+    2029 Yearly: 0.47

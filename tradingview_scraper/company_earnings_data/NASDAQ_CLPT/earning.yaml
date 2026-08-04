@@ -1,7 +1,7 @@
 currency: USD
 company_name: ClearPoint Neuro Inc.
 sector: Health Technology
-market_cap_billions: 0.44804
+market_cap_billions: 0.46124
 revenue:
   quarterly:
     Q3 2024: 8.12
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 8.86
     Q4 2025: 10.4
     Q1 2026: 12.13
+    Q2 2026: 10.88
   annual:
     2021 Yearly: 16.3
     2022 Yearly: 20.6
@@ -26,19 +27,20 @@ revenue:
     Q4 2025: 10.05
     Q1 2026: 11.97
     Q2 2026: 12.73
-    Q3 2026: 13.63
-    Q4 2026: 14.63
-    Q1 2027: 14.95
+    Q3 2026: 13.17
+    Q4 2026: 14.47
+    Q1 2027: 14.45
+    Q2 2027: 15.2
   annual_forecast:
     2021 Yearly: 16.3
     2022 Yearly: 20.6
     2023 Yearly: 23.7
     2024 Yearly: 31.83
     2025 Yearly: 36.6
-    2026 Yearly: 53.13
-    2027 Yearly: 64.1
-    2028 Yearly: 77.1
-    2029 Yearly: 92.1
+    2026 Yearly: 51.87
+    2027 Yearly: 61.67
+    2028 Yearly: 66.0
+    2029 Yearly: 78.0
 eps:
   quarterly:
     Q3 2024: -0.18
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -0.21
     Q4 2025: -0.26
     Q1 2026: -0.32
+    Q2 2026: -0.38
   annual:
     2021 Yearly: -0.69
     2022 Yearly: -0.68
@@ -63,16 +66,17 @@ eps:
     Q4 2025: -0.2
     Q1 2026: -0.27
     Q2 2026: -0.29
-    Q3 2026: -0.26
-    Q4 2026: -0.24
-    Q1 2027: -0.23
+    Q3 2026: -0.27
+    Q4 2026: -0.25
+    Q1 2027: -0.25
+    Q2 2027: -0.25
   annual_forecast:
     2021 Yearly: -0.68
     2022 Yearly: -0.7
     2023 Yearly: -0.91
     2024 Yearly: -0.67
     2025 Yearly: -0.83
-    2026 Yearly: -1.11
-    2027 Yearly: -0.94
-    2028 Yearly: -0.87
-    2029 Yearly: -0.65
+    2026 Yearly: -1.16
+    2027 Yearly: -0.97
+    2028 Yearly: -0.98
+    2029 Yearly: -0.82

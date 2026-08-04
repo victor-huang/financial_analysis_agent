@@ -1,7 +1,7 @@
 currency: USD
 company_name: 3D Systems Corporation
 sector: Technology Services
-market_cap_billions: 0.43122000000000005
+market_cap_billions: 0.46225
 revenue:
   quarterly:
     Q3 2024: 112.94
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 91.25
     Q4 2025: 106.3
     Q1 2026: 95.5
+    Q2 2026: 94.6
   annual:
     2021 Yearly: 615.64
     2022 Yearly: 538.03
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 93.79
     Q4 2026: 106.22
     Q1 2027: 97.06
+    Q2 2027: 99.03
   annual_forecast:
     2021 Yearly: 608.66
     2022 Yearly: 540.16
@@ -46,6 +48,7 @@ eps:
     Q3 2025: -0.08
     Q4 2025: -0.13
     Q1 2026: -0.01
+    Q2 2026: -0.04
   annual:
     2021 Yearly: 0.45
     2022 Yearly: -0.23
@@ -64,6 +67,7 @@ eps:
     Q3 2026: -0.05
     Q4 2026: -0.03
     Q1 2027: -0.03
+    Q2 2027: -0.03
   annual_forecast:
     2021 Yearly: 0.4
     2022 Yearly: -0.26

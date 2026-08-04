@@ -1,7 +1,7 @@
 currency: USD
 company_name: JELD-WEN Holding, Inc.
 sector: Non-Energy Minerals
-market_cap_billions: 0.12233
+market_cap_billions: 0.12406
 revenue:
   quarterly:
     Q3 2024: 934.7
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 809.5
     Q4 2025: 802.0
     Q1 2026: 722.1
+    Q2 2026: 817.8
   annual:
     2021 Yearly: 4770.0
     2022 Yearly: 5130.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 792.51
     Q4 2026: 784.9
     Q1 2027: 728.2
+    Q2 2027: 811.3
   annual_forecast:
     2021 Yearly: 4700.0
     2022 Yearly: 5020.0
@@ -47,6 +49,7 @@ eps:
     Q3 2025: -0.2
     Q4 2025: -0.42
     Q1 2026: -0.5
+    Q2 2026: -0.11
   annual:
     2021 Yearly: 1.8
     2022 Yearly: 1.68
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.01
     Q4 2026: -0.12
     Q1 2027: -0.25
+    Q2 2027: -0.03
   annual_forecast:
     2021 Yearly: 1.85
     2022 Yearly: 1.67

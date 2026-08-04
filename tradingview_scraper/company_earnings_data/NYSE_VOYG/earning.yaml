@@ -1,7 +1,7 @@
 currency: USD
 company_name: Voyager Technologies, Inc.
 sector: Technology Services
-market_cap_billions: 1.45
+market_cap_billions: 1.66
 revenue:
   quarterly:
     Q1 2025: 34.6
@@ -9,6 +9,7 @@ revenue:
     Q3 2025: 39.59
     Q4 2025: 46.65
     Q1 2026: 35.25
+    Q2 2026: 52.75
   annual:
     2025 Yearly: 166.42
   quarterly_forecast:
@@ -20,9 +21,10 @@ revenue:
     Q3 2026: 64.43
     Q4 2026: 91.97
     Q1 2027: 66.03
+    Q2 2027: 66.86
   annual_forecast:
     2025 Yearly: 167.79
-    2026 Yearly: 240.75
+    2026 Yearly: 240.78
     2027 Yearly: 373.44
     2028 Yearly: 755.98
     2029 Yearly: 1350.0
@@ -33,6 +35,7 @@ eps:
     Q3 2025: -0.22
     Q4 2025: -0.37
     Q1 2026: -0.61
+    Q2 2026: -0.7
   annual:
     2025 Yearly: -2.05
   quarterly_forecast:
@@ -44,6 +47,7 @@ eps:
     Q3 2026: -0.85
     Q4 2026: -0.7
     Q1 2027: -0.4
+    Q2 2027: -0.46
   annual_forecast:
     2025 Yearly: -2.14
     2026 Yearly: -3.04

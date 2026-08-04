@@ -1,7 +1,7 @@
 currency: USD
 company_name: Addus HomeCare Corporation
 sector: Health Services
-market_cap_billions: 2.16
+market_cap_billions: 2.18
 revenue:
   quarterly:
     Q3 2024: 289.79
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 362.3
     Q4 2025: 372.08
     Q1 2026: 363.5
+    Q2 2026: 377.41
   annual:
     2021 Yearly: 864.5
     2022 Yearly: 950.36
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 386.72
     Q4 2026: 391.94
     Q1 2027: 384.42
+    Q2 2027: 393.62
   annual_forecast:
     2021 Yearly: 865.59
     2022 Yearly: 950.22
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 1.56
     Q4 2025: 1.77
     Q1 2026: 1.62
+    Q2 2026: 1.73
   annual:
     2021 Yearly: 3.63
     2022 Yearly: 3.73
@@ -65,12 +68,13 @@ eps:
     Q3 2026: 1.76
     Q4 2026: 1.92
     Q1 2027: 1.69
+    Q2 2027: 1.83
   annual_forecast:
     2021 Yearly: 3.42
     2022 Yearly: 3.53
     2023 Yearly: 4.36
     2024 Yearly: 5.23
     2025 Yearly: 6.19
-    2026 Yearly: 7.0
+    2026 Yearly: 7.01
     2027 Yearly: 7.48
     2028 Yearly: 7.97

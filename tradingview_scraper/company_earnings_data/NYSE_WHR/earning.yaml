@@ -1,7 +1,7 @@
 currency: USD
 company_name: Whirlpool Corporation
 sector: Consumer Durables
-market_cap_billions: 2.43
+market_cap_billions: 2.54
 revenue:
   quarterly:
     Q3 2024: 3990.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 4030.0000000000005
     Q4 2025: 4100.0
     Q1 2026: 3270.0
+    Q2 2026: 3520.0
   annual:
     2021 Yearly: 21980.0
     2022 Yearly: 19720.0
@@ -29,16 +30,17 @@ revenue:
     Q3 2026: 3950.0
     Q4 2026: 4130.0
     Q1 2027: 3430.0
+    Q2 2027: 3640.0
   annual_forecast:
     2021 Yearly: 22050.0
     2022 Yearly: 19850.0
     2023 Yearly: 19350.0
     2024 Yearly: 16710.0
     2025 Yearly: 15690.0
-    2026 Yearly: 14900.0
-    2027 Yearly: 15420.0
-    2028 Yearly: 16040.0
-    2029 Yearly: 16790.0
+    2026 Yearly: 14890.0
+    2027 Yearly: 15400.0
+    2028 Yearly: 16010.000000000002
+    2029 Yearly: 16700.0
 eps:
   quarterly:
     Q3 2024: 3.43
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 2.09
     Q4 2025: 1.1
     Q1 2026: -0.56
+    Q2 2026: -0.21
   annual:
     2021 Yearly: 26.59
     2022 Yearly: 19.64
@@ -63,16 +66,17 @@ eps:
     Q4 2025: 1.52
     Q1 2026: 0.38
     Q2 2026: -0.06
-    Q3 2026: 1.0
-    Q4 2026: 1.47
-    Q1 2027: 0.26
+    Q3 2026: 1.03
+    Q4 2026: 1.5
+    Q1 2027: 0.31
+    Q2 2027: 0.38
   annual_forecast:
     2021 Yearly: 26.46
     2022 Yearly: 19.17
     2023 Yearly: 15.85
     2024 Yearly: 12.08
     2025 Yearly: 6.66
-    2026 Yearly: 1.95
-    2027 Yearly: 3.71
-    2028 Yearly: 4.87
-    2029 Yearly: 5.13
+    2026 Yearly: 1.99
+    2027 Yearly: 3.8
+    2028 Yearly: 5.07
+    2029 Yearly: 5.6

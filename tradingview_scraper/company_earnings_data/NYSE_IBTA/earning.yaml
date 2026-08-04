@@ -1,7 +1,7 @@
 currency: USD
 company_name: Ibotta, Inc.
 sector: Technology Services
-market_cap_billions: 0.5586
+market_cap_billions: 0.5721
 revenue:
   quarterly:
     Q3 2024: 98.62
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 83.26
     Q4 2025: 88.53
     Q1 2026: 82.48
+    Q2 2026: 88.9
   annual:
     2023 Yearly: 320.02
     2024 Yearly: 367.25
@@ -24,14 +25,15 @@ revenue:
     Q4 2025: 83.23
     Q1 2026: 80.72
     Q2 2026: 84.97
-    Q3 2026: 85.91
-    Q4 2026: 92.14
-    Q1 2027: 90.18
+    Q3 2026: 86.8
+    Q4 2026: 92.12
+    Q1 2027: 89.98
+    Q2 2027: 96.35
   annual_forecast:
     2024 Yearly: 372.53
     2025 Yearly: 337.58
-    2026 Yearly: 345.49
-    2027 Yearly: 376.66
+    2026 Yearly: 347.38
+    2027 Yearly: 378.29
     2028 Yearly: 423.05
 eps:
   quarterly:
@@ -42,6 +44,7 @@ eps:
     Q3 2025: 0.05
     Q4 2025: -0.04
     Q1 2026: -0.43
+    Q2 2026: -0.05
   annual:
     2023 Yearly: 1.42
     2024 Yearly: 2.56
@@ -55,9 +58,10 @@ eps:
     Q4 2025: -0.02
     Q1 2026: -0.3
     Q2 2026: -0.21
-    Q3 2026: -0.18
-    Q4 2026: -0.11
-    Q1 2027: -0.2
+    Q3 2026: -0.17
+    Q4 2026: -0.13
+    Q1 2027: -0.21
+    Q2 2027: 0.07
   annual_forecast:
     2024 Yearly: 0.24
     2025 Yearly: 0.14
