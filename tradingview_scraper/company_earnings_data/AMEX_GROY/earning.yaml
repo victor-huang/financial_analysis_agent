@@ -1,0 +1,77 @@
+currency: USD
+company_name: Gold Royalty Corp.
+sector: Non-Energy Minerals
+market_cap_billions: 0.68445
+revenue:
+  quarterly:
+    Q3 2024: 2.06
+    Q4 2024: 3.35
+    Q1 2025: 3.14
+    Q2 2025: 3.82
+    Q3 2025: 4.15
+    Q4 2025: 5.21
+    Q1 2026: 7.18
+  annual:
+    2022 Yearly: 3.94
+    2023 Yearly: 3.05
+    2024 Yearly: 10.1
+    2025 Yearly: 15.61
+  quarterly_forecast:
+    Q3 2024: 2.06
+    Q4 2024: 3.85
+    Q1 2025: 3.72
+    Q2 2025: 3.97
+    Q3 2025: 4.43
+    Q4 2025: 4.97
+    Q1 2026: 7.94
+    Q2 2026: 8.34
+    Q3 2026: 8.74
+    Q4 2026: 10.54
+    Q1 2027: 18.39
+  annual_forecast:
+    2021 Yearly: 3.05
+    2022 Yearly: 4.92
+    2023 Yearly: 3.51
+    2024 Yearly: 10.42
+    2025 Yearly: 15.99
+    2026 Yearly: 33.5
+    2027 Yearly: 56.36
+    2028 Yearly: 86.0
+    2029 Yearly: 64.88
+eps:
+  quarterly:
+    Q3 2024: 0.03
+    Q4 2024: -0.02
+    Q1 2025: -0.01
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.01
+  annual:
+    2021 Yearly: -0.45
+    2022 Yearly: -0.1
+    2023 Yearly: -0.03
+    2024 Yearly: -0.01
+    2025 Yearly: -0.01
+  quarterly_forecast:
+    Q3 2024: -0.01
+    Q4 2024: -0.01
+    Q1 2025: -0.01
+    Q2 2025: -0.01
+    Q3 2025: -0.01
+    Q4 2025: 0.0
+    Q1 2026: 0.01
+    Q2 2026: 0.01
+    Q3 2026: 0.01
+    Q4 2026: 0.02
+    Q1 2027: 0.02
+  annual_forecast:
+    2021 Yearly: -0.05
+    2022 Yearly: -0.1
+    2023 Yearly: -0.05
+    2024 Yearly: 0.0
+    2025 Yearly: -0.02
+    2026 Yearly: 0.05
+    2027 Yearly: 0.09
+    2028 Yearly: 0.18
+    2029 Yearly: 0.18

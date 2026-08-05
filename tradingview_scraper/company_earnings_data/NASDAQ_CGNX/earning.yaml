@@ -1,0 +1,78 @@
+currency: USD
+company_name: Cognex Corporation
+sector: Electronic Technology
+market_cap_billions: 11.9
+revenue:
+  quarterly:
+    Q3 2024: 234.74
+    Q4 2024: 229.68
+    Q1 2025: 216.04
+    Q2 2025: 249.09
+    Q3 2025: 276.89
+    Q4 2025: 252.34
+    Q1 2026: 268.44
+  annual:
+    2021 Yearly: 1040.0
+    2022 Yearly: 1010.0
+    2023 Yearly: 837.55
+    2024 Yearly: 914.51
+    2025 Yearly: 994.36
+  quarterly_forecast:
+    Q3 2024: 233.86
+    Q4 2024: 221.18
+    Q1 2025: 213.0
+    Q2 2025: 246.15
+    Q3 2025: 262.78
+    Q4 2025: 238.99
+    Q1 2026: 245.98
+    Q2 2026: 292.1
+    Q3 2026: 281.35
+    Q4 2026: 265.83
+    Q1 2027: 285.76
+  annual_forecast:
+    2021 Yearly: 1020.0
+    2022 Yearly: 1010.0
+    2023 Yearly: 830.18
+    2024 Yearly: 905.92
+    2025 Yearly: 981.67
+    2026 Yearly: 1110.0
+    2027 Yearly: 1210.0
+    2028 Yearly: 1340.0
+    2029 Yearly: 1540.0
+eps:
+  quarterly:
+    Q3 2024: 0.17
+    Q4 2024: 0.16
+    Q1 2025: 0.16
+    Q2 2025: 0.25
+    Q3 2025: 0.33
+    Q4 2025: 0.27
+    Q1 2026: 0.34
+  annual:
+    2021 Yearly: 1.56
+    2022 Yearly: 1.23
+    2023 Yearly: 0.65
+    2024 Yearly: 0.62
+    2025 Yearly: 1.02
+  quarterly_forecast:
+    Q3 2024: 0.18
+    Q4 2024: 0.15
+    Q1 2025: 0.13
+    Q2 2025: 0.24
+    Q3 2025: 0.29
+    Q4 2025: 0.22
+    Q1 2026: 0.25
+    Q2 2026: 0.42
+    Q3 2026: 0.37
+    Q4 2026: 0.34
+    Q1 2027: 0.39
+  annual_forecast:
+    2021 Yearly: 1.46
+    2022 Yearly: 1.22
+    2023 Yearly: 0.67
+    2024 Yearly: 0.62
+    2025 Yearly: 0.96
+    2026 Yearly: 1.5
+    2027 Yearly: 1.8
+    2028 Yearly: 2.22
+    2029 Yearly: 2.5

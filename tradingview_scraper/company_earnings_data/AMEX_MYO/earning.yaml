@@ -1,0 +1,78 @@
+currency: USD
+company_name: Myomo Inc.
+sector: Distribution Services
+market_cap_billions: 0.041729999999999996
+revenue:
+  quarterly:
+    Q3 2024: 9.21
+    Q4 2024: 12.07
+    Q1 2025: 9.83
+    Q2 2025: 9.65
+    Q3 2025: 10.09
+    Q4 2025: 11.35
+    Q1 2026: 10.11
+  annual:
+    2021 Yearly: 13.86
+    2022 Yearly: 15.56
+    2023 Yearly: 19.24
+    2024 Yearly: 32.55
+    2025 Yearly: 40.93
+  quarterly_forecast:
+    Q3 2024: 8.11
+    Q4 2024: 9.9
+    Q1 2025: 9.22
+    Q2 2025: 9.15
+    Q3 2025: 9.44
+    Q4 2025: 10.4
+    Q1 2026: 9.24
+    Q2 2026: 10.35
+    Q3 2026: 11.16
+    Q4 2026: 12.82
+    Q1 2027: 10.8
+  annual_forecast:
+    2021 Yearly: 12.81
+    2022 Yearly: 15.57
+    2023 Yearly: 19.38
+    2024 Yearly: 30.39
+    2025 Yearly: 39.99
+    2026 Yearly: 44.43
+    2027 Yearly: 50.19
+    2028 Yearly: 67.4
+    2029 Yearly: 82.0
+eps:
+  quarterly:
+    Q3 2024: -0.03
+    Q4 2024: -0.01
+    Q1 2025: -0.08
+    Q2 2025: -0.11
+    Q3 2025: -0.09
+    Q4 2025: -0.09
+    Q1 2026: -0.07
+  annual:
+    2021 Yearly: -1.89
+    2022 Yearly: -1.52
+    2023 Yearly: -0.28
+    2024 Yearly: -0.16
+    2025 Yearly: -0.37
+  quarterly_forecast:
+    Q3 2024: -0.04
+    Q4 2024: -0.02
+    Q1 2025: -0.08
+    Q2 2025: -0.11
+    Q3 2025: -0.11
+    Q4 2025: -0.09
+    Q1 2026: -0.11
+    Q2 2026: -0.1
+    Q3 2026: -0.08
+    Q4 2026: -0.05
+    Q1 2027: -0.08
+  annual_forecast:
+    2021 Yearly: -1.87
+    2022 Yearly: -1.62
+    2023 Yearly: -0.26
+    2024 Yearly: -0.18
+    2025 Yearly: -0.37
+    2026 Yearly: -0.31
+    2027 Yearly: -0.24
+    2028 Yearly: 0.0
+    2029 Yearly: 0.22

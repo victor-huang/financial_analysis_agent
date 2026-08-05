@@ -1,0 +1,74 @@
+currency: USD
+company_name: Tutor Perini Corporation
+sector: Industrial Services
+market_cap_billions: 4.51
+revenue:
+  quarterly:
+    Q3 2024: 1080.0
+    Q4 2024: 1070.0
+    Q1 2025: 1250.0
+    Q2 2025: 1370.0
+    Q3 2025: 1420.0
+    Q4 2025: 1510.0
+    Q1 2026: 1390.0
+  annual:
+    2021 Yearly: 4640.0
+    2022 Yearly: 3790.0
+    2023 Yearly: 3880.0
+    2024 Yearly: 4330.0
+    2025 Yearly: 5540.0
+  quarterly_forecast:
+    Q3 2024: 1170.0
+    Q4 2024: 1080.0
+    Q1 2025: 1070.0
+    Q2 2025: 1270.0
+    Q3 2025: 1380.0
+    Q4 2025: 1360.0
+    Q1 2026: 1440.0
+    Q2 2026: 1570.0
+    Q3 2026: 1630.0
+    Q4 2026: 1680.0
+    Q1 2027: 1580.0
+  annual_forecast:
+    2021 Yearly: 4790.0
+    2022 Yearly: 3860.0
+    2023 Yearly: 3850.0
+    2024 Yearly: 4340.0
+    2025 Yearly: 5390.0
+    2026 Yearly: 6310.0
+    2027 Yearly: 6950.0
+    2028 Yearly: 7140.0
+eps:
+  quarterly:
+    Q3 2024: -1.92
+    Q4 2024: -1.51
+    Q1 2025: 0.53
+    Q2 2025: 0.38
+    Q3 2025: 0.07
+    Q4 2025: 0.54
+    Q1 2026: 0.48
+  annual:
+    2021 Yearly: 1.79
+    2022 Yearly: -4.09
+    2023 Yearly: -3.3
+    2024 Yearly: -3.13
+    2025 Yearly: 1.51
+  quarterly_forecast:
+    Q3 2024: -1.89
+    Q4 2024: 0.1
+    Q1 2025: 0.09
+    Q2 2025: 0.34
+    Q3 2025: 0.46
+    Q4 2025: 0.58
+    Q1 2026: 0.63
+    Q2 2026: 0.67
+    Q3 2026: 0.91
+    Q4 2026: 0.86
+    Q1 2027: 1.0
+  annual_forecast:
+    2022 Yearly: 1.74
+    2023 Yearly: -2.27
+    2024 Yearly: -2.24
+    2025 Yearly: -1.47
+    2026 Yearly: 1.55
+    2027 Yearly: 2.91

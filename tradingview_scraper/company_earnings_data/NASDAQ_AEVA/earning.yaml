@@ -1,0 +1,78 @@
+currency: USD
+company_name: Aeva Technologies, Inc.
+sector: Electronic Technology
+market_cap_billions: 1.38
+revenue:
+  quarterly:
+    Q3 2024: 2.25
+    Q4 2024: 2.7
+    Q1 2025: 3.37
+    Q2 2025: 5.51
+    Q3 2025: 3.58
+    Q4 2025: 5.62
+    Q1 2026: 6.26
+  annual:
+    2021 Yearly: 9.27
+    2022 Yearly: 4.19
+    2023 Yearly: 4.31
+    2024 Yearly: 9.06
+    2025 Yearly: 18.08
+  quarterly_forecast:
+    Q3 2024: 2.06
+    Q4 2024: 2.47
+    Q1 2025: 2.49
+    Q2 2025: 3.39
+    Q3 2025: 2.76
+    Q4 2025: 4.32
+    Q1 2026: 4.97
+    Q2 2026: 6.16
+    Q3 2026: 6.79
+    Q4 2026: 12.5
+    Q1 2027: 12.08
+  annual_forecast:
+    2021 Yearly: 9.34
+    2022 Yearly: 7.1
+    2023 Yearly: 4.3
+    2024 Yearly: 8.84
+    2025 Yearly: 16.66
+    2026 Yearly: 32.04
+    2027 Yearly: 71.2
+    2028 Yearly: 189.3
+    2029 Yearly: 447.86
+eps:
+  quarterly:
+    Q3 2024: -0.55
+    Q4 2024: -0.49
+    Q1 2025: -0.45
+    Q2 2025: -0.44
+    Q3 2025: -0.46
+    Q4 2025: -0.4
+    Q1 2026: -0.41
+  annual:
+    2021 Yearly: -2.05
+    2022 Yearly: -2.85
+    2023 Yearly: -2.55
+    2024 Yearly: -2.17
+    2025 Yearly: -1.75
+  quarterly_forecast:
+    Q3 2024: -0.59
+    Q4 2024: -0.57
+    Q1 2025: -0.48
+    Q2 2025: -0.47
+    Q3 2025: -0.46
+    Q4 2025: -0.44
+    Q1 2026: -0.44
+    Q2 2026: -0.43
+    Q3 2026: -0.43
+    Q4 2026: -0.41
+    Q1 2027: -0.4
+  annual_forecast:
+    2021 Yearly: -2.02
+    2022 Yearly: -2.8
+    2023 Yearly: -2.56
+    2024 Yearly: -2.27
+    2025 Yearly: -1.81
+    2026 Yearly: -1.69
+    2027 Yearly: -1.54
+    2028 Yearly: -1.14
+    2029 Yearly: -0.01

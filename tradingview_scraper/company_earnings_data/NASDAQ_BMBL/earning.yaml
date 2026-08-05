@@ -1,0 +1,78 @@
+currency: USD
+company_name: Bumble Inc.
+sector: Technology Services
+market_cap_billions: 0.41738
+revenue:
+  quarterly:
+    Q3 2024: 273.61
+    Q4 2024: 261.6
+    Q1 2025: 247.1
+    Q2 2025: 248.23
+    Q3 2025: 246.16
+    Q4 2025: 224.16
+    Q1 2026: 212.0
+  annual:
+    2021 Yearly: 765.66
+    2022 Yearly: 903.5
+    2023 Yearly: 1050.0
+    2024 Yearly: 1070.0
+    2025 Yearly: 965.66
+  quarterly_forecast:
+    Q3 2024: 271.83
+    Q4 2024: 260.51
+    Q1 2025: 246.29
+    Q2 2025: 245.25
+    Q3 2025: 244.74
+    Q4 2025: 221.41
+    Q1 2026: 211.59
+    Q2 2026: 210.46
+    Q3 2026: 214.49
+    Q4 2026: 207.28
+    Q1 2027: 204.23
+  annual_forecast:
+    2021 Yearly: 767.14
+    2022 Yearly: 899.28
+    2023 Yearly: 1050.0
+    2024 Yearly: 1070.0
+    2025 Yearly: 962.93
+    2026 Yearly: 843.88
+    2027 Yearly: 829.57
+    2028 Yearly: 846.54
+    2029 Yearly: 707.6
+eps:
+  quarterly:
+    Q3 2024: -5.11
+    Q4 2024: 0.06
+    Q1 2025: 0.13
+    Q2 2025: -2.45
+    Q3 2025: 0.33
+    Q4 2025: -4.06
+    Q1 2026: 0.34
+  annual:
+    2021 Yearly: 1.48
+    2022 Yearly: -0.62
+    2023 Yearly: -0.03
+    2024 Yearly: -4.54
+    2025 Yearly: -6.03
+  quarterly_forecast:
+    Q3 2024: 0.2
+    Q4 2024: 0.19
+    Q1 2025: 0.14
+    Q2 2025: 0.35
+    Q3 2025: 0.34
+    Q4 2025: 0.23
+    Q1 2026: 0.28
+    Q2 2026: 0.25
+    Q3 2026: 0.26
+    Q4 2026: 0.2
+    Q1 2027: 0.2
+  annual_forecast:
+    2021 Yearly: 1.61
+    2022 Yearly: 0.24
+    2023 Yearly: 0.27
+    2024 Yearly: -4.45
+    2025 Yearly: -1.92
+    2026 Yearly: 1.05
+    2027 Yearly: 0.98
+    2028 Yearly: 0.86
+    2029 Yearly: 0.57

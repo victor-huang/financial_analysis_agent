@@ -1,0 +1,51 @@
+currency: USD
+company_name: Greenlight Reinsurance, Ltd.
+sector: Finance
+market_cap_billions: 0.5426
+revenue:
+  quarterly:
+    Q4 2024: 143.76
+    Q1 2025: 247.94
+    Q2 2025: 179.63
+    Q3 2025: 184.38
+    Q4 2025: 161.31
+    Q1 2026: 227.94
+    Q2 2026: 183.12
+  annual:
+    2021 Yearly: 565.39
+    2022 Yearly: 563.17
+    2023 Yearly: 636.81
+    2024 Yearly: 698.34
+    2025 Yearly: 773.26
+  quarterly_forecast: {}
+  annual_forecast: {}
+eps:
+  quarterly:
+    Q4 2024: -0.81
+    Q1 2025: 0.86
+    Q2 2025: 0.01
+    Q3 2025: -0.13
+    Q4 2025: 1.44
+    Q1 2026: 1.05
+    Q2 2026: -0.89
+  annual:
+    2021 Yearly: 0.51
+    2022 Yearly: 0.73
+    2023 Yearly: 2.5
+    2024 Yearly: 1.24
+    2025 Yearly: 2.17
+  quarterly_forecast:
+    Q1 2025: -0.02
+    Q2 2025: 0.5
+    Q3 2025: -0.35
+    Q4 2025: 0.1
+    Q1 2026: 1.12
+    Q2 2026: 1.25
+  annual_forecast:
+    2021 Yearly: 0.65
+    2022 Yearly: 0.5
+    2023 Yearly: 2.35
+    2024 Yearly: 2.0
+    2025 Yearly: 1.6
+    2026 Yearly: 1.8
+    2027 Yearly: 1.5

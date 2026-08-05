@@ -1,0 +1,78 @@
+currency: USD
+company_name: Applovin Corporation
+sector: Technology Services
+market_cap_billions: 140.99
+revenue:
+  quarterly:
+    Q3 2024: 1200.0
+    Q4 2024: 1370.0
+    Q1 2025: 1480.0
+    Q2 2025: 1260.0
+    Q3 2025: 1410.0
+    Q4 2025: 1660.0
+    Q1 2026: 1840.0
+  annual:
+    2021 Yearly: 2790.0
+    2022 Yearly: 2820.0
+    2023 Yearly: 3280.0
+    2024 Yearly: 4710.0
+    2025 Yearly: 5480.0
+  quarterly_forecast:
+    Q3 2024: 1130.0
+    Q4 2024: 1260.0
+    Q1 2025: 1380.0
+    Q2 2025: 1220.0
+    Q3 2025: 1340.0
+    Q4 2025: 1610.0
+    Q1 2026: 1770.0
+    Q2 2026: 1940.0
+    Q3 2026: 2080.0
+    Q4 2026: 2350.0
+    Q1 2027: 2440.0
+  annual_forecast:
+    2021 Yearly: 2780.0
+    2022 Yearly: 2810.0
+    2023 Yearly: 3260.0
+    2024 Yearly: 4600.0
+    2025 Yearly: 5670.0
+    2026 Yearly: 8200.0
+    2027 Yearly: 10730.0
+    2028 Yearly: 13820.0
+    2029 Yearly: 13680.0
+eps:
+  quarterly:
+    Q3 2024: 1.25
+    Q4 2024: 1.73
+    Q1 2025: 1.67
+    Q2 2025: 2.39
+    Q3 2025: 2.45
+    Q4 2025: 3.24
+    Q1 2026: 3.56
+  annual:
+    2021 Yearly: 0.09
+    2022 Yearly: -0.52
+    2023 Yearly: 0.98
+    2024 Yearly: 4.53
+    2025 Yearly: 9.75
+  quarterly_forecast:
+    Q3 2024: 0.92
+    Q4 2024: 1.25
+    Q1 2025: 1.44
+    Q2 2025: 1.96
+    Q3 2025: 2.38
+    Q4 2025: 2.95
+    Q1 2026: 3.44
+    Q2 2026: 3.76
+    Q3 2026: 4.05
+    Q4 2026: 4.67
+    Q1 2027: 4.84
+  annual_forecast:
+    2021 Yearly: 0.15
+    2022 Yearly: -0.25
+    2023 Yearly: 0.85
+    2024 Yearly: 4.06
+    2025 Yearly: 9.4
+    2026 Yearly: 16.07
+    2027 Yearly: 21.57
+    2028 Yearly: 28.5
+    2029 Yearly: 34.38

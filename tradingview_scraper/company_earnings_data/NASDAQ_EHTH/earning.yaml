@@ -1,7 +1,7 @@
 currency: USD
 company_name: eHealth, Inc.
 sector: Finance
-market_cap_billions: 0.0438
+market_cap_billions: 0.04507
 revenue:
   quarterly:
     Q3 2024: 58.41
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 53.87
     Q4 2025: 326.24
     Q1 2026: 88.02
+    Q2 2026: 33.57
   annual:
     2021 Yearly: 538.2
     2022 Yearly: 405.36
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 33.72
     Q4 2026: 274.15
     Q1 2027: 85.14
+    Q2 2027: 33.8
   annual_forecast:
     2021 Yearly: 546.4
     2022 Yearly: 391.91
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -1.26
     Q4 2025: 2.58
     Q1 2026: -0.3
+    Q2 2026: -1.1
   annual:
     2021 Yearly: -1.4
     2022 Yearly: -2.11
@@ -66,6 +69,7 @@ eps:
     Q3 2026: -1.07
     Q4 2026: 2.46
     Q1 2027: -0.18
+    Q2 2027: -0.82
   annual_forecast:
     2021 Yearly: -0.92
     2022 Yearly: -2.78

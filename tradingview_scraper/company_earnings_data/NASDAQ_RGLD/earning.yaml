@@ -1,0 +1,78 @@
+currency: USD
+company_name: Royal Gold, Inc.
+sector: Non-Energy Minerals
+market_cap_billions: 17.49
+revenue:
+  quarterly:
+    Q3 2024: 193.84
+    Q4 2024: 202.56
+    Q1 2025: 193.44
+    Q2 2025: 209.64
+    Q3 2025: 252.07
+    Q4 2025: 375.32
+    Q1 2026: 469.13
+  annual:
+    2021 Yearly: 615.86
+    2022 Yearly: 603.21
+    2023 Yearly: 605.72
+    2024 Yearly: 719.39
+    2025 Yearly: 1030.0
+  quarterly_forecast:
+    Q3 2024: 184.12
+    Q4 2024: 187.78
+    Q1 2025: 182.17
+    Q2 2025: 217.83
+    Q3 2025: 254.02
+    Q4 2025: 391.84
+    Q1 2026: 471.83
+    Q2 2026: 458.85
+    Q3 2026: 455.59
+    Q4 2026: 474.88
+    Q1 2027: 552.16
+  annual_forecast:
+    2021 Yearly: 615.86
+    2022 Yearly: 592.38
+    2023 Yearly: 597.27
+    2024 Yearly: 713.81
+    2025 Yearly: 1050.0
+    2026 Yearly: 1910.0
+    2027 Yearly: 2180.0
+    2028 Yearly: 2170.0
+    2029 Yearly: 1940.0
+eps:
+  quarterly:
+    Q3 2024: 1.47
+    Q4 2024: 1.63
+    Q1 2025: 1.51
+    Q2 2025: 1.81
+    Q3 2025: 2.06
+    Q4 2025: 1.92
+    Q1 2026: 2.72
+  annual:
+    2021 Yearly: 3.59
+    2022 Yearly: 3.43
+    2023 Yearly: 3.53
+    2024 Yearly: 5.26
+    2025 Yearly: 7.33
+  quarterly_forecast:
+    Q3 2024: 1.32
+    Q4 2024: 1.48
+    Q1 2025: 1.43
+    Q2 2025: 1.69
+    Q3 2025: 2.15
+    Q4 2025: 2.59
+    Q1 2026: 2.77
+    Q2 2026: 2.55
+    Q3 2026: 2.64
+    Q4 2026: 2.79
+    Q1 2027: 3.35
+  annual_forecast:
+    2021 Yearly: 3.59
+    2022 Yearly: 3.38
+    2023 Yearly: 3.39
+    2024 Yearly: 5.07
+    2025 Yearly: 8.04
+    2026 Yearly: 10.63
+    2027 Yearly: 12.82
+    2028 Yearly: 13.08
+    2029 Yearly: 12.82

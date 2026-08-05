@@ -1,7 +1,7 @@
-currency: null
+currency: USD
 company_name: ePlus inc.
 sector: Technology Services
-market_cap_billions: 2.42
+market_cap_billions: 2.51
 revenue:
   quarterly:
     Q2 2024: 515.17

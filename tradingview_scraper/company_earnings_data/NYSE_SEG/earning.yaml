@@ -1,0 +1,44 @@
+currency: USD
+company_name: Seaport Entertainment Group Inc.
+sector: Consumer Services
+market_cap_billions: 0.34014999999999995
+revenue:
+  quarterly:
+    Q2 2025: 39.8
+    Q3 2025: 45.05
+    Q4 2025: 29.49
+    Q1 2026: 12.74
+  annual:
+    2025 Yearly: 130.41
+  quarterly_forecast:
+    Q3 2025: 46.9
+    Q4 2025: 29.4
+    Q1 2026: 16.96
+    Q2 2026: 32.16
+    Q3 2026: 37.96
+    Q4 2026: 26.26
+    Q1 2027: 15.4
+  annual_forecast:
+    2025 Yearly: 130.32
+    2026 Yearly: 109.13
+    2027 Yearly: 129.2
+eps:
+  quarterly:
+    Q2 2025: -0.58
+    Q3 2025: -0.57
+    Q4 2025: -1.37
+    Q1 2026: -1.41
+  annual:
+    2025 Yearly: -4.26
+  quarterly_forecast:
+    Q3 2025: -0.76
+    Q4 2025: -0.82
+    Q1 2026: -1.24
+    Q2 2026: -0.25
+    Q3 2026: -0.05
+    Q4 2026: -0.55
+    Q1 2027: -0.68
+  annual_forecast:
+    2025 Yearly: -3.76
+    2026 Yearly: -2.26
+    2027 Yearly: 0.09

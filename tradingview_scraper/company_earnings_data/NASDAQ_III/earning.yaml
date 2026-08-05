@@ -1,0 +1,74 @@
+currency: USD
+company_name: Information Services Group, Inc.
+sector: Commercial Services
+market_cap_billions: 0.20954
+revenue:
+  quarterly:
+    Q3 2024: 61.28
+    Q4 2024: 58.01
+    Q1 2025: 59.58
+    Q2 2025: 61.56
+    Q3 2025: 62.02
+    Q4 2025: 61.21
+    Q1 2026: 61.18
+  annual:
+    2021 Yearly: 277.83
+    2022 Yearly: 286.27
+    2023 Yearly: 285.57
+    2024 Yearly: 247.64
+    2025 Yearly: 244.72
+  quarterly_forecast:
+    Q3 2024: 60.51
+    Q4 2024: 57.61
+    Q1 2025: 58.54
+    Q2 2025: 60.0
+    Q3 2025: 60.97
+    Q4 2025: 61.11
+    Q1 2026: 60.85
+    Q2 2026: 62.86
+    Q3 2026: 63.88
+    Q4 2026: 63.78
+    Q1 2027: 63.72
+  annual_forecast:
+    2021 Yearly: 276.23
+    2022 Yearly: 283.32
+    2023 Yearly: 293.82
+    2024 Yearly: 247.44
+    2025 Yearly: 244.62
+    2026 Yearly: 251.73
+    2027 Yearly: 263.16
+eps:
+  quarterly:
+    Q3 2024: 0.02
+    Q4 2024: 0.06
+    Q1 2025: 0.03
+    Q2 2025: 0.04
+    Q3 2025: 0.06
+    Q4 2025: 0.05
+    Q1 2026: 0.05
+  annual:
+    2021 Yearly: 0.3
+    2022 Yearly: 0.39
+    2023 Yearly: 0.12
+    2024 Yearly: 0.06
+    2025 Yearly: 0.19
+  quarterly_forecast:
+    Q3 2024: 0.01
+    Q4 2024: 0.0
+    Q1 2025: 0.02
+    Q2 2025: 0.03
+    Q3 2025: 0.04
+    Q4 2025: 0.04
+    Q1 2026: 0.04
+    Q2 2026: 0.05
+    Q3 2026: 0.06
+    Q4 2026: 0.06
+    Q1 2027: 0.06
+  annual_forecast:
+    2021 Yearly: 0.29
+    2022 Yearly: 0.39
+    2023 Yearly: 0.23
+    2024 Yearly: -0.01
+    2025 Yearly: 0.19
+    2026 Yearly: 0.23
+    2027 Yearly: 0.28

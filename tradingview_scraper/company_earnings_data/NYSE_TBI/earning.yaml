@@ -1,7 +1,7 @@
 currency: USD
 company_name: TrueBlue, Inc.
 sector: Commercial Services
-market_cap_billions: 0.22925
+market_cap_billions: 0.23381
 revenue:
   quarterly:
     Q3 2024: 382.36
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 431.27
     Q4 2025: 418.18
     Q1 2026: 398.57
+    Q2 2026: 443.0
   annual:
     2021 Yearly: 2170.0
     2022 Yearly: 2250.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 454.17
     Q4 2026: 438.8
     Q1 2027: 422.54
+    Q2 2027: 439.97
   annual_forecast:
     2021 Yearly: 2130.0
     2022 Yearly: 2260.0
@@ -46,6 +48,7 @@ eps:
     Q3 2025: 0.03
     Q4 2025: -0.25
     Q1 2026: -0.41
+    Q2 2026: 0.06
   annual:
     2021 Yearly: 2.0
     2022 Yearly: 2.43
@@ -64,6 +67,7 @@ eps:
     Q3 2026: 0.17
     Q4 2026: 0.12
     Q1 2027: -0.04
+    Q2 2027: 0.22
   annual_forecast:
     2021 Yearly: 1.76
     2022 Yearly: 2.48

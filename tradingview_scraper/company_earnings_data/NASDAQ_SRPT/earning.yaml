@@ -1,0 +1,78 @@
+currency: USD
+company_name: Sarepta Therapeutics, Inc.
+sector: Health Technology
+market_cap_billions: 1.73
+revenue:
+  quarterly:
+    Q3 2024: 467.17
+    Q4 2024: 658.41
+    Q1 2025: 744.86
+    Q2 2025: 611.09
+    Q3 2025: 399.36
+    Q4 2025: 442.93
+    Q1 2026: 730.8
+  annual:
+    2021 Yearly: 701.89
+    2022 Yearly: 933.01
+    2023 Yearly: 1240.0
+    2024 Yearly: 1900.0
+    2025 Yearly: 2200.0
+  quarterly_forecast:
+    Q3 2024: 407.17
+    Q4 2024: 627.59
+    Q1 2025: 687.47
+    Q2 2025: 530.66
+    Q3 2025: 335.76
+    Q4 2025: 369.6
+    Q1 2026: 474.16
+    Q2 2026: 366.39
+    Q3 2026: 370.14
+    Q4 2026: 375.16
+    Q1 2027: 360.91
+  annual_forecast:
+    2021 Yearly: 695.42
+    2022 Yearly: 924.7
+    2023 Yearly: 1230.0
+    2024 Yearly: 1850.0
+    2025 Yearly: 1860.0
+    2026 Yearly: 1830.0
+    2027 Yearly: 1420.0
+    2028 Yearly: 1390.0
+    2029 Yearly: 1310.0
+eps:
+  quarterly:
+    Q3 2024: 0.34
+    Q4 2024: 1.5
+    Q1 2025: -4.6
+    Q2 2025: 1.89
+    Q3 2025: -1.8
+    Q4 2025: -3.93
+    Q1 2026: 2.88
+  annual:
+    2021 Yearly: -5.15
+    2022 Yearly: -8.03
+    2023 Yearly: -5.8
+    2024 Yearly: 2.18
+    2025 Yearly: -7.13
+  quarterly_forecast:
+    Q3 2024: -0.08
+    Q4 2024: 1.88
+    Q1 2025: -3.21
+    Q2 2025: 0.83
+    Q3 2025: -0.73
+    Q4 2025: -1.2
+    Q1 2026: 0.98
+    Q2 2026: 0.22
+    Q3 2026: 0.22
+    Q4 2026: 0.32
+    Q1 2027: 0.11
+  annual_forecast:
+    2021 Yearly: -5.11
+    2022 Yearly: -8.06
+    2023 Yearly: -6.57
+    2024 Yearly: 2.62
+    2025 Yearly: -4.89
+    2026 Yearly: 3.67
+    2027 Yearly: 0.86
+    2028 Yearly: 0.69
+    2029 Yearly: 0.26

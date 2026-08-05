@@ -1,7 +1,7 @@
 currency: USD
 company_name: Pampa Energia S.A.
 sector: Utilities
-market_cap_billions: 5.1
+market_cap_billions: 5.02
 revenue:
   quarterly:
     Q3 2024: 540.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 591.0
     Q4 2025: 507.0
     Q1 2026: 573.0
+    Q2 2026: 746.0
   annual:
     2021 Yearly: 1330.0
     2022 Yearly: 1210.0
@@ -20,13 +21,13 @@ revenue:
   quarterly_forecast:
     Q4 2024: 545.27
     Q1 2025: 404.27
-    Q2 2025: 444.87
-    Q3 2025: 506.54
-    Q4 2025: 598.17
-    Q1 2026: 500.02
-    Q2 2026: 567.99
-    Q3 2026: 743.17
-    Q4 2026: 780.13
+    Q2 2025: 404.27
+    Q3 2025: 444.87
+    Q4 2025: 506.54
+    Q1 2026: 598.17
+    Q2 2026: 500.02
+    Q3 2026: 567.99
+    Q4 2026: 743.17
   annual_forecast:
     2021 Yearly: 1470.0
     2022 Yearly: 1580.0
@@ -46,6 +47,7 @@ eps:
     Q3 2025: 0.4
     Q4 2025: 3.0
     Q1 2026: 3.9
+    Q2 2026: 0.13
   annual:
     2021 Yearly: 3.05
     2022 Yearly: 8.26
@@ -64,6 +66,7 @@ eps:
     Q3 2026: 2.64
     Q4 2026: 1.79
     Q1 2027: 2.07
+    Q2 2027: 2.45
   annual_forecast:
     2022 Yearly: 4.41
     2023 Yearly: 4.82

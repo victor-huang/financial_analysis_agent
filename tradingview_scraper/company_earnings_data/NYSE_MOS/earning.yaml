@@ -1,7 +1,7 @@
 currency: USD
 company_name: Mosaic Company (The)
 sector: Process Industries
-market_cap_billions: 6.93
+market_cap_billions: 7.22
 revenue:
   quarterly:
     Q3 2024: 2810.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 3450.0
     Q4 2025: 2970.0
     Q1 2026: 3000.0
+    Q2 2026: 2820.0
   annual:
     2021 Yearly: 12360.0
     2022 Yearly: 19130.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 3460.0
     Q4 2026: 3220.0
     Q1 2027: 3040.0
+    Q2 2027: 3070.0
   annual_forecast:
     2021 Yearly: 12360.0
     2022 Yearly: 18860.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 1.04
     Q4 2025: 0.22
     Q1 2026: 0.05
+    Q2 2026: 0.13
   annual:
     2021 Yearly: 5.04
     2022 Yearly: 11.01
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.23
     Q4 2026: 0.26
     Q1 2027: 0.36
+    Q2 2027: 0.39
   annual_forecast:
     2021 Yearly: 5.06
     2022 Yearly: 11.44

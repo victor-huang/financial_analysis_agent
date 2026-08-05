@@ -1,7 +1,7 @@
 currency: USD
 company_name: Paymentus Holdings, Inc.
 sector: Commercial Services
-market_cap_billions: 4.34
+market_cap_billions: 5.61
 revenue:
   quarterly:
     Q3 2024: 231.57
@@ -25,19 +25,20 @@ revenue:
     Q3 2025: 280.39
     Q4 2025: 313.77
     Q1 2026: 335.45
-    Q2 2026: 349.76
-    Q3 2026: 358.42
-    Q4 2026: 373.23
-    Q1 2027: 416.62
+    Q2 2026: 358.61
+    Q3 2026: 358.63
+    Q4 2026: 374.31
+    Q1 2027: 416.16
+    Q2 2027: 422.79
   annual_forecast:
     2021 Yearly: 392.71
     2022 Yearly: 491.72
     2023 Yearly: 607.3
     2024 Yearly: 823.66
     2025 Yearly: 1180.0
-    2026 Yearly: 1440.0
+    2026 Yearly: 1450.0
     2027 Yearly: 1700.0
-    2028 Yearly: 2000.0
+    2028 Yearly: 2009.9999999999998
 eps:
   quarterly:
     Q3 2024: 0.15
@@ -61,16 +62,17 @@ eps:
     Q3 2025: 0.15
     Q4 2025: 0.16
     Q1 2026: 0.18
-    Q2 2026: 0.21
-    Q3 2026: 0.2
-    Q4 2026: 0.22
+    Q2 2026: 0.25
+    Q3 2026: 0.21
+    Q4 2026: 0.23
     Q1 2027: 0.24
+    Q2 2027: 0.28
   annual_forecast:
     2021 Yearly: 0.07
     2022 Yearly: 0.03
     2023 Yearly: 0.27
     2024 Yearly: 0.48
     2025 Yearly: 0.65
-    2026 Yearly: 0.85
-    2027 Yearly: 1.03
-    2028 Yearly: 1.29
+    2026 Yearly: 0.9
+    2027 Yearly: 1.07
+    2028 Yearly: 1.38

@@ -1,0 +1,74 @@
+currency: USD
+company_name: Veeco Instruments Inc.
+sector: Electronic Technology
+market_cap_billions: 3.28
+revenue:
+  quarterly:
+    Q3 2024: 184.81
+    Q4 2024: 182.13
+    Q1 2025: 167.29
+    Q2 2025: 166.1
+    Q3 2025: 165.88
+    Q4 2025: 165.02
+    Q1 2026: 158.34
+  annual:
+    2021 Yearly: 583.28
+    2022 Yearly: 646.14
+    2023 Yearly: 666.43
+    2024 Yearly: 717.3
+    2025 Yearly: 664.29
+  quarterly_forecast:
+    Q3 2024: 180.57
+    Q4 2024: 177.74
+    Q1 2025: 166.0
+    Q2 2025: 151.31
+    Q3 2025: 160.49
+    Q4 2025: 165.03
+    Q1 2026: 160.07
+    Q2 2026: 180.08
+    Q3 2026: 209.68
+    Q4 2026: 234.68
+    Q1 2027: 246.71
+  annual_forecast:
+    2021 Yearly: 581.49
+    2022 Yearly: 653.69
+    2023 Yearly: 661.72
+    2024 Yearly: 712.85
+    2025 Yearly: 664.32
+    2026 Yearly: 778.56
+    2027 Yearly: 1060.0
+eps:
+  quarterly:
+    Q3 2024: 0.46
+    Q4 2024: 0.41
+    Q1 2025: 0.37
+    Q2 2025: 0.36
+    Q3 2025: 0.36
+    Q4 2025: 0.24
+    Q1 2026: 0.14
+  annual:
+    2021 Yearly: 1.43
+    2022 Yearly: 1.57
+    2023 Yearly: 1.69
+    2024 Yearly: 1.74
+    2025 Yearly: 1.33
+  quarterly_forecast:
+    Q3 2024: 0.45
+    Q4 2024: 0.4
+    Q1 2025: 0.32
+    Q2 2025: 0.23
+    Q3 2025: 0.28
+    Q4 2025: 0.24
+    Q1 2026: 0.19
+    Q2 2026: 0.26
+    Q3 2026: 0.52
+    Q4 2026: 0.71
+    Q1 2027: 0.72
+  annual_forecast:
+    2021 Yearly: 1.36
+    2022 Yearly: 1.5
+    2023 Yearly: 1.61
+    2024 Yearly: 1.72
+    2025 Yearly: 1.33
+    2026 Yearly: 1.63
+    2027 Yearly: 3.34

@@ -1,0 +1,48 @@
+currency: USD
+company_name: Pattern Group Inc. - Series A
+sector: Commercial Services
+market_cap_billions: 4.19
+revenue:
+  quarterly:
+    Q2 2025: 598.15
+    Q3 2025: 639.65
+    Q4 2025: 723.1
+    Q1 2026: 773.73
+  annual:
+    2025 Yearly: 2500.0
+  quarterly_forecast:
+    Q3 2025: 572.68
+    Q4 2025: 691.52
+    Q1 2026: 716.75
+    Q2 2026: 817.14
+    Q3 2026: 831.75
+    Q4 2026: 890.25
+    Q1 2027: 949.47
+  annual_forecast:
+    2025 Yearly: 2470.0
+    2026 Yearly: 3310.0
+    2027 Yearly: 4090.0
+    2028 Yearly: 4960.0
+    2029 Yearly: 6140.0
+eps:
+  quarterly:
+    Q2 2025: 0.2
+    Q3 2025: -2.19
+    Q4 2025: 0.16
+    Q1 2026: 0.16
+  annual:
+    2025 Yearly: -1.36
+  quarterly_forecast:
+    Q3 2025: -2.7
+    Q4 2025: 0.1
+    Q1 2026: 0.1
+    Q2 2026: 0.12
+    Q3 2026: 0.13
+    Q4 2026: 0.15
+    Q1 2027: 0.2
+  annual_forecast:
+    2025 Yearly: -1.46
+    2026 Yearly: 0.56
+    2027 Yearly: 0.71
+    2028 Yearly: 0.98
+    2029 Yearly: 1.36

@@ -1,0 +1,72 @@
+currency: USD
+company_name: Novanta Inc.
+sector: Electronic Technology
+market_cap_billions: 5.68
+revenue:
+  quarterly:
+    Q3 2024: 244.41
+    Q4 2024: 238.1
+    Q1 2025: 233.37
+    Q2 2025: 241.05
+    Q3 2025: 247.84
+    Q4 2025: 258.35
+    Q1 2026: 257.7
+  annual:
+    2021 Yearly: 706.79
+    2022 Yearly: 860.9
+    2023 Yearly: 881.66
+    2024 Yearly: 949.2
+    2025 Yearly: 980.6
+  quarterly_forecast:
+    Q4 2024: 242.33
+    Q1 2025: 240.29
+    Q2 2025: 233.34
+    Q3 2025: 237.97
+    Q4 2025: 245.95
+    Q1 2026: 255.59
+    Q2 2026: 253.4
+    Q3 2026: 262.3
+    Q4 2026: 262.82
+  annual_forecast:
+    2021 Yearly: 700.15
+    2022 Yearly: 858.09
+    2023 Yearly: 880.85
+    2024 Yearly: 951.48
+    2025 Yearly: 977.86
+    2026 Yearly: 1050.0
+    2027 Yearly: 1130.0
+eps:
+  quarterly:
+    Q3 2024: 0.85
+    Q4 2024: 0.76
+    Q1 2025: 0.74
+    Q2 2025: 0.76
+    Q3 2025: 0.87
+    Q4 2025: 0.91
+    Q1 2026: 0.81
+  annual:
+    2021 Yearly: 2.62
+    2022 Yearly: 3.07
+    2023 Yearly: 3.02
+    2024 Yearly: 3.08
+    2025 Yearly: 3.29
+  quarterly_forecast:
+    Q3 2024: 0.85
+    Q4 2024: 0.71
+    Q1 2025: 0.67
+    Q2 2025: 0.73
+    Q3 2025: 0.82
+    Q4 2025: 0.88
+    Q1 2026: 0.78
+    Q2 2026: 0.83
+    Q3 2026: 0.94
+    Q4 2026: 1.0
+    Q1 2027: 0.99
+  annual_forecast:
+    2021 Yearly: 2.59
+    2022 Yearly: 3.04
+    2023 Yearly: 3.02
+    2024 Yearly: 3.03
+    2025 Yearly: 3.25
+    2026 Yearly: 3.59
+    2027 Yearly: 4.14

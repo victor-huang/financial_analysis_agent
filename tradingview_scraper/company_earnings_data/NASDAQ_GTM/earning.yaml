@@ -1,0 +1,78 @@
+currency: USD
+company_name: ZoomInfo Technologies Inc.
+sector: Technology Services
+market_cap_billions: 1.07
+revenue:
+  quarterly:
+    Q3 2024: 303.6
+    Q4 2024: 309.1
+    Q1 2025: 305.7
+    Q2 2025: 306.7
+    Q3 2025: 318.0
+    Q4 2025: 319.1
+    Q1 2026: 310.2
+  annual:
+    2021 Yearly: 747.2
+    2022 Yearly: 1100.0
+    2023 Yearly: 1240.0
+    2024 Yearly: 1210.0
+    2025 Yearly: 1250.0
+  quarterly_forecast:
+    Q3 2024: 299.37
+    Q4 2024: 297.66
+    Q1 2025: 295.51
+    Q2 2025: 296.34
+    Q3 2025: 303.84
+    Q4 2025: 309.28
+    Q1 2026: 307.94
+    Q2 2026: 301.53
+    Q3 2026: 293.61
+    Q4 2026: 289.77
+    Q1 2027: 289.48
+  annual_forecast:
+    2021 Yearly: 734.7
+    2022 Yearly: 1100.0
+    2023 Yearly: 1230.0
+    2024 Yearly: 1200.0
+    2025 Yearly: 1240.0
+    2026 Yearly: 1200.0
+    2027 Yearly: 1170.0
+    2028 Yearly: 1200.0
+    2029 Yearly: 1200.0
+eps:
+  quarterly:
+    Q3 2024: 0.28
+    Q4 2024: 0.26
+    Q1 2025: 0.23
+    Q2 2025: 0.25
+    Q3 2025: 0.28
+    Q4 2025: 0.32
+    Q1 2026: 0.28
+  annual:
+    2021 Yearly: 0.57
+    2022 Yearly: 0.88
+    2023 Yearly: 1.01
+    2024 Yearly: 0.96
+    2025 Yearly: 1.09
+  quarterly_forecast:
+    Q3 2024: 0.22
+    Q4 2024: 0.23
+    Q1 2025: 0.22
+    Q2 2025: 0.23
+    Q3 2025: 0.26
+    Q4 2025: 0.28
+    Q1 2026: 0.26
+    Q2 2026: 0.26
+    Q3 2026: 0.28
+    Q4 2026: 0.28
+    Q1 2027: 0.27
+  annual_forecast:
+    2021 Yearly: 0.52
+    2022 Yearly: 0.84
+    2023 Yearly: 1.0
+    2024 Yearly: 0.93
+    2025 Yearly: 1.05
+    2026 Yearly: 1.11
+    2027 Yearly: 1.11
+    2028 Yearly: 1.21
+    2029 Yearly: 1.1

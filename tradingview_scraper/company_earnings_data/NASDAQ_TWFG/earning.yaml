@@ -1,0 +1,64 @@
+currency: USD
+company_name: TWFG, Inc.
+sector: Finance
+market_cap_billions: 1.48
+revenue:
+  quarterly:
+    Q3 2024: 54.64
+    Q4 2024: 51.74
+    Q1 2025: 53.82
+    Q2 2025: 60.31
+    Q3 2025: 64.12
+    Q4 2025: 68.83
+    Q1 2026: 72.84
+  annual:
+    2024 Yearly: 203.76
+    2025 Yearly: 247.08
+  quarterly_forecast:
+    Q3 2024: 53.72
+    Q4 2024: 49.24
+    Q1 2025: 53.79
+    Q2 2025: 63.32
+    Q3 2025: 64.09
+    Q4 2025: 62.92
+    Q1 2026: 67.67
+    Q2 2026: 77.34
+    Q3 2026: 75.48
+    Q4 2026: 75.03
+    Q1 2027: 82.62
+  annual_forecast:
+    2024 Yearly: 203.49
+    2025 Yearly: 241.37
+    2026 Yearly: 301.66
+    2027 Yearly: 353.31
+    2028 Yearly: 420.23
+eps:
+  quarterly:
+    Q3 2024: 0.15
+    Q4 2024: 0.19
+    Q1 2025: 0.16
+    Q2 2025: 0.2
+    Q3 2025: 0.23
+    Q4 2025: 0.3
+    Q1 2026: 0.29
+  annual:
+    2024 Yearly: 0.59
+    2025 Yearly: 0.88
+  quarterly_forecast:
+    Q3 2024: 0.16
+    Q4 2024: 0.11
+    Q1 2025: 0.15
+    Q2 2025: 0.17
+    Q3 2025: 0.18
+    Q4 2025: 0.19
+    Q1 2026: 0.2
+    Q2 2026: 0.26
+    Q3 2026: 0.24
+    Q4 2026: 0.23
+    Q1 2027: 0.27
+  annual_forecast:
+    2024 Yearly: 0.57
+    2025 Yearly: 0.79
+    2026 Yearly: 1.03
+    2027 Yearly: 1.11
+    2028 Yearly: 1.26

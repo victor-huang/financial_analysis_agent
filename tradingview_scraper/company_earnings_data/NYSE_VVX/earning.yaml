@@ -1,7 +1,7 @@
 currency: USD
 company_name: V2X, Inc.
 sector: Commercial Services
-market_cap_billions: 2.7
+market_cap_billions: 2.47
 revenue:
   quarterly:
     Q3 2024: 1080.0
@@ -27,19 +27,19 @@ revenue:
     Q4 2025: 1210.0
     Q1 2026: 1130.0
     Q2 2026: 1210.0
-    Q3 2026: 1210.0
+    Q3 2026: 1220.0
     Q4 2026: 1250.0
-    Q1 2027: 1300.0
-    Q2 2027: 1300.0
+    Q1 2027: 1310.0
+    Q2 2027: 1310.0
   annual_forecast:
     2021 Yearly: 1780.0
     2022 Yearly: 3040.0
     2023 Yearly: 3930.0
     2024 Yearly: 4260.0
     2025 Yearly: 4470.0
-    2026 Yearly: 4940.0
-    2027 Yearly: 5210.0
-    2028 Yearly: 5460.0
+    2026 Yearly: 4960.0
+    2027 Yearly: 5220.0
+    2028 Yearly: 5480.0
     2029 Yearly: 5640.0
 eps:
   quarterly:
@@ -66,17 +66,17 @@ eps:
     Q4 2025: 1.34
     Q1 2026: 1.24
     Q2 2026: 1.44
-    Q3 2026: 1.51
-    Q4 2026: 1.62
-    Q1 2027: 1.61
-    Q2 2027: 1.69
+    Q3 2026: 1.5
+    Q4 2026: 1.6
+    Q1 2027: 1.62
+    Q2 2027: 1.7
   annual_forecast:
     2021 Yearly: 4.99
     2022 Yearly: 4.32
     2023 Yearly: 3.62
     2024 Yearly: 4.17
     2025 Yearly: 5.02
-    2026 Yearly: 6.13
-    2027 Yearly: 6.85
-    2028 Yearly: 7.61
+    2026 Yearly: 6.18
+    2027 Yearly: 6.9
+    2028 Yearly: 7.53
     2029 Yearly: 8.35

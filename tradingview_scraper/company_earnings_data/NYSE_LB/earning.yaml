@@ -1,0 +1,64 @@
+currency: USD
+company_name: LandBridge Company LLC
+sector: Commercial Services
+market_cap_billions: 5.67
+revenue:
+  quarterly:
+    Q3 2024: 28.49
+    Q4 2024: 36.5
+    Q1 2025: 43.95
+    Q2 2025: 47.53
+    Q3 2025: 50.83
+    Q4 2025: 56.78
+    Q1 2026: 51.01
+  annual:
+    2024 Yearly: 109.95
+    2025 Yearly: 199.09
+  quarterly_forecast:
+    Q3 2024: 32.49
+    Q4 2024: 37.75
+    Q1 2025: 43.67
+    Q2 2025: 49.23
+    Q3 2025: 50.21
+    Q4 2025: 51.91
+    Q1 2026: 58.72
+    Q2 2026: 60.0
+    Q3 2026: 64.87
+    Q4 2026: 68.62
+    Q1 2027: 72.06
+  annual_forecast:
+    2024 Yearly: 112.13
+    2025 Yearly: 194.3
+    2026 Yearly: 244.29
+    2027 Yearly: 304.63
+    2028 Yearly: 357.32
+eps:
+  quarterly:
+    Q3 2024: 0.23
+    Q4 2024: 0.25
+    Q1 2025: 0.31
+    Q2 2025: 0.24
+    Q3 2025: 0.36
+    Q4 2025: 0.41
+    Q1 2026: 0.38
+  annual:
+    2024 Yearly: 0.88
+    2025 Yearly: 1.37
+  quarterly_forecast:
+    Q3 2024: 0.25
+    Q4 2024: 0.33
+    Q1 2025: 0.35
+    Q2 2025: 0.37
+    Q3 2025: 0.48
+    Q4 2025: 0.38
+    Q1 2026: 0.55
+    Q2 2026: 0.53
+    Q3 2026: 0.6
+    Q4 2026: 0.66
+    Q1 2027: 0.69
+  annual_forecast:
+    2024 Yearly: 1.02
+    2025 Yearly: 1.4
+    2026 Yearly: 2.2
+    2027 Yearly: 3.05
+    2028 Yearly: 4.8

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Exelixis, Inc.
+sector: Health Technology
+market_cap_billions: 14.08
+revenue:
+  quarterly:
+    Q3 2024: 539.54
+    Q4 2024: 566.75
+    Q1 2025: 555.45
+    Q2 2025: 568.26
+    Q3 2025: 597.75
+    Q4 2025: 598.66
+    Q1 2026: 610.81
+  annual:
+    2021 Yearly: 1430.0
+    2022 Yearly: 1610.0
+    2023 Yearly: 1830.0
+    2024 Yearly: 2170.0
+    2025 Yearly: 2320.0
+  quarterly_forecast:
+    Q3 2024: 490.31
+    Q4 2024: 564.43
+    Q1 2025: 499.6
+    Q2 2025: 577.19
+    Q3 2025: 590.16
+    Q4 2025: 596.52
+    Q1 2026: 607.51
+    Q2 2026: 636.4
+    Q3 2026: 662.39
+    Q4 2026: 685.43
+    Q1 2027: 687.94
+  annual_forecast:
+    2021 Yearly: 1340.0
+    2022 Yearly: 1600.0
+    2023 Yearly: 1830.0
+    2024 Yearly: 2160.0
+    2025 Yearly: 2320.0
+    2026 Yearly: 2600.0
+    2027 Yearly: 2930.0
+    2028 Yearly: 3240.0
+    2029 Yearly: 3440.0
+eps:
+  quarterly:
+    Q3 2024: 0.4
+    Q4 2024: 0.48
+    Q1 2025: 0.62
+    Q2 2025: 0.75
+    Q3 2025: 0.78
+    Q4 2025: 0.94
+    Q1 2026: 0.87
+  annual:
+    2021 Yearly: 0.72
+    2022 Yearly: 0.56
+    2023 Yearly: 0.65
+    2024 Yearly: 1.76
+    2025 Yearly: 3.08
+  quarterly_forecast:
+    Q3 2024: 0.34
+    Q4 2024: 0.43
+    Q1 2025: 0.36
+    Q2 2025: 0.67
+    Q3 2025: 0.68
+    Q4 2025: 0.84
+    Q1 2026: 0.76
+    Q2 2026: 0.85
+    Q3 2026: 0.88
+    Q4 2026: 0.89
+    Q1 2027: 0.96
+  annual_forecast:
+    2021 Yearly: 0.48
+    2022 Yearly: 0.56
+    2023 Yearly: 0.62
+    2024 Yearly: 1.73
+    2025 Yearly: 2.98
+    2026 Yearly: 3.5
+    2027 Yearly: 4.09
+    2028 Yearly: 4.73
+    2029 Yearly: 4.91

@@ -1,0 +1,78 @@
+currency: USD
+company_name: EOG Resources, Inc.
+sector: Energy Minerals
+market_cap_billions: 76.44
+revenue:
+  quarterly:
+    Q4 2024: 5580.0
+    Q1 2025: 5670.0
+    Q2 2025: 5480.0
+    Q3 2025: 5850.0
+    Q4 2025: 5640.0
+    Q1 2026: 6920.0
+    Q2 2026: 8620.0
+  annual:
+    2021 Yearly: 18640.0
+    2022 Yearly: 25700.0
+    2023 Yearly: 24190.0
+    2024 Yearly: 23700.0
+    2025 Yearly: 22630.0
+  quarterly_forecast:
+    Q4 2024: 5910.0
+    Q1 2025: 5900.0
+    Q2 2025: 5450.0
+    Q3 2025: 5970.0
+    Q4 2025: 5770.0
+    Q1 2026: 6180.0
+    Q2 2026: 8039.999999999999
+    Q3 2026: 7120.0
+    Q4 2026: 7080.0
+    Q1 2027: 6970.0
+    Q2 2027: 6820.0
+  annual_forecast:
+    2021 Yearly: 18910.0
+    2022 Yearly: 24120.0
+    2023 Yearly: 23510.0
+    2024 Yearly: 23630.0
+    2025 Yearly: 22770.0
+    2026 Yearly: 28960.0
+    2027 Yearly: 27660.0
+    2028 Yearly: 27890.0
+    2029 Yearly: 27950.0
+eps:
+  quarterly:
+    Q4 2024: 2.74
+    Q1 2025: 2.87
+    Q2 2025: 2.32
+    Q3 2025: 2.71
+    Q4 2025: 2.27
+    Q1 2026: 3.41
+    Q2 2026: 5.07
+  annual:
+    2021 Yearly: 8.61
+    2022 Yearly: 13.76
+    2023 Yearly: 11.69
+    2024 Yearly: 11.62
+    2025 Yearly: 10.16
+  quarterly_forecast:
+    Q4 2024: 2.58
+    Q1 2025: 2.8
+    Q2 2025: 2.23
+    Q3 2025: 2.46
+    Q4 2025: 2.2
+    Q1 2026: 3.23
+    Q2 2026: 4.97
+    Q3 2026: 4.02
+    Q4 2026: 3.91
+    Q1 2027: 3.63
+    Q2 2027: 3.44
+  annual_forecast:
+    2021 Yearly: 8.68
+    2022 Yearly: 13.98
+    2023 Yearly: 11.85
+    2024 Yearly: 11.51
+    2025 Yearly: 10.14
+    2026 Yearly: 16.54
+    2027 Yearly: 14.49
+    2028 Yearly: 15.23
+    2029 Yearly: 15.51

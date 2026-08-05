@@ -1,0 +1,76 @@
+currency: USD
+company_name: a.k.a. Brands Holding Corp.
+sector: Retail Trade
+market_cap_billions: 0.11957999999999999
+revenue:
+  quarterly:
+    Q3 2024: 149.9
+    Q4 2024: 159.02
+    Q1 2025: 128.66
+    Q2 2025: 160.52
+    Q3 2025: 147.08
+    Q4 2025: 163.95
+    Q1 2026: 132.46
+  annual:
+    2021 Yearly: 562.19
+    2022 Yearly: 611.74
+    2023 Yearly: 546.26
+    2024 Yearly: 574.7
+    2025 Yearly: 600.21
+  quarterly_forecast:
+    Q3 2024: 143.02
+    Q4 2024: 159.0
+    Q1 2025: 122.37
+    Q2 2025: 155.81
+    Q3 2025: 154.86
+    Q4 2025: 164.45
+    Q1 2026: 131.17
+    Q2 2026: 162.62
+    Q3 2026: 161.71
+    Q4 2026: 173.08
+    Q1 2027: 136.5
+  annual_forecast:
+    2021 Yearly: 557.43
+    2022 Yearly: 624.5
+    2023 Yearly: 551.56
+    2024 Yearly: 574.67
+    2025 Yearly: 600.67
+    2026 Yearly: 629.74
+    2027 Yearly: 661.92
+    2028 Yearly: 633.3
+eps:
+  quarterly:
+    Q3 2024: -0.51
+    Q4 2024: -0.88
+    Q1 2025: -0.78
+    Q2 2025: -0.34
+    Q3 2025: -0.46
+    Q4 2025: -1.35
+    Q1 2026: -0.66
+  annual:
+    2021 Yearly: -0.72
+    2022 Yearly: -16.44
+    2023 Yearly: -9.24
+    2024 Yearly: -2.46
+    2025 Yearly: -2.93
+  quarterly_forecast:
+    Q3 2024: -0.2
+    Q4 2024: -0.25
+    Q1 2025: -0.82
+    Q2 2025: -0.51
+    Q3 2025: -0.4
+    Q4 2025: -0.83
+    Q1 2026: -1.0
+    Q2 2026: -0.41
+    Q3 2026: -0.33
+    Q4 2026: -0.41
+    Q1 2027: -0.7
+  annual_forecast:
+    2021 Yearly: 0.24
+    2022 Yearly: -0.12
+    2023 Yearly: -1.93
+    2024 Yearly: -1.77
+    2025 Yearly: -2.41
+    2026 Yearly: -1.8
+    2027 Yearly: -1.13
+    2028 Yearly: 1.53

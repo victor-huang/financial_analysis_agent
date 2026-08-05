@@ -1,7 +1,7 @@
 currency: USD
 company_name: Custom Truck One Source, Inc.
 sector: Finance
-market_cap_billions: 2.42
+market_cap_billions: 2.51
 revenue:
   quarterly:
     Q3 2024: 447.22
@@ -29,6 +29,7 @@ revenue:
     Q3 2026: 512.55
     Q4 2026: 563.94
     Q1 2027: 482.77
+    Q2 2027: 557.61
   annual_forecast:
     2021 Yearly: 1190.0
     2022 Yearly: 1520.0
@@ -66,6 +67,7 @@ eps:
     Q3 2026: 0.03
     Q4 2026: 0.08
     Q1 2027: 0.02
+    Q2 2027: 0.06
   annual_forecast:
     2021 Yearly: -0.67
     2022 Yearly: 0.15

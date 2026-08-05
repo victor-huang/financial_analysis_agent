@@ -1,0 +1,76 @@
+currency: USD
+company_name: Barings BDC, Inc.
+sector: Miscellaneous
+market_cap_billions: 0.89734
+revenue:
+  quarterly:
+    Q3 2024: 70.85
+    Q4 2024: 70.63
+    Q1 2025: 64.44
+    Q2 2025: 74.4
+    Q3 2025: 72.4
+    Q4 2025: 67.97
+    Q1 2026: 60.57
+  annual:
+    2021 Yearly: 135.34
+    2022 Yearly: 219.13
+    2023 Yearly: 289.2
+    2024 Yearly: 286.17
+    2025 Yearly: 279.21
+  quarterly_forecast:
+    Q3 2024: 70.61
+    Q4 2024: 69.35
+    Q1 2025: 67.78
+    Q2 2025: 66.41
+    Q3 2025: 69.66
+    Q4 2025: 67.66
+    Q1 2026: 62.54
+    Q2 2026: 60.1
+    Q3 2026: 60.66
+    Q4 2026: 61.01
+    Q1 2027: 60.35
+  annual_forecast:
+    2021 Yearly: 132.87
+    2022 Yearly: 218.35
+    2023 Yearly: 285.4
+    2024 Yearly: 284.79
+    2025 Yearly: 278.9
+    2026 Yearly: 242.34
+    2027 Yearly: 241.91
+    2028 Yearly: 226.43
+eps:
+  quarterly:
+    Q3 2024: 0.29
+    Q4 2024: 0.28
+    Q1 2025: 0.25
+    Q2 2025: 0.28
+    Q3 2025: 0.32
+    Q4 2025: 0.27
+    Q1 2026: 0.25
+  annual:
+    2021 Yearly: 0.9
+    2022 Yearly: 1.12
+    2023 Yearly: 1.19
+    2024 Yearly: 1.24
+    2025 Yearly: 1.12
+  quarterly_forecast:
+    Q3 2024: 0.3
+    Q4 2024: 0.29
+    Q1 2025: 0.28
+    Q2 2025: 0.26
+    Q3 2025: 0.27
+    Q4 2025: 0.26
+    Q1 2026: 0.25
+    Q2 2026: 0.25
+    Q3 2026: 0.25
+    Q4 2026: 0.24
+    Q1 2027: 0.24
+  annual_forecast:
+    2021 Yearly: 0.9
+    2022 Yearly: 1.05
+    2023 Yearly: 1.18
+    2024 Yearly: 1.25
+    2025 Yearly: 1.12
+    2026 Yearly: 0.98
+    2027 Yearly: 0.97
+    2028 Yearly: 0.89

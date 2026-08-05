@@ -1,0 +1,78 @@
+currency: USD
+company_name: Genco Shipping & Trading Limited
+sector: Transportation
+market_cap_billions: 1.13
+revenue:
+  quarterly:
+    Q3 2024: 69.82
+    Q4 2024: 66.09
+    Q1 2025: 41.64
+    Q2 2025: 46.9
+    Q3 2025: 55.0
+    Q4 2025: 77.2
+    Q1 2026: 72.0
+  annual:
+    2021 Yearly: 400.95
+    2022 Yearly: 383.05
+    2023 Yearly: 240.85
+    2024 Yearly: 296.06
+    2025 Yearly: 226.73
+  quarterly_forecast:
+    Q3 2024: 72.02
+    Q4 2024: 69.39
+    Q1 2025: 44.35
+    Q2 2025: 48.52
+    Q3 2025: 58.82
+    Q4 2025: 75.52
+    Q1 2026: 65.73
+    Q2 2026: 89.86
+    Q3 2026: 91.05
+    Q4 2026: 91.18
+    Q1 2027: 63.41
+  annual_forecast:
+    2021 Yearly: 376.25
+    2022 Yearly: 370.82
+    2023 Yearly: 237.62
+    2024 Yearly: 305.83
+    2025 Yearly: 221.76
+    2026 Yearly: 350.1
+    2027 Yearly: 336.8
+    2028 Yearly: 368.05
+    2029 Yearly: 321.85
+eps:
+  quarterly:
+    Q3 2024: 0.42
+    Q4 2024: 0.29
+    Q1 2025: -0.28
+    Q2 2025: -0.14
+    Q3 2025: -0.01
+    Q4 2025: 0.39
+    Q1 2026: 0.26
+  annual:
+    2021 Yearly: 4.24
+    2022 Yearly: 3.74
+    2023 Yearly: 0.67
+    2024 Yearly: 1.66
+    2025 Yearly: -0.04
+  quarterly_forecast:
+    Q3 2024: 0.41
+    Q4 2024: 0.3
+    Q1 2025: -0.28
+    Q2 2025: -0.14
+    Q3 2025: 0.04
+    Q4 2025: 0.37
+    Q1 2026: 0.07
+    Q2 2026: 0.59
+    Q3 2026: 0.67
+    Q4 2026: 0.66
+    Q1 2027: -0.03
+  annual_forecast:
+    2021 Yearly: 4.2
+    2022 Yearly: 3.69
+    2023 Yearly: 0.66
+    2024 Yearly: 1.63
+    2025 Yearly: -0.05
+    2026 Yearly: 2.29
+    2027 Yearly: 1.84
+    2028 Yearly: 2.41
+    2029 Yearly: 1.52

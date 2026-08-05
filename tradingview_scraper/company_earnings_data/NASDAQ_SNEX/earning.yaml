@@ -1,0 +1,76 @@
+currency: USD
+company_name: StoneX Group Inc.
+sector: Finance
+market_cap_billions: 8.94
+revenue:
+  quarterly:
+    Q4 2024: 920.1
+    Q1 2025: 944.3
+    Q2 2025: 956.0
+    Q3 2025: 1020.0
+    Q4 2025: 1200.0
+    Q1 2026: 1440.0
+    Q2 2026: 1570.0
+  annual:
+    2021 Yearly: 1670.0
+    2022 Yearly: 2110.0
+    2023 Yearly: 2910.0
+    2024 Yearly: 3440.0
+    2025 Yearly: 4130.0
+  quarterly_forecast:
+    Q4 2024: 874.7
+    Q1 2025: 915.2
+    Q2 2025: 907.3
+    Q3 2025: 923.1
+    Q4 2025: 1040.0
+    Q1 2026: 1240.0
+    Q2 2026: 1370.0
+    Q3 2026: 1320.0
+    Q4 2026: 1310.0
+    Q1 2027: 1420.0
+    Q2 2027: 1480.0
+  annual_forecast:
+    2021 Yearly: 1170.0
+    2022 Yearly: 1440.0
+    2023 Yearly: 1620.0
+    2024 Yearly: 3390.0
+    2025 Yearly: 3960.0
+    2026 Yearly: 5630.0
+    2027 Yearly: 5660.0
+    2028 Yearly: 5840.0
+eps:
+  quarterly:
+    Q4 2024: 0.69
+    Q1 2025: 0.75
+    Q2 2025: 0.63
+    Q3 2025: 0.54
+    Q4 2025: 0.7
+    Q1 2026: 1.11
+    Q2 2026: 1.38
+  annual:
+    2021 Yearly: 1.13
+    2022 Yearly: 1.98
+    2023 Yearly: 1.47
+    2024 Yearly: 2.39
+    2025 Yearly: 2.62
+  quarterly_forecast:
+    Q4 2024: 0.61
+    Q1 2025: 0.64
+    Q2 2025: 0.59
+    Q3 2025: 0.62
+    Q4 2025: 0.65
+    Q1 2026: 0.88
+    Q2 2026: 0.99
+    Q3 2026: 0.86
+    Q4 2026: 0.81
+    Q1 2027: 1.18
+    Q2 2027: 1.02
+  annual_forecast:
+    2021 Yearly: 1.35
+    2022 Yearly: 1.88
+    2023 Yearly: 2.19
+    2024 Yearly: 2.28
+    2025 Yearly: 2.57
+    2026 Yearly: 4.15
+    2027 Yearly: 4.28
+    2028 Yearly: 4.51

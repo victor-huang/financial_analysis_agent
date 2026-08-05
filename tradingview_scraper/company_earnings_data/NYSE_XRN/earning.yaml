@@ -1,0 +1,78 @@
+currency: USD
+company_name: Chiron Real Estate Inc.
+sector: Finance
+market_cap_billions: 0.50844
+revenue:
+  quarterly:
+    Q3 2024: 34.17
+    Q4 2024: 34.95
+    Q1 2025: 34.59
+    Q2 2025: 37.88
+    Q3 2025: 37.04
+    Q4 2025: 38.17
+    Q1 2026: 38.02
+  annual:
+    2021 Yearly: 115.8
+    2022 Yearly: 137.17
+    2023 Yearly: 140.93
+    2024 Yearly: 138.41
+    2025 Yearly: 147.68
+  quarterly_forecast:
+    Q3 2024: 34.72
+    Q4 2024: 34.46
+    Q1 2025: 35.19
+    Q2 2025: 35.34
+    Q3 2025: 38.19
+    Q4 2025: 37.11
+    Q1 2026: 38.21
+    Q2 2026: 37.64
+    Q3 2026: 37.56
+    Q4 2026: 37.49
+    Q1 2027: 36.3
+  annual_forecast:
+    2021 Yearly: 116.12
+    2022 Yearly: 127.33
+    2023 Yearly: 143.65
+    2024 Yearly: 138.29
+    2025 Yearly: 146.62
+    2026 Yearly: 150.78
+    2027 Yearly: 144.15
+    2028 Yearly: 142.25
+    2029 Yearly: 160.82
+eps:
+  quarterly:
+    Q3 2024: 0.15
+    Q4 2024: 0.1
+    Q1 2025: 0.15
+    Q2 2025: -0.05
+    Q3 2025: -0.45
+    Q4 2025: -0.55
+    Q1 2026: -0.06
+  annual:
+    2021 Yearly: 0.95
+    2022 Yearly: 1.0
+    2023 Yearly: 1.15
+    2024 Yearly: 0.05
+    2025 Yearly: -0.91
+  quarterly_forecast:
+    Q3 2024: 0.07
+    Q4 2024: 0.0
+    Q1 2025: 0.05
+    Q2 2025: 0.03
+    Q3 2025: 0.16
+    Q4 2025: 0.07
+    Q1 2026: 0.01
+    Q2 2026: -0.23
+    Q3 2026: -0.18
+    Q4 2026: -0.41
+    Q1 2027: -0.63
+  annual_forecast:
+    2021 Yearly: 0.96
+    2022 Yearly: 1.11
+    2023 Yearly: 1.25
+    2024 Yearly: -0.07
+    2025 Yearly: -0.26
+    2026 Yearly: -0.86
+    2027 Yearly: -2.29
+    2028 Yearly: -0.94
+    2029 Yearly: 0.22

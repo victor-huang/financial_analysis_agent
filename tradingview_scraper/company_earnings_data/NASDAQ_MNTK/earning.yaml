@@ -1,0 +1,76 @@
+currency: USD
+company_name: Montauk Renewables, Inc.
+sector: Process Industries
+market_cap_billions: 0.24198
+revenue:
+  quarterly:
+    Q3 2024: 65.92
+    Q4 2024: 27.74
+    Q1 2025: 42.6
+    Q2 2025: 45.13
+    Q3 2025: 45.26
+    Q4 2025: 43.38
+    Q1 2026: 46.43
+  annual:
+    2021 Yearly: 148.13
+    2022 Yearly: 205.56
+    2023 Yearly: 174.9
+    2024 Yearly: 175.74
+    2025 Yearly: 176.38
+  quarterly_forecast:
+    Q3 2024: 61.79
+    Q4 2024: 54.48
+    Q1 2025: 41.9
+    Q2 2025: 44.39
+    Q3 2025: 44.31
+    Q4 2025: 43.93
+    Q1 2026: 42.35
+    Q2 2026: 49.35
+    Q3 2026: 55.47
+    Q4 2026: 61.37
+    Q1 2027: 66.12
+  annual_forecast:
+    2022 Yearly: 137.7
+    2023 Yearly: 213.23
+    2024 Yearly: 184.97
+    2025 Yearly: 202.54
+    2026 Yearly: 176.93
+    2027 Yearly: 212.56
+    2028 Yearly: 246.36
+eps:
+  quarterly:
+    Q3 2024: 0.12
+    Q4 2024: -0.05
+    Q1 2025: 0.0
+    Q2 2025: -0.04
+    Q3 2025: 0.04
+    Q4 2025: 0.01
+    Q1 2026: 0.01
+  annual:
+    2021 Yearly: -0.03
+    2022 Yearly: 0.25
+    2023 Yearly: 0.11
+    2024 Yearly: 0.07
+    2025 Yearly: 0.01
+  quarterly_forecast:
+    Q3 2024: 0.09
+    Q4 2024: 0.05
+    Q1 2025: 0.02
+    Q2 2025: 0.02
+    Q3 2025: 0.01
+    Q4 2025: 0.02
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.03
+    Q4 2026: 0.05
+    Q1 2027: 0.02
+  annual_forecast:
+    2021 Yearly: 0.03
+    2022 Yearly: 0.31
+    2023 Yearly: 0.15
+    2024 Yearly: 0.19
+    2025 Yearly: 0.02
+    2026 Yearly: 0.1
+    2027 Yearly: 0.13
+    2028 Yearly: 0.3
+    2029 Yearly: 0.18

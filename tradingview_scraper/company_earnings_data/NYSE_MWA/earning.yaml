@@ -1,0 +1,76 @@
+currency: USD
+company_name: MUELLER WATER PRODUCTS
+sector: Producer Manufacturing
+market_cap_billions: 4.16
+revenue:
+  quarterly:
+    Q4 2024: 348.2
+    Q1 2025: 304.3
+    Q2 2025: 364.3
+    Q3 2025: 380.3
+    Q4 2025: 380.8
+    Q1 2026: 318.2
+    Q2 2026: 384.4
+  annual:
+    2021 Yearly: 1110.0
+    2022 Yearly: 1250.0
+    2023 Yearly: 1280.0
+    2024 Yearly: 1310.0
+    2025 Yearly: 1430.0
+  quarterly_forecast:
+    Q4 2024: 324.8
+    Q1 2025: 289.85
+    Q2 2025: 350.97
+    Q3 2025: 367.78
+    Q4 2025: 360.74
+    Q1 2026: 314.04
+    Q2 2026: 380.77
+    Q3 2026: 391.49
+    Q4 2026: 389.87
+    Q1 2027: 331.37
+    Q2 2027: 396.28
+  annual_forecast:
+    2021 Yearly: 1110.0
+    2022 Yearly: 1240.0
+    2023 Yearly: 1260.0
+    2024 Yearly: 1290.0
+    2025 Yearly: 1410.0
+    2026 Yearly: 1480.0
+    2027 Yearly: 1550.0
+    2028 Yearly: 1580.0
+eps:
+  quarterly:
+    Q4 2024: 0.22
+    Q1 2025: 0.25
+    Q2 2025: 0.34
+    Q3 2025: 0.34
+    Q4 2025: 0.38
+    Q1 2026: 0.29
+    Q2 2026: 0.4
+  annual:
+    2021 Yearly: 0.56
+    2022 Yearly: 0.58
+    2023 Yearly: 0.63
+    2024 Yearly: 0.96
+    2025 Yearly: 1.31
+  quarterly_forecast:
+    Q4 2024: 0.22
+    Q1 2025: 0.19
+    Q2 2025: 0.31
+    Q3 2025: 0.34
+    Q4 2025: 0.34
+    Q1 2026: 0.26
+    Q2 2026: 0.37
+    Q3 2026: 0.39
+    Q4 2026: 0.4
+    Q1 2027: 0.3
+    Q2 2027: 0.42
+  annual_forecast:
+    2021 Yearly: 0.62
+    2022 Yearly: 0.62
+    2023 Yearly: 0.58
+    2024 Yearly: 0.94
+    2025 Yearly: 1.26
+    2026 Yearly: 1.48
+    2027 Yearly: 1.57
+    2028 Yearly: 1.62

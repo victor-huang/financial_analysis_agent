@@ -1,0 +1,78 @@
+currency: USD
+company_name: Envista Holdings Corporation
+sector: Health Technology
+market_cap_billions: 4.55
+revenue:
+  quarterly:
+    Q3 2024: 601.0
+    Q4 2024: 652.9
+    Q1 2025: 616.9
+    Q2 2025: 682.1
+    Q3 2025: 669.9
+    Q4 2025: 750.6
+    Q1 2026: 705.5
+  annual:
+    2021 Yearly: 2510.0
+    2022 Yearly: 2570.0
+    2023 Yearly: 2570.0
+    2024 Yearly: 2510.0
+    2025 Yearly: 2720.0
+  quarterly_forecast:
+    Q3 2024: 590.34
+    Q4 2024: 645.85
+    Q1 2025: 606.36
+    Q2 2025: 640.01
+    Q3 2025: 640.79
+    Q4 2025: 679.98
+    Q1 2026: 680.03
+    Q2 2026: 716.11
+    Q3 2026: 694.21
+    Q4 2026: 742.99
+    Q1 2027: 714.39
+  annual_forecast:
+    2021 Yearly: 2490.0
+    2022 Yearly: 2570.0
+    2023 Yearly: 2560.0
+    2024 Yearly: 2500.0
+    2025 Yearly: 2640.0
+    2026 Yearly: 2860.0
+    2027 Yearly: 2960.0
+    2028 Yearly: 3060.0
+    2029 Yearly: 3160.0
+eps:
+  quarterly:
+    Q3 2024: 0.12
+    Q4 2024: 0.24
+    Q1 2025: 0.24
+    Q2 2025: 0.26
+    Q3 2025: 0.32
+    Q4 2025: 0.38
+    Q1 2026: 0.36
+  annual:
+    2021 Yearly: 1.85
+    2022 Yearly: 1.94
+    2023 Yearly: 1.53
+    2024 Yearly: 0.73
+    2025 Yearly: 1.19
+  quarterly_forecast:
+    Q3 2024: 0.09
+    Q4 2024: 0.22
+    Q1 2025: 0.2
+    Q2 2025: 0.23
+    Q3 2025: 0.28
+    Q4 2025: 0.32
+    Q1 2026: 0.31
+    Q2 2026: 0.34
+    Q3 2026: 0.34
+    Q4 2026: 0.39
+    Q1 2027: 0.37
+  annual_forecast:
+    2021 Yearly: 1.82
+    2022 Yearly: 1.91
+    2023 Yearly: 1.58
+    2024 Yearly: 0.71
+    2025 Yearly: 1.15
+    2026 Yearly: 1.43
+    2027 Yearly: 1.57
+    2028 Yearly: 1.71
+    2029 Yearly: 1.88

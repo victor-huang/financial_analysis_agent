@@ -1,0 +1,78 @@
+currency: USD
+company_name: Central Garden & Pet Company
+sector: Consumer Non-Durables
+market_cap_billions: 2.48
+revenue:
+  quarterly:
+    Q4 2024: 669.49
+    Q1 2025: 656.44
+    Q2 2025: 833.54
+    Q3 2025: 960.91
+    Q4 2025: 678.0
+    Q1 2026: 617.37
+    Q2 2026: 906.15
+  annual:
+    2021 Yearly: 3300.0
+    2022 Yearly: 3340.0
+    2023 Yearly: 3310.0
+    2024 Yearly: 3200.0
+    2025 Yearly: 3100.0
+  quarterly_forecast:
+    Q4 2024: 707.83
+    Q1 2025: 630.45
+    Q2 2025: 878.22
+    Q3 2025: 991.88
+    Q4 2025: 655.7
+    Q1 2026: 627.74
+    Q2 2026: 846.58
+    Q3 2026: 882.96
+    Q4 2026: 593.44
+    Q1 2027: 584.0
+    Q2 2027: 871.8
+  annual_forecast:
+    2021 Yearly: 3290.0
+    2022 Yearly: 3350.0
+    2023 Yearly: 3300.0
+    2024 Yearly: 3240.0
+    2025 Yearly: 3110.0
+    2026 Yearly: 3000.0
+    2027 Yearly: 2900.0
+    2028 Yearly: 3130.0
+    2029 Yearly: 3340.0
+eps:
+  quarterly:
+    Q4 2024: -0.18
+    Q1 2025: 0.21
+    Q2 2025: 1.04
+    Q3 2025: 1.56
+    Q4 2025: -0.09
+    Q1 2026: 0.21
+    Q2 2026: 1.29
+  annual:
+    2021 Yearly: 2.29
+    2022 Yearly: 2.19
+    2023 Yearly: 2.03
+    2024 Yearly: 2.13
+    2025 Yearly: 2.73
+  quarterly_forecast:
+    Q4 2024: -0.22
+    Q1 2025: -0.02
+    Q2 2025: 0.93
+    Q3 2025: 1.43
+    Q4 2025: -0.2
+    Q1 2026: 0.14
+    Q2 2026: 1.09
+    Q3 2026: 1.53
+    Q4 2026: -0.05
+    Q1 2027: 0.2
+    Q2 2027: 1.32
+  annual_forecast:
+    2021 Yearly: 2.16
+    2022 Yearly: 2.22
+    2023 Yearly: 2.01
+    2024 Yearly: 2.09
+    2025 Yearly: 2.62
+    2026 Yearly: 2.97
+    2027 Yearly: 3.1
+    2028 Yearly: 3.25
+    2029 Yearly: 3.92

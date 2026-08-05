@@ -1,0 +1,78 @@
+currency: USD
+company_name: CACI International, Inc.
+sector: Technology Services
+market_cap_billions: 11.58
+revenue:
+  quarterly:
+    Q1 2025: 2060.0
+    Q2 2025: 2100.0
+    Q3 2025: 2170.0
+    Q4 2025: 2300.0
+    Q1 2026: 2290.0
+    Q2 2026: 2220.0
+    Q3 2026: 2350.0
+  annual:
+    2021 Yearly: 6040.0
+    2022 Yearly: 6200.0
+    2023 Yearly: 6700.0
+    2024 Yearly: 7660.0
+    2025 Yearly: 8630.0
+  quarterly_forecast:
+    Q1 2025: 1920.0
+    Q2 2025: 2040.0
+    Q3 2025: 2130.0
+    Q4 2025: 2290.0
+    Q1 2026: 2250.0
+    Q2 2026: 2270.0
+    Q3 2026: 2350.0
+    Q4 2026: 2700.0
+    Q1 2027: 2590.0
+    Q2 2027: 2560.0
+    Q3 2027: 2680.0
+  annual_forecast:
+    2021 Yearly: 6050.0
+    2022 Yearly: 6220.0
+    2023 Yearly: 6730.0
+    2024 Yearly: 7550.0
+    2025 Yearly: 8620.0
+    2026 Yearly: 9550.0
+    2027 Yearly: 10670.0
+    2028 Yearly: 11350.0
+    2029 Yearly: 11930.0
+eps:
+  quarterly:
+    Q1 2025: 5.93
+    Q2 2025: 5.95
+    Q3 2025: 6.23
+    Q4 2025: 8.4
+    Q1 2026: 6.85
+    Q2 2026: 6.81
+    Q3 2026: 7.27
+  annual:
+    2021 Yearly: 18.3
+    2022 Yearly: 17.81
+    2023 Yearly: 18.83
+    2024 Yearly: 21.05
+    2025 Yearly: 26.48
+  quarterly_forecast:
+    Q1 2025: 5.04
+    Q2 2025: 5.2
+    Q3 2025: 5.6
+    Q4 2025: 6.55
+    Q1 2026: 6.15
+    Q2 2026: 6.48
+    Q3 2026: 6.95
+    Q4 2026: 7.26
+    Q1 2027: 7.12
+    Q2 2027: 7.11
+    Q3 2027: 7.73
+  annual_forecast:
+    2021 Yearly: 18.33
+    2022 Yearly: 17.82
+    2023 Yearly: 18.45
+    2024 Yearly: 20.37
+    2025 Yearly: 24.64
+    2026 Yearly: 28.15
+    2027 Yearly: 30.83
+    2028 Yearly: 35.21
+    2029 Yearly: 34.89

@@ -1,0 +1,76 @@
+currency: USD
+company_name: SiTime Corporation
+sector: Electronic Technology
+market_cap_billions: 15.39
+revenue:
+  quarterly:
+    Q3 2024: 57.7
+    Q4 2024: 68.11
+    Q1 2025: 60.31
+    Q2 2025: 69.49
+    Q3 2025: 83.57
+    Q4 2025: 113.28
+    Q1 2026: 113.57
+  annual:
+    2021 Yearly: 218.8
+    2022 Yearly: 283.61
+    2023 Yearly: 143.99
+    2024 Yearly: 202.7
+    2025 Yearly: 326.66
+  quarterly_forecast:
+    Q3 2024: 55.1
+    Q4 2024: 64.0
+    Q1 2025: 54.01
+    Q2 2025: 64.66
+    Q3 2025: 78.08
+    Q4 2025: 101.85
+    Q1 2026: 103.51
+    Q2 2026: 146.46
+    Q3 2026: 178.47
+    Q4 2026: 198.45
+    Q1 2027: 191.36
+  annual_forecast:
+    2021 Yearly: 214.09
+    2022 Yearly: 282.83
+    2023 Yearly: 143.33
+    2024 Yearly: 198.6
+    2025 Yearly: 315.28
+    2026 Yearly: 636.97
+    2027 Yearly: 887.75
+    2028 Yearly: 1340.0
+eps:
+  quarterly:
+    Q3 2024: 0.4
+    Q4 2024: 0.48
+    Q1 2025: 0.26
+    Q2 2025: 0.47
+    Q3 2025: 0.87
+    Q4 2025: 1.53
+    Q1 2026: 1.44
+  annual:
+    2021 Yearly: 3.05
+    2022 Yearly: 3.66
+    2023 Yearly: 0.18
+    2024 Yearly: 0.93
+    2025 Yearly: 3.2
+  quarterly_forecast:
+    Q3 2024: 0.26
+    Q4 2024: 0.42
+    Q1 2025: 0.12
+    Q2 2025: 0.28
+    Q3 2025: 0.71
+    Q4 2025: 1.21
+    Q1 2026: 1.16
+    Q2 2026: 1.95
+    Q3 2026: 2.2
+    Q4 2026: 2.34
+    Q1 2027: 2.21
+  annual_forecast:
+    2021 Yearly: 2.79
+    2022 Yearly: 3.57
+    2023 Yearly: 0.14
+    2024 Yearly: 0.87
+    2025 Yearly: 2.84
+    2026 Yearly: 7.95
+    2027 Yearly: 11.05
+    2028 Yearly: 16.85

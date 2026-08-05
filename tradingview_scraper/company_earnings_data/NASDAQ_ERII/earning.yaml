@@ -1,0 +1,78 @@
+currency: USD
+company_name: Energy Recovery, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 0.47008999999999995
+revenue:
+  quarterly:
+    Q3 2024: 38.58
+    Q4 2024: 67.08
+    Q1 2025: 8.06
+    Q2 2025: 28.05
+    Q3 2025: 32.0
+    Q4 2025: 66.9
+    Q1 2026: 9.71
+  annual:
+    2021 Yearly: 103.9
+    2022 Yearly: 125.59
+    2023 Yearly: 128.35
+    2024 Yearly: 144.95
+    2025 Yearly: 135.0
+  quarterly_forecast:
+    Q3 2024: 37.37
+    Q4 2024: 67.27
+    Q1 2025: 21.91
+    Q2 2025: 25.41
+    Q3 2025: 29.94
+    Q4 2025: 82.59
+    Q1 2026: 8.37
+    Q2 2026: 18.36
+    Q3 2026: 21.64
+    Q4 2026: 40.91
+    Q1 2027: 8.47
+  annual_forecast:
+    2021 Yearly: 102.2
+    2022 Yearly: 124.17
+    2023 Yearly: 134.72
+    2024 Yearly: 145.06
+    2025 Yearly: 150.7
+    2026 Yearly: 90.58
+    2027 Yearly: 120.08
+    2028 Yearly: 144.0
+    2029 Yearly: 275.0
+eps:
+  quarterly:
+    Q3 2024: 0.15
+    Q4 2024: 0.41
+    Q1 2025: -0.18
+    Q2 2025: 0.04
+    Q3 2025: 0.07
+    Q4 2025: 0.5
+    Q1 2026: -0.23
+  annual:
+    2021 Yearly: 0.24
+    2022 Yearly: 0.42
+    2023 Yearly: 0.37
+    2024 Yearly: 0.4
+    2025 Yearly: 0.42
+  quarterly_forecast:
+    Q3 2024: 0.07
+    Q4 2024: 0.38
+    Q1 2025: -0.03
+    Q2 2025: -0.01
+    Q3 2025: 0.07
+    Q4 2025: 0.63
+    Q1 2026: -0.14
+    Q2 2026: -0.02
+    Q3 2026: 0.0
+    Q4 2026: 0.22
+    Q1 2027: -0.14
+  annual_forecast:
+    2021 Yearly: 0.28
+    2022 Yearly: 0.33
+    2023 Yearly: 0.41
+    2024 Yearly: 0.41
+    2025 Yearly: 0.56
+    2026 Yearly: -0.01
+    2027 Yearly: 0.33
+    2028 Yearly: 0.56
+    2029 Yearly: 1.36

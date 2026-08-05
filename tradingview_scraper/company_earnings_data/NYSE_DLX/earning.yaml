@@ -1,0 +1,74 @@
+currency: USD
+company_name: Deluxe Corporation
+sector: Commercial Services
+market_cap_billions: 1.24
+revenue:
+  quarterly:
+    Q3 2024: 527.0
+    Q4 2024: 520.1
+    Q1 2025: 536.5
+    Q2 2025: 521.3
+    Q3 2025: 540.2
+    Q4 2025: 535.3
+    Q1 2026: 538.1
+  annual:
+    2021 Yearly: 2020.0
+    2022 Yearly: 2240.0
+    2023 Yearly: 2190.0
+    2024 Yearly: 2110.0
+    2025 Yearly: 2130.0
+  quarterly_forecast:
+    Q3 2024: 525.83
+    Q4 2024: 534.02
+    Q1 2025: 525.42
+    Q2 2025: 526.92
+    Q3 2025: 526.5
+    Q4 2025: 517.4
+    Q1 2026: 534.97
+    Q2 2026: 486.3
+    Q3 2026: 504.27
+    Q4 2026: 494.13
+    Q1 2027: 527.7
+  annual_forecast:
+    2021 Yearly: 2000.0
+    2022 Yearly: 2210.0
+    2023 Yearly: 2190.0
+    2024 Yearly: 2130.0
+    2025 Yearly: 2120.0
+    2026 Yearly: 2020.0
+    2027 Yearly: 2040.0
+eps:
+  quarterly:
+    Q3 2024: 0.84
+    Q4 2024: 0.84
+    Q1 2025: 0.75
+    Q2 2025: 0.88
+    Q3 2025: 1.09
+    Q4 2025: 0.96
+    Q1 2026: 1.05
+  annual:
+    2021 Yearly: 4.88
+    2022 Yearly: 4.08
+    2023 Yearly: 3.32
+    2024 Yearly: 3.29
+    2025 Yearly: 3.67
+  quarterly_forecast:
+    Q3 2024: 0.76
+    Q4 2024: 0.83
+    Q1 2025: 0.71
+    Q2 2025: 0.75
+    Q3 2025: 0.9
+    Q4 2025: 0.83
+    Q1 2026: 0.87
+    Q2 2026: 0.81
+    Q3 2026: 0.99
+    Q4 2026: 0.92
+    Q1 2027: 1.07
+  annual_forecast:
+    2021 Yearly: 4.84
+    2022 Yearly: 4.06
+    2023 Yearly: 3.28
+    2024 Yearly: 3.24
+    2025 Yearly: 3.55
+    2026 Yearly: 3.77
+    2027 Yearly: 4.11

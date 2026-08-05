@@ -1,0 +1,76 @@
+currency: USD
+company_name: Tronox Holdings plc
+sector: Process Industries
+market_cap_billions: 0.94757
+revenue:
+  quarterly:
+    Q3 2024: 804.0
+    Q4 2024: 676.0
+    Q1 2025: 738.0
+    Q2 2025: 731.0
+    Q3 2025: 699.0
+    Q4 2025: 730.0
+    Q1 2026: 760.0
+  annual:
+    2021 Yearly: 3570.0
+    2022 Yearly: 3450.0
+    2023 Yearly: 2850.0
+    2024 Yearly: 3070.0
+    2025 Yearly: 2900.0
+  quarterly_forecast:
+    Q3 2024: 790.63
+    Q4 2024: 697.32
+    Q1 2025: 748.76
+    Q2 2025: 781.02
+    Q3 2025: 736.33
+    Q4 2025: 708.02
+    Q1 2026: 751.38
+    Q2 2026: 832.59
+    Q3 2026: 803.46
+    Q4 2026: 786.02
+    Q1 2027: 810.46
+  annual_forecast:
+    2021 Yearly: 3550.0
+    2022 Yearly: 3460.0
+    2023 Yearly: 2830.0
+    2024 Yearly: 3090.0
+    2025 Yearly: 2870.0
+    2026 Yearly: 3190.0
+    2027 Yearly: 3350.0
+    2028 Yearly: 3470.0
+eps:
+  quarterly:
+    Q3 2024: -0.13
+    Q4 2024: 0.03
+    Q1 2025: -0.15
+    Q2 2025: -0.28
+    Q3 2025: -0.46
+    Q4 2025: -0.6
+    Q1 2026: -0.55
+  annual:
+    2021 Yearly: 2.29
+    2022 Yearly: 1.98
+    2023 Yearly: -0.15
+    2024 Yearly: -0.08
+    2025 Yearly: -1.5
+  quarterly_forecast:
+    Q3 2024: 0.17
+    Q4 2024: 0.04
+    Q1 2025: 0.0
+    Q2 2025: -0.05
+    Q3 2025: -0.23
+    Q4 2025: -0.46
+    Q1 2026: -0.45
+    Q2 2026: -0.38
+    Q3 2026: -0.16
+    Q4 2026: -0.21
+    Q1 2027: -0.16
+  annual_forecast:
+    2021 Yearly: 2.33
+    2022 Yearly: 2.25
+    2023 Yearly: 0.2
+    2024 Yearly: -0.06
+    2025 Yearly: -1.35
+    2026 Yearly: -1.28
+    2027 Yearly: -0.26
+    2028 Yearly: 0.03

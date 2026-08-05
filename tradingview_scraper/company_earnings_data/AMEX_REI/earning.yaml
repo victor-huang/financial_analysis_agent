@@ -1,0 +1,74 @@
+currency: USD
+company_name: Ring Energy, Inc.
+sector: Energy Minerals
+market_cap_billions: 0.31986000000000003
+revenue:
+  quarterly:
+    Q3 2024: 89.24
+    Q4 2024: 83.44
+    Q1 2025: 79.09
+    Q2 2025: 82.6
+    Q3 2025: 78.6
+    Q4 2025: 66.9
+    Q1 2026: 73.67
+  annual:
+    2021 Yearly: 196.31
+    2022 Yearly: 347.25
+    2023 Yearly: 361.06
+    2024 Yearly: 366.33
+    2025 Yearly: 307.2
+  quarterly_forecast:
+    Q3 2024: 86.73
+    Q4 2024: 84.2
+    Q1 2025: 78.78
+    Q2 2025: 82.87
+    Q3 2025: 76.79
+    Q4 2025: 71.35
+    Q1 2026: 69.9
+    Q2 2026: 93.29
+    Q3 2026: 79.75
+    Q4 2026: 82.68
+    Q1 2027: 83.61
+  annual_forecast:
+    2021 Yearly: 182.01
+    2022 Yearly: 336.14
+    2023 Yearly: 358.19
+    2024 Yearly: 367.15
+    2025 Yearly: 310.5
+    2026 Yearly: 329.41
+    2027 Yearly: 351.53
+eps:
+  quarterly:
+    Q3 2024: 0.07
+    Q4 2024: 0.06
+    Q1 2025: 0.05
+    Q2 2025: 0.05
+    Q3 2025: 0.06
+    Q4 2025: 0.02
+    Q1 2026: 0.04
+  annual:
+    2021 Yearly: 0.31
+    2022 Yearly: 0.89
+    2023 Yearly: 0.51
+    2024 Yearly: 0.35
+    2025 Yearly: 0.19
+  quarterly_forecast:
+    Q3 2024: 0.07
+    Q4 2024: 0.06
+    Q1 2025: 0.05
+    Q2 2025: 0.03
+    Q3 2025: 0.04
+    Q4 2025: 0.02
+    Q1 2026: 0.02
+    Q2 2026: 0.07
+    Q3 2026: 0.04
+    Q4 2026: 0.05
+    Q1 2027: 0.06
+  annual_forecast:
+    2021 Yearly: 0.03
+    2022 Yearly: 0.78
+    2023 Yearly: 0.47
+    2024 Yearly: 0.36
+    2025 Yearly: 0.18
+    2026 Yearly: 0.21
+    2027 Yearly: 0.25

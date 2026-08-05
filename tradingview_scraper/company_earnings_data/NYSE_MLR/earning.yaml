@@ -1,0 +1,66 @@
+currency: USD
+company_name: Miller Industries, Inc.
+sector: Consumer Durables
+market_cap_billions: 0.57913
+revenue:
+  quarterly:
+    Q3 2024: 314.27
+    Q4 2024: 221.91
+    Q1 2025: 225.65
+    Q2 2025: 214.03
+    Q3 2025: 178.67
+    Q4 2025: 171.17
+    Q1 2026: 180.86
+  annual:
+    2023 Yearly: 1150.0
+    2024 Yearly: 1260.0
+    2025 Yearly: 790.27
+  quarterly_forecast:
+    Q3 2024: 297.65
+    Q4 2024: 290.3
+    Q1 2025: 224.35
+    Q2 2025: 222.9
+    Q3 2025: 177.55
+    Q4 2025: 164.2
+    Q1 2026: 181.1
+    Q2 2026: 210.8
+    Q3 2026: 241.2
+    Q4 2026: 249.4
+    Q1 2027: 245.1
+  annual_forecast:
+    2024 Yearly: 1330.0
+    2025 Yearly: 782.55
+    2026 Yearly: 882.3
+    2027 Yearly: 1040.0
+    2028 Yearly: 1170.0
+eps:
+  quarterly:
+    Q3 2024: 1.33
+    Q4 2024: 0.91
+    Q1 2025: 0.69
+    Q2 2025: 0.73
+    Q3 2025: 0.27
+    Q4 2025: 0.29
+    Q1 2026: 0.05
+  annual:
+    2023 Yearly: 5.07
+    2024 Yearly: 5.47
+    2025 Yearly: 1.98
+  quarterly_forecast:
+    Q3 2024: 1.33
+    Q4 2024: 1.19
+    Q1 2025: 0.63
+    Q2 2025: 0.55
+    Q3 2025: 0.02
+    Q4 2025: 0.07
+    Q1 2026: 0.27
+    Q2 2026: 0.36
+    Q3 2026: 0.67
+    Q4 2026: 0.73
+    Q1 2027: 0.76
+  annual_forecast:
+    2024 Yearly: 5.77
+    2025 Yearly: 1.76
+    2026 Yearly: 1.81
+    2027 Yearly: 3.14
+    2028 Yearly: 3.6

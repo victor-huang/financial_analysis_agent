@@ -1,7 +1,7 @@
 currency: USD
 company_name: BWX Technologies, Inc.
 sector: Electronic Technology
-market_cap_billions: 15.92
+market_cap_billions: 15.79
 revenue:
   quarterly:
     Q3 2024: 671.96
@@ -26,21 +26,21 @@ revenue:
     Q3 2025: 793.37
     Q4 2025: 837.5
     Q1 2026: 837.47
-    Q2 2026: 902.8
-    Q3 2026: 979.15
-    Q4 2026: 1040.0
-    Q1 2027: 950.99
-    Q2 2027: 1010.0
+    Q2 2026: 902.41
+    Q3 2026: 973.67
+    Q4 2026: 1060.0
+    Q1 2027: 960.8
+    Q2 2027: 1030.0
   annual_forecast:
     2021 Yearly: 2140.0
     2022 Yearly: 2260.0
     2023 Yearly: 2430.0
     2024 Yearly: 2680.0
     2025 Yearly: 3150.0
-    2026 Yearly: 3780.0
-    2027 Yearly: 4130.0
-    2028 Yearly: 4440.0
-    2029 Yearly: 4690.0
+    2026 Yearly: 3790.0
+    2027 Yearly: 4170.0
+    2028 Yearly: 4480.0
+    2029 Yearly: 4770.0
 eps:
   quarterly:
     Q3 2024: 0.83
@@ -66,17 +66,17 @@ eps:
     Q4 2025: 0.89
     Q1 2026: 0.92
     Q2 2026: 1.04
-    Q3 2026: 1.22
-    Q4 2026: 1.33
+    Q3 2026: 1.2
+    Q4 2026: 1.35
     Q1 2027: 1.18
-    Q2 2027: 1.26
+    Q2 2027: 1.28
   annual_forecast:
     2021 Yearly: 3.04
     2022 Yearly: 3.13
     2023 Yearly: 2.94
     2024 Yearly: 3.22
     2025 Yearly: 3.82
-    2026 Yearly: 4.71
-    2027 Yearly: 5.23
-    2028 Yearly: 5.82
-    2029 Yearly: 6.28
+    2026 Yearly: 4.74
+    2027 Yearly: 5.29
+    2028 Yearly: 5.88
+    2029 Yearly: 6.36

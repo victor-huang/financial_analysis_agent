@@ -1,0 +1,78 @@
+currency: USD
+company_name: Akebia Therapeutics, Inc.
+sector: Health Technology
+market_cap_billions: 0.3541
+revenue:
+  quarterly:
+    Q3 2024: 37.43
+    Q4 2024: 46.5
+    Q1 2025: 57.34
+    Q2 2025: 62.47
+    Q3 2025: 58.77
+    Q4 2025: 57.62
+    Q1 2026: 53.54
+  annual:
+    2021 Yearly: 213.58
+    2022 Yearly: 292.6
+    2023 Yearly: 194.62
+    2024 Yearly: 160.18
+    2025 Yearly: 236.2
+  quarterly_forecast:
+    Q3 2024: 44.5
+    Q4 2024: 37.34
+    Q1 2025: 44.53
+    Q2 2025: 47.24
+    Q3 2025: 58.23
+    Q4 2025: 46.09
+    Q1 2026: 51.67
+    Q2 2026: 48.85
+    Q3 2026: 49.75
+    Q4 2026: 54.5
+    Q1 2027: 36.57
+  annual_forecast:
+    2021 Yearly: 205.76
+    2022 Yearly: 284.82
+    2023 Yearly: 193.88
+    2024 Yearly: 151.04
+    2025 Yearly: 229.24
+    2026 Yearly: 206.63
+    2027 Yearly: 159.69
+    2028 Yearly: 202.42
+    2029 Yearly: 221.46
+eps:
+  quarterly:
+    Q3 2024: -0.1
+    Q4 2024: -0.1
+    Q1 2025: 0.03
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: -0.05
+    Q1 2026: -0.03
+  annual:
+    2021 Yearly: -1.7
+    2022 Yearly: -0.51
+    2023 Yearly: -0.28
+    2024 Yearly: -0.33
+    2025 Yearly: -0.02
+  quarterly_forecast:
+    Q3 2024: -0.06
+    Q4 2024: -0.08
+    Q1 2025: -0.04
+    Q2 2025: -0.02
+    Q3 2025: -0.01
+    Q4 2025: -0.04
+    Q1 2026: -0.03
+    Q2 2026: -0.04
+    Q3 2026: -0.05
+    Q4 2026: -0.02
+    Q1 2027: -0.09
+  annual_forecast:
+    2021 Yearly: -1.64
+    2022 Yearly: -0.64
+    2023 Yearly: -0.31
+    2024 Yearly: -0.31
+    2025 Yearly: 0.0
+    2026 Yearly: -0.14
+    2027 Yearly: -0.26
+    2028 Yearly: -0.1
+    2029 Yearly: -0.05

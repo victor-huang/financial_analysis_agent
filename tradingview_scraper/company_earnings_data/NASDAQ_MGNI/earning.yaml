@@ -1,0 +1,78 @@
+currency: USD
+company_name: Magnite, Inc.
+sector: Technology Services
+market_cap_billions: 2.99
+revenue:
+  quarterly:
+    Q3 2024: 149.4
+    Q4 2024: 180.2
+    Q1 2025: 145.85
+    Q2 2025: 162.0
+    Q3 2025: 166.78
+    Q4 2025: 195.05
+    Q1 2026: 160.9
+  annual:
+    2021 Yearly: 416.5
+    2022 Yearly: 514.62
+    2023 Yearly: 549.15
+    2024 Yearly: 606.94
+    2025 Yearly: 669.63
+  quarterly_forecast:
+    Q3 2024: 147.98
+    Q4 2024: 184.08
+    Q1 2025: 142.41
+    Q2 2025: 157.43
+    Q3 2025: 163.42
+    Q4 2025: 194.22
+    Q1 2026: 159.24
+    Q2 2026: 179.16
+    Q3 2026: 185.5
+    Q4 2026: 220.92
+    Q1 2027: 175.72
+  annual_forecast:
+    2021 Yearly: 419.33
+    2022 Yearly: 511.79
+    2023 Yearly: 544.32
+    2024 Yearly: 610.87
+    2025 Yearly: 668.66
+    2026 Yearly: 746.73
+    2027 Yearly: 821.43
+    2028 Yearly: 1070.0
+    2029 Yearly: 1010.0
+eps:
+  quarterly:
+    Q3 2024: 0.17
+    Q4 2024: 0.34
+    Q1 2025: 0.12
+    Q2 2025: 0.2
+    Q3 2025: 0.2
+    Q4 2025: 0.34
+    Q1 2026: 0.13
+  annual:
+    2021 Yearly: 0.55
+    2022 Yearly: 0.64
+    2023 Yearly: 0.54
+    2024 Yearly: 0.71
+    2025 Yearly: 0.87
+  quarterly_forecast:
+    Q3 2024: 0.16
+    Q4 2024: 0.36
+    Q1 2025: 0.07
+    Q2 2025: 0.17
+    Q3 2025: 0.2
+    Q4 2025: 0.35
+    Q1 2026: 0.11
+    Q2 2026: 0.25
+    Q3 2026: 0.26
+    Q4 2026: 0.44
+    Q1 2027: 0.16
+  annual_forecast:
+    2021 Yearly: 0.58
+    2022 Yearly: 0.72
+    2023 Yearly: 0.53
+    2024 Yearly: 0.73
+    2025 Yearly: 0.88
+    2026 Yearly: 1.06
+    2027 Yearly: 1.24
+    2028 Yearly: 1.26
+    2029 Yearly: 1.22

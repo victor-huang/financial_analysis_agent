@@ -1,0 +1,78 @@
+currency: USD
+company_name: Tenaris S.A.
+sector: Non-Energy Minerals
+market_cap_billions: 30.6
+revenue:
+  quarterly:
+    Q3 2024: 2920.0
+    Q4 2024: 2850.0
+    Q1 2025: 2920.0
+    Q2 2025: 3090.0
+    Q3 2025: 2980.0
+    Q4 2025: 3000.0
+    Q1 2026: 3100.0
+  annual:
+    2021 Yearly: 6520.0
+    2022 Yearly: 11760.0
+    2023 Yearly: 14870.0
+    2024 Yearly: 12520.0
+    2025 Yearly: 11980.0
+  quarterly_forecast:
+    Q3 2024: 2760.0
+    Q4 2024: 2720.0
+    Q1 2025: 2900.0
+    Q2 2025: 3040.0
+    Q3 2025: 2840.0
+    Q4 2025: 2950.0
+    Q1 2026: 3030.0
+    Q2 2026: 2930.0
+    Q3 2026: 3060.0
+    Q4 2026: 3160.0
+    Q1 2027: 3080.0
+  annual_forecast:
+    2021 Yearly: 6460.0
+    2022 Yearly: 11650.0
+    2023 Yearly: 14550.0
+    2024 Yearly: 12400.0
+    2025 Yearly: 11970.0
+    2026 Yearly: 12300.0
+    2027 Yearly: 12890.0
+    2028 Yearly: 13350.0
+    2029 Yearly: 13180.0
+eps:
+  quarterly:
+    Q3 2024: 0.81
+    Q4 2024: 0.94
+    Q1 2025: 0.94
+    Q2 2025: 0.99
+    Q3 2025: 0.85
+    Q4 2025: 0.88
+    Q1 2026: 1.07
+  annual:
+    2021 Yearly: 1.86
+    2022 Yearly: 4.33
+    2023 Yearly: 6.65
+    2024 Yearly: 3.61
+    2025 Yearly: 3.66
+  quarterly_forecast:
+    Q3 2024: 0.66
+    Q4 2024: 0.69
+    Q1 2025: 0.78
+    Q2 2025: 0.87
+    Q3 2025: 0.77
+    Q4 2025: 0.8
+    Q1 2026: 0.89
+    Q2 2026: 0.83
+    Q3 2026: 0.93
+    Q4 2026: 1.0
+    Q1 2027: 1.01
+  annual_forecast:
+    2021 Yearly: 1.62
+    2022 Yearly: 4.34
+    2023 Yearly: 5.77
+    2024 Yearly: 3.52
+    2025 Yearly: 3.57
+    2026 Yearly: 3.8
+    2027 Yearly: 4.24
+    2028 Yearly: 4.56
+    2029 Yearly: 5.2

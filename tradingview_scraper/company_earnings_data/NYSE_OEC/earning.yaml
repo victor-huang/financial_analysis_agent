@@ -1,0 +1,76 @@
+currency: USD
+company_name: Orion S.A.
+sector: Process Industries
+market_cap_billions: 0.37555
+revenue:
+  quarterly:
+    Q3 2024: 463.4
+    Q4 2024: 434.2
+    Q1 2025: 477.7
+    Q2 2025: 466.4
+    Q3 2025: 450.9
+    Q4 2025: 411.7
+    Q1 2026: 459.5
+  annual:
+    2021 Yearly: 1550.0
+    2022 Yearly: 2029.9999999999998
+    2023 Yearly: 1890.0
+    2024 Yearly: 1880.0
+    2025 Yearly: 1810.0
+  quarterly_forecast:
+    Q3 2024: 480.67
+    Q4 2024: 436.96
+    Q1 2025: 485.64
+    Q2 2025: 470.45
+    Q3 2025: 428.07
+    Q4 2025: 365.67
+    Q1 2026: 434.31
+    Q2 2026: 474.43
+    Q3 2026: 435.53
+    Q4 2026: 406.68
+    Q1 2027: 488.31
+  annual_forecast:
+    2021 Yearly: 1550.0
+    2022 Yearly: 2020.0
+    2023 Yearly: 1840.0
+    2024 Yearly: 1880.0
+    2025 Yearly: 1750.0
+    2026 Yearly: 1780.0
+    2027 Yearly: 1780.0
+    2028 Yearly: 1870.0
+eps:
+  quarterly:
+    Q3 2024: 0.47
+    Q4 2024: 0.35
+    Q1 2025: 0.22
+    Q2 2025: 0.32
+    Q3 2025: 0.29
+    Q4 2025: -0.34
+    Q1 2026: -0.11
+  annual:
+    2021 Yearly: 1.73
+    2022 Yearly: 1.96
+    2023 Yearly: 1.92
+    2024 Yearly: 1.76
+    2025 Yearly: 0.5
+  quarterly_forecast:
+    Q3 2024: 0.47
+    Q4 2024: 0.21
+    Q1 2025: 0.43
+    Q2 2025: 0.34
+    Q3 2025: 0.26
+    Q4 2025: -0.07
+    Q1 2026: 0.07
+    Q2 2026: 0.16
+    Q3 2026: 0.1
+    Q4 2026: 0.01
+    Q1 2027: 0.12
+  annual_forecast:
+    2021 Yearly: 1.92
+    2022 Yearly: 1.88
+    2023 Yearly: 2.1
+    2024 Yearly: 1.62
+    2025 Yearly: 0.77
+    2026 Yearly: 0.15
+    2027 Yearly: 0.38
+    2028 Yearly: 0.66

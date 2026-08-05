@@ -1,0 +1,74 @@
+currency: USD
+company_name: Amplify Energy Corp.
+sector: Energy Minerals
+market_cap_billions: 0.16432
+revenue:
+  quarterly:
+    Q3 2024: 69.86
+    Q4 2024: 69.02
+    Q1 2025: 72.05
+    Q2 2025: 68.36
+    Q3 2025: 66.4
+    Q4 2025: 56.55
+    Q1 2026: 37.46
+  annual:
+    2021 Yearly: 342.91
+    2022 Yearly: 458.48
+    2023 Yearly: 307.65
+    2024 Yearly: 294.68
+    2025 Yearly: 263.36
+  quarterly_forecast:
+    Q3 2024: 76.36
+    Q4 2024: 76.04
+    Q1 2025: 72.55
+    Q2 2025: 68.52
+    Q3 2025: 69.53
+    Q4 2025: 71.08
+    Q1 2026: 38.11
+    Q2 2026: 43.61
+    Q3 2026: 45.88
+    Q4 2026: 46.18
+    Q1 2027: 45.04
+  annual_forecast:
+    2021 Yearly: 266.94
+    2022 Yearly: 395.1
+    2023 Yearly: 298.03
+    2024 Yearly: 306.48
+    2025 Yearly: 282.95
+    2026 Yearly: 171.85
+    2027 Yearly: 201.79
+eps:
+  quarterly:
+    Q3 2024: 0.54
+    Q4 2024: 0.13
+    Q1 2025: 0.1
+    Q2 2025: -0.05
+    Q3 2025: -0.52
+    Q4 2025: 1.5
+    Q1 2026: -0.93
+  annual:
+    2021 Yearly: -0.84
+    2022 Yearly: 1.37
+    2023 Yearly: 9.66
+    2024 Yearly: 0.6
+    2025 Yearly: 0.98
+  quarterly_forecast:
+    Q3 2024: 0.27
+    Q4 2024: 0.24
+    Q1 2025: 0.14
+    Q2 2025: 0.1
+    Q3 2025: 0.1
+    Q4 2025: 0.12
+    Q1 2026: 0.06
+    Q2 2026: 0.08
+    Q3 2026: 0.08
+    Q4 2026: 0.08
+    Q1 2027: 0.23
+  annual_forecast:
+    2021 Yearly: 0.19
+    2022 Yearly: 0.56
+    2023 Yearly: 8.96
+    2024 Yearly: 0.98
+    2025 Yearly: -0.39
+    2026 Yearly: -0.69
+    2027 Yearly: 1.07

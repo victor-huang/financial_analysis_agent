@@ -1,0 +1,74 @@
+currency: USD
+company_name: Carriage Services, Inc.
+sector: Consumer Services
+market_cap_billions: 0.6429900000000001
+revenue:
+  quarterly:
+    Q3 2024: 100.69
+    Q4 2024: 97.7
+    Q1 2025: 107.07
+    Q2 2025: 102.15
+    Q3 2025: 102.74
+    Q4 2025: 105.48
+    Q1 2026: 106.12
+  annual:
+    2021 Yearly: 375.89
+    2022 Yearly: 370.17
+    2023 Yearly: 382.52
+    2024 Yearly: 404.2
+    2025 Yearly: 417.44
+  quarterly_forecast:
+    Q3 2024: 91.77
+    Q4 2024: 96.72
+    Q1 2025: 103.91
+    Q2 2025: 101.36
+    Q3 2025: 101.43
+    Q4 2025: 103.65
+    Q1 2026: 111.39
+    Q2 2026: 108.91
+    Q3 2026: 112.59
+    Q4 2026: 115.25
+    Q1 2027: 113.43
+  annual_forecast:
+    2021 Yearly: 372.61
+    2022 Yearly: 367.25
+    2023 Yearly: 377.32
+    2024 Yearly: 403.18
+    2025 Yearly: 415.66
+    2026 Yearly: 442.85
+    2027 Yearly: 463.64
+eps:
+  quarterly:
+    Q3 2024: 0.64
+    Q4 2024: 0.62
+    Q1 2025: 1.34
+    Q2 2025: 0.74
+    Q3 2025: 0.75
+    Q4 2025: 0.75
+    Q1 2026: 0.86
+  annual:
+    2021 Yearly: 3.02
+    2022 Yearly: 2.61
+    2023 Yearly: 2.19
+    2024 Yearly: 2.1
+    2025 Yearly: 3.2
+  quarterly_forecast:
+    Q3 2024: 0.43
+    Q4 2024: 0.51
+    Q1 2025: 0.82
+    Q2 2025: 0.73
+    Q3 2025: 0.73
+    Q4 2025: 0.81
+    Q1 2026: 0.88
+    Q2 2026: 0.82
+    Q3 2026: 0.87
+    Q4 2026: 0.9
+    Q1 2027: 0.95
+  annual_forecast:
+    2021 Yearly: 3.05
+    2022 Yearly: 2.54
+    2023 Yearly: 1.92
+    2024 Yearly: 2.53
+    2025 Yearly: 3.27
+    2026 Yearly: 3.46
+    2027 Yearly: 3.76

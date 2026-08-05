@@ -1,7 +1,7 @@
 currency: USD
 company_name: TKO Group Holdings, Inc.
 sector: Consumer Services
-market_cap_billions: 35.15
+market_cap_billions: 34.92
 revenue:
   quarterly:
     Q3 2024: 681.2
@@ -28,7 +28,7 @@ revenue:
     Q1 2026: 1590.0
     Q2 2026: 1540.0
     Q3 2026: 1390.0
-    Q4 2026: 1270.0
+    Q4 2026: 1290.0
     Q1 2027: 1510.0
     Q2 2027: 1600.0
   annual_forecast:
@@ -37,10 +37,10 @@ revenue:
     2023 Yearly: 2630.0
     2024 Yearly: 2770.0
     2025 Yearly: 4720.0
-    2026 Yearly: 5790.0
-    2027 Yearly: 5830.0
-    2028 Yearly: 7380.0
-    2029 Yearly: 6890.0
+    2026 Yearly: 5810.0
+    2027 Yearly: 5870.0
+    2028 Yearly: 7420.0
+    2029 Yearly: 6870.0
 eps:
   quarterly:
     Q3 2024: 0.28
@@ -66,17 +66,17 @@ eps:
     Q4 2025: 0.24
     Q1 2026: 1.11
     Q2 2026: 1.41
-    Q3 2026: 1.26
-    Q4 2026: 0.84
-    Q1 2027: 1.15
-    Q2 2027: 1.94
+    Q3 2026: 1.33
+    Q4 2026: 1.06
+    Q1 2027: 1.21
+    Q2 2027: 1.98
   annual_forecast:
     2021 Yearly: 1.94
     2022 Yearly: 2.46
     2023 Yearly: 1.97
     2024 Yearly: -0.05
     2025 Yearly: 2.41
-    2026 Yearly: 4.65
-    2027 Yearly: 5.26
-    2028 Yearly: 6.72
-    2029 Yearly: 7.76
+    2026 Yearly: 4.53
+    2027 Yearly: 5.47
+    2028 Yearly: 7.22
+    2029 Yearly: 7.8

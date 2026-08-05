@@ -1,0 +1,78 @@
+currency: USD
+company_name: HubSpot, Inc.
+sector: Technology Services
+market_cap_billions: 12.75
+revenue:
+  quarterly:
+    Q3 2024: 669.72
+    Q4 2024: 703.17
+    Q1 2025: 714.14
+    Q2 2025: 760.87
+    Q3 2025: 809.52
+    Q4 2025: 846.75
+    Q1 2026: 881.0
+  annual:
+    2021 Yearly: 1300.0
+    2022 Yearly: 1730.0
+    2023 Yearly: 2170.0
+    2024 Yearly: 2630.0
+    2025 Yearly: 3130.0
+  quarterly_forecast:
+    Q3 2024: 646.97
+    Q4 2024: 673.29
+    Q1 2025: 700.94
+    Q2 2025: 739.86
+    Q3 2025: 786.6
+    Q4 2025: 830.91
+    Q1 2026: 863.32
+    Q2 2026: 898.31
+    Q3 2026: 942.33
+    Q4 2026: 985.57
+    Q1 2027: 1020.0
+  annual_forecast:
+    2021 Yearly: 1290.0
+    2022 Yearly: 1710.0
+    2023 Yearly: 2150.0
+    2024 Yearly: 2600.0
+    2025 Yearly: 3120.0
+    2026 Yearly: 3710.0
+    2027 Yearly: 4290.0
+    2028 Yearly: 4930.0
+    2029 Yearly: 5660.0
+eps:
+  quarterly:
+    Q3 2024: 2.18
+    Q4 2024: 2.32
+    Q1 2025: 1.78
+    Q2 2025: 2.19
+    Q3 2025: 2.66
+    Q4 2025: 3.09
+    Q1 2026: 2.72
+  annual:
+    2021 Yearly: 1.82
+    2022 Yearly: 2.78
+    2023 Yearly: 5.89
+    2024 Yearly: 8.12
+    2025 Yearly: 9.7
+  quarterly_forecast:
+    Q3 2024: 1.91
+    Q4 2024: 2.19
+    Q1 2025: 1.77
+    Q2 2025: 2.12
+    Q3 2025: 2.59
+    Q4 2025: 2.99
+    Q1 2026: 2.47
+    Q2 2026: 3.02
+    Q3 2026: 3.45
+    Q4 2026: 3.94
+    Q1 2027: 3.3
+  annual_forecast:
+    2021 Yearly: 1.77
+    2022 Yearly: 2.49
+    2023 Yearly: 5.68
+    2024 Yearly: 8.0
+    2025 Yearly: 9.61
+    2026 Yearly: 13.1
+    2027 Yearly: 15.59
+    2028 Yearly: 18.72
+    2029 Yearly: 19.91

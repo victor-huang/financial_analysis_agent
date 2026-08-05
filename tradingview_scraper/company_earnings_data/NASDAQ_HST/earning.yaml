@@ -1,0 +1,76 @@
+currency: USD
+company_name: Host Hotels & Resorts, Inc.
+sector: Finance
+market_cap_billions: 17.11
+revenue:
+  quarterly:
+    Q3 2024: 1320.0
+    Q4 2024: 1430.0
+    Q1 2025: 1590.0
+    Q2 2025: 1590.0
+    Q3 2025: 1330.0
+    Q4 2025: 1600.0
+    Q1 2026: 1650.0
+  annual:
+    2021 Yearly: 2890.0
+    2022 Yearly: 4910.0
+    2023 Yearly: 5310.0
+    2024 Yearly: 5680.0
+    2025 Yearly: 6110.0
+  quarterly_forecast:
+    Q3 2024: 1290.0
+    Q4 2024: 1370.0
+    Q1 2025: 1550.0
+    Q2 2025: 1510.0
+    Q3 2025: 1310.0
+    Q4 2025: 1500.0
+    Q1 2026: 1590.0
+    Q2 2026: 1620.0
+    Q3 2026: 1360.0
+    Q4 2026: 1520.0
+    Q1 2027: 1620.0
+  annual_forecast:
+    2021 Yearly: 2800.0
+    2022 Yearly: 4900.0
+    2023 Yearly: 5280.0
+    2024 Yearly: 5630.0
+    2025 Yearly: 6010.0
+    2026 Yearly: 6140.0
+    2027 Yearly: 6150.0
+    2028 Yearly: 6340.0
+eps:
+  quarterly:
+    Q3 2024: 0.12
+    Q4 2024: 0.15
+    Q1 2025: 0.35
+    Q2 2025: 0.32
+    Q3 2025: 0.23
+    Q4 2025: 0.2
+    Q1 2026: 0.72
+  annual:
+    2021 Yearly: -0.02
+    2022 Yearly: 0.88
+    2023 Yearly: 1.04
+    2024 Yearly: 0.99
+    2025 Yearly: 1.1
+  quarterly_forecast:
+    Q3 2024: 0.1
+    Q4 2024: 0.13
+    Q1 2025: 0.27
+    Q2 2025: 0.22
+    Q3 2025: 0.05
+    Q4 2025: 0.19
+    Q1 2026: 0.36
+    Q2 2026: 0.34
+    Q3 2026: 0.09
+    Q4 2026: 0.22
+    Q1 2027: 0.35
+  annual_forecast:
+    2021 Yearly: -0.48
+    2022 Yearly: 0.87
+    2023 Yearly: 1.04
+    2024 Yearly: 0.96
+    2025 Yearly: 1.09
+    2026 Yearly: 1.36
+    2027 Yearly: 1.03
+    2028 Yearly: 1.03

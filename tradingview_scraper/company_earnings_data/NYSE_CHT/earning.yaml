@@ -1,0 +1,70 @@
+currency: USD
+company_name: Chunghwa Telecom Co., Ltd.
+sector: Communications
+market_cap_billions: 33.27
+revenue:
+  quarterly:
+    Q4 2024: 2000.0
+    Q1 2025: 1840.0
+    Q2 2025: 1900.0
+    Q3 2025: 1870.0
+    Q4 2025: 2080.0
+    Q1 2026: 1910.0
+  annual:
+    2021 Yearly: 7570.0
+    2022 Yearly: 7300.0
+    2023 Yearly: 7160.0
+    2024 Yearly: 7030.0
+    2025 Yearly: 7480.0
+  quarterly_forecast:
+    Q4 2024: 1980.0
+    Q1 2025: 1740.0
+    Q2 2025: 1860.0
+    Q3 2025: 1910.0
+    Q4 2025: 2100.0
+    Q1 2026: 1810.0
+    Q2 2026: 1910.0
+    Q3 2026: 1900.0
+    Q4 2026: 2180.0
+  annual_forecast:
+    2021 Yearly: 7590.0
+    2022 Yearly: 7010.0
+    2023 Yearly: 7050.0
+    2024 Yearly: 6980.0
+    2025 Yearly: 7550.0
+    2026 Yearly: 7780.0
+    2027 Yearly: 7970.0
+    2028 Yearly: 8240.0
+eps:
+  quarterly:
+    Q4 2024: 0.35
+    Q1 2025: 0.42
+    Q2 2025: 0.44
+    Q3 2025: 0.39
+    Q4 2025: 0.38
+    Q1 2026: 0.41
+  annual:
+    2021 Yearly: 1.66
+    2022 Yearly: 1.59
+    2023 Yearly: 1.53
+    2024 Yearly: 1.47
+    2025 Yearly: 1.58
+  quarterly_forecast:
+    Q4 2024: 0.32
+    Q1 2025: 0.39
+    Q2 2025: 0.42
+    Q3 2025: 0.41
+    Q4 2025: 0.38
+    Q1 2026: 0.41
+    Q2 2026: 0.43
+    Q3 2026: 0.41
+    Q4 2026: 0.39
+  annual_forecast:
+    2021 Yearly: 1.62
+    2022 Yearly: 1.56
+    2023 Yearly: 1.52
+    2024 Yearly: 1.47
+    2025 Yearly: 1.58
+    2026 Yearly: 1.64
+    2027 Yearly: 1.7
+    2028 Yearly: 1.85

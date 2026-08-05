@@ -1,7 +1,7 @@
 currency: USD
 company_name: Alight, Inc.
 sector: Technology Services
-market_cap_billions: 0.5273
+market_cap_billions: 0.46149
 revenue:
   quarterly:
     Q3 2024: 555.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 533.0
     Q4 2025: 653.0
     Q1 2026: 534.0
+    Q2 2026: 497.49
   annual:
     2020 Yearly: 2730.0
     2021 Yearly: 2920.0
@@ -30,6 +31,7 @@ revenue:
     Q3 2026: 501.79
     Q4 2026: 614.69
     Q1 2027: 528.05
+    Q2 2027: 500.75
   annual_forecast:
     2021 Yearly: 2850.0
     2022 Yearly: 3110.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 2.4
     Q4 2025: 3.6
     Q1 2026: 1.2
+    Q2 2026: 0.8
   annual:
     2021 Yearly: 8.04
     2022 Yearly: 11.4
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 1.19
     Q4 2026: 2.43
     Q1 2027: 0.82
+    Q2 2027: 1.2
   annual_forecast:
     2021 Yearly: 9.2
     2022 Yearly: 11.28

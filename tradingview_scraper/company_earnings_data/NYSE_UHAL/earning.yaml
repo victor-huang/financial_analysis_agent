@@ -1,0 +1,74 @@
+currency: USD
+company_name: U-Haul Holding Company
+sector: Finance
+market_cap_billions: 12.99
+revenue:
+  quarterly:
+    Q2 2024: 1660.0
+    Q3 2024: 1390.0
+    Q4 2024: 1230.0
+    Q1 2025: 1630.0
+    Q2 2025: 1720.0
+    Q3 2025: 1420.0
+    Q4 2025: 1270.0
+  annual:
+    2021 Yearly: 5740.0
+    2022 Yearly: 5860.0
+    2023 Yearly: 5630.0
+    2024 Yearly: 5830.0
+    2025 Yearly: 6040.0
+  quarterly_forecast:
+    Q2 2024: 1690.0
+    Q3 2024: 1350.0
+    Q4 2024: 1160.0
+    Q1 2025: 1630.0
+    Q2 2025: 1730.0
+    Q3 2025: 1430.0
+    Q4 2025: 1310.0
+    Q1 2026: 1680.0
+    Q2 2026: 1790.0
+    Q3 2026: 1490.0
+    Q4 2026: 1340.0
+  annual_forecast:
+    2021 Yearly: 5780.0
+    2022 Yearly: 5870.0
+    2023 Yearly: 5700.0
+    2024 Yearly: 5740.0
+    2025 Yearly: 6010.0
+    2026 Yearly: 6310.0
+    2027 Yearly: 6640.0
+eps:
+  quarterly:
+    Q2 2024: 0.91
+    Q3 2024: 0.3
+    Q4 2024: -0.46
+    Q1 2025: 0.68
+    Q2 2025: 0.49
+    Q3 2025: -0.23
+    Q4 2025: -0.7
+  annual:
+    2021 Yearly: 5.73
+    2022 Yearly: 5.54
+    2023 Yearly: 3.04
+    2024 Yearly: 1.69
+    2025 Yearly: 0.24
+  quarterly_forecast:
+    Q2 2024: 1.37
+    Q3 2024: 0.35
+    Q4 2024: -0.22
+    Q1 2025: 1.0
+    Q2 2025: 0.87
+    Q3 2025: 0.24
+    Q4 2025: -0.68
+    Q1 2026: 0.66
+    Q2 2026: 0.73
+    Q3 2026: 0.09
+    Q4 2026: -0.42
+  annual_forecast:
+    2021 Yearly: 6.03
+    2022 Yearly: 4.98
+    2023 Yearly: 3.37
+    2024 Yearly: 2.04
+    2025 Yearly: 0.34
+    2026 Yearly: 1.14
+    2027 Yearly: 2.14

@@ -1,0 +1,74 @@
+currency: USD
+company_name: Arcosa, Inc.
+sector: Non-Energy Minerals
+market_cap_billions: 7.12
+revenue:
+  quarterly:
+    Q3 2024: 640.4
+    Q4 2024: 666.2
+    Q1 2025: 632.0
+    Q2 2025: 736.9
+    Q3 2025: 797.8
+    Q4 2025: 716.7
+    Q1 2026: 571.7
+  annual:
+    2021 Yearly: 2040.0
+    2022 Yearly: 2240.0
+    2023 Yearly: 2310.0
+    2024 Yearly: 2570.0
+    2025 Yearly: 2880.0
+  quarterly_forecast:
+    Q3 2024: 682.52
+    Q4 2024: 690.28
+    Q1 2025: 614.5
+    Q2 2025: 754.2
+    Q3 2025: 784.32
+    Q4 2025: 719.46
+    Q1 2026: 642.4
+    Q2 2026: 687.5
+    Q3 2026: 729.75
+    Q4 2026: 645.63
+    Q1 2027: 607.2
+  annual_forecast:
+    2022 Yearly: 2009.9999999999998
+    2023 Yearly: 2220.0
+    2024 Yearly: 2280.0
+    2025 Yearly: 2590.0
+    2026 Yearly: 2890.0
+    2027 Yearly: 2630.0
+eps:
+  quarterly:
+    Q3 2024: 0.91
+    Q4 2024: 0.46
+    Q1 2025: 0.49
+    Q2 2025: 1.27
+    Q3 2025: 1.56
+    Q4 2025: 1.15
+    Q1 2026: 0.51
+  annual:
+    2021 Yearly: 1.93
+    2022 Yearly: 2.19
+    2023 Yearly: 3.23
+    2024 Yearly: 3.02
+    2025 Yearly: 4.47
+  quarterly_forecast:
+    Q3 2024: 0.84
+    Q4 2024: 0.73
+    Q1 2025: 0.18
+    Q2 2025: 1.05
+    Q3 2025: 1.35
+    Q4 2025: 0.92
+    Q1 2026: 0.44
+    Q2 2026: 1.19
+    Q3 2026: 1.56
+    Q4 2026: 1.01
+    Q1 2027: 0.6
+  annual_forecast:
+    2021 Yearly: 1.73
+    2022 Yearly: 2.15
+    2023 Yearly: 3.04
+    2024 Yearly: 3.28
+    2025 Yearly: 4.21
+    2026 Yearly: 4.28
+    2027 Yearly: 5.02
+    2028 Yearly: 7.17

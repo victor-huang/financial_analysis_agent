@@ -1,7 +1,7 @@
 currency: USD
 company_name: ON Semiconductor Corporation
 sector: Electronic Technology
-market_cap_billions: 31.29
+market_cap_billions: 31.44
 revenue:
   quarterly:
     Q3 2024: 1760.0
@@ -27,19 +27,19 @@ revenue:
     Q4 2025: 1540.0
     Q1 2026: 1490.0
     Q2 2026: 1590.0
-    Q3 2026: 1680.0
-    Q4 2026: 1710.0
-    Q1 2027: 1700.0
-    Q2 2027: 1780.0
+    Q3 2026: 1700.0
+    Q4 2026: 1730.0
+    Q1 2027: 1730.0
+    Q2 2027: 1810.0
   annual_forecast:
     2021 Yearly: 6690.0
     2022 Yearly: 8300.0
     2023 Yearly: 8240.0
     2024 Yearly: 7120.0
     2025 Yearly: 6000.0
-    2026 Yearly: 6490.0
-    2027 Yearly: 7250.0
-    2028 Yearly: 8210.0
+    2026 Yearly: 6550.0
+    2027 Yearly: 7390.0
+    2028 Yearly: 8390.0
 eps:
   quarterly:
     Q3 2024: 0.99
@@ -65,16 +65,16 @@ eps:
     Q4 2025: 0.62
     Q1 2026: 0.61
     Q2 2026: 0.71
-    Q3 2026: 0.84
-    Q4 2026: 0.92
-    Q1 2027: 0.93
-    Q2 2027: 1.04
+    Q3 2026: 0.87
+    Q4 2026: 0.95
+    Q1 2027: 0.97
+    Q2 2027: 1.08
   annual_forecast:
     2021 Yearly: 2.81
     2022 Yearly: 5.27
     2023 Yearly: 5.11
     2024 Yearly: 4.0
     2025 Yearly: 2.33
-    2026 Yearly: 3.11
-    2027 Yearly: 4.35
-    2028 Yearly: 5.75
+    2026 Yearly: 3.2
+    2027 Yearly: 4.53
+    2028 Yearly: 5.97

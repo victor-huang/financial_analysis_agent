@@ -1,7 +1,7 @@
 currency: USD
 company_name: Offerpad Solutions Inc.
 sector: Technology Services
-market_cap_billions: 0.01727
+market_cap_billions: 0.02352
 revenue:
   quarterly:
     Q3 2024: 208.07
@@ -25,19 +25,20 @@ revenue:
     Q3 2025: 173.01
     Q4 2025: 120.5
     Q1 2026: 86.25
-    Q2 2026: 85.2
-    Q3 2026: 115.58
-    Q4 2026: 130.86
+    Q2 2026: 82.53
+    Q3 2026: 112.91
+    Q4 2026: 142.2
     Q1 2027: 130.27
+    Q2 2027: 137.79
   annual_forecast:
     2021 Yearly: 1880.0
     2022 Yearly: 3820.0
     2023 Yearly: 1330.0
     2024 Yearly: 918.65
     2025 Yearly: 570.26
-    2026 Yearly: 412.03
-    2027 Yearly: 556.4
-    2028 Yearly: 602.0
+    2026 Yearly: 417.7
+    2027 Yearly: 587.4
+    2028 Yearly: 708.0
 eps:
   quarterly:
     Q3 2024: -4.9
@@ -61,16 +62,17 @@ eps:
     Q3 2025: -2.83
     Q4 2025: -2.67
     Q1 2026: -2.27
-    Q2 2026: -1.87
-    Q3 2026: -1.35
-    Q4 2026: -0.83
+    Q2 2026: -2.01
+    Q3 2026: -1.47
+    Q4 2026: -1.14
     Q1 2027: -0.61
+    Q2 2027: -0.65
   annual_forecast:
     2021 Yearly: -34.58
     2022 Yearly: -53.75
     2023 Yearly: -31.82
     2024 Yearly: -19.06
     2025 Yearly: -15.03
-    2026 Yearly: -6.43
-    2027 Yearly: -2.76
-    2028 Yearly: -1.69
+    2026 Yearly: -6.97
+    2027 Yearly: -3.83
+    2028 Yearly: -5.29

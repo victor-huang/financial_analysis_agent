@@ -1,0 +1,76 @@
+currency: USD
+company_name: NN, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 0.29677
+revenue:
+  quarterly:
+    Q3 2024: 113.59
+    Q4 2024: 106.51
+    Q1 2025: 105.69
+    Q2 2025: 107.92
+    Q3 2025: 103.88
+    Q4 2025: 104.72
+    Q1 2026: 118.45
+  annual:
+    2021 Yearly: 477.6
+    2022 Yearly: 498.74
+    2023 Yearly: 489.27
+    2024 Yearly: 464.29
+    2025 Yearly: 422.21
+  quarterly_forecast:
+    Q3 2024: 120.5
+    Q4 2024: 108.6
+    Q1 2025: 109.7
+    Q2 2025: 110.79
+    Q3 2025: 111.77
+    Q4 2025: 105.36
+    Q1 2026: 106.59
+    Q2 2026: 116.09
+    Q3 2026: 116.58
+    Q4 2026: 113.72
+    Q1 2027: 124.6
+  annual_forecast:
+    2021 Yearly: 478.8
+    2022 Yearly: 504.1
+    2023 Yearly: 490.33
+    2024 Yearly: 466.39
+    2025 Yearly: 422.86
+    2026 Yearly: 464.88
+    2027 Yearly: 491.4
+    2028 Yearly: 535.53
+eps:
+  quarterly:
+    Q3 2024: -0.05
+    Q4 2024: -0.02
+    Q1 2025: -0.03
+    Q2 2025: 0.02
+    Q3 2025: -0.01
+    Q4 2025: 0.0
+    Q1 2026: 0.02
+  annual:
+    2021 Yearly: 0.04
+    2022 Yearly: -0.19
+    2023 Yearly: -0.29
+    2024 Yearly: -0.17
+    2025 Yearly: -0.03
+  quarterly_forecast:
+    Q3 2024: -0.03
+    Q4 2024: -0.12
+    Q1 2025: -0.04
+    Q2 2025: 0.0
+    Q3 2025: 0.01
+    Q4 2025: 0.01
+    Q1 2026: -0.05
+    Q2 2026: 0.0
+    Q3 2026: 0.02
+    Q4 2026: 0.0
+    Q1 2027: 0.04
+  annual_forecast:
+    2021 Yearly: -0.01
+    2022 Yearly: -0.08
+    2023 Yearly: -0.28
+    2024 Yearly: -0.41
+    2025 Yearly: -0.01
+    2026 Yearly: 0.05
+    2027 Yearly: 0.22
+    2028 Yearly: 0.28

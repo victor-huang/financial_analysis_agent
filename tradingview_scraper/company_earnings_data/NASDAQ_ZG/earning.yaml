@@ -1,0 +1,78 @@
+currency: USD
+company_name: Zillow Group, Inc.
+sector: Technology Services
+market_cap_billions: 8.34
+revenue:
+  quarterly:
+    Q3 2024: 581.0
+    Q4 2024: 554.0
+    Q1 2025: 598.0
+    Q2 2025: 655.0
+    Q3 2025: 676.0
+    Q4 2025: 654.0
+    Q1 2026: 708.0
+  annual:
+    2021 Yearly: 8150.0
+    2022 Yearly: 6180.0
+    2023 Yearly: 1950.0
+    2024 Yearly: 2240.0
+    2025 Yearly: 2580.0
+  quarterly_forecast:
+    Q3 2024: 555.45
+    Q4 2024: 546.68
+    Q1 2025: 589.1
+    Q2 2025: 647.92
+    Q3 2025: 670.89
+    Q4 2025: 650.51
+    Q1 2026: 705.17
+    Q2 2026: 758.25
+    Q3 2026: 773.97
+    Q4 2026: 740.98
+    Q1 2027: 794.6
+  annual_forecast:
+    2021 Yearly: 7250.0
+    2022 Yearly: 6160.0
+    2023 Yearly: 1920.0
+    2024 Yearly: 2230.0
+    2025 Yearly: 2580.0
+    2026 Yearly: 2980.0
+    2027 Yearly: 3370.0
+    2028 Yearly: 3770.0
+    2029 Yearly: 4360.0
+eps:
+  quarterly:
+    Q3 2024: 0.39
+    Q4 2024: 0.27
+    Q1 2025: 0.41
+    Q2 2025: 0.4
+    Q3 2025: 0.44
+    Q4 2025: 0.39
+    Q1 2026: 0.53
+  annual:
+    2021 Yearly: -0.47
+    2022 Yearly: 1.57
+    2023 Yearly: 1.27
+    2024 Yearly: 1.38
+    2025 Yearly: 1.64
+  quarterly_forecast:
+    Q3 2024: 0.28
+    Q4 2024: 0.26
+    Q1 2025: 0.37
+    Q2 2025: 0.42
+    Q3 2025: 0.43
+    Q4 2025: 0.4
+    Q1 2026: 0.46
+    Q2 2026: 0.45
+    Q3 2026: 0.67
+    Q4 2026: 0.63
+    Q1 2027: 0.69
+  annual_forecast:
+    2021 Yearly: -1.01
+    2022 Yearly: 1.45
+    2023 Yearly: 1.22
+    2024 Yearly: 1.4
+    2025 Yearly: 1.66
+    2026 Yearly: 2.28
+    2027 Yearly: 3.01
+    2028 Yearly: 3.93
+    2029 Yearly: 5.02

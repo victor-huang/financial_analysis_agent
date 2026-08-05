@@ -1,0 +1,76 @@
+currency: USD
+company_name: LifeMD, Inc.
+sector: Health Services
+market_cap_billions: 0.18861
+revenue:
+  quarterly:
+    Q3 2024: 53.39
+    Q4 2024: 64.25
+    Q1 2025: 65.7
+    Q2 2025: 62.22
+    Q3 2025: 60.17
+    Q4 2025: 46.87
+    Q1 2026: 50.16
+  annual:
+    2021 Yearly: 92.88
+    2022 Yearly: 119.03
+    2023 Yearly: 152.55
+    2024 Yearly: 212.45
+    2025 Yearly: 194.06
+  quarterly_forecast:
+    Q3 2024: 53.82
+    Q4 2024: 57.47
+    Q1 2025: 62.46
+    Q2 2025: 66.34
+    Q3 2025: 62.09
+    Q4 2025: 45.82
+    Q1 2026: 48.84
+    Q2 2026: 49.16
+    Q3 2026: 58.56
+    Q4 2026: 64.14
+    Q1 2027: 60.48
+  annual_forecast:
+    2021 Yearly: 92.92
+    2022 Yearly: 124.49
+    2023 Yearly: 148.99
+    2024 Yearly: 205.65
+    2025 Yearly: 233.96
+    2026 Yearly: 222.04
+    2027 Yearly: 260.89
+    2028 Yearly: 302.75
+eps:
+  quarterly:
+    Q3 2024: -0.14
+    Q4 2024: -0.02
+    Q1 2025: 0.01
+    Q2 2025: -0.06
+    Q3 2025: -0.1
+    Q4 2025: 0.41
+    Q1 2026: -0.2
+  annual:
+    2021 Yearly: -1.48
+    2022 Yearly: -1.57
+    2023 Yearly: -0.7
+    2024 Yearly: -0.53
+    2025 Yearly: 0.25
+  quarterly_forecast:
+    Q3 2024: -0.12
+    Q4 2024: -0.05
+    Q1 2025: -0.05
+    Q2 2025: -0.01
+    Q3 2025: -0.02
+    Q4 2025: -0.07
+    Q1 2026: -0.21
+    Q2 2026: -0.15
+    Q3 2026: 0.01
+    Q4 2026: 0.06
+    Q1 2027: -0.01
+  annual_forecast:
+    2021 Yearly: -1.7
+    2022 Yearly: -1.34
+    2023 Yearly: -0.71
+    2024 Yearly: -0.55
+    2025 Yearly: -0.21
+    2026 Yearly: -0.27
+    2027 Yearly: 0.07
+    2028 Yearly: 0.31

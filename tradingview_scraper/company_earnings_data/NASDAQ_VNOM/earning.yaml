@@ -1,7 +1,7 @@
 currency: USD
 company_name: Viper Energy, Inc.
 sector: Miscellaneous
-market_cap_billions: 15.57
+market_cap_billions: 15.09
 revenue:
   quarterly:
     Q3 2024: 209.59
@@ -27,10 +27,10 @@ revenue:
     Q4 2025: 422.77
     Q1 2026: 499.81
     Q2 2026: 643.45
-    Q3 2026: 571.71
-    Q4 2026: 569.63
-    Q1 2027: 568.68
-    Q2 2027: 563.98
+    Q3 2026: 572.3
+    Q4 2026: 568.93
+    Q1 2027: 568.01
+    Q2 2027: 562.88
   annual_forecast:
     2021 Yearly: 473.22
     2022 Yearly: 833.1
@@ -39,7 +39,7 @@ revenue:
     2025 Yearly: 1380.0
     2026 Yearly: 2290.0
     2027 Yearly: 2240.0
-    2028 Yearly: 2300.0
+    2028 Yearly: 2290.0
     2029 Yearly: 2390.0
 eps:
   quarterly:
@@ -66,7 +66,7 @@ eps:
     Q4 2025: 0.29
     Q1 2026: 0.43
     Q2 2026: 0.76
-    Q3 2026: 0.56
+    Q3 2026: 0.57
     Q4 2026: 0.57
     Q1 2027: 0.55
     Q2 2027: 0.54
@@ -76,7 +76,7 @@ eps:
     2023 Yearly: 2.61
     2024 Yearly: 2.05
     2025 Yearly: 1.61
-    2026 Yearly: 2.56
-    2027 Yearly: 2.21
-    2028 Yearly: 2.45
+    2026 Yearly: 2.6
+    2027 Yearly: 2.23
+    2028 Yearly: 2.44
     2029 Yearly: 2.73

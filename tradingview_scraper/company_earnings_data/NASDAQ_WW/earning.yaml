@@ -1,0 +1,50 @@
+currency: USD
+company_name: WW International, Inc.
+sector: Consumer Services
+market_cap_billions: 0.16518
+revenue:
+  quarterly:
+    Q1 2025: 186.57
+    Q2 2025: 189.0
+    Q3 2025: 172.09
+    Q4 2025: 162.81
+    Q1 2026: 168.26
+  annual:
+    2025 Yearly: 710.64
+  quarterly_forecast:
+    Q2 2025: 178.05
+    Q3 2025: 161.38
+    Q4 2025: 149.8
+    Q1 2026: 158.53
+    Q2 2026: 159.13
+    Q3 2026: 153.47
+    Q4 2026: 148.93
+    Q1 2027: 165.14
+  annual_forecast:
+    2025 Yearly: 699.71
+    2026 Yearly: 632.19
+    2027 Yearly: 644.39
+    2028 Yearly: 627.81
+eps:
+  quarterly:
+    Q1 2025: -2.11
+    Q2 2025: 14.43
+    Q3 2025: -5.76
+    Q4 2025: -0.58
+    Q1 2026: -5.2
+  annual:
+    2025 Yearly: -1.32
+  quarterly_forecast:
+    Q2 2025: -0.03
+    Q3 2025: 0.51
+    Q4 2025: -0.85
+    Q1 2026: -2.45
+    Q2 2026: 0.48
+    Q3 2026: 0.63
+    Q4 2026: -0.72
+    Q1 2027: -2.26
+  annual_forecast:
+    2025 Yearly: -1.57
+    2026 Yearly: -4.73
+    2027 Yearly: -1.51
+    2028 Yearly: -0.3

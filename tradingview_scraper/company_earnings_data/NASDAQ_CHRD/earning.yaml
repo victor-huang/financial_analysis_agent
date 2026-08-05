@@ -1,0 +1,78 @@
+currency: USD
+company_name: Chord Energy Corporation
+sector: Energy Minerals
+market_cap_billions: 7.71
+revenue:
+  quarterly:
+    Q3 2024: 1450.0
+    Q4 2024: 1450.0
+    Q1 2025: 1220.0
+    Q2 2025: 1180.0
+    Q3 2025: 1310.0
+    Q4 2025: 1170.0
+    Q1 2026: 1670.0
+  annual:
+    2021 Yearly: 1580.0
+    2022 Yearly: 3650.0
+    2023 Yearly: 3900.0
+    2024 Yearly: 5250.0
+    2025 Yearly: 4880.0
+  quarterly_forecast:
+    Q3 2024: 1260.0
+    Q4 2024: 1130.0
+    Q1 2025: 1210.0
+    Q2 2025: 948.12
+    Q3 2025: 1090.0
+    Q4 2025: 1080.0
+    Q1 2026: 1210.0
+    Q2 2026: 1620.0
+    Q3 2026: 1420.0
+    Q4 2026: 1350.0
+    Q1 2027: 1310.0
+  annual_forecast:
+    2021 Yearly: 1090.0
+    2022 Yearly: 3020.0
+    2023 Yearly: 3770.0
+    2024 Yearly: 4680.0
+    2025 Yearly: 4850.0
+    2026 Yearly: 5890.0
+    2027 Yearly: 5250.0
+    2028 Yearly: 5450.0
+    2029 Yearly: 4950.0
+eps:
+  quarterly:
+    Q3 2024: 3.4
+    Q4 2024: 3.49
+    Q1 2025: 4.04
+    Q2 2025: 1.79
+    Q3 2025: 2.35
+    Q4 2025: 1.28
+    Q1 2026: 4.56
+  annual:
+    2021 Yearly: 9.52
+    2022 Yearly: 27.03
+    2023 Yearly: 18.46
+    2024 Yearly: 16.67
+    2025 Yearly: 9.53
+  quarterly_forecast:
+    Q3 2024: 3.72
+    Q4 2024: 2.77
+    Q1 2025: 3.56
+    Q2 2025: 1.94
+    Q3 2025: 2.3
+    Q4 2025: 1.24
+    Q1 2026: 3.51
+    Q2 2026: 6.55
+    Q3 2026: 4.41
+    Q4 2026: 3.9
+    Q1 2027: 3.55
+  annual_forecast:
+    2021 Yearly: 15.48
+    2022 Yearly: 31.68
+    2023 Yearly: 18.27
+    2024 Yearly: 15.57
+    2025 Yearly: 9.54
+    2026 Yearly: 19.35
+    2027 Yearly: 13.87
+    2028 Yearly: 15.51
+    2029 Yearly: 13.82

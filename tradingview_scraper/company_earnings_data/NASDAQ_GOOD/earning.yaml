@@ -1,0 +1,74 @@
+currency: USD
+company_name: Gladstone Commercial Corporation - Real Estate Investment Trust
+sector: Finance
+market_cap_billions: 0.61266
+revenue:
+  quarterly:
+    Q3 2024: 39.23
+    Q4 2024: 37.38
+    Q1 2025: 37.5
+    Q2 2025: 39.53
+    Q3 2025: 40.84
+    Q4 2025: 43.46
+    Q1 2026: 41.91
+  annual:
+    2021 Yearly: 137.69
+    2022 Yearly: 148.98
+    2023 Yearly: 147.58
+    2024 Yearly: 149.39
+    2025 Yearly: 161.34
+  quarterly_forecast:
+    Q3 2024: 36.94
+    Q4 2024: 38.04
+    Q1 2025: 37.33
+    Q2 2025: 38.32
+    Q3 2025: 40.22
+    Q4 2025: 41.23
+    Q1 2026: 42.94
+    Q2 2026: 42.18
+    Q3 2026: 42.78
+    Q4 2026: 43.2
+    Q1 2027: 43.32
+  annual_forecast:
+    2022 Yearly: 137.91
+    2023 Yearly: 150.74
+    2024 Yearly: 148.48
+    2025 Yearly: 150.05
+    2026 Yearly: 159.09
+    2027 Yearly: 170.09
+eps:
+  quarterly:
+    Q3 2024: 0.2
+    Q4 2024: 0.09
+    Q1 2025: 0.04
+    Q2 2025: 0.03
+    Q3 2025: 0.02
+    Q4 2025: 0.05
+    Q1 2026: 0.08
+  annual:
+    2021 Yearly: -0.12
+    2022 Yearly: -0.08
+    2023 Yearly: -0.19
+    2024 Yearly: 0.27
+    2025 Yearly: 0.14
+  quarterly_forecast:
+    Q3 2024: -0.05
+    Q4 2024: 0.08
+    Q1 2025: 0.03
+    Q2 2025: 0.08
+    Q3 2025: 0.08
+    Q4 2025: 0.02
+    Q1 2026: 0.05
+    Q2 2026: 0.04
+    Q3 2026: 0.05
+    Q4 2026: 0.06
+    Q1 2027: 0.04
+  annual_forecast:
+    2021 Yearly: -0.13
+    2022 Yearly: -0.06
+    2023 Yearly: -0.17
+    2024 Yearly: 0.25
+    2025 Yearly: 0.11
+    2026 Yearly: 0.23
+    2027 Yearly: 0.21
+    2028 Yearly: 0.3

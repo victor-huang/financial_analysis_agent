@@ -1,0 +1,76 @@
+currency: USD
+company_name: Howard Hughes Holdings Inc.
+sector: Finance
+market_cap_billions: 3.91
+revenue:
+  quarterly:
+    Q3 2024: 327.15
+    Q4 2024: 983.59
+    Q1 2025: 199.33
+    Q2 2025: 260.88
+    Q3 2025: 390.24
+    Q4 2025: 624.45
+    Q1 2026: 235.92
+  annual:
+    2021 Yearly: 1430.0
+    2022 Yearly: 1610.0
+    2023 Yearly: 1020.0
+    2024 Yearly: 1750.0
+    2025 Yearly: 1470.0
+  quarterly_forecast:
+    Q3 2024: 261.0
+    Q4 2024: 918.5
+    Q1 2025: 190.19
+    Q2 2025: 284.11
+    Q3 2025: 360.59
+    Q4 2025: 591.21
+    Q1 2026: 194.43
+    Q2 2026: 469.0
+    Q3 2026: 544.0
+    Q4 2026: 459.0
+    Q1 2027: 197.55
+  annual_forecast:
+    2021 Yearly: 1240.0
+    2022 Yearly: 1550.0
+    2023 Yearly: 988.1
+    2024 Yearly: 1730.0
+    2025 Yearly: 1440.0
+    2026 Yearly: 1680.0
+    2027 Yearly: 1460.0
+    2028 Yearly: 2700.0
+    2029 Yearly: 1040.0
+eps:
+  quarterly:
+    Q3 2024: 1.95
+    Q4 2024: 3.25
+    Q1 2025: 0.21
+    Q2 2025: -0.22
+    Q3 2025: 2.02
+    Q4 2025: 0.1
+    Q1 2026: 0.14
+  annual:
+    2021 Yearly: 0.98
+    2022 Yearly: 3.48
+    2023 Yearly: -10.6
+    2024 Yearly: 5.73
+    2025 Yearly: 2.21
+  quarterly_forecast:
+    Q3 2024: 0.05
+    Q4 2024: 2.92
+    Q1 2025: 0.11
+    Q2 2025: 0.76
+    Q3 2025: 1.46
+    Q4 2025: 0.31
+    Q1 2026: 0.16
+    Q2 2026: 0.99
+    Q3 2026: 0.93
+    Q4 2026: 0.4
+    Q1 2027: 0.96
+  annual_forecast:
+    2022 Yearly: 0.71
+    2023 Yearly: 3.36
+    2024 Yearly: -11.04
+    2025 Yearly: 3.76
+    2026 Yearly: 2.46
+    2027 Yearly: 2.47
+    2028 Yearly: 2.67

@@ -1,0 +1,59 @@
+currency: USD
+company_name: Satellogic Inc.
+sector: Electronic Technology
+market_cap_billions: 0.66562
+revenue:
+  quarterly:
+    Q3 2025: 3.63
+    Q4 2025: 6.2
+    Q1 2026: 6.11
+    H1 '23: 3.18
+  annual:
+    2021 Yearly: 4.2
+    2022 Yearly: 6.01
+    2025 Yearly: 17.71
+  quarterly_forecast:
+    Q4 2025: 3.83
+    Q1 2026: 5.27
+    Q2 2026: 9.57
+    Q3 2026: 11.49
+    Q4 2026: 10.45
+    Q1 2027: 10.3
+    H1 '23: 35.5
+    H1 '22: 11.4
+    H2 '22: 25.6
+  annual_forecast:
+    2022 Yearly: 37.0
+    2023 Yearly: 83.0
+    2025 Yearly: 15.33
+    2026 Yearly: 37.63
+    2027 Yearly: 55.32
+    2028 Yearly: 80.8
+    2029 Yearly: 117.7
+eps:
+  quarterly:
+    Q3 2025: 0.05
+    Q4 2025: 0.13
+    Q1 2026: -0.84
+    H1 '23: -0.33
+  annual:
+    2022 Yearly: -0.66
+    2025 Yearly: -0.18
+  quarterly_forecast:
+    Q4 2025: -0.05
+    Q1 2026: -0.04
+    Q2 2026: -0.03
+    Q3 2026: -0.02
+    Q4 2026: -0.03
+    Q1 2027: -0.04
+    H1 '23: -0.18
+    H1 '22: -0.29
+    H2 '22: -0.27
+  annual_forecast:
+    2022 Yearly: -0.56
+    2023 Yearly: -0.38
+    2025 Yearly: -0.32
+    2026 Yearly: -0.93
+    2027 Yearly: -0.09
+    2028 Yearly: -0.04
+    2029 Yearly: 0.07

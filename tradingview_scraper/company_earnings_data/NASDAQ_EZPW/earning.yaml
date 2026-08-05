@@ -1,0 +1,78 @@
+currency: USD
+company_name: EZCORP, Inc.
+sector: Finance
+market_cap_billions: 1.91
+revenue:
+  quarterly:
+    Q4 2024: 294.55
+    Q1 2025: 320.2
+    Q2 2025: 306.32
+    Q3 2025: 310.98
+    Q4 2025: 336.81
+    Q1 2026: 382.0
+    Q2 2026: 446.88
+  annual:
+    2021 Yearly: 729.55
+    2022 Yearly: 886.2
+    2023 Yearly: 1050.0
+    2024 Yearly: 1160.0
+    2025 Yearly: 1270.0
+  quarterly_forecast:
+    Q4 2024: 290.26
+    Q1 2025: 322.83
+    Q2 2025: 310.35
+    Q3 2025: 302.51
+    Q4 2025: 324.74
+    Q1 2026: 361.2
+    Q2 2026: 390.7
+    Q3 2026: 425.83
+    Q4 2026: 437.28
+    Q1 2027: 464.19
+    Q2 2027: 450.22
+  annual_forecast:
+    2021 Yearly: 711.61
+    2022 Yearly: 861.9
+    2023 Yearly: 1040.0
+    2024 Yearly: 1160.0
+    2025 Yearly: 1260.0
+    2026 Yearly: 1650.0
+    2027 Yearly: 1790.0
+    2028 Yearly: 1950.0
+    2029 Yearly: 2040.0
+eps:
+  quarterly:
+    Q4 2024: 0.26
+    Q1 2025: 0.42
+    Q2 2025: 0.34
+    Q3 2025: 0.33
+    Q4 2025: 0.34
+    Q1 2026: 0.55
+    Q2 2026: 0.58
+  annual:
+    2021 Yearly: 0.38
+    2022 Yearly: 0.75
+    2023 Yearly: 0.92
+    2024 Yearly: 1.12
+    2025 Yearly: 1.43
+  quarterly_forecast:
+    Q4 2024: 0.26
+    Q1 2025: 0.37
+    Q2 2025: 0.31
+    Q3 2025: 0.25
+    Q4 2025: 0.3
+    Q1 2026: 0.41
+    Q2 2026: 0.4
+    Q3 2026: 0.41
+    Q4 2026: 0.44
+    Q1 2027: 0.59
+    Q2 2027: 0.51
+  annual_forecast:
+    2021 Yearly: 0.17
+    2022 Yearly: 0.66
+    2023 Yearly: 0.76
+    2024 Yearly: 1.13
+    2025 Yearly: 1.37
+    2026 Yearly: 1.98
+    2027 Yearly: 2.14
+    2028 Yearly: 2.38
+    2029 Yearly: 2.66

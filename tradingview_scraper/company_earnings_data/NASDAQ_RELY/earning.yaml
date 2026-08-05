@@ -1,0 +1,78 @@
+currency: USD
+company_name: Remitly Global, Inc.
+sector: Commercial Services
+market_cap_billions: 5.19
+revenue:
+  quarterly:
+    Q3 2024: 336.53
+    Q4 2024: 351.89
+    Q1 2025: 361.62
+    Q2 2025: 411.85
+    Q3 2025: 419.49
+    Q4 2025: 442.18
+    Q1 2026: 452.8
+  annual:
+    2021 Yearly: 458.61
+    2022 Yearly: 653.56
+    2023 Yearly: 944.28
+    2024 Yearly: 1260.0
+    2025 Yearly: 1640.0
+  quarterly_forecast:
+    Q3 2024: 320.71
+    Q4 2024: 343.68
+    Q1 2025: 347.71
+    Q2 2025: 384.51
+    Q3 2025: 413.68
+    Q4 2025: 427.37
+    Q1 2026: 438.94
+    Q2 2026: 486.25
+    Q3 2026: 504.7
+    Q4 2026: 529.74
+    Q1 2027: 538.51
+  annual_forecast:
+    2021 Yearly: 448.34
+    2022 Yearly: 642.94
+    2023 Yearly: 940.72
+    2024 Yearly: 1260.0
+    2025 Yearly: 1620.0
+    2026 Yearly: 1970.0
+    2027 Yearly: 2350.0
+    2028 Yearly: 2780.0
+    2029 Yearly: 3280.0
+eps:
+  quarterly:
+    Q3 2024: 0.2
+    Q4 2024: 0.18
+    Q1 2025: 0.21
+    Q2 2025: 0.2
+    Q3 2025: 0.22
+    Q4 2025: 0.19
+    Q1 2026: 0.23
+  annual:
+    2021 Yearly: -0.24
+    2022 Yearly: -0.11
+    2023 Yearly: 0.11
+    2024 Yearly: 0.59
+    2025 Yearly: 0.31
+  quarterly_forecast:
+    Q3 2024: 0.13
+    Q4 2024: 0.1
+    Q1 2025: 0.17
+    Q2 2025: 0.18
+    Q3 2025: 0.18
+    Q4 2025: 0.16
+    Q1 2026: 0.12
+    Q2 2026: 0.12
+    Q3 2026: 0.13
+    Q4 2026: 0.17
+    Q1 2027: 0.23
+  annual_forecast:
+    2021 Yearly: -0.23
+    2022 Yearly: -0.2
+    2023 Yearly: 0.15
+    2024 Yearly: 0.51
+    2025 Yearly: 0.71
+    2026 Yearly: 0.64
+    2027 Yearly: 0.91
+    2028 Yearly: 1.12
+    2029 Yearly: 1.46

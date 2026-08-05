@@ -1,0 +1,72 @@
+currency: USD
+company_name: Inter & Co. Inc.
+sector: Finance
+market_cap_billions: 2.51
+revenue:
+  quarterly:
+    Q3 2024: 282.06
+    Q4 2024: 324.87
+    Q1 2025: 335.3
+    Q2 2025: 371.91
+    Q3 2025: 415.68
+    Q4 2025: 487.64
+    Q1 2026: 484.32
+  annual:
+    2022 Yearly: 703.59
+    2023 Yearly: 955.45
+    2024 Yearly: 1110.0
+    2025 Yearly: 1710.0
+  quarterly_forecast:
+    Q3 2024: 282.31
+    Q4 2024: 295.35
+    Q1 2025: 325.38
+    Q2 2025: 347.61
+    Q3 2025: 394.57
+    Q4 2025: 443.39
+    Q1 2026: 495.33
+    Q2 2026: 513.31
+    Q3 2026: 549.98
+    Q4 2026: 596.29
+    Q1 2027: 607.77
+  annual_forecast:
+    2022 Yearly: 691.22
+    2023 Yearly: 976.07
+    2024 Yearly: 1030.0
+    2025 Yearly: 1570.0
+    2026 Yearly: 2070.0
+    2027 Yearly: 2500.0
+    2028 Yearly: 2940.0
+    2029 Yearly: 3420.0
+eps:
+  quarterly:
+    Q3 2024: 0.1
+    Q4 2024: 0.11
+    Q1 2025: 0.12
+    Q2 2025: 0.13
+    Q3 2025: 0.15
+    Q4 2025: 0.17
+    Q1 2026: 0.18
+  annual:
+    2022 Yearly: -0.01
+    2023 Yearly: 0.17
+    2024 Yearly: 0.37
+    2025 Yearly: 0.61
+  quarterly_forecast:
+    Q3 2024: 0.1
+    Q4 2024: 0.1
+    Q1 2025: 0.12
+    Q2 2025: 0.13
+    Q3 2025: 0.15
+    Q4 2025: 0.16
+    Q1 2026: 0.17
+    Q2 2026: 0.18
+    Q3 2026: 0.19
+    Q4 2026: 0.22
+    Q1 2027: 0.22
+  annual_forecast:
+    2023 Yearly: -0.01
+    2024 Yearly: 0.16
+    2025 Yearly: 0.36
+    2026 Yearly: 0.57
+    2027 Yearly: 0.78
+    2028 Yearly: 0.99

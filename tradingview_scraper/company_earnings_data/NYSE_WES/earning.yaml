@@ -1,0 +1,78 @@
+currency: USD
+company_name: Western Midstream Partners, LP
+sector: Industrial Services
+market_cap_billions: 19.28
+revenue:
+  quarterly:
+    Q3 2024: 883.36
+    Q4 2024: 928.5
+    Q1 2025: 917.12
+    Q2 2025: 942.32
+    Q3 2025: 952.48
+    Q4 2025: 1030.0
+    Q1 2026: 1120.0
+  annual:
+    2021 Yearly: 2880.0
+    2022 Yearly: 3250.0
+    2023 Yearly: 3110.0
+    2024 Yearly: 3610.0
+    2025 Yearly: 3840.0
+  quarterly_forecast:
+    Q3 2024: 924.83
+    Q4 2024: 926.39
+    Q1 2025: 919.59
+    Q2 2025: 940.11
+    Q3 2025: 961.0
+    Q4 2025: 1030.0
+    Q1 2026: 1010.0
+    Q2 2026: 1130.0
+    Q3 2026: 1140.0
+    Q4 2026: 1160.0
+    Q1 2027: 1230.0
+  annual_forecast:
+    2021 Yearly: 2980.0
+    2022 Yearly: 3260.0
+    2023 Yearly: 3150.0
+    2024 Yearly: 3570.0
+    2025 Yearly: 3860.0
+    2026 Yearly: 4490.0
+    2027 Yearly: 4650.0
+    2028 Yearly: 4760.0
+    2029 Yearly: 5160.0
+eps:
+  quarterly:
+    Q3 2024: 0.74
+    Q4 2024: 0.85
+    Q1 2025: 0.79
+    Q2 2025: 0.87
+    Q3 2025: 0.87
+    Q4 2025: 0.47
+    Q1 2026: 0.85
+  annual:
+    2021 Yearly: 2.18
+    2022 Yearly: 3.0
+    2023 Yearly: 2.6
+    2024 Yearly: 4.02
+    2025 Yearly: 2.98
+  quarterly_forecast:
+    Q3 2024: 0.83
+    Q4 2024: 0.85
+    Q1 2025: 0.83
+    Q2 2025: 0.83
+    Q3 2025: 0.88
+    Q4 2025: 0.84
+    Q1 2026: 0.74
+    Q2 2026: 0.91
+    Q3 2026: 0.86
+    Q4 2026: 0.86
+    Q1 2027: 0.96
+  annual_forecast:
+    2021 Yearly: 2.3
+    2022 Yearly: 2.9
+    2023 Yearly: 2.67
+    2024 Yearly: 3.9
+    2025 Yearly: 3.41
+    2026 Yearly: 3.52
+    2027 Yearly: 3.78
+    2028 Yearly: 4.13
+    2029 Yearly: 4.63

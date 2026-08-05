@@ -1,7 +1,7 @@
 currency: USD
 company_name: Williams Companies, Inc. (The)
 sector: Industrial Services
-market_cap_billions: 86.14
+market_cap_billions: 87.46
 revenue:
   quarterly:
     Q3 2024: 2650.0
@@ -38,8 +38,8 @@ revenue:
     2024 Yearly: 10440.0
     2025 Yearly: 11420.0
     2026 Yearly: 12210.0
-    2027 Yearly: 13490.0
-    2028 Yearly: 15160.0
+    2027 Yearly: 13460.0
+    2028 Yearly: 15150.0
     2029 Yearly: 15390.0
 eps:
   quarterly:
@@ -66,17 +66,17 @@ eps:
     Q4 2025: 0.57
     Q1 2026: 0.63
     Q2 2026: 0.5
-    Q3 2026: 0.54
-    Q4 2026: 0.6
-    Q1 2027: 0.64
-    Q2 2027: 0.54
+    Q3 2026: 0.53
+    Q4 2026: 0.61
+    Q1 2027: 0.65
+    Q2 2027: 0.55
   annual_forecast:
     2021 Yearly: 1.21
     2022 Yearly: 1.7
     2023 Yearly: 2.01
     2024 Yearly: 1.91
     2025 Yearly: 2.12
-    2026 Yearly: 2.38
-    2027 Yearly: 2.5
+    2026 Yearly: 2.4
+    2027 Yearly: 2.52
     2028 Yearly: 3.04
-    2029 Yearly: 3.86
+    2029 Yearly: 3.84

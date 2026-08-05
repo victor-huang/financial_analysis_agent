@@ -1,0 +1,78 @@
+currency: USD
+company_name: Tarsus Pharmaceuticals, Inc.
+sector: Health Technology
+market_cap_billions: 2.63
+revenue:
+  quarterly:
+    Q3 2024: 48.12
+    Q4 2024: 66.41
+    Q1 2025: 78.33
+    Q2 2025: 102.66
+    Q3 2025: 118.7
+    Q4 2025: 151.67
+    Q1 2026: 162.05
+  annual:
+    2021 Yearly: 57.03
+    2022 Yearly: 25.82
+    2023 Yearly: 17.45
+    2024 Yearly: 182.95
+    2025 Yearly: 451.36
+  quarterly_forecast:
+    Q3 2024: 43.18
+    Q4 2024: 58.8
+    Q1 2025: 72.43
+    Q2 2025: 95.68
+    Q3 2025: 115.23
+    Q4 2025: 144.57
+    Q1 2026: 149.6
+    Q2 2026: 169.68
+    Q3 2026: 178.52
+    Q4 2026: 195.83
+    Q1 2027: 190.76
+  annual_forecast:
+    2021 Yearly: 49.07
+    2022 Yearly: 25.86
+    2023 Yearly: 9.7
+    2024 Yearly: 175.34
+    2025 Yearly: 444.1
+    2026 Yearly: 704.01
+    2027 Yearly: 906.47
+    2028 Yearly: 1090.0
+    2029 Yearly: 1260.0
+eps:
+  quarterly:
+    Q3 2024: -0.61
+    Q4 2024: -0.6
+    Q1 2025: -0.64
+    Q2 2025: -0.48
+    Q3 2025: -0.3
+    Q4 2025: -0.2
+    Q1 2026: -0.16
+  annual:
+    2021 Yearly: -0.67
+    2022 Yearly: -2.52
+    2023 Yearly: -4.62
+    2024 Yearly: -3.07
+    2025 Yearly: -1.59
+  quarterly_forecast:
+    Q3 2024: -0.94
+    Q4 2024: -0.74
+    Q1 2025: -0.73
+    Q2 2025: -0.38
+    Q3 2025: -0.35
+    Q4 2025: -0.09
+    Q1 2026: -0.4
+    Q2 2026: -0.19
+    Q3 2026: -0.93
+    Q4 2026: 0.08
+    Q1 2027: 0.15
+  annual_forecast:
+    2021 Yearly: -0.57
+    2022 Yearly: -2.36
+    2023 Yearly: -4.79
+    2024 Yearly: -3.22
+    2025 Yearly: -1.43
+    2026 Yearly: -1.38
+    2027 Yearly: 2.87
+    2028 Yearly: 4.74
+    2029 Yearly: 6.29

@@ -1,0 +1,78 @@
+currency: USD
+company_name: IonQ, Inc.
+sector: Electronic Technology
+market_cap_billions: 16.58
+revenue:
+  quarterly:
+    Q3 2024: 12.4
+    Q4 2024: 11.71
+    Q1 2025: 7.57
+    Q2 2025: 20.69
+    Q3 2025: 39.87
+    Q4 2025: 61.89
+    Q1 2026: 64.67
+  annual:
+    2021 Yearly: 2.1
+    2022 Yearly: 11.13
+    2023 Yearly: 22.04
+    2024 Yearly: 43.07
+    2025 Yearly: 130.02
+  quarterly_forecast:
+    Q3 2024: 10.56
+    Q4 2024: 10.28
+    Q1 2025: 7.51
+    Q2 2025: 17.23
+    Q3 2025: 26.99
+    Q4 2025: 40.38
+    Q1 2026: 49.75
+    Q2 2026: 66.47
+    Q3 2026: 67.19
+    Q4 2026: 70.46
+    Q1 2027: 74.79
+  annual_forecast:
+    2021 Yearly: 1.55
+    2022 Yearly: 10.5
+    2023 Yearly: 21.69
+    2024 Yearly: 41.41
+    2025 Yearly: 108.45
+    2026 Yearly: 268.55
+    2027 Yearly: 383.72
+    2028 Yearly: 604.94
+    2029 Yearly: 813.06
+eps:
+  quarterly:
+    Q3 2024: -0.24
+    Q4 2024: -0.93
+    Q1 2025: -0.14
+    Q2 2025: -0.7
+    Q3 2025: -3.58
+    Q4 2025: 1.93
+    Q1 2026: 2.07
+  annual:
+    2021 Yearly: -0.68
+    2022 Yearly: -0.25
+    2023 Yearly: -0.78
+    2024 Yearly: -1.56
+    2025 Yearly: -1.82
+  quarterly_forecast:
+    Q3 2024: -0.22
+    Q4 2024: -0.25
+    Q1 2025: -0.26
+    Q2 2025: -0.29
+    Q3 2025: -0.44
+    Q4 2025: -0.51
+    Q1 2026: -0.46
+    Q2 2026: -0.56
+    Q3 2026: -0.54
+    Q4 2026: -0.55
+    Q1 2027: -0.53
+  annual_forecast:
+    2021 Yearly: -0.37
+    2022 Yearly: -0.28
+    2023 Yearly: -0.77
+    2024 Yearly: -0.87
+    2025 Yearly: -5.15
+    2026 Yearly: -0.31
+    2027 Yearly: -1.96
+    2028 Yearly: -2.28
+    2029 Yearly: -2.02

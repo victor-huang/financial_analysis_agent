@@ -1,0 +1,76 @@
+currency: USD
+company_name: Star Bulk Carriers Corp.
+sector: Transportation
+market_cap_billions: 3.21
+revenue:
+  quarterly:
+    Q3 2024: 256.94
+    Q4 2024: 216.75
+    Q1 2025: 159.28
+    Q2 2025: 176.09
+    Q3 2025: 202.32
+    Q4 2025: 230.79
+    Q1 2026: 214.13
+  annual:
+    2021 Yearly: 1190.0
+    2022 Yearly: 1130.0
+    2023 Yearly: 686.1
+    2024 Yearly: 931.53
+    2025 Yearly: 768.47
+  quarterly_forecast:
+    Q3 2024: 284.75
+    Q4 2024: 237.38
+    Q1 2025: 173.26
+    Q2 2025: 196.82
+    Q3 2025: 230.32
+    Q4 2025: 260.85
+    Q1 2026: 225.93
+    Q2 2026: 284.83
+    Q3 2026: 311.72
+    Q4 2026: 335.23
+    Q1 2027: 293.8
+  annual_forecast:
+    2022 Yearly: 1180.0
+    2023 Yearly: 1190.0
+    2024 Yearly: 719.27
+    2025 Yearly: 1010.0
+    2026 Yearly: 854.2
+    2027 Yearly: 1150.0
+    2028 Yearly: 1150.0
+eps:
+  quarterly:
+    Q3 2024: 0.71
+    Q4 2024: 0.34
+    Q1 2025: -0.07
+    Q2 2025: 0.11
+    Q3 2025: 0.28
+    Q4 2025: 0.65
+    Q1 2026: 0.56
+  annual:
+    2021 Yearly: 6.82
+    2022 Yearly: 5.94
+    2023 Yearly: 1.84
+    2024 Yearly: 2.63
+    2025 Yearly: 0.97
+  quarterly_forecast:
+    Q3 2024: 0.7
+    Q4 2024: 0.35
+    Q1 2025: -0.27
+    Q2 2025: 0.05
+    Q3 2025: 0.33
+    Q4 2025: 0.64
+    Q1 2026: 0.47
+    Q2 2026: 0.96
+    Q3 2026: 1.28
+    Q4 2026: 1.39
+    Q1 2027: 1.04
+  annual_forecast:
+    2021 Yearly: 6.15
+    2022 Yearly: 5.75
+    2023 Yearly: 1.9
+    2024 Yearly: 2.63
+    2025 Yearly: 0.78
+    2026 Yearly: 4.13
+    2027 Yearly: 3.91
+    2028 Yearly: 4.66
+    2029 Yearly: 4.53

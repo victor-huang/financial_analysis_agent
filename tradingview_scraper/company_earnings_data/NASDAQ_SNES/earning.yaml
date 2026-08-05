@@ -1,0 +1,44 @@
+currency: USD
+company_name: SenesTech, Inc.
+sector: Process Industries
+market_cap_billions: 0.00886
+revenue:
+  quarterly: {}
+  annual:
+    2023 Yearly: 1.02
+    2024 Yearly: 1.19
+    2025 Yearly: 1.86
+    2026 Yearly: 2.22
+  quarterly_forecast: {}
+  annual_forecast:
+    2024 Yearly: 1.48
+    2025 Yearly: 1.28
+    2026 Yearly: 2.06
+    2027 Yearly: 2.58
+    2028 Yearly: 2.35
+    2029 Yearly: 4.49
+eps:
+  quarterly:
+    Q3 2024: -2.07
+    Q4 2024: -1.22
+    Q1 2025: -1.28
+    Q2 2025: -0.87
+    Q3 2025: -0.28
+    Q4 2025: -0.35
+    Q1 2026: -0.31
+  annual:
+    2025 Yearly: -115.1
+    2026 Yearly: -8.86
+  quarterly_forecast:
+    Q3 2024: -3.2
+    Q4 2024: -1.5
+    Q3 2025: -0.35
+    Q4 2025: -0.3
+    Q1 2026: -0.33
+    Q2 2026: -0.36
+    Q3 2026: -0.34
+    Q4 2026: -0.39
+  annual_forecast:
+    2027 Yearly: -302.8
+    2028 Yearly: -10.22
+    2029 Yearly: -2.73

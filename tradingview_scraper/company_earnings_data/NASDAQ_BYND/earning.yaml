@@ -1,0 +1,76 @@
+currency: USD
+company_name: Beyond Meat, Inc.
+sector: Consumer Non-Durables
+market_cap_billions: 0.32656999999999997
+revenue:
+  quarterly:
+    Q3 2024: 81.01
+    Q4 2024: 76.66
+    Q1 2025: 68.73
+    Q2 2025: 74.96
+    Q3 2025: 70.22
+    Q4 2025: 61.59
+    Q1 2026: 58.21
+  annual:
+    2021 Yearly: 464.7
+    2022 Yearly: 418.93
+    2023 Yearly: 343.38
+    2024 Yearly: 326.45
+    2025 Yearly: 275.5
+  quarterly_forecast:
+    Q3 2024: 80.13
+    Q4 2024: 75.32
+    Q1 2025: 75.0
+    Q2 2025: 81.84
+    Q3 2025: 68.98
+    Q4 2025: 63.0
+    Q1 2026: 58.02
+    Q2 2026: 62.43
+    Q3 2026: 62.14
+    Q4 2026: 58.08
+    Q1 2027: 56.14
+  annual_forecast:
+    2021 Yearly: 464.89
+    2022 Yearly: 414.8
+    2023 Yearly: 336.39
+    2024 Yearly: 325.09
+    2025 Yearly: 276.9
+    2026 Yearly: 240.79
+    2027 Yearly: 236.26
+    2028 Yearly: 253.0
+eps:
+  quarterly:
+    Q3 2024: -0.41
+    Q4 2024: -0.65
+    Q1 2025: -0.69
+    Q2 2025: -0.43
+    Q3 2025: -1.44
+    Q4 2025: -0.29
+    Q1 2026: -0.06
+  annual:
+    2021 Yearly: -2.88
+    2022 Yearly: -5.75
+    2023 Yearly: -5.26
+    2024 Yearly: -2.43
+    2025 Yearly: -1.86
+  quarterly_forecast:
+    Q3 2024: -0.48
+    Q4 2024: -0.45
+    Q1 2025: -0.46
+    Q2 2025: -0.38
+    Q3 2025: -0.4
+    Q4 2025: -0.1
+    Q1 2026: -0.14
+    Q2 2026: -0.08
+    Q3 2026: -0.08
+    Q4 2026: -0.08
+    Q1 2027: -0.08
+  annual_forecast:
+    2021 Yearly: -2.2
+    2022 Yearly: -5.83
+    2023 Yearly: -3.75
+    2024 Yearly: -2.15
+    2025 Yearly: -1.25
+    2026 Yearly: -0.32
+    2027 Yearly: -0.29
+    2028 Yearly: -0.26

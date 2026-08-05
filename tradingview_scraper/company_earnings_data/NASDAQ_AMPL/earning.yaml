@@ -1,0 +1,78 @@
+currency: USD
+company_name: Amplitude, Inc.
+sector: Technology Services
+market_cap_billions: 1.31
+revenue:
+  quarterly:
+    Q3 2024: 75.22
+    Q4 2024: 78.13
+    Q1 2025: 79.95
+    Q2 2025: 83.27
+    Q3 2025: 88.56
+    Q4 2025: 91.43
+    Q1 2026: 93.49
+  annual:
+    2021 Yearly: 167.26
+    2022 Yearly: 238.07
+    2023 Yearly: 276.28
+    2024 Yearly: 299.27
+    2025 Yearly: 343.21
+  quarterly_forecast:
+    Q3 2024: 74.12
+    Q4 2024: 76.68
+    Q1 2025: 79.76
+    Q2 2025: 81.32
+    Q3 2025: 86.29
+    Q4 2025: 90.34
+    Q1 2026: 92.95
+    Q2 2026: 98.16
+    Q3 2026: 102.58
+    Q4 2026: 106.47
+    Q1 2027: 108.79
+  annual_forecast:
+    2021 Yearly: 164.88
+    2022 Yearly: 236.48
+    2023 Yearly: 276.38
+    2024 Yearly: 297.83
+    2025 Yearly: 342.15
+    2026 Yearly: 400.66
+    2027 Yearly: 461.96
+    2028 Yearly: 549.05
+    2029 Yearly: 625.1
+eps:
+  quarterly:
+    Q3 2024: 0.03
+    Q4 2024: 0.02
+    Q1 2025: 0.0
+    Q2 2025: 0.01
+    Q3 2025: 0.02
+    Q4 2025: 0.04
+    Q1 2026: -0.02
+  annual:
+    2021 Yearly: -0.3
+    2022 Yearly: -0.21
+    2023 Yearly: 0.06
+    2024 Yearly: 0.06
+    2025 Yearly: 0.06
+  quarterly_forecast:
+    Q3 2024: 0.01
+    Q4 2024: 0.01
+    Q1 2025: -0.01
+    Q2 2025: 0.01
+    Q3 2025: 0.01
+    Q4 2025: 0.05
+    Q1 2026: -0.01
+    Q2 2026: -0.01
+    Q3 2026: 0.03
+    Q4 2026: 0.05
+    Q1 2027: 0.01
+  annual_forecast:
+    2021 Yearly: -0.36
+    2022 Yearly: -0.22
+    2023 Yearly: 0.06
+    2024 Yearly: 0.05
+    2025 Yearly: 0.07
+    2026 Yearly: 0.05
+    2027 Yearly: 0.13
+    2028 Yearly: 0.24
+    2029 Yearly: 0.38

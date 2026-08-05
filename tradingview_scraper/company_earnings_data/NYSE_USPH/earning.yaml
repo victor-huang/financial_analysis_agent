@@ -1,0 +1,76 @@
+currency: USD
+company_name: U.S. Physical Therapy, Inc.
+sector: Health Services
+market_cap_billions: 1.15
+revenue:
+  quarterly:
+    Q3 2024: 168.03
+    Q4 2024: 180.45
+    Q1 2025: 183.79
+    Q2 2025: 197.34
+    Q3 2025: 197.13
+    Q4 2025: 202.73
+    Q1 2026: 198.29
+  annual:
+    2021 Yearly: 495.02
+    2022 Yearly: 553.14
+    2023 Yearly: 604.8
+    2024 Yearly: 671.35
+    2025 Yearly: 780.99
+  quarterly_forecast:
+    Q3 2024: 164.32
+    Q4 2024: 174.79
+    Q1 2025: 177.31
+    Q2 2025: 189.66
+    Q3 2025: 193.99
+    Q4 2025: 199.9
+    Q1 2026: 200.94
+    Q2 2026: 211.36
+    Q3 2026: 212.19
+    Q4 2026: 217.71
+    Q1 2027: 211.23
+  annual_forecast:
+    2021 Yearly: 493.78
+    2022 Yearly: 553.07
+    2023 Yearly: 600.24
+    2024 Yearly: 665.69
+    2025 Yearly: 778.66
+    2026 Yearly: 839.53
+    2027 Yearly: 897.43
+    2028 Yearly: 980.89
+eps:
+  quarterly:
+    Q3 2024: 0.69
+    Q4 2024: 0.51
+    Q1 2025: 0.48
+    Q2 2025: 0.81
+    Q3 2025: 0.66
+    Q4 2025: 0.67
+    Q1 2026: 0.46
+  annual:
+    2021 Yearly: 3.17
+    2022 Yearly: 2.7
+    2023 Yearly: 2.56
+    2024 Yearly: 2.45
+    2025 Yearly: 2.63
+  quarterly_forecast:
+    Q3 2024: 0.68
+    Q4 2024: 0.69
+    Q1 2025: 0.43
+    Q2 2025: 0.72
+    Q3 2025: 0.67
+    Q4 2025: 0.68
+    Q1 2026: 0.52
+    Q2 2026: 0.81
+    Q3 2026: 0.78
+    Q4 2026: 0.86
+    Q1 2027: 0.52
+  annual_forecast:
+    2021 Yearly: 3.14
+    2022 Yearly: 2.69
+    2023 Yearly: 2.52
+    2024 Yearly: 2.64
+    2025 Yearly: 2.62
+    2026 Yearly: 2.8
+    2027 Yearly: 3.41
+    2028 Yearly: 3.6

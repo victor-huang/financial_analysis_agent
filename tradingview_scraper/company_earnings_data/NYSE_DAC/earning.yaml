@@ -1,7 +1,7 @@
 currency: USD
 company_name: Danaos Corporation
 sector: Transportation
-market_cap_billions: 2.59
+market_cap_billions: 2.53
 revenue:
   quarterly:
     Q3 2024: 256.18
@@ -28,7 +28,7 @@ revenue:
     Q1 2026: 257.0
     Q2 2026: 242.2
     Q3 2026: 258.27
-    Q4 2026: 266.05
+    Q4 2026: 267.29
     Q1 2027: 267.07
   annual_forecast:
     2021 Yearly: 661.18
@@ -38,7 +38,7 @@ revenue:
     2025 Yearly: 990.0
     2026 Yearly: 1040.0
     2027 Yearly: 1110.0
-    2028 Yearly: 1220.0
+    2028 Yearly: 1190.0
     2029 Yearly: 887.0
 eps:
   quarterly:
@@ -65,8 +65,8 @@ eps:
     Q4 2025: 6.77
     Q1 2026: 5.86
     Q2 2026: 6.8
-    Q3 2026: 7.13
-    Q4 2026: 6.92
+    Q3 2026: 7.15
+    Q4 2026: 6.94
     Q1 2027: 6.51
     Q2 2027: 6.63
   annual_forecast:
@@ -75,7 +75,7 @@ eps:
     2023 Yearly: 29.16
     2024 Yearly: 27.01
     2025 Yearly: 26.2
-    2026 Yearly: 27.85
-    2027 Yearly: 27.37
-    2028 Yearly: 28.55
+    2026 Yearly: 27.91
+    2027 Yearly: 27.18
+    2028 Yearly: 26.73
     2029 Yearly: 13.7

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Traeger, Inc.
+sector: Consumer Durables
+market_cap_billions: 0.1913
+revenue:
+  quarterly:
+    Q3 2024: 122.05
+    Q4 2024: 168.64
+    Q1 2025: 143.28
+    Q2 2025: 145.5
+    Q3 2025: 125.4
+    Q4 2025: 145.36
+    Q1 2026: 94.07
+  annual:
+    2021 Yearly: 785.54
+    2022 Yearly: 655.9
+    2023 Yearly: 605.88
+    2024 Yearly: 604.07
+    2025 Yearly: 559.52
+  quarterly_forecast:
+    Q3 2024: 118.74
+    Q4 2024: 164.79
+    Q1 2025: 140.59
+    Q2 2025: 166.5
+    Q3 2025: 111.03
+    Q4 2025: 135.07
+    Q1 2026: 95.05
+    Q2 2026: 133.2
+    Q3 2026: 110.84
+    Q4 2026: 133.11
+    Q1 2027: 101.11
+  annual_forecast:
+    2021 Yearly: 767.73
+    2022 Yearly: 636.45
+    2023 Yearly: 596.45
+    2024 Yearly: 600.02
+    2025 Yearly: 549.31
+    2026 Yearly: 471.32
+    2027 Yearly: 487.28
+    2028 Yearly: 528.34
+    2029 Yearly: 544.19
+eps:
+  quarterly:
+    Q3 2024: -3.0
+    Q4 2024: 0.5
+    Q1 2025: 2.5
+    Q2 2025: -0.5
+    Q3 2025: -8.5
+    Q4 2025: 0.5
+    Q1 2026: 1.49
+  annual:
+    2021 Yearly: 30.0
+    2022 Yearly: -4.5
+    2023 Yearly: -6.0
+    2024 Yearly: 2.5
+    2025 Yearly: -6.0
+  quarterly_forecast:
+    Q3 2024: -3.15
+    Q4 2024: -0.07
+    Q1 2025: 1.83
+    Q2 2025: 2.5
+    Q3 2025: -2.19
+    Q4 2025: 0.38
+    Q1 2026: -3.36
+    Q2 2026: -1.57
+    Q3 2026: -1.93
+    Q4 2026: 0.01
+    Q1 2027: 0.89
+  annual_forecast:
+    2021 Yearly: 26.83
+    2022 Yearly: -7.61
+    2023 Yearly: -4.4
+    2024 Yearly: 1.8
+    2025 Yearly: -6.19
+    2026 Yearly: -2.06
+    2027 Yearly: 0.66
+    2028 Yearly: 8.96
+    2029 Yearly: 13.62

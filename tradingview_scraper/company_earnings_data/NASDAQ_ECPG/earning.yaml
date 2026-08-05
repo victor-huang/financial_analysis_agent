@@ -1,0 +1,74 @@
+currency: USD
+company_name: Encore Capital Group Inc
+sector: Finance
+market_cap_billions: 2.05
+revenue:
+  quarterly:
+    Q3 2024: 367.07
+    Q4 2024: 265.62
+    Q1 2025: 392.77
+    Q2 2025: 442.12
+    Q3 2025: 460.35
+    Q4 2025: 473.55
+    Q1 2026: 475.41
+  annual:
+    2021 Yearly: 1610.0
+    2022 Yearly: 1400.0
+    2023 Yearly: 1220.0
+    2024 Yearly: 1320.0
+    2025 Yearly: 1770.0
+  quarterly_forecast:
+    Q3 2024: 360.7
+    Q4 2024: 374.35
+    Q1 2025: 374.49
+    Q2 2025: 383.42
+    Q3 2025: 411.34
+    Q4 2025: 422.19
+    Q1 2026: 446.26
+    Q2 2026: 455.1
+    Q3 2026: 458.34
+    Q4 2026: 463.61
+    Q1 2027: 469.77
+  annual_forecast:
+    2021 Yearly: 1620.0
+    2022 Yearly: 1480.0
+    2023 Yearly: 1280.0
+    2024 Yearly: 1420.0
+    2025 Yearly: 1720.0
+    2026 Yearly: 1850.0
+    2027 Yearly: 1890.0
+eps:
+  quarterly:
+    Q3 2024: 1.26
+    Q4 2024: -9.42
+    Q1 2025: 1.93
+    Q2 2025: 2.49
+    Q3 2025: 3.17
+    Q4 2025: 3.37
+    Q1 2026: 3.86
+  annual:
+    2021 Yearly: 11.26
+    2022 Yearly: 7.46
+    2023 Yearly: -8.72
+    2024 Yearly: -5.83
+    2025 Yearly: 10.91
+  quarterly_forecast:
+    Q3 2024: 1.48
+    Q4 2024: 1.52
+    Q1 2025: 1.21
+    Q2 2025: 1.42
+    Q3 2025: 1.88
+    Q4 2025: 2.1
+    Q1 2026: 3.02
+    Q2 2026: 2.67
+    Q3 2026: 3.15
+    Q4 2026: 3.26
+    Q1 2027: 3.42
+  annual_forecast:
+    2021 Yearly: 10.96
+    2022 Yearly: 11.55
+    2023 Yearly: 3.85
+    2024 Yearly: 5.06
+    2025 Yearly: 9.68
+    2026 Yearly: 12.95
+    2027 Yearly: 13.98

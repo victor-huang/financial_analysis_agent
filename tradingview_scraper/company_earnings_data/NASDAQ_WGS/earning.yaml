@@ -1,7 +1,7 @@
 currency: USD
 company_name: GeneDx Holdings Corp.
 sector: Health Services
-market_cap_billions: 2.01
+market_cap_billions: 2.1
 revenue:
   quarterly:
     Q3 2024: 76.6
@@ -27,20 +27,20 @@ revenue:
     Q4 2025: 120.32
     Q1 2026: 112.46
     Q2 2026: 111.01
-    Q3 2026: 125.47
-    Q4 2026: 139.86
-    Q1 2027: 128.7
-    Q2 2027: 139.05
+    Q3 2026: 124.03
+    Q4 2026: 141.36
+    Q1 2027: 127.99
+    Q2 2027: 141.08
   annual_forecast:
     2021 Yearly: 203.77
     2022 Yearly: 244.28
     2023 Yearly: 192.76
     2024 Yearly: 290.22
     2025 Yearly: 426.85
-    2026 Yearly: 479.4
-    2027 Yearly: 594.3
-    2028 Yearly: 748.5
-    2029 Yearly: 853.2
+    2026 Yearly: 481.28
+    2027 Yearly: 596.62
+    2028 Yearly: 753.13
+    2029 Yearly: 865.07
 eps:
   quarterly:
     Q3 2024: 0.04
@@ -66,17 +66,17 @@ eps:
     Q4 2025: 0.1
     Q1 2026: -0.01
     Q2 2026: -0.19
-    Q3 2026: 0.1
-    Q4 2026: 0.29
-    Q1 2027: 0.13
-    Q2 2027: 0.2
+    Q3 2026: 0.06
+    Q4 2026: 0.22
+    Q1 2027: 0.07
+    Q2 2027: 0.23
   annual_forecast:
     2021 Yearly: -34.54
     2022 Yearly: -29.04
     2023 Yearly: -5.35
     2024 Yearly: -0.27
     2025 Yearly: 1.36
-    2026 Yearly: -0.05
+    2026 Yearly: -0.03
     2027 Yearly: 1.12
-    2028 Yearly: 1.58
-    2029 Yearly: 2.86
+    2028 Yearly: 1.57
+    2029 Yearly: 3.02

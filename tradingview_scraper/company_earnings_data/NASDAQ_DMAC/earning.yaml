@@ -1,0 +1,78 @@
+currency: USD
+company_name: DiaMedica Therapeutics Inc.
+sector: Health Technology
+market_cap_billions: 0.3524
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+  annual_forecast:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 0.0
+    2028 Yearly: 6.91
+    2029 Yearly: 24.61
+eps:
+  quarterly:
+    Q3 2024: -0.15
+    Q4 2024: -0.18
+    Q1 2025: -0.18
+    Q2 2025: -0.18
+    Q3 2025: -0.17
+    Q4 2025: -0.17
+    Q1 2026: -0.19
+  annual:
+    2021 Yearly: -0.65
+    2022 Yearly: -0.52
+    2023 Yearly: -0.6
+    2024 Yearly: -0.6
+    2025 Yearly: -0.7
+  quarterly_forecast:
+    Q3 2024: -0.15
+    Q4 2024: -0.17
+    Q1 2025: -0.18
+    Q2 2025: -0.19
+    Q3 2025: -0.16
+    Q4 2025: -0.18
+    Q1 2026: -0.19
+    Q2 2026: -0.2
+    Q3 2026: -0.21
+    Q4 2026: -0.23
+    Q1 2027: -0.2
+  annual_forecast:
+    2021 Yearly: -0.72
+    2022 Yearly: -0.52
+    2023 Yearly: -0.6
+    2024 Yearly: -0.59
+    2025 Yearly: -0.68
+    2026 Yearly: -0.78
+    2027 Yearly: -0.84
+    2028 Yearly: -0.93
+    2029 Yearly: -0.82

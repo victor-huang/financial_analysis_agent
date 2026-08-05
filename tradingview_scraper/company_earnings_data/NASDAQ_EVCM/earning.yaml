@@ -1,0 +1,76 @@
+currency: USD
+company_name: EverCommerce Inc.
+sector: Technology Services
+market_cap_billions: 2.12
+revenue:
+  quarterly:
+    Q3 2024: 176.26
+    Q4 2024: 175.0
+    Q1 2025: 142.27
+    Q2 2025: 148.01
+    Q3 2025: 148.34
+    Q4 2025: 151.15
+    Q1 2026: 147.47
+  annual:
+    2021 Yearly: 490.14
+    2022 Yearly: 620.75
+    2023 Yearly: 675.37
+    2024 Yearly: 698.76
+    2025 Yearly: 591.72
+  quarterly_forecast:
+    Q3 2024: 174.87
+    Q4 2024: 170.43
+    Q1 2025: 139.54
+    Q2 2025: 145.35
+    Q3 2025: 147.89
+    Q4 2025: 150.06
+    Q1 2026: 147.18
+    Q2 2026: 152.29
+    Q3 2026: 156.54
+    Q4 2026: 162.31
+    Q1 2027: 156.73
+  annual_forecast:
+    2021 Yearly: 484.95
+    2022 Yearly: 616.85
+    2023 Yearly: 678.33
+    2024 Yearly: 693.42
+    2025 Yearly: 588.07
+    2026 Yearly: 618.6
+    2027 Yearly: 653.87
+    2028 Yearly: 686.04
+eps:
+  quarterly:
+    Q3 2024: -0.05
+    Q4 2024: -0.07
+    Q1 2025: -0.04
+    Q2 2025: 0.04
+    Q3 2025: 0.06
+    Q4 2025: 0.2
+    Q1 2026: 0.2
+  annual:
+    2021 Yearly: 0.69
+    2022 Yearly: 0.46
+    2023 Yearly: 0.57
+    2024 Yearly: -0.22
+    2025 Yearly: 0.76
+  quarterly_forecast:
+    Q3 2024: -0.01
+    Q4 2024: -0.01
+    Q1 2025: 0.03
+    Q2 2025: 0.05
+    Q3 2025: 0.01
+    Q4 2025: 0.05
+    Q1 2026: 0.14
+    Q2 2026: 0.15
+    Q3 2026: 0.19
+    Q4 2026: 0.2
+    Q1 2027: 0.17
+  annual_forecast:
+    2021 Yearly: 0.21
+    2022 Yearly: 0.29
+    2023 Yearly: 0.5
+    2024 Yearly: -0.17
+    2025 Yearly: 0.09
+    2026 Yearly: 0.72
+    2027 Yearly: 0.76
+    2028 Yearly: 0.81

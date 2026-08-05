@@ -1,0 +1,76 @@
+currency: USD
+company_name: Compass Minerals Intl Inc
+sector: Process Industries
+market_cap_billions: 1.25
+revenue:
+  quarterly:
+    Q4 2024: 208.8
+    Q1 2025: 307.2
+    Q2 2025: 494.6
+    Q3 2025: 214.6
+    Q4 2025: 227.5
+    Q1 2026: 396.1
+    Q2 2026: 453.2
+  annual:
+    2021 Yearly: 836.6
+    2022 Yearly: 1240.0
+    2023 Yearly: 1200.0
+    2024 Yearly: 1120.0
+    2025 Yearly: 1240.0
+  quarterly_forecast:
+    Q4 2024: 214.23
+    Q1 2025: 302.43
+    Q2 2025: 414.08
+    Q3 2025: 210.8
+    Q4 2025: 223.62
+    Q1 2026: 359.79
+    Q2 2026: 418.97
+    Q3 2026: 207.75
+    Q4 2026: 222.99
+    Q1 2027: 387.4
+    Q2 2027: 487.78
+  annual_forecast:
+    2021 Yearly: 928.67
+    2022 Yearly: 1220.0
+    2023 Yearly: 1200.0
+    2024 Yearly: 1120.0
+    2025 Yearly: 1240.0
+    2026 Yearly: 1280.0
+    2027 Yearly: 1320.0
+    2028 Yearly: 1370.0
+eps:
+  quarterly:
+    Q4 2024: -0.77
+    Q1 2025: -0.55
+    Q2 2025: 0.63
+    Q3 2025: -0.39
+    Q4 2025: -0.17
+    Q1 2026: 0.43
+    Q2 2026: 0.63
+  annual:
+    2021 Yearly: 0.58
+    2022 Yearly: 0.57
+    2023 Yearly: 0.5
+    2024 Yearly: 0.08
+    2025 Yearly: -0.48
+  quarterly_forecast:
+    Q4 2024: -0.49
+    Q1 2025: 0.13
+    Q2 2025: 0.0
+    Q3 2025: -0.06
+    Q4 2025: -0.23
+    Q1 2026: 0.26
+    Q2 2026: 0.59
+    Q3 2026: -0.06
+    Q4 2026: -0.2
+    Q1 2027: 0.42
+    Q2 2027: 0.8
+  annual_forecast:
+    2021 Yearly: 0.57
+    2022 Yearly: 0.27
+    2023 Yearly: 0.57
+    2024 Yearly: -0.26
+    2025 Yearly: -0.52
+    2026 Yearly: 0.82
+    2027 Yearly: 1.18
+    2028 Yearly: 1.56

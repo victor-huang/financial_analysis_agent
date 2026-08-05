@@ -1,0 +1,78 @@
+currency: USD
+company_name: Albemarle Corporation
+sector: Process Industries
+market_cap_billions: 14.25
+revenue:
+  quarterly:
+    Q3 2024: 1350.0
+    Q4 2024: 1230.0
+    Q1 2025: 1080.0
+    Q2 2025: 1330.0
+    Q3 2025: 1310.0
+    Q4 2025: 1430.0
+    Q1 2026: 1430.0
+  annual:
+    2021 Yearly: 3330.0
+    2022 Yearly: 7320.0
+    2023 Yearly: 9620.0
+    2024 Yearly: 5380.0
+    2025 Yearly: 5140.0
+  quarterly_forecast:
+    Q3 2024: 1370.0
+    Q4 2024: 1330.0
+    Q1 2025: 1160.0
+    Q2 2025: 1220.0
+    Q3 2025: 1280.0
+    Q4 2025: 1350.0
+    Q1 2026: 1340.0
+    Q2 2026: 1610.0
+    Q3 2026: 1700.0
+    Q4 2026: 1660.0
+    Q1 2027: 1810.0
+  annual_forecast:
+    2021 Yearly: 3330.0
+    2022 Yearly: 7320.0
+    2023 Yearly: 9440.0
+    2024 Yearly: 5480.0
+    2025 Yearly: 5060.0
+    2026 Yearly: 6400.0
+    2027 Yearly: 6540.0
+    2028 Yearly: 6750.0
+    2029 Yearly: 6260.0
+eps:
+  quarterly:
+    Q3 2024: -1.55
+    Q4 2024: -1.09
+    Q1 2025: -0.18
+    Q2 2025: 0.11
+    Q3 2025: -0.19
+    Q4 2025: -0.53
+    Q1 2026: 2.95
+  annual:
+    2021 Yearly: 4.04
+    2022 Yearly: 21.96
+    2023 Yearly: 22.25
+    2024 Yearly: -2.34
+    2025 Yearly: -0.79
+  quarterly_forecast:
+    Q3 2024: -0.44
+    Q4 2024: -0.69
+    Q1 2025: -0.66
+    Q2 2025: -0.84
+    Q3 2025: -0.86
+    Q4 2025: -0.42
+    Q1 2026: 1.19
+    Q2 2026: 3.2
+    Q3 2026: 3.41
+    Q4 2026: 3.17
+    Q1 2027: 2.72
+  annual_forecast:
+    2021 Yearly: 4.05
+    2022 Yearly: 21.52
+    2023 Yearly: 21.39
+    2024 Yearly: -1.76
+    2025 Yearly: -0.78
+    2026 Yearly: 12.53
+    2027 Yearly: 11.64
+    2028 Yearly: 11.99
+    2029 Yearly: 10.84

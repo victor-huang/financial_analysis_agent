@@ -1,0 +1,77 @@
+currency: USD
+company_name: Nyxoah SA
+sector: Health Technology
+market_cap_billions: 0.14511000000000002
+revenue:
+  quarterly:
+    Q3 2024: 1.41
+    Q4 2024: 1.31
+    Q1 2025: 1.15
+    Q2 2025: 1.58
+    Q3 2025: 2.31
+    Q4 2025: 6.63
+    Q1 2026: 7.36
+  annual:
+    2022 Yearly: 3.3
+    2023 Yearly: 4.8
+    2024 Yearly: 4.68
+    2025 Yearly: 11.77
+  quarterly_forecast:
+    Q3 2024: 1.49
+    Q4 2024: 2.1
+    Q1 2025: 1.84
+    Q2 2025: 1.57
+    Q3 2025: 2.29
+    Q4 2025: 5.56
+    Q1 2026: 7.05
+    Q2 2026: 8.64
+    Q3 2026: 11.33
+    Q4 2026: 15.51
+    Q1 2027: 16.85
+  annual_forecast:
+    2021 Yearly: 2.49
+    2022 Yearly: 4.83
+    2023 Yearly: 4.68
+    2024 Yearly: 5.98
+    2025 Yearly: 10.3
+    2026 Yearly: 43.01
+    2027 Yearly: 84.76
+    2028 Yearly: 137.08
+    2029 Yearly: 206.75
+eps:
+  quarterly:
+    Q3 2024: -0.55
+    Q4 2024: -0.48
+    Q1 2025: -0.65
+    Q2 2025: -0.65
+    Q3 2025: -0.74
+    Q4 2025: -0.69
+    Q1 2026: -0.43
+  annual:
+    2021 Yearly: -1.32
+    2022 Yearly: -1.29
+    2023 Yearly: -1.71
+    2024 Yearly: -1.87
+    2025 Yearly: -2.78
+  quarterly_forecast:
+    Q3 2024: -0.51
+    Q4 2024: -0.48
+    Q1 2025: -0.51
+    Q2 2025: -0.67
+    Q3 2025: -0.69
+    Q4 2025: -0.64
+    Q1 2026: -0.58
+    Q2 2026: -0.44
+    Q3 2026: -0.37
+    Q4 2026: -0.36
+    Q1 2027: -0.35
+  annual_forecast:
+    2021 Yearly: -1.18
+    2022 Yearly: -1.12
+    2023 Yearly: -1.69
+    2024 Yearly: -1.8
+    2025 Yearly: -2.49
+    2026 Yearly: -1.36
+    2027 Yearly: -0.98
+    2028 Yearly: -0.41
+    2029 Yearly: -0.07

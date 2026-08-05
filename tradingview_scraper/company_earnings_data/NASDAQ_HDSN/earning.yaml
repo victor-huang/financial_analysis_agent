@@ -1,0 +1,74 @@
+currency: USD
+company_name: Hudson Technologies, Inc.
+sector: Distribution Services
+market_cap_billions: 0.26587
+revenue:
+  quarterly:
+    Q3 2024: 61.94
+    Q4 2024: 34.64
+    Q1 2025: 55.34
+    Q2 2025: 72.85
+    Q3 2025: 74.01
+    Q4 2025: 44.41
+    Q1 2026: 60.15
+  annual:
+    2021 Yearly: 192.75
+    2022 Yearly: 325.23
+    2023 Yearly: 289.02
+    2024 Yearly: 237.12
+    2025 Yearly: 246.61
+  quarterly_forecast:
+    Q3 2024: 66.11
+    Q4 2024: 37.96
+    Q1 2025: 52.23
+    Q2 2025: 71.66
+    Q3 2025: 73.32
+    Q4 2025: 38.11
+    Q1 2026: 57.15
+    Q2 2026: 74.2
+    Q3 2026: 74.98
+    Q4 2026: 44.0
+    Q1 2027: 64.98
+  annual_forecast:
+    2021 Yearly: 182.5
+    2022 Yearly: 315.2
+    2023 Yearly: 284.45
+    2024 Yearly: 240.42
+    2025 Yearly: 240.31
+    2026 Yearly: 253.36
+    2027 Yearly: 258.76
+eps:
+  quarterly:
+    Q3 2024: 0.17
+    Q4 2024: -0.06
+    Q1 2025: 0.06
+    Q2 2025: 0.23
+    Q3 2025: 0.27
+    Q4 2025: -0.2
+    Q1 2026: 0.01
+  annual:
+    2021 Yearly: 0.69
+    2022 Yearly: 2.2
+    2023 Yearly: 1.1
+    2024 Yearly: 0.52
+    2025 Yearly: 0.37
+  quarterly_forecast:
+    Q3 2024: 0.16
+    Q4 2024: -0.03
+    Q1 2025: 0.05
+    Q2 2025: 0.17
+    Q3 2025: 0.19
+    Q4 2025: -0.08
+    Q1 2026: 0.06
+    Q2 2026: 0.18
+    Q3 2026: 0.21
+    Q4 2026: -0.01
+    Q1 2027: 0.09
+  annual_forecast:
+    2021 Yearly: 0.53
+    2022 Yearly: 2.17
+    2023 Yearly: 1.1
+    2024 Yearly: 0.55
+    2025 Yearly: 0.47
+    2026 Yearly: 0.38
+    2027 Yearly: 0.44

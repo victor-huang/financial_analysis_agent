@@ -1,0 +1,78 @@
+currency: USD
+company_name: Transocean Ltd (Switzerland)
+sector: Industrial Services
+market_cap_billions: 5.83
+revenue:
+  quarterly:
+    Q3 2024: 948.0
+    Q4 2024: 952.0
+    Q1 2025: 906.0
+    Q2 2025: 988.0
+    Q3 2025: 1030.0
+    Q4 2025: 1040.0
+    Q1 2026: 1080.0
+  annual:
+    2021 Yearly: 2780.0
+    2022 Yearly: 2690.0
+    2023 Yearly: 2830.0
+    2024 Yearly: 3530.0
+    2025 Yearly: 3960.0
+  quarterly_forecast:
+    Q3 2024: 945.02
+    Q4 2024: 962.54
+    Q1 2025: 881.83
+    Q2 2025: 976.4
+    Q3 2025: 1010.0
+    Q4 2025: 1040.0
+    Q1 2026: 1020.0
+    Q2 2026: 956.64
+    Q3 2026: 893.08
+    Q4 2026: 907.32
+    Q1 2027: 936.01
+  annual_forecast:
+    2021 Yearly: 2720.0
+    2022 Yearly: 2640.0
+    2023 Yearly: 2900.0
+    2024 Yearly: 3530.0
+    2025 Yearly: 3950.0
+    2026 Yearly: 3830.0
+    2027 Yearly: 3850.0
+    2028 Yearly: 3880.0
+    2029 Yearly: 3780.0
+eps:
+  quarterly:
+    Q3 2024: 0.07
+    Q4 2024: -0.09
+    Q1 2025: -0.1
+    Q2 2025: 0.0
+    Q3 2025: 0.06
+    Q4 2025: 0.02
+    Q1 2026: -0.03
+  annual:
+    2021 Yearly: -0.74
+    2022 Yearly: -0.93
+    2023 Yearly: -0.96
+    2024 Yearly: -0.26
+    2025 Yearly: 0.04
+  quarterly_forecast:
+    Q3 2024: -0.04
+    Q4 2024: 0.01
+    Q1 2025: -0.11
+    Q2 2025: -0.01
+    Q3 2025: 0.04
+    Q4 2025: 0.08
+    Q1 2026: 0.08
+    Q2 2026: 0.01
+    Q3 2026: 0.03
+    Q4 2026: 0.05
+    Q1 2027: 0.06
+  annual_forecast:
+    2021 Yearly: -0.38
+    2022 Yearly: -0.58
+    2023 Yearly: -0.98
+    2024 Yearly: -0.02
+    2025 Yearly: 0.12
+    2026 Yearly: 0.12
+    2027 Yearly: 0.27
+    2028 Yearly: 0.31
+    2029 Yearly: 0.15

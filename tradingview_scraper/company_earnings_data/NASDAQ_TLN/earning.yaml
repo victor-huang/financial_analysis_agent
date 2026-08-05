@@ -1,0 +1,70 @@
+currency: USD
+company_name: Talen Energy Corporation
+sector: Utilities
+market_cap_billions: 15.43
+revenue:
+  quarterly:
+    Q3 2024: 650.0
+    Q4 2024: 467.0
+    Q1 2025: 390.0
+    Q2 2025: 630.0
+    Q3 2025: 812.0
+    Q4 2025: 749.0
+    Q1 2026: 1130.0
+  annual:
+    2023 Yearly: 2550.0
+    2024 Yearly: 2120.0
+    2025 Yearly: 2580.0
+  quarterly_forecast:
+    Q3 2024: 522.09
+    Q4 2024: 430.62
+    Q1 2025: 491.97
+    Q2 2025: 391.98
+    Q3 2025: 745.48
+    Q4 2025: 663.98
+    Q1 2026: 1050.0
+    Q2 2026: 832.81
+    Q3 2026: 1290.0
+    Q4 2026: 1180.0
+    Q1 2027: 1380.0
+  annual_forecast:
+    2023 Yearly: 2190.0
+    2024 Yearly: 2009.9999999999998
+    2025 Yearly: 2420.0
+    2026 Yearly: 4510.0
+    2027 Yearly: 5220.0
+    2028 Yearly: 5420.0
+    2029 Yearly: 5810.0
+eps:
+  quarterly:
+    Q3 2024: 3.16
+    Q4 2024: 2.07
+    Q1 2025: -2.94
+    Q2 2025: 1.5
+    Q3 2025: 4.25
+    Q4 2025: -7.6
+    Q1 2026: 1.33
+  annual:
+    2023 Yearly: 2.26
+    2024 Yearly: 17.67
+    2025 Yearly: -4.79
+  quarterly_forecast:
+    Q3 2024: 0.26
+    Q4 2024: 0.6
+    Q1 2025: 1.03
+    Q2 2025: -1.04
+    Q3 2025: 3.18
+    Q4 2025: 2.62
+    Q1 2026: 5.01
+    Q2 2026: 3.21
+    Q3 2026: 9.29
+    Q4 2026: 6.49
+    Q1 2027: 5.82
+  annual_forecast:
+    2023 Yearly: 4.33
+    2024 Yearly: 15.66
+    2025 Yearly: 5.92
+    2026 Yearly: 22.25
+    2027 Yearly: 31.72
+    2028 Yearly: 37.71
+    2029 Yearly: 43.95

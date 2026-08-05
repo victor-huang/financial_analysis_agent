@@ -1,0 +1,36 @@
+currency: USD
+company_name: HMH Holding Inc.
+sector: Industrial Services
+market_cap_billions: 0.8892899999999999
+revenue:
+  quarterly:
+    Q4 2025: 202.7
+    Q1 2026: 171.32
+  annual:
+    2025 Yearly: 822.0
+  quarterly_forecast:
+    Q1 2026: 178.76
+    Q2 2026: 189.57
+    Q3 2026: 218.92
+    Q4 2026: 242.19
+    Q1 2027: 228.34
+  annual_forecast:
+    2026 Yearly: 820.92
+    2027 Yearly: 950.18
+    2028 Yearly: 1000.0
+eps:
+  quarterly:
+    Q4 2025: 0.17
+    Q1 2026: 0.08
+  annual:
+    2025 Yearly: 1.05
+  quarterly_forecast:
+    Q1 2026: 0.31
+    Q2 2026: 0.27
+    Q3 2026: 0.45
+    Q4 2026: 0.59
+    Q1 2027: 0.49
+  annual_forecast:
+    2026 Yearly: 1.41
+    2027 Yearly: 2.25
+    2028 Yearly: 2.49

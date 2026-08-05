@@ -1,0 +1,78 @@
+currency: USD
+company_name: e.l.f. Beauty, Inc.
+sector: Consumer Non-Durables
+market_cap_billions: 5.18
+revenue:
+  quarterly:
+    Q2 2024: 301.07
+    Q3 2024: 355.32
+    Q4 2024: 332.64
+    Q1 2025: 353.74
+    Q2 2025: 343.94
+    Q3 2025: 489.5
+    Q4 2025: 449.29
+  annual:
+    2021 Yearly: 392.15
+    2022 Yearly: 578.84
+    2023 Yearly: 1020.0
+    2024 Yearly: 1310.0
+    2025 Yearly: 1640.0
+  quarterly_forecast:
+    Q2 2024: 289.43
+    Q3 2024: 330.4
+    Q4 2024: 326.71
+    Q1 2025: 352.0
+    Q2 2025: 365.82
+    Q3 2025: 461.84
+    Q4 2025: 423.06
+    Q1 2026: 431.2
+    Q2 2026: 434.28
+    Q3 2026: 519.33
+    Q4 2026: 480.35
+  annual_forecast:
+    2021 Yearly: 378.34
+    2022 Yearly: 547.95
+    2023 Yearly: 995.38
+    2024 Yearly: 1310.0
+    2025 Yearly: 1610.0
+    2026 Yearly: 1860.0
+    2027 Yearly: 2009.9999999999998
+    2028 Yearly: 2180.0
+    2029 Yearly: 2330.0
+eps:
+  quarterly:
+    Q2 2024: 0.77
+    Q3 2024: 0.74
+    Q4 2024: 0.78
+    Q1 2025: 0.89
+    Q2 2025: 0.68
+    Q3 2025: 1.24
+    Q4 2025: 0.32
+  annual:
+    2021 Yearly: 0.84
+    2022 Yearly: 1.66
+    2023 Yearly: 3.18
+    2024 Yearly: 3.39
+    2025 Yearly: 3.13
+  quarterly_forecast:
+    Q2 2024: 0.43
+    Q3 2024: 0.76
+    Q4 2024: 0.72
+    Q1 2025: 0.84
+    Q2 2025: 0.57
+    Q3 2025: 0.72
+    Q4 2025: 0.29
+    Q1 2026: 0.71
+    Q2 2026: 0.69
+    Q3 2026: 1.18
+    Q4 2026: 0.73
+  annual_forecast:
+    2021 Yearly: 0.77
+    2022 Yearly: 1.43
+    2023 Yearly: 2.98
+    2024 Yearly: 3.33
+    2025 Yearly: 3.1
+    2026 Yearly: 3.31
+    2027 Yearly: 3.68
+    2028 Yearly: 4.15
+    2029 Yearly: 4.86

@@ -1,0 +1,74 @@
+currency: USD
+company_name: Envela Corporation
+sector: Retail Trade
+market_cap_billions: 0.56938
+revenue:
+  quarterly:
+    Q3 2024: 46.9
+    Q4 2024: 48.28
+    Q1 2025: 48.26
+    Q2 2025: 54.88
+    Q3 2025: 57.39
+    Q4 2025: 80.5
+    Q1 2026: 98.39
+  annual:
+    2021 Yearly: 140.97
+    2022 Yearly: 182.69
+    2023 Yearly: 171.7
+    2024 Yearly: 180.38
+    2025 Yearly: 241.01
+  quarterly_forecast:
+    Q3 2024: 41.85
+    Q4 2024: 48.31
+    Q1 2025: 43.83
+    Q2 2025: 46.81
+    Q3 2025: 48.99
+    Q4 2025: 80.5
+    Q1 2026: 98.39
+    Q2 2026: 59.95
+    Q3 2026: 60.65
+    Q4 2026: 60.9
+    Q1 2027: 54.0
+  annual_forecast:
+    2021 Yearly: 138.12
+    2022 Yearly: 182.04
+    2023 Yearly: 177.95
+    2024 Yearly: 180.39
+    2025 Yearly: 241.01
+    2026 Yearly: 279.84
+    2027 Yearly: 250.07
+eps:
+  quarterly:
+    Q3 2024: 0.06
+    Q4 2024: 0.07
+    Q1 2025: 0.1
+    Q2 2025: 0.11
+    Q3 2025: 0.13
+    Q4 2025: 0.23
+    Q1 2026: 0.34
+  annual:
+    2021 Yearly: 0.37
+    2022 Yearly: 0.58
+    2023 Yearly: 0.27
+    2024 Yearly: 0.26
+    2025 Yearly: 0.56
+  quarterly_forecast:
+    Q3 2024: 0.06
+    Q4 2024: 0.06
+    Q1 2025: 0.07
+    Q2 2025: 0.07
+    Q3 2025: 0.07
+    Q4 2025: 0.23
+    Q1 2026: 0.34
+    Q2 2026: 0.12
+    Q3 2026: 0.14
+    Q4 2026: 0.13
+    Q1 2027: 0.13
+  annual_forecast:
+    2021 Yearly: 0.37
+    2022 Yearly: 0.54
+    2023 Yearly: 0.27
+    2024 Yearly: 0.26
+    2025 Yearly: 0.56
+    2026 Yearly: 0.72
+    2027 Yearly: 0.66

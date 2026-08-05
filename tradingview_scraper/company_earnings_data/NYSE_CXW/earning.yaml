@@ -1,0 +1,74 @@
+currency: USD
+company_name: CoreCivic, Inc.
+sector: Commercial Services
+market_cap_billions: 2.98
+revenue:
+  quarterly:
+    Q3 2024: 491.56
+    Q4 2024: 479.3
+    Q1 2025: 488.6
+    Q2 2025: 538.16
+    Q3 2025: 580.44
+    Q4 2025: 603.95
+    Q1 2026: 614.73
+  annual:
+    2021 Yearly: 1860.0
+    2022 Yearly: 1850.0
+    2023 Yearly: 1900.0
+    2024 Yearly: 1960.0
+    2025 Yearly: 2210.0
+  quarterly_forecast:
+    Q3 2024: 469.84
+    Q4 2024: 465.17
+    Q1 2025: 478.49
+    Q2 2025: 498.65
+    Q3 2025: 543.11
+    Q4 2025: 577.8
+    Q1 2026: 604.48
+    Q2 2026: 618.63
+    Q3 2026: 655.79
+    Q4 2026: 671.39
+    Q1 2027: 661.53
+  annual_forecast:
+    2021 Yearly: 1870.0
+    2022 Yearly: 1840.0
+    2023 Yearly: 1900.0
+    2024 Yearly: 1950.0
+    2025 Yearly: 2190.0
+    2026 Yearly: 2560.0
+    2027 Yearly: 2680.0
+eps:
+  quarterly:
+    Q3 2024: 0.19
+    Q4 2024: 0.17
+    Q1 2025: 0.23
+    Q2 2025: 0.35
+    Q3 2025: 0.24
+    Q4 2025: 0.26
+    Q1 2026: 0.38
+  annual:
+    2021 Yearly: 1.04
+    2022 Yearly: 1.03
+    2023 Yearly: 0.59
+    2024 Yearly: 0.62
+    2025 Yearly: 1.08
+  quarterly_forecast:
+    Q3 2024: 0.09
+    Q4 2024: 0.1
+    Q1 2025: 0.12
+    Q2 2025: 0.2
+    Q3 2025: 0.27
+    Q4 2025: 0.18
+    Q1 2026: 0.28
+    Q2 2026: 0.34
+    Q3 2026: 0.44
+    Q4 2026: 0.45
+    Q1 2027: 0.46
+  annual_forecast:
+    2021 Yearly: 1.03
+    2022 Yearly: 0.94
+    2023 Yearly: 0.56
+    2024 Yearly: 0.54
+    2025 Yearly: 1.01
+    2026 Yearly: 1.61
+    2027 Yearly: 1.97

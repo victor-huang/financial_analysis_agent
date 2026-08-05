@@ -1,0 +1,74 @@
+currency: USD
+company_name: Alto Ingredients, Inc.
+sector: Process Industries
+market_cap_billions: 0.4099
+revenue:
+  quarterly:
+    Q3 2024: 251.81
+    Q4 2024: 236.35
+    Q1 2025: 226.54
+    Q2 2025: 218.44
+    Q3 2025: 240.99
+    Q4 2025: 231.97
+    Q1 2026: 224.68
+  annual:
+    2021 Yearly: 1210.0
+    2022 Yearly: 1340.0
+    2023 Yearly: 1220.0
+    2024 Yearly: 965.26
+    2025 Yearly: 917.93
+  quarterly_forecast:
+    Q3 2024: 267.57
+    Q4 2024: 222.8
+    Q1 2025: 222.19
+    Q2 2025: 223.6
+    Q3 2025: 235.7
+    Q4 2025: 234.85
+    Q1 2026: 215.65
+    Q2 2026: 231.24
+    Q3 2026: 251.03
+    Q4 2026: 251.35
+    Q1 2027: 207.01
+  annual_forecast:
+    2021 Yearly: 1150.0
+    2022 Yearly: 1350.0
+    2023 Yearly: 1240.0
+    2024 Yearly: 951.7
+    2025 Yearly: 920.8
+    2026 Yearly: 953.06
+    2027 Yearly: 962.58
+eps:
+  quarterly:
+    Q3 2024: -0.04
+    Q4 2024: -0.57
+    Q1 2025: -0.16
+    Q2 2025: -0.15
+    Q3 2025: 0.19
+    Q4 2025: 0.28
+    Q1 2026: 0.05
+  annual:
+    2021 Yearly: 0.61
+    2022 Yearly: -0.6
+    2023 Yearly: -0.4
+    2024 Yearly: -0.82
+    2025 Yearly: 0.16
+  quarterly_forecast:
+    Q3 2024: 0.04
+    Q4 2024: -0.1
+    Q1 2025: -0.2
+    Q2 2025: -0.1
+    Q3 2025: -0.06
+    Q4 2025: -0.02
+    Q1 2026: -0.03
+    Q2 2026: 0.08
+    Q3 2026: 0.17
+    Q4 2026: 0.12
+    Q1 2027: 0.0
+  annual_forecast:
+    2021 Yearly: 0.44
+    2022 Yearly: -0.19
+    2023 Yearly: -0.22
+    2024 Yearly: -0.35
+    2025 Yearly: -0.14
+    2026 Yearly: 0.43
+    2027 Yearly: 0.61

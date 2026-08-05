@@ -1,0 +1,78 @@
+currency: USD
+company_name: VSE Corporation
+sector: Industrial Services
+market_cap_billions: 6.01
+revenue:
+  quarterly:
+    Q3 2024: 273.61
+    Q4 2024: 299.02
+    Q1 2025: 256.05
+    Q2 2025: 272.14
+    Q3 2025: 282.91
+    Q4 2025: 301.18
+    Q1 2026: 324.58
+  annual:
+    2021 Yearly: 750.85
+    2022 Yearly: 949.76
+    2023 Yearly: 860.49
+    2024 Yearly: 1080.0
+    2025 Yearly: 1110.0
+  quarterly_forecast:
+    Q3 2024: 268.44
+    Q4 2024: 289.97
+    Q1 2025: 246.83
+    Q2 2025: 261.86
+    Q3 2025: 276.41
+    Q4 2025: 289.55
+    Q1 2026: 309.19
+    Q2 2026: 425.03
+    Q3 2026: 503.71
+    Q4 2026: 520.94
+    Q1 2027: 513.64
+  annual_forecast:
+    2021 Yearly: 743.78
+    2022 Yearly: 953.32
+    2023 Yearly: 860.03
+    2024 Yearly: 1070.0
+    2025 Yearly: 1100.0
+    2026 Yearly: 1770.0
+    2027 Yearly: 2160.0
+    2028 Yearly: 2350.0
+    2029 Yearly: 2490.0
+eps:
+  quarterly:
+    Q3 2024: 0.71
+    Q4 2024: 0.9
+    Q1 2025: 0.78
+    Q2 2025: 0.97
+    Q3 2025: 0.99
+    Q4 2025: 1.16
+    Q1 2026: 1.17
+  annual:
+    2021 Yearly: 2.34
+    2022 Yearly: 2.91
+    2023 Yearly: 3.31
+    2024 Yearly: 3.13
+    2025 Yearly: 3.92
+  quarterly_forecast:
+    Q3 2024: 0.6
+    Q4 2024: 0.72
+    Q1 2025: 0.63
+    Q2 2025: 0.7
+    Q3 2025: 0.84
+    Q4 2025: 0.89
+    Q1 2026: 0.89
+    Q2 2026: 0.93
+    Q3 2026: 1.12
+    Q4 2026: 1.17
+    Q1 2027: 1.23
+  annual_forecast:
+    2021 Yearly: 2.55
+    2022 Yearly: 2.98
+    2023 Yearly: 3.24
+    2024 Yearly: 2.93
+    2025 Yearly: 3.63
+    2026 Yearly: 4.37
+    2027 Yearly: 5.78
+    2028 Yearly: 6.96
+    2029 Yearly: 7.13

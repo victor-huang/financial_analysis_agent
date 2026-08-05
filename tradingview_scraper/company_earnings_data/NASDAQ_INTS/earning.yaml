@@ -1,0 +1,70 @@
+currency: USD
+company_name: Intensity Therapeutics, Inc.
+sector: Health Technology
+market_cap_billions: 0.011300000000000001
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+  annual:
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+  annual_forecast:
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 0.0
+    2028 Yearly: 52.45
+    2029 Yearly: 211.88
+eps:
+  quarterly:
+    Q3 2024: -6.25
+    Q4 2024: -5.5
+    Q1 2025: -5.5
+    Q2 2025: -3.25
+    Q3 2025: -1.5
+    Q4 2025: 1.69
+    Q1 2026: -0.96
+  annual:
+    2023 Yearly: -34.5
+    2024 Yearly: -29.25
+    2025 Yearly: -8.56
+  quarterly_forecast:
+    Q3 2024: -7.63
+    Q4 2024: -5.6
+    Q1 2025: -5.0
+    Q2 2025: -4.25
+    Q3 2025: -1.58
+    Q4 2025: -1.24
+    Q1 2026: -1.08
+    Q2 2026: -0.87
+    Q3 2026: -0.84
+    Q4 2026: -0.85
+    Q1 2027: -1.01
+  annual_forecast:
+    2023 Yearly: -32.25
+    2024 Yearly: -29.25
+    2025 Yearly: -7.87
+    2026 Yearly: -3.46
+    2027 Yearly: -3.4
+    2028 Yearly: -5.03
+    2029 Yearly: 7.33

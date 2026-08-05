@@ -1,0 +1,78 @@
+currency: USD
+company_name: MannKind Corporation
+sector: Health Technology
+market_cap_billions: 1.26
+revenue:
+  quarterly:
+    Q3 2024: 70.08
+    Q4 2024: 76.78
+    Q1 2025: 78.35
+    Q2 2025: 76.53
+    Q3 2025: 82.13
+    Q4 2025: 111.95
+    Q1 2026: 90.17
+  annual:
+    2021 Yearly: 75.44
+    2022 Yearly: 99.77
+    2023 Yearly: 199.0
+    2024 Yearly: 285.5
+    2025 Yearly: 348.97
+  quarterly_forecast:
+    Q3 2024: 73.31
+    Q4 2024: 74.37
+    Q1 2025: 76.02
+    Q2 2025: 78.79
+    Q3 2025: 80.24
+    Q4 2025: 97.58
+    Q1 2026: 105.38
+    Q2 2026: 108.08
+    Q3 2026: 118.05
+    Q4 2026: 142.51
+    Q1 2027: 120.1
+  annual_forecast:
+    2021 Yearly: 80.01
+    2022 Yearly: 99.59
+    2023 Yearly: 194.0
+    2024 Yearly: 281.03
+    2025 Yearly: 342.39
+    2026 Yearly: 458.65
+    2027 Yearly: 520.86
+    2028 Yearly: 530.77
+    2029 Yearly: 602.86
+eps:
+  quarterly:
+    Q3 2024: 0.04
+    Q4 2024: 0.03
+    Q1 2025: 0.04
+    Q2 2025: 0.0
+    Q3 2025: 0.03
+    Q4 2025: -0.05
+    Q1 2026: -0.05
+  annual:
+    2021 Yearly: -0.32
+    2022 Yearly: -0.34
+    2023 Yearly: -0.04
+    2024 Yearly: 0.1
+    2025 Yearly: 0.02
+  quarterly_forecast:
+    Q3 2024: 0.03
+    Q4 2024: 0.04
+    Q1 2025: 0.04
+    Q2 2025: 0.05
+    Q3 2025: 0.02
+    Q4 2025: 0.02
+    Q1 2026: 0.0
+    Q2 2026: -0.01
+    Q3 2026: 0.01
+    Q4 2026: 0.04
+    Q1 2027: -0.01
+  annual_forecast:
+    2021 Yearly: -0.27
+    2022 Yearly: -0.32
+    2023 Yearly: -0.04
+    2024 Yearly: 0.11
+    2025 Yearly: 0.17
+    2026 Yearly: -0.02
+    2027 Yearly: 0.13
+    2028 Yearly: 0.13
+    2029 Yearly: 0.28

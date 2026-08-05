@@ -1,0 +1,76 @@
+currency: USD
+company_name: Redwire Corporation
+sector: Electronic Technology
+market_cap_billions: 2.54
+revenue:
+  quarterly:
+    Q3 2024: 68.64
+    Q4 2024: 69.56
+    Q1 2025: 61.4
+    Q2 2025: 61.76
+    Q3 2025: 103.43
+    Q4 2025: 108.79
+    Q1 2026: 96.97
+  annual:
+    2021 Yearly: 137.6
+    2022 Yearly: 160.55
+    2023 Yearly: 243.8
+    2024 Yearly: 304.1
+    2025 Yearly: 335.38
+  quarterly_forecast:
+    Q3 2024: 70.51
+    Q4 2024: 74.82
+    Q1 2025: 73.85
+    Q2 2025: 82.79
+    Q3 2025: 129.67
+    Q4 2025: 98.78
+    Q1 2026: 105.94
+    Q2 2026: 107.1
+    Q3 2026: 124.67
+    Q4 2026: 140.51
+    Q1 2027: 124.67
+  annual_forecast:
+    2021 Yearly: 153.0
+    2022 Yearly: 149.0
+    2023 Yearly: 240.17
+    2024 Yearly: 309.3
+    2025 Yearly: 328.66
+    2026 Yearly: 469.26
+    2027 Yearly: 569.98
+    2028 Yearly: 683.8
+eps:
+  quarterly:
+    Q3 2024: -0.37
+    Q4 2024: -1.38
+    Q1 2025: -0.09
+    Q2 2025: -1.41
+    Q3 2025: -0.29
+    Q4 2025: -0.58
+    Q1 2026: -0.4
+  annual:
+    2021 Yearly: -1.36
+    2022 Yearly: -2.09
+    2023 Yearly: -0.42
+    2024 Yearly: -2.35
+    2025 Yearly: -2.28
+  quarterly_forecast:
+    Q3 2024: -0.14
+    Q4 2024: -0.18
+    Q1 2025: -0.29
+    Q2 2025: -0.1
+    Q3 2025: -0.21
+    Q4 2025: -0.19
+    Q1 2026: -0.15
+    Q2 2026: -0.16
+    Q3 2026: -0.15
+    Q4 2026: -0.14
+    Q1 2027: -0.17
+  annual_forecast:
+    2021 Yearly: -0.5
+    2022 Yearly: -1.79
+    2023 Yearly: -0.52
+    2024 Yearly: -1.03
+    2025 Yearly: -1.69
+    2026 Yearly: -0.85
+    2027 Yearly: -0.51
+    2028 Yearly: -0.17

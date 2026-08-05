@@ -1,0 +1,59 @@
+currency: USD
+company_name: Diversified Energy Company
+sector: Energy Minerals
+market_cap_billions: 0.9626
+revenue:
+  quarterly:
+    Q1 2026: 556.21
+    H1 '21: 301.37
+    H1 '23: 487.31
+    H1 '24: 368.67
+    H1 '25: 778.0
+  annual:
+    2021 Yearly: 1000.0
+    2022 Yearly: 1900.0
+    2023 Yearly: 868.26
+    2024 Yearly: 794.84
+    2025 Yearly: 1640.0
+  quarterly_forecast:
+    Q1 2026: 521.44
+    Q2 2026: 492.98
+    Q3 2026: 476.62
+    Q4 2026: 502.16
+    Q1 2027: 494.31
+  annual_forecast:
+    2021 Yearly: 971.41
+    2022 Yearly: 1690.0
+    2023 Yearly: 937.14
+    2024 Yearly: 801.44
+    2025 Yearly: 1650.0
+    2026 Yearly: 1980.0
+    2027 Yearly: 1860.0
+    2028 Yearly: 1840.0
+    2029 Yearly: 1740.0
+eps:
+  quarterly:
+    Q2 2026: 1.51
+    H1 '21: -2.2
+    H1 '23: 13.4
+  annual:
+    2021 Yearly: -8.1
+    2022 Yearly: -14.41
+    2023 Yearly: 9.06
+    2024 Yearly: 2.48
+    2025 Yearly: 4.47
+  quarterly_forecast:
+    Q2 2026: -0.19
+    Q3 2026: 0.33
+    Q4 2026: 0.2
+    Q1 2027: 0.41
+  annual_forecast:
+    2021 Yearly: 5.18
+    2022 Yearly: 4.43
+    2023 Yearly: 2.47
+    2024 Yearly: 2.1
+    2025 Yearly: 3.81
+    2026 Yearly: 2.71
+    2027 Yearly: 2.25
+    2028 Yearly: 2.48
+    2029 Yearly: 1.62

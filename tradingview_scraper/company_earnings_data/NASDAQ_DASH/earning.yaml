@@ -1,0 +1,78 @@
+currency: USD
+company_name: DoorDash, Inc.
+sector: Transportation
+market_cap_billions: 88.18
+revenue:
+  quarterly:
+    Q3 2024: 2710.0
+    Q4 2024: 2870.0
+    Q1 2025: 3030.0
+    Q2 2025: 3280.0
+    Q3 2025: 3450.0
+    Q4 2025: 3960.0
+    Q1 2026: 4040.0
+  annual:
+    2021 Yearly: 4890.0
+    2022 Yearly: 6580.0
+    2023 Yearly: 8630.0
+    2024 Yearly: 10720.0
+    2025 Yearly: 13720.0
+  quarterly_forecast:
+    Q3 2024: 2660.0
+    Q4 2024: 2840.0
+    Q1 2025: 3100.0
+    Q2 2025: 3160.0
+    Q3 2025: 3350.0
+    Q4 2025: 4000.0
+    Q1 2026: 4150.0
+    Q2 2026: 4340.0
+    Q3 2026: 4490.0
+    Q4 2026: 4750.0
+    Q1 2027: 4900.0
+  annual_forecast:
+    2021 Yearly: 4870.0
+    2022 Yearly: 6550.0
+    2023 Yearly: 8580.0
+    2024 Yearly: 10690.0
+    2025 Yearly: 13770.0
+    2026 Yearly: 17630.0
+    2027 Yearly: 21270.0
+    2028 Yearly: 25240.0
+    2029 Yearly: 30190.0
+eps:
+  quarterly:
+    Q3 2024: 0.38
+    Q4 2024: 0.33
+    Q1 2025: 0.44
+    Q2 2025: 0.65
+    Q3 2025: 0.55
+    Q4 2025: 0.48
+    Q1 2026: 0.42
+  annual:
+    2021 Yearly: -1.39
+    2022 Yearly: -3.68
+    2023 Yearly: -1.42
+    2024 Yearly: 0.29
+    2025 Yearly: 2.13
+  quarterly_forecast:
+    Q3 2024: 0.2
+    Q4 2024: 0.34
+    Q1 2025: 0.39
+    Q2 2025: 0.44
+    Q3 2025: 0.68
+    Q4 2025: 0.59
+    Q1 2026: 0.36
+    Q2 2026: 0.47
+    Q3 2026: 0.74
+    Q4 2026: 0.82
+    Q1 2027: 0.85
+  annual_forecast:
+    2021 Yearly: -1.09
+    2022 Yearly: -2.64
+    2023 Yearly: -1.17
+    2024 Yearly: 0.3
+    2025 Yearly: 2.25
+    2026 Yearly: 2.54
+    2027 Yearly: 4.48
+    2028 Yearly: 7.11
+    2029 Yearly: 10.63

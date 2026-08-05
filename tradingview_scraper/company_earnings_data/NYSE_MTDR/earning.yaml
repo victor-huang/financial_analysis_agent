@@ -1,0 +1,78 @@
+currency: USD
+company_name: Matador Resources Company
+sector: Energy Minerals
+market_cap_billions: 6.06
+revenue:
+  quarterly:
+    Q3 2024: 899.78
+    Q4 2024: 970.37
+    Q1 2025: 1010.0
+    Q2 2025: 895.31
+    Q3 2025: 939.01
+    Q4 2025: 847.99
+    Q1 2026: 671.64
+  annual:
+    2021 Yearly: 1660.0
+    2022 Yearly: 3060.0
+    2023 Yearly: 2810.0
+    2024 Yearly: 3500.0
+    2025 Yearly: 3700.0
+  quarterly_forecast:
+    Q3 2024: 836.69
+    Q4 2024: 1000.0
+    Q1 2025: 964.2
+    Q2 2025: 910.57
+    Q3 2025: 876.67
+    Q4 2025: 803.41
+    Q1 2026: 871.57
+    Q2 2026: 1060.0
+    Q3 2026: 1040.0
+    Q4 2026: 1110.0
+    Q1 2027: 1140.0
+  annual_forecast:
+    2021 Yearly: 1520.0
+    2022 Yearly: 2920.0
+    2023 Yearly: 2820.0
+    2024 Yearly: 3520.0
+    2025 Yearly: 3570.0
+    2026 Yearly: 3890.0
+    2027 Yearly: 4560.0
+    2028 Yearly: 4670.0
+    2029 Yearly: 4690.0
+eps:
+  quarterly:
+    Q3 2024: 1.89
+    Q4 2024: 1.83
+    Q1 2025: 1.99
+    Q2 2025: 1.53
+    Q3 2025: 1.36
+    Q4 2025: 0.87
+    Q1 2026: 1.53
+  annual:
+    2021 Yearly: 4.24
+    2022 Yearly: 10.53
+    2023 Yearly: 6.77
+    2024 Yearly: 7.48
+    2025 Yearly: 5.76
+  quarterly_forecast:
+    Q3 2024: 1.66
+    Q4 2024: 1.76
+    Q1 2025: 1.78
+    Q2 2025: 1.42
+    Q3 2025: 1.23
+    Q4 2025: 0.76
+    Q1 2026: 1.25
+    Q2 2026: 2.08
+    Q3 2026: 1.65
+    Q4 2026: 1.83
+    Q1 2027: 2.13
+  annual_forecast:
+    2021 Yearly: 4.08
+    2022 Yearly: 10.44
+    2023 Yearly: 6.58
+    2024 Yearly: 7.4
+    2025 Yearly: 5.62
+    2026 Yearly: 7.11
+    2027 Yearly: 8.2
+    2028 Yearly: 8.62
+    2029 Yearly: 9.67

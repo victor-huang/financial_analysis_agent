@@ -1,7 +1,7 @@
 currency: USD
 company_name: Bluelinx Holdings Inc.
 sector: Distribution Services
-market_cap_billions: 0.47091000000000005
+market_cap_billions: 0.5016499999999999
 revenue:
   quarterly:
     Q3 2024: 747.29
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 748.87
     Q4 2025: 715.8
     Q1 2026: 731.15
+    Q2 2026: 814.08
   annual:
     2021 Yearly: 4280.0
     2022 Yearly: 4450.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 790.48
     Q4 2026: 755.43
     Q1 2027: 781.91
+    Q2 2027: 843.64
   annual_forecast:
     2021 Yearly: 4160.0
     2022 Yearly: 4540.0
@@ -46,6 +48,7 @@ eps:
     Q3 2025: 0.45
     Q4 2025: -0.47
     Q1 2026: 0.21
+    Q2 2026: 1.15
   annual:
     2021 Yearly: 29.8
     2022 Yearly: 31.51
@@ -64,6 +67,7 @@ eps:
     Q3 2026: 0.21
     Q4 2026: -0.12
     Q1 2027: 0.27
+    Q2 2027: 0.81
   annual_forecast:
     2021 Yearly: 26.4
     2022 Yearly: 31.18

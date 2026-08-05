@@ -1,0 +1,78 @@
+currency: USD
+company_name: MercadoLibre, Inc.
+sector: Retail Trade
+market_cap_billions: 95.74
+revenue:
+  quarterly:
+    Q3 2024: 5310.0
+    Q4 2024: 6060.0
+    Q1 2025: 5930.0
+    Q2 2025: 6790.0
+    Q3 2025: 7410.0
+    Q4 2025: 8760.0
+    Q1 2026: 8850.0
+  annual:
+    2021 Yearly: 7070.0
+    2022 Yearly: 10540.0
+    2023 Yearly: 14470.0
+    2024 Yearly: 20780.0
+    2025 Yearly: 28890.0
+  quarterly_forecast:
+    Q3 2024: 5280.0
+    Q4 2024: 5820.0
+    Q1 2025: 5490.0
+    Q2 2025: 6670.0
+    Q3 2025: 7220.0
+    Q4 2025: 8470.0
+    Q1 2026: 8350.0
+    Q2 2026: 9780.0
+    Q3 2026: 10340.0
+    Q4 2026: 11680.0
+    Q1 2027: 11400.0
+  annual_forecast:
+    2021 Yearly: 6960.0
+    2022 Yearly: 10510.0
+    2023 Yearly: 14340.0
+    2024 Yearly: 20640.0
+    2025 Yearly: 28640.0
+    2026 Yearly: 40880.0
+    2027 Yearly: 52360.0
+    2028 Yearly: 64800.0
+    2029 Yearly: 85820.0
+eps:
+  quarterly:
+    Q3 2024: 7.83
+    Q4 2024: 12.6
+    Q1 2025: 9.74
+    Q2 2025: 10.31
+    Q3 2025: 8.32
+    Q4 2025: 11.03
+    Q1 2026: 8.23
+  annual:
+    2021 Yearly: 1.67
+    2022 Yearly: 9.53
+    2023 Yearly: 19.46
+    2024 Yearly: 37.69
+    2025 Yearly: 39.4
+  quarterly_forecast:
+    Q3 2024: 9.85
+    Q4 2024: 7.9
+    Q1 2025: 8.27
+    Q2 2025: 11.93
+    Q3 2025: 9.12
+    Q4 2025: 11.5
+    Q1 2026: 8.5
+    Q2 2026: 8.65
+    Q3 2026: 9.55
+    Q4 2026: 11.44
+    Q1 2027: 10.64
+  annual_forecast:
+    2021 Yearly: 3.27
+    2022 Yearly: 8.79
+    2023 Yearly: 22.96
+    2024 Yearly: 33.5
+    2025 Yearly: 40.41
+    2026 Yearly: 38.88
+    2027 Yearly: 56.01
+    2028 Yearly: 78.38
+    2029 Yearly: 125.96

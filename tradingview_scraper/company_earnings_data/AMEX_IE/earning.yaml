@@ -1,0 +1,58 @@
+currency: USD
+company_name: Ivanhoe Electric Inc.
+sector: Non-Energy Minerals
+market_cap_billions: 1.66
+revenue:
+  quarterly:
+    Q4 2024: 1.33
+  annual:
+    2022 Yearly: 8.44
+    2023 Yearly: 3.9
+    2024 Yearly: 2.9
+    2025 Yearly: 3.24
+  quarterly_forecast:
+    Q3 2024: 1.07
+  annual_forecast:
+    2022 Yearly: 9.25
+    2023 Yearly: 3.52
+    2024 Yearly: 2.46
+    2025 Yearly: 3.14
+    2026 Yearly: 3.54
+    2027 Yearly: 3.63
+    2028 Yearly: 8.0
+    2029 Yearly: 532.0
+eps:
+  quarterly:
+    Q3 2024: -0.36
+    Q4 2024: 0.15
+    Q1 2025: -0.24
+    Q2 2025: -0.18
+    Q3 2025: -0.13
+    Q4 2025: -0.24
+    Q1 2026: -0.26
+  annual:
+    2022 Yearly: -1.91
+    2023 Yearly: -1.95
+    2024 Yearly: -1.07
+    2025 Yearly: -0.79
+  quarterly_forecast:
+    Q3 2024: -0.36
+    Q4 2024: -0.25
+    Q1 2025: -0.12
+    Q2 2025: -0.1
+    Q3 2025: -0.15
+    Q4 2025: -0.18
+    Q1 2026: -0.14
+    Q2 2026: -0.11
+    Q3 2026: -0.08
+    Q4 2026: -0.1
+    Q1 2027: -0.06
+  annual_forecast:
+    2022 Yearly: -1.44
+    2023 Yearly: -1.75
+    2024 Yearly: -1.48
+    2025 Yearly: -0.73
+    2026 Yearly: -0.04
+    2027 Yearly: -0.59
+    2028 Yearly: -0.27
+    2029 Yearly: 1.47

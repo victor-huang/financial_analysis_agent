@@ -1,0 +1,48 @@
+currency: USD
+company_name: BillionToOne, Inc.
+sector: Health Services
+market_cap_billions: 6.54
+revenue:
+  quarterly:
+    Q2 2025: 66.6
+    Q3 2025: 83.5
+    Q4 2025: 96.05
+    Q1 2026: 108.4
+  annual:
+    2025 Yearly: 305.11
+  quarterly_forecast:
+    Q3 2025: 82.9
+    Q4 2025: 87.19
+    Q1 2026: 97.14
+    Q2 2026: 109.22
+    Q3 2026: 117.4
+    Q4 2026: 120.96
+    Q1 2027: 132.11
+  annual_forecast:
+    2025 Yearly: 296.23
+    2026 Yearly: 455.96
+    2027 Yearly: 577.28
+    2028 Yearly: 727.17
+    2029 Yearly: 786.25
+eps:
+  quarterly:
+    Q2 2025: -0.02
+    Q3 2025: 0.1
+    Q4 2025: 0.11
+    Q1 2026: 0.34
+  annual:
+    2025 Yearly: 0.14
+  quarterly_forecast:
+    Q3 2025: 0.14
+    Q4 2025: 0.06
+    Q1 2026: 0.03
+    Q2 2026: 0.18
+    Q3 2026: 0.23
+    Q4 2026: 0.23
+    Q1 2027: 0.3
+  annual_forecast:
+    2025 Yearly: 0.11
+    2026 Yearly: 0.98
+    2027 Yearly: 1.21
+    2028 Yearly: 1.95
+    2029 Yearly: 2.52

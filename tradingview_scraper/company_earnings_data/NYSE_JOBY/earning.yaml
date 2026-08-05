@@ -1,0 +1,67 @@
+currency: USD
+company_name: Joby Aviation, Inc.
+sector: Electronic Technology
+market_cap_billions: 7.84
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 22.57
+    Q1 2026: 30.84
+    Q2 2026: 24.25
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 1.03
+    2026 Yearly: 53.42
+  quarterly_forecast:
+    Q1 2026: 3.4
+    Q2 2026: 16.18
+    Q3 2026: 20.17
+    Q4 2026: 30.2
+    Q1 2027: 35.97
+  annual_forecast:
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2025 Yearly: 1.12
+    2027 Yearly: 39.21
+    2028 Yearly: 116.85
+    2029 Yearly: 238.23
+eps:
+  quarterly:
+    Q3 2024: -0.21
+    Q4 2024: -0.34
+    Q1 2025: -0.11
+    Q2 2025: -0.41
+    Q3 2025: -0.48
+    Q4 2025: -0.14
+    Q1 2026: -0.12
+  annual:
+    2021 Yearly: -0.61
+    2022 Yearly: -0.44
+    2023 Yearly: -0.79
+    2024 Yearly: -0.87
+    2025 Yearly: -1.13
+  quarterly_forecast:
+    Q3 2024: -0.2
+    Q4 2024: -0.19
+    Q1 2025: -0.18
+    Q2 2025: -0.19
+    Q3 2025: -0.19
+    Q4 2025: -0.22
+    Q1 2026: -0.21
+    Q2 2026: -0.23
+    Q3 2026: -0.23
+    Q4 2026: -0.22
+    Q1 2027: -0.21
+  annual_forecast:
+    2021 Yearly: -0.84
+    2022 Yearly: -0.48
+    2023 Yearly: -0.79
+    2024 Yearly: -0.72
+    2025 Yearly: -1.21
+    2026 Yearly: -0.81
+    2027 Yearly: -0.81
+    2028 Yearly: -0.7
+    2029 Yearly: -0.51

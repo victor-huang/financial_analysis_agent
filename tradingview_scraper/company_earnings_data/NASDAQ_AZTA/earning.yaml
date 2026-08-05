@@ -1,7 +1,7 @@
 currency: USD
 company_name: Azenta, Inc.
 sector: Health Services
-market_cap_billions: 1.38
+market_cap_billions: 1.39
 revenue:
   quarterly:
     Q4 2024: 170.06
@@ -11,6 +11,7 @@ revenue:
     Q4 2025: 159.19
     Q1 2026: 148.64
     Q2 2026: 144.79
+    Q3 2026: 161.18
   annual:
     2021 Yearly: 988.1
     2022 Yearly: 555.0
@@ -29,6 +30,7 @@ revenue:
     Q4 2026: 157.83
     Q1 2027: 155.21
     Q2 2027: 154.91
+    Q3 2027: 157.11
   annual_forecast:
     2021 Yearly: 1190.0
     2022 Yearly: 551.68
@@ -48,6 +50,7 @@ eps:
     Q4 2025: 0.21
     Q1 2026: 0.09
     Q2 2026: -0.04
+    Q3 2026: 0.16
   annual:
     2021 Yearly: 1.9
     2022 Yearly: 0.51
@@ -66,6 +69,7 @@ eps:
     Q4 2026: 0.22
     Q1 2027: 0.16
     Q2 2027: 0.17
+    Q3 2027: 0.2
   annual_forecast:
     2021 Yearly: 2.53
     2022 Yearly: 0.42

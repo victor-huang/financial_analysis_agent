@@ -1,0 +1,52 @@
+currency: USD
+company_name: Chime Financial, Inc.
+sector: Technology Services
+market_cap_billions: 9.51
+revenue:
+  quarterly:
+    Q1 2025: 518.74
+    Q2 2025: 528.15
+    Q3 2025: 543.52
+    Q4 2025: 596.36
+    Q1 2026: 647.39
+  annual:
+    2025 Yearly: 2190.0
+  quarterly_forecast:
+    Q2 2025: 502.79
+    Q3 2025: 531.28
+    Q4 2025: 577.0
+    Q1 2026: 635.72
+    Q2 2026: 641.26
+    Q3 2026: 667.56
+    Q4 2026: 723.83
+    Q1 2027: 773.65
+  annual_forecast:
+    2025 Yearly: 2170.0
+    2026 Yearly: 2680.0
+    2027 Yearly: 3200.0
+    2028 Yearly: 3740.0
+    2029 Yearly: 4470.0
+eps:
+  quarterly:
+    Q1 2025: 0.2
+    Q2 2025: -7.29
+    Q3 2025: -0.15
+    Q4 2025: -0.12
+    Q1 2026: 0.13
+  annual:
+    2025 Yearly: -4.27
+  quarterly_forecast:
+    Q2 2025: -7.4
+    Q3 2025: -0.24
+    Q4 2025: -0.18
+    Q1 2026: 0.03
+    Q2 2026: 0.0
+    Q3 2026: 0.06
+    Q4 2026: 0.13
+    Q1 2027: 0.2
+  annual_forecast:
+    2025 Yearly: -4.57
+    2026 Yearly: 0.32
+    2027 Yearly: 0.74
+    2028 Yearly: 1.09
+    2029 Yearly: 1.75

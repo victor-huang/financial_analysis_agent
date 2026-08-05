@@ -1,0 +1,74 @@
+currency: USD
+company_name: Inseego Corp.
+sector: Electronic Technology
+market_cap_billions: 0.12614
+revenue:
+  quarterly:
+    Q3 2024: 54.0
+    Q4 2024: 48.09
+    Q1 2025: 31.67
+    Q2 2025: 40.22
+    Q3 2025: 45.89
+    Q4 2025: 48.4
+    Q1 2026: 34.34
+  annual:
+    2021 Yearly: 262.4
+    2022 Yearly: 245.32
+    2023 Yearly: 195.69
+    2024 Yearly: 191.24
+    2025 Yearly: 166.19
+  quarterly_forecast:
+    Q3 2024: 56.3
+    Q4 2024: 45.56
+    Q1 2025: 32.06
+    Q2 2025: 38.53
+    Q3 2025: 41.86
+    Q4 2025: 46.89
+    Q1 2026: 34.53
+    Q2 2026: 39.9
+    Q3 2026: 53.7
+    Q4 2026: 60.62
+    Q1 2027: 50.5
+  annual_forecast:
+    2021 Yearly: 260.68
+    2022 Yearly: 252.96
+    2023 Yearly: 193.49
+    2024 Yearly: 198.76
+    2025 Yearly: 164.66
+    2026 Yearly: 188.58
+    2027 Yearly: 215.77
+eps:
+  quarterly:
+    Q3 2024: 0.17
+    Q4 2024: 0.09
+    Q1 2025: 0.01
+    Q2 2025: 0.08
+    Q3 2025: 0.12
+    Q4 2025: 0.12
+    Q1 2026: -0.06
+  annual:
+    2021 Yearly: -3.2
+    2022 Yearly: -4.1
+    2023 Yearly: -1.5
+    2024 Yearly: 0.83
+    2025 Yearly: 0.34
+  quarterly_forecast:
+    Q3 2024: 0.11
+    Q4 2024: 0.01
+    Q1 2025: -0.06
+    Q2 2025: 0.03
+    Q3 2025: 0.14
+    Q4 2025: 0.15
+    Q1 2026: -0.12
+    Q2 2026: -0.12
+    Q3 2026: 0.08
+    Q4 2026: 0.25
+    Q1 2027: 0.06
+  annual_forecast:
+    2021 Yearly: -2.93
+    2022 Yearly: -4.1
+    2023 Yearly: -1.7
+    2024 Yearly: 0.14
+    2025 Yearly: 0.38
+    2026 Yearly: 0.15
+    2027 Yearly: 0.64

@@ -1,0 +1,76 @@
+currency: USD
+company_name: Blue Owl Capital Corporation
+sector: Finance
+market_cap_billions: 5.56
+revenue:
+  quarterly:
+    Q3 2024: 406.03
+    Q4 2024: 394.39
+    Q1 2025: 464.65
+    Q2 2025: 485.84
+    Q3 2025: 453.06
+    Q4 2025: 447.75
+    Q1 2026: 396.77
+  annual:
+    2021 Yearly: 1020.0
+    2022 Yearly: 1200.0
+    2023 Yearly: 1580.0
+    2024 Yearly: 1600.0
+    2025 Yearly: 1850.0
+  quarterly_forecast:
+    Q3 2024: 405.41
+    Q4 2024: 395.73
+    Q1 2025: 470.59
+    Q2 2025: 482.69
+    Q3 2025: 466.94
+    Q4 2025: 446.76
+    Q1 2026: 422.02
+    Q2 2026: 394.23
+    Q3 2026: 393.3
+    Q4 2026: 395.39
+    Q1 2027: 399.14
+  annual_forecast:
+    2021 Yearly: 1010.0
+    2022 Yearly: 1190.0
+    2023 Yearly: 1570.0
+    2024 Yearly: 1600.0
+    2025 Yearly: 1850.0
+    2026 Yearly: 1580.0
+    2027 Yearly: 1590.0
+    2028 Yearly: 1550.0
+eps:
+  quarterly:
+    Q3 2024: 0.47
+    Q4 2024: 0.47
+    Q1 2025: 0.41
+    Q2 2025: 0.42
+    Q3 2025: 0.37
+    Q4 2025: 0.38
+    Q1 2026: 0.31
+  annual:
+    2021 Yearly: 1.25
+    2022 Yearly: 1.41
+    2023 Yearly: 1.93
+    2024 Yearly: 1.9
+    2025 Yearly: 1.58
+  quarterly_forecast:
+    Q3 2024: 0.48
+    Q4 2024: 0.45
+    Q1 2025: 0.43
+    Q2 2025: 0.4
+    Q3 2025: 0.4
+    Q4 2025: 0.35
+    Q1 2026: 0.35
+    Q2 2026: 0.32
+    Q3 2026: 0.32
+    Q4 2026: 0.32
+    Q1 2027: 0.32
+  annual_forecast:
+    2021 Yearly: 1.22
+    2022 Yearly: 1.4
+    2023 Yearly: 1.9
+    2024 Yearly: 1.88
+    2025 Yearly: 1.54
+    2026 Yearly: 1.27
+    2027 Yearly: 1.31
+    2028 Yearly: 1.26

@@ -1,7 +1,7 @@
 currency: USD
 company_name: Okeanis Eco Tankers Corp.
 sector: Transportation
-market_cap_billions: 2.35
+market_cap_billions: 2.27
 revenue:
   quarterly:
     Q3 2024: 84.9
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 90.6
     Q4 2025: 92.9
     Q1 2026: 132.2
+    Q2 2026: 268.14
   annual:
     2021 Yearly: 121.88
     2022 Yearly: 194.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 129.28
     Q4 2026: 127.81
     Q1 2027: 111.93
+    Q2 2027: 70.95
   annual_forecast:
     2021 Yearly: 124.71
     2022 Yearly: 195.11
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.77
     Q4 2025: 1.78
     Q1 2026: 2.33
+    Q2 2026: 5.91
   annual:
     2021 Yearly: -0.03
     2022 Yearly: 1.97
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 2.23
     Q4 2026: 2.18
     Q1 2027: 1.76
+    Q2 2027: 0.77
   annual_forecast:
     2021 Yearly: 0.19
     2022 Yearly: 2.11

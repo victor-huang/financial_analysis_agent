@@ -1,0 +1,70 @@
+currency: USD
+company_name: Stoneridge, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 0.21289
+revenue:
+  quarterly:
+    Q3 2024: 213.83
+    Q4 2024: 218.2
+    Q1 2025: 217.89
+    Q2 2025: 227.95
+    Q3 2025: 210.27
+    Q4 2025: 205.2
+    Q1 2026: 160.85
+  annual:
+    2021 Yearly: 770.46
+    2022 Yearly: 841.5
+    2023 Yearly: 961.2
+    2024 Yearly: 908.3
+    2025 Yearly: 861.26
+  quarterly_forecast:
+    Q3 2024: 229.6
+    Q4 2024: 207.6
+    Q1 2025: 212.3
+    Q2 2025: 219.85
+    Q3 2025: 203.0
+    Q4 2025: 204.0
+    Q1 2026: 139.0
+    Q2 2026: 161.85
+    Q3 2026: 164.01
+    Q4 2026: 174.38
+    Q1 2027: 164.06
+  annual_forecast:
+    2021 Yearly: 746.1
+    2022 Yearly: 844.05
+    2023 Yearly: 966.07
+    2024 Yearly: 897.64
+    2025 Yearly: 860.17
+    2026 Yearly: 661.08
+    2027 Yearly: 680.13
+eps:
+  quarterly:
+    Q3 2024: -0.24
+    Q4 2024: -0.18
+    Q1 2025: -0.19
+    Q2 2025: -0.25
+    Q3 2025: -0.18
+    Q4 2025: -0.53
+    Q1 2026: -0.75
+  annual:
+    2021 Yearly: -0.59
+    2022 Yearly: -0.52
+    2023 Yearly: -0.08
+    2024 Yearly: -0.47
+    2025 Yearly: -1.15
+  quarterly_forecast:
+    Q4 2024: 0.08
+    Q1 2025: -0.04
+    Q2 2025: -0.17
+    Q3 2025: -0.09
+    Q4 2025: 0.0
+    Q1 2026: 0.02
+    Q2 2026: 0.01
+    Q3 2026: 0.08
+    Q4 2026: 0.07
+  annual_forecast:
+    2022 Yearly: -0.6
+    2023 Yearly: -0.35
+    2024 Yearly: -0.1
+    2025 Yearly: -0.34
+    2026 Yearly: -0.42

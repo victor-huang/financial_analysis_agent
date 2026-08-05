@@ -1,7 +1,7 @@
 currency: USD
 company_name: UNITIL Corporation
 sector: Utilities
-market_cap_billions: 0.96269
+market_cap_billions: 0.96449
 revenue:
   quarterly:
     Q3 2024: 93.0
@@ -11,7 +11,7 @@ revenue:
     Q3 2025: 101.1
     Q4 2025: 161.5
     Q1 2026: 198.58
-    Q2 2026: 113.19
+    Q2 2026: 114.92
   annual:
     2021 Yearly: 473.3
     2022 Yearly: 563.1
@@ -37,8 +37,8 @@ revenue:
     2023 Yearly: 553.0
     2024 Yearly: 551.88
     2025 Yearly: 517.4
-    2026 Yearly: 592.21
-    2027 Yearly: 589.15
+    2026 Yearly: 592.29
+    2027 Yearly: 589.13
     2028 Yearly: 615.3
     2029 Yearly: 631.85
 eps:

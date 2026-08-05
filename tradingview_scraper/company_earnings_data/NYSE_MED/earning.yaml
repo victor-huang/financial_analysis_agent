@@ -1,7 +1,7 @@
 currency: USD
 company_name: MEDIFAST INC
 sector: Commercial Services
-market_cap_billions: 0.1083
+market_cap_billions: 0.14543999999999999
 revenue:
   quarterly:
     Q3 2024: 140.16
@@ -27,18 +27,18 @@ revenue:
     Q4 2025: 71.4
     Q1 2026: 69.2
     Q2 2026: 72.7
-    Q3 2026: 67.7
-    Q4 2026: 63.2
-    Q1 2027: 66.0
-    Q2 2027: 65.4
+    Q3 2026: 71.3
+    Q4 2026: 64.1
+    Q1 2027: 70.1
+    Q2 2027: 70.2
   annual_forecast:
     2021 Yearly: 1520.0
     2022 Yearly: 1590.0
     2023 Yearly: 1070.0
     2024 Yearly: 601.55
     2025 Yearly: 382.1
-    2026 Yearly: 279.7
-    2027 Yearly: 256.0
+    2026 Yearly: 287.7
+    2027 Yearly: 273.7
 eps:
   quarterly:
     Q3 2024: 0.35
@@ -48,7 +48,7 @@ eps:
     Q3 2025: -0.21
     Q4 2025: -0.55
     Q1 2026: -0.19
-    Q2 2026: -0.65
+    Q2 2026: -0.28
   annual:
     2021 Yearly: 13.89
     2022 Yearly: 14.5
@@ -64,15 +64,15 @@ eps:
     Q4 2025: -0.82
     Q1 2026: -0.52
     Q2 2026: -0.65
-    Q3 2026: -0.62
-    Q4 2026: -0.18
-    Q1 2027: -0.24
-    Q2 2027: -0.15
+    Q3 2026: -0.35
+    Q4 2026: -0.12
+    Q1 2027: -0.15
+    Q2 2027: -0.08
   annual_forecast:
     2021 Yearly: 13.63
     2022 Yearly: 13.05
     2023 Yearly: 9.52
     2024 Yearly: 1.78
     2025 Yearly: -1.12
-    2026 Yearly: -1.85
-    2027 Yearly: -0.6
+    2026 Yearly: -1.15
+    2027 Yearly: -0.28

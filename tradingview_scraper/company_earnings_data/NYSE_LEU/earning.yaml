@@ -1,0 +1,78 @@
+currency: USD
+company_name: Centrus Energy Corp.
+sector: Non-Energy Minerals
+market_cap_billions: 3.72
+revenue:
+  quarterly:
+    Q3 2024: 57.7
+    Q4 2024: 151.6
+    Q1 2025: 73.1
+    Q2 2025: 154.5
+    Q3 2025: 74.9
+    Q4 2025: 146.2
+    Q1 2026: 76.7
+  annual:
+    2021 Yearly: 298.3
+    2022 Yearly: 293.8
+    2023 Yearly: 320.2
+    2024 Yearly: 442.0
+    2025 Yearly: 448.7
+  quarterly_forecast:
+    Q3 2024: 56.07
+    Q4 2024: 106.67
+    Q1 2025: 68.12
+    Q2 2025: 130.61
+    Q3 2025: 80.42
+    Q4 2025: 146.76
+    Q1 2026: 78.37
+    Q2 2026: 149.85
+    Q3 2026: 73.65
+    Q4 2026: 158.52
+    Q1 2027: 75.11
+  annual_forecast:
+    2021 Yearly: 275.45
+    2022 Yearly: 257.55
+    2023 Yearly: 287.7
+    2024 Yearly: 397.07
+    2025 Yearly: 447.65
+    2026 Yearly: 458.73
+    2027 Yearly: 483.49
+    2028 Yearly: 421.19
+    2029 Yearly: 515.46
+eps:
+  quarterly:
+    Q3 2024: -0.3
+    Q4 2024: 3.2
+    Q1 2025: 1.6
+    Q2 2025: 1.59
+    Q3 2025: 0.19
+    Q4 2025: 0.79
+    Q1 2026: 0.45
+  annual:
+    2021 Yearly: 9.75
+    2022 Yearly: 3.38
+    2023 Yearly: 5.44
+    2024 Yearly: 4.47
+    2025 Yearly: 3.9
+  quarterly_forecast:
+    Q3 2024: 0.22
+    Q4 2024: 1.25
+    Q1 2025: -0.01
+    Q2 2025: 0.83
+    Q3 2025: 0.09
+    Q4 2025: 1.41
+    Q1 2026: 0.37
+    Q2 2026: 0.79
+    Q3 2026: 0.07
+    Q4 2026: 1.2
+    Q1 2027: 0.52
+  annual_forecast:
+    2021 Yearly: 4.25
+    2022 Yearly: 2.94
+    2023 Yearly: 2.58
+    2024 Yearly: 2.45
+    2025 Yearly: 4.48
+    2026 Yearly: 2.65
+    2027 Yearly: 2.73
+    2028 Yearly: 2.02
+    2029 Yearly: 1.82

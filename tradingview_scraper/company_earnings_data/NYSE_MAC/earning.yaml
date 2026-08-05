@@ -1,7 +1,7 @@
 currency: USD
 company_name: Macerich Company (The)
 sector: Finance
-market_cap_billions: 7.34
+market_cap_billions: 7.26
 revenue:
   quarterly:
     Q3 2024: 220.22
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 253.26
     Q4 2025: 261.7
     Q1 2026: 241.54
+    Q2 2026: 249.71
   annual:
     2021 Yearly: 847.44
     2022 Yearly: 859.16
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 249.83
     Q4 2026: 269.1
     Q1 2027: 229.97
+    Q2 2027: 246.5
   annual_forecast:
     2021 Yearly: 761.36
     2022 Yearly: 794.73
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -0.34
     Q4 2025: -0.07
     Q1 2026: -0.14
+    Q2 2026: -0.1
   annual:
     2021 Yearly: 0.07
     2022 Yearly: -0.31
@@ -66,6 +69,7 @@ eps:
     Q3 2026: -0.01
     Q4 2026: 0.08
     Q1 2027: -0.06
+    Q2 2027: 0.01
   annual_forecast:
     2021 Yearly: -0.03
     2022 Yearly: -0.27

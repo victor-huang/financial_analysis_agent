@@ -1,7 +1,7 @@
 currency: USD
 company_name: JBG SMITH Properties
 sector: Finance
-market_cap_billions: 0.82898
+market_cap_billions: 0.6979099999999999
 revenue:
   quarterly:
     Q3 2024: 136.03
@@ -25,18 +25,18 @@ revenue:
     Q3 2025: 120.57
     Q4 2025: 122.44
     Q1 2026: 116.17
-    Q2 2026: 125.88
-    Q3 2026: 126.66
-    Q4 2026: 130.8
-    Q1 2027: 108.99
+    Q2 2026: 118.75
+    Q3 2026: 119.37
+    Q4 2026: 121.48
+    Q1 2027: 112.19
   annual_forecast:
     2021 Yearly: 507.32
     2022 Yearly: 501.63
     2023 Yearly: 560.81
     2024 Yearly: 516.96
     2025 Yearly: 464.94
-    2026 Yearly: 478.57
-    2027 Yearly: 487.83
+    2026 Yearly: 478.59
+    2027 Yearly: 487.84
     2028 Yearly: 463.7
 eps:
   quarterly:

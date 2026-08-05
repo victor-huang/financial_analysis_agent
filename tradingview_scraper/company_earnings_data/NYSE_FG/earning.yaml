@@ -1,0 +1,70 @@
+currency: USD
+company_name: F&G Annuities & Life, Inc.
+sector: Finance
+market_cap_billions: 3.93
+revenue:
+  quarterly:
+    Q3 2024: 2390.0
+    Q4 2024: 2440.0
+    Q1 2025: 2180.0
+    Q2 2025: 2740.0
+    Q3 2025: 2800.0
+    Q4 2025: 2300.0
+    Q1 2026: 2250.0
+  annual:
+    2022 Yearly: 9000.0
+    2023 Yearly: 9240.0
+    2024 Yearly: 10570.0
+    2025 Yearly: 10030.0
+  quarterly_forecast:
+    Q3 2024: 1220.0
+    Q4 2024: 1340.0
+    Q1 2025: 1470.0
+    Q2 2025: 1180.0
+    Q3 2025: 1400.0
+    Q4 2025: 1550.0
+    Q1 2026: 1460.0
+    Q2 2026: 1490.0
+    Q3 2026: 1510.0
+    Q4 2026: 1540.0
+    Q1 2027: 1530.0
+  annual_forecast:
+    2023 Yearly: 3240.0
+    2024 Yearly: 4320.0
+    2025 Yearly: 5490.0
+    2026 Yearly: 5510.0
+    2027 Yearly: 6010.0
+eps:
+  quarterly:
+    Q3 2024: 1.22
+    Q4 2024: 1.12
+    Q1 2025: 0.72
+    Q2 2025: 0.77
+    Q3 2025: 1.22
+    Q4 2025: 0.91
+    Q1 2026: 0.82
+  annual:
+    2022 Yearly: 3.0
+    2023 Yearly: 2.68
+    2024 Yearly: 4.3
+    2025 Yearly: 3.64
+  quarterly_forecast:
+    Q3 2024: 1.09
+    Q4 2024: 1.17
+    Q1 2025: 1.02
+    Q2 2025: 0.62
+    Q3 2025: 0.98
+    Q4 2025: 1.2
+    Q1 2026: 0.9
+    Q2 2026: 0.78
+    Q3 2026: 0.95
+    Q4 2026: 1.01
+    Q1 2027: 1.22
+  annual_forecast:
+    2022 Yearly: 2.51
+    2023 Yearly: 3.13
+    2024 Yearly: 4.3
+    2025 Yearly: 3.91
+    2026 Yearly: 3.54
+    2027 Yearly: 5.09
+    2028 Yearly: 5.64

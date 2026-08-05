@@ -1,0 +1,76 @@
+currency: USD
+company_name: MKS Inc.
+sector: Producer Manufacturing
+market_cap_billions: 21.67
+revenue:
+  quarterly:
+    Q3 2024: 896.0
+    Q4 2024: 935.0
+    Q1 2025: 936.0
+    Q2 2025: 973.0
+    Q3 2025: 988.0
+    Q4 2025: 1030.0
+    Q1 2026: 1080.0
+  annual:
+    2021 Yearly: 2950.0
+    2022 Yearly: 3550.0
+    2023 Yearly: 3620.0
+    2024 Yearly: 3590.0
+    2025 Yearly: 3930.0
+  quarterly_forecast:
+    Q3 2024: 874.29
+    Q4 2024: 914.18
+    Q1 2025: 915.85
+    Q2 2025: 932.38
+    Q3 2025: 968.06
+    Q4 2025: 1020.0
+    Q1 2026: 1050.0
+    Q2 2026: 1200.0
+    Q3 2026: 1250.0
+    Q4 2026: 1290.0
+    Q1 2027: 1300.0
+  annual_forecast:
+    2021 Yearly: 2950.0
+    2022 Yearly: 3460.0
+    2023 Yearly: 3570.0
+    2024 Yearly: 3570.0
+    2025 Yearly: 3920.0
+    2026 Yearly: 4820.0
+    2027 Yearly: 5600.0
+    2028 Yearly: 6080.0
+eps:
+  quarterly:
+    Q3 2024: 1.72
+    Q4 2024: 2.15
+    Q1 2025: 1.71
+    Q2 2025: 1.77
+    Q3 2025: 1.93
+    Q4 2025: 2.47
+    Q1 2026: 2.3
+  annual:
+    2021 Yearly: 11.38
+    2022 Yearly: 9.97
+    2023 Yearly: 4.43
+    2024 Yearly: 6.58
+    2025 Yearly: 7.88
+  quarterly_forecast:
+    Q3 2024: 1.45
+    Q4 2024: 1.95
+    Q1 2025: 1.45
+    Q2 2025: 1.64
+    Q3 2025: 1.85
+    Q4 2025: 2.46
+    Q1 2026: 2.04
+    Q2 2026: 2.91
+    Q3 2026: 3.21
+    Q4 2026: 3.37
+    Q1 2027: 3.37
+  annual_forecast:
+    2021 Yearly: 11.18
+    2022 Yearly: 9.3
+    2023 Yearly: 4.1
+    2024 Yearly: 6.37
+    2025 Yearly: 7.87
+    2026 Yearly: 11.78
+    2027 Yearly: 15.45
+    2028 Yearly: 17.58

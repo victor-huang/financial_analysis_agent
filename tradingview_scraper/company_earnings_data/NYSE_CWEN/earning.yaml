@@ -1,0 +1,78 @@
+currency: USD
+company_name: Clearway Energy, Inc.
+sector: Utilities
+market_cap_billions: 6.51
+revenue:
+  quarterly:
+    Q3 2024: 486.0
+    Q4 2024: 256.0
+    Q1 2025: 298.0
+    Q2 2025: 392.0
+    Q3 2025: 429.0
+    Q4 2025: 310.0
+    Q1 2026: 354.0
+  annual:
+    2021 Yearly: 1290.0
+    2022 Yearly: 1190.0
+    2023 Yearly: 1310.0
+    2024 Yearly: 1370.0
+    2025 Yearly: 1430.0
+  quarterly_forecast:
+    Q3 2024: 417.55
+    Q4 2024: 299.65
+    Q1 2025: 306.03
+    Q2 2025: 422.72
+    Q3 2025: 419.67
+    Q4 2025: 333.55
+    Q1 2026: 340.75
+    Q2 2026: 473.92
+    Q3 2026: 511.37
+    Q4 2026: 377.11
+    Q1 2027: 378.7
+  annual_forecast:
+    2021 Yearly: 1310.0
+    2022 Yearly: 1270.0
+    2023 Yearly: 1330.0
+    2024 Yearly: 1420.0
+    2025 Yearly: 1440.0
+    2026 Yearly: 1680.0
+    2027 Yearly: 1880.0
+    2028 Yearly: 2110.0
+    2029 Yearly: 2380.0
+eps:
+  quarterly:
+    Q3 2024: 0.35
+    Q4 2024: 0.03
+    Q1 2025: 0.03
+    Q2 2025: 0.28
+    Q3 2025: 2.0
+    Q4 2025: -0.88
+    Q1 2026: -1.35
+  annual:
+    2021 Yearly: 0.44
+    2022 Yearly: 4.99
+    2023 Yearly: 0.67
+    2024 Yearly: 0.75
+    2025 Yearly: 1.43
+  quarterly_forecast:
+    Q3 2024: 0.53
+    Q4 2024: 0.03
+    Q1 2025: -0.25
+    Q2 2025: 0.64
+    Q3 2025: 0.36
+    Q4 2025: -0.25
+    Q1 2026: -0.44
+    Q2 2026: 0.26
+    Q3 2026: 0.39
+    Q4 2026: -0.48
+    Q1 2027: -0.4
+  annual_forecast:
+    2021 Yearly: -0.01
+    2022 Yearly: 1.42
+    2023 Yearly: 0.61
+    2024 Yearly: 0.61
+    2025 Yearly: 1.82
+    2026 Yearly: -1.17
+    2027 Yearly: 0.57
+    2028 Yearly: 0.93
+    2029 Yearly: 1.51

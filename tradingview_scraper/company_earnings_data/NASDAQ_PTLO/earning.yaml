@@ -1,0 +1,76 @@
+currency: USD
+company_name: Portillo's Inc.
+sector: Consumer Services
+market_cap_billions: 0.3434
+revenue:
+  quarterly:
+    Q3 2024: 178.25
+    Q4 2024: 184.61
+    Q1 2025: 176.44
+    Q2 2025: 188.46
+    Q3 2025: 181.43
+    Q4 2025: 185.75
+    Q1 2026: 182.62
+  annual:
+    2021 Yearly: 534.95
+    2022 Yearly: 587.1
+    2023 Yearly: 679.9
+    2024 Yearly: 710.55
+    2025 Yearly: 732.07
+  quarterly_forecast:
+    Q3 2024: 182.07
+    Q4 2024: 185.16
+    Q1 2025: 180.69
+    Q2 2025: 195.76
+    Q3 2025: 182.05
+    Q4 2025: 187.46
+    Q1 2026: 183.26
+    Q2 2026: 199.22
+    Q3 2026: 194.1
+    Q4 2026: 197.11
+    Q1 2027: 192.73
+  annual_forecast:
+    2021 Yearly: 535.48
+    2022 Yearly: 591.57
+    2023 Yearly: 676.43
+    2024 Yearly: 711.03
+    2025 Yearly: 731.84
+    2026 Yearly: 774.95
+    2027 Yearly: 807.77
+    2028 Yearly: 860.81
+eps:
+  quarterly:
+    Q3 2024: 0.11
+    Q4 2024: 0.17
+    Q1 2025: 0.05
+    Q2 2025: 0.12
+    Q3 2025: 0.02
+    Q4 2025: 0.08
+    Q1 2026: -0.01
+  annual:
+    2021 Yearly: -0.42
+    2022 Yearly: 0.25
+    2023 Yearly: 0.32
+    2024 Yearly: 0.46
+    2025 Yearly: 0.27
+  quarterly_forecast:
+    Q3 2024: 0.06
+    Q4 2024: 0.05
+    Q1 2025: 0.05
+    Q2 2025: 0.12
+    Q3 2025: 0.04
+    Q4 2025: 0.06
+    Q1 2026: 0.01
+    Q2 2026: 0.08
+    Q3 2026: 0.03
+    Q4 2026: 0.07
+    Q1 2027: 0.02
+  annual_forecast:
+    2021 Yearly: -0.24
+    2022 Yearly: 0.21
+    2023 Yearly: 0.25
+    2024 Yearly: 0.33
+    2025 Yearly: 0.25
+    2026 Yearly: 0.18
+    2027 Yearly: 0.24
+    2028 Yearly: 0.35

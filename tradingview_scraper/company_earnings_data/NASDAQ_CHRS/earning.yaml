@@ -1,0 +1,78 @@
+currency: USD
+company_name: Coherus Oncology, Inc.
+sector: Health Technology
+market_cap_billions: 0.22829
+revenue:
+  quarterly:
+    Q3 2024: 70.77
+    Q4 2024: 54.14
+    Q1 2025: 7.6
+    Q2 2025: 10.25
+    Q3 2025: 11.57
+    Q4 2025: 12.75
+    Q1 2026: 12.31
+  annual:
+    2021 Yearly: 326.55
+    2022 Yearly: 211.04
+    2023 Yearly: 257.24
+    2024 Yearly: 266.96
+    2025 Yearly: 42.17
+  quarterly_forecast:
+    Q3 2024: 58.98
+    Q4 2024: 44.15
+    Q1 2025: 54.67
+    Q2 2025: 9.35
+    Q3 2025: 13.36
+    Q4 2025: 13.91
+    Q1 2026: 14.22
+    Q2 2026: 14.41
+    Q3 2026: 16.69
+    Q4 2026: 18.55
+    Q1 2027: 22.36
+  annual_forecast:
+    2021 Yearly: 335.74
+    2022 Yearly: 213.31
+    2023 Yearly: 262.8
+    2024 Yearly: 256.37
+    2025 Yearly: 43.47
+    2026 Yearly: 61.62
+    2027 Yearly: 88.2
+    2028 Yearly: 184.49
+    2029 Yearly: 263.57
+eps:
+  quarterly:
+    Q3 2024: -0.09
+    Q4 2024: -0.44
+    Q1 2025: -0.41
+    Q2 2025: -0.39
+    Q3 2025: -0.31
+    Q4 2025: -0.39
+    Q1 2026: -0.27
+  annual:
+    2021 Yearly: -3.81
+    2022 Yearly: -3.76
+    2023 Yearly: -2.53
+    2024 Yearly: 0.25
+    2025 Yearly: -1.56
+  quarterly_forecast:
+    Q3 2024: -0.16
+    Q4 2024: -0.31
+    Q1 2025: -0.3
+    Q2 2025: -0.22
+    Q3 2025: -0.35
+    Q4 2025: -0.36
+    Q1 2026: -0.26
+    Q2 2026: -0.24
+    Q3 2026: -0.23
+    Q4 2026: -0.26
+    Q1 2027: -0.17
+  annual_forecast:
+    2021 Yearly: -3.62
+    2022 Yearly: -3.62
+    2023 Yearly: -1.94
+    2024 Yearly: 0.35
+    2025 Yearly: -1.54
+    2026 Yearly: -1.01
+    2027 Yearly: -0.64
+    2028 Yearly: -0.48
+    2029 Yearly: -0.14

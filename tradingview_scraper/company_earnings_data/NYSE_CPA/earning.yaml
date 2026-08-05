@@ -1,0 +1,78 @@
+currency: USD
+company_name: Copa Holdings, S.A.
+sector: Transportation
+market_cap_billions: 6.03
+revenue:
+  quarterly:
+    Q3 2024: 854.71
+    Q4 2024: 877.05
+    Q1 2025: 899.18
+    Q2 2025: 842.6
+    Q3 2025: 913.15
+    Q4 2025: 962.89
+    Q1 2026: 1050.0
+  annual:
+    2021 Yearly: 1510.0
+    2022 Yearly: 2970.0
+    2023 Yearly: 3460.0
+    2024 Yearly: 3440.0
+    2025 Yearly: 3620.0
+  quarterly_forecast:
+    Q3 2024: 864.9
+    Q4 2024: 879.34
+    Q1 2025: 888.61
+    Q2 2025: 844.57
+    Q3 2025: 915.8
+    Q4 2025: 959.06
+    Q1 2026: 1040.0
+    Q2 2026: 1080.0
+    Q3 2026: 1150.0
+    Q4 2026: 1150.0
+    Q1 2027: 1110.0
+  annual_forecast:
+    2021 Yearly: 1480.0
+    2022 Yearly: 2960.0
+    2023 Yearly: 3430.0
+    2024 Yearly: 3470.0
+    2025 Yearly: 3630.0
+    2026 Yearly: 4390.0
+    2027 Yearly: 4600.0
+    2028 Yearly: 5030.0
+    2029 Yearly: 5860.0
+eps:
+  quarterly:
+    Q3 2024: 3.5
+    Q4 2024: 3.99
+    Q1 2025: 4.28
+    Q2 2025: 3.61
+    Q3 2025: 4.2
+    Q4 2025: 4.18
+    Q1 2026: 5.16
+  annual:
+    2021 Yearly: 0.06
+    2022 Yearly: 8.26
+    2023 Yearly: 16.79
+    2024 Yearly: 14.56
+    2025 Yearly: 16.28
+  quarterly_forecast:
+    Q3 2024: 3.58
+    Q4 2024: 3.78
+    Q1 2025: 3.94
+    Q2 2025: 3.36
+    Q3 2025: 4.03
+    Q4 2025: 4.39
+    Q1 2026: 4.14
+    Q2 2026: 1.88
+    Q3 2026: 4.58
+    Q4 2026: 5.27
+    Q1 2027: 5.28
+  annual_forecast:
+    2021 Yearly: -0.61
+    2022 Yearly: 8.76
+    2023 Yearly: 14.91
+    2024 Yearly: 14.57
+    2025 Yearly: 16.55
+    2026 Yearly: 16.77
+    2027 Yearly: 19.8
+    2028 Yearly: 23.04
+    2029 Yearly: 24.5

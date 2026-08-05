@@ -1,0 +1,74 @@
+currency: USD
+company_name: Clearfield, Inc.
+sector: Electronic Technology
+market_cap_billions: 0.45851
+revenue:
+  quarterly:
+    Q4 2024: 46.77
+    Q1 2025: 35.48
+    Q2 2025: 47.17
+    Q3 2025: 49.9
+    Q4 2025: 41.1
+    Q1 2026: 34.34
+    Q2 2026: 34.39
+  annual:
+    2021 Yearly: 140.76
+    2022 Yearly: 270.88
+    2023 Yearly: 268.72
+    2024 Yearly: 166.71
+    2025 Yearly: 150.13
+  quarterly_forecast:
+    Q4 2024: 41.95
+    Q1 2025: 35.77
+    Q2 2025: 38.52
+    Q3 2025: 47.58
+    Q4 2025: 49.55
+    Q1 2026: 31.7
+    Q2 2026: 33.58
+    Q3 2026: 43.92
+    Q4 2026: 52.3
+    Q1 2027: 45.93
+    Q2 2027: 44.03
+  annual_forecast:
+    2021 Yearly: 133.76
+    2022 Yearly: 247.49
+    2023 Yearly: 267.77
+    2024 Yearly: 161.86
+    2025 Yearly: 182.09
+    2026 Yearly: 164.96
+    2027 Yearly: 200.05
+eps:
+  quarterly:
+    Q4 2024: -0.06
+    Q1 2025: -0.13
+    Q2 2025: 0.09
+    Q3 2025: 0.11
+    Q4 2025: -0.65
+    Q1 2026: -0.04
+    Q2 2026: -0.04
+  annual:
+    2021 Yearly: 1.47
+    2022 Yearly: 3.55
+    2023 Yearly: 2.17
+    2024 Yearly: -0.85
+    2025 Yearly: -0.58
+  quarterly_forecast:
+    Q4 2024: -0.19
+    Q1 2025: -0.31
+    Q2 2025: -0.19
+    Q3 2025: 0.05
+    Q4 2025: 0.08
+    Q1 2026: -0.06
+    Q2 2026: -0.05
+    Q3 2026: 0.19
+    Q4 2026: 0.39
+    Q1 2027: 0.23
+    Q2 2027: 0.16
+  annual_forecast:
+    2021 Yearly: 1.34
+    2022 Yearly: 3.21
+    2023 Yearly: 2.08
+    2024 Yearly: -0.98
+    2025 Yearly: 0.16
+    2026 Yearly: 0.53
+    2027 Yearly: 1.22

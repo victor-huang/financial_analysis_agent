@@ -1,7 +1,7 @@
 currency: USD
 company_name: Jazz Pharmaceuticals plc
 sector: Health Technology
-market_cap_billions: 15.8
+market_cap_billions: 16.98
 revenue:
   quarterly:
     Q3 2024: 1050.0
@@ -27,20 +27,20 @@ revenue:
     Q4 2025: 1170.0
     Q1 2026: 978.66
     Q2 2026: 1110.0
-    Q3 2026: 1180.0
-    Q4 2026: 1200.0
-    Q1 2027: 1110.0
-    Q2 2027: 1210.0
+    Q3 2026: 1210.0
+    Q4 2026: 1230.0
+    Q1 2027: 1120.0
+    Q2 2027: 1240.0
   annual_forecast:
     2021 Yearly: 3060.0
     2022 Yearly: 3660.0
     2023 Yearly: 3830.0
     2024 Yearly: 4040.0
     2025 Yearly: 4240.0
-    2026 Yearly: 4590.0
-    2027 Yearly: 4870.0
-    2028 Yearly: 5350.0
-    2029 Yearly: 5890.0
+    2026 Yearly: 4710.0
+    2027 Yearly: 4980.0
+    2028 Yearly: 5420.0
+    2029 Yearly: 5960.0
 eps:
   quarterly:
     Q3 2024: 6.61
@@ -67,16 +67,16 @@ eps:
     Q1 2026: 4.64
     Q2 2026: 6.18
     Q3 2026: 6.48
-    Q4 2026: 6.32
-    Q1 2027: 5.72
-    Q2 2027: 6.33
+    Q4 2026: 6.44
+    Q1 2027: 5.76
+    Q2 2027: 6.48
   annual_forecast:
     2021 Yearly: 15.67
     2022 Yearly: 13.56
     2023 Yearly: 18.5
     2024 Yearly: 20.31
     2025 Yearly: 8.23
-    2026 Yearly: 25.21
-    2027 Yearly: 25.78
-    2028 Yearly: 30.13
-    2029 Yearly: 33.84
+    2026 Yearly: 25.03
+    2027 Yearly: 25.92
+    2028 Yearly: 29.88
+    2029 Yearly: 33.92

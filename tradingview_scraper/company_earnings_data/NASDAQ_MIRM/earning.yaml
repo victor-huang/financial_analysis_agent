@@ -1,0 +1,78 @@
+currency: USD
+company_name: Mirum Pharmaceuticals, Inc.
+sector: Health Technology
+market_cap_billions: 6.36
+revenue:
+  quarterly:
+    Q3 2024: 90.38
+    Q4 2024: 99.41
+    Q1 2025: 111.58
+    Q2 2025: 127.78
+    Q3 2025: 133.01
+    Q4 2025: 148.93
+    Q1 2026: 159.9
+  annual:
+    2021 Yearly: 19.14
+    2022 Yearly: 77.06
+    2023 Yearly: 186.37
+    2024 Yearly: 336.89
+    2025 Yearly: 521.31
+  quarterly_forecast:
+    Q3 2024: 81.99
+    Q4 2024: 96.61
+    Q1 2025: 98.42
+    Q2 2025: 108.11
+    Q3 2025: 130.5
+    Q4 2025: 142.5
+    Q1 2026: 148.21
+    Q2 2026: 166.33
+    Q3 2026: 172.29
+    Q4 2026: 177.74
+    Q1 2027: 181.74
+  annual_forecast:
+    2021 Yearly: 78.42
+    2022 Yearly: 76.0
+    2023 Yearly: 184.64
+    2024 Yearly: 334.42
+    2025 Yearly: 515.52
+    2026 Yearly: 676.27
+    2027 Yearly: 816.36
+    2028 Yearly: 1060.0
+    2029 Yearly: 1370.0
+eps:
+  quarterly:
+    Q3 2024: -0.3
+    Q4 2024: -0.49
+    Q1 2025: -0.3
+    Q2 2025: -0.12
+    Q3 2025: 0.05
+    Q4 2025: -0.1
+    Q1 2026: -13.43
+  annual:
+    2021 Yearly: -2.77
+    2022 Yearly: -4.02
+    2023 Yearly: -3.94
+    2024 Yearly: -1.85
+    2025 Yearly: -0.47
+  quarterly_forecast:
+    Q3 2024: -0.45
+    Q4 2024: -0.26
+    Q1 2025: -0.33
+    Q2 2025: -0.33
+    Q3 2025: -0.14
+    Q4 2025: 0.06
+    Q1 2026: -0.37
+    Q2 2026: -0.74
+    Q3 2026: -0.7
+    Q4 2026: -0.69
+    Q1 2027: -0.42
+  annual_forecast:
+    2021 Yearly: -4.48
+    2022 Yearly: -4.03
+    2023 Yearly: -3.37
+    2024 Yearly: -1.61
+    2025 Yearly: -0.25
+    2026 Yearly: -15.61
+    2027 Yearly: -0.61
+    2028 Yearly: 2.38
+    2029 Yearly: 5.54

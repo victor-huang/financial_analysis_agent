@@ -1,7 +1,7 @@
 currency: USD
 company_name: Angi Inc.
 sector: Technology Services
-market_cap_billions: 0.23986000000000002
+market_cap_billions: 0.25118
 revenue:
   quarterly:
     Q3 2024: 296.72
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 265.63
     Q4 2025: 240.77
     Q1 2026: 238.15
+    Q2 2026: 248.0
   annual:
     2021 Yearly: 1690.0
     2022 Yearly: 1890.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 249.16
     Q4 2026: 229.71
     Q1 2027: 231.61
+    Q2 2027: 257.62
   annual_forecast:
     2021 Yearly: 1680.0
     2022 Yearly: 1890.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.23
     Q4 2025: 0.17
     Q1 2026: -0.22
+    Q2 2026: -5.7
   annual:
     2021 Yearly: -1.4
     2022 Yearly: -2.6
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.17
     Q4 2026: 0.12
     Q1 2027: 0.04
+    Q2 2027: 0.3
   annual_forecast:
     2021 Yearly: -1.57
     2022 Yearly: -1.9

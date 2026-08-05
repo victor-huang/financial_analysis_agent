@@ -1,0 +1,76 @@
+currency: USD
+company_name: Granite Point Mortgage Trust Inc.
+sector: Finance
+market_cap_billions: 0.06996
+revenue:
+  quarterly:
+    Q3 2024: 7.66
+    Q4 2024: 7.57
+    Q1 2025: 8.04
+    Q2 2025: 8.04
+    Q3 2025: 10.3
+    Q4 2025: 7.47
+    Q1 2026: 8.02
+  annual:
+    2021 Yearly: 92.71
+    2022 Yearly: 84.72
+    2023 Yearly: 82.0
+    2024 Yearly: 35.88
+    2025 Yearly: 33.85
+  quarterly_forecast:
+    Q3 2024: 10.6
+    Q4 2024: 9.45
+    Q1 2025: 8.73
+    Q2 2025: 8.92
+    Q3 2025: 9.75
+    Q4 2025: 10.22
+    Q1 2026: 7.4
+    Q2 2026: 7.85
+    Q3 2026: 7.75
+    Q4 2026: 7.99
+    Q1 2027: 8.19
+  annual_forecast:
+    2021 Yearly: 95.89
+    2022 Yearly: 84.23
+    2023 Yearly: 84.22
+    2024 Yearly: 37.75
+    2025 Yearly: 36.77
+    2026 Yearly: 31.34
+    2027 Yearly: 35.65
+    2028 Yearly: 45.14
+eps:
+  quarterly:
+    Q3 2024: -0.75
+    Q4 2024: -1.98
+    Q1 2025: -0.57
+    Q2 2025: -0.94
+    Q3 2025: -0.4
+    Q4 2025: -0.06
+    Q1 2026: -0.06
+  annual:
+    2021 Yearly: 0.99
+    2022 Yearly: 0.28
+    2023 Yearly: -0.33
+    2024 Yearly: -2.85
+    2025 Yearly: -1.98
+  quarterly_forecast:
+    Q3 2024: -0.82
+    Q4 2024: -1.31
+    Q1 2025: -0.73
+    Q2 2025: -0.79
+    Q3 2025: -0.44
+    Q4 2025: -0.15
+    Q1 2026: -0.17
+    Q2 2026: -0.39
+    Q3 2026: -0.33
+    Q4 2026: -0.32
+    Q1 2027: -0.15
+  annual_forecast:
+    2021 Yearly: 0.99
+    2022 Yearly: 0.39
+    2023 Yearly: 0.14
+    2024 Yearly: -2.2
+    2025 Yearly: -2.06
+    2026 Yearly: -1.11
+    2027 Yearly: -0.48
+    2028 Yearly: 0.1

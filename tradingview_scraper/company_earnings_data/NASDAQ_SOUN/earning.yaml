@@ -1,0 +1,71 @@
+currency: USD
+company_name: SoundHound AI, Inc.
+sector: Technology Services
+market_cap_billions: 2.84
+revenue:
+  quarterly:
+    Q3 2024: 25.09
+    Q4 2024: 34.54
+    Q1 2025: 29.13
+    Q2 2025: 42.68
+    Q3 2025: 42.05
+    Q4 2025: 55.06
+    Q1 2026: 44.2
+  annual:
+    2021 Yearly: 21.2
+    2022 Yearly: 31.13
+    2023 Yearly: 45.87
+    2024 Yearly: 84.69
+    2025 Yearly: 168.92
+  quarterly_forecast:
+    Q3 2024: 23.02
+    Q4 2024: 33.7
+    Q1 2025: 30.38
+    Q2 2025: 32.88
+    Q3 2025: 40.49
+    Q4 2025: 53.98
+    Q1 2026: 42.56
+    Q2 2026: 52.38
+    Q3 2026: 62.78
+    Q4 2026: 72.88
+    Q1 2027: 62.93
+  annual_forecast:
+    2022 Yearly: 30.45
+    2023 Yearly: 46.48
+    2024 Yearly: 83.84
+    2025 Yearly: 167.79
+    2026 Yearly: 232.75
+    2027 Yearly: 314.24
+    2028 Yearly: 266.9
+eps:
+  quarterly:
+    Q3 2024: -0.06
+    Q4 2024: -0.69
+    Q1 2025: 0.31
+    Q2 2025: -0.19
+    Q3 2025: -0.27
+    Q4 2025: 0.1
+    Q1 2026: -0.06
+  annual:
+    2022 Yearly: -0.73
+    2023 Yearly: -0.4
+    2024 Yearly: -1.04
+    2025 Yearly: -0.03
+  quarterly_forecast:
+    Q3 2024: -0.07
+    Q4 2024: -0.1
+    Q1 2025: -0.09
+    Q2 2025: -0.09
+    Q3 2025: -0.09
+    Q4 2025: -0.1
+    Q1 2026: -0.1
+    Q2 2026: -0.13
+    Q3 2026: -0.13
+    Q4 2026: -0.12
+    Q1 2027: -0.13
+  annual_forecast:
+    2023 Yearly: -1.39
+    2024 Yearly: -0.37
+    2025 Yearly: -0.38
+    2026 Yearly: -0.23
+    2027 Yearly: -0.44

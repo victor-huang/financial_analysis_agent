@@ -1,7 +1,7 @@
 currency: USD
 company_name: Vertex, Inc.
 sector: Technology Services
-market_cap_billions: 2.17
+market_cap_billions: 2.0
 revenue:
   quarterly:
     Q3 2024: 170.44
@@ -27,18 +27,18 @@ revenue:
     Q4 2025: 194.32
     Q1 2026: 194.82
     Q2 2026: 202.21
-    Q3 2026: 211.29
-    Q4 2026: 216.84
-    Q1 2027: 218.61
-    Q2 2027: 225.08
+    Q3 2026: 209.78
+    Q4 2026: 217.04
+    Q1 2027: 217.65
+    Q2 2027: 224.95
   annual_forecast:
     2021 Yearly: 423.07
     2022 Yearly: 486.39
     2023 Yearly: 563.92
     2024 Yearly: 665.18
     2025 Yearly: 748.1
-    2026 Yearly: 827.16
-    2027 Yearly: 919.01
+    2026 Yearly: 827.14
+    2027 Yearly: 914.06
     2028 Yearly: 1020.0
 eps:
   quarterly:
@@ -75,6 +75,6 @@ eps:
     2023 Yearly: 0.38
     2024 Yearly: 0.61
     2025 Yearly: 0.64
-    2026 Yearly: 0.8
-    2027 Yearly: 1.04
-    2028 Yearly: 1.24
+    2026 Yearly: 0.82
+    2027 Yearly: 1.02
+    2028 Yearly: 1.23

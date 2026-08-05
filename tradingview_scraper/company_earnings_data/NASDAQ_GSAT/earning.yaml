@@ -1,0 +1,78 @@
+currency: USD
+company_name: Globalstar, Inc.
+sector: Communications
+market_cap_billions: 10.78
+revenue:
+  quarterly:
+    Q3 2024: 72.31
+    Q4 2024: 61.18
+    Q1 2025: 60.03
+    Q2 2025: 67.15
+    Q3 2025: 73.84
+    Q4 2025: 71.96
+    Q1 2026: 70.06
+  annual:
+    2021 Yearly: 124.3
+    2022 Yearly: 148.5
+    2023 Yearly: 223.81
+    2024 Yearly: 250.35
+    2025 Yearly: 272.99
+  quarterly_forecast:
+    Q3 2024: 60.34
+    Q4 2024: 60.24
+    Q1 2025: 63.83
+    Q2 2025: 63.13
+    Q3 2025: 68.92
+    Q4 2025: 71.23
+    Q1 2026: 70.92
+    Q2 2026: 71.98
+    Q3 2026: 74.42
+    Q4 2026: 75.48
+    Q1 2027: 78.0
+  annual_forecast:
+    2021 Yearly: 119.2
+    2022 Yearly: 145.82
+    2023 Yearly: 225.43
+    2024 Yearly: 248.9
+    2025 Yearly: 272.25
+    2026 Yearly: 292.41
+    2027 Yearly: 340.46
+    2028 Yearly: 515.0
+    2029 Yearly: 693.2
+eps:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: -0.42
+    Q1 2025: -0.13
+    Q2 2025: 0.03
+    Q3 2025: 0.0
+    Q4 2025: -0.11
+    Q1 2026: -0.11
+  annual:
+    2021 Yearly: -0.81
+    2022 Yearly: -1.98
+    2023 Yearly: -0.05
+    2024 Yearly: -0.59
+    2025 Yearly: -0.21
+  quarterly_forecast:
+    Q3 2024: -0.02
+    Q4 2024: 0.0
+    Q1 2025: -0.03
+    Q2 2025: -0.05
+    Q3 2025: -0.01
+    Q4 2025: -0.02
+    Q1 2026: -0.05
+    Q2 2026: -0.09
+    Q3 2026: -0.08
+    Q4 2026: -0.09
+    Q1 2027: -0.01
+  annual_forecast:
+    2021 Yearly: -0.95
+    2022 Yearly: -5.85
+    2023 Yearly: -0.09
+    2024 Yearly: -0.19
+    2025 Yearly: 0.04
+    2026 Yearly: -0.4
+    2027 Yearly: -0.11
+    2028 Yearly: 0.31
+    2029 Yearly: 0.84

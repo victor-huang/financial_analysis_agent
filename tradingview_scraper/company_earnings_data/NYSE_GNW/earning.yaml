@@ -1,0 +1,59 @@
+currency: USD
+company_name: Genworth Financial Inc
+sector: Finance
+market_cap_billions: 3.76
+revenue:
+  quarterly:
+    Q3 2024: 1880.0
+    Q4 2024: 1780.0
+    Q1 2025: 1790.0
+    Q2 2025: 1800.0
+    Q3 2025: 1940.0
+    Q4 2025: 1780.0
+    Q1 2026: 1780.0
+  annual:
+    2021 Yearly: 7830.0
+    2022 Yearly: 7510.0
+    2023 Yearly: 7490.0
+    2024 Yearly: 7290.0
+    2025 Yearly: 7300.0
+  quarterly_forecast: {}
+  annual_forecast:
+    2023 Yearly: 8000.0
+    2024 Yearly: 7680.0
+    2025 Yearly: 7670.0
+eps:
+  quarterly:
+    Q3 2024: 0.11
+    Q4 2024: 0.04
+    Q1 2025: 0.12
+    Q2 2025: 0.16
+    Q3 2025: 0.04
+    Q4 2025: 0.02
+    Q1 2026: 0.19
+  annual:
+    2021 Yearly: 1.48
+    2022 Yearly: 1.24
+    2023 Yearly: 0.09
+    2024 Yearly: 0.62
+    2025 Yearly: 0.35
+  quarterly_forecast:
+    Q3 2024: 0.19
+    Q4 2024: 0.17
+    Q1 2025: 0.21
+    Q2 2025: 0.1
+    Q3 2025: 0.1
+    Q4 2025: 0.16
+    Q1 2026: 0.17
+    Q2 2026: 0.28
+    Q3 2026: 0.28
+    Q4 2026: 0.26
+    Q1 2027: 0.27
+  annual_forecast:
+    2021 Yearly: 1.45
+    2022 Yearly: 1.1
+    2023 Yearly: 0.75
+    2024 Yearly: 0.82
+    2025 Yearly: 0.62
+    2026 Yearly: 1.09
+    2027 Yearly: 1.13

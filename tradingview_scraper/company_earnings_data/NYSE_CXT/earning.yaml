@@ -1,0 +1,76 @@
+currency: USD
+company_name: Crane NXT, Co.
+sector: Producer Manufacturing
+market_cap_billions: 3.15
+revenue:
+  quarterly:
+    Q3 2024: 403.5
+    Q4 2024: 399.1
+    Q1 2025: 330.3
+    Q2 2025: 404.4
+    Q3 2025: 445.1
+    Q4 2025: 476.9
+    Q1 2026: 387.7
+  annual:
+    2021 Yearly: 3180.0
+    2022 Yearly: 3370.0
+    2023 Yearly: 1390.0
+    2024 Yearly: 1490.0
+    2025 Yearly: 1660.0
+  quarterly_forecast:
+    Q3 2024: 392.44
+    Q4 2024: 405.46
+    Q1 2025: 318.46
+    Q2 2025: 383.16
+    Q3 2025: 433.9
+    Q4 2025: 450.64
+    Q1 2026: 378.63
+    Q2 2026: 475.62
+    Q3 2026: 506.06
+    Q4 2026: 520.31
+    Q1 2027: 428.39
+  annual_forecast:
+    2021 Yearly: 3140.0
+    2022 Yearly: 3420.0
+    2023 Yearly: 1380.0
+    2024 Yearly: 1490.0
+    2025 Yearly: 1630.0
+    2026 Yearly: 1880.0
+    2027 Yearly: 2029.9999999999998
+    2028 Yearly: 2120.0
+eps:
+  quarterly:
+    Q3 2024: 1.16
+    Q4 2024: 1.2
+    Q1 2025: 0.54
+    Q2 2025: 0.97
+    Q3 2025: 1.28
+    Q4 2025: 1.27
+    Q1 2026: 0.6
+  annual:
+    2021 Yearly: 2.27
+    2022 Yearly: 2.74
+    2023 Yearly: 4.16
+    2024 Yearly: 4.26
+    2025 Yearly: 4.06
+  quarterly_forecast:
+    Q3 2024: 1.14
+    Q4 2024: 1.2
+    Q1 2025: 0.51
+    Q2 2025: 0.95
+    Q3 2025: 1.26
+    Q4 2025: 1.26
+    Q1 2026: 0.57
+    Q2 2026: 1.04
+    Q3 2026: 1.24
+    Q4 2026: 1.36
+    Q1 2027: 0.82
+  annual_forecast:
+    2021 Yearly: 2.23
+    2022 Yearly: 2.66
+    2023 Yearly: 4.11
+    2024 Yearly: 4.27
+    2025 Yearly: 4.05
+    2026 Yearly: 4.23
+    2027 Yearly: 4.73
+    2028 Yearly: 5.0

@@ -1,0 +1,78 @@
+currency: USD
+company_name: MetLife, Inc.
+sector: Finance
+market_cap_billions: 61.85
+revenue:
+  quarterly:
+    Q3 2024: 18440.0
+    Q4 2024: 18670.0
+    Q1 2025: 18570.0
+    Q2 2025: 17340.0
+    Q3 2025: 17360.0
+    Q4 2025: 23810.0
+    Q1 2026: 19680.0
+  annual:
+    2021 Yearly: 71080.0
+    2022 Yearly: 69900.0
+    2023 Yearly: 66910.0
+    2024 Yearly: 70990.0
+    2025 Yearly: 77080.0
+  quarterly_forecast:
+    Q3 2024: 18660.0
+    Q4 2024: 19500.0
+    Q1 2025: 18370.0
+    Q2 2025: 18530.0
+    Q3 2025: 18800.0
+    Q4 2025: 27220.0
+    Q1 2026: 19490.0
+    Q2 2026: 19670.0
+    Q3 2026: 20100.0
+    Q4 2026: 20680.0
+    Q1 2027: 20600.0
+  annual_forecast:
+    2021 Yearly: 67680.0
+    2022 Yearly: 77300.0
+    2023 Yearly: 71420.0
+    2024 Yearly: 72810.0
+    2025 Yearly: 83070.0
+    2026 Yearly: 80260.0
+    2027 Yearly: 84140.0
+    2028 Yearly: 88320.0
+    2029 Yearly: 92880.0
+eps:
+  quarterly:
+    Q3 2024: 1.95
+    Q4 2024: 2.09
+    Q1 2025: 1.96
+    Q2 2025: 2.02
+    Q3 2025: 2.34
+    Q4 2025: 2.49
+    Q1 2026: 2.42
+  annual:
+    2021 Yearly: 9.15
+    2022 Yearly: 6.85
+    2023 Yearly: 7.25
+    2024 Yearly: 8.15
+    2025 Yearly: 8.83
+  quarterly_forecast:
+    Q3 2024: 2.17
+    Q4 2024: 2.11
+    Q1 2025: 2.0
+    Q2 2025: 2.15
+    Q3 2025: 2.32
+    Q4 2025: 2.34
+    Q1 2026: 2.27
+    Q2 2026: 2.3
+    Q3 2026: 2.53
+    Q4 2026: 2.59
+    Q1 2027: 2.49
+  annual_forecast:
+    2021 Yearly: 8.47
+    2022 Yearly: 6.95
+    2023 Yearly: 7.31
+    2024 Yearly: 8.2
+    2025 Yearly: 8.69
+    2026 Yearly: 9.85
+    2027 Yearly: 10.97
+    2028 Yearly: 12.27
+    2029 Yearly: 13.0

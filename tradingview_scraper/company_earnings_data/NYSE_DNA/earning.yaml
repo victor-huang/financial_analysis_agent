@@ -1,0 +1,78 @@
+currency: USD
+company_name: Ginkgo Bioworks Holdings, Inc.
+sector: Health Services
+market_cap_billions: 0.61209
+revenue:
+  quarterly:
+    Q3 2024: 89.05
+    Q4 2024: 43.85
+    Q1 2025: 48.32
+    Q2 2025: 49.6
+    Q3 2025: 38.84
+    Q4 2025: 33.0
+    Q1 2026: 19.47
+  annual:
+    2021 Yearly: 313.84
+    2022 Yearly: 477.71
+    2023 Yearly: 251.46
+    2024 Yearly: 227.04
+    2025 Yearly: 170.16
+  quarterly_forecast:
+    Q3 2024: 44.99
+    Q4 2024: 44.47
+    Q1 2025: 38.8
+    Q2 2025: 41.6
+    Q3 2025: 38.95
+    Q4 2025: 37.09
+    Q1 2026: 42.93
+    Q2 2026: 24.05
+    Q3 2026: 27.1
+    Q4 2026: 30.15
+    Q1 2027: 26.7
+  annual_forecast:
+    2021 Yearly: 251.52
+    2022 Yearly: 471.16
+    2023 Yearly: 258.72
+    2024 Yearly: 227.75
+    2025 Yearly: 173.86
+    2026 Yearly: 100.55
+    2027 Yearly: 111.35
+    2028 Yearly: 296.4
+    2029 Yearly: 369.1
+eps:
+  quarterly:
+    Q3 2024: -1.08
+    Q4 2024: -2.0
+    Q1 2025: -1.68
+    Q2 2025: -1.1
+    Q3 2025: -1.45
+    Q4 2025: -1.41
+    Q1 2026: -1.39
+  annual:
+    2021 Yearly: -55.6
+    2022 Yearly: -50.0
+    2023 Yearly: -18.4
+    2024 Yearly: -10.54
+    2025 Yearly: -5.64
+  quarterly_forecast:
+    Q3 2024: -2.73
+    Q4 2024: -1.5
+    Q1 2025: -1.53
+    Q2 2025: -1.57
+    Q3 2025: -1.24
+    Q4 2025: -1.46
+    Q1 2026: -1.21
+    Q2 2026: -0.9
+    Q3 2026: -1.16
+    Q4 2026: -1.26
+    Q1 2027: -1.41
+  annual_forecast:
+    2021 Yearly: -7.9
+    2022 Yearly: -55.63
+    2023 Yearly: -17.6
+    2024 Yearly: -10.08
+    2025 Yearly: -5.64
+    2026 Yearly: -3.77
+    2027 Yearly: -3.19
+    2028 Yearly: -3.18
+    2029 Yearly: -2.24

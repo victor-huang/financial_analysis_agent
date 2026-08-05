@@ -1,0 +1,76 @@
+currency: USD
+company_name: Digi International Inc.
+sector: Electronic Technology
+market_cap_billions: 2.72
+revenue:
+  quarterly:
+    Q4 2024: 105.05
+    Q1 2025: 103.87
+    Q2 2025: 104.5
+    Q3 2025: 107.51
+    Q4 2025: 114.34
+    Q1 2026: 122.46
+    Q2 2026: 130.74
+  annual:
+    2021 Yearly: 308.63
+    2022 Yearly: 388.23
+    2023 Yearly: 444.85
+    2024 Yearly: 424.05
+    2025 Yearly: 430.22
+  quarterly_forecast:
+    Q4 2024: 104.16
+    Q1 2025: 104.08
+    Q2 2025: 104.08
+    Q3 2025: 106.23
+    Q4 2025: 110.75
+    Q1 2026: 115.63
+    Q2 2026: 125.03
+    Q3 2026: 132.57
+    Q4 2026: 135.88
+    Q1 2027: 134.7
+    Q2 2027: 138.13
+  annual_forecast:
+    2021 Yearly: 305.61
+    2022 Yearly: 382.98
+    2023 Yearly: 442.96
+    2024 Yearly: 423.06
+    2025 Yearly: 426.44
+    2026 Yearly: 521.61
+    2027 Yearly: 562.49
+    2028 Yearly: 562.4
+eps:
+  quarterly:
+    Q4 2024: 0.52
+    Q1 2025: 0.5
+    Q2 2025: 0.51
+    Q3 2025: 0.53
+    Q4 2025: 0.56
+    Q1 2026: 0.56
+    Q2 2026: 0.62
+  annual:
+    2021 Yearly: 0.31
+    2022 Yearly: 1.66
+    2023 Yearly: 1.99
+    2024 Yearly: 1.99
+    2025 Yearly: 2.1
+  quarterly_forecast:
+    Q4 2024: 0.47
+    Q1 2025: 0.48
+    Q2 2025: 0.47
+    Q3 2025: 0.49
+    Q4 2025: 0.51
+    Q1 2026: 0.55
+    Q2 2026: 0.58
+    Q3 2026: 0.66
+    Q4 2026: 0.62
+    Q1 2027: 0.62
+    Q2 2027: 0.66
+  annual_forecast:
+    2021 Yearly: 0.26
+    2022 Yearly: 1.62
+    2023 Yearly: 1.96
+    2024 Yearly: 1.88
+    2025 Yearly: 2.05
+    2026 Yearly: 2.45
+    2027 Yearly: 2.77
+    2028 Yearly: 2.78

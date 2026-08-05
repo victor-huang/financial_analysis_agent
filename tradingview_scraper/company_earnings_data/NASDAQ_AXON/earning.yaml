@@ -1,0 +1,76 @@
+currency: USD
+company_name: Axon Enterprise, Inc.
+sector: Electronic Technology
+market_cap_billions: 48.94
+revenue:
+  quarterly:
+    Q3 2024: 544.27
+    Q4 2024: 575.14
+    Q1 2025: 603.63
+    Q2 2025: 668.54
+    Q3 2025: 710.64
+    Q4 2025: 796.72
+    Q1 2026: 807.35
+  annual:
+    2021 Yearly: 863.38
+    2022 Yearly: 1190.0
+    2023 Yearly: 1560.0
+    2024 Yearly: 2080.0
+    2025 Yearly: 2780.0
+  quarterly_forecast:
+    Q3 2024: 525.34
+    Q4 2024: 566.01
+    Q1 2025: 586.39
+    Q2 2025: 641.02
+    Q3 2025: 704.84
+    Q4 2025: 755.56
+    Q1 2026: 780.66
+    Q2 2026: 876.42
+    Q3 2026: 937.54
+    Q4 2026: 1040.0
+    Q1 2027: 1040.0
+  annual_forecast:
+    2021 Yearly: 848.83
+    2022 Yearly: 1160.0
+    2023 Yearly: 1550.0
+    2024 Yearly: 2070.0
+    2025 Yearly: 2740.0
+    2026 Yearly: 3660.0
+    2027 Yearly: 4730.0
+    2028 Yearly: 6070.0
+eps:
+  quarterly:
+    Q3 2024: 1.45
+    Q4 2024: 2.08
+    Q1 2025: 1.41
+    Q2 2025: 2.12
+    Q3 2025: 1.17
+    Q4 2025: 2.15
+    Q1 2026: 1.61
+  annual:
+    2021 Yearly: 2.35
+    2022 Yearly: 2.19
+    2023 Yearly: 4.14
+    2024 Yearly: 5.94
+    2025 Yearly: 6.85
+  quarterly_forecast:
+    Q3 2024: 1.2
+    Q4 2024: 1.4
+    Q1 2025: 1.27
+    Q2 2025: 1.45
+    Q3 2025: 1.52
+    Q4 2025: 1.6
+    Q1 2026: 1.6
+    Q2 2026: 1.84
+    Q3 2026: 2.03
+    Q4 2026: 2.28
+    Q1 2027: 2.23
+  annual_forecast:
+    2021 Yearly: 2.05
+    2022 Yearly: 2.0
+    2023 Yearly: 3.86
+    2024 Yearly: 5.14
+    2025 Yearly: 6.31
+    2026 Yearly: 7.73
+    2027 Yearly: 10.58
+    2028 Yearly: 13.78

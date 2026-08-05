@@ -1,0 +1,78 @@
+currency: USD
+company_name: W&T Offshore, Inc.
+sector: Energy Minerals
+market_cap_billions: 0.5088199999999999
+revenue:
+  quarterly:
+    Q3 2024: 121.37
+    Q4 2024: 120.34
+    Q1 2025: 129.87
+    Q2 2025: 122.37
+    Q3 2025: 127.52
+    Q4 2025: 121.71
+    Q1 2026: 150.02
+  annual:
+    2021 Yearly: 558.01
+    2022 Yearly: 921.0
+    2023 Yearly: 532.66
+    2024 Yearly: 525.26
+    2025 Yearly: 501.46
+  quarterly_forecast:
+    Q3 2024: 122.55
+    Q4 2024: 126.0
+    Q1 2025: 124.45
+    Q2 2025: 133.86
+    Q3 2025: 128.26
+    Q4 2025: 124.2
+    Q1 2026: 138.41
+    Q2 2026: 157.46
+    Q3 2026: 138.92
+    Q4 2026: 136.68
+    Q1 2027: 138.95
+  annual_forecast:
+    2021 Yearly: 537.15
+    2022 Yearly: 913.53
+    2023 Yearly: 536.23
+    2024 Yearly: 526.8
+    2025 Yearly: 507.43
+    2026 Yearly: 582.32
+    2027 Yearly: 546.4
+    2028 Yearly: 566.33
+    2029 Yearly: 535.0
+eps:
+  quarterly:
+    Q3 2024: -0.17
+    Q4 2024: -0.18
+    Q1 2025: -0.13
+    Q2 2025: -0.08
+    Q3 2025: -0.05
+    Q4 2025: -0.14
+    Q1 2026: 0.0
+  annual:
+    2021 Yearly: 0.23
+    2022 Yearly: 1.96
+    2023 Yearly: -0.15
+    2024 Yearly: -0.46
+    2025 Yearly: -0.37
+  quarterly_forecast:
+    Q3 2024: -0.23
+    Q4 2024: -0.2
+    Q1 2025: -0.15
+    Q2 2025: -0.17
+    Q3 2025: -0.09
+    Q4 2025: -0.12
+    Q1 2026: -0.05
+    Q2 2026: 0.04
+    Q3 2026: -0.04
+    Q4 2026: -0.04
+    Q1 2027: -0.04
+  annual_forecast:
+    2021 Yearly: -0.17
+    2022 Yearly: 1.6
+    2023 Yearly: -0.05
+    2024 Yearly: -0.56
+    2025 Yearly: -0.49
+    2026 Yearly: -0.04
+    2027 Yearly: -0.15
+    2028 Yearly: 0.02
+    2029 Yearly: -0.02

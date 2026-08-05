@@ -1,0 +1,78 @@
+currency: USD
+company_name: Verra Mobility Corporation
+sector: Transportation
+market_cap_billions: 0.84764
+revenue:
+  quarterly:
+    Q3 2024: 225.55
+    Q4 2024: 221.5
+    Q1 2025: 223.25
+    Q2 2025: 236.03
+    Q3 2025: 261.94
+    Q4 2025: 257.86
+    Q1 2026: 223.57
+  annual:
+    2021 Yearly: 550.59
+    2022 Yearly: 741.6
+    2023 Yearly: 817.31
+    2024 Yearly: 879.21
+    2025 Yearly: 979.08
+  quarterly_forecast:
+    Q3 2024: 226.65
+    Q4 2024: 220.4
+    Q1 2025: 216.95
+    Q2 2025: 232.79
+    Q3 2025: 237.68
+    Q4 2025: 241.22
+    Q1 2026: 223.34
+    Q2 2026: 254.81
+    Q3 2026: 264.58
+    Q4 2026: 245.66
+    Q1 2027: 217.18
+  annual_forecast:
+    2021 Yearly: 540.7
+    2022 Yearly: 739.88
+    2023 Yearly: 808.64
+    2024 Yearly: 878.84
+    2025 Yearly: 962.68
+    2026 Yearly: 988.75
+    2027 Yearly: 945.46
+    2028 Yearly: 951.56
+    2029 Yearly: 975.3
+eps:
+  quarterly:
+    Q3 2024: 0.32
+    Q4 2024: 0.33
+    Q1 2025: 0.3
+    Q2 2025: 0.34
+    Q3 2025: 0.37
+    Q4 2025: 0.3
+    Q1 2026: 0.25
+  annual:
+    2021 Yearly: 0.74
+    2022 Yearly: 1.02
+    2023 Yearly: 1.08
+    2024 Yearly: 1.23
+    2025 Yearly: 1.32
+  quarterly_forecast:
+    Q3 2024: 0.32
+    Q4 2024: 0.3
+    Q1 2025: 0.29
+    Q2 2025: 0.33
+    Q3 2025: 0.34
+    Q4 2025: 0.31
+    Q1 2026: 0.24
+    Q2 2026: 0.33
+    Q3 2026: 0.36
+    Q4 2026: 0.29
+    Q1 2027: 0.2
+  annual_forecast:
+    2021 Yearly: 0.72
+    2022 Yearly: 0.97
+    2023 Yearly: 1.1
+    2024 Yearly: 1.2
+    2025 Yearly: 1.33
+    2026 Yearly: 1.23
+    2027 Yearly: 1.02
+    2028 Yearly: 1.11
+    2029 Yearly: 0.93

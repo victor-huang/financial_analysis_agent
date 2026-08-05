@@ -1,0 +1,76 @@
+currency: USD
+company_name: CrossAmerica Partners LP
+sector: Distribution Services
+market_cap_billions: 0.81917
+revenue:
+  quarterly:
+    Q3 2024: 1080.0
+    Q4 2024: 944.22
+    Q1 2025: 862.48
+    Q2 2025: 961.92
+    Q3 2025: 971.85
+    Q4 2025: 866.29
+    Q1 2026: 841.83
+  annual:
+    2021 Yearly: 3580.0
+    2022 Yearly: 4970.0
+    2023 Yearly: 4390.0
+    2024 Yearly: 4100.0
+    2025 Yearly: 3660.0
+  quarterly_forecast:
+    Q3 2024: 1280.0
+    Q4 2024: 1210.0
+    Q1 2025: 735.09
+    Q2 2025: 793.52
+    Q3 2025: 780.93
+    Q4 2025: 748.01
+    Q1 2026: 697.31
+    Q2 2026: 731.45
+    Q3 2026: 744.41
+    Q4 2026: 718.24
+    Q1 2027: 902.53
+  annual_forecast:
+    2021 Yearly: 3230.0
+    2022 Yearly: 4570.0
+    2023 Yearly: 4480.0
+    2024 Yearly: 4360.0
+    2025 Yearly: 3540.0
+    2026 Yearly: 3040.0
+    2027 Yearly: 3160.0
+    2028 Yearly: 3260.0
+eps:
+  quarterly:
+    Q3 2024: 0.27
+    Q4 2024: 0.42
+    Q1 2025: -0.2
+    Q2 2025: 0.64
+    Q3 2025: 0.34
+    Q4 2025: 0.25
+    Q1 2026: 0.26
+  annual:
+    2021 Yearly: 0.57
+    2022 Yearly: 1.63
+    2023 Yearly: 1.05
+    2024 Yearly: 0.52
+    2025 Yearly: 1.02
+  quarterly_forecast:
+    Q3 2024: 0.25
+    Q4 2024: 0.04
+    Q1 2025: -0.06
+    Q2 2025: 0.2
+    Q3 2025: 0.07
+    Q4 2025: 0.05
+    Q1 2026: -0.16
+    Q2 2026: 0.38
+    Q3 2026: 0.29
+    Q4 2026: 0.13
+    Q1 2027: 0.03
+  annual_forecast:
+    2021 Yearly: 0.46
+    2022 Yearly: 1.37
+    2023 Yearly: 0.85
+    2024 Yearly: 0.13
+    2025 Yearly: 0.82
+    2026 Yearly: 1.06
+    2027 Yearly: 0.85
+    2028 Yearly: 0.93

@@ -1,0 +1,70 @@
+currency: USD
+company_name: Amtech Systems, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 0.30492
+revenue:
+  quarterly:
+    Q4 2024: 24.1
+    Q1 2025: 24.4
+    Q2 2025: 15.58
+    Q3 2025: 19.6
+    Q4 2025: 19.84
+    Q1 2026: 19.0
+    Q2 2026: 20.47
+  annual:
+    2021 Yearly: 85.2
+    2022 Yearly: 106.3
+    2023 Yearly: 113.3
+    2024 Yearly: 101.2
+    2025 Yearly: 79.36
+  quarterly_forecast:
+    Q4 2024: 23.75
+    Q1 2025: 23.25
+    Q2 2025: 18.5
+    Q3 2025: 17.0
+    Q4 2025: 18.4
+    Q1 2026: 19.0
+    Q2 2026: 19.5
+    Q3 2026: 21.5
+    Q4 2026: 22.5
+  annual_forecast:
+    2021 Yearly: 86.91
+    2022 Yearly: 105.89
+    2023 Yearly: 113.3
+    2024 Yearly: 100.85
+    2025 Yearly: 77.91
+    2026 Yearly: 83.4
+    2027 Yearly: 95.0
+eps:
+  quarterly:
+    Q4 2024: -0.04
+    Q1 2025: 0.02
+    Q2 2025: -2.23
+    Q3 2025: 0.01
+    Q4 2025: 0.07
+    Q1 2026: 0.01
+    Q2 2026: 0.08
+  annual:
+    2021 Yearly: 0.11
+    2022 Yearly: 1.22
+    2023 Yearly: -0.89
+    2024 Yearly: -0.6
+    2025 Yearly: -2.12
+  quarterly_forecast:
+    Q4 2024: -0.01
+    Q1 2025: -0.02
+    Q2 2025: -0.03
+    Q3 2025: -0.08
+    Q4 2025: -0.03
+    Q1 2026: 0.07
+    Q2 2026: 0.05
+    Q3 2026: 0.1
+    Q4 2026: 0.13
+  annual_forecast:
+    2021 Yearly: 0.16
+    2022 Yearly: 1.04
+    2023 Yearly: -0.08
+    2024 Yearly: -0.57
+    2025 Yearly: -2.23
+    2026 Yearly: 0.32
+    2027 Yearly: 0.8

@@ -1,0 +1,76 @@
+currency: USD
+company_name: Sight Sciences, Inc.
+sector: Health Technology
+market_cap_billions: 0.30687000000000003
+revenue:
+  quarterly:
+    Q3 2024: 20.16
+    Q4 2024: 19.07
+    Q1 2025: 17.51
+    Q2 2025: 19.56
+    Q3 2025: 19.91
+    Q4 2025: 20.39
+    Q1 2026: 19.7
+  annual:
+    2021 Yearly: 48.96
+    2022 Yearly: 71.33
+    2023 Yearly: 81.06
+    2024 Yearly: 79.87
+    2025 Yearly: 77.36
+  quarterly_forecast:
+    Q3 2024: 20.4
+    Q4 2024: 19.3
+    Q1 2025: 16.51
+    Q2 2025: 18.18
+    Q3 2025: 17.74
+    Q4 2025: 20.35
+    Q1 2026: 18.46
+    Q2 2026: 21.72
+    Q3 2026: 21.94
+    Q4 2026: 22.77
+    Q1 2027: 21.63
+  annual_forecast:
+    2021 Yearly: 48.18
+    2022 Yearly: 71.04
+    2023 Yearly: 81.17
+    2024 Yearly: 80.06
+    2025 Yearly: 77.31
+    2026 Yearly: 86.13
+    2027 Yearly: 95.7
+    2028 Yearly: 104.75
+eps:
+  quarterly:
+    Q3 2024: -0.22
+    Q4 2024: -0.23
+    Q1 2025: -0.28
+    Q2 2025: -0.23
+    Q3 2025: -0.16
+    Q4 2025: -0.08
+    Q1 2026: -0.24
+  annual:
+    2021 Yearly: -2.36
+    2022 Yearly: -1.8
+    2023 Yearly: -1.14
+    2024 Yearly: -1.03
+    2025 Yearly: -0.74
+  quarterly_forecast:
+    Q3 2024: -0.21
+    Q4 2024: -0.2
+    Q1 2025: -0.28
+    Q2 2025: -0.26
+    Q3 2025: -0.25
+    Q4 2025: -0.14
+    Q1 2026: -0.17
+    Q2 2026: -0.18
+    Q3 2026: -0.18
+    Q4 2026: -0.18
+    Q1 2027: -0.17
+  annual_forecast:
+    2021 Yearly: -2.44
+    2022 Yearly: -1.87
+    2023 Yearly: -1.24
+    2024 Yearly: -0.96
+    2025 Yearly: -0.73
+    2026 Yearly: -0.78
+    2027 Yearly: -0.67
+    2028 Yearly: -0.56

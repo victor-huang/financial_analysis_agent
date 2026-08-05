@@ -1,0 +1,44 @@
+currency: USD
+company_name: WaterBridge Infrastructure LLC
+sector: Industrial Services
+market_cap_billions: 4.13
+revenue:
+  quarterly:
+    Q3 2025: 205.47
+    Q4 2025: 208.88
+    Q1 2026: 200.98
+  annual:
+    2025 Yearly: 790.0
+  quarterly_forecast:
+    Q3 2025: 200.54
+    Q4 2025: 202.09
+    Q1 2026: 199.28
+    Q2 2026: 213.69
+    Q3 2026: 229.59
+    Q4 2026: 236.6
+    Q1 2027: 236.3
+  annual_forecast:
+    2026 Yearly: 777.33
+    2027 Yearly: 891.79
+    2028 Yearly: 1060.0
+eps:
+  quarterly:
+    Q3 2025: -0.15
+    Q4 2025: -0.03
+    Q1 2026: 0.08
+  annual:
+    2025 Yearly: -0.48
+  quarterly_forecast:
+    Q3 2025: 0.21
+    Q4 2025: 0.01
+    Q1 2026: 0.07
+    Q2 2026: 0.09
+    Q3 2026: 0.14
+    Q4 2026: 0.17
+    Q1 2027: 0.15
+  annual_forecast:
+    2025 Yearly: -0.43
+    2026 Yearly: 0.56
+    2027 Yearly: 0.74
+    2028 Yearly: 1.27
+    2029 Yearly: 1.95

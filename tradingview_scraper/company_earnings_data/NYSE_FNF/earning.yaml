@@ -1,0 +1,76 @@
+currency: USD
+company_name: Fidelity National Financial, Inc.
+sector: Finance
+market_cap_billions: 13.86
+revenue:
+  quarterly:
+    Q3 2024: 3600.0
+    Q4 2024: 3620.0
+    Q1 2025: 2730.0
+    Q2 2025: 3630.0
+    Q3 2025: 4030.0000000000005
+    Q4 2025: 4050.0
+    Q1 2026: 3230.0
+  annual:
+    2021 Yearly: 15640.0
+    2022 Yearly: 11560.0
+    2023 Yearly: 11750.0
+    2024 Yearly: 13680.0
+    2025 Yearly: 14450.0
+  quarterly_forecast:
+    Q3 2024: 3320.0
+    Q4 2024: 3330.0
+    Q1 2025: 3320.0
+    Q2 2025: 3540.0
+    Q3 2025: 3570.0
+    Q4 2025: 3660.0
+    Q1 2026: 3610.0
+    Q2 2026: 3790.0
+    Q3 2026: 3860.0
+    Q4 2026: 3950.0
+    Q1 2027: 3580.0
+  annual_forecast:
+    2021 Yearly: 13910.0
+    2022 Yearly: 12370.0
+    2023 Yearly: 11310.0
+    2024 Yearly: 13280.0
+    2025 Yearly: 14100.0
+    2026 Yearly: 14810.0
+    2027 Yearly: 15860.0
+    2028 Yearly: 16270.0
+eps:
+  quarterly:
+    Q3 2024: 1.25
+    Q4 2024: 1.29
+    Q1 2025: 0.75
+    Q2 2025: 1.12
+    Q3 2025: 1.57
+    Q4 2025: 1.41
+    Q1 2026: 0.93
+  annual:
+    2021 Yearly: 7.32
+    2022 Yearly: 5.17
+    2023 Yearly: 3.42
+    2024 Yearly: 4.46
+    2025 Yearly: 4.97
+  quarterly_forecast:
+    Q3 2024: 1.34
+    Q4 2024: 1.17
+    Q1 2025: 1.06
+    Q2 2025: 1.32
+    Q3 2025: 1.37
+    Q4 2025: 1.49
+    Q1 2026: 1.09
+    Q2 2026: 1.31
+    Q3 2026: 1.49
+    Q4 2026: 1.46
+    Q1 2027: 1.08
+  annual_forecast:
+    2021 Yearly: 6.72
+    2022 Yearly: 5.27
+    2023 Yearly: 3.81
+    2024 Yearly: 4.37
+    2025 Yearly: 5.11
+    2026 Yearly: 5.16
+    2027 Yearly: 5.87
+    2028 Yearly: 6.3

@@ -1,0 +1,71 @@
+currency: USD
+company_name: BioAtla, Inc.
+sector: Health Technology
+market_cap_billions: 0.00556
+revenue:
+  quarterly:
+    Q3 2024: 11.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+  annual:
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 11.0
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+  annual_forecast:
+    2021 Yearly: 1.22
+    2022 Yearly: 1.5
+    2023 Yearly: 0.0
+    2024 Yearly: 11.0
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 3.6
+    2028 Yearly: 54.6
+    2029 Yearly: 239.4
+eps:
+  quarterly:
+    Q3 2024: -11.0
+    Q4 2024: -15.0
+    Q1 2025: -13.0
+    Q2 2025: -16.0
+    Q3 2025: -13.5
+    Q4 2025: -8.0
+  annual:
+    2021 Yearly: -138.0
+    2022 Yearly: -137.0
+    2023 Yearly: -129.08
+    2024 Yearly: -72.0
+    2025 Yearly: -50.5
+  quarterly_forecast:
+    Q3 2024: -20.67
+    Q4 2024: -19.25
+    Q1 2025: -14.67
+    Q2 2025: -14.0
+    Q3 2025: -14.83
+    Q4 2025: -12.0
+    Q1 2026: -10.0
+    Q2 2026: -8.5
+    Q3 2026: -7.0
+    Q4 2026: -7.0
+  annual_forecast:
+    2021 Yearly: -138.01
+    2022 Yearly: -143.72
+    2023 Yearly: -138.13
+    2024 Yearly: -76.25
+    2025 Yearly: -54.0
+    2026 Yearly: -46.0
+    2027 Yearly: -58.5
+    2028 Yearly: -45.0
+    2029 Yearly: -48.0

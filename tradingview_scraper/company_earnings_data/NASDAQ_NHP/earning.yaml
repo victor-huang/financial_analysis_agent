@@ -1,0 +1,30 @@
+currency: USD
+company_name: National Healthcare Properties, Inc.
+sector: Finance
+market_cap_billions: 0.32906
+revenue:
+  quarterly:
+    Q4 2025: 84.48
+    Q1 2026: 86.28
+  annual: {}
+  quarterly_forecast:
+    Q1 2021: 97.66
+    Q2 2021: 99.44
+    Q3 2021: 101.22
+    Q4 2021: 103.0
+    Q2 2026: 89.13
+    Q3 2026: 90.67
+    Q4 2026: 91.73
+    Q1 2027: 95.94
+  annual_forecast: {}
+eps:
+  quarterly:
+    Q4 2025: -0.91
+    Q1 2026: -0.27
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: -0.12
+    Q3 2026: 0.6
+    Q4 2026: -0.03
+    Q1 2027: 0.01
+  annual_forecast: {}

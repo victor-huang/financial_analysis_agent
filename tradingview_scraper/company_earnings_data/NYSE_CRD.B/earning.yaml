@@ -1,7 +1,7 @@
 currency: USD
 company_name: Crawford & Company
 sector: Finance
-market_cap_billions: 0.53173
+market_cap_billions: 0.58538
 revenue:
   quarterly:
     Q3 2024: 329.38
@@ -27,10 +27,10 @@ revenue:
     Q4 2025: 332.55
     Q1 2026: 308.24
     Q2 2026: 326.49
-    Q3 2026: 330.11
-    Q4 2026: 317.53
-    Q1 2027: 324.07
-    Q2 2027: 345.57
+    Q3 2026: 327.41
+    Q4 2026: 315.31
+    Q1 2027: 316.17
+    Q2 2027: 329.56
   annual_forecast:
     2021 Yearly: 1080.0
     2022 Yearly: 1170.0
@@ -38,7 +38,7 @@ revenue:
     2024 Yearly: 1280.0
     2025 Yearly: 1300.0
     2026 Yearly: 1280.0
-    2027 Yearly: 1330.0
+    2027 Yearly: 1310.0
 eps:
   quarterly:
     Q3 2024: 0.22
@@ -65,14 +65,14 @@ eps:
     Q1 2026: 0.21
     Q2 2026: 0.26
     Q3 2026: 0.29
-    Q4 2026: 0.21
-    Q1 2027: 0.22
-    Q2 2027: 0.28
+    Q4 2026: 0.2
+    Q1 2027: 0.23
+    Q2 2027: 0.32
   annual_forecast:
     2021 Yearly: 0.84
     2022 Yearly: 0.64
     2023 Yearly: 1.07
     2024 Yearly: 0.84
     2025 Yearly: 0.98
-    2026 Yearly: 0.92
-    2027 Yearly: 1.05
+    2026 Yearly: 0.96
+    2027 Yearly: 1.06

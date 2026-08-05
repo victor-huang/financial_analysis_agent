@@ -1,7 +1,7 @@
 currency: USD
 company_name: NewJersey Resources Corporation
 sector: Utilities
-market_cap_billions: 5.86
+market_cap_billions: 5.79
 revenue:
   quarterly:
     Q4 2024: 395.78
@@ -50,7 +50,7 @@ eps:
     Q4 2025: 0.16
     Q1 2026: 1.17
     Q2 2026: 2.2
-    Q3 2026: 0.07
+    Q3 2026: 0.08
   annual:
     2021 Yearly: 2.16
     2022 Yearly: 2.5

@@ -1,0 +1,76 @@
+currency: USD
+company_name: Allstate Corporation (The)
+sector: Finance
+market_cap_billions: 67.59
+revenue:
+  quarterly:
+    Q3 2024: 14710.0
+    Q4 2024: 15050.0
+    Q1 2025: 14300.0
+    Q2 2025: 15050.0
+    Q3 2025: 15630.0
+    Q4 2025: 14570.0
+    Q1 2026: 14630.0
+  annual:
+    2021 Yearly: 41360.0
+    2022 Yearly: 45790.0
+    2023 Yearly: 50350.0
+    2024 Yearly: 60640.0
+    2025 Yearly: 59550.0
+  quarterly_forecast:
+    Q3 2024: 14570.0
+    Q4 2024: 13720.0
+    Q1 2025: 14050.0
+    Q2 2025: 15210.0
+    Q3 2025: 15680.0
+    Q4 2025: 14530.0
+    Q1 2026: 15070.0
+    Q2 2026: 15460.0
+    Q3 2026: 16000.0
+    Q4 2026: 15140.0
+    Q1 2027: 15250.0
+  annual_forecast:
+    2021 Yearly: 40980.0
+    2022 Yearly: 45470.0
+    2023 Yearly: 49860.0
+    2024 Yearly: 55150.0
+    2025 Yearly: 58980.0
+    2026 Yearly: 62050.0
+    2027 Yearly: 64910.0
+    2028 Yearly: 65940.0
+eps:
+  quarterly:
+    Q3 2024: 3.91
+    Q4 2024: 7.67
+    Q1 2025: 3.53
+    Q2 2025: 5.94
+    Q3 2025: 11.17
+    Q4 2025: 14.31
+    Q1 2026: 10.65
+  annual:
+    2021 Yearly: 13.48
+    2022 Yearly: -0.97
+    2023 Yearly: 0.95
+    2024 Yearly: 18.32
+    2025 Yearly: 34.83
+  quarterly_forecast:
+    Q3 2024: 2.38
+    Q4 2024: 6.27
+    Q1 2025: 2.52
+    Q2 2025: 3.25
+    Q3 2025: 7.67
+    Q4 2025: 9.83
+    Q1 2026: 7.31
+    Q2 2026: 6.06
+    Q3 2026: 5.92
+    Q4 2026: 8.65
+    Q1 2027: 7.53
+  annual_forecast:
+    2021 Yearly: 13.47
+    2022 Yearly: -1.04
+    2023 Yearly: -1.17
+    2024 Yearly: 16.82
+    2025 Yearly: 30.46
+    2026 Yearly: 31.34
+    2027 Yearly: 26.36
+    2028 Yearly: 25.95

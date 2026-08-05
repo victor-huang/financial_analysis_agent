@@ -1,7 +1,7 @@
 currency: USD
 company_name: Ecopetrol S.A.
 sector: Energy Minerals
-market_cap_billions: 34.76
+market_cap_billions: 34.0
 revenue:
   quarterly:
     Q3 2024: 8200.0
@@ -34,10 +34,10 @@ revenue:
     2023 Yearly: 35650.0
     2024 Yearly: 30430.0
     2025 Yearly: 29890.0
-    2026 Yearly: 38000.0
-    2027 Yearly: 37250.0
-    2028 Yearly: 36580.0
-    2029 Yearly: 30920.0
+    2026 Yearly: 37600.0
+    2027 Yearly: 36730.0
+    2028 Yearly: 36000.0
+    2029 Yearly: 26750.0
 eps:
   quarterly:
     Q3 2024: 0.45
@@ -47,7 +47,7 @@ eps:
     Q3 2025: 0.29
     Q4 2025: 0.22
     Q1 2026: 0.42
-    Q2 2026: 0.76
+    Q2 2026: 1.07
   annual:
     2021 Yearly: 2.0
     2022 Yearly: 3.66
@@ -65,15 +65,15 @@ eps:
     Q2 2026: 0.78
     Q3 2026: 0.63
     Q4 2026: 0.53
-    Q1 2027: 0.46
-    Q2 2027: 0.47
+    Q1 2027: 0.44
+    Q2 2027: 0.42
   annual_forecast:
     2021 Yearly: 1.89
     2022 Yearly: 3.76
     2023 Yearly: 2.42
     2024 Yearly: 1.69
     2025 Yearly: 1.12
-    2026 Yearly: 2.27
-    2027 Yearly: 2.01
-    2028 Yearly: 1.88
-    2029 Yearly: 1.96
+    2026 Yearly: 2.28
+    2027 Yearly: 1.97
+    2028 Yearly: 1.84
+    2029 Yearly: 1.68

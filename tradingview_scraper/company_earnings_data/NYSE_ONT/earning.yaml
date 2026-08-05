@@ -1,0 +1,76 @@
+currency: USD
+company_name: Onterris, Inc.
+sector: Industrial Services
+market_cap_billions: 0.82578
+revenue:
+  quarterly:
+    Q3 2024: 178.69
+    Q4 2024: 189.06
+    Q1 2025: 177.83
+    Q2 2025: 234.54
+    Q3 2025: 224.89
+    Q4 2025: 193.27
+    Q1 2026: 168.52
+  annual:
+    2021 Yearly: 546.41
+    2022 Yearly: 544.42
+    2023 Yearly: 624.21
+    2024 Yearly: 696.39
+    2025 Yearly: 830.54
+  quarterly_forecast:
+    Q3 2024: 185.47
+    Q4 2024: 187.64
+    Q1 2025: 168.05
+    Q2 2025: 188.69
+    Q3 2025: 203.58
+    Q4 2025: 187.71
+    Q1 2026: 179.73
+    Q2 2026: 200.37
+    Q3 2026: 249.85
+    Q4 2026: 233.32
+    Q1 2027: 187.5
+  annual_forecast:
+    2021 Yearly: 525.67
+    2022 Yearly: 545.88
+    2023 Yearly: 617.74
+    2024 Yearly: 694.81
+    2025 Yearly: 824.88
+    2026 Yearly: 852.14
+    2027 Yearly: 914.47
+    2028 Yearly: 985.0
+eps:
+  quarterly:
+    Q3 2024: -0.39
+    Q4 2024: -0.9
+    Q1 2025: -0.64
+    Q2 2025: 0.42
+    Q3 2025: 0.21
+    Q4 2025: -0.23
+    Q1 2026: -0.35
+  annual:
+    2021 Yearly: -1.56
+    2022 Yearly: -1.62
+    2023 Yearly: -1.57
+    2024 Yearly: -2.22
+    2025 Yearly: -0.14
+  quarterly_forecast:
+    Q3 2024: -0.08
+    Q4 2024: -0.5
+    Q1 2025: -0.39
+    Q2 2025: -0.18
+    Q3 2025: 0.04
+    Q4 2025: -0.12
+    Q1 2026: -0.26
+    Q2 2026: 0.09
+    Q3 2026: 0.26
+    Q4 2026: 0.12
+    Q1 2027: -0.28
+  annual_forecast:
+    2021 Yearly: -1.31
+    2022 Yearly: -1.38
+    2023 Yearly: -1.5
+    2024 Yearly: -1.97
+    2025 Yearly: -0.01
+    2026 Yearly: 0.13
+    2027 Yearly: 0.46
+    2028 Yearly: 0.65

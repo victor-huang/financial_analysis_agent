@@ -64,11 +64,11 @@ eps:
     Q3 2026: -0.1
     Q4 2026: -0.07
     Q1 2027: -0.02
-    Q2 2027: 0.07
+    Q2 2027: 0.06
   annual_forecast:
     2023 Yearly: 2.47
     2024 Yearly: 0.72
     2025 Yearly: -0.45
-    2026 Yearly: -0.69
-    2027 Yearly: 0.22
-    2028 Yearly: 0.76
+    2026 Yearly: -0.68
+    2027 Yearly: 0.2
+    2028 Yearly: 0.63

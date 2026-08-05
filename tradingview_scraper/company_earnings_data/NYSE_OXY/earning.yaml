@@ -1,0 +1,78 @@
+currency: USD
+company_name: Occidental Petroleum Corporation
+sector: Energy Minerals
+market_cap_billions: 54.79
+revenue:
+  quarterly:
+    Q3 2024: 7170.0
+    Q4 2024: 6760.0
+    Q1 2025: 6800.0
+    Q2 2025: 6410.0
+    Q3 2025: 6620.0
+    Q4 2025: 5110.0
+    Q1 2026: 5230.0
+  annual:
+    2021 Yearly: 25960.0
+    2022 Yearly: 36630.0
+    2023 Yearly: 28260.0
+    2024 Yearly: 26730.0
+    2025 Yearly: 24950.0
+  quarterly_forecast:
+    Q3 2024: 7120.0
+    Q4 2024: 6980.0
+    Q1 2025: 6830.0
+    Q2 2025: 6380.0
+    Q3 2025: 6750.0
+    Q4 2025: 5550.0
+    Q1 2026: 5440.0
+    Q2 2026: 7070.0
+    Q3 2026: 6280.0
+    Q4 2026: 6290.0
+    Q1 2027: 6060.0
+  annual_forecast:
+    2021 Yearly: 25420.0
+    2022 Yearly: 37210.0
+    2023 Yearly: 28260.0
+    2024 Yearly: 27210.0
+    2025 Yearly: 25660.0
+    2026 Yearly: 24830.0
+    2027 Yearly: 23770.0
+    2028 Yearly: 24230.0
+    2029 Yearly: 24240.0
+eps:
+  quarterly:
+    Q3 2024: 1.0
+    Q4 2024: 0.8
+    Q1 2025: 0.87
+    Q2 2025: 0.39
+    Q3 2025: 0.64
+    Q4 2025: 0.31
+    Q1 2026: 1.06
+  annual:
+    2021 Yearly: 2.55
+    2022 Yearly: 9.35
+    2023 Yearly: 3.7
+    2024 Yearly: 3.46
+    2025 Yearly: 2.21
+  quarterly_forecast:
+    Q3 2024: 0.74
+    Q4 2024: 0.68
+    Q1 2025: 0.78
+    Q2 2025: 0.3
+    Q3 2025: 0.51
+    Q4 2025: 0.16
+    Q1 2026: 0.6
+    Q2 2026: 1.83
+    Q3 2026: 1.18
+    Q4 2026: 1.14
+    Q1 2027: 0.97
+  annual_forecast:
+    2021 Yearly: 2.14
+    2022 Yearly: 9.68
+    2023 Yearly: 3.7
+    2024 Yearly: 3.33
+    2025 Yearly: 2.09
+    2026 Yearly: 5.55
+    2027 Yearly: 3.72
+    2028 Yearly: 3.85
+    2029 Yearly: 3.69

@@ -1,7 +1,7 @@
 currency: USD
 company_name: Fuel Tech, Inc.
 sector: Process Industries
-market_cap_billions: 0.04675
+market_cap_billions: 0.04768
 revenue:
   quarterly:
     Q3 2024: 7.85
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 7.49
     Q4 2025: 7.25
     Q1 2026: 6.08
+    Q2 2026: 6.49
   annual:
     2021 Yearly: 24.26
     2022 Yearly: 26.94
@@ -47,6 +48,7 @@ eps:
     Q3 2025: 0.01
     Q4 2025: -0.04
     Q1 2026: -0.04
+    Q2 2026: -0.04
   annual:
     2021 Yearly: 0.0
     2022 Yearly: -0.05

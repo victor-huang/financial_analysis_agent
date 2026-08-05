@@ -1,7 +1,7 @@
 currency: USD
 company_name: Innovex International, Inc.
 sector: Industrial Services
-market_cap_billions: 1.98
+market_cap_billions: 2.21
 revenue:
   quarterly:
     Q3 2024: 151.82
@@ -27,7 +27,7 @@ revenue:
     Q4 2025: 240.42
     Q1 2026: 227.48
     Q2 2026: 241.58
-    Q3 2026: 262.36
+    Q3 2026: 262.06
     Q4 2026: 282.12
     Q1 2027: 270.44
     Q2 2027: 281.04
@@ -67,16 +67,16 @@ eps:
     Q1 2026: 0.24
     Q2 2026: 0.31
     Q3 2026: 0.38
-    Q4 2026: 0.44
+    Q4 2026: 0.43
     Q1 2027: 0.42
-    Q2 2027: 0.47
+    Q2 2027: 0.46
   annual_forecast:
     2021 Yearly: -1.42
     2022 Yearly: -0.37
     2023 Yearly: -0.02
     2024 Yearly: 1.33
     2025 Yearly: 1.12
-    2026 Yearly: 1.64
-    2027 Yearly: 1.94
+    2026 Yearly: 1.66
+    2027 Yearly: 1.92
     2028 Yearly: 2.26
     2029 Yearly: 2.73

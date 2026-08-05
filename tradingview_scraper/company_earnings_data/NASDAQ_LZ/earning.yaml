@@ -1,0 +1,76 @@
+currency: USD
+company_name: LegalZoom.com, Inc.
+sector: Technology Services
+market_cap_billions: 1.44
+revenue:
+  quarterly:
+    Q3 2024: 168.6
+    Q4 2024: 161.71
+    Q1 2025: 183.11
+    Q2 2025: 192.51
+    Q3 2025: 190.16
+    Q4 2025: 190.27
+    Q1 2026: 206.78
+  annual:
+    2021 Yearly: 575.08
+    2022 Yearly: 619.98
+    2023 Yearly: 660.73
+    2024 Yearly: 681.88
+    2025 Yearly: 756.04
+  quarterly_forecast:
+    Q3 2024: 167.66
+    Q4 2024: 160.89
+    Q1 2025: 176.82
+    Q2 2025: 182.77
+    Q3 2025: 183.26
+    Q4 2025: 184.68
+    Q1 2026: 202.14
+    Q2 2026: 205.83
+    Q3 2026: 204.66
+    Q4 2026: 204.79
+    Q1 2027: 221.14
+  annual_forecast:
+    2021 Yearly: 576.61
+    2022 Yearly: 618.46
+    2023 Yearly: 658.5
+    2024 Yearly: 680.94
+    2025 Yearly: 750.44
+    2026 Yearly: 822.05
+    2027 Yearly: 876.13
+    2028 Yearly: 919.25
+eps:
+  quarterly:
+    Q3 2024: 0.17
+    Q4 2024: 0.19
+    Q1 2025: 0.13
+    Q2 2025: 0.15
+    Q3 2025: 0.17
+    Q4 2025: 0.17
+    Q1 2026: 0.12
+  annual:
+    2021 Yearly: 0.03
+    2022 Yearly: 0.16
+    2023 Yearly: 0.41
+    2024 Yearly: 0.54
+    2025 Yearly: 0.62
+  quarterly_forecast:
+    Q3 2024: 0.15
+    Q4 2024: 0.16
+    Q1 2025: 0.13
+    Q2 2025: 0.15
+    Q3 2025: 0.19
+    Q4 2025: 0.18
+    Q1 2026: 0.13
+    Q2 2026: 0.15
+    Q3 2026: 0.22
+    Q4 2026: 0.25
+    Q1 2027: 0.17
+  annual_forecast:
+    2021 Yearly: -0.1
+    2022 Yearly: 0.13
+    2023 Yearly: 0.39
+    2024 Yearly: 0.52
+    2025 Yearly: 0.64
+    2026 Yearly: 0.74
+    2027 Yearly: 0.84
+    2028 Yearly: 0.88

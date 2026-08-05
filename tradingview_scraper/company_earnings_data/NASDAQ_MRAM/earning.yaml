@@ -1,0 +1,76 @@
+currency: USD
+company_name: Everspin Technologies, Inc.
+sector: Electronic Technology
+market_cap_billions: 0.40846
+revenue:
+  quarterly:
+    Q3 2024: 12.09
+    Q4 2024: 13.2
+    Q1 2025: 13.14
+    Q2 2025: 13.2
+    Q3 2025: 14.06
+    Q4 2025: 14.8
+    Q1 2026: 14.87
+  annual:
+    2021 Yearly: 55.15
+    2022 Yearly: 59.98
+    2023 Yearly: 63.77
+    2024 Yearly: 50.4
+    2025 Yearly: 55.2
+  quarterly_forecast:
+    Q3 2024: 12.0
+    Q4 2024: 12.5
+    Q1 2025: 12.5
+    Q2 2025: 13.0
+    Q3 2025: 14.01
+    Q4 2025: 14.45
+    Q1 2026: 14.6
+    Q2 2026: 17.3
+    Q3 2026: 18.5
+    Q4 2026: 18.9
+    Q1 2027: 18.97
+  annual_forecast:
+    2021 Yearly: 53.45
+    2022 Yearly: 58.9
+    2023 Yearly: 62.95
+    2024 Yearly: 49.65
+    2025 Yearly: 54.85
+    2026 Yearly: 69.57
+    2027 Yearly: 78.17
+    2028 Yearly: 84.57
+eps:
+  quarterly:
+    Q3 2024: 0.1
+    Q4 2024: 0.05
+    Q1 2025: -0.05
+    Q2 2025: -0.03
+    Q3 2025: 0.0
+    Q4 2025: 0.05
+    Q1 2026: -0.01
+  annual:
+    2021 Yearly: 0.22
+    2022 Yearly: 0.29
+    2023 Yearly: 0.42
+    2024 Yearly: 0.04
+    2025 Yearly: -0.03
+  quarterly_forecast:
+    Q3 2024: -0.06
+    Q4 2024: 0.02
+    Q1 2025: -0.04
+    Q2 2025: -0.04
+    Q3 2025: -0.01
+    Q4 2025: 0.06
+    Q1 2026: 0.01
+    Q2 2026: -0.03
+    Q3 2026: 0.02
+    Q4 2026: 0.03
+    Q1 2027: 0.01
+  annual_forecast:
+    2021 Yearly: 0.12
+    2022 Yearly: 0.2
+    2023 Yearly: 0.24
+    2024 Yearly: 0.0
+    2025 Yearly: -0.03
+    2026 Yearly: 0.01
+    2027 Yearly: 0.14
+    2028 Yearly: 0.27

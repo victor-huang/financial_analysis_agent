@@ -1,0 +1,76 @@
+currency: USD
+company_name: American Coastal Insurance Corporation
+sector: Finance
+market_cap_billions: 0.5345599999999999
+revenue:
+  quarterly:
+    Q3 2024: 93.02
+    Q4 2024: 140.74
+    Q1 2025: 197.85
+    Q2 2025: 228.35
+    Q3 2025: 71.81
+    Q4 2025: 114.51
+    Q1 2026: 149.4
+  annual:
+    2021 Yearly: 1330.0
+    2022 Yearly: 1120.0
+    2023 Yearly: 670.04
+    2024 Yearly: 647.8
+    2025 Yearly: 612.52
+  quarterly_forecast:
+    Q3 2024: 98.69
+    Q4 2024: 134.03
+    Q1 2025: 192.91
+    Q2 2025: 243.22
+    Q3 2025: 88.36
+    Q4 2025: 140.74
+    Q1 2026: 175.1
+    Q2 2026: 194.12
+    Q3 2026: 64.63
+    Q4 2026: 108.79
+    Q1 2027: 137.44
+  annual_forecast:
+    2021 Yearly: 993.95
+    2022 Yearly: 1170.0
+    2023 Yearly: 718.08
+    2024 Yearly: 653.96
+    2025 Yearly: 638.76
+    2026 Yearly: 516.93
+    2027 Yearly: 503.27
+    2028 Yearly: 528.43
+eps:
+  quarterly:
+    Q3 2024: 0.54
+    Q4 2024: 0.12
+    Q1 2025: 0.42
+    Q2 2025: 0.54
+    Q3 2025: 0.61
+    Q4 2025: 0.52
+    Q1 2026: 0.39
+  annual:
+    2021 Yearly: -1.41
+    2022 Yearly: -9.85
+    2023 Yearly: 2.02
+    2024 Yearly: 1.56
+    2025 Yearly: 2.08
+  quarterly_forecast:
+    Q3 2024: 0.35
+    Q4 2024: 0.16
+    Q1 2025: 0.4
+    Q2 2025: 0.38
+    Q3 2025: 0.39
+    Q4 2025: 0.42
+    Q1 2026: 0.44
+    Q2 2026: 0.42
+    Q3 2026: -0.13
+    Q4 2026: 0.28
+    Q1 2027: 0.42
+  annual_forecast:
+    2021 Yearly: -1.22
+    2022 Yearly: -3.55
+    2023 Yearly: 1.85
+    2024 Yearly: 1.6
+    2025 Yearly: 1.99
+    2026 Yearly: 0.96
+    2027 Yearly: 1.01
+    2028 Yearly: 0.85

@@ -1,0 +1,50 @@
+currency: USD
+company_name: Carlsmed, Inc.
+sector: Technology Services
+market_cap_billions: 0.36508999999999997
+revenue:
+  quarterly:
+    Q1 2025: 10.19
+    Q2 2025: 12.08
+    Q3 2025: 13.07
+    Q4 2025: 15.16
+    Q1 2026: 16.12
+  annual:
+    2025 Yearly: 50.51
+  quarterly_forecast:
+    Q2 2025: 11.99
+    Q3 2025: 11.24
+    Q4 2025: 14.72
+    Q1 2026: 14.94
+    Q2 2026: 17.99
+    Q3 2026: 18.9
+    Q4 2026: 21.87
+    Q1 2027: 22.78
+  annual_forecast:
+    2025 Yearly: 50.05
+    2026 Yearly: 74.86
+    2027 Yearly: 104.97
+    2028 Yearly: 146.78
+eps:
+  quarterly:
+    Q1 2025: -1.39
+    Q2 2025: -1.47
+    Q3 2025: -0.4
+    Q4 2025: -0.32
+    Q1 2026: -0.32
+  annual:
+    2025 Yearly: -2.12
+  quarterly_forecast:
+    Q2 2025: -0.91
+    Q3 2025: -0.48
+    Q4 2025: -0.42
+    Q1 2026: -0.38
+    Q2 2026: -0.4
+    Q3 2026: -0.4
+    Q4 2026: -0.36
+    Q1 2027: -0.34
+  annual_forecast:
+    2025 Yearly: -2.24
+    2026 Yearly: -1.48
+    2027 Yearly: -1.42
+    2028 Yearly: -1.01

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Nexa Resources S.A.
+sector: Non-Energy Minerals
+market_cap_billions: 1.79
+revenue:
+  quarterly:
+    Q3 2024: 709.0
+    Q4 2024: 741.0
+    Q1 2025: 627.1
+    Q2 2025: 708.0
+    Q3 2025: 764.0
+    Q4 2025: 903.0
+    Q1 2026: 888.3
+  annual:
+    2021 Yearly: 2620.0
+    2022 Yearly: 3030.0
+    2023 Yearly: 2570.0
+    2024 Yearly: 2770.0
+    2025 Yearly: 3000.0
+  quarterly_forecast:
+    Q3 2024: 678.95
+    Q4 2024: 724.76
+    Q1 2025: 665.37
+    Q2 2025: 655.08
+    Q3 2025: 753.17
+    Q4 2025: 838.59
+    Q1 2026: 885.9
+    Q2 2026: 906.52
+    Q3 2026: 901.3
+    Q4 2026: 875.6
+    Q1 2027: 973.01
+  annual_forecast:
+    2021 Yearly: 2620.0
+    2022 Yearly: 2860.0
+    2023 Yearly: 2540.0
+    2024 Yearly: 2720.0
+    2025 Yearly: 2890.0
+    2026 Yearly: 3610.0
+    2027 Yearly: 3400.0
+    2028 Yearly: 3300.0
+    2029 Yearly: 3050.0
+eps:
+  quarterly:
+    Q3 2024: 0.02
+    Q4 2024: -0.78
+    Q1 2025: 0.12
+    Q2 2025: 0.11
+    Q3 2025: 0.36
+    Q4 2025: 0.67
+    Q1 2026: 0.67
+  annual:
+    2021 Yearly: 0.86
+    2022 Yearly: 0.47
+    2023 Yearly: -0.41
+    2024 Yearly: -1.12
+    2025 Yearly: 1.0
+  quarterly_forecast:
+    Q3 2024: 0.13
+    Q4 2024: 0.29
+    Q1 2025: 0.02
+    Q2 2025: 0.18
+    Q3 2025: 0.35
+    Q4 2025: 0.54
+    Q1 2026: 0.88
+    Q2 2026: 0.71
+    Q3 2026: 0.68
+    Q4 2026: 0.69
+    Q1 2027: 0.82
+  annual_forecast:
+    2021 Yearly: 1.42
+    2022 Yearly: 0.94
+    2023 Yearly: -0.7
+    2024 Yearly: -0.01
+    2025 Yearly: 0.86
+    2026 Yearly: 2.77
+    2027 Yearly: 2.8
+    2028 Yearly: 2.29
+    2029 Yearly: 1.33

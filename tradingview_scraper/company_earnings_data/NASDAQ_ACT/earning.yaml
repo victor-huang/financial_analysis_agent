@@ -1,0 +1,76 @@
+currency: USD
+company_name: Enact Holdings, Inc.
+sector: Finance
+market_cap_billions: 6.69
+revenue:
+  quarterly:
+    Q3 2024: 309.59
+    Q4 2024: 301.78
+    Q1 2025: 306.78
+    Q2 2025: 304.89
+    Q3 2025: 311.45
+    Q4 2025: 312.71
+    Q1 2026: 312.07
+  annual:
+    2021 Yearly: 1120.0
+    2022 Yearly: 939.0
+    2023 Yearly: 1150.0
+    2024 Yearly: 1200.0
+    2025 Yearly: 1240.0
+  quarterly_forecast:
+    Q3 2024: 305.79
+    Q4 2024: 309.3
+    Q1 2025: 302.24
+    Q2 2025: 307.51
+    Q3 2025: 312.48
+    Q4 2025: 317.02
+    Q1 2026: 314.91
+    Q2 2026: 315.81
+    Q3 2026: 319.19
+    Q4 2026: 318.62
+    Q1 2027: 318.49
+  annual_forecast:
+    2021 Yearly: 1120.0
+    2022 Yearly: 944.9
+    2023 Yearly: 962.25
+    2024 Yearly: 1210.0
+    2025 Yearly: 1250.0
+    2026 Yearly: 1270.0
+    2027 Yearly: 1280.0
+    2028 Yearly: 1300.0
+eps:
+  quarterly:
+    Q3 2024: 1.16
+    Q4 2024: 1.09
+    Q1 2025: 1.1
+    Q2 2025: 1.15
+    Q3 2025: 1.12
+    Q4 2025: 1.22
+    Q1 2026: 1.18
+  annual:
+    2021 Yearly: 3.38
+    2022 Yearly: 4.31
+    2023 Yearly: 4.11
+    2024 Yearly: 4.56
+    2025 Yearly: 4.52
+  quarterly_forecast:
+    Q3 2024: 1.0
+    Q4 2024: 1.03
+    Q1 2025: 1.08
+    Q2 2025: 1.1
+    Q3 2025: 1.08
+    Q4 2025: 1.08
+    Q1 2026: 1.19
+    Q2 2026: 1.19
+    Q3 2026: 1.19
+    Q4 2026: 1.16
+    Q1 2027: 1.24
+  annual_forecast:
+    2021 Yearly: 3.26
+    2022 Yearly: 4.28
+    2023 Yearly: 4.09
+    2024 Yearly: 4.45
+    2025 Yearly: 4.43
+    2026 Yearly: 4.73
+    2027 Yearly: 4.97
+    2028 Yearly: 5.18

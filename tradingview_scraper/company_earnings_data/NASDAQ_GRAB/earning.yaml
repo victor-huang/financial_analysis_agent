@@ -1,7 +1,7 @@
 currency: USD
 company_name: Grab Holdings Limited
 sector: Transportation
-market_cap_billions: 15.04
+market_cap_billions: 15.25
 revenue:
   quarterly:
     Q3 2024: 716.0
@@ -25,20 +25,21 @@ revenue:
     Q3 2025: 873.7
     Q4 2025: 936.59
     Q1 2026: 921.71
-    Q2 2026: 990.37
-    Q3 2026: 1050.0
-    Q4 2026: 1120.0
-    Q1 2027: 1160.0
+    Q2 2026: 995.64
+    Q3 2026: 1070.0
+    Q4 2026: 1130.0
+    Q1 2027: 1180.0
+    Q2 2027: 1260.0
   annual_forecast:
     2021 Yearly: 693.88
     2022 Yearly: 1330.0
     2023 Yearly: 2350.0
     2024 Yearly: 2820.0
     2025 Yearly: 3400.0
-    2026 Yearly: 4120.0
-    2027 Yearly: 4970.0
-    2028 Yearly: 5910.0
-    2029 Yearly: 5870.0
+    2026 Yearly: 4160.0
+    2027 Yearly: 5060.0
+    2028 Yearly: 5970.0
+    2029 Yearly: 6440.0
 eps:
   quarterly:
     Q3 2024: 0.01
@@ -62,17 +63,18 @@ eps:
     Q3 2025: 0.02
     Q4 2025: 0.01
     Q1 2026: 0.02
-    Q2 2026: 0.02
-    Q3 2026: 0.03
-    Q4 2026: 0.02
-    Q1 2027: 0.04
+    Q2 2026: 0.06
+    Q3 2026: 0.04
+    Q4 2026: 0.03
+    Q1 2027: 0.05
+    Q2 2027: 0.05
   annual_forecast:
     2021 Yearly: -0.87
     2022 Yearly: -0.37
     2023 Yearly: -0.14
     2024 Yearly: -0.02
     2025 Yearly: 0.05
-    2026 Yearly: 0.11
-    2027 Yearly: 0.16
-    2028 Yearly: 0.21
-    2029 Yearly: 0.27
+    2026 Yearly: 0.14
+    2027 Yearly: 0.17
+    2028 Yearly: 0.22
+    2029 Yearly: 0.17

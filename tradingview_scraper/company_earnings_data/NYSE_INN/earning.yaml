@@ -1,0 +1,74 @@
+currency: USD
+company_name: Summit Hotel Properties, Inc.
+sector: Finance
+market_cap_billions: 0.8355199999999999
+revenue:
+  quarterly:
+    Q3 2024: 176.81
+    Q4 2024: 177.25
+    Q1 2025: 184.48
+    Q2 2025: 192.92
+    Q3 2025: 177.12
+    Q4 2025: 174.32
+    Q1 2026: 184.45
+  annual:
+    2021 Yearly: 369.02
+    2022 Yearly: 689.18
+    2023 Yearly: 733.65
+    2024 Yearly: 742.72
+    2025 Yearly: 722.43
+  quarterly_forecast:
+    Q3 2024: 177.7
+    Q4 2024: 172.09
+    Q1 2025: 184.05
+    Q2 2025: 195.06
+    Q3 2025: 176.6
+    Q4 2025: 172.87
+    Q1 2026: 180.51
+    Q2 2026: 198.41
+    Q3 2026: 181.24
+    Q4 2026: 176.87
+    Q1 2027: 188.81
+  annual_forecast:
+    2021 Yearly: 361.44
+    2022 Yearly: 672.55
+    2023 Yearly: 735.23
+    2024 Yearly: 730.94
+    2025 Yearly: 727.39
+    2026 Yearly: 741.58
+    2027 Yearly: 757.66
+    2028 Yearly: 777.22
+eps:
+  quarterly:
+    Q3 2024: -0.04
+    Q4 2024: 0.01
+    Q1 2025: -0.04
+    Q2 2025: -0.02
+    Q3 2025: -0.11
+    Q4 2025: -0.06
+    Q1 2026: -0.1
+  annual:
+    2021 Yearly: -0.8
+    2022 Yearly: -0.16
+    2023 Yearly: -0.27
+    2024 Yearly: 0.22
+    2025 Yearly: -0.22
+  quarterly_forecast:
+    Q3 2024: -0.06
+    Q4 2024: -0.07
+    Q1 2025: -0.02
+    Q2 2025: 0.0
+    Q3 2025: -0.11
+    Q4 2025: -0.15
+    Q1 2026: -0.12
+    Q2 2026: -0.01
+    Q3 2026: -0.12
+    Q4 2026: -0.12
+    Q1 2027: -0.09
+  annual_forecast:
+    2022 Yearly: -0.78
+    2023 Yearly: -0.12
+    2024 Yearly: -0.23
+    2025 Yearly: 0.17
+    2026 Yearly: -0.31
+    2027 Yearly: -0.35

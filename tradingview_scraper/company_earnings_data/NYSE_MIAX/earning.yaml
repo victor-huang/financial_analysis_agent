@@ -1,0 +1,50 @@
+currency: USD
+company_name: Miami International Holdings, Inc.
+sector: Finance
+market_cap_billions: 4.39
+revenue:
+  quarterly:
+    Q1 2025: 92.0
+    Q2 2025: 104.7
+    Q3 2025: 109.48
+    Q4 2025: 124.5
+    Q1 2026: 128.59
+  annual:
+    2025 Yearly: 430.53
+  quarterly_forecast:
+    Q3 2025: 107.07
+    Q4 2025: 120.61
+    Q1 2026: 122.8
+    Q2 2026: 135.86
+    Q3 2026: 134.47
+    Q4 2026: 138.72
+    Q1 2027: 142.7
+  annual_forecast:
+    2025 Yearly: 427.25
+    2026 Yearly: 538.52
+    2027 Yearly: 595.62
+    2028 Yearly: 626.68
+    2029 Yearly: 618.0
+eps:
+  quarterly:
+    Q1 2025: 0.29
+    Q2 2025: 0.46
+    Q3 2025: 0.42
+    Q4 2025: 0.52
+    Q1 2026: 0.42
+  annual:
+    2025 Yearly: 1.82
+  quarterly_forecast:
+    Q3 2025: 0.3
+    Q4 2025: 0.41
+    Q1 2026: 0.37
+    Q2 2026: 0.41
+    Q3 2026: 0.39
+    Q4 2026: 0.41
+    Q1 2027: 0.44
+  annual_forecast:
+    2025 Yearly: 1.68
+    2026 Yearly: 1.63
+    2027 Yearly: 1.86
+    2028 Yearly: 2.02
+    2029 Yearly: 1.85

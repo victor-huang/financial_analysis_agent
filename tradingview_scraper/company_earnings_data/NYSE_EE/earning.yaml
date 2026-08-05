@@ -1,0 +1,74 @@
+currency: USD
+company_name: Excelerate Energy, Inc.
+sector: Utilities
+market_cap_billions: 4.46
+revenue:
+  quarterly:
+    Q3 2024: 193.4
+    Q4 2024: 274.6
+    Q1 2025: 315.09
+    Q2 2025: 204.6
+    Q3 2025: 391.0
+    Q4 2025: 317.57
+    Q1 2026: 433.44
+  annual:
+    2021 Yearly: 888.78
+    2022 Yearly: 2470.0
+    2023 Yearly: 1160.0
+    2024 Yearly: 851.4
+    2025 Yearly: 1230.0
+  quarterly_forecast:
+    Q3 2024: 202.8
+    Q4 2024: 194.3
+    Q1 2025: 207.87
+    Q2 2025: 228.95
+    Q3 2025: 271.51
+    Q4 2025: 284.3
+    Q1 2026: 351.68
+    Q2 2026: 344.27
+    Q3 2026: 385.05
+    Q4 2026: 410.41
+    Q1 2027: 428.3
+  annual_forecast:
+    2023 Yearly: 2250.0
+    2024 Yearly: 1190.0
+    2025 Yearly: 754.08
+    2026 Yearly: 1180.0
+    2027 Yearly: 1520.0
+    2028 Yearly: 1870.0
+eps:
+  quarterly:
+    Q3 2024: 0.35
+    Q4 2024: 0.4
+    Q1 2025: 0.46
+    Q2 2025: 0.15
+    Q3 2025: 0.43
+    Q4 2025: 0.28
+    Q1 2026: 0.37
+  annual:
+    2021 Yearly: 1.57
+    2022 Yearly: 0.51
+    2023 Yearly: 1.11
+    2024 Yearly: 1.27
+    2025 Yearly: 1.28
+  quarterly_forecast:
+    Q3 2024: 0.32
+    Q4 2024: 0.33
+    Q1 2025: 0.4
+    Q2 2025: 0.3
+    Q3 2025: 0.32
+    Q4 2025: 0.35
+    Q1 2026: 0.38
+    Q2 2026: 0.35
+    Q3 2026: 0.39
+    Q4 2026: 0.39
+    Q1 2027: 0.46
+  annual_forecast:
+    2022 Yearly: 0.34
+    2023 Yearly: 1.2
+    2024 Yearly: 1.2
+    2025 Yearly: 1.38
+    2026 Yearly: 1.5
+    2027 Yearly: 1.95
+    2028 Yearly: 2.36
+    2029 Yearly: 4.85

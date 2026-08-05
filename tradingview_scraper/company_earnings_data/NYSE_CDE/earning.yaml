@@ -1,0 +1,78 @@
+currency: USD
+company_name: Coeur Mining, Inc.
+sector: Non-Energy Minerals
+market_cap_billions: 16.7
+revenue:
+  quarterly:
+    Q3 2024: 313.48
+    Q4 2024: 305.44
+    Q1 2025: 360.06
+    Q2 2025: 480.65
+    Q3 2025: 554.57
+    Q4 2025: 674.85
+    Q1 2026: 856.19
+  annual:
+    2021 Yearly: 832.83
+    2022 Yearly: 785.64
+    2023 Yearly: 821.2
+    2024 Yearly: 1050.0
+    2025 Yearly: 2070.0
+  quarterly_forecast:
+    Q3 2024: 289.19
+    Q4 2024: 323.07
+    Q1 2025: 317.66
+    Q2 2025: 459.87
+    Q3 2025: 533.72
+    Q4 2025: 688.24
+    Q1 2026: 815.59
+    Q2 2026: 1240.0
+    Q3 2026: 1250.0
+    Q4 2026: 1320.0
+    Q1 2027: 1200.0
+  annual_forecast:
+    2021 Yearly: 834.44
+    2022 Yearly: 780.23
+    2023 Yearly: 817.08
+    2024 Yearly: 1080.0
+    2025 Yearly: 2060.0
+    2026 Yearly: 5220.0
+    2027 Yearly: 5970.0
+    2028 Yearly: 5480.0
+    2029 Yearly: 4860.0
+eps:
+  quarterly:
+    Q3 2024: 0.12
+    Q4 2024: 0.11
+    Q1 2025: 0.11
+    Q2 2025: 0.2
+    Q3 2025: 0.23
+    Q4 2025: 0.35
+    Q1 2026: 0.36
+  annual:
+    2021 Yearly: -0.01
+    2022 Yearly: -0.32
+    2023 Yearly: -0.23
+    2024 Yearly: 0.18
+    2025 Yearly: 0.8
+  quarterly_forecast:
+    Q3 2024: 0.08
+    Q4 2024: 0.14
+    Q1 2025: 0.01
+    Q2 2025: 0.18
+    Q3 2025: 0.27
+    Q4 2025: 0.39
+    Q1 2026: 0.37
+    Q2 2026: 0.26
+    Q3 2026: 0.36
+    Q4 2026: 0.46
+    Q1 2027: 0.41
+  annual_forecast:
+    2021 Yearly: 0.04
+    2022 Yearly: -0.3
+    2023 Yearly: -0.22
+    2024 Yearly: 0.18
+    2025 Yearly: 0.93
+    2026 Yearly: 1.46
+    2027 Yearly: 1.83
+    2028 Yearly: 1.89
+    2029 Yearly: 1.49

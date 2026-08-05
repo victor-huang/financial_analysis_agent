@@ -1,0 +1,14 @@
+currency: USD
+company_name: AGI Inc
+sector: Finance
+market_cap_billions: 1.12
+revenue:
+  quarterly: {}
+  annual: {}
+  quarterly_forecast: {}
+  annual_forecast: {}
+eps:
+  quarterly: {}
+  annual: {}
+  quarterly_forecast: {}
+  annual_forecast: {}

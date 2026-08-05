@@ -1,0 +1,78 @@
+currency: USD
+company_name: Etsy, Inc.
+sector: Retail Trade
+market_cap_billions: 8.2
+revenue:
+  quarterly:
+    Q3 2024: 662.41
+    Q4 2024: 852.16
+    Q1 2025: 651.18
+    Q2 2025: 672.66
+    Q3 2025: 678.03
+    Q4 2025: 881.64
+    Q1 2026: 631.28
+  annual:
+    2021 Yearly: 2330.0
+    2022 Yearly: 2570.0
+    2023 Yearly: 2750.0
+    2024 Yearly: 2810.0
+    2025 Yearly: 2880.0
+  quarterly_forecast:
+    Q3 2024: 652.47
+    Q4 2024: 861.83
+    Q1 2025: 641.58
+    Q2 2025: 647.22
+    Q3 2025: 658.52
+    Q4 2025: 884.31
+    Q1 2026: 621.44
+    Q2 2026: 646.1
+    Q3 2026: 645.88
+    Q4 2026: 861.57
+    Q1 2027: 651.98
+  annual_forecast:
+    2021 Yearly: 2300.0
+    2022 Yearly: 2510.0
+    2023 Yearly: 2730.0
+    2024 Yearly: 2820.0
+    2025 Yearly: 2880.0
+    2026 Yearly: 2790.0
+    2027 Yearly: 2900.0
+    2028 Yearly: 3040.0
+    2029 Yearly: 3230.0
+eps:
+  quarterly:
+    Q3 2024: 0.45
+    Q4 2024: 1.03
+    Q1 2025: -0.49
+    Q2 2025: 0.25
+    Q3 2025: 0.63
+    Q4 2025: 0.92
+    Q1 2026: 0.89
+  annual:
+    2021 Yearly: 3.4
+    2022 Yearly: -5.48
+    2023 Yearly: 2.24
+    2024 Yearly: 2.35
+    2025 Yearly: 1.39
+  quarterly_forecast:
+    Q3 2024: 0.53
+    Q4 2024: 0.93
+    Q1 2025: 0.47
+    Q2 2025: 0.48
+    Q3 2025: 0.52
+    Q4 2025: 0.85
+    Q1 2026: 0.61
+    Q2 2026: 0.75
+    Q3 2026: 0.77
+    Q4 2026: 1.3
+    Q1 2027: 0.94
+  annual_forecast:
+    2021 Yearly: 3.06
+    2022 Yearly: -5.19
+    2023 Yearly: 2.39
+    2024 Yearly: 2.24
+    2025 Yearly: 1.32
+    2026 Yearly: 3.56
+    2027 Yearly: 4.1
+    2028 Yearly: 4.79
+    2029 Yearly: 5.78

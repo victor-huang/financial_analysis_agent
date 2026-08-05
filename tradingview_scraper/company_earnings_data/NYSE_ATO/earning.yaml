@@ -1,0 +1,78 @@
+currency: USD
+company_name: Atmos Energy Corporation
+sector: Utilities
+market_cap_billions: 28.82
+revenue:
+  quarterly:
+    Q4 2024: 671.68
+    Q1 2025: 1180.0
+    Q2 2025: 1950.0
+    Q3 2025: 838.77
+    Q4 2025: 780.62
+    Q1 2026: 1340.0
+    Q2 2026: 1960.0
+  annual:
+    2021 Yearly: 3410.0
+    2022 Yearly: 4200.0
+    2023 Yearly: 4280.0
+    2024 Yearly: 4170.0
+    2025 Yearly: 4720.0
+  quarterly_forecast:
+    Q4 2024: 878.39
+    Q1 2025: 1350.0
+    Q2 2025: 1670.0
+    Q3 2025: 822.15
+    Q4 2025: 721.3
+    Q1 2026: 1300.0
+    Q2 2026: 1940.0
+    Q3 2026: 900.82
+    Q4 2026: 844.77
+    Q1 2027: 1280.0
+    Q2 2027: 1730.0
+  annual_forecast:
+    2021 Yearly: 3350.0
+    2022 Yearly: 4010.0
+    2023 Yearly: 4560.0
+    2024 Yearly: 4500.0
+    2025 Yearly: 4840.0
+    2026 Yearly: 5170.0
+    2027 Yearly: 5580.0
+    2028 Yearly: 6070.0
+    2029 Yearly: 6890.0
+eps:
+  quarterly:
+    Q4 2024: 0.86
+    Q1 2025: 2.23
+    Q2 2025: 3.03
+    Q3 2025: 1.16
+    Q4 2025: 1.07
+    Q1 2026: 2.44
+    Q2 2026: 3.47
+  annual:
+    2021 Yearly: 5.12
+    2022 Yearly: 5.6
+    2023 Yearly: 6.1
+    2024 Yearly: 6.83
+    2025 Yearly: 7.46
+  quarterly_forecast:
+    Q4 2024: 0.8
+    Q1 2025: 2.2
+    Q2 2025: 2.89
+    Q3 2025: 1.14
+    Q4 2025: 0.99
+    Q1 2026: 2.44
+    Q2 2026: 3.41
+    Q3 2026: 1.35
+    Q4 2026: 1.22
+    Q1 2027: 2.63
+    Q2 2027: 3.69
+  annual_forecast:
+    2021 Yearly: 5.11
+    2022 Yearly: 5.56
+    2023 Yearly: 6.04
+    2024 Yearly: 6.8
+    2025 Yearly: 7.4
+    2026 Yearly: 8.45
+    2027 Yearly: 9.03
+    2028 Yearly: 9.8
+    2029 Yearly: 10.58

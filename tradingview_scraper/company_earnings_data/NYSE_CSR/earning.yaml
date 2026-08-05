@@ -1,7 +1,7 @@
 currency: USD
 company_name: D/B/A Centerspace
 sector: Finance
-market_cap_billions: 0.9320700000000001
+market_cap_billions: 0.91728
 revenue:
   quarterly:
     Q3 2024: 65.03
@@ -27,8 +27,8 @@ revenue:
     Q4 2025: 69.99
     Q1 2026: 66.54
     Q2 2026: 66.29
-    Q3 2026: 66.29
-    Q4 2026: 64.63
+    Q3 2026: 66.25
+    Q4 2026: 64.55
     Q1 2027: 63.18
     Q2 2027: 63.68
   annual_forecast:
@@ -37,8 +37,8 @@ revenue:
     2023 Yearly: 261.81
     2024 Yearly: 260.3
     2025 Yearly: 277.03
-    2026 Yearly: 262.27
-    2027 Yearly: 258.17
+    2026 Yearly: 262.14
+    2027 Yearly: 257.36
     2028 Yearly: 253.91
 eps:
   quarterly:
@@ -65,8 +65,8 @@ eps:
     Q4 2025: -0.22
     Q1 2026: -0.29
     Q2 2026: -0.13
-    Q3 2026: -0.1
-    Q4 2026: -0.07
+    Q3 2026: 0.06
+    Q4 2026: 0.1
     Q1 2027: -0.15
     Q2 2027: -0.07
   annual_forecast:
@@ -75,6 +75,6 @@ eps:
     2023 Yearly: 2.56
     2024 Yearly: -1.08
     2025 Yearly: 1.74
-    2026 Yearly: -1.02
-    2027 Yearly: -0.38
+    2026 Yearly: -0.66
+    2027 Yearly: -0.34
     2028 Yearly: 0.03

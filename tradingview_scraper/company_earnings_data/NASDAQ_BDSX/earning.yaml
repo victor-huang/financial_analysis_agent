@@ -1,0 +1,78 @@
+currency: USD
+company_name: Biodesix, Inc.
+sector: Health Services
+market_cap_billions: 0.23565
+revenue:
+  quarterly:
+    Q3 2024: 18.15
+    Q4 2024: 20.43
+    Q1 2025: 17.96
+    Q2 2025: 20.02
+    Q3 2025: 21.77
+    Q4 2025: 28.75
+    Q1 2026: 25.55
+  annual:
+    2021 Yearly: 54.51
+    2022 Yearly: 38.21
+    2023 Yearly: 49.09
+    2024 Yearly: 71.32
+    2025 Yearly: 88.5
+  quarterly_forecast:
+    Q3 2024: 18.57
+    Q4 2024: 19.88
+    Q1 2025: 19.42
+    Q2 2025: 18.57
+    Q3 2025: 20.97
+    Q4 2025: 25.73
+    Q1 2026: 23.12
+    Q2 2026: 26.03
+    Q3 2026: 27.6
+    Q4 2026: 31.82
+    Q1 2027: 30.08
+  annual_forecast:
+    2021 Yearly: 54.68
+    2022 Yearly: 39.31
+    2023 Yearly: 50.14
+    2024 Yearly: 70.77
+    2025 Yearly: 86.02
+    2026 Yearly: 110.97
+    2027 Yearly: 132.81
+    2028 Yearly: 155.2
+    2029 Yearly: 182.1
+eps:
+  quarterly:
+    Q3 2024: -1.4
+    Q4 2024: -1.2
+    Q1 2025: -1.6
+    Q2 2025: -1.6
+    Q3 2025: -1.16
+    Q4 2025: -0.49
+    Q1 2026: -0.81
+  annual:
+    2021 Yearly: -31.6
+    2022 Yearly: -31.0
+    2023 Yearly: -12.8
+    2024 Yearly: -6.6
+    2025 Yearly: -4.67
+  quarterly_forecast:
+    Q3 2024: -1.46
+    Q4 2024: -1.34
+    Q1 2025: -1.4
+    Q2 2025: -1.38
+    Q3 2025: -1.49
+    Q4 2025: -0.86
+    Q1 2026: -1.13
+    Q2 2026: -0.9
+    Q3 2026: -0.79
+    Q4 2026: -0.48
+    Q1 2027: -0.66
+  annual_forecast:
+    2021 Yearly: -31.54
+    2022 Yearly: -28.9
+    2023 Yearly: -13.11
+    2024 Yearly: -6.96
+    2025 Yearly: -5.15
+    2026 Yearly: -2.96
+    2027 Yearly: -1.77
+    2028 Yearly: -1.05
+    2029 Yearly: -0.31

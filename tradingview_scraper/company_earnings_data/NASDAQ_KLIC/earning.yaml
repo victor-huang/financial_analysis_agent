@@ -1,0 +1,76 @@
+currency: USD
+company_name: Kulicke and Soffa Industries, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 4.91
+revenue:
+  quarterly:
+    Q4 2024: 181.32
+    Q1 2025: 166.12
+    Q2 2025: 161.99
+    Q3 2025: 148.41
+    Q4 2025: 177.56
+    Q1 2026: 199.63
+    Q2 2026: 242.62
+  annual:
+    2021 Yearly: 1520.0
+    2022 Yearly: 1500.0
+    2023 Yearly: 742.49
+    2024 Yearly: 706.23
+    2025 Yearly: 654.08
+  quarterly_forecast:
+    Q4 2024: 180.03
+    Q1 2025: 165.67
+    Q2 2025: 165.86
+    Q3 2025: 148.06
+    Q4 2025: 170.03
+    Q1 2026: 190.0
+    Q2 2026: 228.75
+    Q3 2026: 308.5
+    Q4 2026: 328.34
+    Q1 2027: 299.88
+    Q2 2027: 308.93
+  annual_forecast:
+    2021 Yearly: 1510.0
+    2022 Yearly: 1490.0
+    2023 Yearly: 740.35
+    2024 Yearly: 704.98
+    2025 Yearly: 646.62
+    2026 Yearly: 1080.0
+    2027 Yearly: 1290.0
+    2028 Yearly: 1370.0
+eps:
+  quarterly:
+    Q4 2024: 0.34
+    Q1 2025: 0.37
+    Q2 2025: -0.52
+    Q3 2025: 0.07
+    Q4 2025: 0.28
+    Q1 2026: 0.44
+    Q2 2026: 0.79
+  annual:
+    2021 Yearly: 6.14
+    2022 Yearly: 7.45
+    2023 Yearly: 1.82
+    2024 Yearly: 0.03
+    2025 Yearly: 0.21
+  quarterly_forecast:
+    Q4 2024: 0.35
+    Q1 2025: 0.28
+    Q2 2025: 0.19
+    Q3 2025: 0.05
+    Q4 2025: 0.22
+    Q1 2026: 0.33
+    Q2 2026: 0.67
+    Q3 2026: 1.06
+    Q4 2026: 1.18
+    Q1 2027: 0.94
+    Q2 2027: 1.02
+  annual_forecast:
+    2021 Yearly: 6.12
+    2022 Yearly: 7.22
+    2023 Yearly: 1.74
+    2024 Yearly: 0.04
+    2025 Yearly: 0.14
+    2026 Yearly: 3.41
+    2027 Yearly: 4.43
+    2028 Yearly: 4.5

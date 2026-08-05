@@ -1,0 +1,78 @@
+currency: USD
+company_name: GoodRx Holdings, Inc.
+sector: Health Services
+market_cap_billions: 1.13
+revenue:
+  quarterly:
+    Q3 2024: 195.25
+    Q4 2024: 198.58
+    Q1 2025: 202.97
+    Q2 2025: 203.07
+    Q3 2025: 196.03
+    Q4 2025: 194.78
+    Q1 2026: 194.01
+  annual:
+    2021 Yearly: 745.42
+    2022 Yearly: 766.55
+    2023 Yearly: 750.26
+    2024 Yearly: 792.32
+    2025 Yearly: 796.85
+  quarterly_forecast:
+    Q3 2024: 195.66
+    Q4 2024: 199.76
+    Q1 2025: 202.22
+    Q2 2025: 205.9
+    Q3 2025: 194.54
+    Q4 2025: 193.27
+    Q1 2026: 185.4
+    Q2 2026: 193.23
+    Q3 2026: 193.96
+    Q4 2026: 194.79
+    Q1 2027: 198.93
+  annual_forecast:
+    2021 Yearly: 749.25
+    2022 Yearly: 760.83
+    2023 Yearly: 752.87
+    2024 Yearly: 793.57
+    2025 Yearly: 795.07
+    2026 Yearly: 775.87
+    2027 Yearly: 817.91
+    2028 Yearly: 881.54
+    2029 Yearly: 977.95
+eps:
+  quarterly:
+    Q3 2024: 0.08
+    Q4 2024: 0.09
+    Q1 2025: 0.09
+    Q2 2025: 0.09
+    Q3 2025: 0.08
+    Q4 2025: 0.09
+    Q1 2026: 0.07
+  annual:
+    2021 Yearly: 0.34
+    2022 Yearly: 0.3
+    2023 Yearly: 0.28
+    2024 Yearly: 0.34
+    2025 Yearly: 0.35
+  quarterly_forecast:
+    Q3 2024: 0.09
+    Q4 2024: 0.09
+    Q1 2025: 0.1
+    Q2 2025: 0.1
+    Q3 2025: 0.09
+    Q4 2025: 0.09
+    Q1 2026: 0.07
+    Q2 2026: 0.08
+    Q3 2026: 0.08
+    Q4 2026: 0.08
+    Q1 2027: 0.08
+  annual_forecast:
+    2021 Yearly: 0.35
+    2022 Yearly: 0.28
+    2023 Yearly: 0.28
+    2024 Yearly: 0.34
+    2025 Yearly: 0.36
+    2026 Yearly: 0.31
+    2027 Yearly: 0.36
+    2028 Yearly: 0.42
+    2029 Yearly: 0.7

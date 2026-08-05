@@ -1,0 +1,76 @@
+currency: USD
+company_name: KORU Medical Systems, Inc.
+sector: Health Technology
+market_cap_billions: 0.19476
+revenue:
+  quarterly:
+    Q3 2024: 8.18
+    Q4 2024: 8.84
+    Q1 2025: 9.64
+    Q2 2025: 10.19
+    Q3 2025: 10.4
+    Q4 2025: 10.9
+    Q1 2026: 11.76
+  annual:
+    2021 Yearly: 23.49
+    2022 Yearly: 27.9
+    2023 Yearly: 28.52
+    2024 Yearly: 33.65
+    2025 Yearly: 41.13
+  quarterly_forecast:
+    Q3 2024: 7.67
+    Q4 2024: 8.89
+    Q1 2025: 8.86
+    Q2 2025: 9.46
+    Q3 2025: 9.66
+    Q4 2025: 10.82
+    Q1 2026: 11.28
+    Q2 2026: 11.62
+    Q3 2026: 12.29
+    Q4 2026: 13.01
+    Q1 2027: 13.78
+  annual_forecast:
+    2021 Yearly: 23.06
+    2022 Yearly: 27.91
+    2023 Yearly: 28.26
+    2024 Yearly: 33.7
+    2025 Yearly: 41.03
+    2026 Yearly: 48.69
+    2027 Yearly: 56.94
+    2028 Yearly: 64.4
+eps:
+  quarterly:
+    Q3 2024: -0.03
+    Q4 2024: -0.03
+    Q1 2025: 0.0
+    Q2 2025: 0.01
+    Q3 2025: -0.02
+    Q4 2025: -0.01
+    Q1 2026: -0.02
+  annual:
+    2021 Yearly: -0.1
+    2022 Yearly: -0.19
+    2023 Yearly: -0.13
+    2024 Yearly: -0.13
+    2025 Yearly: -0.06
+  quarterly_forecast:
+    Q3 2024: -0.04
+    Q4 2024: -0.03
+    Q1 2025: -0.03
+    Q2 2025: -0.02
+    Q3 2025: -0.02
+    Q4 2025: -0.02
+    Q1 2026: -0.02
+    Q2 2026: -0.02
+    Q3 2026: -0.01
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+  annual_forecast:
+    2021 Yearly: -0.1
+    2022 Yearly: -0.2
+    2023 Yearly: -0.18
+    2024 Yearly: -0.11
+    2025 Yearly: -0.07
+    2026 Yearly: -0.04
+    2027 Yearly: 0.03
+    2028 Yearly: 0.1

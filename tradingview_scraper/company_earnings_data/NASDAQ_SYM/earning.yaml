@@ -1,0 +1,74 @@
+currency: USD
+company_name: Symbotic Inc.
+sector: Producer Manufacturing
+market_cap_billions: 28.6
+revenue:
+  quarterly:
+    Q4 2024: 576.77
+    Q1 2025: 486.69
+    Q2 2025: 549.65
+    Q3 2025: 592.12
+    Q4 2025: 618.46
+    Q1 2026: 629.99
+    Q2 2026: 676.48
+  annual:
+    2022 Yearly: 593.31
+    2023 Yearly: 1180.0
+    2024 Yearly: 1820.0
+    2025 Yearly: 2250.0
+  quarterly_forecast:
+    Q4 2024: 470.24
+    Q1 2025: 490.04
+    Q2 2025: 522.41
+    Q3 2025: 533.25
+    Q4 2025: 604.0
+    Q1 2026: 622.58
+    Q2 2026: 662.65
+    Q3 2026: 715.03
+    Q4 2026: 769.85
+    Q1 2027: 825.87
+    Q2 2027: 875.32
+  annual_forecast:
+    2022 Yearly: 501.61
+    2023 Yearly: 1090.0
+    2024 Yearly: 1760.0
+    2025 Yearly: 2230.0
+    2026 Yearly: 2790.0
+    2027 Yearly: 3600.0
+    2028 Yearly: 4540.0
+    2029 Yearly: 5450.0
+eps:
+  quarterly:
+    Q4 2024: 0.07
+    Q1 2025: 0.03
+    Q2 2025: 0.06
+    Q3 2025: 0.07
+    Q4 2025: 0.05
+    Q1 2026: 0.12
+    Q2 2026: 0.09
+  annual:
+    2022 Yearly: -0.17
+    2023 Yearly: -0.02
+    2024 Yearly: 0.12
+    2025 Yearly: 0.23
+  quarterly_forecast:
+    Q4 2024: 0.05
+    Q1 2025: 0.03
+    Q2 2025: 0.05
+    Q3 2025: 0.05
+    Q4 2025: 0.06
+    Q1 2026: 0.08
+    Q2 2026: 0.12
+    Q3 2026: 0.13
+    Q4 2026: 0.15
+    Q1 2027: 0.19
+    Q2 2027: 0.2
+  annual_forecast:
+    2022 Yearly: -0.29
+    2023 Yearly: -0.07
+    2024 Yearly: 0.18
+    2025 Yearly: 0.24
+    2026 Yearly: 0.51
+    2027 Yearly: 0.83
+    2028 Yearly: 0.91
+    2029 Yearly: 2.96

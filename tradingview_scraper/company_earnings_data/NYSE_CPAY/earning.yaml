@@ -1,0 +1,76 @@
+currency: USD
+company_name: Corpay, Inc.
+sector: Commercial Services
+market_cap_billions: 25.92
+revenue:
+  quarterly:
+    Q3 2024: 1030.0
+    Q4 2024: 1030.0
+    Q1 2025: 1010.0
+    Q2 2025: 1100.0
+    Q3 2025: 1170.0
+    Q4 2025: 1250.0
+    Q1 2026: 1260.0
+  annual:
+    2021 Yearly: 2830.0
+    2022 Yearly: 3430.0
+    2023 Yearly: 3760.0
+    2024 Yearly: 3970.0
+    2025 Yearly: 4500.0
+  quarterly_forecast:
+    Q3 2024: 1030.0
+    Q4 2024: 1050.0
+    Q1 2025: 1020.0
+    Q2 2025: 1100.0
+    Q3 2025: 1160.0
+    Q4 2025: 1230.0
+    Q1 2026: 1210.0
+    Q2 2026: 1300.0
+    Q3 2026: 1350.0
+    Q4 2026: 1400.0
+    Q1 2027: 1360.0
+  annual_forecast:
+    2021 Yearly: 2800.0
+    2022 Yearly: 3410.0
+    2023 Yearly: 3790.0
+    2024 Yearly: 3990.0
+    2025 Yearly: 4520.0
+    2026 Yearly: 5300.0
+    2027 Yearly: 5820.0
+    2028 Yearly: 6360.0
+eps:
+  quarterly:
+    Q3 2024: 5.0
+    Q4 2024: 5.36
+    Q1 2025: 4.51
+    Q2 2025: 5.13
+    Q3 2025: 5.7
+    Q4 2025: 6.04
+    Q1 2026: 5.8
+  annual:
+    2021 Yearly: 13.21
+    2022 Yearly: 16.1
+    2023 Yearly: 16.92
+    2024 Yearly: 19.01
+    2025 Yearly: 21.38
+  quarterly_forecast:
+    Q3 2024: 4.98
+    Q4 2024: 5.35
+    Q1 2025: 4.51
+    Q2 2025: 5.12
+    Q3 2025: 5.63
+    Q4 2025: 5.94
+    Q1 2026: 5.47
+    Q2 2026: 6.58
+    Q3 2026: 7.03
+    Q4 2026: 7.37
+    Q1 2027: 6.85
+  annual_forecast:
+    2021 Yearly: 13.06
+    2022 Yearly: 15.98
+    2023 Yearly: 16.96
+    2024 Yearly: 18.98
+    2025 Yearly: 21.28
+    2026 Yearly: 26.76
+    2027 Yearly: 30.61
+    2028 Yearly: 35.62

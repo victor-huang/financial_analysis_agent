@@ -1,0 +1,76 @@
+currency: USD
+company_name: OUTFRONT Media Inc.
+sector: Finance
+market_cap_billions: 5.61
+revenue:
+  quarterly:
+    Q3 2024: 451.9
+    Q4 2024: 493.2
+    Q1 2025: 390.7
+    Q2 2025: 460.2
+    Q3 2025: 467.5
+    Q4 2025: 513.3
+    Q1 2026: 429.6
+  annual:
+    2021 Yearly: 1460.0
+    2022 Yearly: 1770.0
+    2023 Yearly: 1820.0
+    2024 Yearly: 1830.0
+    2025 Yearly: 1830.0
+  quarterly_forecast:
+    Q3 2024: 456.38
+    Q4 2024: 490.26
+    Q1 2025: 396.2
+    Q2 2025: 461.01
+    Q3 2025: 458.23
+    Q4 2025: 512.07
+    Q1 2026: 431.44
+    Q2 2026: 509.61
+    Q3 2026: 500.67
+    Q4 2026: 534.85
+    Q1 2027: 435.71
+  annual_forecast:
+    2021 Yearly: 1440.0
+    2022 Yearly: 1770.0
+    2023 Yearly: 1820.0
+    2024 Yearly: 1830.0
+    2025 Yearly: 1830.0
+    2026 Yearly: 1980.0
+    2027 Yearly: 2020.0
+    2028 Yearly: 2100.0
+eps:
+  quarterly:
+    Q3 2024: 0.19
+    Q4 2024: 0.43
+    Q1 2025: -0.14
+    Q2 2025: 0.1
+    Q3 2025: 0.29
+    Q4 2025: 0.55
+    Q1 2026: 0.11
+  annual:
+    2021 Yearly: 0.05
+    2022 Yearly: 0.86
+    2023 Yearly: -2.73
+    2024 Yearly: 1.51
+    2025 Yearly: 0.82
+  quarterly_forecast:
+    Q3 2024: 0.18
+    Q4 2024: 0.39
+    Q1 2025: -0.07
+    Q2 2025: 0.22
+    Q3 2025: 0.25
+    Q4 2025: 0.48
+    Q1 2026: 0.01
+    Q2 2026: 0.38
+    Q3 2026: 0.39
+    Q4 2026: 0.44
+    Q1 2027: 0.1
+  annual_forecast:
+    2021 Yearly: -0.1
+    2022 Yearly: 0.93
+    2023 Yearly: -2.66
+    2024 Yearly: 1.47
+    2025 Yearly: 0.8
+    2026 Yearly: 1.32
+    2027 Yearly: 1.4
+    2028 Yearly: 1.55

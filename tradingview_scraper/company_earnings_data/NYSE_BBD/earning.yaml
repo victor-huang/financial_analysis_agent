@@ -1,0 +1,76 @@
+currency: USD
+company_name: Banco Bradesco Sa
+sector: Finance
+market_cap_billions: 35.87
+revenue:
+  quarterly:
+    Q3 2024: 5440.0
+    Q4 2024: 5680.0
+    Q1 2025: 5720.0
+    Q2 2025: 6070.0
+    Q3 2025: 6490.0
+    Q4 2025: 6910.0
+    Q1 2026: 7500.0
+  annual:
+    2021 Yearly: 20970.0
+    2022 Yearly: 22310.0
+    2023 Yearly: 21360.0
+    2024 Yearly: 20850.0
+    2025 Yearly: 26520.0
+  quarterly_forecast:
+    Q3 2024: 5460.0
+    Q4 2024: 5150.0
+    Q1 2025: 5450.0
+    Q2 2025: 5760.0
+    Q3 2025: 6270.0
+    Q4 2025: 6570.0
+    Q1 2026: 7060.0
+    Q2 2026: 7220.0
+    Q3 2026: 7410.0
+    Q4 2026: 7610.0
+    Q1 2027: 7800.0
+  annual_forecast:
+    2022 Yearly: 19410.0
+    2023 Yearly: 22460.0
+    2024 Yearly: 24110.0
+    2025 Yearly: 20230.0
+    2026 Yearly: 25260.0
+    2027 Yearly: 29190.0
+    2028 Yearly: 31660.0
+eps:
+  quarterly:
+    Q3 2024: 0.08
+    Q4 2024: 0.09
+    Q1 2025: 0.1
+    Q2 2025: 0.11
+    Q3 2025: 0.09
+    Q4 2025: 0.12
+    Q1 2026: 0.12
+  annual:
+    2021 Yearly: 0.47
+    2022 Yearly: 0.37
+    2023 Yearly: 0.3
+    2024 Yearly: 0.32
+    2025 Yearly: 0.46
+  quarterly_forecast:
+    Q3 2024: 0.09
+    Q4 2024: 0.09
+    Q1 2025: 0.09
+    Q2 2025: 0.1
+    Q3 2025: 0.11
+    Q4 2025: 0.12
+    Q1 2026: 0.12
+    Q2 2026: 0.13
+    Q3 2026: 0.13
+    Q4 2026: 0.14
+    Q1 2027: 0.14
+  annual_forecast:
+    2021 Yearly: 0.46
+    2022 Yearly: 0.43
+    2023 Yearly: 0.35
+    2024 Yearly: 0.31
+    2025 Yearly: 0.44
+    2026 Yearly: 0.53
+    2027 Yearly: 0.6
+    2028 Yearly: 0.65
+    2029 Yearly: 0.73

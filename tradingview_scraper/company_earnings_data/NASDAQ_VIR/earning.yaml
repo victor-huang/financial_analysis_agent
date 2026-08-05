@@ -1,0 +1,73 @@
+currency: USD
+company_name: Vir Biotechnology, Inc.
+sector: Health Technology
+market_cap_billions: 1.55
+revenue:
+  quarterly:
+    Q3 2024: 2.38
+    Q4 2024: 12.37
+    Q1 2025: 3.03
+    Q2 2025: 1.21
+    Q4 2025: 64.07
+  annual:
+    2021 Yearly: 1100.0
+    2022 Yearly: 1620.0
+    2023 Yearly: 86.18
+    2024 Yearly: 74.2
+    2025 Yearly: 68.56
+  quarterly_forecast:
+    Q4 2024: 5.54
+    Q1 2025: 8.17
+    Q2 2025: 8.59
+    Q3 2025: 2.72
+    Q4 2025: 1.98
+    Q1 2026: 19.91
+    Q2 2026: 55.49
+    Q4 2026: 135.88
+  annual_forecast:
+    2021 Yearly: 905.58
+    2022 Yearly: 1710.0
+    2023 Yearly: 79.68
+    2024 Yearly: 68.66
+    2025 Yearly: 20.8
+    2026 Yearly: 161.89
+    2027 Yearly: 93.12
+    2028 Yearly: 123.64
+    2029 Yearly: 200.94
+eps:
+  quarterly:
+    Q3 2024: -1.56
+    Q4 2024: -0.76
+    Q1 2025: -0.88
+    Q2 2025: -0.8
+    Q3 2025: -1.17
+    Q4 2025: -0.31
+    Q1 2026: -0.85
+  annual:
+    2021 Yearly: 3.96
+    2022 Yearly: 3.83
+    2023 Yearly: -4.59
+    2024 Yearly: -3.83
+    2025 Yearly: -3.16
+  quarterly_forecast:
+    Q3 2024: -1.05
+    Q4 2024: -0.87
+    Q1 2025: -0.84
+    Q2 2025: -0.72
+    Q3 2025: -0.84
+    Q4 2025: -0.49
+    Q1 2026: -0.1
+    Q2 2026: 0.33
+    Q3 2026: -0.75
+    Q4 2026: -0.65
+    Q1 2027: -0.48
+  annual_forecast:
+    2021 Yearly: 2.7
+    2022 Yearly: 4.31
+    2023 Yearly: -4.66
+    2024 Yearly: -3.88
+    2025 Yearly: -3.35
+    2026 Yearly: -1.93
+    2027 Yearly: -2.35
+    2028 Yearly: -1.8
+    2029 Yearly: -1.38

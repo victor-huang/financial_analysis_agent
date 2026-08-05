@@ -1,0 +1,78 @@
+currency: USD
+company_name: Sunrun Inc.
+sector: Electronic Technology
+market_cap_billions: 2.63
+revenue:
+  quarterly:
+    Q3 2024: 537.17
+    Q4 2024: 518.49
+    Q1 2025: 504.27
+    Q2 2025: 569.34
+    Q3 2025: 724.56
+    Q4 2025: 1160.0
+    Q1 2026: 722.23
+  annual:
+    2021 Yearly: 1610.0
+    2022 Yearly: 2320.0
+    2023 Yearly: 2260.0
+    2024 Yearly: 2040.0
+    2025 Yearly: 2960.0
+  quarterly_forecast:
+    Q3 2024: 565.56
+    Q4 2024: 538.33
+    Q1 2025: 485.21
+    Q2 2025: 559.38
+    Q3 2025: 597.01
+    Q4 2025: 607.01
+    Q1 2026: 657.86
+    Q2 2026: 746.87
+    Q3 2026: 809.52
+    Q4 2026: 838.66
+    Q1 2027: 809.23
+  annual_forecast:
+    2021 Yearly: 1590.0
+    2022 Yearly: 2300.0
+    2023 Yearly: 2270.0
+    2024 Yearly: 2050.0
+    2025 Yearly: 2400.0
+    2026 Yearly: 3040.0
+    2027 Yearly: 3280.0
+    2028 Yearly: 3730.0
+    2029 Yearly: 3490.0
+eps:
+  quarterly:
+    Q3 2024: -0.37
+    Q4 2024: -12.51
+    Q1 2025: 0.2
+    Q2 2025: 1.07
+    Q3 2025: 0.06
+    Q4 2025: 0.38
+    Q1 2026: 0.62
+  annual:
+    2021 Yearly: -0.39
+    2022 Yearly: 0.8
+    2023 Yearly: -7.41
+    2024 Yearly: -12.81
+    2025 Yearly: 1.71
+  quarterly_forecast:
+    Q3 2024: -0.09
+    Q4 2024: -0.29
+    Q1 2025: -0.34
+    Q2 2025: -0.09
+    Q3 2025: 0.08
+    Q4 2025: 0.03
+    Q1 2026: -0.07
+    Q2 2026: 0.23
+    Q3 2026: 0.16
+    Q4 2026: 0.06
+    Q1 2027: -0.01
+  annual_forecast:
+    2021 Yearly: -0.33
+    2022 Yearly: 0.5
+    2023 Yearly: -5.91
+    2024 Yearly: -0.44
+    2025 Yearly: 1.38
+    2026 Yearly: 1.22
+    2027 Yearly: 0.47
+    2028 Yearly: 0.72
+    2029 Yearly: 1.42

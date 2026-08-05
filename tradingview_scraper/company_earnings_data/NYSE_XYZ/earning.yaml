@@ -1,0 +1,78 @@
+currency: USD
+company_name: Block, Inc.
+sector: Commercial Services
+market_cap_billions: 50.38
+revenue:
+  quarterly:
+    Q3 2024: 5980.0
+    Q4 2024: 6030.0
+    Q1 2025: 5770.0
+    Q2 2025: 6050.0
+    Q3 2025: 6110.0
+    Q4 2025: 6250.0
+    Q1 2026: 6060.0
+  annual:
+    2021 Yearly: 17660.0
+    2022 Yearly: 17530.0
+    2023 Yearly: 21920.0
+    2024 Yearly: 24120.0
+    2025 Yearly: 24190.0
+  quarterly_forecast:
+    Q3 2024: 6240.0
+    Q4 2024: 6290.0
+    Q1 2025: 6190.0
+    Q2 2025: 6300.0
+    Q3 2025: 6300.0
+    Q4 2025: 6210.0
+    Q1 2026: 6030.0
+    Q2 2026: 6470.0
+    Q3 2026: 6590.0
+    Q4 2026: 6760.0
+    Q1 2027: 6700.0
+  annual_forecast:
+    2021 Yearly: 17650.0
+    2022 Yearly: 17500.0
+    2023 Yearly: 21850.0
+    2024 Yearly: 24450.0
+    2025 Yearly: 24250.0
+    2026 Yearly: 25920.0
+    2027 Yearly: 28960.0
+    2028 Yearly: 32150.0
+    2029 Yearly: 29720.0
+eps:
+  quarterly:
+    Q3 2024: 0.88
+    Q4 2024: 0.71
+    Q1 2025: 0.56
+    Q2 2025: 0.62
+    Q3 2025: 0.54
+    Q4 2025: 0.65
+    Q1 2026: 0.85
+  annual:
+    2021 Yearly: 1.71
+    2022 Yearly: 1.0
+    2023 Yearly: 1.8
+    2024 Yearly: 3.37
+    2025 Yearly: 2.37
+  quarterly_forecast:
+    Q3 2024: 0.88
+    Q4 2024: 0.88
+    Q1 2025: 0.97
+    Q2 2025: 0.63
+    Q3 2025: 0.64
+    Q4 2025: 0.65
+    Q1 2026: 0.68
+    Q2 2026: 0.87
+    Q3 2026: 1.01
+    Q4 2026: 1.18
+    Q1 2027: 1.12
+  annual_forecast:
+    2021 Yearly: 1.66
+    2022 Yearly: 1.11
+    2023 Yearly: 1.94
+    2024 Yearly: 3.55
+    2025 Yearly: 2.39
+    2026 Yearly: 3.9
+    2027 Yearly: 5.09
+    2028 Yearly: 6.37
+    2029 Yearly: 7.83

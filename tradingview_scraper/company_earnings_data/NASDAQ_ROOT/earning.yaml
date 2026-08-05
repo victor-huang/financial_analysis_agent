@@ -1,0 +1,76 @@
+currency: USD
+company_name: Root, Inc.
+sector: Finance
+market_cap_billions: 0.93565
+revenue:
+  quarterly:
+    Q3 2024: 305.7
+    Q4 2024: 326.7
+    Q1 2025: 349.4
+    Q2 2025: 382.9
+    Q3 2025: 387.8
+    Q4 2025: 397.0
+    Q1 2026: 393.5
+  annual:
+    2021 Yearly: 742.6
+    2022 Yearly: 600.0
+    2023 Yearly: 455.0
+    2024 Yearly: 1180.0
+    2025 Yearly: 1520.0
+  quarterly_forecast:
+    Q3 2024: 272.77
+    Q4 2024: 290.99
+    Q1 2025: 318.87
+    Q2 2025: 354.17
+    Q3 2025: 369.51
+    Q4 2025: 383.25
+    Q1 2026: 398.16
+    Q2 2026: 395.14
+    Q3 2026: 396.99
+    Q4 2026: 405.67
+    Q1 2027: 417.88
+  annual_forecast:
+    2021 Yearly: 728.28
+    2022 Yearly: 617.55
+    2023 Yearly: 389.47
+    2024 Yearly: 1140.0
+    2025 Yearly: 1500.0
+    2026 Yearly: 1590.0
+    2027 Yearly: 1700.0
+    2028 Yearly: 1890.0
+eps:
+  quarterly:
+    Q3 2024: 1.35
+    Q4 2024: 1.42
+    Q1 2025: 1.07
+    Q2 2025: 1.29
+    Q3 2025: -0.35
+    Q4 2025: 0.31
+    Q1 2026: 2.09
+  annual:
+    2021 Yearly: -37.62
+    2022 Yearly: -21.11
+    2023 Yearly: -10.24
+    2024 Yearly: 1.83
+    2025 Yearly: 2.36
+  quarterly_forecast:
+    Q3 2024: -0.93
+    Q4 2024: -0.45
+    Q1 2025: 0.34
+    Q2 2025: 0.56
+    Q3 2025: -0.53
+    Q4 2025: -0.25
+    Q1 2026: 0.84
+    Q2 2026: 0.83
+    Q3 2026: 0.39
+    Q4 2026: -0.12
+    Q1 2027: 1.45
+  annual_forecast:
+    2021 Yearly: -38.42
+    2022 Yearly: -21.54
+    2023 Yearly: -11.18
+    2024 Yearly: -0.06
+    2025 Yearly: 2.01
+    2026 Yearly: 3.18
+    2027 Yearly: 2.62
+    2028 Yearly: 2.76

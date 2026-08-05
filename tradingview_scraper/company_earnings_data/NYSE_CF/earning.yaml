@@ -1,0 +1,78 @@
+currency: USD
+company_name: CF Industries Holdings, Inc.
+sector: Process Industries
+market_cap_billions: 18.15
+revenue:
+  quarterly:
+    Q3 2024: 1370.0
+    Q4 2024: 1520.0
+    Q1 2025: 1660.0
+    Q2 2025: 1890.0
+    Q3 2025: 1660.0
+    Q4 2025: 1870.0
+    Q1 2026: 1990.0
+  annual:
+    2021 Yearly: 6540.0
+    2022 Yearly: 11190.0
+    2023 Yearly: 6630.0
+    2024 Yearly: 5940.0
+    2025 Yearly: 7080.0
+  quarterly_forecast:
+    Q3 2024: 1280.0
+    Q4 2024: 1500.0
+    Q1 2025: 1540.0
+    Q2 2025: 1800.0
+    Q3 2025: 1670.0
+    Q4 2025: 1780.0
+    Q1 2026: 1840.0
+    Q2 2026: 2450.0
+    Q3 2026: 1980.0
+    Q4 2026: 1930.0
+    Q1 2027: 2000.0
+  annual_forecast:
+    2021 Yearly: 6500.0
+    2022 Yearly: 11390.0
+    2023 Yearly: 6570.0
+    2024 Yearly: 5890.0
+    2025 Yearly: 6980.0
+    2026 Yearly: 8520.0
+    2027 Yearly: 7280.0
+    2028 Yearly: 6790.0
+    2029 Yearly: 6230.0
+eps:
+  quarterly:
+    Q3 2024: 1.33
+    Q4 2024: 1.9
+    Q1 2025: 1.97
+    Q2 2025: 2.36
+    Q3 2025: 2.28
+    Q4 2025: 2.72
+    Q1 2026: 4.1
+  annual:
+    2021 Yearly: 6.56
+    2022 Yearly: 16.39
+    2023 Yearly: 8.23
+    2024 Yearly: 6.55
+    2025 Yearly: 9.57
+  quarterly_forecast:
+    Q3 2024: 1.16
+    Q4 2024: 1.54
+    Q1 2025: 1.48
+    Q2 2025: 2.5
+    Q3 2025: 2.16
+    Q4 2025: 2.43
+    Q1 2026: 2.63
+    Q2 2026: 5.63
+    Q3 2026: 3.84
+    Q4 2026: 3.59
+    Q1 2027: 3.37
+  annual_forecast:
+    2021 Yearly: 5.73
+    2022 Yearly: 17.51
+    2023 Yearly: 8.16
+    2024 Yearly: 6.28
+    2025 Yearly: 8.92
+    2026 Yearly: 16.72
+    2027 Yearly: 10.99
+    2028 Yearly: 9.02
+    2029 Yearly: 7.45

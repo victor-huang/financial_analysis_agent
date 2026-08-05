@@ -1,0 +1,76 @@
+currency: USD
+company_name: Horace Mann Educators Corporation
+sector: Finance
+market_cap_billions: 2.1
+revenue:
+  quarterly:
+    Q3 2024: 289.94
+    Q4 2024: 409.0
+    Q1 2025: 416.4
+    Q2 2025: 302.6
+    Q3 2025: 438.5
+    Q4 2025: 317.2
+    Q1 2026: 313.0
+  annual:
+    2021 Yearly: 1330.0
+    2022 Yearly: 1030.0
+    2023 Yearly: 1060.0
+    2024 Yearly: 1600.0
+    2025 Yearly: 1230.0
+  quarterly_forecast:
+    Q3 2024: 293.87
+    Q4 2024: 298.83
+    Q1 2025: 297.25
+    Q2 2025: 304.3
+    Q3 2025: 307.65
+    Q4 2025: 314.05
+    Q1 2026: 319.1
+    Q2 2026: 321.7
+    Q3 2026: 323.4
+    Q4 2026: 326.2
+    Q1 2027: 332.6
+  annual_forecast:
+    2021 Yearly: 1190.0
+    2022 Yearly: 1020.0
+    2023 Yearly: 1060.0
+    2024 Yearly: 1300.0
+    2025 Yearly: 1390.0
+    2026 Yearly: 1270.0
+    2027 Yearly: 1330.0
+    2028 Yearly: 1400.0
+eps:
+  quarterly:
+    Q3 2024: 0.76
+    Q4 2024: 1.62
+    Q1 2025: 1.07
+    Q2 2025: 1.07
+    Q3 2025: 1.36
+    Q4 2025: 1.21
+    Q1 2026: 1.28
+  annual:
+    2021 Yearly: 3.59
+    2022 Yearly: 1.09
+    2023 Yearly: 1.54
+    2024 Yearly: 3.18
+    2025 Yearly: 4.71
+  quarterly_forecast:
+    Q3 2024: 0.72
+    Q4 2024: 1.02
+    Q1 2025: 0.97
+    Q2 2025: 0.6
+    Q3 2025: 1.16
+    Q4 2025: 1.18
+    Q1 2026: 1.13
+    Q2 2026: 0.79
+    Q3 2026: 1.12
+    Q4 2026: 1.42
+    Q1 2027: 1.35
+  annual_forecast:
+    2021 Yearly: 3.36
+    2022 Yearly: 1.11
+    2023 Yearly: 1.41
+    2024 Yearly: 2.58
+    2025 Yearly: 4.68
+    2026 Yearly: 4.52
+    2027 Yearly: 5.18
+    2028 Yearly: 5.36

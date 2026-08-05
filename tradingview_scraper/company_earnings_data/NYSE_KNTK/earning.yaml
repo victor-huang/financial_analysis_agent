@@ -1,0 +1,78 @@
+currency: USD
+company_name: Kinetik Holdings Inc.
+sector: Industrial Services
+market_cap_billions: 7.9
+revenue:
+  quarterly:
+    Q3 2024: 396.36
+    Q4 2024: 385.72
+    Q1 2025: 443.26
+    Q2 2025: 426.74
+    Q3 2025: 463.97
+    Q4 2025: 430.42
+    Q1 2026: 409.98
+  annual:
+    2021 Yearly: 160.62
+    2022 Yearly: 1210.0
+    2023 Yearly: 1260.0
+    2024 Yearly: 1480.0
+    2025 Yearly: 1760.0
+  quarterly_forecast:
+    Q3 2024: 331.21
+    Q4 2024: 390.3
+    Q1 2025: 438.77
+    Q2 2025: 444.59
+    Q3 2025: 434.28
+    Q4 2025: 433.31
+    Q1 2026: 437.18
+    Q2 2026: 445.75
+    Q3 2026: 485.52
+    Q4 2026: 511.88
+    Q1 2027: 547.02
+  annual_forecast:
+    2021 Yearly: 127.98
+    2022 Yearly: 1180.0
+    2023 Yearly: 1190.0
+    2024 Yearly: 1520.0
+    2025 Yearly: 1670.0
+    2026 Yearly: 1900.0
+    2027 Yearly: 2220.0
+    2028 Yearly: 2450.0
+    2029 Yearly: 3570.0
+eps:
+  quarterly:
+    Q3 2024: 0.35
+    Q4 2024: 0.01
+    Q1 2025: 0.05
+    Q2 2025: 0.33
+    Q3 2025: 0.03
+    Q4 2025: 2.16
+    Q1 2026: -0.07
+  annual:
+    2021 Yearly: 0.09
+    2022 Yearly: 1.48
+    2023 Yearly: 2.38
+    2024 Yearly: 1.02
+    2025 Yearly: 2.63
+  quarterly_forecast:
+    Q3 2024: 0.45
+    Q4 2024: 0.38
+    Q1 2025: 0.31
+    Q2 2025: 0.22
+    Q3 2025: 0.3
+    Q4 2025: 0.27
+    Q1 2026: 0.22
+    Q2 2026: 0.26
+    Q3 2026: 0.31
+    Q4 2026: 0.35
+    Q1 2027: 0.36
+  annual_forecast:
+    2021 Yearly: 2.77
+    2022 Yearly: 1.36
+    2023 Yearly: 1.27
+    2024 Yearly: 1.53
+    2025 Yearly: 1.11
+    2026 Yearly: 0.93
+    2027 Yearly: 1.63
+    2028 Yearly: 2.16
+    2029 Yearly: 2.69

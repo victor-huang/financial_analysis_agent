@@ -1,0 +1,78 @@
+currency: USD
+company_name: Qiagen N.V.
+sector: Health Technology
+market_cap_billions: 8.72
+revenue:
+  quarterly:
+    Q3 2024: 501.87
+    Q4 2024: 521.0
+    Q1 2025: 483.46
+    Q2 2025: 533.54
+    Q3 2025: 533.0
+    Q4 2025: 540.42
+    Q1 2026: 492.32
+  annual:
+    2021 Yearly: 2250.0
+    2022 Yearly: 2140.0
+    2023 Yearly: 1970.0
+    2024 Yearly: 1980.0
+    2025 Yearly: 2090.0
+  quarterly_forecast:
+    Q3 2024: 491.2
+    Q4 2024: 521.05
+    Q1 2025: 468.87
+    Q2 2025: 523.99
+    Q3 2025: 525.93
+    Q4 2025: 528.42
+    Q1 2026: 496.15
+    Q2 2026: 527.5
+    Q3 2026: 552.66
+    Q4 2026: 567.29
+    Q1 2027: 516.18
+  annual_forecast:
+    2021 Yearly: 2200.0
+    2022 Yearly: 2130.0
+    2023 Yearly: 1960.0
+    2024 Yearly: 1980.0
+    2025 Yearly: 2080.0
+    2026 Yearly: 2140.0
+    2027 Yearly: 2250.0
+    2028 Yearly: 2380.0
+    2029 Yearly: 2520.0
+eps:
+  quarterly:
+    Q3 2024: 0.62
+    Q4 2024: 0.64
+    Q1 2025: 0.58
+    Q2 2025: 0.63
+    Q3 2025: 0.64
+    Q4 2025: 0.62
+    Q1 2026: 0.54
+  annual:
+    2021 Yearly: 2.96
+    2022 Yearly: 2.66
+    2023 Yearly: 2.26
+    2024 Yearly: 2.36
+    2025 Yearly: 2.38
+  quarterly_forecast:
+    Q3 2024: 0.59
+    Q4 2024: 0.65
+    Q1 2025: 0.53
+    Q2 2025: 0.63
+    Q3 2025: 0.62
+    Q4 2025: 0.6
+    Q1 2026: 0.54
+    Q2 2026: 0.6
+    Q3 2026: 0.64
+    Q4 2026: 0.66
+    Q1 2027: 0.58
+  annual_forecast:
+    2021 Yearly: 2.8
+    2022 Yearly: 2.57
+    2023 Yearly: 2.28
+    2024 Yearly: 2.34
+    2025 Yearly: 2.39
+    2026 Yearly: 2.41
+    2027 Yearly: 2.6
+    2028 Yearly: 2.83
+    2029 Yearly: 3.1

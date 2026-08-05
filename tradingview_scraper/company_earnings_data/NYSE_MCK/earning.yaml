@@ -1,0 +1,78 @@
+currency: USD
+company_name: McKesson Corporation
+sector: Distribution Services
+market_cap_billions: 97.22
+revenue:
+  quarterly:
+    Q2 2024: 93650.0
+    Q3 2024: 95290.0
+    Q4 2024: 90820.0
+    Q1 2025: 97830.0
+    Q2 2025: 103150.0
+    Q3 2025: 106160.0
+    Q4 2025: 96300.0
+  annual:
+    2021 Yearly: 263970.0
+    2022 Yearly: 276710.0
+    2023 Yearly: 308950.0
+    2024 Yearly: 359050.0
+    2025 Yearly: 403430.0
+  quarterly_forecast:
+    Q2 2024: 89330.0
+    Q3 2024: 96050.0
+    Q4 2024: 94300.0
+    Q1 2025: 96180.0
+    Q2 2025: 104140.0
+    Q3 2025: 105800.0
+    Q4 2025: 101350.0
+    Q1 2026: 103880.0
+    Q2 2026: 109950.0
+    Q3 2026: 113450.0
+    Q4 2026: 103810.0
+  annual_forecast:
+    2021 Yearly: 260880.0
+    2022 Yearly: 275910.0
+    2023 Yearly: 311920.0
+    2024 Yearly: 362560.0
+    2025 Yearly: 408470.0
+    2026 Yearly: 431210.0
+    2027 Yearly: 463470.0
+    2028 Yearly: 499110.0
+    2029 Yearly: 530420.0
+eps:
+  quarterly:
+    Q2 2024: 7.07
+    Q3 2024: 8.03
+    Q4 2024: 10.12
+    Q1 2025: 8.26
+    Q2 2025: 9.86
+    Q3 2025: 9.34
+    Q4 2025: 11.69
+  annual:
+    2021 Yearly: 23.69
+    2022 Yearly: 25.94
+    2023 Yearly: 27.44
+    2024 Yearly: 33.05
+    2025 Yearly: 39.11
+  quarterly_forecast:
+    Q2 2024: 6.88
+    Q3 2024: 7.99
+    Q4 2024: 9.83
+    Q1 2025: 8.14
+    Q2 2025: 9.03
+    Q3 2025: 9.17
+    Q4 2025: 11.56
+    Q1 2026: 9.56
+    Q2 2026: 10.75
+    Q3 2026: 11.08
+    Q4 2026: 12.91
+  annual_forecast:
+    2021 Yearly: 23.89
+    2022 Yearly: 25.96
+    2023 Yearly: 27.61
+    2024 Yearly: 32.78
+    2025 Yearly: 39.01
+    2026 Yearly: 44.26
+    2027 Yearly: 50.42
+    2028 Yearly: 57.74
+    2029 Yearly: 66.97

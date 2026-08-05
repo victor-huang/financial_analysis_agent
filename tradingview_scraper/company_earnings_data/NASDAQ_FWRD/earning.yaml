@@ -1,0 +1,74 @@
+currency: USD
+company_name: Forward Air Corporation
+sector: Transportation
+market_cap_billions: 0.48386
+revenue:
+  quarterly:
+    Q3 2024: 655.94
+    Q4 2024: 632.85
+    Q1 2025: 613.28
+    Q2 2025: 618.84
+    Q3 2025: 631.76
+    Q4 2025: 631.23
+    Q1 2026: 582.05
+  annual:
+    2021 Yearly: 1660.0
+    2022 Yearly: 1970.0
+    2023 Yearly: 1580.0
+    2024 Yearly: 2470.0
+    2025 Yearly: 2500.0
+  quarterly_forecast:
+    Q3 2024: 655.7
+    Q4 2024: 667.39
+    Q1 2025: 617.17
+    Q2 2025: 627.98
+    Q3 2025: 639.91
+    Q4 2025: 628.85
+    Q1 2026: 620.23
+    Q2 2026: 634.37
+    Q3 2026: 651.51
+    Q4 2026: 659.99
+    Q1 2027: 604.3
+  annual_forecast:
+    2022 Yearly: 1650.0
+    2023 Yearly: 2000.0
+    2024 Yearly: 1650.0
+    2025 Yearly: 2510.0
+    2026 Yearly: 2490.0
+    2027 Yearly: 2540.0
+eps:
+  quarterly:
+    Q3 2024: -2.62
+    Q4 2024: -1.23
+    Q1 2025: -0.35
+    Q2 2025: -0.03
+    Q3 2025: -0.52
+    Q4 2025: -0.26
+    Q1 2026: -0.77
+  annual:
+    2021 Yearly: 4.43
+    2022 Yearly: 7.18
+    2023 Yearly: 3.92
+    2024 Yearly: -29.43
+    2025 Yearly: -2.1
+  quarterly_forecast:
+    Q3 2024: -0.17
+    Q4 2024: -0.18
+    Q1 2025: -0.55
+    Q2 2025: -0.26
+    Q3 2025: -0.17
+    Q4 2025: -0.26
+    Q1 2026: -0.39
+    Q2 2026: -0.15
+    Q3 2026: -0.12
+    Q4 2026: -0.16
+    Q1 2027: -0.25
+  annual_forecast:
+    2021 Yearly: 4.17
+    2022 Yearly: 7.47
+    2023 Yearly: 4.22
+    2024 Yearly: -0.71
+    2025 Yearly: -1.01
+    2026 Yearly: -0.93
+    2027 Yearly: -0.28
+    2028 Yearly: 0.7

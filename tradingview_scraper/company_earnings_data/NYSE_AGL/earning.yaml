@@ -1,0 +1,78 @@
+currency: USD
+company_name: agilon health, inc.
+sector: Health Services
+market_cap_billions: 1.58
+revenue:
+  quarterly:
+    Q3 2024: 1450.0
+    Q4 2024: 1520.0
+    Q1 2025: 1530.0
+    Q2 2025: 1390.0
+    Q3 2025: 1440.0
+    Q4 2025: 1570.0
+    Q1 2026: 1420.0
+  annual:
+    2021 Yearly: 1830.0
+    2022 Yearly: 2710.0
+    2023 Yearly: 4320.0
+    2024 Yearly: 6060.0
+    2025 Yearly: 5930.0
+  quarterly_forecast:
+    Q3 2024: 1470.0
+    Q4 2024: 1520.0
+    Q1 2025: 1500.0
+    Q2 2025: 1470.0
+    Q3 2025: 1420.0
+    Q4 2025: 1470.0
+    Q1 2026: 1380.0
+    Q2 2026: 1450.0
+    Q3 2026: 1410.0
+    Q4 2026: 1440.0
+    Q1 2027: 1510.0
+  annual_forecast:
+    2021 Yearly: 1820.0
+    2022 Yearly: 2680.0
+    2023 Yearly: 4500.0
+    2024 Yearly: 6060.0
+    2025 Yearly: 5820.0
+    2026 Yearly: 5720.0
+    2027 Yearly: 6080.0
+    2028 Yearly: 6780.0
+    2029 Yearly: 7750.0
+eps:
+  quarterly:
+    Q3 2024: -7.25
+    Q4 2024: -6.5
+    Q1 2025: 0.73
+    Q2 2025: -6.25
+    Q3 2025: -6.75
+    Q4 2025: -11.5
+    Q1 2026: 2.94
+  annual:
+    2021 Yearly: -27.25
+    2022 Yearly: -6.5
+    2023 Yearly: -12.0
+    2024 Yearly: -15.25
+    2025 Yearly: -24.5
+  quarterly_forecast:
+    Q3 2024: -2.46
+    Q4 2024: -5.42
+    Q1 2025: -0.07
+    Q2 2025: -2.73
+    Q3 2025: -3.73
+    Q4 2025: -7.07
+    Q1 2026: 1.04
+    Q2 2026: 0.12
+    Q3 2026: -1.15
+    Q4 2026: -3.54
+    Q1 2027: 1.36
+  annual_forecast:
+    2021 Yearly: -25.52
+    2022 Yearly: -5.23
+    2023 Yearly: -8.48
+    2024 Yearly: -13.89
+    2025 Yearly: -19.53
+    2026 Yearly: -3.04
+    2027 Yearly: -0.81
+    2028 Yearly: 1.83
+    2029 Yearly: 2.91

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Ormat Technologies, Inc.
+sector: Utilities
+market_cap_billions: 6.15
+revenue:
+  quarterly:
+    Q3 2024: 211.8
+    Q4 2024: 230.74
+    Q1 2025: 229.76
+    Q2 2025: 234.02
+    Q3 2025: 249.73
+    Q4 2025: 276.04
+    Q1 2026: 403.9
+  annual:
+    2021 Yearly: 663.1
+    2022 Yearly: 734.1
+    2023 Yearly: 829.42
+    2024 Yearly: 879.65
+    2025 Yearly: 989.54
+  quarterly_forecast:
+    Q3 2024: 215.53
+    Q4 2024: 235.14
+    Q1 2025: 227.48
+    Q2 2025: 221.64
+    Q3 2025: 233.84
+    Q4 2025: 257.68
+    Q1 2026: 349.17
+    Q2 2026: 240.03
+    Q3 2026: 247.67
+    Q4 2026: 272.77
+    Q1 2027: 300.41
+  annual_forecast:
+    2021 Yearly: 654.16
+    2022 Yearly: 729.62
+    2023 Yearly: 827.46
+    2024 Yearly: 884.06
+    2025 Yearly: 971.21
+    2026 Yearly: 1160.0
+    2027 Yearly: 1170.0
+    2028 Yearly: 1310.0
+    2029 Yearly: 1380.0
+eps:
+  quarterly:
+    Q3 2024: 0.36
+    Q4 2024: 0.67
+    Q1 2025: 0.66
+    Q2 2025: 0.46
+    Q3 2025: 0.41
+    Q4 2025: 0.67
+    Q1 2026: 1.3
+  annual:
+    2021 Yearly: 1.1
+    2022 Yearly: 1.17
+    2023 Yearly: 2.08
+    2024 Yearly: 2.04
+    2025 Yearly: 2.24
+  quarterly_forecast:
+    Q3 2024: 0.28
+    Q4 2024: 0.49
+    Q1 2025: 0.61
+    Q2 2025: 0.4
+    Q3 2025: 0.38
+    Q4 2025: 0.64
+    Q1 2026: 0.91
+    Q2 2026: 0.26
+    Q3 2026: 0.24
+    Q4 2026: 0.53
+    Q1 2027: 0.71
+  annual_forecast:
+    2021 Yearly: 1.1
+    2022 Yearly: 1.33
+    2023 Yearly: 2.05
+    2024 Yearly: 1.87
+    2025 Yearly: 2.19
+    2026 Yearly: 2.29
+    2027 Yearly: 2.49
+    2028 Yearly: 3.13
+    2029 Yearly: 3.05

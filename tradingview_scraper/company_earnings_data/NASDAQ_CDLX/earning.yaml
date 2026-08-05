@@ -1,0 +1,74 @@
+currency: USD
+company_name: Cardlytics, Inc. Common Stock
+sector: Technology Services
+market_cap_billions: 0.023350000000000003
+revenue:
+  quarterly:
+    Q3 2024: 67.06
+    Q4 2024: 74.0
+    Q1 2025: 61.9
+    Q2 2025: 63.25
+    Q3 2025: 52.03
+    Q4 2025: 56.09
+    Q1 2026: 34.32
+  annual:
+    2021 Yearly: 267.12
+    2022 Yearly: 298.5
+    2023 Yearly: 309.2
+    2024 Yearly: 278.3
+    2025 Yearly: 233.27
+  quarterly_forecast:
+    Q3 2024: 57.77
+    Q4 2024: 63.63
+    Q1 2025: 58.01
+    Q2 2025: 64.02
+    Q3 2025: 54.54
+    Q4 2025: 54.46
+    Q1 2026: 37.2
+    Q2 2026: 37.0
+    Q3 2026: 38.59
+    Q4 2026: 41.48
+    Q1 2027: 34.64
+  annual_forecast:
+    2021 Yearly: 253.59
+    2022 Yearly: 299.56
+    2023 Yearly: 307.84
+    2024 Yearly: 267.93
+    2025 Yearly: 231.77
+    2026 Yearly: 152.86
+    2027 Yearly: 163.96
+eps:
+  quarterly:
+    Q3 2024: -29.0
+    Q4 2024: -3.1
+    Q1 2025: -2.6
+    Q2 2025: -1.8
+    Q3 2025: -13.6
+    Q4 2025: -1.5
+    Q1 2026: -0.8
+  annual:
+    2021 Yearly: -39.9
+    2022 Yearly: -139.2
+    2023 Yearly: -36.9
+    2024 Yearly: -39.1
+    2025 Yearly: -19.5
+  quarterly_forecast:
+    Q3 2024: -5.67
+    Q4 2024: -4.7
+    Q1 2025: -4.8
+    Q2 2025: -3.9
+    Q3 2025: -3.27
+    Q4 2025: -2.07
+    Q1 2026: -3.7
+    Q2 2026: -2.3
+    Q3 2026: -2.1
+    Q4 2026: -1.83
+    Q1 2027: -2.55
+  annual_forecast:
+    2021 Yearly: -44.58
+    2022 Yearly: -23.82
+    2023 Yearly: -11.55
+    2024 Yearly: -40.7
+    2025 Yearly: -20.07
+    2026 Yearly: -8.2
+    2027 Yearly: -7.35

@@ -1,0 +1,78 @@
+currency: USD
+company_name: AXIA Energia
+sector: Utilities
+market_cap_billions: 23.93
+revenue:
+  quarterly:
+    Q3 2024: 1940.0
+    Q4 2024: 1890.0
+    Q1 2025: 1750.0
+    Q2 2025: 1800.0
+    Q3 2025: 1860.0
+    Q4 2025: 1950.0
+    Q1 2026: 2330.0
+  annual:
+    2021 Yearly: 7920.0
+    2022 Yearly: 6700.0
+    2023 Yearly: 7030.0
+    2024 Yearly: 7180.0
+    2025 Yearly: 7780.0
+  quarterly_forecast:
+    Q3 2024: 1800.0
+    Q4 2024: 1690.0
+    Q1 2025: 1700.0
+    Q2 2025: 1840.0
+    Q3 2025: 1820.0
+    Q4 2025: 1950.0
+    Q1 2026: 2460.0
+    Q2 2026: 2050.0
+    Q3 2026: 2170.0
+    Q4 2026: 2400.0
+    Q1 2027: 2700.0
+  annual_forecast:
+    2021 Yearly: 6280.0
+    2022 Yearly: 6580.0
+    2023 Yearly: 7530.0
+    2024 Yearly: 6730.0
+    2025 Yearly: 7570.0
+    2026 Yearly: 8990.0
+    2027 Yearly: 10260.0
+    2028 Yearly: 9390.0
+    2029 Yearly: 9760.0
+eps:
+  quarterly:
+    Q3 2024: 0.1
+    Q4 2024: 0.1
+    Q1 2025: 0.02
+    Q2 2025: 0.08
+    Q3 2025: 0.15
+    Q4 2025: 0.2
+    Q1 2026: 0.26
+  annual:
+    2021 Yearly: 0.62
+    2022 Yearly: 0.27
+    2023 Yearly: 0.33
+    2024 Yearly: 0.45
+    2025 Yearly: 0.8
+  quarterly_forecast:
+    Q3 2024: 0.14
+    Q4 2024: 0.11
+    Q1 2025: 0.13
+    Q2 2025: 0.1
+    Q3 2025: 0.09
+    Q4 2025: 0.18
+    Q1 2026: 0.29
+    Q2 2026: 0.2
+    Q3 2026: 0.18
+    Q4 2026: 0.26
+    Q1 2027: 0.27
+  annual_forecast:
+    2021 Yearly: 0.83
+    2022 Yearly: 0.35
+    2023 Yearly: 0.48
+    2024 Yearly: 0.42
+    2025 Yearly: -0.58
+    2026 Yearly: 0.85
+    2027 Yearly: 1.06
+    2028 Yearly: 1.06
+    2029 Yearly: 0.68

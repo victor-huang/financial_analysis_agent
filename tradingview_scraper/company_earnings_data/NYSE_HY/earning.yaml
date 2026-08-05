@@ -1,7 +1,7 @@
 currency: USD
 company_name: Hyster-Yale, Inc.
 sector: Producer Manufacturing
-market_cap_billions: 0.62813
+market_cap_billions: 0.62939
 revenue:
   quarterly:
     Q3 2024: 1020.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 979.1
     Q4 2025: 923.2
     Q1 2026: 795.2
+    Q2 2026: 812.9
   annual:
     2021 Yearly: 3080.0
     2022 Yearly: 3550.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 950.63
     Q4 2026: 980.54
     Q1 2027: 913.91
+    Q2 2027: 942.37
   annual_forecast:
     2021 Yearly: 3030.0
     2022 Yearly: 3460.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -0.13
     Q4 2025: -2.96
     Q1 2026: -1.71
+    Q2 2026: -1.76
   annual:
     2021 Yearly: -10.29
     2022 Yearly: -4.38
@@ -66,6 +69,7 @@ eps:
     Q3 2026: -0.07
     Q4 2026: 0.56
     Q1 2027: -0.34
+    Q2 2027: 0.0
   annual_forecast:
     2021 Yearly: -5.24
     2022 Yearly: -5.06

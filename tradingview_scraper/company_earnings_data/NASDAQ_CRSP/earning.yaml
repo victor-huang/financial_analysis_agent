@@ -1,7 +1,7 @@
 currency: USD
 company_name: CRISPR Therapeutics AG
 sector: Health Technology
-market_cap_billions: 4.78
+market_cap_billions: 5.12
 revenue:
   quarterly:
     Q4 2024: 35.69
@@ -22,19 +22,19 @@ revenue:
     Q4 2025: 4.72
     Q1 2026: 6.06
     Q2 2026: 7.45
-    Q3 2026: 16.23
-    Q4 2026: 16.81
-    Q1 2027: 22.16
-    Q2 2027: 26.96
+    Q3 2026: 14.09
+    Q4 2026: 14.06
+    Q1 2027: 17.65
+    Q2 2027: 23.3
   annual_forecast:
     2021 Yearly: 903.86
     2022 Yearly: 6.14
     2023 Yearly: 293.21
     2024 Yearly: 11.17
     2025 Yearly: 7.05
-    2026 Yearly: 38.82
-    2027 Yearly: 145.92
-    2028 Yearly: 579.65
+    2026 Yearly: 36.92
+    2027 Yearly: 144.93
+    2028 Yearly: 591.14
     2029 Yearly: 2460.0
 eps:
   quarterly:
@@ -61,17 +61,17 @@ eps:
     Q4 2025: -1.16
     Q1 2026: -1.22
     Q2 2026: -1.19
-    Q3 2026: -1.13
-    Q4 2026: -1.17
-    Q1 2027: -0.85
-    Q2 2027: -0.76
+    Q3 2026: -1.07
+    Q4 2026: -1.15
+    Q1 2027: -0.84
+    Q2 2027: -0.74
   annual_forecast:
     2021 Yearly: 4.88
     2022 Yearly: -9.09
     2023 Yearly: -2.92
     2024 Yearly: -5.16
     2025 Yearly: -6.21
-    2026 Yearly: -4.71
-    2027 Yearly: -3.53
-    2028 Yearly: -2.33
-    2029 Yearly: 3.69
+    2026 Yearly: -4.52
+    2027 Yearly: -3.35
+    2028 Yearly: -1.85
+    2029 Yearly: 3.85

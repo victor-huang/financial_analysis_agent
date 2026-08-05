@@ -1,7 +1,7 @@
 currency: USD
 company_name: Community Healthcare Trust Incorporated
 sector: Finance
-market_cap_billions: 0.5217200000000001
+market_cap_billions: 0.50601
 revenue:
   quarterly:
     Q3 2024: 29.34
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 30.81
     Q4 2025: 30.68
     Q1 2026: 31.27
+    Q2 2026: 30.97
   annual:
     2021 Yearly: 87.66
     2022 Yearly: 94.1
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 32.19
     Q4 2026: 32.38
     Q1 2027: 33.02
+    Q2 2027: 33.46
   annual_forecast:
     2021 Yearly: 89.89
     2022 Yearly: 95.93
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.03
     Q4 2025: 0.51
     Q1 2026: 0.07
+    Q2 2026: 0.06
   annual:
     2021 Yearly: 0.87
     2022 Yearly: 0.81
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.12
     Q4 2026: 0.13
     Q1 2027: 0.13
+    Q2 2027: 0.14
   annual_forecast:
     2022 Yearly: 0.93
     2023 Yearly: 0.94

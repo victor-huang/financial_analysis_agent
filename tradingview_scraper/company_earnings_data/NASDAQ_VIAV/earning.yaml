@@ -1,0 +1,76 @@
+currency: USD
+company_name: Viavi Solutions Inc.
+sector: Technology Services
+market_cap_billions: 9.95
+revenue:
+  quarterly:
+    Q1 2025: 238.2
+    Q2 2025: 270.8
+    Q3 2025: 284.8
+    Q4 2025: 290.5
+    Q1 2026: 299.1
+    Q2 2026: 369.3
+    Q3 2026: 406.8
+  annual:
+    2021 Yearly: 1200.0
+    2022 Yearly: 1290.0
+    2023 Yearly: 1110.0
+    2024 Yearly: 1000.0
+    2025 Yearly: 1080.0
+  quarterly_forecast:
+    Q1 2025: 240.09
+    Q2 2025: 259.99
+    Q3 2025: 282.13
+    Q4 2025: 285.19
+    Q1 2026: 294.35
+    Q2 2026: 365.25
+    Q3 2026: 393.8
+    Q4 2026: 432.62
+    Q1 2027: 432.23
+    Q2 2027: 444.55
+    Q3 2027: 450.17
+  annual_forecast:
+    2021 Yearly: 1190.0
+    2022 Yearly: 1260.0
+    2023 Yearly: 1110.0
+    2024 Yearly: 1000.0
+    2025 Yearly: 1080.0
+    2026 Yearly: 1510.0
+    2027 Yearly: 1800.0
+    2028 Yearly: 2110.0
+eps:
+  quarterly:
+    Q1 2025: 0.06
+    Q2 2025: 0.13
+    Q3 2025: 0.15
+    Q4 2025: 0.13
+    Q1 2026: 0.15
+    Q2 2026: 0.22
+    Q3 2026: 0.27
+  annual:
+    2021 Yearly: 0.83
+    2022 Yearly: 0.95
+    2023 Yearly: 0.55
+    2024 Yearly: 0.33
+    2025 Yearly: 0.47
+  quarterly_forecast:
+    Q1 2025: 0.06
+    Q2 2025: 0.1
+    Q3 2025: 0.12
+    Q4 2025: 0.12
+    Q1 2026: 0.13
+    Q2 2026: 0.19
+    Q3 2026: 0.23
+    Q4 2026: 0.3
+    Q1 2027: 0.28
+    Q2 2027: 0.32
+    Q3 2027: 0.33
+  annual_forecast:
+    2021 Yearly: 0.8
+    2022 Yearly: 0.93
+    2023 Yearly: 0.53
+    2024 Yearly: 0.32
+    2025 Yearly: 0.45
+    2026 Yearly: 0.94
+    2027 Yearly: 1.28
+    2028 Yearly: 1.84

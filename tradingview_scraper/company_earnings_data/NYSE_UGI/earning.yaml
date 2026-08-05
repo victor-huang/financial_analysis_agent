@@ -1,0 +1,74 @@
+currency: USD
+company_name: UGI Corporation
+sector: Distribution Services
+market_cap_billions: 7.77
+revenue:
+  quarterly:
+    Q4 2024: 1240.0
+    Q1 2025: 2029.9999999999998
+    Q2 2025: 2670.0
+    Q3 2025: 1390.0
+    Q4 2025: 1200.0
+    Q1 2026: 2080.0
+    Q2 2026: 2690.0
+  annual:
+    2021 Yearly: 7450.0
+    2022 Yearly: 10110.0
+    2023 Yearly: 8930.0
+    2024 Yearly: 7210.0
+    2025 Yearly: 7290.0
+  quarterly_forecast:
+    Q2 2025: 1650.0
+    Q3 2025: 2650.0
+    Q4 2025: 3220.0
+    Q1 2026: 1660.0
+    Q2 2026: 1520.0
+    Q3 2026: 2490.0
+    Q4 2026: 3080.0
+  annual_forecast:
+    2021 Yearly: 7140.0
+    2022 Yearly: 8080.0
+    2023 Yearly: 9540.0
+    2024 Yearly: 8270.0
+    2025 Yearly: 7410.0
+    2026 Yearly: 7360.0
+    2027 Yearly: 7720.0
+    2028 Yearly: 7880.0
+    2029 Yearly: 8090.0
+eps:
+  quarterly:
+    Q4 2024: -0.17
+    Q1 2025: 1.37
+    Q2 2025: 2.21
+    Q3 2025: -0.01
+    Q4 2025: -0.25
+    Q1 2026: 1.26
+    Q2 2026: 2.09
+  annual:
+    2021 Yearly: 2.96
+    2022 Yearly: 2.9
+    2023 Yearly: 2.84
+    2024 Yearly: 3.06
+    2025 Yearly: 3.32
+  quarterly_forecast:
+    Q4 2024: -0.29
+    Q1 2025: 1.09
+    Q2 2025: 1.86
+    Q3 2025: -0.1
+    Q4 2025: -0.38
+    Q1 2026: 1.15
+    Q2 2026: 2.11
+    Q3 2026: -0.08
+    Q4 2026: -0.36
+    Q1 2027: 1.43
+    Q2 2027: 2.33
+  annual_forecast:
+    2021 Yearly: 3.04
+    2022 Yearly: 2.84
+    2023 Yearly: 2.75
+    2024 Yearly: 2.94
+    2025 Yearly: 3.18
+    2026 Yearly: 2.83
+    2027 Yearly: 3.29
+    2028 Yearly: 3.56
+    2029 Yearly: 3.81

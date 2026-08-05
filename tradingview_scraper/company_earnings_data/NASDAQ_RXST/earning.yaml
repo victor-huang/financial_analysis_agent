@@ -1,0 +1,76 @@
+currency: USD
+company_name: RxSight, Inc.
+sector: Electronic Technology
+market_cap_billions: 0.25873
+revenue:
+  quarterly:
+    Q3 2024: 35.31
+    Q4 2024: 40.21
+    Q1 2025: 37.9
+    Q2 2025: 33.64
+    Q3 2025: 30.3
+    Q4 2025: 32.61
+    Q1 2026: 30.89
+  annual:
+    2021 Yearly: 22.59
+    2022 Yearly: 49.0
+    2023 Yearly: 89.08
+    2024 Yearly: 139.93
+    2025 Yearly: 134.48
+  quarterly_forecast:
+    Q3 2024: 35.06
+    Q4 2024: 40.31
+    Q1 2025: 38.08
+    Q2 2025: 34.79
+    Q3 2025: 25.28
+    Q4 2025: 30.17
+    Q1 2026: 29.75
+    Q2 2026: 32.55
+    Q3 2026: 35.13
+    Q4 2026: 39.24
+    Q1 2027: 36.27
+  annual_forecast:
+    2021 Yearly: 22.04
+    2022 Yearly: 48.76
+    2023 Yearly: 88.44
+    2024 Yearly: 140.03
+    2025 Yearly: 131.62
+    2026 Yearly: 137.81
+    2027 Yearly: 145.1
+    2028 Yearly: 151.81
+    2029 Yearly: 149.13
+eps:
+  quarterly:
+    Q3 2024: -0.16
+    Q4 2024: -0.15
+    Q1 2025: -0.2
+    Q2 2025: -0.29
+    Q3 2025: -0.24
+    Q4 2025: -0.22
+    Q1 2026: -0.38
+  annual:
+    2021 Yearly: -3.22
+    2022 Yearly: -2.41
+    2023 Yearly: -1.41
+    2024 Yearly: -0.71
+    2025 Yearly: -0.95
+  quarterly_forecast:
+    Q3 2024: -0.25
+    Q4 2024: -0.17
+    Q1 2025: -0.22
+    Q2 2025: -0.25
+    Q3 2025: -0.38
+    Q4 2025: -0.33
+    Q1 2026: -0.3
+    Q2 2026: -0.33
+    Q3 2026: -0.27
+    Q4 2026: -0.22
+    Q1 2027: -0.29
+  annual_forecast:
+    2022 Yearly: -2.66
+    2023 Yearly: -2.61
+    2024 Yearly: -1.53
+    2025 Yearly: -0.72
+    2026 Yearly: -1.05
+    2027 Yearly: -1.19
+    2028 Yearly: -1.19
