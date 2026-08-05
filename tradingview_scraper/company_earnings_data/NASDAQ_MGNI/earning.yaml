@@ -1,7 +1,7 @@
 currency: USD
 company_name: Magnite, Inc.
 sector: Technology Services
-market_cap_billions: 2.99
+market_cap_billions: 2.96
 revenue:
   quarterly:
     Q3 2024: 149.4
@@ -25,7 +25,7 @@ revenue:
     Q3 2025: 163.42
     Q4 2025: 194.22
     Q1 2026: 159.24
-    Q2 2026: 179.16
+    Q2 2026: 179.15
     Q3 2026: 185.5
     Q4 2026: 220.92
     Q1 2027: 175.72

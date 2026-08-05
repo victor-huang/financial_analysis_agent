@@ -1,7 +1,7 @@
 currency: USD
 company_name: Airgain, Inc.
 sector: Electronic Technology
-market_cap_billions: 0.07289
+market_cap_billions: 0.07251
 revenue:
   quarterly:
     Q3 2024: 16.1
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 14.02
     Q4 2025: 12.13
     Q1 2026: 11.51
+    Q2 2026: 13.7
   annual:
     2021 Yearly: 64.27
     2022 Yearly: 75.89
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 14.82
     Q4 2026: 16.95
     Q1 2027: 14.6
+    Q2 2027: 16.1
   annual_forecast:
     2021 Yearly: 64.11
     2022 Yearly: 76.46
@@ -46,6 +48,7 @@ eps:
     Q3 2025: 0.01
     Q4 2025: -0.03
     Q1 2026: -0.08
+    Q2 2026: 0.02
   annual:
     2021 Yearly: -0.25
     2022 Yearly: -0.06
@@ -64,6 +67,7 @@ eps:
     Q3 2026: 0.04
     Q4 2026: 0.1
     Q1 2027: 0.0
+    Q2 2027: 0.04
   annual_forecast:
     2021 Yearly: -0.24
     2022 Yearly: 0.12

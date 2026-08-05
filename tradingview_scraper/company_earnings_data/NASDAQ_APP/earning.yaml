@@ -1,7 +1,7 @@
 currency: USD
 company_name: Applovin Corporation
 sector: Technology Services
-market_cap_billions: 140.99
+market_cap_billions: 140.36
 revenue:
   quarterly:
     Q3 2024: 1200.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 1410.0
     Q4 2025: 1660.0
     Q1 2026: 1840.0
+    Q2 2026: 1920.0
   annual:
     2021 Yearly: 2790.0
     2022 Yearly: 2820.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 2080.0
     Q4 2026: 2350.0
     Q1 2027: 2440.0
+    Q2 2027: 2530.0
   annual_forecast:
     2021 Yearly: 2780.0
     2022 Yearly: 2810.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 2.45
     Q4 2025: 3.24
     Q1 2026: 3.56
+    Q2 2026: 3.76
   annual:
     2021 Yearly: 0.09
     2022 Yearly: -0.52
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 4.05
     Q4 2026: 4.67
     Q1 2027: 4.84
+    Q2 2027: 5.04
   annual_forecast:
     2021 Yearly: 0.15
     2022 Yearly: -0.25

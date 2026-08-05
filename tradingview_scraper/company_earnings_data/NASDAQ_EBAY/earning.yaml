@@ -1,7 +1,7 @@
 currency: USD
 company_name: eBay Inc.
 sector: Retail Trade
-market_cap_billions: 48.67
+market_cap_billions: 49.35
 revenue:
   quarterly:
     Q3 2024: 2580.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 2820.0
     Q4 2025: 2960.0
     Q1 2026: 3090.0
+    Q2 2026: 3130.0
   annual:
     2021 Yearly: 10420.0
     2022 Yearly: 9790.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 2970.0
     Q4 2026: 3090.0
     Q1 2027: 3180.0
+    Q2 2027: 3190.0
   annual_forecast:
     2021 Yearly: 10410.0
     2022 Yearly: 9750.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 1.36
     Q4 2025: 1.41
     Q1 2026: 1.66
+    Q2 2026: 1.6
   annual:
     2021 Yearly: 4.02
     2022 Yearly: 4.11
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 1.45
     Q4 2026: 1.49
     Q1 2027: 1.7
+    Q2 2027: 1.72
   annual_forecast:
     2021 Yearly: 3.97
     2022 Yearly: 4.11

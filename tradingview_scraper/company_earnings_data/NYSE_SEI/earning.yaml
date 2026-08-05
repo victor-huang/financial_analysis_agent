@@ -1,7 +1,7 @@
 currency: USD
 company_name: Solaris Energy Infrastructure, Inc.
 sector: Industrial Services
-market_cap_billions: 4.26
+market_cap_billions: 4.09
 revenue:
   quarterly:
     Q3 2024: 75.02
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 166.84
     Q4 2025: 179.7
     Q1 2026: 196.24
+    Q2 2026: 219.4
   annual:
     2021 Yearly: 159.19
     2022 Yearly: 320.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 211.61
     Q4 2026: 219.68
     Q1 2027: 257.82
+    Q2 2027: 304.11
   annual_forecast:
     2021 Yearly: 157.34
     2022 Yearly: 329.2
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.31
     Q4 2025: -0.04
     Q1 2026: 0.3
+    Q2 2026: 0.26
   annual:
     2021 Yearly: -0.04
     2022 Yearly: 0.64
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.26
     Q4 2026: 0.24
     Q1 2027: 0.34
+    Q2 2027: 0.59
   annual_forecast:
     2021 Yearly: -0.08
     2022 Yearly: 0.8

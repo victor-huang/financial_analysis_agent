@@ -1,7 +1,7 @@
 currency: USD
 company_name: Vir Biotechnology, Inc.
 sector: Health Technology
-market_cap_billions: 1.55
+market_cap_billions: 1.54
 revenue:
   quarterly:
     Q3 2024: 2.38
@@ -9,6 +9,7 @@ revenue:
     Q1 2025: 3.03
     Q2 2025: 1.21
     Q4 2025: 64.07
+    Q2 2026: 238.95
   annual:
     2021 Yearly: 1100.0
     2022 Yearly: 1620.0
@@ -24,6 +25,7 @@ revenue:
     Q1 2026: 19.91
     Q2 2026: 55.49
     Q4 2026: 135.88
+    Q2 2027: 5.24
   annual_forecast:
     2021 Yearly: 905.58
     2022 Yearly: 1710.0
@@ -43,6 +45,7 @@ eps:
     Q3 2025: -1.17
     Q4 2025: -0.31
     Q1 2026: -0.85
+    Q2 2026: 0.47
   annual:
     2021 Yearly: 3.96
     2022 Yearly: 3.83
@@ -61,6 +64,7 @@ eps:
     Q3 2026: -0.75
     Q4 2026: -0.65
     Q1 2027: -0.48
+    Q2 2027: -0.7
   annual_forecast:
     2021 Yearly: 2.7
     2022 Yearly: 4.31

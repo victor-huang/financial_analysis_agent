@@ -1,7 +1,7 @@
 currency: USD
 company_name: LifeMD, Inc.
 sector: Health Services
-market_cap_billions: 0.18861
+market_cap_billions: 0.17797
 revenue:
   quarterly:
     Q3 2024: 53.39
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 60.17
     Q4 2025: 46.87
     Q1 2026: 50.16
+    Q2 2026: 47.3
   annual:
     2021 Yearly: 92.88
     2022 Yearly: 119.03
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 58.56
     Q4 2026: 64.14
     Q1 2027: 60.48
+    Q2 2027: 59.45
   annual_forecast:
     2021 Yearly: 92.92
     2022 Yearly: 124.49
@@ -47,6 +49,7 @@ eps:
     Q3 2025: -0.1
     Q4 2025: 0.41
     Q1 2026: -0.2
+    Q2 2026: -0.16
   annual:
     2021 Yearly: -1.48
     2022 Yearly: -1.57
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.01
     Q4 2026: 0.06
     Q1 2027: -0.01
+    Q2 2027: -0.04
   annual_forecast:
     2021 Yearly: -1.7
     2022 Yearly: -1.34

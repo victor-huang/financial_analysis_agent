@@ -1,7 +1,7 @@
 currency: USD
 company_name: Motorola Solutions, Inc.
 sector: Electronic Technology
-market_cap_billions: 73.51
+market_cap_billions: 72.73
 revenue:
   quarterly:
     Q3 2024: 2790.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 3010.0
     Q4 2025: 3380.0
     Q1 2026: 2710.0
+    Q2 2026: 3130.0
   annual:
     2021 Yearly: 8170.0
     2022 Yearly: 9110.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 3310.0
     Q4 2026: 3770.0
     Q1 2027: 2940.0
+    Q2 2027: 3210.0
   annual_forecast:
     2021 Yearly: 8180.0
     2022 Yearly: 8940.0
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 4.06
     Q4 2025: 4.59
     Q1 2026: 3.37
+    Q2 2026: 4.41
   annual:
     2021 Yearly: 9.15
     2022 Yearly: 10.36
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 4.41
     Q4 2026: 5.3
     Q1 2027: 3.65
+    Q2 2027: 4.25
   annual_forecast:
     2021 Yearly: 9.04
     2022 Yearly: 10.2

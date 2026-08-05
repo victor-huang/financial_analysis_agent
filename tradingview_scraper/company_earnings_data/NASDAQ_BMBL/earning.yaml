@@ -1,7 +1,7 @@
 currency: USD
 company_name: Bumble Inc.
 sector: Technology Services
-market_cap_billions: 0.41738
+market_cap_billions: 0.39651
 revenue:
   quarterly:
     Q3 2024: 273.61
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 246.16
     Q4 2025: 224.16
     Q1 2026: 212.0
+    Q2 2026: 210.53
   annual:
     2021 Yearly: 765.66
     2022 Yearly: 903.5
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 214.49
     Q4 2026: 207.28
     Q1 2027: 204.23
+    Q2 2027: 210.48
   annual_forecast:
     2021 Yearly: 767.14
     2022 Yearly: 899.28
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.33
     Q4 2025: -4.06
     Q1 2026: 0.34
+    Q2 2026: -0.84
   annual:
     2021 Yearly: 1.48
     2022 Yearly: -0.62
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.26
     Q4 2026: 0.2
     Q1 2027: 0.2
+    Q2 2027: 0.22
   annual_forecast:
     2021 Yearly: 1.61
     2022 Yearly: 0.24

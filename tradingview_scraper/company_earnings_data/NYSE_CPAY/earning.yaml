@@ -1,7 +1,7 @@
 currency: USD
 company_name: Corpay, Inc.
 sector: Commercial Services
-market_cap_billions: 25.92
+market_cap_billions: 25.79
 revenue:
   quarterly:
     Q3 2024: 1030.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 1170.0
     Q4 2025: 1250.0
     Q1 2026: 1260.0
+    Q2 2026: 1340.0
   annual:
     2021 Yearly: 2830.0
     2022 Yearly: 3430.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 1350.0
     Q4 2026: 1400.0
     Q1 2027: 1360.0
+    Q2 2027: 1420.0
   annual_forecast:
     2021 Yearly: 2800.0
     2022 Yearly: 3410.0
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 5.7
     Q4 2025: 6.04
     Q1 2026: 5.8
+    Q2 2026: 7.0
   annual:
     2021 Yearly: 13.21
     2022 Yearly: 16.1
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 7.03
     Q4 2026: 7.37
     Q1 2027: 6.85
+    Q2 2027: 7.39
   annual_forecast:
     2021 Yearly: 13.06
     2022 Yearly: 15.98

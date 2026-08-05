@@ -1,7 +1,7 @@
 currency: USD
 company_name: Watts Water Technologies, Inc.
 sector: Producer Manufacturing
-market_cap_billions: 11.96
+market_cap_billions: 12.15
 revenue:
   quarterly:
     Q3 2024: 543.6
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 611.7
     Q4 2025: 625.1
     Q1 2026: 677.3
+    Q2 2026: 763.2
   annual:
     2021 Yearly: 1810.0
     2022 Yearly: 1980.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 672.68
     Q4 2026: 665.24
     Q1 2027: 703.5
+    Q2 2027: 767.06
   annual_forecast:
     2021 Yearly: 1790.0
     2022 Yearly: 1960.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 2.5
     Q4 2025: 2.62
     Q1 2026: 3.04
+    Q2 2026: 3.66
   annual:
     2021 Yearly: 5.52
     2022 Yearly: 7.13
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 2.86
     Q4 2026: 2.85
     Q1 2027: 3.23
+    Q2 2027: 3.63
   annual_forecast:
     2021 Yearly: 5.43
     2022 Yearly: 7.06

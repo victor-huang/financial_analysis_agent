@@ -1,7 +1,7 @@
 currency: USD
 company_name: DXP Enterprises, Inc.
 sector: Distribution Services
-market_cap_billions: 2.65
+market_cap_billions: 2.61
 revenue:
   quarterly:
     Q3 2024: 472.94
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 513.72
     Q4 2025: 527.39
     Q1 2026: 521.66
+    Q2 2026: 576.46
   annual:
     2021 Yearly: 1110.0
     2022 Yearly: 1480.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 554.5
     Q4 2026: 561.0
     Q1 2027: 555.5
+    Q2 2027: 572.0
   annual_forecast:
     2021 Yearly: 1110.0
     2022 Yearly: 1420.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 1.34
     Q4 2025: 1.39
     Q1 2026: 1.26
+    Q2 2026: 1.76
   annual:
     2021 Yearly: 0.83
     2022 Yearly: 2.69
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 1.65
     Q4 2026: 1.64
     Q1 2027: 1.75
+    Q2 2027: 1.9
   annual_forecast:
     2021 Yearly: 0.92
     2022 Yearly: 2.3

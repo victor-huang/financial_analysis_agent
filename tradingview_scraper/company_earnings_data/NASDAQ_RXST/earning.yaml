@@ -1,7 +1,7 @@
 currency: USD
 company_name: RxSight, Inc.
 sector: Electronic Technology
-market_cap_billions: 0.25873
+market_cap_billions: 0.26038
 revenue:
   quarterly:
     Q3 2024: 35.31
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 30.3
     Q4 2025: 32.61
     Q1 2026: 30.89
+    Q2 2026: 33.74
   annual:
     2021 Yearly: 22.59
     2022 Yearly: 49.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 35.13
     Q4 2026: 39.24
     Q1 2027: 36.27
+    Q2 2027: 34.15
   annual_forecast:
     2021 Yearly: 22.04
     2022 Yearly: 48.76
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -0.24
     Q4 2025: -0.22
     Q1 2026: -0.38
+    Q2 2026: -0.29
   annual:
     2021 Yearly: -3.22
     2022 Yearly: -2.41
@@ -66,6 +69,7 @@ eps:
     Q3 2026: -0.27
     Q4 2026: -0.22
     Q1 2027: -0.29
+    Q2 2027: -0.31
   annual_forecast:
     2022 Yearly: -2.66
     2023 Yearly: -2.61

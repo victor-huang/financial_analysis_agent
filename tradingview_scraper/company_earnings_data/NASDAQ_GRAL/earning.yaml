@@ -1,7 +1,7 @@
 currency: USD
 company_name: GRAIL, Inc.
 sector: Health Technology
-market_cap_billions: 3.12
+market_cap_billions: 3.18
 revenue:
   quarterly:
     Q3 2024: 28.65
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 36.19
     Q4 2025: 43.6
     Q1 2026: 40.78
+    Q2 2026: 44.69
   annual:
     2024 Yearly: 125.59
     2025 Yearly: 147.17
@@ -26,6 +27,7 @@ revenue:
     Q3 2026: 44.24
     Q4 2026: 51.19
     Q1 2027: 48.62
+    Q2 2027: 52.19
   annual_forecast:
     2024 Yearly: 122.26
     2025 Yearly: 146.94
@@ -42,6 +44,7 @@ eps:
     Q3 2025: -2.46
     Q4 2025: -2.44
     Q1 2026: -2.29
+    Q2 2026: -2.56
   annual:
     2024 Yearly: -63.54
     2025 Yearly: -11.11
@@ -57,6 +60,7 @@ eps:
     Q3 2026: -2.67
     Q4 2026: -2.72
     Q1 2027: -2.72
+    Q2 2027: -2.71
   annual_forecast:
     2024 Yearly: -51.26
     2025 Yearly: -11.41

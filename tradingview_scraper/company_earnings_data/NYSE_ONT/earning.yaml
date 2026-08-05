@@ -1,7 +1,7 @@
 currency: USD
 company_name: Onterris, Inc.
 sector: Industrial Services
-market_cap_billions: 0.82578
+market_cap_billions: 0.8178300000000001
 revenue:
   quarterly:
     Q3 2024: 178.69
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 224.89
     Q4 2025: 193.27
     Q1 2026: 168.52
+    Q2 2026: 186.66
   annual:
     2021 Yearly: 546.41
     2022 Yearly: 544.42
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 249.85
     Q4 2026: 233.32
     Q1 2027: 187.5
+    Q2 2027: 214.15
   annual_forecast:
     2021 Yearly: 525.67
     2022 Yearly: 545.88
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.21
     Q4 2025: -0.23
     Q1 2026: -0.35
+    Q2 2026: 0.04
   annual:
     2021 Yearly: -1.56
     2022 Yearly: -1.62
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.26
     Q4 2026: 0.12
     Q1 2027: -0.28
+    Q2 2027: -0.01
   annual_forecast:
     2021 Yearly: -1.31
     2022 Yearly: -1.38

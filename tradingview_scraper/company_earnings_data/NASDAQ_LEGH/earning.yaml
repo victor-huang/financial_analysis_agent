@@ -1,7 +1,7 @@
 currency: USD
 company_name: Legacy Housing Corporation
 sector: Consumer Durables
-market_cap_billions: 0.6482899999999999
+market_cap_billions: 0.65447
 revenue:
   quarterly:
     Q3 2024: 44.3
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 40.48
     Q4 2025: 38.19
     Q1 2026: 34.4
+    Q2 2026: 66.3
   annual:
     2021 Yearly: 199.2
     2022 Yearly: 257.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 50.66
     Q4 2026: 46.97
     Q1 2027: 39.33
+    Q2 2027: 50.86
   annual_forecast:
     2021 Yearly: 199.2
     2022 Yearly: 242.1
@@ -46,6 +48,7 @@ eps:
     Q3 2025: 0.35
     Q4 2025: 0.35
     Q1 2026: 0.46
+    Q2 2026: 0.99
   annual:
     2021 Yearly: 2.0
     2022 Yearly: 2.78
@@ -64,6 +67,7 @@ eps:
     Q3 2026: 0.53
     Q4 2026: 0.49
     Q1 2027: 0.48
+    Q2 2027: 0.58
   annual_forecast:
     2021 Yearly: 2.0
     2022 Yearly: 2.52

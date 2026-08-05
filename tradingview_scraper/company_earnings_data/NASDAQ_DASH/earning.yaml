@@ -1,7 +1,7 @@
 currency: USD
 company_name: DoorDash, Inc.
 sector: Transportation
-market_cap_billions: 88.18
+market_cap_billions: 90.31
 revenue:
   quarterly:
     Q3 2024: 2710.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 3450.0
     Q4 2025: 3960.0
     Q1 2026: 4040.0
+    Q2 2026: 4450.0
   annual:
     2021 Yearly: 4890.0
     2022 Yearly: 6580.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 4490.0
     Q4 2026: 4750.0
     Q1 2027: 4900.0
+    Q2 2027: 5250.0
   annual_forecast:
     2021 Yearly: 4870.0
     2022 Yearly: 6550.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.55
     Q4 2025: 0.48
     Q1 2026: 0.42
+    Q2 2026: 0.46
   annual:
     2021 Yearly: -1.39
     2022 Yearly: -3.68
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.74
     Q4 2026: 0.82
     Q1 2027: 0.85
+    Q2 2027: 0.97
   annual_forecast:
     2021 Yearly: -1.09
     2022 Yearly: -2.64

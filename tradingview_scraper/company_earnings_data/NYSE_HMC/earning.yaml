@@ -1,7 +1,7 @@
 currency: USD
 company_name: Honda Motor Company, Ltd.
 sector: Consumer Durables
-market_cap_billions: 38.79
+market_cap_billions: 38.85
 revenue:
   quarterly:
     Q2 2024: 34940.0
@@ -11,6 +11,7 @@ revenue:
     Q2 2025: 34360.0
     Q3 2025: 34780.0
     Q4 2025: 36810.0
+    Q1 2026: 38490.0
   annual:
     2021 Yearly: 112750.0
     2022 Yearly: 124960.0
@@ -26,19 +27,20 @@ revenue:
     Q3 2025: 33290.0
     Q4 2025: 32990.0
     Q1 2026: 36240.0
-    Q2 2026: 35330.0
-    Q3 2026: 36050.0
-    Q4 2026: 37980.0
+    Q2 2026: 35590.0
+    Q3 2026: 36320.0
+    Q4 2026: 38270.0
+    Q1 2027: 37550.0
   annual_forecast:
     2021 Yearly: 117980.0
     2022 Yearly: 127650.0
     2023 Yearly: 134720.0
     2024 Yearly: 147460.0
     2025 Yearly: 134220.0
-    2026 Yearly: 144240.0
-    2027 Yearly: 148560.0
-    2028 Yearly: 152280.0
-    2029 Yearly: 154930.0
+    2026 Yearly: 146060.0
+    2027 Yearly: 150530.0
+    2028 Yearly: 154800.0
+    2029 Yearly: 159160.0
 eps:
   quarterly:
     Q2 2024: 0.42
@@ -48,6 +50,7 @@ eps:
     Q2 2025: 0.57
     Q3 2025: 0.77
     Q4 2025: -4.2
+    Q1 2026: 2.21
   annual:
     2021 Yearly: 3.19
     2022 Yearly: 3.03
@@ -63,16 +66,17 @@ eps:
     Q3 2025: 0.51
     Q4 2025: -5.74
     Q1 2026: 1.22
-    Q2 2026: 0.25
-    Q3 2026: 0.28
-    Q4 2026: 0.3
+    Q2 2026: 0.29
+    Q3 2026: 0.21
+    Q4 2026: 0.11
+    Q1 2027: 1.42
   annual_forecast:
     2021 Yearly: 3.27
     2022 Yearly: 3.25
     2023 Yearly: 4.17
     2024 Yearly: 4.28
     2025 Yearly: -1.57
-    2026 Yearly: 1.99
-    2027 Yearly: 3.74
-    2028 Yearly: 4.48
-    2029 Yearly: 5.11
+    2026 Yearly: 2.04
+    2027 Yearly: 3.8
+    2028 Yearly: 4.61
+    2029 Yearly: 5.43

@@ -1,7 +1,7 @@
 currency: USD
 company_name: Blue Owl Capital Corporation
 sector: Finance
-market_cap_billions: 5.56
+market_cap_billions: 5.44
 revenue:
   quarterly:
     Q3 2024: 406.03
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 453.06
     Q4 2025: 447.75
     Q1 2026: 396.77
+    Q2 2026: 401.34
   annual:
     2021 Yearly: 1020.0
     2022 Yearly: 1200.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 393.3
     Q4 2026: 395.39
     Q1 2027: 399.14
+    Q2 2027: 399.92
   annual_forecast:
     2021 Yearly: 1010.0
     2022 Yearly: 1190.0
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.37
     Q4 2025: 0.38
     Q1 2026: 0.31
+    Q2 2026: 0.34
   annual:
     2021 Yearly: 1.25
     2022 Yearly: 1.41
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.32
     Q4 2026: 0.32
     Q1 2027: 0.32
+    Q2 2027: 0.32
   annual_forecast:
     2021 Yearly: 1.22
     2022 Yearly: 1.4

@@ -1,7 +1,7 @@
 currency: USD
 company_name: Cirrus Logic, Inc.
 sector: Electronic Technology
-market_cap_billions: 6.74
+market_cap_billions: 6.53
 revenue:
   quarterly:
     Q2 2024: 541.86
@@ -11,6 +11,7 @@ revenue:
     Q2 2025: 560.96
     Q3 2025: 580.6
     Q4 2025: 448.52
+    Q1 2026: 459.72
   annual:
     2021 Yearly: 1780.0
     2022 Yearly: 1900.0
@@ -29,6 +30,7 @@ revenue:
     Q2 2026: 570.13
     Q3 2026: 621.24
     Q4 2026: 451.73
+    Q1 2027: 436.29
   annual_forecast:
     2021 Yearly: 1710.0
     2022 Yearly: 1890.0
@@ -46,6 +48,7 @@ eps:
     Q2 2025: 2.83
     Q3 2025: 2.97
     Q4 2025: 1.95
+    Q1 2026: 1.84
   annual:
     2021 Yearly: 6.9
     2022 Yearly: 6.42
@@ -64,6 +67,7 @@ eps:
     Q2 2026: 2.55
     Q3 2026: 2.85
     Q4 2026: 1.61
+    Q1 2027: 1.55
   annual_forecast:
     2021 Yearly: 6.27
     2022 Yearly: 6.35

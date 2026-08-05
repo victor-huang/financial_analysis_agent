@@ -1,7 +1,7 @@
 currency: USD
 company_name: Coeur Mining, Inc.
 sector: Non-Energy Minerals
-market_cap_billions: 16.7
+market_cap_billions: 17.96
 revenue:
   quarterly:
     Q3 2024: 313.48
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 554.57
     Q4 2025: 674.85
     Q1 2026: 856.19
+    Q2 2026: 1090.0
   annual:
     2021 Yearly: 832.83
     2022 Yearly: 785.64
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 1250.0
     Q4 2026: 1320.0
     Q1 2027: 1200.0
+    Q2 2027: 1220.0
   annual_forecast:
     2021 Yearly: 834.44
     2022 Yearly: 780.23
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.23
     Q4 2025: 0.35
     Q1 2026: 0.36
+    Q2 2026: 0.12
   annual:
     2021 Yearly: -0.01
     2022 Yearly: -0.32
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.36
     Q4 2026: 0.46
     Q1 2027: 0.41
+    Q2 2027: 0.43
   annual_forecast:
     2021 Yearly: 0.04
     2022 Yearly: -0.3

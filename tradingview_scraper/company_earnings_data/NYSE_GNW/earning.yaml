@@ -1,7 +1,7 @@
 currency: USD
 company_name: Genworth Financial Inc
 sector: Finance
-market_cap_billions: 3.76
+market_cap_billions: 3.71
 revenue:
   quarterly:
     Q3 2024: 1880.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 1940.0
     Q4 2025: 1780.0
     Q1 2026: 1780.0
+    Q2 2026: 1900.0
   annual:
     2021 Yearly: 7830.0
     2022 Yearly: 7510.0
@@ -31,6 +32,7 @@ eps:
     Q3 2025: 0.04
     Q4 2025: 0.02
     Q1 2026: 0.19
+    Q2 2026: 0.13
   annual:
     2021 Yearly: 1.48
     2022 Yearly: 1.24
@@ -49,6 +51,7 @@ eps:
     Q3 2026: 0.28
     Q4 2026: 0.26
     Q1 2027: 0.27
+    Q2 2027: 0.27
   annual_forecast:
     2021 Yearly: 1.45
     2022 Yearly: 1.1

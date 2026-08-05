@@ -1,7 +1,7 @@
 currency: USD
 company_name: Veeco Instruments Inc.
 sector: Electronic Technology
-market_cap_billions: 3.28
+market_cap_billions: 3.23
 revenue:
   quarterly:
     Q3 2024: 184.81
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 165.88
     Q4 2025: 165.02
     Q1 2026: 158.34
+    Q2 2026: 193.48
   annual:
     2021 Yearly: 583.28
     2022 Yearly: 646.14
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 209.68
     Q4 2026: 234.68
     Q1 2027: 246.71
+    Q2 2027: 268.0
   annual_forecast:
     2021 Yearly: 581.49
     2022 Yearly: 653.69
@@ -46,6 +48,7 @@ eps:
     Q3 2025: 0.36
     Q4 2025: 0.24
     Q1 2026: 0.14
+    Q2 2026: 0.33
   annual:
     2021 Yearly: 1.43
     2022 Yearly: 1.57
@@ -64,6 +67,7 @@ eps:
     Q3 2026: 0.52
     Q4 2026: 0.71
     Q1 2027: 0.72
+    Q2 2027: 0.81
   annual_forecast:
     2021 Yearly: 1.36
     2022 Yearly: 1.5

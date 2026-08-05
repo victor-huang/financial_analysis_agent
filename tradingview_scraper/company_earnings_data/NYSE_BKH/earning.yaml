@@ -1,7 +1,7 @@
 currency: USD
 company_name: Black Hills Corporation
 sector: Utilities
-market_cap_billions: 5.5
+market_cap_billions: 5.46
 revenue:
   quarterly:
     Q3 2024: 401.6
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 430.2
     Q4 2025: 635.5
     Q1 2026: 780.7
+    Q2 2026: 452.8
   annual:
     2021 Yearly: 1950.0
     2022 Yearly: 2550.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 517.62
     Q4 2026: 859.91
     Q1 2027: 712.98
+    Q2 2027: 530.66
   annual_forecast:
     2021 Yearly: 1850.0
     2022 Yearly: 2220.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.45
     Q4 2025: 1.41
     Q1 2026: 1.79
+    Q2 2026: 0.54
   annual:
     2021 Yearly: 3.74
     2022 Yearly: 3.97
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.5
     Q4 2026: 1.64
     Q1 2027: 2.05
+    Q2 2027: 0.46
   annual_forecast:
     2021 Yearly: 3.89
     2022 Yearly: 4.02

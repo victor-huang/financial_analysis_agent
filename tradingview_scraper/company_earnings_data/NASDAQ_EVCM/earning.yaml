@@ -1,7 +1,7 @@
 currency: USD
 company_name: EverCommerce Inc.
 sector: Technology Services
-market_cap_billions: 2.12
+market_cap_billions: 2.1
 revenue:
   quarterly:
     Q3 2024: 176.26
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 148.34
     Q4 2025: 151.15
     Q1 2026: 147.47
+    Q2 2026: 152.02
   annual:
     2021 Yearly: 490.14
     2022 Yearly: 620.75
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 156.54
     Q4 2026: 162.31
     Q1 2027: 156.73
+    Q2 2027: 161.59
   annual_forecast:
     2021 Yearly: 484.95
     2022 Yearly: 616.85
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.06
     Q4 2025: 0.2
     Q1 2026: 0.2
+    Q2 2026: 0.24
   annual:
     2021 Yearly: 0.69
     2022 Yearly: 0.46
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.19
     Q4 2026: 0.2
     Q1 2027: 0.17
+    Q2 2027: 0.17
   annual_forecast:
     2021 Yearly: 0.21
     2022 Yearly: 0.29

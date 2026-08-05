@@ -1,7 +1,7 @@
 currency: USD
 company_name: Portillo's Inc.
 sector: Consumer Services
-market_cap_billions: 0.3434
+market_cap_billions: 0.35401
 revenue:
   quarterly:
     Q3 2024: 178.25
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 181.43
     Q4 2025: 185.75
     Q1 2026: 182.62
+    Q2 2026: 198.95
   annual:
     2021 Yearly: 534.95
     2022 Yearly: 587.1
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 194.1
     Q4 2026: 197.11
     Q1 2027: 192.73
+    Q2 2027: 207.38
   annual_forecast:
     2021 Yearly: 535.48
     2022 Yearly: 591.57
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.02
     Q4 2025: 0.08
     Q1 2026: -0.01
+    Q2 2026: 0.09
   annual:
     2021 Yearly: -0.42
     2022 Yearly: 0.25
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.03
     Q4 2026: 0.07
     Q1 2027: 0.02
+    Q2 2027: 0.1
   annual_forecast:
     2021 Yearly: -0.24
     2022 Yearly: 0.21

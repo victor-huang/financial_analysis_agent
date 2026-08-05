@@ -1,7 +1,7 @@
 currency: USD
 company_name: Zevia PBC
 sector: Consumer Non-Durables
-market_cap_billions: 0.13318000000000002
+market_cap_billions: 0.13163999999999998
 revenue:
   quarterly:
     Q3 2024: 36.37
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 40.84
     Q4 2025: 37.87
     Q1 2026: 46.09
+    Q2 2026: 45.0
   annual:
     2021 Yearly: 138.17
     2022 Yearly: 163.18
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 43.8
     Q4 2026: 39.56
     Q1 2027: 47.7
+    Q2 2027: 46.75
   annual_forecast:
     2021 Yearly: 140.34
     2022 Yearly: 158.85
@@ -47,6 +49,7 @@ eps:
     Q3 2025: -0.04
     Q4 2025: -0.02
     Q1 2026: -0.03
+    Q2 2026: -0.02
   annual:
     2021 Yearly: -1.33
     2022 Yearly: -0.81
@@ -65,6 +68,7 @@ eps:
     Q3 2026: -0.04
     Q4 2026: -0.03
     Q1 2027: -0.03
+    Q2 2027: -0.02
   annual_forecast:
     2021 Yearly: -1.52
     2022 Yearly: -0.87

@@ -1,7 +1,7 @@
 currency: USD
 company_name: Mirum Pharmaceuticals, Inc.
 sector: Health Technology
-market_cap_billions: 6.36
+market_cap_billions: 6.45
 revenue:
   quarterly:
     Q3 2024: 90.38
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 133.01
     Q4 2025: 148.93
     Q1 2026: 159.9
+    Q2 2026: 176.2
   annual:
     2021 Yearly: 19.14
     2022 Yearly: 77.06
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 172.29
     Q4 2026: 177.74
     Q1 2027: 181.74
+    Q2 2027: 190.54
   annual_forecast:
     2021 Yearly: 78.42
     2022 Yearly: 76.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.05
     Q4 2025: -0.1
     Q1 2026: -13.43
+    Q2 2026: -1.06
   annual:
     2021 Yearly: -2.77
     2022 Yearly: -4.02
@@ -66,6 +69,7 @@ eps:
     Q3 2026: -0.7
     Q4 2026: -0.69
     Q1 2027: -0.42
+    Q2 2027: -0.35
   annual_forecast:
     2021 Yearly: -4.48
     2022 Yearly: -4.03

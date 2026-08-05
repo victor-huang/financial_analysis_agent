@@ -1,7 +1,7 @@
 currency: USD
 company_name: Fluence Energy, Inc.
 sector: Producer Manufacturing
-market_cap_billions: 2.89
+market_cap_billions: 2.62
 revenue:
   quarterly:
     Q4 2024: 1230.0
@@ -11,6 +11,7 @@ revenue:
     Q4 2025: 1040.0
     Q1 2026: 475.23
     Q2 2026: 464.89
+    Q3 2026: 649.85
   annual:
     2021 Yearly: 680.77
     2022 Yearly: 1200.0
@@ -29,6 +30,7 @@ revenue:
     Q4 2026: 1600.0
     Q1 2027: 568.18
     Q2 2027: 630.81
+    Q3 2027: 1090.0
   annual_forecast:
     2021 Yearly: 679.16
     2022 Yearly: 1110.0
@@ -48,6 +50,7 @@ eps:
     Q4 2025: 0.13
     Q1 2026: -0.34
     Q2 2026: -0.16
+    Q3 2026: -0.24
   annual:
     2021 Yearly: -0.59
     2022 Yearly: -1.08
@@ -66,6 +69,7 @@ eps:
     Q4 2026: 0.37
     Q1 2027: -0.23
     Q2 2027: -0.18
+    Q3 2027: 0.11
   annual_forecast:
     2021 Yearly: -0.83
     2022 Yearly: -1.31

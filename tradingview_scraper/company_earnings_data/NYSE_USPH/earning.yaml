@@ -1,7 +1,7 @@
 currency: USD
 company_name: U.S. Physical Therapy, Inc.
 sector: Health Services
-market_cap_billions: 1.15
+market_cap_billions: 1.18
 revenue:
   quarterly:
     Q3 2024: 168.03
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 197.13
     Q4 2025: 202.73
     Q1 2026: 198.29
+    Q2 2026: 214.06
   annual:
     2021 Yearly: 495.02
     2022 Yearly: 553.14
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 212.19
     Q4 2026: 217.71
     Q1 2027: 211.23
+    Q2 2027: 224.49
   annual_forecast:
     2021 Yearly: 493.78
     2022 Yearly: 553.07
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.66
     Q4 2025: 0.67
     Q1 2026: 0.46
+    Q2 2026: 0.75
   annual:
     2021 Yearly: 3.17
     2022 Yearly: 2.7
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.78
     Q4 2026: 0.86
     Q1 2027: 0.52
+    Q2 2027: 0.9
   annual_forecast:
     2021 Yearly: 3.14
     2022 Yearly: 2.69

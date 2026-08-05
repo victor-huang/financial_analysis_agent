@@ -1,7 +1,7 @@
 currency: USD
 company_name: American Superconductor Corporation
 sector: Producer Manufacturing
-market_cap_billions: 1.62
+market_cap_billions: 1.6
 revenue:
   quarterly:
     Q2 2024: 54.47
@@ -11,6 +11,7 @@ revenue:
     Q2 2025: 65.86
     Q3 2025: 74.53
     Q4 2025: 86.41
+    Q1 2026: 94.07
   annual:
     2021 Yearly: 108.44
     2022 Yearly: 105.98
@@ -29,6 +30,7 @@ revenue:
     Q2 2026: 87.53
     Q3 2026: 92.1
     Q4 2026: 95.3
+    Q1 2027: 97.1
   annual_forecast:
     2021 Yearly: 107.46
     2022 Yearly: 102.46
@@ -48,6 +50,7 @@ eps:
     Q2 2025: 0.2
     Q3 2025: 2.75
     Q4 2025: 0.3
+    Q1 2026: 0.16
   annual:
     2021 Yearly: -0.63
     2022 Yearly: -1.03
@@ -66,6 +69,7 @@ eps:
     Q2 2026: 0.22
     Q3 2026: 0.28
     Q4 2026: 0.3
+    Q1 2027: 0.32
   annual_forecast:
     2021 Yearly: -0.62
     2022 Yearly: -0.95

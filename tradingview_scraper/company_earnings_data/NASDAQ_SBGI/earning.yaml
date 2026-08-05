@@ -1,7 +1,7 @@
 currency: USD
 company_name: Sinclair, Inc.
 sector: Consumer Services
-market_cap_billions: 1.01
+market_cap_billions: 1.0
 revenue:
   quarterly:
     Q3 2024: 917.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 773.0
     Q4 2025: 836.0
     Q1 2026: 807.0
+    Q2 2026: 840.0
   annual:
     2021 Yearly: 6130.0
     2022 Yearly: 3930.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 870.86
     Q4 2026: 986.77
     Q1 2027: 797.05
+    Q2 2027: 794.48
   annual_forecast:
     2021 Yearly: 6220.0
     2022 Yearly: 3830.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -0.02
     Q4 2025: 1.55
     Q1 2026: 0.28
+    Q2 2026: -1.06
   annual:
     2021 Yearly: -5.51
     2022 Yearly: 37.54
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.32
     Q4 2026: 1.75
     Q1 2027: -1.1
+    Q2 2027: -0.73
   annual_forecast:
     2021 Yearly: -4.51
     2022 Yearly: 37.05

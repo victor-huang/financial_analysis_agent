@@ -1,7 +1,7 @@
 currency: USD
 company_name: Herbalife Ltd.
 sector: Consumer Non-Durables
-market_cap_billions: 1.33
+market_cap_billions: 1.31
 revenue:
   quarterly:
     Q3 2024: 1240.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 1270.0
     Q4 2025: 1280.0
     Q1 2026: 1320.0
+    Q2 2026: 1330.0
   annual:
     2021 Yearly: 5800.0
     2022 Yearly: 5200.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 1310.0
     Q4 2026: 1300.0
     Q1 2027: 1350.0
+    Q2 2027: 1390.0
   annual_forecast:
     2021 Yearly: 5850.0
     2022 Yearly: 5100.0
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.5
     Q4 2025: 0.45
     Q1 2026: 0.64
+    Q2 2026: 0.51
   annual:
     2021 Yearly: 4.79
     2022 Yearly: 3.4
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.7
     Q4 2026: 0.69
     Q1 2027: 0.77
+    Q2 2027: 0.74
   annual_forecast:
     2021 Yearly: 4.84
     2022 Yearly: 3.28

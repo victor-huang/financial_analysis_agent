@@ -1,7 +1,7 @@
 currency: USD
 company_name: Chiron Real Estate Inc.
 sector: Finance
-market_cap_billions: 0.50844
+market_cap_billions: 0.50757
 revenue:
   quarterly:
     Q3 2024: 34.17
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 37.04
     Q4 2025: 38.17
     Q1 2026: 38.02
+    Q2 2026: 37.06
   annual:
     2021 Yearly: 115.8
     2022 Yearly: 137.17
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 37.56
     Q4 2026: 37.49
     Q1 2027: 36.3
+    Q2 2027: 36.4
   annual_forecast:
     2021 Yearly: 116.12
     2022 Yearly: 127.33
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -0.45
     Q4 2025: -0.55
     Q1 2026: -0.06
+    Q2 2026: -0.23
   annual:
     2021 Yearly: 0.95
     2022 Yearly: 1.0
@@ -66,6 +69,7 @@ eps:
     Q3 2026: -0.18
     Q4 2026: -0.41
     Q1 2027: -0.63
+    Q2 2027: -0.59
   annual_forecast:
     2021 Yearly: 0.96
     2022 Yearly: 1.11

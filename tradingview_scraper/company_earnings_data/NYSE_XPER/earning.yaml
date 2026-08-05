@@ -1,7 +1,7 @@
 currency: USD
 company_name: Xperi Inc.
 sector: Technology Services
-market_cap_billions: 0.38376
+market_cap_billions: 0.37797000000000003
 revenue:
   quarterly:
     Q3 2024: 132.9
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 111.6
     Q4 2025: 116.51
     Q1 2026: 114.2
+    Q2 2026: 114.5
   annual:
     2022 Yearly: 502.26
     2023 Yearly: 521.3
@@ -28,6 +29,7 @@ revenue:
     Q3 2026: 112.82
     Q4 2026: 117.6
     Q1 2027: 117.66
+    Q2 2027: 118.49
   annual_forecast:
     2022 Yearly: 497.88
     2023 Yearly: 524.05
@@ -46,6 +48,7 @@ eps:
     Q3 2025: 0.28
     Q4 2025: 0.24
     Q1 2026: 0.23
+    Q2 2026: 0.28
   annual:
     2022 Yearly: 0.25
     2023 Yearly: 0.01
@@ -63,6 +66,7 @@ eps:
     Q3 2026: 0.21
     Q4 2026: 0.25
     Q1 2027: 0.27
+    Q2 2027: 0.27
   annual_forecast:
     2022 Yearly: -0.57
     2023 Yearly: -0.07

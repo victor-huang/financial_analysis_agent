@@ -1,7 +1,7 @@
 currency: USD
 company_name: Viavi Solutions Inc.
 sector: Technology Services
-market_cap_billions: 9.95
+market_cap_billions: 9.6
 revenue:
   quarterly:
     Q1 2025: 238.2
@@ -11,12 +11,14 @@ revenue:
     Q1 2026: 299.1
     Q2 2026: 369.3
     Q3 2026: 406.8
+    Q4 2026: 443.1
   annual:
     2021 Yearly: 1200.0
     2022 Yearly: 1290.0
     2023 Yearly: 1110.0
     2024 Yearly: 1000.0
     2025 Yearly: 1080.0
+    2026 Yearly: 1520.0
   quarterly_forecast:
     Q1 2025: 240.09
     Q2 2025: 259.99
@@ -29,6 +31,7 @@ revenue:
     Q1 2027: 432.23
     Q2 2027: 444.55
     Q3 2027: 450.17
+    Q4 2027: 468.11
   annual_forecast:
     2021 Yearly: 1190.0
     2022 Yearly: 1260.0
@@ -47,12 +50,14 @@ eps:
     Q1 2026: 0.15
     Q2 2026: 0.22
     Q3 2026: 0.27
+    Q4 2026: 0.34
   annual:
     2021 Yearly: 0.83
     2022 Yearly: 0.95
     2023 Yearly: 0.55
     2024 Yearly: 0.33
     2025 Yearly: 0.47
+    2026 Yearly: 1.0
   quarterly_forecast:
     Q1 2025: 0.06
     Q2 2025: 0.1
@@ -65,6 +70,7 @@ eps:
     Q1 2027: 0.28
     Q2 2027: 0.32
     Q3 2027: 0.33
+    Q4 2027: 0.36
   annual_forecast:
     2021 Yearly: 0.8
     2022 Yearly: 0.93

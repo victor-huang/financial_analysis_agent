@@ -1,7 +1,7 @@
 currency: USD
 company_name: Tronox Holdings plc
 sector: Process Industries
-market_cap_billions: 0.94757
+market_cap_billions: 0.93322
 revenue:
   quarterly:
     Q3 2024: 804.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 699.0
     Q4 2025: 730.0
     Q1 2026: 760.0
+    Q2 2026: 868.0
   annual:
     2021 Yearly: 3570.0
     2022 Yearly: 3450.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 803.46
     Q4 2026: 786.02
     Q1 2027: 810.46
+    Q2 2027: 918.45
   annual_forecast:
     2021 Yearly: 3550.0
     2022 Yearly: 3460.0
@@ -47,6 +49,7 @@ eps:
     Q3 2025: -0.46
     Q4 2025: -0.6
     Q1 2026: -0.55
+    Q2 2026: -0.51
   annual:
     2021 Yearly: 2.29
     2022 Yearly: 1.98
@@ -65,6 +68,7 @@ eps:
     Q3 2026: -0.16
     Q4 2026: -0.21
     Q1 2027: -0.16
+    Q2 2027: 0.14
   annual_forecast:
     2021 Yearly: 2.33
     2022 Yearly: 2.25

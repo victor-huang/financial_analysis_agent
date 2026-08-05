@@ -1,7 +1,7 @@
 currency: USD
 company_name: Diodes Incorporated
 sector: Electronic Technology
-market_cap_billions: 4.06
+market_cap_billions: 3.93
 revenue:
   quarterly:
     Q3 2024: 350.08
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 392.17
     Q4 2025: 391.58
     Q1 2026: 405.47
+    Q2 2026: 445.53
   annual:
     2021 Yearly: 1810.0
     2022 Yearly: 2000.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 470.83
     Q4 2026: 467.67
     Q1 2027: 470.24
+    Q2 2027: 511.93
   annual_forecast:
     2021 Yearly: 1800.0
     2022 Yearly: 2000.0
@@ -46,6 +48,7 @@ eps:
     Q3 2025: 0.37
     Q4 2025: 0.34
     Q1 2026: 0.43
+    Q2 2026: 0.7
   annual:
     2021 Yearly: 5.18
     2022 Yearly: 7.36
@@ -64,6 +67,7 @@ eps:
     Q3 2026: 0.83
     Q4 2026: 0.81
     Q1 2027: 0.89
+    Q2 2027: 1.17
   annual_forecast:
     2021 Yearly: 5.06
     2022 Yearly: 7.26

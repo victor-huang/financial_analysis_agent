@@ -1,7 +1,7 @@
 currency: USD
 company_name: Kemper Corporation
 sector: Finance
-market_cap_billions: 1.73
+market_cap_billions: 1.72
 revenue:
   quarterly:
     Q3 2024: 1180.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 1240.0
     Q4 2025: 1130.0
     Q1 2026: 1110.0
+    Q2 2026: 1090.0
   annual:
     2021 Yearly: 5790.0
     2022 Yearly: 5580.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 1160.0
     Q4 2026: 1150.0
     Q1 2027: 1200.0
+    Q2 2027: 1220.0
   annual_forecast:
     2021 Yearly: 5610.0
     2022 Yearly: 5560.0
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.33
     Q4 2025: 0.25
     Q1 2026: 0.21
+    Q2 2026: 0.45
   annual:
     2021 Yearly: -3.4
     2022 Yearly: -2.46
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.58
     Q4 2026: 0.88
     Q1 2027: 0.97
+    Q2 2027: 0.97
   annual_forecast:
     2021 Yearly: -1.79
     2022 Yearly: -2.53

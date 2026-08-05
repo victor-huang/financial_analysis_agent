@@ -1,7 +1,7 @@
 currency: USD
 company_name: Centrus Energy Corp.
 sector: Non-Energy Minerals
-market_cap_billions: 3.72
+market_cap_billions: 3.69
 revenue:
   quarterly:
     Q3 2024: 57.7
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 74.9
     Q4 2025: 146.2
     Q1 2026: 76.7
+    Q2 2026: 176.1
   annual:
     2021 Yearly: 298.3
     2022 Yearly: 293.8
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 73.65
     Q4 2026: 158.52
     Q1 2027: 75.11
+    Q2 2027: 155.37
   annual_forecast:
     2021 Yearly: 275.45
     2022 Yearly: 257.55
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.19
     Q4 2025: 0.79
     Q1 2026: 0.45
+    Q2 2026: 0.77
   annual:
     2021 Yearly: 9.75
     2022 Yearly: 3.38
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.07
     Q4 2026: 1.2
     Q1 2027: 0.52
+    Q2 2027: 1.06
   annual_forecast:
     2021 Yearly: 4.25
     2022 Yearly: 2.94

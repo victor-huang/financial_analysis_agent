@@ -1,7 +1,7 @@
 currency: USD
 company_name: agilon health, inc.
 sector: Health Services
-market_cap_billions: 1.58
+market_cap_billions: 1.8
 revenue:
   quarterly:
     Q3 2024: 1450.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 1440.0
     Q4 2025: 1570.0
     Q1 2026: 1420.0
+    Q2 2026: 1490.0
   annual:
     2021 Yearly: 1830.0
     2022 Yearly: 2710.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 1410.0
     Q4 2026: 1440.0
     Q1 2027: 1510.0
+    Q2 2027: 1510.0
   annual_forecast:
     2021 Yearly: 1820.0
     2022 Yearly: 2680.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -6.75
     Q4 2025: -11.5
     Q1 2026: 2.94
+    Q2 2026: 1.04
   annual:
     2021 Yearly: -27.25
     2022 Yearly: -6.5
@@ -66,6 +69,7 @@ eps:
     Q3 2026: -1.15
     Q4 2026: -3.54
     Q1 2027: 1.36
+    Q2 2027: 0.24
   annual_forecast:
     2021 Yearly: -25.52
     2022 Yearly: -5.23

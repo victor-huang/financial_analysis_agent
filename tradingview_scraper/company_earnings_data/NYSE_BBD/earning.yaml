@@ -1,7 +1,7 @@
 currency: USD
 company_name: Banco Bradesco Sa
 sector: Finance
-market_cap_billions: 35.87
+market_cap_billions: 34.96
 revenue:
   quarterly:
     Q3 2024: 5440.0
@@ -25,18 +25,18 @@ revenue:
     Q3 2025: 6270.0
     Q4 2025: 6570.0
     Q1 2026: 7060.0
-    Q2 2026: 7220.0
-    Q3 2026: 7410.0
-    Q4 2026: 7610.0
-    Q1 2027: 7800.0
+    Q2 2026: 7210.0
+    Q3 2026: 7400.0
+    Q4 2026: 7590.0
+    Q1 2027: 7780.0
   annual_forecast:
     2022 Yearly: 19410.0
     2023 Yearly: 22460.0
     2024 Yearly: 24110.0
     2025 Yearly: 20230.0
     2026 Yearly: 25260.0
-    2027 Yearly: 29190.0
-    2028 Yearly: 31660.0
+    2027 Yearly: 29060.0
+    2028 Yearly: 31510.0
 eps:
   quarterly:
     Q3 2024: 0.08
@@ -70,7 +70,7 @@ eps:
     2023 Yearly: 0.35
     2024 Yearly: 0.31
     2025 Yearly: 0.44
-    2026 Yearly: 0.53
-    2027 Yearly: 0.6
-    2028 Yearly: 0.65
+    2026 Yearly: 0.52
+    2027 Yearly: 0.59
+    2028 Yearly: 0.64
     2029 Yearly: 0.73

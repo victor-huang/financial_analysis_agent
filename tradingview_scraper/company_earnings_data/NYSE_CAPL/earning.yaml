@@ -1,7 +1,7 @@
 currency: USD
 company_name: CrossAmerica Partners LP
 sector: Distribution Services
-market_cap_billions: 0.81917
+market_cap_billions: 0.80963
 revenue:
   quarterly:
     Q3 2024: 1080.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 971.85
     Q4 2025: 866.29
     Q1 2026: 841.83
+    Q2 2026: 1180.0
   annual:
     2021 Yearly: 3580.0
     2022 Yearly: 4970.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 744.41
     Q4 2026: 718.24
     Q1 2027: 902.53
+    Q2 2027: 754.27
   annual_forecast:
     2021 Yearly: 3230.0
     2022 Yearly: 4570.0
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.34
     Q4 2025: 0.25
     Q1 2026: 0.26
+    Q2 2026: 0.52
   annual:
     2021 Yearly: 0.57
     2022 Yearly: 1.63
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.29
     Q4 2026: 0.13
     Q1 2027: 0.03
+    Q2 2027: 0.31
   annual_forecast:
     2021 Yearly: 0.46
     2022 Yearly: 1.37

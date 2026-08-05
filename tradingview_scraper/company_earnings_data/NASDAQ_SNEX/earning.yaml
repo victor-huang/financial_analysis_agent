@@ -1,7 +1,7 @@
 currency: USD
 company_name: StoneX Group Inc.
 sector: Finance
-market_cap_billions: 8.94
+market_cap_billions: 9.04
 revenue:
   quarterly:
     Q4 2024: 920.1
@@ -11,6 +11,7 @@ revenue:
     Q4 2025: 1200.0
     Q1 2026: 1440.0
     Q2 2026: 1570.0
+    Q3 2026: 1470.0
   annual:
     2021 Yearly: 1670.0
     2022 Yearly: 2110.0
@@ -29,6 +30,7 @@ revenue:
     Q4 2026: 1310.0
     Q1 2027: 1420.0
     Q2 2027: 1480.0
+    Q3 2027: 1390.0
   annual_forecast:
     2021 Yearly: 1170.0
     2022 Yearly: 1440.0
@@ -47,6 +49,7 @@ eps:
     Q4 2025: 0.7
     Q1 2026: 1.11
     Q2 2026: 1.38
+    Q3 2026: 1.0
   annual:
     2021 Yearly: 1.13
     2022 Yearly: 1.98
@@ -65,6 +68,7 @@ eps:
     Q4 2026: 0.81
     Q1 2027: 1.18
     Q2 2027: 1.02
+    Q3 2027: 1.04
   annual_forecast:
     2021 Yearly: 1.35
     2022 Yearly: 1.88

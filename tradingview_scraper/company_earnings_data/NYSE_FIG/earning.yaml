@@ -1,7 +1,7 @@
 currency: USD
 company_name: FIGMA INC
 sector: Technology Services
-market_cap_billions: 14.33
+market_cap_billions: 14.87
 revenue:
   quarterly:
     Q1 2025: 228.2
@@ -9,6 +9,7 @@ revenue:
     Q3 2025: 274.17
     Q4 2025: 303.78
     Q1 2026: 333.44
+    Q2 2026: 370.08
   annual:
     2025 Yearly: 1060.0
   quarterly_forecast:
@@ -20,6 +21,7 @@ revenue:
     Q3 2026: 364.9
     Q4 2026: 387.56
     Q1 2027: 410.16
+    Q2 2027: 424.66
   annual_forecast:
     2025 Yearly: 1050.0
     2026 Yearly: 1440.0
@@ -33,6 +35,7 @@ eps:
     Q3 2025: 0.1
     Q4 2025: 0.08
     Q1 2026: 0.1
+    Q2 2026: 0.08
   annual:
     2025 Yearly: 0.45
   quarterly_forecast:
@@ -44,6 +47,7 @@ eps:
     Q3 2026: 0.07
     Q4 2026: 0.07
     Q1 2027: 0.1
+    Q2 2027: 0.05
   annual_forecast:
     2025 Yearly: 0.38
     2026 Yearly: 0.27

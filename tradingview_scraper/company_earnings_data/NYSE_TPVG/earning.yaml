@@ -1,7 +1,7 @@
 currency: USD
 company_name: TriplePoint Venture Growth BDC Corp.
 sector: Miscellaneous
-market_cap_billions: 0.19285
+market_cap_billions: 0.18757
 revenue:
   quarterly:
     Q3 2024: 26.52
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 22.66
     Q4 2025: 22.54
     Q1 2026: 22.77
+    Q2 2026: 22.14
   annual:
     2021 Yearly: 87.39
     2022 Yearly: 119.42
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 22.99
     Q4 2026: 23.05
     Q1 2027: 23.08
+    Q2 2027: 23.23
   annual_forecast:
     2021 Yearly: 84.87
     2022 Yearly: 117.3

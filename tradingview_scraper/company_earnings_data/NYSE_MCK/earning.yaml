@@ -1,7 +1,7 @@
 currency: USD
 company_name: McKesson Corporation
 sector: Distribution Services
-market_cap_billions: 97.22
+market_cap_billions: 102.7
 revenue:
   quarterly:
     Q2 2024: 93650.0
@@ -11,6 +11,7 @@ revenue:
     Q2 2025: 103150.0
     Q3 2025: 106160.0
     Q4 2025: 96300.0
+    Q1 2026: 105380.0
   annual:
     2021 Yearly: 263970.0
     2022 Yearly: 276710.0
@@ -29,6 +30,7 @@ revenue:
     Q2 2026: 109950.0
     Q3 2026: 113450.0
     Q4 2026: 103810.0
+    Q1 2027: 111390.0
   annual_forecast:
     2021 Yearly: 260880.0
     2022 Yearly: 275910.0
@@ -48,6 +50,7 @@ eps:
     Q2 2025: 9.86
     Q3 2025: 9.34
     Q4 2025: 11.69
+    Q1 2026: 9.93
   annual:
     2021 Yearly: 23.69
     2022 Yearly: 25.94
@@ -66,6 +69,7 @@ eps:
     Q2 2026: 10.75
     Q3 2026: 11.08
     Q4 2026: 12.91
+    Q1 2027: 11.12
   annual_forecast:
     2021 Yearly: 23.89
     2022 Yearly: 25.96

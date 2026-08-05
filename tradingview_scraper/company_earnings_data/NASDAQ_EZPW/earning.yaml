@@ -1,7 +1,7 @@
 currency: USD
 company_name: EZCORP, Inc.
 sector: Finance
-market_cap_billions: 1.91
+market_cap_billions: 1.83
 revenue:
   quarterly:
     Q4 2024: 294.55
@@ -11,6 +11,7 @@ revenue:
     Q4 2025: 336.81
     Q1 2026: 382.0
     Q2 2026: 446.88
+    Q3 2026: 418.75
   annual:
     2021 Yearly: 729.55
     2022 Yearly: 886.2
@@ -29,6 +30,7 @@ revenue:
     Q4 2026: 437.28
     Q1 2027: 464.19
     Q2 2027: 450.22
+    Q3 2027: 448.45
   annual_forecast:
     2021 Yearly: 711.61
     2022 Yearly: 861.9
@@ -48,6 +50,7 @@ eps:
     Q4 2025: 0.34
     Q1 2026: 0.55
     Q2 2026: 0.58
+    Q3 2026: 0.47
   annual:
     2021 Yearly: 0.38
     2022 Yearly: 0.75
@@ -66,6 +69,7 @@ eps:
     Q4 2026: 0.44
     Q1 2027: 0.59
     Q2 2027: 0.51
+    Q3 2027: 0.49
   annual_forecast:
     2021 Yearly: 0.17
     2022 Yearly: 0.66

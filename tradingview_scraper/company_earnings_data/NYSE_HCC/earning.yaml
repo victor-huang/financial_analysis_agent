@@ -1,7 +1,7 @@
 currency: USD
 company_name: Warrior Met Coal, Inc.
 sector: Energy Minerals
-market_cap_billions: 4.3
+market_cap_billions: 4.45
 revenue:
   quarterly:
     Q3 2024: 327.72
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 328.59
     Q4 2025: 383.99
     Q1 2026: 458.59
+    Q2 2026: 509.69
   annual:
     2021 Yearly: 1060.0
     2022 Yearly: 1740.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 511.08
     Q4 2026: 539.29
     Q1 2027: 558.87
+    Q2 2027: 564.16
   annual_forecast:
     2021 Yearly: 933.81
     2022 Yearly: 1820.0
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.7
     Q4 2025: 0.43
     Q1 2026: 1.4
+    Q2 2026: 1.41
   annual:
     2021 Yearly: 4.43
     2022 Yearly: 12.88
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 1.54
     Q4 2026: 1.71
     Q1 2027: 1.84
+    Q2 2027: 1.8
   annual_forecast:
     2021 Yearly: 3.59
     2022 Yearly: 13.32

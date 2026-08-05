@@ -1,7 +1,7 @@
 currency: USD
 company_name: Paycom Software, Inc.
 sector: Technology Services
-market_cap_billions: 8.35
+market_cap_billions: 8.33
 revenue:
   quarterly:
     Q3 2024: 451.93
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 493.3
     Q4 2025: 544.3
     Q1 2026: 571.9
+    Q2 2026: 531.2
   annual:
     2021 Yearly: 1060.0
     2022 Yearly: 1380.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 530.37
     Q4 2026: 572.64
     Q1 2027: 616.11
+    Q2 2027: 551.29
   annual_forecast:
     2021 Yearly: 1050.0
     2022 Yearly: 1370.0
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 1.94
     Q4 2025: 2.45
     Q1 2026: 3.15
+    Q2 2026: 2.78
   annual:
     2021 Yearly: 4.48
     2022 Yearly: 6.14
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 2.42
     Q4 2026: 2.91
     Q1 2027: 3.61
+    Q2 2027: 2.69
   annual_forecast:
     2021 Yearly: 4.45
     2022 Yearly: 5.91

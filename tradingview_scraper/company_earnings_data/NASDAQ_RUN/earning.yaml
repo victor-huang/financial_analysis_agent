@@ -1,7 +1,7 @@
 currency: USD
 company_name: Sunrun Inc.
 sector: Electronic Technology
-market_cap_billions: 2.63
+market_cap_billions: 2.5
 revenue:
   quarterly:
     Q3 2024: 537.17
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 724.56
     Q4 2025: 1160.0
     Q1 2026: 722.23
+    Q2 2026: 869.99
   annual:
     2021 Yearly: 1610.0
     2022 Yearly: 2320.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 809.52
     Q4 2026: 838.66
     Q1 2027: 809.23
+    Q2 2027: 817.17
   annual_forecast:
     2021 Yearly: 1590.0
     2022 Yearly: 2300.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.06
     Q4 2025: 0.38
     Q1 2026: 0.62
+    Q2 2026: 0.42
   annual:
     2021 Yearly: -0.39
     2022 Yearly: 0.8
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.16
     Q4 2026: 0.06
     Q1 2027: -0.01
+    Q2 2027: 0.08
   annual_forecast:
     2021 Yearly: -0.33
     2022 Yearly: 0.5

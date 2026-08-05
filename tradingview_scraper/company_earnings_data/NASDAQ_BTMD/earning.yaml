@@ -1,7 +1,7 @@
 currency: USD
 company_name: Biote Corp.
 sector: Health Services
-market_cap_billions: 0.08531
+market_cap_billions: 0.08493
 revenue:
   quarterly:
     Q3 2024: 51.38
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 47.96
     Q4 2025: 46.41
     Q1 2026: 44.94
+    Q2 2026: 44.2
   annual:
     2022 Yearly: 164.96
     2023 Yearly: 185.4
@@ -28,6 +29,7 @@ revenue:
     Q3 2026: 49.12
     Q4 2026: 50.37
     Q1 2027: 50.14
+    Q2 2027: 50.91
   annual_forecast:
     2022 Yearly: 164.3
     2023 Yearly: 185.47
@@ -46,6 +48,7 @@ eps:
     Q3 2025: 0.22
     Q4 2025: 0.06
     Q1 2026: 0.06
+    Q2 2026: -0.23
   annual:
     2022 Yearly: -0.12
     2023 Yearly: 0.13
@@ -63,6 +66,7 @@ eps:
     Q3 2026: 0.08
     Q4 2026: 0.11
     Q1 2027: 0.14
+    Q2 2027: 0.11
   annual_forecast:
     2022 Yearly: 1.71
     2023 Yearly: -0.05

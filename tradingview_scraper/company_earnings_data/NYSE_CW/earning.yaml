@@ -1,7 +1,7 @@
 currency: USD
 company_name: Curtiss-Wright Corporation
 sector: Electronic Technology
-market_cap_billions: 27.98
+market_cap_billions: 27.65
 revenue:
   quarterly:
     Q3 2024: 798.92
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 869.17
     Q4 2025: 946.98
     Q1 2026: 913.69
+    Q2 2026: 924.01
   annual:
     2021 Yearly: 2470.0
     2022 Yearly: 2560.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 937.98
     Q4 2026: 1000.0
     Q1 2027: 993.82
+    Q2 2027: 1030.0
   annual_forecast:
     2021 Yearly: 2500.0
     2022 Yearly: 2550.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 3.4
     Q4 2025: 3.79
     Q1 2026: 3.48
+    Q2 2026: 3.72
   annual:
     2021 Yearly: 7.34
     2022 Yearly: 8.13
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 3.86
     Q4 2026: 4.29
     Q1 2027: 3.87
+    Q2 2027: 4.26
   annual_forecast:
     2021 Yearly: 7.31
     2022 Yearly: 8.12

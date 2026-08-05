@@ -1,7 +1,7 @@
 currency: USD
 company_name: LTC Properties, Inc.
 sector: Finance
-market_cap_billions: 1.97
+market_cap_billions: 1.98
 revenue:
   quarterly:
     Q3 2024: 32.26
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 47.09
     Q4 2025: 46.33
     Q1 2026: 26.34
+    Q2 2026: 25.99
   annual:
     2021 Yearly: 155.32
     2022 Yearly: 128.24
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 84.69
     Q4 2026: 89.47
     Q1 2027: 95.63
+    Q2 2027: 99.21
   annual_forecast:
     2021 Yearly: 123.05
     2022 Yearly: 124.37
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -0.44
     Q4 2025: 2.11
     Q1 2026: 0.48
+    Q2 2026: 0.56
   annual:
     2021 Yearly: 1.41
     2022 Yearly: 2.48
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.51
     Q4 2026: 0.43
     Q1 2027: 0.46
+    Q2 2027: 0.47
   annual_forecast:
     2021 Yearly: 1.43
     2022 Yearly: 2.5

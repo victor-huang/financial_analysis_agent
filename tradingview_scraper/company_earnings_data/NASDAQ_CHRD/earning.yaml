@@ -1,7 +1,7 @@
 currency: USD
 company_name: Chord Energy Corporation
 sector: Energy Minerals
-market_cap_billions: 7.71
+market_cap_billions: 7.32
 revenue:
   quarterly:
     Q3 2024: 1450.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 1310.0
     Q4 2025: 1170.0
     Q1 2026: 1670.0
+    Q2 2026: 2170.0
   annual:
     2021 Yearly: 1580.0
     2022 Yearly: 3650.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 1420.0
     Q4 2026: 1350.0
     Q1 2027: 1310.0
+    Q2 2027: 1300.0
   annual_forecast:
     2021 Yearly: 1090.0
     2022 Yearly: 3020.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 2.35
     Q4 2025: 1.28
     Q1 2026: 4.56
+    Q2 2026: 6.44
   annual:
     2021 Yearly: 9.52
     2022 Yearly: 27.03
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 4.41
     Q4 2026: 3.9
     Q1 2027: 3.55
+    Q2 2027: 3.47
   annual_forecast:
     2021 Yearly: 15.48
     2022 Yearly: 31.68

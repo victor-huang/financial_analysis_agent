@@ -18,7 +18,7 @@ FETCHED_EARNING_DATA_TAB_NAME="${FETCHED_EARNING_DATA_TAB_NAME:-Earnings_Data}"
 
 
 # Optional: earnings script trigger command (leave empty to disable)
-ON_NEW_TICKERS_CMD="cd $SCRIPT_DIR/tradingview_scraper && python run_earnings_to_sheets.py --tickers-file ../tickers_from_spreadsheet.txt --spreadsheet-id $SPREADSHEET_ID --date {date} --tab-name $FETCHED_EARNING_DATA_TAB_NAME --quarter-mode forecast --concurrency 5 --expand-to-near-by-days 3 --skip-existing-tickers-col A"
+ON_NEW_TICKERS_CMD=""
 
 # Build the command
 CMD="python $SCRIPT_DIR/update_extended_hours_prices.py"

@@ -1,7 +1,7 @@
 currency: USD
 company_name: Everspin Technologies, Inc.
 sector: Electronic Technology
-market_cap_billions: 0.40846
+market_cap_billions: 0.37844
 revenue:
   quarterly:
     Q3 2024: 12.09
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 14.06
     Q4 2025: 14.8
     Q1 2026: 14.87
+    Q2 2026: 18.74
   annual:
     2021 Yearly: 55.15
     2022 Yearly: 59.98
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 18.5
     Q4 2026: 18.9
     Q1 2027: 18.97
+    Q2 2027: 19.27
   annual_forecast:
     2021 Yearly: 53.45
     2022 Yearly: 58.9
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.0
     Q4 2025: 0.05
     Q1 2026: -0.01
+    Q2 2026: -0.15
   annual:
     2021 Yearly: 0.22
     2022 Yearly: 0.29
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.02
     Q4 2026: 0.03
     Q1 2027: 0.01
+    Q2 2027: 0.02
   annual_forecast:
     2021 Yearly: 0.12
     2022 Yearly: 0.2

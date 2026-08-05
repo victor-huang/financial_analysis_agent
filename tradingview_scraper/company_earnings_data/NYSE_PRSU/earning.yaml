@@ -1,7 +1,7 @@
 currency: USD
 company_name: Pursuit Attractions and Hospitality, Inc.
 sector: Consumer Services
-market_cap_billions: 1.41
+market_cap_billions: 1.37
 revenue:
   quarterly:
     Q3 2024: 455.7
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 241.02
     Q4 2025: 57.07
     Q1 2026: 51.64
+    Q2 2026: 133.49
   annual:
     2021 Yearly: 507.34
     2022 Yearly: 1130.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 240.21
     Q4 2026: 53.59
     Q1 2027: 50.52
+    Q2 2027: 130.18
   annual_forecast:
     2021 Yearly: 472.03
     2022 Yearly: 1100.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 2.6
     Q4 2025: -0.91
     Q1 2026: -0.9
+    Q2 2026: 0.54
   annual:
     2021 Yearly: -4.38
     2022 Yearly: 0.16
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 2.88
     Q4 2026: -0.82
     Q1 2027: -0.92
+    Q2 2027: 0.54
   annual_forecast:
     2022 Yearly: -3.97
     2023 Yearly: -0.52

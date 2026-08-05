@@ -1,7 +1,7 @@
 currency: USD
 company_name: Barrett Business Services, Inc.
 sector: Commercial Services
-market_cap_billions: 0.9843500000000001
+market_cap_billions: 0.98509
 revenue:
   quarterly:
     Q3 2024: 294.3
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 318.9
     Q4 2025: 321.1
     Q1 2026: 307.0
+    Q2 2026: 319.3
   annual:
     2021 Yearly: 955.2
     2022 Yearly: 1050.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 337.56
     Q4 2026: 339.13
     Q1 2027: 328.38
+    Q2 2027: 342.95
   annual_forecast:
     2021 Yearly: 948.08
     2022 Yearly: 1060.0
@@ -46,6 +48,7 @@ eps:
     Q3 2025: 0.79
     Q4 2025: 0.64
     Q1 2026: -0.59
+    Q2 2026: 0.52
   annual:
     2021 Yearly: 1.25
     2022 Yearly: 1.64
@@ -64,6 +67,7 @@ eps:
     Q3 2026: 0.76
     Q4 2026: 0.68
     Q1 2027: -0.09
+    Q2 2027: 0.82
   annual_forecast:
     2021 Yearly: 1.15
     2022 Yearly: 1.61

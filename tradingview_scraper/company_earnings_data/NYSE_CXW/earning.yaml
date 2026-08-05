@@ -1,7 +1,7 @@
 currency: USD
 company_name: CoreCivic, Inc.
 sector: Commercial Services
-market_cap_billions: 2.98
+market_cap_billions: 3.09
 revenue:
   quarterly:
     Q3 2024: 491.56
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 580.44
     Q4 2025: 603.95
     Q1 2026: 614.73
+    Q2 2026: 684.92
   annual:
     2021 Yearly: 1860.0
     2022 Yearly: 1850.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 655.79
     Q4 2026: 671.39
     Q1 2027: 661.53
+    Q2 2027: 675.31
   annual_forecast:
     2021 Yearly: 1870.0
     2022 Yearly: 1840.0
@@ -46,6 +48,7 @@ eps:
     Q3 2025: 0.24
     Q4 2025: 0.26
     Q1 2026: 0.38
+    Q2 2026: 0.37
   annual:
     2021 Yearly: 1.04
     2022 Yearly: 1.03
@@ -64,6 +67,7 @@ eps:
     Q3 2026: 0.44
     Q4 2026: 0.45
     Q1 2027: 0.46
+    Q2 2027: 0.57
   annual_forecast:
     2021 Yearly: 1.03
     2022 Yearly: 0.94

@@ -1,7 +1,7 @@
 currency: USD
 company_name: MetLife, Inc.
 sector: Finance
-market_cap_billions: 61.85
+market_cap_billions: 61.94
 revenue:
   quarterly:
     Q3 2024: 18440.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 17360.0
     Q4 2025: 23810.0
     Q1 2026: 19680.0
+    Q2 2026: 19070.0
   annual:
     2021 Yearly: 71080.0
     2022 Yearly: 69900.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 20100.0
     Q4 2026: 20680.0
     Q1 2027: 20600.0
+    Q2 2027: 20930.0
   annual_forecast:
     2021 Yearly: 67680.0
     2022 Yearly: 77300.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 2.34
     Q4 2025: 2.49
     Q1 2026: 2.42
+    Q2 2026: 2.43
   annual:
     2021 Yearly: 9.15
     2022 Yearly: 6.85
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 2.53
     Q4 2026: 2.59
     Q1 2027: 2.49
+    Q2 2027: 2.78
   annual_forecast:
     2021 Yearly: 8.47
     2022 Yearly: 6.95

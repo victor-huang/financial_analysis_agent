@@ -1,7 +1,7 @@
 currency: USD
 company_name: Global Net Lease, Inc.
 sector: Finance
-market_cap_billions: 1.82
+market_cap_billions: 1.83
 revenue:
   quarterly:
     Q3 2024: 196.56
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 121.01
     Q4 2025: 116.95
     Q1 2026: 109.29
+    Q2 2026: 112.47
   annual:
     2021 Yearly: 391.23
     2022 Yearly: 378.86
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 111.71
     Q4 2026: 115.59
     Q1 2027: 116.67
+    Q2 2027: 116.97
   annual_forecast:
     2021 Yearly: 382.11
     2022 Yearly: 377.92
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -0.33
     Q4 2025: 0.16
     Q1 2026: -0.09
+    Q2 2026: -0.05
   annual:
     2021 Yearly: -0.2
     2022 Yearly: -0.09
@@ -66,6 +69,7 @@ eps:
     Q3 2026: -0.04
     Q4 2026: -0.03
     Q1 2027: -0.03
+    Q2 2027: -0.03
   annual_forecast:
     2021 Yearly: -0.02
     2022 Yearly: 0.06

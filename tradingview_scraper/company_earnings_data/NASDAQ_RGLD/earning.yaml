@@ -1,7 +1,7 @@
 currency: USD
 company_name: Royal Gold, Inc.
 sector: Non-Energy Minerals
-market_cap_billions: 17.49
+market_cap_billions: 18.25
 revenue:
   quarterly:
     Q3 2024: 193.84
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 252.07
     Q4 2025: 375.32
     Q1 2026: 469.13
+    Q2 2026: 450.5
   annual:
     2021 Yearly: 615.86
     2022 Yearly: 603.21
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 455.59
     Q4 2026: 474.88
     Q1 2027: 552.16
+    Q2 2027: 554.81
   annual_forecast:
     2021 Yearly: 615.86
     2022 Yearly: 592.38
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 2.06
     Q4 2025: 1.92
     Q1 2026: 2.72
+    Q2 2026: 2.56
   annual:
     2021 Yearly: 3.59
     2022 Yearly: 3.43
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 2.64
     Q4 2026: 2.79
     Q1 2027: 3.35
+    Q2 2027: 3.33
   annual_forecast:
     2021 Yearly: 3.59
     2022 Yearly: 3.38

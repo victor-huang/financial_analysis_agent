@@ -1,7 +1,7 @@
 currency: USD
 company_name: Trupanion, Inc.
 sector: Finance
-market_cap_billions: 1.08
+market_cap_billions: 1.06
 revenue:
   quarterly:
     Q3 2024: 327.46
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 366.92
     Q4 2025: 376.85
     Q1 2026: 384.05
+    Q2 2026: 392.9
   annual:
     2021 Yearly: 698.99
     2022 Yearly: 905.2
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 398.21
     Q4 2026: 404.16
     Q1 2027: 412.77
+    Q2 2027: 422.48
   annual_forecast:
     2021 Yearly: 697.31
     2022 Yearly: 901.39
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.13
     Q4 2025: 0.13
     Q1 2026: 0.11
+    Q2 2026: 0.16
   annual:
     2021 Yearly: -0.89
     2022 Yearly: -1.1
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.15
     Q4 2026: 0.17
     Q1 2027: 0.13
+    Q2 2027: 0.16
   annual_forecast:
     2021 Yearly: -0.85
     2022 Yearly: -1.15

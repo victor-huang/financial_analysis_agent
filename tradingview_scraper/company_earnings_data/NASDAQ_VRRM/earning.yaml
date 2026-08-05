@@ -1,7 +1,7 @@
 currency: USD
 company_name: Verra Mobility Corporation
 sector: Transportation
-market_cap_billions: 0.84764
+market_cap_billions: 0.8522000000000001
 revenue:
   quarterly:
     Q3 2024: 225.55
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 261.94
     Q4 2025: 257.86
     Q1 2026: 223.57
+    Q2 2026: 263.59
   annual:
     2021 Yearly: 550.59
     2022 Yearly: 741.6
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 264.58
     Q4 2026: 245.66
     Q1 2027: 217.18
+    Q2 2027: 236.78
   annual_forecast:
     2021 Yearly: 540.7
     2022 Yearly: 739.88
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.37
     Q4 2025: 0.3
     Q1 2026: 0.25
+    Q2 2026: 0.38
   annual:
     2021 Yearly: 0.74
     2022 Yearly: 1.02
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.36
     Q4 2026: 0.29
     Q1 2027: 0.2
+    Q2 2027: 0.25
   annual_forecast:
     2021 Yearly: 0.72
     2022 Yearly: 0.97

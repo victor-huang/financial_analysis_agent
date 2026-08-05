@@ -1,7 +1,7 @@
 currency: USD
 company_name: Crane NXT, Co.
 sector: Producer Manufacturing
-market_cap_billions: 3.15
+market_cap_billions: 3.01
 revenue:
   quarterly:
     Q3 2024: 403.5
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 445.1
     Q4 2025: 476.9
     Q1 2026: 387.7
+    Q2 2026: 493.2
   annual:
     2021 Yearly: 3180.0
     2022 Yearly: 3370.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 506.06
     Q4 2026: 520.31
     Q1 2027: 428.39
+    Q2 2027: 509.13
   annual_forecast:
     2021 Yearly: 3140.0
     2022 Yearly: 3420.0
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 1.28
     Q4 2025: 1.27
     Q1 2026: 0.6
+    Q2 2026: 1.1
   annual:
     2021 Yearly: 2.27
     2022 Yearly: 2.74
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 1.24
     Q4 2026: 1.36
     Q1 2027: 0.82
+    Q2 2027: 1.15
   annual_forecast:
     2021 Yearly: 2.23
     2022 Yearly: 2.66

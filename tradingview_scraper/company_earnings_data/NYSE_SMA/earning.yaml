@@ -1,7 +1,7 @@
 currency: USD
 company_name: SmartStop Self Storage REIT, Inc.
 sector: Finance
-market_cap_billions: 2.0
+market_cap_billions: 2.01
 revenue:
   quarterly:
     Q4 2024: 53.53
@@ -10,6 +10,7 @@ revenue:
     Q3 2025: 61.77
     Q4 2025: 61.99
     Q1 2026: 61.91
+    Q2 2026: 62.88
   annual:
     2024 Yearly: 209.6
     2025 Yearly: 238.5
@@ -23,6 +24,7 @@ revenue:
     Q3 2026: 63.7
     Q4 2026: 63.73
     Q1 2027: 64.08
+    Q2 2027: 65.25
   annual_forecast:
     2025 Yearly: 240.5
     2026 Yearly: 253.24
@@ -37,6 +39,7 @@ eps:
     Q3 2025: 0.09
     Q4 2025: 0.05
     Q1 2026: 0.17
+    Q2 2026: 0.2
   annual:
     2024 Yearly: -0.76
     2025 Yearly: -0.2
@@ -50,6 +53,7 @@ eps:
     Q3 2026: 0.12
     Q4 2026: 0.13
     Q1 2027: 0.08
+    Q2 2027: 0.11
   annual_forecast:
     2025 Yearly: -0.04
     2026 Yearly: 0.53

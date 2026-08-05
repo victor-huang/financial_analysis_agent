@@ -1,7 +1,7 @@
 currency: USD
 company_name: The Honest Company, Inc.
 sector: Retail Trade
-market_cap_billions: 0.42821
+market_cap_billions: 0.4238
 revenue:
   quarterly:
     Q3 2024: 99.24
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 92.57
     Q4 2025: 88.04
     Q1 2026: 78.1
+    Q2 2026: 83.3
   annual:
     2021 Yearly: 318.64
     2022 Yearly: 313.65
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 77.25
     Q4 2026: 76.4
     Q1 2027: 83.4
+    Q2 2027: 82.43
   annual_forecast:
     2021 Yearly: 322.91
     2022 Yearly: 312.48
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.01
     Q4 2025: 0.0
     Q1 2026: 0.01
+    Q2 2026: 0.16
   annual:
     2021 Yearly: -0.43
     2022 Yearly: -0.53
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.02
     Q4 2026: 0.03
     Q1 2027: 0.03
+    Q2 2027: 0.04
   annual_forecast:
     2021 Yearly: -0.36
     2022 Yearly: -0.44

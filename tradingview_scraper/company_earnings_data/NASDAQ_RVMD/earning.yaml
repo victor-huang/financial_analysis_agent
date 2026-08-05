@@ -1,7 +1,7 @@
 currency: USD
 company_name: Revolution Medicines, Inc.
 sector: Health Technology
-market_cap_billions: 41.13
+market_cap_billions: 41.95
 revenue:
   quarterly:
     Q3 2024: 0.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 0.0
     Q4 2025: 0.0
     Q1 2026: 0.0
+    Q2 2026: 0.0
   annual:
     2021 Yearly: 29.39
     2022 Yearly: 35.38
@@ -27,6 +28,7 @@ revenue:
     Q3 2026: 7.82
     Q4 2026: 79.2
     Q1 2027: 162.34
+    Q2 2027: 197.37
   annual_forecast:
     2021 Yearly: 28.78
     2022 Yearly: 27.86
@@ -45,6 +47,7 @@ eps:
     Q3 2025: -1.61
     Q4 2025: -1.86
     Q1 2026: -2.29
+    Q2 2026: -3.06
   annual:
     2021 Yearly: -2.57
     2022 Yearly: -3.08
@@ -63,6 +66,7 @@ eps:
     Q3 2026: -1.97
     Q4 2026: -1.73
     Q1 2027: -1.42
+    Q2 2027: -1.33
   annual_forecast:
     2021 Yearly: -2.5
     2022 Yearly: -3.29

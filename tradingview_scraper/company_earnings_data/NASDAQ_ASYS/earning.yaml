@@ -1,7 +1,7 @@
 currency: USD
 company_name: Amtech Systems, Inc.
 sector: Producer Manufacturing
-market_cap_billions: 0.30492
+market_cap_billions: 0.27992
 revenue:
   quarterly:
     Q4 2024: 24.1
@@ -11,6 +11,7 @@ revenue:
     Q4 2025: 19.84
     Q1 2026: 19.0
     Q2 2026: 20.47
+    Q3 2026: 22.38
   annual:
     2021 Yearly: 85.2
     2022 Yearly: 106.3
@@ -44,6 +45,7 @@ eps:
     Q4 2025: 0.07
     Q1 2026: 0.01
     Q2 2026: 0.08
+    Q3 2026: 0.1
   annual:
     2021 Yearly: 0.11
     2022 Yearly: 1.22

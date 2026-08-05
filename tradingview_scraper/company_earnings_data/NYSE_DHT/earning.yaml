@@ -1,7 +1,7 @@
 currency: USD
 company_name: DHT Holdings, Inc.
 sector: Transportation
-market_cap_billions: 2.92
+market_cap_billions: 2.88
 revenue:
   quarterly:
     Q3 2024: 92.64
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 79.1
     Q4 2025: 117.8
     Q1 2026: 157.2
+    Q2 2026: 254.96
   annual:
     2021 Yearly: 203.42
     2022 Yearly: 264.88
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 184.6
     Q4 2026: 162.56
     Q1 2027: 156.06
+    Q2 2027: 112.03
   annual_forecast:
     2021 Yearly: 201.92
     2022 Yearly: 262.49
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.28
     Q4 2025: 0.41
     Q1 2026: 1.02
+    Q2 2026: 1.23
   annual:
     2021 Yearly: -0.24
     2022 Yearly: 0.16
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.83
     Q4 2026: 0.68
     Q1 2027: 0.61
+    Q2 2027: 0.36
   annual_forecast:
     2021 Yearly: -0.27
     2022 Yearly: 0.15

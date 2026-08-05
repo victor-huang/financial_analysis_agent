@@ -1,7 +1,7 @@
 currency: USD
 company_name: Murphy USA Inc.
 sector: Retail Trade
-market_cap_billions: 10.89
+market_cap_billions: 10.73
 revenue:
   quarterly:
     Q3 2024: 5240.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 5110.0
     Q4 2025: 4740.0
     Q1 2026: 4820.0
+    Q2 2026: 6810.0
   annual:
     2021 Yearly: 17360.0
     2022 Yearly: 23450.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 5760.0
     Q4 2026: 5340.0
     Q1 2027: 4890.0
+    Q2 2027: 5520.0
   annual_forecast:
     2021 Yearly: 17150.0
     2022 Yearly: 23430.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 7.25
     Q4 2025: 7.67
     Q1 2026: 7.26
+    Q2 2026: 11.23
   annual:
     2021 Yearly: 14.88
     2022 Yearly: 28.01
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 8.56
     Q4 2026: 7.55
     Q1 2027: 4.79
+    Q2 2027: 8.72
   annual_forecast:
     2021 Yearly: 14.01
     2022 Yearly: 29.24

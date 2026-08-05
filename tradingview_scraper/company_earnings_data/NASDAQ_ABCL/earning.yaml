@@ -1,7 +1,7 @@
 currency: USD
 company_name: AbCellera Biologics Inc.
 sector: Health Technology
-market_cap_billions: 1.86
+market_cap_billions: 1.81
 revenue:
   quarterly:
     Q3 2024: 6.51
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 8.96
     Q4 2025: 44.9
     Q1 2026: 8.31
+    Q2 2026: 4.05
   annual:
     2021 Yearly: 375.2
     2022 Yearly: 485.42
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 7.62
     Q4 2026: 8.15
     Q1 2027: 7.78
+    Q2 2027: 8.17
   annual_forecast:
     2021 Yearly: 354.36
     2022 Yearly: 519.16
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -0.19
     Q4 2025: -0.03
     Q1 2026: -0.14
+    Q2 2026: -0.18
   annual:
     2021 Yearly: 0.48
     2022 Yearly: 0.5
@@ -66,6 +69,7 @@ eps:
     Q3 2026: -0.15
     Q4 2026: -0.16
     Q1 2027: -0.19
+    Q2 2027: -0.2
   annual_forecast:
     2021 Yearly: 0.52
     2022 Yearly: 0.67

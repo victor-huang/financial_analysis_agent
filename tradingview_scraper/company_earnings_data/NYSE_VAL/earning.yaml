@@ -1,7 +1,7 @@
 currency: USD
 company_name: Your connection was interrupted
-sector: null
-market_cap_billions: null
+sector: Industrial Services
+market_cap_billions: 5.33
 revenue:
   quarterly:
     Q3 2024: 643.1

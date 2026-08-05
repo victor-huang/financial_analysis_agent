@@ -1,7 +1,7 @@
 currency: USD
 company_name: Cardlytics, Inc. Common Stock
 sector: Technology Services
-market_cap_billions: 0.023350000000000003
+market_cap_billions: 0.02375
 revenue:
   quarterly:
     Q3 2024: 67.06
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 52.03
     Q4 2025: 56.09
     Q1 2026: 34.32
+    Q2 2026: 36.88
   annual:
     2021 Yearly: 267.12
     2022 Yearly: 298.5
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 38.59
     Q4 2026: 41.48
     Q1 2027: 34.64
+    Q2 2027: 38.74
   annual_forecast:
     2021 Yearly: 253.59
     2022 Yearly: 299.56
@@ -46,6 +48,7 @@ eps:
     Q3 2025: -13.6
     Q4 2025: -1.5
     Q1 2026: -0.8
+    Q2 2026: -2.58
   annual:
     2021 Yearly: -39.9
     2022 Yearly: -139.2
@@ -64,6 +67,7 @@ eps:
     Q3 2026: -2.1
     Q4 2026: -1.83
     Q1 2027: -2.55
+    Q2 2027: -2.1
   annual_forecast:
     2021 Yearly: -44.58
     2022 Yearly: -23.82

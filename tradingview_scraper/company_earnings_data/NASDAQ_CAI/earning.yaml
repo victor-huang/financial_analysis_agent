@@ -1,7 +1,7 @@
 currency: USD
 company_name: Caris Life Sciences, Inc.
 sector: Health Technology
-market_cap_billions: 4.55
+market_cap_billions: 4.65
 revenue:
   quarterly:
     Q1 2025: 120.91
@@ -9,6 +9,7 @@ revenue:
     Q3 2025: 216.83
     Q4 2025: 292.89
     Q1 2026: 216.17
+    Q2 2026: 263.71
   annual:
     2025 Yearly: 812.03
   quarterly_forecast:
@@ -20,6 +21,7 @@ revenue:
     Q3 2026: 261.58
     Q4 2026: 286.07
     Q1 2027: 264.92
+    Q2 2027: 295.73
   annual_forecast:
     2025 Yearly: 759.58
     2026 Yearly: 1000.0
@@ -33,6 +35,7 @@ eps:
     Q3 2025: 0.08
     Q4 2025: 0.28
     Q1 2026: 0.0
+    Q2 2026: 0.0
   annual:
     2025 Yearly: -0.41
   quarterly_forecast:
@@ -44,6 +47,7 @@ eps:
     Q3 2026: 0.04
     Q4 2026: 0.07
     Q1 2027: 0.04
+    Q2 2027: 0.09
   annual_forecast:
     2025 Yearly: -1.06
     2026 Yearly: 0.11

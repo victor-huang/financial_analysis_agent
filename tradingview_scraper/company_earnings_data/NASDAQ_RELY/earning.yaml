@@ -1,7 +1,7 @@
 currency: USD
 company_name: Remitly Global, Inc.
 sector: Commercial Services
-market_cap_billions: 5.19
+market_cap_billions: 5.07
 revenue:
   quarterly:
     Q3 2024: 336.53
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 419.49
     Q4 2025: 442.18
     Q1 2026: 452.8
+    Q2 2026: 495.16
   annual:
     2021 Yearly: 458.61
     2022 Yearly: 653.56
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 504.7
     Q4 2026: 529.74
     Q1 2027: 538.51
+    Q2 2027: 582.04
   annual_forecast:
     2021 Yearly: 448.34
     2022 Yearly: 642.94
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.22
     Q4 2025: 0.19
     Q1 2026: 0.23
+    Q2 2026: 0.93
   annual:
     2021 Yearly: -0.24
     2022 Yearly: -0.11
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.13
     Q4 2026: 0.17
     Q1 2027: 0.23
+    Q2 2027: 0.23
   annual_forecast:
     2021 Yearly: -0.23
     2022 Yearly: -0.2

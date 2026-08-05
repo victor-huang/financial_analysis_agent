@@ -1,7 +1,7 @@
 currency: USD
 company_name: Cadre Holdings, Inc.
 sector: Electronic Technology
-market_cap_billions: 1.32
+market_cap_billions: 1.33
 revenue:
   quarterly:
     Q3 2024: 109.41
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 155.87
     Q4 2025: 167.22
     Q1 2026: 155.43
+    Q2 2026: 207.13
   annual:
     2021 Yearly: 427.29
     2022 Yearly: 457.84
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 193.4
     Q4 2026: 210.22
     Q1 2027: 173.61
+    Q2 2027: 187.59
   annual_forecast:
     2021 Yearly: 428.1
     2022 Yearly: 449.9
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.27
     Q4 2025: 0.27
     Q1 2026: 0.05
+    Q2 2026: 0.26
   annual:
     2021 Yearly: 0.44
     2022 Yearly: 0.16
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.38
     Q4 2026: 0.5
     Q1 2027: 0.21
+    Q2 2027: 0.33
   annual_forecast:
     2021 Yearly: 0.48
     2022 Yearly: 0.21

@@ -1,7 +1,7 @@
 currency: USD
 company_name: Envista Holdings Corporation
 sector: Health Technology
-market_cap_billions: 4.55
+market_cap_billions: 4.66
 revenue:
   quarterly:
     Q3 2024: 601.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 669.9
     Q4 2025: 750.6
     Q1 2026: 705.5
+    Q2 2026: 730.5
   annual:
     2021 Yearly: 2510.0
     2022 Yearly: 2570.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 694.21
     Q4 2026: 742.99
     Q1 2027: 714.39
+    Q2 2027: 737.9
   annual_forecast:
     2021 Yearly: 2490.0
     2022 Yearly: 2570.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.32
     Q4 2025: 0.38
     Q1 2026: 0.36
+    Q2 2026: 0.41
   annual:
     2021 Yearly: 1.85
     2022 Yearly: 1.94
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.34
     Q4 2026: 0.39
     Q1 2027: 0.37
+    Q2 2027: 0.37
   annual_forecast:
     2021 Yearly: 1.82
     2022 Yearly: 1.91

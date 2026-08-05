@@ -1,7 +1,7 @@
 currency: USD
 company_name: Blue Bird Corporation
 sector: Consumer Durables
-market_cap_billions: 2.46
+market_cap_billions: 2.43
 revenue:
   quarterly:
     Q4 2024: 350.21
@@ -11,6 +11,7 @@ revenue:
     Q4 2025: 409.37
     Q1 2026: 333.0
     Q2 2026: 353.0
+    Q3 2026: 517.16
   annual:
     2021 Yearly: 684.0
     2022 Yearly: 800.64
@@ -29,6 +30,7 @@ revenue:
     Q4 2026: 563.37
     Q1 2027: 460.93
     Q2 2027: 486.59
+    Q3 2027: 535.22
   annual_forecast:
     2021 Yearly: 734.3
     2022 Yearly: 764.63
@@ -48,6 +50,7 @@ eps:
     Q4 2025: 1.32
     Q1 2026: 1.0
     Q2 2026: 1.0
+    Q3 2026: 1.28
   annual:
     2021 Yearly: 0.31
     2022 Yearly: -1.15
@@ -66,6 +69,7 @@ eps:
     Q4 2026: 1.54
     Q1 2027: 1.05
     Q2 2027: 1.13
+    Q3 2027: 1.43
   annual_forecast:
     2021 Yearly: 0.43
     2022 Yearly: -0.48

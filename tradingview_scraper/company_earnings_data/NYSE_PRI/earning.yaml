@@ -1,7 +1,7 @@
 currency: USD
 company_name: Primerica, Inc.
 sector: Finance
-market_cap_billions: 9.92
+market_cap_billions: 10.0
 revenue:
   quarterly:
     Q3 2024: 770.09
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 838.88
     Q4 2025: 853.51
     Q1 2026: 872.69
+    Q2 2026: 865.07
   annual:
     2021 Yearly: 2710.0
     2022 Yearly: 2720.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 892.0
     Q4 2026: 904.0
     Q1 2027: 919.0
+    Q2 2027: 935.0
   annual_forecast:
     2021 Yearly: 2710.0
     2022 Yearly: 2740.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 6.33
     Q4 2025: 6.13
     Q1 2026: 5.96
+    Q2 2026: 6.41
   annual:
     2021 Yearly: 11.61
     2022 Yearly: 11.44
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 6.28
     Q4 2026: 6.37
     Q1 2027: 6.24
+    Q2 2027: 6.68
   annual_forecast:
     2021 Yearly: 11.89
     2022 Yearly: 10.91

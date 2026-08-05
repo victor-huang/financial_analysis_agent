@@ -1,7 +1,7 @@
 currency: USD
 company_name: Klaviyo, Inc. Series A
 sector: Technology Services
-market_cap_billions: 5.72
+market_cap_billions: 5.78
 revenue:
   quarterly:
     Q3 2024: 235.09
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 310.88
     Q4 2025: 350.19
     Q1 2026: 358.0
+    Q2 2026: 370.58
   annual:
     2023 Yearly: 698.1
     2024 Yearly: 937.46
@@ -27,6 +28,7 @@ revenue:
     Q3 2026: 378.4
     Q4 2026: 421.7
     Q1 2027: 428.93
+    Q2 2027: 432.86
   annual_forecast:
     2023 Yearly: 692.55
     2024 Yearly: 924.52
@@ -44,6 +46,7 @@ eps:
     Q3 2025: 0.18
     Q4 2025: 0.19
     Q1 2026: 0.22
+    Q2 2026: 0.19
   annual:
     2023 Yearly: 0.36
     2024 Yearly: 0.5
@@ -60,6 +63,7 @@ eps:
     Q3 2026: 0.21
     Q4 2026: 0.24
     Q1 2027: 0.26
+    Q2 2027: 0.24
   annual_forecast:
     2023 Yearly: 0.35
     2024 Yearly: 0.49

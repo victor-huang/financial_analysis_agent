@@ -1,7 +1,7 @@
 currency: USD
 company_name: Western Digital Corporation
 sector: Electronic Technology
-market_cap_billions: 189.08
+market_cap_billions: 178.95
 revenue:
   quarterly:
     Q1 2025: 4090.0
@@ -11,12 +11,14 @@ revenue:
     Q1 2026: 2820.0
     Q2 2026: 3020.0
     Q3 2026: 3340.0
+    Q4 2026: 3750.0
   annual:
     2021 Yearly: 16920.0
     2022 Yearly: 18790.0
     2023 Yearly: 12320.0
     2024 Yearly: 13000.0
     2025 Yearly: 9520.0
+    2026 Yearly: 12920.0
   quarterly_forecast:
     Q1 2025: 4120.0
     Q2 2025: 4260.0
@@ -29,6 +31,7 @@ revenue:
     Q1 2027: 4059.9999999999995
     Q2 2027: 4410.0
     Q3 2027: 4770.0
+    Q4 2027: 5080.0
   annual_forecast:
     2021 Yearly: 16550.0
     2022 Yearly: 18760.0
@@ -39,6 +42,7 @@ revenue:
     2027 Yearly: 18370.0
     2028 Yearly: 24990.0
     2029 Yearly: 29180.0
+    2030 Yearly: 33400.0
 eps:
   quarterly:
     Q1 2025: 1.35
@@ -48,12 +52,14 @@ eps:
     Q1 2026: 1.78
     Q2 2026: 2.13
     Q3 2026: 2.72
+    Q4 2026: 3.56
   annual:
     2021 Yearly: 3.44
     2022 Yearly: 6.21
     2023 Yearly: -2.71
     2024 Yearly: -0.15
     2025 Yearly: 4.93
+    2026 Yearly: 10.22
   quarterly_forecast:
     Q1 2025: 1.29
     Q2 2025: 1.35
@@ -66,6 +72,7 @@ eps:
     Q1 2027: 3.84
     Q2 2027: 4.41
     Q3 2027: 5.02
+    Q4 2027: 5.59
   annual_forecast:
     2021 Yearly: 2.94
     2022 Yearly: 6.18
@@ -76,3 +83,4 @@ eps:
     2027 Yearly: 18.7
     2028 Yearly: 30.72
     2029 Yearly: 37.19
+    2030 Yearly: 51.01

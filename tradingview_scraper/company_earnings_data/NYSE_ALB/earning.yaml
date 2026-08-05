@@ -1,7 +1,7 @@
 currency: USD
 company_name: Albemarle Corporation
 sector: Process Industries
-market_cap_billions: 14.25
+market_cap_billions: 14.02
 revenue:
   quarterly:
     Q3 2024: 1350.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 1310.0
     Q4 2025: 1430.0
     Q1 2026: 1430.0
+    Q2 2026: 1740.0
   annual:
     2021 Yearly: 3330.0
     2022 Yearly: 7320.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 1700.0
     Q4 2026: 1660.0
     Q1 2027: 1810.0
+    Q2 2027: 1910.0
   annual_forecast:
     2021 Yearly: 3330.0
     2022 Yearly: 7320.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -0.19
     Q4 2025: -0.53
     Q1 2026: 2.95
+    Q2 2026: 3.75
   annual:
     2021 Yearly: 4.04
     2022 Yearly: 21.96
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 3.41
     Q4 2026: 3.17
     Q1 2027: 2.72
+    Q2 2027: 3.52
   annual_forecast:
     2021 Yearly: 4.05
     2022 Yearly: 21.52

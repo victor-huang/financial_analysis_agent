@@ -1,7 +1,7 @@
 currency: USD
 company_name: Sandisk Corporation
 sector: Electronic Technology
-market_cap_billions: 211.42
+market_cap_billions: 200.0
 revenue:
   quarterly:
     Q1 2025: 1880.0
@@ -11,8 +11,10 @@ revenue:
     Q1 2026: 2310.0
     Q2 2026: 3020.0
     Q3 2026: 5950.0
+    Q4 2026: 8960.0
   annual:
     2025 Yearly: 7360.0
+    2026 Yearly: 20250.0
   quarterly_forecast:
     Q2 2025: 1880.0
     Q3 2025: 1620.0
@@ -24,12 +26,14 @@ revenue:
     Q1 2027: 10820.0
     Q2 2027: 12480.0
     Q3 2027: 12110.0
+    Q4 2027: 12520.0
   annual_forecast:
     2025 Yearly: 7280.0
     2026 Yearly: 19970.0
     2027 Yearly: 48730.0
     2028 Yearly: 57160.0
     2029 Yearly: 53800.0
+    2030 Yearly: 11570.0
 eps:
   quarterly:
     Q1 2025: 1.8
@@ -39,8 +43,10 @@ eps:
     Q1 2026: 1.22
     Q2 2026: 6.2
     Q3 2026: 23.41
+    Q4 2026: 39.25
   annual:
     2025 Yearly: 2.99
+    2026 Yearly: 70.88
   quarterly_forecast:
     Q2 2025: 1.22
     Q3 2025: -0.38
@@ -52,9 +58,11 @@ eps:
     Q1 2027: 44.72
     Q2 2027: 51.97
     Q3 2027: 49.69
+    Q4 2027: 51.19
   annual_forecast:
     2025 Yearly: 2.71
     2026 Yearly: 66.82
     2027 Yearly: 206.5
     2028 Yearly: 249.8
     2029 Yearly: 237.46
+    2030 Yearly: 13.54

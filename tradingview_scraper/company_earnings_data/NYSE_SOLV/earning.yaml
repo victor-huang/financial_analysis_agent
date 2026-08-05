@@ -1,7 +1,7 @@
 currency: USD
 company_name: Solventum Corporation
 sector: Health Services
-market_cap_billions: 15.23
+market_cap_billions: 15.15
 revenue:
   quarterly:
     Q3 2024: 2080.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 2100.0
     Q4 2025: 2000.0
     Q1 2026: 2009.9999999999998
+    Q2 2026: 2210.0
   annual:
     2023 Yearly: 8240.0
     2024 Yearly: 8250.0
@@ -27,6 +28,7 @@ revenue:
     Q3 2026: 1960.0
     Q4 2026: 2070.0
     Q1 2027: 2080.0
+    Q2 2027: 2220.0
   annual_forecast:
     2024 Yearly: 8230.0
     2025 Yearly: 8260.0
@@ -43,6 +45,7 @@ eps:
     Q3 2025: 1.5
     Q4 2025: 1.57
     Q1 2026: 1.48
+    Q2 2026: 2.55
   annual:
     2023 Yearly: 9.9
     2024 Yearly: 6.7
@@ -59,6 +62,7 @@ eps:
     Q3 2026: 1.42
     Q4 2026: 1.75
     Q1 2027: 1.63
+    Q2 2027: 1.9
   annual_forecast:
     2024 Yearly: 6.58
     2025 Yearly: 6.03

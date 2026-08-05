@@ -1,7 +1,7 @@
 currency: USD
 company_name: Rayonier Inc. REIT
 sector: Finance
-market_cap_billions: 6.63
+market_cap_billions: 6.66
 revenue:
   quarterly:
     Q3 2024: 195.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 177.5
     Q4 2025: 117.5
     Q1 2026: 276.8
+    Q2 2026: 396.5
   annual:
     2021 Yearly: 1110.0
     2022 Yearly: 909.1
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 411.12
     Q4 2026: 391.77
     Q1 2027: 362.51
+    Q2 2027: 381.61
   annual_forecast:
     2021 Yearly: 990.49
     2022 Yearly: 870.39
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.32
     Q4 2025: 0.2
     Q1 2026: 0.07
+    Q2 2026: 0.1
   annual:
     2021 Yearly: 0.67
     2022 Yearly: 0.62
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.17
     Q4 2026: 0.13
     Q1 2027: 0.13
+    Q2 2027: 0.2
   annual_forecast:
     2021 Yearly: 0.64
     2022 Yearly: 0.62

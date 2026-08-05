@@ -1,7 +1,7 @@
 currency: USD
 company_name: MannKind Corporation
 sector: Health Technology
-market_cap_billions: 1.26
+market_cap_billions: 1.31
 revenue:
   quarterly:
     Q3 2024: 70.08
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 82.13
     Q4 2025: 111.95
     Q1 2026: 90.17
+    Q2 2026: 109.37
   annual:
     2021 Yearly: 75.44
     2022 Yearly: 99.77
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 118.05
     Q4 2026: 142.51
     Q1 2027: 120.1
+    Q2 2027: 143.6
   annual_forecast:
     2021 Yearly: 80.01
     2022 Yearly: 99.59
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.03
     Q4 2025: -0.05
     Q1 2026: -0.05
+    Q2 2026: -0.06
   annual:
     2021 Yearly: -0.32
     2022 Yearly: -0.34
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.01
     Q4 2026: 0.04
     Q1 2027: -0.01
+    Q2 2027: 0.15
   annual_forecast:
     2021 Yearly: -0.27
     2022 Yearly: -0.32

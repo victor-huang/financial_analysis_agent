@@ -1,7 +1,7 @@
 currency: USD
 company_name: Zevra Therapeutics, Inc.
 sector: Health Technology
-market_cap_billions: 0.6218899999999999
+market_cap_billions: 0.62248
 revenue:
   quarterly:
     Q3 2024: 3.69
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 26.06
     Q4 2025: 34.1
     Q1 2026: 36.22
+    Q2 2026: 39.66
   annual:
     2021 Yearly: 28.65
     2022 Yearly: 10.46
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 36.12
     Q4 2026: 39.72
     Q1 2027: 40.79
+    Q2 2027: 43.61
   annual_forecast:
     2021 Yearly: 28.3
     2022 Yearly: 11.24
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -0.01
     Q4 2025: 0.19
     Q1 2026: 0.6
+    Q2 2026: 0.14
   annual:
     2021 Yearly: -2.11
     2022 Yearly: -1.2
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.14
     Q4 2026: 0.18
     Q1 2027: 0.23
+    Q2 2027: 0.26
   annual_forecast:
     2021 Yearly: -0.85
     2022 Yearly: -1.11

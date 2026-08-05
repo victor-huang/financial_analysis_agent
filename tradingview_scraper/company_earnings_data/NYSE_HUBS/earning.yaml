@@ -1,7 +1,7 @@
 currency: USD
 company_name: HubSpot, Inc.
 sector: Technology Services
-market_cap_billions: 12.75
+market_cap_billions: 12.82
 revenue:
   quarterly:
     Q3 2024: 669.72
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 809.52
     Q4 2025: 846.75
     Q1 2026: 881.0
+    Q2 2026: 911.7
   annual:
     2021 Yearly: 1300.0
     2022 Yearly: 1730.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 942.33
     Q4 2026: 985.57
     Q1 2027: 1020.0
+    Q2 2027: 1040.0
   annual_forecast:
     2021 Yearly: 1290.0
     2022 Yearly: 1710.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 2.66
     Q4 2025: 3.09
     Q1 2026: 2.72
+    Q2 2026: 3.26
   annual:
     2021 Yearly: 1.82
     2022 Yearly: 2.78
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 3.45
     Q4 2026: 3.94
     Q1 2027: 3.3
+    Q2 2027: 3.58
   annual_forecast:
     2021 Yearly: 1.77
     2022 Yearly: 2.49

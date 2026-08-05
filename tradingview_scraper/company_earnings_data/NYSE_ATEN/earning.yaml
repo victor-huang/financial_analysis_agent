@@ -1,7 +1,7 @@
 currency: USD
 company_name: A10 Networks, Inc.
 sector: Technology Services
-market_cap_billions: 2.21
+market_cap_billions: 2.22
 revenue:
   quarterly:
     Q3 2024: 66.72
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 74.68
     Q4 2025: 80.36
     Q1 2026: 75.0
+    Q2 2026: 80.14
   annual:
     2021 Yearly: 250.04
     2022 Yearly: 280.34
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 82.83
     Q4 2026: 89.66
     Q1 2027: 82.09
+    Q2 2027: 85.14
   annual_forecast:
     2021 Yearly: 248.21
     2022 Yearly: 278.84
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.23
     Q4 2025: 0.26
     Q1 2026: 0.24
+    Q2 2026: 0.25
   annual:
     2021 Yearly: 0.63
     2022 Yearly: 0.74
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.27
     Q4 2026: 0.29
     Q1 2027: 0.26
+    Q2 2027: 0.27
   annual_forecast:
     2022 Yearly: 0.61
     2023 Yearly: 0.69

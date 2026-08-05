@@ -1,7 +1,7 @@
 currency: USD
 company_name: Cytek Biosciences, Inc.
 sector: Health Technology
-market_cap_billions: 0.55273
+market_cap_billions: 0.5398200000000001
 revenue:
   quarterly:
     Q3 2024: 51.5
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 52.29
     Q4 2025: 62.14
     Q1 2026: 44.13
+    Q2 2026: 48.14
   annual:
     2021 Yearly: 127.95
     2022 Yearly: 164.04
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 55.85
     Q4 2026: 61.37
     Q1 2027: 47.47
+    Q2 2027: 51.48
   annual_forecast:
     2021 Yearly: 125.42
     2022 Yearly: 166.42
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.0
     Q4 2025: -0.34
     Q1 2026: -0.15
+    Q2 2026: -0.05
   annual:
     2021 Yearly: 0.09
     2022 Yearly: 0.02
@@ -66,6 +69,7 @@ eps:
     Q3 2026: -0.06
     Q4 2026: -0.03
     Q1 2027: -0.12
+    Q2 2027: -0.08
   annual_forecast:
     2021 Yearly: 0.11
     2022 Yearly: 0.09

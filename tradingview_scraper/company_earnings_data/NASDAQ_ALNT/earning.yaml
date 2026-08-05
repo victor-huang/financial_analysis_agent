@@ -1,7 +1,7 @@
 currency: USD
 company_name: Allient Inc.
 sector: Producer Manufacturing
-market_cap_billions: 1.61
+market_cap_billions: 1.58
 revenue:
   quarterly:
     Q3 2024: 125.21
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 138.74
     Q4 2025: 143.35
     Q1 2026: 138.91
+    Q2 2026: 153.77
   annual:
     2021 Yearly: 395.18
     2022 Yearly: 525.25
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 149.16
     Q4 2026: 150.57
     Q1 2027: 154.35
+    Q2 2027: 157.18
   annual_forecast:
     2021 Yearly: 402.97
     2022 Yearly: 498.08
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.59
     Q4 2025: 0.55
     Q1 2026: 0.5
+    Q2 2026: 0.8
   annual:
     2021 Yearly: 1.26
     2022 Yearly: 1.88
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.72
     Q4 2026: 0.69
     Q1 2027: 0.72
+    Q2 2027: 0.78
   annual_forecast:
     2021 Yearly: 1.41
     2022 Yearly: 2.1
