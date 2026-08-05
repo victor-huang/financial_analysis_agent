@@ -1,7 +1,7 @@
 currency: USD
 company_name: Latham Group, Inc.
 sector: Producer Manufacturing
-market_cap_billions: 0.66925
+market_cap_billions: 0.86591
 revenue:
   quarterly:
     Q3 2024: 150.5
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 161.9
     Q4 2025: 99.95
     Q1 2026: 117.31
+    Q2 2026: 197.47
   annual:
     2021 Yearly: 630.46
     2022 Yearly: 695.74
@@ -26,18 +27,19 @@ revenue:
     Q4 2025: 95.85
     Q1 2026: 118.39
     Q2 2026: 188.39
-    Q3 2026: 176.27
-    Q4 2026: 108.53
-    Q1 2027: 127.08
+    Q3 2026: 179.89
+    Q4 2026: 110.47
+    Q1 2027: 127.42
+    Q2 2027: 205.68
   annual_forecast:
     2021 Yearly: 620.43
     2022 Yearly: 689.49
     2023 Yearly: 562.67
     2024 Yearly: 506.32
     2025 Yearly: 541.76
-    2026 Yearly: 590.4
-    2027 Yearly: 628.7
-    2028 Yearly: 664.21
+    2026 Yearly: 603.23
+    2027 Yearly: 641.83
+    2028 Yearly: 676.21
 eps:
   quarterly:
     Q3 2024: 0.07
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.09
     Q4 2025: -0.03
     Q1 2026: -0.02
+    Q2 2026: 0.11
   annual:
     2021 Yearly: 0.64
     2022 Yearly: 0.5
@@ -63,14 +66,15 @@ eps:
     Q1 2026: -0.06
     Q2 2026: 0.16
     Q3 2026: 0.15
-    Q4 2026: -0.07
+    Q4 2026: -0.06
     Q1 2027: -0.04
+    Q2 2027: 0.19
   annual_forecast:
     2021 Yearly: 0.54
     2022 Yearly: 0.51
     2023 Yearly: 0.03
     2024 Yearly: 0.01
     2025 Yearly: 0.08
-    2026 Yearly: 0.19
-    2027 Yearly: 0.27
-    2028 Yearly: 0.3
+    2026 Yearly: 0.18
+    2027 Yearly: 0.28
+    2028 Yearly: 0.32

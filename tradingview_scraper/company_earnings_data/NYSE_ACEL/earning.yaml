@@ -1,7 +1,7 @@
 currency: USD
 company_name: Accel Entertainment, Inc.
 sector: Consumer Services
-market_cap_billions: 0.9897400000000001
+market_cap_billions: 1.02
 revenue:
   quarterly:
     Q3 2024: 302.23
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 329.69
     Q4 2025: 341.45
     Q1 2026: 351.56
+    Q2 2026: 368.13
   annual:
     2021 Yearly: 734.71
     2022 Yearly: 969.8
@@ -26,17 +27,18 @@ revenue:
     Q4 2025: 335.52
     Q1 2026: 342.88
     Q2 2026: 356.66
-    Q3 2026: 348.88
-    Q4 2026: 355.69
-    Q1 2027: 362.58
+    Q3 2026: 352.99
+    Q4 2026: 360.29
+    Q1 2027: 367.7
+    Q2 2027: 378.53
   annual_forecast:
     2021 Yearly: 733.9
     2022 Yearly: 967.25
     2023 Yearly: 1160.0
     2024 Yearly: 1220.0
     2025 Yearly: 1330.0
-    2026 Yearly: 1410.0
-    2027 Yearly: 1460.0
+    2026 Yearly: 1430.0
+    2027 Yearly: 1490.0
     2028 Yearly: 1530.0
 eps:
   quarterly:
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.16
     Q4 2025: 0.26
     Q1 2026: 0.17
+    Q2 2026: 0.15
   annual:
     2021 Yearly: 0.75
     2022 Yearly: 0.87
@@ -62,15 +65,16 @@ eps:
     Q4 2025: 0.17
     Q1 2026: 0.19
     Q2 2026: 0.19
-    Q3 2026: 0.16
-    Q4 2026: 0.18
-    Q1 2027: 0.2
+    Q3 2026: 0.17
+    Q4 2026: 0.19
+    Q1 2027: 0.23
+    Q2 2027: 0.23
   annual_forecast:
     2021 Yearly: 0.76
     2022 Yearly: 0.86
     2023 Yearly: 0.85
     2024 Yearly: 0.91
     2025 Yearly: 0.76
-    2026 Yearly: 0.72
-    2027 Yearly: 0.8
+    2026 Yearly: 0.7
+    2027 Yearly: 0.84
     2028 Yearly: 0.87

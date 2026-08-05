@@ -1,7 +1,7 @@
 currency: USD
 company_name: Intapp, Inc.
 sector: Technology Services
-market_cap_billions: 2.53
+market_cap_billions: 2.82
 revenue:
   quarterly:
     Q1 2025: 118.81
@@ -25,20 +25,20 @@ revenue:
     Q1 2026: 135.3
     Q2 2026: 138.19
     Q3 2026: 144.32
-    Q4 2026: 149.75
-    Q1 2027: 157.24
-    Q2 2027: 160.4
-    Q3 2027: 166.48
+    Q4 2026: 151.89
+    Q1 2027: 158.96
+    Q2 2027: 160.86
+    Q3 2027: 165.83
   annual_forecast:
     2021 Yearly: 200.85
     2022 Yearly: 268.09
     2023 Yearly: 349.48
     2024 Yearly: 427.84
     2025 Yearly: 501.28
-    2026 Yearly: 575.03
-    2027 Yearly: 656.31
-    2028 Yearly: 752.46
-    2029 Yearly: 969.69
+    2026 Yearly: 577.13
+    2027 Yearly: 657.95
+    2028 Yearly: 754.93
+    2029 Yearly: 935.18
 eps:
   quarterly:
     Q1 2025: 0.21
@@ -62,17 +62,17 @@ eps:
     Q1 2026: 0.19
     Q2 2026: 0.26
     Q3 2026: 0.28
-    Q4 2026: 0.36
-    Q1 2027: 0.34
+    Q4 2026: 0.4
+    Q1 2027: 0.38
     Q2 2027: 0.38
-    Q3 2027: 0.4
+    Q3 2027: 0.38
   annual_forecast:
     2021 Yearly: -0.79
     2022 Yearly: -0.16
     2023 Yearly: 0.09
     2024 Yearly: 0.43
     2025 Yearly: 0.9
-    2026 Yearly: 1.23
-    2027 Yearly: 1.55
-    2028 Yearly: 1.93
-    2029 Yearly: 2.85
+    2026 Yearly: 1.27
+    2027 Yearly: 1.56
+    2028 Yearly: 1.92
+    2029 Yearly: 2.6

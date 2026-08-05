@@ -1,7 +1,7 @@
 currency: USD
 company_name: NGL ENERGY PARTNERS LP
 sector: Industrial Services
-market_cap_billions: 1.98
+market_cap_billions: 2.16
 revenue:
   quarterly:
     Q2 2024: 1350.0
@@ -11,6 +11,7 @@ revenue:
     Q2 2025: 674.68
     Q3 2025: 909.82
     Q4 2025: 949.51
+    Q1 2026: 989.99
   annual:
     2021 Yearly: 7950.0
     2022 Yearly: 8690.0
@@ -29,6 +30,7 @@ revenue:
     Q2 2026: 371.76
     Q3 2026: 473.44
     Q4 2026: 429.53
+    Q1 2027: 371.19
   annual_forecast:
     2021 Yearly: 8029.999999999999
     2022 Yearly: 8960.0
@@ -47,6 +49,7 @@ eps:
     Q2 2025: 0.02
     Q3 2025: 0.1
     Q4 2025: -3.44
+    Q1 2026: 0.48
   annual:
     2021 Yearly: -2.22
     2022 Yearly: -0.56
@@ -65,6 +68,7 @@ eps:
     Q2 2026: 0.18
     Q3 2026: 0.29
     Q4 2026: 0.25
+    Q1 2027: 0.24
   annual_forecast:
     2021 Yearly: -1.1
     2022 Yearly: 0.51

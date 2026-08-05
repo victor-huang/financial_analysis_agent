@@ -1,24 +1,28 @@
 currency: USD
 company_name: Neutron Holdings, Inc.
 sector: Consumer Durables
-market_cap_billions: 1.99
+market_cap_billions: 2.18
 revenue:
   quarterly:
     Q1 2026: 170.15
+    Q2 2026: 304.22
   annual: {}
   quarterly_forecast:
     Q2 2026: 282.48
-    Q3 2026: 346.02
-    Q4 2026: 241.35
-    Q1 2027: 195.48
+    Q3 2026: 351.18
+    Q4 2026: 244.15
+    Q1 2027: 195.81
+    Q2 2027: 346.0
   annual_forecast: {}
 eps:
   quarterly:
     Q1 2026: -3.4
+    Q2 2026: 4.73
   annual: {}
   quarterly_forecast:
     Q2 2026: 0.72
-    Q3 2026: 0.59
+    Q3 2026: 0.69
     Q4 2026: 0.03
-    Q1 2027: -0.54
+    Q1 2027: -0.56
+    Q2 2027: 0.65
   annual_forecast: {}

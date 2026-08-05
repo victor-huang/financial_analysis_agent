@@ -1,10 +1,11 @@
 currency: USD
 company_name: Janus Living, Inc.
 sector: Finance
-market_cap_billions: 8.62
+market_cap_billions: 8.92
 revenue:
   quarterly:
     Q1 2026: 200.34
+    Q2 2026: 216.46
   annual:
     2025 Yearly: 693.45
   quarterly_forecast:
@@ -13,14 +14,16 @@ revenue:
     Q3 2026: 232.88
     Q4 2026: 247.57
     Q1 2027: 259.11
+    Q2 2027: 264.96
   annual_forecast:
-    2026 Yearly: 889.13
-    2027 Yearly: 1090.0
-    2028 Yearly: 1460.0
-    2029 Yearly: 1520.0
+    2026 Yearly: 896.23
+    2027 Yearly: 1120.0
+    2028 Yearly: 1520.0
+    2029 Yearly: 1910.0
 eps:
   quarterly:
     Q1 2026: -0.05
+    Q2 2026: 0.05
   annual:
     2025 Yearly: 0.04
   quarterly_forecast:
@@ -29,6 +32,7 @@ eps:
     Q3 2026: 0.03
     Q4 2026: 0.04
     Q1 2027: 0.06
+    Q2 2027: 0.06
   annual_forecast:
     2026 Yearly: 0.18
     2027 Yearly: 0.22

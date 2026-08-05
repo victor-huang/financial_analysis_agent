@@ -1,7 +1,7 @@
 currency: USD
 company_name: Pacira BioSciences, Inc.
 sector: Health Technology
-market_cap_billions: 1.09
+market_cap_billions: 0.9707899999999999
 revenue:
   quarterly:
     Q3 2024: 168.57
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 179.52
     Q4 2025: 196.87
     Q1 2026: 177.38
+    Q2 2026: 192.4
   annual:
     2021 Yearly: 541.53
     2022 Yearly: 666.82
@@ -26,19 +27,20 @@ revenue:
     Q4 2025: 200.33
     Q1 2026: 171.8
     Q2 2026: 191.06
-    Q3 2026: 190.61
-    Q4 2026: 208.73
-    Q1 2027: 189.03
+    Q3 2026: 186.4
+    Q4 2026: 203.94
+    Q1 2027: 185.37
+    Q2 2027: 197.07
   annual_forecast:
     2021 Yearly: 536.73
     2022 Yearly: 666.8
     2023 Yearly: 674.23
     2024 Yearly: 698.86
     2025 Yearly: 729.87
-    2026 Yearly: 767.86
-    2027 Yearly: 831.35
-    2028 Yearly: 912.14
-    2029 Yearly: 839.15
+    2026 Yearly: 759.42
+    2027 Yearly: 804.99
+    2028 Yearly: 921.19
+    2029 Yearly: 885.7
 eps:
   quarterly:
     Q3 2024: 0.79
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.7
     Q4 2025: 0.57
     Q1 2026: 0.6
+    Q2 2026: 0.73
   annual:
     2021 Yearly: 3.0
     2022 Yearly: 2.59
@@ -64,8 +67,9 @@ eps:
     Q1 2026: 0.55
     Q2 2026: 0.65
     Q3 2026: 0.76
-    Q4 2026: 0.87
-    Q1 2027: 0.76
+    Q4 2026: 0.83
+    Q1 2027: 0.75
+    Q2 2027: 0.83
   annual_forecast:
     2021 Yearly: 2.91
     2022 Yearly: 2.63
@@ -73,6 +77,6 @@ eps:
     2024 Yearly: 3.15
     2025 Yearly: 2.95
     2026 Yearly: 2.88
-    2027 Yearly: 3.61
-    2028 Yearly: 5.28
-    2029 Yearly: 4.89
+    2027 Yearly: 3.54
+    2028 Yearly: 5.08
+    2029 Yearly: 4.54

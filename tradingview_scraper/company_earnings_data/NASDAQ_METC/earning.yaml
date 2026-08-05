@@ -1,7 +1,7 @@
 currency: USD
 company_name: Ramaco Resources, Inc.
 sector: Energy Minerals
-market_cap_billions: 0.6045499999999999
+market_cap_billions: 0.55701
 revenue:
   quarterly:
     Q3 2024: 138.83
@@ -27,8 +27,8 @@ revenue:
     Q4 2025: 143.02
     Q1 2026: 129.72
     Q2 2026: 133.11
-    Q3 2026: 160.39
-    Q4 2026: 174.5
+    Q3 2026: 157.14
+    Q4 2026: 173.66
     Q1 2027: 154.26
     Q2 2027: 159.47
   annual_forecast:
@@ -37,8 +37,8 @@ revenue:
     2023 Yearly: 674.62
     2024 Yearly: 664.66
     2025 Yearly: 555.43
-    2026 Yearly: 595.13
-    2027 Yearly: 708.38
+    2026 Yearly: 593.7
+    2027 Yearly: 708.14
     2028 Yearly: 868.78
 eps:
   quarterly:
@@ -65,8 +65,8 @@ eps:
     Q4 2025: -0.25
     Q1 2026: -0.21
     Q2 2026: -0.26
-    Q3 2026: -0.14
-    Q4 2026: -0.09
+    Q3 2026: -0.16
+    Q4 2026: -0.1
     Q1 2027: -0.03
     Q2 2027: -0.02
   annual_forecast:
@@ -75,6 +75,6 @@ eps:
     2023 Yearly: 1.72
     2024 Yearly: 0.05
     2025 Yearly: -0.99
-    2026 Yearly: -0.79
+    2026 Yearly: -0.82
     2027 Yearly: 0.05
     2028 Yearly: 0.42

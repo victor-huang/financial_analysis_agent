@@ -1,7 +1,7 @@
 currency: USD
 company_name: Healthpeak Properties, Inc.
 sector: Finance
-market_cap_billions: 15.27
+market_cap_billions: 15.48
 revenue:
   quarterly:
     Q3 2024: 700.4
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 690.34
     Q4 2025: 704.78
     Q1 2026: 738.78
+    Q2 2026: 749.81
   annual:
     2021 Yearly: 1900.0
     2022 Yearly: 2060.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 727.87
     Q4 2026: 734.6
     Q1 2027: 749.61
+    Q2 2027: 736.39
   annual_forecast:
     2021 Yearly: 1880.0
     2022 Yearly: 2040.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -0.17
     Q4 2025: 0.16
     Q1 2026: 0.28
+    Q2 2026: 0.08
   annual:
     2021 Yearly: 0.93
     2022 Yearly: 0.92
@@ -66,6 +69,7 @@ eps:
     Q3 2026: 0.02
     Q4 2026: 0.03
     Q1 2027: 0.04
+    Q2 2027: 0.05
   annual_forecast:
     2022 Yearly: 0.95
     2023 Yearly: 1.0

@@ -1,7 +1,7 @@
 currency: USD
 company_name: Arrowhead Pharmaceuticals, Inc.
 sector: Health Technology
-market_cap_billions: 12.62
+market_cap_billions: 12.5
 revenue:
   quarterly:
     Q4 2024: 0.0
@@ -27,20 +27,20 @@ revenue:
     Q1 2026: 213.94
     Q2 2026: 73.84
     Q3 2026: 44.17
-    Q4 2026: 72.73
-    Q1 2027: 42.6
-    Q2 2027: 31.17
-    Q3 2027: 33.2
+    Q4 2026: 63.46
+    Q1 2027: 38.48
+    Q2 2027: 41.42
+    Q3 2027: 37.67
   annual_forecast:
     2021 Yearly: 134.59
     2022 Yearly: 255.58
     2023 Yearly: 263.61
     2024 Yearly: 62.14
     2025 Yearly: 764.56
-    2026 Yearly: 459.55
-    2027 Yearly: 322.77
-    2028 Yearly: 651.46
-    2029 Yearly: 953.24
+    2026 Yearly: 477.36
+    2027 Yearly: 346.48
+    2028 Yearly: 761.67
+    2029 Yearly: 1130.0
 eps:
   quarterly:
     Q4 2024: -1.36
@@ -66,17 +66,17 @@ eps:
     Q1 2026: 0.04
     Q2 2026: -1.09
     Q3 2026: -1.28
-    Q4 2026: -1.17
-    Q1 2027: -1.35
-    Q2 2027: -1.46
-    Q3 2027: -1.49
+    Q4 2026: -1.42
+    Q1 2027: -1.42
+    Q2 2027: -1.43
+    Q3 2027: -1.51
   annual_forecast:
     2021 Yearly: -0.69
     2022 Yearly: -1.38
     2023 Yearly: -1.5
     2024 Yearly: -4.7
     2025 Yearly: 0.09
-    2026 Yearly: -3.16
-    2027 Yearly: -4.41
-    2028 Yearly: -2.76
-    2029 Yearly: -1.49
+    2026 Yearly: -3.41
+    2027 Yearly: -4.54
+    2028 Yearly: -2.27
+    2029 Yearly: -0.62

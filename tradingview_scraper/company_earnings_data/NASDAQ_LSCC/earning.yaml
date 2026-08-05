@@ -1,7 +1,7 @@
 currency: USD
 company_name: Lattice Semiconductor Corporation
 sector: Electronic Technology
-market_cap_billions: 18.91
+market_cap_billions: 17.64
 revenue:
   quarterly:
     Q3 2024: 127.09
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 133.35
     Q4 2025: 145.79
     Q1 2026: 170.9
+    Q2 2026: 201.08
   annual:
     2021 Yearly: 515.33
     2022 Yearly: 660.36
@@ -25,19 +26,20 @@ revenue:
     Q3 2025: 133.02
     Q4 2025: 143.17
     Q1 2026: 164.93
-    Q2 2026: 185.58
-    Q3 2026: 201.63
-    Q4 2026: 211.83
-    Q1 2027: 222.93
+    Q2 2026: 185.5
+    Q3 2026: 253.47
+    Q4 2026: 294.43
+    Q1 2027: 304.36
+    Q2 2027: 320.75
   annual_forecast:
     2021 Yearly: 507.67
     2022 Yearly: 659.62
     2023 Yearly: 742.76
     2024 Yearly: 509.03
     2025 Yearly: 520.65
-    2026 Yearly: 769.99
-    2027 Yearly: 965.69
-    2028 Yearly: 1190.0
+    2026 Yearly: 914.85
+    2027 Yearly: 1320.0
+    2028 Yearly: 1580.0
 eps:
   quarterly:
     Q3 2024: 0.24
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.28
     Q4 2025: 0.32
     Q1 2026: 0.41
+    Q2 2026: 0.53
   annual:
     2021 Yearly: 1.06
     2022 Yearly: 1.75
@@ -61,16 +64,17 @@ eps:
     Q3 2025: 0.28
     Q4 2025: 0.32
     Q1 2026: 0.37
-    Q2 2026: 0.45
-    Q3 2026: 0.47
-    Q4 2026: 0.5
-    Q1 2027: 0.53
+    Q2 2026: 0.44
+    Q3 2026: 0.55
+    Q4 2026: 0.64
+    Q1 2027: 0.7
+    Q2 2027: 0.76
   annual_forecast:
     2021 Yearly: 1.02
     2022 Yearly: 1.75
     2023 Yearly: 2.01
     2024 Yearly: 0.94
     2025 Yearly: 1.05
-    2026 Yearly: 1.83
-    2027 Yearly: 2.41
-    2028 Yearly: 3.45
+    2026 Yearly: 2.12
+    2027 Yearly: 3.17
+    2028 Yearly: 4.17

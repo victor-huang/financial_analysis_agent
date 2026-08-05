@@ -1,7 +1,7 @@
 currency: USD
 company_name: Hinge Health, Inc.
 sector: Technology Services
-market_cap_billions: 6.15
+market_cap_billions: 6.55
 revenue:
   quarterly:
     Q1 2025: 123.83
@@ -9,6 +9,7 @@ revenue:
     Q3 2025: 154.21
     Q4 2025: 170.73
     Q1 2026: 182.31
+    Q2 2026: 212.82
   annual:
     2025 Yearly: 587.86
   quarterly_forecast:
@@ -16,15 +17,16 @@ revenue:
     Q3 2025: 142.14
     Q4 2025: 156.66
     Q1 2026: 172.2
-    Q2 2026: 201.48
-    Q3 2026: 211.5
-    Q4 2026: 226.98
-    Q1 2027: 236.8
+    Q2 2026: 201.46
+    Q3 2026: 220.95
+    Q4 2026: 235.9
+    Q1 2027: 242.92
+    Q2 2027: 262.59
   annual_forecast:
     2025 Yearly: 572.36
-    2026 Yearly: 822.16
-    2027 Yearly: 1030.0
-    2028 Yearly: 1270.0
+    2026 Yearly: 851.77
+    2027 Yearly: 1080.0
+    2028 Yearly: 1310.0
     2029 Yearly: 1600.0
 eps:
   quarterly:
@@ -33,6 +35,7 @@ eps:
     Q3 2025: 0.42
     Q4 2025: 0.49
     Q1 2026: 0.45
+    Q2 2026: 0.59
   annual:
     2025 Yearly: 2.62
   quarterly_forecast:
@@ -41,12 +44,13 @@ eps:
     Q4 2025: 0.41
     Q1 2026: 0.4
     Q2 2026: 0.61
-    Q3 2026: 0.68
-    Q4 2026: 0.8
-    Q1 2027: 0.72
+    Q3 2026: 0.63
+    Q4 2026: 0.73
+    Q1 2027: 0.63
+    Q2 2027: 0.74
   annual_forecast:
     2025 Yearly: 1.45
-    2026 Yearly: 2.6
-    2027 Yearly: 3.4
-    2028 Yearly: 4.48
+    2026 Yearly: 2.4
+    2027 Yearly: 3.13
+    2028 Yearly: 4.15
     2029 Yearly: 5.5

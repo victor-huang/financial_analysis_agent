@@ -1,7 +1,7 @@
 currency: USD
 company_name: Voya Financial, Inc.
 sector: Finance
-market_cap_billions: 9.13
+market_cap_billions: 9.0
 revenue:
   quarterly:
     Q3 2024: 1960.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 2130.0
     Q4 2025: 2110.0
     Q1 2026: 2029.9999999999998
+    Q2 2026: 1900.0
   annual:
     2021 Yearly: 6510.0
     2022 Yearly: 3540.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 1970.0
     Q4 2026: 2000.0
     Q1 2027: 2009.9999999999998
+    Q2 2027: 2020.0
   annual_forecast:
     2021 Yearly: 6410.0
     2022 Yearly: 6160.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 2.45
     Q4 2025: 1.94
     Q1 2026: 2.26
+    Q2 2026: 1.51
   annual:
     2021 Yearly: 8.37
     2022 Yearly: 7.58
@@ -63,16 +66,17 @@ eps:
     Q4 2025: 2.09
     Q1 2026: 2.01
     Q2 2026: 1.98
-    Q3 2026: 2.48
-    Q4 2026: 2.6
-    Q1 2027: 2.35
+    Q3 2026: 2.52
+    Q4 2026: 2.62
+    Q1 2027: 2.37
+    Q2 2027: 2.92
   annual_forecast:
     2021 Yearly: 8.0
     2022 Yearly: 6.97
     2023 Yearly: 7.2
     2024 Yearly: 6.63
     2025 Yearly: 9.0
-    2026 Yearly: 9.32
-    2027 Yearly: 11.29
+    2026 Yearly: 9.35
+    2027 Yearly: 11.28
     2028 Yearly: 12.75
     2029 Yearly: 12.9

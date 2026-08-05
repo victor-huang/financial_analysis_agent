@@ -1,7 +1,7 @@
 currency: USD
 company_name: Nextdoor Holdings, Inc.
 sector: Technology Services
-market_cap_billions: 0.88101
+market_cap_billions: 0.95728
 revenue:
   quarterly:
     Q3 2024: 65.61
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 68.9
     Q4 2025: 69.48
     Q1 2026: 61.67
+    Q2 2026: 74.55
   annual:
     2021 Yearly: 192.2
     2022 Yearly: 212.76
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 74.38
     Q4 2026: 75.69
     Q1 2027: 67.66
+    Q2 2027: 79.2
   annual_forecast:
     2021 Yearly: 188.43
     2022 Yearly: 210.62
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -0.03
     Q4 2025: -0.01
     Q1 2026: -0.03
+    Q2 2026: -0.02
   annual:
     2021 Yearly: -0.33
     2022 Yearly: -0.36
@@ -66,6 +69,7 @@ eps:
     Q3 2026: -0.01
     Q4 2026: -0.01
     Q1 2027: -0.01
+    Q2 2027: -0.02
   annual_forecast:
     2021 Yearly: -0.6
     2022 Yearly: -0.39

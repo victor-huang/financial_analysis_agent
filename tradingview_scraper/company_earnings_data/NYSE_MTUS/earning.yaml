@@ -1,7 +1,7 @@
 currency: USD
 company_name: Metallus Inc.
 sector: Non-Energy Minerals
-market_cap_billions: 0.8975
+market_cap_billions: 0.9078999999999999
 revenue:
   quarterly:
     Q3 2024: 227.2
@@ -27,18 +27,18 @@ revenue:
     Q4 2025: 290.82
     Q1 2026: 303.47
     Q2 2026: 330.85
-    Q3 2026: 332.48
-    Q4 2026: 295.77
+    Q3 2026: 338.02
+    Q4 2026: 301.45
     Q1 2027: 336.93
-    Q2 2027: 360.37
+    Q2 2027: 366.3
   annual_forecast:
     2021 Yearly: 1240.0
     2022 Yearly: 1410.0
     2023 Yearly: 1360.0
     2024 Yearly: 1090.0
     2025 Yearly: 1180.0
-    2026 Yearly: 1270.0
-    2027 Yearly: 1360.0
+    2026 Yearly: 1290.0
+    2027 Yearly: 1380.0
 eps:
   quarterly:
     Q3 2024: -0.09
@@ -64,7 +64,7 @@ eps:
     Q4 2025: 0.04
     Q1 2026: 0.15
     Q2 2026: 0.24
-    Q3 2026: 0.3
+    Q3 2026: 0.29
     Q4 2026: 0.13
     Q1 2027: 0.29
     Q2 2027: 0.37
@@ -74,5 +74,5 @@ eps:
     2023 Yearly: 1.82
     2024 Yearly: 0.63
     2025 Yearly: 0.58
-    2026 Yearly: 0.83
-    2027 Yearly: 1.33
+    2026 Yearly: 0.84
+    2027 Yearly: 1.34

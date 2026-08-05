@@ -1,7 +1,7 @@
 currency: USD
 company_name: Atlas Energy Solutions Inc.
 sector: Industrial Services
-market_cap_billions: 1.37
+market_cap_billions: 1.35
 revenue:
   quarterly:
     Q3 2024: 304.43
@@ -26,15 +26,15 @@ revenue:
     Q4 2025: 240.33
     Q1 2026: 256.37
     Q2 2026: 282.24
-    Q3 2026: 291.74
-    Q4 2026: 286.04
-    Q1 2027: 305.52
-    Q2 2027: 321.22
+    Q3 2026: 288.87
+    Q4 2026: 288.98
+    Q1 2027: 305.4
+    Q2 2027: 320.24
   annual_forecast:
     2023 Yearly: 618.85
     2024 Yearly: 1060.0
     2025 Yearly: 1090.0
-    2026 Yearly: 1120.0
+    2026 Yearly: 1130.0
     2027 Yearly: 1290.0
     2028 Yearly: 1540.0
 eps:
@@ -61,14 +61,14 @@ eps:
     Q4 2025: -0.23
     Q1 2026: -0.25
     Q2 2026: -0.15
-    Q3 2026: -0.1
+    Q3 2026: -0.11
     Q4 2026: -0.07
-    Q1 2027: -0.02
-    Q2 2027: 0.06
+    Q1 2027: -0.03
+    Q2 2027: 0.05
   annual_forecast:
     2023 Yearly: 2.47
     2024 Yearly: 0.72
     2025 Yearly: -0.45
-    2026 Yearly: -0.68
-    2027 Yearly: 0.2
-    2028 Yearly: 0.63
+    2026 Yearly: -0.71
+    2027 Yearly: 0.18
+    2028 Yearly: 0.61

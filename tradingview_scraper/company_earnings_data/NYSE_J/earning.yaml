@@ -1,7 +1,7 @@
 currency: USD
 company_name: Jacobs Solutions Inc.
 sector: Technology Services
-market_cap_billions: 16.85
+market_cap_billions: 16.93
 revenue:
   quarterly:
     Q4 2024: 2960.0
@@ -11,6 +11,7 @@ revenue:
     Q4 2025: 3150.0
     Q1 2026: 2250.0
     Q2 2026: 2330.0
+    Q3 2026: 2420.0
   annual:
     2021 Yearly: 14090.0
     2022 Yearly: 14920.0
@@ -26,18 +27,19 @@ revenue:
     Q1 2026: 3090.0
     Q2 2026: 2280.0
     Q3 2026: 2400.0
-    Q4 2026: 2530.0
-    Q1 2027: 2410.0
-    Q2 2027: 2430.0
+    Q4 2026: 2550.0
+    Q1 2027: 2420.0
+    Q2 2027: 2490.0
+    Q3 2027: 2580.0
   annual_forecast:
     2021 Yearly: 14300.0
     2022 Yearly: 14900.0
     2023 Yearly: 16180.0
     2024 Yearly: 10860.0
     2025 Yearly: 12020.0
-    2026 Yearly: 9500.0
-    2027 Yearly: 10110.0
-    2028 Yearly: 10700.0
+    2026 Yearly: 9540.0
+    2027 Yearly: 10150.0
+    2028 Yearly: 10810.0
     2029 Yearly: 11600.0
 eps:
   quarterly:
@@ -48,6 +50,7 @@ eps:
     Q4 2025: 1.75
     Q1 2026: 1.53
     Q2 2026: 1.75
+    Q3 2026: 1.84
   annual:
     2021 Yearly: 5.2
     2022 Yearly: 5.73
@@ -64,15 +67,16 @@ eps:
     Q2 2026: 1.63
     Q3 2026: 1.83
     Q4 2026: 2.13
-    Q1 2027: 1.83
-    Q2 2027: 1.88
+    Q1 2027: 1.84
+    Q2 2027: 1.9
+    Q3 2027: 2.09
   annual_forecast:
     2021 Yearly: 5.2
     2022 Yearly: 5.71
     2023 Yearly: 6.06
     2024 Yearly: 6.96
     2025 Yearly: 6.06
-    2026 Yearly: 7.23
+    2026 Yearly: 7.26
     2027 Yearly: 8.27
-    2028 Yearly: 9.41
+    2028 Yearly: 9.53
     2029 Yearly: 11.43

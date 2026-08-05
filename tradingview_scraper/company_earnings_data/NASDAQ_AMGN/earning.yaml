@@ -1,7 +1,7 @@
 currency: USD
 company_name: Amgen Inc.
 sector: Health Technology
-market_cap_billions: 210.5
+market_cap_billions: 218.98
 revenue:
   quarterly:
     Q3 2024: 8500.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 9560.0
     Q4 2025: 9870.0
     Q1 2026: 8620.0
+    Q2 2026: 10050.0
   annual:
     2021 Yearly: 25980.0
     2022 Yearly: 26320.0
@@ -26,19 +27,20 @@ revenue:
     Q4 2025: 9470.0
     Q1 2026: 8580.0
     Q2 2026: 9430.0
-    Q3 2026: 9690.0
-    Q4 2026: 9980.0
-    Q1 2027: 9030.0
+    Q3 2026: 9940.0
+    Q4 2026: 10140.0
+    Q1 2027: 9270.0
+    Q2 2027: 10040.0
   annual_forecast:
     2021 Yearly: 26000.0
     2022 Yearly: 26170.0
     2023 Yearly: 28120.0
     2024 Yearly: 33200.0
     2025 Yearly: 36360.0
-    2026 Yearly: 37740.0
-    2027 Yearly: 38740.0
-    2028 Yearly: 39780.0
-    2029 Yearly: 41120.0
+    2026 Yearly: 38520.0
+    2027 Yearly: 39640.0
+    2028 Yearly: 40690.0
+    2029 Yearly: 42100.0
 eps:
   quarterly:
     Q3 2024: 5.58
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 5.64
     Q4 2025: 5.29
     Q1 2026: 5.15
+    Q2 2026: 6.29
   annual:
     2021 Yearly: 17.1
     2022 Yearly: 17.69
@@ -63,16 +66,17 @@ eps:
     Q4 2025: 4.73
     Q1 2026: 4.77
     Q2 2026: 5.62
-    Q3 2026: 5.78
-    Q4 2026: 5.77
-    Q1 2027: 5.42
+    Q3 2026: 5.81
+    Q4 2026: 5.78
+    Q1 2027: 5.55
+    Q2 2027: 6.12
   annual_forecast:
     2021 Yearly: 16.82
     2022 Yearly: 17.68
     2023 Yearly: 18.56
     2024 Yearly: 19.61
     2025 Yearly: 21.32
-    2026 Yearly: 22.36
-    2027 Yearly: 23.42
-    2028 Yearly: 24.42
-    2029 Yearly: 25.85
+    2026 Yearly: 22.79
+    2027 Yearly: 23.94
+    2028 Yearly: 25.08
+    2029 Yearly: 26.5

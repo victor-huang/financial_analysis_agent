@@ -1,7 +1,7 @@
 currency: USD
 company_name: BRC Inc.
 sector: Consumer Non-Durables
-market_cap_billions: 0.26198
+market_cap_billions: 0.25905
 revenue:
   quarterly:
     Q3 2024: 98.2
@@ -27,18 +27,18 @@ revenue:
     Q4 2025: 109.85
     Q1 2026: 96.95
     Q2 2026: 104.65
-    Q3 2026: 105.19
-    Q4 2026: 111.7
-    Q1 2027: 121.4
-    Q2 2027: 118.3
+    Q3 2026: 105.89
+    Q4 2026: 110.1
+    Q1 2027: 117.2
+    Q2 2027: 115.65
   annual_forecast:
     2021 Yearly: 229.95
     2022 Yearly: 300.58
     2023 Yearly: 399.71
     2024 Yearly: 391.82
     2025 Yearly: 395.35
-    2026 Yearly: 431.72
-    2027 Yearly: 468.41
+    2026 Yearly: 432.21
+    2027 Yearly: 466.94
     2028 Yearly: 544.5
     2029 Yearly: 598.9
 eps:
@@ -67,7 +67,7 @@ eps:
     Q1 2026: -0.01
     Q2 2026: -0.01
     Q3 2026: 0.01
-    Q4 2026: 0.02
+    Q4 2026: 0.01
     Q1 2027: 0.01
     Q2 2027: 0.01
   annual_forecast:

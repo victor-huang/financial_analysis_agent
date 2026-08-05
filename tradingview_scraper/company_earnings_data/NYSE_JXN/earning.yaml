@@ -1,7 +1,7 @@
 currency: USD
 company_name: Jackson Financial Inc.
 sector: Finance
-market_cap_billions: 9.32
+market_cap_billions: 9.1
 revenue:
   quarterly:
     Q3 2024: 2120.0
@@ -27,8 +27,8 @@ revenue:
     Q4 2025: 1920.0
     Q1 2026: 1940.0
     Q2 2026: 1910.0
-    Q3 2026: 1960.0
-    Q4 2026: 1980.0
+    Q3 2026: 2029.9999999999998
+    Q4 2026: 2050.0
     Q1 2027: 2060.0
     Q2 2027: 2080.0
   annual_forecast:
@@ -37,8 +37,8 @@ revenue:
     2023 Yearly: 6410.0
     2024 Yearly: 6940.0
     2025 Yearly: 7340.0
-    2026 Yearly: 7730.0
-    2027 Yearly: 8189.999999999999
+    2026 Yearly: 7930.0
+    2027 Yearly: 8470.0
     2028 Yearly: 8770.0
     2029 Yearly: 9230.0
 eps:
@@ -66,17 +66,17 @@ eps:
     Q4 2025: 5.86
     Q1 2026: 5.96
     Q2 2026: 5.72
-    Q3 2026: 6.32
-    Q4 2026: 6.43
-    Q1 2027: 6.7
-    Q2 2027: 7.0
+    Q3 2026: 6.93
+    Q4 2026: 7.04
+    Q1 2027: 7.16
+    Q2 2027: 7.46
   annual_forecast:
     2021 Yearly: 23.22
     2022 Yearly: 15.49
     2023 Yearly: 13.75
     2024 Yearly: 19.02
     2025 Yearly: 21.96
-    2026 Yearly: 24.41
-    2027 Yearly: 28.36
+    2026 Yearly: 25.95
+    2027 Yearly: 30.17
     2028 Yearly: 32.16
     2029 Yearly: 34.75

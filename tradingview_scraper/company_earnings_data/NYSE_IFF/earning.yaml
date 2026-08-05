@@ -1,7 +1,7 @@
 currency: USD
 company_name: International Flavors & Fragrances, Inc.
 sector: Consumer Non-Durables
-market_cap_billions: 20.65
+market_cap_billions: 22.48
 revenue:
   quarterly:
     Q3 2024: 2920.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 2690.0
     Q4 2025: 2590.0
     Q1 2026: 2740.0
+    Q2 2026: 1950.0
   annual:
     2021 Yearly: 11660.0
     2022 Yearly: 12440.0
@@ -26,18 +27,19 @@ revenue:
     Q4 2025: 2510.0
     Q1 2026: 2640.0
     Q2 2026: 2620.0
-    Q3 2026: 2640.0
-    Q4 2026: 2520.0
-    Q1 2027: 2800.0
+    Q3 2026: 2580.0
+    Q4 2026: 2460.0
+    Q1 2027: 2600.0
+    Q2 2027: 2580.0
   annual_forecast:
     2021 Yearly: 11580.0
     2022 Yearly: 12480.0
     2023 Yearly: 11470.0
     2024 Yearly: 11390.0
     2025 Yearly: 10820.0
-    2026 Yearly: 10430.0
-    2027 Yearly: 10320.0
-    2028 Yearly: 10640.0
+    2026 Yearly: 10230.0
+    2027 Yearly: 10130.0
+    2028 Yearly: 10360.0
     2029 Yearly: 11960.0
 eps:
   quarterly:
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 1.05
     Q4 2025: 0.8
     Q1 2026: 1.25
+    Q2 2026: 0.82
   annual:
     2021 Yearly: 5.63
     2022 Yearly: 5.55
@@ -63,16 +66,17 @@ eps:
     Q4 2025: 0.83
     Q1 2026: 1.07
     Q2 2026: 1.07
-    Q3 2026: 1.1
-    Q4 2026: 0.9
-    Q1 2027: 1.23
+    Q3 2026: 1.08
+    Q4 2026: 0.87
+    Q1 2027: 1.17
+    Q2 2027: 1.15
   annual_forecast:
     2021 Yearly: 5.6
     2022 Yearly: 5.38
     2023 Yearly: 3.37
     2024 Yearly: 4.17
     2025 Yearly: 4.25
-    2026 Yearly: 4.38
-    2027 Yearly: 4.65
-    2028 Yearly: 5.1
+    2026 Yearly: 4.31
+    2027 Yearly: 4.6
+    2028 Yearly: 5.08
     2029 Yearly: 5.32

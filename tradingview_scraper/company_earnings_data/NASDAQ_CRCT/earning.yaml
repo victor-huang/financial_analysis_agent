@@ -1,7 +1,7 @@
 currency: USD
 company_name: Cricut, Inc.
 sector: Distribution Services
-market_cap_billions: 1.04
+market_cap_billions: 1.24
 revenue:
   quarterly:
     Q3 2024: 167.89
@@ -36,9 +36,9 @@ revenue:
     2023 Yearly: 788.12
     2024 Yearly: 719.65
     2025 Yearly: 704.5
-    2026 Yearly: 677.44
-    2027 Yearly: 682.46
-    2028 Yearly: 687.4
+    2026 Yearly: 686.85
+    2027 Yearly: 692.82
+    2028 Yearly: 701.0
 eps:
   quarterly:
     Q3 2024: 0.05
@@ -64,16 +64,16 @@ eps:
     Q4 2025: 0.03
     Q1 2026: 0.04
     Q2 2026: 0.06
-    Q3 2026: 0.03
-    Q4 2026: 0.01
+    Q3 2026: 0.04
+    Q4 2026: 0.02
     Q1 2027: 0.08
-    Q2 2027: 0.06
+    Q2 2027: 0.1
   annual_forecast:
     2021 Yearly: 0.85
     2022 Yearly: 0.29
     2023 Yearly: 0.25
     2024 Yearly: 0.28
     2025 Yearly: 0.35
-    2026 Yearly: 0.19
-    2027 Yearly: 0.2
-    2028 Yearly: 0.19
+    2026 Yearly: 0.29
+    2027 Yearly: 0.23
+    2028 Yearly: 0.22

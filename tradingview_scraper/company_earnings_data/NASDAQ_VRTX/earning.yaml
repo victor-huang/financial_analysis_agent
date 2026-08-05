@@ -1,7 +1,7 @@
 currency: USD
 company_name: Vertex Pharmaceuticals Incorporated
 sector: Health Technology
-market_cap_billions: 121.09
+market_cap_billions: 122.44
 revenue:
   quarterly:
     Q3 2024: 2770.0
@@ -30,17 +30,17 @@ revenue:
     Q3 2026: 3400.0
     Q4 2026: 3500.0
     Q1 2027: 3360.0
-    Q2 2027: 3570.0
+    Q2 2027: 3590.0
   annual_forecast:
     2021 Yearly: 7500.0
     2022 Yearly: 8930.0
     2023 Yearly: 9860.0
     2024 Yearly: 10890.0
     2025 Yearly: 11980.0
-    2026 Yearly: 13190.0
-    2027 Yearly: 14520.0
-    2028 Yearly: 16290.0
-    2029 Yearly: 18110.0
+    2026 Yearly: 13200.0
+    2027 Yearly: 14530.0
+    2028 Yearly: 16309.999999999998
+    2029 Yearly: 18150.0
 eps:
   quarterly:
     Q3 2024: 4.38
@@ -67,8 +67,8 @@ eps:
     Q1 2026: 4.24
     Q2 2026: 4.74
     Q3 2026: 4.8
-    Q4 2026: 4.82
-    Q1 2027: 4.73
+    Q4 2026: 4.83
+    Q1 2027: 4.71
     Q2 2027: 5.12
   annual_forecast:
     2021 Yearly: 12.96
@@ -76,7 +76,7 @@ eps:
     2023 Yearly: 15.03
     2024 Yearly: 0.46
     2025 Yearly: 18.48
-    2026 Yearly: 18.76
+    2026 Yearly: 18.77
     2027 Yearly: 21.24
-    2028 Yearly: 25.31
-    2029 Yearly: 30.13
+    2028 Yearly: 25.28
+    2029 Yearly: 30.09

@@ -1,7 +1,7 @@
 currency: USD
 company_name: Vitesse Energy Inc.
 sector: Energy Minerals
-market_cap_billions: 0.65363
+market_cap_billions: 0.65935
 revenue:
   quarterly:
     Q3 2024: 58.28
@@ -26,18 +26,18 @@ revenue:
     Q4 2025: 67.73
     Q1 2026: 66.71
     Q2 2026: 77.33
-    Q3 2026: 72.9
-    Q4 2026: 71.6
+    Q3 2026: 74.43
+    Q4 2026: 72.8
     Q1 2027: 62.58
     Q2 2027: 62.11
   annual_forecast:
     2023 Yearly: 225.69
     2024 Yearly: 246.94
     2025 Yearly: 286.63
-    2026 Yearly: 293.97
-    2027 Yearly: 259.97
-    2028 Yearly: 305.0
-    2029 Yearly: 356.0
+    2026 Yearly: 297.37
+    2027 Yearly: 260.97
+    2028 Yearly: 303.0
+    2029 Yearly: 318.0
 eps:
   quarterly:
     Q3 2024: 0.23
@@ -63,14 +63,14 @@ eps:
     Q1 2026: 0.12
     Q2 2026: 0.06
     Q3 2026: 0.04
-    Q4 2026: 0.06
-    Q1 2027: 0.07
-    Q2 2027: 0.03
+    Q4 2026: 0.05
+    Q1 2027: 0.06
+    Q2 2027: 0.02
   annual_forecast:
     2023 Yearly: 1.34
     2024 Yearly: 1.11
     2025 Yearly: 0.86
-    2026 Yearly: -0.31
-    2027 Yearly: 0.93
-    2028 Yearly: 0.65
-    2029 Yearly: 0.72
+    2026 Yearly: -0.18
+    2027 Yearly: 0.3
+    2028 Yearly: 0.49
+    2029 Yearly: 0.48

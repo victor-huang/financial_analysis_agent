@@ -1,7 +1,7 @@
 currency: USD
 company_name: The Hackett Group, Inc.
 sector: Commercial Services
-market_cap_billions: 0.28438
+market_cap_billions: 0.27908999999999995
 revenue:
   quarterly:
     Q3 2024: 77.95
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 72.17
     Q4 2025: 74.82
     Q1 2026: 67.84
+    Q2 2026: 68.34
   annual:
     2021 Yearly: 277.58
     2022 Yearly: 289.69
@@ -26,17 +27,18 @@ revenue:
     Q4 2025: 70.08
     Q1 2026: 71.23
     Q2 2026: 68.8
-    Q3 2026: 72.23
-    Q4 2026: 71.67
-    Q1 2027: 70.25
+    Q3 2026: 68.67
+    Q4 2026: 69.61
+    Q1 2027: 69.38
+    Q2 2027: 71.01
   annual_forecast:
     2021 Yearly: 273.31
     2022 Yearly: 287.93
     2023 Yearly: 289.76
     2024 Yearly: 303.79
     2025 Yearly: 296.1
-    2026 Yearly: 280.53
-    2027 Yearly: 294.36
+    2026 Yearly: 274.47
+    2027 Yearly: 285.73
 eps:
   quarterly:
     Q3 2024: 0.43
@@ -46,6 +48,7 @@ eps:
     Q3 2025: 0.37
     Q4 2025: 0.4
     Q1 2026: 0.34
+    Q2 2026: 0.34
   annual:
     2021 Yearly: 1.31
     2022 Yearly: 1.5
@@ -61,14 +64,15 @@ eps:
     Q4 2025: 0.39
     Q1 2026: 0.35
     Q2 2026: 0.34
-    Q3 2026: 0.4
-    Q4 2026: 0.42
-    Q1 2027: 0.35
+    Q3 2026: 0.37
+    Q4 2026: 0.39
+    Q1 2027: 0.36
+    Q2 2027: 0.39
   annual_forecast:
     2021 Yearly: 1.27
     2022 Yearly: 1.45
     2023 Yearly: 1.54
     2024 Yearly: 1.62
     2025 Yearly: 1.54
-    2026 Yearly: 1.5
-    2027 Yearly: 1.67
+    2026 Yearly: 1.45
+    2027 Yearly: 1.59

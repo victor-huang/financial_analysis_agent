@@ -1,7 +1,7 @@
 currency: USD
 company_name: Callaway Golf Company
 sector: Consumer Durables
-market_cap_billions: 3.52
+market_cap_billions: 3.44
 revenue:
   quarterly:
     Q3 2024: 1010.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 934.0
     Q4 2025: 367.5
     Q1 2026: 687.5
+    Q2 2026: 612.2
   annual:
     2021 Yearly: 3130.0
     2022 Yearly: 4000.0
@@ -26,9 +27,10 @@ revenue:
     Q4 2025: 787.41
     Q1 2026: 651.73
     Q2 2026: 605.63
-    Q3 2026: 428.45
-    Q4 2026: 345.44
-    Q1 2027: 710.98
+    Q3 2026: 430.65
+    Q4 2026: 339.27
+    Q1 2027: 705.68
+    Q2 2027: 635.31
   annual_forecast:
     2021 Yearly: 3120.0
     2022 Yearly: 3980.0
@@ -36,8 +38,8 @@ revenue:
     2024 Yearly: 4200.0
     2025 Yearly: 3920.0
     2026 Yearly: 2070.0
-    2027 Yearly: 2130.0
-    2028 Yearly: 2170.0
+    2027 Yearly: 2140.0
+    2028 Yearly: 2200.0
 eps:
   quarterly:
     Q3 2024: 0.02
@@ -47,6 +49,7 @@ eps:
     Q3 2025: -0.05
     Q4 2025: -0.25
     Q1 2026: 0.56
+    Q2 2026: 0.39
   annual:
     2021 Yearly: 1.82
     2022 Yearly: 0.82
@@ -62,15 +65,16 @@ eps:
     Q4 2025: -0.42
     Q1 2026: 0.42
     Q2 2026: 0.35
-    Q3 2026: -0.04
-    Q4 2026: -0.21
-    Q1 2027: 0.62
+    Q3 2026: 0.0
+    Q4 2026: -0.23
+    Q1 2027: 0.63
+    Q2 2027: 0.46
   annual_forecast:
     2021 Yearly: 1.7
     2022 Yearly: 0.91
     2023 Yearly: 0.43
     2024 Yearly: 0.14
     2025 Yearly: -0.15
-    2026 Yearly: 0.68
-    2027 Yearly: 0.79
-    2028 Yearly: 0.84
+    2026 Yearly: 0.71
+    2027 Yearly: 0.89
+    2028 Yearly: 0.97

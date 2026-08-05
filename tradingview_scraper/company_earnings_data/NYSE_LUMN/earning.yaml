@@ -1,7 +1,7 @@
 currency: USD
 company_name: Lumen Technologies, Inc.
 sector: Communications
-market_cap_billions: 6.91
+market_cap_billions: 6.26
 revenue:
   quarterly:
     Q3 2024: 3220.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 3090.0
     Q4 2025: 3040.0
     Q1 2026: 2900.0
+    Q2 2026: 2810.0
   annual:
     2021 Yearly: 19690.0
     2022 Yearly: 17480.0
@@ -26,19 +27,20 @@ revenue:
     Q4 2025: 3040.0
     Q1 2026: 2830.0
     Q2 2026: 2740.0
-    Q3 2026: 2710.0
-    Q4 2026: 2680.0
+    Q3 2026: 2730.0
+    Q4 2026: 2700.0
     Q1 2027: 2710.0
+    Q2 2027: 2690.0
   annual_forecast:
     2021 Yearly: 19700.0
     2022 Yearly: 17460.0
     2023 Yearly: 14490.0
     2024 Yearly: 12970.0
     2025 Yearly: 12400.0
-    2026 Yearly: 11030.0
-    2027 Yearly: 10610.0
-    2028 Yearly: 10500.0
-    2029 Yearly: 10190.0
+    2026 Yearly: 11090.0
+    2027 Yearly: 10680.0
+    2028 Yearly: 10550.0
+    2029 Yearly: 10220.0
 eps:
   quarterly:
     Q3 2024: -0.13
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -0.2
     Q4 2025: 0.23
     Q1 2026: -0.47
+    Q2 2026: -0.07
   annual:
     2021 Yearly: 1.91
     2022 Yearly: 1.55
@@ -63,16 +66,17 @@ eps:
     Q4 2025: -0.26
     Q1 2026: -0.13
     Q2 2026: -0.13
-    Q3 2026: -0.14
-    Q4 2026: -0.11
-    Q1 2027: -0.1
+    Q3 2026: -0.2
+    Q4 2026: -0.12
+    Q1 2027: -0.08
+    Q2 2027: -0.08
   annual_forecast:
     2021 Yearly: 1.94
     2022 Yearly: 1.52
     2023 Yearly: 0.1
     2024 Yearly: -0.35
     2025 Yearly: -0.63
-    2026 Yearly: -0.84
-    2027 Yearly: -0.35
+    2026 Yearly: -0.89
+    2027 Yearly: -0.37
     2028 Yearly: -0.32
     2029 Yearly: -0.79

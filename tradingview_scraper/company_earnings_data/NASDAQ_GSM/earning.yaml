@@ -1,7 +1,7 @@
 currency: USD
 company_name: Ferroglobe PLC
 sector: Non-Energy Minerals
-market_cap_billions: 0.63906
+market_cap_billions: 0.7437
 revenue:
   quarterly:
     Q3 2024: 433.53
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 311.7
     Q4 2025: 329.38
     Q1 2026: 347.75
+    Q2 2026: 378.62
   annual:
     2021 Yearly: 1780.0
     2022 Yearly: 2600.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 391.3
     Q4 2026: 405.85
     Q1 2027: 458.8
+    Q2 2027: 542.0
   annual_forecast:
     2021 Yearly: 1710.0
     2022 Yearly: 2610.0
@@ -47,6 +49,7 @@ eps:
     Q3 2025: -0.02
     Q4 2025: -0.06
     Q1 2026: -0.07
+    Q2 2026: 0.0
   annual:
     2021 Yearly: -0.18
     2022 Yearly: 3.07
@@ -65,6 +68,7 @@ eps:
     Q3 2026: -0.04
     Q4 2026: 0.03
     Q1 2027: 0.06
+    Q2 2027: 0.13
   annual_forecast:
     2021 Yearly: -0.15
     2022 Yearly: 2.69

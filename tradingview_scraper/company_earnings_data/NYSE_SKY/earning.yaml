@@ -1,7 +1,7 @@
 currency: USD
 company_name: Champion Homes, Inc.
 sector: Consumer Durables
-market_cap_billions: 4.52
+market_cap_billions: 5.0
 revenue:
   quarterly:
     Q2 2024: 616.88
@@ -11,6 +11,7 @@ revenue:
     Q2 2025: 684.43
     Q3 2025: 656.61
     Q4 2025: 621.28
+    Q1 2026: 710.23
   annual:
     2021 Yearly: 2210.0
     2022 Yearly: 2610.0
@@ -26,9 +27,10 @@ revenue:
     Q3 2025: 649.4
     Q4 2025: 607.39
     Q1 2026: 701.98
-    Q2 2026: 697.82
+    Q2 2026: 697.83
     Q3 2026: 688.53
-    Q4 2026: 662.12
+    Q4 2026: 662.11
+    Q1 2027: 723.87
   annual_forecast:
     2021 Yearly: 2130.0
     2022 Yearly: 2640.0
@@ -47,6 +49,7 @@ eps:
     Q2 2025: 1.01
     Q3 2025: 0.96
     Q4 2025: 0.68
+    Q1 2026: 0.88
   annual:
     2021 Yearly: 4.33
     2022 Yearly: 7.0
@@ -65,6 +68,7 @@ eps:
     Q2 2026: 0.89
     Q3 2026: 0.9
     Q4 2026: 0.74
+    Q1 2027: 0.98
   annual_forecast:
     2021 Yearly: 3.82
     2022 Yearly: 6.94

@@ -1,7 +1,7 @@
 currency: USD
 company_name: Marqeta, Inc.
 sector: Commercial Services
-market_cap_billions: 1.9
+market_cap_billions: 1.78
 revenue:
   quarterly:
     Q3 2024: 127.97
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 163.31
     Q4 2025: 172.11
     Q1 2026: 165.8
+    Q2 2026: 176.0
   annual:
     2021 Yearly: 517.17
     2022 Yearly: 748.21
@@ -26,18 +27,19 @@ revenue:
     Q4 2025: 167.66
     Q1 2026: 164.3
     Q2 2026: 173.27
-    Q3 2026: 179.33
-    Q4 2026: 189.57
-    Q1 2027: 191.72
+    Q3 2026: 177.46
+    Q4 2026: 188.08
+    Q1 2027: 189.2
+    Q2 2027: 199.46
   annual_forecast:
     2021 Yearly: 499.68
     2022 Yearly: 746.34
     2023 Yearly: 666.32
     2024 Yearly: 503.54
     2025 Yearly: 620.31
-    2026 Yearly: 708.11
-    2027 Yearly: 829.19
-    2028 Yearly: 955.38
+    2026 Yearly: 706.41
+    2027 Yearly: 816.76
+    2028 Yearly: 939.01
     2029 Yearly: 1140.0
 eps:
   quarterly:
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -0.04
     Q4 2025: 0.0
     Q1 2026: 0.08
+    Q2 2026: 0.07
   annual:
     2021 Yearly: -1.8
     2022 Yearly: -1.36
@@ -63,16 +66,17 @@ eps:
     Q4 2025: -0.04
     Q1 2026: -0.01
     Q2 2026: 0.01
-    Q3 2026: 0.03
+    Q3 2026: 0.04
     Q4 2026: 0.05
     Q1 2027: 0.08
+    Q2 2027: 0.09
   annual_forecast:
     2021 Yearly: -1.86
     2022 Yearly: -1.54
     2023 Yearly: -1.71
     2024 Yearly: 0.22
     2025 Yearly: -0.14
-    2026 Yearly: 0.16
-    2027 Yearly: 0.4
-    2028 Yearly: 0.7
+    2026 Yearly: 0.2
+    2027 Yearly: 0.44
+    2028 Yearly: 0.73
     2029 Yearly: 0.56

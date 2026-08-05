@@ -1,7 +1,7 @@
 currency: USD
 company_name: OrthoPediatrics Corp.
 sector: Health Technology
-market_cap_billions: 0.5363
+market_cap_billions: 0.55351
 revenue:
   quarterly:
     Q3 2024: 54.57
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 61.25
     Q4 2025: 61.6
     Q1 2026: 59.36
+    Q2 2026: 70.5
   annual:
     2021 Yearly: 98.05
     2022 Yearly: 122.29
@@ -26,19 +27,20 @@ revenue:
     Q4 2025: 60.16
     Q1 2026: 58.29
     Q2 2026: 68.21
-    Q3 2026: 69.28
-    Q4 2026: 68.33
-    Q1 2027: 66.38
+    Q3 2026: 68.65
+    Q4 2026: 68.55
+    Q1 2027: 66.7
+    Q2 2027: 77.87
   annual_forecast:
     2021 Yearly: 97.93
     2022 Yearly: 122.3
     2023 Yearly: 148.83
     2024 Yearly: 202.98
     2025 Yearly: 234.88
-    2026 Yearly: 265.24
-    2027 Yearly: 296.72
-    2028 Yearly: 330.47
-    2029 Yearly: 370.9
+    2026 Yearly: 266.83
+    2027 Yearly: 298.61
+    2028 Yearly: 333.58
+    2029 Yearly: 373.2
 eps:
   quarterly:
     Q3 2024: -0.18
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -0.24
     Q4 2025: -0.43
     Q1 2026: -0.45
+    Q2 2026: -0.3
   annual:
     2021 Yearly: -0.75
     2022 Yearly: -0.82
@@ -63,16 +66,17 @@ eps:
     Q4 2025: -0.29
     Q1 2026: -0.46
     Q2 2026: -0.3
-    Q3 2026: -0.21
-    Q4 2026: -0.22
-    Q1 2027: -0.31
+    Q3 2026: -0.22
+    Q4 2026: -0.23
+    Q1 2027: -0.34
+    Q2 2027: -0.19
   annual_forecast:
     2021 Yearly: -1.02
     2022 Yearly: -0.71
     2023 Yearly: -0.89
     2024 Yearly: -1.13
     2025 Yearly: -1.25
-    2026 Yearly: -1.18
+    2026 Yearly: -1.22
     2027 Yearly: -0.81
-    2028 Yearly: -0.29
+    2028 Yearly: -0.37
     2029 Yearly: 0.19

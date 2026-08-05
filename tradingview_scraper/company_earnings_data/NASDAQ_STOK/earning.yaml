@@ -1,7 +1,7 @@
 currency: USD
 company_name: Stoke Therapeutics, Inc.
 sector: Health Technology
-market_cap_billions: 1.97
+market_cap_billions: 2.07
 revenue:
   quarterly:
     Q3 2024: 4.89
@@ -11,7 +11,7 @@ revenue:
     Q3 2025: 10.63
     Q4 2025: 1.4
     Q1 2026: 6.23
-    Q2 2026: 9.3
+    Q2 2026: 9.32
   annual:
     2021 Yearly: 0.0
     2022 Yearly: 12.4

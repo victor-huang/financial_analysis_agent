@@ -1,7 +1,7 @@
 currency: USD
 company_name: Limbach Holdings, Inc.
 sector: Miscellaneous
-market_cap_billions: 0.91923
+market_cap_billions: 0.61072
 revenue:
   quarterly:
     Q3 2024: 133.92
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 184.58
     Q4 2025: 186.87
     Q1 2026: 138.86
+    Q2 2026: 173.46
   annual:
     2021 Yearly: 490.35
     2022 Yearly: 496.78
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 209.01
     Q4 2026: 218.11
     Q1 2027: 145.07
+    Q2 2027: 183.21
   annual_forecast:
     2021 Yearly: 492.1
     2022 Yearly: 507.3
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 1.05
     Q4 2025: 1.4
     Q1 2026: 0.64
+    Q2 2026: 0.64
   annual:
     2021 Yearly: 0.66
     2022 Yearly: 0.64
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 1.52
     Q4 2026: 1.77
     Q1 2027: 0.28
+    Q2 2027: 0.97
   annual_forecast:
     2021 Yearly: 0.69
     2022 Yearly: 0.74

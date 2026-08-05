@@ -1,7 +1,7 @@
 currency: USD
 company_name: Rayonier Advanced Materials Inc.
 sector: Process Industries
-market_cap_billions: 0.59076
+market_cap_billions: 0.64808
 revenue:
   quarterly:
     Q3 2024: 401.0
@@ -25,7 +25,7 @@ revenue:
     Q4 2025: 373.6
     Q1 2026: 364.07
     Q2 2026: 302.63
-    Q3 2026: 362.0
+    Q3 2026: 357.5
     Q4 2026: 380.13
   annual_forecast:
     2021 Yearly: 1600.0
@@ -59,7 +59,7 @@ eps:
     Q3 2025: -0.07
     Q4 2025: -0.08
     Q1 2026: -0.63
-    Q2 2026: -0.22
+    Q2 2026: -0.17
     Q3 2026: 0.06
     Q4 2026: 0.1
     Q1 2027: 0.08

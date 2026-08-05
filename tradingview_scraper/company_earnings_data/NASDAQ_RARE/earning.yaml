@@ -1,7 +1,7 @@
 currency: USD
 company_name: Ultragenyx Pharmaceutical Inc.
 sector: Health Technology
-market_cap_billions: 2.54
+market_cap_billions: 2.47
 revenue:
   quarterly:
     Q3 2024: 139.49
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 159.93
     Q4 2025: 207.0
     Q1 2026: 136.0
+    Q2 2026: 214.0
   annual:
     2021 Yearly: 351.41
     2022 Yearly: 363.33
@@ -26,18 +27,19 @@ revenue:
     Q4 2025: 198.6
     Q1 2026: 158.19
     Q2 2026: 183.08
-    Q3 2026: 185.47
-    Q4 2026: 243.42
-    Q1 2027: 198.6
+    Q3 2026: 183.43
+    Q4 2026: 223.53
+    Q1 2027: 192.41
+    Q2 2027: 242.1
   annual_forecast:
     2021 Yearly: 351.78
     2022 Yearly: 361.74
     2023 Yearly: 428.63
     2024 Yearly: 547.6
     2025 Yearly: 664.69
-    2026 Yearly: 748.3
-    2027 Yearly: 990.49
-    2028 Yearly: 1210.0
+    2026 Yearly: 749.21
+    2027 Yearly: 993.32
+    2028 Yearly: 1230.0
     2029 Yearly: 1590.0
 eps:
   quarterly:
@@ -48,6 +50,7 @@ eps:
     Q3 2025: -1.81
     Q4 2025: -1.29
     Q1 2026: -1.84
+    Q2 2026: -0.9
   annual:
     2021 Yearly: -6.7
     2022 Yearly: -10.12
@@ -63,16 +66,17 @@ eps:
     Q4 2025: -1.09
     Q1 2026: -1.49
     Q2 2026: -1.22
-    Q3 2026: -1.02
-    Q4 2026: -0.44
-    Q1 2027: -0.71
+    Q3 2026: -1.0
+    Q4 2026: -0.51
+    Q1 2027: -0.78
+    Q2 2027: -0.31
   annual_forecast:
     2021 Yearly: -6.25
     2022 Yearly: -9.92
     2023 Yearly: -8.37
     2024 Yearly: -6.19
     2025 Yearly: -5.6
-    2026 Yearly: -4.33
-    2027 Yearly: -0.65
-    2028 Yearly: 0.52
-    2029 Yearly: 2.84
+    2026 Yearly: -4.28
+    2027 Yearly: -0.72
+    2028 Yearly: 0.44
+    2029 Yearly: 2.74

@@ -1,7 +1,7 @@
 currency: USD
 company_name: UFP Technologies, Inc.
 sector: Process Industries
-market_cap_billions: 2.59
+market_cap_billions: 2.53
 revenue:
   quarterly:
     Q3 2024: 145.16
@@ -27,19 +27,19 @@ revenue:
     Q4 2025: 149.07
     Q1 2026: 154.78
     Q2 2026: 159.38
-    Q3 2026: 166.0
-    Q4 2026: 161.67
-    Q1 2027: 161.49
-    Q2 2027: 170.75
+    Q3 2026: 166.89
+    Q4 2026: 162.72
+    Q1 2027: 167.67
+    Q2 2027: 175.88
   annual_forecast:
     2021 Yearly: 199.94
     2022 Yearly: 348.43
     2023 Yearly: 393.14
     2024 Yearly: 501.95
     2025 Yearly: 603.02
-    2026 Yearly: 648.82
-    2027 Yearly: 689.24
-    2028 Yearly: 724.64
+    2026 Yearly: 653.97
+    2027 Yearly: 695.12
+    2028 Yearly: 749.42
 eps:
   quarterly:
     Q3 2024: 2.39
@@ -66,15 +66,15 @@ eps:
     Q1 2026: 2.14
     Q2 2026: 2.31
     Q3 2026: 2.51
-    Q4 2026: 2.36
-    Q1 2027: 2.32
-    Q2 2027: 2.61
+    Q4 2026: 2.37
+    Q1 2027: 2.44
+    Q2 2027: 2.7
   annual_forecast:
     2021 Yearly: 2.08
     2022 Yearly: 4.46
     2023 Yearly: 5.77
     2024 Yearly: 8.27
     2025 Yearly: 8.6
-    2026 Yearly: 9.58
-    2027 Yearly: 10.7
-    2028 Yearly: 12.02
+    2026 Yearly: 9.68
+    2027 Yearly: 10.82
+    2028 Yearly: 12.77

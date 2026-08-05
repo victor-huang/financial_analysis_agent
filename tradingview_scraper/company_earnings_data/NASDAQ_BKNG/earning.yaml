@@ -1,7 +1,7 @@
 currency: USD
 company_name: Booking Holdings Inc. Common Stock
 sector: Consumer Services
-market_cap_billions: 150.54
+market_cap_billions: 161.09
 revenue:
   quarterly:
     Q3 2024: 7990.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 9010.0
     Q4 2025: 6350.0
     Q1 2026: 5530.0
+    Q2 2026: 7350.0
   annual:
     2021 Yearly: 10960.0
     2022 Yearly: 17090.0
@@ -25,20 +26,21 @@ revenue:
     Q3 2025: 8740.0
     Q4 2025: 6140.0
     Q1 2026: 5520.0
-    Q2 2026: 7190.0
-    Q3 2026: 9710.0
-    Q4 2026: 6870.0
-    Q1 2027: 5960.0
+    Q2 2026: 7200.0
+    Q3 2026: 9580.0
+    Q4 2026: 6800.0
+    Q1 2027: 5940.0
+    Q2 2027: 8029.999999999999
   annual_forecast:
     2021 Yearly: 10840.0
     2022 Yearly: 16940.0
     2023 Yearly: 21290.0
     2024 Yearly: 23460.0
     2025 Yearly: 26710.0
-    2026 Yearly: 29340.0
-    2027 Yearly: 32049.999999999996
-    2028 Yearly: 34690.0
-    2029 Yearly: 37670.0
+    2026 Yearly: 29260.0
+    2027 Yearly: 31980.0
+    2028 Yearly: 34610.0
+    2029 Yearly: 37970.0
 eps:
   quarterly:
     Q3 2024: 3.36
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 3.98
     Q4 2025: 1.95
     Q1 2026: 1.14
+    Q2 2026: 2.54
   annual:
     2021 Yearly: 1.83
     2022 Yearly: 3.99
@@ -63,16 +66,17 @@ eps:
     Q4 2025: 1.95
     Q1 2026: 1.08
     Q2 2026: 2.43
-    Q3 2026: 4.53
-    Q4 2026: 2.33
-    Q1 2027: 1.43
+    Q3 2026: 4.49
+    Q4 2026: 2.31
+    Q1 2027: 1.4
+    Q2 2027: 2.93
   annual_forecast:
     2021 Yearly: 1.75
     2022 Yearly: 3.89
     2023 Yearly: 5.97
     2024 Yearly: 7.31
     2025 Yearly: 9.1
-    2026 Yearly: 10.46
-    2027 Yearly: 12.33
-    2028 Yearly: 14.31
-    2029 Yearly: 17.22
+    2026 Yearly: 10.47
+    2027 Yearly: 12.39
+    2028 Yearly: 14.32
+    2029 Yearly: 17.16

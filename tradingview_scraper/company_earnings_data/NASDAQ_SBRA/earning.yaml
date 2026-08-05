@@ -1,7 +1,7 @@
 currency: USD
 company_name: Sabra Health Care REIT, Inc.
 sector: Finance
-market_cap_billions: 5.21
+market_cap_billions: 5.33
 revenue:
   quarterly:
     Q3 2024: 178.0
@@ -27,18 +27,18 @@ revenue:
     Q4 2025: 197.97
     Q1 2026: 209.2
     Q2 2026: 219.39
-    Q3 2026: 225.02
-    Q4 2026: 230.97
-    Q1 2027: 237.28
-    Q2 2027: 238.94
+    Q3 2026: 225.54
+    Q4 2026: 231.5
+    Q1 2027: 237.77
+    Q2 2027: 239.81
   annual_forecast:
     2021 Yearly: 581.47
     2022 Yearly: 599.63
     2023 Yearly: 647.02
     2024 Yearly: 686.97
     2025 Yearly: 744.16
-    2026 Yearly: 895.75
-    2027 Yearly: 987.1
+    2026 Yearly: 897.68
+    2027 Yearly: 989.33
     2028 Yearly: 1030.0
     2029 Yearly: 1260.0
 eps:
@@ -68,7 +68,7 @@ eps:
     Q2 2026: 0.17
     Q3 2026: 0.18
     Q4 2026: 0.18
-    Q1 2027: 0.18
+    Q1 2027: 0.19
     Q2 2027: 0.2
   annual_forecast:
     2021 Yearly: -0.28
@@ -76,7 +76,7 @@ eps:
     2023 Yearly: 0.12
     2024 Yearly: 0.51
     2025 Yearly: 0.7
-    2026 Yearly: 0.69
-    2027 Yearly: 0.78
+    2026 Yearly: 0.66
+    2027 Yearly: 0.79
     2028 Yearly: 0.85
     2029 Yearly: 0.84

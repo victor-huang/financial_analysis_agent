@@ -1,7 +1,7 @@
 currency: USD
 company_name: Tigo Energy, Inc.
 sector: Electronic Technology
-market_cap_billions: 0.15486000000000003
+market_cap_billions: 0.09603
 revenue:
   quarterly:
     Q3 2024: 14.24
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 30.61
     Q4 2025: 30.03
     Q1 2026: 25.2
+    Q2 2026: 25.4
   annual:
     2022 Yearly: 81.3
     2023 Yearly: 145.2
@@ -25,17 +26,18 @@ revenue:
     Q4 2025: 30.02
     Q1 2026: 25.76
     Q2 2026: 30.82
-    Q3 2026: 37.81
-    Q4 2026: 38.1
-    Q1 2027: 31.63
+    Q3 2026: 28.43
+    Q4 2026: 30.45
+    Q1 2027: 26.5
+    Q2 2027: 31.77
   annual_forecast:
     2023 Yearly: 147.97
     2024 Yearly: 51.93
     2025 Yearly: 103.55
-    2026 Yearly: 131.91
-    2027 Yearly: 161.5
-    2028 Yearly: 205.97
-    2029 Yearly: 265.13
+    2026 Yearly: 110.93
+    2027 Yearly: 129.73
+    2028 Yearly: 179.28
+    2029 Yearly: 214.31
 eps:
   quarterly:
     Q3 2024: -0.22
@@ -45,6 +47,7 @@ eps:
     Q3 2025: -0.03
     Q4 2025: 0.16
     Q1 2026: -0.02
+    Q2 2026: 0.04
   annual:
     2022 Yearly: -0.63
     2023 Yearly: -0.14
@@ -59,14 +62,15 @@ eps:
     Q4 2025: -0.02
     Q1 2026: -0.04
     Q2 2026: 0.0
-    Q3 2026: 0.03
-    Q4 2026: 0.04
-    Q1 2027: 0.0
+    Q3 2026: -0.01
+    Q4 2026: 0.0
+    Q1 2027: -0.02
+    Q2 2027: 0.01
   annual_forecast:
     2023 Yearly: -0.37
     2024 Yearly: -0.67
     2025 Yearly: -0.26
-    2026 Yearly: 0.04
-    2027 Yearly: 0.14
-    2028 Yearly: 0.28
-    2029 Yearly: 0.43
+    2026 Yearly: -0.02
+    2027 Yearly: 0.0
+    2028 Yearly: 0.14
+    2029 Yearly: 0.17

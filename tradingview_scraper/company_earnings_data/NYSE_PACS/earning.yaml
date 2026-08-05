@@ -1,7 +1,7 @@
 currency: USD
 company_name: PACS Group, Inc.
 sector: Health Services
-market_cap_billions: 7.09
+market_cap_billions: 7.4
 revenue:
   quarterly:
     Q3 2024: 995.2
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 1340.0
     Q4 2025: 1360.0
     Q1 2026: 1420.0
+    Q2 2026: 1430.0
   annual:
     2023 Yearly: 3110.0
     2024 Yearly: 3950.0
@@ -27,6 +28,7 @@ revenue:
     Q3 2026: 1440.0
     Q4 2026: 1500.0
     Q1 2027: 1570.0
+    Q2 2027: 1580.0
   annual_forecast:
     2024 Yearly: 3970.0
     2025 Yearly: 5310.0
@@ -42,6 +44,7 @@ eps:
     Q3 2025: 0.32
     Q4 2025: 0.55
     Q1 2026: 0.63
+    Q2 2026: 0.63
   annual:
     2023 Yearly: 0.86
     2024 Yearly: 1.63
@@ -58,6 +61,7 @@ eps:
     Q3 2026: 0.55
     Q4 2026: 0.59
     Q1 2027: 0.64
+    Q2 2027: 0.62
   annual_forecast:
     2024 Yearly: 1.48
     2025 Yearly: 1.74

@@ -1,7 +1,7 @@
 currency: USD
 company_name: Hecla Mining Company
 sector: Non-Energy Minerals
-market_cap_billions: 10.32
+market_cap_billions: 11.23
 revenue:
   quarterly:
     Q3 2024: 245.09
@@ -27,18 +27,18 @@ revenue:
     Q4 2025: 361.01
     Q1 2026: 407.63
     Q2 2026: 368.75
-    Q3 2026: 343.4
-    Q4 2026: 338.82
-    Q1 2027: 346.67
-    Q2 2027: 356.16
+    Q3 2026: 332.91
+    Q4 2026: 338.48
+    Q1 2027: 359.83
+    Q2 2027: 371.17
   annual_forecast:
     2022 Yearly: 827.79
     2023 Yearly: 732.8
     2024 Yearly: 720.59
     2025 Yearly: 926.54
     2026 Yearly: 1330.0
-    2027 Yearly: 1470.0
-    2028 Yearly: 1510.0
+    2027 Yearly: 1450.0
+    2028 Yearly: 1540.0
 eps:
   quarterly:
     Q3 2024: 0.03
@@ -64,17 +64,17 @@ eps:
     Q4 2025: 0.18
     Q1 2026: 0.25
     Q2 2026: 0.18
-    Q3 2026: 0.18
+    Q3 2026: 0.17
     Q4 2026: 0.19
     Q1 2027: 0.22
-    Q2 2027: 0.23
+    Q2 2027: 0.24
   annual_forecast:
     2021 Yearly: 0.11
     2022 Yearly: 0.04
     2023 Yearly: -0.01
     2024 Yearly: 0.09
     2025 Yearly: 0.41
-    2026 Yearly: 0.79
-    2027 Yearly: 1.1
+    2026 Yearly: 0.78
+    2027 Yearly: 1.07
     2028 Yearly: 0.89
     2029 Yearly: 0.6

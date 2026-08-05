@@ -1,7 +1,7 @@
 currency: USD
 company_name: Paylocity Holding Corporation
 sector: Technology Services
-market_cap_billions: 7.67
+market_cap_billions: 7.79
 revenue:
   quarterly:
     Q1 2025: 362.96
@@ -11,12 +11,14 @@ revenue:
     Q1 2026: 408.17
     Q2 2026: 416.13
     Q3 2026: 502.29
+    Q4 2026: 444.73
   annual:
     2021 Yearly: 635.63
     2022 Yearly: 852.65
     2023 Yearly: 1170.0
     2024 Yearly: 1400.0
     2025 Yearly: 1600.0
+    2026 Yearly: 1770.0
   quarterly_forecast:
     Q1 2025: 358.34
     Q2 2025: 367.1
@@ -26,9 +28,10 @@ revenue:
     Q2 2026: 408.59
     Q3 2026: 489.91
     Q4 2026: 431.46
-    Q1 2027: 438.87
-    Q2 2027: 446.38
-    Q3 2027: 539.13
+    Q1 2027: 441.54
+    Q2 2027: 446.01
+    Q3 2027: 535.01
+    Q4 2027: 467.05
   annual_forecast:
     2021 Yearly: 630.42
     2022 Yearly: 841.74
@@ -37,8 +40,8 @@ revenue:
     2025 Yearly: 1580.0
     2026 Yearly: 1760.0
     2027 Yearly: 1890.0
-    2028 Yearly: 2050.0
-    2029 Yearly: 2170.0
+    2028 Yearly: 2040.0
+    2029 Yearly: 2180.0
 eps:
   quarterly:
     Q1 2025: 1.66
@@ -48,12 +51,14 @@ eps:
     Q1 2026: 1.75
     Q2 2026: 1.85
     Q3 2026: 2.89
+    Q4 2026: 1.84
   annual:
     2021 Yearly: 2.11
     2022 Yearly: 3.25
     2023 Yearly: 5.15
     2024 Yearly: 6.57
     2025 Yearly: 7.17
+    2026 Yearly: 8.31
   quarterly_forecast:
     Q1 2025: 1.49
     Q2 2025: 1.42
@@ -63,9 +68,10 @@ eps:
     Q2 2026: 1.6
     Q3 2026: 2.58
     Q4 2026: 1.62
-    Q1 2027: 1.87
-    Q2 2027: 1.88
-    Q3 2027: 3.04
+    Q1 2027: 1.91
+    Q2 2027: 1.91
+    Q3 2027: 3.05
+    Q4 2027: 1.94
   annual_forecast:
     2021 Yearly: 1.95
     2022 Yearly: 2.99
@@ -73,6 +79,6 @@ eps:
     2024 Yearly: 6.36
     2025 Yearly: 7.02
     2026 Yearly: 8.1
-    2027 Yearly: 8.69
-    2028 Yearly: 9.55
-    2029 Yearly: 10.82
+    2027 Yearly: 8.79
+    2028 Yearly: 9.64
+    2029 Yearly: 11.05

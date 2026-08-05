@@ -1,7 +1,7 @@
 currency: USD
 company_name: Interparfums, Inc.
 sector: Consumer Non-Durables
-market_cap_billions: 4.12
+market_cap_billions: 4.03
 revenue:
   quarterly:
     Q3 2024: 424.63
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 429.58
     Q4 2025: 386.18
     Q1 2026: 344.88
+    Q2 2026: 341.0
   annual:
     2021 Yearly: 879.52
     2022 Yearly: 1090.0
@@ -26,9 +27,10 @@ revenue:
     Q4 2025: 386.0
     Q1 2026: 345.0
     Q2 2026: 341.0
-    Q3 2026: 432.9
-    Q4 2026: 379.08
-    Q1 2027: 361.9
+    Q3 2026: 432.89
+    Q4 2026: 379.06
+    Q1 2027: 361.92
+    Q2 2027: 360.07
   annual_forecast:
     2021 Yearly: 879.6
     2022 Yearly: 1090.0
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 2.05
     Q4 2025: 0.88
     Q1 2026: 1.35
+    Q2 2026: 0.95
   annual:
     2021 Yearly: 2.75
     2022 Yearly: 3.78
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 1.86
     Q4 2026: 0.71
     Q1 2027: 1.59
+    Q2 2027: 1.07
   annual_forecast:
     2021 Yearly: 2.59
     2022 Yearly: 3.55

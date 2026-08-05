@@ -1,7 +1,7 @@
 currency: USD
 company_name: Itau Unibanco Banco Holding SA
 sector: Finance
-market_cap_billions: 95.61
+market_cap_billions: 92.8
 revenue:
   quarterly:
     Q3 2024: 7020.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 8090.0
     Q4 2025: 7580.0
     Q1 2026: 8880.0
+    Q2 2026: 9100.0
   annual:
     2021 Yearly: 24340.0
     2022 Yearly: 27300.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 9610.0
     Q4 2026: 9880.0
     Q1 2027: 9890.0
+    Q2 2027: 10060.0
   annual_forecast:
     2022 Yearly: 21940.0
     2023 Yearly: 26920.0
@@ -46,6 +48,7 @@ eps:
     Q3 2025: 0.19
     Q4 2025: 0.19
     Q1 2026: 0.22
+    Q2 2026: 0.21
   annual:
     2021 Yearly: 0.46
     2022 Yearly: 0.51
@@ -64,6 +67,7 @@ eps:
     Q3 2026: 0.23
     Q4 2026: 0.24
     Q1 2027: 0.24
+    Q2 2027: 0.25
   annual_forecast:
     2021 Yearly: 0.43
     2022 Yearly: 0.54

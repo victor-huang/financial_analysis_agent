@@ -1,7 +1,7 @@
 currency: USD
 company_name: MasterBrand, Inc.
 sector: Consumer Durables
-market_cap_billions: 1.94
+market_cap_billions: 1.88
 revenue:
   quarterly:
     Q3 2024: 718.1
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 698.9
     Q4 2025: 644.6
     Q1 2026: 618.0
+    Q2 2026: 815.2
   annual:
     2022 Yearly: 3280.0
     2023 Yearly: 2730.0
@@ -28,6 +29,7 @@ revenue:
     Q3 2026: 851.05
     Q4 2026: 819.45
     Q1 2027: 963.3
+    Q2 2027: 1080.0
   annual_forecast:
     2022 Yearly: 3260.0
     2023 Yearly: 2720.0
@@ -44,6 +46,7 @@ eps:
     Q3 2025: 0.33
     Q4 2025: -0.02
     Q1 2026: 0.06
+    Q2 2026: 0.05
   annual:
     2022 Yearly: 1.2
     2023 Yearly: 1.4
@@ -61,6 +64,7 @@ eps:
     Q3 2026: 0.14
     Q4 2026: 0.07
     Q1 2027: 0.05
+    Q2 2027: 0.22
   annual_forecast:
     2022 Yearly: 1.88
     2023 Yearly: 1.44

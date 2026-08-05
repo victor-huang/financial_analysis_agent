@@ -1,7 +1,7 @@
 currency: USD
 company_name: Wynn Resorts, Limited
 sector: Consumer Services
-market_cap_billions: 10.13
+market_cap_billions: 10.71
 revenue:
   quarterly:
     Q3 2024: 1690.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 1830.0
     Q4 2025: 1870.0
     Q1 2026: 1860.0
+    Q2 2026: 1860.0
   annual:
     2021 Yearly: 3760.0
     2022 Yearly: 3760.0
@@ -26,9 +27,10 @@ revenue:
     Q4 2025: 1850.0
     Q1 2026: 1820.0
     Q2 2026: 1830.0
-    Q3 2026: 1840.0
-    Q4 2026: 1960.0
+    Q3 2026: 1830.0
+    Q4 2026: 1950.0
     Q1 2027: 1900.0
+    Q2 2027: 1880.0
   annual_forecast:
     2021 Yearly: 3780.0
     2022 Yearly: 3700.0
@@ -36,8 +38,8 @@ revenue:
     2024 Yearly: 7070.0
     2025 Yearly: 7120.0
     2026 Yearly: 7480.0
-    2027 Yearly: 7760.0
-    2028 Yearly: 8050.000000000001
+    2027 Yearly: 7740.0
+    2028 Yearly: 8039.999999999999
 eps:
   quarterly:
     Q3 2024: 0.9
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.86
     Q4 2025: 1.17
     Q1 2026: 1.25
+    Q2 2026: 1.24
   annual:
     2021 Yearly: -6.12
     2022 Yearly: -4.47
@@ -62,15 +65,16 @@ eps:
     Q4 2025: 1.47
     Q1 2026: 1.25
     Q2 2026: 0.99
-    Q3 2026: 0.97
-    Q4 2026: 1.31
-    Q1 2027: 1.18
+    Q3 2026: 0.92
+    Q4 2026: 1.27
+    Q1 2027: 1.17
+    Q2 2027: 1.16
   annual_forecast:
     2021 Yearly: -6.09
     2022 Yearly: -4.28
     2023 Yearly: 3.25
     2024 Yearly: 5.15
     2025 Yearly: 4.42
-    2026 Yearly: 4.52
-    2027 Yearly: 5.09
-    2028 Yearly: 6.07
+    2026 Yearly: 4.6
+    2027 Yearly: 5.1
+    2028 Yearly: 6.04

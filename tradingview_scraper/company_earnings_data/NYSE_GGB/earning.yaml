@@ -1,7 +1,7 @@
 currency: USD
 company_name: Gerdau S.A.
 sector: Non-Energy Minerals
-market_cap_billions: 9.26
+market_cap_billions: 9.31
 revenue:
   quarterly:
     Q3 2024: 3040.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 3340.0
     Q4 2025: 3290.0
     Q1 2026: 3340.0
+    Q2 2026: 3500.0
   annual:
     2021 Yearly: 15580.0
     2022 Yearly: 15870.0
@@ -35,10 +36,10 @@ revenue:
     2023 Yearly: 14150.0
     2024 Yearly: 11550.0
     2025 Yearly: 13060.0
-    2026 Yearly: 13860.0
-    2027 Yearly: 14300.0
-    2028 Yearly: 14870.0
-    2029 Yearly: 16560.0
+    2026 Yearly: 13810.0
+    2027 Yearly: 14240.0
+    2028 Yearly: 14750.0
+    2029 Yearly: 16650.0
 eps:
   quarterly:
     Q3 2024: 0.11
@@ -48,6 +49,7 @@ eps:
     Q3 2025: 0.1
     Q4 2025: -0.13
     Q1 2026: 0.1
+    Q2 2026: 0.15
   annual:
     2021 Yearly: 1.43
     2022 Yearly: 1.12

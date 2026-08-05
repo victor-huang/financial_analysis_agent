@@ -1,7 +1,7 @@
 currency: USD
 company_name: Assurant, Inc.
 sector: Finance
-market_cap_billions: 13.94
+market_cap_billions: 14.77
 revenue:
   quarterly:
     Q3 2024: 2970.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 3230.0
     Q4 2025: 3350.0
     Q1 2026: 3420.0
+    Q2 2026: 3450.0
   annual:
     2021 Yearly: 10190.0
     2022 Yearly: 10190.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 3470.0
     Q4 2026: 3560.0
     Q1 2027: 3550.0
+    Q2 2027: 3570.0
   annual_forecast:
     2021 Yearly: 10190.0
     2022 Yearly: 10210.0
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 5.73
     Q4 2025: 5.61
     Q1 2026: 5.95
+    Q2 2026: 6.41
   annual:
     2021 Yearly: 9.36
     2022 Yearly: 11.13
@@ -62,15 +65,16 @@ eps:
     Q4 2025: 5.54
     Q1 2026: 5.29
     Q2 2026: 5.17
-    Q3 2026: 4.44
+    Q3 2026: 4.45
     Q4 2026: 5.49
-    Q1 2027: 5.95
+    Q1 2027: 5.94
+    Q2 2027: 5.83
   annual_forecast:
     2021 Yearly: 9.18
     2022 Yearly: 10.58
     2023 Yearly: 14.66
     2024 Yearly: 16.0
     2025 Yearly: 19.75
-    2026 Yearly: 21.06
-    2027 Yearly: 22.44
+    2026 Yearly: 21.24
+    2027 Yearly: 22.55
     2028 Yearly: 24.5

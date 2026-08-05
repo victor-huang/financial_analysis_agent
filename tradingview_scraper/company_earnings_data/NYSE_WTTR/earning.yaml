@@ -1,7 +1,7 @@
 currency: USD
 company_name: Select Water Solutions, Inc.
 sector: Energy Minerals
-market_cap_billions: 2.6
+market_cap_billions: 2.99
 revenue:
   quarterly:
     Q3 2024: 371.35
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 322.24
     Q4 2025: 346.5
     Q1 2026: 365.96
+    Q2 2026: 395.81
   annual:
     2021 Yearly: 764.62
     2022 Yearly: 1390.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 380.28
     Q4 2026: 380.24
     Q1 2027: 387.3
+    Q2 2027: 394.9
   annual_forecast:
     2021 Yearly: 740.79
     2022 Yearly: 1390.0
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.03
     Q4 2025: 0.06
     Q1 2026: 0.13
+    Q2 2026: 0.24
   annual:
     2021 Yearly: -0.42
     2022 Yearly: 0.69
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.14
     Q4 2026: 0.14
     Q1 2027: 0.15
+    Q2 2027: 0.17
   annual_forecast:
     2021 Yearly: -0.6
     2022 Yearly: 0.66

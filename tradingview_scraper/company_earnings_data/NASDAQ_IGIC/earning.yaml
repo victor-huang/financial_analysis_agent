@@ -1,7 +1,7 @@
 currency: USD
 company_name: International General Insurance Holdings Ltd.
 sector: Finance
-market_cap_billions: 1.19
+market_cap_billions: 1.18
 revenue:
   quarterly:
     Q3 2024: 138.1
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 128.6
     Q4 2025: 126.4
     Q1 2026: 125.7
+    Q2 2026: 143.5
   annual:
     2025 Yearly: 516.9
   quarterly_forecast:
@@ -24,6 +25,7 @@ revenue:
     Q3 2026: 115.8
     Q4 2026: 116.5
     Q1 2027: 117.1
+    Q2 2027: 118.4
   annual_forecast:
     2025 Yearly: 458.9
     2026 Yearly: 458.4
@@ -36,7 +38,8 @@ eps:
     Q2 2025: 0.77
     Q3 2025: 0.75
     Q4 2025: 0.76
-    Q1 2026: 0.49
+    Q1 2026: 0.56
+    Q2 2026: 0.44
   annual:
     2021 Yearly: 0.89
     2022 Yearly: 1.74
@@ -55,6 +58,7 @@ eps:
     Q3 2026: 0.76
     Q4 2026: 0.86
     Q1 2027: 0.7
+    Q2 2027: 0.8
   annual_forecast:
     2021 Yearly: 1.03
     2022 Yearly: 1.83

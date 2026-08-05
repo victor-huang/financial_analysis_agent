@@ -1,7 +1,7 @@
 currency: USD
 company_name: Equitable Holdings, Inc.
 sector: Finance
-market_cap_billions: 13.17
+market_cap_billions: 13.96
 revenue:
   quarterly:
     Q3 2024: 3080.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 1450.0
     Q4 2025: 3280.0
     Q1 2026: 4230.0
+    Q2 2026: 1660.0
   annual:
     2021 Yearly: 14630.0
     2022 Yearly: 14020.0
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 3960.0
     Q4 2026: 4040.0
     Q1 2027: 4100.0
+    Q2 2027: 4220.0
   annual_forecast:
     2021 Yearly: 14350.0
     2022 Yearly: 13870.0
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 1.48
     Q4 2025: 1.73
     Q1 2026: 1.62
+    Q2 2026: 1.7
   annual:
     2021 Yearly: 6.58
     2022 Yearly: 5.08
@@ -63,9 +66,10 @@ eps:
     Q4 2025: 1.75
     Q1 2026: 1.61
     Q2 2026: 1.65
-    Q3 2026: 1.89
-    Q4 2026: 1.95
+    Q3 2026: 1.9
+    Q4 2026: 1.96
     Q1 2027: 2.01
+    Q2 2027: 2.19
   annual_forecast:
     2021 Yearly: 6.51
     2022 Yearly: 5.22
@@ -73,6 +77,6 @@ eps:
     2024 Yearly: 6.01
     2025 Yearly: 5.63
     2026 Yearly: 7.13
-    2027 Yearly: 8.92
+    2027 Yearly: 8.93
     2028 Yearly: 10.49
     2029 Yearly: 11.81

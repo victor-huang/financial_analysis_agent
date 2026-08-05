@@ -1,7 +1,7 @@
 currency: USD
 company_name: Compass, Inc.
 sector: Finance
-market_cap_billions: 8.97
+market_cap_billions: 9.8
 revenue:
   quarterly:
     Q3 2024: 1490.0
@@ -27,20 +27,20 @@ revenue:
     Q4 2025: 1680.0
     Q1 2026: 2670.0
     Q2 2026: 4110.0
-    Q3 2026: 3770.0
-    Q4 2026: 3420.0
-    Q1 2027: 2910.0
-    Q2 2027: 4420.0
+    Q3 2026: 3930.0
+    Q4 2026: 3490.0
+    Q1 2027: 2920.0
+    Q2 2027: 4560.0
   annual_forecast:
     2021 Yearly: 6430.0
     2022 Yearly: 6100.0
     2023 Yearly: 4880.0
     2024 Yearly: 5590.0
     2025 Yearly: 6940.0
-    2026 Yearly: 13970.0
-    2027 Yearly: 15150.0
-    2028 Yearly: 16170.000000000002
-    2029 Yearly: 17370.0
+    2026 Yearly: 14410.0
+    2027 Yearly: 15590.0
+    2028 Yearly: 16550.0
+    2029 Yearly: 17870.0
 eps:
   quarterly:
     Q3 2024: 0.0
@@ -66,9 +66,9 @@ eps:
     Q4 2025: -0.06
     Q1 2026: -0.19
     Q2 2026: 0.08
-    Q3 2026: 0.05
-    Q4 2026: -0.02
-    Q1 2027: -0.09
+    Q3 2026: 0.06
+    Q4 2026: -0.03
+    Q1 2027: -0.11
     Q2 2027: 0.16
   annual_forecast:
     2021 Yearly: -1.66
@@ -76,7 +76,7 @@ eps:
     2023 Yearly: -0.69
     2024 Yearly: -0.31
     2025 Yearly: -0.09
-    2026 Yearly: 0.17
-    2027 Yearly: 0.28
-    2028 Yearly: 0.53
-    2029 Yearly: 0.74
+    2026 Yearly: 0.19
+    2027 Yearly: 0.25
+    2028 Yearly: 0.52
+    2029 Yearly: 0.88

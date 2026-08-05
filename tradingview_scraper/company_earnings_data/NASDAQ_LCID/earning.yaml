@@ -1,7 +1,7 @@
 currency: USD
 company_name: Lucid Group, Inc.
 sector: Consumer Durables
-market_cap_billions: 3.04
+market_cap_billions: 2.49
 revenue:
   quarterly:
     Q3 2024: 200.04
@@ -11,7 +11,7 @@ revenue:
     Q3 2025: 336.6
     Q4 2025: 522.73
     Q1 2026: 282.46
-    Q2 2026: 369.5
+    Q2 2026: 405.3
   annual:
     2021 Yearly: 27.11
     2022 Yearly: 608.18
@@ -27,20 +27,20 @@ revenue:
     Q4 2025: 459.53
     Q1 2026: 358.46
     Q2 2026: 381.59
-    Q3 2026: 559.26
-    Q4 2026: 701.97
-    Q1 2027: 731.85
-    Q2 2027: 819.89
+    Q3 2026: 509.66
+    Q4 2026: 636.47
+    Q1 2027: 622.59
+    Q2 2027: 673.78
   annual_forecast:
     2021 Yearly: 51.54
     2022 Yearly: 666.71
     2023 Yearly: 616.97
     2024 Yearly: 790.09
     2025 Yearly: 1290.0
-    2026 Yearly: 1920.0
-    2027 Yearly: 3950.0
-    2028 Yearly: 6660.0
-    2029 Yearly: 8350.0
+    2026 Yearly: 1810.0
+    2027 Yearly: 3590.0
+    2028 Yearly: 6610.0
+    2029 Yearly: 8300.0
 eps:
   quarterly:
     Q3 2024: -2.8
@@ -50,7 +50,7 @@ eps:
     Q3 2025: -3.25
     Q4 2025: -3.62
     Q1 2026: -2.82
-    Q2 2026: -2.57
+    Q2 2026: -3.04
   annual:
     2021 Yearly: -64.1
     2022 Yearly: -15.1
@@ -66,17 +66,17 @@ eps:
     Q4 2025: -2.67
     Q1 2026: -2.53
     Q2 2026: -2.36
-    Q3 2026: -2.21
-    Q4 2026: -1.9
-    Q1 2027: -1.43
-    Q2 2027: -1.4
+    Q3 2026: -2.18
+    Q4 2026: -1.74
+    Q1 2027: -1.53
+    Q2 2027: -1.52
   annual_forecast:
     2021 Yearly: -14.77
     2022 Yearly: -10.29
     2023 Yearly: -13.67
     2024 Yearly: -11.73
     2025 Yearly: -9.87
-    2026 Yearly: -9.03
-    2027 Yearly: -5.12
-    2028 Yearly: -3.72
+    2026 Yearly: -9.14
+    2027 Yearly: -5.15
+    2028 Yearly: -3.64
     2029 Yearly: -2.2

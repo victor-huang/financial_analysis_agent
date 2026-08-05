@@ -1,7 +1,7 @@
 currency: USD
 company_name: Chemours Company (The)
 sector: Process Industries
-market_cap_billions: 2.7
+market_cap_billions: 2.24
 revenue:
   quarterly:
     Q3 2024: 1500.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 1500.0
     Q4 2025: 1330.0
     Q1 2026: 1380.0
+    Q2 2026: 1590.0
   annual:
     2021 Yearly: 6340.0
     2022 Yearly: 6790.0
@@ -26,9 +27,10 @@ revenue:
     Q4 2025: 1330.0
     Q1 2026: 1400.0
     Q2 2026: 1650.0
-    Q3 2026: 1600.0
+    Q3 2026: 1590.0
     Q4 2026: 1430.0
-    Q1 2027: 1510.0
+    Q1 2027: 1500.0
+    Q2 2027: 1750.0
   annual_forecast:
     2021 Yearly: 6340.0
     2022 Yearly: 6730.0
@@ -36,8 +38,8 @@ revenue:
     2024 Yearly: 5760.0
     2025 Yearly: 5800.0
     2026 Yearly: 6040.0
-    2027 Yearly: 6380.0
-    2028 Yearly: 6650.0
+    2027 Yearly: 6360.0
+    2028 Yearly: 6620.0
 eps:
   quarterly:
     Q3 2024: 0.4
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.2
     Q4 2025: 0.05
     Q1 2026: 0.05
+    Q2 2026: 0.42
   annual:
     2021 Yearly: 4.0
     2022 Yearly: 4.66
@@ -62,15 +65,16 @@ eps:
     Q4 2025: 0.09
     Q1 2026: -0.04
     Q2 2026: 0.5
-    Q3 2026: 0.54
+    Q3 2026: 0.51
     Q4 2026: 0.26
-    Q1 2027: 0.41
+    Q1 2027: 0.38
+    Q2 2027: 0.85
   annual_forecast:
     2021 Yearly: 4.06
     2022 Yearly: 4.72
     2023 Yearly: 3.05
     2024 Yearly: 1.22
     2025 Yearly: 0.97
-    2026 Yearly: 1.28
-    2027 Yearly: 2.24
-    2028 Yearly: 2.62
+    2026 Yearly: 1.24
+    2027 Yearly: 2.22
+    2028 Yearly: 2.59

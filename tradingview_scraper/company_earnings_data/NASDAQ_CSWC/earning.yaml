@@ -1,7 +1,7 @@
 currency: USD
 company_name: Capital Southwest Corporation
 sector: Miscellaneous
-market_cap_billions: 1.54
+market_cap_billions: 1.55
 revenue:
   quarterly:
     Q2 2024: 48.71
@@ -27,18 +27,18 @@ revenue:
     Q3 2025: 58.12
     Q4 2025: 61.78
     Q1 2026: 61.22
-    Q2 2026: 64.29
-    Q3 2026: 66.73
-    Q4 2026: 68.31
-    Q1 2027: 68.97
+    Q2 2026: 65.32
+    Q3 2026: 68.47
+    Q4 2026: 70.63
+    Q1 2027: 72.28
   annual_forecast:
     2021 Yearly: 82.81
     2022 Yearly: 118.0
     2023 Yearly: 177.38
     2024 Yearly: 205.11
     2025 Yearly: 236.11
-    2026 Yearly: 260.93
-    2027 Yearly: 287.08
+    2026 Yearly: 265.4
+    2027 Yearly: 300.4
 eps:
   quarterly:
     Q2 2024: 0.66
@@ -64,10 +64,10 @@ eps:
     Q3 2025: 0.59
     Q4 2025: 0.58
     Q1 2026: 0.56
-    Q2 2026: 0.58
+    Q2 2026: 0.57
     Q3 2026: 0.58
-    Q4 2026: 0.58
-    Q1 2027: 0.58
+    Q4 2026: 0.59
+    Q1 2027: 0.59
   annual_forecast:
     2021 Yearly: 1.87
     2022 Yearly: 2.25
@@ -75,4 +75,4 @@ eps:
     2024 Yearly: 2.54
     2025 Yearly: 2.39
     2026 Yearly: 2.3
-    2027 Yearly: 2.35
+    2027 Yearly: 2.38

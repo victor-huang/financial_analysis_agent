@@ -1,7 +1,7 @@
 currency: USD
 company_name: trivago N.V.
 sector: Technology Services
-market_cap_billions: 2.65
+market_cap_billions: 2.64
 revenue:
   quarterly:
     Q3 2024: 162.65
@@ -11,7 +11,7 @@ revenue:
     Q3 2025: 194.32
     Q4 2025: 140.89
     Q1 2026: 165.1
-    Q2 2026: 192.41
+    Q2 2026: 192.32
   annual:
     2021 Yearly: 410.86
     2022 Yearly: 572.58
@@ -27,20 +27,20 @@ revenue:
     Q4 2025: 125.08
     Q1 2026: 165.15
     Q2 2026: 184.76
-    Q3 2026: 217.85
-    Q4 2026: 148.68
-    Q1 2027: 188.45
-    Q2 2027: 212.74
+    Q3 2026: 218.24
+    Q4 2026: 148.94
+    Q1 2027: 188.79
+    Q2 2027: 213.12
   annual_forecast:
     2021 Yearly: 414.93
     2022 Yearly: 563.59
     2023 Yearly: 552.39
     2024 Yearly: 474.71
     2025 Yearly: 628.91
-    2026 Yearly: 717.52
-    2027 Yearly: 787.64
-    2028 Yearly: 871.28
-    2029 Yearly: 904.47
+    2026 Yearly: 718.8
+    2027 Yearly: 789.05
+    2028 Yearly: 872.84
+    2029 Yearly: 906.09
 eps:
   quarterly:
     Q3 2024: -0.04

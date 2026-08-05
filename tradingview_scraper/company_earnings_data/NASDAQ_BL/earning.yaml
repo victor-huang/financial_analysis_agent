@@ -1,7 +1,7 @@
 currency: USD
 company_name: BlackLine, Inc.
 sector: Technology Services
-market_cap_billions: 1.94
+market_cap_billions: 1.78
 revenue:
   quarterly:
     Q3 2024: 165.91
@@ -25,19 +25,19 @@ revenue:
     Q3 2025: 178.12
     Q4 2025: 182.98
     Q1 2026: 181.0
-    Q2 2026: 186.99
-    Q3 2026: 195.2
-    Q4 2026: 201.56
-    Q1 2027: 201.97
+    Q2 2026: 187.81
+    Q3 2026: 194.24
+    Q4 2026: 201.83
+    Q1 2027: 201.81
   annual_forecast:
     2021 Yearly: 424.24
     2022 Yearly: 522.48
     2023 Yearly: 588.59
     2024 Yearly: 652.19
     2025 Yearly: 700.2
-    2026 Yearly: 766.79
-    2027 Yearly: 849.95
-    2028 Yearly: 956.35
+    2026 Yearly: 766.87
+    2027 Yearly: 847.62
+    2028 Yearly: 933.81
 eps:
   quarterly:
     Q3 2024: 0.6
@@ -61,9 +61,9 @@ eps:
     Q3 2025: 0.51
     Q4 2025: 0.59
     Q1 2026: 0.45
-    Q2 2026: 0.57
-    Q3 2026: 0.64
-    Q4 2026: 0.71
+    Q2 2026: 0.6
+    Q3 2026: 0.63
+    Q4 2026: 0.7
     Q1 2027: 0.62
   annual_forecast:
     2021 Yearly: 0.62
@@ -72,5 +72,5 @@ eps:
     2024 Yearly: 2.18
     2025 Yearly: 2.08
     2026 Yearly: 2.48
-    2027 Yearly: 2.77
-    2028 Yearly: 3.36
+    2027 Yearly: 2.78
+    2028 Yearly: 3.26

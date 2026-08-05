@@ -1,7 +1,7 @@
 currency: USD
 company_name: Evertec, Inc.
 sector: Commercial Services
-market_cap_billions: 2.01
+market_cap_billions: 1.93
 revenue:
   quarterly:
     Q3 2024: 211.79
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 227.93
     Q4 2025: 244.83
     Q1 2026: 247.92
+    Q2 2026: 274.81
   annual:
     2021 Yearly: 589.8
     2022 Yearly: 618.41
@@ -26,18 +27,19 @@ revenue:
     Q4 2025: 236.82
     Q1 2026: 248.99
     Q2 2026: 262.24
-    Q3 2026: 272.17
-    Q4 2026: 295.48
-    Q1 2027: 282.65
+    Q3 2026: 272.1
+    Q4 2026: 295.32
+    Q1 2027: 281.63
+    Q2 2027: 293.31
   annual_forecast:
     2021 Yearly: 580.81
     2022 Yearly: 611.63
     2023 Yearly: 669.71
     2024 Yearly: 844.22
     2025 Yearly: 923.8
-    2026 Yearly: 1080.0
-    2027 Yearly: 1170.0
-    2028 Yearly: 1250.0
+    2026 Yearly: 1090.0
+    2027 Yearly: 1180.0
+    2028 Yearly: 1260.0
 eps:
   quarterly:
     Q3 2024: 0.86
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.92
     Q4 2025: 0.93
     Q1 2026: 0.9
+    Q2 2026: 1.05
   annual:
     2021 Yearly: 2.74
     2022 Yearly: 2.42
@@ -63,14 +66,15 @@ eps:
     Q1 2026: 0.92
     Q2 2026: 0.95
     Q3 2026: 0.98
-    Q4 2026: 1.09
+    Q4 2026: 1.08
     Q1 2027: 1.02
+    Q2 2027: 1.08
   annual_forecast:
     2021 Yearly: 2.64
     2022 Yearly: 2.41
     2023 Yearly: 2.84
     2024 Yearly: 3.12
     2025 Yearly: 3.58
-    2026 Yearly: 3.92
-    2027 Yearly: 4.34
-    2028 Yearly: 4.83
+    2026 Yearly: 3.97
+    2027 Yearly: 4.36
+    2028 Yearly: 4.81

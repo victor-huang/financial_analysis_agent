@@ -1,7 +1,7 @@
 currency: USD
 company_name: Palomar Holdings, Inc.
 sector: Finance
-market_cap_billions: 3.61
+market_cap_billions: 3.57
 revenue:
   quarterly:
     Q3 2024: 414.98
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 597.17
     Q4 2025: 492.63
     Q1 2026: 629.83
+    Q2 2026: 630.46
   annual:
     2021 Yearly: 535.17
     2022 Yearly: 881.87
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 748.2
     Q4 2026: 612.88
     Q1 2027: 768.72
+    Q2 2027: 764.81
   annual_forecast:
     2022 Yearly: 525.12
     2023 Yearly: 864.35
@@ -45,6 +47,7 @@ eps:
     Q3 2025: 2.01
     Q4 2025: 2.24
     Q1 2026: 2.31
+    Q2 2026: 2.36
   annual:
     2021 Yearly: 2.05
     2022 Yearly: 2.77
@@ -63,6 +66,7 @@ eps:
     Q3 2026: 2.69
     Q4 2026: 2.72
     Q1 2027: 2.54
+    Q2 2027: 2.68
   annual_forecast:
     2021 Yearly: 1.95
     2022 Yearly: 2.44

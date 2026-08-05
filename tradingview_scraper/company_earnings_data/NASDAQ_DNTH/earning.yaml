@@ -1,7 +1,7 @@
 currency: USD
 company_name: Dianthus Therapeutics, Inc.
 sector: Health Technology
-market_cap_billions: 6.04
+market_cap_billions: 6.08
 revenue:
   quarterly:
     Q3 2024: 2.17
@@ -20,10 +20,10 @@ revenue:
     2023 Yearly: 2.46
     2024 Yearly: 5.54
     2025 Yearly: 2.2
-    2026 Yearly: 1.19
-    2027 Yearly: 1.82
-    2028 Yearly: 17.71
-    2029 Yearly: 189.01
+    2026 Yearly: 1.64
+    2027 Yearly: 2.04
+    2028 Yearly: 17.93
+    2029 Yearly: 194.31
 eps:
   quarterly:
     Q3 2024: -0.74
@@ -33,6 +33,7 @@ eps:
     Q3 2025: -0.97
     Q4 2025: -1.43
     Q1 2026: -0.85
+    Q2 2026: -0.9
   annual:
     2021 Yearly: -20.64
     2022 Yearly: -18.24
@@ -48,16 +49,17 @@ eps:
     Q4 2025: -1.01
     Q1 2026: -1.07
     Q2 2026: -0.85
-    Q3 2026: -0.95
-    Q4 2026: -1.11
-    Q1 2027: -1.07
+    Q3 2026: -1.02
+    Q4 2026: -1.12
+    Q1 2027: -1.12
+    Q2 2027: -1.13
   annual_forecast:
     2021 Yearly: -19.53
     2022 Yearly: -18.79
     2023 Yearly: -5.53
     2024 Yearly: -2.56
     2025 Yearly: -3.68
-    2026 Yearly: -3.75
-    2027 Yearly: -4.48
-    2028 Yearly: -4.86
-    2029 Yearly: -2.84
+    2026 Yearly: -3.9
+    2027 Yearly: -4.63
+    2028 Yearly: -5.24
+    2029 Yearly: -3.09

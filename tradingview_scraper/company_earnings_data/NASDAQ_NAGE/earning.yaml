@@ -1,7 +1,7 @@
 currency: USD
 company_name: Niagen Bioscience, Inc.
 sector: Health Technology
-market_cap_billions: 0.27637
+market_cap_billions: 0.23973
 revenue:
   quarterly:
     Q3 2024: 25.58
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 33.99
     Q4 2025: 33.84
     Q1 2026: 31.47
+    Q2 2026: 29.79
   annual:
     2021 Yearly: 67.45
     2022 Yearly: 72.05
@@ -26,18 +27,19 @@ revenue:
     Q4 2025: 31.7
     Q1 2026: 31.03
     Q2 2026: 30.53
-    Q3 2026: 36.81
-    Q4 2026: 41.77
-    Q1 2027: 37.5
+    Q3 2026: 34.79
+    Q4 2026: 39.09
+    Q1 2027: 36.41
+    Q2 2027: 36.25
   annual_forecast:
     2021 Yearly: 68.33
     2022 Yearly: 72.34
     2023 Yearly: 83.2
     2024 Yearly: 97.19
     2025 Yearly: 127.29
-    2026 Yearly: 140.59
-    2027 Yearly: 162.35
-    2028 Yearly: 190.59
+    2026 Yearly: 135.39
+    2027 Yearly: 155.08
+    2028 Yearly: 181.54
     2029 Yearly: 209.7
 eps:
   quarterly:
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.05
     Q4 2025: 0.05
     Q1 2026: 0.07
+    Q2 2026: 0.01
   annual:
     2021 Yearly: -0.4
     2022 Yearly: -0.24
@@ -63,16 +66,17 @@ eps:
     Q4 2025: 0.02
     Q1 2026: 0.07
     Q2 2026: 0.01
-    Q3 2026: 0.05
-    Q4 2026: 0.07
-    Q1 2027: 0.05
+    Q3 2026: 0.02
+    Q4 2026: 0.05
+    Q1 2027: 0.03
+    Q2 2027: 0.02
   annual_forecast:
     2021 Yearly: -0.43
     2022 Yearly: -0.25
     2023 Yearly: -0.09
     2024 Yearly: 0.04
     2025 Yearly: 0.18
-    2026 Yearly: 0.2
-    2027 Yearly: 0.27
-    2028 Yearly: 0.34
+    2026 Yearly: 0.15
+    2027 Yearly: 0.16
+    2028 Yearly: 0.27
     2029 Yearly: 0.34

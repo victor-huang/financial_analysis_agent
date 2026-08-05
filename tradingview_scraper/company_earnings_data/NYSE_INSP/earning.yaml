@@ -1,7 +1,7 @@
 currency: USD
 company_name: Inspire Medical Systems, Inc.
 sector: Health Technology
-market_cap_billions: 1.85
+market_cap_billions: 1.74
 revenue:
   quarterly:
     Q3 2024: 203.19
@@ -11,7 +11,7 @@ revenue:
     Q3 2025: 224.5
     Q4 2025: 269.08
     Q1 2026: 204.58
-    Q2 2026: 200.6
+    Q2 2026: 200.58
   annual:
     2021 Yearly: 233.39
     2022 Yearly: 407.86
@@ -66,7 +66,7 @@ eps:
     Q4 2025: 0.74
     Q1 2026: -0.28
     Q2 2026: -0.24
-    Q3 2026: 0.03
+    Q3 2026: 0.08
     Q4 2026: 0.86
     Q1 2027: 0.12
     Q2 2027: 0.2
@@ -76,7 +76,7 @@ eps:
     2023 Yearly: -1.29
     2024 Yearly: 1.34
     2025 Yearly: 1.68
-    2026 Yearly: 1.25
+    2026 Yearly: 1.19
     2027 Yearly: 1.47
     2028 Yearly: 1.95
     2029 Yearly: 2.44

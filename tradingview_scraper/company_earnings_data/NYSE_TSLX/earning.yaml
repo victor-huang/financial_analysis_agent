@@ -1,7 +1,7 @@
 currency: USD
 company_name: Sixth Street Specialty Lending, Inc.
 sector: Miscellaneous
-market_cap_billions: 1.71
+market_cap_billions: 1.69
 revenue:
   quarterly:
     Q3 2024: 119.22
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 109.44
     Q4 2025: 108.2
     Q1 2026: 93.4
+    Q2 2026: 97.8
   annual:
     2021 Yearly: 278.59
     2022 Yearly: 309.31
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 96.67
     Q4 2026: 97.64
     Q1 2027: 99.2
+    Q2 2027: 100.19
   annual_forecast:
     2021 Yearly: 269.66
     2022 Yearly: 303.65
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.53
     Q4 2025: 0.52
     Q1 2026: 0.42
+    Q2 2026: 0.43
   annual:
     2021 Yearly: 1.97
     2022 Yearly: 2.01
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.43
     Q4 2026: 0.44
     Q1 2027: 0.45
+    Q2 2027: 0.45
   annual_forecast:
     2021 Yearly: 1.95
     2022 Yearly: 1.96

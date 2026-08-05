@@ -1,7 +1,7 @@
 currency: USD
 company_name: Gilead Sciences, Inc.
 sector: Health Technology
-market_cap_billions: 167.92
+market_cap_billions: 161.74
 revenue:
   quarterly:
     Q3 2024: 7540.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 7770.0
     Q4 2025: 7920.0
     Q1 2026: 6960.0
+    Q2 2026: 7800.0
   annual:
     2021 Yearly: 27300.0
     2022 Yearly: 27280.0
@@ -26,19 +27,20 @@ revenue:
     Q4 2025: 7690.0
     Q1 2026: 6910.0
     Q2 2026: 7400.0
-    Q3 2026: 7780.0
-    Q4 2026: 8210.0
-    Q1 2027: 7270.0
+    Q3 2026: 7800.0
+    Q4 2026: 8130.000000000001
+    Q1 2027: 7410.0
+    Q2 2027: 7930.0
   annual_forecast:
     2021 Yearly: 26670.0
     2022 Yearly: 26530.0
     2023 Yearly: 27100.0
     2024 Yearly: 28320.0
     2025 Yearly: 29230.0
-    2026 Yearly: 30430.0
-    2027 Yearly: 32360.0
-    2028 Yearly: 34220.0
-    2029 Yearly: 36680.0
+    2026 Yearly: 30670.0
+    2027 Yearly: 32710.0
+    2028 Yearly: 34470.0
+    2029 Yearly: 37170.0
 eps:
   quarterly:
     Q3 2024: 2.02
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 2.47
     Q4 2025: 1.86
     Q1 2026: 2.03
+    Q2 2026: -6.75
   annual:
     2021 Yearly: 7.28
     2022 Yearly: 7.26
@@ -62,17 +65,18 @@ eps:
     Q3 2025: 2.13
     Q4 2025: 1.81
     Q1 2026: 1.91
-    Q2 2026: -7.26
-    Q3 2026: 2.2
-    Q4 2026: 2.25
-    Q1 2027: 2.12
+    Q2 2026: -7.25
+    Q3 2026: 2.11
+    Q4 2026: 2.15
+    Q1 2027: 2.3
+    Q2 2027: 2.43
   annual_forecast:
     2021 Yearly: 8.2
     2022 Yearly: 7.1
     2023 Yearly: 6.75
     2024 Yearly: 4.41
     2025 Yearly: 8.11
-    2026 Yearly: -0.75
-    2027 Yearly: 9.65
-    2028 Yearly: 10.57
-    2029 Yearly: 11.9
+    2026 Yearly: -0.52
+    2027 Yearly: 9.9
+    2028 Yearly: 10.72
+    2029 Yearly: 12.19

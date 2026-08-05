@@ -1,7 +1,7 @@
 currency: USD
 company_name: Alphatec Holdings, Inc.
 sector: Health Technology
-market_cap_billions: 1.59
+market_cap_billions: 1.45
 revenue:
   quarterly:
     Q3 2024: 150.72
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 196.5
     Q4 2025: 212.93
     Q1 2026: 192.11
+    Q2 2026: 213.51
   annual:
     2021 Yearly: 243.21
     2022 Yearly: 350.87
@@ -26,19 +27,20 @@ revenue:
     Q4 2025: 211.54
     Q1 2026: 197.51
     Q2 2026: 211.26
-    Q3 2026: 227.67
-    Q4 2026: 251.35
-    Q1 2027: 229.63
+    Q3 2026: 225.51
+    Q4 2026: 251.59
+    Q1 2027: 227.24
+    Q2 2027: 247.66
   annual_forecast:
     2021 Yearly: 238.63
     2022 Yearly: 346.45
     2023 Yearly: 475.85
     2024 Yearly: 607.33
     2025 Yearly: 762.95
-    2026 Yearly: 882.38
-    2027 Yearly: 1030.0
-    2028 Yearly: 1180.0
-    2029 Yearly: 1380.0
+    2026 Yearly: 881.97
+    2027 Yearly: 1020.0
+    2028 Yearly: 1160.0
+    2029 Yearly: 1310.0
 eps:
   quarterly:
     Q3 2024: -0.11
@@ -48,6 +50,7 @@ eps:
     Q3 2025: 0.03
     Q4 2025: 0.06
     Q1 2026: 0.0
+    Q2 2026: 0.07
   annual:
     2021 Yearly: -1.5
     2022 Yearly: -0.62
@@ -65,7 +68,8 @@ eps:
     Q2 2026: 0.07
     Q3 2026: 0.09
     Q4 2026: 0.15
-    Q1 2027: 0.07
+    Q1 2027: 0.08
+    Q2 2027: 0.13
   annual_forecast:
     2021 Yearly: -1.41
     2022 Yearly: -0.67
@@ -73,6 +77,6 @@ eps:
     2024 Yearly: -0.44
     2025 Yearly: 0.03
     2026 Yearly: 0.32
-    2027 Yearly: 0.58
+    2027 Yearly: 0.59
     2028 Yearly: 0.85
-    2029 Yearly: 1.2
+    2029 Yearly: 1.03

@@ -1,36 +1,40 @@
 currency: USD
 company_name: Suja Life, Inc.
 sector: Consumer Non-Durables
-market_cap_billions: 0.44033
+market_cap_billions: 0.25686000000000003
 revenue:
   quarterly:
     Q1 2026: 107.06
+    Q2 2026: 83.86
   annual:
     2025 Yearly: 326.61
   quarterly_forecast:
     Q1 2026: 105.98
     Q2 2026: 83.26
-    Q3 2026: 84.11
-    Q4 2026: 95.3
-    Q1 2027: 111.66
+    Q3 2026: 76.4
+    Q4 2026: 99.51
+    Q1 2027: 112.01
+    Q2 2027: 95.17
   annual_forecast:
-    2026 Yearly: 369.56
-    2027 Yearly: 419.95
-    2028 Yearly: 477.44
-    2029 Yearly: 539.0
+    2026 Yearly: 366.68
+    2027 Yearly: 414.95
+    2028 Yearly: 469.1
+    2029 Yearly: 513.0
 eps:
   quarterly:
     Q1 2026: 0.2
+    Q2 2026: -0.14
   annual:
     2025 Yearly: -0.6
   quarterly_forecast:
     Q1 2026: 0.2
     Q2 2026: -0.05
-    Q3 2026: -0.11
-    Q4 2026: 0.06
-    Q1 2027: 0.1
+    Q3 2026: -0.16
+    Q4 2026: 0.09
+    Q1 2027: 0.14
+    Q2 2027: 0.01
   annual_forecast:
-    2026 Yearly: 0.09
-    2027 Yearly: 0.46
-    2028 Yearly: 0.86
-    2029 Yearly: 1.14
+    2026 Yearly: 0.13
+    2027 Yearly: 0.47
+    2028 Yearly: 0.92
+    2029 Yearly: 0.88

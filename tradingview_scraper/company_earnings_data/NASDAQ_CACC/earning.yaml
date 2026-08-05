@@ -1,7 +1,7 @@
 currency: USD
 company_name: Credit Acceptance Corporation
 sector: Finance
-market_cap_billions: 6.15
+market_cap_billions: 6.32
 revenue:
   quarterly:
     Q3 2024: 550.3
@@ -27,17 +27,17 @@ revenue:
     Q4 2025: 585.37
     Q1 2026: 580.77
     Q2 2026: 588.07
-    Q3 2026: 594.3
-    Q4 2026: 600.07
-    Q1 2027: 606.97
-    Q2 2027: 620.17
+    Q3 2026: 594.57
+    Q4 2026: 600.6
+    Q1 2027: 608.23
+    Q2 2027: 620.83
   annual_forecast:
     2022 Yearly: 1850.0
     2023 Yearly: 1830.0
     2024 Yearly: 1900.0
     2025 Yearly: 2160.0
     2026 Yearly: 2320.0
-    2027 Yearly: 2360.0
+    2027 Yearly: 2140.0
 eps:
   quarterly:
     Q4 2024: 10.17
@@ -62,16 +62,16 @@ eps:
     Q4 2025: 9.85
     Q1 2026: 10.73
     Q2 2026: 12.2
-    Q3 2026: 12.25
-    Q4 2026: 12.6
-    Q1 2027: 12.71
-    Q2 2027: 13.45
+    Q3 2026: 12.36
+    Q4 2026: 12.55
+    Q1 2027: 12.78
+    Q2 2027: 13.79
   annual_forecast:
     2021 Yearly: 57.53
     2022 Yearly: 36.98
     2023 Yearly: 20.14
     2024 Yearly: 32.3
     2025 Yearly: 39.57
-    2026 Yearly: 48.49
-    2027 Yearly: 56.76
+    2026 Yearly: 48.77
+    2027 Yearly: 57.23
     2028 Yearly: 72.08

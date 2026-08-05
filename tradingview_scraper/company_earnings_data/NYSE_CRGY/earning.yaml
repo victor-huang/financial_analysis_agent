@@ -1,7 +1,7 @@
 currency: USD
 company_name: Crescent Energy Company
 sector: Energy Minerals
-market_cap_billions: 3.73
+market_cap_billions: 3.64
 revenue:
   quarterly:
     Q3 2024: 744.87
@@ -28,18 +28,18 @@ revenue:
     Q1 2026: 1150.0
     Q2 2026: 1260.0
     Q3 2026: 1170.0
-    Q4 2026: 1190.0
-    Q1 2027: 1170.0
-    Q2 2027: 1130.0
+    Q4 2026: 1180.0
+    Q1 2027: 1160.0
+    Q2 2027: 1120.0
   annual_forecast:
     2022 Yearly: 2500.0
     2023 Yearly: 2340.0
     2024 Yearly: 2940.0
     2025 Yearly: 3600.0
-    2026 Yearly: 4750.0
-    2027 Yearly: 4580.0
-    2028 Yearly: 4560.0
-    2029 Yearly: 4340.0
+    2026 Yearly: 4780.0
+    2027 Yearly: 4550.0
+    2028 Yearly: 4570.0
+    2029 Yearly: 4410.0
 eps:
   quarterly:
     Q3 2024: 0.53
@@ -67,14 +67,14 @@ eps:
     Q2 2026: 0.59
     Q3 2026: 0.58
     Q4 2026: 0.58
-    Q1 2027: 0.57
-    Q2 2027: 0.49
+    Q1 2027: 0.58
+    Q2 2027: 0.5
   annual_forecast:
     2022 Yearly: 2.33
     2023 Yearly: 1.0
     2024 Yearly: 1.64
     2025 Yearly: 1.62
-    2026 Yearly: 2.37
-    2027 Yearly: 2.12
-    2028 Yearly: 2.12
-    2029 Yearly: 1.73
+    2026 Yearly: 2.34
+    2027 Yearly: 2.15
+    2028 Yearly: 2.13
+    2029 Yearly: 1.81
