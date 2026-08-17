@@ -1,0 +1,44 @@
+currency: USD
+company_name: Capstone Energy Plus, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 0.2519
+revenue:
+  quarterly:
+    Q1 2025: 27.9
+    Q2 2025: 28.4
+    Q3 2025: 26.76
+    Q4 2025: 22.99
+  annual:
+    2025 Yearly: 106.0
+  quarterly_forecast:
+    Q2 2025: 28.4
+    Q3 2025: 23.3
+    Q4 2025: 24.5
+    Q1 2026: 22.85
+    Q2 2026: 26.27
+    Q3 2026: 32.59
+    Q4 2026: 35.38
+  annual_forecast:
+    2025 Yearly: 107.5
+    2026 Yearly: 117.14
+    2027 Yearly: 159.32
+eps:
+  quarterly:
+    Q1 2025: -0.04
+    Q2 2025: 0.04
+    Q3 2025: -1.79
+    Q4 2025: -0.47
+  annual:
+    2025 Yearly: -3.21
+  quarterly_forecast:
+    Q2 2025: 0.04
+    Q3 2025: -0.02
+    Q4 2025: -0.02
+    Q1 2026: 0.0
+    Q2 2026: 0.02
+    Q3 2026: 0.05
+    Q4 2026: 0.09
+  annual_forecast:
+    2025 Yearly: 0.03
+    2026 Yearly: 0.16
+    2027 Yearly: 0.47

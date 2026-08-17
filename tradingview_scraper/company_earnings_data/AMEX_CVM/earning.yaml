@@ -1,0 +1,43 @@
+currency: USD
+company_name: Cel-Sci Corporation
+sector: Health Technology
+market_cap_billions: 0.02587
+revenue:
+  quarterly: {}
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+  quarterly_forecast: {}
+  annual_forecast:
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 5.97
+eps:
+  quarterly:
+    Q3 2024: -4.2
+    Q1 2025: -3.3
+    Q2 2025: -2.4
+    Q3 2025: -1.36
+    Q1 2026: -0.68
+    Q2 2026: -0.67
+  annual:
+    2021 Yearly: -27.9
+    2022 Yearly: -26.1
+    2023 Yearly: -21.9
+    2024 Yearly: -15.3
+  quarterly_forecast:
+    Q1 2025: -3.6
+    Q2 2025: -3.0
+  annual_forecast:
+    2021 Yearly: -23.7
+    2022 Yearly: -19.8
+    2023 Yearly: -21.3
+    2024 Yearly: -19.8
+    2025 Yearly: -4.51
+    2026 Yearly: -3.07
+    2027 Yearly: -6.38

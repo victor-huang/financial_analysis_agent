@@ -1,0 +1,30 @@
+currency: USD
+company_name: Swarmer, Inc
+sector: Technology Services
+market_cap_billions: 0.43061
+revenue:
+  quarterly: {}
+  annual: {}
+  quarterly_forecast:
+    Q1 2026: 0.0
+    Q2 2026: 1.0
+    Q3 2026: 3.0
+    Q4 2026: 5.0
+    Q1 2027: 5.5
+  annual_forecast:
+    2028 Yearly: 9.02
+eps:
+  quarterly:
+    Q1 2026: -0.28
+  annual:
+    2025 Yearly: -10.97
+  quarterly_forecast:
+    Q1 2026: -0.11
+    Q2 2026: -0.12
+    Q3 2026: -0.05
+    Q4 2026: 0.02
+    Q1 2027: 0.04
+  annual_forecast:
+    2026 Yearly: -0.43
+    2027 Yearly: 0.27
+    2028 Yearly: 0.7

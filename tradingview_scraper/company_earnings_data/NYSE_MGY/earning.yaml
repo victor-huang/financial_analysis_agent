@@ -1,0 +1,78 @@
+currency: USD
+company_name: Magnolia Oil & Gas Corporation
+sector: Energy Minerals
+market_cap_billions: 5.86
+revenue:
+  quarterly:
+    Q4 2024: 326.61
+    Q1 2025: 350.3
+    Q2 2025: 318.98
+    Q3 2025: 324.94
+    Q4 2025: 317.63
+    Q1 2026: 358.51
+    Q2 2026: 478.81
+  annual:
+    2021 Yearly: 1080.0
+    2022 Yearly: 1690.0
+    2023 Yearly: 1230.0
+    2024 Yearly: 1320.0
+    2025 Yearly: 1310.0
+  quarterly_forecast:
+    Q4 2024: 326.11
+    Q1 2025: 343.41
+    Q2 2025: 313.52
+    Q3 2025: 322.94
+    Q4 2025: 313.64
+    Q1 2026: 349.89
+    Q2 2026: 458.1
+    Q3 2026: 388.65
+    Q4 2026: 598.69
+    Q1 2027: 591.66
+    Q2 2027: 627.94
+  annual_forecast:
+    2021 Yearly: 1070.0
+    2022 Yearly: 1710.0
+    2023 Yearly: 1230.0
+    2024 Yearly: 1320.0
+    2025 Yearly: 1310.0
+    2026 Yearly: 1810.0
+    2027 Yearly: 2350.0
+    2028 Yearly: 2470.0
+    2029 Yearly: 2790.0
+eps:
+  quarterly:
+    Q4 2024: 0.47
+    Q1 2025: 0.53
+    Q2 2025: 0.41
+    Q3 2025: 0.4
+    Q4 2025: 0.37
+    Q1 2026: 0.54
+    Q2 2026: 0.97
+  annual:
+    2021 Yearly: 2.42
+    2022 Yearly: 4.38
+    2023 Yearly: 2.04
+    2024 Yearly: 1.96
+    2025 Yearly: 1.76
+  quarterly_forecast:
+    Q4 2024: 0.46
+    Q1 2025: 0.53
+    Q2 2025: 0.4
+    Q3 2025: 0.42
+    Q4 2025: 0.36
+    Q1 2026: 0.52
+    Q2 2026: 0.93
+    Q3 2026: 0.54
+    Q4 2026: 0.76
+    Q1 2027: 0.76
+    Q2 2027: 0.75
+  annual_forecast:
+    2021 Yearly: 2.33
+    2022 Yearly: 4.34
+    2023 Yearly: 2.11
+    2024 Yearly: 1.98
+    2025 Yearly: 1.74
+    2026 Yearly: 2.8
+    2027 Yearly: 2.99
+    2028 Yearly: 3.23
+    2029 Yearly: 3.4

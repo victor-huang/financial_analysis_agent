@@ -1,0 +1,61 @@
+currency: USD
+company_name: NextNav Inc.
+sector: Technology Services
+market_cap_billions: 2.43
+revenue:
+  quarterly:
+    Q3 2024: 1.61
+    Q4 2024: 1.9
+    Q1 2025: 1.54
+    Q2 2025: 1.2
+  annual:
+    2022 Yearly: 3.93
+    2023 Yearly: 3.86
+    2024 Yearly: 5.67
+    2025 Yearly: 4.57
+  quarterly_forecast:
+    Q1 2025: 1.15
+    Q2 2026: 1.73
+  annual_forecast:
+    2021 Yearly: 1.85
+    2022 Yearly: 5.15
+    2023 Yearly: 3.85
+    2024 Yearly: 5.48
+    2025 Yearly: 4.49
+    2026 Yearly: 3.79
+    2027 Yearly: 3.2
+eps:
+  quarterly:
+    Q3 2024: -0.11
+    Q4 2024: -0.24
+    Q1 2025: -0.45
+    Q2 2025: -0.48
+    Q3 2025: -0.12
+    Q4 2025: -0.37
+    Q1 2026: -0.12
+    Q2 2026: -0.24
+  annual:
+    2021 Yearly: -6.73
+    2022 Yearly: -0.4
+    2023 Yearly: -0.66
+    2024 Yearly: -0.84
+    2025 Yearly: -1.42
+  quarterly_forecast:
+    Q3 2024: -0.15
+    Q4 2024: -0.14
+    Q1 2025: -0.14
+    Q2 2025: -0.14
+    Q3 2025: -0.16
+    Q4 2025: -0.15
+    Q1 2026: -0.14
+    Q2 2026: -0.15
+    Q3 2026: -0.13
+    Q4 2026: -0.13
+  annual_forecast:
+    2021 Yearly: -0.77
+    2022 Yearly: -0.44
+    2023 Yearly: -0.64
+    2024 Yearly: -0.74
+    2025 Yearly: -1.0
+    2026 Yearly: -0.47
+    2027 Yearly: -0.53

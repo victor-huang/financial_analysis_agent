@@ -1,0 +1,74 @@
+currency: USD
+company_name: Mercer International Inc.
+sector: Process Industries
+market_cap_billions: 0.045340000000000005
+revenue:
+  quarterly:
+    Q3 2024: 502.14
+    Q4 2024: 488.4
+    Q1 2025: 506.97
+    Q2 2025: 453.52
+    Q3 2025: 458.07
+    Q4 2025: 449.5
+    Q1 2026: 489.3
+  annual:
+    2021 Yearly: 1800.0
+    2022 Yearly: 2280.0
+    2023 Yearly: 1990.0
+    2024 Yearly: 2040.0
+    2025 Yearly: 1870.0
+  quarterly_forecast:
+    Q4 2024: 485.84
+    Q1 2025: 497.0
+    Q2 2025: 505.47
+    Q3 2025: 476.68
+    Q4 2025: 459.74
+    Q1 2026: 456.5
+    Q2 2026: 493.0
+    Q3 2026: 476.0
+    Q4 2026: 480.5
+  annual_forecast:
+    2022 Yearly: 1790.0
+    2023 Yearly: 2240.0
+    2024 Yearly: 2029.9999999999998
+    2025 Yearly: 2060.0
+    2026 Yearly: 1880.0
+    2027 Yearly: 1980.0
+    2028 Yearly: 2200.0
+eps:
+  quarterly:
+    Q3 2024: -0.26
+    Q4 2024: 0.25
+    Q1 2025: -0.33
+    Q2 2025: -1.29
+    Q3 2025: -1.21
+    Q4 2025: -4.61
+    Q1 2026: -0.78
+  annual:
+    2021 Yearly: 2.58
+    2022 Yearly: 3.71
+    2023 Yearly: -3.65
+    2024 Yearly: -1.27
+    2025 Yearly: -7.44
+  quarterly_forecast:
+    Q3 2024: -0.29
+    Q4 2024: 0.1
+    Q1 2025: -0.18
+    Q2 2025: -0.96
+    Q3 2025: -0.94
+    Q4 2025: -0.87
+    Q1 2026: -0.78
+    Q2 2026: -0.95
+    Q3 2026: -0.95
+    Q4 2026: -0.81
+    Q1 2027: -0.57
+  annual_forecast:
+    2021 Yearly: 2.5
+    2022 Yearly: 3.89
+    2023 Yearly: -2.87
+    2024 Yearly: -1.32
+    2025 Yearly: -3.74
+    2026 Yearly: -3.39
+    2027 Yearly: -1.18
+    2028 Yearly: -0.98
+    2029 Yearly: 0.55

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Warner Music Group Corp.
+sector: Commercial Services
+market_cap_billions: 13.79
+revenue:
+  quarterly:
+    Q1 2025: 1670.0
+    Q2 2025: 1480.0
+    Q3 2025: 1690.0
+    Q4 2025: 1870.0
+    Q1 2026: 1840.0
+    Q2 2026: 1730.0
+    Q3 2026: 1860.0
+  annual:
+    2021 Yearly: 5300.0
+    2022 Yearly: 5920.0
+    2023 Yearly: 6040.0
+    2024 Yearly: 6430.0
+    2025 Yearly: 6710.0
+  quarterly_forecast:
+    Q1 2025: 1660.0
+    Q2 2025: 1520.0
+    Q3 2025: 1590.0
+    Q4 2025: 1680.0
+    Q1 2026: 1770.0
+    Q2 2026: 1610.0
+    Q3 2026: 1810.0
+    Q4 2026: 1910.0
+    Q1 2027: 1950.0
+    Q2 2027: 1830.0
+    Q3 2027: 1980.0
+  annual_forecast:
+    2021 Yearly: 5280.0
+    2022 Yearly: 5830.0
+    2023 Yearly: 6030.0
+    2024 Yearly: 6390.0
+    2025 Yearly: 6530.0
+    2026 Yearly: 7330.0
+    2027 Yearly: 7770.0
+    2028 Yearly: 8260.0
+    2029 Yearly: 9010.0
+eps:
+  quarterly:
+    Q1 2025: 0.52
+    Q2 2025: 0.12
+    Q3 2025: -0.03
+    Q4 2025: 0.21
+    Q1 2026: 0.33
+    Q2 2026: 0.34
+    Q3 2026: 0.38
+  annual:
+    2021 Yearly: 0.78
+    2022 Yearly: 1.24
+    2023 Yearly: 0.82
+    2024 Yearly: 1.37
+    2025 Yearly: 0.69
+  quarterly_forecast:
+    Q1 2025: 0.35
+    Q2 2025: 0.28
+    Q3 2025: 0.29
+    Q4 2025: 0.37
+    Q1 2026: 0.36
+    Q2 2026: 0.27
+    Q3 2026: 0.34
+    Q4 2026: 0.37
+    Q1 2027: 0.47
+    Q2 2027: 0.37
+    Q3 2027: 0.45
+  annual_forecast:
+    2021 Yearly: 0.72
+    2022 Yearly: 0.92
+    2023 Yearly: 0.86
+    2024 Yearly: 1.18
+    2025 Yearly: 1.03
+    2026 Yearly: 1.48
+    2027 Yearly: 1.81
+    2028 Yearly: 2.08
+    2029 Yearly: 1.69

@@ -1,0 +1,82 @@
+currency: USD
+company_name: Rocket Lab Corporation
+sector: Electronic Technology
+market_cap_billions: 47.88
+revenue:
+  quarterly:
+    Q3 2024: 104.81
+    Q4 2024: 132.39
+    Q1 2025: 122.57
+    Q2 2025: 144.5
+    Q3 2025: 155.0
+    Q4 2025: 179.65
+    Q1 2026: 200.35
+    Q2 2026: 234.07
+  annual:
+    2021 Yearly: 62.24
+    2022 Yearly: 211.0
+    2023 Yearly: 244.59
+    2024 Yearly: 436.21
+    2025 Yearly: 601.8
+  quarterly_forecast:
+    Q3 2024: 102.28
+    Q4 2024: 130.57
+    Q1 2025: 121.4
+    Q2 2025: 135.41
+    Q3 2025: 151.8
+    Q4 2025: 176.83
+    Q1 2026: 189.65
+    Q2 2026: 231.62
+    Q3 2026: 239.21
+    Q4 2026: 250.86
+    Q1 2027: 275.88
+    Q2 2027: 334.53
+  annual_forecast:
+    2021 Yearly: 59.33
+    2022 Yearly: 206.68
+    2023 Yearly: 247.89
+    2024 Yearly: 434.35
+    2025 Yearly: 599.96
+    2026 Yearly: 919.12
+    2027 Yearly: 1330.0
+    2028 Yearly: 1800.0
+    2029 Yearly: 2120.0
+eps:
+  quarterly:
+    Q3 2024: -0.1
+    Q4 2024: -0.1
+    Q1 2025: -0.12
+    Q2 2025: -0.13
+    Q3 2025: -0.03
+    Q4 2025: -0.09
+    Q1 2026: -0.07
+    Q2 2026: -0.08
+  annual:
+    2021 Yearly: -0.24
+    2022 Yearly: -0.29
+    2023 Yearly: -0.24
+    2024 Yearly: -0.38
+    2025 Yearly: -0.37
+  quarterly_forecast:
+    Q3 2024: -0.09
+    Q4 2024: -0.09
+    Q1 2025: -0.11
+    Q2 2025: -0.1
+    Q3 2025: -0.1
+    Q4 2025: -0.1
+    Q1 2026: -0.07
+    Q2 2026: -0.06
+    Q3 2026: -0.05
+    Q4 2026: -0.03
+    Q1 2027: -0.02
+    Q2 2027: -0.01
+  annual_forecast:
+    2021 Yearly: -0.3
+    2022 Yearly: -0.24
+    2023 Yearly: -0.24
+    2024 Yearly: -0.31
+    2025 Yearly: -0.38
+    2026 Yearly: -0.21
+    2027 Yearly: 0.0
+    2028 Yearly: 0.31
+    2029 Yearly: 0.57

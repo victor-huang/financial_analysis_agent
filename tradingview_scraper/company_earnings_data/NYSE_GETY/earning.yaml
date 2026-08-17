@@ -1,0 +1,76 @@
+currency: USD
+company_name: Getty Images Holdings, Inc.
+sector: Technology Services
+market_cap_billions: 0.18597999999999998
+revenue:
+  quarterly:
+    Q3 2024: 240.54
+    Q4 2024: 247.32
+    Q1 2025: 224.08
+    Q2 2025: 234.88
+    Q3 2025: 240.04
+    Q4 2025: 282.29
+    Q1 2026: 226.57
+    Q2 2026: 229.1
+  annual:
+    2022 Yearly: 926.24
+    2023 Yearly: 916.6
+    2024 Yearly: 939.29
+    2025 Yearly: 981.29
+  quarterly_forecast:
+    Q3 2024: 237.68
+    Q4 2024: 246.31
+    Q1 2025: 235.97
+    Q2 2025: 234.77
+    Q3 2025: 239.56
+    Q4 2025: 246.06
+    Q1 2026: 238.9
+    Q2 2026: 235.23
+    Q3 2026: 246.91
+    Q4 2026: 256.47
+    Q1 2027: 213.0
+    Q2 2027: 231.0
+  annual_forecast:
+    2022 Yearly: 936.53
+    2023 Yearly: 907.78
+    2024 Yearly: 938.3
+    2025 Yearly: 945.06
+    2026 Yearly: 962.15
+    2027 Yearly: 970.76
+    2028 Yearly: 1010.0
+eps:
+  quarterly:
+    Q3 2024: -0.01
+    Q4 2024: 0.06
+    Q1 2025: -0.14
+    Q2 2025: 0.05
+    Q3 2025: 0.08
+    Q4 2025: -0.22
+    Q1 2026: -0.01
+    Q2 2026: -0.21
+  annual:
+    2022 Yearly: -0.53
+    2023 Yearly: 0.05
+    2024 Yearly: 0.1
+    2025 Yearly: -0.5
+  quarterly_forecast:
+    Q3 2024: 0.05
+    Q4 2024: 0.05
+    Q1 2025: 0.06
+    Q2 2025: 0.02
+    Q3 2025: 0.05
+    Q4 2025: 0.03
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.01
+    Q4 2026: 0.02
+    Q1 2027: -0.05
+    Q2 2027: -0.03
+  annual_forecast:
+    2022 Yearly: -0.12
+    2023 Yearly: 0.07
+    2024 Yearly: 0.12
+    2025 Yearly: -0.19
+    2026 Yearly: 0.02
+    2027 Yearly: 0.05
+    2028 Yearly: 0.15

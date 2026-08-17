@@ -1,0 +1,70 @@
+currency: USD
+company_name: cbdMD, Inc.
+sector: Health Technology
+market_cap_billions: 0.00628
+revenue:
+  quarterly:
+    Q4 2024: 4.56
+    Q1 2025: 5.11
+    Q2 2025: 4.75
+    Q3 2025: 4.61
+    Q4 2025: 4.72
+    Q1 2026: 5.02
+    Q2 2026: 5.64
+  annual:
+    2021 Yearly: 44.48
+    2022 Yearly: 35.4
+    2023 Yearly: 24.16
+    2024 Yearly: 19.48
+    2025 Yearly: 19.19
+  quarterly_forecast:
+    Q4 2024: 4.81
+    Q1 2025: 5.19
+    Q2 2025: 5.14
+    Q3 2025: 5.3
+    Q4 2025: 4.7
+    Q1 2026: 4.86
+    Q2 2026: 5.29
+    Q3 2026: 5.69
+    Q4 2026: 5.81
+  annual_forecast:
+    2021 Yearly: 45.94
+    2022 Yearly: 40.8
+    2023 Yearly: 24.57
+    2024 Yearly: 19.73
+    2025 Yearly: 19.17
+    2026 Yearly: 22.15
+    2027 Yearly: 23.26
+eps:
+  quarterly:
+    Q4 2024: 0.0
+    Q1 2025: -1.76
+    Q2 2025: -1.9
+    Q3 2025: -0.21
+    Q4 2025: 2.78
+    Q1 2026: -0.04
+    Q2 2026: -0.08
+  annual:
+    2021 Yearly: -169.2
+    2022 Yearly: -446.4
+    2023 Yearly: -106.56
+    2024 Yearly: -14.32
+    2025 Yearly: -1.09
+  quarterly_forecast:
+    Q4 2024: -3.6
+    Q1 2025: -2.96
+    Q2 2025: -1.6
+    Q3 2025: -0.02
+    Q4 2025: -0.07
+    Q1 2026: -0.06
+    Q2 2026: -0.05
+    Q3 2026: -0.03
+    Q4 2026: -0.03
+  annual_forecast:
+    2021 Yearly: -133.2
+    2022 Yearly: -183.6
+    2023 Yearly: -51.04
+    2024 Yearly: -21.04
+    2025 Yearly: -1.08
+    2026 Yearly: -0.19
+    2027 Yearly: -0.07

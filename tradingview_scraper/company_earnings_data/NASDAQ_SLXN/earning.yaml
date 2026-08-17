@@ -1,0 +1,33 @@
+currency: USD
+company_name: Silexion Therapeutics Corp
+sector: Health Technology
+market_cap_billions: 0.0011
+revenue:
+  quarterly:
+    Q4 2025: 0.0
+  annual:
+    2025 Yearly: 0.0
+  quarterly_forecast: {}
+  annual_forecast: {}
+eps:
+  quarterly:
+    Q1 2025: -115.5
+    Q2 2025: -39.0
+    Q3 2025: -43.2
+    Q4 2025: -28.8
+    Q1 2026: -23.85
+    Q2 2026: -8.5
+  annual:
+    2026 Yearly: -89.6
+  quarterly_forecast:
+    Q2 2025: -147.0
+    Q3 2025: -33.0
+    Q4 2025: -31.5
+    Q1 2026: -34.0
+    Q2 2026: -11.2
+    Q3 2026: -12.9
+    Q4 2026: -21.2
+  annual_forecast:
+    2027 Yearly: -60.35
+    2028 Yearly: -53.1
+    2029 Yearly: -20.3

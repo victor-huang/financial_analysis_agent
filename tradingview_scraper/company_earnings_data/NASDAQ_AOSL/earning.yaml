@@ -1,0 +1,78 @@
+currency: USD
+company_name: Alpha and Omega Semiconductor Limited
+sector: Electronic Technology
+market_cap_billions: 1.09
+revenue:
+  quarterly:
+    Q1 2025: 181.89
+    Q2 2025: 173.16
+    Q3 2025: 164.6
+    Q4 2025: 176.5
+    Q1 2026: 182.5
+    Q2 2026: 162.26
+    Q3 2026: 163.8
+  annual:
+    2021 Yearly: 656.9
+    2022 Yearly: 777.55
+    2023 Yearly: 691.32
+    2024 Yearly: 657.27
+    2025 Yearly: 696.2
+  quarterly_forecast:
+    Q1 2025: 180.07
+    Q2 2025: 176.93
+    Q3 2025: 157.23
+    Q4 2025: 170.03
+    Q1 2026: 183.17
+    Q2 2026: 160.67
+    Q3 2026: 160.07
+    Q4 2026: 168.0
+    Q1 2027: 180.51
+    Q2 2027: 173.61
+    Q3 2027: 169.32
+  annual_forecast:
+    2021 Yearly: 649.6
+    2022 Yearly: 773.6
+    2023 Yearly: 685.6
+    2024 Yearly: 656.03
+    2025 Yearly: 689.7
+    2026 Yearly: 676.65
+    2027 Yearly: 706.65
+    2028 Yearly: 837.6
+    2029 Yearly: 838.03
+eps:
+  quarterly:
+    Q1 2025: 0.21
+    Q2 2025: 0.09
+    Q3 2025: -0.1
+    Q4 2025: 0.02
+    Q1 2026: 0.13
+    Q2 2026: -0.16
+    Q3 2026: -0.28
+  annual:
+    2021 Yearly: 2.93
+    2022 Yearly: 4.56
+    2023 Yearly: 1.86
+    2024 Yearly: 0.62
+    2025 Yearly: 0.22
+  quarterly_forecast:
+    Q1 2025: 0.22
+    Q2 2025: 0.08
+    Q3 2025: -0.17
+    Q4 2025: -0.01
+    Q1 2026: 0.09
+    Q2 2026: -0.08
+    Q3 2026: -0.36
+    Q4 2026: -0.24
+    Q1 2027: -0.09
+    Q2 2027: -0.16
+    Q3 2027: -0.2
+  annual_forecast:
+    2021 Yearly: 2.71
+    2022 Yearly: 4.46
+    2023 Yearly: 1.69
+    2024 Yearly: 0.58
+    2025 Yearly: 0.19
+    2026 Yearly: -0.73
+    2027 Yearly: -0.66
+    2028 Yearly: 1.54
+    2029 Yearly: 1.38

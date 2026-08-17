@@ -1,0 +1,82 @@
+currency: USD
+company_name: Aquestive Therapeutics, Inc.
+sector: Health Technology
+market_cap_billions: 0.55331
+revenue:
+  quarterly:
+    Q3 2024: 13.54
+    Q4 2024: 11.87
+    Q1 2025: 8.72
+    Q2 2025: 10.0
+    Q3 2025: 12.81
+    Q4 2025: 13.02
+    Q1 2026: 14.45
+    Q2 2026: 13.82
+  annual:
+    2021 Yearly: 50.83
+    2022 Yearly: 47.68
+    2023 Yearly: 50.58
+    2024 Yearly: 57.56
+    2025 Yearly: 44.55
+  quarterly_forecast:
+    Q3 2024: 12.69
+    Q4 2024: 13.08
+    Q1 2025: 12.23
+    Q2 2025: 11.32
+    Q3 2025: 12.97
+    Q4 2025: 13.29
+    Q1 2026: 10.9
+    Q2 2026: 11.42
+    Q3 2026: 12.05
+    Q4 2026: 12.65
+    Q1 2027: 13.23
+    Q2 2027: 14.43
+  annual_forecast:
+    2021 Yearly: 49.1
+    2022 Yearly: 47.4
+    2023 Yearly: 48.89
+    2024 Yearly: 58.81
+    2025 Yearly: 44.8
+    2026 Yearly: 50.58
+    2027 Yearly: 71.72
+    2028 Yearly: 100.71
+    2029 Yearly: 168.57
+eps:
+  quarterly:
+    Q3 2024: -0.13
+    Q4 2024: -0.19
+    Q1 2025: -0.24
+    Q2 2025: -0.14
+    Q3 2025: -0.14
+    Q4 2025: -0.26
+    Q1 2026: -0.07
+    Q2 2026: -0.18
+  annual:
+    2021 Yearly: -1.85
+    2022 Yearly: -1.12
+    2023 Yearly: -0.13
+    2024 Yearly: -0.51
+    2025 Yearly: -0.78
+  quarterly_forecast:
+    Q3 2024: -0.12
+    Q4 2024: -0.13
+    Q1 2025: -0.17
+    Q2 2025: -0.17
+    Q3 2025: -0.13
+    Q4 2025: -0.13
+    Q1 2026: -0.13
+    Q2 2026: -0.1
+    Q3 2026: -0.11
+    Q4 2026: -0.12
+    Q1 2027: -0.1
+    Q2 2027: -0.09
+  annual_forecast:
+    2021 Yearly: -1.52
+    2022 Yearly: -1.05
+    2023 Yearly: -0.13
+    2024 Yearly: -0.44
+    2025 Yearly: -0.62
+    2026 Yearly: -0.4
+    2027 Yearly: -0.37
+    2028 Yearly: -0.29
+    2029 Yearly: 0.0

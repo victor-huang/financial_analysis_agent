@@ -1,0 +1,61 @@
+currency: USD
+company_name: Inhibrx Biosciences, Inc.
+sector: Health Technology
+market_cap_billions: 1.44
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 1.3
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+  annual:
+    2026 Yearly: 1.3
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 9.6
+  annual_forecast:
+    2027 Yearly: 1.3
+    2028 Yearly: 0.0
+    2029 Yearly: 57.2
+eps:
+  quarterly:
+    Q3 2024: -2.84
+    Q4 2024: -3.09
+    Q1 2025: -2.8
+    Q2 2025: -1.85
+    Q3 2025: -2.28
+    Q4 2025: -2.11
+    Q1 2026: -2.15
+  annual:
+    2024 Yearly: 112.62
+    2025 Yearly: -9.04
+  quarterly_forecast:
+    Q3 2024: -3.38
+    Q4 2024: -2.88
+    Q1 2025: -2.83
+    Q2 2025: -2.76
+    Q3 2025: -1.72
+    Q4 2025: -2.08
+    Q1 2026: -1.68
+    Q2 2026: -2.28
+    Q3 2026: -2.43
+    Q4 2026: -2.5
+    Q1 2027: -1.83
+  annual_forecast:
+    2024 Yearly: 111.59
+    2025 Yearly: -9.01
+    2026 Yearly: -9.23
+    2027 Yearly: -6.53
+    2028 Yearly: -3.98
+    2029 Yearly: -2.73

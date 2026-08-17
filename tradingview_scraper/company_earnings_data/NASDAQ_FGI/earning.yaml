@@ -1,0 +1,74 @@
+currency: USD
+company_name: FGI Industries Ltd.
+sector: Producer Manufacturing
+market_cap_billions: 0.009130000000000001
+revenue:
+  quarterly:
+    Q3 2024: 36.1
+    Q4 2024: 35.59
+    Q1 2025: 33.21
+    Q2 2025: 31.0
+    Q3 2025: 35.85
+    Q4 2025: 30.5
+    Q1 2026: 30.5
+    Q2 2026: 33.85
+  annual:
+    2021 Yearly: 181.94
+    2022 Yearly: 161.72
+    2023 Yearly: 117.24
+    2024 Yearly: 131.82
+    2025 Yearly: 130.5
+  quarterly_forecast:
+    Q3 2024: 30.69
+    Q4 2024: 33.09
+    Q1 2025: 33.0
+    Q2 2025: 32.66
+    Q3 2025: 37.7
+    Q4 2025: 35.5
+    Q1 2026: 33.36
+    Q2 2026: 33.85
+    Q3 2026: 36.91
+    Q4 2026: 34.02
+  annual_forecast:
+    2021 Yearly: 175.91
+    2022 Yearly: 165.61
+    2023 Yearly: 116.7
+    2024 Yearly: 129.3
+    2025 Yearly: 135.58
+    2026 Yearly: 135.28
+    2027 Yearly: 142.68
+eps:
+  quarterly:
+    Q3 2024: -0.27
+    Q4 2024: -0.2
+    Q1 2025: -0.55
+    Q2 2025: -0.61
+    Q3 2025: 0.13
+    Q4 2025: -0.29
+    Q1 2026: -0.39
+    Q2 2026: 0.1
+  annual:
+    2021 Yearly: 4.49
+    2022 Yearly: 1.95
+    2023 Yearly: 0.35
+    2024 Yearly: -0.65
+    2025 Yearly: -1.33
+  quarterly_forecast:
+    Q3 2024: 0.15
+    Q4 2024: -0.07
+    Q1 2025: -0.28
+    Q2 2025: -0.03
+    Q3 2025: 0.08
+    Q4 2025: -0.3
+    Q1 2026: -0.36
+    Q2 2026: 0.1
+    Q3 2026: 0.09
+    Q4 2026: -0.05
+  annual_forecast:
+    2021 Yearly: 3.0
+    2022 Yearly: 1.95
+    2023 Yearly: 0.33
+    2024 Yearly: -0.45
+    2025 Yearly: -1.55
+    2026 Yearly: -0.31
+    2027 Yearly: 0.4

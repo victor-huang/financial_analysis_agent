@@ -1,0 +1,54 @@
+currency: USD
+company_name: CBL & Associates Properties, Inc.
+sector: Finance
+market_cap_billions: 1.68
+revenue:
+  quarterly:
+    Q3 2024: 119.99
+    Q4 2024: 125.79
+    Q1 2025: 142.0
+    Q2 2025: 136.45
+    Q3 2025: 134.79
+    Q4 2025: 150.39
+    Q1 2026: 146.0
+    Q2 2026: 142.01
+  annual:
+    2022 Yearly: 563.0
+    2023 Yearly: 513.96
+    2024 Yearly: 493.88
+    2025 Yearly: 558.99
+  quarterly_forecast:
+    Q1 2025: 128.0
+    Q2 2025: 128.0
+    Q3 2025: 134.0
+    Q4 2025: 134.0
+    Q1 2026: 140.0
+  annual_forecast:
+    2023 Yearly: 535.9
+    2024 Yearly: 511.0
+    2025 Yearly: 549.0
+    2026 Yearly: 586.0
+eps:
+  quarterly:
+    Q3 2024: 0.52
+    Q4 2024: 1.22
+    Q1 2025: 0.27
+    Q2 2025: 0.08
+    Q3 2025: 2.38
+    Q4 2025: 1.56
+  annual:
+    2022 Yearly: -3.2
+    2023 Yearly: 0.17
+    2024 Yearly: 1.87
+    2025 Yearly: 4.34
+  quarterly_forecast:
+    Q4 2024: 1.47
+    Q2 2025: 0.36
+    Q3 2025: 0.36
+    Q4 2025: 0.16
+    Q2 2026: 0.14
+  annual_forecast:
+    2023 Yearly: -0.56
+    2024 Yearly: 1.06
+    2025 Yearly: 0.92
+    2026 Yearly: 3.24

@@ -1,0 +1,80 @@
+currency: USD
+company_name: StepStone Group Inc.
+sector: Finance
+market_cap_billions: 6.07
+revenue:
+  quarterly:
+    Q2 2024: 208.79
+    Q3 2024: 243.91
+    Q4 2024: 295.86
+    Q1 2025: 237.47
+    Q2 2025: 282.34
+    Q3 2025: 494.5
+    Q4 2025: 305.84
+    Q1 2026: 300.6
+  annual:
+    2021 Yearly: 594.0
+    2022 Yearly: 641.97
+    2023 Yearly: 665.06
+    2024 Yearly: 969.72
+    2025 Yearly: 1320.0
+  quarterly_forecast:
+    Q2 2024: 210.53
+    Q3 2024: 225.96
+    Q4 2024: 229.37
+    Q1 2025: 238.45
+    Q2 2025: 272.32
+    Q3 2025: 395.05
+    Q4 2025: 292.11
+    Q1 2026: 309.32
+    Q2 2026: 335.63
+    Q3 2026: 609.92
+    Q4 2026: 369.69
+    Q1 2027: 365.22
+  annual_forecast:
+    2021 Yearly: 623.92
+    2022 Yearly: 617.14
+    2023 Yearly: 643.75
+    2024 Yearly: 901.03
+    2025 Yearly: 1190.0
+    2026 Yearly: 1540.0
+    2027 Yearly: 1780.0
+    2028 Yearly: 1930.0
+eps:
+  quarterly:
+    Q2 2024: 0.45
+    Q3 2024: 0.44
+    Q4 2024: 0.68
+    Q1 2025: 0.4
+    Q2 2025: 0.54
+    Q3 2025: 0.65
+    Q4 2025: 0.57
+    Q1 2026: 0.48
+  annual:
+    2021 Yearly: 1.61
+    2022 Yearly: 1.24
+    2023 Yearly: 1.21
+    2024 Yearly: 2.05
+    2025 Yearly: 2.16
+  quarterly_forecast:
+    Q2 2024: 0.46
+    Q3 2024: 0.45
+    Q4 2024: 0.44
+    Q1 2025: 0.43
+    Q2 2025: 0.49
+    Q3 2025: 0.6
+    Q4 2025: 0.52
+    Q1 2026: 0.5
+    Q2 2026: 0.58
+    Q3 2026: 0.73
+    Q4 2026: 0.63
+    Q1 2027: 0.63
+  annual_forecast:
+    2021 Yearly: 1.61
+    2022 Yearly: 1.28
+    2023 Yearly: 1.16
+    2024 Yearly: 1.81
+    2025 Yearly: 2.09
+    2026 Yearly: 2.46
+    2027 Yearly: 3.33
+    2028 Yearly: 3.69

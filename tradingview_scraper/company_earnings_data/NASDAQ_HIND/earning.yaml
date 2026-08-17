@@ -1,0 +1,39 @@
+currency: USD
+company_name: Vyome Holdings, Inc.
+sector: Health Technology
+market_cap_billions: 0.01579
+revenue:
+  quarterly:
+    Q3 2024: 2.29
+    Q4 2024: 1.8
+    Q1 2025: 1.11
+  annual:
+    2021 Yearly: 13.6
+    2022 Yearly: 11.24
+    2023 Yearly: 8.68
+    2024 Yearly: 8.01
+  quarterly_forecast: {}
+  annual_forecast:
+    2024 Yearly: 14.22
+    2028 Yearly: 11.24
+    2029 Yearly: 8.9
+eps:
+  quarterly:
+    Q3 2024: -302.35
+    Q1 2025: 78.08
+    Q2 2025: -0.07
+    Q3 2025: -3.12
+    Q4 2025: -0.47
+    Q1 2026: -0.15
+  annual: {}
+  quarterly_forecast:
+    Q3 2024: -580.0
+    Q4 2024: -406.0
+    Q3 2025: -0.11
+    Q4 2025: -0.47
+    Q1 2026: -0.15
+    Q2 2026: -0.19
+    Q3 2026: -0.21
+    Q4 2026: -0.24
+    Q1 2027: -0.25
+  annual_forecast: {}

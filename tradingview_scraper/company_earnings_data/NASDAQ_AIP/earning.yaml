@@ -1,0 +1,80 @@
+currency: USD
+company_name: Arteris, Inc.
+sector: Electronic Technology
+market_cap_billions: 1.46
+revenue:
+  quarterly:
+    Q3 2024: 14.7
+    Q4 2024: 15.49
+    Q1 2025: 16.53
+    Q2 2025: 16.5
+    Q3 2025: 17.41
+    Q4 2025: 20.14
+    Q1 2026: 22.94
+    Q2 2026: 24.13
+  annual:
+    2021 Yearly: 37.86
+    2022 Yearly: 50.38
+    2023 Yearly: 53.67
+    2024 Yearly: 57.72
+    2025 Yearly: 70.58
+  quarterly_forecast:
+    Q3 2024: 14.72
+    Q4 2024: 15.18
+    Q1 2025: 15.9
+    Q2 2025: 16.35
+    Q3 2025: 17.2
+    Q4 2025: 18.55
+    Q1 2026: 21.03
+    Q2 2026: 23.48
+    Q3 2026: 23.47
+    Q4 2026: 24.72
+    Q1 2027: 26.47
+    Q2 2027: 27.38
+  annual_forecast:
+    2021 Yearly: 37.03
+    2022 Yearly: 50.51
+    2023 Yearly: 53.03
+    2024 Yearly: 57.34
+    2025 Yearly: 68.97
+    2026 Yearly: 94.58
+    2027 Yearly: 115.17
+    2028 Yearly: 151.91
+eps:
+  quarterly:
+    Q3 2024: -0.08
+    Q4 2024: -0.1
+    Q1 2025: -0.09
+    Q2 2025: -0.11
+    Q3 2025: -0.09
+    Q4 2025: -0.05
+    Q1 2026: -0.03
+    Q2 2026: -0.1
+  annual:
+    2021 Yearly: -0.78
+    2022 Yearly: -0.45
+    2023 Yearly: -0.6
+    2024 Yearly: -0.43
+    2025 Yearly: -0.33
+  quarterly_forecast:
+    Q3 2024: -0.12
+    Q4 2024: -0.11
+    Q1 2025: -0.12
+    Q2 2025: -0.1
+    Q3 2025: -0.09
+    Q4 2025: -0.07
+    Q1 2026: -0.07
+    Q2 2026: -0.04
+    Q3 2026: -0.02
+    Q4 2026: -0.01
+    Q1 2027: 0.0
+    Q2 2027: 0.01
+  annual_forecast:
+    2021 Yearly: -0.86
+    2022 Yearly: -0.53
+    2023 Yearly: -0.61
+    2024 Yearly: -0.46
+    2025 Yearly: -0.35
+    2026 Yearly: -0.1
+    2027 Yearly: 0.13
+    2028 Yearly: 0.58

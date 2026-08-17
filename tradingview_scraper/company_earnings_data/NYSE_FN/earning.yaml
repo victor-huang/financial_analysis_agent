@@ -1,0 +1,78 @@
+currency: USD
+company_name: Fabrinet
+sector: Electronic Technology
+market_cap_billions: 20.43
+revenue:
+  quarterly:
+    Q1 2025: 804.23
+    Q2 2025: 833.61
+    Q3 2025: 871.8
+    Q4 2025: 909.69
+    Q1 2026: 978.13
+    Q2 2026: 1130.0
+    Q3 2026: 1210.0
+  annual:
+    2021 Yearly: 1880.0
+    2022 Yearly: 2260.0
+    2023 Yearly: 2650.0
+    2024 Yearly: 2880.0
+    2025 Yearly: 3420.0
+  quarterly_forecast:
+    Q1 2025: 771.3
+    Q2 2025: 813.54
+    Q3 2025: 855.66
+    Q4 2025: 883.06
+    Q1 2026: 934.42
+    Q2 2026: 1080.0
+    Q3 2026: 1190.0
+    Q4 2026: 1280.0
+    Q1 2027: 1320.0
+    Q2 2027: 1390.0
+    Q3 2027: 1440.0
+  annual_forecast:
+    2021 Yearly: 1860.0
+    2022 Yearly: 2260.0
+    2023 Yearly: 2630.0
+    2024 Yearly: 2860.0
+    2025 Yearly: 3390.0
+    2026 Yearly: 4600.0
+    2027 Yearly: 5690.0
+    2028 Yearly: 6900.0
+    2029 Yearly: 8420.0
+eps:
+  quarterly:
+    Q1 2025: 2.39
+    Q2 2025: 2.61
+    Q3 2025: 2.52
+    Q4 2025: 2.65
+    Q1 2026: 2.92
+    Q2 2026: 3.36
+    Q3 2026: 3.72
+  annual:
+    2021 Yearly: 4.67
+    2022 Yearly: 6.13
+    2023 Yearly: 7.67
+    2024 Yearly: 8.88
+    2025 Yearly: 10.17
+  quarterly_forecast:
+    Q1 2025: 2.38
+    Q2 2025: 2.49
+    Q3 2025: 2.5
+    Q4 2025: 2.64
+    Q1 2026: 2.82
+    Q2 2026: 3.25
+    Q3 2026: 3.56
+    Q4 2026: 3.81
+    Q1 2027: 3.98
+    Q2 2027: 4.21
+    Q3 2027: 4.42
+  annual_forecast:
+    2021 Yearly: 4.58
+    2022 Yearly: 5.99
+    2023 Yearly: 7.61
+    2024 Yearly: 8.71
+    2025 Yearly: 10.16
+    2026 Yearly: 13.81
+    2027 Yearly: 17.23
+    2028 Yearly: 21.37
+    2029 Yearly: 27.09

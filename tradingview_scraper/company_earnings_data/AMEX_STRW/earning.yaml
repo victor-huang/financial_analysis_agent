@@ -1,0 +1,68 @@
+currency: USD
+company_name: Strawberry Fields REIT, Inc.
+sector: Finance
+market_cap_billions: 0.19388
+revenue:
+  quarterly:
+    Q3 2024: 29.46
+    Q4 2024: 30.49
+    Q1 2025: 37.33
+    Q2 2025: 37.9
+    Q3 2025: 39.7
+    Q4 2025: 40.09
+    Q1 2026: 40.0
+  annual:
+    2023 Yearly: 99.81
+    2024 Yearly: 117.06
+    2025 Yearly: 155.0
+  quarterly_forecast:
+    Q3 2024: 30.02
+    Q4 2024: 30.18
+    Q1 2025: 32.55
+    Q2 2025: 37.62
+    Q3 2025: 38.4
+    Q4 2025: 40.31
+    Q1 2026: 40.28
+    Q2 2026: 40.24
+    Q3 2026: 40.89
+    Q4 2026: 41.7
+    Q1 2027: 42.52
+  annual_forecast:
+    2023 Yearly: 99.8
+    2024 Yearly: 116.75
+    2025 Yearly: 155.24
+    2026 Yearly: 162.82
+    2027 Yearly: 171.8
+    2028 Yearly: 182.0
+    2029 Yearly: 170.55
+eps:
+  quarterly:
+    Q3 2024: 0.14
+    Q4 2024: 0.15
+    Q1 2025: 0.13
+    Q2 2025: 0.15
+    Q3 2025: 0.16
+    Q4 2025: 0.15
+    Q1 2026: 0.17
+  annual:
+    2023 Yearly: 0.39
+    2024 Yearly: 0.57
+    2025 Yearly: 0.6
+  quarterly_forecast:
+    Q4 2024: 0.15
+    Q1 2025: 0.1
+    Q2 2025: 0.07
+    Q3 2025: 0.1
+    Q4 2025: 0.14
+    Q1 2026: 0.15
+    Q2 2026: 0.17
+    Q3 2026: 0.17
+    Q4 2026: 0.18
+    Q1 2027: 0.18
+  annual_forecast:
+    2024 Yearly: 0.54
+    2025 Yearly: 0.58
+    2026 Yearly: 0.69
+    2027 Yearly: 0.81
+    2028 Yearly: 0.86
+    2029 Yearly: 1.03

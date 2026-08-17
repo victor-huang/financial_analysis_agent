@@ -1,0 +1,82 @@
+currency: USD
+company_name: CVRx, Inc.
+sector: Health Technology
+market_cap_billions: 0.15762
+revenue:
+  quarterly:
+    Q3 2024: 13.37
+    Q4 2024: 15.34
+    Q1 2025: 12.35
+    Q2 2025: 13.59
+    Q3 2025: 14.69
+    Q4 2025: 16.02
+    Q1 2026: 14.77
+    Q2 2026: 15.71
+  annual:
+    2021 Yearly: 13.04
+    2022 Yearly: 22.47
+    2023 Yearly: 39.3
+    2024 Yearly: 51.29
+    2025 Yearly: 56.65
+  quarterly_forecast:
+    Q3 2024: 13.18
+    Q4 2024: 15.07
+    Q1 2025: 13.38
+    Q2 2025: 13.29
+    Q3 2025: 14.4
+    Q4 2025: 15.78
+    Q1 2026: 14.49
+    Q2 2026: 15.55
+    Q3 2026: 16.85
+    Q4 2026: 18.14
+    Q1 2027: 17.13
+    Q2 2027: 18.28
+  annual_forecast:
+    2021 Yearly: 13.25
+    2022 Yearly: 22.21
+    2023 Yearly: 39.14
+    2024 Yearly: 51.01
+    2025 Yearly: 56.39
+    2026 Yearly: 65.33
+    2027 Yearly: 76.13
+    2028 Yearly: 95.61
+    2029 Yearly: 120.6
+eps:
+  quarterly:
+    Q3 2024: -0.57
+    Q4 2024: -0.43
+    Q1 2025: -0.53
+    Q2 2025: -0.57
+    Q3 2025: -0.49
+    Q4 2025: -0.46
+    Q1 2026: -0.5
+    Q2 2026: -0.53
+  annual:
+    2021 Yearly: -4.16
+    2022 Yearly: -2.02
+    2023 Yearly: -1.99
+    2024 Yearly: -2.65
+    2025 Yearly: -2.04
+  quarterly_forecast:
+    Q3 2024: -0.5
+    Q4 2024: -0.37
+    Q1 2025: -0.57
+    Q2 2025: -0.52
+    Q3 2025: -0.49
+    Q4 2025: -0.44
+    Q1 2026: -0.5
+    Q2 2026: -0.52
+    Q3 2026: -0.48
+    Q4 2026: -0.46
+    Q1 2027: -0.49
+    Q2 2027: -0.48
+  annual_forecast:
+    2021 Yearly: -4.05
+    2022 Yearly: -2.06
+    2023 Yearly: -2.09
+    2024 Yearly: -2.56
+    2025 Yearly: -2.03
+    2026 Yearly: -1.96
+    2027 Yearly: -1.9
+    2028 Yearly: -1.67
+    2029 Yearly: -1.37

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Alcon Inc.
+sector: Health Technology
+market_cap_billions: 37.65
+revenue:
+  quarterly:
+    Q4 2024: 2440.0
+    Q1 2025: 2320.0
+    Q2 2025: 2610.0
+    Q3 2025: 2590.0
+    Q4 2025: 2640.0
+    Q1 2026: 2620.0
+    Q2 2026: 2790.0
+  annual:
+    2021 Yearly: 8320.0
+    2022 Yearly: 8770.0
+    2023 Yearly: 9790.0
+    2024 Yearly: 9680.0
+    2025 Yearly: 10070.0
+  quarterly_forecast:
+    Q4 2024: 2440.0
+    Q1 2025: 2440.0
+    Q2 2025: 2690.0
+    Q3 2025: 2620.0
+    Q4 2025: 2690.0
+    Q1 2026: 2640.0
+    Q2 2026: 2720.0
+    Q3 2026: 2710.0
+    Q4 2026: 2820.0
+    Q1 2027: 2970.0
+    Q2 2027: 3050.0
+  annual_forecast:
+    2021 Yearly: 8260.0
+    2022 Yearly: 8750.0
+    2023 Yearly: 9710.0
+    2024 Yearly: 9760.0
+    2025 Yearly: 10260.0
+    2026 Yearly: 10970.0
+    2027 Yearly: 11640.0
+    2028 Yearly: 12350.0
+    2029 Yearly: 12960.0
+eps:
+  quarterly:
+    Q4 2024: 0.71
+    Q1 2025: 0.69
+    Q2 2025: 0.77
+    Q3 2025: 0.79
+    Q4 2025: 0.76
+    Q1 2026: 0.83
+    Q2 2026: 0.84
+  annual:
+    2021 Yearly: 2.17
+    2022 Yearly: 2.27
+    2023 Yearly: 2.86
+    2024 Yearly: 3.0
+    2025 Yearly: 2.99
+  quarterly_forecast:
+    Q4 2024: 0.7
+    Q1 2025: 0.73
+    Q2 2025: 0.73
+    Q3 2025: 0.77
+    Q4 2025: 0.78
+    Q1 2026: 0.8
+    Q2 2026: 0.75
+    Q3 2026: 0.87
+    Q4 2026: 0.96
+    Q1 2027: 1.0
+    Q2 2027: 0.97
+  annual_forecast:
+    2021 Yearly: 2.12
+    2022 Yearly: 2.27
+    2023 Yearly: 2.81
+    2024 Yearly: 2.99
+    2025 Yearly: 3.06
+    2026 Yearly: 3.43
+    2027 Yearly: 3.92
+    2028 Yearly: 4.44
+    2029 Yearly: 5.1

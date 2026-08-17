@@ -1,0 +1,77 @@
+currency: USD
+company_name: Verrica Pharmaceuticals Inc.
+sector: Health Technology
+market_cap_billions: 0.09294
+revenue:
+  quarterly:
+    Q3 2024: -1.78
+    Q1 2025: 3.44
+    Q2 2025: 12.7
+    Q3 2025: 14.34
+    Q4 2025: 5.09
+    Q1 2026: 5.02
+  annual:
+    2021 Yearly: 12.0
+    2022 Yearly: 9.03
+    2023 Yearly: 5.12
+    2024 Yearly: 7.57
+    2025 Yearly: 35.58
+  quarterly_forecast:
+    Q3 2024: 5.26
+    Q4 2024: 1.04
+    Q1 2025: 2.54
+    Q2 2025: 4.27
+    Q3 2025: 9.75
+    Q4 2025: 4.52
+    Q1 2026: 4.51
+    Q2 2026: 5.73
+    Q3 2026: 6.84
+    Q4 2026: 7.95
+    Q1 2027: 7.1
+  annual_forecast:
+    2021 Yearly: 12.0
+    2022 Yearly: 7.42
+    2023 Yearly: 4.03
+    2024 Yearly: 8.25
+    2025 Yearly: 35.0
+    2026 Yearly: 25.53
+    2027 Yearly: 46.26
+    2028 Yearly: 68.13
+    2029 Yearly: 175.0
+eps:
+  quarterly:
+    Q3 2024: -4.9
+    Q4 2024: -2.4
+    Q1 2025: -1.0
+    Q2 2025: 0.02
+    Q3 2025: -0.03
+    Q4 2025: -0.57
+    Q1 2026: -0.45
+  annual:
+    2021 Yearly: -13.0
+    2022 Yearly: -7.2
+    2023 Yearly: -14.8
+    2024 Yearly: -14.8
+    2025 Yearly: -1.68
+  quarterly_forecast:
+    Q3 2024: -3.76
+    Q4 2024: -2.5
+    Q1 2025: -1.26
+    Q2 2025: -0.9
+    Q3 2025: -0.33
+    Q4 2025: -0.7
+    Q1 2026: -0.42
+    Q2 2026: -0.41
+    Q3 2026: -0.37
+    Q4 2026: -0.35
+    Q1 2027: -0.3
+  annual_forecast:
+    2021 Yearly: -14.55
+    2022 Yearly: -9.14
+    2023 Yearly: -13.91
+    2024 Yearly: -14.46
+    2025 Yearly: -1.26
+    2026 Yearly: -1.58
+    2027 Yearly: -0.92
+    2028 Yearly: -0.35
+    2029 Yearly: 1.43

@@ -1,0 +1,57 @@
+currency: USD
+company_name: Inovio Pharmaceuticals, Inc.
+sector: Health Technology
+market_cap_billions: 0.07956
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+  annual:
+    2021 Yearly: 1.77
+    2022 Yearly: 10.3
+  quarterly_forecast:
+    Q1 2027: 0.0
+  annual_forecast:
+    2027 Yearly: 3.33
+    2028 Yearly: 10.55
+    2029 Yearly: 1.06
+eps:
+  quarterly:
+    Q3 2024: -0.89
+    Q4 2024: -0.65
+    Q1 2025: -0.51
+    Q2 2025: -0.61
+    Q3 2025: -0.87
+    Q4 2025: 0.06
+    Q1 2026: -0.28
+  annual:
+    2021 Yearly: -17.4
+    2022 Yearly: -14.04
+    2023 Yearly: -6.09
+    2024 Yearly: -3.95
+    2025 Yearly: -1.81
+  quarterly_forecast:
+    Q3 2024: -1.15
+    Q4 2024: -0.84
+    Q1 2025: -0.69
+    Q2 2025: -0.61
+    Q3 2025: -0.42
+    Q4 2025: -0.36
+    Q1 2026: -0.35
+    Q2 2026: -0.22
+    Q3 2026: -0.21
+    Q4 2026: -0.21
+    Q1 2027: -0.18
+  annual_forecast:
+    2021 Yearly: -15.0
+    2022 Yearly: -13.3
+    2023 Yearly: -6.1
+    2024 Yearly: -4.21
+    2025 Yearly: -2.27
+    2026 Yearly: -0.88
+    2027 Yearly: -0.41
+    2028 Yearly: -0.12
+    2029 Yearly: 0.1

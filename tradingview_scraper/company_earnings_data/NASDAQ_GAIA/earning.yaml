@@ -1,0 +1,80 @@
+currency: USD
+company_name: Gaia, Inc.
+sector: Commercial Services
+market_cap_billions: 0.048100000000000004
+revenue:
+  quarterly:
+    Q3 2024: 22.16
+    Q4 2024: 24.43
+    Q1 2025: 23.84
+    Q2 2025: 24.63
+    Q3 2025: 24.98
+    Q4 2025: 25.5
+    Q1 2026: 24.31
+    Q2 2026: 23.33
+  annual:
+    2021 Yearly: 79.57
+    2022 Yearly: 82.03
+    2023 Yearly: 80.42
+    2024 Yearly: 90.36
+    2025 Yearly: 98.95
+  quarterly_forecast:
+    Q3 2024: 22.7
+    Q4 2024: 24.27
+    Q1 2025: 24.18
+    Q2 2025: 24.32
+    Q3 2025: 25.23
+    Q4 2025: 25.35
+    Q1 2026: 25.0
+    Q2 2026: 24.6
+    Q3 2026: 24.98
+    Q4 2026: 28.18
+    Q1 2027: 27.18
+    Q2 2027: 27.67
+  annual_forecast:
+    2021 Yearly: 79.66
+    2022 Yearly: 82.46
+    2023 Yearly: 80.7
+    2024 Yearly: 90.26
+    2025 Yearly: 98.81
+    2026 Yearly: 102.03
+    2027 Yearly: 114.15
+    2028 Yearly: 131.45
+eps:
+  quarterly:
+    Q3 2024: -0.05
+    Q4 2024: -0.03
+    Q1 2025: -0.04
+    Q2 2025: -0.07
+    Q3 2025: -0.05
+    Q4 2025: -0.02
+    Q1 2026: -0.05
+    Q2 2026: -0.12
+  annual:
+    2021 Yearly: 0.19
+    2022 Yearly: -0.15
+    2023 Yearly: -0.27
+    2024 Yearly: -0.22
+    2025 Yearly: -0.18
+  quarterly_forecast:
+    Q3 2024: -0.06
+    Q4 2024: -0.03
+    Q1 2025: -0.04
+    Q2 2025: -0.08
+    Q3 2025: -0.05
+    Q4 2025: -0.02
+    Q1 2026: -0.05
+    Q2 2026: -0.13
+    Q3 2026: -0.13
+    Q4 2026: -0.01
+    Q1 2027: -0.03
+    Q2 2027: -0.04
+  annual_forecast:
+    2021 Yearly: 0.11
+    2022 Yearly: -0.13
+    2023 Yearly: -0.18
+    2024 Yearly: -0.22
+    2025 Yearly: -0.19
+    2026 Yearly: -0.32
+    2027 Yearly: -0.05
+    2028 Yearly: 0.34

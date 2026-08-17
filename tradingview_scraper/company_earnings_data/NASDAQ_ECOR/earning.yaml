@@ -1,0 +1,78 @@
+currency: USD
+company_name: electroCore, Inc.
+sector: Health Technology
+market_cap_billions: 0.05887
+revenue:
+  quarterly:
+    Q3 2024: 6.55
+    Q4 2024: 7.05
+    Q1 2025: 6.72
+    Q2 2025: 7.38
+    Q3 2025: 8.69
+    Q4 2025: 9.24
+    Q1 2026: 9.58
+  annual:
+    2021 Yearly: 5.45
+    2022 Yearly: 8.59
+    2023 Yearly: 16.03
+    2024 Yearly: 25.18
+    2025 Yearly: 32.03
+  quarterly_forecast:
+    Q3 2024: 6.71
+    Q4 2024: 7.05
+    Q1 2025: 6.85
+    Q2 2025: 7.25
+    Q3 2025: 7.89
+    Q4 2025: 9.1
+    Q1 2026: 9.01
+    Q2 2026: 9.49
+    Q3 2026: 11.01
+    Q4 2026: 11.83
+    Q1 2027: 11.43
+  annual_forecast:
+    2021 Yearly: 5.48
+    2022 Yearly: 8.38
+    2023 Yearly: 15.87
+    2024 Yearly: 25.19
+    2025 Yearly: 31.92
+    2026 Yearly: 41.92
+    2027 Yearly: 53.9
+    2028 Yearly: 69.99
+    2029 Yearly: 74.76
+eps:
+  quarterly:
+    Q3 2024: -0.31
+    Q4 2024: -0.37
+    Q1 2025: -0.47
+    Q2 2025: -0.44
+    Q3 2025: -0.4
+    Q4 2025: -0.34
+    Q1 2026: -0.59
+  annual:
+    2021 Yearly: -4.35
+    2022 Yearly: -4.69
+    2023 Yearly: -3.42
+    2024 Yearly: -1.59
+    2025 Yearly: -1.65
+  quarterly_forecast:
+    Q3 2024: -0.33
+    Q4 2024: -0.3
+    Q1 2025: -0.48
+    Q2 2025: -0.33
+    Q3 2025: -0.4
+    Q4 2025: -0.4
+    Q1 2026: -0.61
+    Q2 2026: -0.42
+    Q3 2026: -0.27
+    Q4 2026: -0.21
+    Q1 2027: -0.37
+  annual_forecast:
+    2021 Yearly: -4.38
+    2022 Yearly: -4.6
+    2023 Yearly: -3.33
+    2024 Yearly: -1.5
+    2025 Yearly: -1.72
+    2026 Yearly: -1.48
+    2027 Yearly: -0.43
+    2028 Yearly: 0.56
+    2029 Yearly: 0.36

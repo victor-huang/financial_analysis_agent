@@ -1,0 +1,72 @@
+currency: USD
+company_name: Intellicheck, Inc.
+sector: Technology Services
+market_cap_billions: 0.07473
+revenue:
+  quarterly:
+    Q3 2024: 4.71
+    Q4 2024: 5.94
+    Q1 2025: 4.89
+    Q2 2025: 5.12
+    Q3 2025: 6.01
+    Q4 2025: 6.63
+    Q1 2026: 5.52
+  annual:
+    2021 Yearly: 16.39
+    2022 Yearly: 15.97
+    2023 Yearly: 18.91
+    2024 Yearly: 20.0
+    2025 Yearly: 22.67
+  quarterly_forecast:
+    Q3 2024: 4.78
+    Q4 2024: 5.04
+    Q1 2025: 4.78
+    Q2 2025: 5.01
+    Q3 2025: 5.48
+    Q4 2025: 6.2
+    Q1 2026: 5.68
+    Q2 2026: 5.67
+    Q3 2026: 6.41
+    Q4 2026: 6.95
+    Q1 2027: 6.11
+  annual_forecast:
+    2021 Yearly: 16.02
+    2022 Yearly: 16.03
+    2023 Yearly: 19.03
+    2024 Yearly: 19.12
+    2025 Yearly: 22.21
+    2026 Yearly: 24.55
+    2027 Yearly: 26.22
+eps:
+  quarterly:
+    Q3 2024: -0.04
+    Q4 2024: 0.03
+    Q1 2025: -0.02
+    Q2 2025: -0.01
+    Q3 2025: 0.01
+    Q4 2025: 0.08
+    Q1 2026: 0.03
+  annual:
+    2021 Yearly: -0.22
+    2022 Yearly: -0.2
+    2023 Yearly: -0.1
+    2024 Yearly: -0.05
+    2025 Yearly: 0.06
+  quarterly_forecast:
+    Q4 2024: -0.01
+    Q1 2025: -0.01
+    Q2 2025: -0.03
+    Q3 2025: -0.02
+    Q4 2025: -0.01
+    Q1 2026: 0.02
+    Q2 2026: 0.01
+    Q3 2026: 0.03
+    Q4 2026: 0.03
+  annual_forecast:
+    2021 Yearly: -0.21
+    2022 Yearly: -0.2
+    2023 Yearly: -0.15
+    2024 Yearly: -0.07
+    2025 Yearly: 0.01
+    2026 Yearly: 0.14
+    2027 Yearly: 0.17

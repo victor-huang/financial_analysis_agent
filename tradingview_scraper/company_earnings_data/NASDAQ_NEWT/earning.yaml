@@ -1,0 +1,78 @@
+currency: USD
+company_name: NewtekOne, Inc.
+sector: Finance
+market_cap_billions: 0.43192
+revenue:
+  quarterly:
+    Q3 2024: 62.83
+    Q4 2024: 75.37
+    Q1 2025: 66.33
+    Q2 2025: 70.2
+    Q3 2025: 74.94
+    Q4 2025: 73.33
+    Q1 2026: 70.96
+    Q2 2026: 75.08
+  annual:
+    2021 Yearly: 108.49
+    2022 Yearly: 86.24
+    2023 Yearly: 203.72
+    2024 Yearly: 257.62
+    2025 Yearly: 284.8
+  quarterly_forecast:
+    Q3 2024: 62.2
+    Q4 2024: 69.55
+    Q1 2025: 63.22
+    Q2 2025: 73.88
+    Q3 2025: 78.31
+    Q4 2025: 80.01
+    Q1 2026: 75.77
+    Q2 2026: 75.0
+    Q3 2026: 80.17
+    Q4 2026: 95.17
+    Q1 2027: 81.23
+    Q2 2027: 82.87
+  annual_forecast:
+    2022 Yearly: 95.59
+    2023 Yearly: 87.84
+    2024 Yearly: 211.06
+    2025 Yearly: 251.78
+    2026 Yearly: 291.76
+    2027 Yearly: 321.29
+eps:
+  quarterly:
+    Q3 2024: 0.45
+    Q4 2024: 0.69
+    Q1 2025: 0.35
+    Q2 2025: 0.52
+    Q3 2025: 0.66
+    Q4 2025: 0.61
+    Q1 2026: 0.39
+    Q2 2026: 0.43
+  annual:
+    2021 Yearly: 3.47
+    2022 Yearly: 2.14
+    2023 Yearly: 1.7
+    2024 Yearly: 1.96
+    2025 Yearly: 2.1
+  quarterly_forecast:
+    Q3 2024: 0.43
+    Q4 2024: 0.66
+    Q1 2025: 0.35
+    Q2 2025: 0.52
+    Q3 2025: 0.64
+    Q4 2025: 0.68
+    Q1 2026: 0.42
+    Q2 2026: 0.47
+    Q3 2026: 0.61
+    Q4 2026: 0.85
+    Q1 2027: 0.51
+    Q2 2027: 0.52
+  annual_forecast:
+    2021 Yearly: 3.4
+    2022 Yearly: 2.7
+    2023 Yearly: 1.68
+    2024 Yearly: 1.92
+    2025 Yearly: 2.23
+    2026 Yearly: 2.36
+    2027 Yearly: 2.5
+    2028 Yearly: 2.8

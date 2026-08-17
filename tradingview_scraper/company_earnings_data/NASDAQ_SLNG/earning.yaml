@@ -1,0 +1,74 @@
+currency: USD
+company_name: Stabilis Solutions, Inc.
+sector: Energy Minerals
+market_cap_billions: 0.09595999999999999
+revenue:
+  quarterly:
+    Q3 2024: 17.63
+    Q4 2024: 17.29
+    Q1 2025: 17.34
+    Q2 2025: 17.31
+    Q3 2025: 20.32
+    Q4 2025: 13.27
+    Q1 2026: 10.38
+  annual:
+    2021 Yearly: 77.17
+    2022 Yearly: 98.82
+    2023 Yearly: 73.11
+    2024 Yearly: 73.29
+    2025 Yearly: 68.25
+  quarterly_forecast:
+    Q3 2024: 17.26
+    Q4 2024: 17.9
+    Q1 2025: 19.55
+    Q2 2025: 17.84
+    Q3 2025: 17.29
+    Q4 2025: 13.27
+    Q1 2026: 12.34
+    Q2 2026: 10.84
+    Q3 2026: 15.66
+    Q4 2026: 16.9
+    Q1 2027: 19.2
+  annual_forecast:
+    2021 Yearly: 75.44
+    2022 Yearly: 89.1
+    2023 Yearly: 70.78
+    2024 Yearly: 73.88
+    2025 Yearly: 68.25
+    2026 Yearly: 53.74
+    2027 Yearly: 119.56
+eps:
+  quarterly:
+    Q3 2024: 0.05
+    Q4 2024: 0.12
+    Q1 2025: -0.09
+    Q2 2025: -0.03
+    Q3 2025: 0.06
+    Q4 2025: -0.01
+    Q1 2026: -0.22
+  annual:
+    2021 Yearly: -0.45
+    2022 Yearly: -0.17
+    2023 Yearly: 0.01
+    2024 Yearly: 0.25
+    2025 Yearly: -0.07
+  quarterly_forecast:
+    Q3 2024: 0.02
+    Q4 2024: 0.03
+    Q1 2025: 0.02
+    Q2 2025: 0.01
+    Q3 2025: 0.01
+    Q4 2025: -0.04
+    Q1 2026: -0.04
+    Q2 2026: -0.07
+    Q3 2026: -0.01
+    Q4 2026: 0.0
+    Q1 2027: 0.16
+  annual_forecast:
+    2021 Yearly: -0.37
+    2022 Yearly: -0.17
+    2023 Yearly: 0.01
+    2024 Yearly: 0.15
+    2025 Yearly: -0.1
+    2026 Yearly: -0.3
+    2027 Yearly: 0.47

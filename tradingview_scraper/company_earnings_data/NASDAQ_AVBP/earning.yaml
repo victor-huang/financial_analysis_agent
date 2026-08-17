@@ -1,0 +1,70 @@
+currency: USD
+company_name: ArriVent BioPharma, Inc.
+sector: Health Technology
+market_cap_billions: 1.44
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+  annual:
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 9.7
+  annual_forecast:
+    2023 Yearly: -1.67
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 45.78
+    2028 Yearly: 152.61
+    2029 Yearly: 312.86
+eps:
+  quarterly:
+    Q3 2024: -0.61
+    Q4 2024: -0.6
+    Q1 2025: -1.9
+    Q2 2025: -0.9
+    Q3 2025: -0.83
+    Q4 2025: -0.84
+    Q1 2026: -0.96
+  annual:
+    2023 Yearly: -32.38
+    2024 Yearly: -2.56
+    2025 Yearly: -4.32
+  quarterly_forecast:
+    Q3 2024: -1.0
+    Q4 2024: -0.67
+    Q1 2025: -0.66
+    Q2 2025: -0.71
+    Q3 2025: -0.79
+    Q4 2025: -0.85
+    Q1 2026: -0.9
+    Q2 2026: -0.99
+    Q3 2026: -1.02
+    Q4 2026: -1.1
+    Q1 2027: -0.95
+  annual_forecast:
+    2023 Yearly: -8.54
+    2024 Yearly: -2.58
+    2025 Yearly: -4.41
+    2026 Yearly: -4.12
+    2027 Yearly: -3.42
+    2028 Yearly: -1.32
+    2029 Yearly: 1.06

@@ -1,0 +1,80 @@
+currency: USD
+company_name: Health Catalyst, Inc
+sector: Technology Services
+market_cap_billions: 0.1707
+revenue:
+  quarterly:
+    Q3 2024: 76.35
+    Q4 2024: 79.61
+    Q1 2025: 79.41
+    Q2 2025: 80.72
+    Q3 2025: 76.32
+    Q4 2025: 74.68
+    Q1 2026: 70.76
+    Q2 2026: 70.49
+  annual:
+    2021 Yearly: 241.93
+    2022 Yearly: 276.24
+    2023 Yearly: 295.94
+    2024 Yearly: 306.58
+    2025 Yearly: 311.14
+  quarterly_forecast:
+    Q3 2024: 76.27
+    Q4 2024: 79.65
+    Q1 2025: 79.18
+    Q2 2025: 80.62
+    Q3 2025: 75.01
+    Q4 2025: 73.97
+    Q1 2026: 69.24
+    Q2 2026: 69.09
+    Q3 2026: 62.95
+    Q4 2026: 60.92
+    Q1 2027: 61.13
+    Q2 2027: 60.66
+  annual_forecast:
+    2021 Yearly: 240.34
+    2022 Yearly: 275.4
+    2023 Yearly: 294.47
+    2024 Yearly: 306.54
+    2025 Yearly: 310.44
+    2026 Yearly: 263.79
+    2027 Yearly: 250.1
+    2028 Yearly: 254.03
+eps:
+  quarterly:
+    Q3 2024: 0.07
+    Q4 2024: 0.04
+    Q1 2025: 0.01
+    Q2 2025: 0.04
+    Q3 2025: 0.06
+    Q4 2025: 0.08
+    Q1 2026: 0.02
+    Q2 2026: 0.04
+  annual:
+    2021 Yearly: -0.45
+    2022 Yearly: -0.26
+    2023 Yearly: 0.15
+    2024 Yearly: 0.28
+    2025 Yearly: 0.18
+  quarterly_forecast:
+    Q3 2024: 0.1
+    Q4 2024: 0.07
+    Q1 2025: 0.0
+    Q2 2025: 0.03
+    Q3 2025: 0.06
+    Q4 2025: 0.09
+    Q1 2026: 0.01
+    Q2 2026: 0.03
+    Q3 2026: 0.01
+    Q4 2026: 0.01
+    Q1 2027: 0.0
+    Q2 2027: 0.0
+  annual_forecast:
+    2021 Yearly: -0.5
+    2022 Yearly: -0.34
+    2023 Yearly: 0.15
+    2024 Yearly: 0.31
+    2025 Yearly: 0.2
+    2026 Yearly: 0.06
+    2027 Yearly: 0.12
+    2028 Yearly: 0.09

@@ -1,0 +1,78 @@
+currency: USD
+company_name: i3 Verticals, Inc.
+sector: Technology Services
+market_cap_billions: 0.61338
+revenue:
+  quarterly:
+    Q4 2024: 60.86
+    Q1 2025: 61.7
+    Q2 2025: 63.06
+    Q3 2025: 51.9
+    Q4 2025: 54.9
+    Q1 2026: 52.7
+    Q2 2026: 57.5
+  annual:
+    2021 Yearly: 224.72
+    2022 Yearly: 317.86
+    2023 Yearly: 370.24
+    2024 Yearly: 229.92
+    2025 Yearly: 213.2
+  quarterly_forecast:
+    Q4 2024: 61.11
+    Q1 2025: 58.79
+    Q2 2025: 72.82
+    Q3 2025: 49.39
+    Q4 2025: 53.67
+    Q1 2026: 52.18
+    Q2 2026: 57.51
+    Q3 2026: 54.99
+    Q4 2026: 58.5
+    Q1 2027: 58.38
+    Q2 2027: 61.39
+  annual_forecast:
+    2021 Yearly: 220.42
+    2022 Yearly: 312.98
+    2023 Yearly: 372.11
+    2024 Yearly: 251.72
+    2025 Yearly: 212.44
+    2026 Yearly: 223.67
+    2027 Yearly: 242.25
+    2028 Yearly: 257.34
+    2029 Yearly: 276.7
+eps:
+  quarterly:
+    Q4 2024: 0.15
+    Q1 2025: 0.22
+    Q2 2025: 0.32
+    Q3 2025: 0.23
+    Q4 2025: 0.27
+    Q1 2026: 0.26
+    Q2 2026: 0.34
+  annual:
+    2021 Yearly: 1.05
+    2022 Yearly: 1.48
+    2023 Yearly: 1.52
+    2024 Yearly: 0.46
+    2025 Yearly: 1.05
+  quarterly_forecast:
+    Q4 2024: 0.17
+    Q1 2025: 0.26
+    Q2 2025: 0.3
+    Q3 2025: 0.2
+    Q4 2025: 0.24
+    Q1 2026: 0.24
+    Q2 2026: 0.29
+    Q3 2026: 0.25
+    Q4 2026: 0.3
+    Q1 2027: 0.29
+    Q2 2027: 0.34
+  annual_forecast:
+    2021 Yearly: 0.91
+    2022 Yearly: 1.45
+    2023 Yearly: 1.52
+    2024 Yearly: 0.66
+    2025 Yearly: 1.05
+    2026 Yearly: 1.14
+    2027 Yearly: 1.27
+    2028 Yearly: 1.4
+    2029 Yearly: 1.62

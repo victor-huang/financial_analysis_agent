@@ -1,0 +1,58 @@
+currency: USD
+company_name: American Integrity Insurance Group, Inc.
+sector: Finance
+market_cap_billions: 0.44883
+revenue:
+  quarterly:
+    Q1 2025: 212.15
+    Q2 2025: 287.0
+    Q3 2025: 239.1
+    Q4 2025: 206.39
+    Q1 2026: 220.0
+    Q2 2026: 326.59
+  annual:
+    2024 Yearly: 767.68
+    2025 Yearly: 944.63
+  quarterly_forecast:
+    Q1 2025: 212.07
+    Q2 2025: 287.33
+    Q3 2025: 205.25
+    Q4 2025: 178.59
+    Q1 2026: 214.71
+    Q2 2026: 282.74
+    Q3 2026: 252.53
+    Q4 2026: 211.46
+    Q1 2027: 242.67
+    Q2 2027: 294.42
+  annual_forecast:
+    2025 Yearly: 916.85
+    2026 Yearly: 966.7
+    2027 Yearly: 1030.0
+    2028 Yearly: 1090.0
+eps:
+  quarterly:
+    Q1 2025: 1.95
+    Q2 2025: 1.84
+    Q3 2025: 0.71
+    Q4 2025: 1.11
+    Q1 2026: 1.03
+    Q2 2026: 1.78
+  annual:
+    2024 Yearly: 2.02
+    2025 Yearly: 5.97
+  quarterly_forecast:
+    Q1 2025: 1.93
+    Q2 2025: 1.68
+    Q3 2025: 0.64
+    Q4 2025: 0.8
+    Q1 2026: 0.98
+    Q2 2026: 0.88
+    Q3 2026: -0.07
+    Q4 2026: 0.96
+    Q1 2027: 1.05
+    Q2 2027: 0.96
+  annual_forecast:
+    2025 Yearly: 5.43
+    2026 Yearly: 2.94
+    2027 Yearly: 3.06
+    2028 Yearly: 3.33

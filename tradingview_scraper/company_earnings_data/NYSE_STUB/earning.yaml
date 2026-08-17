@@ -1,0 +1,48 @@
+currency: USD
+company_name: StubHub Holdings, Inc.
+sector: Technology Services
+market_cap_billions: 3.21
+revenue:
+  quarterly:
+    Q2 2025: 430.3
+    Q3 2025: 468.11
+    Q4 2025: 449.17
+    Q1 2026: 446.05
+  annual:
+    2025 Yearly: 1750.0
+  quarterly_forecast:
+    Q3 2025: 451.78
+    Q4 2025: 485.43
+    Q1 2026: 425.04
+    Q2 2026: 513.35
+    Q3 2026: 544.29
+    Q4 2026: 523.85
+    Q1 2027: 516.7
+  annual_forecast:
+    2025 Yearly: 1780.0
+    2026 Yearly: 2029.9999999999998
+    2027 Yearly: 2280.0
+    2028 Yearly: 2600.0
+    2029 Yearly: 3380.0
+eps:
+  quarterly:
+    Q2 2025: -0.21
+    Q3 2025: -4.27
+    Q4 2025: -1.56
+    Q1 2026: 0.06
+  annual:
+    2025 Yearly: -6.27
+  quarterly_forecast:
+    Q3 2025: -2.87
+    Q4 2025: -0.01
+    Q1 2026: 0.01
+    Q2 2026: 0.11
+    Q3 2026: 0.15
+    Q4 2026: 0.1
+    Q1 2027: 0.1
+  annual_forecast:
+    2025 Yearly: -4.25
+    2026 Yearly: 0.47
+    2027 Yearly: 0.68
+    2028 Yearly: 1.01
+    2029 Yearly: 1.75

@@ -1,0 +1,36 @@
+currency: USD
+company_name: Securitize Corp.
+sector: Finance
+market_cap_billions: 1.28
+revenue:
+  quarterly:
+    Q1 2026: 19.48
+  annual:
+    2025 Yearly: 69.0
+  quarterly_forecast:
+    Q1 2026: 22.0
+    Q2 2026: 20.6
+    Q3 2026: 22.4
+    Q4 2026: 24.42
+    Q1 2027: 27.8
+  annual_forecast:
+    2026 Yearly: 86.9
+    2027 Yearly: 140.88
+    2028 Yearly: 182.58
+    2029 Yearly: 181.2
+eps:
+  quarterly:
+    Q1 2026: 0.08
+  annual:
+    2025 Yearly: 0.1
+  quarterly_forecast:
+    Q1 2026: 0.04
+    Q2 2026: -0.15
+    Q3 2026: 0.01
+    Q4 2026: 0.09
+    Q1 2027: 0.11
+  annual_forecast:
+    2026 Yearly: -0.1
+    2027 Yearly: 0.53
+    2028 Yearly: 0.87
+    2029 Yearly: 0.22

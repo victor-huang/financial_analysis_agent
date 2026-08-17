@@ -1,0 +1,36 @@
+currency: USD
+company_name: Sui Group Holdings Limited
+sector: Finance
+market_cap_billions: 0.06902
+revenue:
+  quarterly:
+    Q4 2025: 2.6
+    Q1 2026: 2.4
+    Q1 2027: 1.4
+  annual:
+    2025 Yearly: 4.52
+  quarterly_forecast: {}
+  annual_forecast:
+    2025 Yearly: 3.8
+    2026 Yearly: 2.98
+    2027 Yearly: 5.12
+eps:
+  quarterly:
+    Q2 2025: 0.11
+    Q3 2025: -0.72
+    Q4 2025: -5.52
+    Q1 2026: -0.88
+  annual:
+    2025 Yearly: -6.59
+  quarterly_forecast:
+    Q3 2025: 0.01
+    Q4 2025: -0.04
+    Q1 2026: -0.06
+    Q2 2026: -0.12
+    Q3 2026: -0.12
+    Q4 2026: -0.11
+    Q1 2027: -0.04
+  annual_forecast:
+    2025 Yearly: -1.32
+    2026 Yearly: -1.42
+    2027 Yearly: -0.43

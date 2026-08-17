@@ -1,0 +1,82 @@
+currency: USD
+company_name: Texas Roadhouse, Inc.
+sector: Consumer Services
+market_cap_billions: 13.68
+revenue:
+  quarterly:
+    Q3 2024: 1270.0
+    Q4 2024: 1440.0
+    Q1 2025: 1450.0
+    Q2 2025: 1510.0
+    Q3 2025: 1440.0
+    Q4 2025: 1480.0
+    Q1 2026: 1630.0
+    Q2 2026: 1680.0
+  annual:
+    2021 Yearly: 3460.0
+    2022 Yearly: 4010.0
+    2023 Yearly: 4630.0
+    2024 Yearly: 5370.0
+    2025 Yearly: 5880.0
+  quarterly_forecast:
+    Q3 2024: 1270.0
+    Q4 2024: 1410.0
+    Q1 2025: 1440.0
+    Q2 2025: 1500.0
+    Q3 2025: 1430.0
+    Q4 2025: 1500.0
+    Q1 2026: 1640.0
+    Q2 2026: 1670.0
+    Q3 2026: 1590.0
+    Q4 2026: 1640.0
+    Q1 2027: 1780.0
+    Q2 2027: 1830.0
+  annual_forecast:
+    2021 Yearly: 3460.0
+    2022 Yearly: 4030.0000000000005
+    2023 Yearly: 4630.0
+    2024 Yearly: 5350.0
+    2025 Yearly: 5890.0
+    2026 Yearly: 6540.0
+    2027 Yearly: 7150.0
+    2028 Yearly: 7760.0
+    2029 Yearly: 8280.0
+eps:
+  quarterly:
+    Q3 2024: 1.26
+    Q4 2024: 1.73
+    Q1 2025: 1.7
+    Q2 2025: 1.86
+    Q3 2025: 1.25
+    Q4 2025: 1.28
+    Q1 2026: 1.87
+    Q2 2026: 1.85
+  annual:
+    2021 Yearly: 3.5
+    2022 Yearly: 3.97
+    2023 Yearly: 4.54
+    2024 Yearly: 6.47
+    2025 Yearly: 6.1
+  quarterly_forecast:
+    Q3 2024: 1.32
+    Q4 2024: 1.64
+    Q1 2025: 1.76
+    Q2 2025: 1.9
+    Q3 2025: 1.28
+    Q4 2025: 1.5
+    Q1 2026: 1.8
+    Q2 2026: 1.83
+    Q3 2026: 1.32
+    Q4 2026: 1.42
+    Q1 2027: 2.16
+    Q2 2027: 2.17
+  annual_forecast:
+    2021 Yearly: 3.43
+    2022 Yearly: 4.11
+    2023 Yearly: 4.53
+    2024 Yearly: 6.38
+    2025 Yearly: 6.31
+    2026 Yearly: 6.44
+    2027 Yearly: 7.67
+    2028 Yearly: 9.27
+    2029 Yearly: 9.62

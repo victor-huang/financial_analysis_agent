@@ -1,0 +1,79 @@
+currency: USD
+company_name: Nerdy Inc.
+sector: Technology Services
+market_cap_billions: 0.16071000000000002
+revenue:
+  quarterly:
+    Q3 2024: 37.53
+    Q4 2024: 48.0
+    Q1 2025: 47.59
+    Q2 2025: 45.26
+    Q3 2025: 37.0
+    Q4 2025: 49.1
+    Q1 2026: 48.73
+    Q2 2026: 43.3
+  annual:
+    2020 Yearly: 104.0
+    2021 Yearly: 140.66
+    2022 Yearly: 162.7
+    2023 Yearly: 193.4
+    2024 Yearly: 190.24
+    2025 Yearly: 179.0
+  quarterly_forecast:
+    Q3 2024: 36.55
+    Q4 2024: 44.87
+    Q1 2025: 46.09
+    Q2 2025: 46.46
+    Q3 2025: 38.76
+    Q4 2025: 45.8
+    Q1 2026: 47.33
+    Q2 2026: 43.0
+    Q3 2026: 39.73
+    Q4 2026: 51.07
+    Q1 2027: 53.1
+    Q2 2027: 51.57
+  annual_forecast:
+    2021 Yearly: 140.45
+    2022 Yearly: 160.9
+    2023 Yearly: 193.12
+    2024 Yearly: 187.16
+    2025 Yearly: 175.66
+    2026 Yearly: 182.52
+    2027 Yearly: 202.11
+    2028 Yearly: 235.2
+    2029 Yearly: 255.1
+eps:
+  quarterly:
+    Q3 2024: -0.14
+    Q4 2024: -0.06
+    Q1 2025: -0.09
+    Q2 2025: -0.04
+    Q3 2025: -0.1
+    Q4 2025: -0.08
+    Q1 2026: -0.03
+    Q2 2026: -0.05
+  annual:
+    2021 Yearly: -0.39
+    2022 Yearly: -0.41
+    2023 Yearly: 0.22
+    2024 Yearly: -0.23
+    2025 Yearly: -0.33
+  quarterly_forecast:
+    Q3 2024: -0.15
+    Q4 2024: -0.09
+    Q1 2025: -0.09
+    Q2 2025: -0.07
+    Q3 2025: -0.13
+    Q4 2025: -0.02
+    Q1 2026: -0.05
+    Q2 2026: -0.05
+    Q3 2026: -0.08
+    Q4 2026: -0.01
+    Q1 2027: -0.03
+    Q2 2027: -0.03
+  annual_forecast:
+    2023 Yearly: -0.37
+    2024 Yearly: -0.54
+    2025 Yearly: -0.07
+    2026 Yearly: -0.23
+    2027 Yearly: -0.22

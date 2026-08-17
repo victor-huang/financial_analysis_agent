@@ -1,0 +1,80 @@
+currency: USD
+company_name: Repay Holdings Corporation
+sector: Commercial Services
+market_cap_billions: 0.33737
+revenue:
+  quarterly:
+    Q3 2024: 79.14
+    Q4 2024: 78.27
+    Q1 2025: 77.33
+    Q2 2025: 75.63
+    Q3 2025: 77.72
+    Q4 2025: 78.58
+    Q1 2026: 80.79
+    Q2 2026: 100.7
+  annual:
+    2021 Yearly: 219.26
+    2022 Yearly: 279.23
+    2023 Yearly: 296.63
+    2024 Yearly: 313.04
+    2025 Yearly: 309.26
+  quarterly_forecast:
+    Q3 2024: 79.02
+    Q4 2024: 82.31
+    Q1 2025: 75.72
+    Q2 2025: 73.27
+    Q3 2025: 76.92
+    Q4 2025: 76.79
+    Q1 2026: 80.48
+    Q2 2026: 101.86
+    Q3 2026: 153.34
+    Q4 2026: 157.03
+    Q1 2027: 151.43
+    Q2 2027: 152.26
+  annual_forecast:
+    2021 Yearly: 220.73
+    2022 Yearly: 277.56
+    2023 Yearly: 290.84
+    2024 Yearly: 317.08
+    2025 Yearly: 307.56
+    2026 Yearly: 492.7
+    2027 Yearly: 627.33
+    2028 Yearly: 679.26
+eps:
+  quarterly:
+    Q3 2024: 0.22
+    Q4 2024: 0.24
+    Q1 2025: 0.22
+    Q2 2025: 0.2
+    Q3 2025: 0.21
+    Q4 2025: 0.19
+    Q1 2026: 0.22
+    Q2 2026: 0.2
+  annual:
+    2021 Yearly: 0.8
+    2022 Yearly: 0.83
+    2023 Yearly: 0.88
+    2024 Yearly: 0.92
+    2025 Yearly: 0.82
+  quarterly_forecast:
+    Q3 2024: 0.23
+    Q4 2024: 0.25
+    Q1 2025: 0.22
+    Q2 2025: 0.2
+    Q3 2025: 0.21
+    Q4 2025: 0.21
+    Q1 2026: 0.21
+    Q2 2026: 0.21
+    Q3 2026: 0.24
+    Q4 2026: 0.26
+    Q1 2027: 0.26
+    Q2 2027: 0.26
+  annual_forecast:
+    2021 Yearly: 0.74
+    2022 Yearly: 0.81
+    2023 Yearly: 0.81
+    2024 Yearly: 0.93
+    2025 Yearly: 0.84
+    2026 Yearly: 0.95
+    2027 Yearly: 1.06
+    2028 Yearly: 1.36

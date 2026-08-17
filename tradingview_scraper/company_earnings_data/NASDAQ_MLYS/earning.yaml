@@ -1,7 +1,7 @@
 currency: USD
 company_name: Mineralys Therapeutics, Inc.
 sector: Health Technology
-market_cap_billions: 2.37
+market_cap_billions: 2.41
 revenue:
   quarterly:
     Q3 2024: 0.0
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 0.0
     Q4 2025: 0.0
     Q1 2026: 0.0
+    Q2 2026: 0.0
   annual:
     2022 Yearly: 0.0
     2023 Yearly: 0.0
@@ -28,6 +29,7 @@ revenue:
     Q3 2026: 0.0
     Q4 2026: 0.0
     Q1 2027: 2.0
+    Q2 2027: 14.0
   annual_forecast:
     2022 Yearly: 0.0
     2023 Yearly: 0.0
@@ -46,6 +48,7 @@ eps:
     Q3 2025: -0.52
     Q4 2025: -0.4
     Q1 2026: -0.47
+    Q2 2026: -2.85
   annual:
     2022 Yearly: -5.77
     2023 Yearly: -1.99
@@ -63,6 +66,7 @@ eps:
     Q3 2026: -0.57
     Q4 2026: -0.65
     Q1 2027: -0.79
+    Q2 2027: -0.65
   annual_forecast:
     2022 Yearly: -4.45
     2023 Yearly: -2.28

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Grandstand Limited
+sector: Commercial Services
+market_cap_billions: 0.06633
+revenue:
+  quarterly:
+    Q3 2024: 32.12
+    Q4 2024: 35.31
+    Q1 2025: 40.63
+    Q2 2025: 39.59
+    Q3 2025: 38.98
+    Q4 2025: 46.24
+    Q1 2026: 40.44
+  annual:
+    2021 Yearly: 42.32
+    2022 Yearly: 76.51
+    2023 Yearly: 108.65
+    2024 Yearly: 127.18
+    2025 Yearly: 165.45
+  quarterly_forecast:
+    Q3 2024: 30.4
+    Q4 2024: 34.79
+    Q1 2025: 40.14
+    Q2 2025: 38.95
+    Q3 2025: 41.04
+    Q4 2025: 46.6
+    Q1 2026: 40.21
+    Q2 2026: 37.54
+    Q3 2026: 41.56
+    Q4 2026: 45.87
+    Q1 2027: 43.31
+  annual_forecast:
+    2021 Yearly: 42.36
+    2022 Yearly: 73.56
+    2023 Yearly: 103.79
+    2024 Yearly: 126.73
+    2025 Yearly: 165.74
+    2026 Yearly: 165.24
+    2027 Yearly: 177.79
+    2028 Yearly: 198.31
+    2029 Yearly: 241.57
+eps:
+  quarterly:
+    Q3 2024: 0.25
+    Q4 2024: 0.35
+    Q1 2025: 0.46
+    Q2 2025: 0.37
+    Q3 2025: 0.26
+    Q4 2025: -0.77
+    Q1 2026: 0.09
+  annual:
+    2021 Yearly: 0.37
+    2022 Yearly: 0.37
+    2023 Yearly: 0.68
+    2024 Yearly: 1.16
+    2025 Yearly: -0.93
+  quarterly_forecast:
+    Q3 2024: 0.18
+    Q4 2024: 0.24
+    Q1 2025: 0.24
+    Q2 2025: 0.16
+    Q3 2025: 0.19
+    Q4 2025: 0.18
+    Q1 2026: 0.06
+    Q2 2026: 0.0
+    Q3 2026: 0.12
+    Q4 2026: 0.2
+    Q1 2027: 0.14
+  annual_forecast:
+    2021 Yearly: 0.37
+    2022 Yearly: 0.25
+    2023 Yearly: 0.56
+    2024 Yearly: 0.87
+    2025 Yearly: 0.67
+    2026 Yearly: 0.34
+    2027 Yearly: 0.64
+    2028 Yearly: 0.9
+    2029 Yearly: 1.38

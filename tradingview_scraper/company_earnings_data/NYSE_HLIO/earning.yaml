@@ -1,0 +1,82 @@
+currency: USD
+company_name: Helios Technologies, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 2.69
+revenue:
+  quarterly:
+    Q3 2024: 194.5
+    Q4 2024: 179.5
+    Q1 2025: 195.5
+    Q2 2025: 212.5
+    Q3 2025: 220.3
+    Q4 2025: 210.7
+    Q1 2026: 228.4
+    Q2 2026: 231.9
+  annual:
+    2021 Yearly: 869.2
+    2022 Yearly: 885.4
+    2023 Yearly: 835.6
+    2024 Yearly: 805.9
+    2025 Yearly: 839.0
+  quarterly_forecast:
+    Q3 2024: 196.41
+    Q4 2024: 176.17
+    Q1 2025: 187.56
+    Q2 2025: 202.99
+    Q3 2025: 211.75
+    Q4 2025: 196.96
+    Q1 2026: 220.07
+    Q2 2026: 230.66
+    Q3 2026: 208.17
+    Q4 2026: 203.56
+    Q1 2027: 237.4
+    Q2 2027: 240.7
+  annual_forecast:
+    2021 Yearly: 855.09
+    2022 Yearly: 896.97
+    2023 Yearly: 826.07
+    2024 Yearly: 802.57
+    2025 Yearly: 825.26
+    2026 Yearly: 870.9
+    2027 Yearly: 918.61
+    2028 Yearly: 962.5
+    2029 Yearly: 1020.0
+eps:
+  quarterly:
+    Q3 2024: 0.59
+    Q4 2024: 0.33
+    Q1 2025: 0.44
+    Q2 2025: 0.59
+    Q3 2025: 0.72
+    Q4 2025: 0.81
+    Q1 2026: 0.8
+    Q2 2026: 0.88
+  annual:
+    2021 Yearly: 4.25
+    2022 Yearly: 4.03
+    2023 Yearly: 2.34
+    2024 Yearly: 2.1
+    2025 Yearly: 2.56
+  quarterly_forecast:
+    Q3 2024: 0.54
+    Q4 2024: 0.35
+    Q1 2025: 0.36
+    Q2 2025: 0.51
+    Q3 2025: 0.66
+    Q4 2025: 0.72
+    Q1 2026: 0.69
+    Q2 2026: 0.8
+    Q3 2026: 0.69
+    Q4 2026: 0.66
+    Q1 2027: 0.85
+    Q2 2027: 0.95
+  annual_forecast:
+    2021 Yearly: 4.08
+    2022 Yearly: 3.99
+    2023 Yearly: 2.24
+    2024 Yearly: 2.11
+    2025 Yearly: 2.53
+    2026 Yearly: 2.96
+    2027 Yearly: 3.39
+    2028 Yearly: 3.77
+    2029 Yearly: 4.29

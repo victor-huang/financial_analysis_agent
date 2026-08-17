@@ -1,0 +1,74 @@
+currency: USD
+company_name: CAVA Group, Inc.
+sector: Consumer Services
+market_cap_billions: 7.08
+revenue:
+  quarterly:
+    Q2 2023: 172.89
+    Q3 2023: 175.55
+    Q4 2023: 177.17
+    Q3 2024: 243.82
+    Q4 2024: 227.4
+    Q3 2025: 292.24
+    Q4 2025: 274.99
+    Q1 2026: 368.44
+  annual:
+    2023 Yearly: 728.7
+    2024 Yearly: 963.71
+    2025 Yearly: 1180.0
+  quarterly_forecast:
+    Q2 2023: 163.21
+    Q3 2023: 171.49
+    Q4 2023: 174.27
+    Q3 2024: 233.05
+    Q4 2024: 223.35
+    Q3 2025: 292.01
+    Q4 2025: 268.39
+    Q1 2026: 360.09
+    Q2 2026: 361.57
+    Q3 2026: 337.55
+    Q4 2026: 527.73
+    Q1 2027: 432.04
+  annual_forecast:
+    2023 Yearly: 726.14
+    2024 Yearly: 960.86
+    2025 Yearly: 1170.0
+    2026 Yearly: 1500.0
+    2027 Yearly: 1810.0
+    2028 Yearly: 2200.0
+    2029 Yearly: 2550.0
+eps:
+  quarterly:
+    Q2 2023: 0.21
+    Q3 2023: 0.06
+    Q4 2023: 0.02
+    Q3 2024: 0.15
+    Q4 2024: 0.05
+    Q3 2025: 0.12
+    Q4 2025: 0.04
+    Q1 2026: 0.19
+  annual:
+    2023 Yearly: 0.21
+    2024 Yearly: 0.42
+    2025 Yearly: 0.54
+  quarterly_forecast:
+    Q2 2023: -0.02
+    Q3 2023: -0.01
+    Q4 2023: 0.0
+    Q3 2024: 0.11
+    Q4 2024: 0.06
+    Q3 2025: 0.13
+    Q4 2025: 0.03
+    Q1 2026: 0.18
+    Q2 2026: 0.13
+    Q3 2026: 0.03
+    Q4 2026: 0.25
+    Q1 2027: 0.23
+  annual_forecast:
+    2023 Yearly: 0.11
+    2024 Yearly: 0.5
+    2025 Yearly: 0.53
+    2026 Yearly: 0.55
+    2027 Yearly: 0.75
+    2028 Yearly: 1.06
+    2029 Yearly: 1.38

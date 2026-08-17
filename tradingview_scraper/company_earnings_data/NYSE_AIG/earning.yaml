@@ -1,0 +1,80 @@
+currency: USD
+company_name: American International Group, Inc. New
+sector: Finance
+market_cap_billions: 42.4
+revenue:
+  quarterly:
+    Q3 2024: 6750.0
+    Q4 2024: 7010.0
+    Q1 2025: 6700.0
+    Q2 2025: 6860.0
+    Q3 2025: 6870.0
+    Q4 2025: 6740.0
+    Q1 2026: 6780.0
+    Q2 2026: 7220.0
+  annual:
+    2021 Yearly: 47620.0
+    2022 Yearly: 46100.0
+    2023 Yearly: 47860.0
+    2024 Yearly: 27150.0
+    2025 Yearly: 26770.0
+  quarterly_forecast:
+    Q3 2024: 6730.0
+    Q4 2024: 6750.0
+    Q1 2025: 6820.0
+    Q2 2025: 6840.0
+    Q3 2025: 6810.0
+    Q4 2025: 6910.0
+    Q1 2026: 7030.0
+    Q2 2026: 7250.0
+    Q3 2026: 7510.0
+    Q4 2026: 7680.0
+    Q1 2027: 7840.0
+    Q2 2027: 7930.0
+  annual_forecast:
+    2021 Yearly: 46800.0
+    2022 Yearly: 47240.0
+    2023 Yearly: 49070.0
+    2024 Yearly: 27640.0
+    2025 Yearly: 27210.0
+    2026 Yearly: 29220.0
+    2027 Yearly: 31860.0
+    2028 Yearly: 33230.0
+eps:
+  quarterly:
+    Q3 2024: 1.23
+    Q4 2024: 1.3
+    Q1 2025: 1.17
+    Q2 2025: 1.81
+    Q3 2025: 2.2
+    Q4 2025: 1.96
+    Q1 2026: 2.11
+    Q2 2026: 2.0
+  annual:
+    2021 Yearly: 5.12
+    2022 Yearly: 4.55
+    2023 Yearly: 6.79
+    2024 Yearly: 4.95
+    2025 Yearly: 7.09
+  quarterly_forecast:
+    Q3 2024: 1.1
+    Q4 2024: 1.24
+    Q1 2025: 1.0
+    Q2 2025: 1.6
+    Q3 2025: 1.72
+    Q4 2025: 1.9
+    Q1 2026: 1.88
+    Q2 2026: 1.92
+    Q3 2026: 1.82
+    Q4 2026: 2.12
+    Q1 2027: 2.27
+    Q2 2027: 2.23
+  annual_forecast:
+    2021 Yearly: 4.73
+    2022 Yearly: 4.48
+    2023 Yearly: 6.66
+    2024 Yearly: 5.05
+    2025 Yearly: 7.04
+    2026 Yearly: 7.99
+    2027 Yearly: 8.86
+    2028 Yearly: 9.47

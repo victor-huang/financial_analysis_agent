@@ -1,0 +1,38 @@
+currency: USD
+company_name: HawkEye 360, Inc.
+sector: Technology Services
+market_cap_billions: 2.42
+revenue:
+  quarterly:
+    Q4 2025: 35.8
+    Q1 2026: 49.8
+  annual:
+    2025 Yearly: 117.66
+  quarterly_forecast:
+    Q1 2026: 49.23
+    Q2 2026: 45.62
+    Q3 2026: 57.93
+    Q4 2026: 60.91
+    Q1 2027: 63.35
+  annual_forecast:
+    2026 Yearly: 213.78
+    2027 Yearly: 267.76
+    2028 Yearly: 329.42
+    2029 Yearly: 400.57
+eps:
+  quarterly:
+    Q4 2025: 0.01
+    Q1 2026: -1.14
+  annual:
+    2025 Yearly: 0.01
+  quarterly_forecast:
+    Q1 2026: -0.07
+    Q2 2026: -0.11
+    Q3 2026: 0.03
+    Q4 2026: 0.03
+    Q1 2027: 0.04
+  annual_forecast:
+    2026 Yearly: -0.13
+    2027 Yearly: 0.12
+    2028 Yearly: 0.35
+    2029 Yearly: 0.66

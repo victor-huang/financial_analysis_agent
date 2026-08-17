@@ -1,0 +1,72 @@
+currency: USD
+company_name: Hyliion Holdings Corp.
+sector: Producer Manufacturing
+market_cap_billions: 0.69904
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 1.51
+    Q2 2025: 1.51
+    Q1 2026: 2.83
+    Q2 2026: 4.94
+  annual:
+    2023 Yearly: 2.11
+    2025 Yearly: 1.51
+    2026 Yearly: 3.48
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q1 2025: 1.1
+    Q2 2025: 1.6
+    Q3 2025: 1.65
+    Q4 2025: 1.05
+    Q1 2026: 1.1
+    Q2 2026: 2.4
+    Q3 2026: 2.5
+    Q4 2026: 4.0
+    Q1 2027: 5.15
+    Q2 2027: 6.4
+  annual_forecast:
+    2024 Yearly: 1.79
+    2025 Yearly: 1.4
+    2027 Yearly: 3.75
+    2028 Yearly: 11.65
+    2029 Yearly: 29.55
+eps:
+  quarterly:
+    Q3 2024: -0.06
+    Q4 2024: -0.08
+    Q1 2025: -0.1
+    Q2 2025: -0.08
+    Q3 2025: -0.08
+    Q4 2025: -0.07
+    Q1 2026: -0.07
+    Q2 2026: -0.08
+  annual:
+    2021 Yearly: -0.56
+    2022 Yearly: -0.87
+    2023 Yearly: -0.68
+    2024 Yearly: -0.3
+    2025 Yearly: -0.33
+  quarterly_forecast:
+    Q3 2024: -0.07
+    Q4 2024: -0.07
+    Q1 2025: -0.08
+    Q2 2025: -0.09
+    Q3 2025: -0.09
+    Q4 2025: -0.08
+    Q1 2026: -0.08
+    Q2 2026: -0.08
+    Q3 2026: -0.08
+    Q4 2026: -0.08
+    Q1 2027: -0.09
+    Q2 2027: -0.1
+  annual_forecast:
+    2021 Yearly: -0.63
+    2022 Yearly: -0.84
+    2023 Yearly: -0.63
+    2024 Yearly: -0.28
+    2025 Yearly: -0.33
+    2026 Yearly: -0.31
+    2027 Yearly: -0.37
+    2028 Yearly: -0.16
+    2029 Yearly: -0.01

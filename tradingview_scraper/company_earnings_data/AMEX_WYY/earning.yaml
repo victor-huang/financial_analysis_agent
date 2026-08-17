@@ -1,0 +1,76 @@
+currency: USD
+company_name: WidePoint Corporation
+sector: Technology Services
+market_cap_billions: 0.11359999999999999
+revenue:
+  quarterly:
+    Q3 2024: 34.62
+    Q4 2024: 37.7
+    Q1 2025: 34.22
+    Q2 2025: 37.88
+    Q3 2025: 36.13
+    Q4 2025: 42.32
+    Q1 2026: 40.58
+  annual:
+    2021 Yearly: 87.34
+    2022 Yearly: 94.1
+    2023 Yearly: 106.0
+    2024 Yearly: 142.57
+    2025 Yearly: 150.55
+  quarterly_forecast:
+    Q3 2024: 30.41
+    Q4 2024: 31.08
+    Q1 2025: 38.56
+    Q2 2025: 39.93
+    Q3 2025: 39.64
+    Q4 2025: 40.28
+    Q1 2026: 37.87
+    Q2 2026: 41.83
+    Q3 2026: 42.27
+    Q4 2026: 46.44
+    Q1 2027: 49.28
+  annual_forecast:
+    2021 Yearly: 85.28
+    2022 Yearly: 95.54
+    2023 Yearly: 104.16
+    2024 Yearly: 135.95
+    2025 Yearly: 148.49
+    2026 Yearly: 171.13
+    2027 Yearly: 208.86
+    2028 Yearly: 223.0
+eps:
+  quarterly:
+    Q3 2024: -0.04
+    Q4 2024: -0.04
+    Q1 2025: -0.08
+    Q2 2025: -0.06
+    Q3 2025: -0.06
+    Q4 2025: -0.09
+    Q1 2026: 0.01
+  annual:
+    2021 Yearly: 0.04
+    2022 Yearly: -2.7
+    2023 Yearly: -0.46
+    2024 Yearly: -0.21
+    2025 Yearly: -0.28
+  quarterly_forecast:
+    Q3 2024: -0.07
+    Q4 2024: -0.07
+    Q1 2025: -0.01
+    Q2 2025: 0.0
+    Q3 2025: -0.05
+    Q4 2025: -0.01
+    Q1 2026: -0.12
+    Q2 2026: 0.04
+    Q3 2026: 0.06
+    Q4 2026: 0.04
+    Q1 2027: 0.22
+  annual_forecast:
+    2021 Yearly: 0.06
+    2022 Yearly: -1.66
+    2023 Yearly: 0.01
+    2024 Yearly: -0.24
+    2025 Yearly: -0.19
+    2026 Yearly: 0.14
+    2027 Yearly: 1.17
+    2028 Yearly: 1.25

@@ -1,0 +1,74 @@
+currency: USD
+company_name: Curis, Inc.
+sector: Health Technology
+market_cap_billions: 0.00325
+revenue:
+  quarterly:
+    Q3 2024: 2.93
+    Q4 2024: 3.35
+    Q1 2025: 2.38
+    Q2 2025: 2.75
+    Q3 2025: 3.18
+    Q4 2025: 1.14
+    Q1 2026: 0.0
+  annual:
+    2021 Yearly: 10.65
+    2022 Yearly: 10.16
+    2023 Yearly: 10.02
+    2024 Yearly: 10.91
+    2025 Yearly: 9.44
+  quarterly_forecast:
+    Q4 2024: 2.27
+    Q1 2025: 2.21
+    Q2 2025: 2.65
+    Q3 2025: 2.64
+    Q4 2025: 2.86
+    Q1 2026: 3.25
+    Q2 2026: 1.69
+    Q3 2026: 1.0
+  annual_forecast:
+    2021 Yearly: 10.66
+    2022 Yearly: 10.4
+    2023 Yearly: 10.3
+    2024 Yearly: 9.87
+    2025 Yearly: 11.49
+    2026 Yearly: 1.75
+    2027 Yearly: 12.33
+    2028 Yearly: 29.06
+    2029 Yearly: 117.0
+eps:
+  quarterly:
+    Q3 2024: -34.0
+    Q4 2024: -25.0
+    Q1 2025: -25.0
+    Q2 2025: -13.6
+    Q3 2025: -9.8
+    Q4 2025: 24.6
+    Q1 2026: -25.0
+  annual:
+    2021 Yearly: -200.0
+    2022 Yearly: -244.0
+    2023 Yearly: -179.2
+    2024 Yearly: -137.6
+    2025 Yearly: -11.6
+  quarterly_forecast:
+    Q3 2024: -36.6
+    Q4 2024: -26.8
+    Q1 2025: -22.12
+    Q2 2025: -27.2
+    Q3 2025: -11.56
+    Q4 2025: -8.72
+    Q1 2026: -6.53
+    Q2 2026: -6.96
+    Q3 2026: -6.65
+    Q4 2026: -0.57
+  annual_forecast:
+    2021 Yearly: -190.67
+    2022 Yearly: -248.8
+    2023 Yearly: -176.3
+    2024 Yearly: -138.55
+    2025 Yearly: -50.4
+    2026 Yearly: -40.18
+    2027 Yearly: -14.67
+    2028 Yearly: -3.87
+    2029 Yearly: 33.6

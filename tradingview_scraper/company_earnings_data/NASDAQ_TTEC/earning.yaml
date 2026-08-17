@@ -1,7 +1,7 @@
 currency: USD
 company_name: TTEC Holdings, Inc.
 sector: Technology Services
-market_cap_billions: 0.12846000000000002
+market_cap_billions: 0.11337
 revenue:
   quarterly:
     Q3 2024: 529.43
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 519.14
     Q4 2025: 569.96
     Q1 2026: 496.18
+    Q2 2026: 455.5
   annual:
     2021 Yearly: 2270.0
     2022 Yearly: 2440.0
@@ -25,10 +26,11 @@ revenue:
     Q3 2025: 497.91
     Q4 2025: 514.54
     Q1 2026: 493.69
-    Q2 2026: 478.23
-    Q3 2026: 499.23
-    Q4 2026: 556.29
-    Q1 2027: 493.51
+    Q2 2026: 477.94
+    Q3 2026: 499.97
+    Q4 2026: 555.28
+    Q1 2027: 491.72
+    Q2 2027: 478.42
   annual_forecast:
     2021 Yearly: 2250.0
     2022 Yearly: 2410.0
@@ -36,7 +38,7 @@ revenue:
     2024 Yearly: 2220.0
     2025 Yearly: 2080.0
     2026 Yearly: 2029.9999999999998
-    2027 Yearly: 2029.9999999999998
+    2027 Yearly: 2050.0
     2028 Yearly: 1930.0
 eps:
   quarterly:
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.12
     Q4 2025: 0.47
     Q1 2026: 0.15
+    Q2 2026: 0.03
   annual:
     2021 Yearly: 4.62
     2022 Yearly: 3.68
@@ -61,10 +64,11 @@ eps:
     Q3 2025: 0.23
     Q4 2025: 0.36
     Q1 2026: 0.24
-    Q2 2026: 0.24
-    Q3 2026: 0.33
+    Q2 2026: 0.23
+    Q3 2026: 0.34
     Q4 2026: 0.45
-    Q1 2027: 0.26
+    Q1 2027: 0.28
+    Q2 2027: 0.24
   annual_forecast:
     2021 Yearly: 4.52
     2022 Yearly: 3.54
@@ -72,5 +76,5 @@ eps:
     2024 Yearly: 0.72
     2025 Yearly: 1.07
     2026 Yearly: 1.16
-    2027 Yearly: 1.25
+    2027 Yearly: 1.22
     2028 Yearly: 1.37

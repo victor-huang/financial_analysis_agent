@@ -1,0 +1,82 @@
+currency: USD
+company_name: iRhythm Holdings, Inc.
+sector: Health Technology
+market_cap_billions: 4.21
+revenue:
+  quarterly:
+    Q3 2024: 147.54
+    Q4 2024: 164.32
+    Q1 2025: 158.68
+    Q2 2025: 186.69
+    Q3 2025: 192.88
+    Q4 2025: 208.89
+    Q1 2026: 199.39
+    Q2 2026: 224.17
+  annual:
+    2021 Yearly: 322.82
+    2022 Yearly: 410.92
+    2023 Yearly: 492.68
+    2024 Yearly: 591.84
+    2025 Yearly: 747.14
+  quarterly_forecast:
+    Q3 2024: 147.0
+    Q4 2024: 158.1
+    Q1 2025: 153.38
+    Q2 2025: 173.98
+    Q3 2025: 184.77
+    Q4 2025: 201.9
+    Q1 2026: 194.11
+    Q2 2026: 219.3
+    Q3 2026: 221.77
+    Q4 2026: 240.68
+    Q1 2027: 231.7
+    Q2 2027: 254.0
+  annual_forecast:
+    2021 Yearly: 319.68
+    2022 Yearly: 408.46
+    2023 Yearly: 490.37
+    2024 Yearly: 585.34
+    2025 Yearly: 739.92
+    2026 Yearly: 881.14
+    2027 Yearly: 1020.0
+    2028 Yearly: 1180.0
+    2029 Yearly: 1380.0
+eps:
+  quarterly:
+    Q3 2024: -1.48
+    Q4 2024: -0.04
+    Q1 2025: -0.97
+    Q2 2025: -0.44
+    Q3 2025: -0.16
+    Q4 2025: 0.17
+    Q1 2026: -0.43
+    Q2 2026: -0.01
+  annual:
+    2021 Yearly: -3.46
+    2022 Yearly: -3.88
+    2023 Yearly: -4.04
+    2024 Yearly: -3.63
+    2025 Yearly: -1.39
+  quarterly_forecast:
+    Q3 2024: -0.79
+    Q4 2024: -0.33
+    Q1 2025: -0.96
+    Q2 2025: -0.48
+    Q3 2025: -0.33
+    Q4 2025: 0.01
+    Q1 2026: -0.66
+    Q2 2026: -0.04
+    Q3 2026: 0.05
+    Q4 2026: 0.39
+    Q1 2027: -0.2
+    Q2 2027: 0.21
+  annual_forecast:
+    2021 Yearly: -3.52
+    2022 Yearly: -3.46
+    2023 Yearly: -3.12
+    2024 Yearly: -3.67
+    2025 Yearly: -1.5
+    2026 Yearly: -0.01
+    2027 Yearly: 1.12
+    2028 Yearly: 2.34
+    2029 Yearly: 4.1

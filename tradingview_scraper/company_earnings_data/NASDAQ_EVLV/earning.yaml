@@ -1,0 +1,74 @@
+currency: USD
+company_name: Evolv Technologies Holdings, Inc.
+sector: Electronic Technology
+market_cap_billions: 1.08
+revenue:
+  quarterly:
+    Q3 2024: 25.77
+    Q4 2024: 29.1
+    Q1 2025: 32.01
+    Q2 2025: 32.54
+    Q3 2025: 42.85
+    Q4 2025: 38.5
+    Q1 2026: 46.33
+  annual:
+    2021 Yearly: 23.69
+    2022 Yearly: 55.2
+    2023 Yearly: 80.42
+    2024 Yearly: 103.86
+    2025 Yearly: 145.91
+  quarterly_forecast:
+    Q3 2024: 26.2
+    Q4 2024: 27.83
+    Q1 2025: 27.99
+    Q2 2025: 30.93
+    Q3 2025: 33.67
+    Q4 2025: 36.45
+    Q1 2026: 44.23
+    Q2 2026: 41.8
+    Q3 2026: 43.81
+    Q4 2026: 45.05
+    Q1 2027: 48.79
+  annual_forecast:
+    2021 Yearly: 22.09
+    2022 Yearly: 47.16
+    2023 Yearly: 77.07
+    2024 Yearly: 101.19
+    2025 Yearly: 143.75
+    2026 Yearly: 177.17
+    2027 Yearly: 209.23
+    2028 Yearly: 277.1
+eps:
+  quarterly:
+    Q3 2024: -0.07
+    Q4 2024: -0.03
+    Q1 2025: -0.02
+    Q2 2025: -0.02
+    Q3 2025: -0.02
+    Q4 2025: -0.03
+    Q1 2026: -0.02
+  annual:
+    2021 Yearly: -0.15
+    2022 Yearly: -0.5
+    2023 Yearly: -0.36
+    2024 Yearly: -0.23
+    2025 Yearly: -0.1
+  quarterly_forecast:
+    Q3 2024: -0.08
+    Q4 2024: -0.07
+    Q1 2025: -0.04
+    Q2 2025: -0.04
+    Q3 2025: -0.03
+    Q4 2025: -0.04
+    Q1 2026: -0.03
+    Q2 2026: -0.03
+    Q3 2026: -0.03
+    Q4 2026: -0.02
+    Q1 2027: -0.02
+  annual_forecast:
+    2022 Yearly: -0.26
+    2023 Yearly: -0.52
+    2024 Yearly: -0.46
+    2025 Yearly: -0.27
+    2026 Yearly: -0.15
+    2027 Yearly: -0.09

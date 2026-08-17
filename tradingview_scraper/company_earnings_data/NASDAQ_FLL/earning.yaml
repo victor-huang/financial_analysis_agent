@@ -1,0 +1,76 @@
+currency: USD
+company_name: Full House Resorts, Inc.
+sector: Consumer Services
+market_cap_billions: 0.08051
+revenue:
+  quarterly:
+    Q3 2024: 75.69
+    Q4 2024: 72.96
+    Q1 2025: 75.06
+    Q2 2025: 73.95
+    Q3 2025: 77.95
+    Q4 2025: 75.42
+    Q1 2026: 74.42
+  annual:
+    2021 Yearly: 180.16
+    2022 Yearly: 163.28
+    2023 Yearly: 241.06
+    2024 Yearly: 292.06
+    2025 Yearly: 302.38
+  quarterly_forecast:
+    Q3 2024: 79.06
+    Q4 2024: 72.45
+    Q1 2025: 74.09
+    Q2 2025: 77.82
+    Q3 2025: 76.7
+    Q4 2025: 76.2
+    Q1 2026: 77.22
+    Q2 2026: 78.42
+    Q3 2026: 82.0
+    Q4 2026: 79.5
+    Q1 2027: 79.7
+  annual_forecast:
+    2021 Yearly: 180.17
+    2022 Yearly: 166.73
+    2023 Yearly: 244.15
+    2024 Yearly: 291.58
+    2025 Yearly: 303.14
+    2026 Yearly: 314.99
+    2027 Yearly: 331.25
+    2028 Yearly: 377.31
+eps:
+  quarterly:
+    Q3 2024: -0.24
+    Q4 2024: -0.35
+    Q1 2025: -0.27
+    Q2 2025: -0.29
+    Q3 2025: -0.21
+    Q4 2025: -0.34
+    Q1 2026: -0.23
+  annual:
+    2021 Yearly: 0.33
+    2022 Yearly: -0.43
+    2023 Yearly: -0.72
+    2024 Yearly: -1.16
+    2025 Yearly: -1.12
+  quarterly_forecast:
+    Q3 2024: -0.11
+    Q4 2024: -0.35
+    Q1 2025: -0.29
+    Q2 2025: -0.2
+    Q3 2025: -0.2
+    Q4 2025: -0.23
+    Q1 2026: -0.24
+    Q2 2026: -0.17
+    Q3 2026: -0.15
+    Q4 2026: -0.27
+    Q1 2027: -0.24
+  annual_forecast:
+    2021 Yearly: 0.26
+    2022 Yearly: -0.33
+    2023 Yearly: -0.47
+    2024 Yearly: -1.16
+    2025 Yearly: -1.02
+    2026 Yearly: -0.82
+    2027 Yearly: -0.82
+    2028 Yearly: -1.37

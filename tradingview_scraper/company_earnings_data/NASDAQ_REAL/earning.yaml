@@ -1,0 +1,80 @@
+currency: USD
+company_name: The RealReal, Inc.
+sector: Retail Trade
+market_cap_billions: 1.54
+revenue:
+  quarterly:
+    Q3 2024: 147.75
+    Q4 2024: 164.0
+    Q1 2025: 160.03
+    Q2 2025: 165.19
+    Q3 2025: 173.57
+    Q4 2025: 194.05
+    Q1 2026: 189.72
+    Q2 2026: 192.57
+  annual:
+    2021 Yearly: 467.69
+    2022 Yearly: 603.49
+    2023 Yearly: 549.3
+    2024 Yearly: 600.48
+    2025 Yearly: 692.85
+  quarterly_forecast:
+    Q3 2024: 143.63
+    Q4 2024: 163.73
+    Q1 2025: 159.81
+    Q2 2025: 159.7
+    Q3 2025: 170.26
+    Q4 2025: 190.69
+    Q1 2026: 188.39
+    Q2 2026: 188.11
+    Q3 2026: 190.96
+    Q4 2026: 212.0
+    Q1 2027: 208.18
+    Q2 2027: 209.14
+  annual_forecast:
+    2021 Yearly: 457.63
+    2022 Yearly: 598.02
+    2023 Yearly: 548.69
+    2024 Yearly: 600.19
+    2025 Yearly: 689.48
+    2026 Yearly: 780.84
+    2027 Yearly: 862.23
+    2028 Yearly: 944.29
+eps:
+  quarterly:
+    Q3 2024: -0.09
+    Q4 2024: -0.01
+    Q1 2025: -0.08
+    Q2 2025: -0.06
+    Q3 2025: -0.04
+    Q4 2025: 0.06
+    Q1 2026: -0.01
+    Q2 2026: -0.01
+  annual:
+    2021 Yearly: -1.88
+    2022 Yearly: -1.53
+    2023 Yearly: -0.87
+    2024 Yearly: -0.35
+    2025 Yearly: -0.12
+  quarterly_forecast:
+    Q3 2024: -0.12
+    Q4 2024: -0.04
+    Q1 2025: -0.1
+    Q2 2025: -0.09
+    Q3 2025: -0.07
+    Q4 2025: 0.04
+    Q1 2026: -0.01
+    Q2 2026: -0.02
+    Q3 2026: -0.01
+    Q4 2026: 0.1
+    Q1 2027: 0.02
+    Q2 2027: 0.02
+  annual_forecast:
+    2021 Yearly: -2.04
+    2022 Yearly: -1.77
+    2023 Yearly: -1.11
+    2024 Yearly: -0.46
+    2025 Yearly: -0.14
+    2026 Yearly: 0.06
+    2027 Yearly: 0.23
+    2028 Yearly: 0.39

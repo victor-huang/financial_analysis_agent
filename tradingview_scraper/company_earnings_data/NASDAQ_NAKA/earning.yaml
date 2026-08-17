@@ -1,0 +1,38 @@
+currency: USD
+company_name: Nakamoto Inc.
+sector: Health Services
+market_cap_billions: 0.08597
+revenue:
+  quarterly:
+    Q1 2027: 2.68
+  annual:
+    2025 Yearly: 1.82
+  quarterly_forecast: {}
+  annual_forecast:
+    2025 Yearly: 1.8
+    2026 Yearly: 41.83
+    2027 Yearly: 55.7
+    2028 Yearly: 99.0
+eps:
+  quarterly:
+    Q1 2025: -6.8
+    Q2 2025: -14.0
+    Q3 2025: -16.8
+    Q4 2025: 2.8
+    Q1 2026: -15.2
+  annual:
+    2025 Yearly: -10.4
+  quarterly_forecast:
+    Q2 2025: -14.0
+    Q3 2025: -0.4
+    Q4 2025: -0.6
+    Q1 2026: -0.2
+    Q2 2026: -0.6
+    Q3 2026: -0.41
+    Q4 2026: -0.5
+    Q1 2027: -0.87
+  annual_forecast:
+    2025 Yearly: -21.2
+    2026 Yearly: -6.17
+    2027 Yearly: -0.9
+    2028 Yearly: 0.75

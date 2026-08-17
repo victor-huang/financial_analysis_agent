@@ -1,0 +1,26 @@
+currency: USD
+company_name: Cerebras Systems Inc.
+sector: Technology Services
+market_cap_billions: 72.65
+revenue:
+  quarterly:
+    Q1 2026: 191.35
+  annual: {}
+  quarterly_forecast:
+    Q1 2026: 181.2
+    Q2 2026: 190.58
+    Q3 2026: 210.21
+    Q4 2026: 270.75
+    Q1 2027: 402.38
+  annual_forecast: {}
+eps:
+  quarterly:
+    Q1 2026: -0.04
+  annual: {}
+  quarterly_forecast:
+    Q1 2026: -0.16
+    Q2 2026: -0.17
+    Q3 2026: -0.3
+    Q4 2026: -0.36
+    Q1 2027: -0.15
+  annual_forecast: {}

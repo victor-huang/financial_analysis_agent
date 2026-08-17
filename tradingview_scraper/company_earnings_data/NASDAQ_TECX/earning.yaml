@@ -1,0 +1,78 @@
+currency: USD
+company_name: Tectonic Therapeutic, Inc.
+sector: Commercial Services
+market_cap_billions: 0.57023
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+  annual_forecast:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 0.0
+    2028 Yearly: 0.0
+    2029 Yearly: 41.67
+eps:
+  quarterly:
+    Q3 2024: -1.2
+    Q4 2024: -0.84
+    Q1 2025: -0.93
+    Q2 2025: -1.07
+    Q3 2025: -1.02
+    Q4 2025: -1.03
+    Q1 2026: -1.34
+  annual:
+    2021 Yearly: -33.36
+    2022 Yearly: -29.04
+    2023 Yearly: -18.04
+    2024 Yearly: -6.83
+    2025 Yearly: -4.05
+  quarterly_forecast:
+    Q3 2024: -0.84
+    Q4 2024: -1.39
+    Q1 2025: -1.09
+    Q2 2025: -0.98
+    Q3 2025: -1.06
+    Q4 2025: -1.09
+    Q1 2026: -1.17
+    Q2 2026: -1.35
+    Q3 2026: -1.37
+    Q4 2026: -1.28
+    Q1 2027: -1.32
+  annual_forecast:
+    2021 Yearly: -34.42
+    2022 Yearly: -27.58
+    2023 Yearly: 1.5
+    2024 Yearly: -8.07
+    2025 Yearly: -4.17
+    2026 Yearly: -5.33
+    2027 Yearly: -5.68
+    2028 Yearly: -6.39
+    2029 Yearly: -7.21

@@ -1,0 +1,82 @@
+currency: USD
+company_name: Sweetgreen, Inc.
+sector: Consumer Services
+market_cap_billions: 0.69752
+revenue:
+  quarterly:
+    Q3 2024: 173.43
+    Q4 2024: 160.9
+    Q1 2025: 166.3
+    Q2 2025: 185.58
+    Q3 2025: 172.39
+    Q4 2025: 155.19
+    Q1 2026: 161.52
+    Q2 2026: 192.66
+  annual:
+    2021 Yearly: 339.87
+    2022 Yearly: 470.11
+    2023 Yearly: 584.04
+    2024 Yearly: 676.83
+    2025 Yearly: 679.47
+  quarterly_forecast:
+    Q3 2024: 175.46
+    Q4 2024: 161.96
+    Q1 2025: 165.09
+    Q2 2025: 191.73
+    Q3 2025: 176.92
+    Q4 2025: 158.8
+    Q1 2026: 163.94
+    Q2 2026: 194.5
+    Q3 2026: 183.86
+    Q4 2026: 167.31
+    Q1 2027: 174.93
+    Q2 2027: 207.22
+  annual_forecast:
+    2021 Yearly: 328.1
+    2022 Yearly: 476.06
+    2023 Yearly: 583.03
+    2024 Yearly: 677.74
+    2025 Yearly: 683.22
+    2026 Yearly: 706.54
+    2027 Yearly: 753.67
+    2028 Yearly: 832.21
+    2029 Yearly: 872.8
+eps:
+  quarterly:
+    Q3 2024: -0.18
+    Q4 2024: -0.25
+    Q1 2025: -0.21
+    Q2 2025: -0.15
+    Q3 2025: -0.25
+    Q4 2025: -0.4
+    Q1 2026: -0.27
+    Q2 2026: -0.14
+  annual:
+    2021 Yearly: -5.51
+    2022 Yearly: -1.73
+    2023 Yearly: -1.01
+    2024 Yearly: -0.79
+    2025 Yearly: -0.99
+  quarterly_forecast:
+    Q3 2024: -0.13
+    Q4 2024: -0.21
+    Q1 2025: -0.2
+    Q2 2025: -0.1
+    Q3 2025: -0.17
+    Q4 2025: -0.31
+    Q1 2026: -0.22
+    Q2 2026: -0.13
+    Q3 2026: -0.14
+    Q4 2026: -0.19
+    Q1 2027: -0.2
+    Q2 2027: -0.09
+  annual_forecast:
+    2021 Yearly: -4.05
+    2022 Yearly: -1.56
+    2023 Yearly: -1.03
+    2024 Yearly: -0.74
+    2025 Yearly: -0.98
+    2026 Yearly: -0.1
+    2027 Yearly: -0.64
+    2028 Yearly: -0.54
+    2029 Yearly: -0.56

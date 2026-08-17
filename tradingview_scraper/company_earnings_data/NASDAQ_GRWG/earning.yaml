@@ -1,0 +1,74 @@
+currency: USD
+company_name: GrowGeneration Corp.
+sector: Distribution Services
+market_cap_billions: 0.08954000000000001
+revenue:
+  quarterly:
+    Q3 2024: 50.01
+    Q4 2024: 37.44
+    Q1 2025: 35.7
+    Q2 2025: 40.96
+    Q3 2025: 47.25
+    Q4 2025: 37.82
+    Q1 2026: 38.39
+  annual:
+    2021 Yearly: 422.49
+    2022 Yearly: 278.2
+    2023 Yearly: 225.88
+    2024 Yearly: 188.87
+    2025 Yearly: 161.74
+  quarterly_forecast:
+    Q3 2024: 48.73
+    Q4 2024: 39.32
+    Q1 2025: 39.63
+    Q2 2025: 40.96
+    Q3 2025: 41.56
+    Q4 2025: 40.02
+    Q1 2026: 36.45
+    Q2 2026: 42.75
+    Q3 2026: 46.91
+    Q4 2026: 39.06
+    Q1 2027: 39.53
+  annual_forecast:
+    2021 Yearly: 422.73
+    2022 Yearly: 275.52
+    2023 Yearly: 222.04
+    2024 Yearly: 190.75
+    2025 Yearly: 163.94
+    2026 Yearly: 167.11
+    2027 Yearly: 172.09
+eps:
+  quarterly:
+    Q3 2024: -0.19
+    Q4 2024: -0.39
+    Q1 2025: -0.16
+    Q2 2025: -0.08
+    Q3 2025: -0.04
+    Q4 2025: -0.12
+    Q1 2026: -0.08
+  annual:
+    2021 Yearly: 0.21
+    2022 Yearly: -2.69
+    2023 Yearly: -0.76
+    2024 Yearly: -0.82
+    2025 Yearly: -0.4
+  quarterly_forecast:
+    Q3 2024: -0.11
+    Q4 2024: -0.18
+    Q1 2025: -0.14
+    Q2 2025: -0.1
+    Q3 2025: -0.08
+    Q4 2025: -0.07
+    Q1 2026: -0.08
+    Q2 2026: -0.04
+    Q3 2026: -0.01
+    Q4 2026: -0.04
+    Q1 2027: -0.04
+  annual_forecast:
+    2021 Yearly: 0.19
+    2022 Yearly: -2.59
+    2023 Yearly: -0.44
+    2024 Yearly: -0.6
+    2025 Yearly: -0.35
+    2026 Yearly: -0.17
+    2027 Yearly: -0.05

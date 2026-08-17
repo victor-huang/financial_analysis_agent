@@ -1,0 +1,80 @@
+currency: USD
+company_name: James River Group Holdings, Inc.
+sector: Finance
+market_cap_billions: 0.20992
+revenue:
+  quarterly:
+    Q3 2024: 159.73
+    Q4 2024: 105.59
+    Q1 2025: 151.9
+    Q2 2025: 152.61
+    Q3 2025: 148.45
+    Q4 2025: 147.33
+    Q1 2026: 135.71
+    Q2 2026: 139.02
+  annual:
+    2021 Yearly: 1510.0
+    2022 Yearly: 766.16
+    2023 Yearly: 708.0
+    2024 Yearly: 600.2
+    2025 Yearly: 600.29
+  quarterly_forecast:
+    Q3 2024: 137.28
+    Q4 2024: 126.47
+    Q1 2025: 161.7
+    Q2 2025: 153.65
+    Q3 2025: 156.5
+    Q4 2025: 153.7
+    Q1 2026: 155.07
+    Q2 2026: 135.5
+    Q3 2026: 134.9
+    Q4 2026: 135.2
+    Q1 2027: 135.9
+    Q2 2027: 137.0
+  annual_forecast:
+    2021 Yearly: 1130.0
+    2022 Yearly: 759.52
+    2023 Yearly: 799.83
+    2024 Yearly: 621.1
+    2025 Yearly: 606.6
+    2026 Yearly: 541.2
+    2027 Yearly: 551.1
+    2028 Yearly: 673.83
+eps:
+  quarterly:
+    Q3 2024: -0.74
+    Q4 2024: -0.99
+    Q1 2025: 0.17
+    Q2 2025: 0.23
+    Q3 2025: 0.32
+    Q4 2025: 0.53
+    Q1 2026: 0.12
+    Q2 2026: 0.2
+  annual:
+    2021 Yearly: -5.27
+    2022 Yearly: 0.74
+    2023 Yearly: 1.33
+    2024 Yearly: -1.07
+    2025 Yearly: 1.03
+  quarterly_forecast:
+    Q3 2024: 0.15
+    Q4 2024: -0.46
+    Q1 2025: 0.27
+    Q2 2025: 0.23
+    Q3 2025: 0.23
+    Q4 2025: 0.43
+    Q1 2026: 0.27
+    Q2 2026: 0.24
+    Q3 2026: 0.26
+    Q4 2026: 0.26
+    Q1 2027: 0.23
+    Q2 2027: 0.23
+  annual_forecast:
+    2021 Yearly: -3.22
+    2022 Yearly: 1.82
+    2023 Yearly: 2.01
+    2024 Yearly: -0.45
+    2025 Yearly: 1.19
+    2026 Yearly: 0.83
+    2027 Yearly: 0.97
+    2028 Yearly: 1.31

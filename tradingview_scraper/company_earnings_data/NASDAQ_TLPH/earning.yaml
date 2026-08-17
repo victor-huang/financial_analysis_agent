@@ -1,0 +1,68 @@
+currency: USD
+company_name: Talphera, Inc.
+sector: Health Technology
+market_cap_billions: 0.07266
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q2 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+  annual:
+    2021 Yearly: 2.82
+    2022 Yearly: 1.77
+    2026 Yearly: 0.0
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+  annual_forecast:
+    2024 Yearly: 4.66
+    2026 Yearly: 6.01
+    2028 Yearly: 0.0
+eps:
+  quarterly:
+    Q3 2024: -0.13
+    Q4 2024: -0.07
+    Q1 2025: -0.1
+    Q2 2025: -0.1
+    Q3 2025: -0.11
+    Q4 2025: -0.06
+    Q1 2026: -0.04
+  annual:
+    2021 Yearly: -5.8
+    2022 Yearly: 5.72
+    2023 Yearly: -1.29
+    2024 Yearly: -0.5
+    2025 Yearly: -0.34
+  quarterly_forecast:
+    Q3 2024: -0.19
+    Q4 2024: -0.17
+    Q1 2025: -0.14
+    Q2 2025: -0.13
+    Q3 2025: -0.13
+    Q4 2025: -0.07
+    Q1 2026: -0.07
+    Q2 2026: -0.06
+    Q3 2026: -0.07
+    Q4 2026: -0.23
+    Q1 2027: -0.05
+  annual_forecast:
+    2021 Yearly: -5.8
+    2022 Yearly: 6.95
+    2023 Yearly: -1.24
+    2024 Yearly: -0.59
+    2025 Yearly: -0.35
+    2026 Yearly: -0.24
+    2027 Yearly: -0.24
+    2028 Yearly: -0.15
+    2029 Yearly: 0.06

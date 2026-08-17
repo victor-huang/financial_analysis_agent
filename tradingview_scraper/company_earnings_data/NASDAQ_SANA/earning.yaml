@@ -1,0 +1,82 @@
+currency: USD
+company_name: Sana Biotechnology, Inc.
+sector: Health Technology
+market_cap_billions: 1.0
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+    Q2 2027: 0.0
+  annual_forecast:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 0.0
+    2028 Yearly: 0.0
+    2029 Yearly: 4.97
+eps:
+  quarterly:
+    Q3 2024: -0.25
+    Q4 2024: -0.21
+    Q1 2025: -0.21
+    Q2 2025: -0.39
+    Q3 2025: -0.16
+    Q4 2025: -0.21
+    Q1 2026: -0.17
+    Q2 2026: -0.22
+  annual:
+    2021 Yearly: -2.14
+    2022 Yearly: -1.81
+    2023 Yearly: -1.46
+    2024 Yearly: -1.16
+    2025 Yearly: -0.96
+  quarterly_forecast:
+    Q3 2024: -0.26
+    Q4 2024: -0.25
+    Q1 2025: -0.22
+    Q2 2025: -0.2
+    Q3 2025: -0.19
+    Q4 2025: -0.14
+    Q1 2026: -0.16
+    Q2 2026: -0.15
+    Q3 2026: -0.14
+    Q4 2026: -0.16
+    Q1 2027: -0.15
+    Q2 2027: -0.14
+  annual_forecast:
+    2021 Yearly: -1.77
+    2022 Yearly: -1.79
+    2023 Yearly: -1.54
+    2024 Yearly: -1.19
+    2025 Yearly: -0.86
+    2026 Yearly: -0.61
+    2027 Yearly: -0.56
+    2028 Yearly: -0.57
+    2029 Yearly: -0.68

@@ -1,0 +1,78 @@
+currency: USD
+company_name: EDAP TMS S.A.
+sector: Health Technology
+market_cap_billions: 0.22527
+revenue:
+  quarterly:
+    Q2 2024: 17.58
+    Q4 2024: 21.94
+    Q1 2025: 15.17
+    Q2 2025: 18.72
+    Q3 2025: 16.02
+    Q4 2025: 21.91
+    Q1 2026: 17.81
+  annual:
+    2021 Yearly: 49.02
+    2022 Yearly: 60.14
+    2023 Yearly: 65.38
+    2024 Yearly: 69.23
+    2025 Yearly: 72.22
+  quarterly_forecast:
+    Q2 2024: 17.36
+    Q4 2024: 20.85
+    Q1 2025: 16.56
+    Q2 2025: 15.82
+    Q3 2025: 15.04
+    Q4 2025: 21.34
+    Q1 2026: 16.59
+    Q2 2026: 15.09
+    Q3 2026: 14.11
+    Q4 2026: 18.1
+    Q1 2027: 15.79
+  annual_forecast:
+    2021 Yearly: 50.54
+    2022 Yearly: 58.77
+    2023 Yearly: 63.66
+    2024 Yearly: 68.32
+    2025 Yearly: 70.76
+    2026 Yearly: 62.62
+    2027 Yearly: 74.87
+    2028 Yearly: 90.85
+    2029 Yearly: 127.45
+eps:
+  quarterly:
+    Q2 2024: -0.18
+    Q4 2024: -0.05
+    Q1 2025: -0.21
+    Q2 2025: -0.18
+    Q3 2025: -0.15
+    Q4 2025: -0.25
+    Q1 2026: -0.24
+  annual:
+    2021 Yearly: 0.02
+    2022 Yearly: -0.1
+    2023 Yearly: -0.62
+    2024 Yearly: -0.55
+    2025 Yearly: -0.8
+  quarterly_forecast:
+    Q2 2024: -0.14
+    Q4 2024: -0.11
+    Q1 2025: -0.16
+    Q2 2025: -0.21
+    Q3 2025: -0.25
+    Q4 2025: -0.15
+    Q1 2026: -0.2
+    Q2 2026: -0.22
+    Q3 2026: -0.22
+    Q4 2026: -0.2
+    Q1 2027: -0.19
+  annual_forecast:
+    2021 Yearly: -0.03
+    2022 Yearly: 0.06
+    2023 Yearly: -0.51
+    2024 Yearly: -0.6
+    2025 Yearly: -0.68
+    2026 Yearly: -0.86
+    2027 Yearly: -0.65
+    2028 Yearly: -0.42
+    2029 Yearly: -0.06

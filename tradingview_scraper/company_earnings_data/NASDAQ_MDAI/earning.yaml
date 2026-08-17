@@ -1,0 +1,71 @@
+currency: USD
+company_name: Spectral AI, Inc.
+sector: Health Technology
+market_cap_billions: 0.05442
+revenue:
+  quarterly:
+    Q3 2024: 8.17
+    Q4 2024: 7.6
+    Q1 2025: 6.71
+    Q2 2025: 5.07
+    Q3 2025: 3.79
+    Q4 2025: 3.85
+    Q1 2026: 3.99
+    Q2 2026: 3.52
+  annual:
+    2023 Yearly: 18.06
+    2024 Yearly: 29.58
+    2025 Yearly: 19.65
+  quarterly_forecast:
+    Q4 2024: 7.16
+    Q1 2025: 6.82
+    Q2 2025: 6.82
+    Q3 2025: 5.25
+    Q4 2025: 5.48
+    Q1 2026: 4.4
+    Q2 2026: 2.91
+    Q3 2026: 4.13
+    Q4 2026: 4.17
+  annual_forecast:
+    2023 Yearly: 17.65
+    2024 Yearly: 28.65
+    2025 Yearly: 18.48
+    2026 Yearly: 18.55
+    2027 Yearly: 32.95
+    2028 Yearly: 42.23
+    2029 Yearly: 12.9
+eps:
+  quarterly:
+    Q3 2024: -0.08
+    Q4 2024: -0.41
+    Q1 2025: 0.12
+    Q2 2025: -0.31
+    Q3 2025: -0.13
+    Q4 2025: 0.02
+    Q1 2026: -0.11
+    Q2 2026: -0.13
+  annual:
+    2023 Yearly: -1.48
+    2024 Yearly: -0.85
+    2025 Yearly: -0.29
+  quarterly_forecast:
+    Q3 2024: -0.16
+    Q4 2024: -0.12
+    Q1 2025: -0.13
+    Q2 2025: -0.07
+    Q3 2025: -0.1
+    Q4 2025: -0.13
+    Q1 2026: -0.09
+    Q2 2026: -0.14
+    Q3 2026: -0.13
+    Q4 2026: -0.13
+    Q1 2027: -0.22
+    Q2 2027: -0.23
+  annual_forecast:
+    2023 Yearly: -1.66
+    2024 Yearly: -0.5
+    2025 Yearly: -0.47
+    2026 Yearly: -0.51
+    2027 Yearly: -0.35
+    2028 Yearly: -0.26
+    2029 Yearly: -0.08

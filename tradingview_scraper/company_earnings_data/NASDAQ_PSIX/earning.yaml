@@ -1,0 +1,82 @@
+currency: USD
+company_name: Power Solutions International, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 0.76113
+revenue:
+  quarterly:
+    Q3 2024: 125.84
+    Q4 2024: 144.3
+    Q1 2025: 135.45
+    Q2 2025: 191.91
+    Q3 2025: 203.83
+    Q4 2025: 191.22
+    Q1 2026: 128.6
+    Q2 2026: 152.5
+  annual:
+    2021 Yearly: 456.25
+    2022 Yearly: 481.33
+    2023 Yearly: 458.97
+    2024 Yearly: 476.0
+    2025 Yearly: 722.4
+  quarterly_forecast:
+    Q3 2024: 124.2
+    Q4 2024: 140.7
+    Q1 2025: 106.6
+    Q2 2025: 136.5
+    Q3 2025: 165.9
+    Q4 2025: 169.2
+    Q1 2026: 160.8
+    Q2 2026: 133.95
+    Q3 2026: 206.8
+    Q4 2026: 194.35
+    Q1 2027: 149.35
+    Q2 2027: 176.3
+  annual_forecast:
+    2021 Yearly: 460.9
+    2022 Yearly: 470.5
+    2023 Yearly: 473.5
+    2024 Yearly: 472.4
+    2025 Yearly: 701.6
+    2026 Yearly: 661.93
+    2027 Yearly: 804.57
+    2028 Yearly: 1020.0
+    2029 Yearly: 1430.0
+eps:
+  quarterly:
+    Q3 2024: 0.75
+    Q4 2024: 1.03
+    Q1 2025: 0.83
+    Q2 2025: 2.24
+    Q3 2025: 1.2
+    Q4 2025: 0.71
+    Q1 2026: 0.36
+    Q2 2026: 0.78
+  annual:
+    2021 Yearly: -1.16
+    2022 Yearly: 0.69
+    2023 Yearly: 1.17
+    2024 Yearly: 2.81
+    2025 Yearly: 4.98
+  quarterly_forecast:
+    Q3 2024: 0.6
+    Q4 2024: 0.8
+    Q1 2025: 0.46
+    Q2 2025: 0.87
+    Q3 2025: 0.98
+    Q4 2025: 0.64
+    Q1 2026: 0.52
+    Q2 2026: 0.27
+    Q3 2026: 1.01
+    Q4 2026: 0.91
+    Q1 2027: 0.45
+    Q2 2027: 0.68
+  annual_forecast:
+    2021 Yearly: -1.05
+    2022 Yearly: 0.21
+    2023 Yearly: 1.07
+    2024 Yearly: 2.59
+    2025 Yearly: 4.92
+    2026 Yearly: 2.38
+    2027 Yearly: 3.83
+    2028 Yearly: 5.92
+    2029 Yearly: 13.49

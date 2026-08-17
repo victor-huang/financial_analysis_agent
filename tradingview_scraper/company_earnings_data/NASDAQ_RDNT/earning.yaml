@@ -1,0 +1,76 @@
+currency: USD
+company_name: RadNet, Inc.
+sector: Health Services
+market_cap_billions: 6.08
+revenue:
+  quarterly:
+    Q3 2024: 461.14
+    Q4 2024: 477.1
+    Q1 2025: 471.4
+    Q2 2025: 498.23
+    Q3 2025: 522.87
+    Q4 2025: 547.71
+    Q1 2026: 575.6
+  annual:
+    2021 Yearly: 1320.0
+    2022 Yearly: 1430.0
+    2023 Yearly: 1620.0
+    2024 Yearly: 1830.0
+    2025 Yearly: 2040.0
+  quarterly_forecast:
+    Q3 2024: 433.91
+    Q4 2024: 461.8
+    Q1 2025: 443.15
+    Q2 2025: 489.0
+    Q3 2025: 494.48
+    Q4 2025: 516.69
+    Q1 2026: 557.93
+    Q2 2026: 613.68
+    Q3 2026: 638.79
+    Q4 2026: 670.77
+    Q1 2027: 636.66
+  annual_forecast:
+    2021 Yearly: 1330.0
+    2022 Yearly: 1390.0
+    2023 Yearly: 1610.0
+    2024 Yearly: 1810.0
+    2025 Yearly: 2009.9999999999998
+    2026 Yearly: 2500.0
+    2027 Yearly: 2770.0
+    2028 Yearly: 3050.0
+eps:
+  quarterly:
+    Q3 2024: 0.04
+    Q4 2024: 0.07
+    Q1 2025: -0.5
+    Q2 2025: 0.31
+    Q3 2025: 0.2
+    Q4 2025: 0.23
+    Q1 2026: -0.28
+  annual:
+    2021 Yearly: 0.46
+    2022 Yearly: 0.17
+    2023 Yearly: 0.05
+    2024 Yearly: 0.04
+    2025 Yearly: 0.39
+  quarterly_forecast:
+    Q3 2024: 0.14
+    Q4 2024: 0.2
+    Q1 2025: -0.14
+    Q2 2025: 0.16
+    Q3 2025: 0.22
+    Q4 2025: 0.2
+    Q1 2026: -0.16
+    Q2 2026: 0.19
+    Q3 2026: 0.26
+    Q4 2026: 0.32
+    Q1 2027: -0.04
+  annual_forecast:
+    2021 Yearly: 0.71
+    2022 Yearly: 0.26
+    2023 Yearly: 0.32
+    2024 Yearly: 0.49
+    2025 Yearly: 0.38
+    2026 Yearly: 0.51
+    2027 Yearly: 0.94
+    2028 Yearly: 1.22

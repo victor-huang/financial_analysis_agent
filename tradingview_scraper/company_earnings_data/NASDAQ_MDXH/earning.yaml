@@ -1,0 +1,78 @@
+currency: USD
+company_name: MDxHealth SA
+sector: Health Technology
+market_cap_billions: 0.024120000000000003
+revenue:
+  quarterly:
+    Q3 2024: 23.32
+    Q4 2024: 24.74
+    Q1 2025: 24.29
+    Q2 2025: 26.61
+    Q3 2025: 27.43
+    Q4 2025: 29.55
+    Q1 2026: 23.9
+  annual:
+    2021 Yearly: 22.24
+    2022 Yearly: 37.1
+    2023 Yearly: 70.19
+    2024 Yearly: 90.05
+    2025 Yearly: 107.88
+  quarterly_forecast:
+    Q3 2024: 21.51
+    Q4 2024: 23.32
+    Q1 2025: 23.88
+    Q2 2025: 26.31
+    Q3 2025: 28.13
+    Q4 2025: 30.35
+    Q1 2026: 30.89
+    Q2 2026: 26.14
+    Q3 2026: 28.13
+    Q4 2026: 29.63
+    Q1 2027: 26.97
+  annual_forecast:
+    2021 Yearly: 22.9
+    2022 Yearly: 36.93
+    2023 Yearly: 69.36
+    2024 Yearly: 88.62
+    2025 Yearly: 108.9
+    2026 Yearly: 111.2
+    2027 Yearly: 125.23
+    2028 Yearly: 135.55
+    2029 Yearly: 162.0
+eps:
+  quarterly:
+    Q3 2024: -0.4
+    Q4 2024: -0.14
+    Q1 2025: -0.19
+    Q2 2025: -0.15
+    Q3 2025: -0.16
+    Q4 2025: -0.17
+    Q1 2026: -0.19
+  annual:
+    2021 Yearly: -2.4
+    2022 Yearly: -2.8
+    2023 Yearly: -1.66
+    2024 Yearly: -1.16
+    2025 Yearly: -0.67
+  quarterly_forecast:
+    Q3 2024: -0.27
+    Q4 2024: -0.19
+    Q1 2025: -0.13
+    Q2 2025: -0.12
+    Q3 2025: -0.11
+    Q4 2025: -0.13
+    Q1 2026: -0.14
+    Q2 2026: -0.19
+    Q3 2026: -0.16
+    Q4 2026: -0.15
+    Q1 2027: -0.2
+  annual_forecast:
+    2021 Yearly: -2.16
+    2022 Yearly: -2.37
+    2023 Yearly: -1.27
+    2024 Yearly: -1.2
+    2025 Yearly: -0.57
+    2026 Yearly: -0.64
+    2027 Yearly: -0.45
+    2028 Yearly: -0.25
+    2029 Yearly: -0.01

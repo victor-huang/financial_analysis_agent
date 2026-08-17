@@ -1,0 +1,86 @@
+currency: USD
+company_name: QuinStreet, Inc.
+sector: Commercial Services
+market_cap_billions: 0.8743200000000001
+revenue:
+  quarterly:
+    Q1 2025: 279.22
+    Q2 2025: 282.6
+    Q3 2025: 269.84
+    Q4 2025: 262.05
+    Q1 2026: 285.85
+    Q2 2026: 287.85
+    Q3 2026: 346.14
+    Q4 2026: 373.88
+  annual:
+    2021 Yearly: 578.49
+    2022 Yearly: 582.1
+    2023 Yearly: 580.62
+    2024 Yearly: 613.51
+    2025 Yearly: 1090.0
+    2026 Yearly: 1290.0
+  quarterly_forecast:
+    Q1 2025: 222.68
+    Q2 2025: 239.72
+    Q3 2025: 270.35
+    Q4 2025: 255.14
+    Q1 2026: 279.91
+    Q2 2026: 275.06
+    Q3 2026: 336.22
+    Q4 2026: 359.95
+    Q1 2027: 355.56
+    Q2 2027: 343.93
+    Q3 2027: 372.31
+    Q4 2027: 386.4
+  annual_forecast:
+    2021 Yearly: 569.91
+    2022 Yearly: 575.37
+    2023 Yearly: 578.45
+    2024 Yearly: 601.58
+    2025 Yearly: 1090.0
+    2026 Yearly: 1280.0
+    2027 Yearly: 1460.0
+    2028 Yearly: 1600.0
+    2029 Yearly: 1680.0
+    2030 Yearly: 1770.0
+eps:
+  quarterly:
+    Q1 2025: 0.22
+    Q2 2025: 0.2
+    Q3 2025: 0.21
+    Q4 2025: 0.25
+    Q1 2026: 0.22
+    Q2 2026: 0.24
+    Q3 2026: 0.31
+    Q4 2026: 0.5
+  annual:
+    2021 Yearly: 0.66
+    2022 Yearly: 0.35
+    2023 Yearly: 0.13
+    2024 Yearly: 0.11
+    2025 Yearly: 0.88
+    2026 Yearly: 1.27
+  quarterly_forecast:
+    Q1 2025: 0.15
+    Q2 2025: 0.19
+    Q3 2025: 0.2
+    Q4 2025: 0.24
+    Q1 2026: 0.21
+    Q2 2026: 0.2
+    Q3 2026: 0.32
+    Q4 2026: 0.44
+    Q1 2027: 0.35
+    Q2 2027: 0.31
+    Q3 2027: 0.38
+    Q4 2027: 0.48
+  annual_forecast:
+    2021 Yearly: 0.65
+    2022 Yearly: 0.35
+    2023 Yearly: 0.12
+    2024 Yearly: 0.1
+    2025 Yearly: 0.87
+    2026 Yearly: 1.21
+    2027 Yearly: 1.52
+    2028 Yearly: 1.74
+    2029 Yearly: 1.94
+    2030 Yearly: 2.02

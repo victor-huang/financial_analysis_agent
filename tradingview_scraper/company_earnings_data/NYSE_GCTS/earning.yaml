@@ -1,0 +1,64 @@
+currency: USD
+company_name: GCT Semiconductor Holding, Inc.
+sector: Electronic Technology
+market_cap_billions: 0.22532
+revenue:
+  quarterly:
+    Q3 2024: 2.61
+    Q4 2024: 1.8
+    Q2 2025: 1.18
+    Q1 2026: 1.92
+  annual:
+    2024 Yearly: 9.13
+    2025 Yearly: 2.87
+  quarterly_forecast:
+    Q3 2024: 1.54
+    Q4 2024: 2.03
+    Q1 2025: 1.87
+    Q2 2025: 2.3
+    Q3 2025: 1.19
+    Q4 2025: 1.09
+    Q1 2026: 1.77
+    Q2 2026: 3.3
+    Q3 2026: 5.56
+    Q4 2026: 10.78
+    Q1 2027: 11.14
+    Q2 2027: 13.97
+  annual_forecast:
+    2024 Yearly: 9.37
+    2025 Yearly: 3.2
+    2026 Yearly: 21.57
+    2027 Yearly: 77.84
+    2028 Yearly: 170.56
+eps:
+  quarterly:
+    Q3 2024: -0.16
+    Q4 2024: -0.12
+    Q1 2025: -0.15
+    Q2 2025: -0.26
+    Q3 2025: -0.25
+    Q4 2025: -0.16
+    Q1 2026: -0.15
+    Q2 2026: -0.25
+  annual:
+    2024 Yearly: -0.3
+    2025 Yearly: -0.82
+  quarterly_forecast:
+    Q3 2024: -0.16
+    Q4 2024: -0.15
+    Q1 2025: -0.1
+    Q2 2025: -0.14
+    Q3 2025: -0.19
+    Q4 2025: -0.23
+    Q1 2026: -0.12
+    Q2 2026: -0.07
+    Q3 2026: -0.06
+    Q4 2026: -0.04
+    Q1 2027: -0.01
+    Q2 2027: -0.01
+  annual_forecast:
+    2024 Yearly: -0.3
+    2025 Yearly: -0.89
+    2026 Yearly: -0.29
+    2027 Yearly: -0.04
+    2028 Yearly: 0.36

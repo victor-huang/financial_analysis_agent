@@ -1,0 +1,42 @@
+currency: USD
+company_name: Andersen Group Inc.
+sector: Consumer Services
+market_cap_billions: 5.65
+revenue:
+  quarterly:
+    Q3 2025: 284.29
+    Q4 2025: 170.35
+    Q1 2026: 240.75
+  annual:
+    2025 Yearly: 838.69
+  quarterly_forecast:
+    Q4 2025: 157.4
+    Q1 2026: 232.84
+    Q2 2026: 199.31
+    Q3 2026: 340.25
+    Q4 2026: 202.22
+    Q1 2027: 278.15
+  annual_forecast:
+    2025 Yearly: 824.99
+    2026 Yearly: 981.17
+    2027 Yearly: 1120.0
+    2028 Yearly: 1220.0
+eps:
+  quarterly:
+    Q3 2025: 1.07
+    Q4 2025: 0.07
+    Q1 2026: 0.56
+  annual:
+    2025 Yearly: 1.96
+  quarterly_forecast:
+    Q4 2025: -0.25
+    Q1 2026: 0.44
+    Q2 2026: 0.09
+    Q3 2026: 1.16
+    Q4 2026: -0.02
+    Q1 2027: 0.68
+  annual_forecast:
+    2025 Yearly: 1.59
+    2026 Yearly: 1.76
+    2027 Yearly: 2.19
+    2028 Yearly: 2.34

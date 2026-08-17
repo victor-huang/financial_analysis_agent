@@ -1,0 +1,68 @@
+currency: USD
+company_name: Abacus Global Management, Inc.
+sector: Finance
+market_cap_billions: 0.99759
+revenue:
+  quarterly:
+    Q3 2024: 28.15
+    Q4 2024: 33.21
+    Q1 2025: 44.14
+    Q2 2025: 56.22
+    Q3 2025: 62.98
+    Q4 2025: 71.9
+    Q1 2026: 59.39
+    Q2 2026: 73.02
+  annual:
+    2024 Yearly: 111.92
+    2025 Yearly: 235.24
+  quarterly_forecast:
+    Q3 2024: 28.45
+    Q4 2024: 29.76
+    Q1 2025: 40.37
+    Q2 2025: 43.07
+    Q3 2025: 50.17
+    Q4 2025: 55.38
+    Q1 2026: 64.21
+    Q2 2026: 66.16
+    Q3 2026: 71.91
+    Q4 2026: 76.63
+    Q1 2027: 77.61
+    Q2 2027: 81.4
+  annual_forecast:
+    2024 Yearly: 108.46
+    2025 Yearly: 218.72
+    2026 Yearly: 274.11
+    2027 Yearly: 331.38
+    2028 Yearly: 385.23
+    2029 Yearly: 333.02
+eps:
+  quarterly:
+    Q3 2024: 0.2
+    Q4 2024: 0.16
+    Q1 2025: 0.18
+    Q2 2025: 0.22
+    Q3 2025: 0.24
+    Q4 2025: 0.23
+    Q1 2026: 0.2
+    Q2 2026: 0.28
+  annual:
+    2024 Yearly: 0.66
+    2025 Yearly: 0.86
+  quarterly_forecast:
+    Q3 2024: 0.14
+    Q4 2024: 0.14
+    Q1 2025: 0.16
+    Q2 2025: 0.16
+    Q3 2025: 0.18
+    Q4 2025: 0.19
+    Q1 2026: 0.21
+    Q2 2026: 0.24
+    Q3 2026: 0.26
+    Q4 2026: 0.28
+    Q1 2027: 0.27
+    Q2 2027: 0.28
+  annual_forecast:
+    2025 Yearly: 0.62
+    2026 Yearly: 0.84
+    2027 Yearly: 1.0
+    2028 Yearly: 1.16

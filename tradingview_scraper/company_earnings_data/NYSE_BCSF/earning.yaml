@@ -1,0 +1,80 @@
+currency: USD
+company_name: Bain Capital Specialty Finance, Inc.
+sector: Finance
+market_cap_billions: 0.84005
+revenue:
+  quarterly:
+    Q3 2024: 72.54
+    Q4 2024: 73.3
+    Q1 2025: 66.84
+    Q2 2025: 70.97
+    Q3 2025: 67.2
+    Q4 2025: 68.2
+    Q1 2026: 66.17
+    Q2 2026: 62.35
+  annual:
+    2021 Yearly: 197.39
+    2022 Yearly: 219.54
+    2023 Yearly: 297.79
+    2024 Yearly: 292.65
+    2025 Yearly: 273.24
+  quarterly_forecast:
+    Q3 2024: 69.75
+    Q4 2024: 67.5
+    Q1 2025: 71.0
+    Q2 2025: 67.88
+    Q3 2025: 69.53
+    Q4 2025: 68.48
+    Q1 2026: 65.58
+    Q2 2026: 64.44
+    Q3 2026: 63.62
+    Q4 2026: 62.64
+    Q1 2027: 61.45
+    Q2 2027: 61.0
+  annual_forecast:
+    2021 Yearly: 182.43
+    2022 Yearly: 202.66
+    2023 Yearly: 267.58
+    2024 Yearly: 286.78
+    2025 Yearly: 273.47
+    2026 Yearly: 256.87
+    2027 Yearly: 243.8
+    2028 Yearly: 240.92
+eps:
+  quarterly:
+    Q3 2024: 0.53
+    Q4 2024: 0.52
+    Q1 2025: 0.5
+    Q2 2025: 0.47
+    Q3 2025: 0.45
+    Q4 2025: 0.46
+    Q1 2026: 0.42
+    Q2 2026: 0.44
+  annual:
+    2021 Yearly: 1.36
+    2022 Yearly: 1.59
+    2023 Yearly: 2.19
+    2024 Yearly: 2.09
+    2025 Yearly: 1.88
+  quarterly_forecast:
+    Q3 2024: 0.5
+    Q4 2024: 0.47
+    Q1 2025: 0.47
+    Q2 2025: 0.44
+    Q3 2025: 0.45
+    Q4 2025: 0.47
+    Q1 2026: 0.42
+    Q2 2026: 0.42
+    Q3 2026: 0.43
+    Q4 2026: 0.4
+    Q1 2027: 0.39
+    Q2 2027: 0.35
+  annual_forecast:
+    2021 Yearly: 1.36
+    2022 Yearly: 1.69
+    2023 Yearly: 2.13
+    2024 Yearly: 2.04
+    2025 Yearly: 1.89
+    2026 Yearly: 1.67
+    2027 Yearly: 1.48
+    2028 Yearly: 1.4

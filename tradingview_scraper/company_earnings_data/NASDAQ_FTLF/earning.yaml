@@ -1,0 +1,70 @@
+currency: USD
+company_name: FitLife Brands, Inc.
+sector: Health Technology
+market_cap_billions: 0.09634999999999999
+revenue:
+  quarterly:
+    Q3 2024: 15.98
+    Q4 2024: 15.01
+    Q1 2025: 15.94
+    Q2 2025: 16.13
+    Q3 2025: 23.48
+    Q4 2025: 25.91
+    Q1 2026: 25.32
+  annual:
+    2017 Yearly: 17.8
+    2019 Yearly: 19.5
+    2024 Yearly: 64.47
+    2025 Yearly: 81.46
+  quarterly_forecast:
+    Q3 2024: 16.9
+    Q4 2024: 14.95
+    Q1 2025: 15.75
+    Q2 2025: 16.08
+    Q3 2025: 23.85
+    Q4 2025: 27.0
+    Q1 2026: 24.87
+    Q2 2026: 26.0
+    Q3 2026: 27.88
+    Q4 2026: 27.22
+    Q1 2027: 26.97
+  annual_forecast:
+    2017 Yearly: 29.1
+    2024 Yearly: 64.41
+    2025 Yearly: 82.55
+    2026 Yearly: 106.41
+    2027 Yearly: 113.36
+    2028 Yearly: 126.89
+eps:
+  quarterly:
+    Q3 2024: 0.21
+    Q4 2024: 0.21
+    Q1 2025: 0.2
+    Q2 2025: 0.18
+    Q3 2025: 0.09
+    Q4 2025: 0.16
+    Q1 2026: 0.17
+  annual:
+    2017 Yearly: -1.16
+    2019 Yearly: 0.3
+    2024 Yearly: 0.91
+    2025 Yearly: 0.63
+  quarterly_forecast:
+    Q3 2024: 0.25
+    Q4 2024: 0.29
+    Q1 2025: 0.24
+    Q2 2025: 0.17
+    Q3 2025: 0.27
+    Q4 2025: 0.21
+    Q1 2026: 0.13
+    Q2 2026: 0.2
+    Q3 2026: 0.25
+    Q4 2026: 0.26
+    Q1 2027: 0.23
+  annual_forecast:
+    2017 Yearly: 0.34
+    2024 Yearly: 1.33
+    2025 Yearly: 0.69
+    2026 Yearly: 0.86
+    2027 Yearly: 1.1
+    2028 Yearly: 1.55

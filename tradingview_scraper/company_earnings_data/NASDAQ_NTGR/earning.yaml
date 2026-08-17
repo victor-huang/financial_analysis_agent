@@ -1,0 +1,78 @@
+currency: USD
+company_name: NETGEAR, Inc.
+sector: Technology Services
+market_cap_billions: 0.6522100000000001
+revenue:
+  quarterly:
+    Q3 2024: 182.85
+    Q4 2024: 182.42
+    Q1 2025: 162.06
+    Q2 2025: 170.53
+    Q3 2025: 184.56
+    Q4 2025: 182.47
+    Q1 2026: 158.82
+  annual:
+    2021 Yearly: 1170.0
+    2022 Yearly: 932.47
+    2023 Yearly: 740.84
+    2024 Yearly: 673.76
+    2025 Yearly: 699.62
+  quarterly_forecast:
+    Q3 2024: 175.01
+    Q4 2024: 167.47
+    Q1 2025: 152.24
+    Q2 2025: 162.06
+    Q3 2025: 172.66
+    Q4 2025: 177.26
+    Q1 2026: 152.49
+    Q2 2026: 157.8
+    Q3 2026: 170.06
+    Q4 2026: 183.86
+    Q1 2027: 174.82
+  annual_forecast:
+    2021 Yearly: 1180.0
+    2022 Yearly: 927.05
+    2023 Yearly: 737.22
+    2024 Yearly: 658.81
+    2025 Yearly: 694.41
+    2026 Yearly: 670.54
+    2027 Yearly: 724.34
+    2028 Yearly: 812.0
+    2029 Yearly: 885.1
+eps:
+  quarterly:
+    Q3 2024: 0.17
+    Q4 2024: -0.06
+    Q1 2025: 0.02
+    Q2 2025: 0.06
+    Q3 2025: 0.12
+    Q4 2025: 0.26
+    Q1 2026: 0.06
+  annual:
+    2021 Yearly: 2.44
+    2022 Yearly: -0.29
+    2023 Yearly: -0.03
+    2024 Yearly: -0.91
+    2025 Yearly: 0.44
+  quarterly_forecast:
+    Q3 2024: -0.04
+    Q4 2024: -0.24
+    Q1 2025: -0.37
+    Q2 2025: -0.15
+    Q3 2025: -0.09
+    Q4 2025: 0.05
+    Q1 2026: -0.07
+    Q2 2026: 0.01
+    Q3 2026: 0.04
+    Q4 2026: 0.08
+    Q1 2027: 0.06
+  annual_forecast:
+    2021 Yearly: 2.29
+    2022 Yearly: -0.34
+    2023 Yearly: -0.15
+    2024 Yearly: -1.1
+    2025 Yearly: 0.23
+    2026 Yearly: 0.2
+    2027 Yearly: 0.61
+    2028 Yearly: 1.09
+    2029 Yearly: 1.16

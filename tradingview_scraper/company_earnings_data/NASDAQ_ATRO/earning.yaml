@@ -1,0 +1,78 @@
+currency: USD
+company_name: Astronics Corporation
+sector: Electronic Technology
+market_cap_billions: 3.22
+revenue:
+  quarterly:
+    Q3 2024: 203.7
+    Q4 2024: 208.54
+    Q1 2025: 205.94
+    Q2 2025: 204.68
+    Q3 2025: 211.45
+    Q4 2025: 240.07
+    Q1 2026: 230.62
+    Q2 2026: 259.96
+  annual:
+    2021 Yearly: 444.91
+    2022 Yearly: 534.89
+    2023 Yearly: 689.21
+    2024 Yearly: 795.43
+    2025 Yearly: 862.13
+  quarterly_forecast:
+    Q3 2024: 198.61
+    Q4 2024: 194.91
+    Q1 2025: 191.92
+    Q2 2025: 208.29
+    Q3 2025: 212.5
+    Q4 2025: 237.16
+    Q1 2026: 225.52
+    Q2 2026: 245.3
+    Q3 2026: 252.09
+    Q4 2026: 258.34
+    Q1 2027: 255.13
+    Q2 2027: 262.99
+  annual_forecast:
+    2021 Yearly: 445.0
+    2022 Yearly: 525.83
+    2023 Yearly: 682.98
+    2024 Yearly: 781.8
+    2025 Yearly: 859.21
+    2026 Yearly: 986.37
+    2027 Yearly: 1070.0
+eps:
+  quarterly:
+    Q3 2024: -0.27
+    Q4 2024: -0.06
+    Q1 2025: 0.21
+    Q2 2025: 0.03
+    Q3 2025: 0.39
+    Q4 2025: 0.6
+    Q1 2026: 0.47
+    Q2 2026: 0.7
+  annual:
+    2021 Yearly: -0.65
+    2022 Yearly: -0.89
+    2023 Yearly: -0.64
+    2024 Yearly: -0.37
+    2025 Yearly: 1.6
+  quarterly_forecast:
+    Q3 2024: 0.14
+    Q4 2024: 0.21
+    Q1 2025: 0.17
+    Q2 2025: 0.26
+    Q3 2025: 0.34
+    Q4 2025: 0.48
+    Q1 2026: 0.45
+    Q2 2026: 0.59
+    Q3 2026: 0.62
+    Q4 2026: 0.65
+    Q1 2027: 0.64
+    Q2 2027: 0.69
+  annual_forecast:
+    2021 Yearly: -0.7
+    2022 Yearly: -0.9
+    2023 Yearly: -0.69
+    2024 Yearly: -0.13
+    2025 Yearly: 1.49
+    2026 Yearly: 2.5
+    2027 Yearly: 2.98

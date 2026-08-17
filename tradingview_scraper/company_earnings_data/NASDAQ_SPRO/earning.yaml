@@ -1,0 +1,65 @@
+currency: USD
+company_name: Spero Therapeutics, Inc.
+sector: Health Technology
+market_cap_billions: 0.0689
+revenue:
+  quarterly:
+    Q3 2024: 13.47
+    Q4 2024: 15.04
+    Q1 2025: 5.87
+    Q2 2025: 14.19
+    Q3 2025: 5.44
+    Q4 2025: 41.3
+  annual:
+    2021 Yearly: 18.26
+    2022 Yearly: 53.51
+    2023 Yearly: 103.78
+    2024 Yearly: 47.98
+    2025 Yearly: 66.8
+  quarterly_forecast:
+    Q3 2025: 23.0
+    Q4 2025: 12.4
+  annual_forecast:
+    2022 Yearly: 19.96
+    2023 Yearly: 7.12
+    2024 Yearly: 48.9
+    2025 Yearly: 38.97
+    2027 Yearly: 25.5
+    2029 Yearly: 3.2
+eps:
+  quarterly:
+    Q3 2024: -0.32
+    Q4 2024: -0.38
+    Q1 2025: -0.25
+    Q2 2025: -0.03
+    Q3 2025: -0.13
+    Q4 2025: 0.53
+    Q1 2026: -0.13
+    Q2 2026: -0.16
+  annual:
+    2021 Yearly: -2.91
+    2022 Yearly: -1.23
+    2023 Yearly: 0.43
+    2024 Yearly: -1.27
+    2025 Yearly: 0.15
+  quarterly_forecast:
+    Q3 2024: -0.27
+    Q4 2024: -0.31
+    Q1 2025: -0.55
+    Q2 2025: -0.38
+    Q3 2025: -0.25
+    Q4 2025: -0.2
+    Q1 2026: -0.18
+    Q2 2026: -0.17
+    Q3 2026: -0.16
+    Q4 2026: -0.14
+  annual_forecast:
+    2021 Yearly: -2.73
+    2022 Yearly: -1.97
+    2023 Yearly: -0.65
+    2024 Yearly: -0.92
+    2025 Yearly: -0.1
+    2026 Yearly: -0.29
+    2027 Yearly: 0.67
+    2028 Yearly: -0.12
+    2029 Yearly: 0.75

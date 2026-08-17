@@ -1,0 +1,28 @@
+currency: USD
+company_name: Faraday Future Intelligent Electric Inc.
+sector: Consumer Durables
+market_cap_billions: 0.00982
+revenue:
+  quarterly: {}
+  annual:
+    2022 Yearly: 0.0
+  quarterly_forecast:
+    Q1 2027: 25.5
+  annual_forecast:
+    2026 Yearly: 0.0
+    2027 Yearly: 2.59
+eps:
+  quarterly:
+    Q1 2026: -180.0
+    Q2 2026: -232.5
+    Q3 2026: -33.0
+    Q4 2026: -27.0
+  annual:
+    2021 Yearly: -3.18
+    2022 Yearly: -2.16
+  quarterly_forecast:
+    Q1 2027: -289.5
+  annual_forecast:
+    2025 Yearly: -1.8
+    2026 Yearly: -2.0
+    2029 Yearly: -528.0

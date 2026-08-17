@@ -1,0 +1,40 @@
+currency: USD
+company_name: Mobia Medical, Inc.
+sector: Health Technology
+market_cap_billions: 0.41827
+revenue:
+  quarterly:
+    Q1 2026: 12.07
+    Q2 2026: 13.51
+  annual:
+    2025 Yearly: 32.0
+  quarterly_forecast:
+    Q1 2026: 12.07
+    Q2 2026: 12.17
+    Q3 2026: 13.91
+    Q4 2026: 15.22
+    Q1 2027: 16.59
+    Q2 2027: 18.3
+  annual_forecast:
+    2026 Yearly: 53.61
+    2027 Yearly: 78.23
+    2028 Yearly: 116.99
+    2029 Yearly: 172.0
+eps:
+  quarterly:
+    Q1 2026: -19.3
+    Q2 2026: -1.1
+  annual:
+    2025 Yearly: -54.77
+  quarterly_forecast:
+    Q1 2026: -18.79
+    Q2 2026: -0.71
+    Q3 2026: -0.44
+    Q4 2026: -0.54
+    Q1 2027: -0.54
+    Q2 2027: -0.52
+  annual_forecast:
+    2026 Yearly: -2.7
+    2027 Yearly: -2.17
+    2028 Yearly: -2.15
+    2029 Yearly: -1.56

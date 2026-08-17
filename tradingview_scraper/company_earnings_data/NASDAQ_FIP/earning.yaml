@@ -1,0 +1,70 @@
+currency: USD
+company_name: FTAI Infrastructure Inc.
+sector: Consumer Services
+market_cap_billions: 0.47914999999999996
+revenue:
+  quarterly:
+    Q4 2024: 80.76
+    Q1 2025: 96.16
+    Q2 2025: 122.29
+    Q3 2025: 140.56
+    Q4 2025: 143.52
+    Q1 2026: 188.36
+    Q2 2026: 186.77
+  annual:
+    2022 Yearly: 261.97
+    2023 Yearly: 320.47
+    2024 Yearly: 331.5
+    2025 Yearly: 502.52
+  quarterly_forecast:
+    Q4 2024: 94.83
+    Q1 2025: 107.84
+    Q2 2025: 135.62
+    Q3 2025: 146.37
+    Q4 2025: 169.16
+    Q1 2026: 182.41
+    Q2 2026: 186.08
+    Q3 2026: 177.05
+    Q4 2026: 154.3
+    Q1 2027: 178.7
+    Q2 2027: 189.02
+  annual_forecast:
+    2022 Yearly: 268.0
+    2023 Yearly: 328.0
+    2024 Yearly: 345.64
+    2025 Yearly: 528.16
+    2026 Yearly: 704.81
+    2027 Yearly: 768.1
+eps:
+  quarterly:
+    Q4 2024: -1.24
+    Q1 2025: 0.89
+    Q2 2025: -0.73
+    Q3 2025: -1.38
+    Q4 2025: -1.08
+    Q1 2026: -1.32
+    Q2 2026: -1.41
+  annual:
+    2022 Yearly: -1.73
+    2023 Yearly: -1.79
+    2024 Yearly: -2.75
+    2025 Yearly: -2.26
+  quarterly_forecast:
+    Q4 2024: -0.37
+    Q1 2025: -0.34
+    Q2 2025: -0.37
+    Q3 2025: -0.59
+    Q4 2025: -0.43
+    Q1 2026: -0.42
+    Q2 2026: -0.59
+    Q3 2026: -0.45
+    Q4 2026: -0.3
+    Q1 2027: -0.25
+    Q2 2027: -0.19
+  annual_forecast:
+    2022 Yearly: -0.97
+    2023 Yearly: -1.68
+    2024 Yearly: -1.88
+    2025 Yearly: -1.18
+    2026 Yearly: -2.97
+    2027 Yearly: -0.78

@@ -1,0 +1,76 @@
+currency: USD
+company_name: BCP Investment Corporation
+sector: Miscellaneous
+market_cap_billions: 0.09085
+revenue:
+  quarterly:
+    Q3 2024: 15.18
+    Q4 2024: 14.4
+    Q1 2025: 12.12
+    Q2 2025: 12.63
+    Q3 2025: 18.94
+    Q4 2025: 17.5
+    Q1 2026: 17.6
+  annual:
+    2021 Yearly: 80.09
+    2022 Yearly: 69.61
+    2023 Yearly: 76.31
+    2024 Yearly: 62.43
+    2025 Yearly: 61.15
+  quarterly_forecast:
+    Q3 2024: 16.26
+    Q4 2024: 15.1
+    Q1 2025: 13.98
+    Q2 2025: 13.24
+    Q3 2025: 15.69
+    Q4 2025: 18.35
+    Q1 2026: 15.44
+    Q2 2026: 15.21
+    Q3 2026: 14.98
+    Q4 2026: 14.8
+    Q1 2027: 14.58
+  annual_forecast:
+    2021 Yearly: 79.32
+    2022 Yearly: 67.27
+    2023 Yearly: 77.0
+    2024 Yearly: 63.09
+    2025 Yearly: 61.14
+    2026 Yearly: 61.89
+    2027 Yearly: 58.68
+    2028 Yearly: 49.64
+eps:
+  quarterly:
+    Q3 2024: 0.63
+    Q4 2024: 0.6
+    Q1 2025: 0.47
+    Q2 2025: 0.5
+    Q3 2025: 0.7
+    Q4 2025: 0.57
+    Q1 2026: 0.55
+  annual:
+    2021 Yearly: 4.92
+    2022 Yearly: 3.0
+    2023 Yearly: 3.66
+    2024 Yearly: 2.59
+    2025 Yearly: 2.27
+  quarterly_forecast:
+    Q3 2024: 0.68
+    Q4 2024: 0.65
+    Q1 2025: 0.6
+    Q2 2025: 0.53
+    Q3 2025: 0.51
+    Q4 2025: 0.54
+    Q1 2026: 0.43
+    Q2 2026: 0.41
+    Q3 2026: 0.41
+    Q4 2026: 0.4
+    Q1 2027: 0.39
+  annual_forecast:
+    2021 Yearly: 5.05
+    2022 Yearly: 2.86
+    2023 Yearly: 3.2
+    2024 Yearly: 2.63
+    2025 Yearly: 2.14
+    2026 Yearly: 1.71
+    2027 Yearly: 1.57
+    2028 Yearly: 1.29

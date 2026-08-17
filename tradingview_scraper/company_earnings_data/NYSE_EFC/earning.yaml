@@ -1,0 +1,80 @@
+currency: USD
+company_name: Ellington Financial Inc.
+sector: Finance
+market_cap_billions: 1.65
+revenue:
+  quarterly:
+    Q3 2024: 66.98
+    Q4 2024: 71.97
+    Q1 2025: 82.91
+    Q2 2025: 92.54
+    Q3 2025: 82.76
+    Q4 2025: 78.24
+    Q1 2026: 171.27
+    Q2 2026: 123.13
+  annual:
+    2021 Yearly: 151.04
+    2022 Yearly: 59.99
+    2023 Yearly: 276.92
+    2024 Yearly: 305.65
+    2025 Yearly: 336.44
+  quarterly_forecast:
+    Q3 2024: 74.76
+    Q4 2024: 88.14
+    Q1 2025: 91.25
+    Q2 2025: 82.95
+    Q3 2025: 96.68
+    Q4 2025: 101.78
+    Q1 2026: 114.09
+    Q2 2026: 114.59
+    Q3 2026: 116.27
+    Q4 2026: 117.45
+    Q1 2027: 118.45
+    Q2 2027: 119.42
+  annual_forecast:
+    2021 Yearly: 147.66
+    2022 Yearly: 144.89
+    2023 Yearly: 268.03
+    2024 Yearly: 317.01
+    2025 Yearly: 385.77
+    2026 Yearly: 470.93
+    2027 Yearly: 477.01
+    2028 Yearly: 487.18
+eps:
+  quarterly:
+    Q3 2024: 0.4
+    Q4 2024: 0.45
+    Q1 2025: 0.39
+    Q2 2025: 0.47
+    Q3 2025: 0.53
+    Q4 2025: 0.47
+    Q1 2026: 0.55
+    Q2 2026: 0.6
+  annual:
+    2021 Yearly: 2.58
+    2022 Yearly: 1.67
+    2023 Yearly: 1.43
+    2024 Yearly: 1.46
+    2025 Yearly: 1.86
+  quarterly_forecast:
+    Q3 2024: 0.37
+    Q4 2024: 0.38
+    Q1 2025: 0.39
+    Q2 2025: 0.4
+    Q3 2025: 0.44
+    Q4 2025: 0.46
+    Q1 2026: 0.44
+    Q2 2026: 0.46
+    Q3 2026: 0.47
+    Q4 2026: 0.47
+    Q1 2027: 0.47
+    Q2 2027: 0.48
+  annual_forecast:
+    2021 Yearly: 2.53
+    2022 Yearly: 1.69
+    2023 Yearly: 1.56
+    2024 Yearly: 1.41
+    2025 Yearly: 1.84
+    2026 Yearly: 1.94
+    2027 Yearly: 1.93
+    2028 Yearly: 1.81

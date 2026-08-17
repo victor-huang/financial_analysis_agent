@@ -1,0 +1,68 @@
+currency: USD
+company_name: Grove Collaborative Holdings, Inc.
+sector: Consumer Non-Durables
+market_cap_billions: 0.04665
+revenue:
+  quarterly:
+    Q3 2024: 48.3
+    Q4 2024: 49.5
+    Q1 2025: 43.55
+    Q2 2025: 44.0
+    Q3 2025: 43.73
+    Q4 2025: 42.41
+    Q1 2026: 36.22
+  annual:
+    2022 Yearly: 321.53
+    2023 Yearly: 259.28
+    2024 Yearly: 203.43
+    2025 Yearly: 173.72
+  quarterly_forecast:
+    Q3 2024: 50.86
+    Q4 2024: 48.79
+    Q1 2025: 47.01
+    Q2 2025: 43.83
+    Q3 2025: 44.6
+    Q4 2025: 42.17
+    Q1 2026: 33.1
+    Q2 2026: 36.7
+    Q3 2026: 37.35
+    Q4 2026: 38.49
+  annual_forecast:
+    2022 Yearly: 316.99
+    2023 Yearly: 260.88
+    2024 Yearly: 202.7
+    2025 Yearly: 173.48
+    2026 Yearly: 148.83
+    2027 Yearly: 160.74
+eps:
+  quarterly:
+    Q3 2024: -0.04
+    Q4 2024: -0.34
+    Q1 2025: -0.1
+    Q2 2025: -0.1
+    Q3 2025: -0.08
+    Q4 2025: -0.05
+    Q1 2026: -0.03
+  annual:
+    2022 Yearly: -4.85
+    2023 Yearly: -1.28
+    2024 Yearly: -0.76
+    2025 Yearly: -0.34
+  quarterly_forecast:
+    Q3 2024: -0.15
+    Q4 2024: -0.15
+    Q1 2025: -0.03
+    Q2 2025: -0.1
+    Q3 2025: -0.14
+    Q4 2025: -0.09
+    Q1 2026: -0.09
+    Q2 2026: -0.06
+    Q3 2026: -0.05
+    Q4 2026: -0.06
+  annual_forecast:
+    2022 Yearly: -4.4
+    2023 Yearly: -1.39
+    2024 Yearly: -11.61
+    2025 Yearly: -0.35
+    2026 Yearly: -0.2
+    2027 Yearly: -0.11

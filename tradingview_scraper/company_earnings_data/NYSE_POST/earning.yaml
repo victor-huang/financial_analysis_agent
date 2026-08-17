@@ -1,0 +1,80 @@
+currency: USD
+company_name: Post Holdings, Inc.
+sector: Consumer Non-Durables
+market_cap_billions: 4.09
+revenue:
+  quarterly:
+    Q4 2024: 2009.9999999999998
+    Q1 2025: 1970.0
+    Q2 2025: 1950.0
+    Q3 2025: 1980.0
+    Q4 2025: 2250.0
+    Q1 2026: 2170.0
+    Q2 2026: 2040.0
+    Q3 2026: 1950.0
+  annual:
+    2021 Yearly: 6230.0
+    2022 Yearly: 5850.0
+    2023 Yearly: 6990.0
+    2024 Yearly: 7920.0
+    2025 Yearly: 8160.0
+  quarterly_forecast:
+    Q4 2024: 1970.0
+    Q1 2025: 1990.0
+    Q2 2025: 1980.0
+    Q3 2025: 1950.0
+    Q4 2025: 2250.0
+    Q1 2026: 2170.0
+    Q2 2026: 2080.0
+    Q3 2026: 2020.0
+    Q4 2026: 2060.0
+    Q1 2027: 2080.0
+    Q2 2027: 2040.0
+    Q3 2027: 2040.0
+  annual_forecast:
+    2021 Yearly: 6200.0
+    2022 Yearly: 5930.0
+    2023 Yearly: 6990.0
+    2024 Yearly: 7880.0
+    2025 Yearly: 8160.0
+    2026 Yearly: 8300.0
+    2027 Yearly: 8240.0
+    2028 Yearly: 8280.0
+eps:
+  quarterly:
+    Q4 2024: 1.53
+    Q1 2025: 1.73
+    Q2 2025: 1.41
+    Q3 2025: 2.03
+    Q4 2025: 2.09
+    Q1 2026: 2.13
+    Q2 2026: 1.94
+    Q3 2026: 1.78
+  annual:
+    2021 Yearly: 1.56
+    2022 Yearly: 1.68
+    2023 Yearly: 5.34
+    2024 Yearly: 6.27
+    2025 Yearly: 7.23
+  quarterly_forecast:
+    Q4 2024: 1.21
+    Q1 2025: 1.52
+    Q2 2025: 1.2
+    Q3 2025: 1.65
+    Q4 2025: 1.88
+    Q1 2026: 1.69
+    Q2 2026: 1.73
+    Q3 2026: 1.7
+    Q4 2026: 1.89
+    Q1 2027: 2.02
+    Q2 2027: 2.08
+    Q3 2027: 1.94
+  annual_forecast:
+    2021 Yearly: 1.88
+    2022 Yearly: 2.15
+    2023 Yearly: 5.04
+    2024 Yearly: 5.92
+    2025 Yearly: 7.02
+    2026 Yearly: 7.67
+    2027 Yearly: 8.5
+    2028 Yearly: 9.49

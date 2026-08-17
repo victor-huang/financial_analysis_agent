@@ -1,0 +1,70 @@
+currency: USD
+company_name: Relay Therapeutics, Inc.
+sector: Health Technology
+market_cap_billions: 4.3
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 7.68
+    Q4 2025: 0.0
+    Q1 2026: 7.0
+    Q3 2026: 3.0
+  annual:
+    2021 Yearly: 3.03
+    2022 Yearly: 1.38
+    2023 Yearly: 25.55
+    2024 Yearly: 10.01
+    2025 Yearly: 15.36
+  quarterly_forecast:
+    Q4 2025: 6.08
+    Q2 2027: 4.97
+  annual_forecast:
+    2021 Yearly: 6.41
+    2022 Yearly: 4.46
+    2023 Yearly: 24.3
+    2024 Yearly: 15.08
+    2025 Yearly: 12.81
+    2026 Yearly: 11.78
+    2027 Yearly: 15.99
+    2028 Yearly: 35.77
+    2029 Yearly: 183.53
+eps:
+  quarterly:
+    Q3 2024: -0.63
+    Q4 2024: -0.45
+    Q1 2025: -0.46
+    Q2 2025: -0.41
+    Q3 2025: -0.43
+    Q4 2025: -0.32
+    Q1 2026: -0.41
+    Q2 2026: -0.41
+  annual:
+    2021 Yearly: -3.82
+    2022 Yearly: -2.59
+    2023 Yearly: -2.79
+    2024 Yearly: -2.36
+    2025 Yearly: -1.61
+  quarterly_forecast:
+    Q3 2024: -0.77
+    Q4 2024: -0.56
+    Q1 2025: -0.49
+    Q2 2025: -0.49
+    Q3 2025: -0.42
+    Q4 2025: -0.4
+    Q1 2026: -0.36
+    Q2 2026: -0.39
+    Q3 2026: -0.39
+    Q4 2026: -0.36
+    Q1 2027: -0.4
+    Q2 2027: -0.4
+  annual_forecast:
+    2021 Yearly: -3.69
+    2022 Yearly: -2.74
+    2023 Yearly: -2.83
+    2024 Yearly: -2.51
+    2025 Yearly: -1.73
+    2026 Yearly: -1.55
+    2027 Yearly: -1.6
+    2028 Yearly: -1.51
+    2029 Yearly: -1.01

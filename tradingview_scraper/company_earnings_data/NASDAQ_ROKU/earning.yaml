@@ -1,0 +1,82 @@
+currency: USD
+company_name: Roku, Inc.
+sector: Technology Services
+market_cap_billions: 22.26
+revenue:
+  quarterly:
+    Q3 2024: 1060.0
+    Q4 2024: 1200.0
+    Q1 2025: 1020.0
+    Q2 2025: 1110.0
+    Q3 2025: 1210.0
+    Q4 2025: 1390.0
+    Q1 2026: 1250.0
+    Q2 2026: 1350.0
+  annual:
+    2021 Yearly: 2760.0
+    2022 Yearly: 3130.0
+    2023 Yearly: 3480.0
+    2024 Yearly: 4110.0
+    2025 Yearly: 4740.0
+  quarterly_forecast:
+    Q3 2024: 1020.0
+    Q4 2024: 1150.0
+    Q1 2025: 1010.0
+    Q2 2025: 1070.0
+    Q3 2025: 1210.0
+    Q4 2025: 1350.0
+    Q1 2026: 1200.0
+    Q2 2026: 1300.0
+    Q3 2026: 1400.0
+    Q4 2026: 1610.0
+    Q1 2027: 1430.0
+    Q2 2027: 1470.0
+  annual_forecast:
+    2021 Yearly: 2790.0
+    2022 Yearly: 3060.0
+    2023 Yearly: 3460.0
+    2024 Yearly: 4059.9999999999995
+    2025 Yearly: 4700.0
+    2026 Yearly: 5560.0
+    2027 Yearly: 6250.0
+    2028 Yearly: 7030.0
+    2029 Yearly: 7490.0
+eps:
+  quarterly:
+    Q3 2024: -0.06
+    Q4 2024: -0.24
+    Q1 2025: -0.19
+    Q2 2025: 0.07
+    Q3 2025: 0.16
+    Q4 2025: 0.53
+    Q1 2026: 0.57
+    Q2 2026: 1.08
+  annual:
+    2021 Yearly: 1.71
+    2022 Yearly: -3.62
+    2023 Yearly: -5.01
+    2024 Yearly: -0.89
+    2025 Yearly: 0.59
+  quarterly_forecast:
+    Q3 2024: -0.32
+    Q4 2024: -0.41
+    Q1 2025: -0.26
+    Q2 2025: -0.15
+    Q3 2025: 0.09
+    Q4 2025: 0.28
+    Q1 2026: 0.33
+    Q2 2026: 0.61
+    Q3 2026: 0.5
+    Q4 2026: 0.79
+    Q1 2027: 0.77
+    Q2 2027: 0.86
+  annual_forecast:
+    2021 Yearly: 1.59
+    2022 Yearly: -3.63
+    2023 Yearly: -5.01
+    2024 Yearly: -1.06
+    2025 Yearly: 0.34
+    2026 Yearly: 2.47
+    2027 Yearly: 3.62
+    2028 Yearly: 5.42
+    2029 Yearly: 6.29

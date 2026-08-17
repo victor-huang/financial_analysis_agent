@@ -1,0 +1,64 @@
+currency: USD
+company_name: Genelux Corporation
+sector: Health Technology
+market_cap_billions: 0.12107
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q1 2026: 0.0
+  annual:
+    2022 Yearly: 11.07
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+  annual_forecast:
+    2026 Yearly: 11.0
+    2029 Yearly: 0.0
+eps:
+  quarterly:
+    Q3 2024: -0.19
+    Q4 2024: -0.25
+    Q1 2025: -0.21
+    Q2 2025: -0.2
+    Q3 2025: -0.21
+    Q4 2025: -0.24
+    Q1 2026: -0.2
+  annual:
+    2022 Yearly: -0.42
+    2023 Yearly: -1.16
+    2024 Yearly: -0.95
+    2025 Yearly: -0.86
+  quarterly_forecast:
+    Q3 2024: -0.2
+    Q4 2024: -0.19
+    Q1 2025: -0.24
+    Q2 2025: -0.22
+    Q3 2025: -0.21
+    Q4 2025: -0.22
+    Q1 2026: -0.2
+    Q2 2026: -0.2
+    Q3 2026: -0.2
+    Q4 2026: -0.22
+    Q1 2027: -0.24
+  annual_forecast:
+    2022 Yearly: -0.28
+    2023 Yearly: -1.11
+    2024 Yearly: -0.88
+    2025 Yearly: -0.85
+    2026 Yearly: -0.81
+    2027 Yearly: -0.76
+    2028 Yearly: -0.13
+    2029 Yearly: 0.71

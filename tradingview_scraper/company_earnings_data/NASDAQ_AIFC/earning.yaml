@@ -1,0 +1,40 @@
+currency: USD
+company_name: AI Financial Corporation
+sector: Industrial Services
+market_cap_billions: 0.05859
+revenue:
+  quarterly:
+    Q4 2024: 5.42
+    Q1 2025: 5.51
+    Q3 2025: 7.6
+  annual:
+    2025 Yearly: 24.84
+  quarterly_forecast:
+    Q2 2025: 6.38
+    Q3 2025: 10.01
+    Q4 2025: 15.62
+    Q1 2026: 15.31
+    Q2 2026: 15.46
+    Q3 2026: 15.77
+    Q4 2026: 16.09
+  annual_forecast:
+    2025 Yearly: 25.61
+    2026 Yearly: 35.75
+    2027 Yearly: 51.21
+    2028 Yearly: 64.41
+eps:
+  quarterly:
+    Q1 2025: -0.18
+  annual:
+    2025 Yearly: -5.86
+  quarterly_forecast:
+    Q2 2025: -0.31
+    Q3 2025: -0.36
+    Q4 2025: -0.18
+    Q1 2026: -0.14
+    Q2 2026: -0.15
+    Q3 2026: -0.16
+    Q4 2026: -0.15
+  annual_forecast:
+    2026 Yearly: -1.03
+    2027 Yearly: -0.6

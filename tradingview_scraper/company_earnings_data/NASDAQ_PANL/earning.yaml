@@ -1,0 +1,78 @@
+currency: USD
+company_name: Pangaea Logistics Solutions Ltd.
+sector: Miscellaneous
+market_cap_billions: 0.47949
+revenue:
+  quarterly:
+    Q3 2024: 153.12
+    Q4 2024: 147.17
+    Q1 2025: 122.8
+    Q2 2025: 156.69
+    Q3 2025: 168.7
+    Q4 2025: 183.9
+    Q1 2026: 170.6
+    Q2 2026: 187.1
+  annual:
+    2021 Yearly: 718.1
+    2022 Yearly: 699.71
+    2023 Yearly: 499.27
+    2024 Yearly: 536.54
+    2025 Yearly: 632.1
+  quarterly_forecast:
+    Q3 2024: 141.33
+    Q4 2024: 124.18
+    Q1 2025: 128.45
+    Q2 2025: 129.36
+    Q3 2025: 159.3
+    Q4 2025: 150.35
+    Q1 2026: 165.78
+    Q2 2026: 192.76
+    Q3 2026: 199.05
+    Q4 2026: 185.06
+    Q1 2027: 174.38
+    Q2 2027: 198.15
+  annual_forecast:
+    2021 Yearly: 673.35
+    2022 Yearly: 736.66
+    2023 Yearly: 505.33
+    2024 Yearly: 510.38
+    2025 Yearly: 524.42
+    2026 Yearly: 744.38
+    2027 Yearly: 737.64
+eps:
+  quarterly:
+    Q3 2024: 0.24
+    Q4 2024: 0.16
+    Q1 2025: -0.03
+    Q2 2025: -0.02
+    Q3 2025: 0.17
+    Q4 2025: 0.16
+    Q1 2026: 0.11
+    Q2 2026: 0.26
+  annual:
+    2021 Yearly: 1.41
+    2022 Yearly: 1.82
+    2023 Yearly: 0.69
+    2024 Yearly: 0.65
+    2025 Yearly: 0.27
+  quarterly_forecast:
+    Q3 2024: 0.27
+    Q4 2024: 0.05
+    Q1 2025: -0.12
+    Q2 2025: -0.02
+    Q3 2025: 0.07
+    Q4 2025: 0.24
+    Q1 2026: 0.04
+    Q2 2026: 0.24
+    Q3 2026: 0.25
+    Q4 2026: 0.24
+    Q1 2027: 0.17
+    Q2 2027: 0.23
+  annual_forecast:
+    2021 Yearly: 1.38
+    2022 Yearly: 1.82
+    2023 Yearly: 0.89
+    2024 Yearly: 0.52
+    2025 Yearly: 0.35
+    2026 Yearly: 1.23
+    2027 Yearly: 0.88

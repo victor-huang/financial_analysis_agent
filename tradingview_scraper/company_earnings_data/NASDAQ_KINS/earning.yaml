@@ -1,0 +1,78 @@
+currency: USD
+company_name: Kingstone Companies, Inc
+sector: Finance
+market_cap_billions: 0.30128
+revenue:
+  quarterly:
+    Q3 2024: 66.63
+    Q4 2024: 72.53
+    Q1 2025: 58.17
+    Q2 2025: 59.8
+    Q3 2025: 75.81
+    Q4 2025: 82.75
+    Q1 2026: 69.6
+    Q2 2026: 72.49
+  annual:
+    2021 Yearly: 181.66
+    2022 Yearly: 201.25
+    2023 Yearly: 200.18
+    2024 Yearly: 241.98
+    2025 Yearly: 277.8
+  quarterly_forecast:
+    Q3 2024: 66.6
+    Q4 2024: 72.5
+    Q1 2025: 59.3
+    Q2 2025: 62.3
+    Q3 2025: 75.3
+    Q4 2025: 83.0
+    Q1 2026: 66.9
+    Q2 2026: 71.7
+    Q3 2026: 89.5
+    Q4 2026: 98.1
+    Q1 2027: 82.8
+    Q2 2027: 85.7
+  annual_forecast:
+    2021 Yearly: 178.65
+    2022 Yearly: 200.41
+    2023 Yearly: 201.14
+    2024 Yearly: 242.0
+    2025 Yearly: 278.0
+    2026 Yearly: 328.9
+    2027 Yearly: 394.1
+eps:
+  quarterly:
+    Q3 2024: 0.5
+    Q4 2024: 0.46
+    Q1 2025: 0.17
+    Q2 2025: 0.75
+    Q3 2025: 0.73
+    Q4 2025: 1.08
+    Q1 2026: -0.35
+    Q2 2026: 1.04
+  annual:
+    2021 Yearly: -1.43
+    2022 Yearly: -1.42
+    2023 Yearly: -0.73
+    2024 Yearly: 1.45
+    2025 Yearly: 2.79
+  quarterly_forecast:
+    Q3 2024: 0.5
+    Q4 2024: 0.46
+    Q1 2025: 0.0
+    Q2 2025: 0.55
+    Q3 2025: 0.71
+    Q4 2025: 1.05
+    Q1 2026: -0.26
+    Q2 2026: 0.95
+    Q3 2026: 0.93
+    Q4 2026: 1.06
+    Q1 2027: -0.08
+    Q2 2027: 1.04
+  annual_forecast:
+    2021 Yearly: -1.38
+    2022 Yearly: -1.08
+    2023 Yearly: -0.97
+    2024 Yearly: 1.45
+    2025 Yearly: 2.72
+    2026 Yearly: 2.6
+    2027 Yearly: 3.0

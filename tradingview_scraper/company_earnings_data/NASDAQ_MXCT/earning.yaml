@@ -1,0 +1,78 @@
+currency: USD
+company_name: MaxCyte, Inc.
+sector: Health Technology
+market_cap_billions: 0.13604
+revenue:
+  quarterly:
+    Q3 2024: 8.16
+    Q4 2024: 8.69
+    Q1 2025: 10.39
+    Q2 2025: 8.2
+    Q3 2025: 6.83
+    Q4 2025: 7.3
+    Q1 2026: 9.65
+  annual:
+    2021 Yearly: 33.89
+    2022 Yearly: 44.26
+    2023 Yearly: 41.29
+    2024 Yearly: 38.63
+    2025 Yearly: 33.03
+  quarterly_forecast:
+    Q3 2024: 7.46
+    Q4 2024: 8.04
+    Q1 2025: 9.16
+    Q2 2025: 9.58
+    Q3 2025: 6.83
+    Q4 2025: 9.08
+    Q1 2026: 7.28
+    Q2 2026: 6.51
+    Q3 2026: 6.99
+    Q4 2026: 7.93
+    Q1 2027: 8.13
+  annual_forecast:
+    2021 Yearly: 33.38
+    2022 Yearly: 44.24
+    2023 Yearly: 39.06
+    2024 Yearly: 38.15
+    2025 Yearly: 35.12
+    2026 Yearly: 31.08
+    2027 Yearly: 37.09
+    2028 Yearly: 39.08
+    2029 Yearly: 81.5
+eps:
+  quarterly:
+    Q3 2024: -0.11
+    Q4 2024: -0.1
+    Q1 2025: -0.1
+    Q2 2025: -0.12
+    Q3 2025: -0.12
+    Q4 2025: -0.09
+    Q1 2026: -0.04
+  annual:
+    2021 Yearly: -0.21
+    2022 Yearly: -0.23
+    2023 Yearly: -0.37
+    2024 Yearly: -0.39
+    2025 Yearly: -0.42
+  quarterly_forecast:
+    Q3 2024: -0.12
+    Q4 2024: -0.12
+    Q1 2025: -0.1
+    Q2 2025: -0.1
+    Q3 2025: -0.11
+    Q4 2025: -0.08
+    Q1 2026: -0.08
+    Q2 2026: -0.09
+    Q3 2026: -0.08
+    Q4 2026: -0.06
+    Q1 2027: -0.07
+  annual_forecast:
+    2021 Yearly: -0.22
+    2022 Yearly: -0.26
+    2023 Yearly: -0.4
+    2024 Yearly: -0.41
+    2025 Yearly: -0.39
+    2026 Yearly: -0.27
+    2027 Yearly: -0.24
+    2028 Yearly: -0.24
+    2029 Yearly: -0.11

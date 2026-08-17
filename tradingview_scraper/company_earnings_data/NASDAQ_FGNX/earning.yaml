@@ -1,0 +1,44 @@
+currency: USD
+company_name: FG Nexus Inc.
+sector: Finance
+market_cap_billions: 0.04015
+revenue:
+  quarterly:
+    Q2 2025: 15.31
+    Q4 2025: 1.5
+  annual:
+    2017 Yearly: 72.7
+    2018 Yearly: 96.15
+    2019 Yearly: 5.6
+    2025 Yearly: 2.4
+  quarterly_forecast: {}
+  annual_forecast:
+    2018 Yearly: 94.9
+    2019 Yearly: 107.9
+    2020 Yearly: 118.7
+    2025 Yearly: 17.9
+    2026 Yearly: 2.1
+    2027 Yearly: 2.5
+eps:
+  quarterly:
+    Q2 2025: 0.18
+    Q3 2025: -0.3
+    Q1 2026: -5.88
+  annual:
+    2017 Yearly: 14.63
+    2018 Yearly: -6.1
+    2019 Yearly: 19.51
+    2025 Yearly: -25.69
+  quarterly_forecast:
+    Q4 2025: 0.01
+    Q1 2026: -0.2
+    Q2 2026: -5.88
+    Q3 2026: -6.45
+    Q4 2026: -6.46
+  annual_forecast:
+    2018 Yearly: 67.06
+    2019 Yearly: 128.02
+    2020 Yearly: 140.21
+    2025 Yearly: -4.2
+    2026 Yearly: -25.24
+    2027 Yearly: -25.82

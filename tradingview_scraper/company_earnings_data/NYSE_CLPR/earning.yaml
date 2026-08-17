@@ -1,0 +1,64 @@
+currency: USD
+company_name: Clipper Realty Inc.
+sector: Finance
+market_cap_billions: 0.04524
+revenue:
+  quarterly:
+    Q3 2024: 37.62
+    Q4 2024: 38.05
+    Q1 2025: 39.4
+    Q2 2025: 39.04
+    Q3 2025: 37.7
+    Q4 2025: 37.07
+    Q1 2026: 38.12
+    Q2 2026: 38.58
+  annual:
+    2021 Yearly: 122.73
+    2022 Yearly: 129.75
+    2023 Yearly: 138.21
+    2024 Yearly: 148.78
+    2025 Yearly: 153.2
+  quarterly_forecast:
+    Q3 2024: 38.0
+    Q4 2024: 38.7
+    Q1 2025: 40.4
+    Q2 2025: 39.1
+    Q3 2025: 37.9
+    Q4 2025: 38.1
+    Q1 2026: 39.6
+    Q2 2026: 39.0
+    Q3 2026: 39.3
+    Q4 2026: 39.8
+    Q1 2027: 40.2
+    Q2 2027: 40.3
+  annual_forecast:
+    2021 Yearly: 123.47
+    2022 Yearly: 130.83
+    2023 Yearly: 140.5
+    2024 Yearly: 149.8
+    2025 Yearly: 154.2
+    2026 Yearly: 156.2
+    2027 Yearly: 161.7
+eps:
+  quarterly:
+    Q3 2024: -0.05
+    Q4 2024: -0.05
+    Q1 2025: -0.86
+    Q2 2025: -0.07
+    Q3 2025: -0.14
+    Q4 2025: -0.3
+    Q1 2026: -0.3
+    Q2 2026: -0.19
+  annual:
+    2021 Yearly: -0.44
+    2022 Yearly: -0.36
+    2023 Yearly: -0.45
+    2024 Yearly: -0.25
+    2025 Yearly: -1.38
+  quarterly_forecast:
+    Q3 2025: 0.11
+    Q4 2025: 0.14
+  annual_forecast:
+    2023 Yearly: -0.4
+    2024 Yearly: -0.27
+    2025 Yearly: -0.14

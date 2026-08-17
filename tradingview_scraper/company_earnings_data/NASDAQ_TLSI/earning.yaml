@@ -1,0 +1,74 @@
+currency: USD
+company_name: TriSalus Life Sciences, Inc.
+sector: Health Technology
+market_cap_billions: 0.29910000000000003
+revenue:
+  quarterly:
+    Q3 2024: 7.35
+    Q4 2024: 8.26
+    Q1 2025: 9.17
+    Q2 2025: 11.21
+    Q3 2025: 11.57
+    Q4 2025: 13.21
+    Q1 2026: 8.9
+    Q2 2026: 11.41
+  annual:
+    2023 Yearly: 18.51
+    2024 Yearly: 29.43
+    2025 Yearly: 45.15
+  quarterly_forecast:
+    Q3 2024: 7.38
+    Q4 2024: 8.12
+    Q1 2025: 9.04
+    Q2 2025: 10.7
+    Q3 2025: 11.76
+    Q4 2025: 12.82
+    Q1 2026: 10.19
+    Q2 2026: 10.27
+    Q3 2026: 14.62
+    Q4 2026: 18.61
+    Q1 2027: 18.61
+    Q2 2027: 19.82
+  annual_forecast:
+    2023 Yearly: 18.24
+    2024 Yearly: 29.26
+    2025 Yearly: 44.76
+    2026 Yearly: 52.4
+    2027 Yearly: 79.26
+    2028 Yearly: 109.01
+    2029 Yearly: 138.58
+eps:
+  quarterly:
+    Q3 2024: -0.12
+    Q4 2024: -0.4
+    Q1 2025: -0.39
+    Q2 2025: -0.27
+    Q3 2025: -0.96
+    Q4 2025: -0.21
+    Q1 2026: 0.03
+    Q2 2026: -0.16
+  annual:
+    2023 Yearly: -6.73
+    2024 Yearly: -1.31
+    2025 Yearly: -1.84
+  quarterly_forecast:
+    Q3 2024: -0.35
+    Q4 2024: -0.32
+    Q1 2025: -0.22
+    Q2 2025: -0.21
+    Q3 2025: -0.15
+    Q4 2025: -0.14
+    Q1 2026: -0.16
+    Q2 2026: -0.15
+    Q3 2026: -0.1
+    Q4 2026: -0.05
+    Q1 2027: -0.06
+    Q2 2027: -0.04
+  annual_forecast:
+    2023 Yearly: -2.29
+    2024 Yearly: -1.26
+    2025 Yearly: -1.76
+    2026 Yearly: -0.29
+    2027 Yearly: -0.14
+    2028 Yearly: 0.26
+    2029 Yearly: 0.54

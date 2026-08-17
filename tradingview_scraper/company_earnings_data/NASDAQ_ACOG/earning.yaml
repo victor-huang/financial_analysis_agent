@@ -1,0 +1,73 @@
+currency: USD
+company_name: Alpha Cognition Inc.
+sector: Finance
+market_cap_billions: 0.19488
+revenue:
+  quarterly:
+    Q4 2024: 0.0
+    Q1 2025: 2.91
+    Q2 2025: 1.68
+    Q3 2025: 2.8
+    Q4 2025: 2.8
+    Q1 2026: 3.53
+  annual:
+    2020 Yearly: 0.0
+    2021 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 10.22
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q2 2025: 1.66
+    Q3 2025: 2.03
+    Q4 2025: 3.2
+    Q1 2026: 3.42
+    Q2 2026: 4.38
+    Q3 2026: 6.02
+    Q4 2026: 8.16
+    Q1 2027: 9.24
+  annual_forecast:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 10.61
+    2026 Yearly: 22.08
+    2027 Yearly: 48.56
+    2028 Yearly: 73.31
+    2029 Yearly: 100.64
+eps:
+  quarterly:
+    Q3 2024: -0.31
+    Q4 2024: -0.51
+    Q1 2025: -0.13
+    Q2 2025: -0.65
+    Q3 2025: -0.08
+    Q4 2025: -0.31
+    Q1 2026: -0.32
+  annual:
+    2021 Yearly: -9.25
+    2022 Yearly: -4.5
+    2023 Yearly: -3.75
+    2024 Yearly: -2.02
+    2025 Yearly: -1.17
+  quarterly_forecast:
+    Q3 2024: -1.0
+    Q4 2024: -0.63
+    Q1 2025: -0.58
+    Q2 2025: -0.46
+    Q3 2025: -0.43
+    Q4 2025: -0.27
+    Q1 2026: -0.39
+    Q2 2026: -0.39
+    Q3 2026: -0.36
+    Q4 2026: -0.31
+    Q1 2027: -0.25
+  annual_forecast:
+    2024 Yearly: -1.6
+    2025 Yearly: -1.11
+    2026 Yearly: -1.37
+    2027 Yearly: -0.6
+    2028 Yearly: 0.27
+    2029 Yearly: 1.13

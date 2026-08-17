@@ -1,0 +1,63 @@
+currency: USD
+company_name: Castellum, Inc.
+sector: Process Industries
+market_cap_billions: 0.07443999999999999
+revenue:
+  quarterly:
+    Q2 2024: 11.52
+    Q4 2024: 10.3
+    Q1 2025: 11.7
+    Q2 2025: 14.02
+    Q3 2025: 14.62
+    Q4 2025: 12.6
+    Q1 2026: 14.29
+  annual:
+    2022 Yearly: 42.19
+    2023 Yearly: 48.09
+    2024 Yearly: 44.76
+    2025 Yearly: 52.87
+  quarterly_forecast:
+    Q1 2025: 11.66
+    Q2 2025: 13.45
+    Q3 2025: 14.1
+    Q4 2025: 14.2
+    Q1 2026: 13.1
+    Q2 2026: 16.0
+    Q3 2026: 16.9
+    Q4 2026: 15.8
+    Q1 2027: 15.3
+  annual_forecast:
+    2023 Yearly: 48.1
+    2024 Yearly: 55.8
+    2025 Yearly: 54.5
+    2026 Yearly: 63.0
+    2027 Yearly: 67.0
+eps:
+  quarterly:
+    Q2 2024: -0.03
+    Q4 2024: -0.02
+    Q1 2025: 0.0
+    Q2 2025: 0.01
+    Q3 2025: 0.0
+    Q4 2025: -0.01
+    Q1 2026: 0.0
+  annual:
+    2022 Yearly: -0.55
+    2024 Yearly: -0.03
+    2025 Yearly: 0.02
+  quarterly_forecast:
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.01
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+  annual_forecast:
+    2023 Yearly: -0.21
+    2024 Yearly: -0.08
+    2025 Yearly: 0.02
+    2026 Yearly: 0.02
+    2027 Yearly: 0.02

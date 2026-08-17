@@ -1,0 +1,82 @@
+currency: USD
+company_name: 10x Genomics, Inc.
+sector: Health Technology
+market_cap_billions: 5.79
+revenue:
+  quarterly:
+    Q3 2024: 151.65
+    Q4 2024: 165.02
+    Q1 2025: 154.88
+    Q2 2025: 172.91
+    Q3 2025: 149.0
+    Q4 2025: 166.03
+    Q1 2026: 150.84
+    Q2 2026: 151.04
+  annual:
+    2021 Yearly: 490.49
+    2022 Yearly: 516.41
+    2023 Yearly: 618.73
+    2024 Yearly: 610.78
+    2025 Yearly: 642.82
+  quarterly_forecast:
+    Q3 2024: 156.89
+    Q4 2024: 159.77
+    Q1 2025: 133.13
+    Q2 2025: 139.44
+    Q3 2025: 142.47
+    Q4 2025: 159.65
+    Q1 2026: 146.41
+    Q2 2026: 146.67
+    Q3 2026: 147.32
+    Q4 2026: 168.89
+    Q1 2027: 159.54
+    Q2 2027: 162.14
+  annual_forecast:
+    2021 Yearly: 493.74
+    2022 Yearly: 508.11
+    2023 Yearly: 616.72
+    2024 Yearly: 605.23
+    2025 Yearly: 636.44
+    2026 Yearly: 613.69
+    2027 Yearly: 668.23
+    2028 Yearly: 726.96
+    2029 Yearly: 792.7
+eps:
+  quarterly:
+    Q3 2024: -0.3
+    Q4 2024: -0.4
+    Q1 2025: -0.28
+    Q2 2025: 0.28
+    Q3 2025: -0.22
+    Q4 2025: -0.13
+    Q1 2026: -0.1
+    Q2 2026: -0.14
+  annual:
+    2021 Yearly: -0.53
+    2022 Yearly: -1.46
+    2023 Yearly: -2.18
+    2024 Yearly: -1.52
+    2025 Yearly: -0.35
+  quarterly_forecast:
+    Q3 2024: -0.33
+    Q4 2024: -0.3
+    Q1 2025: -0.47
+    Q2 2025: -0.37
+    Q3 2025: -0.29
+    Q4 2025: -0.2
+    Q1 2026: -0.28
+    Q2 2026: -0.24
+    Q3 2026: -0.25
+    Q4 2026: -0.2
+    Q1 2027: -0.12
+    Q2 2027: -0.2
+  annual_forecast:
+    2021 Yearly: -0.46
+    2022 Yearly: -1.62
+    2023 Yearly: -2.14
+    2024 Yearly: -1.41
+    2025 Yearly: -0.43
+    2026 Yearly: -0.81
+    2027 Yearly: -0.71
+    2028 Yearly: -0.41
+    2029 Yearly: -0.37

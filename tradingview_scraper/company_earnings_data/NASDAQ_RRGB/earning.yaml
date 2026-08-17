@@ -1,0 +1,74 @@
+currency: USD
+company_name: Red Robin Gourmet Burgers, Inc.
+sector: Consumer Services
+market_cap_billions: 0.15096
+revenue:
+  quarterly:
+    Q2 2023: 298.65
+    Q3 2023: 277.56
+    Q4 2023: 309.0
+    Q3 2024: 274.64
+    Q4 2024: 285.23
+    Q3 2025: 265.13
+    Q4 2025: 269.04
+  annual:
+    2021 Yearly: 1160.0
+    2022 Yearly: 1270.0
+    2023 Yearly: 1300.0
+    2024 Yearly: 1250.0
+    2025 Yearly: 1210.0
+  quarterly_forecast:
+    Q2 2023: 295.26
+    Q3 2023: 275.65
+    Q4 2023: 304.97
+    Q3 2024: 270.75
+    Q4 2024: 282.76
+    Q3 2025: 256.75
+    Q4 2025: 264.26
+    Q1 2026: 265.8
+    Q2 2026: 250.06
+    Q3 2026: 256.26
+    Q4 2026: 356.54
+  annual_forecast:
+    2021 Yearly: 1170.0
+    2022 Yearly: 1270.0
+    2023 Yearly: 1300.0
+    2024 Yearly: 1250.0
+    2025 Yearly: 1210.0
+    2026 Yearly: 1150.0
+    2027 Yearly: 1130.0
+    2028 Yearly: 1470.0
+eps:
+  quarterly:
+    Q2 2023: -0.24
+    Q3 2023: -0.79
+    Q4 2023: -0.66
+    Q3 2024: -1.13
+    Q4 2024: -0.94
+    Q3 2025: -0.7
+    Q4 2025: -0.41
+  annual:
+    2021 Yearly: -2.43
+    2022 Yearly: -3.26
+    2023 Yearly: -1.44
+    2024 Yearly: -3.34
+    2025 Yearly: -0.64
+  quarterly_forecast:
+    Q2 2023: -0.54
+    Q3 2023: -0.85
+    Q4 2023: -0.46
+    Q3 2024: -0.96
+    Q4 2024: -0.66
+    Q3 2025: -0.78
+    Q4 2025: -0.59
+    Q1 2026: 0.0
+    Q2 2026: -0.39
+    Q3 2026: -0.12
+    Q4 2026: 0.22
+  annual_forecast:
+    2022 Yearly: -2.12
+    2023 Yearly: -2.53
+    2024 Yearly: -1.23
+    2025 Yearly: -2.96
+    2026 Yearly: -0.78
+    2027 Yearly: -0.36

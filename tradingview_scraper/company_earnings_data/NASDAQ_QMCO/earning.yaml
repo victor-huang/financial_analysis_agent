@@ -1,0 +1,78 @@
+currency: USD
+company_name: Quantum Corporation
+sector: Electronic Technology
+market_cap_billions: 0.46414
+revenue:
+  quarterly:
+    Q2 2024: 70.47
+    Q3 2024: 72.55
+    Q4 2024: 60.04
+    Q1 2025: 64.29
+    Q2 2025: 62.72
+    Q3 2025: 74.59
+    Q4 2025: 78.0
+    Q1 2026: 80.8
+  annual:
+    2021 Yearly: 372.83
+    2022 Yearly: 412.75
+    2023 Yearly: 311.6
+    2024 Yearly: 274.08
+    2025 Yearly: 279.58
+  quarterly_forecast:
+    Q2 2024: 72.5
+    Q3 2024: 72.0
+    Q4 2024: 65.85
+    Q1 2025: 73.7
+    Q2 2025: 60.5
+    Q3 2025: 72.7
+    Q4 2025: 72.75
+    Q1 2026: 75.05
+    Q2 2026: 74.75
+    Q3 2026: 79.55
+    Q4 2026: 83.75
+    Q1 2027: 79.9
+  annual_forecast:
+    2021 Yearly: 369.16
+    2022 Yearly: 409.35
+    2023 Yearly: 345.3
+    2024 Yearly: 280.18
+    2025 Yearly: 274.35
+    2026 Yearly: 313.1
+    2027 Yearly: 334.25
+    2028 Yearly: 321.3
+    2029 Yearly: 340.9
+eps:
+  quarterly:
+    Q2 2024: -1.82
+    Q3 2024: -0.81
+    Q4 2024: -1.78
+    Q1 2025: -1.58
+    Q2 2025: -0.54
+    Q3 2025: -0.36
+    Q4 2025: -0.21
+    Q1 2026: 0.18
+  annual:
+    2021 Yearly: -2.2
+    2022 Yearly: -1.4
+    2023 Yearly: -5.8
+    2024 Yearly: -6.0
+    2025 Yearly: -2.69
+  quarterly_forecast:
+    Q2 2024: -1.1
+    Q3 2024: -0.72
+    Q4 2024: -1.17
+    Q1 2025: -0.15
+    Q2 2025: -0.28
+    Q3 2025: -0.45
+    Q4 2025: -0.3
+    Q1 2026: -0.17
+    Q2 2026: -0.03
+    Q3 2026: 0.03
+    Q4 2026: 0.04
+    Q1 2027: 0.08
+  annual_forecast:
+    2023 Yearly: -2.7
+    2024 Yearly: -1.4
+    2025 Yearly: -2.2
+    2026 Yearly: -5.17
+    2027 Yearly: -2.43

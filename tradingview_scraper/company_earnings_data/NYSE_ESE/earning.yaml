@@ -1,0 +1,80 @@
+currency: USD
+company_name: ESCO Technologies Inc.
+sector: Electronic Technology
+market_cap_billions: 8.5
+revenue:
+  quarterly:
+    Q4 2024: 298.53
+    Q1 2025: 247.03
+    Q2 2025: 265.52
+    Q3 2025: 296.34
+    Q4 2025: 352.67
+    Q1 2026: 289.66
+    Q2 2026: 309.34
+    Q3 2026: 339.03
+  annual:
+    2021 Yearly: 715.44
+    2022 Yearly: 857.5
+    2023 Yearly: 956.03
+    2024 Yearly: 1030.0
+    2025 Yearly: 1100.0
+  quarterly_forecast:
+    Q4 2024: 297.31
+    Q1 2025: 232.39
+    Q2 2025: 264.96
+    Q3 2025: 318.61
+    Q4 2025: 339.07
+    Q1 2026: 279.52
+    Q2 2026: 307.88
+    Q3 2026: 341.4
+    Q4 2026: 377.67
+    Q1 2027: 309.94
+    Q2 2027: 330.86
+    Q3 2027: 365.36
+  annual_forecast:
+    2021 Yearly: 712.14
+    2022 Yearly: 835.28
+    2023 Yearly: 950.61
+    2024 Yearly: 1030.0
+    2025 Yearly: 1110.0
+    2026 Yearly: 1320.0
+    2027 Yearly: 1550.0
+    2028 Yearly: 1850.0
+eps:
+  quarterly:
+    Q4 2024: 1.46
+    Q1 2025: 1.07
+    Q2 2025: 1.35
+    Q3 2025: 1.57
+    Q4 2025: 2.32
+    Q1 2026: 1.64
+    Q2 2026: 1.91
+    Q3 2026: 2.2
+  annual:
+    2021 Yearly: 2.59
+    2022 Yearly: 3.21
+    2023 Yearly: 3.7
+    2024 Yearly: 4.18
+    2025 Yearly: 6.03
+  quarterly_forecast:
+    Q4 2024: 1.44
+    Q1 2025: 0.73
+    Q2 2025: 1.25
+    Q3 2025: 1.65
+    Q4 2025: 2.13
+    Q1 2026: 1.32
+    Q2 2026: 1.84
+    Q3 2026: 2.12
+    Q4 2026: 2.52
+    Q1 2027: 1.77
+    Q2 2027: 2.04
+    Q3 2027: 2.42
+  annual_forecast:
+    2021 Yearly: 2.51
+    2022 Yearly: 3.15
+    2023 Yearly: 3.67
+    2024 Yearly: 4.16
+    2025 Yearly: 5.84
+    2026 Yearly: 8.19
+    2027 Yearly: 9.09
+    2028 Yearly: 10.48

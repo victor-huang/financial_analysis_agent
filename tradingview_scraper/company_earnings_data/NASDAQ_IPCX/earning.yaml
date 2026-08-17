@@ -1,0 +1,24 @@
+currency: USD
+company_name: Inflection Point Acquisition Corp. III
+sector: Finance
+market_cap_billions: 0.14134
+revenue:
+  quarterly:
+    Q1 2026: 16.0
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: 17.0
+    Q3 2026: 17.0
+    Q4 2026: 20.0
+    Q1 2027: 20.0
+  annual_forecast: {}
+eps:
+  quarterly:
+    Q1 2026: 0.11
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: 0.13
+    Q3 2026: 0.1
+    Q4 2026: 0.12
+    Q1 2027: 0.11
+  annual_forecast: {}

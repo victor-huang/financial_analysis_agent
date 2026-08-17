@@ -1,0 +1,80 @@
+currency: USD
+company_name: Arlo Technologies, Inc.
+sector: Electronic Technology
+market_cap_billions: 1.68
+revenue:
+  quarterly:
+    Q3 2024: 137.67
+    Q4 2024: 121.57
+    Q1 2025: 119.07
+    Q2 2025: 129.41
+    Q3 2025: 139.53
+    Q4 2025: 141.3
+    Q1 2026: 150.38
+    Q2 2026: 155.94
+  annual:
+    2021 Yearly: 435.14
+    2022 Yearly: 490.41
+    2023 Yearly: 491.18
+    2024 Yearly: 510.89
+    2025 Yearly: 529.3
+  quarterly_forecast:
+    Q3 2024: 136.13
+    Q4 2024: 121.36
+    Q1 2025: 118.35
+    Q2 2025: 123.46
+    Q3 2025: 138.68
+    Q4 2025: 135.57
+    Q1 2026: 139.72
+    Q2 2026: 148.94
+    Q3 2026: 133.21
+    Q4 2026: 133.29
+    Q1 2027: 150.51
+    Q2 2027: 157.06
+  annual_forecast:
+    2021 Yearly: 427.14
+    2022 Yearly: 479.33
+    2023 Yearly: 490.67
+    2024 Yearly: 510.66
+    2025 Yearly: 523.57
+    2026 Yearly: 565.85
+    2027 Yearly: 613.26
+    2028 Yearly: 638.2
+eps:
+  quarterly:
+    Q3 2024: 0.11
+    Q4 2024: 0.1
+    Q1 2025: 0.15
+    Q2 2025: 0.17
+    Q3 2025: 0.16
+    Q4 2025: 0.22
+    Q1 2026: 0.28
+    Q2 2026: 0.28
+  annual:
+    2021 Yearly: -0.11
+    2022 Yearly: -0.07
+    2023 Yearly: 0.28
+    2024 Yearly: 0.4
+    2025 Yearly: 0.7
+  quarterly_forecast:
+    Q3 2024: 0.1
+    Q4 2024: 0.1
+    Q1 2025: 0.12
+    Q2 2025: 0.15
+    Q3 2025: 0.15
+    Q4 2025: 0.16
+    Q1 2026: 0.19
+    Q2 2026: 0.2
+    Q3 2026: 0.18
+    Q4 2026: 0.19
+    Q1 2027: 0.22
+    Q2 2027: 0.24
+  annual_forecast:
+    2021 Yearly: -0.19
+    2022 Yearly: -0.12
+    2023 Yearly: 0.25
+    2024 Yearly: 0.41
+    2025 Yearly: 0.66
+    2026 Yearly: 0.84
+    2027 Yearly: 0.98
+    2028 Yearly: 1.21

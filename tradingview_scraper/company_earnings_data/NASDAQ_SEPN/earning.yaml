@@ -1,0 +1,59 @@
+currency: USD
+company_name: Septerna, Inc.
+sector: Health Technology
+market_cap_billions: 1.75
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q1 2026: 21.5
+    Q2 2026: 24.12
+    Q3 2026: 26.52
+    Q4 2026: 26.75
+  annual:
+    2024 Yearly: 1.07
+    2025 Yearly: 45.95
+  quarterly_forecast:
+    Q2 2026: 40.0
+    Q3 2026: 91.67
+    Q4 2026: 18.2
+    Q1 2027: 16.98
+    Q2 2027: 19.22
+  annual_forecast:
+    2025 Yearly: 38.37
+    2026 Yearly: 79.63
+    2027 Yearly: 65.82
+    2028 Yearly: 66.4
+    2029 Yearly: 55.2
+eps:
+  quarterly:
+    Q3 2024: -8.4
+    Q4 2024: -0.64
+    Q1 2025: -0.49
+    Q2 2025: -0.56
+    Q3 2025: 0.18
+    Q4 2025: -0.24
+    Q1 2026: -0.19
+    Q2 2026: -0.29
+  annual:
+    2024 Yearly: -7.26
+    2025 Yearly: -1.1
+  quarterly_forecast:
+    Q3 2024: -5.88
+    Q4 2024: -0.69
+    Q1 2025: -0.45
+    Q2 2025: 0.93
+    Q3 2025: 0.12
+    Q4 2025: -0.25
+    Q1 2026: -0.42
+    Q2 2026: -0.43
+    Q3 2026: -0.48
+    Q4 2026: -0.5
+    Q1 2027: -0.6
+    Q2 2027: -0.36
+  annual_forecast:
+    2024 Yearly: -7.76
+    2025 Yearly: -1.12
+    2026 Yearly: -1.6
+    2027 Yearly: -2.42
+    2028 Yearly: -2.77
+    2029 Yearly: -3.95

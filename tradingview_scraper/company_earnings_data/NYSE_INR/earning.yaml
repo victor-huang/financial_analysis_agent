@@ -1,0 +1,68 @@
+currency: USD
+company_name: Infinity Natural Resources, Inc.
+sector: Energy Minerals
+market_cap_billions: 0.88627
+revenue:
+  quarterly:
+    Q3 2024: 71.5
+    Q4 2024: 69.11
+    Q1 2025: 85.17
+    Q2 2025: 74.48
+    Q3 2025: 79.73
+    Q4 2025: 117.06
+    Q1 2026: 154.87
+    Q2 2026: 171.02
+  annual:
+    2024 Yearly: 259.02
+    2025 Yearly: 356.43
+  quarterly_forecast:
+    Q4 2024: 66.37
+    Q1 2025: 79.85
+    Q2 2025: 82.38
+    Q3 2025: 85.98
+    Q4 2025: 109.27
+    Q1 2026: 143.47
+    Q2 2026: 163.04
+    Q3 2026: 172.11
+    Q4 2026: 185.86
+    Q1 2027: 200.03
+    Q2 2027: 178.97
+  annual_forecast:
+    2024 Yearly: 263.89
+    2025 Yearly: 353.4
+    2026 Yearly: 684.22
+    2027 Yearly: 783.79
+    2028 Yearly: 908.39
+    2029 Yearly: 1020.0
+eps:
+  quarterly:
+    Q3 2024: 0.63
+    Q4 2024: 0.51
+    Q1 2025: -2.27
+    Q2 2025: 0.3
+    Q3 2025: 0.41
+    Q4 2025: 1.0
+    Q1 2026: 0.83
+    Q2 2026: 0.81
+  annual:
+    2024 Yearly: 1.86
+    2025 Yearly: 2.5
+  quarterly_forecast:
+    Q4 2024: 0.41
+    Q1 2025: 0.65
+    Q2 2025: 0.42
+    Q3 2025: 0.45
+    Q4 2025: 0.64
+    Q1 2026: 0.89
+    Q2 2026: 0.82
+    Q3 2026: 0.82
+    Q4 2026: 0.88
+    Q1 2027: 1.16
+    Q2 2027: 0.78
+  annual_forecast:
+    2024 Yearly: 2.81
+    2025 Yearly: 2.11
+    2026 Yearly: 3.18
+    2027 Yearly: 3.78
+    2028 Yearly: 4.59
+    2029 Yearly: 4.84

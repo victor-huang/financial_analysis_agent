@@ -1,0 +1,64 @@
+currency: USD
+company_name: Bolt Biotherapeutics, Inc.
+sector: Health Technology
+market_cap_billions: 0.00663
+revenue:
+  quarterly:
+    Q2 2025: 1.22
+    Q3 2025: 1.8
+    Q4 2025: 2.17
+    Q1 2026: 2.5
+  annual:
+    2021 Yearly: 1.26
+    2022 Yearly: 5.73
+    2023 Yearly: 7.88
+    2024 Yearly: 7.69
+    2025 Yearly: 7.7
+  quarterly_forecast: {}
+  annual_forecast:
+    2021 Yearly: 1.96
+    2022 Yearly: 1.96
+    2023 Yearly: 5.68
+    2024 Yearly: 7.59
+    2025 Yearly: 8.47
+    2026 Yearly: 1.13
+    2027 Yearly: 5.87
+    2028 Yearly: 4.0
+    2029 Yearly: 2.33
+eps:
+  quarterly:
+    Q4 2024: -8.4
+    Q1 2025: -5.8
+    Q2 2025: -4.46
+    Q3 2025: -3.72
+    Q4 2025: -3.84
+    Q1 2026: -4.31
+    Q2 2026: -4.57
+  annual:
+    2021 Yearly: -59.4
+    2022 Yearly: -47.2
+    2023 Yearly: -36.6
+    2024 Yearly: -33.0
+    2025 Yearly: -17.85
+  quarterly_forecast:
+    Q4 2024: -7.6
+    Q1 2025: -7.1
+    Q2 2025: -6.3
+    Q3 2025: -5.68
+    Q4 2025: -6.11
+    Q1 2026: -2.85
+    Q2 2026: -3.39
+    Q3 2026: -3.52
+    Q4 2026: -3.5
+    Q1 2027: 0.0
+    Q2 2027: 0.0
+  annual_forecast:
+    2021 Yearly: -62.56
+    2022 Yearly: -47.17
+    2023 Yearly: -34.87
+    2024 Yearly: -32.27
+    2025 Yearly: -21.23
+    2026 Yearly: -16.41
+    2027 Yearly: -20.19
+    2028 Yearly: -30.84
+    2029 Yearly: -35.53

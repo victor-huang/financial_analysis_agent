@@ -1,0 +1,80 @@
+currency: USD
+company_name: Brookdale Senior Living Inc.
+sector: Health Services
+market_cap_billions: 3.27
+revenue:
+  quarterly:
+    Q3 2024: 784.17
+    Q4 2024: 780.95
+    Q1 2025: 813.86
+    Q2 2025: 812.94
+    Q3 2025: 813.16
+    Q4 2025: 754.09
+    Q1 2026: 764.86
+    Q2 2026: 718.58
+  annual:
+    2021 Yearly: 2760.0
+    2022 Yearly: 2830.0
+    2023 Yearly: 3020.0
+    2024 Yearly: 3130.0
+    2025 Yearly: 3190.0
+  quarterly_forecast:
+    Q3 2024: 784.23
+    Q4 2024: 781.78
+    Q1 2025: 816.9
+    Q2 2025: 817.63
+    Q3 2025: 827.37
+    Q4 2025: 766.33
+    Q1 2026: 771.16
+    Q2 2026: 735.63
+    Q3 2026: 732.5
+    Q4 2026: 737.36
+    Q1 2027: 768.52
+    Q2 2027: 761.5
+  annual_forecast:
+    2021 Yearly: 2760.0
+    2022 Yearly: 2820.0
+    2023 Yearly: 3020.0
+    2024 Yearly: 3130.0
+    2025 Yearly: 3210.0
+    2026 Yearly: 2970.0
+    2027 Yearly: 3070.0
+    2028 Yearly: 3240.0
+eps:
+  quarterly:
+    Q3 2024: -0.22
+    Q4 2024: -0.37
+    Q1 2025: -0.28
+    Q2 2025: -0.18
+    Q3 2025: -0.48
+    Q4 2025: -0.17
+    Q1 2026: -0.03
+    Q2 2026: 0.1
+  annual:
+    2021 Yearly: -0.54
+    2022 Yearly: -1.25
+    2023 Yearly: -0.84
+    2024 Yearly: -0.89
+    2025 Yearly: -1.12
+  quarterly_forecast:
+    Q3 2024: -0.17
+    Q4 2024: -0.21
+    Q1 2025: -0.12
+    Q2 2025: -0.13
+    Q3 2025: -0.17
+    Q4 2025: -0.17
+    Q1 2026: -0.02
+    Q2 2026: -0.06
+    Q3 2026: -0.03
+    Q4 2026: -0.02
+    Q1 2027: 0.03
+    Q2 2027: 0.01
+  annual_forecast:
+    2021 Yearly: -1.59
+    2022 Yearly: -1.51
+    2023 Yearly: -0.65
+    2024 Yearly: -0.71
+    2025 Yearly: -1.12
+    2026 Yearly: -0.13
+    2027 Yearly: 0.14
+    2028 Yearly: 0.47

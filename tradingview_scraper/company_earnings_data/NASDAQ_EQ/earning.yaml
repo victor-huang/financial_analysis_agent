@@ -1,0 +1,76 @@
+currency: USD
+company_name: Equillium, Inc.
+sector: Health Technology
+market_cap_billions: 0.141
+revenue:
+  quarterly:
+    Q3 2024: 12.16
+    Q4 2024: 4.39
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 15.76
+    2023 Yearly: 36.08
+    2024 Yearly: 41.09
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q3 2024: 11.55
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+  annual_forecast:
+    2021 Yearly: 0.0
+    2022 Yearly: 18.0
+    2023 Yearly: 33.37
+    2024 Yearly: 36.85
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 0.0
+    2028 Yearly: 0.0
+    2029 Yearly: 0.0
+eps:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: -0.16
+    Q2 2025: -0.16
+    Q3 2025: -0.06
+    Q4 2025: -0.04
+    Q1 2026: -0.06
+  annual:
+    2021 Yearly: -1.36
+    2022 Yearly: -1.85
+    2023 Yearly: -0.38
+    2024 Yearly: -0.23
+    2025 Yearly: -0.39
+  quarterly_forecast:
+    Q3 2024: 0.02
+    Q4 2024: -0.31
+    Q1 2025: -0.34
+    Q2 2025: -0.23
+    Q3 2025: -0.07
+    Q4 2025: -0.06
+    Q1 2026: -0.05
+    Q2 2026: -0.05
+    Q3 2026: -0.06
+    Q4 2026: -0.07
+    Q1 2027: -0.08
+  annual_forecast:
+    2021 Yearly: -1.33
+    2022 Yearly: -1.67
+    2023 Yearly: -0.5
+    2024 Yearly: -0.38
+    2025 Yearly: -0.41
+    2026 Yearly: -0.23
+    2027 Yearly: -0.25
+    2028 Yearly: -0.3
+    2029 Yearly: -0.33

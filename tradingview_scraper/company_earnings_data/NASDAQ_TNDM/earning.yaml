@@ -1,0 +1,82 @@
+currency: USD
+company_name: Tandem Diabetes Care, Inc.
+sector: Health Technology
+market_cap_billions: 1.29
+revenue:
+  quarterly:
+    Q3 2024: 242.93
+    Q4 2024: 252.45
+    Q1 2025: 234.42
+    Q2 2025: 240.68
+    Q3 2025: 249.25
+    Q4 2025: 290.38
+    Q1 2026: 247.22
+    Q2 2026: 254.56
+  annual:
+    2021 Yearly: 702.8
+    2022 Yearly: 801.22
+    2023 Yearly: 772.8
+    2024 Yearly: 909.95
+    2025 Yearly: 1010.0
+  quarterly_forecast:
+    Q3 2024: 224.14
+    Q4 2024: 250.58
+    Q1 2025: 220.32
+    Q2 2025: 238.58
+    Q3 2025: 235.76
+    Q4 2025: 277.01
+    Q1 2026: 240.41
+    Q2 2026: 254.99
+    Q3 2026: 268.76
+    Q4 2026: 302.47
+    Q1 2027: 275.85
+    Q2 2027: 295.09
+  annual_forecast:
+    2021 Yearly: 691.83
+    2022 Yearly: 802.0
+    2023 Yearly: 764.45
+    2024 Yearly: 908.03
+    2025 Yearly: 1000.0
+    2026 Yearly: 1070.0
+    2027 Yearly: 1210.0
+    2028 Yearly: 1370.0
+    2029 Yearly: 1510.0
+eps:
+  quarterly:
+    Q3 2024: -0.35
+    Q4 2024: 0.01
+    Q1 2025: -0.67
+    Q2 2025: -0.48
+    Q3 2025: -0.31
+    Q4 2025: -0.01
+    Q1 2026: -0.3
+    Q2 2026: -0.31
+  annual:
+    2021 Yearly: 0.24
+    2022 Yearly: -1.47
+    2023 Yearly: -3.43
+    2024 Yearly: -1.47
+    2025 Yearly: -1.46
+  quarterly_forecast:
+    Q3 2024: -0.4
+    Q4 2024: -0.2
+    Q1 2025: -0.6
+    Q2 2025: -0.4
+    Q3 2025: -0.33
+    Q4 2025: -0.09
+    Q1 2026: -0.44
+    Q2 2026: -0.32
+    Q3 2026: -0.18
+    Q4 2026: 0.14
+    Q1 2027: -0.1
+    Q2 2027: -0.07
+  annual_forecast:
+    2021 Yearly: 0.3
+    2022 Yearly: -1.09
+    2023 Yearly: -3.21
+    2024 Yearly: -1.69
+    2025 Yearly: -2.09
+    2026 Yearly: -0.67
+    2027 Yearly: 0.13
+    2028 Yearly: 0.81
+    2029 Yearly: 1.38

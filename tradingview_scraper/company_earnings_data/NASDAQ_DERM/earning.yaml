@@ -1,0 +1,78 @@
+currency: USD
+company_name: Journey Medical Corporation
+sector: Health Technology
+market_cap_billions: 0.17705
+revenue:
+  quarterly:
+    Q3 2024: 14.63
+    Q4 2024: 13.61
+    Q1 2025: 13.14
+    Q2 2025: 15.01
+    Q3 2025: 17.63
+    Q4 2025: 16.08
+    Q1 2026: 15.96
+  annual:
+    2021 Yearly: 63.13
+    2022 Yearly: 71.0
+    2023 Yearly: 79.18
+    2024 Yearly: 56.13
+    2025 Yearly: 61.86
+  quarterly_forecast:
+    Q3 2024: 14.39
+    Q4 2024: 14.01
+    Q1 2025: 12.07
+    Q2 2025: 14.79
+    Q3 2025: 18.86
+    Q4 2025: 18.85
+    Q1 2026: 15.47
+    Q2 2026: 18.36
+    Q3 2026: 22.4
+    Q4 2026: 25.88
+    Q1 2027: 24.27
+  annual_forecast:
+    2021 Yearly: 66.01
+    2022 Yearly: 74.27
+    2023 Yearly: 78.95
+    2024 Yearly: 56.52
+    2025 Yearly: 64.65
+    2026 Yearly: 82.61
+    2027 Yearly: 137.73
+    2028 Yearly: 198.48
+    2029 Yearly: 224.53
+eps:
+  quarterly:
+    Q3 2024: -0.12
+    Q4 2024: 0.1
+    Q1 2025: -0.18
+    Q2 2025: -0.16
+    Q3 2025: -0.09
+    Q4 2025: -0.04
+    Q1 2026: -0.08
+  annual:
+    2021 Yearly: -4.32
+    2022 Yearly: -1.69
+    2023 Yearly: -0.21
+    2024 Yearly: -0.72
+    2025 Yearly: -0.47
+  quarterly_forecast:
+    Q3 2024: -0.17
+    Q4 2024: -0.2
+    Q1 2025: -0.24
+    Q2 2025: -0.1
+    Q3 2025: -0.05
+    Q4 2025: -0.05
+    Q1 2026: -0.09
+    Q2 2026: -0.02
+    Q3 2026: 0.05
+    Q4 2026: 0.1
+    Q1 2027: 0.02
+  annual_forecast:
+    2021 Yearly: -2.62
+    2022 Yearly: -1.56
+    2023 Yearly: -0.17
+    2024 Yearly: -1.0
+    2025 Yearly: -0.48
+    2026 Yearly: 0.07
+    2027 Yearly: 1.04
+    2028 Yearly: 2.25
+    2029 Yearly: 1.42

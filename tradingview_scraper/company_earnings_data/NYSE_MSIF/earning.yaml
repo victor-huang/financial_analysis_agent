@@ -1,0 +1,66 @@
+currency: USD
+company_name: MSC Income Fund, Inc.
+sector: Miscellaneous
+market_cap_billions: 0.53507
+revenue:
+  quarterly:
+    Q3 2024: 33.48
+    Q4 2024: 33.45
+    Q1 2025: 33.23
+    Q2 2025: 35.64
+    Q3 2025: 35.37
+    Q4 2025: 34.92
+    Q1 2026: 34.09
+    Q2 2026: 35.7
+  annual:
+    2024 Yearly: 134.83
+    2025 Yearly: 139.15
+  quarterly_forecast:
+    Q4 2024: 33.96
+    Q1 2025: 34.31
+    Q2 2025: 35.75
+    Q3 2025: 35.28
+    Q4 2025: 35.84
+    Q1 2026: 36.39
+    Q2 2026: 35.77
+    Q3 2026: 37.24
+    Q4 2026: 38.4
+    Q1 2027: 38.53
+    Q2 2027: 39.14
+  annual_forecast:
+    2024 Yearly: 135.34
+    2025 Yearly: 140.09
+    2026 Yearly: 145.48
+    2027 Yearly: 158.39
+    2028 Yearly: 166.19
+eps:
+  quarterly:
+    Q3 2024: 0.35
+    Q4 2024: 0.35
+    Q1 2025: 0.38
+    Q2 2025: 0.35
+    Q3 2025: 0.35
+    Q4 2025: 0.37
+    Q1 2026: 0.36
+    Q2 2026: 0.33
+  annual:
+    2024 Yearly: 1.43
+    2025 Yearly: 1.47
+  quarterly_forecast:
+    Q4 2024: 0.38
+    Q1 2025: 0.36
+    Q2 2025: 0.36
+    Q3 2025: 0.36
+    Q4 2025: 0.36
+    Q1 2026: 0.36
+    Q2 2026: 0.36
+    Q3 2026: 0.37
+    Q4 2026: 0.38
+    Q1 2027: 0.37
+    Q2 2027: 0.37
+  annual_forecast:
+    2024 Yearly: 1.41
+    2025 Yearly: 1.47
+    2026 Yearly: 1.45
+    2027 Yearly: 1.51
+    2028 Yearly: 1.59

@@ -1,0 +1,74 @@
+currency: USD
+company_name: comScore, Inc.
+sector: Technology Services
+market_cap_billions: 0.10837000000000001
+revenue:
+  quarterly:
+    Q3 2024: 88.48
+    Q4 2024: 94.94
+    Q1 2025: 85.71
+    Q2 2025: 89.39
+    Q3 2025: 88.91
+    Q4 2025: 93.47
+    Q1 2026: 85.32
+  annual:
+    2021 Yearly: 367.01
+    2022 Yearly: 376.42
+    2023 Yearly: 371.34
+    2024 Yearly: 356.05
+    2025 Yearly: 357.47
+  quarterly_forecast:
+    Q3 2024: 85.9
+    Q4 2024: 91.65
+    Q1 2025: 86.75
+    Q2 2025: 85.94
+    Q3 2025: 88.63
+    Q4 2025: 92.09
+    Q1 2026: 85.44
+    Q2 2026: 83.27
+    Q3 2026: 75.46
+    Q4 2026: 81.4
+    Q1 2027: 74.98
+  annual_forecast:
+    2021 Yearly: 367.43
+    2022 Yearly: 373.79
+    2023 Yearly: 373.77
+    2024 Yearly: 352.75
+    2025 Yearly: 356.09
+    2026 Yearly: 325.45
+    2027 Yearly: 310.97
+eps:
+  quarterly:
+    Q3 2024: -12.39
+    Q4 2024: 0.06
+    Q1 2025: -1.39
+    Q2 2025: -2.26
+    Q3 2025: -0.67
+    Q4 2025: 6.48
+    Q1 2026: -0.31
+  annual:
+    2021 Yearly: -2.1
+    2022 Yearly: -1.03
+    2023 Yearly: 0.0
+    2024 Yearly: -1.37
+    2025 Yearly: 5.23
+  quarterly_forecast:
+    Q3 2024: 0.57
+    Q4 2024: 1.46
+    Q1 2025: 0.57
+    Q2 2025: 0.56
+    Q3 2025: 0.92
+    Q4 2025: 1.94
+    Q1 2026: 0.29
+    Q2 2026: 0.13
+    Q3 2026: 0.2
+    Q4 2026: 0.45
+    Q1 2027: 0.07
+  annual_forecast:
+    2021 Yearly: -0.1
+    2022 Yearly: 2.67
+    2023 Yearly: 4.0
+    2024 Yearly: 2.9
+    2025 Yearly: 2.22
+    2026 Yearly: 0.46
+    2027 Yearly: 1.05

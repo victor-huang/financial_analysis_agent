@@ -1,0 +1,82 @@
+currency: USD
+company_name: Owlet, Inc.
+sector: Consumer Durables
+market_cap_billions: 0.15811
+revenue:
+  quarterly:
+    Q3 2024: 22.1
+    Q4 2024: 20.5
+    Q1 2025: 21.1
+    Q2 2025: 26.1
+    Q3 2025: 32.0
+    Q4 2025: 26.6
+    Q1 2026: 22.5
+    Q2 2026: 33.9
+  annual:
+    2021 Yearly: 75.8
+    2022 Yearly: 69.2
+    2023 Yearly: 54.0
+    2024 Yearly: 78.1
+    2025 Yearly: 105.7
+  quarterly_forecast:
+    Q3 2024: 22.46
+    Q4 2024: 17.11
+    Q1 2025: 18.14
+    Q2 2025: 22.17
+    Q3 2025: 27.18
+    Q4 2025: 26.01
+    Q1 2026: 20.84
+    Q2 2026: 31.71
+    Q3 2026: 31.36
+    Q4 2026: 34.31
+    Q1 2027: 26.85
+    Q2 2027: 36.88
+  annual_forecast:
+    2021 Yearly: 95.09
+    2022 Yearly: 70.14
+    2023 Yearly: 54.16
+    2024 Yearly: 74.69
+    2025 Yearly: 104.85
+    2026 Yearly: 119.87
+    2027 Yearly: 144.92
+    2028 Yearly: 185.5
+    2029 Yearly: 277.22
+eps:
+  quarterly:
+    Q3 2024: 0.03
+    Q4 2024: -0.07
+    Q1 2025: -0.07
+    Q2 2025: -2.37
+    Q3 2025: 0.03
+    Q4 2025: -0.39
+    Q1 2026: -0.25
+    Q2 2026: -0.05
+  annual:
+    2021 Yearly: -10.64
+    2022 Yearly: -8.96
+    2023 Yearly: -2.46
+    2024 Yearly: -0.36
+    2025 Yearly: -2.31
+  quarterly_forecast:
+    Q3 2024: -0.24
+    Q4 2024: -0.52
+    Q1 2025: -0.27
+    Q2 2025: -0.23
+    Q3 2025: -0.19
+    Q4 2025: -0.14
+    Q1 2026: -0.17
+    Q2 2026: -0.09
+    Q3 2026: -0.05
+    Q4 2026: -0.05
+    Q1 2027: -0.13
+    Q2 2027: -0.01
+  annual_forecast:
+    2021 Yearly: -13.48
+    2022 Yearly: -9.24
+    2023 Yearly: -0.58
+    2024 Yearly: -1.14
+    2025 Yearly: -2.06
+    2026 Yearly: -0.37
+    2027 Yearly: -0.08
+    2028 Yearly: 0.09
+    2029 Yearly: 1.09

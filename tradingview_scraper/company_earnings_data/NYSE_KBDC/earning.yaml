@@ -1,0 +1,68 @@
+currency: USD
+company_name: Kayne Anderson BDC, Inc.
+sector: Finance
+market_cap_billions: 0.92691
+revenue:
+  quarterly:
+    Q3 2024: 57.8
+    Q4 2024: 56.34
+    Q1 2025: 55.24
+    Q2 2025: 57.3
+    Q3 2025: 61.37
+    Q4 2025: 61.9
+    Q1 2026: 57.33
+    Q2 2026: 55.7
+  annual:
+    2024 Yearly: 213.11
+    2025 Yearly: 235.82
+  quarterly_forecast:
+    Q3 2024: 50.96
+    Q4 2024: 53.01
+    Q1 2025: 52.54
+    Q2 2025: 49.37
+    Q3 2025: 53.97
+    Q4 2025: 56.48
+    Q1 2026: 52.4
+    Q2 2026: 51.86
+    Q3 2026: 52.19
+    Q4 2026: 52.63
+    Q1 2027: 50.8
+    Q2 2027: 50.72
+  annual_forecast:
+    2024 Yearly: 194.79
+    2025 Yearly: 216.46
+    2026 Yearly: 209.29
+    2027 Yearly: 209.48
+    2028 Yearly: 199.25
+eps:
+  quarterly:
+    Q3 2024: 0.52
+    Q4 2024: 0.48
+    Q1 2025: 0.4
+    Q2 2025: 0.4
+    Q3 2025: 0.43
+    Q4 2025: 0.44
+    Q1 2026: 0.43
+    Q2 2026: 0.42
+  annual:
+    2024 Yearly: 2.03
+    2025 Yearly: 1.67
+  quarterly_forecast:
+    Q3 2024: 0.51
+    Q4 2024: 0.51
+    Q1 2025: 0.42
+    Q2 2025: 0.4
+    Q3 2025: 0.4
+    Q4 2025: 0.41
+    Q1 2026: 0.4
+    Q2 2026: 0.4
+    Q3 2026: 0.4
+    Q4 2026: 0.4
+    Q1 2027: 0.4
+    Q2 2027: 0.4
+  annual_forecast:
+    2024 Yearly: 2.06
+    2025 Yearly: 1.65
+    2026 Yearly: 1.63
+    2027 Yearly: 1.59
+    2028 Yearly: 1.54

@@ -1,0 +1,80 @@
+currency: USD
+company_name: E.W. Scripps Company (The)
+sector: Consumer Services
+market_cap_billions: 0.27005
+revenue:
+  quarterly:
+    Q3 2024: 646.3
+    Q4 2024: 728.38
+    Q1 2025: 524.39
+    Q2 2025: 540.08
+    Q3 2025: 525.85
+    Q4 2025: 560.26
+    Q1 2026: 516.87
+    Q2 2026: 490.4
+  annual:
+    2021 Yearly: 2280.0
+    2022 Yearly: 2450.0
+    2023 Yearly: 2290.0
+    2024 Yearly: 2510.0
+    2025 Yearly: 2150.0
+  quarterly_forecast:
+    Q3 2024: 627.86
+    Q4 2024: 724.04
+    Q1 2025: 520.24
+    Q2 2025: 544.58
+    Q3 2025: 523.49
+    Q4 2025: 552.02
+    Q1 2026: 516.86
+    Q2 2026: 511.65
+    Q3 2026: 564.9
+    Q4 2026: 634.52
+    Q1 2027: 513.3
+    Q2 2027: 505.95
+  annual_forecast:
+    2021 Yearly: 2290.0
+    2022 Yearly: 2460.0
+    2023 Yearly: 2280.0
+    2024 Yearly: 2510.0
+    2025 Yearly: 2140.0
+    2026 Yearly: 2230.0
+    2027 Yearly: 2060.0
+    2028 Yearly: 2390.0
+eps:
+  quarterly:
+    Q3 2024: 0.76
+    Q4 2024: 0.92
+    Q1 2025: -0.22
+    Q2 2025: -0.6
+    Q3 2025: -0.3
+    Q4 2025: -0.51
+    Q1 2026: -0.2
+    Q2 2026: -12.68
+  annual:
+    2021 Yearly: 0.74
+    2022 Yearly: 1.67
+    2023 Yearly: -0.33
+    2024 Yearly: 1.01
+    2025 Yearly: -1.87
+  quarterly_forecast:
+    Q3 2024: 0.52
+    Q4 2024: 1.01
+    Q1 2025: -0.34
+    Q2 2025: -0.22
+    Q3 2025: -0.36
+    Q4 2025: -0.35
+    Q1 2026: -0.42
+    Q2 2026: -0.53
+    Q3 2026: 0.11
+    Q4 2026: 0.55
+    Q1 2027: -0.25
+    Q2 2027: -0.52
+  annual_forecast:
+    2021 Yearly: 1.46
+    2022 Yearly: 1.84
+    2023 Yearly: -8.54
+    2024 Yearly: 1.12
+    2025 Yearly: -1.54
+    2026 Yearly: 0.31
+    2027 Yearly: -0.61
+    2028 Yearly: 1.36

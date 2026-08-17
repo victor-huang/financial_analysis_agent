@@ -1,0 +1,24 @@
+currency: USD
+company_name: WhiteHawk Minerals Corp
+sector: Miscellaneous
+market_cap_billions: 0.68638
+revenue:
+  quarterly:
+    Q1 2026: 22.37
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: 24.12
+    Q3 2026: 24.55
+    Q4 2026: 25.01
+    Q1 2027: 24.81
+  annual_forecast: {}
+eps:
+  quarterly:
+    Q1 2026: -0.15
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: 0.36
+    Q3 2026: 0.34
+    Q4 2026: 0.35
+    Q1 2027: 0.33
+  annual_forecast: {}

@@ -1,0 +1,74 @@
+currency: USD
+company_name: VirTra, Inc.
+sector: Technology Services
+market_cap_billions: 0.03731
+revenue:
+  quarterly:
+    Q3 2024: 7.48
+    Q4 2024: 4.7
+    Q1 2025: 7.16
+    Q2 2025: 6.98
+    Q3 2025: 5.35
+    Q4 2025: 2.91
+    Q1 2026: 3.47
+  annual:
+    2021 Yearly: 24.43
+    2022 Yearly: 28.3
+    2023 Yearly: 38.0
+    2024 Yearly: 26.35
+    2025 Yearly: 22.4
+  quarterly_forecast:
+    Q3 2024: 6.5
+    Q4 2024: 7.45
+    Q1 2025: 5.46
+    Q2 2025: 6.37
+    Q3 2025: 6.99
+    Q4 2025: 5.37
+    Q1 2026: 2.73
+    Q2 2026: 3.54
+    Q3 2026: 4.99
+    Q4 2026: 6.29
+    Q1 2027: 6.08
+  annual_forecast:
+    2021 Yearly: 22.0
+    2022 Yearly: 26.29
+    2023 Yearly: 37.31
+    2024 Yearly: 29.12
+    2025 Yearly: 24.86
+    2026 Yearly: 18.3
+    2027 Yearly: 24.89
+eps:
+  quarterly:
+    Q3 2024: 0.05
+    Q4 2024: -0.08
+    Q1 2025: 0.11
+    Q2 2025: 0.02
+    Q3 2025: -0.03
+    Q4 2025: -0.08
+    Q1 2026: -0.12
+  annual:
+    2021 Yearly: 0.25
+    2022 Yearly: 0.18
+    2023 Yearly: 0.77
+    2024 Yearly: 0.12
+    2025 Yearly: 0.02
+  quarterly_forecast:
+    Q3 2024: 0.01
+    Q4 2024: 0.04
+    Q1 2025: -0.07
+    Q2 2025: 0.02
+    Q3 2025: 0.04
+    Q4 2025: -0.03
+    Q1 2026: -0.13
+    Q2 2026: -0.1
+    Q3 2026: -0.04
+    Q4 2026: 0.03
+    Q1 2027: 0.02
+  annual_forecast:
+    2021 Yearly: 0.3
+    2022 Yearly: 0.04
+    2023 Yearly: 0.66
+    2024 Yearly: 0.3
+    2025 Yearly: 0.1
+    2026 Yearly: -0.23
+    2027 Yearly: 0.08

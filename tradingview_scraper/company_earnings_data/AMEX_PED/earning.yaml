@@ -1,0 +1,74 @@
+currency: USD
+company_name: Pedevco Corp.
+sector: Energy Minerals
+market_cap_billions: 0.14952000000000001
+revenue:
+  quarterly:
+    Q3 2024: 9.05
+    Q4 2024: 10.57
+    Q1 2025: 8.74
+    Q2 2025: 6.97
+    Q3 2025: 7.0
+    Q4 2025: 23.08
+    Q1 2026: 40.22
+  annual:
+    2021 Yearly: 15.86
+    2022 Yearly: 30.03
+    2023 Yearly: 30.78
+    2024 Yearly: 39.55
+    2025 Yearly: 45.75
+  quarterly_forecast:
+    Q3 2024: 8.85
+    Q4 2024: 9.29
+    Q1 2025: 8.61
+    Q2 2025: 9.71
+    Q3 2025: 7.62
+    Q4 2025: 14.7
+    Q1 2026: 37.65
+    Q2 2026: 38.0
+    Q3 2026: 33.35
+    Q4 2026: 29.85
+    Q1 2027: 31.6
+  annual_forecast:
+    2021 Yearly: 15.36
+    2022 Yearly: 30.8
+    2023 Yearly: 30.39
+    2024 Yearly: 38.28
+    2025 Yearly: 37.3
+    2026 Yearly: 140.4
+    2027 Yearly: 129.55
+eps:
+  quarterly:
+    Q3 2024: 0.6
+    Q4 2024: 2.6
+    Q1 2025: 0.0
+    Q2 2025: -0.4
+    Q3 2025: 0.0
+    Q4 2025: -1.85
+    Q1 2026: -3.28
+  annual:
+    2021 Yearly: -0.4
+    2022 Yearly: 0.6
+    2023 Yearly: 0.0
+    2024 Yearly: 4.0
+    2025 Yearly: -2.25
+  quarterly_forecast:
+    Q3 2024: 0.4
+    Q4 2024: 0.2
+    Q1 2025: 0.3
+    Q2 2025: 0.3
+    Q3 2025: -0.05
+    Q4 2025: -0.2
+    Q1 2026: 0.61
+    Q2 2026: 0.35
+    Q3 2026: 0.18
+    Q4 2026: 0.07
+    Q1 2027: 0.18
+  annual_forecast:
+    2021 Yearly: -0.4
+    2022 Yearly: 1.5
+    2023 Yearly: 1.0
+    2024 Yearly: 1.67
+    2025 Yearly: -0.6
+    2026 Yearly: -0.52
+    2027 Yearly: 0.81

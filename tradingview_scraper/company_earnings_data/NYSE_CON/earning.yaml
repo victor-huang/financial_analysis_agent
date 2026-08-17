@@ -1,0 +1,68 @@
+currency: USD
+company_name: Concentra Group Holdings Parent, Inc.
+sector: Health Services
+market_cap_billions: 3.91
+revenue:
+  quarterly:
+    Q3 2024: 489.64
+    Q4 2024: 465.04
+    Q1 2025: 500.8
+    Q2 2025: 550.8
+    Q3 2025: 572.8
+    Q4 2025: 539.08
+    Q1 2026: 569.55
+    Q2 2026: 606.03
+  annual:
+    2024 Yearly: 1900.0
+    2025 Yearly: 2160.0
+  quarterly_forecast:
+    Q3 2024: 492.61
+    Q4 2024: 464.05
+    Q1 2025: 496.46
+    Q2 2025: 537.35
+    Q3 2025: 562.69
+    Q4 2025: 533.29
+    Q1 2026: 553.53
+    Q2 2026: 591.75
+    Q3 2026: 603.11
+    Q4 2026: 569.28
+    Q1 2027: 605.02
+    Q2 2027: 626.29
+  annual_forecast:
+    2024 Yearly: 1900.0
+    2025 Yearly: 2160.0
+    2026 Yearly: 2330.0
+    2027 Yearly: 2470.0
+    2028 Yearly: 2620.0
+eps:
+  quarterly:
+    Q3 2024: 0.37
+    Q4 2024: 0.17
+    Q1 2025: 0.3
+    Q2 2025: 0.35
+    Q3 2025: 0.39
+    Q4 2025: 0.28
+    Q1 2026: 0.4
+    Q2 2026: 0.52
+  annual:
+    2024 Yearly: 1.46
+    2025 Yearly: 1.37
+  quarterly_forecast:
+    Q3 2024: 0.36
+    Q4 2024: 0.17
+    Q1 2025: 0.32
+    Q2 2025: 0.38
+    Q3 2025: 0.37
+    Q4 2025: 0.24
+    Q1 2026: 0.34
+    Q2 2026: 0.42
+    Q3 2026: 0.42
+    Q4 2026: 0.28
+    Q1 2027: 0.44
+    Q2 2027: 0.45
+  annual_forecast:
+    2024 Yearly: 1.45
+    2025 Yearly: 1.32
+    2026 Yearly: 1.51
+    2027 Yearly: 1.69
+    2028 Yearly: 1.87

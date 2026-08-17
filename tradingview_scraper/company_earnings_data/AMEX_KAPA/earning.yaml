@@ -1,0 +1,64 @@
+currency: USD
+company_name: Kairos Pharma, Ltd.
+sector: Health Technology
+market_cap_billions: 0.0075899999999999995
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+  annual:
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+  annual_forecast:
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 0.0
+    2028 Yearly: 0.0
+    2029 Yearly: 27.8
+eps:
+  quarterly:
+    Q3 2024: -0.05
+    Q4 2024: -0.08
+    Q1 2025: -0.08
+    Q2 2025: -0.08
+    Q4 2025: -0.07
+    Q1 2026: -0.08
+  annual:
+    2024 Yearly: -0.23
+    2025 Yearly: -0.3
+  quarterly_forecast:
+    Q3 2024: -0.02
+    Q4 2024: -0.06
+    Q1 2025: -0.05
+    Q2 2025: -0.07
+    Q3 2025: -0.08
+    Q4 2025: -0.02
+    Q1 2026: -0.08
+    Q2 2026: -0.08
+    Q3 2026: -0.08
+    Q4 2026: -0.09
+    Q1 2027: -0.09
+  annual_forecast:
+    2024 Yearly: -0.14
+    2025 Yearly: -0.25
+    2026 Yearly: -0.33
+    2027 Yearly: -0.51
+    2028 Yearly: -0.56
+    2029 Yearly: -0.37

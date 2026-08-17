@@ -1,0 +1,74 @@
+currency: USD
+company_name: AlTi Global, Inc.
+sector: Finance
+market_cap_billions: 0.65196
+revenue:
+  quarterly:
+    Q3 2024: 53.34
+    Q4 2024: 53.33
+    Q1 2025: 57.96
+    Q2 2025: 53.13
+    Q3 2025: 57.2
+    Q4 2025: 88.25
+    Q1 2026: 73.1
+    Q2 2026: 58.0
+  annual:
+    2022 Yearly: 240.0
+    2023 Yearly: 250.88
+    2024 Yearly: 206.94
+    2025 Yearly: 254.96
+  quarterly_forecast:
+    Q3 2024: 55.6
+    Q4 2024: 74.6
+    Q1 2025: 53.9
+    Q2 2025: 50.6
+    Q3 2025: 51.9
+    Q4 2025: 86.6
+    Q1 2026: 63.8
+    Q2 2026: 61.8
+    Q3 2026: 63.4
+    Q4 2026: 99.9
+    Q1 2027: 66.6
+    Q2 2027: 68.3
+  annual_forecast:
+    2023 Yearly: 226.0
+    2024 Yearly: 228.2
+    2025 Yearly: 254.9
+    2026 Yearly: 298.3
+    2027 Yearly: 316.4
+    2028 Yearly: 350.0
+eps:
+  quarterly:
+    Q3 2024: -0.88
+    Q4 2024: -0.63
+    Q1 2025: 0.03
+    Q2 2025: -0.33
+    Q3 2025: -0.69
+    Q4 2025: -0.2
+    Q1 2026: 0.01
+    Q2 2026: 0.01
+  annual:
+    2022 Yearly: 0.53
+    2023 Yearly: -2.78
+    2024 Yearly: -1.53
+    2025 Yearly: -1.23
+  quarterly_forecast:
+    Q3 2024: 0.01
+    Q4 2024: 0.02
+    Q1 2025: -0.02
+    Q2 2025: 0.0
+    Q3 2025: 0.03
+    Q4 2025: 0.02
+    Q1 2026: 0.06
+    Q2 2026: 0.06
+    Q3 2026: 0.06
+    Q4 2026: 0.08
+    Q1 2027: 0.09
+    Q2 2027: 0.09
+  annual_forecast:
+    2023 Yearly: -0.01
+    2024 Yearly: -0.02
+    2025 Yearly: 0.28
+    2026 Yearly: 0.27
+    2027 Yearly: 0.4
+    2028 Yearly: 0.45

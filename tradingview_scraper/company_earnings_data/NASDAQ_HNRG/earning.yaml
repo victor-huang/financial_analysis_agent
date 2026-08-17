@@ -1,0 +1,82 @@
+currency: USD
+company_name: Hallador Energy Company
+sector: Utilities
+market_cap_billions: 0.7484299999999999
+revenue:
+  quarterly:
+    Q3 2024: 105.04
+    Q4 2024: 94.8
+    Q1 2025: 117.79
+    Q2 2025: 102.89
+    Q3 2025: 146.85
+    Q4 2025: 102.4
+    Q1 2026: 101.81
+    Q2 2026: 101.5
+  annual:
+    2021 Yearly: 247.67
+    2022 Yearly: 361.99
+    2023 Yearly: 634.48
+    2024 Yearly: 404.39
+    2025 Yearly: 469.47
+  quarterly_forecast:
+    Q3 2024: 117.1
+    Q4 2024: 95.46
+    Q1 2025: 100.26
+    Q2 2025: 91.73
+    Q3 2025: 109.97
+    Q4 2025: 103.14
+    Q1 2026: 102.28
+    Q2 2026: 90.33
+    Q3 2026: 128.66
+    Q4 2026: 118.54
+    Q1 2027: 132.3
+    Q2 2027: 94.8
+  annual_forecast:
+    2021 Yearly: 248.9
+    2022 Yearly: 332.9
+    2023 Yearly: 752.1
+    2024 Yearly: 401.08
+    2025 Yearly: 470.68
+    2026 Yearly: 439.55
+    2027 Yearly: 497.64
+    2028 Yearly: 545.55
+    2029 Yearly: 590.41
+eps:
+  quarterly:
+    Q3 2024: 0.04
+    Q4 2024: -5.44
+    Q1 2025: 0.23
+    Q2 2025: 0.19
+    Q3 2025: 0.55
+    Q4 2025: -0.01
+    Q1 2026: -0.2
+    Q2 2026: -0.32
+  annual:
+    2021 Yearly: -0.12
+    2022 Yearly: 0.55
+    2023 Yearly: 1.25
+    2024 Yearly: -5.72
+    2025 Yearly: 0.96
+  quarterly_forecast:
+    Q3 2024: -0.1
+    Q4 2024: -0.13
+    Q1 2025: -0.12
+    Q2 2025: -0.15
+    Q3 2025: 0.07
+    Q4 2025: -0.01
+    Q1 2026: -0.11
+    Q2 2026: -0.12
+    Q3 2026: 0.31
+    Q4 2026: 0.18
+    Q1 2027: 0.34
+    Q2 2027: -0.04
+  annual_forecast:
+    2021 Yearly: 0.11
+    2022 Yearly: 0.01
+    2023 Yearly: 1.8
+    2024 Yearly: -0.41
+    2025 Yearly: 0.97
+    2026 Yearly: 0.18
+    2027 Yearly: 1.03
+    2028 Yearly: 1.59
+    2029 Yearly: 2.71

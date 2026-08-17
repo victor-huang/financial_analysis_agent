@@ -1,0 +1,81 @@
+currency: USD
+company_name: Gevo, Inc.
+sector: Process Industries
+market_cap_billions: 0.35051
+revenue:
+  quarterly:
+    Q3 2024: 1.97
+    Q4 2024: 5.7
+    Q1 2025: 29.11
+    Q2 2025: 43.41
+    Q3 2025: 42.71
+    Q4 2025: 45.0
+    Q1 2026: 42.95
+    Q2 2026: 46.5
+  annual:
+    2022 Yearly: 1.18
+    2023 Yearly: 17.2
+    2024 Yearly: 16.91
+    2025 Yearly: 160.58
+  quarterly_forecast:
+    Q3 2024: 5.43
+    Q4 2024: 3.96
+    Q1 2025: 25.12
+    Q2 2025: 46.46
+    Q3 2025: 33.78
+    Q4 2025: 44.39
+    Q1 2026: 44.9
+    Q2 2026: 46.4
+    Q3 2026: 51.27
+    Q4 2026: 50.74
+    Q1 2027: 50.94
+    Q2 2027: 52.85
+  annual_forecast:
+    2021 Yearly: 1.12
+    2022 Yearly: 1.8
+    2023 Yearly: 17.28
+    2024 Yearly: 15.12
+    2025 Yearly: 159.58
+    2026 Yearly: 191.36
+    2027 Yearly: 212.79
+    2028 Yearly: 220.72
+    2029 Yearly: 304.51
+eps:
+  quarterly:
+    Q3 2024: -0.09
+    Q4 2024: -0.08
+    Q1 2025: -0.09
+    Q2 2025: 0.01
+    Q3 2025: -0.03
+    Q4 2025: -0.03
+    Q1 2026: -0.09
+    Q2 2026: -0.75
+  annual:
+    2021 Yearly: -0.3
+    2022 Yearly: -0.33
+    2023 Yearly: -0.28
+    2024 Yearly: -0.34
+    2025 Yearly: -0.14
+  quarterly_forecast:
+    Q3 2024: -0.08
+    Q4 2024: -0.08
+    Q1 2025: -0.1
+    Q2 2025: -0.06
+    Q3 2025: -0.06
+    Q4 2025: -0.03
+    Q1 2026: -0.02
+    Q2 2026: -0.02
+    Q3 2026: -0.01
+    Q4 2026: -0.01
+    Q1 2027: -0.02
+    Q2 2027: -0.02
+  annual_forecast:
+    2021 Yearly: -0.29
+    2022 Yearly: -0.36
+    2023 Yearly: -0.25
+    2024 Yearly: -0.37
+    2025 Yearly: -0.14
+    2026 Yearly: -0.13
+    2027 Yearly: -0.06
+    2028 Yearly: 0.0
+    2029 Yearly: 0.41

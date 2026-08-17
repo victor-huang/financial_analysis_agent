@@ -1,0 +1,74 @@
+currency: USD
+company_name: Energy Services of America Corporation
+sector: Industrial Services
+market_cap_billions: 0.2394
+revenue:
+  quarterly:
+    Q1 2025: 100.6
+    Q2 2025: 76.68
+    Q3 2025: 103.6
+    Q4 2025: 130.07
+    Q1 2026: 114.11
+    Q2 2026: 93.17
+    Q3 2026: 130.01
+  annual:
+    2021 Yearly: 122.47
+    2022 Yearly: 197.6
+    2023 Yearly: 304.1
+    2024 Yearly: 351.88
+    2025 Yearly: 411.0
+  quarterly_forecast:
+    Q1 2025: 85.3
+    Q2 2025: 80.0
+    Q3 2025: 88.0
+    Q4 2025: 109.2
+    Q1 2026: 98.0
+    Q2 2026: 80.9
+    Q3 2026: 112.65
+    Q4 2026: 136.15
+    Q1 2027: 114.0
+    Q2 2027: 100.6
+    Q3 2027: 136.8
+  annual_forecast:
+    2021 Yearly: 120.9
+    2023 Yearly: 269.2
+    2024 Yearly: 341.73
+    2025 Yearly: 390.1
+    2026 Yearly: 473.45
+    2027 Yearly: 495.8
+    2028 Yearly: 500.3
+eps:
+  quarterly:
+    Q1 2025: 0.05
+    Q2 2025: -0.41
+    Q3 2025: 0.12
+    Q4 2025: 0.25
+    Q1 2026: 0.16
+    Q2 2026: 0.01
+    Q3 2026: 0.18
+  annual:
+    2021 Yearly: 0.52
+    2022 Yearly: 0.24
+    2023 Yearly: 0.44
+    2024 Yearly: 1.51
+    2025 Yearly: 0.02
+  quarterly_forecast:
+    Q1 2025: 0.1
+    Q2 2025: 0.1
+    Q3 2025: 0.12
+    Q4 2025: 0.38
+    Q1 2026: 0.09
+    Q2 2026: -0.16
+    Q3 2026: 0.17
+    Q4 2026: 0.24
+    Q1 2027: 0.13
+    Q2 2027: -0.09
+    Q3 2027: 0.37
+  annual_forecast:
+    2021 Yearly: 0.64
+    2023 Yearly: 0.19
+    2024 Yearly: 1.23
+    2025 Yearly: 0.15
+    2026 Yearly: 0.6
+    2027 Yearly: 0.81
+    2028 Yearly: 1.18

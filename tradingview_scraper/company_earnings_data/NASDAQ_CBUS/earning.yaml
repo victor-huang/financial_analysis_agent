@@ -1,0 +1,71 @@
+currency: USD
+company_name: Cibus, Inc.
+sector: Technology Services
+market_cap_billions: 0.14427
+revenue:
+  quarterly:
+    Q3 2024: 1.67
+    Q4 2024: 1.21
+    Q1 2025: 1.03
+    Q4 2025: 1.06
+    Q1 2026: 1.68
+  annual:
+    2021 Yearly: 25.99
+    2024 Yearly: 1.82
+    2025 Yearly: 4.26
+    2026 Yearly: 3.64
+  quarterly_forecast:
+    Q4 2024: 1.15
+    Q1 2025: 1.14
+    Q2 2025: 1.14
+    Q3 2025: 1.39
+    Q4 2025: 1.64
+    Q1 2026: 1.61
+    Q2 2026: 1.7
+    Q3 2026: 2.02
+    Q4 2026: 2.75
+    Q1 2027: 2.69
+  annual_forecast:
+    2023 Yearly: 27.14
+    2025 Yearly: 1.13
+    2026 Yearly: 4.15
+    2027 Yearly: 4.05
+    2028 Yearly: 8.17
+    2029 Yearly: 15.14
+eps:
+  quarterly:
+    Q3 2024: -7.63
+    Q4 2024: -0.87
+    Q1 2025: -1.34
+    Q2 2025: -0.61
+    Q3 2025: -0.44
+    Q4 2025: -0.59
+    Q1 2026: -0.33
+  annual:
+    2021 Yearly: -39.0
+    2022 Yearly: -18.5
+    2023 Yearly: -25.95
+    2024 Yearly: -10.83
+    2025 Yearly: -2.78
+  quarterly_forecast:
+    Q3 2024: -0.87
+    Q4 2024: -0.68
+    Q1 2025: -0.58
+    Q2 2025: -0.6
+    Q3 2025: -0.44
+    Q4 2025: -0.35
+    Q1 2026: -0.27
+    Q2 2026: -0.19
+    Q3 2026: -0.17
+    Q4 2026: -0.14
+    Q1 2027: -0.27
+  annual_forecast:
+    2021 Yearly: -43.38
+    2022 Yearly: -21.0
+    2023 Yearly: -7.55
+    2024 Yearly: -7.76
+    2025 Yearly: -2.31
+    2026 Yearly: -1.05
+    2027 Yearly: -0.63
+    2028 Yearly: -0.49
+    2029 Yearly: 0.28

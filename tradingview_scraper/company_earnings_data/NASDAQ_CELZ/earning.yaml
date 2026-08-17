@@ -1,0 +1,66 @@
+currency: USD
+company_name: Creative Medical Technology Holdings, Inc.
+sector: Health Technology
+market_cap_billions: 0.005690000000000001
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+  annual:
+    2026 Yearly: 0.0
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+  annual_forecast:
+    2023 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2028 Yearly: 0.0
+    2029 Yearly: 0.0
+eps:
+  quarterly:
+    Q3 2024: -0.75
+    Q4 2024: -1.09
+    Q1 2025: -0.83
+    Q2 2025: -0.48
+    Q3 2025: -0.48
+    Q4 2025: -0.73
+    Q1 2026: -0.38
+  annual:
+    2021 Yearly: 73.7
+    2022 Yearly: -9.3
+    2023 Yearly: -3.76
+    2024 Yearly: -3.71
+    2025 Yearly: -2.52
+  quarterly_forecast:
+    Q3 2024: -0.75
+    Q4 2024: -0.63
+    Q1 2025: -0.52
+    Q2 2025: -0.63
+    Q3 2025: -0.48
+    Q4 2025: -0.37
+    Q1 2026: -0.38
+    Q2 2026: -0.41
+    Q3 2026: -0.24
+    Q4 2026: -0.24
+  annual_forecast:
+    2021 Yearly: 83.0
+    2022 Yearly: -4.5
+    2023 Yearly: -3.68
+    2024 Yearly: -3.19
+    2025 Yearly: -2.04
+    2026 Yearly: -1.18
+    2027 Yearly: -0.88
+    2028 Yearly: -0.85
+    2029 Yearly: 3.22

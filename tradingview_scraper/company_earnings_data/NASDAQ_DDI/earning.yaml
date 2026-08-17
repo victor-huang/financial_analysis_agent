@@ -1,0 +1,76 @@
+currency: USD
+company_name: DoubleDown Interactive Co., Ltd. - American Depository Shares
+sector: Technology Services
+market_cap_billions: 0.59712
+revenue:
+  quarterly:
+    Q3 2024: 82.98
+    Q4 2024: 81.97
+    Q1 2025: 83.49
+    Q2 2025: 84.81
+    Q3 2025: 95.85
+    Q4 2025: 95.79
+    Q1 2026: 94.12
+  annual:
+    2021 Yearly: 363.2
+    2022 Yearly: 321.03
+    2023 Yearly: 308.86
+    2024 Yearly: 341.33
+    2025 Yearly: 359.94
+  quarterly_forecast:
+    Q3 2024: 83.94
+    Q4 2024: 85.67
+    Q1 2025: 84.63
+    Q2 2025: 83.12
+    Q3 2025: 94.6
+    Q4 2025: 99.32
+    Q1 2026: 94.26
+    Q2 2026: 92.9
+    Q3 2026: 93.63
+    Q4 2026: 94.67
+    Q1 2027: 96.05
+  annual_forecast:
+    2021 Yearly: 364.42
+    2022 Yearly: 320.9
+    2023 Yearly: 302.18
+    2024 Yearly: 345.01
+    2025 Yearly: 363.47
+    2026 Yearly: 375.32
+    2027 Yearly: 376.27
+    2028 Yearly: 381.21
+eps:
+  quarterly:
+    Q3 2024: 0.51
+    Q4 2024: 0.72
+    Q1 2025: 0.48
+    Q2 2025: 0.44
+    Q3 2025: 0.66
+    Q4 2025: 0.49
+    Q1 2026: 0.71
+  annual:
+    2021 Yearly: 1.7
+    2022 Yearly: -4.72
+    2023 Yearly: 2.03
+    2024 Yearly: 2.5
+    2025 Yearly: 2.07
+  quarterly_forecast:
+    Q3 2024: 5.53
+    Q4 2024: 0.59
+    Q1 2025: 0.55
+    Q2 2025: 0.55
+    Q3 2025: 0.58
+    Q4 2025: 0.61
+    Q1 2026: 0.58
+    Q2 2026: 0.6
+    Q3 2026: 0.59
+    Q4 2026: 0.61
+    Q1 2027: 0.58
+  annual_forecast:
+    2021 Yearly: 1.75
+    2022 Yearly: -6.12
+    2023 Yearly: 2.04
+    2024 Yearly: 2.38
+    2025 Yearly: 2.21
+    2026 Yearly: 2.49
+    2027 Yearly: 2.4
+    2028 Yearly: 2.45

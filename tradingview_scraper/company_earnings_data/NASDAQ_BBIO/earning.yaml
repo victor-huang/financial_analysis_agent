@@ -1,0 +1,82 @@
+currency: USD
+company_name: BridgeBio Pharma, Inc.
+sector: Health Technology
+market_cap_billions: 16.6
+revenue:
+  quarterly:
+    Q3 2024: 2.73
+    Q4 2024: 5.88
+    Q1 2025: 116.63
+    Q2 2025: 110.56
+    Q3 2025: 120.7
+    Q4 2025: 154.18
+    Q1 2026: 194.51
+    Q2 2026: 243.68
+  annual:
+    2021 Yearly: 69.72
+    2022 Yearly: 77.65
+    2023 Yearly: 9.3
+    2024 Yearly: 221.9
+    2025 Yearly: 502.08
+  quarterly_forecast:
+    Q3 2024: 1.68
+    Q4 2024: 3.07
+    Q1 2025: 60.16
+    Q2 2025: 87.98
+    Q3 2025: 106.59
+    Q4 2025: 146.84
+    Q1 2026: 178.07
+    Q2 2026: 220.91
+    Q3 2026: 259.77
+    Q4 2026: 301.61
+    Q1 2027: 321.92
+    Q2 2027: 366.38
+  annual_forecast:
+    2021 Yearly: 78.26
+    2022 Yearly: 82.75
+    2023 Yearly: 12.29
+    2024 Yearly: 219.08
+    2025 Yearly: 496.34
+    2026 Yearly: 973.09
+    2027 Yearly: 1620.0
+    2028 Yearly: 2520.0
+    2029 Yearly: 3630.0
+eps:
+  quarterly:
+    Q3 2024: -0.86
+    Q4 2024: -1.4
+    Q1 2025: -0.88
+    Q2 2025: -0.95
+    Q3 2025: -0.95
+    Q4 2025: -1.0
+    Q1 2026: -0.84
+    Q2 2026: -0.78
+  annual:
+    2021 Yearly: -3.9
+    2022 Yearly: -3.26
+    2023 Yearly: -3.95
+    2024 Yearly: -2.88
+    2025 Yearly: -3.78
+  quarterly_forecast:
+    Q3 2024: -1.0
+    Q4 2024: -1.12
+    Q1 2025: -0.92
+    Q2 2025: -0.79
+    Q3 2025: -0.89
+    Q4 2025: -0.71
+    Q1 2026: -0.68
+    Q2 2026: -0.58
+    Q3 2026: -0.56
+    Q4 2026: -0.39
+    Q1 2027: -0.24
+    Q2 2027: -0.2
+  annual_forecast:
+    2021 Yearly: -3.7
+    2022 Yearly: -3.13
+    2023 Yearly: -3.76
+    2024 Yearly: -2.51
+    2025 Yearly: -3.44
+    2026 Yearly: -2.42
+    2027 Yearly: 0.37
+    2028 Yearly: 3.77
+    2029 Yearly: 7.79

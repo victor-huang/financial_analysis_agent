@@ -1,0 +1,78 @@
+currency: USD
+company_name: Fox Factory Holding Corp.
+sector: Producer Manufacturing
+market_cap_billions: 0.79092
+revenue:
+  quarterly:
+    Q3 2024: 359.12
+    Q4 2024: 352.84
+    Q1 2025: 355.03
+    Q2 2025: 374.86
+    Q3 2025: 376.36
+    Q4 2025: 361.07
+    Q1 2026: 368.66
+    Q2 2026: 358.12
+  annual:
+    2021 Yearly: 1300.0
+    2022 Yearly: 1600.0
+    2023 Yearly: 1460.0
+    2024 Yearly: 1390.0
+    2025 Yearly: 1470.0
+  quarterly_forecast:
+    Q3 2024: 366.86
+    Q4 2024: 321.35
+    Q1 2025: 330.74
+    Q2 2025: 349.52
+    Q3 2025: 382.59
+    Q4 2025: 350.75
+    Q1 2026: 351.76
+    Q2 2026: 352.94
+    Q3 2026: 344.31
+    Q4 2026: 335.12
+    Q1 2027: 366.32
+    Q2 2027: 375.5
+  annual_forecast:
+    2021 Yearly: 1290.0
+    2022 Yearly: 1580.0
+    2023 Yearly: 1460.0
+    2024 Yearly: 1360.0
+    2025 Yearly: 1460.0
+    2026 Yearly: 1400.0
+    2027 Yearly: 1440.0
+eps:
+  quarterly:
+    Q3 2024: 0.35
+    Q4 2024: 0.31
+    Q1 2025: 0.23
+    Q2 2025: 0.4
+    Q3 2025: 0.23
+    Q4 2025: 0.2
+    Q1 2026: 0.18
+    Q2 2026: 0.37
+  annual:
+    2021 Yearly: 4.5
+    2022 Yearly: 5.49
+    2023 Yearly: 3.95
+    2024 Yearly: 1.33
+    2025 Yearly: 1.06
+  quarterly_forecast:
+    Q3 2024: 0.41
+    Q4 2024: 0.29
+    Q1 2025: 0.21
+    Q2 2025: 0.44
+    Q3 2025: 0.55
+    Q4 2025: 0.15
+    Q1 2026: 0.08
+    Q2 2026: 0.18
+    Q3 2026: 0.53
+    Q4 2026: 0.51
+    Q1 2027: 0.17
+    Q2 2027: 0.53
+  annual_forecast:
+    2021 Yearly: 4.49
+    2022 Yearly: 5.27
+    2023 Yearly: 4.29
+    2024 Yearly: 1.31
+    2025 Yearly: 1.01
+    2026 Yearly: 1.4
+    2027 Yearly: 1.74

@@ -1,0 +1,82 @@
+currency: USD
+company_name: HireQuest, Inc.
+sector: Commercial Services
+market_cap_billions: 0.18862
+revenue:
+  quarterly:
+    Q3 2024: 9.42
+    Q4 2024: 8.08
+    Q1 2025: 7.47
+    Q2 2025: 7.64
+    Q3 2025: 8.5
+    Q4 2025: 7.03
+    Q1 2026: 6.52
+    Q2 2026: 8.1
+  annual:
+    2021 Yearly: 22.8
+    2022 Yearly: 30.95
+    2023 Yearly: 37.88
+    2024 Yearly: 34.6
+    2025 Yearly: 30.64
+  quarterly_forecast:
+    Q3 2024: 8.95
+    Q4 2024: 9.3
+    Q1 2025: 8.03
+    Q2 2025: 7.66
+    Q3 2025: 8.1
+    Q4 2025: 7.4
+    Q1 2026: 6.75
+    Q2 2026: 7.1
+    Q3 2026: 8.41
+    Q4 2026: 7.26
+    Q1 2027: 7.1
+    Q2 2027: 8.3
+  annual_forecast:
+    2021 Yearly: 21.67
+    2022 Yearly: 34.4
+    2023 Yearly: 36.72
+    2024 Yearly: 35.81
+    2025 Yearly: 31.02
+    2026 Yearly: 29.66
+    2027 Yearly: 30.96
+    2028 Yearly: 34.6
+    2029 Yearly: 36.3
+eps:
+  quarterly:
+    Q3 2024: 0.2
+    Q4 2024: 0.19
+    Q1 2025: 0.1
+    Q2 2025: 0.15
+    Q3 2025: 0.24
+    Q4 2025: 0.19
+    Q1 2026: 0.13
+    Q2 2026: 0.23
+  annual:
+    2021 Yearly: 0.87
+    2022 Yearly: 0.91
+    2023 Yearly: 0.47
+    2024 Yearly: 0.71
+    2025 Yearly: 0.71
+  quarterly_forecast:
+    Q3 2024: 0.16
+    Q4 2024: 0.18
+    Q1 2025: 0.14
+    Q2 2025: 0.12
+    Q3 2025: 0.15
+    Q4 2025: 0.13
+    Q1 2026: 0.11
+    Q2 2026: 0.13
+    Q3 2026: 0.2
+    Q4 2026: 0.14
+    Q1 2027: 0.11
+    Q2 2027: 0.23
+  annual_forecast:
+    2021 Yearly: 0.86
+    2022 Yearly: 1.08
+    2023 Yearly: 0.37
+    2024 Yearly: 0.47
+    2025 Yearly: 0.65
+    2026 Yearly: 0.64
+    2027 Yearly: 0.68
+    2028 Yearly: 0.85
+    2029 Yearly: 0.92

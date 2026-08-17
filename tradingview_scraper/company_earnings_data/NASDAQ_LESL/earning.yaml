@@ -1,0 +1,76 @@
+currency: USD
+company_name: Leslie's, Inc.
+sector: Retail Trade
+market_cap_billions: 0.01235
+revenue:
+  quarterly:
+    Q4 2024: 397.86
+    Q1 2025: 175.23
+    Q2 2025: 177.13
+    Q3 2025: 500.35
+    Q4 2025: 389.21
+    Q1 2026: 147.13
+    Q2 2026: 184.74
+  annual:
+    2021 Yearly: 1340.0
+    2022 Yearly: 1560.0
+    2023 Yearly: 1450.0
+    2024 Yearly: 1330.0
+    2025 Yearly: 1240.0
+  quarterly_forecast:
+    Q4 2024: 405.19
+    Q1 2025: 173.4
+    Q2 2025: 184.2
+    Q3 2025: 531.18
+    Q4 2025: 371.71
+    Q1 2026: 158.43
+    Q2 2026: 162.48
+    Q3 2026: 503.22
+    Q4 2026: 358.03
+    Q1 2027: 156.85
+    Q2 2027: 188.22
+  annual_forecast:
+    2021 Yearly: 1320.0
+    2022 Yearly: 1560.0
+    2023 Yearly: 1440.0
+    2024 Yearly: 1340.0
+    2025 Yearly: 1220.0
+    2026 Yearly: 1180.0
+    2027 Yearly: 1210.0
+    2028 Yearly: 1190.0
+eps:
+  quarterly:
+    Q4 2024: 0.4
+    Q1 2025: -4.4
+    Q2 2025: -5.0
+    Q3 2025: 4.0
+    Q4 2025: 0.09
+    Q1 2026: -5.24
+    Q2 2026: -5.36
+  annual:
+    2021 Yearly: 17.0
+    2022 Yearly: 19.0
+    2023 Yearly: 5.6
+    2024 Yearly: -0.2
+    2025 Yearly: -4.7
+  quarterly_forecast:
+    Q4 2024: 2.24
+    Q1 2025: -4.2
+    Q2 2025: -4.88
+    Q3 2025: 5.22
+    Q4 2025: 1.44
+    Q1 2026: -4.27
+    Q2 2026: -4.41
+    Q3 2026: 4.86
+    Q4 2026: 2.23
+    Q1 2027: -6.51
+    Q2 2027: -3.9
+  annual_forecast:
+    2021 Yearly: 16.65
+    2022 Yearly: 18.42
+    2023 Yearly: 5.96
+    2024 Yearly: 1.61
+    2025 Yearly: -4.36
+    2026 Yearly: -3.04
+    2027 Yearly: -0.39
+    2028 Yearly: -1.48

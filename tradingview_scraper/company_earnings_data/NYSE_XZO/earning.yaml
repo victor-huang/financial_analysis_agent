@@ -1,0 +1,46 @@
+currency: USD
+company_name: Exzeo Group, Inc.
+sector: Technology Services
+market_cap_billions: 1.48
+revenue:
+  quarterly:
+    Q3 2025: 52.36
+    Q4 2025: 51.04
+    Q1 2026: 54.01
+    Q2 2026: 54.2
+  annual:
+    2025 Yearly: 205.81
+  quarterly_forecast:
+    Q3 2025: 53.21
+    Q4 2025: 44.1
+    Q1 2026: 57.39
+    Q2 2026: 55.23
+    Q3 2026: 59.23
+    Q4 2026: 63.5
+    Q1 2027: 65.4
+    Q2 2027: 63.9
+  annual_forecast:
+    2025 Yearly: 204.9
+    2026 Yearly: 232.97
+    2027 Yearly: 272.23
+eps:
+  quarterly:
+    Q3 2025: 0.25
+    Q4 2025: 0.25
+    Q1 2026: 0.22
+    Q2 2026: 0.26
+  annual:
+    2025 Yearly: 0.99
+  quarterly_forecast:
+    Q3 2025: 0.24
+    Q4 2025: 0.17
+    Q1 2026: 0.21
+    Q2 2026: 0.24
+    Q3 2026: 0.25
+    Q4 2026: 0.28
+    Q1 2027: 0.28
+    Q2 2027: 0.3
+  annual_forecast:
+    2025 Yearly: 0.89
+    2026 Yearly: 1.01
+    2027 Yearly: 1.19

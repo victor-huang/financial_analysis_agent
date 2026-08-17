@@ -1,0 +1,53 @@
+currency: USD
+company_name: Quantum Computing Inc.
+sector: Technology Services
+market_cap_billions: 2.01
+revenue:
+  quarterly:
+    Q2 2027: 3.69
+  annual:
+    2021 Yearly: 0.0
+  quarterly_forecast:
+    Q1 2026: 5.55
+    Q2 2026: 3.69
+  annual_forecast:
+    2029 Yearly: 0.0
+eps:
+  quarterly:
+    Q3 2024: -0.06
+    Q4 2024: -0.47
+    Q1 2025: 0.11
+    Q2 2025: -0.26
+    Q3 2025: 0.01
+    Q4 2025: -0.01
+    Q1 2026: -0.02
+    Q2 2026: -0.05
+  annual:
+    2021 Yearly: -0.96
+    2022 Yearly: -0.69
+    2023 Yearly: -0.38
+    2024 Yearly: -0.73
+    2025 Yearly: -0.11
+  quarterly_forecast:
+    Q3 2024: -0.08
+    Q4 2024: -0.05
+    Q1 2025: -0.07
+    Q2 2025: -0.06
+    Q3 2025: -0.06
+    Q4 2025: -0.03
+    Q1 2026: -0.05
+    Q2 2026: -0.04
+    Q3 2026: -0.04
+    Q4 2026: -0.04
+    Q1 2027: -0.06
+    Q2 2027: -0.07
+  annual_forecast:
+    2021 Yearly: -0.59
+    2022 Yearly: -0.76
+    2023 Yearly: -0.42
+    2024 Yearly: -0.25
+    2025 Yearly: -0.16
+    2026 Yearly: -0.15
+    2027 Yearly: -0.2
+    2028 Yearly: -0.17
+    2029 Yearly: 0.55

@@ -1,0 +1,72 @@
+currency: USD
+company_name: ImageneBio, Inc.
+sector: Health Technology
+market_cap_billions: 0.06791
+revenue:
+  quarterly:
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+  annual:
+    2021 Yearly: 30.98
+    2022 Yearly: 15.62
+    2023 Yearly: 9.16
+    2024 Yearly: 0.0
+  quarterly_forecast:
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+    Q2 2027: 0.0
+  annual_forecast:
+    2022 Yearly: 15.56
+    2023 Yearly: 16.18
+    2024 Yearly: 11.87
+    2026 Yearly: 3.5
+    2028 Yearly: 0.0
+    2029 Yearly: 0.0
+eps:
+  quarterly:
+    Q4 2024: -2.4
+    Q1 2025: -2.04
+    Q2 2025: -2.69
+    Q3 2025: -2.91
+    Q4 2025: -0.62
+    Q1 2026: -0.95
+    Q2 2026: -0.63
+  annual:
+    2021 Yearly: -14.64
+    2022 Yearly: -22.8
+    2023 Yearly: -19.56
+    2024 Yearly: -12.24
+    2025 Yearly: -9.64
+  quarterly_forecast:
+    Q4 2024: -2.99
+    Q1 2025: -1.97
+    Q2 2025: -0.33
+    Q3 2025: -1.42
+    Q4 2025: -1.38
+    Q1 2026: -0.67
+    Q2 2026: -0.98
+    Q3 2026: -0.99
+    Q4 2026: -1.09
+    Q1 2027: -0.99
+    Q2 2027: -1.02
+  annual_forecast:
+    2021 Yearly: -32.48
+    2022 Yearly: -19.39
+    2023 Yearly: -19.48
+    2024 Yearly: -13.29
+    2025 Yearly: -5.57
+    2026 Yearly: -3.73
+    2027 Yearly: -3.04
+    2028 Yearly: -3.65
+    2029 Yearly: -3.02

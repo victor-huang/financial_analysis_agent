@@ -1,0 +1,82 @@
+currency: USD
+company_name: Ardelyx, Inc.
+sector: Health Technology
+market_cap_billions: 1.2
+revenue:
+  quarterly:
+    Q3 2024: 98.24
+    Q4 2024: 116.13
+    Q1 2025: 74.11
+    Q2 2025: 97.66
+    Q3 2025: 110.33
+    Q4 2025: 125.22
+    Q1 2026: 94.47
+    Q2 2026: 120.88
+  annual:
+    2021 Yearly: 10.1
+    2022 Yearly: 52.16
+    2023 Yearly: 124.46
+    2024 Yearly: 333.62
+    2025 Yearly: 407.32
+  quarterly_forecast:
+    Q3 2024: 86.64
+    Q4 2024: 109.94
+    Q1 2025: 78.15
+    Q2 2025: 81.08
+    Q3 2025: 100.54
+    Q4 2025: 118.05
+    Q1 2026: 92.78
+    Q2 2026: 121.04
+    Q3 2026: 149.05
+    Q4 2026: 175.75
+    Q1 2027: 131.6
+    Q2 2027: 171.06
+  annual_forecast:
+    2021 Yearly: 9.75
+    2022 Yearly: 34.15
+    2023 Yearly: 124.2
+    2024 Yearly: 327.38
+    2025 Yearly: 400.15
+    2026 Yearly: 540.15
+    2027 Yearly: 738.74
+    2028 Yearly: 983.71
+    2029 Yearly: 1270.0
+eps:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.02
+    Q1 2025: -0.17
+    Q2 2025: -0.08
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: -0.15
+    Q2 2026: -0.07
+  annual:
+    2021 Yearly: -1.52
+    2022 Yearly: -0.42
+    2023 Yearly: -0.3
+    2024 Yearly: -0.17
+    2025 Yearly: -0.26
+  quarterly_forecast:
+    Q3 2024: -0.05
+    Q4 2024: 0.0
+    Q1 2025: -0.11
+    Q2 2025: -0.13
+    Q3 2025: -0.06
+    Q4 2025: 0.01
+    Q1 2026: -0.14
+    Q2 2026: -0.07
+    Q3 2026: 0.02
+    Q4 2026: 0.1
+    Q1 2027: -0.07
+    Q2 2027: 0.05
+  annual_forecast:
+    2021 Yearly: -1.51
+    2022 Yearly: -0.51
+    2023 Yearly: -0.27
+    2024 Yearly: -0.17
+    2025 Yearly: -0.24
+    2026 Yearly: -0.08
+    2027 Yearly: 0.47
+    2028 Yearly: 1.15
+    2029 Yearly: 1.81

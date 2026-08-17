@@ -1,0 +1,74 @@
+currency: USD
+company_name: InspireMD Inc.
+sector: Health Technology
+market_cap_billions: 0.04028
+revenue:
+  quarterly:
+    Q3 2024: 1.81
+    Q4 2024: 1.95
+    Q1 2025: 1.53
+    Q2 2025: 1.78
+    Q3 2025: 2.52
+    Q4 2025: 3.15
+    Q1 2026: 3.4
+  annual:
+    2021 Yearly: 4.5
+    2022 Yearly: 5.17
+    2023 Yearly: 6.21
+    2024 Yearly: 7.01
+    2025 Yearly: 8.98
+  quarterly_forecast:
+    Q3 2024: 1.74
+    Q4 2024: 1.82
+    Q1 2025: 1.45
+    Q2 2025: 1.52
+    Q3 2025: 1.76
+    Q4 2025: 2.63
+    Q1 2026: 2.7
+    Q2 2026: 1.38
+    Q3 2026: 2.13
+    Q4 2026: 3.49
+    Q1 2027: 4.5
+  annual_forecast:
+    2021 Yearly: 4.5
+    2022 Yearly: 5.0
+    2023 Yearly: 6.1
+    2024 Yearly: 6.9
+    2025 Yearly: 8.45
+    2026 Yearly: 10.38
+    2027 Yearly: 21.92
+eps:
+  quarterly:
+    Q3 2024: -0.16
+    Q4 2024: -0.19
+    Q1 2025: -0.22
+    Q2 2025: -0.26
+    Q3 2025: -0.17
+    Q4 2025: -0.14
+    Q1 2026: -0.16
+  annual:
+    2021 Yearly: -2.03
+    2022 Yearly: -2.35
+    2023 Yearly: -0.82
+    2024 Yearly: -0.77
+    2025 Yearly: -0.76
+  quarterly_forecast:
+    Q3 2024: -0.2
+    Q4 2024: -0.2
+    Q1 2025: -0.2
+    Q2 2025: -0.26
+    Q3 2025: -0.2
+    Q4 2025: -0.19
+    Q1 2026: -0.18
+    Q2 2026: -0.2
+    Q3 2026: -0.19
+    Q4 2026: -0.19
+    Q1 2027: -0.08
+  annual_forecast:
+    2021 Yearly: -2.3
+    2022 Yearly: -2.59
+    2023 Yearly: -0.87
+    2024 Yearly: -0.78
+    2025 Yearly: -0.83
+    2026 Yearly: -0.74
+    2027 Yearly: -0.61

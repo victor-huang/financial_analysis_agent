@@ -1,0 +1,60 @@
+currency: USD
+company_name: Mount Logan Capital Inc.
+sector: Finance
+market_cap_billions: 0.02965
+revenue:
+  quarterly:
+    Q4 2024: 3.82
+    Q1 2025: 22.17
+    Q2 2025: 21.2
+    Q3 2025: 11.44
+    Q4 2025: -1.24
+    Q1 2026: 10.65
+    Q2 2026: 8.75
+  annual:
+    2024 Yearly: 79.85
+    2025 Yearly: 53.57
+  quarterly_forecast:
+    Q4 2024: 25.68
+    Q1 2025: 25.26
+    Q2 2025: 26.15
+    Q3 2025: 20.13
+    Q4 2025: 13.24
+    Q1 2026: 11.47
+    Q2 2026: 13.1
+    Q3 2026: 13.44
+    Q4 2026: 14.05
+    Q1 2027: 13.82
+    Q2 2027: 13.84
+  annual_forecast:
+    2024 Yearly: 101.7
+    2025 Yearly: 74.4
+    2026 Yearly: 51.03
+    2027 Yearly: 55.4
+eps:
+  quarterly:
+    Q1 2025: -0.48
+    Q2 2025: -0.12
+    Q3 2025: -1.64
+    Q4 2025: -4.84
+    Q1 2026: -0.51
+    Q2 2026: 0.37
+  annual:
+    2024 Yearly: 0.2
+    2025 Yearly: -7.08
+  quarterly_forecast:
+    Q4 2024: -0.14
+    Q1 2025: 0.08
+    Q2 2025: 0.09
+    Q3 2025: -0.01
+    Q4 2025: -0.01
+    Q2 2026: 0.01
+    Q3 2026: 0.03
+    Q4 2026: 0.03
+    Q1 2027: 0.07
+    Q2 2027: 0.09
+  annual_forecast:
+    2024 Yearly: 0.1
+    2025 Yearly: 0.32
+    2026 Yearly: -0.08
+    2027 Yearly: 0.34

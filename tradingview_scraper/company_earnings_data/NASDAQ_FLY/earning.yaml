@@ -1,0 +1,56 @@
+currency: USD
+company_name: Firefly Aerospace Inc.
+sector: Electronic Technology
+market_cap_billions: 4.33
+revenue:
+  quarterly:
+    Q1 2025: 55.85
+    Q2 2025: 15.55
+    Q3 2025: 30.78
+    Q4 2025: 57.67
+    Q1 2026: 80.88
+    Q2 2026: 117.68
+  annual:
+    2025 Yearly: 159.85
+  quarterly_forecast:
+    Q2 2025: 16.82
+    Q3 2025: 27.71
+    Q4 2025: 52.41
+    Q1 2026: 77.08
+    Q2 2026: 88.2
+    Q3 2026: 114.51
+    Q4 2026: 157.0
+    Q1 2027: 117.1
+    Q2 2027: 147.53
+  annual_forecast:
+    2025 Yearly: 154.3
+    2026 Yearly: 440.36
+    2027 Yearly: 695.6
+    2028 Yearly: 1070.0
+    2029 Yearly: 1440.0
+eps:
+  quarterly:
+    Q1 2025: -0.47
+    Q2 2025: -5.78
+    Q3 2025: -1.5
+    Q4 2025: -0.38
+    Q1 2026: -0.46
+    Q2 2026: -0.42
+  annual:
+    2025 Yearly: -1.39
+  quarterly_forecast:
+    Q2 2025: -0.43
+    Q3 2025: -0.41
+    Q4 2025: -0.44
+    Q1 2026: -0.51
+    Q2 2026: -0.53
+    Q3 2026: -0.5
+    Q4 2026: -0.45
+    Q1 2027: -0.47
+    Q2 2027: -0.38
+  annual_forecast:
+    2025 Yearly: -2.67
+    2026 Yearly: -1.99
+    2027 Yearly: -1.28
+    2028 Yearly: -0.66
+    2029 Yearly: -0.71

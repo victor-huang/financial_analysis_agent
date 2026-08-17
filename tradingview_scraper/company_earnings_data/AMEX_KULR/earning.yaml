@@ -1,0 +1,72 @@
+currency: USD
+company_name: KULR Technology Group, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 0.13737
+revenue:
+  quarterly:
+    Q3 2024: 3.19
+    Q4 2024: 3.37
+    Q1 2025: 2.45
+    Q2 2025: 3.97
+    Q3 2025: 6.88
+    Q4 2025: 2.86
+    Q1 2026: 4.85
+  annual:
+    2021 Yearly: 2.4
+    2022 Yearly: 4.0
+    2023 Yearly: 9.83
+    2024 Yearly: 10.74
+    2025 Yearly: 16.17
+  quarterly_forecast:
+    Q3 2024: 2.4
+    Q4 2024: 2.87
+    Q1 2025: 2.5
+    Q2 2025: 3.5
+    Q3 2025: 6.0
+    Q4 2025: 8.0
+    Q1 2026: 8.5
+    Q2 2026: 9.0
+    Q3 2026: 10.0
+    Q4 2026: 12.0
+  annual_forecast:
+    2021 Yearly: 2.33
+    2022 Yearly: 3.68
+    2023 Yearly: 11.16
+    2024 Yearly: 10.26
+    2025 Yearly: 17.31
+    2026 Yearly: 35.5
+    2027 Yearly: 58.0
+eps:
+  quarterly:
+    Q3 2024: -0.08
+    Q4 2024: -0.16
+    Q1 2025: -0.56
+    Q2 2025: 0.22
+    Q3 2025: -0.17
+    Q4 2025: -0.97
+    Q1 2026: -0.61
+  annual:
+    2021 Yearly: -1.2
+    2022 Yearly: -1.44
+    2023 Yearly: -1.6
+    2024 Yearly: -0.72
+    2025 Yearly: -1.56
+  quarterly_forecast:
+    Q3 2024: -0.16
+    Q4 2024: -0.16
+    Q1 2025: -0.16
+    Q2 2025: -0.16
+    Q3 2025: -0.16
+    Q4 2025: -0.08
+    Q1 2026: -0.08
+    Q2 2026: -0.08
+    Q3 2026: -0.08
+    Q4 2026: 0.0
+  annual_forecast:
+    2021 Yearly: -1.01
+    2022 Yearly: -1.52
+    2023 Yearly: -1.52
+    2024 Yearly: -0.67
+    2025 Yearly: -0.65
+    2026 Yearly: -0.55
+    2027 Yearly: -0.29

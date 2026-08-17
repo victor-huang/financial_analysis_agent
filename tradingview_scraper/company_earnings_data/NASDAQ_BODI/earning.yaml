@@ -1,0 +1,78 @@
+currency: USD
+company_name: The Beachbody Company, Inc.
+sector: Consumer Services
+market_cap_billions: 0.07401
+revenue:
+  quarterly:
+    Q3 2024: 102.19
+    Q4 2024: 86.37
+    Q1 2025: 72.36
+    Q2 2025: 63.94
+    Q3 2025: 59.89
+    Q4 2025: 55.54
+    Q1 2026: 54.28
+    Q2 2026: 49.61
+  annual:
+    2021 Yearly: 873.64
+    2022 Yearly: 692.2
+    2023 Yearly: 527.11
+    2024 Yearly: 418.8
+    2025 Yearly: 251.73
+  quarterly_forecast:
+    Q3 2024: 103.14
+    Q4 2024: 81.81
+    Q1 2025: 63.26
+    Q2 2025: 57.64
+    Q3 2025: 55.09
+    Q4 2025: 54.0
+    Q1 2026: 51.77
+    Q2 2026: 49.3
+    Q3 2026: 51.7
+    Q4 2026: 52.81
+    Q1 2027: 67.26
+    Q2 2027: 62.44
+  annual_forecast:
+    2021 Yearly: 825.66
+    2022 Yearly: 690.38
+    2023 Yearly: 520.92
+    2024 Yearly: 414.22
+    2025 Yearly: 250.2
+    2026 Yearly: 210.54
+    2027 Yearly: 252.5
+    2028 Yearly: 315.8
+eps:
+  quarterly:
+    Q3 2024: -1.75
+    Q4 2024: -5.04
+    Q1 2025: -0.84
+    Q2 2025: -0.85
+    Q3 2025: 0.51
+    Q4 2025: 0.71
+    Q1 2026: 0.33
+    Q2 2026: 0.11
+  annual:
+    2021 Yearly: -41.5
+    2022 Yearly: -31.5
+    2023 Yearly: -24.47
+    2024 Yearly: -10.51
+    2025 Yearly: -0.41
+  quarterly_forecast:
+    Q3 2024: -1.58
+    Q4 2024: -2.74
+    Q1 2025: -1.4
+    Q2 2025: -0.97
+    Q3 2025: -0.55
+    Q4 2025: 0.0
+    Q1 2026: -0.08
+    Q2 2026: -0.21
+    Q3 2026: -0.09
+    Q4 2026: -0.01
+    Q1 2027: 0.03
+    Q2 2027: 0.04
+  annual_forecast:
+    2022 Yearly: -25.4
+    2023 Yearly: -25.51
+    2024 Yearly: -17.25
+    2025 Yearly: -8.16
+    2026 Yearly: -1.17
+    2027 Yearly: 0.05

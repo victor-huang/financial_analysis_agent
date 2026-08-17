@@ -1,0 +1,80 @@
+currency: USD
+company_name: Goldman Sachs BDC, Inc.
+sector: Miscellaneous
+market_cap_billions: 1.02
+revenue:
+  quarterly:
+    Q3 2024: 110.41
+    Q4 2024: 103.8
+    Q1 2025: 96.94
+    Q2 2025: 90.97
+    Q3 2025: 91.6
+    Q4 2025: 86.07
+    Q1 2026: 78.79
+    Q2 2026: 83.72
+  annual:
+    2021 Yearly: 346.98
+    2022 Yearly: 357.45
+    2023 Yearly: 454.91
+    2024 Yearly: 434.37
+    2025 Yearly: 365.57
+  quarterly_forecast:
+    Q3 2024: 112.59
+    Q4 2024: 105.32
+    Q1 2025: 101.12
+    Q2 2025: 94.55
+    Q3 2025: 88.16
+    Q4 2025: 86.85
+    Q1 2026: 83.78
+    Q2 2026: 78.89
+    Q3 2026: 78.84
+    Q4 2026: 78.53
+    Q1 2027: 78.01
+    Q2 2027: 78.12
+  annual_forecast:
+    2021 Yearly: 329.11
+    2022 Yearly: 319.71
+    2023 Yearly: 406.95
+    2024 Yearly: 436.06
+    2025 Yearly: 366.48
+    2026 Yearly: 315.11
+    2027 Yearly: 305.41
+    2028 Yearly: 281.23
+eps:
+  quarterly:
+    Q3 2024: 0.58
+    Q4 2024: 0.48
+    Q1 2025: 0.42
+    Q2 2025: 0.38
+    Q3 2025: 0.4
+    Q4 2025: 0.37
+    Q1 2026: 0.22
+    Q2 2026: 0.38
+  annual:
+    2021 Yearly: 1.92
+    2022 Yearly: 2.24
+    2023 Yearly: 2.28
+    2024 Yearly: 2.2
+    2025 Yearly: 1.57
+  quarterly_forecast:
+    Q3 2024: 0.54
+    Q4 2024: 0.5
+    Q1 2025: 0.42
+    Q2 2025: 0.39
+    Q3 2025: 0.36
+    Q4 2025: 0.35
+    Q1 2026: 0.3
+    Q2 2026: 0.31
+    Q3 2026: 0.31
+    Q4 2026: 0.29
+    Q1 2027: 0.27
+    Q2 2027: 0.26
+  annual_forecast:
+    2021 Yearly: 2.02
+    2022 Yearly: 1.97
+    2023 Yearly: 2.26
+    2024 Yearly: 2.19
+    2025 Yearly: 1.54
+    2026 Yearly: 1.13
+    2027 Yearly: 1.09
+    2028 Yearly: 1.04

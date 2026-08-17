@@ -1,0 +1,78 @@
+currency: USD
+company_name: Eton Pharmaceuticals, Inc.
+sector: Health Technology
+market_cap_billions: 1.14
+revenue:
+  quarterly:
+    Q3 2024: 10.32
+    Q4 2024: 11.65
+    Q1 2025: 17.28
+    Q2 2025: 18.93
+    Q3 2025: 22.46
+    Q4 2025: 21.28
+    Q1 2026: 24.27
+  annual:
+    2021 Yearly: 21.83
+    2022 Yearly: 21.25
+    2023 Yearly: 31.64
+    2024 Yearly: 39.01
+    2025 Yearly: 79.95
+  quarterly_forecast:
+    Q3 2024: 9.7
+    Q4 2024: 10.53
+    Q1 2025: 15.14
+    Q2 2025: 16.71
+    Q3 2025: 20.46
+    Q4 2025: 19.98
+    Q1 2026: 22.31
+    Q2 2026: 27.11
+    Q3 2026: 31.78
+    Q4 2026: 38.17
+    Q1 2027: 40.6
+  annual_forecast:
+    2021 Yearly: 23.3
+    2022 Yearly: 21.8
+    2023 Yearly: 32.0
+    2024 Yearly: 37.91
+    2025 Yearly: 79.27
+    2026 Yearly: 121.33
+    2027 Yearly: 186.93
+    2028 Yearly: 256.51
+    2029 Yearly: 357.91
+eps:
+  quarterly:
+    Q3 2024: 0.02
+    Q4 2024: -0.02
+    Q1 2025: -0.06
+    Q2 2025: -0.1
+    Q3 2025: 0.04
+    Q4 2025: 0.05
+    Q1 2026: 0.14
+  annual:
+    2021 Yearly: -0.08
+    2022 Yearly: -0.36
+    2023 Yearly: -0.04
+    2024 Yearly: -0.15
+    2025 Yearly: 0.35
+  quarterly_forecast:
+    Q3 2024: -0.01
+    Q4 2024: 0.0
+    Q1 2025: 0.05
+    Q2 2025: -0.04
+    Q3 2025: 0.09
+    Q4 2025: 0.13
+    Q1 2026: 0.11
+    Q2 2026: 0.15
+    Q3 2026: 0.24
+    Q4 2026: 0.35
+    Q1 2027: 0.31
+  annual_forecast:
+    2021 Yearly: -0.08
+    2022 Yearly: -0.38
+    2023 Yearly: 0.01
+    2024 Yearly: -0.13
+    2025 Yearly: 0.37
+    2026 Yearly: 0.86
+    2027 Yearly: 1.9
+    2028 Yearly: 2.84
+    2029 Yearly: 4.22

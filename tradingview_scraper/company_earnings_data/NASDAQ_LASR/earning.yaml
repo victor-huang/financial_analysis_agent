@@ -1,0 +1,82 @@
+currency: USD
+company_name: nLIGHT, Inc.
+sector: Electronic Technology
+market_cap_billions: 4.26
+revenue:
+  quarterly:
+    Q3 2024: 56.13
+    Q4 2024: 47.38
+    Q1 2025: 51.67
+    Q2 2025: 61.73
+    Q3 2025: 66.74
+    Q4 2025: 81.19
+    Q1 2026: 80.18
+    Q2 2026: 82.59
+  annual:
+    2021 Yearly: 270.15
+    2022 Yearly: 242.06
+    2023 Yearly: 209.92
+    2024 Yearly: 198.55
+    2025 Yearly: 261.33
+  quarterly_forecast:
+    Q3 2024: 55.41
+    Q4 2024: 46.62
+    Q1 2025: 47.26
+    Q2 2025: 55.24
+    Q3 2025: 63.89
+    Q4 2025: 76.71
+    Q1 2026: 72.14
+    Q2 2026: 78.58
+    Q3 2026: 69.89
+    Q4 2026: 78.43
+    Q1 2027: 79.92
+    Q2 2027: 85.71
+  annual_forecast:
+    2021 Yearly: 272.12
+    2022 Yearly: 242.36
+    2023 Yearly: 205.98
+    2024 Yearly: 197.76
+    2025 Yearly: 256.79
+    2026 Yearly: 307.06
+    2027 Yearly: 347.4
+    2028 Yearly: 438.5
+    2029 Yearly: 505.0
+eps:
+  quarterly:
+    Q3 2024: -0.08
+    Q4 2024: -0.3
+    Q1 2025: -0.04
+    Q2 2025: 0.06
+    Q3 2025: 0.08
+    Q4 2025: 0.14
+    Q1 2026: 0.2
+    Q2 2026: 0.15
+  annual:
+    2021 Yearly: 0.23
+    2022 Yearly: -0.5
+    2023 Yearly: -0.3
+    2024 Yearly: -0.65
+    2025 Yearly: 0.24
+  quarterly_forecast:
+    Q3 2024: -0.08
+    Q4 2024: -0.2
+    Q1 2025: -0.19
+    Q2 2025: -0.09
+    Q3 2025: 0.02
+    Q4 2025: 0.11
+    Q1 2026: 0.08
+    Q2 2026: 0.14
+    Q3 2026: 0.09
+    Q4 2026: 0.09
+    Q1 2027: 0.14
+    Q2 2027: 0.18
+  annual_forecast:
+    2021 Yearly: 0.25
+    2022 Yearly: -0.36
+    2023 Yearly: -0.3
+    2024 Yearly: -0.54
+    2025 Yearly: 0.21
+    2026 Yearly: 0.52
+    2027 Yearly: 0.68
+    2028 Yearly: 1.08
+    2029 Yearly: 1.3

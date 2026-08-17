@@ -1,0 +1,78 @@
+currency: USD
+company_name: STAAR Surgical Company
+sector: Health Technology
+market_cap_billions: 1.27
+revenue:
+  quarterly:
+    Q3 2024: 88.59
+    Q4 2024: 48.95
+    Q1 2025: 42.59
+    Q2 2025: 44.32
+    Q3 2025: 94.73
+    Q4 2025: 57.8
+    Q1 2026: 93.52
+  annual:
+    2021 Yearly: 230.47
+    2022 Yearly: 284.39
+    2023 Yearly: 322.42
+    2024 Yearly: 313.9
+    2025 Yearly: 239.44
+  quarterly_forecast:
+    Q3 2024: 86.9
+    Q4 2024: 77.22
+    Q1 2025: 40.34
+    Q2 2025: 40.5
+    Q3 2025: 94.7
+    Q4 2025: 74.96
+    Q1 2026: 78.72
+    Q2 2026: 90.6
+    Q3 2026: 80.85
+    Q4 2026: 69.19
+    Q1 2027: 98.72
+  annual_forecast:
+    2021 Yearly: 230.96
+    2022 Yearly: 284.45
+    2023 Yearly: 322.11
+    2024 Yearly: 342.47
+    2025 Yearly: 256.29
+    2026 Yearly: 334.3
+    2027 Yearly: 362.03
+    2028 Yearly: 389.69
+    2029 Yearly: 458.5
+eps:
+  quarterly:
+    Q3 2024: 0.26
+    Q4 2024: -0.51
+    Q1 2025: -0.52
+    Q2 2025: -0.34
+    Q3 2025: 0.34
+    Q4 2025: -0.2
+    Q1 2026: 0.41
+  annual:
+    2021 Yearly: 0.87
+    2022 Yearly: 1.22
+    2023 Yearly: 1.01
+    2024 Yearly: 0.21
+    2025 Yearly: -1.0
+  quarterly_forecast:
+    Q3 2024: 0.18
+    Q4 2024: -0.03
+    Q1 2025: -0.6
+    Q2 2025: -0.57
+    Q3 2025: 0.25
+    Q4 2025: 0.18
+    Q1 2026: 0.05
+    Q2 2026: 0.22
+    Q3 2026: 0.14
+    Q4 2026: 0.05
+    Q1 2027: 0.3
+  annual_forecast:
+    2021 Yearly: 0.84
+    2022 Yearly: 1.22
+    2023 Yearly: 1.04
+    2024 Yearly: 0.69
+    2025 Yearly: 0.02
+    2026 Yearly: 0.67
+    2027 Yearly: 0.91
+    2028 Yearly: 1.04
+    2029 Yearly: 1.36

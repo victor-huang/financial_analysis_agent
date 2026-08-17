@@ -1,0 +1,80 @@
+currency: USD
+company_name: OppFi Inc.
+sector: Finance
+market_cap_billions: 1.26
+revenue:
+  quarterly:
+    Q3 2024: 136.59
+    Q4 2024: 135.72
+    Q1 2025: 140.27
+    Q2 2025: 142.44
+    Q3 2025: 155.09
+    Q4 2025: 159.25
+    Q1 2026: 151.88
+    Q2 2026: 145.17
+  annual:
+    2021 Yearly: 350.57
+    2022 Yearly: 452.86
+    2023 Yearly: 508.95
+    2024 Yearly: 525.96
+    2025 Yearly: 597.05
+  quarterly_forecast:
+    Q3 2024: 130.34
+    Q4 2024: 133.5
+    Q1 2025: 137.71
+    Q2 2025: 141.19
+    Q3 2025: 153.4
+    Q4 2025: 159.8
+    Q1 2026: 151.14
+    Q2 2026: 155.89
+    Q3 2026: 164.95
+    Q4 2026: 174.28
+    Q1 2027: 176.94
+    Q2 2027: 184.39
+  annual_forecast:
+    2021 Yearly: 354.31
+    2022 Yearly: 442.56
+    2023 Yearly: 510.76
+    2024 Yearly: 523.76
+    2025 Yearly: 597.6
+    2026 Yearly: 644.42
+    2027 Yearly: 770.12
+    2028 Yearly: 931.74
+eps:
+  quarterly:
+    Q3 2024: 0.33
+    Q4 2024: 0.23
+    Q1 2025: 0.38
+    Q2 2025: 0.45
+    Q3 2025: 0.46
+    Q4 2025: 0.3
+    Q1 2026: 0.35
+    Q2 2026: 0.33
+  annual:
+    2021 Yearly: 0.78
+    2022 Yearly: 0.05
+    2023 Yearly: 0.51
+    2024 Yearly: 0.95
+    2025 Yearly: 1.59
+  quarterly_forecast:
+    Q3 2024: 0.21
+    Q4 2024: 0.15
+    Q1 2025: 0.25
+    Q2 2025: 0.29
+    Q3 2025: 0.32
+    Q4 2025: 0.28
+    Q1 2026: 0.33
+    Q2 2026: 0.45
+    Q3 2026: 0.47
+    Q4 2026: 0.45
+    Q1 2027: 0.41
+    Q2 2027: 0.55
+  annual_forecast:
+    2021 Yearly: 0.78
+    2022 Yearly: -0.02
+    2023 Yearly: 0.5
+    2024 Yearly: 0.86
+    2025 Yearly: 1.57
+    2026 Yearly: 1.69
+    2027 Yearly: 2.13
+    2028 Yearly: 2.65

@@ -1,0 +1,78 @@
+currency: USD
+company_name: StoneCo Ltd.
+sector: Commercial Services
+market_cap_billions: 2.43
+revenue:
+  quarterly:
+    Q3 2024: 614.7
+    Q4 2024: 582.2
+    Q1 2025: 642.24
+    Q2 2025: 643.82
+    Q3 2025: 669.49
+    Q4 2025: 678.38
+    Q1 2026: 687.69
+  annual:
+    2021 Yearly: 863.94
+    2022 Yearly: 1810.0
+    2023 Yearly: 2480.0
+    2024 Yearly: 2140.0
+    2025 Yearly: 2580.0
+  quarterly_forecast:
+    Q3 2024: 615.76
+    Q4 2024: 579.22
+    Q1 2025: 638.44
+    Q2 2025: 694.66
+    Q3 2025: 684.22
+    Q4 2025: 684.28
+    Q1 2026: 675.11
+    Q2 2026: 708.24
+    Q3 2026: 730.77
+    Q4 2026: 767.12
+    Q1 2027: 722.02
+  annual_forecast:
+    2021 Yearly: 832.71
+    2022 Yearly: 1810.0
+    2023 Yearly: 2500.0
+    2024 Yearly: 2160.0
+    2025 Yearly: 2620.0
+    2026 Yearly: 2890.0
+    2027 Yearly: 3050.0
+    2028 Yearly: 3200.0
+    2029 Yearly: 2250.0
+eps:
+  quarterly:
+    Q3 2024: 0.36
+    Q4 2024: 0.36
+    Q1 2025: 0.32
+    Q2 2025: 0.43
+    Q3 2025: 0.48
+    Q4 2025: 0.52
+    Q1 2026: 0.42
+  annual:
+    2021 Yearly: 0.13
+    2022 Yearly: 0.32
+    2023 Yearly: 1.0
+    2024 Yearly: 1.17
+    2025 Yearly: 1.77
+  quarterly_forecast:
+    Q3 2024: 0.32
+    Q4 2024: 0.32
+    Q1 2025: 0.31
+    Q2 2025: 0.37
+    Q3 2025: 0.43
+    Q4 2025: 0.48
+    Q1 2026: 0.43
+    Q2 2026: 0.46
+    Q3 2026: 0.5
+    Q4 2026: 0.57
+    Q1 2027: 0.5
+  annual_forecast:
+    2021 Yearly: 0.1
+    2022 Yearly: 0.3
+    2023 Yearly: 0.93
+    2024 Yearly: 1.11
+    2025 Yearly: 1.66
+    2026 Yearly: 2.01
+    2027 Yearly: 2.23
+    2028 Yearly: 2.35
+    2029 Yearly: 2.62

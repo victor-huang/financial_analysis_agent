@@ -1,0 +1,36 @@
+currency: USD
+company_name: SharonAI Holdings, Inc.
+sector: Technology Services
+market_cap_billions: 1.83
+revenue:
+  quarterly:
+    Q3 2026: 1.93
+  annual:
+    2025 Yearly: 1.6
+  quarterly_forecast:
+    Q4 2026: 5.48
+    Q1 2027: 36.57
+    Q2 2027: 117.81
+  annual_forecast:
+    2026 Yearly: 152.73
+    2027 Yearly: 1410.0
+    2028 Yearly: 2490.0
+    2029 Yearly: 6410.0
+eps:
+  quarterly:
+    Q1 2026: -1.43
+    Q2 2026: -26.16
+  annual:
+    2025 Yearly: -4.04
+  quarterly_forecast:
+    Q1 2026: -0.88
+    Q2 2026: -0.3
+    Q3 2026: -0.63
+    Q4 2026: -0.22
+    Q1 2027: -0.96
+    Q2 2027: -1.24
+  annual_forecast:
+    2026 Yearly: -2.42
+    2027 Yearly: -2.61
+    2028 Yearly: -3.25
+    2029 Yearly: 11.61

@@ -1,0 +1,73 @@
+currency: USD
+company_name: Intrusion Inc.
+sector: Technology Services
+market_cap_billions: 0.01862
+revenue:
+  quarterly:
+    Q4 2024: 1.68
+    Q1 2025: 1.77
+    Q2 2025: 1.87
+    Q3 2025: 1.97
+    Q4 2025: 1.48
+    Q2 2026: 1.45
+  annual:
+    2021 Yearly: 7.28
+    2022 Yearly: 7.53
+    2023 Yearly: 5.61
+    2024 Yearly: 5.77
+    2025 Yearly: 7.09
+  quarterly_forecast:
+    Q4 2024: 2.02
+    Q1 2025: 1.65
+    Q2 2025: 1.8
+    Q3 2025: 1.91
+    Q4 2025: 2.06
+    Q1 2026: 2.02
+    Q2 2026: 1.5
+    Q3 2026: 2.0
+    Q4 2026: 3.1
+    Q1 2027: 1.3
+    Q2 2027: 1.8
+  annual_forecast:
+    2021 Yearly: 8.01
+    2022 Yearly: 9.92
+    2023 Yearly: 5.78
+    2024 Yearly: 6.03
+    2025 Yearly: 7.66
+    2026 Yearly: 7.5
+    2027 Yearly: 9.0
+eps:
+  quarterly:
+    Q4 2024: -0.36
+    Q1 2025: -0.11
+    Q2 2025: -0.1
+    Q3 2025: -0.1
+    Q4 2025: -0.14
+    Q1 2026: -0.18
+    Q2 2026: -0.13
+  annual:
+    2021 Yearly: -21.0
+    2022 Yearly: -16.4
+    2023 Yearly: -11.4
+    2024 Yearly: -1.63
+    2025 Yearly: -0.46
+  quarterly_forecast:
+    Q4 2024: -0.23
+    Q1 2025: -0.17
+    Q2 2025: -0.09
+    Q3 2025: -0.1
+    Q4 2025: -0.09
+    Q1 2026: -0.09
+    Q2 2026: -0.1
+    Q3 2026: -0.08
+    Q4 2026: -0.06
+    Q1 2027: -0.09
+    Q2 2027: -0.07
+  annual_forecast:
+    2021 Yearly: -21.8
+    2022 Yearly: -15.47
+    2023 Yearly: -12.1
+    2024 Yearly: -1.64
+    2025 Yearly: -0.41
+    2026 Yearly: -0.42
+    2027 Yearly: -0.31

@@ -1,0 +1,80 @@
+currency: USD
+company_name: AvePoint, Inc.
+sector: Technology Services
+market_cap_billions: 2.71
+revenue:
+  quarterly:
+    Q3 2024: 88.8
+    Q4 2024: 89.18
+    Q1 2025: 93.06
+    Q2 2025: 102.02
+    Q3 2025: 109.73
+    Q4 2025: 114.69
+    Q1 2026: 117.24
+    Q2 2026: 124.5
+  annual:
+    2021 Yearly: 191.91
+    2022 Yearly: 232.34
+    2023 Yearly: 271.82
+    2024 Yearly: 330.48
+    2025 Yearly: 419.5
+  quarterly_forecast:
+    Q3 2024: 83.33
+    Q4 2024: 87.97
+    Q1 2025: 88.74
+    Q2 2025: 96.28
+    Q3 2025: 105.72
+    Q4 2025: 110.95
+    Q1 2026: 116.43
+    Q2 2026: 121.38
+    Q3 2026: 133.61
+    Q4 2026: 140.49
+    Q1 2027: 141.73
+    Q2 2027: 147.41
+  annual_forecast:
+    2021 Yearly: 195.6
+    2022 Yearly: 232.61
+    2023 Yearly: 268.85
+    2024 Yearly: 329.37
+    2025 Yearly: 415.61
+    2026 Yearly: 512.84
+    2027 Yearly: 616.43
+    2028 Yearly: 734.23
+    2029 Yearly: 972.0
+eps:
+  quarterly:
+    Q3 2024: 0.06
+    Q4 2024: -0.04
+    Q1 2025: 0.06
+    Q2 2025: 0.06
+    Q3 2025: 0.11
+    Q4 2025: 0.11
+    Q1 2026: 0.1
+    Q2 2026: 0.17
+  annual:
+    2021 Yearly: -0.48
+    2022 Yearly: -0.01
+    2023 Yearly: 0.09
+    2024 Yearly: 0.06
+    2025 Yearly: 0.33
+  quarterly_forecast:
+    Q3 2024: 0.05
+    Q4 2024: 0.05
+    Q1 2025: 0.05
+    Q2 2025: 0.05
+    Q3 2025: 0.07
+    Q4 2025: 0.09
+    Q1 2026: 0.09
+    Q2 2026: 0.08
+    Q3 2026: 0.11
+    Q4 2026: 0.11
+    Q1 2027: 0.11
+    Q2 2027: 0.11
+  annual_forecast:
+    2022 Yearly: 0.12
+    2023 Yearly: 0.01
+    2024 Yearly: 0.05
+    2025 Yearly: 0.17
+    2026 Yearly: 0.34
+    2027 Yearly: 0.4
+    2028 Yearly: 0.5

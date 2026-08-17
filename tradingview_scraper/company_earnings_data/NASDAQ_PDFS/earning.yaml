@@ -1,0 +1,80 @@
+currency: USD
+company_name: PDF Solutions, Inc.
+sector: Technology Services
+market_cap_billions: 1.92
+revenue:
+  quarterly:
+    Q3 2024: 46.41
+    Q4 2024: 50.09
+    Q1 2025: 47.78
+    Q2 2025: 51.73
+    Q3 2025: 57.12
+    Q4 2025: 62.4
+    Q1 2026: 60.13
+    Q2 2026: 61.53
+  annual:
+    2021 Yearly: 111.06
+    2022 Yearly: 148.55
+    2023 Yearly: 165.84
+    2024 Yearly: 179.47
+    2025 Yearly: 219.02
+  quarterly_forecast:
+    Q3 2024: 46.21
+    Q4 2024: 49.16
+    Q1 2025: 47.39
+    Q2 2025: 51.58
+    Q3 2025: 56.69
+    Q4 2025: 61.96
+    Q1 2026: 59.71
+    Q2 2026: 61.17
+    Q3 2026: 67.44
+    Q4 2026: 74.4
+    Q1 2027: 72.96
+    Q2 2027: 75.49
+  annual_forecast:
+    2021 Yearly: 110.44
+    2022 Yearly: 144.55
+    2023 Yearly: 165.42
+    2024 Yearly: 178.68
+    2025 Yearly: 218.57
+    2026 Yearly: 263.1
+    2027 Yearly: 316.09
+    2028 Yearly: 375.54
+eps:
+  quarterly:
+    Q3 2024: 0.25
+    Q4 2024: 0.25
+    Q1 2025: 0.21
+    Q2 2025: 0.19
+    Q3 2025: 0.25
+    Q4 2025: 0.3
+    Q1 2026: 0.31
+    Q2 2026: 0.27
+  annual:
+    2021 Yearly: 0.08
+    2022 Yearly: 0.6
+    2023 Yearly: 0.73
+    2024 Yearly: 0.84
+    2025 Yearly: 0.94
+  quarterly_forecast:
+    Q3 2024: 0.2
+    Q4 2024: 0.21
+    Q1 2025: 0.18
+    Q2 2025: 0.19
+    Q3 2025: 0.22
+    Q4 2025: 0.24
+    Q1 2026: 0.23
+    Q2 2026: 0.27
+    Q3 2026: 0.31
+    Q4 2026: 0.36
+    Q1 2027: 0.34
+    Q2 2027: 0.35
+  annual_forecast:
+    2021 Yearly: 0.03
+    2022 Yearly: 0.52
+    2023 Yearly: 0.73
+    2024 Yearly: 0.8
+    2025 Yearly: 0.85
+    2026 Yearly: 1.26
+    2027 Yearly: 1.56
+    2028 Yearly: 1.95

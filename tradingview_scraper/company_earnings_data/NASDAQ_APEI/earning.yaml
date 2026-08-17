@@ -1,0 +1,80 @@
+currency: USD
+company_name: American Public Education, Inc.
+sector: Consumer Services
+market_cap_billions: 0.8693
+revenue:
+  quarterly:
+    Q3 2024: 153.12
+    Q4 2024: 164.11
+    Q1 2025: 164.55
+    Q2 2025: 162.77
+    Q3 2025: 163.22
+    Q4 2025: 158.33
+    Q1 2026: 174.74
+    Q2 2026: 171.0
+  annual:
+    2021 Yearly: 418.8
+    2022 Yearly: 606.33
+    2023 Yearly: 600.54
+    2024 Yearly: 624.56
+    2025 Yearly: 648.86
+  quarterly_forecast:
+    Q3 2024: 153.65
+    Q4 2024: 161.7
+    Q1 2025: 161.73
+    Q2 2025: 161.04
+    Q3 2025: 160.76
+    Q4 2025: 151.82
+    Q1 2026: 173.73
+    Q2 2026: 170.88
+    Q3 2026: 170.21
+    Q4 2026: 175.36
+    Q1 2027: 186.05
+    Q2 2027: 181.04
+  annual_forecast:
+    2021 Yearly: 416.9
+    2022 Yearly: 606.5
+    2023 Yearly: 598.3
+    2024 Yearly: 622.13
+    2025 Yearly: 642.34
+    2026 Yearly: 691.2
+    2027 Yearly: 734.63
+    2028 Yearly: 788.76
+eps:
+  quarterly:
+    Q3 2024: 0.04
+    Q4 2024: 0.63
+    Q1 2025: 0.41
+    Q2 2025: -0.02
+    Q3 2025: 0.3
+    Q4 2025: 0.67
+    Q1 2026: 0.94
+    Q2 2026: 0.36
+  annual:
+    2021 Yearly: 1.61
+    2022 Yearly: -6.08
+    2023 Yearly: -2.93
+    2024 Yearly: 0.55
+    2025 Yearly: 1.36
+  quarterly_forecast:
+    Q3 2024: 0.02
+    Q4 2024: 0.54
+    Q1 2025: 0.14
+    Q2 2025: -0.06
+    Q3 2025: -0.07
+    Q4 2025: 0.37
+    Q1 2026: 0.64
+    Q2 2026: 0.36
+    Q3 2026: 0.49
+    Q4 2026: 0.76
+    Q1 2027: 0.8
+    Q2 2027: 0.54
+  annual_forecast:
+    2021 Yearly: 1.03
+    2022 Yearly: -3.53
+    2023 Yearly: 0.31
+    2024 Yearly: 0.47
+    2025 Yearly: 1.09
+    2026 Yearly: 2.55
+    2027 Yearly: 2.97
+    2028 Yearly: 3.61

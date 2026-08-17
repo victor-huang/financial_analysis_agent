@@ -1,0 +1,80 @@
+currency: USD
+company_name: National CineMedia, Inc.
+sector: Commercial Services
+market_cap_billions: 0.35543
+revenue:
+  quarterly:
+    Q3 2024: 62.4
+    Q4 2024: 86.3
+    Q1 2025: 34.9
+    Q2 2025: 51.8
+    Q3 2025: 63.4
+    Q4 2025: 93.2
+    Q1 2026: 34.0
+    Q2 2026: 58.4
+  annual:
+    2021 Yearly: 114.6
+    2022 Yearly: 249.2
+    2023 Yearly: 259.8
+    2024 Yearly: 240.8
+    2025 Yearly: 243.2
+  quarterly_forecast:
+    Q3 2024: 58.15
+    Q4 2024: 84.47
+    Q1 2025: 34.42
+    Q2 2025: 55.08
+    Q3 2025: 63.62
+    Q4 2025: 90.9
+    Q1 2026: 32.92
+    Q2 2026: 59.34
+    Q3 2026: 69.5
+    Q4 2026: 98.9
+    Q1 2027: 36.77
+    Q2 2027: 62.5
+  annual_forecast:
+    2021 Yearly: 115.75
+    2022 Yearly: 241.38
+    2023 Yearly: 250.05
+    2024 Yearly: 238.97
+    2025 Yearly: 241.0
+    2026 Yearly: 261.76
+    2027 Yearly: 276.9
+    2028 Yearly: 295.8
+eps:
+  quarterly:
+    Q3 2024: -0.04
+    Q4 2024: 0.26
+    Q1 2025: -0.32
+    Q2 2025: -0.11
+    Q3 2025: 0.02
+    Q4 2025: 0.31
+    Q1 2026: -0.31
+    Q2 2026: -0.11
+  annual:
+    2021 Yearly: -8.1
+    2022 Yearly: -4.35
+    2023 Yearly: 14.34
+    2024 Yearly: -0.23
+    2025 Yearly: -0.11
+  quarterly_forecast:
+    Q3 2024: -0.03
+    Q4 2024: 0.18
+    Q1 2025: -0.21
+    Q2 2025: -0.11
+    Q3 2025: -0.03
+    Q4 2025: 0.2
+    Q1 2026: -0.28
+    Q2 2026: -0.09
+    Q3 2026: 0.01
+    Q4 2026: 0.31
+    Q1 2027: -0.23
+    Q2 2027: -0.05
+  annual_forecast:
+    2021 Yearly: -7.55
+    2022 Yearly: -3.47
+    2023 Yearly: 0.02
+    2024 Yearly: -0.3
+    2025 Yearly: -0.21
+    2026 Yearly: -0.07
+    2027 Yearly: 0.1
+    2028 Yearly: 0.21

@@ -1,0 +1,80 @@
+currency: USD
+company_name: H&R Block, Inc.
+sector: Consumer Services
+market_cap_billions: 5.92
+revenue:
+  quarterly:
+    Q1 2025: 193.81
+    Q2 2025: 179.07
+    Q3 2025: 2280.0
+    Q4 2025: 1110.0
+    Q1 2026: 203.55
+    Q2 2026: 198.87
+    Q3 2026: 2400.0
+    Q4 2026: 1140.0
+  annual:
+    2020 Yearly: 3410.0
+    2022 Yearly: 3460.0
+    2023 Yearly: 3470.0
+    2024 Yearly: 3610.0
+    2025 Yearly: 3760.0
+  quarterly_forecast:
+    Q1 2025: 187.66
+    Q2 2025: 182.05
+    Q3 2025: 2250.0
+    Q4 2025: 1070.0
+    Q1 2026: 200.13
+    Q2 2026: 187.37
+    Q3 2026: 2340.0
+    Q4 2026: 1120.0
+    Q1 2027: 209.9
+    Q2 2027: 205.17
+    Q3 2027: 2480.0
+    Q4 2027: 1150.0
+  annual_forecast:
+    2020 Yearly: 3410.0
+    2022 Yearly: 3410.0
+    2023 Yearly: 3450.0
+    2024 Yearly: 3580.0
+    2025 Yearly: 3720.0
+    2026 Yearly: 3920.0
+    2027 Yearly: 4050.0
+    2028 Yearly: 4180.0
+eps:
+  quarterly:
+    Q1 2025: -1.17
+    Q2 2025: -1.73
+    Q3 2025: 5.38
+    Q4 2025: 2.27
+    Q1 2026: -1.2
+    Q2 2026: -1.84
+    Q3 2026: 6.02
+    Q4 2026: 2.38
+  annual:
+    2020 Yearly: 3.39
+    2022 Yearly: 3.51
+    2023 Yearly: 3.82
+    2024 Yearly: 4.41
+    2025 Yearly: 4.66
+  quarterly_forecast:
+    Q1 2025: -1.21
+    Q2 2025: -1.67
+    Q3 2025: 5.17
+    Q4 2025: 2.83
+    Q1 2026: -1.35
+    Q2 2026: -1.89
+    Q3 2026: 5.77
+    Q4 2026: 2.21
+    Q1 2027: -1.38
+    Q2 2027: -2.08
+    Q3 2027: 7.12
+    Q4 2027: 2.4
+  annual_forecast:
+    2020 Yearly: 3.31
+    2022 Yearly: 3.44
+    2023 Yearly: 3.72
+    2024 Yearly: 4.3
+    2025 Yearly: 5.25
+    2026 Yearly: 5.16
+    2027 Yearly: 5.86
+    2028 Yearly: 6.88

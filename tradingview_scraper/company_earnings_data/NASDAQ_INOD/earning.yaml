@@ -1,0 +1,72 @@
+currency: USD
+company_name: Innodata Inc.
+sector: Technology Services
+market_cap_billions: 2.14
+revenue:
+  quarterly:
+    Q3 2024: 52.22
+    Q4 2024: 59.18
+    Q1 2025: 58.34
+    Q2 2025: 58.39
+    Q3 2025: 62.55
+    Q4 2025: 72.38
+    Q1 2026: 90.1
+    Q2 2026: 92.14
+  annual:
+    2021 Yearly: 69.75
+    2022 Yearly: 79.0
+    2023 Yearly: 86.78
+    2024 Yearly: 170.46
+    2025 Yearly: 251.66
+  quarterly_forecast:
+    Q3 2024: 36.1
+    Q4 2024: 53.01
+    Q1 2025: 57.63
+    Q2 2025: 56.35
+    Q3 2025: 59.79
+    Q4 2025: 69.46
+    Q1 2026: 76.47
+    Q2 2026: 86.31
+    Q3 2026: 86.98
+    Q4 2026: 93.62
+    Q1 2027: 100.8
+    Q2 2027: 106.95
+  annual_forecast:
+    2024 Yearly: 164.28
+    2025 Yearly: 248.81
+    2026 Yearly: 357.0
+    2027 Yearly: 458.23
+eps:
+  quarterly:
+    Q3 2024: 0.51
+    Q4 2024: 0.31
+    Q1 2025: 0.22
+    Q2 2025: 0.2
+    Q3 2025: 0.24
+    Q4 2025: 0.25
+    Q1 2026: 0.42
+    Q2 2026: 0.41
+  annual:
+    2021 Yearly: -0.06
+    2022 Yearly: -0.44
+    2023 Yearly: -0.03
+    2024 Yearly: 0.89
+    2025 Yearly: 0.92
+  quarterly_forecast:
+    Q3 2024: 0.13
+    Q4 2024: 0.21
+    Q1 2025: 0.17
+    Q2 2025: 0.11
+    Q3 2025: 0.14
+    Q4 2025: 0.21
+    Q1 2026: 0.08
+    Q2 2026: 0.21
+    Q3 2026: 0.2
+    Q4 2026: 0.25
+    Q1 2027: 0.3
+    Q2 2027: 0.36
+  annual_forecast:
+    2024 Yearly: 0.8
+    2025 Yearly: 0.88
+    2026 Yearly: 1.08
+    2027 Yearly: 1.73

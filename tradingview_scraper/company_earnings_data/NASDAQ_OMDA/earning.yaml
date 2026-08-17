@@ -1,0 +1,54 @@
+currency: USD
+company_name: Omada Health, Inc.
+sector: Technology Services
+market_cap_billions: 1.16
+revenue:
+  quarterly:
+    Q1 2025: 54.96
+    Q2 2025: 61.37
+    Q3 2025: 68.03
+    Q4 2025: 75.85
+    Q1 2026: 78.05
+    Q2 2026: 87.83
+  annual:
+    2025 Yearly: 260.21
+  quarterly_forecast:
+    Q2 2025: 55.33
+    Q3 2025: 61.28
+    Q4 2025: 70.21
+    Q1 2026: 74.09
+    Q2 2026: 80.04
+    Q3 2026: 82.91
+    Q4 2026: 86.76
+    Q1 2027: 92.07
+    Q2 2027: 94.46
+  annual_forecast:
+    2025 Yearly: 253.94
+    2026 Yearly: 327.98
+    2027 Yearly: 392.29
+    2028 Yearly: 467.31
+    2029 Yearly: 505.0
+eps:
+  quarterly:
+    Q1 2025: -0.13
+    Q2 2025: -0.24
+    Q3 2025: -0.06
+    Q4 2025: 0.08
+    Q1 2026: 0.04
+    Q2 2026: 0.06
+  annual:
+    2025 Yearly: -0.35
+  quarterly_forecast:
+    Q2 2025: -0.12
+    Q3 2025: -0.08
+    Q4 2025: 0.01
+    Q1 2026: -0.13
+    Q2 2026: 0.06
+    Q3 2026: 0.08
+    Q4 2026: 0.14
+    Q1 2027: 0.04
+    Q2 2027: 0.11
+  annual_forecast:
+    2026 Yearly: -0.03
+    2027 Yearly: 0.26
+    2028 Yearly: 0.42

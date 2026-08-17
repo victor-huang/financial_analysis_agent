@@ -1,0 +1,82 @@
+currency: USD
+company_name: The Trade Desk, Inc.
+sector: Technology Services
+market_cap_billions: 8.31
+revenue:
+  quarterly:
+    Q3 2024: 628.02
+    Q4 2024: 741.0
+    Q1 2025: 616.02
+    Q2 2025: 694.04
+    Q3 2025: 739.0
+    Q4 2025: 846.79
+    Q1 2026: 688.86
+    Q2 2026: 715.06
+  annual:
+    2021 Yearly: 1200.0
+    2022 Yearly: 1580.0
+    2023 Yearly: 1950.0
+    2024 Yearly: 2440.0
+    2025 Yearly: 2900.0
+  quarterly_forecast:
+    Q3 2024: 620.16
+    Q4 2024: 758.94
+    Q1 2025: 575.31
+    Q2 2025: 685.47
+    Q3 2025: 719.04
+    Q4 2025: 840.63
+    Q1 2026: 678.87
+    Q2 2026: 752.59
+    Q3 2026: 806.53
+    Q4 2026: 941.78
+    Q1 2027: 767.65
+    Q2 2027: 843.24
+  annual_forecast:
+    2021 Yearly: 1190.0
+    2022 Yearly: 1580.0
+    2023 Yearly: 1920.0
+    2024 Yearly: 2460.0
+    2025 Yearly: 2890.0
+    2026 Yearly: 3180.0
+    2027 Yearly: 3490.0
+    2028 Yearly: 3730.0
+    2029 Yearly: 4110.0
+eps:
+  quarterly:
+    Q3 2024: 0.41
+    Q4 2024: 0.59
+    Q1 2025: 0.1
+    Q2 2025: 0.18
+    Q3 2025: 0.23
+    Q4 2025: 0.39
+    Q1 2026: 0.08
+    Q2 2026: 0.14
+  annual:
+    2021 Yearly: 0.91
+    2022 Yearly: 1.04
+    2023 Yearly: 1.26
+    2024 Yearly: 1.66
+    2025 Yearly: 0.9
+  quarterly_forecast:
+    Q3 2024: 0.39
+    Q4 2024: 0.57
+    Q1 2025: 0.14
+    Q2 2025: 0.18
+    Q3 2025: 0.2
+    Q4 2025: 0.34
+    Q1 2026: 0.09
+    Q2 2026: 0.18
+    Q3 2026: 0.29
+    Q4 2026: 0.45
+    Q1 2027: 0.14
+    Q2 2027: 0.23
+  annual_forecast:
+    2021 Yearly: 0.77
+    2022 Yearly: 1.04
+    2023 Yearly: 1.22
+    2024 Yearly: 1.64
+    2025 Yearly: 0.85
+    2026 Yearly: 1.0
+    2027 Yearly: 1.19
+    2028 Yearly: 1.44
+    2029 Yearly: 1.77

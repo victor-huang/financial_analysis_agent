@@ -1,0 +1,80 @@
+currency: USD
+company_name: Ryman Hospitality Properties, Inc. (REIT)
+sector: Finance
+market_cap_billions: 7.84
+revenue:
+  quarterly:
+    Q3 2024: 549.96
+    Q4 2024: 647.63
+    Q1 2025: 587.28
+    Q2 2025: 659.51
+    Q3 2025: 592.46
+    Q4 2025: 737.81
+    Q1 2026: 664.57
+    Q2 2026: 748.98
+  annual:
+    2021 Yearly: 939.37
+    2022 Yearly: 1810.0
+    2023 Yearly: 2160.0
+    2024 Yearly: 2340.0
+    2025 Yearly: 2580.0
+  quarterly_forecast:
+    Q3 2024: 545.93
+    Q4 2024: 655.68
+    Q1 2025: 548.42
+    Q2 2025: 618.35
+    Q3 2025: 576.78
+    Q4 2025: 716.03
+    Q1 2026: 648.31
+    Q2 2026: 734.59
+    Q3 2026: 629.51
+    Q4 2026: 772.47
+    Q1 2027: 692.64
+    Q2 2027: 760.01
+  annual_forecast:
+    2021 Yearly: 882.95
+    2022 Yearly: 1750.0
+    2023 Yearly: 2150.0
+    2024 Yearly: 2350.0
+    2025 Yearly: 2560.0
+    2026 Yearly: 2800.0
+    2027 Yearly: 2920.0
+    2028 Yearly: 3040.0
+eps:
+  quarterly:
+    Q3 2024: 0.94
+    Q4 2024: 1.13
+    Q1 2025: 1.0
+    Q2 2025: 1.12
+    Q3 2025: 0.53
+    Q4 2025: 1.11
+    Q1 2026: 1.03
+    Q2 2026: 1.42
+  annual:
+    2021 Yearly: -3.21
+    2022 Yearly: 2.33
+    2023 Yearly: 5.36
+    2024 Yearly: 4.38
+    2025 Yearly: 3.77
+  quarterly_forecast:
+    Q3 2024: 0.77
+    Q4 2024: 1.21
+    Q1 2025: 0.69
+    Q2 2025: 1.14
+    Q3 2025: 0.47
+    Q4 2025: 0.99
+    Q1 2026: 0.83
+    Q2 2026: 1.31
+    Q3 2026: 0.55
+    Q4 2026: 1.23
+    Q1 2027: 1.24
+    Q2 2027: 1.47
+  annual_forecast:
+    2021 Yearly: -3.35
+    2022 Yearly: 2.06
+    2023 Yearly: 3.88
+    2024 Yearly: 4.43
+    2025 Yearly: 3.61
+    2026 Yearly: 4.12
+    2027 Yearly: 4.73
+    2028 Yearly: 5.44

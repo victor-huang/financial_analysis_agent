@@ -1,0 +1,80 @@
+currency: USD
+company_name: PureCycle Technologies, Inc.
+sector: Industrial Services
+market_cap_billions: 1.36
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 1.58
+    Q2 2025: 1.65
+    Q3 2025: 2.43
+    Q4 2025: 2.69
+    Q1 2026: 4.13
+    Q2 2026: 4.51
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 8.36
+  quarterly_forecast:
+    Q4 2024: 4.74
+    Q1 2025: 3.6
+    Q2 2025: 2.77
+    Q3 2025: 6.04
+    Q4 2025: 6.37
+    Q1 2026: 3.83
+    Q2 2026: 6.11
+    Q3 2026: 11.0
+    Q4 2026: 19.18
+    Q1 2027: 19.81
+    Q2 2027: 24.69
+  annual_forecast:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2024 Yearly: 4.73
+    2025 Yearly: 12.03
+    2026 Yearly: 40.4
+    2027 Yearly: 117.56
+    2028 Yearly: 313.87
+    2029 Yearly: 514.67
+eps:
+  quarterly:
+    Q3 2024: -0.54
+    Q4 2024: -0.4
+    Q1 2025: 0.05
+    Q2 2025: -0.81
+    Q3 2025: -0.31
+    Q4 2025: -0.14
+    Q1 2026: -0.21
+    Q2 2026: -0.8
+  annual:
+    2021 Yearly: -0.75
+    2022 Yearly: -0.54
+    2023 Yearly: -0.63
+    2024 Yearly: -1.75
+    2025 Yearly: -1.21
+  quarterly_forecast:
+    Q3 2024: -0.22
+    Q4 2024: -0.21
+    Q1 2025: -0.23
+    Q2 2025: -0.22
+    Q3 2025: -0.27
+    Q4 2025: -0.25
+    Q1 2026: -0.25
+    Q2 2026: -0.29
+    Q3 2026: -0.26
+    Q4 2026: -0.24
+    Q1 2027: -0.24
+    Q2 2027: -0.24
+  annual_forecast:
+    2021 Yearly: -0.81
+    2022 Yearly: -0.62
+    2023 Yearly: -0.75
+    2024 Yearly: -1.51
+    2025 Yearly: -1.18
+    2026 Yearly: -1.02
+    2027 Yearly: -0.67
+    2028 Yearly: -0.53
+    2029 Yearly: -0.25

@@ -1,0 +1,80 @@
+currency: USD
+company_name: Crescent Capital BDC, Inc.
+sector: Finance
+market_cap_billions: 0.43036
+revenue:
+  quarterly:
+    Q3 2024: 51.63
+    Q4 2024: 46.4
+    Q1 2025: 42.13
+    Q2 2025: 42.99
+    Q3 2025: 41.35
+    Q4 2025: 40.8
+    Q1 2026: 37.91
+    Q2 2026: 36.32
+  annual:
+    2021 Yearly: 93.99
+    2022 Yearly: 116.72
+    2023 Yearly: 184.13
+    2024 Yearly: 197.36
+    2025 Yearly: 167.28
+  quarterly_forecast:
+    Q3 2024: 48.89
+    Q4 2024: 47.27
+    Q1 2025: 45.08
+    Q2 2025: 42.52
+    Q3 2025: 42.33
+    Q4 2025: 40.08
+    Q1 2026: 39.57
+    Q2 2026: 37.12
+    Q3 2026: 37.23
+    Q4 2026: 37.42
+    Q1 2027: 36.87
+    Q2 2027: 36.92
+  annual_forecast:
+    2021 Yearly: 94.83
+    2022 Yearly: 114.28
+    2023 Yearly: 181.9
+    2024 Yearly: 198.22
+    2025 Yearly: 166.54
+    2026 Yearly: 149.67
+    2027 Yearly: 147.62
+    2028 Yearly: 138.92
+eps:
+  quarterly:
+    Q3 2024: 0.64
+    Q4 2024: 0.55
+    Q1 2025: 0.45
+    Q2 2025: 0.46
+    Q3 2025: 0.46
+    Q4 2025: 0.45
+    Q1 2026: 0.42
+    Q2 2026: 0.36
+  annual:
+    2021 Yearly: 1.67
+    2022 Yearly: 1.93
+    2023 Yearly: 2.3
+    2024 Yearly: 2.4
+    2025 Yearly: 1.81
+  quarterly_forecast:
+    Q3 2024: 0.58
+    Q4 2024: 0.56
+    Q1 2025: 0.53
+    Q2 2025: 0.47
+    Q3 2025: 0.47
+    Q4 2025: 0.44
+    Q1 2026: 0.42
+    Q2 2026: 0.37
+    Q3 2026: 0.38
+    Q4 2026: 0.38
+    Q1 2027: 0.38
+    Q2 2027: 0.37
+  annual_forecast:
+    2021 Yearly: 1.81
+    2022 Yearly: 1.79
+    2023 Yearly: 2.18
+    2024 Yearly: 2.42
+    2025 Yearly: 1.8
+    2026 Yearly: 1.55
+    2027 Yearly: 1.5
+    2028 Yearly: 1.5

@@ -1,0 +1,70 @@
+currency: USD
+company_name: Kyverna Therapeutics, Inc.
+sector: Health Technology
+market_cap_billions: 0.4894
+revenue:
+  quarterly:
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+  annual:
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 1.0
+    Q2 2027: 2.03
+  annual_forecast:
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 17.54
+    2028 Yearly: 53.17
+    2029 Yearly: 174.55
+eps:
+  quarterly:
+    Q4 2024: -0.87
+    Q1 2025: -1.03
+    Q2 2025: -0.97
+    Q3 2025: -0.85
+    Q4 2025: -0.8
+    Q1 2026: -0.66
+    Q2 2026: -0.63
+  annual:
+    2023 Yearly: -89.61
+    2024 Yearly: -3.33
+    2025 Yearly: -3.64
+  quarterly_forecast:
+    Q4 2024: -0.84
+    Q1 2025: -1.13
+    Q2 2025: -1.04
+    Q3 2025: -0.97
+    Q4 2025: -0.85
+    Q1 2026: -0.75
+    Q2 2026: -0.68
+    Q3 2026: -0.71
+    Q4 2026: -0.8
+    Q1 2027: -0.81
+    Q2 2027: -0.7
+  annual_forecast:
+    2023 Yearly: -2.03
+    2024 Yearly: -3.3
+    2025 Yearly: -3.69
+    2026 Yearly: -2.81
+    2027 Yearly: -2.9
+    2028 Yearly: -2.37
+    2029 Yearly: -3.61

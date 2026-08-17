@@ -1,0 +1,82 @@
+currency: USD
+company_name: Zymeworks Inc.
+sector: Health Technology
+market_cap_billions: 1.7
+revenue:
+  quarterly:
+    Q3 2024: 16.0
+    Q4 2024: 31.03
+    Q1 2025: 27.11
+    Q2 2025: 48.73
+    Q3 2025: 27.61
+    Q4 2025: 2.52
+    Q1 2026: 2.41
+    Q2 2026: 4.59
+  annual:
+    2021 Yearly: 26.68
+    2022 Yearly: 412.48
+    2023 Yearly: 76.01
+    2024 Yearly: 76.3
+    2025 Yearly: 105.97
+  quarterly_forecast:
+    Q3 2024: 17.9
+    Q4 2024: 45.2
+    Q1 2025: 20.61
+    Q2 2025: 17.25
+    Q3 2025: 29.91
+    Q4 2025: 19.24
+    Q1 2026: 24.38
+    Q2 2026: 3.81
+    Q3 2026: 206.45
+    Q4 2026: 89.67
+    Q1 2027: 79.15
+    Q2 2027: 80.05
+  annual_forecast:
+    2021 Yearly: 15.63
+    2022 Yearly: 240.59
+    2023 Yearly: 74.79
+    2024 Yearly: 89.49
+    2025 Yearly: 122.83
+    2026 Yearly: 298.76
+    2027 Yearly: 294.21
+    2028 Yearly: 228.3
+    2029 Yearly: 346.67
+eps:
+  quarterly:
+    Q3 2024: -0.39
+    Q4 2024: -0.31
+    Q1 2025: -0.3
+    Q2 2025: 0.03
+    Q3 2025: -0.26
+    Q4 2025: -0.55
+    Q1 2026: -0.59
+    Q2 2026: -0.62
+  annual:
+    2021 Yearly: -4.61
+    2022 Yearly: 1.9
+    2023 Yearly: -1.72
+    2024 Yearly: -1.62
+    2025 Yearly: -1.08
+  quarterly_forecast:
+    Q3 2024: -0.4
+    Q4 2024: -0.1
+    Q1 2025: -0.68
+    Q2 2025: -0.48
+    Q3 2025: -0.29
+    Q4 2025: -0.46
+    Q1 2026: -0.3
+    Q2 2026: -0.57
+    Q3 2026: 2.03
+    Q4 2026: 0.36
+    Q1 2027: 0.29
+    Q2 2027: 0.23
+  annual_forecast:
+    2021 Yearly: -4.55
+    2022 Yearly: -0.06
+    2023 Yearly: -1.96
+    2024 Yearly: -1.44
+    2025 Yearly: -0.95
+    2026 Yearly: 1.26
+    2027 Yearly: 1.31
+    2028 Yearly: 0.3
+    2029 Yearly: 0.83

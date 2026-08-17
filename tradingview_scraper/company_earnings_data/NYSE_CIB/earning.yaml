@@ -1,0 +1,76 @@
+currency: USD
+company_name: Grupo Cibest S.A.
+sector: Finance
+market_cap_billions: 23.53
+revenue:
+  quarterly:
+    Q3 2024: 1250.0
+    Q4 2024: 1520.0
+    Q1 2025: 1650.0
+    Q2 2025: 1800.0
+    Q3 2025: 1950.0
+    Q4 2025: 1690.0
+    Q1 2026: 2000.0
+  annual:
+    2021 Yearly: 3870.0
+    2022 Yearly: 4260.0
+    2023 Yearly: 6860.0
+    2024 Yearly: 5860.0
+    2025 Yearly: 6600.0
+  quarterly_forecast:
+    Q3 2024: 1620.0
+    Q4 2024: 1640.0
+    Q1 2025: 1630.0
+    Q2 2025: 1750.0
+    Q3 2025: 1840.0
+    Q4 2025: 1970.0
+    Q1 2026: 2040.0
+    Q2 2026: 2280.0
+    Q3 2026: 2280.0
+    Q4 2026: 2380.0
+    Q1 2027: 2520.0
+  annual_forecast:
+    2021 Yearly: 4280.0
+    2022 Yearly: 4990.0
+    2023 Yearly: 7110.0
+    2024 Yearly: 6540.0
+    2025 Yearly: 7610.0
+    2026 Yearly: 9020.0
+    2027 Yearly: 9710.0
+    2028 Yearly: 10310.0
+eps:
+  quarterly:
+    Q3 2024: 1.43
+    Q4 2024: 1.7
+    Q1 2025: 1.7
+    Q2 2025: 1.86
+    Q3 2025: 2.37
+    Q4 2025: -2.09
+    Q1 2026: 1.66
+  annual:
+    2021 Yearly: 4.34
+    2022 Yearly: 5.83
+    2023 Yearly: 6.5
+    2024 Yearly: 6.41
+    2025 Yearly: 4.37
+  quarterly_forecast:
+    Q3 2024: 1.42
+    Q4 2024: 1.39
+    Q1 2025: 1.61
+    Q2 2025: 1.67
+    Q3 2025: 1.81
+    Q4 2025: 2.03
+    Q1 2026: 1.9
+    Q2 2026: 2.39
+    Q3 2026: 2.64
+    Q4 2026: 2.72
+    Q1 2027: 2.89
+  annual_forecast:
+    2021 Yearly: 3.33
+    2022 Yearly: 5.9
+    2023 Yearly: 6.17
+    2024 Yearly: 5.9
+    2025 Yearly: 8.22
+    2026 Yearly: 9.62
+    2027 Yearly: 10.55
+    2028 Yearly: 10.99

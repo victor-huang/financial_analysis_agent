@@ -1,0 +1,44 @@
+currency: USD
+company_name: Kodiak AI, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 0.86939
+revenue:
+  quarterly:
+    Q2 2026: 1.05
+    Q3 2026: 1.83
+    Q4 2026: 3.5
+  annual:
+    2025 Yearly: 3.8
+  quarterly_forecast:
+    Q1 2027: 1.65
+    Q2 2027: 2.57
+  annual_forecast:
+    2025 Yearly: 3.73
+    2026 Yearly: 9.74
+    2027 Yearly: 38.26
+    2028 Yearly: 142.99
+    2029 Yearly: 399.15
+eps:
+  quarterly:
+    Q2 2025: -1.26
+    Q3 2025: -3.89
+    Q4 2025: -0.42
+    Q1 2026: 0.1
+    Q2 2026: -0.5
+  annual:
+    2025 Yearly: -6.42
+  quarterly_forecast:
+    Q3 2025: -0.28
+    Q4 2025: -0.18
+    Q1 2026: -0.2
+    Q2 2026: -0.17
+    Q3 2026: -0.18
+    Q4 2026: -0.17
+    Q1 2027: -0.17
+    Q2 2027: -0.18
+  annual_forecast:
+    2025 Yearly: -4.39
+    2026 Yearly: -0.48
+    2027 Yearly: -0.67
+    2028 Yearly: -0.54
+    2029 Yearly: -0.15

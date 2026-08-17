@@ -1,0 +1,66 @@
+currency: USD
+company_name: Maze Therapeutics, Inc.
+sector: Health Technology
+market_cap_billions: 1.52
+revenue:
+  quarterly:
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 20.0
+    Q2 2026: 0.0
+  annual:
+    2024 Yearly: 167.5
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 3.13
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 10.63
+    Q2 2026: 2.86
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 3.38
+    Q2 2027: 3.38
+  annual_forecast:
+    2024 Yearly: 167.67
+    2025 Yearly: 0.0
+    2026 Yearly: 20.0
+    2027 Yearly: 13.9
+    2028 Yearly: 13.0
+    2029 Yearly: 50.98
+eps:
+  quarterly:
+    Q4 2024: -18.32
+    Q1 2025: -1.15
+    Q2 2025: -0.77
+    Q3 2025: -0.66
+    Q4 2025: -0.65
+    Q1 2026: -0.45
+    Q2 2026: -0.76
+  annual:
+    2024 Yearly: 1.25
+    2025 Yearly: -3.05
+  quarterly_forecast:
+    Q4 2024: 2.05
+    Q1 2025: -0.72
+    Q2 2025: -0.84
+    Q3 2025: -0.71
+    Q4 2025: -0.71
+    Q1 2026: -0.58
+    Q2 2026: -0.72
+    Q3 2026: -0.76
+    Q4 2026: -0.79
+    Q1 2027: -0.77
+    Q2 2027: -0.81
+  annual_forecast:
+    2024 Yearly: -7.88
+    2025 Yearly: -3.12
+    2026 Yearly: -2.76
+    2027 Yearly: -3.16
+    2028 Yearly: -3.54
+    2029 Yearly: -3.76

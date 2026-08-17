@@ -1,0 +1,76 @@
+currency: USD
+company_name: Credicorp Ltd.
+sector: Finance
+market_cap_billions: 29.6
+revenue:
+  quarterly:
+    Q3 2024: 1410.0
+    Q4 2024: 1400.0
+    Q1 2025: 1480.0
+    Q2 2025: 1590.0
+    Q3 2025: 1670.0
+    Q4 2025: 1750.0
+    Q1 2026: 1740.0
+  annual:
+    2021 Yearly: 3570.0
+    2022 Yearly: 4010.0
+    2023 Yearly: 5010.0
+    2024 Yearly: 5440.0
+    2025 Yearly: 6670.0
+  quarterly_forecast:
+    Q3 2024: 1460.0
+    Q4 2024: 1420.0
+    Q1 2025: 1520.0
+    Q2 2025: 1560.0
+    Q3 2025: 1640.0
+    Q4 2025: 1750.0
+    Q1 2026: 1730.0
+    Q2 2026: 1820.0
+    Q3 2026: 1890.0
+    Q4 2026: 1940.0
+    Q1 2027: 1930.0
+  annual_forecast:
+    2022 Yearly: 3590.0
+    2023 Yearly: 4230.0
+    2024 Yearly: 5250.0
+    2025 Yearly: 5650.0
+    2026 Yearly: 6640.0
+    2027 Yearly: 7550.0
+    2028 Yearly: 8440.0
+eps:
+  quarterly:
+    Q3 2024: 5.16
+    Q4 2024: 3.74
+    Q1 2025: 6.07
+    Q2 2025: 6.44
+    Q3 2025: 6.28
+    Q4 2025: 5.91
+    Q1 2026: 7.4
+  annual:
+    2021 Yearly: 11.28
+    2022 Yearly: 15.26
+    2023 Yearly: 16.42
+    2024 Yearly: 18.29
+    2025 Yearly: 25.79
+  quarterly_forecast:
+    Q3 2024: 4.81
+    Q4 2024: 4.34
+    Q1 2025: 5.43
+    Q2 2025: 5.93
+    Q3 2025: 6.29
+    Q4 2025: 6.5
+    Q1 2026: 6.92
+    Q2 2026: 7.31
+    Q3 2026: 7.4
+    Q4 2026: 7.22
+    Q1 2027: 8.0
+  annual_forecast:
+    2021 Yearly: 10.82
+    2022 Yearly: 15.71
+    2023 Yearly: 16.42
+    2024 Yearly: 18.96
+    2025 Yearly: 25.69
+    2026 Yearly: 29.77
+    2027 Yearly: 33.85
+    2028 Yearly: 38.23
+    2029 Yearly: 38.5

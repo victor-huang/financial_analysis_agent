@@ -1,0 +1,54 @@
+currency: USD
+company_name: Health In Tech, Inc.
+sector: Technology Services
+market_cap_billions: 0.06684999999999999
+revenue:
+  quarterly:
+    Q4 2024: 5.0
+    Q1 2025: 8.01
+    Q2 2025: 9.31
+    Q3 2025: 8.49
+    Q4 2025: 7.51
+    Q1 2026: 8.8
+  annual:
+    2024 Yearly: 19.0
+    2025 Yearly: 33.33
+  quarterly_forecast:
+    Q1 2025: 8.0
+    Q2 2025: 7.49
+    Q3 2025: 7.05
+    Q4 2025: 7.26
+    Q1 2026: 7.45
+    Q2 2026: 7.78
+    Q3 2026: 12.66
+    Q4 2026: 17.6
+    Q1 2027: 20.01
+  annual_forecast:
+    2025 Yearly: 32.35
+    2026 Yearly: 46.83
+    2027 Yearly: 78.77
+eps:
+  quarterly:
+    Q4 2024: -0.01
+    Q1 2025: 0.01
+    Q2 2025: 0.01
+    Q3 2025: 0.01
+    Q4 2025: -0.01
+    Q1 2026: -0.03
+  annual:
+    2024 Yearly: 0.01
+    2025 Yearly: 0.02
+  quarterly_forecast:
+    Q1 2025: 0.01
+    Q2 2025: 0.01
+    Q3 2025: 0.01
+    Q4 2025: -0.01
+    Q1 2026: -0.03
+    Q2 2026: -0.03
+    Q3 2026: -0.01
+    Q4 2026: 0.01
+    Q1 2027: 0.04
+  annual_forecast:
+    2025 Yearly: 0.01
+    2026 Yearly: -0.06
+    2027 Yearly: 0.17

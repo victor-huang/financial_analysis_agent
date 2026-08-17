@@ -1,0 +1,80 @@
+currency: USD
+company_name: Genpact Limited
+sector: Commercial Services
+market_cap_billions: 6.13
+revenue:
+  quarterly:
+    Q3 2024: 1210.0
+    Q4 2024: 1250.0
+    Q1 2025: 1210.0
+    Q2 2025: 1250.0
+    Q3 2025: 1290.0
+    Q4 2025: 1320.0
+    Q1 2026: 1300.0
+    Q2 2026: 1340.0
+  annual:
+    2021 Yearly: 4019.9999999999995
+    2022 Yearly: 4370.0
+    2023 Yearly: 4480.0
+    2024 Yearly: 4770.0
+    2025 Yearly: 5080.0
+  quarterly_forecast:
+    Q3 2024: 1190.0
+    Q4 2024: 1230.0
+    Q1 2025: 1210.0
+    Q2 2025: 1230.0
+    Q3 2025: 1270.0
+    Q4 2025: 1310.0
+    Q1 2026: 1290.0
+    Q2 2026: 1330.0
+    Q3 2026: 1380.0
+    Q4 2026: 1420.0
+    Q1 2027: 1400.0
+    Q2 2027: 1430.0
+  annual_forecast:
+    2021 Yearly: 3990.0
+    2022 Yearly: 4360.0
+    2023 Yearly: 4450.0
+    2024 Yearly: 4750.0
+    2025 Yearly: 5070.0
+    2026 Yearly: 5430.0
+    2027 Yearly: 5830.0
+    2028 Yearly: 6320.0
+eps:
+  quarterly:
+    Q3 2024: 0.85
+    Q4 2024: 0.91
+    Q1 2025: 0.84
+    Q2 2025: 0.88
+    Q3 2025: 0.97
+    Q4 2025: 0.97
+    Q1 2026: 0.98
+    Q2 2026: 1.0
+  annual:
+    2021 Yearly: 2.45
+    2022 Yearly: 2.74
+    2023 Yearly: 2.98
+    2024 Yearly: 3.28
+    2025 Yearly: 3.65
+  quarterly_forecast:
+    Q3 2024: 0.8
+    Q4 2024: 0.86
+    Q1 2025: 0.79
+    Q2 2025: 0.85
+    Q3 2025: 0.9
+    Q4 2025: 0.93
+    Q1 2026: 0.92
+    Q2 2026: 0.96
+    Q3 2026: 1.05
+    Q4 2026: 1.09
+    Q1 2027: 1.05
+    Q2 2027: 1.08
+  annual_forecast:
+    2021 Yearly: 2.43
+    2022 Yearly: 2.73
+    2023 Yearly: 2.89
+    2024 Yearly: 3.23
+    2025 Yearly: 3.62
+    2026 Yearly: 4.07
+    2027 Yearly: 4.48
+    2028 Yearly: 5.13

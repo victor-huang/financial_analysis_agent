@@ -1,0 +1,82 @@
+currency: USD
+company_name: AFLAC Incorporated
+sector: Finance
+market_cap_billions: 64.47
+revenue:
+  quarterly:
+    Q3 2024: 4330.0
+    Q4 2024: 5400.0
+    Q1 2025: 4330.0
+    Q2 2025: 4160.0
+    Q3 2025: 4740.0
+    Q4 2025: 4870.0
+    Q1 2026: 4350.0
+    Q2 2026: 4120.0
+  annual:
+    2021 Yearly: 22110.0
+    2022 Yearly: 19070.0
+    2023 Yearly: 18700.0
+    2024 Yearly: 18930.0
+    2025 Yearly: 17160.0
+  quarterly_forecast:
+    Q3 2024: 4300.0
+    Q4 2024: 4330.0
+    Q1 2025: 4280.0
+    Q2 2025: 4330.0
+    Q3 2025: 4370.0
+    Q4 2025: 4250.0
+    Q1 2026: 4200.0
+    Q2 2026: 4110.0
+    Q3 2026: 4070.0000000000005
+    Q4 2026: 4090.0
+    Q1 2027: 4100.0
+    Q2 2027: 4090.0
+  annual_forecast:
+    2021 Yearly: 21610.0
+    2022 Yearly: 18980.0
+    2023 Yearly: 17940.0
+    2024 Yearly: 17300.0
+    2025 Yearly: 17660.0
+    2026 Yearly: 16770.0
+    2027 Yearly: 16800.0
+    2028 Yearly: 17020.0
+    2029 Yearly: 17470.0
+eps:
+  quarterly:
+    Q3 2024: 2.16
+    Q4 2024: 1.56
+    Q1 2025: 1.66
+    Q2 2025: 1.78
+    Q3 2025: 2.49
+    Q4 2025: 1.57
+    Q1 2026: 1.75
+    Q2 2026: 1.8
+  annual:
+    2021 Yearly: 6.0
+    2022 Yearly: 5.67
+    2023 Yearly: 6.23
+    2024 Yearly: 7.21
+    2025 Yearly: 7.49
+  quarterly_forecast:
+    Q3 2024: 1.69
+    Q4 2024: 1.62
+    Q1 2025: 1.67
+    Q2 2025: 1.7
+    Q3 2025: 1.77
+    Q4 2025: 1.69
+    Q1 2026: 1.79
+    Q2 2026: 1.76
+    Q3 2026: 1.79
+    Q4 2026: 1.72
+    Q1 2027: 1.88
+    Q2 2027: 1.9
+  annual_forecast:
+    2021 Yearly: 5.92
+    2022 Yearly: 5.25
+    2023 Yearly: 6.35
+    2024 Yearly: 7.27
+    2025 Yearly: 7.62
+    2026 Yearly: 7.02
+    2027 Yearly: 7.55
+    2028 Yearly: 7.91
+    2029 Yearly: 8.15

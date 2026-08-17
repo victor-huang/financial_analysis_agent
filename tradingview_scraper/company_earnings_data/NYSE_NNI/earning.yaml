@@ -1,0 +1,78 @@
+currency: USD
+company_name: Nelnet, Inc.
+sector: Finance
+market_cap_billions: 4.85
+revenue:
+  quarterly:
+    Q3 2024: 309.47
+    Q4 2024: 401.61
+    Q1 2025: 398.49
+    Q2 2025: 540.61
+    Q3 2025: 427.76
+    Q4 2025: 392.0
+    Q1 2026: 419.06
+    Q2 2026: 410.01
+  annual:
+    2021 Yearly: 1320.0
+    2022 Yearly: 1560.0
+    2023 Yearly: 1220.0
+    2024 Yearly: 1460.0
+    2025 Yearly: 1760.0
+  quarterly_forecast:
+    Q3 2024: 340.16
+    Q4 2024: 335.0
+    Q1 2025: 393.27
+    Q2 2025: 379.44
+    Q3 2025: 371.83
+    Q4 2025: 382.28
+    Q1 2026: 443.84
+    Q2 2026: 419.92
+    Q3 2026: 434.67
+    Q4 2026: 416.12
+    Q1 2027: 462.51
+    Q2 2027: 442.4
+  annual_forecast:
+    2021 Yearly: 1270.0
+    2022 Yearly: 1560.0
+    2023 Yearly: 1300.0
+    2024 Yearly: 1350.0
+    2025 Yearly: 1500.0
+    2026 Yearly: 1690.0
+    2027 Yearly: 1790.0
+eps:
+  quarterly:
+    Q3 2024: 0.34
+    Q4 2024: 1.44
+    Q1 2025: 2.39
+    Q2 2025: 5.05
+    Q3 2025: 2.95
+    Q4 2025: 1.56
+    Q1 2026: 1.94
+    Q2 2026: 1.77
+  annual:
+    2021 Yearly: 8.37
+    2022 Yearly: 6.15
+    2023 Yearly: 3.29
+    2024 Yearly: 4.81
+    2025 Yearly: 11.98
+  quarterly_forecast:
+    Q3 2024: 1.36
+    Q4 2024: 1.23
+    Q1 2025: 1.92
+    Q2 2025: 1.91
+    Q3 2025: 1.52
+    Q4 2025: 1.63
+    Q1 2026: 2.66
+    Q2 2026: 2.13
+    Q3 2026: 2.09
+    Q4 2026: 1.99
+    Q1 2027: 2.75
+    Q2 2027: 2.48
+  annual_forecast:
+    2021 Yearly: 9.13
+    2022 Yearly: 6.74
+    2023 Yearly: 4.36
+    2024 Yearly: 4.52
+    2025 Yearly: 6.94
+    2026 Yearly: 8.18
+    2027 Yearly: 9.58

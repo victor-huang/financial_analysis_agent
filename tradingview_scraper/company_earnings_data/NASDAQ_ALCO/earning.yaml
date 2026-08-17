@@ -1,0 +1,76 @@
+currency: USD
+company_name: Alico, Inc.
+sector: Process Industries
+market_cap_billions: 0.28968
+revenue:
+  quarterly:
+    Q1 2025: 16.89
+    Q2 2025: 17.98
+    Q3 2025: 8.39
+    Q1 2026: 8.39
+    Q2 2026: 1.89
+    Q3 2026: 5.34
+    Q4 2026: 9.04
+  annual:
+    2021 Yearly: 108.56
+    2022 Yearly: 91.95
+    2023 Yearly: 39.85
+    2024 Yearly: 46.64
+    2025 Yearly: 44.07
+  quarterly_forecast:
+    Q2 2025: 10.4
+    Q3 2025: 22.2
+    Q1 2026: 8.9
+    Q2 2026: 22.2
+    Q3 2026: 2.12
+    Q4 2026: 2.45
+    Q1 2027: 2.75
+    Q2 2027: 1.6
+  annual_forecast:
+    2021 Yearly: 106.4
+    2022 Yearly: 92.8
+    2023 Yearly: 39.8
+    2024 Yearly: 50.3
+    2025 Yearly: 43.89
+    2026 Yearly: 11.55
+    2027 Yearly: 5.4
+    2028 Yearly: 5.3
+    2029 Yearly: 6.19
+eps:
+  quarterly:
+    Q4 2024: 0.19
+    Q1 2025: -0.23
+    Q2 2025: -13.39
+    Q3 2025: -2.39
+    Q4 2025: -1.11
+    Q1 2026: -0.45
+    Q2 2026: 1.49
+    Q3 2026: 0.29
+  annual:
+    2021 Yearly: 0.62
+    2022 Yearly: -0.21
+    2023 Yearly: -3.23
+    2024 Yearly: -3.49
+    2025 Yearly: -19.93
+  quarterly_forecast:
+    Q4 2024: -0.4
+    Q1 2025: -0.93
+    Q2 2025: -0.36
+    Q3 2025: -1.09
+    Q4 2025: -0.39
+    Q1 2026: -0.04
+    Q2 2026: 1.09
+    Q3 2026: -0.73
+    Q4 2026: -0.67
+    Q1 2027: -0.45
+    Q2 2027: -0.45
+  annual_forecast:
+    2021 Yearly: 0.46
+    2022 Yearly: -0.64
+    2023 Yearly: -3.53
+    2024 Yearly: -5.6
+    2025 Yearly: -14.87
+    2026 Yearly: -0.34
+    2027 Yearly: -1.39
+    2028 Yearly: 5.35
+    2029 Yearly: 6.67

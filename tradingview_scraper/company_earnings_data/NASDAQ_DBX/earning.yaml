@@ -1,0 +1,80 @@
+currency: USD
+company_name: Dropbox, Inc.
+sector: Technology Services
+market_cap_billions: 7.88
+revenue:
+  quarterly:
+    Q3 2024: 638.8
+    Q4 2024: 643.6
+    Q1 2025: 624.7
+    Q2 2025: 625.7
+    Q3 2025: 634.4
+    Q4 2025: 636.2
+    Q1 2026: 629.5
+    Q2 2026: 626.28
+  annual:
+    2021 Yearly: 2160.0
+    2022 Yearly: 2320.0
+    2023 Yearly: 2500.0
+    2024 Yearly: 2550.0
+    2025 Yearly: 2520.0
+  quarterly_forecast:
+    Q3 2024: 637.68
+    Q4 2024: 638.91
+    Q1 2025: 620.06
+    Q2 2025: 618.3
+    Q3 2025: 623.99
+    Q4 2025: 628.9
+    Q1 2026: 620.56
+    Q2 2026: 626.69
+    Q3 2026: 627.37
+    Q4 2026: 627.37
+    Q1 2027: 619.72
+    Q2 2027: 628.65
+  annual_forecast:
+    2021 Yearly: 2150.0
+    2022 Yearly: 2320.0
+    2023 Yearly: 2500.0
+    2024 Yearly: 2540.0
+    2025 Yearly: 2510.0
+    2026 Yearly: 2510.0
+    2027 Yearly: 2510.0
+    2028 Yearly: 2500.0
+    2029 Yearly: 2300.0
+eps:
+  quarterly:
+    Q3 2024: 0.6
+    Q4 2024: 0.73
+    Q1 2025: 0.7
+    Q2 2025: 0.71
+    Q3 2025: 0.74
+    Q4 2025: 0.68
+    Q1 2026: 0.76
+    Q2 2026: 0.73
+  annual:
+    2021 Yearly: 1.54
+    2022 Yearly: 1.58
+    2023 Yearly: 1.98
+    2024 Yearly: 2.49
+    2025 Yearly: 2.84
+  quarterly_forecast:
+    Q3 2024: 0.53
+    Q4 2024: 0.62
+    Q1 2025: 0.62
+    Q2 2025: 0.63
+    Q3 2025: 0.65
+    Q4 2025: 0.67
+    Q1 2026: 0.7
+    Q2 2026: 0.74
+    Q3 2026: 0.79
+    Q4 2026: 0.8
+    Q1 2027: 0.83
+    Q2 2027: 0.87
+  annual_forecast:
+    2022 Yearly: 1.5
+    2023 Yearly: 1.58
+    2024 Yearly: 1.97
+    2025 Yearly: 2.41
+    2026 Yearly: 2.83
+    2027 Yearly: 3.09
+    2028 Yearly: 3.46

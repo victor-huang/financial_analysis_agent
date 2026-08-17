@@ -1,0 +1,82 @@
+currency: USD
+company_name: Monster Beverage Corporation
+sector: Consumer Non-Durables
+market_cap_billions: 92.09
+revenue:
+  quarterly:
+    Q3 2024: 1880.0
+    Q4 2024: 1810.0
+    Q1 2025: 1850.0
+    Q2 2025: 2110.0
+    Q3 2025: 2200.0
+    Q4 2025: 2130.0
+    Q1 2026: 2350.0
+    Q2 2026: 2540.0
+  annual:
+    2021 Yearly: 5540.0
+    2022 Yearly: 6310.0
+    2023 Yearly: 7140.0
+    2024 Yearly: 7490.0
+    2025 Yearly: 8290.0
+  quarterly_forecast:
+    Q3 2024: 1910.0
+    Q4 2024: 1790.0
+    Q1 2025: 1980.0
+    Q2 2025: 2080.0
+    Q3 2025: 2110.0
+    Q4 2025: 2040.0
+    Q1 2026: 2160.0
+    Q2 2026: 2430.0
+    Q3 2026: 2430.0
+    Q4 2026: 2350.0
+    Q1 2027: 2510.0
+    Q2 2027: 2660.0
+  annual_forecast:
+    2021 Yearly: 5440.0
+    2022 Yearly: 6400.0
+    2023 Yearly: 7170.0
+    2024 Yearly: 7470.0
+    2025 Yearly: 8210.0
+    2026 Yearly: 9580.0
+    2027 Yearly: 10440.0
+    2028 Yearly: 11390.0
+    2029 Yearly: 12450.0
+eps:
+  quarterly:
+    Q3 2024: 0.4
+    Q4 2024: 0.38
+    Q1 2025: 0.47
+    Q2 2025: 0.52
+    Q3 2025: 0.56
+    Q4 2025: 0.51
+    Q1 2026: 0.58
+    Q2 2026: 0.6
+  annual:
+    2021 Yearly: 1.28
+    2022 Yearly: 1.11
+    2023 Yearly: 1.54
+    2024 Yearly: 1.62
+    2025 Yearly: 2.06
+  quarterly_forecast:
+    Q3 2024: 0.43
+    Q4 2024: 0.4
+    Q1 2025: 0.46
+    Q2 2025: 0.48
+    Q3 2025: 0.48
+    Q4 2025: 0.48
+    Q1 2026: 0.53
+    Q2 2026: 0.58
+    Q3 2026: 0.6
+    Q4 2026: 0.55
+    Q1 2027: 0.63
+    Q2 2027: 0.67
+  annual_forecast:
+    2021 Yearly: 1.29
+    2022 Yearly: 1.15
+    2023 Yearly: 1.57
+    2024 Yearly: 1.63
+    2025 Yearly: 1.99
+    2026 Yearly: 2.3
+    2027 Yearly: 2.6
+    2028 Yearly: 2.93
+    2029 Yearly: 3.28

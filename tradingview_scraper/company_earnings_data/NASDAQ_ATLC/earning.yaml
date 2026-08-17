@@ -1,0 +1,80 @@
+currency: USD
+company_name: Atlanticus Holdings Corporation
+sector: Finance
+market_cap_billions: 1.69
+revenue:
+  quarterly:
+    Q3 2024: 350.95
+    Q4 2024: 353.19
+    Q1 2025: 344.87
+    Q2 2025: 393.82
+    Q3 2025: 495.29
+    Q4 2025: 734.38
+    Q1 2026: 679.53
+    Q2 2026: 744.31
+  annual:
+    2021 Yearly: 743.86
+    2022 Yearly: 1050.0
+    2023 Yearly: 1160.0
+    2024 Yearly: 1310.0
+    2025 Yearly: 1970.0
+  quarterly_forecast:
+    Q3 2024: 326.72
+    Q4 2024: 354.98
+    Q1 2025: 343.16
+    Q2 2025: 355.45
+    Q3 2025: 506.67
+    Q4 2025: 691.73
+    Q1 2026: 749.36
+    Q2 2026: 716.35
+    Q3 2026: 767.76
+    Q4 2026: 799.61
+    Q1 2027: 780.16
+    Q2 2027: 814.26
+  annual_forecast:
+    2021 Yearly: 741.17
+    2022 Yearly: 1070.0
+    2023 Yearly: 1150.0
+    2024 Yearly: 1310.0
+    2025 Yearly: 1930.0
+    2026 Yearly: 2960.0
+    2027 Yearly: 3350.0
+    2028 Yearly: 3920.0
+eps:
+  quarterly:
+    Q3 2024: 1.27
+    Q4 2024: 1.42
+    Q1 2025: 1.49
+    Q2 2025: 1.51
+    Q3 2025: 1.48
+    Q4 2025: 1.75
+    Q1 2026: 2.23
+    Q2 2026: 2.5
+  annual:
+    2021 Yearly: 8.7
+    2022 Yearly: 5.83
+    2023 Yearly: 4.24
+    2024 Yearly: 4.77
+    2025 Yearly: 5.96
+  quarterly_forecast:
+    Q3 2024: 1.23
+    Q4 2024: 1.27
+    Q1 2025: 1.48
+    Q2 2025: 1.23
+    Q3 2025: 1.7
+    Q4 2025: 1.59
+    Q1 2026: 1.69
+    Q2 2026: 2.42
+    Q3 2026: 2.6
+    Q4 2026: 2.27
+    Q1 2027: 2.97
+    Q2 2027: 3.35
+  annual_forecast:
+    2021 Yearly: 7.95
+    2022 Yearly: 6.5
+    2023 Yearly: 4.1
+    2024 Yearly: 4.62
+    2025 Yearly: 5.96
+    2026 Yearly: 9.52
+    2027 Yearly: 13.02
+    2028 Yearly: 18.34

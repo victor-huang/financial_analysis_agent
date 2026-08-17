@@ -1,0 +1,82 @@
+currency: USD
+company_name: Reinsurance Group of America, Incorporated
+sector: Finance
+market_cap_billions: 15.48
+revenue:
+  quarterly:
+    Q3 2024: 5650.0
+    Q4 2024: 5240.0
+    Q1 2025: 5260.0
+    Q2 2025: 5600.0
+    Q3 2025: 6200.0
+    Q4 2025: 6630.0
+    Q1 2026: 6490.0
+    Q2 2026: 6640.0
+  annual:
+    2021 Yearly: 16660.0
+    2022 Yearly: 16260.000000000002
+    2023 Yearly: 18570.0
+    2024 Yearly: 22110.0
+    2025 Yearly: 23700.0
+  quarterly_forecast:
+    Q3 2024: 5290.0
+    Q4 2024: 5460.0
+    Q1 2025: 5580.0
+    Q2 2025: 5680.0
+    Q3 2025: 6080.0
+    Q4 2025: 6310.0
+    Q1 2026: 6470.0
+    Q2 2026: 6670.0
+    Q3 2026: 6670.0
+    Q4 2026: 6900.0
+    Q1 2027: 6890.0
+    Q2 2027: 7020.0
+  annual_forecast:
+    2021 Yearly: 15910.0
+    2022 Yearly: 16690.0
+    2023 Yearly: 18480.0
+    2024 Yearly: 22740.0
+    2025 Yearly: 23600.0
+    2026 Yearly: 26860.0
+    2027 Yearly: 28240.0
+    2028 Yearly: 30010.0
+    2029 Yearly: 32860.0
+eps:
+  quarterly:
+    Q3 2024: 3.62
+    Q4 2024: 4.99
+    Q1 2025: 5.66
+    Q2 2025: 4.72
+    Q3 2025: 4.66
+    Q4 2025: 7.75
+    Q1 2026: 6.97
+    Q2 2026: 8.89
+  annual:
+    2021 Yearly: 1.13
+    2022 Yearly: 14.43
+    2023 Yearly: 19.88
+    2024 Yearly: 20.06
+    2025 Yearly: 22.72
+  quarterly_forecast:
+    Q3 2024: 5.31
+    Q4 2024: 5.28
+    Q1 2025: 5.31
+    Q2 2025: 5.55
+    Q3 2025: 5.76
+    Q4 2025: 5.78
+    Q1 2026: 6.03
+    Q2 2026: 6.5
+    Q3 2026: 6.82
+    Q4 2026: 6.7
+    Q1 2027: 7.08
+    Q2 2027: 7.22
+  annual_forecast:
+    2021 Yearly: 2.44
+    2022 Yearly: 15.16
+    2023 Yearly: 19.63
+    2024 Yearly: 20.73
+    2025 Yearly: 21.12
+    2026 Yearly: 26.99
+    2027 Yearly: 29.27
+    2028 Yearly: 31.85
+    2029 Yearly: 36.0

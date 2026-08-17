@@ -1,0 +1,80 @@
+currency: USD
+company_name: Mitek Systems, Inc.
+sector: Technology Services
+market_cap_billions: 0.75912
+revenue:
+  quarterly:
+    Q4 2024: 43.22
+    Q1 2025: 37.25
+    Q2 2025: 51.93
+    Q3 2025: 45.73
+    Q4 2025: 44.78
+    Q1 2026: 44.24
+    Q2 2026: 54.84
+    Q3 2026: 54.04
+  annual:
+    2021 Yearly: 119.8
+    2022 Yearly: 143.94
+    2023 Yearly: 172.55
+    2024 Yearly: 172.08
+    2025 Yearly: 179.69
+  quarterly_forecast:
+    Q4 2024: 41.3
+    Q1 2025: 36.2
+    Q2 2025: 47.47
+    Q3 2025: 44.03
+    Q4 2025: 40.86
+    Q1 2026: 42.44
+    Q2 2026: 52.59
+    Q3 2026: 50.82
+    Q4 2026: 44.58
+    Q1 2027: 48.37
+    Q2 2027: 58.41
+    Q3 2027: 55.18
+  annual_forecast:
+    2021 Yearly: 119.8
+    2022 Yearly: 143.5
+    2023 Yearly: 170.66
+    2024 Yearly: 170.14
+    2025 Yearly: 175.78
+    2026 Yearly: 194.47
+    2027 Yearly: 210.73
+    2028 Yearly: 233.65
+eps:
+  quarterly:
+    Q4 2024: 0.33
+    Q1 2025: 0.15
+    Q2 2025: 0.36
+    Q3 2025: 0.22
+    Q4 2025: 0.24
+    Q1 2026: 0.26
+    Q2 2026: 0.38
+    Q3 2026: 0.34
+  annual:
+    2021 Yearly: 0.76
+    2022 Yearly: 0.87
+    2023 Yearly: 0.94
+    2024 Yearly: 0.96
+    2025 Yearly: 0.95
+  quarterly_forecast:
+    Q4 2024: 0.17
+    Q1 2025: 0.14
+    Q2 2025: 0.26
+    Q3 2025: 0.19
+    Q4 2025: 0.18
+    Q1 2026: 0.18
+    Q2 2026: 0.34
+    Q3 2026: 0.28
+    Q4 2026: 0.19
+    Q1 2027: 0.25
+    Q2 2027: 0.4
+    Q3 2027: 0.32
+  annual_forecast:
+    2021 Yearly: 0.73
+    2022 Yearly: 0.93
+    2023 Yearly: 0.92
+    2024 Yearly: 0.8
+    2025 Yearly: 0.91
+    2026 Yearly: 1.11
+    2027 Yearly: 1.21
+    2028 Yearly: 1.49

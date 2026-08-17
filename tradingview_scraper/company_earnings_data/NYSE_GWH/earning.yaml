@@ -1,0 +1,61 @@
+currency: USD
+company_name: ESS Tech, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 0.01884
+revenue:
+  quarterly:
+    Q4 2024: 2.85
+    Q2 2025: 2.36
+    Q4 2025: -1.59
+  annual:
+    2021 Yearly: 0.0
+    2023 Yearly: 7.54
+    2024 Yearly: 6.29
+    2025 Yearly: 1.58
+  quarterly_forecast:
+    Q4 2025: 5.8
+    Q1 2027: 3.45
+    Q2 2027: 2.4
+  annual_forecast:
+    2023 Yearly: 1.98
+    2024 Yearly: 8.68
+    2025 Yearly: 9.22
+    2027 Yearly: 3.1
+    2029 Yearly: 30.0
+eps:
+  quarterly:
+    Q4 2024: -1.97
+    Q1 2025: -1.5
+    Q2 2025: -0.9
+    Q3 2025: -0.73
+    Q4 2025: -1.2
+    Q1 2026: -0.54
+    Q2 2026: -0.46
+  annual:
+    2021 Yearly: -85.95
+    2022 Yearly: -7.65
+    2023 Yearly: -7.2
+    2024 Yearly: -7.32
+    2025 Yearly: -4.34
+  quarterly_forecast:
+    Q4 2024: -1.37
+    Q1 2025: -1.24
+    Q2 2025: -1.08
+    Q3 2025: -1.0
+    Q4 2025: -0.76
+    Q1 2026: -0.29
+    Q2 2026: -0.44
+    Q3 2026: -0.38
+    Q4 2026: -0.32
+    Q1 2027: -0.24
+    Q2 2027: -0.21
+  annual_forecast:
+    2021 Yearly: -68.4
+    2022 Yearly: -8.19
+    2023 Yearly: -7.6
+    2024 Yearly: -6.72
+    2025 Yearly: -3.89
+    2026 Yearly: -1.68
+    2027 Yearly: -0.79
+    2028 Yearly: -2.63
+    2029 Yearly: -0.07

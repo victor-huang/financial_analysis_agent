@@ -1,0 +1,28 @@
+currency: USD
+company_name: Quantinuum Inc.
+sector: Electronic Technology
+market_cap_billions: 14.63
+revenue:
+  quarterly:
+    Q1 2026: 5.2
+    Q2 2026: 8.0
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: 7.61
+    Q3 2026: 7.17
+    Q4 2026: 6.35
+    Q1 2027: 10.12
+    Q2 2027: 12.8
+  annual_forecast: {}
+eps:
+  quarterly:
+    Q1 2026: -0.46
+    Q2 2026: -0.28
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: -0.26
+    Q3 2026: -0.35
+    Q4 2026: -0.38
+    Q1 2027: -0.4
+    Q2 2027: -0.4
+  annual_forecast: {}

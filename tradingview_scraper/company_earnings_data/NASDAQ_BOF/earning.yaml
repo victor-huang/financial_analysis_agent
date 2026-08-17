@@ -1,0 +1,24 @@
+currency: USD
+company_name: BranchOut Food Inc.
+sector: Consumer Non-Durables
+market_cap_billions: 0.06724
+revenue:
+  quarterly:
+    Q1 2026: 2.61
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: 4.0
+    Q3 2026: 4.5
+    Q4 2026: 6.5
+    Q1 2027: 4.5
+  annual_forecast: {}
+eps:
+  quarterly:
+    Q1 2026: -0.12
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: -0.2
+    Q3 2026: -0.16
+    Q4 2026: -0.12
+    Q1 2027: -0.15
+  annual_forecast: {}

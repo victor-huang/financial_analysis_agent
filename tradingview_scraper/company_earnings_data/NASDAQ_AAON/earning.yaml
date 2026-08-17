@@ -1,0 +1,80 @@
+currency: USD
+company_name: AAON, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 7.31
+revenue:
+  quarterly:
+    Q3 2024: 327.25
+    Q4 2024: 297.72
+    Q1 2025: 322.05
+    Q2 2025: 311.57
+    Q3 2025: 384.24
+    Q4 2025: 424.22
+    Q1 2026: 496.94
+    Q2 2026: 626.98
+  annual:
+    2021 Yearly: 534.52
+    2022 Yearly: 888.79
+    2023 Yearly: 1170.0
+    2024 Yearly: 1200.0
+    2025 Yearly: 1440.0
+  quarterly_forecast:
+    Q3 2024: 315.8
+    Q4 2024: 320.48
+    Q1 2025: 290.44
+    Q2 2025: 324.98
+    Q3 2025: 332.87
+    Q4 2025: 372.35
+    Q1 2026: 381.08
+    Q2 2026: 508.82
+    Q3 2026: 557.28
+    Q4 2026: 547.38
+    Q1 2027: 573.5
+    Q2 2027: 648.77
+  annual_forecast:
+    2021 Yearly: 534.84
+    2022 Yearly: 874.47
+    2023 Yearly: 1160.0
+    2024 Yearly: 1220.0
+    2025 Yearly: 1390.0
+    2026 Yearly: 2110.0
+    2027 Yearly: 2490.0
+    2028 Yearly: 2890.0
+eps:
+  quarterly:
+    Q3 2024: 0.63
+    Q4 2024: 0.3
+    Q1 2025: 0.37
+    Q2 2025: 0.22
+    Q3 2025: 0.37
+    Q4 2025: 0.39
+    Q1 2026: 0.48
+    Q2 2026: 0.69
+  annual:
+    2021 Yearly: 0.77
+    2022 Yearly: 1.24
+    2023 Yearly: 2.2
+    2024 Yearly: 2.02
+    2025 Yearly: 1.35
+  quarterly_forecast:
+    Q3 2024: 0.57
+    Q4 2024: 0.53
+    Q1 2025: 0.24
+    Q2 2025: 0.33
+    Q3 2025: 0.32
+    Q4 2025: 0.45
+    Q1 2026: 0.29
+    Q2 2026: 0.51
+    Q3 2026: 0.63
+    Q4 2026: 0.62
+    Q1 2027: 0.73
+    Q2 2027: 0.93
+  annual_forecast:
+    2021 Yearly: 0.84
+    2022 Yearly: 1.13
+    2023 Yearly: 2.13
+    2024 Yearly: 2.25
+    2025 Yearly: 1.41
+    2026 Yearly: 2.3
+    2027 Yearly: 3.53
+    2028 Yearly: 4.75

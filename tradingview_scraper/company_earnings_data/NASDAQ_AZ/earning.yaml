@@ -1,0 +1,66 @@
+currency: USD
+company_name: A2Z Cust2Mate Solutions Corp.
+sector: Finance
+market_cap_billions: 0.29164
+revenue:
+  quarterly:
+    Q1 2024: 1.7
+    Q1 2025: 1.97
+    Q2 2025: 1.16
+    Q3 2025: 1.55
+    Q4 2025: 3.65
+    Q1 2026: 3.32
+  annual:
+    2021 Yearly: 2.69
+    2022 Yearly: 9.35
+    2023 Yearly: 11.38
+    2024 Yearly: 7.17
+    2025 Yearly: 7.9
+  quarterly_forecast:
+    Q4 2024: 2.0
+    Q3 2025: 4.0
+    Q4 2025: 4.76
+    Q1 2026: 3.06
+    Q2 2026: 3.54
+    Q3 2026: 7.6
+    Q4 2026: 12.63
+    Q1 2027: 9.53
+  annual_forecast:
+    2021 Yearly: 2.69
+    2022 Yearly: 8.63
+    2023 Yearly: 12.89
+    2024 Yearly: 7.23
+    2025 Yearly: 9.4
+    2026 Yearly: 27.02
+    2027 Yearly: 84.07
+eps:
+  quarterly:
+    Q1 2024: 0.01
+    Q1 2025: -0.19
+    Q2 2025: -0.31
+    Q3 2025: -0.07
+    Q4 2025: -0.42
+    Q1 2026: -0.18
+  annual:
+    2021 Yearly: -4.25
+    2022 Yearly: -1.75
+    2023 Yearly: -1.15
+    2024 Yearly: -0.8
+    2025 Yearly: -0.96
+  quarterly_forecast:
+    Q1 2024: -0.35
+    Q4 2024: -0.25
+    Q4 2025: -0.08
+    Q1 2026: -0.15
+    Q2 2026: -0.17
+    Q3 2026: -0.13
+    Q4 2026: -0.1
+    Q1 2027: -0.06
+  annual_forecast:
+    2021 Yearly: -4.25
+    2022 Yearly: -3.23
+    2023 Yearly: -0.85
+    2024 Yearly: -0.41
+    2025 Yearly: -0.65
+    2026 Yearly: -0.58
+    2027 Yearly: 0.14

@@ -1,0 +1,78 @@
+currency: USD
+company_name: APA Corporation
+sector: Energy Minerals
+market_cap_billions: 12.91
+revenue:
+  quarterly:
+    Q4 2024: 2190.0
+    Q1 2025: 2610.0
+    Q2 2025: 2610.0
+    Q3 2025: 2020.0
+    Q4 2025: 1980.0
+    Q1 2026: 2210.0
+    Q2 2026: 2400.0
+  annual:
+    2021 Yearly: 7930.0
+    2022 Yearly: 9220.0
+    2023 Yearly: 7380.0
+    2024 Yearly: 8200.0
+    2025 Yearly: 9220.0
+  quarterly_forecast:
+    Q4 2024: 2290.0
+    Q1 2025: 2190.0
+    Q2 2025: 2009.9999999999998
+    Q3 2025: 2060.0
+    Q4 2025: 1760.0
+    Q1 2026: 2130.0
+    Q2 2026: 2460.0
+    Q3 2026: 2120.0
+    Q4 2026: 2070.0
+    Q1 2027: 2029.9999999999998
+    Q2 2027: 1980.0
+  annual_forecast:
+    2021 Yearly: 6760.0
+    2022 Yearly: 9270.0
+    2023 Yearly: 8000.0
+    2024 Yearly: 8610.0
+    2025 Yearly: 7900.0
+    2026 Yearly: 8860.0
+    2027 Yearly: 8039.999999999999
+    2028 Yearly: 8109.999999999999
+    2029 Yearly: 9950.0
+eps:
+  quarterly:
+    Q4 2024: 0.79
+    Q1 2025: 1.06
+    Q2 2025: 0.87
+    Q3 2025: 0.93
+    Q4 2025: 0.91
+    Q1 2026: 1.38
+    Q2 2026: 1.89
+  annual:
+    2021 Yearly: 3.9
+    2022 Yearly: 7.68
+    2023 Yearly: 4.53
+    2024 Yearly: 3.77
+    2025 Yearly: 3.77
+  quarterly_forecast:
+    Q4 2024: 0.97
+    Q1 2025: 0.84
+    Q2 2025: 0.46
+    Q3 2025: 0.79
+    Q4 2025: 0.64
+    Q1 2026: 1.11
+    Q2 2026: 1.9
+    Q3 2026: 1.2
+    Q4 2026: 1.07
+    Q1 2027: 0.99
+    Q2 2027: 0.95
+  annual_forecast:
+    2021 Yearly: 4.05
+    2022 Yearly: 7.64
+    2023 Yearly: 4.77
+    2024 Yearly: 3.99
+    2025 Yearly: 3.54
+    2026 Yearly: 5.63
+    2027 Yearly: 3.85
+    2028 Yearly: 3.99
+    2029 Yearly: 10.24

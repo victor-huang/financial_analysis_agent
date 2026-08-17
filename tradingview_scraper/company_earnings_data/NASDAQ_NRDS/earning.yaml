@@ -1,0 +1,82 @@
+currency: USD
+company_name: NerdWallet, Inc.
+sector: Technology Services
+market_cap_billions: 0.58166
+revenue:
+  quarterly:
+    Q3 2024: 191.3
+    Q4 2024: 183.8
+    Q1 2025: 209.2
+    Q2 2025: 186.9
+    Q3 2025: 215.1
+    Q4 2025: 225.4
+    Q1 2026: 222.2
+    Q2 2026: 197.3
+  annual:
+    2021 Yearly: 379.6
+    2022 Yearly: 538.9
+    2023 Yearly: 599.4
+    2024 Yearly: 687.6
+    2025 Yearly: 836.6
+  quarterly_forecast:
+    Q3 2024: 168.25
+    Q4 2024: 168.33
+    Q1 2025: 189.96
+    Q2 2025: 195.25
+    Q3 2025: 193.03
+    Q4 2025: 211.29
+    Q1 2026: 227.63
+    Q2 2026: 195.3
+    Q3 2026: 229.63
+    Q4 2026: 235.66
+    Q1 2027: 231.84
+    Q2 2027: 201.88
+  annual_forecast:
+    2021 Yearly: 367.65
+    2022 Yearly: 536.03
+    2023 Yearly: 604.14
+    2024 Yearly: 672.35
+    2025 Yearly: 823.0
+    2026 Yearly: 883.81
+    2027 Yearly: 939.88
+    2028 Yearly: 993.95
+    2029 Yearly: 1020.0
+eps:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.51
+    Q1 2025: 0.0
+    Q2 2025: 0.11
+    Q3 2025: 0.34
+    Q4 2025: 0.19
+    Q1 2026: 0.29
+    Q2 2026: 0.07
+  annual:
+    2021 Yearly: -0.82
+    2022 Yearly: -0.14
+    2023 Yearly: -0.15
+    2024 Yearly: 0.38
+    2025 Yearly: 0.64
+  quarterly_forecast:
+    Q3 2024: 0.04
+    Q4 2024: 0.01
+    Q1 2025: -0.09
+    Q2 2025: 0.1
+    Q3 2025: 0.21
+    Q4 2025: 0.17
+    Q1 2026: 0.28
+    Q2 2026: 0.09
+    Q3 2026: 0.29
+    Q4 2026: 0.21
+    Q1 2027: 0.26
+    Q2 2027: 0.2
+  annual_forecast:
+    2021 Yearly: -0.78
+    2022 Yearly: -0.19
+    2023 Yearly: -0.02
+    2024 Yearly: -0.1
+    2025 Yearly: 0.63
+    2026 Yearly: 0.91
+    2027 Yearly: 1.15
+    2028 Yearly: 1.41
+    2029 Yearly: 0.91

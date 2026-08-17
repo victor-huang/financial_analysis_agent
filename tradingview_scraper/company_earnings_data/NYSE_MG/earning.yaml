@@ -1,0 +1,80 @@
+currency: USD
+company_name: Mistras Group Inc
+sector: Industrial Services
+market_cap_billions: 0.50239
+revenue:
+  quarterly:
+    Q3 2024: 182.69
+    Q4 2024: 172.73
+    Q1 2025: 161.62
+    Q2 2025: 185.41
+    Q3 2025: 195.55
+    Q4 2025: 181.46
+    Q1 2026: 169.03
+    Q2 2026: 193.13
+  annual:
+    2021 Yearly: 677.13
+    2022 Yearly: 687.37
+    2023 Yearly: 705.47
+    2024 Yearly: 729.64
+    2025 Yearly: 724.02
+  quarterly_forecast:
+    Q3 2024: 185.92
+    Q4 2024: 172.43
+    Q1 2025: 181.7
+    Q2 2025: 185.74
+    Q3 2025: 189.94
+    Q4 2025: 176.52
+    Q1 2026: 164.25
+    Q2 2026: 189.66
+    Q3 2026: 201.62
+    Q4 2026: 185.72
+    Q1 2027: 177.92
+    Q2 2027: 199.96
+  annual_forecast:
+    2021 Yearly: 668.01
+    2022 Yearly: 688.51
+    2023 Yearly: 697.56
+    2024 Yearly: 729.33
+    2025 Yearly: 719.07
+    2026 Yearly: 746.02
+    2027 Yearly: 781.13
+    2028 Yearly: 822.9
+eps:
+  quarterly:
+    Q3 2024: 0.2
+    Q4 2024: 0.24
+    Q1 2025: -0.01
+    Q2 2025: 0.19
+    Q3 2025: 0.46
+    Q4 2025: 0.25
+    Q1 2026: 0.08
+    Q2 2026: 0.28
+  annual:
+    2021 Yearly: 0.23
+    2022 Yearly: 0.21
+    2023 Yearly: 0.21
+    2024 Yearly: 0.72
+    2025 Yearly: 0.88
+  quarterly_forecast:
+    Q3 2024: 0.27
+    Q4 2024: 0.13
+    Q1 2025: 0.1
+    Q2 2025: 0.19
+    Q3 2025: 0.29
+    Q4 2025: 0.21
+    Q1 2026: 0.01
+    Q2 2026: 0.24
+    Q3 2026: 0.43
+    Q4 2026: 0.29
+    Q1 2027: 0.1
+    Q2 2027: 0.33
+  annual_forecast:
+    2021 Yearly: 0.23
+    2022 Yearly: 0.17
+    2023 Yearly: 0.26
+    2024 Yearly: 0.61
+    2025 Yearly: 0.85
+    2026 Yearly: 1.04
+    2027 Yearly: 1.23
+    2028 Yearly: 1.48

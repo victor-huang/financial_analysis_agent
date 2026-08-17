@@ -1,0 +1,80 @@
+currency: USD
+company_name: Tactile Systems Technology, Inc.
+sector: Health Technology
+market_cap_billions: 0.6572899999999999
+revenue:
+  quarterly:
+    Q3 2024: 73.09
+    Q4 2024: 85.58
+    Q1 2025: 61.27
+    Q2 2025: 78.91
+    Q3 2025: 85.75
+    Q4 2025: 103.59
+    Q1 2026: 75.27
+    Q2 2026: 85.7
+  annual:
+    2021 Yearly: 208.06
+    2022 Yearly: 246.78
+    2023 Yearly: 274.42
+    2024 Yearly: 292.98
+    2025 Yearly: 329.52
+  quarterly_forecast:
+    Q3 2024: 76.02
+    Q4 2024: 85.4
+    Q1 2025: 63.48
+    Q2 2025: 73.93
+    Q3 2025: 79.3
+    Q4 2025: 93.8
+    Q1 2026: 70.57
+    Q2 2026: 85.52
+    Q3 2026: 93.03
+    Q4 2026: 110.2
+    Q1 2027: 81.71
+    Q2 2027: 92.81
+  annual_forecast:
+    2021 Yearly: 204.36
+    2022 Yearly: 243.4
+    2023 Yearly: 275.13
+    2024 Yearly: 292.8
+    2025 Yearly: 319.73
+    2026 Yearly: 364.16
+    2027 Yearly: 396.85
+    2028 Yearly: 432.8
+eps:
+  quarterly:
+    Q3 2024: 0.21
+    Q4 2024: 0.4
+    Q1 2025: -0.13
+    Q2 2025: 0.14
+    Q3 2025: 0.36
+    Q4 2025: 0.46
+    Q1 2026: -0.08
+    Q2 2026: 0.34
+  annual:
+    2021 Yearly: -0.33
+    2022 Yearly: -0.18
+    2023 Yearly: 1.27
+    2024 Yearly: 0.7
+    2025 Yearly: 0.82
+  quarterly_forecast:
+    Q3 2024: 0.18
+    Q4 2024: 0.32
+    Q1 2025: -0.08
+    Q2 2025: 0.11
+    Q3 2025: 0.17
+    Q4 2025: 0.44
+    Q1 2026: -0.12
+    Q2 2026: 0.14
+    Q3 2026: 0.36
+    Q4 2026: 0.68
+    Q1 2027: -0.01
+    Q2 2027: 0.23
+  annual_forecast:
+    2021 Yearly: -0.16
+    2022 Yearly: -0.24
+    2023 Yearly: 1.08
+    2024 Yearly: 0.61
+    2025 Yearly: 0.8
+    2026 Yearly: 1.15
+    2027 Yearly: 1.55
+    2028 Yearly: 2.15

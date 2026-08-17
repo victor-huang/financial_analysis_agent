@@ -1,0 +1,48 @@
+currency: USD
+company_name: Newsmax, Inc.
+sector: Consumer Services
+market_cap_billions: 1.14
+revenue:
+  quarterly:
+    Q1 2025: 45.3
+    Q2 2025: 46.44
+    Q3 2025: 45.27
+    Q4 2025: 52.2
+    Q1 2026: 51.66
+  annual:
+    2025 Yearly: 189.25
+  quarterly_forecast:
+    Q2 2025: 44.9
+    Q3 2025: 43.97
+    Q4 2025: 44.0
+    Q1 2026: 48.93
+    Q2 2026: 48.6
+    Q3 2026: 53.85
+    Q4 2026: 59.2
+  annual_forecast:
+    2025 Yearly: 180.3
+    2026 Yearly: 213.35
+    2027 Yearly: 236.89
+    2028 Yearly: 288.3
+eps:
+  quarterly:
+    Q1 2025: -0.38
+    Q2 2025: -0.59
+    Q3 2025: -0.03
+    Q4 2025: -0.03
+    Q1 2026: -0.02
+  annual:
+    2025 Yearly: -0.96
+  quarterly_forecast:
+    Q2 2025: -0.02
+    Q3 2025: -0.07
+    Q4 2025: -0.09
+    Q1 2026: -0.03
+    Q2 2026: -0.03
+    Q3 2026: -0.01
+    Q4 2026: -0.01
+  annual_forecast:
+    2025 Yearly: -1.09
+    2026 Yearly: -0.07
+    2027 Yearly: 0.18
+    2028 Yearly: 0.82

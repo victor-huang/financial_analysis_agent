@@ -1,0 +1,80 @@
+currency: USD
+company_name: QuickLogic Corporation
+sector: Electronic Technology
+market_cap_billions: 0.25933999999999996
+revenue:
+  quarterly:
+    Q3 2024: 4.27
+    Q4 2024: 5.71
+    Q1 2025: 4.33
+    Q2 2025: 3.69
+    Q3 2025: 2.03
+    Q4 2025: 3.73
+    Q1 2026: 5.05
+    Q2 2026: 5.48
+  annual:
+    2021 Yearly: 12.69
+    2022 Yearly: 16.18
+    2023 Yearly: 21.2
+    2024 Yearly: 20.11
+    2025 Yearly: 13.77
+  quarterly_forecast:
+    Q3 2024: 4.2
+    Q4 2024: 6.07
+    Q1 2025: 4.03
+    Q2 2025: 4.0
+    Q3 2025: 2.05
+    Q4 2025: 3.53
+    Q1 2026: 5.51
+    Q2 2026: 6.0
+    Q3 2026: 6.33
+    Q4 2026: 6.7
+    Q1 2027: 6.6
+    Q2 2027: 6.9
+  annual_forecast:
+    2021 Yearly: 12.87
+    2022 Yearly: 16.43
+    2023 Yearly: 21.1
+    2024 Yearly: 20.47
+    2025 Yearly: 13.6
+    2026 Yearly: 24.34
+    2027 Yearly: 28.05
+    2028 Yearly: 35.55
+eps:
+  quarterly:
+    Q3 2024: -0.06
+    Q4 2024: 0.04
+    Q1 2025: -0.07
+    Q2 2025: -0.09
+    Q3 2025: -0.19
+    Q4 2025: -0.17
+    Q1 2026: -0.08
+    Q2 2026: -0.06
+  annual:
+    2021 Yearly: -0.35
+    2022 Yearly: -0.18
+    2023 Yearly: 0.17
+    2024 Yearly: 0.04
+    2025 Yearly: -0.53
+  quarterly_forecast:
+    Q3 2024: -0.05
+    Q4 2024: 0.03
+    Q1 2025: -0.08
+    Q2 2025: -0.07
+    Q3 2025: -0.2
+    Q4 2025: -0.11
+    Q1 2026: -0.05
+    Q2 2026: -0.04
+    Q3 2026: 0.05
+    Q4 2026: 0.05
+    Q1 2027: 0.02
+    Q2 2027: 0.03
+  annual_forecast:
+    2021 Yearly: -0.38
+    2022 Yearly: -0.18
+    2023 Yearly: 0.1
+    2024 Yearly: 0.03
+    2025 Yearly: -0.47
+    2026 Yearly: -0.02
+    2027 Yearly: 0.14
+    2028 Yearly: 0.31

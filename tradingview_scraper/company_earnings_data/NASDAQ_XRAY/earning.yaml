@@ -1,0 +1,82 @@
+currency: USD
+company_name: DENTSPLY SIRONA Inc.
+sector: Health Technology
+market_cap_billions: 2.64
+revenue:
+  quarterly:
+    Q3 2024: 951.0
+    Q4 2024: 905.0
+    Q1 2025: 879.0
+    Q2 2025: 936.0
+    Q3 2025: 904.0
+    Q4 2025: 961.0
+    Q1 2026: 880.0
+    Q2 2026: 889.8
+  annual:
+    2021 Yearly: 4250.0
+    2022 Yearly: 3920.0
+    2023 Yearly: 3960.0
+    2024 Yearly: 3790.0
+    2025 Yearly: 3680.0
+  quarterly_forecast:
+    Q3 2024: 939.1
+    Q4 2024: 920.59
+    Q1 2025: 853.64
+    Q2 2025: 935.05
+    Q3 2025: 896.6
+    Q4 2025: 926.15
+    Q1 2026: 841.8
+    Q2 2026: 889.93
+    Q3 2026: 874.53
+    Q4 2026: 941.39
+    Q1 2027: 891.14
+    Q2 2027: 907.23
+  annual_forecast:
+    2021 Yearly: 4290.0
+    2022 Yearly: 3880.0
+    2023 Yearly: 3920.0
+    2024 Yearly: 3810.0
+    2025 Yearly: 3650.0
+    2026 Yearly: 3580.0
+    2027 Yearly: 3660.0
+    2028 Yearly: 3740.0
+    2029 Yearly: 3780.0
+eps:
+  quarterly:
+    Q3 2024: 0.5
+    Q4 2024: 0.26
+    Q1 2025: 0.43
+    Q2 2025: 0.52
+    Q3 2025: 0.37
+    Q4 2025: 0.27
+    Q1 2026: 0.27
+    Q2 2026: 0.52
+  annual:
+    2021 Yearly: 2.87
+    2022 Yearly: 2.09
+    2023 Yearly: 1.83
+    2024 Yearly: 1.67
+    2025 Yearly: 1.6
+  quarterly_forecast:
+    Q3 2024: 0.47
+    Q4 2024: 0.43
+    Q1 2025: 0.3
+    Q2 2025: 0.51
+    Q3 2025: 0.45
+    Q4 2025: 0.28
+    Q1 2026: 0.28
+    Q2 2026: 0.35
+    Q3 2026: 0.37
+    Q4 2026: 0.43
+    Q1 2027: 0.32
+    Q2 2027: 0.39
+  annual_forecast:
+    2021 Yearly: 2.9
+    2022 Yearly: 1.96
+    2023 Yearly: 1.83
+    2024 Yearly: 1.83
+    2025 Yearly: 1.6
+    2026 Yearly: 1.42
+    2027 Yearly: 1.55
+    2028 Yearly: 1.71
+    2029 Yearly: 1.72

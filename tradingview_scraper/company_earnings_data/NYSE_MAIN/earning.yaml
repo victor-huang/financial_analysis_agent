@@ -1,0 +1,80 @@
+currency: USD
+company_name: Main Street Capital Corporation
+sector: Finance
+market_cap_billions: 5.28
+revenue:
+  quarterly:
+    Q3 2024: 136.82
+    Q4 2024: 140.44
+    Q1 2025: 137.05
+    Q2 2025: 143.97
+    Q3 2025: 139.83
+    Q4 2025: 145.54
+    Q1 2026: 140.11
+    Q2 2026: 149.57
+  annual:
+    2021 Yearly: 289.05
+    2022 Yearly: 376.86
+    2023 Yearly: 500.38
+    2024 Yearly: 541.03
+    2025 Yearly: 566.39
+  quarterly_forecast:
+    Q3 2024: 136.74
+    Q4 2024: 141.4
+    Q1 2025: 137.37
+    Q2 2025: 137.22
+    Q3 2025: 139.87
+    Q4 2025: 143.1
+    Q1 2026: 145.23
+    Q2 2026: 144.59
+    Q3 2026: 147.23
+    Q4 2026: 151.18
+    Q1 2027: 153.81
+    Q2 2027: 155.97
+  annual_forecast:
+    2021 Yearly: 279.23
+    2022 Yearly: 370.35
+    2023 Yearly: 498.33
+    2024 Yearly: 541.99
+    2025 Yearly: 564.04
+    2026 Yearly: 583.32
+    2027 Yearly: 626.57
+    2028 Yearly: 687.9
+eps:
+  quarterly:
+    Q3 2024: 1.0
+    Q4 2024: 1.02
+    Q1 2025: 1.01
+    Q2 2025: 0.99
+    Q3 2025: 0.97
+    Q4 2025: 1.03
+    Q1 2026: 0.93
+    Q2 2026: 0.97
+  annual:
+    2021 Yearly: 2.65
+    2022 Yearly: 3.29
+    2023 Yearly: 4.14
+    2024 Yearly: 4.09
+    2025 Yearly: 3.95
+  quarterly_forecast:
+    Q3 2024: 1.03
+    Q4 2024: 1.04
+    Q1 2025: 1.02
+    Q2 2025: 1.0
+    Q3 2025: 1.0
+    Q4 2025: 1.03
+    Q1 2026: 1.01
+    Q2 2026: 0.96
+    Q3 2026: 0.96
+    Q4 2026: 0.97
+    Q1 2027: 0.98
+    Q2 2027: 0.97
+  annual_forecast:
+    2021 Yearly: 2.61
+    2022 Yearly: 3.22
+    2023 Yearly: 4.1
+    2024 Yearly: 4.15
+    2025 Yearly: 4.03
+    2026 Yearly: 3.83
+    2027 Yearly: 3.96
+    2028 Yearly: 4.13

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Globant S.A.
+sector: Technology Services
+market_cap_billions: 1.67
+revenue:
+  quarterly:
+    Q3 2024: 614.67
+    Q4 2024: 642.48
+    Q1 2025: 611.09
+    Q2 2025: 614.18
+    Q3 2025: 617.14
+    Q4 2025: 612.47
+    Q1 2026: 607.09
+  annual:
+    2021 Yearly: 1300.0
+    2022 Yearly: 1780.0
+    2023 Yearly: 2100.0
+    2024 Yearly: 2420.0
+    2025 Yearly: 2450.0
+  quarterly_forecast:
+    Q3 2024: 614.6
+    Q4 2024: 644.3
+    Q1 2025: 621.21
+    Q2 2025: 612.53
+    Q3 2025: 615.27
+    Q4 2025: 605.46
+    Q1 2026: 601.66
+    Q2 2026: 612.86
+    Q3 2026: 626.0
+    Q4 2026: 633.42
+    Q1 2027: 634.46
+  annual_forecast:
+    2021 Yearly: 1280.0
+    2022 Yearly: 1780.0
+    2023 Yearly: 2090.0
+    2024 Yearly: 2420.0
+    2025 Yearly: 2450.0
+    2026 Yearly: 2470.0
+    2027 Yearly: 2580.0
+    2028 Yearly: 2720.0
+    2029 Yearly: 3170.0
+eps:
+  quarterly:
+    Q3 2024: 1.63
+    Q4 2024: 1.75
+    Q1 2025: 1.5
+    Q2 2025: 1.53
+    Q3 2025: 1.53
+    Q4 2025: 1.54
+    Q1 2026: 1.5
+  annual:
+    2021 Yearly: 3.76
+    2022 Yearly: 5.08
+    2023 Yearly: 5.74
+    2024 Yearly: 6.4
+    2025 Yearly: 6.14
+  quarterly_forecast:
+    Q3 2024: 1.62
+    Q4 2024: 1.74
+    Q1 2025: 1.58
+    Q2 2025: 1.52
+    Q3 2025: 1.54
+    Q4 2025: 1.54
+    Q1 2026: 1.49
+    Q2 2026: 1.5
+    Q3 2026: 1.59
+    Q4 2026: 1.62
+    Q1 2027: 1.58
+  annual_forecast:
+    2021 Yearly: 3.73
+    2022 Yearly: 5.08
+    2023 Yearly: 5.73
+    2024 Yearly: 6.41
+    2025 Yearly: 6.11
+    2026 Yearly: 6.2
+    2027 Yearly: 6.58
+    2028 Yearly: 7.06
+    2029 Yearly: 7.15

@@ -1,0 +1,82 @@
+currency: USD
+company_name: Natera, Inc.
+sector: Health Technology
+market_cap_billions: 38.01
+revenue:
+  quarterly:
+    Q3 2024: 439.76
+    Q4 2024: 476.1
+    Q1 2025: 501.83
+    Q2 2025: 546.6
+    Q3 2025: 592.18
+    Q4 2025: 665.5
+    Q1 2026: 696.64
+    Q2 2026: 752.75
+  annual:
+    2021 Yearly: 625.49
+    2022 Yearly: 820.22
+    2023 Yearly: 1080.0
+    2024 Yearly: 1700.0
+    2025 Yearly: 2310.0
+  quarterly_forecast:
+    Q3 2024: 361.43
+    Q4 2024: 435.64
+    Q1 2025: 446.23
+    Q2 2025: 476.26
+    Q3 2025: 513.45
+    Q4 2025: 604.04
+    Q1 2026: 617.1
+    Q2 2026: 661.24
+    Q3 2026: 694.63
+    Q4 2026: 742.84
+    Q1 2027: 789.31
+    Q2 2027: 799.4
+  annual_forecast:
+    2021 Yearly: 621.43
+    2022 Yearly: 819.43
+    2023 Yearly: 1070.0
+    2024 Yearly: 1650.0
+    2025 Yearly: 2240.0
+    2026 Yearly: 2800.0
+    2027 Yearly: 3330.0
+    2028 Yearly: 4010.0
+    2029 Yearly: 4730.0
+eps:
+  quarterly:
+    Q3 2024: -0.26
+    Q4 2024: -0.41
+    Q1 2025: -0.5
+    Q2 2025: -0.74
+    Q3 2025: -0.64
+    Q4 2025: 0.36
+    Q1 2026: -0.6
+    Q2 2026: -0.47
+  annual:
+    2021 Yearly: -5.21
+    2022 Yearly: -5.57
+    2023 Yearly: -3.78
+    2024 Yearly: -1.53
+    2025 Yearly: -1.52
+  quarterly_forecast:
+    Q3 2024: -0.57
+    Q4 2024: -0.38
+    Q1 2025: -0.64
+    Q2 2025: -0.62
+    Q3 2025: -0.39
+    Q4 2025: -0.51
+    Q1 2026: -0.54
+    Q2 2026: -0.49
+    Q3 2026: -0.34
+    Q4 2026: -0.16
+    Q1 2027: -0.29
+    Q2 2027: -0.2
+  annual_forecast:
+    2021 Yearly: -5.02
+    2022 Yearly: -5.6
+    2023 Yearly: -3.96
+    2024 Yearly: -1.5
+    2025 Yearly: -2.4
+    2026 Yearly: -1.62
+    2027 Yearly: -0.3
+    2028 Yearly: 1.52
+    2029 Yearly: 2.43

@@ -1,0 +1,74 @@
+currency: USD
+company_name: YPF Sociedad Anonima
+sector: Energy Minerals
+market_cap_billions: 21.16
+revenue:
+  quarterly:
+    Q4 2024: 4750.0
+    Q1 2025: 4610.0
+    Q2 2025: 4640.0
+    Q3 2025: 4640.0
+    Q4 2025: 4560.0
+    Q1 2026: 4950.0
+    Q2 2026: 6240.0
+  annual:
+    2021 Yearly: 13240.0
+    2022 Yearly: 18760.0
+    2023 Yearly: 17310.0
+    2024 Yearly: 19290.0
+    2025 Yearly: 18450.0
+  quarterly_forecast:
+    Q2 2025: 4720.0
+    Q3 2025: 4640.0
+    Q4 2025: 4500.0
+    Q1 2026: 4630.0
+    Q2 2026: 4370.0
+    Q3 2026: 5040.0
+    Q4 2026: 6200.0
+  annual_forecast:
+    2021 Yearly: 12800.0
+    2022 Yearly: 17500.0
+    2023 Yearly: 17510.0
+    2024 Yearly: 19030.0
+    2025 Yearly: 18050.0
+    2026 Yearly: 21410.0
+    2027 Yearly: 20570.0
+    2028 Yearly: 21760.0
+    2029 Yearly: 26900.0
+eps:
+  quarterly:
+    Q4 2024: -0.74
+    Q1 2025: -0.04
+    Q2 2025: 0.13
+    Q3 2025: -0.53
+    Q4 2025: -1.67
+    Q1 2026: 1.03
+    Q2 2026: 2.47
+  annual:
+    2021 Yearly: -0.06
+    2022 Yearly: 5.67
+    2023 Yearly: -3.35
+    2024 Yearly: 5.99
+    2025 Yearly: -2.11
+  quarterly_forecast:
+    Q4 2024: 0.7
+    Q1 2025: 0.76
+    Q2 2025: 0.61
+    Q3 2025: 0.73
+    Q4 2025: 0.67
+    Q1 2026: 1.02
+    Q2 2026: 2.41
+    Q3 2026: 2.0
+    Q4 2026: 1.38
+    Q1 2027: 1.24
+    Q2 2027: 1.83
+  annual_forecast:
+    2021 Yearly: -0.26
+    2022 Yearly: 4.91
+    2023 Yearly: 2.93
+    2024 Yearly: 7.01
+    2025 Yearly: 0.46
+    2026 Yearly: 6.37
+    2027 Yearly: 6.33
+    2028 Yearly: 7.96
+    2029 Yearly: 17.74

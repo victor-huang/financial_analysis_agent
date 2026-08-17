@@ -1,0 +1,80 @@
+currency: USD
+company_name: indie Semiconductor, Inc.
+sector: Electronic Technology
+market_cap_billions: 0.77828
+revenue:
+  quarterly:
+    Q3 2024: 53.97
+    Q4 2024: 58.01
+    Q1 2025: 54.08
+    Q2 2025: 51.63
+    Q3 2025: 53.68
+    Q4 2025: 58.01
+    Q1 2026: 55.46
+    Q2 2026: 64.01
+  annual:
+    2021 Yearly: 48.41
+    2022 Yearly: 110.8
+    2023 Yearly: 223.17
+    2024 Yearly: 216.68
+    2025 Yearly: 217.39
+  quarterly_forecast:
+    Q3 2024: 53.66
+    Q4 2024: 58.19
+    Q1 2025: 54.73
+    Q2 2025: 51.48
+    Q3 2025: 53.98
+    Q4 2025: 57.11
+    Q1 2026: 55.09
+    Q2 2026: 62.49
+    Q3 2026: 70.38
+    Q4 2026: 77.44
+    Q1 2027: 81.09
+    Q2 2027: 87.68
+  annual_forecast:
+    2021 Yearly: 47.75
+    2022 Yearly: 110.71
+    2023 Yearly: 225.66
+    2024 Yearly: 216.85
+    2025 Yearly: 216.48
+    2026 Yearly: 265.74
+    2027 Yearly: 359.82
+    2028 Yearly: 520.82
+eps:
+  quarterly:
+    Q3 2024: -0.09
+    Q4 2024: -0.07
+    Q1 2025: -0.08
+    Q2 2025: -0.08
+    Q3 2025: -0.07
+    Q4 2025: -0.07
+    Q1 2026: -0.06
+    Q2 2026: -0.05
+  annual:
+    2021 Yearly: -0.29
+    2022 Yearly: -0.44
+    2023 Yearly: -0.26
+    2024 Yearly: -0.35
+    2025 Yearly: -0.3
+  quarterly_forecast:
+    Q3 2024: -0.09
+    Q4 2024: -0.07
+    Q1 2025: -0.08
+    Q2 2025: -0.08
+    Q3 2025: -0.06
+    Q4 2025: -0.07
+    Q1 2026: -0.06
+    Q2 2026: -0.05
+    Q3 2026: -0.03
+    Q4 2026: -0.01
+    Q1 2027: -0.01
+    Q2 2027: 0.01
+  annual_forecast:
+    2021 Yearly: -0.38
+    2022 Yearly: -0.43
+    2023 Yearly: -0.29
+    2024 Yearly: -0.35
+    2025 Yearly: -0.28
+    2026 Yearly: -0.16
+    2027 Yearly: 0.05
+    2028 Yearly: 0.29

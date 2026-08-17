@@ -1,0 +1,76 @@
+currency: USD
+company_name: HCI Group, Inc.
+sector: Finance
+market_cap_billions: 2.31
+revenue:
+  quarterly:
+    Q3 2024: 175.32
+    Q4 2024: 161.88
+    Q1 2025: 216.43
+    Q2 2025: 221.92
+    Q3 2025: 216.35
+    Q4 2025: 246.24
+    Q1 2026: 242.88
+  annual:
+    2021 Yearly: 407.92
+    2022 Yearly: 499.56
+    2023 Yearly: 550.67
+    2024 Yearly: 750.05
+    2025 Yearly: 900.95
+  quarterly_forecast:
+    Q3 2024: 190.5
+    Q4 2024: 163.83
+    Q1 2025: 214.89
+    Q2 2025: 218.98
+    Q3 2025: 223.53
+    Q4 2025: 232.36
+    Q1 2026: 245.09
+    Q2 2026: 247.43
+    Q3 2026: 240.59
+    Q4 2026: 245.07
+    Q1 2027: 231.4
+  annual_forecast:
+    2021 Yearly: 402.93
+    2022 Yearly: 504.1
+    2023 Yearly: 533.34
+    2024 Yearly: 749.53
+    2025 Yearly: 886.82
+    2026 Yearly: 959.83
+    2027 Yearly: 1010.0
+    2028 Yearly: 1090.0
+eps:
+  quarterly:
+    Q3 2024: 0.47
+    Q4 2024: 0.31
+    Q1 2025: 5.35
+    Q2 2025: 5.18
+    Q3 2025: 4.9
+    Q4 2025: 7.25
+    Q1 2026: 5.45
+  annual:
+    2021 Yearly: 0.1
+    2022 Yearly: -5.48
+    2023 Yearly: 7.41
+    2024 Yearly: 8.75
+    2025 Yearly: 22.72
+  quarterly_forecast:
+    Q3 2024: 0.27
+    Q4 2024: -2.98
+    Q1 2025: 4.85
+    Q2 2025: 4.52
+    Q3 2025: 2.81
+    Q4 2025: 5.13
+    Q1 2026: 5.26
+    Q2 2026: 5.04
+    Q3 2026: 2.64
+    Q4 2026: 5.07
+    Q1 2027: 5.78
+  annual_forecast:
+    2021 Yearly: -0.24
+    2022 Yearly: -6.21
+    2023 Yearly: 5.31
+    2024 Yearly: 6.2
+    2025 Yearly: 20.5
+    2026 Yearly: 17.82
+    2027 Yearly: 18.19
+    2028 Yearly: 19.84

@@ -1,0 +1,74 @@
+currency: USD
+company_name: Digimarc Corporation
+sector: Technology Services
+market_cap_billions: 0.16716
+revenue:
+  quarterly:
+    Q3 2024: 9.44
+    Q4 2024: 8.66
+    Q1 2025: 9.37
+    Q2 2025: 8.01
+    Q3 2025: 7.63
+    Q4 2025: 8.91
+    Q1 2026: 7.58
+  annual:
+    2021 Yearly: 26.52
+    2022 Yearly: 30.2
+    2023 Yearly: 34.85
+    2024 Yearly: 38.42
+    2025 Yearly: 33.91
+  quarterly_forecast:
+    Q3 2024: 10.7
+    Q4 2024: 9.3
+    Q1 2025: 8.8
+    Q2 2025: 7.3
+    Q3 2025: 7.75
+    Q4 2025: 8.2
+    Q1 2026: 7.05
+    Q2 2026: 7.1
+    Q3 2026: 7.14
+    Q4 2026: 7.33
+    Q1 2027: 7.42
+  annual_forecast:
+    2021 Yearly: 26.02
+    2022 Yearly: 30.8
+    2023 Yearly: 34.68
+    2024 Yearly: 39.09
+    2025 Yearly: 33.23
+    2026 Yearly: 29.13
+    2027 Yearly: 31.5
+    2028 Yearly: 115.45
+eps:
+  quarterly:
+    Q3 2024: -0.5
+    Q4 2024: -0.4
+    Q1 2025: -0.55
+    Q2 2025: -0.38
+    Q3 2025: -0.38
+    Q4 2025: -0.19
+    Q1 2026: -0.32
+  annual:
+    2021 Yearly: -2.11
+    2022 Yearly: -3.12
+    2023 Yearly: -2.26
+    2024 Yearly: -1.83
+    2025 Yearly: -1.49
+  quarterly_forecast:
+    Q3 2024: -0.44
+    Q4 2024: -0.48
+    Q1 2025: -0.47
+    Q2 2025: -0.32
+    Q3 2025: -0.23
+    Q4 2025: -0.24
+    Q1 2026: -0.36
+    Q2 2026: -0.33
+    Q3 2026: -0.32
+    Q4 2026: -0.32
+    Q1 2027: -0.3
+  annual_forecast:
+    2022 Yearly: -2.12
+    2023 Yearly: -3.27
+    2024 Yearly: -2.29
+    2025 Yearly: -1.92
+    2026 Yearly: -1.46
+    2027 Yearly: -1.27

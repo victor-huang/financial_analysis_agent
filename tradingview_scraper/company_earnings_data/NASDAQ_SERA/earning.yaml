@@ -1,0 +1,46 @@
+currency: USD
+company_name: Sera Prognostics, Inc.
+sector: Health Services
+market_cap_billions: 0.07909999999999999
+revenue:
+  quarterly: {}
+  annual: {}
+  quarterly_forecast: {}
+  annual_forecast: {}
+eps:
+  quarterly:
+    Q3 2024: -0.24
+    Q4 2024: -0.25
+    Q1 2025: -0.2
+    Q2 2025: -0.16
+    Q3 2025: -0.16
+    Q4 2025: -0.16
+    Q1 2026: -0.17
+  annual:
+    2021 Yearly: -2.33
+    2022 Yearly: -1.43
+    2023 Yearly: -1.16
+    2024 Yearly: -0.99
+    2025 Yearly: -0.67
+  quarterly_forecast:
+    Q3 2024: -0.22
+    Q4 2024: -0.24
+    Q1 2025: -0.23
+    Q2 2025: -0.23
+    Q3 2025: -0.2
+    Q4 2025: -0.19
+    Q1 2026: -0.17
+    Q2 2026: -0.15
+    Q3 2026: -0.16
+    Q4 2026: -0.17
+    Q1 2027: -0.14
+  annual_forecast:
+    2021 Yearly: -1.31
+    2022 Yearly: -1.48
+    2023 Yearly: -1.17
+    2024 Yearly: -0.97
+    2025 Yearly: -0.7
+    2026 Yearly: -0.66
+    2027 Yearly: -0.56
+    2028 Yearly: -0.53
+    2029 Yearly: -0.57

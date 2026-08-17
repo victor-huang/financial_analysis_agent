@@ -1,0 +1,79 @@
+currency: USD
+company_name: Corvus Pharmaceuticals, Inc.
+sector: Health Technology
+market_cap_billions: 1.17
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+    Q2 2027: 0.0
+  annual_forecast:
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2027 Yearly: 0.0
+    2029 Yearly: 3.79
+eps:
+  quarterly:
+    Q3 2024: -0.6
+    Q4 2024: -0.18
+    Q1 2025: -0.13
+    Q2 2025: -0.1
+    Q3 2025: -0.12
+    Q4 2025: -0.15
+    Q1 2026: -0.15
+    Q2 2026: -0.19
+  annual:
+    2021 Yearly: -1.03
+    2022 Yearly: -0.89
+    2023 Yearly: -0.56
+    2024 Yearly: -1.02
+    2025 Yearly: -0.19
+  quarterly_forecast:
+    Q3 2024: -0.11
+    Q4 2024: -0.12
+    Q1 2025: -0.12
+    Q2 2025: -0.13
+    Q3 2025: -0.13
+    Q4 2025: -0.13
+    Q1 2026: -0.14
+    Q2 2026: -0.16
+    Q3 2026: -0.18
+    Q4 2026: -0.2
+    Q1 2027: -0.21
+    Q2 2027: -0.21
+  annual_forecast:
+    2021 Yearly: -0.96
+    2022 Yearly: -0.82
+    2023 Yearly: -0.55
+    2024 Yearly: -0.92
+    2025 Yearly: -0.24
+    2026 Yearly: -0.68
+    2027 Yearly: -0.87
+    2028 Yearly: -0.75
+    2029 Yearly: -0.42

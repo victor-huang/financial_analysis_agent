@@ -1,0 +1,80 @@
+currency: USD
+company_name: FIGS, Inc.
+sector: Consumer Non-Durables
+market_cap_billions: 1.88
+revenue:
+  quarterly:
+    Q3 2024: 140.21
+    Q4 2024: 151.83
+    Q1 2025: 124.9
+    Q2 2025: 152.64
+    Q3 2025: 151.66
+    Q4 2025: 201.9
+    Q1 2026: 159.9
+    Q2 2026: 186.2
+  annual:
+    2021 Yearly: 419.59
+    2022 Yearly: 505.83
+    2023 Yearly: 545.65
+    2024 Yearly: 555.56
+    2025 Yearly: 631.1
+  quarterly_forecast:
+    Q3 2024: 143.93
+    Q4 2024: 139.53
+    Q1 2025: 119.12
+    Q2 2025: 144.16
+    Q3 2025: 142.46
+    Q4 2025: 165.32
+    Q1 2026: 153.15
+    Q2 2026: 186.17
+    Q3 2026: 172.31
+    Q4 2026: 210.3
+    Q1 2027: 171.21
+    Q2 2027: 199.97
+  annual_forecast:
+    2021 Yearly: 418.59
+    2022 Yearly: 496.33
+    2023 Yearly: 550.28
+    2024 Yearly: 543.53
+    2025 Yearly: 594.96
+    2026 Yearly: 728.92
+    2027 Yearly: 786.42
+    2028 Yearly: 826.79
+    2029 Yearly: 759.0
+eps:
+  quarterly:
+    Q3 2024: -0.01
+    Q4 2024: 0.01
+    Q1 2025: 0.0
+    Q2 2025: 0.04
+    Q3 2025: 0.05
+    Q4 2025: 0.1
+    Q1 2026: 0.03
+    Q2 2026: 0.07
+  annual:
+    2021 Yearly: -0.06
+    2022 Yearly: 0.11
+    2023 Yearly: 0.12
+    2024 Yearly: 0.02
+    2025 Yearly: 0.19
+  quarterly_forecast:
+    Q3 2024: -0.01
+    Q4 2024: 0.01
+    Q1 2025: 0.0
+    Q2 2025: 0.02
+    Q3 2025: 0.02
+    Q4 2025: 0.02
+    Q1 2026: 0.01
+    Q2 2026: 0.07
+    Q3 2026: 0.05
+    Q4 2026: 0.11
+    Q1 2027: 0.05
+    Q2 2027: 0.08
+  annual_forecast:
+    2022 Yearly: -0.11
+    2023 Yearly: 0.11
+    2024 Yearly: 0.09
+    2025 Yearly: 0.02
+    2026 Yearly: 0.11
+    2027 Yearly: 0.26
+    2028 Yearly: 0.32

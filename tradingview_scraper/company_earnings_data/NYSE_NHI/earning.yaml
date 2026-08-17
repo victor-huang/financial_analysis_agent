@@ -1,0 +1,80 @@
+currency: USD
+company_name: National Health Investors, Inc.
+sector: Finance
+market_cap_billions: 3.59
+revenue:
+  quarterly:
+    Q3 2024: 63.32
+    Q4 2024: 65.78
+    Q1 2025: 68.87
+    Q2 2025: 70.27
+    Q3 2025: 62.18
+    Q4 2025: 70.29
+    Q1 2026: 73.15
+    Q2 2026: 71.39
+  annual:
+    2021 Yearly: 298.71
+    2022 Yearly: 217.7
+    2023 Yearly: 249.23
+    2024 Yearly: 257.05
+    2025 Yearly: 271.6
+  quarterly_forecast:
+    Q3 2024: 67.93
+    Q4 2024: 68.15
+    Q1 2025: 66.79
+    Q2 2025: 68.34
+    Q3 2025: 64.88
+    Q4 2025: 69.04
+    Q1 2026: 70.22
+    Q2 2026: 72.12
+    Q3 2026: 71.63
+    Q4 2026: 71.78
+    Q1 2027: 70.99
+    Q2 2027: 71.42
+  annual_forecast:
+    2021 Yearly: 288.95
+    2022 Yearly: 226.0
+    2023 Yearly: 259.99
+    2024 Yearly: 267.97
+    2025 Yearly: 269.61
+    2026 Yearly: 283.87
+    2027 Yearly: 282.25
+    2028 Yearly: 274.71
+    2029 Yearly: 302.34
+eps:
+  quarterly:
+    Q3 2024: 0.65
+    Q4 2024: 0.95
+    Q1 2025: 0.74
+    Q2 2025: 0.79
+    Q3 2025: 0.69
+    Q4 2025: 0.8
+    Q1 2026: 0.82
+    Q2 2026: 1.15
+  annual:
+    2021 Yearly: 2.44
+    2022 Yearly: 1.48
+    2023 Yearly: 3.13
+    2024 Yearly: 3.13
+    2025 Yearly: 3.02
+  quarterly_forecast:
+    Q3 2024: 0.73
+    Q4 2024: 0.74
+    Q1 2025: 0.73
+    Q2 2025: 0.75
+    Q3 2025: 0.68
+    Q4 2025: 0.79
+    Q1 2026: 0.85
+    Q2 2026: 0.84
+    Q3 2026: 1.53
+    Q4 2026: 0.79
+    Q1 2027: 0.75
+    Q2 2027: 0.79
+  annual_forecast:
+    2022 Yearly: 3.11
+    2023 Yearly: 2.17
+    2024 Yearly: 3.07
+    2025 Yearly: 2.91
+    2026 Yearly: 3.01
+    2027 Yearly: 3.75
+    2028 Yearly: 3.28

@@ -1,0 +1,76 @@
+currency: USD
+company_name: Comp En De Mn Cemig
+sector: Utilities
+market_cap_billions: 6.63
+revenue:
+  quarterly:
+    Q3 2024: 1750.0
+    Q4 2024: 1950.0
+    Q1 2025: 1740.0
+    Q2 2025: 2000.0
+    Q3 2025: 2009.9999999999998
+    Q4 2025: 2190.0
+    Q1 2026: 1880.0
+  annual:
+    2021 Yearly: 6430.0
+    2022 Yearly: 6810.0
+    2023 Yearly: 6800.0
+    2024 Yearly: 6230.0
+    2025 Yearly: 8150.0
+  quarterly_forecast:
+    Q3 2024: 1610.0
+    Q4 2024: 1590.0
+    Q1 2025: 1640.0
+    Q2 2025: 1730.0
+    Q3 2025: 1860.0
+    Q4 2025: 1860.0
+    Q1 2026: 1870.0
+    Q2 2026: 1810.0
+    Q3 2026: 1720.0
+    Q4 2026: 1730.0
+    Q1 2027: 1840.0
+  annual_forecast:
+    2021 Yearly: 5690.0
+    2022 Yearly: 6300.0
+    2023 Yearly: 6990.0
+    2024 Yearly: 6070.0
+    2025 Yearly: 7330.0
+    2026 Yearly: 7110.0
+    2027 Yearly: 7270.0
+    2028 Yearly: 7580.0
+    2029 Yearly: 8450.0
+eps:
+  quarterly:
+    Q3 2024: 0.19
+    Q4 2024: 0.08
+    Q1 2025: 0.06
+    Q2 2025: 0.08
+    Q3 2025: 0.06
+    Q4 2025: 0.13
+    Q1 2026: 0.07
+  annual:
+    2021 Yearly: 0.32
+    2022 Yearly: 0.26
+    2023 Yearly: 0.44
+    2024 Yearly: 0.44
+    2025 Yearly: 0.33
+  quarterly_forecast:
+    Q3 2024: 0.13
+    Q4 2024: 0.06
+    Q1 2025: 0.05
+    Q2 2025: 0.05
+    Q3 2025: 0.07
+    Q4 2025: 0.05
+    Q1 2026: 0.05
+    Q2 2026: 0.05
+    Q3 2026: 0.05
+    Q4 2026: 0.05
+    Q1 2027: 0.04
+  annual_forecast:
+    2022 Yearly: 0.19
+    2023 Yearly: 0.23
+    2024 Yearly: 0.34
+    2025 Yearly: 0.39
+    2026 Yearly: 0.27
+    2027 Yearly: 0.23
+    2028 Yearly: 0.23

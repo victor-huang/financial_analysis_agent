@@ -1,0 +1,80 @@
+currency: USD
+company_name: CI&T Inc
+sector: Technology Services
+market_cap_billions: 0.46855
+revenue:
+  quarterly:
+    Q3 2024: 107.61
+    Q4 2024: 113.09
+    Q1 2025: 110.9
+    Q2 2025: 117.19
+    Q3 2025: 127.3
+    Q4 2025: 134.3
+    Q1 2026: 136.61
+    Q2 2026: 142.8
+  annual:
+    2021 Yearly: 285.98
+    2022 Yearly: 427.42
+    2023 Yearly: 448.36
+    2024 Yearly: 407.89
+    2025 Yearly: 489.7
+  quarterly_forecast:
+    Q3 2024: 105.87
+    Q4 2024: 110.27
+    Q1 2025: 111.75
+    Q2 2025: 117.14
+    Q3 2025: 124.83
+    Q4 2025: 131.38
+    Q1 2026: 136.09
+    Q2 2026: 140.05
+    Q3 2026: 144.55
+    Q4 2026: 148.47
+    Q1 2027: 150.14
+    Q2 2027: 152.99
+  annual_forecast:
+    2021 Yearly: 274.86
+    2022 Yearly: 422.65
+    2023 Yearly: 452.6
+    2024 Yearly: 404.29
+    2025 Yearly: 487.2
+    2026 Yearly: 567.77
+    2027 Yearly: 623.24
+    2028 Yearly: 703.52
+eps:
+  quarterly:
+    Q3 2024: 0.07
+    Q4 2024: 0.08
+    Q1 2025: 0.05
+    Q2 2025: 0.09
+    Q3 2025: 0.09
+    Q4 2025: 0.14
+    Q1 2026: 0.08
+    Q2 2026: 0.07
+  annual:
+    2021 Yearly: 0.2
+    2022 Yearly: 0.18
+    2023 Yearly: 0.19
+    2024 Yearly: 0.2
+    2025 Yearly: 0.39
+  quarterly_forecast:
+    Q3 2024: 0.07
+    Q4 2024: 0.07
+    Q1 2025: 0.06
+    Q2 2025: 0.08
+    Q3 2025: 0.1
+    Q4 2025: 0.1
+    Q1 2026: 0.09
+    Q2 2026: 0.09
+    Q3 2026: 0.11
+    Q4 2026: 0.13
+    Q1 2027: 0.1
+    Q2 2027: 0.11
+  annual_forecast:
+    2021 Yearly: 0.25
+    2022 Yearly: 0.3
+    2023 Yearly: 0.3
+    2024 Yearly: 0.25
+    2025 Yearly: 0.34
+    2026 Yearly: 0.39
+    2027 Yearly: 0.46
+    2028 Yearly: 0.54

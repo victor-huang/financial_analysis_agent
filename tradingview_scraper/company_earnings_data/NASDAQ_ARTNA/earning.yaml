@@ -1,7 +1,7 @@
 currency: USD
 company_name: Artesian Resources Corporation
 sector: Utilities
-market_cap_billions: 0.3503
+market_cap_billions: 0.36082
 revenue:
   quarterly:
     Q3 2024: 29.14
@@ -11,6 +11,7 @@ revenue:
     Q3 2025: 30.49
     Q4 2025: 28.02
     Q1 2026: 27.77
+    Q2 2026: 30.66
   annual:
     2021 Yearly: 90.86
     2022 Yearly: 98.9
@@ -29,6 +30,7 @@ revenue:
     Q3 2026: 32.2
     Q4 2026: 29.2
     Q1 2027: 29.1
+    Q2 2027: 31.2
   annual_forecast:
     2021 Yearly: 91.0
     2022 Yearly: 96.0
@@ -47,6 +49,7 @@ eps:
     Q3 2025: 0.68
     Q4 2025: 0.4
     Q1 2026: 0.57
+    Q2 2026: 0.64
   annual:
     2021 Yearly: 1.79
     2022 Yearly: 1.9
@@ -65,6 +68,7 @@ eps:
     Q3 2026: 0.68
     Q4 2026: 0.43
     Q1 2027: 0.61
+    Q2 2027: 0.64
   annual_forecast:
     2021 Yearly: 1.77
     2022 Yearly: 1.93

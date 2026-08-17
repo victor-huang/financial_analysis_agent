@@ -1,0 +1,28 @@
+currency: USD
+company_name: ERock, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 2.47
+revenue:
+  quarterly:
+    Q1 2026: 31.74
+    Q2 2026: 39.88
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: 20.43
+    Q3 2026: 180.79
+    Q4 2026: 213.49
+    Q1 2027: 316.45
+    Q2 2027: 300.65
+  annual_forecast: {}
+eps:
+  quarterly:
+    Q1 2026: -0.03
+    Q2 2026: -0.06
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: -0.24
+    Q3 2026: -0.01
+    Q4 2026: 0.03
+    Q1 2027: 0.12
+    Q2 2027: 0.13
+  annual_forecast: {}

@@ -1,0 +1,76 @@
+currency: USD
+company_name: Yelp Inc.
+sector: Technology Services
+market_cap_billions: 1.38
+revenue:
+  quarterly:
+    Q3 2024: 360.34
+    Q4 2024: 361.95
+    Q1 2025: 358.53
+    Q2 2025: 370.39
+    Q3 2025: 376.04
+    Q4 2025: 359.99
+    Q1 2026: 361.46
+  annual:
+    2021 Yearly: 1030.0
+    2022 Yearly: 1190.0
+    2023 Yearly: 1340.0
+    2024 Yearly: 1410.0
+    2025 Yearly: 1460.0
+  quarterly_forecast:
+    Q3 2024: 360.37
+    Q4 2024: 350.16
+    Q1 2025: 353.11
+    Q2 2025: 365.9
+    Q3 2025: 368.36
+    Q4 2025: 359.28
+    Q1 2026: 353.47
+    Q2 2026: 366.89
+    Q3 2026: 371.94
+    Q4 2026: 366.2
+    Q1 2027: 368.75
+  annual_forecast:
+    2021 Yearly: 1030.0
+    2022 Yearly: 1190.0
+    2023 Yearly: 1340.0
+    2024 Yearly: 1400.0
+    2025 Yearly: 1460.0
+    2026 Yearly: 1470.0
+    2027 Yearly: 1510.0
+    2028 Yearly: 1550.0
+eps:
+  quarterly:
+    Q3 2024: 0.56
+    Q4 2024: 0.62
+    Q1 2025: 0.36
+    Q2 2025: 0.67
+    Q3 2025: 0.61
+    Q4 2025: 0.61
+    Q1 2026: 0.3
+  annual:
+    2021 Yearly: 0.5
+    2022 Yearly: 0.5
+    2023 Yearly: 1.35
+    2024 Yearly: 1.88
+    2025 Yearly: 2.24
+  quarterly_forecast:
+    Q3 2024: 0.42
+    Q4 2024: 0.53
+    Q1 2025: 0.32
+    Q2 2025: 0.51
+    Q3 2025: 0.53
+    Q4 2025: 0.54
+    Q1 2026: 0.26
+    Q2 2026: 0.36
+    Q3 2026: 0.58
+    Q4 2026: 0.65
+    Q1 2027: 0.53
+  annual_forecast:
+    2021 Yearly: 0.34
+    2022 Yearly: 0.52
+    2023 Yearly: 1.39
+    2024 Yearly: 1.81
+    2025 Yearly: 2.18
+    2026 Yearly: 1.89
+    2027 Yearly: 2.61
+    2028 Yearly: 3.25

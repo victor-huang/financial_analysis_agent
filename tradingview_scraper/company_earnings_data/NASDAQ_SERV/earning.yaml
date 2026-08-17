@@ -1,0 +1,53 @@
+currency: USD
+company_name: Serve Robotics Inc.
+sector: Producer Manufacturing
+market_cap_billions: 0.43948000000000004
+revenue:
+  quarterly:
+    Q2 2027: 2.98
+  annual:
+    2024 Yearly: 1.81
+    2025 Yearly: 2.65
+  quarterly_forecast:
+    Q1 2026: 3.24
+    Q2 2026: 2.98
+  annual_forecast:
+    2024 Yearly: 1.9
+    2025 Yearly: 2.51
+    2026 Yearly: 25.63
+    2027 Yearly: 77.37
+    2028 Yearly: 143.94
+    2029 Yearly: 239.81
+eps:
+  quarterly:
+    Q3 2024: -0.2
+    Q4 2024: -0.36
+    Q1 2025: -0.23
+    Q2 2025: -0.36
+    Q3 2025: -0.4
+    Q4 2025: -0.46
+    Q1 2026: -0.65
+    Q2 2026: -0.8
+  annual:
+    2024 Yearly: -1.07
+    2025 Yearly: -1.63
+  quarterly_forecast:
+    Q3 2024: -0.16
+    Q4 2024: -0.16
+    Q1 2025: -0.19
+    Q2 2025: -0.2
+    Q3 2025: -0.32
+    Q4 2025: -0.48
+    Q1 2026: -0.57
+    Q2 2026: -0.69
+    Q3 2026: -0.68
+    Q4 2026: -0.67
+    Q1 2027: -0.6
+    Q2 2027: -0.61
+  annual_forecast:
+    2024 Yearly: -0.89
+    2025 Yearly: -1.29
+    2026 Yearly: -2.67
+    2027 Yearly: -2.29
+    2028 Yearly: -1.95
+    2029 Yearly: -1.53

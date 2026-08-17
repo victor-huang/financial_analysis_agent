@@ -1,0 +1,47 @@
+currency: USD
+company_name: Forward Industries, Inc.
+sector: Consumer Durables
+market_cap_billions: 0.32450999999999997
+revenue:
+  quarterly:
+    Q2 2021: 8.4
+    Q3 2021: 9.96
+    Q1 2026: 21.22
+    Q2 2026: 12.96
+  annual:
+    2020 Yearly: 34.48
+    2025 Yearly: 18.19
+  quarterly_forecast:
+    Q1 2026: 21.4
+    Q2 2026: 16.58
+    Q3 2026: 12.58
+    Q4 2026: 12.75
+    Q1 2027: 12.7
+    Q2 2027: 13.45
+  annual_forecast:
+    2020 Yearly: 34.1
+    2021 Yearly: 39.48
+    2026 Yearly: 48.14
+    2027 Yearly: 53.85
+    2028 Yearly: 61.0
+eps:
+  quarterly:
+    Q2 2021: 0.8
+    Q3 2021: 0.2
+    Q1 2026: -5.91
+    Q2 2026: -2.98
+  annual:
+    2020 Yearly: -1.9
+    2025 Yearly: -24.59
+  quarterly_forecast:
+    Q2 2026: 0.08
+    Q3 2026: 0.03
+    Q4 2026: 0.03
+    Q1 2027: 0.06
+    Q2 2027: 0.06
+  annual_forecast:
+    2020 Yearly: -0.7
+    2021 Yearly: 0.7
+    2026 Yearly: -8.91
+    2027 Yearly: 0.24
+    2028 Yearly: 0.28

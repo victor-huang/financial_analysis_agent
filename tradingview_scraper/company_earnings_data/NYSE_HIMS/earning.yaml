@@ -1,0 +1,82 @@
+currency: USD
+company_name: Hims & Hers Health, Inc.
+sector: Health Services
+market_cap_billions: 7.35
+revenue:
+  quarterly:
+    Q3 2024: 401.56
+    Q4 2024: 481.14
+    Q1 2025: 586.01
+    Q2 2025: 544.83
+    Q3 2025: 598.98
+    Q4 2025: 617.82
+    Q1 2026: 608.1
+    Q2 2026: 753.21
+  annual:
+    2021 Yearly: 271.88
+    2022 Yearly: 526.92
+    2023 Yearly: 872.0
+    2024 Yearly: 1480.0
+    2025 Yearly: 2350.0
+  quarterly_forecast:
+    Q3 2024: 382.2
+    Q4 2024: 470.85
+    Q1 2025: 538.59
+    Q2 2025: 551.67
+    Q3 2025: 580.24
+    Q4 2025: 619.23
+    Q1 2026: 616.84
+    Q2 2026: 698.89
+    Q3 2026: 802.04
+    Q4 2026: 842.76
+    Q1 2027: 738.94
+    Q2 2027: 796.99
+  annual_forecast:
+    2021 Yearly: 264.2
+    2022 Yearly: 520.9
+    2023 Yearly: 871.89
+    2024 Yearly: 1470.0
+    2025 Yearly: 2350.0
+    2026 Yearly: 2930.0
+    2027 Yearly: 3530.0
+    2028 Yearly: 4019.9999999999995
+    2029 Yearly: 4690.0
+eps:
+  quarterly:
+    Q3 2024: 0.32
+    Q4 2024: 0.11
+    Q1 2025: 0.2
+    Q2 2025: 0.17
+    Q3 2025: 0.06
+    Q4 2025: 0.08
+    Q1 2026: -0.4
+    Q2 2026: -0.37
+  annual:
+    2021 Yearly: -0.58
+    2022 Yearly: -0.32
+    2023 Yearly: -0.11
+    2024 Yearly: 0.53
+    2025 Yearly: 0.51
+  quarterly_forecast:
+    Q3 2024: 0.11
+    Q4 2024: 0.11
+    Q1 2025: 0.12
+    Q2 2025: 0.15
+    Q3 2025: 0.09
+    Q4 2025: 0.04
+    Q1 2026: 0.03
+    Q2 2026: -0.05
+    Q3 2026: 0.11
+    Q4 2026: 0.17
+    Q1 2027: 0.05
+    Q2 2027: 0.11
+  annual_forecast:
+    2021 Yearly: -0.36
+    2022 Yearly: -0.32
+    2023 Yearly: -0.13
+    2024 Yearly: 0.54
+    2025 Yearly: 0.46
+    2026 Yearly: -0.13
+    2027 Yearly: 0.47
+    2028 Yearly: 0.78
+    2029 Yearly: 1.11

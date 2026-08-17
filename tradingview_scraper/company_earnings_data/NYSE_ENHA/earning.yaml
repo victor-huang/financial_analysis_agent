@@ -1,0 +1,27 @@
+currency: USD
+company_name: Enhanced Group Inc.
+sector: Finance
+market_cap_billions: 0.88309
+revenue:
+  quarterly: {}
+  annual:
+    2025 Yearly: 0.0
+  quarterly_forecast: {}
+  annual_forecast:
+    2026 Yearly: 55.0
+    2027 Yearly: 162.4
+    2028 Yearly: 315.25
+eps:
+  quarterly: {}
+  annual:
+    2025 Yearly: -2.62
+  quarterly_forecast:
+    Q1 2026: -0.14
+    Q2 2026: -0.18
+    Q3 2026: -0.01
+    Q4 2026: -0.01
+    Q1 2027: 0.02
+  annual_forecast:
+    2026 Yearly: -0.26
+    2027 Yearly: 0.1
+    2028 Yearly: 0.63

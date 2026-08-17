@@ -1,0 +1,82 @@
+currency: USD
+company_name: Fluent, Inc.
+sector: Technology Services
+market_cap_billions: 0.12731
+revenue:
+  quarterly:
+    Q3 2024: 64.52
+    Q4 2024: 65.41
+    Q1 2025: 55.21
+    Q2 2025: 44.71
+    Q3 2025: 47.03
+    Q4 2025: 61.82
+    Q1 2026: 44.85
+    Q2 2026: 48.45
+  annual:
+    2021 Yearly: 329.25
+    2022 Yearly: 361.13
+    2023 Yearly: 298.4
+    2024 Yearly: 254.62
+    2025 Yearly: 208.76
+  quarterly_forecast:
+    Q3 2024: 68.63
+    Q4 2024: 68.05
+    Q1 2025: 57.55
+    Q2 2025: 52.69
+    Q3 2025: 52.92
+    Q4 2025: 62.57
+    Q1 2026: 48.8
+    Q2 2026: 44.64
+    Q3 2026: 48.42
+    Q4 2026: 72.03
+    Q1 2027: 49.64
+    Q2 2027: 51.98
+  annual_forecast:
+    2021 Yearly: 319.61
+    2022 Yearly: 365.74
+    2023 Yearly: 299.7
+    2024 Yearly: 267.25
+    2025 Yearly: 209.51
+    2026 Yearly: 209.94
+    2027 Yearly: 241.11
+    2028 Yearly: 259.6
+    2029 Yearly: 268.0
+eps:
+  quarterly:
+    Q3 2024: -0.22
+    Q4 2024: -0.18
+    Q1 2025: -0.31
+    Q2 2025: -0.24
+    Q3 2025: -0.23
+    Q4 2025: -0.09
+    Q1 2026: -0.19
+    Q2 2026: -0.13
+  annual:
+    2021 Yearly: 0.54
+    2022 Yearly: 0.42
+    2023 Yearly: -0.54
+    2024 Yearly: -1.14
+    2025 Yearly: -0.84
+  quarterly_forecast:
+    Q3 2024: -0.07
+    Q4 2024: -0.23
+    Q1 2025: -0.29
+    Q2 2025: -0.27
+    Q3 2025: -0.12
+    Q4 2025: -0.08
+    Q1 2026: -0.23
+    Q2 2026: -0.15
+    Q3 2026: -0.13
+    Q4 2026: 0.04
+    Q1 2027: -0.12
+    Q2 2027: -0.09
+  annual_forecast:
+    2021 Yearly: -0.12
+    2022 Yearly: 0.54
+    2023 Yearly: -0.6
+    2024 Yearly: -1.31
+    2025 Yearly: -0.87
+    2026 Yearly: -0.4
+    2027 Yearly: -0.07
+    2028 Yearly: -0.01
+    2029 Yearly: 0.08

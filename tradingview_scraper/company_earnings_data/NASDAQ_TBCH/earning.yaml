@@ -1,0 +1,80 @@
+currency: USD
+company_name: Turtle Beach Corporation
+sector: Consumer Durables
+market_cap_billions: 0.24909
+revenue:
+  quarterly:
+    Q3 2024: 94.36
+    Q4 2024: 146.08
+    Q1 2025: 63.9
+    Q2 2025: 56.78
+    Q3 2025: 80.46
+    Q4 2025: 118.78
+    Q1 2026: 42.2
+    Q2 2026: 56.37
+  annual:
+    2021 Yearly: 366.35
+    2022 Yearly: 240.17
+    2023 Yearly: 258.12
+    2024 Yearly: 372.77
+    2025 Yearly: 319.91
+  quarterly_forecast:
+    Q3 2024: 87.42
+    Q4 2024: 152.65
+    Q1 2025: 61.8
+    Q2 2025: 56.34
+    Q3 2025: 79.83
+    Q4 2025: 144.13
+    Q1 2026: 46.87
+    Q2 2026: 60.1
+    Q3 2026: 92.76
+    Q4 2026: 148.44
+    Q1 2027: 58.35
+    Q2 2027: 66.8
+  annual_forecast:
+    2021 Yearly: 365.1
+    2022 Yearly: 249.73
+    2023 Yearly: 270.18
+    2024 Yearly: 377.65
+    2025 Yearly: 345.26
+    2026 Yearly: 343.47
+    2027 Yearly: 377.82
+    2028 Yearly: 406.2
+eps:
+  quarterly:
+    Q3 2024: 0.16
+    Q4 2024: 0.95
+    Q1 2025: 0.0
+    Q2 2025: -0.13
+    Q3 2025: 0.1
+    Q4 2025: 0.87
+    Q1 2026: -0.77
+    Q2 2026: -0.37
+  annual:
+    2021 Yearly: 1.11
+    2022 Yearly: -1.52
+    2023 Yearly: -0.65
+    2024 Yearly: 0.78
+    2025 Yearly: 0.77
+  quarterly_forecast:
+    Q3 2024: 0.14
+    Q4 2024: 1.11
+    Q1 2025: -0.12
+    Q2 2025: -0.31
+    Q3 2025: 0.12
+    Q4 2025: 1.08
+    Q1 2026: -0.44
+    Q2 2026: -0.31
+    Q3 2026: 0.37
+    Q4 2026: 1.44
+    Q1 2027: -0.33
+    Q2 2027: -0.14
+  annual_forecast:
+    2021 Yearly: 1.13
+    2022 Yearly: -1.39
+    2023 Yearly: -0.29
+    2024 Yearly: 0.93
+    2025 Yearly: 0.94
+    2026 Yearly: 0.71
+    2027 Yearly: 1.22
+    2028 Yearly: 1.39

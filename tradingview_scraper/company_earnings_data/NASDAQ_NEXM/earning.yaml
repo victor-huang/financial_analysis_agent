@@ -1,0 +1,28 @@
+currency: USD
+company_name: NexMetals Mining Corp.
+sector: Non-Energy Minerals
+market_cap_billions: 0.07825
+revenue:
+  quarterly: {}
+  annual: {}
+  quarterly_forecast: {}
+  annual_forecast: {}
+eps:
+  quarterly:
+    Q3 2024: -0.13
+    Q4 2024: 0.26
+    Q1 2025: -0.97
+    Q2 2025: -0.51
+  annual: {}
+  quarterly_forecast:
+    Q3 2024: -0.21
+    Q4 2024: -0.13
+    Q1 2025: -0.08
+    Q2 2025: -0.27
+    Q3 2025: -0.26
+    Q4 2025: -0.27
+    Q1 2026: -1.34
+    Q2 2026: -1.32
+    Q3 2026: -1.34
+    Q4 2026: -1.34
+  annual_forecast: {}

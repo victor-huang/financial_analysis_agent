@@ -1,0 +1,78 @@
+currency: USD
+company_name: Cisco Systems, Inc.
+sector: Electronic Technology
+market_cap_billions: 488.26
+revenue:
+  quarterly:
+    Q1 2025: 13840.0
+    Q2 2025: 13990.0
+    Q3 2025: 14150.0
+    Q4 2025: 14670.0
+    Q1 2026: 14880.0
+    Q2 2026: 15350.0
+    Q3 2026: 15840.0
+  annual:
+    2021 Yearly: 49820.0
+    2022 Yearly: 51560.0
+    2023 Yearly: 57000.0
+    2024 Yearly: 53800.0
+    2025 Yearly: 56650.0
+  quarterly_forecast:
+    Q1 2025: 13780.0
+    Q2 2025: 13870.0
+    Q3 2025: 14050.0
+    Q4 2025: 14620.0
+    Q1 2026: 14780.0
+    Q2 2026: 15110.0
+    Q3 2026: 15560.0
+    Q4 2026: 16840.0
+    Q1 2027: 16830.0
+    Q2 2027: 17020.0
+    Q3 2027: 17330.0
+  annual_forecast:
+    2021 Yearly: 49720.0
+    2022 Yearly: 51180.0
+    2023 Yearly: 56840.0
+    2024 Yearly: 53700.0
+    2025 Yearly: 56620.0
+    2026 Yearly: 62920.0
+    2027 Yearly: 69120.0
+    2028 Yearly: 74220.0
+    2029 Yearly: 75730.0
+eps:
+  quarterly:
+    Q1 2025: 0.91
+    Q2 2025: 0.94
+    Q3 2025: 0.96
+    Q4 2025: 0.99
+    Q1 2026: 1.0
+    Q2 2026: 1.04
+    Q3 2026: 1.06
+  annual:
+    2021 Yearly: 3.22
+    2022 Yearly: 3.36
+    2023 Yearly: 3.89
+    2024 Yearly: 3.73
+    2025 Yearly: 3.81
+  quarterly_forecast:
+    Q1 2025: 0.87
+    Q2 2025: 0.91
+    Q3 2025: 0.92
+    Q4 2025: 0.98
+    Q1 2026: 0.98
+    Q2 2026: 1.02
+    Q3 2026: 1.03
+    Q4 2026: 1.17
+    Q1 2027: 1.16
+    Q2 2027: 1.18
+    Q3 2027: 1.21
+  annual_forecast:
+    2021 Yearly: 3.21
+    2022 Yearly: 3.35
+    2023 Yearly: 3.81
+    2024 Yearly: 3.7
+    2025 Yearly: 3.79
+    2026 Yearly: 4.28
+    2027 Yearly: 4.83
+    2028 Yearly: 5.28
+    2029 Yearly: 5.51

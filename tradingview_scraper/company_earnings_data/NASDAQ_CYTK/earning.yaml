@@ -1,0 +1,81 @@
+currency: USD
+company_name: Cytokinetics, Incorporated
+sector: Health Technology
+market_cap_billions: 10.13
+revenue:
+  quarterly:
+    Q4 2024: 16.93
+    Q1 2025: 1.6
+    Q2 2025: 66.77
+    Q3 2025: 1.94
+    Q4 2025: 17.75
+    Q1 2026: 19.36
+    Q2 2026: 28.62
+  annual:
+    2021 Yearly: 70.43
+    2022 Yearly: 94.59
+    2023 Yearly: 7.53
+    2024 Yearly: 18.47
+    2025 Yearly: 88.04
+  quarterly_forecast:
+    Q3 2024: 1.21
+    Q4 2024: 1.75
+    Q1 2025: 3.42
+    Q2 2025: 2.11
+    Q3 2025: 6.05
+    Q4 2025: 6.93
+    Q1 2026: 8.52
+    Q2 2026: 17.59
+    Q3 2026: 28.15
+    Q4 2026: 45.21
+    Q1 2027: 56.17
+    Q2 2027: 81.45
+  annual_forecast:
+    2021 Yearly: 20.72
+    2022 Yearly: 99.32
+    2023 Yearly: 21.85
+    2024 Yearly: 3.2
+    2025 Yearly: 76.88
+    2026 Yearly: 113.58
+    2027 Yearly: 393.28
+    2028 Yearly: 881.94
+    2029 Yearly: 1520.0
+eps:
+  quarterly:
+    Q3 2024: -1.36
+    Q4 2024: -1.26
+    Q1 2025: -1.36
+    Q2 2025: -1.12
+    Q3 2025: -2.55
+    Q4 2025: -1.5
+    Q1 2026: -1.67
+    Q2 2026: -1.5
+  annual:
+    2021 Yearly: -2.8
+    2022 Yearly: -4.33
+    2023 Yearly: -5.45
+    2024 Yearly: -5.26
+    2025 Yearly: -6.54
+  quarterly_forecast:
+    Q3 2024: -1.23
+    Q4 2024: -1.19
+    Q1 2025: -1.37
+    Q2 2025: -1.43
+    Q3 2025: -1.57
+    Q4 2025: -1.56
+    Q1 2026: -1.65
+    Q2 2026: -1.63
+    Q3 2026: -1.56
+    Q4 2026: -1.48
+    Q1 2027: -1.43
+    Q2 2027: -1.43
+  annual_forecast:
+    2021 Yearly: -3.26
+    2022 Yearly: -4.06
+    2023 Yearly: -4.88
+    2024 Yearly: -5.19
+    2025 Yearly: -6.49
+    2026 Yearly: -6.32
+    2027 Yearly: -4.67
+    2028 Yearly: -2.02
+    2029 Yearly: 0.82

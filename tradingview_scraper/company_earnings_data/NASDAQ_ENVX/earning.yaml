@@ -1,0 +1,77 @@
+currency: USD
+company_name: Enovix Corporation
+sector: Producer Manufacturing
+market_cap_billions: 1.03
+revenue:
+  quarterly:
+    Q3 2024: 4.32
+    Q4 2024: 9.72
+    Q1 2025: 5.1
+    Q2 2025: 7.47
+    Q3 2025: 7.99
+    Q4 2025: 11.27
+    Q1 2026: 7.6
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 6.2
+    2023 Yearly: 7.64
+    2024 Yearly: 23.07
+    2025 Yearly: 31.82
+  quarterly_forecast:
+    Q3 2024: 4.11
+    Q4 2024: 8.78
+    Q1 2025: 4.6
+    Q2 2025: 6.86
+    Q3 2025: 7.95
+    Q4 2025: 10.28
+    Q1 2026: 6.95
+    Q2 2026: 8.43
+    Q3 2026: 10.25
+    Q4 2026: 14.15
+    Q1 2027: 14.84
+  annual_forecast:
+    2022 Yearly: 6.05
+    2023 Yearly: 3.45
+    2024 Yearly: 22.13
+    2025 Yearly: 30.78
+    2026 Yearly: 40.46
+    2027 Yearly: 91.14
+    2028 Yearly: 328.5
+    2029 Yearly: 1080.0
+eps:
+  quarterly:
+    Q3 2024: -0.17
+    Q4 2024: -0.11
+    Q1 2025: -0.15
+    Q2 2025: -0.13
+    Q3 2025: -0.14
+    Q4 2025: -0.14
+    Q1 2026: -0.14
+  annual:
+    2021 Yearly: -1.07
+    2022 Yearly: -0.59
+    2023 Yearly: -0.87
+    2024 Yearly: -0.73
+    2025 Yearly: -0.54
+  quarterly_forecast:
+    Q3 2024: -0.21
+    Q4 2024: -0.19
+    Q1 2025: -0.18
+    Q2 2025: -0.16
+    Q3 2025: -0.16
+    Q4 2025: -0.18
+    Q1 2026: -0.16
+    Q2 2026: -0.15
+    Q3 2026: -0.14
+    Q4 2026: -0.14
+    Q1 2027: -0.15
+  annual_forecast:
+    2021 Yearly: -0.52
+    2022 Yearly: -0.57
+    2023 Yearly: -0.91
+    2024 Yearly: -0.81
+    2025 Yearly: -0.59
+    2026 Yearly: -0.56
+    2027 Yearly: -0.57
+    2028 Yearly: 0.08
+    2029 Yearly: 1.22

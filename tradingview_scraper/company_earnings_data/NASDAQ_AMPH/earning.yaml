@@ -1,0 +1,82 @@
+currency: USD
+company_name: Amphastar Pharmaceuticals, Inc.
+sector: Health Technology
+market_cap_billions: 0.87348
+revenue:
+  quarterly:
+    Q3 2024: 191.21
+    Q4 2024: 186.52
+    Q1 2025: 170.53
+    Q2 2025: 174.41
+    Q3 2025: 191.84
+    Q4 2025: 183.1
+    Q1 2026: 171.17
+    Q2 2026: 183.9
+  annual:
+    2021 Yearly: 437.77
+    2022 Yearly: 498.99
+    2023 Yearly: 644.39
+    2024 Yearly: 731.97
+    2025 Yearly: 719.89
+  quarterly_forecast:
+    Q3 2024: 194.67
+    Q4 2024: 188.76
+    Q1 2025: 172.94
+    Q2 2025: 173.98
+    Q3 2025: 186.22
+    Q4 2025: 188.77
+    Q1 2026: 173.46
+    Q2 2026: 179.92
+    Q3 2026: 197.44
+    Q4 2026: 196.65
+    Q1 2027: 181.1
+    Q2 2027: 189.36
+  annual_forecast:
+    2021 Yearly: 428.5
+    2022 Yearly: 491.21
+    2023 Yearly: 639.6
+    2024 Yearly: 734.23
+    2025 Yearly: 725.56
+    2026 Yearly: 745.16
+    2027 Yearly: 778.65
+    2028 Yearly: 806.55
+    2029 Yearly: 836.0
+eps:
+  quarterly:
+    Q3 2024: 0.96
+    Q4 2024: 0.92
+    Q1 2025: 0.74
+    Q2 2025: 0.85
+    Q3 2025: 0.93
+    Q4 2025: 0.73
+    Q1 2026: 0.42
+    Q2 2026: 0.91
+  annual:
+    2021 Yearly: 1.37
+    2022 Yearly: 1.97
+    2023 Yearly: 3.32
+    2024 Yearly: 3.86
+    2025 Yearly: 3.25
+  quarterly_forecast:
+    Q3 2024: 0.99
+    Q4 2024: 0.94
+    Q1 2025: 0.69
+    Q2 2025: 0.74
+    Q3 2025: 0.83
+    Q4 2025: 0.9
+    Q1 2026: 0.71
+    Q2 2026: 0.62
+    Q3 2026: 0.77
+    Q4 2026: 0.78
+    Q1 2027: 0.63
+    Q2 2027: 0.68
+  annual_forecast:
+    2021 Yearly: 1.31
+    2022 Yearly: 1.64
+    2023 Yearly: 3.36
+    2024 Yearly: 3.87
+    2025 Yearly: 3.44
+    2026 Yearly: 2.58
+    2027 Yearly: 3.0
+    2028 Yearly: 3.29
+    2029 Yearly: 2.6

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Context Therapeutics Inc.
+sector: Health Technology
+market_cap_billions: 0.06367
+revenue:
+  quarterly:
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+    Q2 2027: 0.0
+  annual_forecast:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 0.0
+    2028 Yearly: 2.45
+    2029 Yearly: 10.58
+eps:
+  quarterly:
+    Q4 2024: -0.03
+    Q1 2025: -0.05
+    Q2 2025: -0.09
+    Q3 2025: -0.1
+    Q4 2025: -0.14
+    Q1 2026: -0.09
+    Q2 2026: -0.15
+  annual:
+    2021 Yearly: -3.69
+    2022 Yearly: -0.93
+    2023 Yearly: -1.5
+    2024 Yearly: -0.46
+    2025 Yearly: -0.38
+  quarterly_forecast:
+    Q4 2024: -0.09
+    Q1 2025: -0.06
+    Q2 2025: -0.05
+    Q3 2025: -0.09
+    Q4 2025: -0.1
+    Q1 2026: -0.11
+    Q2 2026: -0.09
+    Q3 2026: -0.1
+    Q4 2026: -0.11
+    Q1 2027: -0.12
+    Q2 2027: -0.11
+  annual_forecast:
+    2021 Yearly: -3.38
+    2022 Yearly: -1.05
+    2023 Yearly: -1.44
+    2024 Yearly: -0.58
+    2025 Yearly: -0.35
+    2026 Yearly: -0.39
+    2027 Yearly: -0.43
+    2028 Yearly: -0.53
+    2029 Yearly: -0.46

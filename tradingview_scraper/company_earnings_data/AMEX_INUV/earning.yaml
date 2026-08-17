@@ -1,0 +1,82 @@
+currency: USD
+company_name: Inuvo, Inc.
+sector: Technology Services
+market_cap_billions: 0.016980000000000002
+revenue:
+  quarterly:
+    Q3 2024: 22.37
+    Q4 2024: 26.19
+    Q1 2025: 26.71
+    Q2 2025: 22.67
+    Q3 2025: 22.57
+    Q4 2025: 14.26
+    Q1 2026: 7.93
+    Q2 2026: 7.54
+  annual:
+    2021 Yearly: 59.83
+    2022 Yearly: 75.6
+    2023 Yearly: 73.91
+    2024 Yearly: 83.79
+    2025 Yearly: 86.21
+  quarterly_forecast:
+    Q3 2024: 22.83
+    Q4 2024: 25.2
+    Q1 2025: 23.69
+    Q2 2025: 23.73
+    Q3 2025: 25.85
+    Q4 2025: 17.69
+    Q1 2026: 10.57
+    Q2 2026: 7.82
+    Q3 2026: 8.62
+    Q4 2026: 9.12
+    Q1 2027: 8.61
+    Q2 2027: 9.62
+  annual_forecast:
+    2021 Yearly: 59.54
+    2022 Yearly: 76.8
+    2023 Yearly: 76.81
+    2024 Yearly: 82.9
+    2025 Yearly: 88.87
+    2026 Yearly: 33.48
+    2027 Yearly: 37.54
+    2028 Yearly: 40.5
+    2029 Yearly: 115.7
+eps:
+  quarterly:
+    Q3 2024: -0.1
+    Q4 2024: 0.0
+    Q1 2025: -0.1
+    Q2 2025: -0.1
+    Q3 2025: -0.12
+    Q4 2025: -0.04
+    Q1 2026: 0.13
+    Q2 2026: -0.27
+  annual:
+    2021 Yearly: -0.6
+    2022 Yearly: -1.1
+    2023 Yearly: -0.8
+    2024 Yearly: -0.4
+    2025 Yearly: -0.35
+  quarterly_forecast:
+    Q3 2024: -0.14
+    Q4 2024: -0.03
+    Q1 2025: -0.13
+    Q2 2025: -0.13
+    Q3 2025: -0.1
+    Q4 2025: -0.32
+    Q1 2026: -0.18
+    Q2 2026: -0.21
+    Q3 2026: -0.13
+    Q4 2026: -0.08
+    Q1 2027: -0.12
+    Q2 2027: -0.04
+  annual_forecast:
+    2021 Yearly: -0.6
+    2022 Yearly: -0.85
+    2023 Yearly: -0.65
+    2024 Yearly: -0.33
+    2025 Yearly: -0.54
+    2026 Yearly: -0.29
+    2027 Yearly: -0.24
+    2028 Yearly: -0.14
+    2029 Yearly: 0.43

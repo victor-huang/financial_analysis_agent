@@ -1,0 +1,23 @@
+currency: USD
+company_name: NextBoat Inc.
+sector: Retail Trade
+market_cap_billions: 0.05115
+revenue:
+  quarterly:
+    Q4 2025: 37.3
+    Q1 2026: 29.84
+  annual:
+    2025 Yearly: 119.87
+  quarterly_forecast: {}
+  annual_forecast:
+    2025 Yearly: 110.1
+    2026 Yearly: 170.0
+    2027 Yearly: 220.0
+eps:
+  quarterly:
+    Q1 2026: -0.14
+  annual:
+    2025 Yearly: -0.07
+  quarterly_forecast: {}
+  annual_forecast:
+    2026 Yearly: 0.04

@@ -1,0 +1,74 @@
+currency: USD
+company_name: Westrock Coffee Company
+sector: Consumer Non-Durables
+market_cap_billions: 0.78924
+revenue:
+  quarterly:
+    Q3 2024: 220.86
+    Q4 2024: 228.98
+    Q1 2025: 213.8
+    Q2 2025: 280.86
+    Q3 2025: 354.82
+    Q4 2025: 339.47
+    Q1 2026: 308.82
+    Q2 2026: 305.66
+  annual:
+    2022 Yearly: 867.87
+    2023 Yearly: 864.71
+    2024 Yearly: 850.73
+    2025 Yearly: 1190.0
+  quarterly_forecast:
+    Q3 2024: 238.32
+    Q4 2024: 223.63
+    Q1 2025: 206.32
+    Q2 2025: 238.32
+    Q3 2025: 281.54
+    Q4 2025: 317.4
+    Q1 2026: 285.13
+    Q2 2026: 318.8
+    Q3 2026: 339.95
+    Q4 2026: 342.05
+    Q1 2027: 323.65
+    Q2 2027: 339.0
+  annual_forecast:
+    2022 Yearly: 872.54
+    2023 Yearly: 875.76
+    2024 Yearly: 845.02
+    2025 Yearly: 1170.0
+    2026 Yearly: 1310.0
+    2027 Yearly: 1460.0
+eps:
+  quarterly:
+    Q3 2024: -0.1
+    Q4 2024: -0.16
+    Q1 2025: -0.22
+    Q2 2025: -0.2
+    Q3 2025: -0.11
+    Q4 2025: -0.15
+    Q1 2026: -0.05
+    Q2 2026: -0.11
+  annual:
+    2022 Yearly: -1.6
+    2023 Yearly: -0.23
+    2024 Yearly: -0.42
+    2025 Yearly: -0.68
+  quarterly_forecast:
+    Q3 2024: -0.04
+    Q4 2024: -0.11
+    Q1 2025: -0.18
+    Q2 2025: -0.14
+    Q3 2025: -0.07
+    Q4 2025: -0.16
+    Q1 2026: -0.13
+    Q2 2026: -0.07
+    Q3 2026: -0.07
+    Q4 2026: -0.04
+    Q1 2027: 0.01
+    Q2 2027: 0.03
+  annual_forecast:
+    2022 Yearly: -0.35
+    2023 Yearly: -0.21
+    2024 Yearly: -0.6
+    2025 Yearly: -0.7
+    2026 Yearly: -0.18
+    2027 Yearly: -0.03

@@ -1,0 +1,82 @@
+currency: USD
+company_name: Globus Medical, Inc.
+sector: Health Technology
+market_cap_billions: 11.0
+revenue:
+  quarterly:
+    Q3 2024: 625.71
+    Q4 2024: 657.29
+    Q1 2025: 598.12
+    Q2 2025: 745.34
+    Q3 2025: 769.05
+    Q4 2025: 826.42
+    Q1 2026: 759.85
+    Q2 2026: 789.61
+  annual:
+    2021 Yearly: 958.1
+    2022 Yearly: 1020.0
+    2023 Yearly: 1570.0
+    2024 Yearly: 2520.0
+    2025 Yearly: 2940.0
+  quarterly_forecast:
+    Q3 2024: 604.69
+    Q4 2024: 645.7
+    Q1 2025: 625.89
+    Q2 2025: 741.1
+    Q3 2025: 734.69
+    Q4 2025: 801.65
+    Q1 2026: 740.35
+    Q2 2026: 782.88
+    Q3 2026: 795.97
+    Q4 2026: 862.62
+    Q1 2027: 798.41
+    Q2 2027: 830.9
+  annual_forecast:
+    2021 Yearly: 951.95
+    2022 Yearly: 1020.0
+    2023 Yearly: 1560.0
+    2024 Yearly: 2510.0
+    2025 Yearly: 2910.0
+    2026 Yearly: 3200.0
+    2027 Yearly: 3400.0
+    2028 Yearly: 3620.0
+    2029 Yearly: 4010.0
+eps:
+  quarterly:
+    Q3 2024: 0.83
+    Q4 2024: 0.84
+    Q1 2025: 0.68
+    Q2 2025: 0.86
+    Q3 2025: 1.18
+    Q4 2025: 1.28
+    Q1 2026: 1.12
+    Q2 2026: 1.34
+  annual:
+    2021 Yearly: 2.04
+    2022 Yearly: 2.06
+    2023 Yearly: 2.32
+    2024 Yearly: 3.14
+    2025 Yearly: 3.98
+  quarterly_forecast:
+    Q3 2024: 0.65
+    Q4 2024: 0.75
+    Q1 2025: 0.74
+    Q2 2025: 0.75
+    Q3 2025: 0.78
+    Q4 2025: 1.13
+    Q1 2026: 0.92
+    Q2 2026: 1.1
+    Q3 2026: 1.17
+    Q4 2026: 1.35
+    Q1 2027: 1.19
+    Q2 2027: 1.24
+  annual_forecast:
+    2021 Yearly: 2.02
+    2022 Yearly: 2.03
+    2023 Yearly: 2.31
+    2024 Yearly: 2.99
+    2025 Yearly: 3.85
+    2026 Yearly: 4.74
+    2027 Yearly: 5.14
+    2028 Yearly: 5.67
+    2029 Yearly: 6.59

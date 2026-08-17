@@ -1,0 +1,80 @@
+currency: USD
+company_name: Urban Edge Properties
+sector: Finance
+market_cap_billions: 2.71
+revenue:
+  quarterly:
+    Q3 2024: 112.26
+    Q4 2024: 116.3
+    Q1 2025: 118.09
+    Q2 2025: 113.91
+    Q3 2025: 119.2
+    Q4 2025: 119.49
+    Q1 2026: 124.19
+    Q2 2026: 122.64
+  annual:
+    2021 Yearly: 422.47
+    2022 Yearly: 396.38
+    2023 Yearly: 406.11
+    2024 Yearly: 444.46
+    2025 Yearly: 470.69
+  quarterly_forecast:
+    Q3 2024: 106.29
+    Q4 2024: 110.79
+    Q1 2025: 119.05
+    Q2 2025: 115.99
+    Q3 2025: 116.17
+    Q4 2025: 117.81
+    Q1 2026: 119.45
+    Q2 2026: 117.86
+    Q3 2026: 119.85
+    Q4 2026: 122.71
+    Q1 2027: 125.18
+    Q2 2027: 122.39
+  annual_forecast:
+    2021 Yearly: 379.05
+    2022 Yearly: 384.75
+    2023 Yearly: 394.26
+    2024 Yearly: 429.98
+    2025 Yearly: 459.94
+    2026 Yearly: 483.39
+    2027 Yearly: 491.1
+    2028 Yearly: 417.79
+eps:
+  quarterly:
+    Q3 2024: 0.07
+    Q4 2024: 0.24
+    Q1 2025: 0.07
+    Q2 2025: 0.46
+    Q3 2025: 0.12
+    Q4 2025: 0.1
+    Q1 2026: 0.18
+    Q2 2026: 0.14
+  annual:
+    2021 Yearly: 0.88
+    2022 Yearly: 0.39
+    2023 Yearly: 2.11
+    2024 Yearly: 0.6
+    2025 Yearly: 0.35
+  quarterly_forecast:
+    Q3 2024: 0.04
+    Q4 2024: 0.1
+    Q1 2025: 0.09
+    Q2 2025: 0.09
+    Q3 2025: 0.1
+    Q4 2025: 0.08
+    Q1 2026: 0.12
+    Q2 2026: 0.11
+    Q3 2026: 0.13
+    Q4 2026: 0.11
+    Q1 2027: 0.11
+    Q2 2027: 0.12
+  annual_forecast:
+    2021 Yearly: 0.48
+    2022 Yearly: 0.36
+    2023 Yearly: 0.38
+    2024 Yearly: 0.31
+    2025 Yearly: 0.32
+    2026 Yearly: 0.52
+    2027 Yearly: 0.5
+    2028 Yearly: 0.53

@@ -1,0 +1,24 @@
+currency: USD
+company_name: ITG, Inc.
+sector: Industrial Services
+market_cap_billions: 0.6409199999999999
+revenue:
+  quarterly:
+    Q1 2026: 333.9
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: 385.21
+    Q3 2026: 439.35
+    Q4 2026: 377.07
+    Q1 2027: 419.73
+  annual_forecast: {}
+eps:
+  quarterly:
+    Q1 2026: 0.0
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: 0.11
+    Q3 2026: 0.23
+    Q4 2026: 0.14
+    Q1 2027: 0.15
+  annual_forecast: {}

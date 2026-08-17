@@ -1,0 +1,70 @@
+currency: USD
+company_name: RUM Group Inc.
+sector: Technology Services
+market_cap_billions: 2.71
+revenue:
+  quarterly:
+    Q3 2024: 25.06
+    Q4 2024: 30.23
+    Q1 2025: 23.71
+    Q2 2025: 25.08
+    Q3 2025: 24.76
+    Q4 2025: 27.07
+    Q1 2026: 25.46
+  annual:
+    2022 Yearly: 39.38
+    2023 Yearly: 80.96
+    2024 Yearly: 95.49
+    2025 Yearly: 100.62
+  quarterly_forecast:
+    Q3 2024: 29.25
+    Q4 2024: 29.74
+    Q1 2025: 22.77
+    Q2 2025: 26.77
+    Q3 2025: 26.85
+    Q4 2025: 27.09
+    Q1 2026: 25.98
+    Q2 2026: 31.23
+    Q3 2026: 65.2
+    Q4 2026: 70.45
+    Q1 2027: 46.4
+  annual_forecast:
+    2022 Yearly: 27.18
+    2023 Yearly: 88.7
+    2024 Yearly: 95.02
+    2025 Yearly: 100.66
+    2026 Yearly: 192.36
+    2027 Yearly: 317.01
+    2028 Yearly: 505.14
+eps:
+  quarterly:
+    Q3 2024: -0.15
+    Q4 2024: -1.15
+    Q1 2025: -0.01
+    Q2 2025: -0.12
+    Q3 2025: -0.06
+    Q4 2025: -0.13
+    Q1 2026: -0.12
+  annual:
+    2022 Yearly: -0.05
+    2023 Yearly: -0.58
+    2024 Yearly: -1.66
+    2025 Yearly: -0.32
+  quarterly_forecast:
+    Q4 2024: -0.13
+    Q1 2025: -0.12
+    Q2 2025: -0.1
+    Q3 2025: -0.07
+    Q4 2025: -0.06
+    Q1 2026: -0.1
+    Q2 2026: -0.09
+    Q3 2026: -0.09
+    Q4 2026: -0.04
+  annual_forecast:
+    2022 Yearly: -0.12
+    2023 Yearly: -0.67
+    2024 Yearly: -0.62
+    2025 Yearly: -0.29
+    2026 Yearly: -0.28
+    2027 Yearly: -0.14
+    2028 Yearly: 0.23

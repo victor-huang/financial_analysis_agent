@@ -1,0 +1,82 @@
+currency: USD
+company_name: ACV Auctions Inc.
+sector: Technology Services
+market_cap_billions: 1.27
+revenue:
+  quarterly:
+    Q3 2024: 171.0
+    Q4 2024: 159.51
+    Q1 2025: 182.7
+    Q2 2025: 193.7
+    Q3 2025: 199.56
+    Q4 2025: 183.65
+    Q1 2026: 204.19
+    Q2 2026: 213.94
+  annual:
+    2021 Yearly: 358.44
+    2022 Yearly: 422.0
+    2023 Yearly: 481.0
+    2024 Yearly: 637.16
+    2025 Yearly: 759.61
+  quarterly_forecast:
+    Q3 2024: 160.41
+    Q4 2024: 156.81
+    Q1 2025: 182.02
+    Q2 2025: 195.92
+    Q3 2025: 199.89
+    Q4 2025: 182.2
+    Q1 2026: 201.6
+    Q2 2026: 214.93
+    Q3 2026: 223.78
+    Q4 2026: 208.02
+    Q1 2027: 229.99
+    Q2 2027: 236.58
+  annual_forecast:
+    2021 Yearly: 344.58
+    2022 Yearly: 423.03
+    2023 Yearly: 481.08
+    2024 Yearly: 634.4
+    2025 Yearly: 757.56
+    2026 Yearly: 851.06
+    2027 Yearly: 951.6
+    2028 Yearly: 1080.0
+    2029 Yearly: 1170.0
+eps:
+  quarterly:
+    Q3 2024: 0.04
+    Q4 2024: -0.01
+    Q1 2025: 0.04
+    Q2 2025: 0.07
+    Q3 2025: 0.07
+    Q4 2025: 0.0
+    Q1 2026: 0.05
+    Q2 2026: 0.06
+  annual:
+    2021 Yearly: -0.62
+    2022 Yearly: -0.4
+    2023 Yearly: -0.1
+    2024 Yearly: 0.07
+    2025 Yearly: 0.17
+  quarterly_forecast:
+    Q3 2024: 0.01
+    Q4 2024: -0.01
+    Q1 2025: 0.02
+    Q2 2025: 0.08
+    Q3 2025: 0.06
+    Q4 2025: -0.01
+    Q1 2026: 0.03
+    Q2 2026: 0.05
+    Q3 2026: 0.08
+    Q4 2026: 0.03
+    Q1 2027: 0.04
+    Q2 2027: 0.08
+  annual_forecast:
+    2021 Yearly: -0.55
+    2022 Yearly: -0.45
+    2023 Yearly: -0.12
+    2024 Yearly: 0.07
+    2025 Yearly: 0.17
+    2026 Yearly: 0.21
+    2027 Yearly: 0.33
+    2028 Yearly: 0.55
+    2029 Yearly: 0.9

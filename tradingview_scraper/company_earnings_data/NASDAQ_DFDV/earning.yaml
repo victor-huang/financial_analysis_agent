@@ -1,0 +1,49 @@
+currency: USD
+company_name: DeFi Development Corp.
+sector: Finance
+market_cap_billions: 0.08644
+revenue:
+  quarterly:
+    Q3 2025: 1.99
+    Q4 2025: 4.6
+    Q1 2026: 4.49
+    Q2 2026: 2.66
+    Q3 2026: 3.31
+  annual:
+    2025 Yearly: 11.39
+  quarterly_forecast:
+    Q4 2025: 1.31
+    Q1 2026: 2.52
+    Q2 2026: 4.1
+    Q3 2026: 3.5
+    Q4 2026: 2.46
+    Q1 2027: 2.41
+    Q2 2027: 2.51
+  annual_forecast:
+    2025 Yearly: 11.0
+    2026 Yearly: 10.07
+    2027 Yearly: 11.54
+eps:
+  quarterly:
+    Q1 2025: -0.08
+    Q2 2025: 0.8
+    Q3 2025: 1.88
+    Q4 2025: -6.44
+    Q1 2026: -3.18
+    Q2 2026: -1.0
+  annual:
+    2025 Yearly: -4.0
+  quarterly_forecast:
+    Q2 2025: 0.5
+    Q3 2025: -0.33
+    Q4 2025: -0.07
+    Q1 2026: -0.24
+    Q2 2026: -0.34
+    Q3 2026: -0.2
+    Q4 2026: -0.32
+    Q1 2027: -0.33
+    Q2 2027: -0.15
+  annual_forecast:
+    2025 Yearly: 3.1
+    2026 Yearly: -3.4
+    2027 Yearly: -0.98

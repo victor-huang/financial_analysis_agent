@@ -1,0 +1,52 @@
+currency: USD
+company_name: NIQ Global Intelligence plc
+sector: Technology Services
+market_cap_billions: 3.45
+revenue:
+  quarterly:
+    Q1 2025: 965.9
+    Q2 2025: 1040.0
+    Q3 2025: 1050.0
+    Q4 2025: 1140.0
+    Q1 2026: 1070.0
+    Q2 2026: 1120.0
+  annual:
+    2025 Yearly: 4200.0
+  quarterly_forecast:
+    Q3 2025: 1020.0
+    Q4 2025: 1120.0
+    Q1 2026: 1050.0
+    Q2 2026: 1110.0
+    Q3 2026: 1110.0
+    Q4 2026: 1190.0
+    Q1 2027: 1130.0
+    Q2 2027: 1170.0
+  annual_forecast:
+    2025 Yearly: 4180.0
+    2026 Yearly: 4480.0
+    2027 Yearly: 4710.0
+    2028 Yearly: 4940.0
+eps:
+  quarterly:
+    Q1 2025: -0.02
+    Q2 2025: -0.01
+    Q3 2025: 0.03
+    Q4 2025: 0.2
+    Q1 2026: 0.15
+    Q2 2026: 0.27
+  annual:
+    2025 Yearly: 0.23
+  quarterly_forecast:
+    Q3 2025: 0.06
+    Q4 2025: 0.29
+    Q1 2026: 0.1
+    Q2 2026: 0.2
+    Q3 2026: 0.23
+    Q4 2026: 0.41
+    Q1 2027: 0.23
+    Q2 2027: 0.28
+  annual_forecast:
+    2025 Yearly: 0.31
+    2026 Yearly: 0.99
+    2027 Yearly: 1.21
+    2028 Yearly: 1.45

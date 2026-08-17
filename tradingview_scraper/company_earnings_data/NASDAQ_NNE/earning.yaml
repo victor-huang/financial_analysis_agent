@@ -1,0 +1,61 @@
+currency: USD
+company_name: Nano Nuclear Energy Inc.
+sector: Producer Manufacturing
+market_cap_billions: 1.02
+revenue:
+  quarterly:
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+  annual:
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q2 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q1 2027: 0.0
+    Q2 2027: 0.0
+  annual_forecast:
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 1.19
+    2027 Yearly: 5.43
+    2028 Yearly: 7.55
+    2029 Yearly: 22.33
+eps:
+  quarterly:
+    Q4 2024: -0.16
+    Q1 2025: -0.09
+    Q2 2025: -0.57
+    Q3 2025: -0.19
+    Q4 2025: -0.19
+    Q1 2026: -0.13
+    Q2 2026: -0.18
+    Q3 2026: -0.19
+  annual:
+    2024 Yearly: -0.39
+    2025 Yearly: -1.06
+  quarterly_forecast:
+    Q4 2024: -0.16
+    Q1 2025: -0.13
+    Q2 2025: -0.32
+    Q3 2025: -0.2
+    Q4 2025: -0.31
+    Q1 2026: -0.3
+    Q2 2026: -0.26
+    Q3 2026: -0.26
+    Q4 2026: -0.32
+    Q1 2027: -0.31
+    Q2 2027: -0.29
+    Q3 2027: -0.35
+  annual_forecast:
+    2024 Yearly: -0.44
+    2025 Yearly: -1.17
+    2026 Yearly: -0.89
+    2027 Yearly: -1.39
+    2028 Yearly: -1.86
+    2029 Yearly: -1.99

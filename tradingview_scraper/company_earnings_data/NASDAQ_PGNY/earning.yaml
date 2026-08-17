@@ -1,0 +1,82 @@
+currency: USD
+company_name: Progyny, Inc.
+sector: Commercial Services
+market_cap_billions: 2.37
+revenue:
+  quarterly:
+    Q3 2024: 286.63
+    Q4 2024: 298.43
+    Q1 2025: 324.04
+    Q2 2025: 332.87
+    Q3 2025: 313.35
+    Q4 2025: 318.4
+    Q1 2026: 328.5
+    Q2 2026: 350.51
+  annual:
+    2021 Yearly: 500.62
+    2022 Yearly: 786.91
+    2023 Yearly: 1090.0
+    2024 Yearly: 1170.0
+    2025 Yearly: 1290.0
+  quarterly_forecast:
+    Q3 2024: 296.85
+    Q4 2024: 277.78
+    Q1 2025: 307.86
+    Q2 2025: 320.1
+    Q3 2025: 299.26
+    Q4 2025: 307.42
+    Q1 2026: 326.46
+    Q2 2026: 348.63
+    Q3 2026: 350.57
+    Q4 2026: 356.24
+    Q1 2027: 355.9
+    Q2 2027: 375.03
+  annual_forecast:
+    2021 Yearly: 507.85
+    2022 Yearly: 784.27
+    2023 Yearly: 1090.0
+    2024 Yearly: 1150.0
+    2025 Yearly: 1280.0
+    2026 Yearly: 1380.0
+    2027 Yearly: 1510.0
+    2028 Yearly: 1580.0
+    2029 Yearly: 1700.0
+eps:
+  quarterly:
+    Q3 2024: 0.11
+    Q4 2024: 0.12
+    Q1 2025: 0.17
+    Q2 2025: 0.19
+    Q3 2025: 0.15
+    Q4 2025: 0.14
+    Q1 2026: 0.29
+    Q2 2026: 0.34
+  annual:
+    2021 Yearly: 0.66
+    2022 Yearly: 0.3
+    2023 Yearly: 0.62
+    2024 Yearly: 0.57
+    2025 Yearly: 0.65
+  quarterly_forecast:
+    Q3 2024: 0.14
+    Q4 2024: 0.1
+    Q1 2025: 0.19
+    Q2 2025: 0.16
+    Q3 2025: 0.13
+    Q4 2025: 0.15
+    Q1 2026: 0.26
+    Q2 2026: 0.33
+    Q3 2026: 0.33
+    Q4 2026: 0.34
+    Q1 2027: 0.3
+    Q2 2027: 0.33
+  annual_forecast:
+    2021 Yearly: 0.54
+    2022 Yearly: 0.29
+    2023 Yearly: 0.59
+    2024 Yearly: 0.55
+    2025 Yearly: 0.66
+    2026 Yearly: 1.29
+    2027 Yearly: 1.49
+    2028 Yearly: 1.64
+    2029 Yearly: 1.97

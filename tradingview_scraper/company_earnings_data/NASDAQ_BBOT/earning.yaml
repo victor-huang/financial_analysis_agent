@@ -1,0 +1,52 @@
+currency: USD
+company_name: BridgeBio Oncology Therapeutics, Inc.
+sector: Health Technology
+market_cap_billions: 0.73699
+revenue:
+  quarterly:
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+  annual:
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+  annual_forecast:
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 0.0
+    2028 Yearly: 0.0
+    2029 Yearly: 28.05
+eps:
+  quarterly:
+    Q1 2025: -52.15
+    Q2 2025: -50.34
+    Q3 2025: -1.03
+    Q4 2025: -0.49
+    Q1 2026: -0.53
+  annual:
+    2025 Yearly: -4.3
+  quarterly_forecast:
+    Q2 2025: -42.45
+    Q3 2025: -0.38
+    Q4 2025: -0.63
+    Q1 2026: -0.51
+    Q2 2026: -0.56
+    Q3 2026: -0.58
+    Q4 2026: -0.56
+    Q1 2027: -0.54
+  annual_forecast:
+    2025 Yearly: -3.22
+    2026 Yearly: -2.3
+    2027 Yearly: -2.18
+    2028 Yearly: -2.29
+    2029 Yearly: -2.13

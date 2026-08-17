@@ -1,0 +1,82 @@
+currency: USD
+company_name: Alta Equipment Group Inc.
+sector: Distribution Services
+market_cap_billions: 0.23979
+revenue:
+  quarterly:
+    Q3 2024: 448.8
+    Q4 2024: 498.1
+    Q1 2025: 423.0
+    Q2 2025: 481.2
+    Q3 2025: 422.6
+    Q4 2025: 509.1
+    Q1 2026: 410.5
+    Q2 2026: 475.5
+  annual:
+    2021 Yearly: 1210.0
+    2022 Yearly: 1570.0
+    2023 Yearly: 1880.0
+    2024 Yearly: 1880.0
+    2025 Yearly: 1840.0
+  quarterly_forecast:
+    Q3 2024: 479.88
+    Q4 2024: 485.48
+    Q1 2025: 436.14
+    Q2 2025: 478.64
+    Q3 2025: 456.68
+    Q4 2025: 489.56
+    Q1 2026: 424.18
+    Q2 2026: 488.71
+    Q3 2026: 460.29
+    Q4 2026: 528.18
+    Q1 2027: 439.56
+    Q2 2027: 516.47
+  annual_forecast:
+    2021 Yearly: 1160.0
+    2022 Yearly: 1510.0
+    2023 Yearly: 1840.0
+    2024 Yearly: 1860.0
+    2025 Yearly: 1820.0
+    2026 Yearly: 1890.0
+    2027 Yearly: 1950.0
+    2028 Yearly: 2070.0
+    2029 Yearly: 2140.0
+eps:
+  quarterly:
+    Q3 2024: -0.72
+    Q4 2024: -0.19
+    Q1 2025: -0.47
+    Q2 2025: -0.12
+    Q3 2025: -1.31
+    Q4 2025: -0.39
+    Q1 2026: -0.62
+    Q2 2026: -0.25
+  annual:
+    2021 Yearly: -0.15
+    2022 Yearly: 0.39
+    2023 Yearly: 0.68
+    2024 Yearly: -1.11
+    2025 Yearly: -2.55
+  quarterly_forecast:
+    Q3 2024: -0.14
+    Q4 2024: -0.27
+    Q1 2025: -0.55
+    Q2 2025: -0.17
+    Q3 2025: -0.2
+    Q4 2025: -0.3
+    Q1 2026: -0.57
+    Q2 2026: -0.21
+    Q3 2026: -0.23
+    Q4 2026: -0.08
+    Q1 2027: -0.59
+    Q2 2027: -0.18
+  annual_forecast:
+    2021 Yearly: -0.39
+    2022 Yearly: 0.31
+    2023 Yearly: 0.38
+    2024 Yearly: -1.53
+    2025 Yearly: -2.46
+    2026 Yearly: -1.15
+    2027 Yearly: -0.83
+    2028 Yearly: -0.83
+    2029 Yearly: -0.45

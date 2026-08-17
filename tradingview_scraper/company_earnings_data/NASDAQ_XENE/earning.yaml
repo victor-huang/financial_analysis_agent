@@ -1,0 +1,80 @@
+currency: USD
+company_name: Xenon Pharmaceuticals Inc.
+sector: Health Technology
+market_cap_billions: 6.24
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 7.5
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+  annual:
+    2021 Yearly: 18.44
+    2022 Yearly: 9.43
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 7.5
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q1 2025: 2.71
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 1.36
+    Q2 2026: 1.67
+    Q3 2026: 0.0
+    Q4 2026: 1.4
+    Q1 2027: 0.0
+    Q2 2027: 0.0
+  annual_forecast:
+    2021 Yearly: 20.72
+    2022 Yearly: 12.16
+    2023 Yearly: 2.2
+    2025 Yearly: 7.58
+    2026 Yearly: 2.34
+    2027 Yearly: 34.3
+    2028 Yearly: 254.61
+    2029 Yearly: 776.7
+eps:
+  quarterly:
+    Q3 2024: -0.81
+    Q4 2024: -0.84
+    Q1 2025: -0.83
+    Q2 2025: -1.07
+    Q3 2025: -1.15
+    Q4 2025: -1.31
+    Q1 2026: -1.17
+    Q2 2026: -1.11
+  annual:
+    2021 Yearly: -1.77
+    2022 Yearly: -2.06
+    2023 Yearly: -2.73
+    2024 Yearly: -3.01
+    2025 Yearly: -4.36
+  quarterly_forecast:
+    Q3 2024: -0.82
+    Q4 2024: -0.86
+    Q1 2025: -0.9
+    Q2 2025: -0.99
+    Q3 2025: -1.15
+    Q4 2025: -1.19
+    Q1 2026: -1.18
+    Q2 2026: -1.14
+    Q3 2026: -1.18
+    Q4 2026: -1.22
+    Q1 2027: -1.29
+    Q2 2027: -1.33
+  annual_forecast:
+    2021 Yearly: -1.66
+    2022 Yearly: -2.09
+    2023 Yearly: -2.83
+    2024 Yearly: -3.1
+    2025 Yearly: -4.25
+    2026 Yearly: -4.75
+    2027 Yearly: -4.91
+    2028 Yearly: -3.31
+    2029 Yearly: 1.18

@@ -1,0 +1,82 @@
+currency: USD
+company_name: Viant Technology Inc.
+sector: Technology Services
+market_cap_billions: 0.92337
+revenue:
+  quarterly:
+    Q3 2024: 47.35
+    Q4 2024: 54.36
+    Q1 2025: 42.73
+    Q2 2025: 48.37
+    Q3 2025: 52.99
+    Q4 2025: 64.56
+    Q1 2026: 50.3
+    Q2 2026: 60.2
+  annual:
+    2021 Yearly: 141.5
+    2022 Yearly: 124.73
+    2023 Yearly: 143.38
+    2024 Yearly: 177.39
+    2025 Yearly: 208.65
+  quarterly_forecast:
+    Q3 2024: 44.89
+    Q4 2024: 52.44
+    Q1 2025: 41.46
+    Q2 2025: 47.85
+    Q3 2025: 52.08
+    Q4 2025: 63.13
+    Q1 2026: 50.13
+    Q2 2026: 59.65
+    Q3 2026: 66.14
+    Q4 2026: 81.21
+    Q1 2027: 62.12
+    Q2 2027: 72.66
+  annual_forecast:
+    2021 Yearly: 142.22
+    2022 Yearly: 125.15
+    2023 Yearly: 142.78
+    2024 Yearly: 175.46
+    2025 Yearly: 207.16
+    2026 Yearly: 257.48
+    2027 Yearly: 310.23
+    2028 Yearly: 362.39
+    2029 Yearly: 383.3
+eps:
+  quarterly:
+    Q3 2024: 0.09
+    Q4 2024: 0.1
+    Q1 2025: -0.07
+    Q2 2025: 0.02
+    Q3 2025: 0.06
+    Q4 2025: 0.31
+    Q1 2026: -0.03
+    Q2 2026: -0.03
+  annual:
+    2021 Yearly: -0.63
+    2022 Yearly: -0.84
+    2023 Yearly: -0.23
+    2024 Yearly: 0.14
+    2025 Yearly: 0.36
+  quarterly_forecast:
+    Q3 2024: 0.04
+    Q4 2024: 0.14
+    Q1 2025: -0.07
+    Q2 2025: 0.01
+    Q3 2025: 0.05
+    Q4 2025: 0.17
+    Q1 2026: -0.01
+    Q2 2026: 0.03
+    Q3 2026: 0.07
+    Q4 2026: 0.25
+    Q1 2027: 0.03
+    Q2 2027: 0.08
+  annual_forecast:
+    2021 Yearly: -0.78
+    2022 Yearly: -0.84
+    2023 Yearly: -0.28
+    2024 Yearly: 0.17
+    2025 Yearly: 0.15
+    2026 Yearly: 0.3
+    2027 Yearly: 0.46
+    2028 Yearly: 0.7
+    2029 Yearly: 0.7

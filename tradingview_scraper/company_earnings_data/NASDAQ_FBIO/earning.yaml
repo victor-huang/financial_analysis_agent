@@ -1,0 +1,72 @@
+currency: USD
+company_name: Fortress Biotech, Inc.
+sector: Health Technology
+market_cap_billions: 0.09135
+revenue:
+  quarterly:
+    Q3 2024: 14.63
+    Q4 2024: 15.12
+    Q1 2025: 13.14
+    Q2 2025: 16.41
+    Q3 2025: 17.63
+    Q4 2025: 16.08
+    Q1 2026: 16.04
+  annual:
+    2021 Yearly: 68.79
+    2022 Yearly: 75.74
+    2023 Yearly: 84.51
+    2024 Yearly: 57.67
+    2025 Yearly: 63.26
+  quarterly_forecast:
+    Q3 2024: 32.22
+    Q4 2024: 14.58
+    Q1 2025: 11.62
+    Q2 2025: 14.53
+    Q3 2025: 21.02
+    Q4 2025: 26.17
+    Q1 2026: 16.34
+    Q2 2026: 18.3
+    Q3 2026: 22.29
+    Q4 2026: 23.25
+  annual_forecast:
+    2021 Yearly: 89.5
+    2022 Yearly: 77.97
+    2023 Yearly: 79.7
+    2024 Yearly: 57.13
+    2025 Yearly: 73.34
+    2026 Yearly: 79.88
+    2027 Yearly: 123.0
+eps:
+  quarterly:
+    Q3 2024: -0.76
+    Q4 2024: -0.17
+    Q1 2025: -0.48
+    Q2 2025: 0.45
+    Q3 2025: 0.11
+    Q4 2025: -0.15
+    Q1 2026: 2.82
+  annual:
+    2021 Yearly: -11.85
+    2022 Yearly: -14.55
+    2023 Yearly: -8.47
+    2024 Yearly: -2.69
+    2025 Yearly: -0.07
+  quarterly_forecast:
+    Q3 2024: -0.59
+    Q4 2024: -0.75
+    Q1 2025: -0.49
+    Q2 2025: -0.36
+    Q3 2025: -0.42
+    Q4 2025: 0.11
+    Q1 2026: -0.22
+    Q2 2026: -0.2
+    Q3 2026: -0.15
+    Q4 2026: -0.14
+  annual_forecast:
+    2021 Yearly: -5.5
+    2022 Yearly: -13.13
+    2023 Yearly: -7.75
+    2024 Yearly: -3.51
+    2025 Yearly: 0.32
+    2026 Yearly: 2.4
+    2027 Yearly: -0.5

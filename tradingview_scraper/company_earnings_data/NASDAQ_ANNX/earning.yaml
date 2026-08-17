@@ -1,0 +1,82 @@
+currency: USD
+company_name: Annexon, Inc.
+sector: Health Technology
+market_cap_billions: 0.87328
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 15.51
+    Q2 2027: 2.67
+  annual_forecast:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 43.0
+    2028 Yearly: 264.19
+    2029 Yearly: 624.58
+eps:
+  quarterly:
+    Q3 2024: -0.25
+    Q4 2024: -0.33
+    Q1 2025: -0.37
+    Q2 2025: -0.34
+    Q3 2025: -0.37
+    Q4 2025: -0.28
+    Q1 2026: -0.23
+    Q2 2026: -0.28
+  annual:
+    2021 Yearly: -3.4
+    2022 Yearly: -2.6
+    2023 Yearly: -1.77
+    2024 Yearly: -1.01
+    2025 Yearly: -1.34
+  quarterly_forecast:
+    Q3 2024: -0.26
+    Q4 2024: -0.27
+    Q1 2025: -0.3
+    Q2 2025: -0.37
+    Q3 2025: -0.34
+    Q4 2025: -0.31
+    Q1 2026: -0.28
+    Q2 2026: -0.24
+    Q3 2026: -0.27
+    Q4 2026: -0.26
+    Q1 2027: -0.23
+    Q2 2027: -0.3
+  annual_forecast:
+    2021 Yearly: -3.35
+    2022 Yearly: -2.68
+    2023 Yearly: -1.85
+    2024 Yearly: -0.95
+    2025 Yearly: -1.38
+    2026 Yearly: -1.02
+    2027 Yearly: -0.99
+    2028 Yearly: -0.23
+    2029 Yearly: 0.96

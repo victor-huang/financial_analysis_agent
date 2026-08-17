@@ -1,0 +1,82 @@
+currency: USD
+company_name: Jade Biosciences, Inc.
+sector: Health Technology
+market_cap_billions: 1.48
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+    Q2 2027: 0.0
+  annual_forecast:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 0.0
+    2028 Yearly: 0.0
+    2029 Yearly: 0.0
+eps:
+  quarterly:
+    Q3 2024: -19.6
+    Q4 2024: -6.65
+    Q1 2025: -12.1
+    Q2 2025: -0.86
+    Q3 2025: -0.48
+    Q4 2025: -0.45
+    Q1 2026: -0.57
+    Q2 2026: -0.76
+  annual:
+    2021 Yearly: -65.45
+    2022 Yearly: -73.5
+    2023 Yearly: -100.45
+    2024 Yearly: -71.5
+    2025 Yearly: -3.19
+  quarterly_forecast:
+    Q3 2024: -16.36
+    Q4 2024: -6.57
+    Q1 2025: -6.03
+    Q2 2025: -0.43
+    Q3 2025: -0.67
+    Q4 2025: -0.48
+    Q1 2026: -0.48
+    Q2 2026: -0.64
+    Q3 2026: -0.73
+    Q4 2026: -0.75
+    Q1 2027: -0.76
+    Q2 2027: -0.78
+  annual_forecast:
+    2021 Yearly: -56.42
+    2022 Yearly: -73.38
+    2023 Yearly: -97.56
+    2024 Yearly: -85.26
+    2025 Yearly: -2.88
+    2026 Yearly: -2.95
+    2027 Yearly: -2.92
+    2028 Yearly: -2.84
+    2029 Yearly: -2.91

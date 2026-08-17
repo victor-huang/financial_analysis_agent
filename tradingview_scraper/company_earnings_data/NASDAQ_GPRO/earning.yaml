@@ -1,0 +1,77 @@
+currency: USD
+company_name: GoPro, Inc.
+sector: Consumer Durables
+market_cap_billions: 0.12298
+revenue:
+  quarterly:
+    Q3 2024: 258.9
+    Q4 2024: 200.88
+    Q1 2025: 134.31
+    Q2 2025: 152.64
+    Q3 2025: 162.92
+    Q4 2025: 201.67
+    Q1 2026: 99.06
+  annual:
+    2021 Yearly: 1160.0
+    2022 Yearly: 1090.0
+    2023 Yearly: 1010.0
+    2024 Yearly: 801.47
+    2025 Yearly: 651.54
+  quarterly_forecast:
+    Q3 2024: 255.0
+    Q4 2024: 196.5
+    Q1 2025: 124.65
+    Q2 2025: 146.15
+    Q3 2025: 211.18
+    Q4 2025: 244.69
+    Q1 2026: 137.54
+    Q2 2026: 151.47
+    Q3 2026: 206.15
+    Q4 2026: 252.8
+    Q1 2027: 143.53
+    Q2 2027: 157.81
+  annual_forecast:
+    2021 Yearly: 1150.0
+    2022 Yearly: 1100.0
+    2023 Yearly: 1020.0
+    2024 Yearly: 799.84
+    2025 Yearly: 675.26
+    2026 Yearly: 799.69
+    2027 Yearly: 736.91
+eps:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: -0.09
+    Q1 2025: -0.12
+    Q2 2025: -0.08
+    Q3 2025: -0.09
+    Q4 2025: -0.02
+    Q1 2026: -0.35
+    Q2 2026: -0.21
+  annual:
+    2021 Yearly: 0.9
+    2022 Yearly: 0.47
+    2023 Yearly: -0.2
+    2024 Yearly: -2.42
+    2025 Yearly: -0.3
+  quarterly_forecast:
+    Q3 2024: -0.04
+    Q4 2024: -0.11
+    Q1 2025: -0.12
+    Q2 2025: -0.06
+    Q3 2025: -0.04
+    Q4 2025: 0.04
+    Q1 2026: -0.04
+    Q2 2026: 0.02
+    Q3 2026: 0.01
+    Q4 2026: 0.05
+    Q1 2027: -0.08
+    Q2 2027: -0.05
+  annual_forecast:
+    2021 Yearly: 0.85
+    2022 Yearly: 0.43
+    2023 Yearly: -0.19
+    2024 Yearly: -2.44
+    2025 Yearly: -0.23
+    2026 Yearly: 0.05
+    2027 Yearly: 0.05

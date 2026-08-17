@@ -1,0 +1,78 @@
+currency: USD
+company_name: D/B/A Compass Diversified Holdings Shares of Beneficial Interest
+sector: Finance
+market_cap_billions: 0.83361
+revenue:
+  quarterly:
+    Q3 2024: 582.62
+    Q4 2024: 620.25
+    Q1 2025: 453.77
+    Q2 2025: 478.69
+    Q3 2025: 472.56
+    Q4 2025: 468.56
+    Q1 2026: 426.86
+    Q2 2026: 424.04
+  annual:
+    2021 Yearly: 1840.0
+    2022 Yearly: 2320.0
+    2023 Yearly: 2060.0
+    2024 Yearly: 2210.0
+    2025 Yearly: 1870.0
+  quarterly_forecast:
+    Q3 2024: 571.68
+    Q4 2024: 624.64
+    Q1 2025: 487.6
+    Q2 2025: 588.0
+    Q3 2025: 637.0
+    Q4 2025: 486.17
+    Q1 2026: 437.75
+    Q2 2026: 425.35
+    Q3 2026: 422.78
+    Q4 2026: 423.68
+    Q1 2027: 427.57
+    Q2 2027: 450.25
+  annual_forecast:
+    2021 Yearly: 1950.0
+    2022 Yearly: 2240.0
+    2023 Yearly: 2210.0
+    2024 Yearly: 2270.0
+    2025 Yearly: 1870.0
+    2026 Yearly: 1700.0
+    2027 Yearly: 1770.0
+eps:
+  quarterly:
+    Q3 2024: 0.64
+    Q4 2024: 0.62
+    Q1 2025: -0.36
+    Q2 2025: -0.27
+    Q3 2025: -0.98
+    Q4 2025: 0.64
+    Q1 2026: 0.08
+    Q2 2026: -0.24
+  annual:
+    2021 Yearly: 1.8
+    2022 Yearly: 2.24
+    2023 Yearly: 2.05
+    2024 Yearly: 2.14
+    2025 Yearly: 0.07
+  quarterly_forecast:
+    Q3 2024: 0.54
+    Q4 2024: 0.56
+    Q1 2025: 0.54
+    Q2 2025: 0.57
+    Q3 2025: 0.61
+    Q4 2025: -1.04
+    Q1 2026: -0.06
+    Q2 2026: 0.09
+    Q3 2026: 0.08
+    Q4 2026: 0.07
+    Q1 2027: 0.07
+    Q2 2027: 0.09
+  annual_forecast:
+    2021 Yearly: 2.68
+    2022 Yearly: 2.21
+    2023 Yearly: 1.91
+    2024 Yearly: 2.19
+    2025 Yearly: -3.75
+    2026 Yearly: 0.28
+    2027 Yearly: 0.28

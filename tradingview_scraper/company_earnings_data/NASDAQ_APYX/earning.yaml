@@ -1,0 +1,80 @@
+currency: USD
+company_name: Apyx Medical Corporation
+sector: Health Technology
+market_cap_billions: 0.17435
+revenue:
+  quarterly:
+    Q3 2024: 11.49
+    Q4 2024: 14.22
+    Q1 2025: 9.43
+    Q2 2025: 11.37
+    Q3 2025: 12.88
+    Q4 2025: 19.16
+    Q1 2026: 12.49
+    Q2 2026: 13.88
+  annual:
+    2021 Yearly: 48.52
+    2022 Yearly: 44.51
+    2023 Yearly: 52.35
+    2024 Yearly: 48.1
+    2025 Yearly: 52.84
+  quarterly_forecast:
+    Q3 2024: 11.38
+    Q4 2024: 13.39
+    Q1 2025: 9.39
+    Q2 2025: 11.7
+    Q3 2025: 12.0
+    Q4 2025: 18.54
+    Q1 2026: 10.53
+    Q2 2026: 13.18
+    Q3 2026: 13.7
+    Q4 2026: 20.19
+    Q1 2027: 13.51
+    Q2 2027: 14.76
+  annual_forecast:
+    2021 Yearly: 46.32
+    2022 Yearly: 44.84
+    2023 Yearly: 52.53
+    2024 Yearly: 47.28
+    2025 Yearly: 52.22
+    2026 Yearly: 59.55
+    2027 Yearly: 66.12
+    2028 Yearly: 76.4
+eps:
+  quarterly:
+    Q3 2024: -0.14
+    Q4 2024: -0.12
+    Q1 2025: -0.1
+    Q2 2025: -0.09
+    Q3 2025: -0.05
+    Q4 2025: -0.03
+    Q1 2026: -0.05
+    Q2 2026: -0.07
+  annual:
+    2021 Yearly: -0.44
+    2022 Yearly: -0.67
+    2023 Yearly: -0.54
+    2024 Yearly: -0.66
+    2025 Yearly: -0.27
+  quarterly_forecast:
+    Q3 2024: -0.18
+    Q4 2024: -0.16
+    Q1 2025: -0.12
+    Q2 2025: -0.09
+    Q3 2025: -0.1
+    Q4 2025: -0.05
+    Q1 2026: -0.11
+    Q2 2026: -0.08
+    Q3 2026: -0.09
+    Q4 2026: -0.05
+    Q1 2027: -0.08
+    Q2 2027: -0.07
+  annual_forecast:
+    2021 Yearly: -0.49
+    2022 Yearly: -0.64
+    2023 Yearly: -0.44
+    2024 Yearly: -0.71
+    2025 Yearly: -0.3
+    2026 Yearly: -0.27
+    2027 Yearly: -0.25
+    2028 Yearly: -0.11

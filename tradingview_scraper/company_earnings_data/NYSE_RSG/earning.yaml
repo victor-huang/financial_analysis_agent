@@ -1,0 +1,82 @@
+currency: USD
+company_name: Republic Services, Inc.
+sector: Industrial Services
+market_cap_billions: 64.48
+revenue:
+  quarterly:
+    Q3 2024: 4080.0
+    Q4 2024: 4050.0
+    Q1 2025: 4010.0
+    Q2 2025: 4240.0
+    Q3 2025: 4210.0
+    Q4 2025: 4140.0
+    Q1 2026: 4110.0
+    Q2 2026: 4430.0
+  annual:
+    2021 Yearly: 11290.0
+    2022 Yearly: 13510.0
+    2023 Yearly: 14960.0
+    2024 Yearly: 16030.000000000002
+    2025 Yearly: 16590.0
+  quarterly_forecast:
+    Q3 2024: 4120.0
+    Q4 2024: 4070.0000000000005
+    Q1 2025: 4050.0
+    Q2 2025: 4260.0
+    Q3 2025: 4240.0
+    Q4 2025: 4210.0
+    Q1 2026: 4100.0
+    Q2 2026: 4360.0
+    Q3 2026: 4380.0
+    Q4 2026: 4340.0
+    Q1 2027: 4330.0
+    Q2 2027: 4590.0
+  annual_forecast:
+    2021 Yearly: 11220.0
+    2022 Yearly: 13450.0
+    2023 Yearly: 14870.0
+    2024 Yearly: 16059.999999999998
+    2025 Yearly: 16660.0
+    2026 Yearly: 17200.0
+    2027 Yearly: 18030.0
+    2028 Yearly: 18910.0
+    2029 Yearly: 19910.0
+eps:
+  quarterly:
+    Q3 2024: 1.81
+    Q4 2024: 1.58
+    Q1 2025: 1.58
+    Q2 2025: 1.77
+    Q3 2025: 1.9
+    Q4 2025: 1.76
+    Q1 2026: 1.7
+    Q2 2026: 1.85
+  annual:
+    2021 Yearly: 4.17
+    2022 Yearly: 4.93
+    2023 Yearly: 5.61
+    2024 Yearly: 6.46
+    2025 Yearly: 7.02
+  quarterly_forecast:
+    Q3 2024: 1.61
+    Q4 2024: 1.4
+    Q1 2025: 1.53
+    Q2 2025: 1.77
+    Q3 2025: 1.83
+    Q4 2025: 1.62
+    Q1 2026: 1.64
+    Q2 2026: 1.81
+    Q3 2026: 1.93
+    Q4 2026: 1.83
+    Q1 2027: 1.86
+    Q2 2027: 2.04
+  annual_forecast:
+    2021 Yearly: 4.13
+    2022 Yearly: 4.8
+    2023 Yearly: 5.49
+    2024 Yearly: 6.27
+    2025 Yearly: 6.89
+    2026 Yearly: 7.28
+    2027 Yearly: 8.08
+    2028 Yearly: 8.9
+    2029 Yearly: 9.59

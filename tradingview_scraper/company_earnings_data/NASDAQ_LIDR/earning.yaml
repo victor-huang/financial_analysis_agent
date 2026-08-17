@@ -1,0 +1,53 @@
+currency: USD
+company_name: AEye, Inc.
+sector: Technology Services
+market_cap_billions: 0.0565
+revenue:
+  quarterly: {}
+  annual:
+    2021 Yearly: 3.01
+    2022 Yearly: 3.6
+    2023 Yearly: 1.46
+  quarterly_forecast: {}
+  annual_forecast:
+    2023 Yearly: 1.8
+    2026 Yearly: 3.58
+    2027 Yearly: 1.5
+eps:
+  quarterly:
+    Q3 2024: -0.7
+    Q4 2024: -0.69
+    Q1 2025: -0.33
+    Q2 2025: -0.35
+    Q3 2025: -0.17
+    Q4 2025: -0.15
+    Q1 2026: -0.15
+    Q2 2026: -0.17
+  annual:
+    2021 Yearly: -14.7
+    2022 Yearly: -14.1
+    2023 Yearly: -7.86
+    2024 Yearly: -3.55
+    2025 Yearly: -1.05
+  quarterly_forecast:
+    Q3 2024: -0.89
+    Q4 2024: -0.88
+    Q1 2025: -0.99
+    Q2 2025: -0.98
+    Q3 2025: -0.31
+    Q4 2025: -0.18
+    Q1 2026: -0.15
+    Q2 2026: -0.17
+    Q3 2026: -0.18
+    Q4 2026: -0.18
+    Q1 2027: -0.16
+    Q2 2027: -0.16
+  annual_forecast:
+    2021 Yearly: -17.3
+    2022 Yearly: -16.05
+    2023 Yearly: -7.5
+    2024 Yearly: -3.8
+    2025 Yearly: -0.98
+    2026 Yearly: -0.68
+    2027 Yearly: -0.64
+    2028 Yearly: -0.42

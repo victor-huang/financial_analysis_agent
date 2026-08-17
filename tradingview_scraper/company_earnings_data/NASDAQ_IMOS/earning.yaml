@@ -1,0 +1,80 @@
+currency: USD
+company_name: ChipMOS TECHNOLOGIES INC.
+sector: Electronic Technology
+market_cap_billions: 2.03
+revenue:
+  quarterly:
+    Q3 2024: 189.57
+    Q4 2024: 164.62
+    Q1 2025: 184.4
+    Q2 2025: 184.79
+    Q3 2025: 197.93
+    Q4 2025: 207.78
+    Q1 2026: 217.71
+    Q2 2026: 228.67
+  annual:
+    2021 Yearly: 929.43
+    2022 Yearly: 766.83
+    2023 Yearly: 676.49
+    2024 Yearly: 745.6
+    2025 Yearly: 760.15
+  quarterly_forecast:
+    Q3 2024: 200.75
+    Q4 2024: 175.59
+    Q1 2025: 165.37
+    Q2 2025: 188.55
+    Q3 2025: 198.11
+    Q4 2025: 201.56
+    Q1 2026: 214.39
+    Q2 2026: 236.95
+    Q3 2026: 253.99
+    Q4 2026: 254.9
+    Q1 2027: 237.67
+    Q2 2027: 263.36
+  annual_forecast:
+    2021 Yearly: 990.5
+    2022 Yearly: 760.49
+    2023 Yearly: 661.85
+    2024 Yearly: 711.98
+    2025 Yearly: 762.49
+    2026 Yearly: 963.52
+    2027 Yearly: 1090.0
+    2028 Yearly: 1210.0
+eps:
+  quarterly:
+    Q3 2024: 0.26
+    Q4 2024: 0.22
+    Q1 2025: 0.16
+    Q2 2025: -0.48
+    Q3 2025: 0.32
+    Q4 2025: 0.45
+    Q1 2026: 0.45
+    Q2 2026: 0.79
+  annual:
+    2021 Yearly: 4.71
+    2022 Yearly: 3.02
+    2023 Yearly: 1.65
+    2024 Yearly: 1.29
+    2025 Yearly: 0.44
+  quarterly_forecast:
+    Q3 2024: 0.55
+    Q4 2024: 0.4
+    Q1 2025: 0.19
+    Q2 2025: 0.19
+    Q3 2025: 0.11
+    Q4 2025: 0.34
+    Q1 2026: 0.5
+    Q2 2026: 0.64
+    Q3 2026: 0.77
+    Q4 2026: 0.84
+    Q1 2027: 0.75
+    Q2 2027: 0.91
+  annual_forecast:
+    2021 Yearly: 4.71
+    2022 Yearly: 3.02
+    2023 Yearly: 1.61
+    2024 Yearly: 1.47
+    2025 Yearly: 0.33
+    2026 Yearly: 2.7
+    2027 Yearly: 3.97
+    2028 Yearly: 4.57

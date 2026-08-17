@@ -1,0 +1,74 @@
+currency: USD
+company_name: Identiv, Inc.
+sector: Electronic Technology
+market_cap_billions: 0.0629
+revenue:
+  quarterly:
+    Q3 2024: 6.53
+    Q4 2024: 6.7
+    Q1 2025: 5.27
+    Q2 2025: 5.04
+    Q3 2025: 5.01
+    Q4 2025: 6.17
+    Q1 2026: 7.41
+  annual:
+    2021 Yearly: 103.77
+    2022 Yearly: 112.92
+    2023 Yearly: 116.38
+    2024 Yearly: 26.63
+    2025 Yearly: 21.48
+  quarterly_forecast:
+    Q3 2024: 5.95
+    Q4 2024: 6.13
+    Q1 2025: 4.95
+    Q2 2025: 5.1
+    Q3 2025: 5.0
+    Q4 2025: 5.65
+    Q1 2026: 6.92
+    Q2 2026: 5.75
+    Q3 2026: 5.95
+    Q4 2026: 3.8
+    Q1 2027: 6.5
+  annual_forecast:
+    2021 Yearly: 103.57
+    2022 Yearly: 113.64
+    2023 Yearly: 117.57
+    2024 Yearly: 47.75
+    2025 Yearly: 20.96
+    2026 Yearly: 22.91
+    2027 Yearly: 30.2
+eps:
+  quarterly:
+    Q3 2024: 3.62
+    Q4 2024: -0.11
+    Q1 2025: -0.21
+    Q2 2025: -0.26
+    Q3 2025: -0.15
+    Q4 2025: -0.16
+    Q1 2026: -0.15
+  annual:
+    2021 Yearly: 0.02
+    2022 Yearly: -0.07
+    2023 Yearly: -0.29
+    2024 Yearly: 3.05
+    2025 Yearly: -0.79
+  quarterly_forecast:
+    Q3 2024: -0.25
+    Q4 2024: -0.29
+    Q1 2025: -0.22
+    Q2 2025: -0.25
+    Q3 2025: -0.22
+    Q4 2025: -0.17
+    Q1 2026: -0.14
+    Q2 2026: -0.14
+    Q3 2026: -0.14
+    Q4 2026: -0.09
+    Q1 2027: -0.17
+  annual_forecast:
+    2021 Yearly: 0.12
+    2022 Yearly: -0.07
+    2023 Yearly: -0.24
+    2024 Yearly: -1.16
+    2025 Yearly: -0.8
+    2026 Yearly: -0.53
+    2027 Yearly: -0.4

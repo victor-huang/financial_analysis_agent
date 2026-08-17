@@ -1,0 +1,74 @@
+currency: USD
+company_name: Universal Electronics Inc.
+sector: Consumer Durables
+market_cap_billions: 0.06012
+revenue:
+  quarterly:
+    Q3 2024: 102.07
+    Q4 2024: 110.45
+    Q1 2025: 92.33
+    Q2 2025: 97.67
+    Q3 2025: 90.55
+    Q4 2025: 87.75
+    Q1 2026: 79.04
+  annual:
+    2021 Yearly: 600.92
+    2022 Yearly: 542.75
+    2023 Yearly: 420.46
+    2024 Yearly: 394.88
+    2025 Yearly: 368.29
+  quarterly_forecast:
+    Q3 2024: 102.71
+    Q4 2024: 102.47
+    Q1 2025: 91.99
+    Q2 2025: 94.22
+    Q3 2025: 95.35
+    Q4 2025: 87.26
+    Q1 2026: 73.86
+    Q2 2026: 78.13
+    Q3 2026: 86.02
+    Q4 2026: 83.36
+    Q1 2027: 77.5
+  annual_forecast:
+    2021 Yearly: 605.14
+    2022 Yearly: 550.59
+    2023 Yearly: 419.8
+    2024 Yearly: 386.88
+    2025 Yearly: 367.8
+    2026 Yearly: 326.55
+    2027 Yearly: 331.9
+eps:
+  quarterly:
+    Q3 2024: 0.1
+    Q4 2024: 0.2
+    Q1 2025: -0.12
+    Q2 2025: 0.18
+    Q3 2025: 0.08
+    Q4 2025: 0.17
+    Q1 2026: -0.1
+  annual:
+    2021 Yearly: 3.59
+    2022 Yearly: 2.56
+    2023 Yearly: -0.18
+    2024 Yearly: -0.05
+    2025 Yearly: 0.31
+  quarterly_forecast:
+    Q3 2024: 0.12
+    Q4 2024: 0.14
+    Q1 2025: -0.15
+    Q2 2025: 0.07
+    Q3 2025: 0.05
+    Q4 2025: 0.06
+    Q1 2026: -0.03
+    Q2 2026: 0.03
+    Q3 2026: 0.21
+    Q4 2026: 0.22
+    Q1 2027: -0.02
+  annual_forecast:
+    2021 Yearly: 3.59
+    2022 Yearly: 2.9
+    2023 Yearly: -0.26
+    2024 Yearly: -0.01
+    2025 Yearly: 0.2
+    2026 Yearly: 0.35
+    2027 Yearly: 0.65

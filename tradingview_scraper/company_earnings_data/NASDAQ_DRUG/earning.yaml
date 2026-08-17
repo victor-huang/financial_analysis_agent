@@ -1,0 +1,49 @@
+currency: USD
+company_name: Bright Minds Biosciences Inc.
+sector: Health Technology
+market_cap_billions: 0.77681
+revenue:
+  quarterly:
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+  annual: {}
+  quarterly_forecast:
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+    Q2 2027: 0.0
+  annual_forecast: {}
+eps:
+  quarterly:
+    Q4 2024: -0.12
+    Q1 2025: 0.01
+    Q2 2025: -0.3
+    Q3 2025: -0.54
+    Q4 2025: -0.43
+    Q1 2026: -0.71
+    Q2 2026: -0.79
+  annual: {}
+  quarterly_forecast:
+    Q4 2024: -0.43
+    Q1 2025: -0.02
+    Q2 2025: -0.31
+    Q3 2025: -0.58
+    Q4 2025: -0.56
+    Q1 2026: -0.87
+    Q2 2026: -0.86
+    Q3 2026: -1.28
+    Q4 2026: -1.73
+    Q1 2027: -1.92
+    Q2 2027: -2.24
+  annual_forecast: {}

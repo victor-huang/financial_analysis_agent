@@ -1,0 +1,78 @@
+currency: USD
+company_name: Stereotaxis, Inc.
+sector: Health Technology
+market_cap_billions: 0.14298
+revenue:
+  quarterly:
+    Q3 2024: 9.2
+    Q4 2024: 6.34
+    Q1 2025: 7.47
+    Q2 2025: 8.8
+    Q3 2025: 7.46
+    Q4 2025: 8.64
+    Q1 2026: 6.29
+    Q2 2026: 6.2
+  annual:
+    2021 Yearly: 35.02
+    2022 Yearly: 28.15
+    2023 Yearly: 26.77
+    2024 Yearly: 26.92
+    2025 Yearly: 32.38
+  quarterly_forecast:
+    Q3 2024: 7.1
+    Q4 2024: 7.08
+    Q1 2025: 6.88
+    Q2 2025: 8.13
+    Q3 2025: 8.38
+    Q4 2025: 9.08
+    Q1 2026: 8.5
+    Q2 2026: 8.35
+    Q3 2026: 10.97
+    Q4 2026: 13.75
+    Q1 2027: 12.6
+    Q2 2027: 13.05
+  annual_forecast:
+    2021 Yearly: 34.1
+    2022 Yearly: 29.37
+    2023 Yearly: 29.9
+    2024 Yearly: 27.23
+    2025 Yearly: 32.78
+    2026 Yearly: 39.4
+    2027 Yearly: 53.0
+eps:
+  quarterly:
+    Q3 2024: -0.08
+    Q4 2024: -0.09
+    Q1 2025: -0.07
+    Q2 2025: -0.05
+    Q3 2025: -0.07
+    Q4 2025: -0.06
+    Q1 2026: -0.06
+    Q2 2026: -0.05
+  annual:
+    2021 Yearly: -0.16
+    2022 Yearly: -0.26
+    2023 Yearly: -0.27
+    2024 Yearly: -0.3
+    2025 Yearly: -0.25
+  quarterly_forecast:
+    Q3 2024: -0.05
+    Q4 2024: -0.07
+    Q1 2025: -0.07
+    Q2 2025: -0.07
+    Q3 2025: -0.06
+    Q4 2025: -0.06
+    Q1 2026: -0.05
+    Q2 2026: -0.05
+    Q3 2026: -0.05
+    Q4 2026: -0.03
+    Q1 2027: -0.03
+    Q2 2027: -0.03
+  annual_forecast:
+    2021 Yearly: -0.17
+    2022 Yearly: -0.27
+    2023 Yearly: -0.28
+    2024 Yearly: -0.27
+    2025 Yearly: -0.26
+    2026 Yearly: -0.19
+    2027 Yearly: -0.13

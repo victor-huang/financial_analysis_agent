@@ -1,0 +1,81 @@
+currency: USD
+company_name: AST SpaceMobile, Inc.
+sector: Communications
+market_cap_billions: 26.69
+revenue:
+  quarterly:
+    Q3 2024: 1.1
+    Q4 2024: 1.92
+    Q2 2025: 1.16
+    Q3 2025: 14.74
+    Q4 2025: 54.3
+    Q1 2026: 14.73
+    Q2 2026: 31.52
+  annual:
+    2021 Yearly: 12.4
+    2022 Yearly: 13.82
+    2023 Yearly: 0.0
+    2024 Yearly: 4.42
+    2025 Yearly: 70.92
+  quarterly_forecast:
+    Q3 2024: 1.8
+    Q4 2024: 2.38
+    Q1 2025: 4.04
+    Q2 2025: 6.68
+    Q3 2025: 19.93
+    Q4 2025: 41.77
+    Q1 2026: 39.01
+    Q2 2026: 34.53
+    Q3 2026: 50.4
+    Q4 2026: 67.78
+    Q1 2027: 91.52
+    Q2 2027: 124.6
+  annual_forecast:
+    2021 Yearly: 9.2
+    2022 Yearly: 13.81
+    2023 Yearly: 0.0
+    2024 Yearly: 5.19
+    2025 Yearly: 58.38
+    2026 Yearly: 156.14
+    2027 Yearly: 736.73
+    2028 Yearly: 1750.0
+    2029 Yearly: 3200.0
+eps:
+  quarterly:
+    Q3 2024: -1.1
+    Q4 2024: -0.18
+    Q1 2025: -0.2
+    Q2 2025: -0.41
+    Q3 2025: -0.45
+    Q4 2025: -0.18
+    Q1 2026: -0.51
+    Q2 2026: -0.77
+  annual:
+    2021 Yearly: -0.37
+    2022 Yearly: -0.58
+    2023 Yearly: -1.07
+    2024 Yearly: -1.94
+    2025 Yearly: -0.89
+  quarterly_forecast:
+    Q3 2024: -0.2
+    Q4 2024: -0.19
+    Q1 2025: -0.19
+    Q2 2025: -0.19
+    Q3 2025: -0.21
+    Q4 2025: -0.17
+    Q1 2026: -0.26
+    Q2 2026: -0.37
+    Q3 2026: -0.36
+    Q4 2026: -0.37
+    Q1 2027: -0.4
+    Q2 2027: -0.37
+  annual_forecast:
+    2021 Yearly: -0.32
+    2022 Yearly: -0.51
+    2023 Yearly: -0.83
+    2024 Yearly: -1.76
+    2025 Yearly: -1.06
+    2026 Yearly: -1.53
+    2027 Yearly: -0.82
+    2028 Yearly: 0.61
+    2029 Yearly: 2.47

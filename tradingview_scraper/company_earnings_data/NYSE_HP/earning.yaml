@@ -1,0 +1,78 @@
+currency: USD
+company_name: Helmerich & Payne, Inc.
+sector: Industrial Services
+market_cap_billions: 3.7
+revenue:
+  quarterly:
+    Q1 2025: 677.3
+    Q2 2025: 1020.0
+    Q3 2025: 1040.0
+    Q4 2025: 1010.0
+    Q1 2026: 1020.0
+    Q2 2026: 932.36
+    Q3 2026: 1030.0
+  annual:
+    2021 Yearly: 1220.0
+    2022 Yearly: 2060.0
+    2023 Yearly: 2870.0
+    2024 Yearly: 2760.0
+    2025 Yearly: 3750.0
+  quarterly_forecast:
+    Q1 2025: 692.65
+    Q2 2025: 938.07
+    Q3 2025: 1010.0
+    Q4 2025: 972.91
+    Q1 2026: 989.27
+    Q2 2026: 945.6
+    Q3 2026: 987.7
+    Q4 2026: 1030.0
+    Q1 2027: 1040.0
+    Q2 2027: 1010.0
+    Q3 2027: 1020.0
+  annual_forecast:
+    2021 Yearly: 1220.0
+    2022 Yearly: 2050.0
+    2023 Yearly: 2870.0
+    2024 Yearly: 2760.0
+    2025 Yearly: 3730.0
+    2026 Yearly: 3960.0
+    2027 Yearly: 4230.0
+    2028 Yearly: 4460.0
+    2029 Yearly: 3950.0
+eps:
+  quarterly:
+    Q1 2025: 0.71
+    Q2 2025: 0.02
+    Q3 2025: 0.22
+    Q4 2025: -0.01
+    Q1 2026: -0.15
+    Q2 2026: -0.38
+    Q3 2026: -0.11
+  annual:
+    2021 Yearly: -2.6
+    2022 Yearly: 0.1
+    2023 Yearly: 4.15
+    2024 Yearly: 3.5
+    2025 Yearly: 0.94
+  quarterly_forecast:
+    Q1 2025: 0.68
+    Q2 2025: 0.66
+    Q3 2025: 0.19
+    Q4 2025: 0.23
+    Q1 2026: 0.09
+    Q2 2026: -0.05
+    Q3 2026: 0.09
+    Q4 2026: 0.24
+    Q1 2027: 0.38
+    Q2 2027: 0.39
+    Q3 2027: 0.42
+  annual_forecast:
+    2021 Yearly: -2.47
+    2022 Yearly: 0.21
+    2023 Yearly: 4.14
+    2024 Yearly: 3.52
+    2025 Yearly: 0.67
+    2026 Yearly: -0.23
+    2027 Yearly: 1.48
+    2028 Yearly: 3.19
+    2029 Yearly: 1.09

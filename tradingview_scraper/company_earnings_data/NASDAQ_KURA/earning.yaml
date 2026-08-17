@@ -1,0 +1,78 @@
+currency: USD
+company_name: Kura Oncology, Inc.
+sector: Health Technology
+market_cap_billions: 0.88242
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 53.88
+    Q1 2025: 14.11
+    Q2 2025: 15.29
+    Q3 2025: 20.75
+    Q4 2025: 17.34
+    Q1 2026: 18.27
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 53.88
+    2025 Yearly: 67.48
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 53.82
+    Q1 2025: 17.53
+    Q2 2025: 42.67
+    Q3 2025: 18.94
+    Q4 2025: 35.43
+    Q1 2026: 25.97
+    Q2 2026: 20.16
+    Q3 2026: 23.39
+    Q4 2026: 32.9
+    Q1 2027: 41.92
+  annual_forecast:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 50.23
+    2025 Yearly: 85.37
+    2026 Yearly: 95.04
+    2027 Yearly: 214.6
+    2028 Yearly: 297.67
+    2029 Yearly: 522.14
+eps:
+  quarterly:
+    Q3 2024: -0.63
+    Q4 2024: -0.22
+    Q1 2025: -0.66
+    Q2 2025: -0.75
+    Q3 2025: -0.85
+    Q4 2025: -0.92
+    Q1 2026: -0.83
+  annual:
+    2021 Yearly: -1.97
+    2022 Yearly: -2.03
+    2023 Yearly: -2.08
+    2024 Yearly: -2.02
+    2025 Yearly: -3.18
+  quarterly_forecast:
+    Q3 2024: -0.63
+    Q4 2024: -0.64
+    Q1 2025: -0.6
+    Q2 2025: -0.37
+    Q3 2025: -0.73
+    Q4 2025: -0.64
+    Q1 2026: -0.83
+    Q2 2026: -0.88
+    Q3 2026: -0.89
+    Q4 2026: -0.88
+    Q1 2027: -0.72
+  annual_forecast:
+    2021 Yearly: -2.02
+    2022 Yearly: -2.14
+    2023 Yearly: -2.08
+    2024 Yearly: -2.45
+    2025 Yearly: -2.87
+    2026 Yearly: -3.49
+    2027 Yearly: -2.61
+    2028 Yearly: -2.0
+    2029 Yearly: -0.24

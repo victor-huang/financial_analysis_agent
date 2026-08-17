@@ -1,0 +1,78 @@
+currency: USD
+company_name: OptimizeRx Corporation
+sector: Technology Services
+market_cap_billions: 0.13211
+revenue:
+  quarterly:
+    Q3 2024: 21.31
+    Q4 2024: 32.32
+    Q1 2025: 21.93
+    Q2 2025: 29.2
+    Q3 2025: 26.07
+    Q4 2025: 32.24
+    Q1 2026: 19.84
+    Q2 2026: 19.95
+  annual:
+    2021 Yearly: 61.29
+    2022 Yearly: 62.45
+    2023 Yearly: 71.52
+    2024 Yearly: 92.13
+    2025 Yearly: 109.43
+  quarterly_forecast:
+    Q3 2024: 24.99
+    Q4 2024: 30.7
+    Q1 2025: 18.69
+    Q2 2025: 22.26
+    Q3 2025: 23.55
+    Q4 2025: 30.91
+    Q1 2026: 18.74
+    Q2 2026: 20.2
+    Q3 2026: 25.46
+    Q4 2026: 31.9
+    Q1 2027: 21.1
+    Q2 2027: 21.14
+  annual_forecast:
+    2021 Yearly: 61.14
+    2022 Yearly: 64.57
+    2023 Yearly: 71.08
+    2024 Yearly: 90.17
+    2025 Yearly: 108.11
+    2026 Yearly: 97.41
+    2027 Yearly: 108.89
+eps:
+  quarterly:
+    Q3 2024: 0.12
+    Q4 2024: 0.3
+    Q1 2025: 0.08
+    Q2 2025: 0.24
+    Q3 2025: 0.2
+    Q4 2025: 0.51
+    Q1 2026: 0.14
+    Q2 2026: 0.09
+  annual:
+    2021 Yearly: 0.45
+    2022 Yearly: 0.35
+    2023 Yearly: 0.26
+    2024 Yearly: 0.33
+    2025 Yearly: 1.05
+  quarterly_forecast:
+    Q3 2024: 0.06
+    Q4 2024: 0.27
+    Q1 2025: -0.12
+    Q2 2025: 0.02
+    Q3 2025: 0.04
+    Q4 2025: 0.22
+    Q1 2026: 0.05
+    Q2 2026: 0.11
+    Q3 2026: 0.25
+    Q4 2026: 0.44
+    Q1 2027: 0.13
+    Q2 2027: 0.1
+  annual_forecast:
+    2021 Yearly: 0.43
+    2022 Yearly: 0.35
+    2023 Yearly: 0.37
+    2024 Yearly: 0.31
+    2025 Yearly: 0.75
+    2026 Yearly: 0.94
+    2027 Yearly: 1.09

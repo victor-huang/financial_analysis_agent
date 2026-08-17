@@ -1,0 +1,42 @@
+currency: USD
+company_name: Lumexa Imaging Holdings, Inc.
+sector: Health Services
+market_cap_billions: 1.13
+revenue:
+  quarterly:
+    Q4 2025: 267.73
+    Q1 2026: 252.54
+  annual:
+    2025 Yearly: 1020.0
+  quarterly_forecast:
+    Q4 2025: 261.17
+    Q1 2026: 249.52
+    Q2 2026: 263.12
+    Q3 2026: 271.15
+    Q4 2026: 279.76
+    Q1 2027: 265.79
+  annual_forecast:
+    2025 Yearly: 1020.0
+    2026 Yearly: 1070.0
+    2027 Yearly: 1120.0
+    2028 Yearly: 1190.0
+    2029 Yearly: 1250.0
+eps:
+  quarterly:
+    Q4 2025: -0.38
+    Q1 2026: 0.19
+  annual:
+    2025 Yearly: -0.66
+  quarterly_forecast:
+    Q4 2025: 0.05
+    Q1 2026: 0.12
+    Q2 2026: 0.15
+    Q3 2026: 0.19
+    Q4 2026: 0.22
+    Q1 2027: 0.17
+  annual_forecast:
+    2025 Yearly: -0.14
+    2026 Yearly: 0.76
+    2027 Yearly: 0.82
+    2028 Yearly: 0.98
+    2029 Yearly: 1.3

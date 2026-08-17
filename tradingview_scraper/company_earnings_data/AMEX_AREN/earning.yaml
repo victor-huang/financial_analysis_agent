@@ -1,0 +1,74 @@
+currency: USD
+company_name: The Arena Group Holdings, Inc.
+sector: Technology Services
+market_cap_billions: 0.10473
+revenue:
+  quarterly:
+    Q3 2024: 33.55
+    Q4 2024: 36.23
+    Q1 2025: 31.82
+    Q2 2025: 45.01
+    Q3 2025: 29.76
+    Q4 2025: 28.24
+    Q1 2026: 20.41
+    Q2 2026: 22.18
+  annual:
+    2021 Yearly: 189.14
+    2022 Yearly: 220.94
+    2024 Yearly: 125.91
+    2025 Yearly: 134.83
+  quarterly_forecast:
+    Q3 2024: 69.1
+    Q4 2024: 80.7
+    Q2 2025: 42.5
+    Q3 2025: 38.0
+    Q4 2025: 34.0
+    Q1 2026: 25.0
+    Q2 2026: 30.0
+    Q3 2026: 31.0
+    Q4 2026: 33.0
+    Q1 2027: 21.43
+    Q2 2027: 31.5
+  annual_forecast:
+    2021 Yearly: 185.3
+    2022 Yearly: 231.1
+    2023 Yearly: 247.6
+    2024 Yearly: 269.9
+    2025 Yearly: 140.59
+    2026 Yearly: 114.41
+    2027 Yearly: 120.13
+eps:
+  quarterly:
+    Q3 2024: 0.13
+    Q4 2024: 0.15
+    Q1 2025: 0.08
+    Q2 2025: 0.26
+    Q3 2025: 0.14
+    Q4 2025: 0.11
+    Q1 2026: -0.06
+    Q2 2026: 0.0
+  annual:
+    2021 Yearly: -7.87
+    2022 Yearly: -4.02
+    2024 Yearly: -0.22
+    2025 Yearly: 0.6
+  quarterly_forecast:
+    Q3 2024: 0.07
+    Q4 2024: 0.45
+    Q2 2025: 0.19
+    Q3 2025: 0.16
+    Q4 2025: 0.13
+    Q1 2026: 0.1
+    Q2 2026: 0.12
+    Q3 2026: 0.13
+    Q4 2026: 0.15
+    Q1 2027: 0.06
+    Q2 2027: 0.12
+  annual_forecast:
+    2021 Yearly: -6.66
+    2022 Yearly: -3.05
+    2023 Yearly: -1.48
+    2024 Yearly: 0.11
+    2025 Yearly: 2.64
+    2026 Yearly: 0.34
+    2027 Yearly: 0.46

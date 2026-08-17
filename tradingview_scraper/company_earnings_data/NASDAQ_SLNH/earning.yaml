@@ -1,0 +1,45 @@
+currency: USD
+company_name: Soluna Holdings, Inc.
+sector: Electronic Technology
+market_cap_billions: 0.21296
+revenue:
+  quarterly:
+    Q1 2025: 5.9
+    Q2 2025: 6.16
+    Q3 2025: 8.41
+    Q4 2025: 9.2
+    Q1 2026: 9.39
+  annual:
+    2025 Yearly: 29.72
+  quarterly_forecast:
+    Q2 2025: 8.1
+    Q3 2025: 9.0
+    Q4 2025: 10.6
+    Q2 2026: 15.7
+    Q3 2026: 17.0
+    Q4 2026: 18.2
+    Q1 2027: 19.1
+  annual_forecast:
+    2025 Yearly: 31.1
+    2026 Yearly: 60.3
+    2027 Yearly: 76.7
+eps:
+  quarterly:
+    Q1 2025: -0.63
+    Q2 2025: -0.69
+    Q3 2025: -1.14
+    Q1 2026: -0.24
+  annual:
+    2025 Yearly: -2.38
+  quarterly_forecast:
+    Q2 2025: -0.76
+    Q3 2025: -0.61
+    Q4 2025: -0.2
+    Q2 2026: -0.11
+    Q3 2026: -0.08
+    Q4 2026: -0.08
+    Q1 2027: -0.07
+  annual_forecast:
+    2025 Yearly: -1.91
+    2026 Yearly: -0.45
+    2027 Yearly: -0.27

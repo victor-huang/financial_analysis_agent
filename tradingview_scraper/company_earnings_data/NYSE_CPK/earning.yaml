@@ -1,0 +1,82 @@
+currency: USD
+company_name: Chesapeake Utilities Corporation
+sector: Utilities
+market_cap_billions: 3.2
+revenue:
+  quarterly:
+    Q3 2024: 160.14
+    Q4 2024: 215.0
+    Q1 2025: 298.7
+    Q2 2025: 192.8
+    Q3 2025: 179.6
+    Q4 2025: 258.9
+    Q1 2026: 353.1
+    Q2 2026: 201.9
+  annual:
+    2021 Yearly: 569.97
+    2022 Yearly: 680.7
+    2023 Yearly: 670.6
+    2024 Yearly: 787.2
+    2025 Yearly: 930.0
+  quarterly_forecast:
+    Q3 2024: 171.85
+    Q4 2024: 237.84
+    Q1 2025: 252.3
+    Q2 2025: 182.45
+    Q3 2025: 132.23
+    Q4 2025: 208.58
+    Q1 2026: 339.86
+    Q2 2026: 198.9
+    Q3 2026: 188.25
+    Q4 2026: 275.97
+    Q1 2027: 390.26
+    Q2 2027: 229.89
+  annual_forecast:
+    2021 Yearly: 617.51
+    2022 Yearly: 657.26
+    2023 Yearly: 698.54
+    2024 Yearly: 842.34
+    2025 Yearly: 874.12
+    2026 Yearly: 1020.0
+    2027 Yearly: 1070.0
+    2028 Yearly: 1110.0
+    2029 Yearly: 1180.0
+eps:
+  quarterly:
+    Q3 2024: 0.8
+    Q4 2024: 1.63
+    Q1 2025: 2.22
+    Q2 2025: 1.04
+    Q3 2025: 0.82
+    Q4 2025: 1.94
+    Q1 2026: 2.47
+    Q2 2026: 1.05
+  annual:
+    2021 Yearly: 4.73
+    2022 Yearly: 5.04
+    2023 Yearly: 5.31
+    2024 Yearly: 5.39
+    2025 Yearly: 6.01
+  quarterly_forecast:
+    Q3 2024: 0.67
+    Q4 2024: 1.64
+    Q1 2025: 2.25
+    Q2 2025: 1.02
+    Q3 2025: 0.91
+    Q4 2025: 1.94
+    Q1 2026: 2.38
+    Q2 2026: 1.07
+    Q3 2026: 0.92
+    Q4 2026: 2.0
+    Q1 2027: 2.67
+    Q2 2027: 1.23
+  annual_forecast:
+    2021 Yearly: 4.76
+    2022 Yearly: 4.96
+    2023 Yearly: 5.2
+    2024 Yearly: 5.39
+    2025 Yearly: 6.02
+    2026 Yearly: 6.42
+    2027 Yearly: 7.34
+    2028 Yearly: 7.88
+    2029 Yearly: 8.46

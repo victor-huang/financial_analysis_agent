@@ -1,0 +1,30 @@
+currency: USD
+company_name: Turn Therapeutics Inc.
+sector: Health Technology
+market_cap_billions: 0.28597
+revenue:
+  quarterly: {}
+  annual: {}
+  quarterly_forecast: {}
+  annual_forecast:
+    2027 Yearly: 0.0
+    2029 Yearly: 5.0
+eps:
+  quarterly:
+    Q3 2025: -0.07
+    Q1 2026: -0.03
+  annual:
+    2025 Yearly: -0.12
+  quarterly_forecast:
+    Q4 2025: -0.05
+    Q1 2026: -0.02
+    Q2 2026: -0.02
+    Q3 2026: -0.03
+    Q4 2026: -0.1
+    Q1 2027: -0.05
+  annual_forecast:
+    2025 Yearly: -0.14
+    2026 Yearly: -0.09
+    2027 Yearly: -0.32
+    2028 Yearly: -0.45
+    2029 Yearly: -1.09

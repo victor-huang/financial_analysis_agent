@@ -1,0 +1,84 @@
+currency: USD
+company_name: Covista Inc.
+sector: Consumer Services
+market_cap_billions: 4.23
+revenue:
+  quarterly:
+    Q1 2025: 417.4
+    Q2 2025: 447.73
+    Q3 2025: 466.06
+    Q4 2025: 457.11
+    Q1 2026: 462.29
+    Q2 2026: 503.38
+    Q3 2026: 487.03
+    Q4 2026: 501.38
+  annual:
+    2021 Yearly: 1110.0
+    2022 Yearly: 1390.0
+    2023 Yearly: 1450.0
+    2024 Yearly: 1580.0
+    2025 Yearly: 1790.0
+    2026 Yearly: 1950.0
+  quarterly_forecast:
+    Q1 2025: 397.48
+    Q2 2025: 429.24
+    Q3 2025: 446.8
+    Q4 2025: 440.93
+    Q1 2026: 452.3
+    Q2 2026: 488.72
+    Q3 2026: 474.01
+    Q4 2026: 486.6
+    Q1 2027: 491.6
+    Q2 2027: 535.75
+    Q3 2027: 517.35
+    Q4 2027: 519.55
+  annual_forecast:
+    2021 Yearly: 1120.0
+    2022 Yearly: 1370.0
+    2023 Yearly: 1440.0
+    2024 Yearly: 1570.0
+    2025 Yearly: 1770.0
+    2026 Yearly: 1940.0
+    2027 Yearly: 2070.0
+    2028 Yearly: 2240.0
+    2029 Yearly: 2440.0
+eps:
+  quarterly:
+    Q1 2025: 1.29
+    Q2 2025: 1.81
+    Q3 2025: 1.92
+    Q4 2025: 1.66
+    Q1 2026: 1.75
+    Q2 2026: 2.43
+    Q3 2026: 1.98
+    Q4 2026: 2.09
+  annual:
+    2021 Yearly: 2.98
+    2022 Yearly: 3.24
+    2023 Yearly: 4.21
+    2024 Yearly: 5.01
+    2025 Yearly: 6.67
+    2026 Yearly: 8.25
+  quarterly_forecast:
+    Q1 2025: 1.13
+    Q2 2025: 1.37
+    Q3 2025: 1.65
+    Q4 2025: 1.53
+    Q1 2026: 1.58
+    Q2 2026: 2.19
+    Q3 2026: 1.72
+    Q4 2026: 1.89
+    Q1 2027: 1.79
+    Q2 2027: 2.6
+    Q3 2027: 2.21
+    Q4 2027: 2.15
+  annual_forecast:
+    2021 Yearly: 2.97
+    2022 Yearly: 3.19
+    2023 Yearly: 4.16
+    2024 Yearly: 4.93
+    2025 Yearly: 6.54
+    2026 Yearly: 8.05
+    2027 Yearly: 8.89
+    2028 Yearly: 9.91
+    2029 Yearly: 11.12

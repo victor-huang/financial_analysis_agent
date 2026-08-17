@@ -1,0 +1,46 @@
+currency: USD
+company_name: Tenon Medical, Inc.
+sector: Health Services
+market_cap_billions: 0.0028
+revenue:
+  quarterly:
+    Q2 2026: 1.17
+    Q3 2026: 1.5
+    Q4 2026: 1.38
+  annual:
+    2024 Yearly: 2.93
+    2025 Yearly: 3.28
+    2026 Yearly: 3.94
+  quarterly_forecast:
+    Q1 2026: 1.26
+  annual_forecast:
+    2025 Yearly: 3.05
+    2026 Yearly: 3.41
+    2027 Yearly: 3.84
+    2028 Yearly: 6.59
+    2029 Yearly: 9.71
+eps:
+  quarterly:
+    Q3 2024: -127.05
+    Q4 2024: 368.55
+    Q1 2025: -35.35
+    Q2 2025: -12.6
+    Q3 2025: -14.0
+    Q4 2025: -10.15
+    Q1 2026: -10.85
+  annual:
+    2026 Yearly: -394.1
+  quarterly_forecast:
+    Q3 2024: -215.6
+    Q4 2024: -131.95
+    Q1 2025: -34.65
+    Q2 2025: -16.45
+    Q3 2025: -12.95
+    Q4 2025: -12.6
+    Q1 2026: -10.68
+    Q2 2026: -8.4
+    Q3 2026: -6.3
+    Q4 2026: -6.47
+  annual_forecast:
+    2028 Yearly: -753.55
+    2029 Yearly: -63.52

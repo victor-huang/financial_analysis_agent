@@ -1,0 +1,78 @@
+currency: USD
+company_name: El Pollo Loco Holdings, Inc.
+sector: Consumer Services
+market_cap_billions: 0.49855
+revenue:
+  quarterly:
+    Q3 2024: 120.39
+    Q4 2024: 114.28
+    Q1 2025: 119.18
+    Q2 2025: 125.83
+    Q3 2025: 121.52
+    Q4 2025: 123.52
+    Q1 2026: 126.18
+    Q2 2026: 129.57
+  annual:
+    2021 Yearly: 454.36
+    2022 Yearly: 469.96
+    2023 Yearly: 468.66
+    2024 Yearly: 473.01
+    2025 Yearly: 490.05
+  quarterly_forecast:
+    Q3 2024: 121.03
+    Q4 2024: 113.18
+    Q1 2025: 118.2
+    Q2 2025: 124.24
+    Q3 2025: 123.41
+    Q4 2025: 122.58
+    Q1 2026: 122.02
+    Q2 2026: 130.29
+    Q3 2026: 126.99
+    Q4 2026: 120.43
+    Q1 2027: 130.5
+    Q2 2027: 135.68
+  annual_forecast:
+    2021 Yearly: 453.98
+    2022 Yearly: 469.4
+    2023 Yearly: 465.48
+    2024 Yearly: 471.9
+    2025 Yearly: 489.03
+    2026 Yearly: 503.9
+    2027 Yearly: 524.08
+eps:
+  quarterly:
+    Q3 2024: 0.21
+    Q4 2024: 0.2
+    Q1 2025: 0.19
+    Q2 2025: 0.28
+    Q3 2025: 0.27
+    Q4 2025: 0.25
+    Q1 2026: 0.28
+    Q2 2026: 0.3
+  annual:
+    2021 Yearly: 0.87
+    2022 Yearly: 0.58
+    2023 Yearly: 0.71
+    2024 Yearly: 0.89
+    2025 Yearly: 0.98
+  quarterly_forecast:
+    Q3 2024: 0.17
+    Q4 2024: 0.13
+    Q1 2025: 0.19
+    Q2 2025: 0.24
+    Q3 2025: 0.21
+    Q4 2025: 0.2
+    Q1 2026: 0.22
+    Q2 2026: 0.28
+    Q3 2026: 0.24
+    Q4 2026: 0.17
+    Q1 2027: 0.29
+    Q2 2027: 0.29
+  annual_forecast:
+    2021 Yearly: 0.82
+    2022 Yearly: 0.55
+    2023 Yearly: 0.71
+    2024 Yearly: 0.83
+    2025 Yearly: 0.93
+    2026 Yearly: 0.97
+    2027 Yearly: 1.08

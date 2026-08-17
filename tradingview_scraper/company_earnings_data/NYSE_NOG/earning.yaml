@@ -1,0 +1,82 @@
+currency: USD
+company_name: Northern Oil and Gas, Inc.
+sector: Energy Minerals
+market_cap_billions: 2.21
+revenue:
+  quarterly:
+    Q3 2024: 753.64
+    Q4 2024: 514.98
+    Q1 2025: 602.1
+    Q2 2025: 706.81
+    Q3 2025: 556.64
+    Q4 2025: 610.18
+    Q1 2026: 5.03
+    Q2 2026: 745.24
+  annual:
+    2021 Yearly: 975.09
+    2022 Yearly: 1570.0
+    2023 Yearly: 2170.0
+    2024 Yearly: 2230.0
+    2025 Yearly: 2480.0
+  quarterly_forecast:
+    Q3 2024: 540.23
+    Q4 2024: 558.31
+    Q1 2025: 559.59
+    Q2 2025: 526.46
+    Q3 2025: 517.65
+    Q4 2025: 520.51
+    Q1 2026: 511.38
+    Q2 2026: 594.09
+    Q3 2026: 576.21
+    Q4 2026: 577.1
+    Q1 2027: 548.24
+    Q2 2027: 554.03
+  annual_forecast:
+    2021 Yearly: 622.97
+    2022 Yearly: 1540.0
+    2023 Yearly: 1940.0
+    2024 Yearly: 2270.0
+    2025 Yearly: 2320.0
+    2026 Yearly: 2260.0
+    2027 Yearly: 2250.0
+    2028 Yearly: 2380.0
+    2029 Yearly: 2540.0
+eps:
+  quarterly:
+    Q3 2024: 1.4
+    Q4 2024: 1.11
+    Q1 2025: 1.33
+    Q2 2025: 1.37
+    Q3 2025: 1.03
+    Q4 2025: 0.83
+    Q1 2026: 0.74
+    Q2 2026: 1.13
+  annual:
+    2021 Yearly: 3.49
+    2022 Yearly: 6.53
+    2023 Yearly: 6.58
+    2024 Yearly: 5.26
+    2025 Yearly: 4.57
+  quarterly_forecast:
+    Q3 2024: 1.2
+    Q4 2024: 1.09
+    Q1 2025: 1.12
+    Q2 2025: 0.97
+    Q3 2025: 0.87
+    Q4 2025: 0.79
+    Q1 2026: 0.71
+    Q2 2026: 1.17
+    Q3 2026: 0.95
+    Q4 2026: 0.96
+    Q1 2027: 0.92
+    Q2 2027: 0.89
+  annual_forecast:
+    2021 Yearly: 3.68
+    2022 Yearly: 7.03
+    2023 Yearly: 6.74
+    2024 Yearly: 5.28
+    2025 Yearly: 4.44
+    2026 Yearly: 3.83
+    2027 Yearly: 3.58
+    2028 Yearly: 3.93
+    2029 Yearly: 4.6

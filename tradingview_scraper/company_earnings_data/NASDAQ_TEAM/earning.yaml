@@ -1,0 +1,86 @@
+currency: USD
+company_name: Atlassian Corporation
+sector: Technology Services
+market_cap_billions: 27.96
+revenue:
+  quarterly:
+    Q1 2025: 1190.0
+    Q2 2025: 1290.0
+    Q3 2025: 1360.0
+    Q4 2025: 1380.0
+    Q1 2026: 1430.0
+    Q2 2026: 1590.0
+    Q3 2026: 1790.0
+    Q4 2026: 1770.0
+  annual:
+    2021 Yearly: 2090.0
+    2022 Yearly: 2800.0
+    2023 Yearly: 3530.0
+    2024 Yearly: 4360.0
+    2025 Yearly: 5220.0
+    2026 Yearly: 6570.0
+  quarterly_forecast:
+    Q1 2025: 1160.0
+    Q2 2025: 1240.0
+    Q3 2025: 1350.0
+    Q4 2025: 1360.0
+    Q1 2026: 1400.0
+    Q2 2026: 1560.0
+    Q3 2026: 1700.0
+    Q4 2026: 1660.0
+    Q1 2027: 1670.0
+    Q2 2027: 1810.0
+    Q3 2027: 1940.0
+    Q4 2027: 1900.0
+  annual_forecast:
+    2021 Yearly: 2050.0
+    2022 Yearly: 2770.0
+    2023 Yearly: 3510.0
+    2024 Yearly: 4360.0
+    2025 Yearly: 5190.0
+    2026 Yearly: 6470.0
+    2027 Yearly: 7340.0
+    2028 Yearly: 8500.0
+    2029 Yearly: 9930.0
+    2030 Yearly: 11320.0
+eps:
+  quarterly:
+    Q1 2025: 0.77
+    Q2 2025: 0.96
+    Q3 2025: 0.97
+    Q4 2025: 0.98
+    Q1 2026: 1.04
+    Q2 2026: 1.22
+    Q3 2026: 1.75
+    Q4 2026: 1.87
+  annual:
+    2021 Yearly: 1.4
+    2022 Yearly: 1.69
+    2023 Yearly: 1.92
+    2024 Yearly: 2.93
+    2025 Yearly: 3.68
+    2026 Yearly: 5.85
+  quarterly_forecast:
+    Q1 2025: 0.64
+    Q2 2025: 0.75
+    Q3 2025: 0.9
+    Q4 2025: 0.83
+    Q1 2026: 0.84
+    Q2 2026: 1.15
+    Q3 2026: 1.33
+    Q4 2026: 1.5
+    Q1 2027: 1.26
+    Q2 2027: 1.46
+    Q3 2027: 1.71
+    Q4 2027: 1.59
+  annual_forecast:
+    2021 Yearly: 1.35
+    2022 Yearly: 1.7
+    2023 Yearly: 1.76
+    2024 Yearly: 2.85
+    2025 Yearly: 3.54
+    2026 Yearly: 5.5
+    2027 Yearly: 6.08
+    2028 Yearly: 7.18
+    2029 Yearly: 8.56
+    2030 Yearly: 10.57

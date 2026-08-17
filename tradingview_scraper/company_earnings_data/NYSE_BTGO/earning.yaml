@@ -1,0 +1,44 @@
+currency: USD
+company_name: BitGo Holdings, Inc.
+sector: Technology Services
+market_cap_billions: 0.5786399999999999
+revenue:
+  quarterly:
+    Q3 2025: 55.0
+    Q4 2025: 59.88
+    Q1 2026: 48.95
+  annual:
+    2025 Yearly: 199.11
+  quarterly_forecast:
+    Q4 2025: 59.15
+    Q1 2026: 48.39
+    Q2 2026: 51.69
+    Q3 2026: 56.4
+    Q4 2026: 62.54
+    Q1 2027: 63.87
+  annual_forecast:
+    2025 Yearly: 198.38
+    2026 Yearly: 219.61
+    2027 Yearly: 289.7
+    2028 Yearly: 385.78
+    2029 Yearly: 475.6
+eps:
+  quarterly:
+    Q3 2025: 0.2
+    Q4 2025: -1.03
+    Q1 2026: -0.62
+  annual:
+    2025 Yearly: -0.38
+  quarterly_forecast:
+    Q4 2025: -0.43
+    Q1 2026: -0.16
+    Q2 2026: -0.05
+    Q3 2026: 0.01
+    Q4 2026: 0.04
+    Q1 2027: 0.02
+  annual_forecast:
+    2025 Yearly: -0.12
+    2026 Yearly: -0.52
+    2027 Yearly: 0.22
+    2028 Yearly: 0.41
+    2029 Yearly: 0.5

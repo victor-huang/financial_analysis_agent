@@ -1,0 +1,76 @@
+currency: USD
+company_name: Stem, Inc.
+sector: Technology Services
+market_cap_billions: 0.04882
+revenue:
+  quarterly:
+    Q3 2024: 29.3
+    Q4 2024: 55.8
+    Q1 2025: 32.5
+    Q2 2025: 38.4
+    Q3 2025: 38.2
+    Q4 2025: 47.2
+    Q1 2026: 29.0
+  annual:
+    2021 Yearly: 127.37
+    2022 Yearly: 363.0
+    2023 Yearly: 461.5
+    2024 Yearly: 144.6
+    2025 Yearly: 156.3
+  quarterly_forecast:
+    Q3 2024: 39.7
+    Q4 2024: 47.88
+    Q1 2025: 30.12
+    Q2 2025: 32.47
+    Q3 2025: 37.92
+    Q4 2025: 39.05
+    Q1 2026: 34.61
+    Q2 2026: 36.65
+    Q3 2026: 41.73
+    Q4 2026: 47.78
+    Q1 2027: 36.05
+  annual_forecast:
+    2021 Yearly: 147.77
+    2022 Yearly: 372.11
+    2023 Yearly: 556.9
+    2024 Yearly: 136.55
+    2025 Yearly: 150.92
+    2026 Yearly: 154.21
+    2027 Yearly: 184.09
+    2028 Yearly: 226.99
+eps:
+  quarterly:
+    Q3 2024: -18.2
+    Q4 2024: -6.6
+    Q1 2025: -3.0
+    Q2 2025: -1.79
+    Q3 2025: -2.84
+    Q4 2025: -1.55
+    Q1 2026: -2.22
+  annual:
+    2021 Yearly: -19.2
+    2022 Yearly: -16.2
+    2023 Yearly: -18.0
+    2024 Yearly: -105.8
+    2025 Yearly: -9.18
+  quarterly_forecast:
+    Q3 2024: -4.14
+    Q4 2024: -4.17
+    Q1 2025: -3.66
+    Q2 2025: -2.76
+    Q3 2025: -2.34
+    Q4 2025: -2.17
+    Q1 2026: -2.07
+    Q2 2026: -1.75
+    Q3 2026: -1.59
+    Q4 2026: -1.42
+    Q1 2027: -1.69
+  annual_forecast:
+    2021 Yearly: -16.34
+    2022 Yearly: -15.84
+    2023 Yearly: -18.5
+    2024 Yearly: -103.28
+    2025 Yearly: -5.03
+    2026 Yearly: -6.89
+    2027 Yearly: -5.7
+    2028 Yearly: -2.89

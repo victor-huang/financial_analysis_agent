@@ -1,0 +1,77 @@
+currency: USD
+company_name: Energy Vault Holdings, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 0.6488400000000001
+revenue:
+  quarterly:
+    Q3 2024: 1.2
+    Q4 2024: 33.47
+    Q1 2025: 8.53
+    Q2 2025: 8.51
+    Q3 2025: 33.32
+    Q4 2025: 153.31
+    Q1 2026: 21.88
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 145.88
+    2023 Yearly: 341.54
+    2024 Yearly: 46.2
+    2025 Yearly: 203.67
+  quarterly_forecast:
+    Q3 2024: 13.4
+    Q4 2024: 42.51
+    Q1 2025: 23.59
+    Q2 2025: 30.57
+    Q3 2025: 33.9
+    Q4 2025: 148.36
+    Q1 2026: 20.72
+    Q2 2026: 14.24
+    Q3 2026: 27.61
+    Q4 2026: 189.74
+    Q1 2027: 28.14
+  annual_forecast:
+    2021 Yearly: 0.0
+    2022 Yearly: 126.02
+    2023 Yearly: 366.93
+    2024 Yearly: 55.25
+    2025 Yearly: 198.71
+    2026 Yearly: 253.48
+    2027 Yearly: 306.98
+    2028 Yearly: 421.07
+    2029 Yearly: 552.27
+eps:
+  quarterly:
+    Q3 2024: -0.18
+    Q4 2024: -0.43
+    Q1 2025: -0.08
+    Q2 2025: -0.11
+    Q3 2025: -0.1
+    Q4 2025: 0.02
+    Q1 2026: -0.12
+  annual:
+    2021 Yearly: -7.54
+    2022 Yearly: -0.64
+    2023 Yearly: -0.69
+    2024 Yearly: -0.91
+    2025 Yearly: -0.27
+  quarterly_forecast:
+    Q3 2024: -0.13
+    Q4 2024: -0.12
+    Q1 2025: -0.12
+    Q2 2025: -0.07
+    Q3 2025: -0.08
+    Q4 2025: -0.05
+    Q1 2026: -0.1
+    Q2 2026: -0.14
+    Q3 2026: -0.13
+    Q4 2026: 0.03
+    Q1 2027: -0.11
+  annual_forecast:
+    2022 Yearly: -0.6
+    2023 Yearly: -0.61
+    2024 Yearly: -0.56
+    2025 Yearly: -0.4
+    2026 Yearly: -0.38
+    2027 Yearly: -0.3
+    2028 Yearly: -0.11
+    2029 Yearly: -0.01

@@ -1,0 +1,40 @@
+currency: USD
+company_name: Alamar Biosciences, Inc.
+sector: Health Technology
+market_cap_billions: 1.94
+revenue:
+  quarterly:
+    Q1 2026: 26.0
+    Q2 2026: 29.4
+  annual:
+    2025 Yearly: 74.2
+  quarterly_forecast:
+    Q1 2026: 26.01
+    Q2 2026: 25.86
+    Q3 2026: 29.85
+    Q4 2026: 32.72
+    Q1 2027: 35.68
+    Q2 2027: 40.25
+  annual_forecast:
+    2026 Yearly: 116.31
+    2027 Yearly: 164.49
+    2028 Yearly: 223.11
+    2029 Yearly: 301.95
+eps:
+  quarterly:
+    Q1 2026: -1.74
+    Q2 2026: -0.22
+  annual:
+    2025 Yearly: -0.21
+  quarterly_forecast:
+    Q1 2026: -1.71
+    Q2 2026: -0.31
+    Q3 2026: -0.21
+    Q4 2026: -0.19
+    Q1 2027: -0.19
+    Q2 2027: -0.19
+  annual_forecast:
+    2026 Yearly: -1.37
+    2027 Yearly: -0.73
+    2028 Yearly: -0.47
+    2029 Yearly: -0.06

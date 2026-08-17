@@ -1,0 +1,22 @@
+currency: USD
+company_name: JFB Construction Holdings
+sector: Industrial Services
+market_cap_billions: 0.09367
+revenue:
+  quarterly:
+    Q1 2026: 18.4
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: 29.0
+    Q3 2026: 35.0
+    Q4 2026: 52.6
+  annual_forecast: {}
+eps:
+  quarterly:
+    Q1 2026: -0.1
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: -0.05
+    Q3 2026: -0.04
+    Q4 2026: -0.03
+  annual_forecast: {}

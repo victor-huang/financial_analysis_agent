@@ -1,0 +1,33 @@
+currency: USD
+company_name: Atrium Therapeutics, Inc.
+sector: Health Technology
+market_cap_billions: 0.20818
+revenue:
+  quarterly:
+    Q4 2025: 2.1
+    Q1 2026: 19.64
+  annual:
+    2025 Yearly: 18.6
+  quarterly_forecast: {}
+  annual_forecast:
+    2026 Yearly: 21.11
+    2027 Yearly: 2.67
+    2028 Yearly: 4.0
+    2029 Yearly: 0.0
+eps:
+  quarterly:
+    Q4 2025: -0.61
+    Q1 2026: -0.97
+  annual:
+    2025 Yearly: -4.48
+  quarterly_forecast:
+    Q1 2026: -1.05
+    Q2 2026: -1.42
+    Q3 2026: -1.47
+    Q4 2026: -1.64
+    Q1 2027: -1.85
+  annual_forecast:
+    2026 Yearly: -5.5
+    2027 Yearly: -6.78
+    2028 Yearly: -6.08
+    2029 Yearly: -4.5

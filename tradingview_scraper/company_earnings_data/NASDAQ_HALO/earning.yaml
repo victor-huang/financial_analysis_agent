@@ -1,0 +1,82 @@
+currency: USD
+company_name: Halozyme Therapeutics, Inc.
+sector: Health Technology
+market_cap_billions: 10.17
+revenue:
+  quarterly:
+    Q3 2024: 290.08
+    Q4 2024: 298.01
+    Q1 2025: 264.86
+    Q2 2025: 325.72
+    Q3 2025: 354.26
+    Q4 2025: 451.77
+    Q1 2026: 376.71
+    Q2 2026: 481.0
+  annual:
+    2021 Yearly: 443.31
+    2022 Yearly: 660.12
+    2023 Yearly: 829.25
+    2024 Yearly: 1020.0
+    2025 Yearly: 1400.0
+  quarterly_forecast:
+    Q3 2024: 252.17
+    Q4 2024: 285.74
+    Q1 2025: 230.11
+    Q2 2025: 285.91
+    Q3 2025: 340.03
+    Q4 2025: 435.71
+    Q1 2026: 358.6
+    Q2 2026: 402.28
+    Q3 2026: 461.67
+    Q4 2026: 521.59
+    Q1 2027: 461.94
+    Q2 2027: 494.85
+  annual_forecast:
+    2021 Yearly: 443.24
+    2022 Yearly: 671.79
+    2023 Yearly: 830.53
+    2024 Yearly: 1000.0
+    2025 Yearly: 1390.0
+    2026 Yearly: 1770.0
+    2027 Yearly: 2000.0
+    2028 Yearly: 2170.0
+    2029 Yearly: 2009.9999999999998
+eps:
+  quarterly:
+    Q3 2024: 1.27
+    Q4 2024: 1.26
+    Q1 2025: 1.11
+    Q2 2025: 1.54
+    Q3 2025: 1.72
+    Q4 2025: -0.24
+    Q1 2026: 1.6
+    Q2 2026: 2.28
+  annual:
+    2021 Yearly: 2.74
+    2022 Yearly: 1.44
+    2023 Yearly: 2.77
+    2024 Yearly: 4.23
+    2025 Yearly: 4.15
+  quarterly_forecast:
+    Q3 2024: 0.99
+    Q4 2024: 1.16
+    Q1 2025: 0.95
+    Q2 2025: 1.27
+    Q3 2025: 1.63
+    Q4 2025: 2.2
+    Q1 2026: 1.54
+    Q2 2026: 1.79
+    Q3 2026: 2.13
+    Q4 2026: 2.49
+    Q1 2027: 2.22
+    Q2 2027: 2.43
+  annual_forecast:
+    2021 Yearly: 2.68
+    2022 Yearly: 1.32
+    2023 Yearly: 2.77
+    2024 Yearly: 4.13
+    2025 Yearly: 6.55
+    2026 Yearly: 7.94
+    2027 Yearly: 9.97
+    2028 Yearly: 11.12
+    2029 Yearly: 10.08

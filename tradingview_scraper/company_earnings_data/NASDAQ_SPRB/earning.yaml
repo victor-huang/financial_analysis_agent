@@ -1,0 +1,76 @@
+currency: USD
+company_name: Spruce Biosciences, Inc.
+sector: Health Technology
+market_cap_billions: 0.12955
+revenue:
+  quarterly:
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 10.09
+    2024 Yearly: 4.9
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q1 2025: 1.49
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+    Q2 2027: 0.0
+  annual_forecast:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 8.53
+    2024 Yearly: 5.09
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 86.77
+    2028 Yearly: 48.65
+    2029 Yearly: 86.6
+eps:
+  quarterly:
+    Q3 2024: -15.75
+    Q4 2024: -42.75
+    Q1 2025: -24.0
+    Q2 2025: -3.5
+    Q3 2025: -14.58
+    Q4 2025: -8.73
+    Q1 2026: -8.94
+    Q2 2026: -6.68
+  annual:
+    2021 Yearly: -135.75
+    2022 Yearly: -147.0
+    2023 Yearly: -93.0
+    2024 Yearly: -96.75
+    2025 Yearly: -50.83
+  quarterly_forecast:
+    Q3 2024: -17.81
+    Q4 2024: -15.75
+    Q1 2025: -19.25
+    Q2 2025: -18.0
+    Q3 2025: -13.94
+    Q4 2025: -9.16
+    Q1 2026: -7.93
+    Q2 2026: -5.79
+    Q3 2026: -5.32
+    Q4 2026: -5.44
+    Q1 2027: -5.32
+    Q2 2027: -5.44
+  annual_forecast:
+    2021 Yearly: -147.22
+    2022 Yearly: -150.61
+    2023 Yearly: -104.75
+    2024 Yearly: -70.05
+    2025 Yearly: -21.24
+    2026 Yearly: -24.64
+    2027 Yearly: 2.99
+    2028 Yearly: -8.07
+    2029 Yearly: -2.13

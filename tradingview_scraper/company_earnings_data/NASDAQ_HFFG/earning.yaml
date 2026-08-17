@@ -1,0 +1,63 @@
+currency: USD
+company_name: HF Foods Group Inc.
+sector: Distribution Services
+market_cap_billions: 0.08342000000000001
+revenue:
+  quarterly:
+    Q3 2024: 298.39
+    Q4 2024: 305.28
+    Q1 2025: 298.43
+    Q2 2025: 314.85
+    Q3 2025: 306.98
+    Q4 2025: 308.02
+    Q1 2026: 312.0
+    Q2 2026: 323.78
+  annual:
+    2024 Yearly: 1200.0
+    2025 Yearly: 1230.0
+  quarterly_forecast:
+    Q4 2024: 290.07
+    Q1 2025: 287.86
+    Q2 2025: 287.86
+    Q3 2025: 300.99
+    Q4 2025: 310.54
+    Q1 2026: 303.31
+    Q2 2026: 308.37
+    Q3 2026: 307.36
+    Q4 2026: 320.54
+  annual_forecast:
+    2024 Yearly: 1180.0
+    2025 Yearly: 1230.0
+    2026 Yearly: 1270.0
+    2027 Yearly: 1310.0
+eps:
+  quarterly:
+    Q3 2024: -0.07
+    Q4 2024: 0.11
+    Q1 2025: 0.07
+    Q2 2025: 0.12
+    Q3 2025: 0.08
+    Q4 2025: 0.05
+    Q1 2026: 0.02
+    Q2 2026: 0.12
+  annual:
+    2024 Yearly: 0.26
+    2025 Yearly: 0.32
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.09
+    Q1 2025: 0.01
+    Q2 2025: 0.05
+    Q3 2025: -0.01
+    Q4 2025: 0.08
+    Q1 2026: 0.01
+    Q2 2026: 0.0
+    Q3 2026: 0.01
+    Q4 2026: 0.03
+    Q1 2027: 0.14
+    Q2 2027: 0.15
+  annual_forecast:
+    2024 Yearly: 0.22
+    2025 Yearly: 0.22
+    2026 Yearly: 0.04
+    2027 Yearly: 0.16

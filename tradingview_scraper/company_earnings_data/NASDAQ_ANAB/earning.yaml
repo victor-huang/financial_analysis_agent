@@ -1,0 +1,78 @@
+currency: USD
+company_name: AnaptysBio, Inc.
+sector: Health Technology
+market_cap_billions: 1.69
+revenue:
+  quarterly:
+    Q3 2024: 30.02
+    Q4 2024: 43.11
+    Q1 2025: 27.77
+    Q2 2025: 22.26
+    Q3 2025: 76.32
+    Q4 2025: 108.25
+    Q1 2026: 25.56
+  annual:
+    2021 Yearly: 63.17
+    2022 Yearly: 10.29
+    2023 Yearly: 17.16
+    2024 Yearly: 91.28
+    2025 Yearly: 234.6
+  quarterly_forecast:
+    Q3 2024: 8.21
+    Q4 2024: 7.78
+    Q1 2025: 15.27
+    Q2 2025: 11.68
+    Q3 2025: 21.92
+    Q4 2025: 87.04
+    Q1 2026: 18.86
+    Q2 2026: 17.33
+    Q3 2026: 22.53
+    Q4 2026: 33.0
+    Q1 2027: 0.0
+  annual_forecast:
+    2021 Yearly: 63.17
+    2022 Yearly: 9.05
+    2023 Yearly: 11.94
+    2024 Yearly: 55.91
+    2025 Yearly: 205.27
+    2026 Yearly: 94.26
+    2027 Yearly: 153.19
+    2028 Yearly: 316.31
+    2029 Yearly: 362.59
+eps:
+  quarterly:
+    Q3 2024: -0.76
+    Q4 2024: -0.48
+    Q1 2025: -0.85
+    Q2 2025: -0.89
+    Q3 2025: 0.35
+    Q4 2025: 1.05
+    Q1 2026: -1.84
+  annual:
+    2021 Yearly: -1.41
+    2022 Yearly: -3.05
+    2023 Yearly: -4.05
+    2024 Yearly: -3.41
+    2025 Yearly: -0.31
+  quarterly_forecast:
+    Q3 2024: -1.1
+    Q4 2024: -1.08
+    Q1 2025: -0.84
+    Q2 2025: -1.03
+    Q3 2025: -0.81
+    Q4 2025: 0.58
+    Q1 2026: -0.64
+    Q2 2026: -0.13
+    Q3 2026: 0.2
+    Q4 2026: -0.01
+    Q1 2027: -0.06
+  annual_forecast:
+    2021 Yearly: -1.22
+    2022 Yearly: -3.02
+    2023 Yearly: -4.05
+    2024 Yearly: -4.06
+    2025 Yearly: -0.96
+    2026 Yearly: -1.51
+    2027 Yearly: 1.96
+    2028 Yearly: 8.0
+    2029 Yearly: 8.71

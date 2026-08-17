@@ -1,0 +1,82 @@
+currency: USD
+company_name: Five9, Inc.
+sector: Technology Services
+market_cap_billions: 2.17
+revenue:
+  quarterly:
+    Q3 2024: 264.18
+    Q4 2024: 278.66
+    Q1 2025: 279.7
+    Q2 2025: 283.27
+    Q3 2025: 285.83
+    Q4 2025: 300.28
+    Q1 2026: 305.32
+    Q2 2026: 312.44
+  annual:
+    2021 Yearly: 609.59
+    2022 Yearly: 778.85
+    2023 Yearly: 910.49
+    2024 Yearly: 1040.0
+    2025 Yearly: 1150.0
+  quarterly_forecast:
+    Q3 2024: 255.22
+    Q4 2024: 267.81
+    Q1 2025: 272.42
+    Q2 2025: 275.17
+    Q3 2025: 285.16
+    Q4 2025: 298.1
+    Q1 2026: 299.92
+    Q2 2026: 306.61
+    Q3 2026: 314.71
+    Q4 2026: 334.76
+    Q1 2027: 336.52
+    Q2 2027: 339.24
+  annual_forecast:
+    2021 Yearly: 601.36
+    2022 Yearly: 775.19
+    2023 Yearly: 909.27
+    2024 Yearly: 1030.0
+    2025 Yearly: 1150.0
+    2026 Yearly: 1260.0
+    2027 Yearly: 1390.0
+    2028 Yearly: 1520.0
+    2029 Yearly: 1650.0
+eps:
+  quarterly:
+    Q3 2024: 0.67
+    Q4 2024: 0.79
+    Q1 2025: 0.62
+    Q2 2025: 0.76
+    Q3 2025: 0.78
+    Q4 2025: 0.8
+    Q1 2026: 0.76
+    Q2 2026: 0.7
+  annual:
+    2021 Yearly: 1.16
+    2022 Yearly: 1.5
+    2023 Yearly: 2.05
+    2024 Yearly: 2.47
+    2025 Yearly: 2.96
+  quarterly_forecast:
+    Q3 2024: 0.59
+    Q4 2024: 0.7
+    Q1 2025: 0.48
+    Q2 2025: 0.62
+    Q3 2025: 0.73
+    Q4 2025: 0.78
+    Q1 2026: 0.68
+    Q2 2026: 0.68
+    Q3 2026: 0.84
+    Q4 2026: 0.97
+    Q1 2027: 0.87
+    Q2 2027: 0.88
+  annual_forecast:
+    2021 Yearly: 1.1
+    2022 Yearly: 1.37
+    2023 Yearly: 1.92
+    2024 Yearly: 2.37
+    2025 Yearly: 2.94
+    2026 Yearly: 3.25
+    2027 Yearly: 3.77
+    2028 Yearly: 4.29
+    2029 Yearly: 3.09

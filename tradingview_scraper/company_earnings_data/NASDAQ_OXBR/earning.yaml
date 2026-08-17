@@ -1,0 +1,36 @@
+currency: USD
+company_name: Oxbridge Re Holdings Limited
+sector: Finance
+market_cap_billions: 0.009640000000000001
+revenue:
+  quarterly: {}
+  annual:
+    2026 Yearly: 2.58
+  quarterly_forecast: {}
+  annual_forecast:
+    2027 Yearly: 3.2
+eps:
+  quarterly:
+    Q4 2024: -0.08
+    Q1 2025: -0.02
+    Q2 2025: -0.25
+    Q3 2025: -0.02
+    Q4 2025: 0.02
+    Q1 2026: 0.0
+  annual:
+    2024 Yearly: -0.45
+    2025 Yearly: -0.28
+  quarterly_forecast:
+    Q1 2025: -0.02
+    Q2 2025: 0.01
+    Q3 2025: -0.02
+    Q4 2025: -0.02
+    Q1 2026: -0.03
+    Q2 2026: 0.03
+    Q3 2026: -0.06
+    Q4 2026: -0.06
+    Q1 2027: -0.07
+  annual_forecast:
+    2025 Yearly: -0.05
+    2026 Yearly: -0.08
+    2027 Yearly: -0.18

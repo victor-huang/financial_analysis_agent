@@ -1,0 +1,73 @@
+currency: USD
+company_name: SKYX Platforms Corp.
+sector: Electronic Technology
+market_cap_billions: 0.16272999999999999
+revenue:
+  quarterly:
+    Q4 2024: 23.7
+    Q1 2025: 20.1
+    Q2 2025: 23.1
+    Q3 2025: 24.0
+    Q4 2025: 25.0
+    Q1 2026: 22.0
+    Q2 2026: 25.3
+  annual:
+    2023 Yearly: 58.8
+    2024 Yearly: 86.3
+    2025 Yearly: 92.01
+  quarterly_forecast:
+    Q4 2024: 23.52
+    Q1 2025: 20.25
+    Q2 2025: 22.94
+    Q3 2025: 23.81
+    Q4 2025: 25.35
+    Q1 2026: 21.98
+    Q2 2026: 24.07
+    Q3 2026: 28.82
+    Q4 2026: 33.53
+    Q1 2027: 29.13
+    Q2 2027: 33.25
+  annual_forecast:
+    2022 Yearly: 0.0
+    2023 Yearly: 56.8
+    2024 Yearly: 86.13
+    2025 Yearly: 92.42
+    2026 Yearly: 108.97
+    2027 Yearly: 138.33
+    2028 Yearly: 178.55
+    2029 Yearly: 250.0
+eps:
+  quarterly:
+    Q4 2024: -0.1
+    Q1 2025: -0.09
+    Q2 2025: -0.08
+    Q3 2025: -0.07
+    Q4 2025: -0.08
+    Q1 2026: -0.07
+    Q2 2026: -0.06
+  annual:
+    2022 Yearly: -0.4
+    2023 Yearly: -0.45
+    2024 Yearly: -0.36
+    2025 Yearly: -0.32
+  quarterly_forecast:
+    Q4 2024: -0.08
+    Q1 2025: -0.1
+    Q2 2025: -0.08
+    Q3 2025: -0.07
+    Q4 2025: -0.07
+    Q1 2026: -0.06
+    Q2 2026: -0.05
+    Q3 2026: -0.04
+    Q4 2026: -0.04
+    Q1 2027: -0.04
+    Q2 2027: -0.03
+  annual_forecast:
+    2022 Yearly: -0.29
+    2023 Yearly: -0.4
+    2024 Yearly: -0.34
+    2025 Yearly: -0.3
+    2026 Yearly: -0.22
+    2027 Yearly: -0.11
+    2028 Yearly: -0.01
+    2029 Yearly: 0.13

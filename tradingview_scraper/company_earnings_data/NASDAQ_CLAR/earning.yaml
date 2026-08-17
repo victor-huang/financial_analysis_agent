@@ -1,0 +1,76 @@
+currency: USD
+company_name: Clarus Corporation
+sector: Consumer Durables
+market_cap_billions: 0.12916
+revenue:
+  quarterly:
+    Q3 2024: 67.11
+    Q4 2024: 71.41
+    Q1 2025: 60.43
+    Q2 2025: 55.25
+    Q3 2025: 69.35
+    Q4 2025: 65.41
+    Q1 2026: 61.94
+  annual:
+    2021 Yearly: 375.79
+    2022 Yearly: 448.11
+    2023 Yearly: 286.02
+    2024 Yearly: 264.31
+    2025 Yearly: 250.44
+  quarterly_forecast:
+    Q3 2024: 73.0
+    Q4 2024: 68.47
+    Q1 2025: 56.65
+    Q2 2025: 53.49
+    Q3 2025: 66.43
+    Q4 2025: 68.67
+    Q1 2026: 61.22
+    Q2 2026: 51.54
+    Q3 2026: 68.2
+    Q4 2026: 67.22
+    Q1 2027: 64.12
+  annual_forecast:
+    2021 Yearly: 363.53
+    2022 Yearly: 444.98
+    2023 Yearly: 364.99
+    2024 Yearly: 261.62
+    2025 Yearly: 253.88
+    2026 Yearly: 249.22
+    2027 Yearly: 258.34
+    2028 Yearly: 275.8
+eps:
+  quarterly:
+    Q3 2024: -0.08
+    Q4 2024: -1.92
+    Q1 2025: -0.14
+    Q2 2025: -0.22
+    Q3 2025: -0.04
+    Q4 2025: -0.81
+    Q1 2026: 0.02
+  annual:
+    2021 Yearly: 0.73
+    2022 Yearly: -1.88
+    2023 Yearly: -0.42
+    2024 Yearly: -2.31
+    2025 Yearly: -1.21
+  quarterly_forecast:
+    Q3 2024: -0.03
+    Q4 2024: -0.01
+    Q1 2025: -0.11
+    Q2 2025: -0.12
+    Q3 2025: -0.05
+    Q4 2025: -0.02
+    Q1 2026: -0.11
+    Q2 2026: -0.07
+    Q3 2026: 0.07
+    Q4 2026: 0.06
+    Q1 2027: 0.01
+  annual_forecast:
+    2021 Yearly: 0.52
+    2022 Yearly: 0.32
+    2023 Yearly: -0.13
+    2024 Yearly: -0.39
+    2025 Yearly: -0.41
+    2026 Yearly: 0.11
+    2027 Yearly: 0.2
+    2028 Yearly: 0.36

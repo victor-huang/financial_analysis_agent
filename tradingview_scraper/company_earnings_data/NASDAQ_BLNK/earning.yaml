@@ -1,0 +1,78 @@
+currency: USD
+company_name: Blink Charging Co.
+sector: Producer Manufacturing
+market_cap_billions: 0.07959999999999999
+revenue:
+  quarterly:
+    Q3 2024: 25.19
+    Q4 2024: 30.18
+    Q1 2025: 20.75
+    Q2 2025: 28.67
+    Q3 2025: 27.03
+    Q4 2025: 27.04
+    Q1 2026: 20.78
+  annual:
+    2021 Yearly: 20.9
+    2022 Yearly: 61.14
+    2023 Yearly: 140.6
+    2024 Yearly: 126.2
+    2025 Yearly: 103.52
+  quarterly_forecast:
+    Q3 2024: 35.02
+    Q4 2024: 30.74
+    Q1 2025: 27.63
+    Q2 2025: 22.15
+    Q3 2025: 30.08
+    Q4 2025: 28.45
+    Q1 2026: 21.7
+    Q2 2026: 24.25
+    Q3 2026: 28.03
+    Q4 2026: 32.96
+    Q1 2027: 45.08
+  annual_forecast:
+    2021 Yearly: 19.19
+    2022 Yearly: 57.93
+    2023 Yearly: 131.46
+    2024 Yearly: 126.76
+    2025 Yearly: 104.89
+    2026 Yearly: 105.98
+    2027 Yearly: 125.17
+    2028 Yearly: 165.22
+    2029 Yearly: 226.65
+eps:
+  quarterly:
+    Q3 2024: -0.86
+    Q4 2024: -0.73
+    Q1 2025: -0.2
+    Q2 2025: -0.31
+    Q3 2025: 0.0
+    Q4 2025: -0.28
+    Q1 2026: -0.08
+  annual:
+    2021 Yearly: -1.32
+    2022 Yearly: -1.65
+    2023 Yearly: -3.21
+    2024 Yearly: -1.96
+    2025 Yearly: -0.76
+  quarterly_forecast:
+    Q3 2024: -0.16
+    Q4 2024: -0.18
+    Q1 2025: -0.13
+    Q2 2025: -0.18
+    Q3 2025: -0.17
+    Q4 2025: -0.1
+    Q1 2026: -0.1
+    Q2 2026: -0.07
+    Q3 2026: -0.07
+    Q4 2026: -0.06
+    Q1 2027: -0.07
+  annual_forecast:
+    2021 Yearly: -1.25
+    2022 Yearly: -1.81
+    2023 Yearly: -3.26
+    2024 Yearly: -1.42
+    2025 Yearly: -0.6
+    2026 Yearly: -0.27
+    2027 Yearly: -0.2
+    2028 Yearly: -0.1
+    2029 Yearly: 0.01

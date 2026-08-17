@@ -1,0 +1,76 @@
+currency: USD
+company_name: Vinci Compass Investments Ltd.
+sector: Finance
+market_cap_billions: 0.64861
+revenue:
+  quarterly:
+    Q3 2024: 20.98
+    Q4 2024: 41.57
+    Q1 2025: 41.1
+    Q2 2025: 45.13
+    Q3 2025: 45.29
+    Q4 2025: 52.6
+    Q1 2026: 52.83
+  annual:
+    2021 Yearly: 84.75
+    2022 Yearly: 77.57
+    2023 Yearly: 93.39
+    2024 Yearly: 96.94
+    2025 Yearly: 177.91
+  quarterly_forecast:
+    Q3 2024: 22.46
+    Q4 2024: 26.09
+    Q1 2025: 41.68
+    Q2 2025: 47.51
+    Q3 2025: 47.39
+    Q4 2025: 51.43
+    Q1 2026: 51.88
+    Q2 2026: 56.12
+    Q3 2026: 57.61
+    Q4 2026: 61.8
+    Q1 2027: 60.58
+  annual_forecast:
+    2021 Yearly: 84.07
+    2022 Yearly: 82.61
+    2023 Yearly: 89.39
+    2024 Yearly: 73.8
+    2025 Yearly: 161.93
+    2026 Yearly: 225.66
+    2027 Yearly: 254.41
+    2028 Yearly: 322.55
+eps:
+  quarterly:
+    Q3 2024: 0.18
+    Q4 2024: 0.16
+    Q1 2025: 0.17
+    Q2 2025: 0.22
+    Q3 2025: 0.22
+    Q4 2025: 0.21
+    Q1 2026: 0.18
+  annual:
+    2021 Yearly: 0.66
+    2022 Yearly: 0.75
+    2023 Yearly: 0.93
+    2024 Yearly: 0.56
+    2025 Yearly: 0.8
+  quarterly_forecast:
+    Q3 2024: 0.17
+    Q4 2024: 0.15
+    Q1 2025: 0.16
+    Q2 2025: 0.21
+    Q3 2025: 0.19
+    Q4 2025: 0.23
+    Q1 2026: 0.21
+    Q2 2026: 0.21
+    Q3 2026: 0.22
+    Q4 2026: 0.27
+    Q1 2027: 0.25
+  annual_forecast:
+    2021 Yearly: 0.66
+    2022 Yearly: 0.77
+    2023 Yearly: 0.89
+    2024 Yearly: 0.58
+    2025 Yearly: 0.77
+    2026 Yearly: 0.98
+    2027 Yearly: 1.17
+    2028 Yearly: 1.54

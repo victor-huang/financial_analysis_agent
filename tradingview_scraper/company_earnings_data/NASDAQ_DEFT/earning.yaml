@@ -1,0 +1,78 @@
+currency: USD
+company_name: Defi Technologies, Inc.
+sector: Finance
+market_cap_billions: 0.18075
+revenue:
+  quarterly:
+    Q3 2024: 17.89
+    Q4 2024: 29.6
+    Q1 2025: 43.57
+    Q2 2025: 32.59
+    Q3 2025: 22.69
+    Q4 2025: 20.22
+    Q1 2026: 11.07
+  annual:
+    2021 Yearly: 11.92
+    2022 Yearly: 1.25
+    2023 Yearly: 7.81
+    2024 Yearly: 142.04
+    2025 Yearly: 100.21
+  quarterly_forecast:
+    Q3 2024: 21.94
+    Q4 2024: 29.98
+    Q1 2025: 21.33
+    Q2 2025: 45.05
+    Q3 2025: 42.67
+    Q4 2025: 22.2
+    Q1 2026: 15.95
+    Q2 2026: 11.94
+    Q3 2026: 13.17
+    Q4 2026: 15.5
+    Q1 2027: 13.24
+  annual_forecast:
+    2017 Yearly: 57.84
+    2018 Yearly: 73.18
+    2021 Yearly: 10.2
+    2022 Yearly: 8.41
+    2023 Yearly: 7.81
+    2024 Yearly: 135.92
+    2025 Yearly: 100.57
+    2026 Yearly: 50.96
+    2027 Yearly: 59.95
+    2028 Yearly: 77.5
+eps:
+  quarterly:
+    Q3 2024: 0.05
+    Q4 2024: -0.04
+    Q1 2025: 0.08
+    Q2 2025: 0.0
+    Q3 2025: 0.01
+    Q4 2025: 0.07
+    Q1 2026: 0.01
+  annual:
+    2021 Yearly: -0.03
+    2022 Yearly: -0.18
+    2023 Yearly: -0.07
+    2024 Yearly: -0.09
+    2025 Yearly: 0.17
+  quarterly_forecast:
+    Q3 2024: 0.04
+    Q4 2024: 0.05
+    Q1 2025: 0.02
+    Q2 2025: 0.09
+    Q3 2025: 0.06
+    Q4 2025: 0.03
+    Q1 2026: 0.01
+    Q2 2026: 0.0
+    Q3 2026: 0.01
+    Q4 2026: 0.01
+    Q1 2027: 0.01
+  annual_forecast:
+    2021 Yearly: -0.07
+    2022 Yearly: -0.11
+    2023 Yearly: -0.05
+    2024 Yearly: 0.25
+    2025 Yearly: 0.12
+    2026 Yearly: 0.02
+    2027 Yearly: 0.02
+    2028 Yearly: 0.06

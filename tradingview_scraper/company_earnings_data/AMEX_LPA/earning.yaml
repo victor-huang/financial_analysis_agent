@@ -1,0 +1,38 @@
+currency: USD
+company_name: Logistic Properties of the Americas
+sector: Finance
+market_cap_billions: 0.10812999999999999
+revenue:
+  quarterly:
+    Q1 2026: 14.36
+    Q2 2026: 14.74
+  annual:
+    2025 Yearly: 49.6
+  quarterly_forecast:
+    Q2 2026: 14.14
+    Q3 2026: 10.1
+    Q4 2026: 10.33
+    Q1 2027: 11.78
+    Q2 2027: 13.43
+  annual_forecast:
+    2026 Yearly: 53.01
+    2027 Yearly: 63.2
+    2028 Yearly: 72.96
+    2029 Yearly: 70.9
+eps:
+  quarterly:
+    Q1 2026: -0.25
+    Q2 2026: 0.04
+  annual:
+    2025 Yearly: 0.51
+  quarterly_forecast:
+    Q2 2026: 0.04
+    Q3 2026: -0.01
+    Q4 2026: 0.0
+    Q1 2027: 0.03
+    Q2 2027: 0.06
+  annual_forecast:
+    2026 Yearly: 0.01
+    2027 Yearly: 0.44
+    2028 Yearly: 0.55
+    2029 Yearly: 0.42

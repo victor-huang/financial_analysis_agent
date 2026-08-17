@@ -1,0 +1,76 @@
+currency: USD
+company_name: Biohaven Ltd.
+sector: Health Technology
+market_cap_billions: 2.18
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+  annual:
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q4 2025: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 1.01
+    Q2 2027: 1.03
+  annual_forecast:
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 21.7
+    2028 Yearly: 105.57
+    2029 Yearly: 342.57
+eps:
+  quarterly:
+    Q3 2024: -1.7
+    Q4 2024: -1.85
+    Q1 2025: -2.17
+    Q2 2025: -1.94
+    Q3 2025: -1.64
+    Q4 2025: -1.21
+    Q1 2026: -0.88
+    Q2 2026: -0.91
+  annual:
+    2022 Yearly: -12.75
+    2023 Yearly: -5.73
+    2024 Yearly: -9.28
+    2025 Yearly: -6.86
+  quarterly_forecast:
+    Q3 2024: -1.7
+    Q4 2024: -1.57
+    Q1 2025: -1.7
+    Q2 2025: -1.9
+    Q3 2025: -1.9
+    Q4 2025: -1.19
+    Q1 2026: -0.83
+    Q2 2026: -0.76
+    Q3 2026: -0.74
+    Q4 2026: -0.68
+    Q1 2027: -0.7
+    Q2 2027: -0.68
+  annual_forecast:
+    2022 Yearly: -9.79
+    2023 Yearly: -5.22
+    2024 Yearly: -8.89
+    2025 Yearly: -6.61
+    2026 Yearly: -3.13
+    2027 Yearly: -2.52
+    2028 Yearly: -2.07
+    2029 Yearly: -1.18

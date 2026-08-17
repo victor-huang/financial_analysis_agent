@@ -1,0 +1,76 @@
+currency: USD
+company_name: KT Corporation
+sector: Communications
+market_cap_billions: 8.96
+revenue:
+  quarterly:
+    Q3 2024: 4770.0
+    Q4 2024: 4540.0
+    Q1 2025: 4880.0
+    Q2 2025: 5350.0
+    Q3 2025: 4910.0
+    Q4 2025: 4720.0
+    Q1 2026: 4550.0
+  annual:
+    2021 Yearly: 20870.0
+    2022 Yearly: 20350.0
+    2023 Yearly: 19870.0
+    2024 Yearly: 18260.0
+    2025 Yearly: 19470.0
+  quarterly_forecast:
+    Q4 2024: 4930.0
+    Q1 2025: 4660.0
+    Q2 2025: 4880.0
+    Q3 2025: 5250.0
+    Q4 2025: 4880.0
+    Q1 2026: 4690.0
+    Q2 2026: 4620.0
+    Q3 2026: 4590.0
+    Q4 2026: 4720.0
+  annual_forecast:
+    2021 Yearly: 20750.0
+    2022 Yearly: 20460.0
+    2023 Yearly: 19950.0
+    2024 Yearly: 18450.0
+    2025 Yearly: 19360.0
+    2026 Yearly: 18730.0
+    2027 Yearly: 19060.0
+    2028 Yearly: 19390.0
+    2029 Yearly: 20290.0
+eps:
+  quarterly:
+    Q3 2024: 0.55
+    Q4 2024: -0.88
+    Q1 2025: 0.79
+    Q2 2025: 1.0
+    Q3 2025: 0.55
+    Q4 2025: 0.16
+    Q1 2026: 0.48
+  annual:
+    2021 Yearly: 2.12
+    2022 Yearly: 1.86
+    2023 Yearly: 1.45
+    2024 Yearly: 0.66
+    2025 Yearly: 2.37
+  quarterly_forecast:
+    Q3 2024: 0.49
+    Q4 2024: -1.01
+    Q1 2025: 0.73
+    Q2 2025: 0.95
+    Q3 2025: 0.53
+    Q4 2025: 0.18
+    Q1 2026: 0.51
+    Q2 2026: 0.56
+    Q3 2026: 0.49
+    Q4 2026: 0.39
+    Q1 2027: 0.65
+  annual_forecast:
+    2021 Yearly: 2.11
+    2022 Yearly: 1.87
+    2023 Yearly: 1.74
+    2024 Yearly: 0.71
+    2025 Yearly: 2.34
+    2026 Yearly: 1.98
+    2027 Yearly: 2.19
+    2028 Yearly: 2.35
+    2029 Yearly: 3.25

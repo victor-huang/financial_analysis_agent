@@ -1,0 +1,46 @@
+currency: USD
+company_name: Gemini Space Station, Inc.
+sector: Finance
+market_cap_billions: 0.49744
+revenue:
+  quarterly:
+    Q2 2025: 33.0
+    Q3 2025: 49.77
+    Q4 2025: 56.4
+    Q1 2026: 48.58
+  annual:
+    2025 Yearly: 174.09
+  quarterly_forecast:
+    Q3 2025: 46.79
+    Q4 2025: 50.02
+    Q1 2026: 47.93
+    Q2 2026: 43.07
+    Q3 2026: 48.11
+    Q4 2026: 54.24
+    Q1 2027: 58.61
+  annual_forecast:
+    2025 Yearly: 169.47
+    2026 Yearly: 194.62
+    2027 Yearly: 257.86
+    2028 Yearly: 288.66
+eps:
+  quarterly:
+    Q2 2025: -3.46
+    Q3 2025: -6.67
+    Q4 2025: -1.22
+    Q1 2026: -0.93
+  annual:
+    2025 Yearly: -7.13
+  quarterly_forecast:
+    Q3 2025: -0.77
+    Q4 2025: -1.04
+    Q1 2026: -1.03
+    Q2 2026: -0.7
+    Q3 2026: -0.72
+    Q4 2026: -0.66
+    Q1 2027: -0.64
+  annual_forecast:
+    2025 Yearly: -8.96
+    2026 Yearly: -2.93
+    2027 Yearly: -2.24
+    2028 Yearly: -2.14

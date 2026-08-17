@@ -1,0 +1,74 @@
+currency: USD
+company_name: Quest Resource Holding Corporation
+sector: Industrial Services
+market_cap_billions: 0.02655
+revenue:
+  quarterly:
+    Q3 2024: 72.77
+    Q4 2024: 69.97
+    Q1 2025: 68.43
+    Q2 2025: 59.54
+    Q3 2025: 63.34
+    Q4 2025: 58.91
+    Q1 2026: 61.73
+  annual:
+    2021 Yearly: 155.72
+    2022 Yearly: 284.04
+    2023 Yearly: 288.38
+    2024 Yearly: 288.53
+    2025 Yearly: 250.22
+  quarterly_forecast:
+    Q3 2024: 77.1
+    Q4 2024: 73.63
+    Q1 2025: 72.04
+    Q2 2025: 72.56
+    Q3 2025: 59.83
+    Q4 2025: 61.16
+    Q1 2026: 62.21
+    Q2 2026: 63.55
+    Q3 2026: 67.05
+    Q4 2026: 64.95
+    Q1 2027: 65.6
+  annual_forecast:
+    2021 Yearly: 149.15
+    2022 Yearly: 292.78
+    2023 Yearly: 292.08
+    2024 Yearly: 292.23
+    2025 Yearly: 252.46
+    2026 Yearly: 257.25
+    2027 Yearly: 272.6
+eps:
+  quarterly:
+    Q3 2024: -0.06
+    Q4 2024: -0.09
+    Q1 2025: -0.14
+    Q2 2025: -0.04
+    Q3 2025: -0.02
+    Q4 2025: -0.07
+    Q1 2026: -0.11
+  annual:
+    2021 Yearly: 0.27
+    2022 Yearly: 0.26
+    2023 Yearly: 0.15
+    2024 Yearly: -0.03
+    2025 Yearly: -0.36
+  quarterly_forecast:
+    Q3 2024: 0.08
+    Q4 2024: 0.03
+    Q1 2025: -0.05
+    Q2 2025: 0.02
+    Q3 2025: -0.01
+    Q4 2025: 0.0
+    Q1 2026: -0.07
+    Q2 2026: -0.04
+    Q3 2026: -0.01
+    Q4 2026: -0.01
+    Q1 2027: -0.04
+  annual_forecast:
+    2021 Yearly: 0.07
+    2022 Yearly: 0.36
+    2023 Yearly: 0.19
+    2024 Yearly: 0.09
+    2025 Yearly: -0.2
+    2026 Yearly: -0.13
+    2027 Yearly: 0.03

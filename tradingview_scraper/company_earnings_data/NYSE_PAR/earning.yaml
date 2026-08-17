@@ -1,0 +1,76 @@
+currency: USD
+company_name: PAR Technology Corporation
+sector: Electronic Technology
+market_cap_billions: 0.70613
+revenue:
+  quarterly:
+    Q3 2024: 96.75
+    Q4 2024: 105.0
+    Q1 2025: 103.86
+    Q2 2025: 112.4
+    Q3 2025: 119.18
+    Q4 2025: 120.1
+    Q1 2026: 123.97
+  annual:
+    2021 Yearly: 282.88
+    2022 Yearly: 355.8
+    2023 Yearly: 415.82
+    2024 Yearly: 349.98
+    2025 Yearly: 455.55
+  quarterly_forecast:
+    Q3 2024: 91.01
+    Q4 2024: 99.45
+    Q1 2025: 105.17
+    Q2 2025: 110.82
+    Q3 2025: 112.15
+    Q4 2025: 116.29
+    Q1 2026: 116.88
+    Q2 2026: 124.66
+    Q3 2026: 128.35
+    Q4 2026: 132.44
+    Q1 2027: 138.59
+  annual_forecast:
+    2021 Yearly: 277.28
+    2022 Yearly: 349.08
+    2023 Yearly: 413.02
+    2024 Yearly: 379.99
+    2025 Yearly: 451.78
+    2026 Yearly: 509.43
+    2027 Yearly: 566.8
+    2028 Yearly: 623.24
+eps:
+  quarterly:
+    Q3 2024: -0.09
+    Q4 2024: 0.0
+    Q1 2025: -0.01
+    Q2 2025: 0.03
+    Q3 2025: 0.06
+    Q4 2025: 0.06
+    Q1 2026: 0.1
+  annual:
+    2021 Yearly: -1.43
+    2022 Yearly: -1.32
+    2023 Yearly: -1.52
+    2024 Yearly: -0.73
+    2025 Yearly: 0.15
+  quarterly_forecast:
+    Q3 2024: -0.09
+    Q4 2024: -0.09
+    Q1 2025: -0.04
+    Q2 2025: 0.01
+    Q3 2025: -0.01
+    Q4 2025: 0.06
+    Q1 2026: 0.06
+    Q2 2026: 0.12
+    Q3 2026: 0.17
+    Q4 2026: 0.22
+    Q1 2027: 0.2
+  annual_forecast:
+    2021 Yearly: -1.45
+    2022 Yearly: -1.51
+    2023 Yearly: -1.45
+    2024 Yearly: -0.85
+    2025 Yearly: 0.13
+    2026 Yearly: 0.62
+    2027 Yearly: 1.29
+    2028 Yearly: 2.19

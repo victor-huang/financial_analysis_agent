@@ -1,0 +1,76 @@
+currency: USD
+company_name: Omeros Corporation
+sector: Health Technology
+market_cap_billions: 0.99227
+revenue:
+  quarterly:
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 9.9
+    Q2 2026: 28.53
+  annual:
+    2021 Yearly: 110.73
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q4 2024: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 4.19
+    Q2 2026: 12.69
+    Q3 2026: 25.67
+    Q4 2026: 39.71
+    Q1 2027: 152.03
+    Q2 2027: 158.36
+  annual_forecast:
+    2021 Yearly: 146.83
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 93.67
+    2027 Yearly: 186.69
+    2028 Yearly: 312.05
+    2029 Yearly: 430.0
+eps:
+  quarterly:
+    Q4 2024: -0.54
+    Q1 2025: -0.58
+    Q2 2025: -0.43
+    Q3 2025: -0.47
+    Q4 2025: 0.98
+    Q1 2026: 0.62
+    Q2 2026: 0.15
+  annual:
+    2021 Yearly: 3.12
+    2022 Yearly: 0.76
+    2023 Yearly: -1.88
+    2024 Yearly: -2.7
+    2025 Yearly: -0.05
+  quarterly_forecast:
+    Q4 2024: -0.78
+    Q1 2025: -0.57
+    Q2 2025: -0.5
+    Q3 2025: -0.45
+    Q4 2025: -0.57
+    Q1 2026: -0.39
+    Q2 2026: -0.27
+    Q3 2026: -0.14
+    Q4 2026: -0.1
+    Q1 2027: 1.04
+    Q2 2027: 1.12
+  annual_forecast:
+    2021 Yearly: -1.11
+    2022 Yearly: -1.96
+    2023 Yearly: -2.27
+    2024 Yearly: -2.93
+    2025 Yearly: -2.03
+    2026 Yearly: 0.31
+    2027 Yearly: 0.53
+    2028 Yearly: 1.37
+    2029 Yearly: 2.09

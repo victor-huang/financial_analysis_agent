@@ -1,0 +1,74 @@
+currency: USD
+company_name: QXO, Inc.
+sector: Distribution Services
+market_cap_billions: 15.59
+revenue:
+  quarterly:
+    Q3 2024: 13.15
+    Q4 2024: 14.74
+    Q1 2025: 13.51
+    Q2 2025: 1910.0
+    Q3 2025: 2730.0
+    Q4 2025: 2190.0
+    Q1 2026: 1730.0
+  annual:
+    2019 Yearly: 38.5
+    2024 Yearly: 56.87
+    2025 Yearly: 6840.0
+  quarterly_forecast:
+    Q3 2024: 14.0
+    Q4 2024: 14.0
+    Q1 2025: 12.0
+    Q2 2025: 1870.0
+    Q3 2025: 2710.0
+    Q4 2025: 2190.0
+    Q1 2026: 1730.0
+    Q2 2026: 3180.0
+    Q3 2026: 4990.0
+    Q4 2026: 4400.0
+    Q1 2027: 3870.0
+  annual_forecast:
+    2019 Yearly: 45.64
+    2020 Yearly: 51.85
+    2021 Yearly: 47.33
+    2024 Yearly: 56.0
+    2025 Yearly: 6830.0
+    2026 Yearly: 14090.0
+    2027 Yearly: 19320.0
+    2028 Yearly: 23850.0
+    2029 Yearly: 28750.0
+eps:
+  quarterly:
+    Q3 2024: -0.01
+    Q4 2024: -0.02
+    Q1 2025: -0.03
+    Q2 2025: 0.11
+    Q3 2025: 0.14
+    Q4 2025: 0.02
+    Q1 2026: -0.12
+  annual:
+    2019 Yearly: 12.08
+    2024 Yearly: -0.11
+    2025 Yearly: 0.34
+  quarterly_forecast:
+    Q3 2024: 0.04
+    Q4 2024: -0.05
+    Q1 2025: -0.05
+    Q2 2025: 0.04
+    Q3 2025: 0.12
+    Q4 2025: 0.02
+    Q1 2026: -0.1
+    Q2 2026: 0.08
+    Q3 2026: 0.19
+    Q4 2026: 0.09
+    Q1 2027: 0.04
+  annual_forecast:
+    2019 Yearly: 1.36
+    2020 Yearly: 1.6
+    2021 Yearly: 4.16
+    2024 Yearly: -0.13
+    2025 Yearly: 0.27
+    2026 Yearly: 0.31
+    2027 Yearly: 0.71
+    2028 Yearly: 1.14
+    2029 Yearly: 1.67

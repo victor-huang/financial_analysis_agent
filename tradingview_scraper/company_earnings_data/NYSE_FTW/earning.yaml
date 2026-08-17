@@ -1,0 +1,30 @@
+currency: USD
+company_name: Presidio Production Company
+sector: Energy Minerals
+market_cap_billions: 0.35644
+revenue:
+  quarterly:
+    Q1 2026: 51.11
+    Q2 2026: 54.0
+  annual: {}
+  quarterly_forecast:
+    Q1 2026: 51.0
+    Q2 2026: 59.01
+    Q3 2026: 59.91
+    Q4 2026: 60.59
+    Q1 2027: 61.18
+    Q2 2027: 67.36
+  annual_forecast: {}
+eps:
+  quarterly:
+    Q1 2026: -3.23
+    Q2 2026: -0.1
+  annual: {}
+  quarterly_forecast:
+    Q1 2026: -0.87
+    Q2 2026: -0.1
+    Q3 2026: -0.04
+    Q4 2026: -0.01
+    Q1 2027: 0.15
+    Q2 2027: 0.04
+  annual_forecast: {}

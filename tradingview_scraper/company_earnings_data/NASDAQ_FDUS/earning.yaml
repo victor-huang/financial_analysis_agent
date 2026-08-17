@@ -1,0 +1,80 @@
+currency: USD
+company_name: Fidus Investment Corporation
+sector: Miscellaneous
+market_cap_billions: 0.7811
+revenue:
+  quarterly:
+    Q3 2024: 38.38
+    Q4 2024: 37.46
+    Q1 2025: 36.5
+    Q2 2025: 39.97
+    Q3 2025: 37.25
+    Q4 2025: 42.15
+    Q1 2026: 47.52
+    Q2 2026: 43.5
+  annual:
+    2021 Yearly: 90.45
+    2022 Yearly: 94.14
+    2023 Yearly: 130.11
+    2024 Yearly: 146.15
+    2025 Yearly: 155.87
+  quarterly_forecast:
+    Q3 2024: 36.46
+    Q4 2024: 36.66
+    Q1 2025: 35.78
+    Q2 2025: 37.42
+    Q3 2025: 37.41
+    Q4 2025: 39.18
+    Q1 2026: 42.3
+    Q2 2026: 42.37
+    Q3 2026: 43.44
+    Q4 2026: 43.99
+    Q1 2027: 44.02
+    Q2 2027: 44.65
+  annual_forecast:
+    2021 Yearly: 86.81
+    2022 Yearly: 92.93
+    2023 Yearly: 127.03
+    2024 Yearly: 145.36
+    2025 Yearly: 152.91
+    2026 Yearly: 177.34
+    2027 Yearly: 179.58
+    2028 Yearly: 171.1
+eps:
+  quarterly:
+    Q3 2024: 0.61
+    Q4 2024: 0.54
+    Q1 2025: 0.54
+    Q2 2025: 0.57
+    Q3 2025: 0.5
+    Q4 2025: 0.52
+    Q1 2026: 0.62
+    Q2 2026: 0.5
+  annual:
+    2021 Yearly: 1.77
+    2022 Yearly: 1.88
+    2023 Yearly: 2.56
+    2024 Yearly: 2.31
+    2025 Yearly: 2.13
+  quarterly_forecast:
+    Q3 2024: 0.57
+    Q4 2024: 0.52
+    Q1 2025: 0.54
+    Q2 2025: 0.52
+    Q3 2025: 0.5
+    Q4 2025: 0.5
+    Q1 2026: 0.51
+    Q2 2026: 0.5
+    Q3 2026: 0.51
+    Q4 2026: 0.49
+    Q1 2027: 0.5
+    Q2 2027: 0.5
+  annual_forecast:
+    2021 Yearly: 1.64
+    2022 Yearly: 1.86
+    2023 Yearly: 2.51
+    2024 Yearly: 2.29
+    2025 Yearly: 2.09
+    2026 Yearly: 2.13
+    2027 Yearly: 1.97
+    2028 Yearly: 1.8

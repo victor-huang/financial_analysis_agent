@@ -1,0 +1,82 @@
+currency: USD
+company_name: Clean Energy Fuels Corp.
+sector: Utilities
+market_cap_billions: 0.40962
+revenue:
+  quarterly:
+    Q3 2024: 104.9
+    Q4 2024: 109.33
+    Q1 2025: 103.76
+    Q2 2025: 102.61
+    Q3 2025: 106.14
+    Q4 2025: 112.32
+    Q1 2026: 117.56
+    Q2 2026: 106.4
+  annual:
+    2021 Yearly: 339.2
+    2022 Yearly: 420.2
+    2023 Yearly: 425.16
+    2024 Yearly: 415.87
+    2025 Yearly: 424.83
+  quarterly_forecast:
+    Q3 2024: 100.64
+    Q4 2024: 102.61
+    Q1 2025: 99.48
+    Q2 2025: 100.32
+    Q3 2025: 106.37
+    Q4 2025: 104.16
+    Q1 2026: 102.62
+    Q2 2026: 111.27
+    Q3 2026: 114.52
+    Q4 2026: 116.38
+    Q1 2027: 116.18
+    Q2 2027: 115.44
+  annual_forecast:
+    2021 Yearly: 333.98
+    2022 Yearly: 434.96
+    2023 Yearly: 428.72
+    2024 Yearly: 415.29
+    2025 Yearly: 425.58
+    2026 Yearly: 459.6
+    2027 Yearly: 473.15
+    2028 Yearly: 517.91
+    2029 Yearly: 523.45
+eps:
+  quarterly:
+    Q3 2024: 0.02
+    Q4 2024: 0.02
+    Q1 2025: 0.01
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: -0.01
+    Q2 2026: -0.01
+  annual:
+    2021 Yearly: 0.04
+    2022 Yearly: 0.01
+    2023 Yearly: -0.06
+    2024 Yearly: 0.03
+    2025 Yearly: 0.01
+  quarterly_forecast:
+    Q3 2024: -0.01
+    Q4 2024: 0.0
+    Q1 2025: -0.14
+    Q2 2025: -0.08
+    Q3 2025: -0.05
+    Q4 2025: -0.05
+    Q1 2026: -0.03
+    Q2 2026: -0.01
+    Q3 2026: 0.0
+    Q4 2026: 0.01
+    Q1 2027: 0.0
+    Q2 2027: 0.01
+  annual_forecast:
+    2021 Yearly: 0.03
+    2022 Yearly: 0.02
+    2023 Yearly: -0.05
+    2024 Yearly: 0.01
+    2025 Yearly: -0.04
+    2026 Yearly: -0.01
+    2027 Yearly: 0.05
+    2028 Yearly: 0.13
+    2029 Yearly: 0.39

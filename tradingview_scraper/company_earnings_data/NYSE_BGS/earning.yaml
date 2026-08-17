@@ -1,0 +1,76 @@
+currency: USD
+company_name: B&G Foods, Inc.
+sector: Consumer Non-Durables
+market_cap_billions: 0.27677999999999997
+revenue:
+  quarterly:
+    Q4 2024: 551.6
+    Q1 2025: 425.4
+    Q2 2025: 424.43
+    Q3 2025: 439.3
+    Q4 2025: 539.56
+    Q1 2026: 408.94
+    Q2 2026: 383.27
+  annual:
+    2021 Yearly: 2060.0
+    2022 Yearly: 2160.0
+    2023 Yearly: 2060.0
+    2024 Yearly: 1930.0
+    2025 Yearly: 1830.0
+  quarterly_forecast:
+    Q4 2024: 547.9
+    Q1 2025: 458.5
+    Q2 2025: 429.0
+    Q3 2025: 436.5
+    Q4 2025: 538.0
+    Q1 2026: 398.81
+    Q2 2026: 394.92
+    Q3 2026: 432.32
+    Q4 2026: 510.0
+    Q1 2027: 411.5
+    Q2 2027: 397.78
+  annual_forecast:
+    2021 Yearly: 2080.0
+    2022 Yearly: 2120.0
+    2023 Yearly: 2050.0
+    2024 Yearly: 1930.0
+    2025 Yearly: 1830.0
+    2026 Yearly: 1730.0
+    2027 Yearly: 1760.0
+    2028 Yearly: 1760.0
+eps:
+  quarterly:
+    Q4 2024: 0.31
+    Q1 2025: 0.04
+    Q2 2025: 0.04
+    Q3 2025: 0.15
+    Q4 2025: 0.28
+    Q1 2026: 0.08
+    Q2 2026: 0.06
+  annual:
+    2021 Yearly: 1.88
+    2022 Yearly: 1.08
+    2023 Yearly: 0.99
+    2024 Yearly: 0.7
+    2025 Yearly: 0.51
+  quarterly_forecast:
+    Q4 2024: 0.3
+    Q1 2025: 0.14
+    Q2 2025: 0.06
+    Q3 2025: 0.11
+    Q4 2025: 0.3
+    Q1 2026: 0.05
+    Q2 2026: 0.06
+    Q3 2026: 0.16
+    Q4 2026: 0.26
+    Q1 2027: 0.08
+    Q2 2027: 0.06
+  annual_forecast:
+    2021 Yearly: 1.91
+    2022 Yearly: 0.94
+    2023 Yearly: 0.97
+    2024 Yearly: 0.69
+    2025 Yearly: 0.56
+    2026 Yearly: 0.56
+    2027 Yearly: 0.57
+    2028 Yearly: 0.52

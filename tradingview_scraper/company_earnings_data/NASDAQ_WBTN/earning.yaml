@@ -1,0 +1,68 @@
+currency: USD
+company_name: WEBTOON Entertainment Inc.
+sector: Technology Services
+market_cap_billions: 1.28
+revenue:
+  quarterly:
+    Q3 2024: 347.92
+    Q4 2024: 352.85
+    Q1 2025: 325.71
+    Q2 2025: 348.27
+    Q3 2025: 378.04
+    Q4 2025: 330.69
+    Q1 2026: 320.87
+    Q2 2026: 338.46
+  annual:
+    2024 Yearly: 1350.0
+    2025 Yearly: 1380.0
+  quarterly_forecast:
+    Q3 2024: 336.11
+    Q4 2024: 354.36
+    Q1 2025: 324.68
+    Q2 2025: 340.63
+    Q3 2025: 384.71
+    Q4 2025: 337.19
+    Q1 2026: 321.57
+    Q2 2026: 339.89
+    Q3 2026: 381.06
+    Q4 2026: 357.93
+    Q1 2027: 327.83
+    Q2 2027: 377.79
+  annual_forecast:
+    2024 Yearly: 1350.0
+    2025 Yearly: 1390.0
+    2026 Yearly: 1410.0
+    2027 Yearly: 1560.0
+    2028 Yearly: 1720.0
+eps:
+  quarterly:
+    Q3 2024: 0.15
+    Q4 2024: -0.72
+    Q1 2025: -0.17
+    Q2 2025: -0.03
+    Q3 2025: -0.09
+    Q4 2025: -2.36
+    Q1 2026: -0.07
+    Q2 2026: -0.11
+  annual:
+    2024 Yearly: -1.21
+    2025 Yearly: -2.66
+  quarterly_forecast:
+    Q3 2024: -0.45
+    Q4 2024: -0.18
+    Q1 2025: -0.15
+    Q2 2025: -0.17
+    Q3 2025: -0.11
+    Q4 2025: -0.15
+    Q1 2026: -0.1
+    Q2 2026: -0.07
+    Q3 2026: -0.07
+    Q4 2026: -0.05
+    Q1 2027: -0.02
+    Q2 2027: -0.03
+  annual_forecast:
+    2024 Yearly: -0.72
+    2025 Yearly: -0.45
+    2026 Yearly: -0.19
+    2027 Yearly: 0.1
+    2028 Yearly: 0.25

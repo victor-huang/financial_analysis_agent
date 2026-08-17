@@ -1,0 +1,74 @@
+currency: USD
+company_name: Gladstone Investment Corporation - Business Development Company
+sector: Miscellaneous
+market_cap_billions: 0.6714
+revenue:
+  quarterly:
+    Q2 2024: 22.57
+    Q3 2024: 21.37
+    Q4 2024: 27.55
+    Q1 2025: 23.54
+    Q2 2025: 25.28
+    Q3 2025: 25.06
+    Q4 2025: 25.19
+  annual:
+    2021 Yearly: 72.55
+    2022 Yearly: 81.54
+    2023 Yearly: 87.31
+    2024 Yearly: 93.66
+    2025 Yearly: 99.08
+  quarterly_forecast:
+    Q2 2024: 22.8
+    Q3 2024: 22.88
+    Q4 2024: 24.55
+    Q1 2025: 24.27
+    Q2 2025: 24.72
+    Q3 2025: 25.81
+    Q4 2025: 25.8
+    Q1 2026: 25.75
+    Q2 2026: 26.34
+    Q3 2026: 26.98
+    Q4 2026: 27.42
+  annual_forecast:
+    2021 Yearly: 69.7
+    2022 Yearly: 82.1
+    2023 Yearly: 86.49
+    2024 Yearly: 90.65
+    2025 Yearly: 99.69
+    2026 Yearly: 106.49
+    2027 Yearly: 113.31
+eps:
+  quarterly:
+    Q2 2024: 0.2
+    Q3 2024: 0.03
+    Q4 2024: 0.2
+    Q1 2025: 0.25
+    Q2 2025: 0.11
+    Q3 2025: -0.16
+    Q4 2025: -0.27
+  annual:
+    2021 Yearly: 0.45
+    2022 Yearly: 1.1
+    2023 Yearly: 1.0
+    2024 Yearly: 0.76
+    2025 Yearly: -0.1
+  quarterly_forecast:
+    Q2 2024: 0.25
+    Q3 2024: 0.24
+    Q4 2024: 0.23
+    Q1 2025: 0.22
+    Q2 2025: 0.23
+    Q3 2025: 0.23
+    Q4 2025: 0.21
+    Q1 2026: 0.22
+    Q2 2026: 0.22
+    Q3 2026: 0.22
+    Q4 2026: 0.22
+  annual_forecast:
+    2021 Yearly: 0.48
+    2022 Yearly: 1.09
+    2023 Yearly: 0.91
+    2024 Yearly: 0.84
+    2025 Yearly: 0.41
+    2026 Yearly: 0.89
+    2027 Yearly: 0.93

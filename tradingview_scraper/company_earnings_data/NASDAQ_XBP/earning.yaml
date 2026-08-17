@@ -1,0 +1,38 @@
+currency: USD
+company_name: XBP Global Holdings, Inc.
+sector: Finance
+market_cap_billions: 0.03454
+revenue:
+  quarterly:
+    Q4 2025: 504.7
+    Q1 2026: 197.13
+  annual:
+    2025 Yearly: 791.0
+  quarterly_forecast:
+    Q1 2026: 199.1
+    Q2 2026: 197.7
+    Q3 2026: 202.6
+    Q4 2026: 213.2
+    Q1 2027: 216.5
+  annual_forecast:
+    2026 Yearly: 810.6
+    2027 Yearly: 898.6
+    2028 Yearly: 978.6
+    2029 Yearly: 1060.0
+eps:
+  quarterly:
+    Q4 2025: -5.06
+    Q1 2026: -2.28
+  annual:
+    2025 Yearly: 93.87
+  quarterly_forecast:
+    Q1 2026: -0.18
+    Q2 2026: -1.04
+    Q3 2026: -0.76
+    Q4 2026: -0.44
+    Q1 2027: -0.46
+  annual_forecast:
+    2026 Yearly: -4.51
+    2027 Yearly: -1.51
+    2028 Yearly: 3.78
+    2029 Yearly: 5.96

@@ -1,0 +1,72 @@
+currency: USD
+company_name: Exodus Movement, Inc.
+sector: Technology Services
+market_cap_billions: 0.15607
+revenue:
+  quarterly:
+    Q3 2024: 20.12
+    Q4 2024: 44.8
+    Q1 2025: 36.0
+    Q2 2025: 25.83
+    Q3 2025: 30.3
+    Q4 2025: 29.42
+    Q1 2026: 22.7
+    Q2 2026: 26.2
+  annual:
+    2023 Yearly: 56.2
+    2024 Yearly: 116.3
+    2025 Yearly: 121.55
+  quarterly_forecast:
+    Q3 2024: 24.29
+    Q4 2024: 28.54
+    Q1 2025: 37.06
+    Q2 2025: 29.65
+    Q3 2025: 30.2
+    Q4 2025: 29.8
+    Q1 2026: 24.01
+    Q2 2026: 26.79
+    Q3 2026: 33.22
+    Q4 2026: 37.66
+    Q1 2027: 45.0
+    Q2 2027: 47.1
+  annual_forecast:
+    2023 Yearly: 55.99
+    2024 Yearly: 100.04
+    2025 Yearly: 121.98
+    2026 Yearly: 120.41
+    2027 Yearly: 193.78
+    2028 Yearly: 253.41
+eps:
+  quarterly:
+    Q3 2024: 0.03
+    Q4 2024: 1.94
+    Q1 2025: -0.45
+    Q2 2025: 1.12
+    Q3 2025: 0.53
+    Q4 2025: -2.13
+    Q1 2026: -1.08
+    Q2 2026: -0.14
+  annual:
+    2023 Yearly: 0.41
+    2024 Yearly: 3.52
+    2025 Yearly: -0.39
+  quarterly_forecast:
+    Q3 2024: 0.28
+    Q4 2024: 0.65
+    Q1 2025: 0.27
+    Q2 2025: 0.12
+    Q3 2025: 0.09
+    Q4 2025: 0.0
+    Q1 2026: -0.45
+    Q2 2026: -0.22
+    Q3 2026: -0.05
+    Q4 2026: 0.03
+    Q1 2027: 0.04
+    Q2 2027: -0.09
+  annual_forecast:
+    2023 Yearly: 0.14
+    2024 Yearly: 2.09
+    2025 Yearly: 1.21
+    2026 Yearly: -1.31
+    2027 Yearly: 0.17
+    2028 Yearly: 0.64

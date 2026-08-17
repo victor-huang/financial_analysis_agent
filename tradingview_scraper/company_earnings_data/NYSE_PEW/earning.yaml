@@ -1,0 +1,43 @@
+currency: USD
+company_name: GrabAGun Digital Holdings Inc.
+sector: Retail Trade
+market_cap_billions: 0.07644
+revenue:
+  quarterly:
+    Q2 2025: 21.2
+    Q3 2025: 22.27
+    Q4 2025: 29.62
+    Q1 2026: 25.93
+  annual:
+    2025 Yearly: 96.45
+  quarterly_forecast:
+    Q3 2025: 22.0
+    Q4 2025: 27.8
+    Q1 2026: 24.5
+    Q2 2026: 22.7
+    Q3 2026: 23.3
+    Q4 2026: 30.7
+    Q1 2027: 27.6
+  annual_forecast:
+    2025 Yearly: 94.6
+    2026 Yearly: 102.6
+    2027 Yearly: 109.3
+eps:
+  quarterly:
+    Q3 2025: -0.12
+    Q4 2025: 0.01
+    Q1 2026: -0.06
+  annual:
+    2025 Yearly: -0.13
+  quarterly_forecast:
+    Q3 2025: 0.01
+    Q4 2025: -0.01
+    Q1 2026: -0.08
+    Q2 2026: -0.09
+    Q3 2026: -0.09
+    Q4 2026: -0.01
+    Q1 2027: -0.07
+  annual_forecast:
+    2025 Yearly: -0.09
+    2026 Yearly: -0.25
+    2027 Yearly: -0.27

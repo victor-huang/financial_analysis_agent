@@ -1,0 +1,82 @@
+currency: USD
+company_name: Akamai Technologies, Inc.
+sector: Technology Services
+market_cap_billions: 17.24
+revenue:
+  quarterly:
+    Q3 2024: 1000.0
+    Q4 2024: 1020.0
+    Q1 2025: 1020.0
+    Q2 2025: 1040.0
+    Q3 2025: 1050.0
+    Q4 2025: 1090.0
+    Q1 2026: 1070.0
+    Q2 2026: 1100.0
+  annual:
+    2021 Yearly: 3460.0
+    2022 Yearly: 3620.0
+    2023 Yearly: 3810.0
+    2024 Yearly: 3990.0
+    2025 Yearly: 4210.0
+  quarterly_forecast:
+    Q3 2024: 999.31
+    Q4 2024: 1020.0
+    Q1 2025: 1010.0
+    Q2 2025: 1020.0
+    Q3 2025: 1040.0
+    Q4 2025: 1080.0
+    Q1 2026: 1070.0
+    Q2 2026: 1090.0
+    Q3 2026: 1130.0
+    Q4 2026: 1200.0
+    Q1 2027: 1180.0
+    Q2 2027: 1210.0
+  annual_forecast:
+    2021 Yearly: 3460.0
+    2022 Yearly: 3590.0
+    2023 Yearly: 3820.0
+    2024 Yearly: 3990.0
+    2025 Yearly: 4190.0
+    2026 Yearly: 4500.0
+    2027 Yearly: 5000.0
+    2028 Yearly: 5510.0
+    2029 Yearly: 5990.0
+eps:
+  quarterly:
+    Q3 2024: 1.59
+    Q4 2024: 1.66
+    Q1 2025: 1.7
+    Q2 2025: 1.73
+    Q3 2025: 1.86
+    Q4 2025: 1.84
+    Q1 2026: 1.61
+    Q2 2026: 1.59
+  annual:
+    2021 Yearly: 5.74
+    2022 Yearly: 5.37
+    2023 Yearly: 6.2
+    2024 Yearly: 6.48
+    2025 Yearly: 7.12
+  quarterly_forecast:
+    Q3 2024: 1.59
+    Q4 2024: 1.52
+    Q1 2025: 1.57
+    Q2 2025: 1.55
+    Q3 2025: 1.64
+    Q4 2025: 1.76
+    Q1 2026: 1.6
+    Q2 2026: 1.57
+    Q3 2026: 1.7
+    Q4 2026: 1.8
+    Q1 2027: 1.67
+    Q2 2027: 1.75
+  annual_forecast:
+    2021 Yearly: 5.67
+    2022 Yearly: 5.27
+    2023 Yearly: 6.1
+    2024 Yearly: 6.33
+    2025 Yearly: 7.04
+    2026 Yearly: 6.69
+    2027 Yearly: 7.12
+    2028 Yearly: 7.91
+    2029 Yearly: 8.22

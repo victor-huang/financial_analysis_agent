@@ -1,0 +1,74 @@
+currency: USD
+company_name: Bakkt, Inc.
+sector: Commercial Services
+market_cap_billions: 0.34128
+revenue:
+  quarterly:
+    Q3 2024: 15.6
+    Q4 2024: 1800.0
+    Q1 2025: 1070.0
+    Q2 2025: 577.88
+    Q3 2025: 402.21
+    Q4 2025: 281.15
+    Q1 2026: 243.59
+  annual:
+    2021 Yearly: 39.4
+    2022 Yearly: 54.6
+    2023 Yearly: 53.1
+    2024 Yearly: 3490.0
+    2025 Yearly: 2340.0
+  quarterly_forecast:
+    Q3 2024: 16.38
+    Q4 2024: 18.06
+    Q1 2025: 17.2
+    Q2 2025: 17.1
+    Q3 2025: 442.97
+    Q4 2025: 396.43
+    Q1 2026: 297.94
+    Q2 2026: 373.27
+    Q3 2026: 829.75
+    Q4 2026: 936.88
+    Q1 2027: 1620.0
+  annual_forecast:
+    2021 Yearly: 37.34
+    2022 Yearly: 54.88
+    2023 Yearly: 57.19
+    2024 Yearly: 66.2
+    2025 Yearly: 2450.0
+    2026 Yearly: 2380.0
+    2027 Yearly: 7580.0
+    2028 Yearly: 12130.0
+eps:
+  quarterly:
+    Q3 2024: -0.45
+    Q4 2024: -2.95
+    Q1 2025: 1.13
+    Q2 2025: -2.16
+    Q3 2025: 1.21
+    Q4 2025: -6.73
+    Q1 2026: -0.41
+  annual:
+    2021 Yearly: -20.25
+    2022 Yearly: -202.75
+    2023 Yearly: -21.0
+    2024 Yearly: -7.97
+    2025 Yearly: -6.55
+  quarterly_forecast:
+    Q3 2024: -1.1
+    Q4 2024: -0.84
+    Q1 2025: -0.73
+    Q2 2025: -0.69
+    Q3 2025: -0.72
+    Q4 2025: -0.55
+    Q1 2026: -0.1
+    Q2 2026: 0.03
+    Q3 2026: 0.24
+    Q4 2026: 0.27
+    Q1 2027: 0.27
+  annual_forecast:
+    2022 Yearly: -71.0
+    2023 Yearly: -143.67
+    2024 Yearly: -22.47
+    2025 Yearly: -6.47
+    2026 Yearly: -2.56
+    2027 Yearly: 0.29

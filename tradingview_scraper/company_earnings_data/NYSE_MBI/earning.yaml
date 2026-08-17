@@ -1,0 +1,80 @@
+currency: USD
+company_name: MBIA Inc.
+sector: Finance
+market_cap_billions: 0.26893
+revenue:
+  quarterly:
+    Q3 2024: 9.0
+    Q4 2024: 10.0
+    Q1 2025: 6.0
+    Q2 2025: 7.0
+    Q3 2025: 7.0
+    Q4 2025: 8.0
+    Q1 2026: 6.0
+    Q2 2026: 7.0
+  annual:
+    2021 Yearly: 74.0
+    2022 Yearly: 53.0
+    2023 Yearly: 37.0
+    2024 Yearly: 36.0
+    2025 Yearly: 30.0
+  quarterly_forecast:
+    Q3 2024: 7.0
+    Q4 2024: 6.35
+    Q1 2025: 6.2
+    Q2 2025: 6.0
+    Q3 2025: 6.0
+    Q4 2025: 5.9
+    Q1 2026: 5.8
+    Q2 2026: 5.75
+    Q3 2026: 5.15
+    Q4 2026: 5.05
+    Q1 2027: 4.95
+    Q2 2027: 4.85
+  annual_forecast:
+    2021 Yearly: 52.0
+    2022 Yearly: 40.97
+    2023 Yearly: 30.5
+    2024 Yearly: 28.35
+    2025 Yearly: 24.9
+    2026 Yearly: 21.9
+    2027 Yearly: 18.8
+    2028 Yearly: 17.0
+eps:
+  quarterly:
+    Q3 2024: -0.01
+    Q4 2024: -0.47
+    Q1 2025: -0.16
+    Q2 2025: -0.17
+    Q3 2025: 1.03
+    Q4 2025: -0.24
+    Q1 2026: -0.16
+    Q2 2026: -0.14
+  annual:
+    2021 Yearly: -5.27
+    2022 Yearly: -2.9
+    2023 Yearly: -3.49
+    2024 Yearly: -3.9
+    2025 Yearly: 0.46
+  quarterly_forecast:
+    Q3 2024: -0.34
+    Q4 2024: -0.2
+    Q1 2025: -0.13
+    Q2 2025: -0.13
+    Q3 2025: -0.01
+    Q4 2025: -0.1
+    Q1 2026: -0.15
+    Q2 2026: -0.13
+    Q3 2026: -0.1
+    Q4 2026: -0.1
+    Q1 2027: -0.14
+    Q2 2027: -0.1
+  annual_forecast:
+    2021 Yearly: -3.6
+    2022 Yearly: -3.52
+    2023 Yearly: -2.82
+    2024 Yearly: -2.85
+    2025 Yearly: 0.25
+    2026 Yearly: -0.42
+    2027 Yearly: -0.38
+    2028 Yearly: -0.39

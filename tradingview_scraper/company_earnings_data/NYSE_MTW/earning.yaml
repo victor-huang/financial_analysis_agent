@@ -1,0 +1,80 @@
+currency: USD
+company_name: Manitowoc Company, Inc. (The)
+sector: Producer Manufacturing
+market_cap_billions: 0.51028
+revenue:
+  quarterly:
+    Q3 2024: 524.8
+    Q4 2024: 596.0
+    Q1 2025: 470.9
+    Q2 2025: 539.5
+    Q3 2025: 553.4
+    Q4 2025: 677.1
+    Q1 2026: 494.6
+    Q2 2026: 594.9
+  annual:
+    2021 Yearly: 1720.0
+    2022 Yearly: 2029.9999999999998
+    2023 Yearly: 2230.0
+    2024 Yearly: 2180.0
+    2025 Yearly: 2240.0
+  quarterly_forecast:
+    Q3 2024: 516.49
+    Q4 2024: 598.61
+    Q1 2025: 484.73
+    Q2 2025: 584.96
+    Q3 2025: 550.0
+    Q4 2025: 637.0
+    Q1 2026: 517.0
+    Q2 2026: 564.0
+    Q3 2026: 536.0
+    Q4 2026: 627.4
+    Q1 2027: 511.8
+    Q2 2027: 572.0
+  annual_forecast:
+    2021 Yearly: 1740.0
+    2022 Yearly: 1980.0
+    2023 Yearly: 2220.0
+    2024 Yearly: 2180.0
+    2025 Yearly: 2200.0
+    2026 Yearly: 2400.0
+    2027 Yearly: 2270.0
+    2028 Yearly: 2310.0
+eps:
+  quarterly:
+    Q3 2024: -0.08
+    Q4 2024: 0.1
+    Q1 2025: -0.16
+    Q2 2025: 0.08
+    Q3 2025: 0.14
+    Q4 2025: 0.26
+    Q1 2026: -0.13
+    Q2 2026: 0.46
+  annual:
+    2021 Yearly: 0.86
+    2022 Yearly: 1.06
+    2023 Yearly: 1.52
+    2024 Yearly: 0.41
+    2025 Yearly: 0.32
+  quarterly_forecast:
+    Q3 2024: 0.06
+    Q4 2024: 0.12
+    Q1 2025: -0.09
+    Q2 2025: 0.18
+    Q3 2025: 0.0
+    Q4 2025: 0.27
+    Q1 2026: 0.04
+    Q2 2026: 0.11
+    Q3 2026: 0.18
+    Q4 2026: 0.32
+    Q1 2027: 0.03
+    Q2 2027: 0.16
+  annual_forecast:
+    2021 Yearly: 0.63
+    2022 Yearly: 0.58
+    2023 Yearly: 1.66
+    2024 Yearly: 0.43
+    2025 Yearly: 0.33
+    2026 Yearly: 0.63
+    2027 Yearly: 0.91
+    2028 Yearly: 0.71

@@ -1,0 +1,80 @@
+currency: USD
+company_name: Navient Corporation
+sector: Finance
+market_cap_billions: 0.8919600000000001
+revenue:
+  quarterly:
+    Q3 2024: 239.0
+    Q4 2024: 223.0
+    Q1 2025: 195.0
+    Q2 2025: 156.0
+    Q3 2025: 161.0
+    Q4 2025: 144.0
+    Q1 2026: 152.0
+    Q2 2026: 150.0
+  annual:
+    2021 Yearly: 1900.0
+    2022 Yearly: 1470.0
+    2023 Yearly: 1340.0
+    2024 Yearly: 1150.0
+    2025 Yearly: 672.0
+  quarterly_forecast:
+    Q3 2024: 244.05
+    Q4 2024: 223.45
+    Q1 2025: 179.35
+    Q2 2025: 163.59
+    Q3 2025: 164.57
+    Q4 2025: 159.82
+    Q1 2026: 141.47
+    Q2 2026: 142.89
+    Q3 2026: 150.72
+    Q4 2026: 157.09
+    Q1 2027: 170.06
+    Q2 2027: 166.99
+  annual_forecast:
+    2021 Yearly: 1920.0
+    2022 Yearly: 1500.0
+    2023 Yearly: 1370.0
+    2024 Yearly: 936.2
+    2025 Yearly: 667.2
+    2026 Yearly: 595.73
+    2027 Yearly: 683.04
+    2028 Yearly: 874.64
+eps:
+  quarterly:
+    Q3 2024: 1.45
+    Q4 2024: -0.24
+    Q1 2025: 0.25
+    Q2 2025: 0.2
+    Q3 2025: -0.84
+    Q4 2025: 0.02
+    Q1 2026: 0.2
+    Q2 2026: 0.29
+  annual:
+    2021 Yearly: 4.45
+    2022 Yearly: 3.43
+    2023 Yearly: 2.45
+    2024 Yearly: 2.0
+    2025 Yearly: -0.35
+  quarterly_forecast:
+    Q3 2024: 0.25
+    Q4 2024: 0.22
+    Q1 2025: 0.2
+    Q2 2025: 0.27
+    Q3 2025: 0.18
+    Q4 2025: 0.31
+    Q1 2026: 0.16
+    Q2 2026: 0.2
+    Q3 2026: 0.08
+    Q4 2026: 0.23
+    Q1 2027: 0.22
+    Q2 2027: 0.27
+  annual_forecast:
+    2021 Yearly: 4.47
+    2022 Yearly: 3.38
+    2023 Yearly: 2.97
+    2024 Yearly: 2.44
+    2025 Yearly: -0.06
+    2026 Yearly: 0.71
+    2027 Yearly: 0.94
+    2028 Yearly: 1.02

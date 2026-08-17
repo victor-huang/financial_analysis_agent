@@ -1,0 +1,76 @@
+currency: USD
+company_name: Moleculin Biotech, Inc.
+sector: Health Technology
+market_cap_billions: 0.0037099999999999998
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+  annual_forecast:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 0.0
+    2028 Yearly: 87.01
+    2029 Yearly: 51.99
+eps:
+  quarterly:
+    Q3 2024: -71.25
+    Q4 2024: 6.25
+    Q1 2025: -17.25
+    Q2 2025: -12.25
+    Q3 2025: -17.02
+    Q4 2025: 2.61
+    Q1 2026: -3.54
+  annual:
+    2021 Yearly: -314.74
+    2022 Yearly: -378.75
+    2023 Yearly: -376.75
+    2024 Yearly: -158.0
+    2025 Yearly: -28.42
+  quarterly_forecast:
+    Q3 2024: -61.0
+    Q4 2024: -32.08
+    Q1 2025: -13.88
+    Q2 2025: -10.75
+    Q3 2025: -6.58
+    Q4 2025: -6.11
+    Q1 2026: -2.33
+    Q2 2026: -1.55
+    Q3 2026: -0.87
+    Q4 2026: -0.6
+    Q1 2027: -1.05
+  annual_forecast:
+    2021 Yearly: -290.63
+    2022 Yearly: -411.25
+    2023 Yearly: -329.06
+    2024 Yearly: -190.08
+    2025 Yearly: -36.35
+    2026 Yearly: -4.77
+    2027 Yearly: -2.78
+    2028 Yearly: -1.98
+    2029 Yearly: 0.88

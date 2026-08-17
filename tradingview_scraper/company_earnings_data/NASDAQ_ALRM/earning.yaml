@@ -1,0 +1,80 @@
+currency: USD
+company_name: Alarm.com Holdings, Inc.
+sector: Technology Services
+market_cap_billions: 2.78
+revenue:
+  quarterly:
+    Q3 2024: 240.5
+    Q4 2024: 242.24
+    Q1 2025: 238.82
+    Q2 2025: 254.31
+    Q3 2025: 256.4
+    Q4 2025: 261.66
+    Q1 2026: 265.19
+    Q2 2026: 277.73
+  annual:
+    2021 Yearly: 748.97
+    2022 Yearly: 842.56
+    2023 Yearly: 881.68
+    2024 Yearly: 939.83
+    2025 Yearly: 1010.0
+  quarterly_forecast:
+    Q3 2024: 231.39
+    Q4 2024: 237.47
+    Q1 2025: 234.29
+    Q2 2025: 243.96
+    Q3 2025: 251.14
+    Q4 2025: 250.88
+    Q1 2026: 250.94
+    Q2 2026: 264.96
+    Q3 2026: 265.5
+    Q4 2026: 269.9
+    Q1 2027: 274.83
+    Q2 2027: 277.73
+  annual_forecast:
+    2021 Yearly: 728.25
+    2022 Yearly: 841.73
+    2023 Yearly: 879.93
+    2024 Yearly: 935.07
+    2025 Yearly: 1000.0
+    2026 Yearly: 1070.0
+    2027 Yearly: 1120.0
+    2028 Yearly: 1160.0
+eps:
+  quarterly:
+    Q3 2024: 0.62
+    Q4 2024: 0.58
+    Q1 2025: 0.54
+    Q2 2025: 0.6
+    Q3 2025: 0.76
+    Q4 2025: 0.72
+    Q1 2026: 0.7
+    Q2 2026: 0.77
+  annual:
+    2021 Yearly: 1.99
+    2022 Yearly: 1.95
+    2023 Yearly: 2.07
+    2024 Yearly: 2.28
+    2025 Yearly: 2.62
+  quarterly_forecast:
+    Q3 2024: 0.49
+    Q4 2024: 0.53
+    Q1 2025: 0.47
+    Q2 2025: 0.51
+    Q3 2025: 0.61
+    Q4 2025: 0.64
+    Q1 2026: 0.6
+    Q2 2026: 0.65
+    Q3 2026: 0.76
+    Q4 2026: 0.73
+    Q1 2027: 0.68
+    Q2 2027: 0.7
+  annual_forecast:
+    2021 Yearly: 1.88
+    2022 Yearly: 1.85
+    2023 Yearly: 1.92
+    2024 Yearly: 2.21
+    2025 Yearly: 2.52
+    2026 Yearly: 2.77
+    2027 Yearly: 2.97
+    2028 Yearly: 3.19

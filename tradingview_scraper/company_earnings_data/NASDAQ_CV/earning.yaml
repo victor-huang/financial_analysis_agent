@@ -1,0 +1,52 @@
+currency: USD
+company_name: CapsoVision, Inc.
+sector: Health Technology
+market_cap_billions: 0.34275
+revenue:
+  quarterly:
+    Q1 2025: 2.79
+    Q2 2025: 3.31
+    Q3 2025: 3.54
+    Q4 2025: 3.9
+    Q1 2026: 2.79
+  annual:
+    2025 Yearly: 13.55
+  quarterly_forecast:
+    Q2 2025: 3.25
+    Q3 2025: 3.67
+    Q4 2025: 4.15
+    Q1 2026: 2.98
+    Q2 2026: 3.81
+    Q3 2026: 4.12
+    Q4 2026: 4.85
+    Q1 2027: 3.89
+  annual_forecast:
+    2025 Yearly: 13.82
+    2026 Yearly: 15.57
+    2027 Yearly: 21.48
+    2028 Yearly: 53.0
+    2029 Yearly: 98.5
+eps:
+  quarterly:
+    Q1 2025: -1.31
+    Q2 2025: -2.02
+    Q3 2025: -0.17
+    Q4 2025: -0.16
+    Q1 2026: -0.15
+  annual:
+    2025 Yearly: -1.03
+  quarterly_forecast:
+    Q2 2025: -0.11
+    Q3 2025: -0.12
+    Q4 2025: -0.14
+    Q1 2026: -0.13
+    Q2 2026: -0.13
+    Q3 2026: -0.12
+    Q4 2026: -0.12
+    Q1 2027: -0.12
+  annual_forecast:
+    2025 Yearly: -1.02
+    2026 Yearly: -0.52
+    2027 Yearly: -0.42
+    2028 Yearly: 0.0
+    2029 Yearly: 0.39

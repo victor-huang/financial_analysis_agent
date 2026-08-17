@@ -1,0 +1,42 @@
+currency: USD
+company_name: Aktis Oncology, Inc.
+sector: Health Technology
+market_cap_billions: 1.37
+revenue:
+  quarterly:
+    Q4 2025: 1.87
+    Q1 2026: 3.23
+  annual:
+    2025 Yearly: 6.5
+  quarterly_forecast:
+    Q4 2025: 3.28
+    Q1 2026: 1.93
+    Q2 2026: 2.14
+    Q3 2026: 2.14
+    Q4 2026: 9.5
+    Q1 2027: 1.0
+  annual_forecast:
+    2025 Yearly: 7.27
+    2026 Yearly: 16.78
+    2027 Yearly: 15.61
+    2028 Yearly: 9.0
+    2029 Yearly: 4.99
+eps:
+  quarterly:
+    Q4 2025: -18.19
+    Q1 2026: -0.38
+  annual:
+    2025 Yearly: -78.34
+  quarterly_forecast:
+    Q4 2025: -21.59
+    Q1 2026: -0.36
+    Q2 2026: -0.43
+    Q3 2026: -0.46
+    Q4 2026: -0.36
+    Q1 2027: -0.58
+  annual_forecast:
+    2025 Yearly: -55.16
+    2026 Yearly: -1.63
+    2027 Yearly: -2.09
+    2028 Yearly: -2.68
+    2029 Yearly: -3.79

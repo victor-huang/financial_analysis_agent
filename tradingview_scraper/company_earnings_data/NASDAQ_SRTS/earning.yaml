@@ -1,0 +1,78 @@
+currency: USD
+company_name: Sensus Healthcare, Inc.
+sector: Health Technology
+market_cap_billions: 0.05153
+revenue:
+  quarterly:
+    Q3 2024: 8.84
+    Q4 2024: 13.07
+    Q1 2025: 8.34
+    Q2 2025: 7.32
+    Q3 2025: 6.9
+    Q4 2025: 4.94
+    Q1 2026: 3.39
+  annual:
+    2021 Yearly: 27.04
+    2022 Yearly: 44.53
+    2023 Yearly: 24.41
+    2024 Yearly: 41.81
+    2025 Yearly: 27.48
+  quarterly_forecast:
+    Q3 2024: 5.9
+    Q4 2024: 10.85
+    Q1 2025: 7.23
+    Q2 2025: 9.3
+    Q3 2025: 6.31
+    Q4 2025: 8.35
+    Q1 2026: 5.32
+    Q2 2026: 4.6
+    Q3 2026: 6.23
+    Q4 2026: 7.79
+    Q1 2027: 6.6
+  annual_forecast:
+    2021 Yearly: 25.11
+    2022 Yearly: 44.43
+    2023 Yearly: 23.89
+    2024 Yearly: 39.43
+    2025 Yearly: 30.86
+    2026 Yearly: 21.99
+    2027 Yearly: 31.34
+    2028 Yearly: 36.6
+    2029 Yearly: 78.48
+eps:
+  quarterly:
+    Q3 2024: 0.07
+    Q4 2024: 0.09
+    Q1 2025: -0.16
+    Q2 2025: -0.06
+    Q3 2025: -0.06
+    Q4 2025: -0.19
+    Q1 2026: -0.16
+  annual:
+    2021 Yearly: 0.25
+    2022 Yearly: 1.46
+    2023 Yearly: 0.03
+    2024 Yearly: 0.41
+    2025 Yearly: -0.47
+  quarterly_forecast:
+    Q3 2024: -0.01
+    Q4 2024: 0.12
+    Q1 2025: 0.03
+    Q2 2025: 0.03
+    Q3 2025: -0.1
+    Q4 2025: -0.07
+    Q1 2026: -0.13
+    Q2 2026: -0.13
+    Q3 2026: -0.09
+    Q4 2026: -0.04
+    Q1 2027: -0.13
+  annual_forecast:
+    2021 Yearly: 0.09
+    2022 Yearly: 1.52
+    2023 Yearly: -0.09
+    2024 Yearly: 0.43
+    2025 Yearly: -0.34
+    2026 Yearly: -0.42
+    2027 Yearly: -0.12
+    2028 Yearly: 0.06
+    2029 Yearly: 0.68

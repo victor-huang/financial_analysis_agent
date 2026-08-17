@@ -1,0 +1,80 @@
+currency: USD
+company_name: Organogenesis Holdings Inc.
+sector: Health Technology
+market_cap_billions: 0.31011
+revenue:
+  quarterly:
+    Q3 2024: 115.18
+    Q4 2024: 126.66
+    Q1 2025: 86.69
+    Q2 2025: 101.0
+    Q3 2025: 150.86
+    Q4 2025: 225.07
+    Q1 2026: 36.25
+    Q2 2026: 43.76
+  annual:
+    2021 Yearly: 468.06
+    2022 Yearly: 450.89
+    2023 Yearly: 433.14
+    2024 Yearly: 482.04
+    2025 Yearly: 563.03
+  quarterly_forecast:
+    Q3 2024: 108.83
+    Q4 2024: 109.61
+    Q1 2025: 90.77
+    Q2 2025: 103.41
+    Q3 2025: 134.12
+    Q4 2025: 172.65
+    Q1 2026: 43.26
+    Q2 2026: 54.27
+    Q3 2026: 80.91
+    Q4 2026: 110.47
+    Q1 2027: 60.48
+    Q2 2027: 72.29
+  annual_forecast:
+    2021 Yearly: 463.9
+    2022 Yearly: 458.8
+    2023 Yearly: 441.7
+    2024 Yearly: 465.62
+    2025 Yearly: 511.07
+    2026 Yearly: 282.88
+    2027 Yearly: 339.56
+    2028 Yearly: 372.3
+eps:
+  quarterly:
+    Q3 2024: 0.09
+    Q4 2024: 0.04
+    Q1 2025: -0.17
+    Q2 2025: -0.06
+    Q3 2025: 0.12
+    Q4 2025: 0.31
+    Q1 2026: -0.37
+    Q2 2026: -0.69
+  annual:
+    2021 Yearly: 0.76
+    2022 Yearly: 0.2
+    2023 Yearly: 0.1
+    2024 Yearly: -0.01
+    2025 Yearly: 0.29
+  quarterly_forecast:
+    Q3 2024: -0.02
+    Q4 2024: -0.01
+    Q1 2025: -0.04
+    Q2 2025: -0.05
+    Q3 2025: 0.07
+    Q4 2025: 0.21
+    Q1 2026: -0.29
+    Q2 2026: -0.35
+    Q3 2026: -0.13
+    Q4 2026: 0.01
+    Q1 2027: -0.21
+    Q2 2027: -0.05
+  annual_forecast:
+    2021 Yearly: 0.42
+    2022 Yearly: 0.12
+    2023 Yearly: 0.07
+    2024 Yearly: -0.07
+    2025 Yearly: 0.15
+    2026 Yearly: -0.82
+    2027 Yearly: -0.28
+    2028 Yearly: -0.14

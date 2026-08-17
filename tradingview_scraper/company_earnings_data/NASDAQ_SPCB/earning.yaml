@@ -1,0 +1,74 @@
+currency: USD
+company_name: SuperCom, Ltd.
+sector: Electronic Technology
+market_cap_billions: 0.06751
+revenue:
+  quarterly:
+    Q3 2024: 6.91
+    Q4 2024: 6.33
+    Q1 2025: 7.05
+    Q2 2025: 7.14
+    Q3 2025: 6.22
+    Q4 2025: 7.48
+    Q1 2026: 7.61
+  annual:
+    2021 Yearly: 12.27
+    2022 Yearly: 17.65
+    2023 Yearly: 26.57
+    2024 Yearly: 27.64
+    2025 Yearly: 27.9
+  quarterly_forecast:
+    Q3 2024: 6.8
+    Q4 2024: 6.48
+    Q1 2025: 6.74
+    Q2 2025: 6.46
+    Q3 2025: 5.76
+    Q4 2025: 6.34
+    Q1 2026: 7.1
+    Q2 2026: 7.15
+    Q3 2026: 7.7
+    Q4 2026: 8.05
+    Q1 2027: 7.6
+  annual_forecast:
+    2021 Yearly: 12.4
+    2022 Yearly: 17.1
+    2023 Yearly: 26.4
+    2024 Yearly: 27.79
+    2025 Yearly: 26.74
+    2026 Yearly: 30.51
+    2027 Yearly: 33.98
+eps:
+  quarterly:
+    Q3 2024: 0.17
+    Q4 2024: 0.66
+    Q1 2025: 1.5
+    Q2 2025: 0.49
+    Q3 2025: 0.39
+    Q4 2025: 0.36
+    Q1 2026: 0.51
+  annual:
+    2021 Yearly: -14.0
+    2022 Yearly: -12.2
+    2023 Yearly: 9.4
+    2024 Yearly: 3.66
+    2025 Yearly: 2.47
+  quarterly_forecast:
+    Q3 2024: -0.4
+    Q4 2024: -0.46
+    Q1 2025: -0.09
+    Q2 2025: 0.43
+    Q3 2025: -0.02
+    Q4 2025: 0.0
+    Q1 2026: 0.18
+    Q2 2026: 0.28
+    Q3 2026: 0.31
+    Q4 2026: 0.29
+    Q1 2027: 0.03
+  annual_forecast:
+    2021 Yearly: -52.0
+    2022 Yearly: -12.2
+    2023 Yearly: 2.2
+    2024 Yearly: 2.9
+    2025 Yearly: 2.23
+    2026 Yearly: 1.39
+    2027 Yearly: 1.33

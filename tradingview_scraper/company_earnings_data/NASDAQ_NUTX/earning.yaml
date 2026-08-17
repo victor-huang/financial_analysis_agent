@@ -1,0 +1,74 @@
+currency: USD
+company_name: Nutex Health Inc.
+sector: Health Services
+market_cap_billions: 1.05
+revenue:
+  quarterly:
+    Q3 2024: 78.79
+    Q4 2024: 257.62
+    Q1 2025: 211.79
+    Q2 2025: 243.99
+    Q3 2025: 267.8
+    Q4 2025: 151.7
+    Q1 2026: 216.49
+    Q2 2026: 210.75
+  annual:
+    2022 Yearly: 219.29
+    2023 Yearly: 247.65
+    2024 Yearly: 479.95
+    2025 Yearly: 875.26
+  quarterly_forecast:
+    Q3 2024: 73.22
+    Q4 2024: 81.11
+    Q1 2025: 134.24
+    Q2 2025: 244.0
+    Q3 2025: 213.81
+    Q4 2025: 258.82
+    Q1 2026: 227.8
+    Q2 2026: 215.03
+    Q3 2026: 218.96
+    Q4 2026: 229.91
+    Q1 2027: 235.65
+    Q2 2027: 237.2
+  annual_forecast:
+    2022 Yearly: 215.5
+    2023 Yearly: 247.6
+    2024 Yearly: 303.48
+    2025 Yearly: 982.4
+    2026 Yearly: 880.37
+    2027 Yearly: 969.21
+eps:
+  quarterly:
+    Q3 2024: -1.72
+    Q4 2024: 11.12
+    Q1 2025: 2.56
+    Q2 2025: -2.95
+    Q3 2025: 7.76
+    Q4 2025: 1.69
+    Q1 2026: 6.52
+    Q2 2026: 9.38
+  annual:
+    2022 Yearly: -100.5
+    2023 Yearly: -10.5
+    2024 Yearly: 9.71
+    2025 Yearly: 10.48
+  quarterly_forecast:
+    Q3 2024: -0.24
+    Q4 2024: -0.12
+    Q1 2025: 3.04
+    Q2 2025: -1.43
+    Q3 2025: 1.81
+    Q4 2025: 5.56
+    Q1 2026: 3.99
+    Q2 2026: 4.95
+    Q3 2026: 5.02
+    Q4 2026: 5.05
+    Q1 2027: 6.23
+    Q2 2027: 5.92
+  annual_forecast:
+    2022 Yearly: -100.5
+    2023 Yearly: -3.0
+    2024 Yearly: -2.02
+    2025 Yearly: 14.07
+    2026 Yearly: 21.52
+    2027 Yearly: 23.03

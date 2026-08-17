@@ -1,0 +1,76 @@
+currency: USD
+company_name: Ready Capital Corporation
+sector: Finance
+market_cap_billions: 0.25609
+revenue:
+  quarterly:
+    Q3 2024: 107.22
+    Q4 2024: 77.06
+    Q1 2025: 40.24
+    Q2 2025: -9.77
+    Q3 2025: 85.43
+    Q4 2025: -14.15
+    Q1 2026: -63.12
+  annual:
+    2021 Yearly: 509.69
+    2022 Yearly: 529.92
+    2023 Yearly: 637.81
+    2024 Yearly: 98.75
+    2025 Yearly: 101.75
+  quarterly_forecast:
+    Q3 2024: 105.15
+    Q4 2024: 97.37
+    Q1 2025: 89.2
+    Q2 2025: 42.75
+    Q3 2025: 73.03
+    Q4 2025: 84.43
+    Q1 2026: 68.67
+    Q2 2026: 16.41
+    Q3 2026: 24.25
+    Q4 2026: 32.49
+    Q1 2027: 46.29
+  annual_forecast:
+    2021 Yearly: 374.65
+    2022 Yearly: 592.01
+    2023 Yearly: 795.04
+    2024 Yearly: 118.8
+    2025 Yearly: 318.24
+    2026 Yearly: 99.54
+    2027 Yearly: 216.65
+    2028 Yearly: 279.95
+eps:
+  quarterly:
+    Q3 2024: -0.28
+    Q4 2024: -0.03
+    Q1 2025: -0.09
+    Q2 2025: -0.14
+    Q3 2025: -0.94
+    Q4 2025: -0.43
+    Q1 2026: -1.0
+  annual:
+    2021 Yearly: 2.29
+    2022 Yearly: 1.87
+    2023 Yearly: 1.18
+    2024 Yearly: 0.07
+    2025 Yearly: -1.59
+  quarterly_forecast:
+    Q3 2024: 0.24
+    Q4 2024: 0.19
+    Q1 2025: 0.12
+    Q2 2025: -0.05
+    Q3 2025: -0.24
+    Q4 2025: -0.14
+    Q1 2026: -0.2
+    Q2 2026: -0.48
+    Q3 2026: -0.4
+    Q4 2026: -0.28
+    Q1 2027: -0.17
+  annual_forecast:
+    2021 Yearly: 2.05
+    2022 Yearly: 1.85
+    2023 Yearly: 1.24
+    2024 Yearly: 0.27
+    2025 Yearly: -0.91
+    2026 Yearly: -2.01
+    2027 Yearly: -0.57
+    2028 Yearly: -0.07

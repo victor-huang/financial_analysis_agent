@@ -1,0 +1,82 @@
+currency: USD
+company_name: MP Materials Corp.
+sector: Non-Energy Minerals
+market_cap_billions: 8.45
+revenue:
+  quarterly:
+    Q3 2024: 62.93
+    Q4 2024: 60.99
+    Q1 2025: 60.81
+    Q2 2025: 57.39
+    Q3 2025: 53.55
+    Q4 2025: 52.69
+    Q1 2026: 90.65
+    Q2 2026: 108.49
+  annual:
+    2021 Yearly: 331.95
+    2022 Yearly: 527.51
+    2023 Yearly: 253.44
+    2024 Yearly: 203.85
+    2025 Yearly: 224.44
+  quarterly_forecast:
+    Q3 2024: 40.1
+    Q4 2024: 52.64
+    Q1 2025: 63.17
+    Q2 2025: 46.14
+    Q3 2025: 53.24
+    Q4 2025: 58.72
+    Q1 2026: 74.82
+    Q2 2026: 96.89
+    Q3 2026: 117.54
+    Q4 2026: 141.37
+    Q1 2027: 175.5
+    Q2 2027: 190.33
+  annual_forecast:
+    2021 Yearly: 327.99
+    2022 Yearly: 510.4
+    2023 Yearly: 258.57
+    2024 Yearly: 192.23
+    2025 Yearly: 234.85
+    2026 Yearly: 447.78
+    2027 Yearly: 785.74
+    2028 Yearly: 976.62
+    2029 Yearly: 1170.0
+eps:
+  quarterly:
+    Q3 2024: -0.12
+    Q4 2024: -0.12
+    Q1 2025: -0.12
+    Q2 2025: -0.13
+    Q3 2025: -0.1
+    Q4 2025: 0.09
+    Q1 2026: 0.03
+    Q2 2026: -0.01
+  annual:
+    2021 Yearly: 0.89
+    2022 Yearly: 1.68
+    2023 Yearly: 0.39
+    2024 Yearly: -0.44
+    2025 Yearly: -0.24
+  quarterly_forecast:
+    Q3 2024: -0.13
+    Q4 2024: -0.13
+    Q1 2025: -0.13
+    Q2 2025: -0.2
+    Q3 2025: -0.17
+    Q4 2025: 0.0
+    Q1 2026: -0.03
+    Q2 2026: -0.01
+    Q3 2026: 0.02
+    Q4 2026: 0.07
+    Q1 2027: 0.17
+    Q2 2027: 0.23
+  annual_forecast:
+    2021 Yearly: 0.79
+    2022 Yearly: 1.43
+    2023 Yearly: 0.32
+    2024 Yearly: -0.44
+    2025 Yearly: -0.38
+    2026 Yearly: 0.11
+    2027 Yearly: 0.93
+    2028 Yearly: 1.46
+    2029 Yearly: 1.74

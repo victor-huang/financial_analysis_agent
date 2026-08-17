@@ -1,0 +1,48 @@
+currency: USD
+company_name: Black Rock Coffee Bar, Inc.
+sector: Consumer Services
+market_cap_billions: 0.34589
+revenue:
+  quarterly:
+    Q3 2025: 51.47
+    Q4 2025: 53.64
+    Q1 2026: 55.45
+    Q2 2026: 63.0
+  annual:
+    2025 Yearly: 200.32
+  quarterly_forecast:
+    Q3 2025: 50.79
+    Q4 2025: 53.74
+    Q1 2026: 56.7
+    Q2 2026: 64.58
+    Q3 2026: 66.53
+    Q4 2026: 67.71
+    Q1 2027: 68.64
+    Q2 2027: 77.67
+  annual_forecast:
+    2025 Yearly: 200.29
+    2026 Yearly: 254.43
+    2027 Yearly: 313.25
+    2028 Yearly: 374.56
+eps:
+  quarterly:
+    Q3 2025: -0.05
+    Q4 2025: 0.04
+    Q1 2026: 0.02
+    Q2 2026: 0.06
+  annual:
+    2025 Yearly: -0.97
+  quarterly_forecast:
+    Q3 2025: -0.12
+    Q4 2025: 0.02
+    Q1 2026: 0.03
+    Q2 2026: 0.07
+    Q3 2026: 0.06
+    Q4 2026: 0.05
+    Q1 2027: 0.06
+    Q2 2027: 0.1
+  annual_forecast:
+    2025 Yearly: -0.03
+    2026 Yearly: 0.21
+    2027 Yearly: 0.28
+    2028 Yearly: 0.4

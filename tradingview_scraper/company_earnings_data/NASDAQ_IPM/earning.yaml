@@ -1,0 +1,74 @@
+currency: USD
+company_name: Intelligent Protection Management Corp.
+sector: Technology Services
+market_cap_billions: 0.01735
+revenue:
+  quarterly:
+    Q2 2024: 2.22
+    Q3 2024: 2.12
+    Q1 2025: 5.52
+    Q2 2025: 5.72
+    Q3 2025: 6.24
+    Q4 2025: 6.13
+    Q1 2026: 6.35
+  annual:
+    2021 Yearly: 13.27
+    2022 Yearly: 10.99
+    2023 Yearly: 10.98
+    2024 Yearly: 1.1
+    2025 Yearly: 23.61
+  quarterly_forecast:
+    Q2 2024: 2.7
+    Q3 2024: 2.2
+    Q1 2025: 5.8
+    Q2 2025: 5.52
+    Q3 2025: 5.8
+    Q4 2025: 6.0
+    Q1 2026: 6.2
+    Q2 2026: 6.4
+    Q3 2026: 6.9
+    Q4 2026: 7.4
+    Q1 2027: 7.5
+  annual_forecast:
+    2021 Yearly: 13.4
+    2022 Yearly: 10.7
+    2023 Yearly: 11.0
+    2024 Yearly: 9.2
+    2025 Yearly: 23.5
+    2026 Yearly: 27.0
+    2027 Yearly: 31.0
+eps:
+  quarterly:
+    Q2 2024: -0.1
+    Q3 2024: -0.16
+    Q1 2025: 0.06
+    Q2 2025: -0.08
+    Q3 2025: -0.08
+    Q4 2025: -0.05
+    Q1 2026: -0.05
+  annual:
+    2021 Yearly: 0.17
+    2022 Yearly: -0.35
+    2023 Yearly: -0.12
+    2024 Yearly: -0.48
+    2025 Yearly: -0.15
+  quarterly_forecast:
+    Q2 2024: 0.07
+    Q3 2024: 0.1
+    Q1 2025: 0.01
+    Q2 2025: 0.03
+    Q3 2025: 0.01
+    Q4 2025: 0.01
+    Q1 2026: 0.02
+    Q2 2026: 0.02
+    Q3 2026: 0.02
+    Q4 2026: 0.02
+    Q1 2027: 0.03
+  annual_forecast:
+    2021 Yearly: 0.18
+    2022 Yearly: -0.36
+    2023 Yearly: -0.09
+    2024 Yearly: 0.02
+    2025 Yearly: 0.08
+    2026 Yearly: 0.07
+    2027 Yearly: 0.13

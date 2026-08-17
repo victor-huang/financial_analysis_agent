@@ -1,0 +1,84 @@
+currency: USD
+company_name: Synaptics Incorporated
+sector: Electronic Technology
+market_cap_billions: 3.99
+revenue:
+  quarterly:
+    Q1 2025: 257.7
+    Q2 2025: 267.2
+    Q3 2025: 266.6
+    Q4 2025: 282.8
+    Q1 2026: 292.5
+    Q2 2026: 302.5
+    Q3 2026: 294.2
+    Q4 2026: 308.0
+  annual:
+    2021 Yearly: 1340.0
+    2022 Yearly: 1740.0
+    2023 Yearly: 1360.0
+    2024 Yearly: 959.4
+    2025 Yearly: 1070.0
+    2026 Yearly: 1200.0
+  quarterly_forecast:
+    Q1 2025: 255.24
+    Q2 2025: 265.73
+    Q3 2025: 265.0
+    Q4 2025: 280.22
+    Q1 2026: 289.97
+    Q2 2026: 300.29
+    Q3 2026: 290.51
+    Q4 2026: 305.32
+    Q1 2027: 315.73
+    Q2 2027: 329.87
+    Q3 2027: 319.68
+    Q4 2027: 336.12
+  annual_forecast:
+    2021 Yearly: 1340.0
+    2022 Yearly: 1740.0
+    2023 Yearly: 1350.0
+    2024 Yearly: 957.21
+    2025 Yearly: 1070.0
+    2026 Yearly: 1190.0
+    2027 Yearly: 1300.0
+    2028 Yearly: 1460.0
+    2029 Yearly: 1530.0
+eps:
+  quarterly:
+    Q1 2025: 0.81
+    Q2 2025: 0.92
+    Q3 2025: 0.9
+    Q4 2025: 1.01
+    Q1 2026: 1.09
+    Q2 2026: 1.21
+    Q3 2026: 1.09
+    Q4 2026: 1.23
+  annual:
+    2021 Yearly: 8.26
+    2022 Yearly: 13.54
+    2023 Yearly: 8.12
+    2024 Yearly: 2.25
+    2025 Yearly: 3.62
+    2026 Yearly: 4.58
+  quarterly_forecast:
+    Q1 2025: 0.75
+    Q2 2025: 0.86
+    Q3 2025: 0.86
+    Q4 2025: 1.0
+    Q1 2026: 1.06
+    Q2 2026: 1.15
+    Q3 2026: 1.01
+    Q4 2026: 1.21
+    Q1 2027: 1.26
+    Q2 2027: 1.37
+    Q3 2027: 1.25
+    Q4 2027: 1.41
+  annual_forecast:
+    2021 Yearly: 8.21
+    2022 Yearly: 13.36
+    2023 Yearly: 8.08
+    2024 Yearly: 2.18
+    2025 Yearly: 3.64
+    2026 Yearly: 4.61
+    2027 Yearly: 5.27
+    2028 Yearly: 6.56
+    2029 Yearly: 6.71

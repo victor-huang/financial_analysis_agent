@@ -1,0 +1,76 @@
+currency: USD
+company_name: Afya Limited
+sector: Consumer Services
+market_cap_billions: 1.26
+revenue:
+  quarterly:
+    Q3 2024: 154.02
+    Q4 2024: 136.95
+    Q1 2025: 163.86
+    Q2 2025: 169.08
+    Q3 2025: 174.28
+    Q4 2025: 166.26
+    Q1 2026: 194.64
+  annual:
+    2021 Yearly: 307.94
+    2022 Yearly: 438.79
+    2023 Yearly: 591.58
+    2024 Yearly: 532.99
+    2025 Yearly: 673.27
+  quarterly_forecast:
+    Q3 2024: 153.06
+    Q4 2024: 137.12
+    Q1 2025: 161.78
+    Q2 2025: 170.08
+    Q3 2025: 173.8
+    Q4 2025: 167.59
+    Q1 2026: 192.95
+    Q2 2026: 189.62
+    Q3 2026: 194.73
+    Q4 2026: 191.17
+    Q1 2027: 212.22
+  annual_forecast:
+    2021 Yearly: 310.05
+    2022 Yearly: 441.06
+    2023 Yearly: 587.77
+    2024 Yearly: 533.25
+    2025 Yearly: 674.59
+    2026 Yearly: 766.2
+    2027 Yearly: 819.02
+    2028 Yearly: 863.51
+eps:
+  quarterly:
+    Q3 2024: 0.33
+    Q4 2024: 0.34
+    Q1 2025: 0.56
+    Q2 2025: 0.42
+    Q3 2025: 0.39
+    Q4 2025: 0.41
+    Q1 2026: 0.55
+  annual:
+    2021 Yearly: 0.74
+    2022 Yearly: 1.08
+    2023 Yearly: 1.31
+    2024 Yearly: 1.44
+    2025 Yearly: 1.78
+  quarterly_forecast:
+    Q3 2024: 0.34
+    Q4 2024: 0.26
+    Q1 2025: 0.47
+    Q2 2025: 0.36
+    Q3 2025: 0.32
+    Q4 2025: 0.33
+    Q1 2026: 0.55
+    Q2 2026: 0.39
+    Q3 2026: 0.37
+    Q4 2026: 0.37
+    Q1 2027: 0.64
+  annual_forecast:
+    2021 Yearly: 0.63
+    2022 Yearly: 0.98
+    2023 Yearly: 1.17
+    2024 Yearly: 1.27
+    2025 Yearly: 1.64
+    2026 Yearly: 1.71
+    2027 Yearly: 1.93
+    2028 Yearly: 2.08

@@ -1,0 +1,61 @@
+currency: USD
+company_name: Karman Holdings Inc.
+sector: Electronic Technology
+market_cap_billions: 7.31
+revenue:
+  quarterly:
+    Q1 2025: 100.12
+    Q2 2025: 115.1
+    Q3 2025: 121.79
+    Q4 2025: 134.49
+    Q1 2026: 151.21
+    Q2 2026: 182.06
+  annual:
+    2024 Yearly: 345.25
+    2025 Yearly: 471.5
+  quarterly_forecast:
+    Q4 2024: 91.3
+    Q1 2025: 96.38
+    Q2 2025: 107.6
+    Q3 2025: 118.13
+    Q4 2025: 132.64
+    Q1 2026: 150.79
+    Q2 2026: 180.06
+    Q3 2026: 192.23
+    Q4 2026: 208.78
+    Q1 2027: 207.44
+    Q2 2027: 225.53
+  annual_forecast:
+    2024 Yearly: 346.14
+    2025 Yearly: 469.36
+    2026 Yearly: 731.64
+    2027 Yearly: 932.13
+    2028 Yearly: 1180.0
+    2029 Yearly: 1350.0
+eps:
+  quarterly:
+    Q1 2025: 0.05
+    Q2 2025: 0.1
+    Q3 2025: 0.1
+    Q4 2025: 0.11
+    Q1 2026: 0.11
+    Q2 2026: 0.14
+  annual:
+    2024 Yearly: 0.08
+    2025 Yearly: 0.37
+  quarterly_forecast:
+    Q1 2025: 0.02
+    Q2 2025: 0.1
+    Q3 2025: 0.11
+    Q4 2025: 0.12
+    Q1 2026: 0.12
+    Q2 2026: 0.13
+    Q3 2026: 0.15
+    Q4 2026: 0.19
+    Q1 2027: 0.18
+    Q2 2027: 0.22
+  annual_forecast:
+    2025 Yearly: 0.1
+    2026 Yearly: 0.36
+    2027 Yearly: 0.58
+    2028 Yearly: 0.92

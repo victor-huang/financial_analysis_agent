@@ -1,0 +1,76 @@
+currency: USD
+company_name: McEwen Inc.
+sector: Non-Energy Minerals
+market_cap_billions: 1.09
+revenue:
+  quarterly:
+    Q4 2024: 33.25
+    Q1 2025: 35.7
+    Q2 2025: 46.7
+    Q3 2025: 50.53
+    Q4 2025: 64.6
+    Q1 2026: 74.0
+    Q2 2026: 59.2
+  annual:
+    2021 Yearly: 136.5
+    2022 Yearly: 110.4
+    2023 Yearly: 166.23
+    2024 Yearly: 174.5
+    2025 Yearly: 197.55
+  quarterly_forecast:
+    Q4 2024: 32.2
+    Q1 2025: 35.7
+    Q2 2025: 49.05
+    Q3 2025: 64.47
+    Q4 2025: 69.5
+    Q1 2026: 67.32
+    Q2 2026: 65.51
+    Q3 2026: 53.29
+    Q4 2026: 53.75
+    Q1 2027: 41.2
+    Q2 2027: 52.3
+  annual_forecast:
+    2022 Yearly: 138.31
+    2023 Yearly: 116.98
+    2024 Yearly: 153.38
+    2025 Yearly: 190.28
+    2026 Yearly: 202.01
+    2027 Yearly: 277.67
+    2028 Yearly: 395.21
+eps:
+  quarterly:
+    Q4 2024: -0.15
+    Q1 2025: -0.07
+    Q2 2025: 0.06
+    Q3 2025: -0.01
+    Q4 2025: 0.7
+    Q1 2026: 0.56
+    Q2 2026: 0.16
+  annual:
+    2021 Yearly: -1.2
+    2022 Yearly: -1.71
+    2023 Yearly: 1.15
+    2024 Yearly: -0.86
+    2025 Yearly: 0.59
+  quarterly_forecast:
+    Q4 2024: -0.11
+    Q1 2025: -0.12
+    Q2 2025: 0.03
+    Q3 2025: 0.28
+    Q4 2025: 0.17
+    Q1 2026: 0.32
+    Q2 2026: 0.28
+    Q3 2026: 0.21
+    Q4 2026: 0.23
+    Q1 2027: 0.07
+    Q2 2027: 0.11
+  annual_forecast:
+    2021 Yearly: -0.95
+    2022 Yearly: -1.07
+    2023 Yearly: -2.02
+    2024 Yearly: -0.56
+    2025 Yearly: 0.12
+    2026 Yearly: 1.22
+    2027 Yearly: 2.11
+    2028 Yearly: 4.3
+    2029 Yearly: 1.24

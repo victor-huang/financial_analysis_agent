@@ -1,0 +1,78 @@
+currency: USD
+company_name: Applied Materials, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 435.21
+revenue:
+  quarterly:
+    Q4 2024: 7040.0
+    Q1 2025: 7170.0
+    Q2 2025: 7100.0
+    Q3 2025: 7300.0
+    Q4 2025: 6800.0
+    Q1 2026: 7010.0
+    Q2 2026: 7910.0
+  annual:
+    2021 Yearly: 23060.0
+    2022 Yearly: 25790.0
+    2023 Yearly: 26520.0
+    2024 Yearly: 27180.0
+    2025 Yearly: 28370.0
+  quarterly_forecast:
+    Q4 2024: 6960.0
+    Q1 2025: 7150.0
+    Q2 2025: 7130.0
+    Q3 2025: 7220.0
+    Q4 2025: 6680.0
+    Q1 2026: 6870.0
+    Q2 2026: 7680.0
+    Q3 2026: 8990.0
+    Q4 2026: 9550.0
+    Q1 2027: 10030.0
+    Q2 2027: 10690.0
+  annual_forecast:
+    2021 Yearly: 23310.0
+    2022 Yearly: 25490.0
+    2023 Yearly: 26320.0
+    2024 Yearly: 27130.0
+    2025 Yearly: 28260.0
+    2026 Yearly: 33520.0
+    2027 Yearly: 43740.0
+    2028 Yearly: 52760.0
+    2029 Yearly: 55380.0
+eps:
+  quarterly:
+    Q4 2024: 2.32
+    Q1 2025: 2.38
+    Q2 2025: 2.39
+    Q3 2025: 2.48
+    Q4 2025: 2.17
+    Q1 2026: 2.38
+    Q2 2026: 2.86
+  annual:
+    2021 Yearly: 6.84
+    2022 Yearly: 7.7
+    2023 Yearly: 8.05
+    2024 Yearly: 8.65
+    2025 Yearly: 9.42
+  quarterly_forecast:
+    Q4 2024: 2.19
+    Q1 2025: 2.28
+    Q2 2025: 2.31
+    Q3 2025: 2.36
+    Q4 2025: 2.11
+    Q1 2026: 2.21
+    Q2 2026: 2.68
+    Q3 2026: 3.4
+    Q4 2026: 3.71
+    Q1 2027: 3.93
+    Q2 2027: 4.28
+  annual_forecast:
+    2021 Yearly: 6.86
+    2022 Yearly: 7.43
+    2023 Yearly: 7.92
+    2024 Yearly: 8.54
+    2025 Yearly: 9.37
+    2026 Yearly: 12.34
+    2027 Yearly: 17.4
+    2028 Yearly: 22.27
+    2029 Yearly: 23.52

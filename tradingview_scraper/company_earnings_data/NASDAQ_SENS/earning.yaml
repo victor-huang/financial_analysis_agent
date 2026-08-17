@@ -1,0 +1,82 @@
+currency: USD
+company_name: Senseonics Holdings, Inc.
+sector: Electronic Technology
+market_cap_billions: 0.26885000000000003
+revenue:
+  quarterly:
+    Q3 2024: 4.26
+    Q4 2024: 8.3
+    Q1 2025: 6.26
+    Q2 2025: 6.65
+    Q3 2025: 8.1
+    Q4 2025: 14.3
+    Q1 2026: 11.71
+    Q2 2026: 14.5
+  annual:
+    2021 Yearly: 13.68
+    2022 Yearly: 16.39
+    2023 Yearly: 22.4
+    2024 Yearly: 22.47
+    2025 Yearly: 35.3
+  quarterly_forecast:
+    Q3 2024: 4.08
+    Q4 2024: 7.95
+    Q1 2025: 5.55
+    Q2 2025: 6.02
+    Q3 2025: 7.99
+    Q4 2025: 14.24
+    Q1 2026: 9.83
+    Q2 2026: 13.35
+    Q3 2026: 15.61
+    Q4 2026: 21.97
+    Q1 2027: 17.21
+    Q2 2027: 22.43
+  annual_forecast:
+    2021 Yearly: 13.65
+    2022 Yearly: 16.23
+    2023 Yearly: 21.88
+    2024 Yearly: 22.13
+    2025 Yearly: 35.2
+    2026 Yearly: 62.31
+    2027 Yearly: 97.92
+    2028 Yearly: 135.38
+    2029 Yearly: 196.22
+eps:
+  quarterly:
+    Q3 2024: -0.8
+    Q4 2024: -0.4
+    Q1 2025: -0.4
+    Q2 2025: -0.4
+    Q3 2025: -0.43
+    Q4 2025: -0.46
+    Q1 2026: -0.71
+    Q2 2026: -0.63
+  annual:
+    2021 Yearly: -14.4
+    2022 Yearly: -2.78
+    2023 Yearly: -2.2
+    2024 Yearly: -2.4
+    2025 Yearly: -1.66
+  quarterly_forecast:
+    Q3 2024: -0.68
+    Q4 2024: -0.64
+    Q1 2025: -0.45
+    Q2 2025: -0.4
+    Q3 2025: -0.37
+    Q4 2025: -0.44
+    Q1 2026: -0.69
+    Q2 2026: -0.61
+    Q3 2026: -0.58
+    Q4 2026: -0.53
+    Q1 2027: -0.59
+    Q2 2027: -0.52
+  annual_forecast:
+    2021 Yearly: -18.7
+    2022 Yearly: -3.27
+    2023 Yearly: -2.48
+    2024 Yearly: -2.77
+    2025 Yearly: -1.46
+    2026 Yearly: -2.4
+    2027 Yearly: -2.15
+    2028 Yearly: -1.57
+    2029 Yearly: -0.96

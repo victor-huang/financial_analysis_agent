@@ -1,0 +1,80 @@
+currency: USD
+company_name: Natural Gas Services Group, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 0.4671
+revenue:
+  quarterly:
+    Q3 2024: 40.69
+    Q4 2024: 40.66
+    Q1 2025: 41.38
+    Q2 2025: 41.38
+    Q3 2025: 43.4
+    Q4 2025: 46.15
+    Q1 2026: 48.47
+    Q2 2026: 51.4
+  annual:
+    2021 Yearly: 72.42
+    2022 Yearly: 84.83
+    2023 Yearly: 121.17
+    2024 Yearly: 156.74
+    2025 Yearly: 172.31
+  quarterly_forecast:
+    Q3 2024: 38.11
+    Q4 2024: 40.84
+    Q1 2025: 40.52
+    Q2 2025: 41.87
+    Q3 2025: 43.18
+    Q4 2025: 44.1
+    Q1 2026: 47.09
+    Q2 2026: 50.24
+    Q3 2026: 58.33
+    Q4 2026: 59.68
+    Q1 2027: 61.6
+    Q2 2027: 62.85
+  annual_forecast:
+    2021 Yearly: 72.45
+    2022 Yearly: 82.4
+    2023 Yearly: 115.22
+    2024 Yearly: 156.9
+    2025 Yearly: 170.45
+    2026 Yearly: 216.84
+    2027 Yearly: 253.5
+    2028 Yearly: 268.7
+eps:
+  quarterly:
+    Q3 2024: 0.56
+    Q4 2024: 0.23
+    Q1 2025: 0.38
+    Q2 2025: 0.41
+    Q3 2025: 0.46
+    Q4 2025: 0.32
+    Q1 2026: 0.53
+    Q2 2026: 0.3
+  annual:
+    2021 Yearly: -0.32
+    2022 Yearly: 0.17
+    2023 Yearly: 1.02
+    2024 Yearly: 1.37
+    2025 Yearly: 1.57
+  quarterly_forecast:
+    Q3 2024: 0.23
+    Q4 2024: 0.26
+    Q1 2025: 0.25
+    Q2 2025: 0.34
+    Q3 2025: 0.36
+    Q4 2025: 0.37
+    Q1 2026: 0.45
+    Q2 2026: 0.4
+    Q3 2026: 0.56
+    Q4 2026: 0.57
+    Q1 2027: 0.59
+    Q2 2027: 0.61
+  annual_forecast:
+    2021 Yearly: -0.3
+    2022 Yearly: -0.01
+    2023 Yearly: 0.41
+    2024 Yearly: 1.41
+    2025 Yearly: 1.62
+    2026 Yearly: 2.06
+    2027 Yearly: 2.61
+    2028 Yearly: 2.75

@@ -1,0 +1,74 @@
+currency: USD
+company_name: CarParts.com, Inc.
+sector: Retail Trade
+market_cap_billions: 0.04592
+revenue:
+  quarterly:
+    Q3 2024: 144.75
+    Q4 2024: 133.54
+    Q1 2025: 147.38
+    Q2 2025: 151.95
+    Q3 2025: 127.77
+    Q4 2025: 120.43
+    Q1 2026: 131.96
+  annual:
+    2021 Yearly: 582.44
+    2022 Yearly: 661.6
+    2023 Yearly: 675.73
+    2024 Yearly: 588.85
+    2025 Yearly: 547.52
+  quarterly_forecast:
+    Q3 2024: 142.2
+    Q4 2024: 137.49
+    Q1 2025: 146.14
+    Q2 2025: 153.46
+    Q3 2025: 142.03
+    Q4 2025: 118.9
+    Q1 2026: 131.38
+    Q2 2026: 129.04
+    Q3 2026: 126.35
+    Q4 2026: 120.77
+    Q1 2027: 138.52
+  annual_forecast:
+    2021 Yearly: 579.1
+    2022 Yearly: 658.26
+    2023 Yearly: 673.21
+    2024 Yearly: 592.75
+    2025 Yearly: 546.0
+    2026 Yearly: 508.14
+    2027 Yearly: 536.08
+eps:
+  quarterly:
+    Q3 2024: -1.7
+    Q4 2024: -2.7
+    Q1 2025: -2.7
+    Q2 2025: -2.3
+    Q3 2025: -1.9
+    Q4 2025: -1.7
+    Q1 2026: -0.3
+  annual:
+    2021 Yearly: -2.0
+    2022 Yearly: -0.2
+    2023 Yearly: -1.5
+    2024 Yearly: -7.1
+    2025 Yearly: -8.2
+  quarterly_forecast:
+    Q3 2024: -1.1
+    Q4 2024: -1.75
+    Q1 2025: -1.25
+    Q2 2025: -1.55
+    Q3 2025: -2.05
+    Q4 2025: -2.0
+    Q1 2026: -1.15
+    Q2 2026: -0.85
+    Q3 2026: -0.9
+    Q4 2026: -1.1
+    Q1 2027: -0.5
+  annual_forecast:
+    2021 Yearly: -2.13
+    2022 Yearly: -0.16
+    2023 Yearly: -1.43
+    2024 Yearly: -6.15
+    2025 Yearly: -8.75
+    2026 Yearly: -3.15
+    2027 Yearly: -2.8

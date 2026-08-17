@@ -1,0 +1,48 @@
+currency: USD
+company_name: Energous Corporation
+sector: Electronic Technology
+market_cap_billions: 0.09340999999999999
+revenue:
+  quarterly:
+    Q3 2026: 1.27
+    Q4 2026: 3.04
+  annual: {}
+  quarterly_forecast:
+    Q3 2025: 3.08
+  annual_forecast:
+    2021 Yearly: 5.63
+    2027 Yearly: 1.04
+eps:
+  quarterly:
+    Q3 2024: -15.0
+    Q4 2024: -9.3
+    Q1 2025: -3.6
+    Q2 2025: -2.4
+    Q3 2025: -1.31
+    Q4 2025: 0.85
+    Q1 2026: -0.43
+  annual:
+    2021 Yearly: -384.0
+    2022 Yearly: -204.0
+    2023 Yearly: -124.5
+    2024 Yearly: -77.1
+    2025 Yearly: -6.46
+  quarterly_forecast:
+    Q3 2024: -22.2
+    Q4 2024: -22.2
+    Q1 2025: -26.4
+    Q2 2025: -25.8
+    Q3 2025: -1.8
+    Q4 2025: -0.84
+    Q1 2026: -0.6
+    Q2 2026: -0.22
+    Q3 2026: -0.19
+    Q4 2026: -0.1
+  annual_forecast:
+    2021 Yearly: -348.0
+    2022 Yearly: -204.0
+    2023 Yearly: -156.0
+    2024 Yearly: -94.5
+    2025 Yearly: 2.35
+    2026 Yearly: -2.03
+    2027 Yearly: 0.73

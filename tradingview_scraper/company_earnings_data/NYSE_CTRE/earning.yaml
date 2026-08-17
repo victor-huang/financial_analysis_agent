@@ -1,0 +1,82 @@
+currency: USD
+company_name: CareTrust REIT, Inc.
+sector: Finance
+market_cap_billions: 9.72
+revenue:
+  quarterly:
+    Q3 2024: 57.15
+    Q4 2024: 62.2
+    Q1 2025: 71.65
+    Q2 2025: 86.03
+    Q3 2025: 104.27
+    Q4 2025: 106.25
+    Q1 2026: 114.2
+    Q2 2026: 118.2
+  annual:
+    2021 Yearly: 192.35
+    2022 Yearly: 196.13
+    2023 Yearly: 217.77
+    2024 Yearly: 228.26
+    2025 Yearly: 368.19
+  quarterly_forecast:
+    Q3 2024: 56.56
+    Q4 2024: 60.5
+    Q1 2025: 69.2
+    Q2 2025: 80.39
+    Q3 2025: 97.53
+    Q4 2025: 110.67
+    Q1 2026: 112.85
+    Q2 2026: 122.22
+    Q3 2026: 127.35
+    Q4 2026: 131.67
+    Q1 2027: 136.4
+    Q2 2027: 140.12
+  annual_forecast:
+    2021 Yearly: 190.44
+    2022 Yearly: 190.52
+    2023 Yearly: 196.26
+    2024 Yearly: 225.93
+    2025 Yearly: 374.78
+    2026 Yearly: 500.01
+    2027 Yearly: 574.41
+    2028 Yearly: 709.51
+    2029 Yearly: 785.1
+eps:
+  quarterly:
+    Q3 2024: 0.21
+    Q4 2024: 0.29
+    Q1 2025: 0.35
+    Q2 2025: 0.35
+    Q3 2025: 0.35
+    Q4 2025: 0.5
+    Q1 2026: 0.36
+    Q2 2026: 0.38
+  annual:
+    2021 Yearly: 0.74
+    2022 Yearly: -0.08
+    2023 Yearly: 0.5
+    2024 Yearly: 0.8
+    2025 Yearly: 1.57
+  quarterly_forecast:
+    Q3 2024: 0.29
+    Q4 2024: 0.31
+    Q1 2025: 0.35
+    Q2 2025: 0.34
+    Q3 2025: 0.36
+    Q4 2025: 0.36
+    Q1 2026: 0.35
+    Q2 2026: 0.38
+    Q3 2026: 0.39
+    Q4 2026: 0.39
+    Q1 2027: 0.36
+    Q2 2027: 0.37
+  annual_forecast:
+    2021 Yearly: 0.8
+    2022 Yearly: -0.01
+    2023 Yearly: 0.52
+    2024 Yearly: 0.82
+    2025 Yearly: 1.42
+    2026 Yearly: 1.5
+    2027 Yearly: 1.61
+    2028 Yearly: 1.71
+    2029 Yearly: 1.69

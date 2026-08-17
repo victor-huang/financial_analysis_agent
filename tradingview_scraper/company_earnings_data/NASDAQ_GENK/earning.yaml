@@ -1,0 +1,70 @@
+currency: USD
+company_name: GEN Restaurant Group, Inc.
+sector: Consumer Services
+market_cap_billions: 0.06
+revenue:
+  quarterly:
+    Q3 2024: 49.1
+    Q4 2024: 54.65
+    Q1 2025: 57.34
+    Q2 2025: 55.04
+    Q3 2025: 50.42
+    Q4 2025: 49.7
+    Q1 2026: 53.9
+    Q2 2026: 55.7
+  annual:
+    2023 Yearly: 181.01
+    2024 Yearly: 208.38
+    2025 Yearly: 212.5
+  quarterly_forecast:
+    Q3 2024: 49.9
+    Q4 2024: 49.77
+    Q1 2025: 57.42
+    Q2 2025: 60.26
+    Q3 2025: 54.25
+    Q4 2025: 60.35
+    Q1 2026: 57.0
+    Q2 2026: 57.2
+    Q3 2026: 53.95
+    Q4 2026: 51.8
+    Q1 2027: 55.9
+    Q2 2027: 57.3
+  annual_forecast:
+    2023 Yearly: 179.65
+    2024 Yearly: 203.48
+    2025 Yearly: 223.15
+    2026 Yearly: 216.9
+    2027 Yearly: 227.5
+eps:
+  quarterly:
+    Q3 2024: 0.03
+    Q4 2024: -0.02
+    Q1 2025: 0.04
+    Q2 2025: 0.04
+    Q3 2025: -0.02
+    Q4 2025: -0.14
+    Q1 2026: -0.14
+    Q2 2026: -0.06
+  annual:
+    2023 Yearly: 0.08
+    2024 Yearly: 0.21
+    2025 Yearly: -0.09
+  quarterly_forecast:
+    Q3 2024: -0.01
+    Q4 2024: -0.02
+    Q1 2025: -0.01
+    Q2 2025: 0.0
+    Q3 2025: -0.04
+    Q4 2025: -0.06
+    Q1 2026: -0.07
+    Q2 2026: -0.06
+    Q3 2026: -0.04
+    Q4 2026: -0.04
+    Q1 2027: -0.04
+    Q2 2027: -0.03
+  annual_forecast:
+    2023 Yearly: 0.24
+    2024 Yearly: 0.14
+    2025 Yearly: -0.09
+    2026 Yearly: -0.32
+    2027 Yearly: -0.17

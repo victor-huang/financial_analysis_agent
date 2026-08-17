@@ -1,0 +1,46 @@
+currency: USD
+company_name: TSS, Inc.
+sector: Technology Services
+market_cap_billions: 0.33998
+revenue:
+  quarterly:
+    Q3 2025: 41.88
+    Q4 2025: 60.91
+    Q1 2026: 55.35
+  annual:
+    2017 Yearly: 18.32
+    2018 Yearly: 22.34
+    2019 Yearly: 32.78
+    2025 Yearly: 245.72
+  quarterly_forecast:
+    Q4 2025: 41.4
+    Q1 2026: 41.94
+    Q2 2026: 47.08
+    Q3 2026: 47.39
+    Q4 2026: 51.2
+    Q1 2027: 50.13
+  annual_forecast:
+    2025 Yearly: 226.21
+    2026 Yearly: 201.04
+    2027 Yearly: 203.7
+eps:
+  quarterly:
+    Q3 2025: -0.06
+    Q4 2025: 0.41
+    Q1 2026: 0.08
+  annual:
+    2017 Yearly: 0.05
+    2018 Yearly: 0.13
+    2019 Yearly: 0.0
+    2025 Yearly: 0.56
+  quarterly_forecast:
+    Q4 2025: 0.01
+    Q1 2026: 0.03
+    Q2 2026: 0.06
+    Q3 2026: 0.05
+    Q4 2026: 0.07
+    Q1 2027: 0.07
+  annual_forecast:
+    2025 Yearly: 0.12
+    2026 Yearly: 0.26
+    2027 Yearly: 0.3

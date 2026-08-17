@@ -1,0 +1,74 @@
+currency: USD
+company_name: Green Dot Corporation
+sector: Finance
+market_cap_billions: 0.7664500000000001
+revenue:
+  quarterly:
+    Q4 2024: 451.72
+    Q1 2025: 555.96
+    Q2 2025: 501.16
+    Q3 2025: 491.85
+    Q4 2025: 519.72
+    Q1 2026: 652.03
+    Q2 2026: 591.28
+  annual:
+    2021 Yearly: 1390.0
+    2022 Yearly: 1420.0
+    2023 Yearly: 1480.0
+    2024 Yearly: 1710.0
+    2025 Yearly: 2070.0
+  quarterly_forecast:
+    Q4 2024: 420.39
+    Q1 2025: 505.58
+    Q2 2025: 490.57
+    Q3 2025: 483.84
+    Q4 2025: 508.09
+    Q1 2026: 597.39
+    Q2 2026: 541.16
+    Q3 2026: 548.72
+    Q4 2026: 576.36
+    Q1 2027: 635.7
+    Q2 2027: 578.0
+  annual_forecast:
+    2021 Yearly: 1380.0
+    2022 Yearly: 1410.0
+    2023 Yearly: 1470.0
+    2024 Yearly: 1680.0
+    2025 Yearly: 2060.0
+    2026 Yearly: 2320.0
+    2027 Yearly: 2390.0
+eps:
+  quarterly:
+    Q4 2024: 0.4
+    Q1 2025: 1.06
+    Q2 2025: 0.4
+    Q3 2025: 0.06
+    Q4 2025: -0.08
+    Q1 2026: 1.12
+    Q2 2026: 0.26
+  annual:
+    2021 Yearly: 2.21
+    2022 Yearly: 2.59
+    2023 Yearly: 1.62
+    2024 Yearly: 1.37
+    2025 Yearly: 1.41
+  quarterly_forecast:
+    Q4 2024: 0.35
+    Q1 2025: 0.71
+    Q2 2025: 0.18
+    Q3 2025: -0.09
+    Q4 2025: -0.1
+    Q1 2026: 0.88
+    Q2 2026: 0.37
+    Q3 2026: 0.11
+    Q4 2026: 0.13
+    Q1 2027: 1.1
+    Q2 2027: 0.44
+  annual_forecast:
+    2021 Yearly: 2.25
+    2022 Yearly: 2.48
+    2023 Yearly: 1.66
+    2024 Yearly: 1.34
+    2025 Yearly: 1.39
+    2026 Yearly: 1.66
+    2027 Yearly: 1.67

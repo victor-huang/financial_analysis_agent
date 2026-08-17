@@ -1,0 +1,62 @@
+currency: USD
+company_name: Yalla Group Limited
+sector: Technology Services
+market_cap_billions: 0.83823
+revenue:
+  quarterly:
+    Q3 2024: 88.92
+    Q4 2024: 90.83
+    Q1 2025: 83.88
+    Q2 2025: 84.56
+    Q3 2025: 89.64
+    Q4 2025: 83.86
+    Q1 2026: 79.01
+  annual:
+    2021 Yearly: 273.13
+    2022 Yearly: 303.6
+    2023 Yearly: 318.88
+    2024 Yearly: 339.68
+    2025 Yearly: 341.94
+  quarterly_forecast:
+    Q3 2024: 82.78
+    Q4 2024: 83.22
+    Q1 2025: 81.8
+    Q2 2025: 83.64
+    Q3 2025: 86.3
+    Q4 2025: 85.19
+    Q1 2026: 78.05
+    Q2 2026: 79.08
+    Q3 2026: 89.4
+    Q4 2026: 93.6
+  annual_forecast:
+    2021 Yearly: 270.78
+    2022 Yearly: 303.1
+    2023 Yearly: 317.95
+    2024 Yearly: 333.24
+    2025 Yearly: 343.56
+    2026 Yearly: 342.63
+    2027 Yearly: 383.74
+    2028 Yearly: 412.05
+eps:
+  quarterly:
+    Q3 2024: 0.22
+    Q4 2024: 0.18
+    Q1 2025: 0.2
+    Q2 2025: 0.2
+    Q3 2025: 0.23
+    Q4 2025: 0.2
+    Q1 2026: 0.16
+  annual:
+    2021 Yearly: 0.46
+    2022 Yearly: 0.45
+    2023 Yearly: 0.65
+    2024 Yearly: 0.74
+    2025 Yearly: 0.83
+  quarterly_forecast: {}
+  annual_forecast:
+    2022 Yearly: 0.56
+    2023 Yearly: 0.53
+    2024 Yearly: 0.67
+    2025 Yearly: 0.73
+    2026 Yearly: 0.82
+    2027 Yearly: 0.84

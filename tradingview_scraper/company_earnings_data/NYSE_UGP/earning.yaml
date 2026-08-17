@@ -1,0 +1,78 @@
+currency: USD
+company_name: Ultrapar Participacoes S.A. (New)
+sector: Retail Trade
+market_cap_billions: 6.52
+revenue:
+  quarterly:
+    Q3 2024: 6080.0
+    Q4 2024: 6240.0
+    Q1 2025: 6010.0
+    Q2 2025: 6450.0
+    Q3 2025: 7080.0
+    Q4 2025: 7580.0
+    Q1 2026: 7200.0
+  annual:
+    2021 Yearly: 23200.0
+    2022 Yearly: 28970.0
+    2023 Yearly: 24450.0
+    2024 Yearly: 23520.0
+    2025 Yearly: 28670.0
+  quarterly_forecast:
+    Q3 2024: 6020.0
+    Q4 2024: 5940.0
+    Q1 2025: 5820.0
+    Q2 2025: 5950.0
+    Q3 2025: 6630.0
+    Q4 2025: 6770.0
+    Q1 2026: 7490.0
+    Q2 2026: 8180.0
+    Q3 2026: 8670.0
+    Q4 2026: 8109.999999999999
+    Q1 2027: 7790.0
+  annual_forecast:
+    2021 Yearly: 22410.0
+    2022 Yearly: 28300.0
+    2023 Yearly: 26020.0
+    2024 Yearly: 22550.0
+    2025 Yearly: 26530.0
+    2026 Yearly: 30600.0
+    2027 Yearly: 30020.0
+    2028 Yearly: 30340.0
+    2029 Yearly: 30400.0
+eps:
+  quarterly:
+    Q3 2024: 0.1
+    Q4 2024: 0.13
+    Q1 2025: 0.05
+    Q2 2025: 0.19
+    Q3 2025: 0.12
+    Q4 2025: 0.06
+    Q1 2026: 0.15
+  annual:
+    2021 Yearly: 0.15
+    2022 Yearly: 0.27
+    2023 Yearly: 0.43
+    2024 Yearly: 0.38
+    2025 Yearly: 0.45
+  quarterly_forecast:
+    Q3 2024: 0.1
+    Q4 2024: 0.06
+    Q1 2025: 0.06
+    Q2 2025: 0.05
+    Q3 2025: 0.1
+    Q4 2025: 0.07
+    Q1 2026: 0.12
+    Q2 2026: 0.25
+    Q3 2026: 0.18
+    Q4 2026: 0.14
+    Q1 2027: 0.14
+  annual_forecast:
+    2021 Yearly: 0.14
+    2022 Yearly: 0.18
+    2023 Yearly: 0.33
+    2024 Yearly: 0.31
+    2025 Yearly: 0.44
+    2026 Yearly: 0.63
+    2027 Yearly: 0.58
+    2028 Yearly: 0.67
+    2029 Yearly: 0.73

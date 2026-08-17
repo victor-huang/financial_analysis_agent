@@ -1,0 +1,74 @@
+currency: USD
+company_name: Xos, Inc.
+sector: Consumer Durables
+market_cap_billions: 0.03608
+revenue:
+  quarterly:
+    Q3 2024: 15.79
+    Q4 2024: 11.47
+    Q1 2025: 5.88
+    Q2 2025: 18.39
+    Q3 2025: 16.5
+    Q4 2025: 5.22
+    Q1 2026: 11.22
+  annual:
+    2021 Yearly: 5.05
+    2022 Yearly: 36.38
+    2023 Yearly: 44.52
+    2024 Yearly: 55.96
+    2025 Yearly: 45.99
+  quarterly_forecast:
+    Q3 2024: 22.8
+    Q4 2024: 17.8
+    Q1 2025: 10.17
+    Q2 2025: 13.11
+    Q3 2025: 19.0
+    Q4 2025: 11.5
+    Q1 2026: 6.22
+    Q2 2026: 14.3
+    Q3 2026: 14.7
+    Q4 2026: 8.9
+    Q1 2027: 9.8
+  annual_forecast:
+    2021 Yearly: 4.29
+    2022 Yearly: 40.03
+    2023 Yearly: 42.12
+    2024 Yearly: 62.27
+    2025 Yearly: 52.3
+    2026 Yearly: 49.1
+    2027 Yearly: 54.3
+    2028 Yearly: 78.22
+    2029 Yearly: 81.81
+eps:
+  quarterly:
+    Q3 2024: -1.33
+    Q4 2024: -2.31
+    Q1 2025: -1.26
+    Q2 2025: -0.91
+    Q3 2025: 0.22
+    Q4 2025: -0.87
+    Q1 2026: -0.43
+  annual:
+    2021 Yearly: -18.73
+    2022 Yearly: -12.0
+    2023 Yearly: -12.9
+    2024 Yearly: -6.65
+    2025 Yearly: -2.72
+  quarterly_forecast:
+    Q3 2024: -1.35
+    Q4 2024: -1.32
+    Q1 2025: -1.12
+    Q2 2025: -1.16
+    Q3 2025: -0.8
+    Q4 2025: -0.73
+    Q1 2026: -0.71
+    Q2 2026: -0.53
+    Q3 2026: -0.51
+    Q4 2026: -0.62
+    Q1 2027: -0.61
+  annual_forecast:
+    2023 Yearly: -10.74
+    2024 Yearly: -14.85
+    2025 Yearly: -8.25
+    2026 Yearly: -5.24
+    2027 Yearly: -2.15

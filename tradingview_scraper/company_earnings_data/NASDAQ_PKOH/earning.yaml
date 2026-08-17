@@ -1,0 +1,74 @@
+currency: USD
+company_name: Park-Ohio Holdings Corp.
+sector: Producer Manufacturing
+market_cap_billions: 0.6696599999999999
+revenue:
+  quarterly:
+    Q4 2024: 388.4
+    Q1 2025: 405.4
+    Q2 2025: 400.1
+    Q3 2025: 398.6
+    Q4 2025: 395.0
+    Q1 2026: 421.0
+    Q2 2026: 440.1
+  annual:
+    2021 Yearly: 1440.0
+    2022 Yearly: 1490.0
+    2023 Yearly: 1660.0
+    2024 Yearly: 1660.0
+    2025 Yearly: 1600.0
+  quarterly_forecast:
+    Q4 2024: 405.85
+    Q1 2025: 425.25
+    Q2 2025: 405.4
+    Q3 2025: 417.3
+    Q4 2025: 402.9
+    Q1 2026: 413.9
+    Q2 2026: 425.57
+    Q3 2026: 428.79
+    Q4 2026: 421.01
+    Q1 2027: 435.38
+    Q2 2027: 445.12
+  annual_forecast:
+    2021 Yearly: 1430.0
+    2022 Yearly: 1710.0
+    2023 Yearly: 1660.0
+    2024 Yearly: 1670.0
+    2025 Yearly: 1610.0
+    2026 Yearly: 1700.0
+    2027 Yearly: 1760.0
+eps:
+  quarterly:
+    Q4 2024: 0.67
+    Q1 2025: 0.66
+    Q2 2025: 0.75
+    Q3 2025: 0.65
+    Q4 2025: 0.65
+    Q1 2026: 0.65
+    Q2 2026: 0.93
+  annual:
+    2021 Yearly: -1.2
+    2022 Yearly: 1.76
+    2023 Yearly: 3.07
+    2024 Yearly: 3.59
+    2025 Yearly: 2.7
+  quarterly_forecast:
+    Q4 2024: 0.62
+    Q1 2025: 0.83
+    Q2 2025: 0.71
+    Q3 2025: 0.83
+    Q4 2025: 0.73
+    Q1 2026: 0.65
+    Q2 2026: 0.81
+    Q3 2026: 0.84
+    Q4 2026: 0.77
+    Q1 2027: 0.75
+    Q2 2027: 0.91
+  annual_forecast:
+    2021 Yearly: -0.24
+    2022 Yearly: 1.92
+    2023 Yearly: 3.08
+    2024 Yearly: 3.54
+    2025 Yearly: 2.8
+    2026 Yearly: 3.07
+    2027 Yearly: 3.4

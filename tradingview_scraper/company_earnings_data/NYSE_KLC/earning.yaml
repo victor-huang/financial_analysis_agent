@@ -1,0 +1,64 @@
+currency: USD
+company_name: KinderCare Learning Companies, Inc.
+sector: Consumer Services
+market_cap_billions: 0.5495099999999999
+revenue:
+  quarterly:
+    Q3 2024: 671.48
+    Q4 2024: 646.96
+    Q1 2025: 668.24
+    Q2 2025: 700.11
+    Q3 2025: 676.83
+    Q4 2025: 688.14
+    Q1 2026: 672.52
+  annual:
+    2024 Yearly: 2660.0
+    2025 Yearly: 2730.0
+  quarterly_forecast:
+    Q3 2024: 669.45
+    Q4 2024: 646.66
+    Q1 2025: 680.99
+    Q2 2025: 705.72
+    Q3 2025: 682.61
+    Q4 2025: 685.32
+    Q1 2026: 669.13
+    Q2 2026: 697.94
+    Q3 2026: 686.42
+    Q4 2026: 663.7
+    Q1 2027: 689.2
+  annual_forecast:
+    2024 Yearly: 2660.0
+    2025 Yearly: 2730.0
+    2026 Yearly: 2710.0
+    2027 Yearly: 2790.0
+    2028 Yearly: 2890.0
+eps:
+  quarterly:
+    Q3 2024: 0.05
+    Q4 2024: 0.09
+    Q1 2025: 0.23
+    Q2 2025: 0.22
+    Q3 2025: 0.13
+    Q4 2025: 0.12
+    Q1 2026: 0.04
+  annual:
+    2024 Yearly: 0.4
+    2025 Yearly: 0.7
+  quarterly_forecast:
+    Q3 2024: -0.02
+    Q4 2024: 0.05
+    Q1 2025: 0.17
+    Q2 2025: 0.26
+    Q3 2025: 0.12
+    Q4 2025: 0.09
+    Q1 2026: -0.01
+    Q2 2026: 0.1
+    Q3 2026: 0.03
+    Q4 2026: 0.02
+    Q1 2027: 0.04
+  annual_forecast:
+    2024 Yearly: 0.31
+    2025 Yearly: 0.67
+    2026 Yearly: 0.19
+    2027 Yearly: 0.29
+    2028 Yearly: 0.51

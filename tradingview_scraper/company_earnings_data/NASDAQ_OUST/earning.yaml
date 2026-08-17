@@ -1,0 +1,80 @@
+currency: USD
+company_name: Ouster, Inc.
+sector: Electronic Technology
+market_cap_billions: 2.9
+revenue:
+  quarterly:
+    Q3 2024: 28.07
+    Q4 2024: 30.09
+    Q1 2025: 32.63
+    Q2 2025: 35.05
+    Q3 2025: 39.52
+    Q4 2025: 62.18
+    Q1 2026: 48.58
+    Q2 2026: 54.63
+  annual:
+    2021 Yearly: 33.58
+    2022 Yearly: 41.03
+    2023 Yearly: 83.28
+    2024 Yearly: 111.1
+    2025 Yearly: 169.38
+  quarterly_forecast:
+    Q3 2024: 28.03
+    Q4 2024: 29.8
+    Q1 2025: 30.87
+    Q2 2025: 33.77
+    Q3 2025: 37.07
+    Q4 2025: 41.12
+    Q1 2026: 46.15
+    Q2 2026: 51.47
+    Q3 2026: 57.34
+    Q4 2026: 62.93
+    Q1 2027: 63.46
+    Q2 2027: 69.64
+  annual_forecast:
+    2021 Yearly: 32.92
+    2022 Yearly: 46.11
+    2023 Yearly: 82.88
+    2024 Yearly: 110.8
+    2025 Yearly: 148.3
+    2026 Yearly: 220.53
+    2027 Yearly: 297.97
+    2028 Yearly: 387.63
+    2029 Yearly: 558.8
+eps:
+  quarterly:
+    Q3 2024: -0.3
+    Q4 2024: -0.3
+    Q1 2025: -0.26
+    Q2 2025: -0.14
+    Q3 2025: -0.17
+    Q4 2025: 0.2
+    Q1 2026: -0.13
+    Q2 2026: -0.07
+  annual:
+    2021 Yearly: -5.6
+    2022 Yearly: -5.93
+    2023 Yearly: -4.04
+    2024 Yearly: -1.21
+    2025 Yearly: -0.03
+  quarterly_forecast:
+    Q3 2024: -0.27
+    Q4 2024: -0.26
+    Q1 2025: -0.25
+    Q2 2025: -0.2
+    Q3 2025: -0.18
+    Q4 2025: -0.13
+    Q1 2026: -0.12
+    Q2 2026: -0.12
+    Q3 2026: -0.08
+    Q4 2026: -0.05
+    Q1 2027: -0.06
+    Q2 2027: -0.04
+  annual_forecast:
+    2022 Yearly: -3.76
+    2023 Yearly: -6.28
+    2024 Yearly: -3.14
+    2025 Yearly: -1.04
+    2026 Yearly: -0.58
+    2027 Yearly: -0.47
+    2028 Yearly: -0.15

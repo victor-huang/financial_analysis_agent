@@ -1,0 +1,68 @@
+currency: USD
+company_name: Pelagos Insurance Capital Limited
+sector: Finance
+market_cap_billions: 2.08
+revenue:
+  quarterly:
+    Q3 2024: 686.1
+    Q4 2024: 953.7
+    Q1 2025: 658.4
+    Q2 2025: 1220.0
+    Q3 2025: 797.5
+    Q4 2025: 978.2
+    Q1 2026: 1840.0
+  annual:
+    2023 Yearly: 3600.0
+    2024 Yearly: 4400.0
+    2025 Yearly: 4720.0
+  quarterly_forecast:
+    Q3 2024: 607.62
+    Q4 2024: 638.71
+    Q1 2025: 685.07
+    Q2 2025: 637.37
+    Q3 2025: 638.6
+    Q4 2025: 725.25
+    Q1 2026: 903.16
+    Q2 2026: 787.01
+    Q3 2026: 675.23
+    Q4 2026: 789.76
+    Q1 2027: 1130.0
+  annual_forecast:
+    2023 Yearly: 2460.0
+    2024 Yearly: 2370.0
+    2025 Yearly: 3290.0
+    2026 Yearly: 3540.0
+    2027 Yearly: 3770.0
+    2028 Yearly: 3250.0
+eps:
+  quarterly:
+    Q3 2024: 0.92
+    Q4 2024: -1.05
+    Q1 2025: -0.41
+    Q2 2025: 0.12
+    Q3 2025: 1.21
+    Q4 2025: 1.09
+    Q1 2026: 0.94
+  annual:
+    2023 Yearly: 3.49
+    2024 Yearly: 1.18
+    2025 Yearly: 1.92
+  quarterly_forecast:
+    Q3 2024: 0.72
+    Q4 2024: -0.73
+    Q1 2025: -0.47
+    Q2 2025: -0.39
+    Q3 2025: 1.19
+    Q4 2025: 1.06
+    Q1 2026: 0.74
+    Q2 2026: 0.88
+    Q3 2026: 0.71
+    Q4 2026: 1.03
+    Q1 2027: 1.13
+  annual_forecast:
+    2023 Yearly: 3.17
+    2024 Yearly: 1.31
+    2025 Yearly: 1.93
+    2026 Yearly: 3.58
+    2027 Yearly: 4.1
+    2028 Yearly: 4.71

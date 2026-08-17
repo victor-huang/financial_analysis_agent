@@ -1,0 +1,76 @@
+currency: USD
+company_name: VTEX
+sector: Technology Services
+market_cap_billions: 0.73139
+revenue:
+  quarterly:
+    Q3 2024: 56.0
+    Q4 2024: 61.5
+    Q1 2025: 54.2
+    Q2 2025: 58.8
+    Q3 2025: 59.61
+    Q4 2025: 67.95
+    Q1 2026: 60.7
+  annual:
+    2021 Yearly: 125.77
+    2022 Yearly: 157.62
+    2023 Yearly: 201.5
+    2024 Yearly: 226.7
+    2025 Yearly: 240.52
+  quarterly_forecast:
+    Q3 2024: 57.2
+    Q4 2024: 63.15
+    Q1 2025: 52.97
+    Q2 2025: 59.97
+    Q3 2025: 59.51
+    Q4 2025: 67.98
+    Q1 2026: 60.65
+    Q2 2026: 64.69
+    Q3 2026: 65.63
+    Q4 2026: 75.26
+    Q1 2027: 66.04
+  annual_forecast:
+    2021 Yearly: 124.94
+    2022 Yearly: 158.57
+    2023 Yearly: 197.85
+    2024 Yearly: 229.89
+    2025 Yearly: 241.39
+    2026 Yearly: 268.68
+    2027 Yearly: 293.58
+    2028 Yearly: 311.73
+eps:
+  quarterly:
+    Q3 2024: 0.02
+    Q4 2024: 0.03
+    Q1 2025: 0.01
+    Q2 2025: 0.04
+    Q3 2025: 0.06
+    Q4 2025: 0.08
+    Q1 2026: 0.05
+  annual:
+    2021 Yearly: -0.33
+    2022 Yearly: -0.28
+    2023 Yearly: -0.07
+    2024 Yearly: 0.06
+    2025 Yearly: 0.2
+  quarterly_forecast:
+    Q3 2024: 0.02
+    Q4 2024: 0.04
+    Q1 2025: -0.01
+    Q2 2025: 0.03
+    Q3 2025: 0.03
+    Q4 2025: 0.05
+    Q1 2026: 0.03
+    Q2 2026: 0.05
+    Q3 2026: 0.05
+    Q4 2026: 0.08
+    Q1 2027: 0.05
+  annual_forecast:
+    2021 Yearly: -0.34
+    2022 Yearly: -0.27
+    2023 Yearly: -0.08
+    2024 Yearly: 0.08
+    2025 Yearly: 0.13
+    2026 Yearly: 0.2
+    2027 Yearly: 0.26
+    2028 Yearly: 0.29

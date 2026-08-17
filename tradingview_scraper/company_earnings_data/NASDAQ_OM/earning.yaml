@@ -1,0 +1,78 @@
+currency: USD
+company_name: Outset Medical, Inc.
+sector: Health Technology
+market_cap_billions: 0.0948
+revenue:
+  quarterly:
+    Q3 2024: 28.67
+    Q4 2024: 29.5
+    Q1 2025: 29.8
+    Q2 2025: 31.4
+    Q3 2025: 29.4
+    Q4 2025: 28.9
+    Q1 2026: 27.9
+  annual:
+    2021 Yearly: 102.6
+    2022 Yearly: 115.4
+    2023 Yearly: 130.4
+    2024 Yearly: 113.7
+    2025 Yearly: 119.5
+  quarterly_forecast:
+    Q3 2024: 26.84
+    Q4 2024: 28.48
+    Q1 2025: 27.81
+    Q2 2025: 29.41
+    Q3 2025: 30.7
+    Q4 2025: 26.65
+    Q1 2026: 28.9
+    Q2 2026: 28.97
+    Q3 2026: 33.53
+    Q4 2026: 35.4
+    Q1 2027: 29.7
+  annual_forecast:
+    2021 Yearly: 100.93
+    2022 Yearly: 113.8
+    2023 Yearly: 130.0
+    2024 Yearly: 112.52
+    2025 Yearly: 117.25
+    2026 Yearly: 125.73
+    2027 Yearly: 139.27
+    2028 Yearly: 153.05
+    2029 Yearly: 172.9
+eps:
+  quarterly:
+    Q3 2024: -5.85
+    Q4 2024: -5.55
+    Q1 2025: -3.24
+    Q2 2025: -0.84
+    Q3 2025: -0.69
+    Q4 2025: -0.84
+    Q1 2026: -0.83
+  annual:
+    2021 Yearly: -37.65
+    2022 Yearly: -42.3
+    2023 Yearly: -40.5
+    2024 Yearly: -26.85
+    2025 Yearly: -4.3
+  quarterly_forecast:
+    Q3 2024: -6.6
+    Q4 2024: -6.2
+    Q1 2025: -0.94
+    Q2 2025: -0.98
+    Q3 2025: -0.66
+    Q4 2025: -0.67
+    Q1 2026: -0.79
+    Q2 2026: -0.72
+    Q3 2026: -0.65
+    Q4 2026: -0.71
+    Q1 2027: -0.81
+  annual_forecast:
+    2021 Yearly: -38.1
+    2022 Yearly: -44.7
+    2023 Yearly: -42.73
+    2024 Yearly: -27.88
+    2025 Yearly: -4.45
+    2026 Yearly: -2.91
+    2027 Yearly: -2.18
+    2028 Yearly: -1.77
+    2029 Yearly: -1.17

@@ -1,0 +1,62 @@
+currency: USD
+company_name: GRI Bio, Inc.
+sector: Health Technology
+market_cap_billions: 0.0034500000000000004
+revenue:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+  annual:
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+  annual_forecast:
+    2022 Yearly: 0.0
+    2023 Yearly: 11.2
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 0.0
+    2028 Yearly: 0.0
+eps:
+  quarterly:
+    Q3 2024: -318.92
+    Q4 2024: -218.26
+    Q1 2025: -162.4
+    Q2 2025: -36.68
+    Q3 2025: -35.84
+    Q4 2025: -13.25
+    Q1 2026: -1.61
+  annual:
+    2021 Yearly: -1.85
+  quarterly_forecast:
+    Q3 2024: -347.48
+    Q4 2024: -152.32
+    Q1 2025: -105.98
+    Q2 2025: -36.68
+    Q3 2025: -31.08
+    Q4 2025: -29.26
+    Q1 2026: -1.6
+    Q2 2026: -1.2
+    Q3 2026: -1.08
+    Q4 2026: -1.07
+    Q1 2027: -1.25
+  annual_forecast:
+    2025 Yearly: -1.53
+    2026 Yearly: -1.29

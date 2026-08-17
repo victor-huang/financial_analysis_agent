@@ -1,0 +1,78 @@
+currency: USD
+company_name: Heritage Global Inc.
+sector: Finance
+market_cap_billions: 0.03717
+revenue:
+  quarterly:
+    Q4 2024: 10.77
+    Q1 2025: 13.46
+    Q2 2025: 14.3
+    Q3 2025: 11.36
+    Q4 2025: 11.86
+    Q1 2026: 12.72
+    Q2 2026: 13.29
+  annual:
+    2021 Yearly: 25.79
+    2022 Yearly: 46.91
+    2023 Yearly: 60.55
+    2024 Yearly: 45.36
+    2025 Yearly: 50.98
+  quarterly_forecast:
+    Q4 2024: 13.43
+    Q1 2025: 11.91
+    Q2 2025: 12.35
+    Q3 2025: 13.07
+    Q4 2025: 12.89
+    Q1 2026: 13.49
+    Q2 2026: 13.29
+    Q3 2026: 13.62
+    Q4 2026: 15.91
+    Q1 2027: 13.41
+    Q2 2027: 14.05
+  annual_forecast:
+    2021 Yearly: 25.38
+    2022 Yearly: 43.99
+    2023 Yearly: 60.58
+    2024 Yearly: 48.02
+    2025 Yearly: 52.0
+    2026 Yearly: 55.58
+    2027 Yearly: 59.35
+    2028 Yearly: 58.81
+    2029 Yearly: 61.75
+eps:
+  quarterly:
+    Q4 2024: -0.01
+    Q1 2025: 0.03
+    Q2 2025: 0.05
+    Q3 2025: 0.02
+    Q4 2025: 0.01
+    Q1 2026: 0.02
+    Q2 2026: 0.04
+  annual:
+    2021 Yearly: 0.08
+    2022 Yearly: 0.42
+    2023 Yearly: 0.33
+    2024 Yearly: 0.14
+    2025 Yearly: 0.1
+  quarterly_forecast:
+    Q4 2024: 0.07
+    Q1 2025: 0.04
+    Q2 2025: 0.04
+    Q3 2025: 0.05
+    Q4 2025: 0.03
+    Q1 2026: 0.03
+    Q2 2026: 0.04
+    Q3 2026: 0.04
+    Q4 2026: 0.05
+    Q1 2027: 0.03
+    Q2 2027: 0.05
+  annual_forecast:
+    2021 Yearly: 0.1
+    2022 Yearly: 0.18
+    2023 Yearly: 0.29
+    2024 Yearly: 0.23
+    2025 Yearly: 0.14
+    2026 Yearly: 0.15
+    2027 Yearly: 0.19
+    2028 Yearly: 0.17
+    2029 Yearly: 0.27

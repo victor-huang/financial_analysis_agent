@@ -1,0 +1,35 @@
+currency: USD
+company_name: Aptera Motors Corp.
+sector: Consumer Durables
+market_cap_billions: 0.09090999999999999
+revenue:
+  quarterly:
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+  annual:
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q1 2027: 0.0
+  annual_forecast:
+    2027 Yearly: 0.0
+    2029 Yearly: 21.51
+eps:
+  quarterly:
+    Q4 2025: -0.57
+    Q1 2026: -0.32
+  annual:
+    2025 Yearly: -1.79
+  quarterly_forecast:
+    Q1 2026: -0.48
+    Q2 2026: -0.3
+    Q3 2026: -0.26
+    Q4 2026: -0.23
+    Q1 2027: -0.21
+  annual_forecast:
+    2025 Yearly: -1.35
+    2026 Yearly: -0.99
+    2027 Yearly: -0.71
+    2028 Yearly: -0.54
+    2029 Yearly: -0.17
