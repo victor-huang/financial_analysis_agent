@@ -12,7 +12,8 @@ Before-open (bmo) releases are skipped: the evening before, earnings are not rep
 
 For the latest release of each ticker it also reports the report day's extended-hours close
 and its distance to the 20/50/200-day moving averages: a moving average above that price is
-resistance (potential gain to reach it), one below is support (potential drawdown to reach it).
+resistance (potential gain to reach it), one below is support (potential drawdown to reach it),
+plus how consensus EPS forecasts changed across that release (when it is within 90 days).
 
 Usage:
     python over_night_eraning_trade.py MDB --collect
@@ -41,6 +42,15 @@ AFTER_HOURS_END = time(20, 0)
 MARKET_OPEN = time(9, 30)
 AUCTION_OPEN_LABEL = "open (auction)"
 FIRST_TRADE_OPEN_LABEL = "open"
+EARNINGS_COLUMNS = [
+    "eps_estimate",
+    "eps_actual",
+    "eps_surprise_pct",
+    "revenue_estimate_m",
+    "revenue_actual_m",
+    "revenue_surprise_pct",
+    "after_hours_move_pct",
+]
 
 
 def default_data_dir() -> Path:
@@ -124,14 +134,50 @@ def simulate_trade(
         "entry_time": entry_time.strftime("%Y-%m-%d %H:%M"),
         "entry_price": entry_price,
         "regular_close": float(by_offset.at[-1, "close"]),
-        "eps_surprise_pct": _surprise_pct(event.get("eps_actual"), event.get("eps_estimate")),
+        "earnings": earnings_results(event),
         "exit_prices": exits,
         "returns_pct": {
             label: (price / entry_price - 1) * 100 if price is not None else None
             for label, price in exits.items()
         },
     }
+    trade["earnings"]["after_hours_move_pct"] = (entry_price / trade["regular_close"] - 1) * 100
     return trade, None
+
+
+def earnings_results(event: Dict) -> Dict:
+    """EPS and revenue (in $M) estimate vs actual, with surprise %; positive surprise is a beat."""
+    revenue_estimate, revenue_actual = event.get("revenue_estimate"), event.get("revenue_actual")
+    return {
+        "eps_estimate": event.get("eps_estimate"),
+        "eps_actual": event.get("eps_actual"),
+        "eps_surprise_pct": _surprise_pct(event.get("eps_actual"), event.get("eps_estimate")),
+        "revenue_estimate_m": revenue_estimate / 1e6 if revenue_estimate is not None else None,
+        "revenue_actual_m": revenue_actual / 1e6 if revenue_actual is not None else None,
+        "revenue_surprise_pct": _surprise_pct(revenue_actual, revenue_estimate),
+    }
+
+
+def forecast_revision_table(manifest: Dict) -> Tuple[Optional[pd.DataFrame], str]:
+    """Consensus EPS forecasts before and after the latest release, from the collector's manifest.
+
+    Returns:
+        Tuple of (one row per forecast period, description of the snapshots) or (None, reason)
+    """
+    revision = manifest.get("forecast_revision")
+    if not revision:
+        return None, "no forecast data in collected data; re-run with --collect"
+    if not revision.get("available"):
+        return None, revision.get("reason", "unavailable")
+    table = pd.DataFrame(revision["periods"]).set_index("label").drop(columns="period")
+    table = table.rename(
+        columns={
+            "before": f"before ({revision['before_snapshot']})",
+            "after": f"after ({revision['after_snapshot']})",
+            "change_pct": "change_pct (before -> current)",
+        }
+    )
+    return table, f"consensus EPS, {revision['source']}"
 
 
 def release_levels(event: Dict, context_dir: Path) -> Tuple[Optional[pd.DataFrame], Optional[str]]:
@@ -232,7 +278,7 @@ def collect_trades(
                     "entry_time": trade["entry_time"],
                     "regular_close": trade["regular_close"],
                     "entry_price": trade["entry_price"],
-                    "eps_surprise_pct": trade["eps_surprise_pct"],
+                    **trade["earnings"],
                     **trade["returns_pct"],
                 }
             )
@@ -312,8 +358,11 @@ def main():
     else:
         print(f"Overnight earnings trade: buy {args.entry_minutes_before_close} min before after-hours close, "
               f"sell after next open (returns in %)\n")
-        print("Per trade:")
-        print(trades.set_index(["ticker", "release_date"]).round(2).to_string())
+        indexed = trades.set_index(["ticker", "release_date"])
+        print("Earnings results (surprise % > 0 is a beat; after_hours_move_pct is entry price vs regular close):")
+        print(indexed[EARNINGS_COLUMNS].round(2).to_string())
+        print("\nPer trade returns:")
+        print(indexed[["entry_time", "regular_close", "entry_price"] + labels].round(2).to_string())
         print(f"\nSummary by exit time ({len(trades)} trades):")
         print(summarize(trades, labels).round(2).to_string())
         if trades["ticker"].nunique() > 1:
@@ -327,6 +376,13 @@ def main():
             print(f"  unavailable: {reason}")
         else:
             print(levels.round(2).to_string())
+        context_dir = find_context_dir(data_dir, ticker, args.as_of)
+        revision, description = forecast_revision_table(json.loads((context_dir / "manifest.json").read_text()))
+        print(f"\nForecast revision across the latest release: {ticker} ({description if revision is not None else 'unavailable'})")
+        if revision is None:
+            print(f"  {description}")
+        else:
+            print(revision.round(4).to_string())
 
     if skipped:
         print("\nSkipped:")

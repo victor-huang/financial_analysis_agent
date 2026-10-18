@@ -6,7 +6,6 @@ from datetime import datetime, timedelta
 import pandas as pd
 import yfinance as yf
 
-from ..utils.date_utils import parse_quarter_end
 
 logger = logging.getLogger(__name__)
 
@@ -205,6 +204,23 @@ class YFinanceSource:
             return df
         except Exception as e:
             logger.error(f"Error fetching earnings dates for {ticker}: {str(e)}")
+            return None
+
+    def get_eps_trend(self, ticker: str) -> Optional[pd.DataFrame]:
+        """Get consensus EPS estimates now and 7/30/60/90 days ago.
+
+        Args:
+            ticker: Stock ticker symbol
+
+        Returns:
+            DataFrame indexed by period ('0q', '+1q', '0y', '+1y') with columns
+            ['current', '7daysAgo', '30daysAgo', '60daysAgo', '90daysAgo'], or None.
+        """
+        try:
+            df = yf.Ticker(ticker).eps_trend
+            return df if df is not None and not df.empty else None
+        except Exception as e:
+            logger.error(f"Error fetching EPS trend for {ticker}: {str(e)}")
             return None
 
     def get_earnings_trend(self, ticker: str) -> Optional[pd.DataFrame]:

@@ -6,6 +6,7 @@ For each ticker this produces:
 - For each of the last N reported earnings releases:
     - Daily candles from T-5 to T+10 trading days (with 20/50/200-day SMAs and sector ETF and SPY closes)
     - 5-minute candles, including extended hours, from T-2 to T+2 trading days
+- Consensus EPS forecast revision across the latest release (when it is within 90 days)
 
 Day T (offset 0) is the reaction session: the release date itself for releases
 before the open, the next trading day for releases after the close.
@@ -50,6 +51,13 @@ INTRADAY_DAYS_AROUND = 2
 INTRADAY_INTERVAL_MINUTES = 5
 HISTORY_CALENDAR_DAYS = 730  # 4 quarters back plus 200 sessions for the longest moving average
 MOVING_AVERAGE_WINDOWS = (20, 50, 200)
+EPS_TREND_SNAPSHOT_AGES = {"current": 0, "7daysAgo": 7, "30daysAgo": 30, "60daysAgo": 60, "90daysAgo": 90}
+EPS_TREND_PERIODS = {
+    "0q": "next quarter",
+    "+1q": "quarter after next",
+    "0y": "current fiscal year",
+    "+1y": "next fiscal year",
+}
 TRADING_DAYS_PER_YEAR = 252
 EXTENDED_HOURS_START = time(4, 0)
 EXTENDED_HOURS_END = time(20, 0)
@@ -213,6 +221,55 @@ class EarningsPriceContextCollector:
         df = self.fetcher.get_intraday_bars(ticker, start, end, INTRADAY_INTERVAL_MINUTES)
         return df if df is not None else pd.DataFrame()
 
+    def get_forecast_revision(self, ticker: str, event: EarningsEvent) -> Dict:
+        """How consensus EPS estimates changed across a release, from yfinance's EPS trend.
+
+        The trend holds estimates now and 7/30/60/90 days ago, so this only works for a release
+        within the last 90 days and only when collecting as of today. 'before' is the latest
+        snapshot taken before the release, 'after' the earliest one taken after it.
+        """
+        days_since = (date.today() - event.release_date).days
+        if self.as_of != date.today():
+            return {"available": False, "reason": "EPS trend is only available for today's collection"}
+        before_ages = {col: age for col, age in EPS_TREND_SNAPSHOT_AGES.items() if age > days_since}
+        if not before_ages:
+            return {"available": False, "reason": f"release was {days_since} days ago; EPS trend covers 90 days"}
+
+        trend = self.fetcher.get_eps_trend(ticker)
+        if trend is None:
+            return {"available": False, "reason": "no EPS trend data"}
+
+        before_col = min(before_ages, key=before_ages.get)
+        after_col = max(
+            (col for col, age in EPS_TREND_SNAPSHOT_AGES.items() if age <= days_since),
+            key=EPS_TREND_SNAPSHOT_AGES.get,
+        )
+        periods = []
+        for period, label in EPS_TREND_PERIODS.items():
+            if period not in trend.index:
+                continue
+            before, after, current = (
+                _optional_float(trend.at[period, col]) for col in (before_col, after_col, "current")
+            )
+            periods.append(
+                {
+                    "period": period,
+                    "label": label,
+                    "before": before,
+                    "after": after,
+                    "current": current,
+                    "change_pct": _pct_change(before, current),
+                }
+            )
+        return {
+            "available": True,
+            "source": "yfinance eps_trend",
+            "release_date": event.release_date.isoformat(),
+            "before_snapshot": _snapshot_date(before_col),
+            "after_snapshot": _snapshot_date(after_col),
+            "periods": periods,
+        }
+
     def collect(self, ticker: str, num_quarters: int = 4) -> Dict:
         """Collect all price context for a ticker and write it under <output_dir>/<TICKER>/<as_of>/.
 
@@ -254,6 +311,8 @@ class EarningsPriceContextCollector:
                 }
             )
 
+        forecast_revision = self.get_forecast_revision(ticker, past_events[0]) if past_events else None
+
         manifest = {
             "ticker": ticker,
             "as_of": self.as_of.isoformat(),
@@ -265,6 +324,7 @@ class EarningsPriceContextCollector:
             "daily_history": {"file": "daily_90d.csv", "rows": len(daily)},
             "sector_performance": {**sector_summary, "file": "sector_performance_63d.csv"},
             "earnings": earnings,
+            "forecast_revision": forecast_revision,
         }
         (out_dir / "manifest.json").write_text(json.dumps(manifest, indent=2, default=str))
         logger.info(f"Wrote earnings price context for {ticker} to {out_dir}")
@@ -348,6 +408,10 @@ def _reaction_metrics(window: pd.DataFrame, sector_etf: Optional[str]) -> Dict:
         metrics.get("stock_day0_return_pct"), metrics.get("sector_day0_return_pct")
     )
     return metrics
+
+
+def _snapshot_date(column: str) -> str:
+    return (date.today() - timedelta(days=EPS_TREND_SNAPSHOT_AGES[column])).isoformat()
 
 
 def _normalize_timing(value) -> str:

@@ -6,8 +6,10 @@ import pytest
 
 from over_night_eraning_trade import (
     collect_trades,
+    earnings_results,
     exit_labels,
     find_context_dir,
+    forecast_revision_table,
     latest_release_levels,
     release_levels,
     simulate_trade,
@@ -39,6 +41,8 @@ def _event(timing="amc"):
         "timing": timing,
         "eps_estimate": 1.0,
         "eps_actual": 1.2,
+        "revenue_estimate": 200_000_000.0,
+        "revenue_actual": 190_000_000.0,
         "files": {
             "daily_window": f"earnings/{RELEASE}/daily_window.csv",
             "intraday_5min": f"earnings/{RELEASE}/intraday_5min.csv",
@@ -85,6 +89,11 @@ class TestSimulateTrade:
         assert trade["exit_prices"]["+15m"] == 95.0
         assert trade["returns_pct"]["+15m"] == pytest.approx(-5.0)
 
+    def test_after_hours_move_compares_entry_to_regular_close(self, context_dir):
+        trade, _ = simulate_trade(_event(), context_dir, 15, 10, 5)
+
+        assert trade["earnings"]["after_hours_move_pct"] == pytest.approx(0.0)
+
     def test_skips_before_open_releases(self, context_dir):
         trade, reason = simulate_trade(_event(timing="bmo"), context_dir, 15, 10, 5)
 
@@ -107,6 +116,57 @@ class TestSimulateTrade:
 
         assert trade is None
         assert "missing" in reason
+
+
+class TestEarningsResults:
+    def test_reports_eps_beat_as_positive_surprise(self):
+        results = earnings_results(_event())
+
+        assert results["eps_surprise_pct"] == pytest.approx(20.0)
+
+    def test_reports_revenue_miss_in_millions_as_negative_surprise(self):
+        results = earnings_results(_event())
+
+        assert (results["revenue_estimate_m"], results["revenue_actual_m"]) == (200.0, 190.0)
+        assert results["revenue_surprise_pct"] == pytest.approx(-5.0)
+
+    def test_smaller_loss_than_expected_is_a_beat(self):
+        results = earnings_results({**_event(), "eps_estimate": -0.2, "eps_actual": -0.1})
+
+        assert results["eps_surprise_pct"] == pytest.approx(50.0)
+
+    def test_missing_revenue_leaves_surprise_empty(self):
+        results = earnings_results({**_event(), "revenue_estimate": None, "revenue_actual": None})
+
+        assert results["revenue_surprise_pct"] is None
+        assert results["revenue_actual_m"] is None
+
+
+class TestForecastRevisionTable:
+    def test_labels_snapshot_columns_with_dates(self):
+        manifest = {"forecast_revision": {
+            "available": True, "source": "yfinance eps_trend",
+            "before_snapshot": "2026-08-19", "after_snapshot": "2026-09-18",
+            "periods": [{"period": "0q", "label": "next quarter", "before": 0.73, "after": 1.06,
+                         "current": 1.13, "change_pct": 55.2}],
+        }}
+
+        table, _ = forecast_revision_table(manifest)
+
+        assert table.loc["next quarter", "before (2026-08-19)"] == 0.73
+        assert table.loc["next quarter", "change_pct (before -> current)"] == 55.2
+
+    def test_returns_reason_when_unavailable(self):
+        table, reason = forecast_revision_table({"forecast_revision": {"available": False, "reason": "too old"}})
+
+        assert table is None
+        assert reason == "too old"
+
+    def test_asks_to_recollect_for_older_collections(self):
+        table, reason = forecast_revision_table({})
+
+        assert table is None
+        assert "--collect" in reason
 
 
 class TestReleaseLevels:

@@ -201,6 +201,10 @@ class FinancialDataFetcher:
         """Get recent earnings dates with EPS estimates/actuals/surprise."""
         return self._yfinance_source.get_earnings_dates(ticker, limit)
 
+    def get_eps_trend(self, ticker: str) -> Optional[pd.DataFrame]:
+        """Get consensus EPS estimates now and 7/30/60/90 days ago (yfinance)."""
+        return self._yfinance_source.get_eps_trend(ticker)
+
     def get_earnings_trend(self, ticker: str) -> Optional[pd.DataFrame]:
         """Get earnings trend which may include quarterly EPS and revenue estimates."""
         return self._yfinance_source.get_earnings_trend(ticker)

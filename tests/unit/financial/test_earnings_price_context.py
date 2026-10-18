@@ -1,6 +1,6 @@
 """Unit tests for EarningsPriceContextCollector."""
 import json
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 
 import pandas as pd
 import pytest
@@ -187,6 +187,40 @@ class TestGetSectorPerformance:
 
         assert list(closes.columns) == ["AAPL", "SPY"]
         assert summary["stock_vs_sector_pct"] is None
+
+
+def _eps_trend():
+    return pd.DataFrame(
+        {"current": [1.2, 4.0], "7daysAgo": [1.1, 3.9], "30daysAgo": [1.1, 3.8],
+         "60daysAgo": [1.0, 3.5], "90daysAgo": [0.9, 3.4]},
+        index=pd.Index(["0q", "0y"], name="period"),
+    )
+
+
+class TestGetForecastRevision:
+    def test_compares_last_snapshot_before_release_to_current(self, fetcher, tmp_path):
+        fetcher.get_eps_trend.return_value = _eps_trend()
+        collector = EarningsPriceContextCollector(fetcher=fetcher, output_dir=str(tmp_path), as_of=date.today())
+
+        revision = collector.get_forecast_revision("AAPL", EarningsEvent(date.today() - timedelta(days=45), "amc"))
+
+        next_quarter = revision["periods"][0]
+        assert (next_quarter["label"], next_quarter["before"], next_quarter["after"]) == ("next quarter", 1.0, 1.1)
+        assert next_quarter["change_pct"] == pytest.approx(20.0)
+        assert revision["before_snapshot"] == (date.today() - timedelta(days=60)).isoformat()
+
+    def test_unavailable_for_release_older_than_trend_history(self, fetcher, tmp_path):
+        collector = EarningsPriceContextCollector(fetcher=fetcher, output_dir=str(tmp_path), as_of=date.today())
+
+        revision = collector.get_forecast_revision("AAPL", EarningsEvent(date.today() - timedelta(days=95), "amc"))
+
+        assert revision["available"] is False
+        fetcher.get_eps_trend.assert_not_called()
+
+    def test_unavailable_for_past_as_of_collection(self, collector):
+        revision = collector.get_forecast_revision("AAPL", EarningsEvent(date(2026, 9, 1), "amc"))
+
+        assert revision["available"] is False
 
 
 class TestCollect:
