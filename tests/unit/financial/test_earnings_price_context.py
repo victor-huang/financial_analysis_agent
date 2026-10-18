@@ -209,6 +209,16 @@ class TestGetForecastRevision:
         assert next_quarter["change_pct"] == pytest.approx(20.0)
         assert revision["before_snapshot"] == (date.today() - timedelta(days=60)).isoformat()
 
+    def test_deeper_expected_loss_is_a_negative_change(self, fetcher, tmp_path):
+        trend = _eps_trend()
+        trend.loc["0q", ["60daysAgo", "current"]] = [-0.02, -0.025]
+        fetcher.get_eps_trend.return_value = trend
+        collector = EarningsPriceContextCollector(fetcher=fetcher, output_dir=str(tmp_path), as_of=date.today())
+
+        revision = collector.get_forecast_revision("AAPL", EarningsEvent(date.today() - timedelta(days=45), "amc"))
+
+        assert revision["periods"][0]["change_pct"] == pytest.approx(-25.0)
+
     def test_unavailable_for_release_older_than_trend_history(self, fetcher, tmp_path):
         collector = EarningsPriceContextCollector(fetcher=fetcher, output_dir=str(tmp_path), as_of=date.today())
 

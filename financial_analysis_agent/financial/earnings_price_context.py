@@ -258,7 +258,7 @@ class EarningsPriceContextCollector:
                     "before": before,
                     "after": after,
                     "current": current,
-                    "change_pct": _pct_change(before, current),
+                    "change_pct": _estimate_change_pct(before, current),
                 }
             )
         return {
@@ -408,6 +408,13 @@ def _reaction_metrics(window: pd.DataFrame, sector_etf: Optional[str]) -> Dict:
         metrics.get("stock_day0_return_pct"), metrics.get("sector_day0_return_pct")
     )
     return metrics
+
+
+def _estimate_change_pct(before: Optional[float], after: Optional[float]) -> Optional[float]:
+    """Change relative to the size of the old estimate, so a smaller expected loss is an increase."""
+    if before is None or after is None or before == 0:
+        return None
+    return _round((after - before) / abs(before) * 100)
 
 
 def _snapshot_date(column: str) -> str:
