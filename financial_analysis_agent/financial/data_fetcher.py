@@ -2,15 +2,24 @@
 
 import logging
 from typing import Dict, List, Optional, Union
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import pandas as pd
 
 from ..config import get_config
-from .sources import YFinanceSource, AlphaVantageSource, FinnhubSource, YahooQuerySource, FMPSource
+from .sources import (
+    YFinanceSource,
+    AlphaVantageSource,
+    FinnhubSource,
+    YahooQuerySource,
+    FMPSource,
+    AlpacaSource,
+)
 from .utils import merge_estimates_on_period_end
 
 logger = logging.getLogger(__name__)
+
+YFINANCE_INTRADAY_MAX_AGE_DAYS = 59
 
 
 class FinancialDataFetcher:
@@ -42,6 +51,12 @@ class FinancialDataFetcher:
         )
         self._fmp_source = None
 
+        # Alpaca setup
+        self.alpaca_key = self.config.get("apis.alpaca.api_key")
+        self.alpaca_secret = self.config.get("apis.alpaca.secret_key")
+        self.alpaca_feed = self.config.get("apis.alpaca.feed", "sip")
+        self._alpaca_source = None
+
         # YFinance and YahooQuery sources (no API key needed)
         self._yfinance_source = YFinanceSource()
         self._yahooquery_source = YahooQuerySource()
@@ -66,6 +81,15 @@ class FinancialDataFetcher:
         if not self._fmp_source and self.fmp_key:
             self._fmp_source = FMPSource(self.fmp_key)
         return self._fmp_source
+
+    @property
+    def alpaca_source(self) -> Optional[AlpacaSource]:
+        """Get or initialize the Alpaca source."""
+        if not self._alpaca_source and self.alpaca_key and self.alpaca_secret:
+            self._alpaca_source = AlpacaSource(
+                self.alpaca_key, self.alpaca_secret, self.alpaca_feed
+            )
+        return self._alpaca_source
 
     def get_stock_data(
         self,
@@ -103,6 +127,55 @@ class FinancialDataFetcher:
         except Exception as e:
             logger.error(f"Error fetching stock data for {ticker}: {str(e)}")
             raise
+
+    def get_intraday_bars(
+        self,
+        ticker: str,
+        start: datetime,
+        end: datetime,
+        interval_minutes: int = 5,
+    ) -> Optional[pd.DataFrame]:
+        """Get intraday bars including extended hours: prefer Alpaca, fall back to yfinance.
+
+        yfinance only serves intraday bars for roughly the last 60 days, so older
+        windows require Alpaca.
+
+        Args:
+            ticker: Stock ticker symbol
+            start: Start time (naive, US/Eastern)
+            end: End time (naive, US/Eastern)
+            interval_minutes: Bar size in minutes
+
+        Returns:
+            DataFrame indexed by naive US/Eastern bar start time, or None.
+        """
+        if self.alpaca_source:
+            df = self.alpaca_source.get_intraday_bars(ticker, start, end, interval_minutes)
+            if df is not None and not df.empty:
+                return df
+
+        if datetime.now() - start > timedelta(days=YFINANCE_INTRADAY_MAX_AGE_DAYS):
+            logger.warning(
+                f"No intraday bars for {ticker} from {start}: Alpaca unavailable and "
+                f"yfinance only covers the last {YFINANCE_INTRADAY_MAX_AGE_DAYS} days"
+            )
+            return None
+
+        try:
+            df = self._yfinance_source.get_stock_data(
+                ticker,
+                start_date=start,
+                end_date=end + timedelta(days=1),
+                interval=f"{interval_minutes}m",
+                prepost=True,
+            )
+        except Exception:
+            return None
+        if df is None or df.empty:
+            return None
+        df = df[(df.index >= start) & (df.index <= end)]
+        df.index.name = "timestamp"
+        return df
 
     def get_company_info(self, ticker: str) -> Dict:
         """Get company information."""

@@ -215,7 +215,8 @@ class FMPSource:
 
         Returns:
             DataFrame with columns: ['announceDate', 'fiscalDateEnding', 'period',
-                                     'epsEstimate', 'epsActual', 'revenueEstimate', 'revenueActual']
+                                     'epsEstimate', 'epsActual', 'revenueEstimate', 'revenueActual',
+                                     'releaseTime']
         """
         try:
             logger.info(f"Fetching historical earnings calendar from FMP for {ticker}")
@@ -260,13 +261,17 @@ class FMPSource:
             if 'revenue' in df.columns:
                 out['revenueActual'] = pd.to_numeric(df['revenue'], errors='coerce')
 
+            # Release timing: 'bmo' (before market open) or 'amc' (after market close)
+            if 'time' in df.columns:
+                out['releaseTime'] = df['time']
+
             # Sort by announcement date descending (most recent first)
             if 'announceDate' in out.columns:
                 out = out.dropna(subset=['announceDate']).sort_values('announceDate', ascending=False)
 
             # Keep only relevant columns
             keep = [c for c in ['announceDate', 'fiscalDateEnding', 'period', 'epsEstimate', 'epsActual',
-                                'revenueEstimate', 'revenueActual'] if c in out.columns]
+                                'revenueEstimate', 'revenueActual', 'releaseTime'] if c in out.columns]
 
             if not keep:
                 return None

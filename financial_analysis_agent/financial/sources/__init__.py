@@ -5,6 +5,7 @@ from .alpha_vantage_source import AlphaVantageSource
 from .finnhub_source import FinnhubSource
 from .yahooquery_source import YahooQuerySource
 from .fmp_source import FMPSource
+from .alpaca_source import AlpacaSource
 
 __all__ = [
     'YFinanceSource',
@@ -12,4 +13,5 @@ __all__ = [
     'FinnhubSource',
     'YahooQuerySource',
     'FMPSource',
+    'AlpacaSource',
 ]

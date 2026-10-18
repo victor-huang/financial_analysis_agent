@@ -21,6 +21,7 @@ class YFinanceSource:
         end_date: Union[str, datetime] = None,
         interval: str = "1d",
         period: Optional[str] = None,
+        prepost: bool = False,
     ) -> pd.DataFrame:
         """Get historical stock data for a given ticker.
 
@@ -30,6 +31,7 @@ class YFinanceSource:
             end_date: End date for data (default: today)
             interval: Data interval ('1d', '1wk', '1mo')
             period: Alternative to start/end date, e.g., '1y', '6mo'
+            prepost: Include pre-market and after-hours bars (intraday intervals only)
 
         Returns:
             DataFrame with historical stock data
@@ -49,10 +51,16 @@ class YFinanceSource:
         try:
             stock = yf.Ticker(ticker)
             if period:
-                df = stock.history(period=period, interval=interval, auto_adjust=True)
+                df = stock.history(
+                    period=period, interval=interval, auto_adjust=True, prepost=prepost
+                )
             else:
                 df = stock.history(
-                    start=start_date, end=end_date, interval=interval, auto_adjust=True
+                    start=start_date,
+                    end=end_date,
+                    interval=interval,
+                    auto_adjust=True,
+                    prepost=prepost,
                 )
 
             # Clean up the dataframe
