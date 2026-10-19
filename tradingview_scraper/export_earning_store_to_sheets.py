@@ -32,6 +32,8 @@ import os
 import sys
 from pathlib import Path
 
+import requests
+
 sys.path.insert(0, os.path.dirname(__file__))
 
 from quarterly_annual_collector import resolve_exchange, collect_for_tickers, _parse_tickers_arg
@@ -72,7 +74,11 @@ def gather_ticker_data(tickers, refresh, headless, confirm_overwrite):
         if not ticker:
             continue
 
-        exchange = resolve_exchange(ticker)
+        try:
+            exchange = resolve_exchange(ticker)
+        except requests.RequestException as e:
+            logger.warning(f"Exchange lookup failed for {ticker} ({e}), skipping")
+            continue
         if not exchange:
             logger.warning(f"Could not resolve exchange for {ticker}, skipping")
             continue
@@ -101,6 +107,7 @@ def build_headers_and_rows(client, spreadsheet_id, tab_name, ordered_keys, ticke
     Returns:
         (headers, rows, matched_existing_header: bool)
     """
+    client.get_or_create_sheet_tab(spreadsheet_id, tab_name)
     existing_header = get_existing_header(client, spreadsheet_id, tab_name)
 
     if existing_header:

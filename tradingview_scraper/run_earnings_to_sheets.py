@@ -63,24 +63,26 @@ def create_sheets_client() -> GoogleSheetsClient:
 
 def get_existing_header(client: GoogleSheetsClient, spreadsheet_id: str, tab_name: str):
     """
-    Get the existing header row from a sheet tab if it exists.
+    Get the existing header row from a sheet tab. The tab must already exist
+    (see GoogleSheetsClient.get_or_create_sheet_tab).
+
+    Read errors are deliberately not swallowed: callers treat a None header as
+    an empty tab and clear/rewrite it, so a transient failure (e.g. a 429
+    quota error) must not be mistaken for "no header".
 
     Returns:
-        List of header values, or None if tab is empty or doesn't exist
+        List of header values, or None if the tab's header row is empty
     """
-    try:
-        result = (
-            client.service.spreadsheets()
-            .values()
-            .get(spreadsheetId=spreadsheet_id, range=f"{tab_name}!A1:ZZ1")
-            .execute()
-        )
-        values = result.get("values", [])
-        if values and values[0]:
-            return values[0]
-        return None
-    except Exception:
-        return None
+    result = (
+        client.service.spreadsheets()
+        .values()
+        .get(spreadsheetId=spreadsheet_id, range=f"{tab_name}!A1:ZZ1")
+        .execute()
+    )
+    values = result.get("values", [])
+    if values and values[0]:
+        return values[0]
+    return None
 
 
 def get_existing_tickers_from_sheet(

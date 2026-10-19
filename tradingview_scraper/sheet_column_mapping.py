@@ -15,7 +15,9 @@ of denoting "revenue" or "estimate") needs a new regex case below.
 import re
 from typing import Callable, Dict, List, Optional, Tuple
 
-from earnings_data_store import FORECAST_OF
+from earnings_data_store import FORECAST_OF, label_sort_key
+
+LATEST_REPORTED_QUARTER_ALIASES = {"quarter"}
 
 # Logical field name -> the header text(s) it's known by (normalized: lowercased,
 # whitespace-collapsed). Add an alias here whenever a sheet labels one of these
@@ -79,6 +81,23 @@ def _period_resolver(
     return resolve
 
 
+def _latest_reported_quarter(data: Dict, ticker: str, exchange: str) -> Optional[str]:
+    """
+    The company's most recent reported fiscal quarter (e.g. "Q3"), taken from
+    either metric's reported quarterly bucket. Store labels are already fiscal
+    quarters, not calendar ones. Returns None when nothing has been reported so
+    the sheet's existing cell is left untouched rather than cleared.
+    """
+    reported_labels = [
+        label
+        for metric in ("eps", "revenue")
+        for label in data.get(metric, {}).get("quarterly", {})
+    ]
+    if not reported_labels:
+        return None
+    return max(reported_labels, key=label_sort_key).split(" ")[0]
+
+
 def parse_header_cell(header_text: str) -> Optional[Callable[[Dict, str, str], str]]:
     """
     Parse one Google Sheet header cell into a resolver function.
@@ -95,6 +114,9 @@ def parse_header_cell(header_text: str) -> Optional[Callable[[Dict, str, str], s
     for field_key, aliases in STATIC_FIELD_ALIASES.items():
         if normalized in aliases:
             return _static_resolver(field_key)
+
+    if normalized in LATEST_REPORTED_QUARTER_ALIASES:
+        return _latest_reported_quarter
 
     match = QUARTER_PATTERN.match(normalized)
     if match:
@@ -119,7 +141,7 @@ def build_rows_for_headers(
     headers: List[str],
     ordered_keys: List[Tuple[str, str]],
     ticker_data_by_key: Dict[Tuple[str, str], Dict],
-) -> Tuple[List[List[str]], List[str]]:
+) -> Tuple[List[List[Optional[str]]], List[str]]:
     """
     Build one data row per ticker matching an existing sheet's header row.
 
@@ -130,9 +152,13 @@ def build_rows_for_headers(
             earnings_data_store.load_existing_data
 
     Returns:
-        (rows, unrecognized_headers) — rows are string lists in header order;
-        unrecognized_headers lists any header text that couldn't be mapped
-        (left blank in every row)
+        (rows, unrecognized_headers) — rows are lists in header order, with
+        None in every unrecognized column; unrecognized_headers lists any
+        header text that couldn't be mapped
+
+    Unrecognized columns are None rather than "" because the Sheets API skips
+    null values but clears a cell written with "" — so manually maintained
+    columns (notes, flags) survive an in-place row update.
     """
     resolvers = []
     unrecognized = []
@@ -154,7 +180,7 @@ def build_rows_for_headers(
     for exchange, ticker in ordered_keys:
         data = ticker_data_by_key.get((exchange, ticker), {})
         rows.append(
-            [resolver(data, ticker, exchange) if resolver else "" for resolver in resolvers]
+            [resolver(data, ticker, exchange) if resolver else None for resolver in resolvers]
         )
 
     return rows, unrecognized

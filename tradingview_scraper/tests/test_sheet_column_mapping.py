@@ -75,6 +75,34 @@ class TestParseStaticFields:
         assert parse_header_cell("Some Random Column") is None
 
 
+class TestParseLatestReportedQuarter:
+    """Tests for the "Quarter" column: the latest reported fiscal quarter."""
+
+    def test_returns_latest_reported_fiscal_quarter(self):
+        resolver = parse_header_cell("Quarter")
+        data = {"eps": {"quarterly": {"Q1 2026": 1.1, "Q2 2026": 1.2}}}
+        assert resolver(data, "STLD", "NASDAQ") == "Q2"
+
+    def test_latest_quarter_crosses_fiscal_year_boundary(self):
+        resolver = parse_header_cell("Quarter")
+        data = {"eps": {"quarterly": {"Q4 2026": 1.1, "Q1 2027": 1.2}}}
+        assert resolver(data, "NVDA", "NASDAQ") == "Q1"
+
+    def test_ignores_forecast_only_quarters(self):
+        resolver = parse_header_cell("Quarter")
+        data = {"eps": {"quarterly": {"Q2 2026": 1.2}, "quarterly_forecast": {"Q3 2026": 1.3}}}
+        assert resolver(data, "STLD", "NASDAQ") == "Q2"
+
+    def test_uses_revenue_when_it_is_reported_later_than_eps(self):
+        resolver = parse_header_cell("Quarter")
+        data = {"eps": {"quarterly": {"Q2 2026": 1.2}}, "revenue": {"quarterly": {"Q3 2026": 4300.0}}}
+        assert resolver(data, "STLD", "NASDAQ") == "Q3"
+
+    def test_no_reported_quarter_leaves_cell_untouched(self):
+        resolver = parse_header_cell("Quarter")
+        assert resolver({"eps": {"quarterly": {}}}, "STLD", "NASDAQ") is None
+
+
 class TestTickerColumnAlwaysColumnA:
     """Column A is always the ticker column regardless of its header text."""
 
@@ -233,3 +261,13 @@ class TestBuildRowsForHeaders:
     def test_missing_ticker_data_yields_blank_cells(self):
         rows, _ = build_rows_for_headers(["ticker", "Q3 24 EPS"], [("NASDAQ", "STLD")], {})
         assert rows == [["STLD", ""]]
+
+    def test_unrecognized_column_is_none_so_sheets_skips_the_cell(self):
+        """Regression test: writing "" to an unrecognized column (e.g. a manual
+        Note column) cleared it on every in-place row update; the Sheets API
+        only leaves a cell untouched when its value is null."""
+        rows, unrecognized = build_rows_for_headers(["ticker", "Note"], [("NASDAQ", "STLD")], {})
+
+        assert rows == [["STLD", None]]
+        assert unrecognized == ["Note"]
+

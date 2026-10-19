@@ -344,9 +344,17 @@ def collect_for_tickers(
         all_merge_messages.extend(merge_log)
         all_missing_messages.extend(missing_log)
 
+    def _record_error(ticker, error):
+        print(f"\nTicker: {ticker}")
+        print(f"  ✗ Error: {error}")
+        all_missing_messages.append(f"{ticker}: error during scraping ({error})")
+
     if concurrency <= 1:
         for ticker in clean_tickers:
-            _record(*_process_ticker(ticker, headless, confirm_overwrite))
+            try:
+                _record(*_process_ticker(ticker, headless, confirm_overwrite))
+            except Exception as e:
+                _record_error(ticker, e)
     else:
         with ThreadPoolExecutor(max_workers=concurrency) as executor:
             futures = {
@@ -358,9 +366,7 @@ def collect_for_tickers(
                 try:
                     _record(*future.result())
                 except Exception as e:
-                    print(f"\nTicker: {ticker}")
-                    print(f"  ✗ Error: {e}")
-                    all_missing_messages.append(f"{ticker}: error during scraping ({e})")
+                    _record_error(ticker, e)
 
     if all_merge_messages:
         print(f"\n{'='*80}")
