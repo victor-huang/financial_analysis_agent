@@ -12,13 +12,17 @@ changes here — only a genuinely new naming convention (e.g. a different way
 of denoting "revenue" or "estimate") needs a new regex case below.
 """
 
+import logging
 import re
 from datetime import date
 from typing import Callable, Dict, List, Optional, Tuple
 
 from earnings_data_store import FORECAST_OF, label_sort_key
 
+logger = logging.getLogger(__name__)
+
 EARNINGS_SEASON_QUARTER_ALIASES = {"quarter"}
+STORE_QUARTER_LABEL_PATTERN = re.compile(r"^Q[1-4] \d{4}$")
 
 # Logical field name -> the header text(s) it's known by (normalized: lowercased,
 # whitespace-collapsed). Add an alias here whenever a sheet labels one of these
@@ -124,14 +128,21 @@ def _earnings_season_quarter(data: Dict, ticker: str, exchange: str) -> Optional
     not calendar ones. Returns None when there's no quarterly data at all so
     the sheet's existing cell is left untouched rather than cleared.
     """
-    scheduled_quarter = _quarter_from_release_schedule(data.get("release_schedule") or {})
+    schedule = data.get("release_schedule")
+    scheduled_quarter = _quarter_from_release_schedule(schedule or {})
     if scheduled_quarter:
         return scheduled_quarter
+    if schedule:
+        logger.warning(
+            f"{exchange}:{ticker}: unusable release schedule {schedule}, "
+            f"Quarter column will use stored data"
+        )
 
     reported_labels = [
         label
         for metric in ("eps", "revenue")
         for label in data.get(metric, {}).get("quarterly", {})
+        if STORE_QUARTER_LABEL_PATTERN.match(label)
     ]
     if reported_labels:
         _, latest_quarter = label_sort_key(max(reported_labels, key=label_sort_key))
@@ -141,6 +152,7 @@ def _earnings_season_quarter(data: Dict, ticker: str, exchange: str) -> Optional
         label
         for metric in ("eps", "revenue")
         for label in data.get(metric, {}).get("quarterly_forecast", {})
+        if STORE_QUARTER_LABEL_PATTERN.match(label)
     ]
     if forecast_labels:
         return min(forecast_labels, key=label_sort_key).split(" ")[0]

@@ -214,8 +214,9 @@ def upsert_rows(client, spreadsheet_id, tab_name, headers, ordered_keys, rows):
     heuristic has been observed to insert rows in the wrong place (e.g.
     pushing an existing header row down) when a sheet's structure doesn't
     match what it expects.
+
+    The tab must already exist (build_headers_and_rows ensures it).
     """
-    client.get_or_create_sheet_tab(spreadsheet_id, tab_name)
     existing_rows = get_ticker_row_numbers(client, spreadsheet_id, tab_name)
     last_col = _column_letter(len(headers))
 

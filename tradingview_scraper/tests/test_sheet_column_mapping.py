@@ -176,6 +176,29 @@ class TestParseEarningsSeasonQuarterFallback:
         data = {"eps": {"quarterly": {}, "quarterly_forecast": {"Q4 2026": 0.3, "Q3 2026": 0.2}}}
         assert resolver(data, "NEWCO", "NYSE") == "Q3"
 
+    def test_ignores_unparseable_reported_labels(self):
+        """Regression test: an unparseable label sorted as the latest quarter and yielded "Q1"."""
+        resolver = parse_header_cell("Quarter")
+        data = {"eps": {"quarterly": {"Q2 2026": 1.2, "Q3 '26": 1.3}}}
+        assert resolver(data, "STLD", "NASDAQ") == "Q3"
+
+    def test_unusable_schedule_logs_a_warning(self, caplog):
+        resolver = parse_header_cell("Quarter")
+        data = {**_schedule("2026-FY", date(2026, 7, 20), date(2026, 10, 19)), "eps": {"quarterly": {"Q2 2026": 1.2}}}
+
+        with caplog.at_level("WARNING", logger="sheet_column_mapping"):
+            resolver(data, "STLD", "NASDAQ")
+
+        assert "NASDAQ:STLD: unusable release schedule" in caplog.text
+
+    def test_missing_schedule_does_not_log_a_warning(self, caplog):
+        resolver = parse_header_cell("Quarter")
+
+        with caplog.at_level("WARNING", logger="sheet_column_mapping"):
+            resolver({"eps": {"quarterly": {"Q2 2026": 1.2}}}, "STLD", "NASDAQ")
+
+        assert caplog.text == ""
+
     def test_no_quarterly_data_leaves_cell_untouched(self):
         resolver = parse_header_cell("Quarter")
         assert resolver({"eps": {"quarterly": {}, "quarterly_forecast": {}}}, "STLD", "NASDAQ") is None

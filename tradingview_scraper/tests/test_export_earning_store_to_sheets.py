@@ -145,6 +145,13 @@ class TestUpsertRows:
         assert update_kwargs["range"] == "ERN DataBase!A2:B2"
         assert update_kwargs["body"] == {"values": [["AAPL", "Apple Inc"]]}
 
+    def test_does_not_look_up_the_tab_again(self):
+        client = _make_client([["STLD"]])
+
+        upsert_rows(client, "sheet-id", "ERN DataBase", ["ticker"], [("NASDAQ", "STLD")], [["STLD"]])
+
+        client.get_or_create_sheet_tab.assert_not_called()
+
     def test_new_ticker_rows_never_use_append_data_to_sheet(self):
         """Regression test: values().append()'s table-detection heuristic was
         observed to misplace an existing header row, so new rows must be
