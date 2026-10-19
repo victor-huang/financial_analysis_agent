@@ -1,9 +1,7 @@
 """Fundamental analysis module for evaluating company financials."""
 import logging
-from typing import Dict, List, Optional, Tuple, Union
+from typing import Dict, List, Optional, Union
 import pandas as pd
-import numpy as np
-from datetime import datetime
 
 logger = logging.getLogger(__name__)
 
@@ -57,10 +55,11 @@ class CompanyFundamentals:
             income = self._income_statement.iloc[0]
             balance = self._balance_sheet.iloc[0]
             cash_flow = self._cash_flow.iloc[0]
-            
+
             # Extract common line items with error handling
             total_revenue = income.get('Total Revenue', 0) or income.get('Revenue', 0) or 0
             gross_profit = income.get('Gross Profit', 0) or 0
+            ebitda = income.get('EBITDA', 0) or income.get('Normalized EBITDA', 0) or 0
             operating_income = income.get('Operating Income', 0) or income.get('Operating Income or Loss', 0) or 0
             net_income = income.get('Net Income', 0) or income.get('Net Income From Continuing Ops', 0) or 0
             total_assets = balance.get('Total Assets', 1) or 1  # Avoid division by zero
@@ -71,43 +70,80 @@ class CompanyFundamentals:
             inventory = balance.get('Inventory', 0) or 0
             operating_cash_flow = cash_flow.get('Total Cash From Operating Activities', 0) or 0
             capex = abs(cash_flow.get('Capital Expenditures', 0) or 0)
-            
+            free_cash_flow = operating_cash_flow - capex
+
             # Calculate ratios
             ratios = {
                 # Profitability Ratios
+                'gross_profit': gross_profit,
                 'gross_margin': self._safe_divide(gross_profit, total_revenue) * 100,
+                'ebitda': ebitda,
+                'ebitda_margin': self._safe_divide(ebitda, total_revenue) * 100,
+                'operating_income': operating_income,
                 'operating_margin': self._safe_divide(operating_income, total_revenue) * 100,
+                'net_income': net_income,
                 'net_margin': self._safe_divide(net_income, total_revenue) * 100,
                 'return_on_assets': self._safe_divide(net_income, total_assets) * 100,
                 'return_on_equity': self._safe_divide(net_income, total_equity) * 100,
-                
+
                 # Liquidity Ratios
                 'current_ratio': self._safe_divide(current_assets, current_liabilities),
                 'quick_ratio': self._safe_divide(current_assets - inventory, current_liabilities),
-                
+
                 # Leverage Ratios
                 'debt_to_equity': self._safe_divide(total_liabilities, total_equity),
                 'debt_to_assets': self._safe_divide(total_liabilities, total_assets),
-                
+
                 # Efficiency Ratios
                 'asset_turnover': self._safe_divide(total_revenue, total_assets),
-                
+
                 # Cash Flow Ratios
                 'operating_cash_flow_ratio': self._safe_divide(operating_cash_flow, total_liabilities),
-                'free_cash_flow': operating_cash_flow - capex,
-                'free_cash_flow_margin': self._safe_divide(operating_cash_flow - capex, total_revenue) * 100,
-                
+                'free_cash_flow': free_cash_flow,
+                'free_cash_flow_margin': self._safe_divide(free_cash_flow, total_revenue) * 100,
+
                 # Valuation Ratios (require market data)
                 'price_to_earnings': None,  # Will be filled by market data
                 'price_to_book': None,      # Will be filled by market data
                 'ev_to_ebitda': None        # Will be filled by market data
             }
-            
+
+            # FMP pre-computes margins and free cash flow directly, so prefer it over the
+            # yfinance-derived values above when a key is configured and data is available.
+            fmp_metrics = self._get_fmp_key_metrics(period, count=1)
+            if fmp_metrics is not None and not fmp_metrics.empty:
+                ratios.update(self._fmp_row_to_metrics(fmp_metrics.iloc[0]))
+
             return ratios
-            
+
         except Exception as e:
             logger.error(f"Error calculating financial ratios for {self.ticker}: {str(e)}")
             return {}
+
+    def _get_fmp_key_metrics(self, period: str, count: int) -> Optional[pd.DataFrame]:
+        """Fetch gross profit/EBITDA/operating income/net income/free cash flow (+margins) from FMP.
+
+        Returns None if no FMP API key is configured or the request fails/returns no data.
+        """
+        if not self.data_fetcher:
+            from .data_fetcher import FinancialDataFetcher
+            self.data_fetcher = FinancialDataFetcher()
+
+        try:
+            return self.data_fetcher.get_key_metrics_fmp(self.ticker, period=period, limit=count)
+        except Exception as e:
+            logger.warning(f"FMP key metrics fetch failed for {self.ticker}: {str(e)}")
+            return None
+
+    @staticmethod
+    def _fmp_row_to_metrics(row: pd.Series) -> Dict[str, float]:
+        """Extract the FMP key-metric fields present and non-null in a row."""
+        fields = [
+            'gross_profit', 'gross_margin', 'ebitda', 'ebitda_margin',
+            'operating_income', 'operating_margin', 'net_income', 'net_margin',
+            'free_cash_flow', 'free_cash_flow_margin',
+        ]
+        return {f: row[f] for f in fields if f in row.index and pd.notna(row[f])}
     
     def get_historical_ratios(self, years: int = 5) -> Dict[str, List[float]]:
         """Backward-compatible annual historical ratios over N years."""
@@ -128,34 +164,53 @@ class CompanyFundamentals:
         try:
             # Determine number of periods
             num = min(count, len(self._income_statement))
-            
+
+            # FMP pre-computes margins and free cash flow directly, so prefer it over the
+            # yfinance-derived values below when a key is configured and data is available.
+            # Both APIs return periods most-recent-first, so rows align positionally by i.
+            fmp_metrics = self._get_fmp_key_metrics(period, count=num)
+
             ratios = {
                 'period_end': [],
                 'label': [],
                 'revenue': [],
+                'gross_profit': [],
                 'gross_margin': [],
+                'ebitda': [],
+                'ebitda_margin': [],
+                'operating_income': [],
                 'operating_margin': [],
+                'net_income': [],
                 'net_margin': [],
+                'free_cash_flow': [],
+                'free_cash_flow_margin': [],
                 'return_on_equity': [],
                 'debt_to_equity': [],
                 'current_ratio': []
             }
-            
+
             for i in range(num):
                 # Get data for this period (most recent first)
                 income = self._income_statement.iloc[i]
                 balance = self._balance_sheet.iloc[i]
-                
+                cash_flow = self._cash_flow.iloc[i]
+
                 # Extract line items
                 total_revenue = income.get('Total Revenue', 0) or income.get('Revenue', 0) or 0
                 gross_profit = income.get('Gross Profit', 0) or 0
+                ebitda = income.get('EBITDA', 0) or income.get('Normalized EBITDA', 0) or 0
                 operating_income = income.get('Operating Income', 0) or income.get('Operating Income or Loss', 0) or 0
                 net_income = income.get('Net Income', 0) or income.get('Net Income From Continuing Ops', 0) or 0
                 total_equity = balance.get('Total Equity', 0) or balance.get("Total Stockholder Equity", 0) or 1
                 total_liabilities = balance.get('Total Liabilities', 0) or 0
                 current_assets = balance.get('Total Current Assets', 0) or 0
                 current_liabilities = balance.get('Total Current Liabilities', 0) or 1
-                
+                operating_cash_flow = cash_flow.get('Total Cash From Operating Activities', 0) or 0
+                capex = abs(cash_flow.get('Capital Expenditures', 0) or 0)
+                free_cash_flow = operating_cash_flow - capex
+
+                fmp_row = fmp_metrics.iloc[i] if fmp_metrics is not None and i < len(fmp_metrics) else None
+
                 # Calculate and store ratios
                 idx = self._income_statement.index[i]
                 # idx is a pandas Timestamp per yfinance. Build label by period type
@@ -167,18 +222,42 @@ class CompanyFundamentals:
                 else:
                     ratios['label'].append(str(period_end.year))
                 ratios['revenue'].append(total_revenue / 1e9)  # In billions
-                ratios['gross_margin'].append(self._safe_divide(gross_profit, total_revenue) * 100)
-                ratios['operating_margin'].append(self._safe_divide(operating_income, total_revenue) * 100)
-                ratios['net_margin'].append(self._safe_divide(net_income, total_revenue) * 100)
+                ratios['gross_profit'].append(self._fmp_or(fmp_row, 'gross_profit', gross_profit))
+                ratios['gross_margin'].append(
+                    self._fmp_or(fmp_row, 'gross_margin', self._safe_divide(gross_profit, total_revenue) * 100)
+                )
+                ratios['ebitda'].append(self._fmp_or(fmp_row, 'ebitda', ebitda))
+                ratios['ebitda_margin'].append(
+                    self._fmp_or(fmp_row, 'ebitda_margin', self._safe_divide(ebitda, total_revenue) * 100)
+                )
+                ratios['operating_income'].append(self._fmp_or(fmp_row, 'operating_income', operating_income))
+                ratios['operating_margin'].append(
+                    self._fmp_or(fmp_row, 'operating_margin', self._safe_divide(operating_income, total_revenue) * 100)
+                )
+                ratios['net_income'].append(self._fmp_or(fmp_row, 'net_income', net_income))
+                ratios['net_margin'].append(
+                    self._fmp_or(fmp_row, 'net_margin', self._safe_divide(net_income, total_revenue) * 100)
+                )
+                ratios['free_cash_flow'].append(self._fmp_or(fmp_row, 'free_cash_flow', free_cash_flow))
+                ratios['free_cash_flow_margin'].append(
+                    self._fmp_or(fmp_row, 'free_cash_flow_margin', self._safe_divide(free_cash_flow, total_revenue) * 100)
+                )
                 ratios['return_on_equity'].append(self._safe_divide(net_income, total_equity) * 100)
                 ratios['debt_to_equity'].append(self._safe_divide(total_liabilities, total_equity))
                 ratios['current_ratio'].append(self._safe_divide(current_assets, current_liabilities))
-            
+
             return ratios
-            
+
         except Exception as e:
             logger.error(f"Error calculating historical ratios for {self.ticker}: {str(e)}")
             return {}
+
+    @staticmethod
+    def _fmp_or(fmp_row: Optional[pd.Series], field: str, fallback: float) -> float:
+        """Return the FMP value for `field` when present and non-null, else the yfinance-derived fallback."""
+        if fmp_row is not None and field in fmp_row.index and pd.notna(fmp_row[field]):
+            return fmp_row[field]
+        return fallback
     
     def analyze_financial_health(self) -> Dict[str, Union[str, float]]:
         """Analyze the company's financial health and return a summary."""

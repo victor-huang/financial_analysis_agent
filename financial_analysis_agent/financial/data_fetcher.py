@@ -247,6 +247,14 @@ class FinancialDataFetcher:
             return None
         return self.fmp_source.get_historical_earnings_calendar(ticker, limit)
 
+    def get_key_metrics_fmp(
+        self, ticker: str, period: str = "annual", limit: int = 8
+    ) -> Optional[pd.DataFrame]:
+        """Fetch gross profit, EBITDA, operating income, net income, and free cash flow (with margins) from FMP."""
+        if not self.fmp_source:
+            return None
+        return self.fmp_source.get_key_metrics(ticker, period, limit)
+
     def get_analyst_estimates(self, ticker: str) -> Optional[pd.DataFrame]:
         """Unified analyst estimates: prefer FMP, then Finnhub, then YahooQuery, then yfinance history.
 
