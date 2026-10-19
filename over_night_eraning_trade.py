@@ -57,6 +57,8 @@ BAR_MINUTES = 5
 AUCTION_OPEN_LABEL = "open (auction)"
 FIRST_TRADE_OPEN_LABEL = "open"
 DAY0_CLOSE_LABEL = "day-0 close"
+PEAK_PREFIX = "peak "
+LOW_PREFIX = "low "
 MIN_ROOM_TO_RESISTANCE_PCT = 10.0
 MIN_AFTER_HOURS_VOLUME_VS_ADV = 0.3
 MAX_ABOVE_SMA200_PCT = 20.0
@@ -130,6 +132,21 @@ def last_trade_before(bars: pd.DataFrame, moment: datetime, since: datetime) -> 
     return float(window["close"].iloc[-1]) if not window.empty else None
 
 
+def high_low_since_open(
+    bars: pd.DataFrame, market_open: datetime, minutes: int
+) -> Tuple[Optional[float], Optional[float]]:
+    """Highest high and lowest low of the 5-min bars from the open up to `minutes` after it."""
+    window = bars[(bars.index >= market_open) & (bars.index < market_open + timedelta(minutes=minutes))]
+    if window.empty:
+        return None, None
+    return float(window["high"].max()), float(window["low"].min())
+
+
+def path_labels(labels: List[str]) -> List[str]:
+    """Exit labels that cover time after the open, for which a peak and a low exist."""
+    return [label for label in labels if label not in (AUCTION_OPEN_LABEL, FIRST_TRADE_OPEN_LABEL)]
+
+
 def minutes_since_last_bar(bars: pd.DataFrame, moment: datetime, since: datetime) -> Optional[float]:
     """Minutes from the end of the last 5-min bar that started in [since, moment) to `moment`.
 
@@ -201,6 +218,12 @@ def simulate_trade(
         )
     exits[DAY0_CLOSE_LABEL] = float(by_offset.at[0, "close"])
 
+    highs_lows = {
+        f"+{minutes}m": high_low_since_open(bars, market_open, minutes)
+        for minutes in range(interval, max_minutes + 1, interval)
+    }
+    highs_lows[DAY0_CLOSE_LABEL] = (float(by_offset.at[0, "high"]), float(by_offset.at[0, "low"]))
+
     after_hours = bars[(bars.index >= datetime.combine(entry_day, AFTER_HOURS_START)) & (bars.index < entry_time)]
     trade = {
         "release_date": event["release_date"],
@@ -212,12 +235,17 @@ def simulate_trade(
         "technical": technical_setup(by_offset, after_hours["volume"].sum(), entry_price),
         "exit_prices": exits,
         "returns_pct": {
-            label: (price / entry_price - 1) * 100 if price is not None else None
-            for label, price in exits.items()
+            label: _pct_from(entry_price, price) for label, price in exits.items()
         },
+        "peaks_pct": {label: _pct_from(entry_price, high) for label, (high, _) in highs_lows.items()},
+        "lows_pct": {label: _pct_from(entry_price, low) for label, (_, low) in highs_lows.items()},
     }
     trade["earnings"]["after_hours_move_pct"] = (entry_price / trade["regular_close"] - 1) * 100
     return trade, None
+
+
+def _pct_from(base: float, price: Optional[float]) -> Optional[float]:
+    return (price / base - 1) * 100 if price is not None else None
 
 
 def technical_setup(by_offset: pd.DataFrame, after_hours_volume: float, entry_price: float) -> Dict:
@@ -603,16 +631,21 @@ def collect_trades(
                     **trade["earnings"],
                     **trade["technical"],
                     **trade["returns_pct"],
+                    **{f"{PEAK_PREFIX}{label}": pct for label, pct in trade["peaks_pct"].items()},
+                    **{f"{LOW_PREFIX}{label}": pct for label, pct in trade["lows_pct"].items()},
                 }
             )
     return pd.DataFrame(rows), skipped
 
 
 def summarize(trades: pd.DataFrame, labels: List[str]) -> pd.DataFrame:
-    """Win probability and return statistics for each exit time."""
+    """Win probability and return statistics for each exit time, plus the average peak and low
+    reached between the open and that time (all % vs the entry price)."""
     summary = []
     for label in labels:
         returns = trades[label].dropna() if label in trades else pd.Series(dtype=float)
+        peaks = trades.get(f"{PEAK_PREFIX}{label}", pd.Series(dtype=float)).dropna()
+        lows = trades.get(f"{LOW_PREFIX}{label}", pd.Series(dtype=float)).dropna()
         summary.append(
             {
                 "exit": label,
@@ -622,6 +655,8 @@ def summarize(trades: pd.DataFrame, labels: List[str]) -> pd.DataFrame:
                 "median_return_pct": returns.median() if len(returns) else None,
                 "best_pct": returns.max() if len(returns) else None,
                 "worst_pct": returns.min() if len(returns) else None,
+                "avg_peak_pct": peaks.mean() if len(peaks) else None,
+                "avg_low_pct": lows.mean() if len(lows) else None,
             }
         )
     return pd.DataFrame(summary).set_index("exit")
@@ -703,6 +738,12 @@ def main():
             print(indexed[TECHNICAL_COLUMNS].round(2).to_string())
             print("\nPer trade returns:")
             print(indexed[["entry_time", "entry_staleness_min", "regular_close", "entry_price"] + labels].round(2).to_string())
+            after_open = path_labels(labels)
+            for title, prefix in (("Peak", PEAK_PREFIX), ("Low", LOW_PREFIX)):
+                print(f"\n{title} since the open (% vs entry; highest high / lowest low from 9:30 up to each sell time, "
+                      "full session for day-0 close):")
+                table = indexed[[f"{prefix}{label}" for label in after_open]]
+                print(table.set_axis(after_open, axis=1).round(2).to_string())
         print(f"\nSummary by exit time ({len(trades)} trades):")
         print(summarize(trades, labels).round(2).to_string())
         by_score = summarize_by_technical_score(trades, labels)

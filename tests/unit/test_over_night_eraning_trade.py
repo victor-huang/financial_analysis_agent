@@ -32,14 +32,17 @@ def _write_event_files(event_dir, intraday_rows, auction_open=110.0, with_sma=Tr
     event_dir.mkdir(parents=True)
     daily = pd.DataFrame(
         {"date": ["2026-09-01", "2026-09-02"], "day_offset": [-1, 0],
-         "open": [99.0, auction_open], "close": [100.0, 105.0], "volume": [1000, 1000]}
+         "open": [99.0, auction_open], "close": [100.0, 105.0], "volume": [1000, 1000],
+         "high": [101.0, 112.0], "low": [98.0, 94.0]}
     )
     if with_sma:
         daily["sma_20"] = [125.0, 124.0]
         daily["sma_50"] = [90.0, 91.0]
         daily["sma_200"] = [None, None]
     daily.to_csv(event_dir / "daily_window.csv", index=False)
-    pd.DataFrame(intraday_rows, columns=["timestamp", "open", "close"]).assign(volume=100).to_csv(
+    intraday = pd.DataFrame(intraday_rows, columns=["timestamp", "open", "close"])
+    intraday["high"], intraday["low"] = intraday[["open", "close"]].max(axis=1), intraday[["open", "close"]].min(axis=1)
+    intraday.assign(volume=100).to_csv(
         event_dir / "intraday_5min.csv", index=False
     )
 
@@ -99,6 +102,20 @@ class TestSimulateTrade:
 
         assert trade["exit_prices"]["+15m"] == 95.0
         assert trade["returns_pct"]["+15m"] == pytest.approx(-5.0)
+
+    def test_peak_and_low_cover_bars_from_open_to_each_sell_time(self, context_dir):
+        trade, _ = simulate_trade(_event(), context_dir, 15, 10, 5)
+
+        assert trade["peaks_pct"]["+5m"] == pytest.approx(8.0)
+        assert trade["lows_pct"]["+5m"] == pytest.approx(5.0)
+        assert trade["peaks_pct"]["+10m"] == pytest.approx(8.0)
+        assert trade["lows_pct"]["+10m"] == pytest.approx(-5.0)
+
+    def test_day0_peak_and_low_use_full_session_high_and_low(self, context_dir):
+        trade, _ = simulate_trade(_event(), context_dir, 15, 10, 5)
+
+        assert trade["peaks_pct"]["day-0 close"] == pytest.approx(12.0)
+        assert trade["lows_pct"]["day-0 close"] == pytest.approx(-6.0)
 
     def test_entry_staleness_is_zero_when_bar_ending_at_entry_traded(self, context_dir):
         trade, _ = simulate_trade(_event(), context_dir, 15, 10, 5)
@@ -533,6 +550,14 @@ class TestCollectTrades:
 
 
 class TestSummarize:
+    def test_reports_average_peak_and_low_per_exit(self):
+        trades = pd.DataFrame({"+5m": [1.0, -1.0], "peak +5m": [3.0, 1.0], "low +5m": [-1.0, -3.0]})
+
+        summary = summarize(trades, ["+5m"])
+
+        assert summary.loc["+5m", "avg_peak_pct"] == 2.0
+        assert summary.loc["+5m", "avg_low_pct"] == -2.0
+
     def test_computes_win_rate_and_average_per_exit(self):
         trades = pd.DataFrame({"open": [2.0, -1.0, 3.0, None]})
 
