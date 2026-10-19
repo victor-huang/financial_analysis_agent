@@ -38,6 +38,10 @@ python -m financial_analysis_agent.analyze AAPL --analysis-type financial --fina
 # Price data around earnings releases, written as files to <DATA_DIR>/earnings_price_context/<TICKER>/<as_of>/
 # (daily 90d, sector ETF vs SPY over 63 sessions, daily T-5..T+10 and 5-min T-2..T+2 for the last 4 releases)
 python -m financial_analysis_agent.financial.earnings_price_context AAPL MSFT --quarters 4
+
+# Overnight earnings trade backtest (buy after hours post-release, sell after next open) with technical score
+# and gap follow-through; research findings in docs/overnight_earnings_trade_findings.md
+python over_night_eraning_trade.py --tickers-file tickers.txt --collect --resume --workers 6 --summary-only --output out.csv
 ```
 
 ### Code Quality

@@ -4,7 +4,8 @@ For each ticker this produces:
 - Daily candles for the last 90 calendar days
 - Sector ETF / SPY performance over the last quarter (63 trading days)
 - For each of the last N reported earnings releases:
-    - Daily candles from T-5 to T+10 trading days (with 20/50/200-day SMAs and sector ETF and SPY closes)
+    - Daily candles from T-5 to T+10 trading days (with 20/50/200-day SMAs, 52-week high/low,
+      and sector ETF and SPY closes)
     - 5-minute candles, including extended hours, from T-2 to T+2 trading days
 - Consensus EPS forecast revision across the latest release (when it is within 90 days)
 
@@ -49,8 +50,9 @@ WINDOW_DAYS_BEFORE = 5
 WINDOW_DAYS_AFTER = 10
 INTRADAY_DAYS_AROUND = 2
 INTRADAY_INTERVAL_MINUTES = 5
-HISTORY_CALENDAR_DAYS = 730  # 4 quarters back plus 200 sessions for the longest moving average
+HISTORY_CALENDAR_DAYS = 800  # 4 quarters back plus a 52-week lookback
 MOVING_AVERAGE_WINDOWS = (20, 50, 200)
+FIFTY_TWO_WEEK_SESSIONS = 252
 EPS_TREND_SNAPSHOT_AGES = {"current": 0, "7daysAgo": 7, "30daysAgo": 30, "60daysAgo": 60, "90daysAgo": 90}
 EPS_TREND_PERIODS = {
     "0q": "next quarter",
@@ -106,12 +108,16 @@ class EarningsPriceContextCollector:
     ) -> Tuple[List[EarningsEvent], Optional[EarningsEvent]]:
         """Get the last reported earnings releases and the next upcoming one.
 
-        FMP is preferred because it provides release timing (bmo/amc); yfinance is the fallback.
+        FMP is preferred because it provides release timing (bmo/amc) and current dates; it is retried
+        once (requests can time out under load) before falling back to yfinance.
 
         Returns:
             Tuple of (past events, most recent first; upcoming event or None)
         """
-        events = self._events_from_fmp(ticker) or self._events_from_yfinance(ticker)
+        events = self._events_from_fmp(ticker) or self._events_from_fmp(ticker)
+        if not events:
+            logger.warning(f"No FMP earnings calendar for {ticker}; falling back to yfinance, whose dates may be stale")
+            events = self._events_from_yfinance(ticker)
         past = [
             e
             for e in events
@@ -163,7 +169,7 @@ class EarningsPriceContextCollector:
 
         returns = {s: _pct_change(closes[s].iloc[0], closes[s].iloc[-1]) for s in closes.columns}
         volatility = {
-            s: _round(closes[s].pct_change().std() * np.sqrt(TRADING_DAYS_PER_YEAR) * 100)
+            s: _round(closes[s].pct_change(fill_method=None).std() * np.sqrt(TRADING_DAYS_PER_YEAR) * 100)
             for s in closes.columns
         }
         summary = {
@@ -195,8 +201,11 @@ class EarningsPriceContextCollector:
         start = max(reaction_pos - WINDOW_DAYS_BEFORE, 0)
         window = daily.iloc[start : reaction_pos + WINDOW_DAYS_AFTER + 1].copy()
         window.insert(0, "day_offset", range(start - reaction_pos, start - reaction_pos + len(window)))
+        rows = slice(start, reaction_pos + WINDOW_DAYS_AFTER + 1)
         for days in MOVING_AVERAGE_WINDOWS:
-            window[f"sma_{days}"] = daily["close"].rolling(days).mean().iloc[start : reaction_pos + WINDOW_DAYS_AFTER + 1]
+            window[f"sma_{days}"] = daily["close"].rolling(days).mean().iloc[rows]
+        window["high_52w"] = daily["high"].rolling(FIFTY_TWO_WEEK_SESSIONS).max().iloc[rows]
+        window["low_52w"] = daily["low"].rolling(FIFTY_TWO_WEEK_SESSIONS).min().iloc[rows]
         for symbol in (sector_etf, BENCHMARK_ETF):
             if symbol and not self.get_daily_bars(symbol).empty:
                 window[f"{symbol}_close"] = self.get_daily_bars(symbol)["close"].reindex(window.index)

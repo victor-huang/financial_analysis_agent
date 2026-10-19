@@ -71,6 +71,15 @@ class TestResolveEarningsEvents:
 
         assert [e.timing for e in past] == ["amc", "bmo"]
 
+    def test_retries_fmp_once_before_falling_back(self, collector, fetcher):
+        calendar = fetcher.get_historical_earnings_calendar_fmp.return_value
+        fetcher.get_historical_earnings_calendar_fmp.side_effect = [None, calendar]
+
+        past, _ = collector.resolve_earnings_events("AAPL")
+
+        assert [e.release_date for e in past] == [date(2026, 7, 30), date(2026, 4, 29)]
+        fetcher.get_earnings_dates.assert_not_called()
+
     def test_falls_back_to_yfinance_without_fmp_data(self, collector, fetcher):
         fetcher.get_historical_earnings_calendar_fmp.return_value = None
         fetcher.get_earnings_dates.return_value = pd.DataFrame(
@@ -128,6 +137,16 @@ class TestGetEarningsWindow:
         reaction_close = window.loc["2026-07-31", "close"]
         assert window.loc["2026-07-31", "sma_20"] == pytest.approx(reaction_close - 9.5)
         assert window.loc["2026-07-31", "sma_200"] == pytest.approx(reaction_close - 99.5)
+
+    def test_includes_52_week_high_and_low(self, collector, fetcher):
+        bars = _daily_bars(100.0, step=1.0)
+        fetcher.get_stock_data.side_effect = lambda symbol, **kwargs: bars.copy()
+
+        window, _ = collector.get_earnings_window("AAPL", EarningsEvent(date(2026, 7, 30), "amc"), "XLK")
+
+        reaction_close = window.loc["2026-07-31", "close"]
+        assert window.loc["2026-07-31", "high_52w"] == pytest.approx(reaction_close + 1)
+        assert window.loc["2026-07-31", "low_52w"] == pytest.approx(reaction_close - 251 - 1)
 
     def test_includes_sector_and_market_closes(self, collector):
         window, _ = collector.get_earnings_window("AAPL", EarningsEvent(date(2026, 7, 30), "amc"), "XLK")

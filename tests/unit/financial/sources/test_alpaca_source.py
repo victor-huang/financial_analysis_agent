@@ -51,6 +51,13 @@ class TestGetIntradayBars:
         assert request.feed.value == "sip"
         assert request.timeframe.amount == 5
 
+    def test_requests_share_classes_with_alpaca_dot_notation(self, mocker):
+        source, client = _source_with_client(mocker, _alpaca_bars_df())
+
+        source.get_intraday_bars("BRK-B", datetime(2026, 7, 30, 4), datetime(2026, 7, 30, 20))
+
+        assert client.get_stock_bars.call_args.args[0].symbol_or_symbols == ["BRK.B"]
+
     def test_returns_none_when_no_bars(self, mocker):
         source, _ = _source_with_client(mocker, pd.DataFrame())
 

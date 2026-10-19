@@ -5,6 +5,10 @@ from datetime import datetime
 from typing import Optional
 
 import pandas as pd
+from alpaca.data.enums import Adjustment
+from alpaca.data.historical import StockHistoricalDataClient
+from alpaca.data.requests import StockBarsRequest
+from alpaca.data.timeframe import TimeFrame, TimeFrameUnit
 
 logger = logging.getLogger(__name__)
 
@@ -35,8 +39,6 @@ class AlpacaSource:
         """Lazily initialize and return the Alpaca historical data client."""
         if self._client is None:
             try:
-                from alpaca.data.historical import StockHistoricalDataClient
-
                 self._client = StockHistoricalDataClient(self.api_key, self.secret_key)
                 logger.info("Initialized Alpaca historical data client")
             except Exception as e:
@@ -68,12 +70,8 @@ class AlpacaSource:
             return None
 
         try:
-            from alpaca.data.enums import Adjustment
-            from alpaca.data.requests import StockBarsRequest
-            from alpaca.data.timeframe import TimeFrame, TimeFrameUnit
-
             request = StockBarsRequest(
-                symbol_or_symbols=[ticker],
+                symbol_or_symbols=[ticker.replace("-", ".")],  # share classes: Alpaca uses BRK.B, Yahoo BRK-B
                 timeframe=TimeFrame(amount=interval_minutes, unit=TimeFrameUnit.Minute),
                 start=_to_market_time(start),
                 end=_to_market_time(end),
