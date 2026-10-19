@@ -11,6 +11,7 @@ from over_night_eraning_trade import (
     collect_trades,
     earnings_results,
     exit_labels,
+    filter_trades,
     find_context_dir,
     forecast_revision_table,
     gap_follow_through,
@@ -23,6 +24,7 @@ from over_night_eraning_trade import (
     summarize_by_technical_score,
     summarize_follow_through,
     technical_setup,
+    to_short,
 )
 
 RELEASE = "2026-09-01"
@@ -140,6 +142,16 @@ class TestSimulateTrade:
         assert trade is None
         assert "215 min" in reason
 
+    def test_skips_when_intraday_and_daily_prices_are_on_different_scales(self, tmp_path):
+        path = tmp_path / "OPAD" / "2026-10-18"
+        scaled = [(t, o * 10, c * 10) if t.startswith(RELEASE) else (t, o, c) for t, o, c in INTRADAY]
+        _write_event_files(path / "earnings" / RELEASE, scaled)
+
+        trade, reason = simulate_trade(_event(), path, 15, 10, 5)
+
+        assert trade is None
+        assert "price scales differ" in reason
+
     def test_after_hours_move_compares_entry_to_regular_close(self, context_dir):
         trade, _ = simulate_trade(_event(), context_dir, 15, 10, 5)
 
@@ -203,10 +215,60 @@ class TestTechnicalSetup:
         assert setup["close_vs_sma200_pct"] == pytest.approx((100 / 70 - 1) * 100)
         assert setup["technical_score"] == 3
 
+    def test_measures_distance_below_52_week_high(self):
+        setup = technical_setup(_technical_window(high_52w=125.0), after_hours_volume=500, entry_price=110.0)
+
+        assert setup["pct_below_52w_high"] == pytest.approx(20.0)
+
     def test_score_is_none_without_moving_averages(self):
         window = _technical_window().drop(columns=["sma_20", "sma_50", "sma_200"])
 
         assert technical_setup(window, after_hours_volume=500, entry_price=110.0)["technical_score"] is None
+
+
+class TestFilterTrades:
+    def _trades(self):
+        return pd.DataFrame({
+            "ticker": ["A", "B", "C", "D"],
+            "pct_below_52w_high": [2.0, 3.0, 12.0, None],
+            "eps_surprise_pct": [-10.0, 5.0, -20.0, -15.0],
+            "revenue_surprise_pct": [-3.0, -4.0, -5.0, -6.0],
+        })
+
+    def test_keeps_releases_near_52_week_high_with_big_misses(self):
+        kept = filter_trades(self._trades(), max_pct_below_52w_high=5, max_eps_surprise=-5, max_revenue_surprise=-2)
+
+        assert kept["ticker"].tolist() == ["A"]
+
+    def test_drops_trades_missing_a_filtered_value(self):
+        kept = filter_trades(self._trades(), max_pct_below_52w_high=50)
+
+        assert kept["ticker"].tolist() == ["A", "B", "C"]
+
+    def test_keeps_after_hours_moves_within_bounds(self):
+        trades = self._trades().assign(after_hours_move_pct=[-6.0, 0.0, 2.0, 8.0])
+
+        assert filter_trades(trades, min_after_hours_move=0)["ticker"].tolist() == ["C", "D"]
+        assert filter_trades(trades, max_after_hours_move=-5)["ticker"].tolist() == ["A"]
+
+    def test_min_pct_below_52_week_high_excludes_stocks_near_the_high(self):
+        kept = filter_trades(self._trades(), min_pct_below_52w_high=5)
+
+        assert kept["ticker"].tolist() == ["C"]
+
+    def test_keeps_everything_without_filters(self):
+        assert len(filter_trades(self._trades())) == 4
+
+
+class TestToShort:
+    def test_negates_returns_and_swaps_peak_and_low(self):
+        trades = pd.DataFrame({"+5m": [-4.0], "peak +5m": [1.0], "low +5m": [-6.0]})
+
+        short = to_short(trades, ["+5m"])
+
+        assert short.loc[0, "+5m"] == 4.0
+        assert short.loc[0, "peak +5m"] == 6.0
+        assert short.loc[0, "low +5m"] == -1.0
 
 
 class TestSummarizeByTechnicalScore:
@@ -434,6 +496,14 @@ class TestGapFollowThrough:
         event = _write_gap_event(path, "2026-09-03", 100.0, 110.0, [r for r in GAP_SESSION if r[0] >= "09:55"])
 
         assert gap_follow_through(reaction_day_profile(event, path, 30), [], 10, 30) is None
+
+
+    def test_profile_is_none_when_prices_are_on_different_scales(self, tmp_path):
+        path = tmp_path / "PL" / "2026-10-18"
+        scaled = [(t, o * 10, h * 10, l * 10, c * 10, v, vw * 10) for t, o, h, l, c, v, vw in GAP_SESSION]
+        event = _write_gap_event(path, "2026-09-03", 100.0, 110.0, scaled)
+
+        assert reaction_day_profile(event, path, 30) is None
 
 
 class TestCollectFollowThrough:

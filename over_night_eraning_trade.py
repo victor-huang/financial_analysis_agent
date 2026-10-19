@@ -9,6 +9,11 @@ Prices are the last trade before each time, taken from the collector's 5-min bar
 trade; "open (auction)" is the official opening price from the daily candle; "day-0 close" holds
 until the reaction session's regular close.
 
+--short runs the reverse trade: short at the entry and buy back at each exit, so returns are
+the stock's fall; for a short, "peak" is the most favorable (lowest) price and "low" the worst
+(highest). --max-pct-below-52w-high, --max-eps-surprise and --max-revenue-surprise keep only
+releases near the 52-week high or missing estimates by at least the given %.
+
 Each trade gets a technical score (0-5) from conditions known at entry: close above the 20-day SMA,
 positive 5-day run-up, more than 10% room to the next resistance (20/50/200-day SMA or 52-week
 high above the entry price), after-hours volume at least 0.3x the average daily volume, and close
@@ -54,6 +59,7 @@ AFTER_HOURS_START = time(16, 0)
 AFTER_HOURS_END = time(20, 0)
 MARKET_OPEN = time(9, 30)
 BAR_MINUTES = 5
+MAX_INTRADAY_DAILY_CLOSE_GAP_PCT = 15.0
 AUCTION_OPEN_LABEL = "open (auction)"
 FIRST_TRADE_OPEN_LABEL = "open"
 DAY0_CLOSE_LABEL = "day-0 close"
@@ -68,6 +74,7 @@ TECHNICAL_COLUMNS = [
     "room_to_resistance_pct",
     "ah_vol_vs_adv",
     "close_vs_sma200_pct",
+    "pct_below_52w_high",
     "technical_score",
 ]
 TECHNICAL_SCORE_BUCKETS = [("0-2", 0, 2), ("3", 3, 3), ("4-5", 4, 5)]
@@ -147,6 +154,25 @@ def path_labels(labels: List[str]) -> List[str]:
     return [label for label in labels if label not in (AUCTION_OPEN_LABEL, FIRST_TRADE_OPEN_LABEL)]
 
 
+def price_scale_mismatch(bars: pd.DataFrame, day: date, daily_close: float) -> Optional[str]:
+    """Reason string when the intraday bars and the daily candle disagree on the day's close.
+
+    Compares the last regular-session 5-min close with the daily close; a large gap means the two
+    sources are on different price scales (e.g. a reverse split adjusted in only one of them).
+    """
+    session = bars[
+        (bars.index >= datetime.combine(day, MARKET_OPEN)) & (bars.index < datetime.combine(day, AFTER_HOURS_START))
+    ]
+    if session.empty or not daily_close:
+        return None
+    intraday_close = float(session["close"].iloc[-1])
+    gap_pct = abs(intraday_close / daily_close - 1) * 100
+    if gap_pct <= MAX_INTRADAY_DAILY_CLOSE_GAP_PCT:
+        return None
+    return (f"intraday close {intraday_close:g} vs daily close {daily_close:g} on {day} "
+            "(price scales differ, likely a split adjusted in only one source)")
+
+
 def minutes_since_last_bar(bars: pd.DataFrame, moment: datetime, since: datetime) -> Optional[float]:
     """Minutes from the end of the last 5-min bar that started in [since, moment) to `moment`.
 
@@ -195,6 +221,9 @@ def simulate_trade(
     exit_day = by_offset.at[0, "date"].date()
 
     bars = pd.read_csv(context_dir / files["intraday_5min"], parse_dates=["timestamp"], index_col="timestamp")
+    mismatch = price_scale_mismatch(bars, entry_day, float(by_offset.at[-1, "close"]))
+    if mismatch:
+        return None, mismatch
 
     entry_time = datetime.combine(entry_day, AFTER_HOURS_END) - timedelta(minutes=entry_minutes_before_close)
     after_hours_start = datetime.combine(entry_day, AFTER_HOURS_START)
@@ -269,6 +298,7 @@ def technical_setup(by_offset: pd.DataFrame, after_hours_volume: float, entry_pr
         "room_to_resistance_pct": (min(resistances) / entry_price - 1) * 100 if resistances else None,
         "ah_vol_vs_adv": after_hours_volume / average_daily_volume if average_daily_volume else None,
         "close_vs_sma200_pct": (close / report_day["sma_200"] - 1) * 100 if _present(report_day["sma_200"]) else None,
+        "pct_below_52w_high": (1 - close / report_day["high_52w"]) * 100 if _present(report_day.get("high_52w")) else None,
     }
     conditions = [
         _present(setup["close_vs_sma20_pct"]) and setup["close_vs_sma20_pct"] > 0,
@@ -356,6 +386,9 @@ def release_levels(event: Dict, context_dir: Path) -> Tuple[Optional[pd.DataFram
         return None, "no moving averages in collected data; re-run with --collect"
 
     bars = pd.read_csv(context_dir / files["intraday_5min"], parse_dates=["timestamp"], index_col="timestamp")
+    mismatch = price_scale_mismatch(bars, report_day.date(), float(daily.at[report_day, "close"]))
+    if mismatch:
+        return None, mismatch
     extended_close = last_trade_before(
         bars,
         datetime.combine(report_day.date(), AFTER_HOURS_END),
@@ -420,7 +453,7 @@ def reaction_day_profile(event: Dict, context_dir: Path, check_minutes: int) -> 
     market_open = datetime.combine(reaction_day, MARKET_OPEN)
     bars = pd.read_csv(context_dir / files["intraday_5min"], parse_dates=["timestamp"], index_col="timestamp")
     session = bars[(bars.index >= market_open) & (bars.index < datetime.combine(reaction_day, AFTER_HOURS_START))]
-    if session.empty:
+    if session.empty or price_scale_mismatch(bars, reaction_day, float(by_offset.at[0, "close"])):
         return None
     return {
         "event": event,
@@ -592,6 +625,50 @@ def _present(value) -> bool:
     return value is not None and not pd.isna(value)
 
 
+def filter_trades(
+    trades: pd.DataFrame,
+    max_pct_below_52w_high: Optional[float] = None,
+    max_eps_surprise: Optional[float] = None,
+    max_revenue_surprise: Optional[float] = None,
+    min_after_hours_move: Optional[float] = None,
+    max_after_hours_move: Optional[float] = None,
+    min_pct_below_52w_high: Optional[float] = None,
+) -> pd.DataFrame:
+    """Keep trades whose report-day close is within `max_pct_below_52w_high` % of the 52-week high,
+    whose EPS / revenue surprise is at most the given % (e.g. -5 keeps misses of 5% or more), and
+    whose after-hours move (entry vs regular close) is within the given bounds.
+    `min_pct_below_52w_high` keeps only closes more than that % below the 52-week high.
+    Trades missing a filtered value are dropped."""
+    keep = pd.Series(True, index=trades.index)
+    for column, limit in (
+        ("pct_below_52w_high", max_pct_below_52w_high),
+        ("eps_surprise_pct", max_eps_surprise),
+        ("revenue_surprise_pct", max_revenue_surprise),
+        ("after_hours_move_pct", max_after_hours_move),
+    ):
+        if limit is not None:
+            keep &= trades[column].notna() & (trades[column] <= limit)
+    for column, limit in (
+        ("after_hours_move_pct", min_after_hours_move),
+        ("pct_below_52w_high", min_pct_below_52w_high),
+    ):
+        if limit is not None:
+            keep &= trades[column].notna() & (trades[column] > limit)
+    return trades[keep]
+
+
+def to_short(trades: pd.DataFrame, labels: List[str]) -> pd.DataFrame:
+    """Convert long returns to short returns: the stock's fall is the gain. The short's peak (best)
+    is the stock's lowest low and its low (worst) is the stock's highest high."""
+    short = trades.copy()
+    for label in labels:
+        short[label] = -trades[label]
+        peak, low = f"{PEAK_PREFIX}{label}", f"{LOW_PREFIX}{label}"
+        if peak in trades:
+            short[peak], short[low] = -trades[low], -trades[peak]
+    return short
+
+
 def collect_trades(
     tickers: List[str],
     data_dir: Path,
@@ -687,6 +764,20 @@ def main():
                         help="Buy this many minutes before the 20:00 ET after-hours close; multiple of 5 (default: 15)")
     parser.add_argument("--max-entry-staleness", type=float,
                         help="Skip trades whose last after-hours trade ended more than this many minutes before the entry")
+    parser.add_argument("--short", action="store_true",
+                        help="Reverse trade: short at the entry and buy back at each exit")
+    parser.add_argument("--max-pct-below-52w-high", type=float,
+                        help="Only releases whose report-day close is within this %% of the 52-week high")
+    parser.add_argument("--min-pct-below-52w-high", type=float,
+                        help="Only releases whose report-day close is more than this %% below the 52-week high")
+    parser.add_argument("--max-eps-surprise", type=float,
+                        help="Only releases with EPS surprise at most this %% (e.g. -5 for a miss of 5%% or more)")
+    parser.add_argument("--max-revenue-surprise", type=float,
+                        help="Only releases with revenue surprise at most this %% (e.g. -2 for a miss of 2%% or more)")
+    parser.add_argument("--min-after-hours-move", type=float,
+                        help="Only trades whose after-hours move (entry vs regular close) is above this %%")
+    parser.add_argument("--max-after-hours-move", type=float,
+                        help="Only trades whose after-hours move (entry vs regular close) is at most this %%")
     parser.add_argument("--max-minutes", type=int, default=40, help="Last exit, minutes after the open (default: 40)")
     parser.add_argument("--interval", type=int, default=5, help="Minutes between exits; multiple of 5 (default: 5)")
     parser.add_argument("--min-gap", type=float, default=2.0,
@@ -720,14 +811,26 @@ def main():
         tickers, data_dir, args.as_of, args.entry_minutes_before_close, args.max_minutes, args.interval,
         args.max_entry_staleness,
     )
+    collected = len(trades)
+    if not trades.empty:
+        trades = filter_trades(
+            trades, args.max_pct_below_52w_high, args.max_eps_surprise, args.max_revenue_surprise,
+            args.min_after_hours_move, args.max_after_hours_move, args.min_pct_below_52w_high,
+        )
+        if args.short:
+            trades = to_short(trades, labels)
 
     pd.set_option("display.width", 250)
     pd.set_option("display.max_columns", 50)
     if trades.empty:
-        print("No trades to evaluate.")
+        print(f"No trades to evaluate ({collected} collected, none pass the filters)." if collected else "No trades to evaluate.")
     else:
-        print(f"Overnight earnings trade: buy {args.entry_minutes_before_close} min before after-hours close, "
-              f"sell after next open (returns in %)\n")
+        action = ("short", "buy back") if args.short else ("buy", "sell")
+        print(f"Overnight earnings trade: {action[0]} {args.entry_minutes_before_close} min before after-hours close, "
+              f"{action[1]} after next open (returns in %)")
+        if len(trades) < collected:
+            print(f"{len(trades)} of {collected} trades pass the filters")
+        print()
         if not args.summary_only:
             indexed = trades.set_index(["ticker", "release_date"])
             print("Earnings results (surprise % > 0 is a beat; after_hours_move_pct is entry price vs regular close):")
