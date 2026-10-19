@@ -4,8 +4,59 @@ Helper functions for fetching earnings data from TradingView API.
 """
 
 import requests
-from datetime import datetime, time
-from typing import Dict, List
+from datetime import date, datetime, time, timezone
+from typing import Dict, List, Optional, Tuple
+
+SCANNER_URL = "https://scanner.tradingview.com/america/scan"
+SCANNER_HEADERS = {
+    "origin": "https://www.tradingview.com",
+    "referer": "https://www.tradingview.com/",
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+}
+RELEASE_SCHEDULE_COLUMNS = [
+    "fiscal_period_current",
+    "earnings_release_date",
+    "earnings_release_next_date",
+]
+
+
+def _timestamp_to_date(timestamp: Optional[float]) -> Optional[date]:
+    if timestamp is None:
+        return None
+    return datetime.fromtimestamp(timestamp, tz=timezone.utc).date()
+
+
+def fetch_release_schedules(keys: List[Tuple[str, str]]) -> Dict[Tuple[str, str], Dict]:
+    """
+    Fetch each ticker's latest reported fiscal quarter and its last/next
+    earnings release dates from TradingView's scanner API, in one request.
+
+    Args:
+        keys: (exchange, ticker) tuples, using TradingView's exchange prefixes
+
+    Returns:
+        {(exchange, ticker): {"fiscal_period_current": "2026-Q2" or None,
+                              "last_release_date": date or None,
+                              "next_release_date": date or None}}
+        Tickers the scanner doesn't return are omitted.
+    """
+    payload = {
+        "symbols": {"tickers": [f"{exchange}:{ticker}" for exchange, ticker in keys]},
+        "columns": RELEASE_SCHEDULE_COLUMNS,
+    }
+    response = requests.post(SCANNER_URL, headers=SCANNER_HEADERS, json=payload, timeout=15)
+    response.raise_for_status()
+
+    schedules = {}
+    for item in response.json().get("data", []):
+        exchange, ticker = item["s"].split(":", 1)
+        fiscal_period_current, last_release, next_release = item["d"]
+        schedules[(exchange, ticker)] = {
+            "fiscal_period_current": fiscal_period_current,
+            "last_release_date": _timestamp_to_date(last_release),
+            "next_release_date": _timestamp_to_date(next_release),
+        }
+    return schedules
 
 
 def fetch_earnings_from_api(start_timestamp: int, end_timestamp: int) -> Dict:

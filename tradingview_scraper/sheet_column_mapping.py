@@ -13,11 +13,12 @@ of denoting "revenue" or "estimate") needs a new regex case below.
 """
 
 import re
+from datetime import date
 from typing import Callable, Dict, List, Optional, Tuple
 
 from earnings_data_store import FORECAST_OF, label_sort_key
 
-LATEST_REPORTED_QUARTER_ALIASES = {"quarter"}
+EARNINGS_SEASON_QUARTER_ALIASES = {"quarter"}
 
 # Logical field name -> the header text(s) it's known by (normalized: lowercased,
 # whitespace-collapsed). Add an alias here whenever a sheet labels one of these
@@ -81,21 +82,69 @@ def _period_resolver(
     return resolve
 
 
-def _latest_reported_quarter(data: Dict, ticker: str, exchange: str) -> Optional[str]:
+def _today() -> date:
+    return date.today()
+
+
+def _quarter_from_release_schedule(schedule: Dict) -> Optional[str]:
     """
-    The company's most recent reported fiscal quarter (e.g. "Q3"), taken from
-    either metric's reported quarterly bucket. Store labels are already fiscal
-    quarters, not calendar ones. Returns None when nothing has been reported so
+    The fiscal quarter of whichever release is nearer today, the last or the
+    next one. This keeps the quarter stable across release day, whether or not
+    the company has reported yet: before the release it's the quarter after
+    fiscal_period_current, and once reported fiscal_period_current itself
+    becomes that quarter while the last release is 0 days away.
+    """
+    fiscal_period = schedule.get("fiscal_period_current")
+    match = re.match(r"^\d{4}-Q(?P<quarter>[1-4])$", fiscal_period or "")
+    last_release = schedule.get("last_release_date")
+    next_release = schedule.get("next_release_date")
+    if not match or not (last_release or next_release):
+        return None
+
+    latest_quarter = int(match.group("quarter"))
+    today = _today()
+    if next_release is None:
+        return f"Q{latest_quarter}"
+    if last_release is None:
+        return f"Q{latest_quarter % 4 + 1}"
+    if (today - last_release).days <= (next_release - today).days:
+        return f"Q{latest_quarter}"
+    return f"Q{latest_quarter % 4 + 1}"
+
+
+def _earnings_season_quarter(data: Dict, ticker: str, exchange: str) -> Optional[str]:
+    """
+    The fiscal quarter of the earnings release nearest today (e.g. "Q3"), from
+    the release schedule attached as data["release_schedule"] (see
+    earnings_api_helper.fetch_release_schedules).
+
+    Without a usable schedule, falls back to the store: the quarter after the
+    latest reported one in either metric, or the earliest forecast quarter if
+    nothing has been reported yet. Store labels are already fiscal quarters,
+    not calendar ones. Returns None when there's no quarterly data at all so
     the sheet's existing cell is left untouched rather than cleared.
     """
+    scheduled_quarter = _quarter_from_release_schedule(data.get("release_schedule") or {})
+    if scheduled_quarter:
+        return scheduled_quarter
+
     reported_labels = [
         label
         for metric in ("eps", "revenue")
         for label in data.get(metric, {}).get("quarterly", {})
     ]
-    if not reported_labels:
-        return None
-    return max(reported_labels, key=label_sort_key).split(" ")[0]
+    if reported_labels:
+        _, latest_quarter = label_sort_key(max(reported_labels, key=label_sort_key))
+        return f"Q{latest_quarter % 4 + 1}"
+
+    forecast_labels = [
+        label
+        for metric in ("eps", "revenue")
+        for label in data.get(metric, {}).get("quarterly_forecast", {})
+    ]
+    if forecast_labels:
+        return min(forecast_labels, key=label_sort_key).split(" ")[0]
+    return None
 
 
 def parse_header_cell(header_text: str) -> Optional[Callable[[Dict, str, str], str]]:
@@ -115,8 +164,8 @@ def parse_header_cell(header_text: str) -> Optional[Callable[[Dict, str, str], s
         if normalized in aliases:
             return _static_resolver(field_key)
 
-    if normalized in LATEST_REPORTED_QUARTER_ALIASES:
-        return _latest_reported_quarter
+    if normalized in EARNINGS_SEASON_QUARTER_ALIASES:
+        return _earnings_season_quarter
 
     match = QUARTER_PATTERN.match(normalized)
     if match:

@@ -38,6 +38,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 from quarterly_annual_collector import resolve_exchange, collect_for_tickers, _parse_tickers_arg
 from earnings_data_store import load_existing_data, prompt_confirm_overwrite
+from earnings_api_helper import fetch_release_schedules
 from earning_store_export import build_export_rows
 from sheet_column_mapping import build_rows_for_headers
 from run_earnings_to_sheets import upload_csv_to_sheets, get_existing_header, create_sheets_client
@@ -95,7 +96,30 @@ def gather_ticker_data(tickers, refresh, headless, confirm_overwrite):
         ordered_keys.append(key)
         ticker_data[key] = data
 
+    attach_release_schedules(ordered_keys, ticker_data)
     return ordered_keys, ticker_data
+
+
+def attach_release_schedules(ordered_keys, ticker_data):
+    """
+    Attach each ticker's live release schedule as data["release_schedule"]
+    (used for the sheet's "Quarter" column). Fetched at export time rather
+    than stored, since on release day it changes within hours. On failure,
+    tickers are left without one and the column falls back to the store.
+    """
+    if not ordered_keys:
+        return
+    try:
+        schedules = fetch_release_schedules(ordered_keys)
+    except requests.RequestException as e:
+        logger.warning(f"Could not fetch earnings release schedules ({e}), Quarter column will use stored data")
+        return
+
+    for key in ordered_keys:
+        if key in schedules:
+            ticker_data[key]["release_schedule"] = schedules[key]
+        else:
+            logger.warning(f"No release schedule for {key[0]}:{key[1]}, Quarter column will use stored data")
 
 
 def build_headers_and_rows(client, spreadsheet_id, tab_name, ordered_keys, ticker_data):

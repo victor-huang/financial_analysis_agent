@@ -5,6 +5,8 @@ Critical path tests for sheet_column_mapping.py header parsing.
 
 import sys
 import os
+from datetime import date
+from unittest.mock import patch
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
@@ -75,32 +77,108 @@ class TestParseStaticFields:
         assert parse_header_cell("Some Random Column") is None
 
 
-class TestParseLatestReportedQuarter:
-    """Tests for the "Quarter" column: the latest reported fiscal quarter."""
+def _schedule(fiscal_period_current, last_release_date, next_release_date):
+    return {
+        "release_schedule": {
+            "fiscal_period_current": fiscal_period_current,
+            "last_release_date": last_release_date,
+            "next_release_date": next_release_date,
+        }
+    }
 
-    def test_returns_latest_reported_fiscal_quarter(self):
+
+class TestParseEarningsSeasonQuarterFromSchedule:
+    """Tests for the "Quarter" column: the fiscal quarter of the release nearest today."""
+
+    @patch("sheet_column_mapping._today", return_value=date(2026, 10, 19))
+    def test_release_day_before_reporting_is_the_quarter_about_to_release(self, _):
+        resolver = parse_header_cell("Quarter")
+        data = _schedule("2026-Q2", date(2026, 7, 20), date(2026, 10, 19))
+        assert resolver(data, "STLD", "NASDAQ") == "Q3"
+
+    @patch("sheet_column_mapping._today", return_value=date(2026, 10, 19))
+    def test_release_day_after_reporting_is_the_quarter_just_released(self, _):
+        resolver = parse_header_cell("Quarter")
+        data = _schedule("2026-Q3", date(2026, 10, 19), date(2027, 1, 20))
+        assert resolver(data, "STLD", "NASDAQ") == "Q3"
+
+    @patch("sheet_column_mapping._today", return_value=date(2026, 11, 15))
+    def test_stays_on_just_released_quarter_while_last_release_is_nearer(self, _):
+        resolver = parse_header_cell("Quarter")
+        data = _schedule("2026-Q3", date(2026, 10, 19), date(2027, 1, 20))
+        assert resolver(data, "STLD", "NASDAQ") == "Q3"
+
+    @patch("sheet_column_mapping._today", return_value=date(2027, 1, 1))
+    def test_moves_to_next_quarter_once_next_release_is_nearer(self, _):
+        resolver = parse_header_cell("Quarter")
+        data = _schedule("2026-Q3", date(2026, 10, 19), date(2027, 1, 20))
+        assert resolver(data, "STLD", "NASDAQ") == "Q4"
+
+    @patch("sheet_column_mapping._today", return_value=date(2027, 1, 20))
+    def test_wraps_from_fiscal_q4_to_q1(self, _):
+        resolver = parse_header_cell("Quarter")
+        data = _schedule("2026-Q4", date(2026, 10, 19), date(2027, 1, 20))
+        assert resolver(data, "STLD", "NASDAQ") == "Q1"
+
+    @patch("sheet_column_mapping._today", return_value=date(2026, 10, 19))
+    def test_no_next_release_date_uses_latest_reported_quarter(self, _):
+        resolver = parse_header_cell("Quarter")
+        data = _schedule("2026-Q3", date(2026, 10, 19), None)
+        assert resolver(data, "STLD", "NASDAQ") == "Q3"
+
+    @patch("sheet_column_mapping._today", return_value=date(2026, 10, 19))
+    def test_no_last_release_date_uses_quarter_after_latest_reported(self, _):
+        resolver = parse_header_cell("Quarter")
+        data = _schedule("2026-Q2", None, date(2026, 10, 19))
+        assert resolver(data, "NEWCO", "NYSE") == "Q3"
+
+    @patch("sheet_column_mapping._today", return_value=date(2026, 12, 4))
+    def test_equally_distant_releases_use_the_just_released_quarter(self, _):
+        resolver = parse_header_cell("Quarter")
+        data = _schedule("2026-Q3", date(2026, 10, 19), date(2027, 1, 19))
+        assert resolver(data, "STLD", "NASDAQ") == "Q3"
+
+    @patch("sheet_column_mapping._today", return_value=date(2026, 10, 19))
+    def test_schedule_takes_precedence_over_stored_quarters(self, _):
+        resolver = parse_header_cell("Quarter")
+        data = {
+            **_schedule("2026-Q3", date(2026, 10, 19), date(2027, 1, 20)),
+            "eps": {"quarterly": {"Q3 2026": 5.4}},
+        }
+        assert resolver(data, "STLD", "NASDAQ") == "Q3"
+
+
+class TestParseEarningsSeasonQuarterFallback:
+    """Tests for the "Quarter" column when no usable release schedule is available."""
+
+    def test_returns_quarter_after_latest_reported(self):
         resolver = parse_header_cell("Quarter")
         data = {"eps": {"quarterly": {"Q1 2026": 1.1, "Q2 2026": 1.2}}}
-        assert resolver(data, "STLD", "NASDAQ") == "Q2"
+        assert resolver(data, "STLD", "NASDAQ") == "Q3"
 
-    def test_latest_quarter_crosses_fiscal_year_boundary(self):
+    def test_schedule_without_fiscal_period_falls_back_to_store(self):
         resolver = parse_header_cell("Quarter")
-        data = {"eps": {"quarterly": {"Q4 2026": 1.1, "Q1 2027": 1.2}}}
+        data = {**_schedule(None, date(2026, 7, 20), date(2026, 10, 19)), "eps": {"quarterly": {"Q2 2026": 1.2}}}
+        assert resolver(data, "STLD", "NASDAQ") == "Q3"
+
+    def test_wraps_from_fiscal_q4_to_q1(self):
+        resolver = parse_header_cell("Quarter")
+        data = {"eps": {"quarterly": {"Q3 2026": 1.1, "Q4 2026": 1.2}}}
         assert resolver(data, "NVDA", "NASDAQ") == "Q1"
-
-    def test_ignores_forecast_only_quarters(self):
-        resolver = parse_header_cell("Quarter")
-        data = {"eps": {"quarterly": {"Q2 2026": 1.2}, "quarterly_forecast": {"Q3 2026": 1.3}}}
-        assert resolver(data, "STLD", "NASDAQ") == "Q2"
 
     def test_uses_revenue_when_it_is_reported_later_than_eps(self):
         resolver = parse_header_cell("Quarter")
         data = {"eps": {"quarterly": {"Q2 2026": 1.2}}, "revenue": {"quarterly": {"Q3 2026": 4300.0}}}
-        assert resolver(data, "STLD", "NASDAQ") == "Q3"
+        assert resolver(data, "STLD", "NASDAQ") == "Q4"
 
-    def test_no_reported_quarter_leaves_cell_untouched(self):
+    def test_falls_back_to_earliest_forecast_when_nothing_reported(self):
         resolver = parse_header_cell("Quarter")
-        assert resolver({"eps": {"quarterly": {}}}, "STLD", "NASDAQ") is None
+        data = {"eps": {"quarterly": {}, "quarterly_forecast": {"Q4 2026": 0.3, "Q3 2026": 0.2}}}
+        assert resolver(data, "NEWCO", "NYSE") == "Q3"
+
+    def test_no_quarterly_data_leaves_cell_untouched(self):
+        resolver = parse_header_cell("Quarter")
+        assert resolver({"eps": {"quarterly": {}, "quarterly_forecast": {}}}, "STLD", "NASDAQ") is None
 
 
 class TestTickerColumnAlwaysColumnA:

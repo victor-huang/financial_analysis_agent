@@ -14,6 +14,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
 from export_earning_store_to_sheets import (
     _column_letter,
+    attach_release_schedules,
     build_headers_and_rows,
     gather_ticker_data,
     get_ticker_row_numbers,
@@ -201,9 +202,44 @@ class TestGatherTickerData:
 
         with patch("export_earning_store_to_sheets.resolve_exchange", side_effect=flaky_resolve), patch(
             "export_earning_store_to_sheets.load_existing_data", return_value={"revenue": {}, "eps": {}}
-        ):
+        ), patch("export_earning_store_to_sheets.fetch_release_schedules", return_value={}):
             ordered_keys, _ = gather_ticker_data(
                 ["STLD", "BAD", "PAC"], refresh=False, headless=True, confirm_overwrite=None
             )
 
         assert ordered_keys == [("NYSE", "STLD"), ("NYSE", "PAC")]
+
+
+class TestAttachReleaseSchedules:
+    """Tests for attaching live release schedules used by the sheet's Quarter column."""
+
+    def test_attaches_schedule_to_matching_ticker(self):
+        schedule = {"fiscal_period_current": "2026-Q2", "last_release_date": None, "next_release_date": None}
+        ticker_data = {("NASDAQ", "STLD"): {}}
+
+        with patch(
+            "export_earning_store_to_sheets.fetch_release_schedules",
+            return_value={("NASDAQ", "STLD"): schedule},
+        ):
+            attach_release_schedules([("NASDAQ", "STLD")], ticker_data)
+
+        assert ticker_data[("NASDAQ", "STLD")]["release_schedule"] == schedule
+
+    def test_ticker_missing_from_scanner_gets_no_schedule(self):
+        ticker_data = {("NASDAQ", "STLD"): {}}
+
+        with patch("export_earning_store_to_sheets.fetch_release_schedules", return_value={}):
+            attach_release_schedules([("NASDAQ", "STLD")], ticker_data)
+
+        assert "release_schedule" not in ticker_data[("NASDAQ", "STLD")]
+
+    def test_fetch_failure_leaves_tickers_without_schedule(self):
+        ticker_data = {("NASDAQ", "STLD"): {}}
+
+        with patch(
+            "export_earning_store_to_sheets.fetch_release_schedules",
+            side_effect=requests.ConnectionError("network down"),
+        ):
+            attach_release_schedules([("NASDAQ", "STLD")], ticker_data)
+
+        assert "release_schedule" not in ticker_data[("NASDAQ", "STLD")]
