@@ -1,0 +1,78 @@
+currency: USD
+company_name: United Airlines Holdings, Inc.
+sector: Transportation
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 14700.0
+    Q1 2025: 13210.0
+    Q2 2025: 15240.0
+    Q3 2025: 15220.0
+    Q4 2025: 15400.0
+    Q1 2026: 14610.0
+    Q2 2026: 17670.0
+  annual:
+    2021 Yearly: 24630.0
+    2022 Yearly: 44950.0
+    2023 Yearly: 53720.0
+    2024 Yearly: 57060.0
+    2025 Yearly: 59070.0
+  quarterly_forecast:
+    Q4 2024: 14410.0
+    Q1 2025: 13230.0
+    Q2 2025: 15360.0
+    Q3 2025: 15330.0
+    Q4 2025: 15370.0
+    Q1 2026: 14390.0
+    Q2 2026: 17620.0
+    Q3 2026: 17890.0
+    Q4 2026: 18380.0
+    Q1 2027: 16400.0
+    Q2 2027: 18940.0
+  annual_forecast:
+    2021 Yearly: 24390.0
+    2022 Yearly: 44790.0
+    2023 Yearly: 53640.0
+    2024 Yearly: 56760.0
+    2025 Yearly: 59050.0
+    2026 Yearly: 68560.0
+    2027 Yearly: 73000.0
+    2028 Yearly: 76510.0
+    2029 Yearly: 81880.0
+eps:
+  quarterly:
+    Q4 2024: 3.26
+    Q1 2025: 0.91
+    Q2 2025: 3.87
+    Q3 2025: 2.78
+    Q4 2025: 3.1
+    Q1 2026: 1.19
+    Q2 2026: 1.99
+  annual:
+    2021 Yearly: -13.94
+    2022 Yearly: 2.52
+    2023 Yearly: 10.05
+    2024 Yearly: 10.61
+    2025 Yearly: 10.62
+  quarterly_forecast:
+    Q4 2024: 3.04
+    Q1 2025: 0.75
+    Q2 2025: 3.81
+    Q3 2025: 2.65
+    Q4 2025: 2.93
+    Q1 2026: 1.08
+    Q2 2026: 1.88
+    Q3 2026: 2.57
+    Q4 2026: 1.72
+    Q1 2027: 0.17
+    Q2 2027: 3.95
+  annual_forecast:
+    2021 Yearly: -14.25
+    2022 Yearly: 2.14
+    2023 Yearly: 9.76
+    2024 Yearly: 10.4
+    2025 Yearly: 10.57
+    2026 Yearly: 7.85
+    2027 Yearly: 12.58
+    2028 Yearly: 17.61
+    2029 Yearly: 20.99

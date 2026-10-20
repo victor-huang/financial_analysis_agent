@@ -1,0 +1,76 @@
+currency: USD
+company_name: Annaly Capital Management Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 527.46
+    Q1 2025: 186.64
+    Q2 2025: 110.83
+    Q3 2025: 885.58
+    Q4 2025: 1060.0
+    Q1 2026: 341.56
+    Q2 2026: 892.86
+  annual:
+    2021 Yearly: 1790.0
+    2022 Yearly: 1930.0
+    2023 Yearly: -1440.0
+    2024 Yearly: 1200.0
+    2025 Yearly: 2240.0
+  quarterly_forecast:
+    Q4 2024: 705.94
+    Q1 2025: 440.08
+    Q2 2025: 502.99
+    Q3 2025: 546.62
+    Q4 2025: 697.21
+    Q1 2026: 665.68
+    Q2 2026: 639.8
+    Q3 2026: 637.41
+    Q4 2026: 685.68
+    Q1 2027: 722.48
+    Q2 2027: 724.6
+  annual_forecast:
+    2021 Yearly: 1760.0
+    2022 Yearly: 1780.0
+    2023 Yearly: -871.14
+    2024 Yearly: 1490.0
+    2025 Yearly: 1850.0
+    2026 Yearly: 2540.0
+    2027 Yearly: 2920.0
+    2028 Yearly: 2720.0
+eps:
+  quarterly:
+    Q4 2024: 0.72
+    Q1 2025: 0.72
+    Q2 2025: 0.73
+    Q3 2025: 0.73
+    Q4 2025: 0.74
+    Q1 2026: 0.76
+    Q2 2026: 0.79
+  annual:
+    2021 Yearly: 4.64
+    2022 Yearly: 4.23
+    2023 Yearly: 2.86
+    2024 Yearly: 2.7
+    2025 Yearly: 2.92
+  quarterly_forecast:
+    Q4 2024: 0.67
+    Q1 2025: 0.7
+    Q2 2025: 0.71
+    Q3 2025: 0.72
+    Q4 2025: 0.73
+    Q1 2026: 0.74
+    Q2 2026: 0.75
+    Q3 2026: 0.77
+    Q4 2026: 0.77
+    Q1 2027: 0.78
+    Q2 2027: 0.78
+  annual_forecast:
+    2021 Yearly: 4.58
+    2022 Yearly: 4.1
+    2023 Yearly: 2.83
+    2024 Yearly: 2.65
+    2025 Yearly: 2.91
+    2026 Yearly: 3.1
+    2027 Yearly: 3.13
+    2028 Yearly: 3.03

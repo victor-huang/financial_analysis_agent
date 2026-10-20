@@ -1,0 +1,76 @@
+currency: USD
+company_name: Chubb Limited
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 12060.0
+    Q1 2025: 12650.0
+    Q2 2025: 14200.0
+    Q3 2025: 14870.0
+    Q4 2025: 13130.0
+    Q1 2026: 14010.0
+    Q2 2026: 14710.0
+  annual:
+    2021 Yearly: 37870.0
+    2022 Yearly: 41760.0
+    2023 Yearly: 47360.0
+    2024 Yearly: 51470.0
+    2025 Yearly: 54840.0
+  quarterly_forecast:
+    Q4 2024: 12200.0
+    Q1 2025: 12940.0
+    Q2 2025: 14140.0
+    Q3 2025: 12980.0
+    Q4 2025: 12940.0
+    Q1 2026: 13560.0
+    Q2 2026: 15070.0
+    Q3 2026: 15710.0
+    Q4 2026: 15090.0
+    Q1 2027: 15590.0
+    Q2 2027: 16010.000000000002
+  annual_forecast:
+    2021 Yearly: 36370.0
+    2022 Yearly: 40680.0
+    2023 Yearly: 41340.0
+    2024 Yearly: 51700.0
+    2025 Yearly: 54710.0
+    2026 Yearly: 58990.0
+    2027 Yearly: 63670.0
+    2028 Yearly: 67450.0
+eps:
+  quarterly:
+    Q4 2024: 6.02
+    Q1 2025: 3.68
+    Q2 2025: 6.14
+    Q3 2025: 7.49
+    Q4 2025: 7.52
+    Q1 2026: 6.82
+    Q2 2026: 7.26
+  annual:
+    2021 Yearly: 12.56
+    2022 Yearly: 15.24
+    2023 Yearly: 22.54
+    2024 Yearly: 22.51
+    2025 Yearly: 24.79
+  quarterly_forecast:
+    Q4 2024: 5.44
+    Q1 2025: 3.17
+    Q2 2025: 5.98
+    Q3 2025: 6.17
+    Q4 2025: 6.77
+    Q1 2026: 6.6
+    Q2 2026: 6.77
+    Q3 2026: 6.79
+    Q4 2026: 7.23
+    Q1 2027: 7.23
+    Q2 2027: 7.28
+  annual_forecast:
+    2021 Yearly: 12.06
+    2022 Yearly: 15.4
+    2023 Yearly: 19.38
+    2024 Yearly: 22.0
+    2025 Yearly: 24.07
+    2026 Yearly: 28.13
+    2027 Yearly: 29.3
+    2028 Yearly: 31.87

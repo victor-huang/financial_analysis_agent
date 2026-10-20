@@ -1,0 +1,76 @@
+currency: USD
+company_name: Metropolitan Bank Holding Corp.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 71.0
+    Q1 2025: 70.59
+    Q2 2025: 76.27
+    Q3 2025: 79.84
+    Q4 2025: 88.41
+    Q1 2026: 88.49
+    Q2 2026: 93.01
+  annual:
+    2021 Yearly: 180.7
+    2022 Yearly: 255.75
+    2023 Yearly: 250.74
+    2024 Yearly: 276.91
+    2025 Yearly: 315.11
+  quarterly_forecast:
+    Q4 2024: 67.43
+    Q1 2025: 67.58
+    Q2 2025: 72.55
+    Q3 2025: 78.28
+    Q4 2025: 83.15
+    Q1 2026: 87.23
+    Q2 2026: 93.39
+    Q3 2026: 97.05
+    Q4 2026: 100.66
+    Q1 2027: 101.48
+    Q2 2027: 106.48
+  annual_forecast:
+    2021 Yearly: 175.97
+    2022 Yearly: 256.8
+    2023 Yearly: 249.03
+    2024 Yearly: 273.33
+    2025 Yearly: 309.85
+    2026 Yearly: 379.2
+    2027 Yearly: 431.82
+    2028 Yearly: 498.3
+eps:
+  quarterly:
+    Q4 2024: 1.88
+    Q1 2025: 1.45
+    Q2 2025: 1.76
+    Q3 2025: 0.67
+    Q4 2025: 2.77
+    Q1 2026: 2.92
+    Q2 2026: 1.54
+  annual:
+    2021 Yearly: 6.45
+    2022 Yearly: 8.42
+    2023 Yearly: 6.91
+    2024 Yearly: 5.93
+    2025 Yearly: 6.62
+  quarterly_forecast:
+    Q4 2024: 1.49
+    Q1 2025: 1.53
+    Q2 2025: 1.73
+    Q3 2025: 2.08
+    Q4 2025: 2.2
+    Q1 2026: 2.31
+    Q2 2026: 2.3
+    Q3 2026: 2.38
+    Q4 2026: 2.56
+    Q1 2027: 2.58
+    Q2 2027: 2.79
+  annual_forecast:
+    2021 Yearly: 6.12
+    2022 Yearly: 8.3
+    2023 Yearly: 6.72
+    2024 Yearly: 6.49
+    2025 Yearly: 6.25
+    2026 Yearly: 9.53
+    2027 Yearly: 11.23
+    2028 Yearly: 13.41

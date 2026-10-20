@@ -1,0 +1,76 @@
+currency: USD
+company_name: Hancock Whitney Corporation
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 367.5
+    Q1 2025: 367.5
+    Q2 2025: 377.98
+    Q3 2025: 388.31
+    Q4 2025: 391.81
+    Q1 2026: 393.64
+    Q2 2026: 403.57
+  annual:
+    2021 Yearly: 1300.0
+    2022 Yearly: 1380.0
+    2023 Yearly: 1450.0
+    2024 Yearly: 1460.0
+    2025 Yearly: 1530.0
+  quarterly_forecast:
+    Q4 2024: 365.13
+    Q1 2025: 367.96
+    Q2 2025: 376.19
+    Q3 2025: 391.24
+    Q4 2025: 391.94
+    Q1 2026: 392.5
+    Q2 2026: 398.89
+    Q3 2026: 421.75
+    Q4 2026: 434.2
+    Q1 2027: 433.63
+    Q2 2027: 441.62
+  annual_forecast:
+    2021 Yearly: 1300.0
+    2022 Yearly: 1400.0
+    2023 Yearly: 1440.0
+    2024 Yearly: 1450.0
+    2025 Yearly: 1520.0
+    2026 Yearly: 1630.0
+    2027 Yearly: 1780.0
+    2028 Yearly: 1840.0
+eps:
+  quarterly:
+    Q4 2024: 1.4
+    Q1 2025: 1.38
+    Q2 2025: 1.32
+    Q3 2025: 1.49
+    Q4 2025: 1.49
+    Q1 2026: 1.52
+    Q2 2026: 1.55
+  annual:
+    2021 Yearly: 5.22
+    2022 Yearly: 5.98
+    2023 Yearly: 5.19
+    2024 Yearly: 5.28
+    2025 Yearly: 5.67
+  quarterly_forecast:
+    Q4 2024: 1.28
+    Q1 2025: 1.29
+    Q2 2025: 1.36
+    Q3 2025: 1.43
+    Q4 2025: 1.49
+    Q1 2026: 1.5
+    Q2 2026: 1.55
+    Q3 2026: 1.66
+    Q4 2026: 1.75
+    Q1 2027: 1.75
+    Q2 2027: 1.8
+  annual_forecast:
+    2021 Yearly: 5.4
+    2022 Yearly: 5.99
+    2023 Yearly: 5.13
+    2024 Yearly: 5.2
+    2025 Yearly: 5.73
+    2026 Yearly: 6.48
+    2027 Yearly: 7.32
+    2028 Yearly: 7.99

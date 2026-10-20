@@ -1,0 +1,78 @@
+currency: USD
+company_name: Intuitive Surgical, Inc.
+sector: Health Technology
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 2410.0
+    Q1 2025: 2250.0
+    Q2 2025: 2440.0
+    Q3 2025: 2510.0
+    Q4 2025: 2870.0
+    Q1 2026: 2770.0
+    Q2 2026: 2890.0
+  annual:
+    2021 Yearly: 5710.0
+    2022 Yearly: 6220.0
+    2023 Yearly: 7120.0
+    2024 Yearly: 8350.0
+    2025 Yearly: 10060.0
+  quarterly_forecast:
+    Q4 2024: 2250.0
+    Q1 2025: 2190.0
+    Q2 2025: 2350.0
+    Q3 2025: 2410.0
+    Q4 2025: 2760.0
+    Q1 2026: 2620.0
+    Q2 2026: 2830.0
+    Q3 2026: 2910.0
+    Q4 2026: 3210.0
+    Q1 2027: 3110.0
+    Q2 2027: 3240.0
+  annual_forecast:
+    2021 Yearly: 5680.0
+    2022 Yearly: 6250.0
+    2023 Yearly: 7080.0
+    2024 Yearly: 8189.999999999999
+    2025 Yearly: 9950.0
+    2026 Yearly: 11760.0
+    2027 Yearly: 13270.0
+    2028 Yearly: 14990.0
+    2029 Yearly: 16790.0
+eps:
+  quarterly:
+    Q4 2024: 2.21
+    Q1 2025: 1.81
+    Q2 2025: 2.19
+    Q3 2025: 2.4
+    Q4 2025: 2.53
+    Q1 2026: 2.5
+    Q2 2026: 2.8
+  annual:
+    2021 Yearly: 4.96
+    2022 Yearly: 4.68
+    2023 Yearly: 5.71
+    2024 Yearly: 7.34
+    2025 Yearly: 8.93
+  quarterly_forecast:
+    Q4 2024: 1.79
+    Q1 2025: 1.74
+    Q2 2025: 1.93
+    Q3 2025: 1.99
+    Q4 2025: 2.27
+    Q1 2026: 2.12
+    Q2 2026: 2.51
+    Q3 2026: 2.65
+    Q4 2026: 2.85
+    Q1 2027: 2.81
+    Q2 2027: 3.03
+  annual_forecast:
+    2021 Yearly: 4.96
+    2022 Yearly: 4.67
+    2023 Yearly: 5.6
+    2024 Yearly: 6.89
+    2025 Yearly: 8.68
+    2026 Yearly: 10.8
+    2027 Yearly: 12.11
+    2028 Yearly: 13.63
+    2029 Yearly: 15.59

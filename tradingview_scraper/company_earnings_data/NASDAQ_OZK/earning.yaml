@@ -1,0 +1,76 @@
+currency: USD
+company_name: Bank OZK
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 412.34
+    Q1 2025: 409.23
+    Q2 2025: 428.04
+    Q3 2025: 449.94
+    Q4 2025: 444.58
+    Q1 2026: 422.3
+    Q2 2026: 435.8
+  annual:
+    2021 Yearly: 1110.0
+    2022 Yearly: 1260.0
+    2023 Yearly: 1560.0
+    2024 Yearly: 1660.0
+    2025 Yearly: 1740.0
+  quarterly_forecast:
+    Q4 2024: 407.19
+    Q1 2025: 402.81
+    Q2 2025: 423.25
+    Q3 2025: 447.36
+    Q4 2025: 434.61
+    Q1 2026: 422.97
+    Q2 2026: 436.41
+    Q3 2026: 434.83
+    Q4 2026: 439.76
+    Q1 2027: 435.45
+    Q2 2027: 445.37
+  annual_forecast:
+    2021 Yearly: 1080.0
+    2022 Yearly: 1240.0
+    2023 Yearly: 1550.0
+    2024 Yearly: 1660.0
+    2025 Yearly: 1730.0
+    2026 Yearly: 1730.0
+    2027 Yearly: 1810.0
+    2028 Yearly: 1950.0
+eps:
+  quarterly:
+    Q4 2024: 1.56
+    Q1 2025: 1.47
+    Q2 2025: 1.58
+    Q3 2025: 1.59
+    Q4 2025: 1.53
+    Q1 2026: 1.44
+    Q2 2026: 1.49
+  annual:
+    2021 Yearly: 4.47
+    2022 Yearly: 4.54
+    2023 Yearly: 5.87
+    2024 Yearly: 6.14
+    2025 Yearly: 6.18
+  quarterly_forecast:
+    Q4 2024: 1.44
+    Q1 2025: 1.41
+    Q2 2025: 1.53
+    Q3 2025: 1.65
+    Q4 2025: 1.55
+    Q1 2026: 1.43
+    Q2 2026: 1.48
+    Q3 2026: 1.43
+    Q4 2026: 1.44
+    Q1 2027: 1.44
+    Q2 2027: 1.49
+  annual_forecast:
+    2021 Yearly: 4.28
+    2022 Yearly: 4.52
+    2023 Yearly: 5.84
+    2024 Yearly: 6.03
+    2025 Yearly: 6.19
+    2026 Yearly: 5.79
+    2027 Yearly: 6.06
+    2028 Yearly: 6.84

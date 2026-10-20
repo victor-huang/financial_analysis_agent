@@ -1,0 +1,76 @@
+currency: USD
+company_name: QCR Holdings, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 103.66
+    Q1 2025: 76.88
+    Q2 2025: 84.2
+    Q3 2025: 101.45
+    Q4 2025: 107.02
+    Q1 2026: 90.39
+    Q2 2026: 97.34
+  annual:
+    2021 Yearly: 278.65
+    2022 Yearly: 311.85
+    2023 Yearly: 353.69
+    2024 Yearly: 392.1
+    2025 Yearly: 369.54
+  quarterly_forecast:
+    Q4 2024: 96.56
+    Q1 2025: 94.26
+    Q2 2025: 92.86
+    Q3 2025: 98.35
+    Q4 2025: 106.87
+    Q1 2026: 104.06
+    Q2 2026: 104.1
+    Q3 2026: 108.97
+    Q4 2026: 113.62
+    Q1 2027: 105.85
+    Q2 2027: 111.98
+  annual_forecast:
+    2021 Yearly: 290.18
+    2022 Yearly: 321.82
+    2023 Yearly: 350.1
+    2024 Yearly: 371.59
+    2025 Yearly: 401.46
+    2026 Yearly: 428.61
+    2027 Yearly: 452.54
+    2028 Yearly: 476.38
+eps:
+  quarterly:
+    Q4 2024: 1.93
+    Q1 2025: 1.53
+    Q2 2025: 1.73
+    Q3 2025: 2.17
+    Q4 2025: 2.21
+    Q1 2026: 1.99
+    Q2 2026: 2.19
+  annual:
+    2021 Yearly: 6.27
+    2022 Yearly: 6.8
+    2023 Yearly: 6.82
+    2024 Yearly: 7.03
+    2025 Yearly: 7.64
+  quarterly_forecast:
+    Q4 2024: 1.73
+    Q1 2025: 1.51
+    Q2 2025: 1.59
+    Q3 2025: 1.75
+    Q4 2025: 1.99
+    Q1 2026: 1.78
+    Q2 2026: 1.91
+    Q3 2026: 2.09
+    Q4 2026: 2.22
+    Q1 2027: 1.97
+    Q2 2027: 2.23
+  annual_forecast:
+    2021 Yearly: 6.24
+    2022 Yearly: 6.48
+    2023 Yearly: 6.17
+    2024 Yearly: 6.75
+    2025 Yearly: 7.41
+    2026 Yearly: 8.49
+    2027 Yearly: 8.96
+    2028 Yearly: 10.0

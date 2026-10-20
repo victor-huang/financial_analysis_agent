@@ -2,7 +2,7 @@ currency: USD
 company_name: Grupo Aeroportuario Del Pacifico, S.A. B. de C.V. Grupo Aeroportuario
   Del Pacifico, S.A. de C.V. (each representing 10 Series B shares)
 sector: Transportation
-market_cap_billions: 10.87
+market_cap_billions: 12.11
 revenue:
   quarterly:
     Q3 2024: 414.6
@@ -27,20 +27,20 @@ revenue:
     Q4 2025: 584.74
     Q1 2026: 570.23
     Q2 2026: 732.26
-    Q3 2026: 689.18
-    Q4 2026: 737.74
-    Q1 2027: 698.06
-    Q2 2027: 682.53
+    Q3 2026: 656.27
+    Q4 2026: 733.42
+    Q1 2027: 647.33
+    Q2 2027: 639.57
   annual_forecast:
     2021 Yearly: 928.5
     2022 Yearly: 1280.0
     2023 Yearly: 1750.0
     2024 Yearly: 1690.0
     2025 Yearly: 2270.0
-    2026 Yearly: 2520.0
-    2027 Yearly: 2850.0
-    2028 Yearly: 3060.0
-    2029 Yearly: 3280.0
+    2026 Yearly: 2480.0
+    2027 Yearly: 2710.0
+    2028 Yearly: 2920.0
+    2029 Yearly: 3120.0
 eps:
   quarterly:
     Q3 2024: 1.98
@@ -65,17 +65,17 @@ eps:
     Q4 2025: 2.61
     Q1 2026: 3.1
     Q2 2026: 3.1
-    Q3 2026: 3.23
-    Q4 2026: 3.12
-    Q1 2027: 3.55
-    Q2 2027: 3.03
+    Q3 2026: 2.65
+    Q4 2026: 3.02
+    Q1 2027: 3.21
+    Q2 2027: 3.06
   annual_forecast:
     2021 Yearly: 5.43
     2022 Yearly: 8.8
     2023 Yearly: 10.86
     2024 Yearly: 8.76
     2025 Yearly: 11.76
-    2026 Yearly: 13.08
-    2027 Yearly: 14.98
-    2028 Yearly: 17.57
-    2029 Yearly: 18.03
+    2026 Yearly: 11.58
+    2027 Yearly: 13.32
+    2028 Yearly: 15.51
+    2029 Yearly: 14.58

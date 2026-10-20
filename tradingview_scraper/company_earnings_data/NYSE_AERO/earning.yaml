@@ -1,0 +1,52 @@
+currency: USD
+company_name: Grupo Aeromexico, S.A.B. de C.V.
+sector: Transportation
+market_cap_billions: 2.33
+revenue:
+  quarterly:
+    Q3 2025: 1430.0
+    Q4 2025: 1440.0
+    Q1 2026: 1340.0
+    Q2 2026: 1480.0
+    Q3 2026: 1620.0
+  annual:
+    2025 Yearly: 5360.0
+  quarterly_forecast:
+    Q4 2025: 1420.0
+    Q1 2026: 1330.0
+    Q2 2026: 1510.0
+    Q3 2026: 1620.0
+    Q4 2026: 1690.0
+    Q1 2027: 1520.0
+    Q2 2027: 1630.0
+    Q3 2027: 1720.0
+  annual_forecast:
+    2025 Yearly: 5340.0
+    2026 Yearly: 6010.0
+    2027 Yearly: 6320.0
+    2028 Yearly: 6660.0
+    2029 Yearly: 6660.0
+eps:
+  quarterly:
+    Q3 2025: 0.71
+    Q4 2025: 0.68
+    Q1 2026: 0.08
+    Q2 2026: -0.4
+    Q3 2026: 0.28
+  annual:
+    2025 Yearly: 2.41
+  quarterly_forecast:
+    Q4 2025: 0.48
+    Q1 2026: 0.08
+    Q2 2026: -0.28
+    Q3 2026: 0.31
+    Q4 2026: 0.42
+    Q1 2027: 0.11
+    Q2 2027: 0.4
+    Q3 2027: 0.76
+  annual_forecast:
+    2025 Yearly: 1.76
+    2026 Yearly: 0.52
+    2027 Yearly: 1.86
+    2028 Yearly: 2.85
+    2029 Yearly: 3.14

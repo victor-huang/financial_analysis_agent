@@ -1,0 +1,28 @@
+currency: USD
+company_name: Space Exploration Technologies Corp (SpaceX)
+sector: Communications
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q1 2026: 4690.0
+    Q2 2026: 7810.0
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: 6830.0
+    Q3 2026: 12870.0
+    Q4 2026: 19670.0
+    Q1 2027: 22230.0
+    Q2 2027: 25390.0
+  annual_forecast: {}
+eps:
+  quarterly:
+    Q1 2026: -1.19
+    Q2 2026: -0.09
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: -0.23
+    Q3 2026: 0.13
+    Q4 2026: 0.39
+    Q1 2027: 0.53
+    Q2 2027: 0.55
+  annual_forecast: {}

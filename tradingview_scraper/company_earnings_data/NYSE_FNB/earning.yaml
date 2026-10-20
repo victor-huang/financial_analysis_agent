@@ -1,0 +1,80 @@
+currency: USD
+company_name: F.N.B. Corporation
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 373.14
+    Q1 2025: 411.61
+    Q2 2025: 438.21
+    Q3 2025: 457.44
+    Q4 2025: 457.78
+    Q1 2026: 450.26
+    Q2 2026: 462.67
+    Q3 2026: 469.12
+  annual:
+    2021 Yearly: 1240.0
+    2022 Yearly: 1440.0
+    2023 Yearly: 1650.0
+    2024 Yearly: 1600.0
+    2025 Yearly: 1770.0
+  quarterly_forecast:
+    Q4 2024: 407.99
+    Q1 2025: 410.28
+    Q2 2025: 424.17
+    Q3 2025: 447.67
+    Q4 2025: 458.04
+    Q1 2026: 454.02
+    Q2 2026: 467.13
+    Q3 2026: 476.2
+    Q4 2026: 484.92
+    Q1 2027: 483.06
+    Q2 2027: 495.49
+    Q3 2027: 507.08
+  annual_forecast:
+    2021 Yearly: 1250.0
+    2022 Yearly: 1430.0
+    2023 Yearly: 1640.0
+    2024 Yearly: 1640.0
+    2025 Yearly: 1770.0
+    2026 Yearly: 1880.0
+    2027 Yearly: 1990.0
+    2028 Yearly: 2070.0
+eps:
+  quarterly:
+    Q4 2024: 0.38
+    Q1 2025: 0.32
+    Q2 2025: 0.36
+    Q3 2025: 0.41
+    Q4 2025: 0.5
+    Q1 2026: 0.38
+    Q2 2026: 0.42
+    Q3 2026: 0.43
+  annual:
+    2021 Yearly: 1.24
+    2022 Yearly: 1.4
+    2023 Yearly: 1.57
+    2024 Yearly: 1.39
+    2025 Yearly: 1.59
+  quarterly_forecast:
+    Q4 2024: 0.33
+    Q1 2025: 0.3
+    Q2 2025: 0.34
+    Q3 2025: 0.37
+    Q4 2025: 0.41
+    Q1 2026: 0.38
+    Q2 2026: 0.42
+    Q3 2026: 0.43
+    Q4 2026: 0.47
+    Q1 2027: 0.43
+    Q2 2027: 0.46
+    Q3 2027: 0.49
+  annual_forecast:
+    2021 Yearly: 1.23
+    2022 Yearly: 1.36
+    2023 Yearly: 1.54
+    2024 Yearly: 1.34
+    2025 Yearly: 1.5
+    2026 Yearly: 1.7
+    2027 Yearly: 1.89
+    2028 Yearly: 1.98
