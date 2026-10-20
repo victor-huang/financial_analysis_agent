@@ -15,6 +15,7 @@ SCANNER_HEADERS = {
 }
 RELEASE_SCHEDULE_COLUMNS = [
     "fiscal_period_current",
+    "fiscal_period_end_fq",
     "earnings_release_date",
     "earnings_release_next_date",
 ]
@@ -36,6 +37,7 @@ def fetch_release_schedules(keys: List[Tuple[str, str]]) -> Dict[Tuple[str, str]
 
     Returns:
         {(exchange, ticker): {"fiscal_period_current": "2026-Q2" or None,
+                              "fiscal_period_end_date": date or None,
                               "last_release_date": date or None,
                               "next_release_date": date or None}}
         Tickers the scanner doesn't return are omitted.
@@ -50,9 +52,10 @@ def fetch_release_schedules(keys: List[Tuple[str, str]]) -> Dict[Tuple[str, str]
     schedules = {}
     for item in response.json().get("data", []):
         exchange, ticker = item["s"].split(":", 1)
-        fiscal_period_current, last_release, next_release = item["d"]
+        fiscal_period_current, fiscal_period_end, last_release, next_release = item["d"]
         schedules[(exchange, ticker)] = {
             "fiscal_period_current": fiscal_period_current,
+            "fiscal_period_end_date": _timestamp_to_date(fiscal_period_end),
             "last_release_date": _timestamp_to_date(last_release),
             "next_release_date": _timestamp_to_date(next_release),
         }

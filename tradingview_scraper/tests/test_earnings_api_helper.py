@@ -13,6 +13,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 from earnings_api_helper import fetch_release_schedules
 
 OCT_19_2026_1230_UTC = 1792413000
+JUN_30_2026_UTC = 1782777600
 
 
 def _scanner_response(data):
@@ -26,7 +27,7 @@ class TestFetchReleaseSchedules:
 
     def test_parses_fiscal_period_and_release_dates(self):
         response = _scanner_response(
-            [{"s": "NASDAQ:STLD", "d": ["2026-Q2", OCT_19_2026_1230_UTC, OCT_19_2026_1230_UTC]}]
+            [{"s": "NASDAQ:STLD", "d": ["2026-Q2", JUN_30_2026_UTC, OCT_19_2026_1230_UTC, OCT_19_2026_1230_UTC]}]
         )
 
         with patch("earnings_api_helper.requests.post", return_value=response):
@@ -35,17 +36,19 @@ class TestFetchReleaseSchedules:
         assert schedules == {
             ("NASDAQ", "STLD"): {
                 "fiscal_period_current": "2026-Q2",
+                "fiscal_period_end_date": date(2026, 6, 30),
                 "last_release_date": date(2026, 10, 19),
                 "next_release_date": date(2026, 10, 19),
             }
         }
 
-    def test_missing_release_dates_are_none(self):
-        response = _scanner_response([{"s": "NYSE:WRB", "d": ["2026-Q2", None, None]}])
+    def test_missing_dates_are_none(self):
+        response = _scanner_response([{"s": "NYSE:WRB", "d": ["2026-Q2", None, None, None]}])
 
         with patch("earnings_api_helper.requests.post", return_value=response):
             schedules = fetch_release_schedules([("NYSE", "WRB")])
 
+        assert schedules[("NYSE", "WRB")]["fiscal_period_end_date"] is None
         assert schedules[("NYSE", "WRB")]["last_release_date"] is None
         assert schedules[("NYSE", "WRB")]["next_release_date"] is None
 

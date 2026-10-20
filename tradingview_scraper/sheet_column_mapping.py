@@ -12,6 +12,7 @@ changes here — only a genuinely new naming convention (e.g. a different way
 of denoting "revenue" or "estimate") needs a new regex case below.
 """
 
+import calendar
 import logging
 import re
 from datetime import date
@@ -90,13 +91,38 @@ def _today() -> date:
     return date.today()
 
 
+def _add_quarters(period_end: date, quarters: int) -> date:
+    """Shift a fiscal quarter end date by whole quarters, keeping month-end dates at month end."""
+    month_index = period_end.year * 12 + period_end.month - 1 + 3 * quarters
+    year, month = divmod(month_index, 12)
+    month += 1
+    days_in_month = calendar.monthrange(year, month)[1]
+    is_month_end = period_end.day == calendar.monthrange(period_end.year, period_end.month)[1]
+    return date(year, month, days_in_month if is_month_end else min(period_end.day, days_in_month))
+
+
+def _quarters_ended_before(period_end: date, release_date: date) -> int:
+    """How many fiscal quarters after the one ending on period_end have ended before release_date."""
+    quarters = 0
+    while quarters < 4 and _add_quarters(period_end, quarters + 1) < release_date:
+        quarters += 1
+    return quarters
+
+
 def _quarter_from_release_schedule(schedule: Dict) -> Optional[str]:
     """
-    The fiscal quarter of whichever release is nearer today, the last or the
-    next one. This keeps the quarter stable across release day, whether or not
-    the company has reported yet: before the release it's the quarter after
-    fiscal_period_current, and once reported fiscal_period_current itself
-    becomes that quarter while the last release is 0 days away.
+    The fiscal quarter covered by whichever release is nearer today, the last
+    or the next one: the latest fiscal quarter that ended before that release,
+    counted forward from fiscal_period_current's end date.
+
+    Counting from the period end keeps the answer stable across release day.
+    TradingView moves last_release_date to the release day before it updates
+    fiscal_period_current, so for a while it reports "last release today,
+    latest quarter Q2" for a company that just released Q3 — the Q3 period end
+    falling before today still yields Q3.
+
+    Without a period end date, assumes the last release covered
+    fiscal_period_current and the next one covers the quarter after.
     """
     fiscal_period = schedule.get("fiscal_period_current")
     match = re.match(r"^\d{4}-Q(?P<quarter>[1-4])$", fiscal_period or "")
@@ -105,15 +131,23 @@ def _quarter_from_release_schedule(schedule: Dict) -> Optional[str]:
     if not match or not (last_release or next_release):
         return None
 
-    latest_quarter = int(match.group("quarter"))
     today = _today()
     if next_release is None:
-        return f"Q{latest_quarter}"
-    if last_release is None:
-        return f"Q{latest_quarter % 4 + 1}"
-    if (today - last_release).days <= (next_release - today).days:
-        return f"Q{latest_quarter}"
-    return f"Q{latest_quarter % 4 + 1}"
+        is_last_release_nearer = True
+    elif last_release is None:
+        is_last_release_nearer = False
+    else:
+        is_last_release_nearer = (today - last_release).days <= (next_release - today).days
+    nearer_release = last_release if is_last_release_nearer else next_release
+
+    period_end = schedule.get("fiscal_period_end_date")
+    if period_end:
+        quarters_ahead = _quarters_ended_before(period_end, nearer_release)
+    else:
+        quarters_ahead = 0 if is_last_release_nearer else 1
+
+    latest_quarter = int(match.group("quarter"))
+    return f"Q{(latest_quarter - 1 + quarters_ahead) % 4 + 1}"
 
 
 def _earnings_season_quarter(data: Dict, ticker: str, exchange: str) -> Optional[str]:

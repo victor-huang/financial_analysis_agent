@@ -77,10 +77,11 @@ class TestParseStaticFields:
         assert parse_header_cell("Some Random Column") is None
 
 
-def _schedule(fiscal_period_current, last_release_date, next_release_date):
+def _schedule(fiscal_period_current, last_release_date, next_release_date, fiscal_period_end_date=None):
     return {
         "release_schedule": {
             "fiscal_period_current": fiscal_period_current,
+            "fiscal_period_end_date": fiscal_period_end_date,
             "last_release_date": last_release_date,
             "next_release_date": next_release_date,
         }
@@ -146,6 +147,54 @@ class TestParseEarningsSeasonQuarterFromSchedule:
             "eps": {"quarterly": {"Q3 2026": 5.4}},
         }
         assert resolver(data, "STLD", "NASDAQ") == "Q3"
+
+
+class TestParseEarningsSeasonQuarterFromPeriodEnd:
+    """Tests for the "Quarter" column when the schedule includes the latest quarter's period end date."""
+
+    @patch("sheet_column_mapping._today", return_value=date(2026, 10, 19))
+    def test_release_day_before_reporting_is_the_quarter_about_to_release(self, _):
+        resolver = parse_header_cell("Quarter")
+        data = _schedule("2026-Q2", date(2026, 7, 20), date(2026, 10, 19), date(2026, 6, 30))
+        assert resolver(data, "STLD", "NASDAQ") == "Q3"
+
+    @patch("sheet_column_mapping._today", return_value=date(2026, 10, 19))
+    def test_release_day_while_scanner_still_shows_previous_quarter(self, _):
+        """Regression test: on release day TradingView moved last_release_date to
+        today while fiscal_period_current still said Q2, which yielded "Q2"."""
+        resolver = parse_header_cell("Quarter")
+        data = _schedule("2026-Q2", date(2026, 10, 19), date(2027, 1, 27), date(2026, 6, 30))
+        assert resolver(data, "STLD", "NASDAQ") == "Q3"
+
+    @patch("sheet_column_mapping._today", return_value=date(2026, 10, 19))
+    def test_release_day_after_scanner_updates_to_released_quarter(self, _):
+        resolver = parse_header_cell("Quarter")
+        data = _schedule("2026-Q3", date(2026, 10, 19), date(2027, 1, 27), date(2026, 9, 30))
+        assert resolver(data, "STLD", "NASDAQ") == "Q3"
+
+    @patch("sheet_column_mapping._today", return_value=date(2027, 1, 10))
+    def test_moves_to_next_quarter_once_next_release_is_nearer(self, _):
+        resolver = parse_header_cell("Quarter")
+        data = _schedule("2026-Q3", date(2026, 10, 19), date(2027, 1, 27), date(2026, 9, 30))
+        assert resolver(data, "STLD", "NASDAQ") == "Q4"
+
+    @patch("sheet_column_mapping._today", return_value=date(2026, 10, 19))
+    def test_non_calendar_fiscal_year(self, _):
+        resolver = parse_header_cell("Quarter")
+        data = _schedule("2026-Q1", date(2026, 10, 19), date(2027, 1, 14), date(2026, 5, 31))
+        assert resolver(data, "KARO", "NASDAQ") == "Q2"
+
+    @patch("sheet_column_mapping._today", return_value=date(2027, 1, 27))
+    def test_wraps_from_fiscal_q4_to_q1(self, _):
+        resolver = parse_header_cell("Quarter")
+        data = _schedule("2026-Q4", date(2027, 1, 27), date(2027, 4, 20), date(2026, 9, 30))
+        assert resolver(data, "STLD", "NASDAQ") == "Q1"
+
+    @patch("sheet_column_mapping._today", return_value=date(2026, 10, 22))
+    def test_52_53_week_fiscal_quarter_end(self, _):
+        resolver = parse_header_cell("Quarter")
+        data = _schedule("2026-Q2", date(2026, 7, 23), date(2026, 10, 22), date(2026, 6, 27))
+        assert resolver(data, "NEWCO", "NYSE") == "Q3"
 
 
 class TestParseEarningsSeasonQuarterFallback:
