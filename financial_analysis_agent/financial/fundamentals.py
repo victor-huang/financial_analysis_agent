@@ -3,7 +3,12 @@ import logging
 from typing import Dict, List, Optional, Union
 import pandas as pd
 
+from .data_fetcher import FinancialDataFetcher
+
 logger = logging.getLogger(__name__)
+
+FMP_PERIOD_MATCH_DAYS = 10  # FMP and yfinance can date the same fiscal period a few days apart
+FMP_LATEST_PERIODS = 4
 
 class CompanyFundamentals:
     """Class for analyzing company fundamentals."""
@@ -16,6 +21,7 @@ class CompanyFundamentals:
         self._balance_sheet = None
         self._cash_flow = None
         self._info = None
+        self._fmp_key_metrics_cache: Dict[tuple, Optional[pd.DataFrame]] = {}
     
     def load_financials(self, period: str = 'annual') -> bool:
         """Load financial statements.
@@ -23,7 +29,6 @@ class CompanyFundamentals:
         """
         try:
             if not self.data_fetcher:
-                from .data_fetcher import FinancialDataFetcher
                 self.data_fetcher = FinancialDataFetcher()
             
             self._income_statement = self.data_fetcher.get_financials(
@@ -110,9 +115,11 @@ class CompanyFundamentals:
 
             # FMP pre-computes margins and free cash flow directly, so prefer it over the
             # yfinance-derived values above when a key is configured and data is available.
-            fmp_metrics = self._get_fmp_key_metrics(period, count=1)
-            if fmp_metrics is not None and not fmp_metrics.empty:
-                ratios.update(self._fmp_row_to_metrics(fmp_metrics.iloc[0]))
+            fmp_row = self._fmp_row_for(
+                self._get_fmp_key_metrics(period, count=FMP_LATEST_PERIODS), self._income_statement.index[0]
+            )
+            if fmp_row is not None:
+                ratios.update(self._fmp_row_to_metrics(fmp_row))
 
             return ratios
 
@@ -124,16 +131,30 @@ class CompanyFundamentals:
         """Fetch gross profit/EBITDA/operating income/net income/free cash flow (+margins) from FMP.
 
         Returns None if no FMP API key is configured or the request fails/returns no data.
+        Results are cached per (period, count) for the life of this instance.
         """
+        if (period, count) in self._fmp_key_metrics_cache:
+            return self._fmp_key_metrics_cache[(period, count)]
         if not self.data_fetcher:
-            from .data_fetcher import FinancialDataFetcher
             self.data_fetcher = FinancialDataFetcher()
 
         try:
-            return self.data_fetcher.get_key_metrics_fmp(self.ticker, period=period, limit=count)
+            metrics = self.data_fetcher.get_key_metrics_fmp(self.ticker, period=period, limit=count)
         except Exception as e:
             logger.warning(f"FMP key metrics fetch failed for {self.ticker}: {str(e)}")
+            metrics = None
+        self._fmp_key_metrics_cache[(period, count)] = metrics
+        return metrics
+
+    @staticmethod
+    def _fmp_row_for(fmp_metrics: Optional[pd.DataFrame], period_end) -> Optional[pd.Series]:
+        """The FMP row for the fiscal period ending on `period_end` (within FMP_PERIOD_MATCH_DAYS), or None."""
+        if fmp_metrics is None or fmp_metrics.empty or "date" not in fmp_metrics.columns:
             return None
+        gaps = (pd.to_datetime(fmp_metrics["date"]) - pd.Timestamp(period_end)).abs()
+        if gaps.min() > pd.Timedelta(days=FMP_PERIOD_MATCH_DAYS):
+            return None
+        return fmp_metrics.loc[gaps.idxmin()]
 
     @staticmethod
     def _fmp_row_to_metrics(row: pd.Series) -> Dict[str, float]:
@@ -166,8 +187,7 @@ class CompanyFundamentals:
             num = min(count, len(self._income_statement))
 
             # FMP pre-computes margins and free cash flow directly, so prefer it over the
-            # yfinance-derived values below when a key is configured and data is available.
-            # Both APIs return periods most-recent-first, so rows align positionally by i.
+            # yfinance-derived values below when a key is configured and has the same period.
             fmp_metrics = self._get_fmp_key_metrics(period, count=num)
 
             ratios = {
@@ -209,7 +229,7 @@ class CompanyFundamentals:
                 capex = abs(cash_flow.get('Capital Expenditures', 0) or 0)
                 free_cash_flow = operating_cash_flow - capex
 
-                fmp_row = fmp_metrics.iloc[i] if fmp_metrics is not None and i < len(fmp_metrics) else None
+                fmp_row = self._fmp_row_for(fmp_metrics, self._income_statement.index[i])
 
                 # Calculate and store ratios
                 idx = self._income_statement.index[i]

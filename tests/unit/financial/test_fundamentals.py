@@ -53,7 +53,7 @@ class TestGetFinancialRatios:
 
     def test_overrides_metrics_with_fmp_values_when_available(self, mocker):
         fmp_df = pd.DataFrame([{
-            "gross_profit": 555, "gross_margin": 55.5, "ebitda": 333, "ebitda_margin": 33.3,
+            "date": "2025-09-27", "gross_profit": 555, "gross_margin": 55.5, "ebitda": 333, "ebitda_margin": 33.3,
             "operating_income": 222, "operating_margin": 22.2, "net_income": 111, "net_margin": 11.1,
             "free_cash_flow": 99, "free_cash_flow_margin": 9.9,
         }])
@@ -103,10 +103,10 @@ class TestGetPeriodicRatios:
         ]
         dates = ["2025-09-30", "2024-09-30"]
         fmp_df = pd.DataFrame([
-            {"gross_profit": 555, "gross_margin": 55.5, "ebitda": 333, "ebitda_margin": 33.3,
+            {"date": "2025-09-30", "gross_profit": 555, "gross_margin": 55.5, "ebitda": 333, "ebitda_margin": 33.3,
              "operating_income": 222, "operating_margin": 22.2, "net_income": 111, "net_margin": 11.1,
              "free_cash_flow": 99, "free_cash_flow_margin": 9.9},
-            {"gross_profit": 444, "gross_margin": 44.4, "ebitda": 222, "ebitda_margin": 22.2,
+            {"date": "2024-09-30", "gross_profit": 444, "gross_margin": 44.4, "ebitda": 222, "ebitda_margin": 22.2,
              "operating_income": 111, "operating_margin": 11.1, "net_income": 55, "net_margin": 5.5,
              "free_cash_flow": 88, "free_cash_flow_margin": 8.8},
         ])
@@ -128,3 +128,35 @@ class TestGetPeriodicRatios:
         fundamentals = CompanyFundamentals("AAPL", data_fetcher=data_fetcher)
 
         assert fundamentals.get_periodic_ratios(period="annual", count=2) == {}
+
+
+class TestFmpKeyMetricsAlignment:
+    def test_matches_fmp_rows_to_periods_by_date_not_position(self, mocker):
+        fmp_df = pd.DataFrame([
+            {"date": "2026-09-30", "gross_profit": 999, "net_income": 999},  # newer period yfinance hasn't published
+            {"date": "2025-09-30", "gross_profit": 555, "net_income": 111},
+        ])
+        fundamentals = _build_fundamentals(
+            mocker, [INCOME_ROW, INCOME_ROW], [BALANCE_ROW, BALANCE_ROW], [CASH_FLOW_ROW, CASH_FLOW_ROW],
+            ["2025-09-30", "2024-09-30"], fmp_key_metrics=fmp_df,
+        )
+
+        series = fundamentals.get_periodic_ratios(period="annual", count=2)
+
+        assert series["gross_profit"] == [555, 500]  # 2024 has no FMP row, so it keeps the yfinance value
+
+    def test_latest_ratios_ignore_fmp_period_yfinance_does_not_have(self, mocker):
+        fmp_df = pd.DataFrame([{"date": "2026-09-30", "gross_profit": 999}])
+        fundamentals = _build_fundamentals(
+            mocker, [INCOME_ROW], [BALANCE_ROW], [CASH_FLOW_ROW], ["2025-09-30"], fmp_key_metrics=fmp_df
+        )
+
+        assert fundamentals.get_financial_ratios(period="annual")["gross_profit"] == 500
+
+    def test_fetches_fmp_key_metrics_once_per_period_and_count(self, mocker):
+        fundamentals = _build_fundamentals(mocker, [INCOME_ROW], [BALANCE_ROW], [CASH_FLOW_ROW], ["2025-09-30"])
+
+        fundamentals.get_financial_ratios(period="annual")
+        fundamentals.get_financial_ratios(period="annual")
+
+        assert fundamentals.data_fetcher.get_key_metrics_fmp.call_count == 1
