@@ -1,7 +1,7 @@
 """Financial Modeling Prep (FMP) data source module for retrieving financial data."""
 
 import logging
-from typing import Optional
+from typing import Dict, List, Optional
 import pandas as pd
 import requests
 
@@ -365,6 +365,17 @@ class FMPSource:
             return None
 
         return estimates[revenue_cols]
+
+    def get_market_caps(self, tickers: List[str], batch_size: int = 100) -> Dict[str, float]:
+        """Current market capitalization in $B for each ticker, from batched quote requests."""
+        caps = {}
+        for start in range(0, len(tickers), batch_size):
+            batch = tickers[start:start + batch_size]
+            quotes = self._make_request("quote/" + ",".join(batch)) or []
+            for quote in quotes if isinstance(quotes, list) else []:
+                if quote.get("symbol") and quote.get("marketCap"):
+                    caps[quote["symbol"]] = quote["marketCap"] / 1e9
+        return caps
 
     def get_historical_earnings_calendar(self, ticker: str, limit: int = 20) -> Optional[pd.DataFrame]:
         """Fetch historical earnings calendar data from FMP.

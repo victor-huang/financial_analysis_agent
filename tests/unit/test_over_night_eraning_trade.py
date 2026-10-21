@@ -17,6 +17,7 @@ from over_night_eraning_trade import (
     gap_follow_through,
     reaction_day_profile,
     latest_release_levels,
+    load_market_caps,
     main,
     release_levels,
     simulate_trade,
@@ -157,6 +158,15 @@ class TestSimulateTrade:
 
         assert trade["earnings"]["after_hours_move_pct"] == pytest.approx(0.0)
 
+    def test_after_hours_move_measured_in_average_daily_ranges(self, tmp_path):
+        path = tmp_path / "MDB" / "2026-10-18"
+        _write_event_files(path / "earnings" / RELEASE, [r if r[0] != "2026-09-01 19:40" else (r[0], 91.0, 103.0) for r in INTRADAY])
+
+        trade, _ = simulate_trade(_event(), path, 15, 10, 5)
+
+        assert trade["earnings"]["after_hours_move_pct"] == pytest.approx(3.0)
+        assert trade["earnings"]["ah_move_x_range"] == pytest.approx(1.0)
+
     def test_skips_before_open_releases(self, context_dir):
         trade, reason = simulate_trade(_event(timing="bmo"), context_dir, 15, 10, 5)
 
@@ -236,25 +246,32 @@ class TestFilterTrades:
         })
 
     def test_keeps_releases_near_52_week_high_with_big_misses(self):
-        kept = filter_trades(self._trades(), max_pct_below_52w_high=5, max_eps_surprise=-5, max_revenue_surprise=-2)
+        kept = filter_trades(self._trades(), maximums={"pct_below_52w_high": 5, "eps_surprise_pct": -5, "revenue_surprise_pct": -2})
 
         assert kept["ticker"].tolist() == ["A"]
 
     def test_drops_trades_missing_a_filtered_value(self):
-        kept = filter_trades(self._trades(), max_pct_below_52w_high=50)
+        kept = filter_trades(self._trades(), maximums={"pct_below_52w_high": 50})
 
         assert kept["ticker"].tolist() == ["A", "B", "C"]
 
     def test_keeps_after_hours_moves_within_bounds(self):
         trades = self._trades().assign(after_hours_move_pct=[-6.0, 0.0, 2.0, 8.0])
 
-        assert filter_trades(trades, min_after_hours_move=0)["ticker"].tolist() == ["C", "D"]
-        assert filter_trades(trades, max_after_hours_move=-5)["ticker"].tolist() == ["A"]
+        assert filter_trades(trades, minimums={"after_hours_move_pct": 0})["ticker"].tolist() == ["C", "D"]
+        assert filter_trades(trades, maximums={"after_hours_move_pct": -5})["ticker"].tolist() == ["A"]
 
     def test_min_pct_below_52_week_high_excludes_stocks_near_the_high(self):
-        kept = filter_trades(self._trades(), min_pct_below_52w_high=5)
+        kept = filter_trades(self._trades(), minimums={"pct_below_52w_high": 5})
 
         assert kept["ticker"].tolist() == ["C"]
+
+    def test_keeps_market_caps_within_bounds(self):
+        trades = self._trades().assign(market_cap_b=[0.05, 0.5, 9.0, None])
+
+        kept = filter_trades(trades, minimums={"market_cap_b": 0.1}, maximums={"market_cap_b": 10})
+
+        assert kept["ticker"].tolist() == ["B", "C"]
 
     def test_keeps_everything_without_filters(self):
         assert len(filter_trades(self._trades())) == 4
@@ -304,6 +321,20 @@ class TestEarningsResults:
         results = earnings_results({**_event(), "eps_estimate": -0.2, "eps_actual": -0.1})
 
         assert results["eps_surprise_pct"] == pytest.approx(50.0)
+
+    def test_compares_surprise_with_the_company_usual_surprise(self):
+        results = earnings_results({**_event(), "usual_eps_surprise_pct": 5.0, "usual_revenue_surprise_pct": -2.0})
+
+        assert results["eps_vs_usual_pts"] == pytest.approx(15.0)
+        assert results["revenue_vs_usual_pts"] == pytest.approx(-3.0)
+
+    def test_caps_eps_surprise_before_comparing_with_usual(self):
+        results = earnings_results({**_event(), "eps_estimate": 0.01, "eps_actual": 0.2, "usual_eps_surprise_pct": 50.0})
+
+        assert results["eps_vs_usual_pts"] == pytest.approx(50.0)
+
+    def test_vs_usual_is_empty_without_history(self):
+        assert earnings_results(_event())["eps_vs_usual_pts"] is None
 
     def test_missing_revenue_leaves_surprise_empty(self):
         results = earnings_results({**_event(), "revenue_estimate": None, "revenue_actual": None})
@@ -591,6 +622,38 @@ class TestCollectContexts:
 
         assert failures == [("BAD", "boom")]
         assert collector.collect.call_count == 2
+
+
+class TestLoadMarketCaps:
+    def _manifest(self, tmp_path, ticker, market_cap_b):
+        path = tmp_path / ticker / "2026-10-18"
+        path.mkdir(parents=True)
+        (path / "manifest.json").write_text(json.dumps({"market_cap_b": market_cap_b}))
+
+    def test_reads_market_cap_from_manifest(self, mocker, tmp_path):
+        self._manifest(tmp_path, "MDB", 34.8)
+        fetcher = mocker.patch("over_night_eraning_trade.FinancialDataFetcher")
+
+        assert load_market_caps(["MDB"], tmp_path, None) == {"MDB": 34.8}
+        fetcher.assert_not_called()
+
+    def test_looks_up_missing_market_caps_in_one_batch(self, mocker, tmp_path):
+        self._manifest(tmp_path, "MDB", 34.8)
+        self._manifest(tmp_path, "PL", None)
+        fetcher = mocker.patch("over_night_eraning_trade.FinancialDataFetcher").return_value
+        fetcher.get_market_caps.return_value = {"PL": 6.1}
+
+        caps = load_market_caps(["MDB", "PL", "BE"], tmp_path, None)
+
+        assert caps == {"MDB": 34.8, "PL": 6.1}
+        fetcher.get_market_caps.assert_called_once_with(["PL", "BE"])
+
+    def test_warns_about_tickers_without_a_market_cap(self, mocker, tmp_path, caplog):
+        mocker.patch("over_night_eraning_trade.FinancialDataFetcher").return_value.get_market_caps.return_value = {}
+
+        load_market_caps(["BE"], tmp_path, None)
+
+        assert "No market cap for 1 tickers" in caplog.text
 
 
 class TestFindContextDir:

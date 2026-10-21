@@ -50,6 +50,11 @@ WINDOW_DAYS_BEFORE = 5
 WINDOW_DAYS_AFTER = 10
 INTRADAY_DAYS_AROUND = 2
 INTRADAY_INTERVAL_MINUTES = 5
+MAX_REACTION_DELAY_DAYS = 4  # a weekend plus a holiday
+USUAL_SURPRISE_RELEASES = 4
+MIN_RELEASES_FOR_USUAL = 2
+EPS_SURPRISE_CAP_PCT = 100.0  # tiny estimates make EPS surprise % explode
+REVENUE_SURPRISE_CAP_PCT = 50.0
 HISTORY_CALENDAR_DAYS = 800  # 4 quarters back plus a 52-week lookback
 MOVING_AVERAGE_WINDOWS = (20, 50, 200)
 FIFTY_TWO_WEEK_SESSIONS = 252
@@ -78,6 +83,9 @@ class EarningsEvent:
     eps_actual: Optional[float] = None
     revenue_estimate: Optional[float] = None
     revenue_actual: Optional[float] = None
+    usual_eps_surprise_pct: Optional[float] = None  # median of the previous releases' surprises
+    usual_revenue_surprise_pct: Optional[float] = None
+    prior_beat_streak: Optional[int] = None  # consecutive previous releases beating both EPS and revenue
 
 
 class EarningsPriceContextCollector:
@@ -124,6 +132,8 @@ class EarningsPriceContextCollector:
             if e.release_date < self.as_of or (e.release_date == self.as_of and e.eps_actual is not None)
         ]
         future = [e for e in events if e not in past]
+        past.sort(key=lambda e: e.release_date)
+        _annotate_surprise_history(past)
         past.sort(key=lambda e: e.release_date, reverse=True)
         future.sort(key=lambda e: e.release_date)
         return past[:num_quarters], (future[0] if future else None)
@@ -143,6 +153,7 @@ class EarningsPriceContextCollector:
                 df = df[["open", "high", "low", "close", "volume"]]
                 df.index = pd.to_datetime(df.index).normalize()
                 df.index.name = "date"
+                df = df[~df.index.duplicated(keep="last")]  # yfinance occasionally repeats a session
             self._daily_cache[symbol] = df
         return self._daily_cache[symbol]
 
@@ -289,7 +300,9 @@ class EarningsPriceContextCollector:
         out_dir = self.output_dir / ticker / self.as_of.isoformat()
         out_dir.mkdir(parents=True, exist_ok=True)
 
-        sector = (self.fetcher.get_company_info(ticker) or {}).get("sector") or None
+        company = self.fetcher.get_company_info(ticker) or {}
+        sector = company.get("sector") or None
+        market_cap = company.get("market_cap")
         sector_etf = SECTOR_ETFS.get(sector)
         if sector_etf is None:
             logger.warning(f"No sector ETF mapping for {ticker} (sector={sector!r})")
@@ -327,6 +340,7 @@ class EarningsPriceContextCollector:
             "as_of": self.as_of.isoformat(),
             "collected_at": datetime.now().isoformat(timespec="seconds"),
             "sector": sector,
+            "market_cap_b": market_cap / 1e9 if market_cap else None,
             "sector_etf": sector_etf,
             "benchmark_etf": BENCHMARK_ETF,
             "upcoming_earnings": _event_dict(upcoming) if upcoming else None,
@@ -373,15 +387,52 @@ class EarningsPriceContextCollector:
         ]
 
 
+def surprise_pct(actual: Optional[float], estimate: Optional[float]) -> Optional[float]:
+    """Surprise relative to the size of the estimate, so a smaller-than-expected loss is a beat."""
+    if actual is None or estimate in (None, 0) or pd.isna(actual) or pd.isna(estimate):
+        return None
+    return (actual - estimate) / abs(estimate) * 100
+
+
+def _annotate_surprise_history(events: List[EarningsEvent]) -> None:
+    """Set each event's usual surprise and prior beat streak from the releases before it (oldest first)."""
+    for i, event in enumerate(events):
+        prior = events[max(0, i - USUAL_SURPRISE_RELEASES):i]
+        eps = [np.clip(v, -EPS_SURPRISE_CAP_PCT, EPS_SURPRISE_CAP_PCT)
+               for v in (surprise_pct(p.eps_actual, p.eps_estimate) for p in prior) if v is not None]
+        revenue = [np.clip(v, -REVENUE_SURPRISE_CAP_PCT, REVENUE_SURPRISE_CAP_PCT)
+                   for v in (surprise_pct(p.revenue_actual, p.revenue_estimate) for p in prior) if v is not None]
+        event.usual_eps_surprise_pct = float(np.median(eps)) if len(eps) >= MIN_RELEASES_FOR_USUAL else None
+        event.usual_revenue_surprise_pct = float(np.median(revenue)) if len(revenue) >= MIN_RELEASES_FOR_USUAL else None
+        streak = 0
+        for p in reversed(events[:i]):
+            eps_s, revenue_s = surprise_pct(p.eps_actual, p.eps_estimate), surprise_pct(p.revenue_actual, p.revenue_estimate)
+            if eps_s is None or revenue_s is None:
+                streak = streak or None  # unknown if the previous release has no data
+                break
+            if eps_s <= 0 or revenue_s <= 0:
+                break
+            streak += 1
+        event.prior_beat_streak = streak if i > 0 else None
+
+
 def _reaction_position(index: pd.DatetimeIndex, event: EarningsEvent) -> Optional[int]:
-    """Index position of the first session that trades on the earnings news."""
+    """Index position of the first session that trades on the earnings news.
+
+    None when that session hasn't traded yet, or when it is more than MAX_REACTION_DELAY_DAYS after
+    the release (e.g. a release before the stock was listed, or a gap in the price history).
+    """
     release_pos = int(index.searchsorted(pd.Timestamp(event.release_date)))
     if release_pos >= len(index):
         return None
     released_on_session = index[release_pos].date() == event.release_date
     if event.timing == "amc" and released_on_session:
         release_pos += 1
-    return release_pos if release_pos < len(index) else None
+    if release_pos >= len(index):
+        return None
+    if (index[release_pos].date() - event.release_date).days > MAX_REACTION_DELAY_DAYS:
+        return None
+    return release_pos
 
 
 def _reaction_metrics(window: pd.DataFrame, sector_etf: Optional[str]) -> Dict:

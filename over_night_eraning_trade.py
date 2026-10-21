@@ -48,9 +48,13 @@ from typing import Dict, List, Optional, Tuple
 import pandas as pd
 
 from financial_analysis_agent.config import get_config
+from financial_analysis_agent.financial.data_fetcher import FinancialDataFetcher
 from financial_analysis_agent.financial.earnings_price_context import (
+    EPS_SURPRISE_CAP_PCT,
     MOVING_AVERAGE_WINDOWS,
+    REVENUE_SURPRISE_CAP_PCT,
     EarningsPriceContextCollector,
+    surprise_pct,
 )
 
 logger = logging.getLogger(__name__)
@@ -85,7 +89,11 @@ EARNINGS_COLUMNS = [
     "revenue_estimate_m",
     "revenue_actual_m",
     "revenue_surprise_pct",
+    "eps_vs_usual_pts",
+    "revenue_vs_usual_pts",
+    "prior_beat_streak",
     "after_hours_move_pct",
+    "ah_move_x_range",
 ]
 FOLLOW_THROUGH_SETUP_COLUMNS = [
     "timing",
@@ -270,6 +278,11 @@ def simulate_trade(
         "lows_pct": {label: _pct_from(entry_price, low) for label, (_, low) in highs_lows.items()},
     }
     trade["earnings"]["after_hours_move_pct"] = (entry_price / trade["regular_close"] - 1) * 100
+    before = by_offset[by_offset.index < 0]
+    avg_range_pct = ((before["high"] - before["low"]) / before["close"]).mean() * 100
+    trade["earnings"]["ah_move_x_range"] = (
+        trade["earnings"]["after_hours_move_pct"] / avg_range_pct if avg_range_pct else None
+    )
     return trade, None
 
 
@@ -330,16 +343,31 @@ def summarize_by_technical_score(trades: pd.DataFrame, labels: List[str]) -> pd.
 
 
 def earnings_results(event: Dict) -> Dict:
-    """EPS and revenue (in $M) estimate vs actual, with surprise %; positive surprise is a beat."""
+    """EPS and revenue (in $M) estimate vs actual, with surprise %; positive surprise is a beat.
+    *_vs_usual_pts compare the surprise with the company's usual (median of its previous releases)."""
     revenue_estimate, revenue_actual = event.get("revenue_estimate"), event.get("revenue_actual")
+    eps_surprise = surprise_pct(event.get("eps_actual"), event.get("eps_estimate"))
+    revenue_surprise = surprise_pct(revenue_actual, revenue_estimate)
     return {
         "eps_estimate": event.get("eps_estimate"),
         "eps_actual": event.get("eps_actual"),
-        "eps_surprise_pct": _surprise_pct(event.get("eps_actual"), event.get("eps_estimate")),
+        "eps_surprise_pct": eps_surprise,
         "revenue_estimate_m": revenue_estimate / 1e6 if revenue_estimate is not None else None,
         "revenue_actual_m": revenue_actual / 1e6 if revenue_actual is not None else None,
-        "revenue_surprise_pct": _surprise_pct(revenue_actual, revenue_estimate),
+        "revenue_surprise_pct": revenue_surprise,
+        "eps_vs_usual_pts": _vs_usual(eps_surprise, event.get("usual_eps_surprise_pct"), EPS_SURPRISE_CAP_PCT),
+        "revenue_vs_usual_pts": _vs_usual(
+            revenue_surprise, event.get("usual_revenue_surprise_pct"), REVENUE_SURPRISE_CAP_PCT
+        ),
+        "prior_beat_streak": event.get("prior_beat_streak"),
     }
+
+
+def _vs_usual(surprise: Optional[float], usual: Optional[float], cap: float) -> Optional[float]:
+    """This release's surprise (capped like the usual one) minus the company's usual surprise, in points."""
+    if surprise is None or usual is None:
+        return None
+    return max(min(surprise, cap), -cap) - usual
 
 
 def forecast_revision_table(manifest: Dict) -> Tuple[Optional[pd.DataFrame], str]:
@@ -625,35 +653,44 @@ def _present(value) -> bool:
     return value is not None and not pd.isna(value)
 
 
+def load_market_caps(tickers: List[str], data_dir: Path, as_of: Optional[date]) -> Dict[str, float]:
+    """Market cap in $B per ticker: from the collector's manifest, else a batched FMP quote lookup.
+
+    This is the market cap at collection time, not on each release date.
+    """
+    caps, missing = {}, []
+    for ticker in tickers:
+        context_dir = find_context_dir(data_dir, ticker, as_of)
+        manifest = json.loads((context_dir / "manifest.json").read_text()) if context_dir else {}
+        if manifest.get("market_cap_b"):
+            caps[ticker] = manifest["market_cap_b"]
+        else:
+            missing.append(ticker)
+    if missing:
+        caps.update(FinancialDataFetcher().get_market_caps(missing))
+        unknown = [t for t in missing if t not in caps]
+        if unknown:
+            logger.warning(f"No market cap for {len(unknown)} tickers (dropped by market-cap filters): {', '.join(unknown[:10])}"
+                           + (" ..." if len(unknown) > 10 else ""))
+    return caps
+
+
 def filter_trades(
     trades: pd.DataFrame,
-    max_pct_below_52w_high: Optional[float] = None,
-    max_eps_surprise: Optional[float] = None,
-    max_revenue_surprise: Optional[float] = None,
-    min_after_hours_move: Optional[float] = None,
-    max_after_hours_move: Optional[float] = None,
-    min_pct_below_52w_high: Optional[float] = None,
+    minimums: Optional[Dict[str, Optional[float]]] = None,
+    maximums: Optional[Dict[str, Optional[float]]] = None,
 ) -> pd.DataFrame:
-    """Keep trades whose report-day close is within `max_pct_below_52w_high` % of the 52-week high,
-    whose EPS / revenue surprise is at most the given % (e.g. -5 keeps misses of 5% or more), and
-    whose after-hours move (entry vs regular close) is within the given bounds.
-    `min_pct_below_52w_high` keeps only closes more than that % below the 52-week high.
-    Trades missing a filtered value are dropped."""
+    """Keep trades whose column values are above each minimum and at most each maximum, e.g.
+    minimums={"eps_surprise_pct": 0} keeps EPS beats and maximums={"pct_below_52w_high": 5} keeps
+    report-day closes within 5% of the 52-week high. Limits of None are ignored; trades missing a
+    filtered value are dropped."""
     keep = pd.Series(True, index=trades.index)
-    for column, limit in (
-        ("pct_below_52w_high", max_pct_below_52w_high),
-        ("eps_surprise_pct", max_eps_surprise),
-        ("revenue_surprise_pct", max_revenue_surprise),
-        ("after_hours_move_pct", max_after_hours_move),
-    ):
-        if limit is not None:
-            keep &= trades[column].notna() & (trades[column] <= limit)
-    for column, limit in (
-        ("after_hours_move_pct", min_after_hours_move),
-        ("pct_below_52w_high", min_pct_below_52w_high),
-    ):
+    for column, limit in (minimums or {}).items():
         if limit is not None:
             keep &= trades[column].notna() & (trades[column] > limit)
+    for column, limit in (maximums or {}).items():
+        if limit is not None:
+            keep &= trades[column].notna() & (trades[column] <= limit)
     return trades[keep]
 
 
@@ -739,12 +776,6 @@ def summarize(trades: pd.DataFrame, labels: List[str]) -> pd.DataFrame:
     return pd.DataFrame(summary).set_index("exit")
 
 
-def _surprise_pct(actual, estimate) -> Optional[float]:
-    if actual is None or estimate in (None, 0):
-        return None
-    return (actual / estimate - 1) * 100 * (1 if estimate > 0 else -1)
-
-
 def _read_tickers(tickers: List[str], tickers_file: Optional[str]) -> List[str]:
     if tickers_file:
         lines = Path(tickers_file).read_text().splitlines()
@@ -774,6 +805,22 @@ def main():
                         help="Only releases with EPS surprise at most this %% (e.g. -5 for a miss of 5%% or more)")
     parser.add_argument("--max-revenue-surprise", type=float,
                         help="Only releases with revenue surprise at most this %% (e.g. -2 for a miss of 2%% or more)")
+    parser.add_argument("--min-market-cap", type=float,
+                        help="Only tickers with market cap above this many $B (current, at collection time)")
+    parser.add_argument("--max-market-cap", type=float,
+                        help="Only tickers with market cap at most this many $B (current, at collection time)")
+    parser.add_argument("--min-eps-surprise", type=float,
+                        help="Only releases with EPS surprise above this %% (0 keeps beats)")
+    parser.add_argument("--min-revenue-surprise", type=float,
+                        help="Only releases with revenue surprise above this %% (0 keeps beats)")
+    parser.add_argument("--min-ah-move-x-range", type=float,
+                        help="Only trades whose after-hours move is above this many average daily ranges")
+    parser.add_argument("--max-ah-move-x-range", type=float,
+                        help="Only trades whose after-hours move is at most this many average daily ranges")
+    parser.add_argument("--min-eps-vs-usual", type=float,
+                        help="Only releases whose EPS surprise beats the company's usual surprise by more than this many points")
+    parser.add_argument("--min-revenue-vs-usual", type=float,
+                        help="Only releases whose revenue surprise beats the company's usual surprise by more than this many points")
     parser.add_argument("--min-after-hours-move", type=float,
                         help="Only trades whose after-hours move (entry vs regular close) is above this %%")
     parser.add_argument("--max-after-hours-move", type=float,
@@ -813,9 +860,29 @@ def main():
     )
     collected = len(trades)
     if not trades.empty:
+        if args.min_market_cap is not None or args.max_market_cap is not None:
+            caps = load_market_caps(sorted(trades["ticker"].unique()), data_dir, args.as_of)
+            trades["market_cap_b"] = trades["ticker"].map(caps)
         trades = filter_trades(
-            trades, args.max_pct_below_52w_high, args.max_eps_surprise, args.max_revenue_surprise,
-            args.min_after_hours_move, args.max_after_hours_move, args.min_pct_below_52w_high,
+            trades,
+            minimums={
+                "after_hours_move_pct": args.min_after_hours_move,
+                "pct_below_52w_high": args.min_pct_below_52w_high,
+                "market_cap_b": args.min_market_cap,
+                "eps_surprise_pct": args.min_eps_surprise,
+                "revenue_surprise_pct": args.min_revenue_surprise,
+                "ah_move_x_range": args.min_ah_move_x_range,
+                "eps_vs_usual_pts": args.min_eps_vs_usual,
+                "revenue_vs_usual_pts": args.min_revenue_vs_usual,
+            },
+            maximums={
+                "after_hours_move_pct": args.max_after_hours_move,
+                "pct_below_52w_high": args.max_pct_below_52w_high,
+                "market_cap_b": args.max_market_cap,
+                "eps_surprise_pct": args.max_eps_surprise,
+                "revenue_surprise_pct": args.max_revenue_surprise,
+                "ah_move_x_range": args.max_ah_move_x_range,
+            },
         )
         if args.short:
             trades = to_short(trades, labels)

@@ -12,6 +12,29 @@ def _mock_response(mocker, payload):
     return response
 
 
+class TestGetMarketCaps:
+    def test_returns_market_cap_in_billions_per_symbol(self, mocker):
+        mocker.patch(
+            "financial_analysis_agent.financial.sources.fmp_source.requests.get",
+            return_value=_mock_response(mocker, [{"symbol": "PL", "marketCap": 6_100_000_000},
+                                                 {"symbol": "MDB", "marketCap": None}]),
+        )
+
+        caps = FMPSource("test-key").get_market_caps(["PL", "MDB"])
+
+        assert caps == {"PL": 6.1}
+
+    def test_batches_requests(self, mocker):
+        get = mocker.patch(
+            "financial_analysis_agent.financial.sources.fmp_source.requests.get",
+            return_value=_mock_response(mocker, []),
+        )
+
+        FMPSource("test-key").get_market_caps(["A", "B", "C"], batch_size=2)
+
+        assert get.call_count == 2
+
+
 class TestGetIncomeStatement:
     def test_returns_dataframe_on_success(self, mocker):
         payload = [{"date": "2025-09-27", "period": "FY", "revenue": 416161000000,

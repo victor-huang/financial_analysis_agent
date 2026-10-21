@@ -8,6 +8,7 @@ import pytest
 from financial_analysis_agent.financial.earnings_price_context import (
     EarningsEvent,
     EarningsPriceContextCollector,
+    _annotate_surprise_history,
     _reaction_position,
 )
 
@@ -35,12 +36,14 @@ def fetcher(mocker):
     fetcher = mocker.Mock()
     bars = {"AAPL": _daily_bars(100.0), "XLK": _daily_bars(50.0), "SPY": _daily_bars(500.0)}
     fetcher.get_stock_data.side_effect = lambda symbol, **kwargs: bars[symbol].copy()
-    fetcher.get_company_info.return_value = {"sector": "Technology"}
+    fetcher.get_company_info.return_value = {"sector": "Technology", "market_cap": 3_500_000_000_000}
     fetcher.get_historical_earnings_calendar_fmp.return_value = _fmp_calendar(
         [
             {"announceDate": "2026-11-02", "releaseTime": "amc", "epsEstimate": 1.99, "epsActual": None},
-            {"announceDate": "2026-07-30", "releaseTime": "amc", "epsEstimate": 1.89, "epsActual": 2.02},
-            {"announceDate": "2026-04-29", "releaseTime": "bmo", "epsEstimate": 1.6, "epsActual": 1.7},
+            {"announceDate": "2026-07-30", "releaseTime": "amc", "epsEstimate": 1.89, "epsActual": 2.02,
+             "revenueEstimate": 100.0, "revenueActual": 110.0},
+            {"announceDate": "2026-04-29", "releaseTime": "bmo", "epsEstimate": 1.6, "epsActual": 1.7,
+             "revenueEstimate": 100.0, "revenueActual": 105.0},
         ]
     )
     fetcher.get_intraday_bars.return_value = pd.DataFrame(
@@ -99,6 +102,56 @@ class TestResolveEarningsEvents:
         assert upcoming is None
 
 
+def _history(*surprises):
+    """Events oldest first with (eps surprise %, revenue surprise %) against estimates of 1.0 and 100."""
+    return [EarningsEvent(date(2025, 1, 1) + timedelta(days=90 * i), "amc", eps_estimate=1.0, eps_actual=1 + e / 100,
+                          revenue_estimate=100.0, revenue_actual=100 + r) for i, (e, r) in enumerate(surprises)]
+
+
+class TestAnnotateSurpriseHistory:
+    def test_usual_surprise_is_median_of_previous_releases(self):
+        events = _history((10, 2), (20, 4), (30, 6), (5, 1))
+
+        _annotate_surprise_history(events)
+
+        assert events[3].usual_eps_surprise_pct == pytest.approx(20.0)
+        assert events[3].usual_revenue_surprise_pct == pytest.approx(4.0)
+
+    def test_needs_two_previous_releases_for_a_usual_surprise(self):
+        events = _history((10, 2), (20, 4))
+
+        _annotate_surprise_history(events)
+
+        assert events[1].usual_eps_surprise_pct is None
+
+    def test_caps_extreme_eps_surprises(self):
+        events = _history((900, 2), (900, 2), (0, 0))
+
+        _annotate_surprise_history(events)
+
+        assert events[2].usual_eps_surprise_pct == pytest.approx(100.0)
+
+    def test_beat_streak_counts_consecutive_double_beats_before_the_release(self):
+        events = _history((10, -1), (10, 2), (5, 1), (3, 3))
+
+        _annotate_surprise_history(events)
+
+        assert [e.prior_beat_streak for e in events] == [None, 0, 1, 2]
+
+    def test_beat_streak_is_unknown_when_previous_release_has_no_data(self):
+        events = _history((10, 2), (5, 1))
+        events[0].revenue_actual = None
+
+        _annotate_surprise_history(events)
+
+        assert events[1].prior_beat_streak is None
+
+    def test_resolve_events_annotates_history(self, collector):
+        past, _ = collector.resolve_earnings_events("AAPL")
+
+        assert past[0].prior_beat_streak == 1
+
+
 class TestReactionPosition:
     def test_before_open_release_reacts_on_release_date(self):
         pos = _reaction_position(SESSIONS, EarningsEvent(date(2026, 7, 30), "bmo"))
@@ -115,8 +168,32 @@ class TestReactionPosition:
 
         assert SESSIONS[pos].date() == date(2026, 8, 3)
 
+    def test_returns_none_when_first_session_is_long_after_release(self):
+        listed_later = pd.bdate_range("2026-06-12", "2026-07-31")
+
+        assert _reaction_position(listed_later, EarningsEvent(date(2026, 5, 20), "unknown")) is None
+
+    def test_allows_a_long_weekend_between_release_and_reaction(self):
+        sessions = pd.DatetimeIndex(["2026-08-28", "2026-09-01", "2026-09-02"])
+
+        pos = _reaction_position(sessions, EarningsEvent(date(2026, 8, 28), "amc"))
+
+        assert sessions[pos].date() == date(2026, 9, 1)
+
     def test_returns_none_when_reaction_session_not_yet_traded(self):
         assert _reaction_position(SESSIONS, EarningsEvent(date(2026, 10, 16), "amc")) is None
+
+
+class TestGetDailyBars:
+    def test_drops_repeated_sessions(self, collector, fetcher):
+        bars = _daily_bars(100.0)
+        repeated = pd.concat([bars, bars.iloc[[-1]].assign(close=999.0)])
+        fetcher.get_stock_data.side_effect = lambda symbol, **kwargs: repeated.copy()
+
+        daily = collector.get_daily_bars("AAPL")
+
+        assert daily.index.is_unique
+        assert daily["close"].iloc[-1] == 999.0
 
 
 class TestGetEarningsWindow:
@@ -263,6 +340,7 @@ class TestCollect:
         assert (out_dir / "earnings" / "2026-07-30" / "intraday_5min.csv").exists()
         manifest = json.loads((out_dir / "manifest.json").read_text())
         assert manifest["sector_etf"] == "XLK"
+        assert manifest["market_cap_b"] == 3500.0
         assert manifest["upcoming_earnings"]["release_date"] == "2026-11-02"
         assert len(manifest["earnings"]) == 2
 

@@ -241,6 +241,12 @@ class FinancialDataFetcher:
             return None
         return self.fmp_source.get_revenue_estimates(ticker, limit)
 
+    def get_market_caps(self, tickers: List[str]) -> Dict[str, float]:
+        """Current market capitalization in $B per ticker (FMP); empty when FMP is not configured."""
+        if not self.fmp_source:
+            return {}
+        return self.fmp_source.get_market_caps(tickers)
+
     def get_historical_earnings_calendar_fmp(self, ticker: str, limit: int = 20) -> Optional[pd.DataFrame]:
         """Fetch historical earnings calendar from FMP (includes EPS and revenue actuals)."""
         if not self.fmp_source:
