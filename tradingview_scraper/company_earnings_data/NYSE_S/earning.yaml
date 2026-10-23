@@ -1,0 +1,78 @@
+currency: USD
+company_name: SentinelOne, Inc.
+sector: Technology Services
+market_cap_billions: 7.85
+revenue:
+  quarterly:
+    Q3 2024: 210.65
+    Q4 2024: 225.52
+    Q1 2025: 229.03
+    Q2 2025: 242.18
+    Q3 2025: 258.91
+    Q4 2025: 271.15
+    Q1 2026: 276.66
+  annual:
+    2021 Yearly: 204.8
+    2022 Yearly: 422.18
+    2023 Yearly: 621.15
+    2024 Yearly: 821.46
+    2025 Yearly: 1000.0
+  quarterly_forecast:
+    Q3 2024: 209.75
+    Q4 2024: 222.24
+    Q1 2025: 228.36
+    Q2 2025: 242.16
+    Q3 2025: 256.16
+    Q4 2025: 271.16
+    Q1 2026: 277.32
+    Q2 2026: 290.24
+    Q3 2026: 309.43
+    Q4 2026: 324.0
+    Q1 2027: 328.33
+  annual_forecast:
+    2021 Yearly: 199.89
+    2022 Yearly: 420.92
+    2023 Yearly: 616.75
+    2024 Yearly: 818.32
+    2025 Yearly: 1000.0
+    2026 Yearly: 1200.0
+    2027 Yearly: 1410.0
+    2028 Yearly: 1640.0
+    2029 Yearly: 1920.0
+eps:
+  quarterly:
+    Q3 2024: 0.0
+    Q4 2024: 0.04
+    Q1 2025: 0.02
+    Q2 2025: 0.04
+    Q3 2025: 0.07
+    Q4 2025: 0.07
+    Q1 2026: 0.04
+  annual:
+    2021 Yearly: -1.03
+    2022 Yearly: -0.7
+    2023 Yearly: -0.28
+    2024 Yearly: 0.05
+    2025 Yearly: 0.2
+  quarterly_forecast:
+    Q3 2024: 0.01
+    Q4 2024: 0.01
+    Q1 2025: 0.02
+    Q2 2025: 0.03
+    Q3 2025: 0.05
+    Q4 2025: 0.06
+    Q1 2026: 0.02
+    Q2 2026: 0.07
+    Q3 2026: 0.11
+    Q4 2026: 0.13
+    Q1 2027: 0.09
+  annual_forecast:
+    2021 Yearly: -0.79
+    2022 Yearly: -0.72
+    2023 Yearly: -0.29
+    2024 Yearly: 0.02
+    2025 Yearly: 0.19
+    2026 Yearly: 0.35
+    2027 Yearly: 0.5
+    2028 Yearly: 0.72
+    2029 Yearly: 0.84

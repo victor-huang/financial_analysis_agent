@@ -1,0 +1,74 @@
+currency: USD
+company_name: IBEX Limited
+sector: Commercial Services
+market_cap_billions: 0.49727
+revenue:
+  quarterly:
+    Q1 2025: 129.72
+    Q2 2025: 140.68
+    Q3 2025: 140.74
+    Q4 2025: 147.14
+    Q1 2026: 151.18
+    Q2 2026: 164.22
+    Q3 2026: 164.41
+  annual:
+    2021 Yearly: 443.66
+    2022 Yearly: 493.57
+    2023 Yearly: 523.12
+    2024 Yearly: 508.57
+    2025 Yearly: 558.27
+  quarterly_forecast:
+    Q1 2025: 125.22
+    Q2 2025: 134.63
+    Q3 2025: 131.23
+    Q4 2025: 132.92
+    Q1 2026: 144.82
+    Q2 2026: 157.0
+    Q3 2026: 157.0
+    Q4 2026: 160.02
+    Q1 2027: 161.38
+    Q2 2027: 173.67
+    Q3 2027: 173.85
+  annual_forecast:
+    2022 Yearly: 446.09
+    2023 Yearly: 493.79
+    2024 Yearly: 524.83
+    2025 Yearly: 506.29
+    2026 Yearly: 544.09
+    2027 Yearly: 639.83
+eps:
+  quarterly:
+    Q1 2025: 0.52
+    Q2 2025: 0.59
+    Q3 2025: 0.82
+    Q4 2025: 0.87
+    Q1 2026: 0.9
+    Q2 2026: 0.87
+    Q3 2026: 0.91
+  annual:
+    2021 Yearly: 1.28
+    2022 Yearly: 1.35
+    2023 Yearly: 1.96
+    2024 Yearly: 2.1
+    2025 Yearly: 2.75
+  quarterly_forecast:
+    Q1 2025: 0.47
+    Q2 2025: 0.51
+    Q3 2025: 0.74
+    Q4 2025: 0.7
+    Q1 2026: 0.73
+    Q2 2026: 0.79
+    Q3 2026: 0.85
+    Q4 2026: 0.84
+    Q1 2027: 0.86
+    Q2 2027: 0.89
+    Q3 2027: 0.95
+  annual_forecast:
+    2021 Yearly: 1.12
+    2022 Yearly: 1.34
+    2023 Yearly: 2.05
+    2024 Yearly: 2.05
+    2025 Yearly: 2.58
+    2026 Yearly: 3.52
+    2027 Yearly: 3.63
+    2028 Yearly: 4.1

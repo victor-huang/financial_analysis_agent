@@ -1,0 +1,74 @@
+currency: USD
+company_name: Lakeland Industries, Inc.
+sector: Consumer Non-Durables
+market_cap_billions: 0.10934999999999999
+revenue:
+  quarterly:
+    Q3 2024: 45.76
+    Q4 2024: 46.6
+    Q1 2025: 46.75
+    Q2 2025: 52.5
+    Q3 2025: 47.59
+    Q4 2025: 45.8
+    Q1 2026: 47.42
+  annual:
+    2021 Yearly: 118.39
+    2022 Yearly: 112.8
+    2023 Yearly: 124.69
+    2024 Yearly: 167.21
+    2025 Yearly: 192.6
+  quarterly_forecast:
+    Q3 2024: 45.6
+    Q4 2024: 46.47
+    Q1 2025: 48.84
+    Q2 2025: 54.58
+    Q3 2025: 56.65
+    Q4 2025: 49.33
+    Q1 2026: 47.36
+    Q2 2026: 51.36
+    Q3 2026: 50.52
+    Q4 2026: 50.14
+    Q1 2027: 51.43
+  annual_forecast:
+    2021 Yearly: 121.44
+    2022 Yearly: 113.52
+    2023 Yearly: 126.0
+    2024 Yearly: 167.07
+    2025 Yearly: 196.19
+    2026 Yearly: 199.47
+    2027 Yearly: 217.39
+eps:
+  quarterly:
+    Q3 2024: 0.07
+    Q4 2024: -2.47
+    Q1 2025: -0.41
+    Q2 2025: 0.08
+    Q3 2025: -1.64
+    Q4 2025: -0.66
+    Q1 2026: 0.04
+  annual:
+    2021 Yearly: 1.41
+    2022 Yearly: 0.24
+    2023 Yearly: 0.72
+    2024 Yearly: -2.43
+    2025 Yearly: -2.63
+  quarterly_forecast:
+    Q3 2024: 0.18
+    Q4 2024: 0.38
+    Q1 2025: 0.19
+    Q2 2025: 0.08
+    Q3 2025: 0.26
+    Q4 2025: -0.22
+    Q1 2026: -0.16
+    Q2 2026: -0.06
+    Q3 2026: 0.03
+    Q4 2026: 0.03
+    Q1 2027: 0.03
+  annual_forecast:
+    2021 Yearly: 1.6
+    2022 Yearly: 0.56
+    2023 Yearly: 1.14
+    2024 Yearly: 0.43
+    2025 Yearly: -2.19
+    2026 Yearly: -0.28
+    2027 Yearly: 0.53

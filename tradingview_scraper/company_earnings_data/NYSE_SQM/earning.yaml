@@ -1,0 +1,78 @@
+currency: USD
+company_name: Sociedad Quimica y Minera S.A.
+sector: Process Industries
+market_cap_billions: 19.99
+revenue:
+  quarterly:
+    Q3 2024: 1080.0
+    Q4 2024: 1070.0
+    Q1 2025: 1040.0
+    Q2 2025: 1040.0
+    Q3 2025: 1170.0
+    Q4 2025: 1320.0
+    Q1 2026: 1760.0
+  annual:
+    2021 Yearly: 2860.0
+    2022 Yearly: 10710.0
+    2023 Yearly: 7470.0
+    2024 Yearly: 4530.0
+    2025 Yearly: 4580.0
+  quarterly_forecast:
+    Q3 2024: 1080.0
+    Q4 2024: 991.95
+    Q1 2025: 1020.0
+    Q2 2025: 1040.0
+    Q3 2025: 1170.0
+    Q4 2025: 1250.0
+    Q1 2026: 1690.0
+    Q2 2026: 2240.0
+    Q3 2026: 2360.0
+    Q4 2026: 2220.0
+    Q1 2027: 1890.0
+  annual_forecast:
+    2021 Yearly: 2680.0
+    2022 Yearly: 10580.0
+    2023 Yearly: 7580.0
+    2024 Yearly: 4460.0
+    2025 Yearly: 4520.0
+    2026 Yearly: 8230.0
+    2027 Yearly: 8140.000000000001
+    2028 Yearly: 8370.0
+    2029 Yearly: 7750.0
+eps:
+  quarterly:
+    Q3 2024: 0.46
+    Q4 2024: 0.42
+    Q1 2025: 0.48
+    Q2 2025: 0.31
+    Q3 2025: 0.62
+    Q4 2025: 0.64
+    Q1 2026: 1.28
+  annual:
+    2021 Yearly: 2.05
+    2022 Yearly: 13.68
+    2023 Yearly: 7.05
+    2024 Yearly: -1.42
+    2025 Yearly: 2.06
+  quarterly_forecast:
+    Q3 2024: 0.63
+    Q4 2024: 0.49
+    Q1 2025: 0.58
+    Q2 2025: 0.51
+    Q3 2025: 0.65
+    Q4 2025: 0.8
+    Q1 2026: 1.55
+    Q2 2026: 2.01
+    Q3 2026: 2.13
+    Q4 2026: 2.06
+    Q1 2027: 1.68
+  annual_forecast:
+    2021 Yearly: 1.8
+    2022 Yearly: 13.41
+    2023 Yearly: 7.9
+    2024 Yearly: -1.35
+    2025 Yearly: 2.19
+    2026 Yearly: 6.71
+    2027 Yearly: 6.93
+    2028 Yearly: 7.53
+    2029 Yearly: 4.91

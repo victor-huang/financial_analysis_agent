@@ -1,0 +1,74 @@
+currency: USD
+company_name: American Outdoor Brands, Inc.
+sector: Consumer Durables
+market_cap_billions: 0.12493000000000001
+revenue:
+  quarterly:
+    Q2 2024: 60.23
+    Q3 2024: 58.51
+    Q4 2024: 61.94
+    Q1 2025: 29.7
+    Q2 2025: 57.2
+    Q3 2025: 56.58
+    Q4 2025: 47.06
+  annual:
+    2021 Yearly: 247.53
+    2022 Yearly: 191.21
+    2023 Yearly: 201.1
+    2024 Yearly: 222.32
+    2025 Yearly: 190.54
+  quarterly_forecast:
+    Q2 2024: 53.23
+    Q3 2024: 56.24
+    Q4 2024: 48.46
+    Q1 2025: 35.77
+    Q2 2025: 50.92
+    Q3 2025: 53.81
+    Q4 2025: 48.44
+    Q1 2026: 35.64
+    Q2 2026: 59.65
+    Q3 2026: 59.81
+    Q4 2026: 49.9
+  annual_forecast:
+    2021 Yearly: 247.18
+    2022 Yearly: 188.28
+    2023 Yearly: 197.95
+    2024 Yearly: 208.85
+    2025 Yearly: 191.92
+    2026 Yearly: 205.05
+    2027 Yearly: 214.5
+eps:
+  quarterly:
+    Q2 2024: 0.37
+    Q3 2024: 0.21
+    Q4 2024: 0.13
+    Q1 2025: -0.26
+    Q2 2025: 0.29
+    Q3 2025: 0.12
+    Q4 2025: 0.13
+  annual:
+    2021 Yearly: 1.77
+    2022 Yearly: 0.48
+    2023 Yearly: 0.32
+    2024 Yearly: 0.76
+    2025 Yearly: 0.28
+  quarterly_forecast:
+    Q2 2024: 0.2
+    Q3 2024: 0.09
+    Q4 2024: -0.11
+    Q1 2025: -0.25
+    Q2 2025: 0.2
+    Q3 2025: 0.09
+    Q4 2025: -0.01
+    Q1 2026: -0.24
+    Q2 2026: 0.39
+    Q3 2026: 0.33
+    Q4 2026: 0.1
+  annual_forecast:
+    2021 Yearly: 1.68
+    2022 Yearly: 0.3
+    2023 Yearly: 0.27
+    2024 Yearly: 0.54
+    2025 Yearly: 0.14
+    2026 Yearly: 0.57
+    2027 Yearly: 0.8

@@ -1,0 +1,78 @@
+currency: USD
+company_name: HP Inc.
+sector: Technology Services
+market_cap_billions: 27.91
+revenue:
+  quarterly:
+    Q4 2024: 14050.0
+    Q1 2025: 13500.0
+    Q2 2025: 13220.0
+    Q3 2025: 13930.0
+    Q4 2025: 14640.0
+    Q1 2026: 14440.0
+    Q2 2026: 14410.0
+  annual:
+    2021 Yearly: 63490.0
+    2022 Yearly: 62980.0
+    2023 Yearly: 53720.0
+    2024 Yearly: 53560.0
+    2025 Yearly: 55300.0
+  quarterly_forecast:
+    Q4 2024: 13990.0
+    Q1 2025: 13390.0
+    Q2 2025: 13110.0
+    Q3 2025: 13690.0
+    Q4 2025: 14500.0
+    Q1 2026: 13940.0
+    Q2 2026: 13990.0
+    Q3 2026: 14440.0
+    Q4 2026: 14410.0
+    Q1 2027: 14340.0
+    Q2 2027: 14300.0
+  annual_forecast:
+    2021 Yearly: 62210.0
+    2022 Yearly: 62850.0
+    2023 Yearly: 53700.0
+    2024 Yearly: 53510.0
+    2025 Yearly: 55230.0
+    2026 Yearly: 57750.0
+    2027 Yearly: 57740.0
+    2028 Yearly: 57860.0
+    2029 Yearly: 60750.0
+eps:
+  quarterly:
+    Q4 2024: 0.93
+    Q1 2025: 0.74
+    Q2 2025: 0.71
+    Q3 2025: 0.75
+    Q4 2025: 0.93
+    Q1 2026: 0.81
+    Q2 2026: 0.86
+  annual:
+    2021 Yearly: 3.79
+    2022 Yearly: 4.08
+    2023 Yearly: 3.28
+    2024 Yearly: 3.38
+    2025 Yearly: 3.12
+  quarterly_forecast:
+    Q4 2024: 0.93
+    Q1 2025: 0.75
+    Q2 2025: 0.77
+    Q3 2025: 0.75
+    Q4 2025: 0.92
+    Q1 2026: 0.77
+    Q2 2026: 0.71
+    Q3 2026: 0.66
+    Q4 2026: 0.67
+    Q1 2027: 0.68
+    Q2 2027: 0.72
+  annual_forecast:
+    2021 Yearly: 3.73
+    2022 Yearly: 4.07
+    2023 Yearly: 3.29
+    2024 Yearly: 3.38
+    2025 Yearly: 3.11
+    2026 Yearly: 3.05
+    2027 Yearly: 3.01
+    2028 Yearly: 3.28
+    2029 Yearly: 3.74

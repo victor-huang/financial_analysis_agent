@@ -1,0 +1,76 @@
+currency: USD
+company_name: InnovAge Holding Corp.
+sector: Technology Services
+market_cap_billions: 1.43
+revenue:
+  quarterly:
+    Q2 2025: 209.0
+    Q3 2025: 218.14
+    Q4 2025: 221.42
+    Q1 2026: 236.1
+    Q2 2026: 239.71
+    Q3 2026: 251.94
+    Q4 2026: 261.95
+  annual:
+    2021 Yearly: 637.8
+    2022 Yearly: 698.64
+    2023 Yearly: 688.09
+    2024 Yearly: 763.86
+    2025 Yearly: 853.7
+  quarterly_forecast:
+    Q2 2025: 210.18
+    Q3 2025: 214.12
+    Q4 2025: 219.72
+    Q1 2026: 226.5
+    Q2 2026: 228.36
+    Q3 2026: 234.34
+    Q4 2026: 238.33
+    Q1 2027: 252.13
+    Q2 2027: 256.5
+    Q3 2027: 267.22
+    Q4 2027: 262.66
+  annual_forecast:
+    2021 Yearly: 633.89
+    2022 Yearly: 698.95
+    2023 Yearly: 686.11
+    2024 Yearly: 756.16
+    2025 Yearly: 852.01
+    2026 Yearly: 966.04
+    2027 Yearly: 1040.0
+    2028 Yearly: 1120.0
+eps:
+  quarterly:
+    Q2 2025: -0.1
+    Q3 2025: -0.08
+    Q4 2025: -0.01
+    Q1 2026: 0.06
+    Q2 2026: 0.08
+    Q3 2026: -0.22
+    Q4 2026: 0.06
+  annual:
+    2021 Yearly: -0.36
+    2022 Yearly: -0.05
+    2023 Yearly: -0.3
+    2024 Yearly: -0.16
+    2025 Yearly: -0.22
+  quarterly_forecast:
+    Q2 2025: -0.01
+    Q3 2025: -0.01
+    Q4 2025: -0.01
+    Q1 2026: 0.02
+    Q2 2026: 0.04
+    Q3 2026: 0.06
+    Q4 2026: 0.07
+    Q1 2027: 0.09
+    Q2 2027: 0.1
+    Q3 2027: 0.13
+    Q4 2027: 0.07
+  annual_forecast:
+    2021 Yearly: -0.24
+    2022 Yearly: 0.06
+    2023 Yearly: -0.26
+    2024 Yearly: -0.17
+    2025 Yearly: -0.17
+    2026 Yearly: -0.01
+    2027 Yearly: 0.44
+    2028 Yearly: 0.49

@@ -1,0 +1,76 @@
+currency: USD
+company_name: Tuya Inc.
+sector: Technology Services
+market_cap_billions: 1.06
+revenue:
+  quarterly:
+    Q3 2024: 81.62
+    Q4 2024: 82.06
+    Q1 2025: 74.69
+    Q2 2025: 80.13
+    Q3 2025: 82.49
+    Q4 2025: 84.49
+    Q1 2026: 80.88
+  annual:
+    2021 Yearly: 302.08
+    2022 Yearly: 208.17
+    2023 Yearly: 229.98
+    2024 Yearly: 298.62
+    2025 Yearly: 321.79
+  quarterly_forecast:
+    Q3 2024: 75.49
+    Q4 2024: 79.7
+    Q1 2025: 73.05
+    Q2 2025: 78.44
+    Q3 2025: 81.62
+    Q4 2025: 79.53
+    Q1 2026: 80.67
+    Q2 2026: 87.83
+    Q3 2026: 90.73
+    Q4 2026: 92.9
+  annual_forecast:
+    2021 Yearly: 301.84
+    2022 Yearly: 207.45
+    2023 Yearly: 227.34
+    2024 Yearly: 297.51
+    2025 Yearly: 318.58
+    2026 Yearly: 354.0
+    2027 Yearly: 382.21
+    2028 Yearly: 454.42
+    2029 Yearly: 502.88
+eps:
+  quarterly:
+    Q3 2024: 0.04
+    Q4 2024: 0.04
+    Q1 2025: 0.03
+    Q2 2025: 0.03
+    Q3 2025: 0.03
+    Q4 2025: 0.03
+    Q1 2026: 0.03
+  annual:
+    2021 Yearly: -0.22
+    2022 Yearly: -0.14
+    2023 Yearly: 0.03
+    2024 Yearly: 0.13
+    2025 Yearly: 0.13
+  quarterly_forecast:
+    Q3 2024: 0.03
+    Q4 2024: 0.03
+    Q1 2025: 0.02
+    Q2 2025: 0.03
+    Q3 2025: 0.03
+    Q4 2025: 0.03
+    Q1 2026: 0.03
+    Q2 2026: 0.03
+    Q3 2026: 0.03
+    Q4 2026: 0.03
+  annual_forecast:
+    2021 Yearly: -0.34
+    2022 Yearly: -0.15
+    2023 Yearly: 0.03
+    2024 Yearly: 0.12
+    2025 Yearly: 0.13
+    2026 Yearly: 0.11
+    2027 Yearly: 0.12
+    2028 Yearly: 0.15
+    2029 Yearly: 0.18

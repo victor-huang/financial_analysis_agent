@@ -1,0 +1,78 @@
+currency: USD
+company_name: Broadcom Inc.
+sector: Electronic Technology
+market_cap_billions: 1750.0
+revenue:
+  quarterly:
+    Q1 2025: 14920.0
+    Q2 2025: 15000.0
+    Q3 2025: 15950.0
+    Q4 2025: 18020.0
+    Q1 2026: 19310.0
+    Q2 2026: 22190.0
+    Q3 2026: 29590.0
+  annual:
+    2021 Yearly: 27450.0
+    2022 Yearly: 33200.0
+    2023 Yearly: 35820.0
+    2024 Yearly: 51570.0
+    2025 Yearly: 63890.0
+  quarterly_forecast:
+    Q1 2025: 14620.0
+    Q2 2025: 14960.0
+    Q3 2025: 15830.0
+    Q4 2025: 17470.0
+    Q1 2026: 19260.0
+    Q2 2026: 22130.0
+    Q3 2026: 29240.0
+    Q4 2026: 34680.0
+    Q1 2027: 36920.0
+    Q2 2027: 40730.0
+    Q3 2027: 44820.0
+  annual_forecast:
+    2021 Yearly: 27400.0
+    2022 Yearly: 33180.0
+    2023 Yearly: 35810.0
+    2024 Yearly: 51670.0
+    2025 Yearly: 63400.0
+    2026 Yearly: 105750.0
+    2027 Yearly: 175620.0
+    2028 Yearly: 236100.0
+    2029 Yearly: 290280.0
+eps:
+  quarterly:
+    Q1 2025: 1.6
+    Q2 2025: 1.58
+    Q3 2025: 1.69
+    Q4 2025: 1.95
+    Q1 2026: 2.05
+    Q2 2026: 2.44
+    Q3 2026: 3.32
+  annual:
+    2021 Yearly: 2.8
+    2022 Yearly: 3.76
+    2023 Yearly: 4.22
+    2024 Yearly: 4.87
+    2025 Yearly: 6.82
+  quarterly_forecast:
+    Q1 2025: 1.51
+    Q2 2025: 1.57
+    Q3 2025: 1.66
+    Q4 2025: 1.87
+    Q1 2026: 2.03
+    Q2 2026: 2.4
+    Q3 2026: 3.22
+    Q4 2026: 3.85
+    Q1 2027: 4.11
+    Q2 2027: 4.52
+    Q3 2027: 5.06
+  annual_forecast:
+    2021 Yearly: 2.79
+    2022 Yearly: 3.75
+    2023 Yearly: 4.21
+    2024 Yearly: 4.84
+    2025 Yearly: 6.75
+    2026 Yearly: 11.6
+    2027 Yearly: 19.56
+    2028 Yearly: 26.38
+    2029 Yearly: 32.32

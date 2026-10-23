@@ -1,0 +1,78 @@
+currency: USD
+company_name: La-Z-Boy Incorporated
+sector: Consumer Durables
+market_cap_billions: 1.63
+revenue:
+  quarterly:
+    Q2 2024: 521.03
+    Q3 2024: 521.78
+    Q4 2024: 570.87
+    Q1 2025: 492.23
+    Q2 2025: 522.48
+    Q3 2025: 541.59
+    Q4 2025: 570.34
+  annual:
+    2021 Yearly: 2360.0
+    2022 Yearly: 2350.0
+    2023 Yearly: 2050.0
+    2024 Yearly: 2110.0
+    2025 Yearly: 2130.0
+  quarterly_forecast:
+    Q2 2024: 505.98
+    Q3 2024: 516.47
+    Q4 2024: 557.44
+    Q1 2025: 490.6
+    Q2 2025: 517.61
+    Q3 2025: 535.43
+    Q4 2025: 569.23
+    Q1 2026: 501.44
+    Q2 2026: 536.79
+    Q3 2026: 548.34
+    Q4 2026: 582.11
+  annual_forecast:
+    2021 Yearly: 2340.0
+    2022 Yearly: 2320.0
+    2023 Yearly: 2009.9999999999998
+    2024 Yearly: 2100.0
+    2025 Yearly: 2130.0
+    2026 Yearly: 2170.0
+    2027 Yearly: 2240.0
+    2028 Yearly: 2260.0
+    2029 Yearly: 2330.0
+eps:
+  quarterly:
+    Q2 2024: 0.71
+    Q3 2024: 0.68
+    Q4 2024: 0.92
+    Q1 2025: 0.47
+    Q2 2025: 0.71
+    Q3 2025: 0.61
+    Q4 2025: 1.26
+  annual:
+    2021 Yearly: 3.11
+    2022 Yearly: 3.86
+    2023 Yearly: 2.98
+    2024 Yearly: 2.92
+    2025 Yearly: 3.04
+  quarterly_forecast:
+    Q2 2024: 0.64
+    Q3 2024: 0.67
+    Q4 2024: 0.93
+    Q1 2025: 0.53
+    Q2 2025: 0.54
+    Q3 2025: 0.59
+    Q4 2025: 0.82
+    Q1 2026: 0.49
+    Q2 2026: 0.72
+    Q3 2026: 0.7
+    Q4 2026: 1.04
+  annual_forecast:
+    2021 Yearly: 2.97
+    2022 Yearly: 3.59
+    2023 Yearly: 2.73
+    2024 Yearly: 2.95
+    2025 Yearly: 2.6
+    2026 Yearly: 2.94
+    2027 Yearly: 3.3
+    2028 Yearly: 3.62
+    2029 Yearly: 3.94

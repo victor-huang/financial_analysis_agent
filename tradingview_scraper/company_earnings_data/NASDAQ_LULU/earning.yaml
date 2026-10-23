@@ -1,0 +1,78 @@
+currency: USD
+company_name: lululemon athletica inc.
+sector: Consumer Non-Durables
+market_cap_billions: 14.47
+revenue:
+  quarterly:
+    Q3 2024: 2400.0
+    Q4 2024: 3610.0
+    Q1 2025: 2370.0
+    Q2 2025: 2530.0
+    Q3 2025: 2570.0
+    Q4 2025: 3640.0
+    Q1 2026: 2470.0
+  annual:
+    2021 Yearly: 6260.0
+    2022 Yearly: 8109.999999999999
+    2023 Yearly: 9620.0
+    2024 Yearly: 10590.0
+    2025 Yearly: 11100.0
+  quarterly_forecast:
+    Q3 2024: 2360.0
+    Q4 2024: 3580.0
+    Q1 2025: 2360.0
+    Q2 2025: 2530.0
+    Q3 2025: 2480.0
+    Q4 2025: 3580.0
+    Q1 2026: 2440.0
+    Q2 2026: 2460.0
+    Q3 2026: 2530.0
+    Q4 2026: 3550.0
+    Q1 2027: 2490.0
+  annual_forecast:
+    2021 Yearly: 6260.0
+    2022 Yearly: 8029.999999999999
+    2023 Yearly: 9610.0
+    2024 Yearly: 10550.0
+    2025 Yearly: 11040.0
+    2026 Yearly: 11030.0
+    2027 Yearly: 11310.0
+    2028 Yearly: 11860.0
+    2029 Yearly: 12900.0
+eps:
+  quarterly:
+    Q3 2024: 2.87
+    Q4 2024: 6.14
+    Q1 2025: 2.6
+    Q2 2025: 3.1
+    Q3 2025: 2.59
+    Q4 2025: 5.01
+    Q1 2026: 1.69
+  annual:
+    2021 Yearly: 7.79
+    2022 Yearly: 10.07
+    2023 Yearly: 12.77
+    2024 Yearly: 14.64
+    2025 Yearly: 13.26
+  quarterly_forecast:
+    Q3 2024: 2.71
+    Q4 2024: 5.85
+    Q1 2025: 2.58
+    Q2 2025: 2.91
+    Q3 2025: 2.22
+    Q4 2025: 4.79
+    Q1 2026: 1.68
+    Q2 2026: 1.79
+    Q3 2026: 2.4
+    Q4 2026: 4.97
+    Q1 2027: 1.68
+  annual_forecast:
+    2021 Yearly: 7.69
+    2022 Yearly: 9.9
+    2023 Yearly: 12.49
+    2024 Yearly: 14.35
+    2025 Yearly: 13.05
+    2026 Yearly: 10.84
+    2027 Yearly: 11.18
+    2028 Yearly: 12.06
+    2029 Yearly: 12.79

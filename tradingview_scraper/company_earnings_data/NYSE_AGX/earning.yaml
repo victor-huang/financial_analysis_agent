@@ -1,0 +1,78 @@
+currency: USD
+company_name: Argan, Inc.
+sector: Industrial Services
+market_cap_billions: 5.75
+revenue:
+  quarterly:
+    Q4 2024: 232.47
+    Q1 2025: 193.66
+    Q2 2025: 237.74
+    Q3 2025: 251.15
+    Q4 2025: 262.05
+    Q1 2026: 290.95
+    Q2 2026: 383.98
+  annual:
+    2021 Yearly: 509.37
+    2022 Yearly: 455.04
+    2023 Yearly: 573.33
+    2024 Yearly: 874.18
+    2025 Yearly: 944.61
+  quarterly_forecast:
+    Q4 2024: 197.5
+    Q1 2025: 193.75
+    Q2 2025: 243.88
+    Q3 2025: 263.84
+    Q4 2025: 255.32
+    Q1 2026: 256.03
+    Q2 2026: 300.53
+    Q3 2026: 335.29
+    Q4 2026: 352.5
+    Q1 2027: 362.37
+    Q2 2027: 373.2
+  annual_forecast:
+    2021 Yearly: 503.15
+    2022 Yearly: 458.7
+    2023 Yearly: 570.85
+    2024 Yearly: 839.2
+    2025 Yearly: 941.02
+    2026 Yearly: 1280.0
+    2027 Yearly: 1600.0
+    2028 Yearly: 1860.0
+    2029 Yearly: 1800.0
+eps:
+  quarterly:
+    Q4 2024: 2.22
+    Q1 2025: 1.6
+    Q2 2025: 2.5
+    Q3 2025: 2.17
+    Q4 2025: 3.47
+    Q1 2026: 3.24
+    Q2 2026: 3.76
+  annual:
+    2021 Yearly: 2.27
+    2022 Yearly: 2.33
+    2023 Yearly: 2.39
+    2024 Yearly: 6.15
+    2025 Yearly: 9.74
+  quarterly_forecast:
+    Q4 2024: 1.15
+    Q1 2025: 1.09
+    Q2 2025: 1.64
+    Q3 2025: 2.04
+    Q4 2025: 1.98
+    Q1 2026: 2.31
+    Q2 2026: 2.64
+    Q3 2026: 2.94
+    Q4 2026: 3.19
+    Q1 2027: 3.2
+    Q2 2027: 3.09
+  annual_forecast:
+    2021 Yearly: 2.51
+    2022 Yearly: 2.06
+    2023 Yearly: 2.25
+    2024 Yearly: 5.05
+    2025 Yearly: 8.38
+    2026 Yearly: 11.97
+    2027 Yearly: 15.42
+    2028 Yearly: 19.52
+    2029 Yearly: 16.78

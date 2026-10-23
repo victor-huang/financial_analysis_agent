@@ -1,0 +1,76 @@
+currency: USD
+company_name: Braze, Inc.
+sector: Technology Services
+market_cap_billions: 3.41
+revenue:
+  quarterly:
+    Q4 2024: 160.4
+    Q1 2025: 162.06
+    Q2 2025: 180.11
+    Q3 2025: 190.84
+    Q4 2025: 205.17
+    Q1 2026: 211.0
+    Q2 2026: 227.23
+  annual:
+    2021 Yearly: 238.03
+    2022 Yearly: 355.43
+    2023 Yearly: 471.8
+    2024 Yearly: 593.41
+    2025 Yearly: 738.18
+  quarterly_forecast:
+    Q4 2024: 155.7
+    Q1 2025: 158.62
+    Q2 2025: 171.61
+    Q3 2025: 184.62
+    Q4 2025: 198.24
+    Q1 2026: 205.19
+    Q2 2026: 220.27
+    Q3 2026: 227.47
+    Q4 2026: 239.41
+    Q1 2027: 246.59
+    Q2 2027: 256.8
+  annual_forecast:
+    2021 Yearly: 233.13
+    2022 Yearly: 352.59
+    2023 Yearly: 465.69
+    2024 Yearly: 588.71
+    2025 Yearly: 731.58
+    2026 Yearly: 898.17
+    2027 Yearly: 1050.0
+    2028 Yearly: 1230.0
+    2029 Yearly: 1330.0
+eps:
+  quarterly:
+    Q4 2024: 0.12
+    Q1 2025: 0.07
+    Q2 2025: 0.15
+    Q3 2025: 0.06
+    Q4 2025: 0.1
+    Q1 2026: 0.1
+    Q2 2026: 0.19
+  annual:
+    2021 Yearly: -0.85
+    2022 Yearly: -0.64
+    2023 Yearly: -0.25
+    2024 Yearly: 0.17
+    2025 Yearly: 0.38
+  quarterly_forecast:
+    Q4 2024: 0.05
+    Q1 2025: 0.05
+    Q2 2025: 0.03
+    Q3 2025: 0.06
+    Q4 2025: 0.14
+    Q1 2026: 0.1
+    Q2 2026: 0.16
+    Q3 2026: 0.16
+    Q4 2026: 0.21
+    Q1 2027: 0.19
+    Q2 2027: 0.24
+  annual_forecast:
+    2022 Yearly: -0.91
+    2023 Yearly: -0.69
+    2024 Yearly: -0.26
+    2025 Yearly: 0.11
+    2026 Yearly: 0.42
+    2027 Yearly: 0.63
+    2028 Yearly: 0.97

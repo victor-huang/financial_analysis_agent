@@ -1,0 +1,78 @@
+currency: USD
+company_name: Okta, Inc.
+sector: Technology Services
+market_cap_billions: 23.44
+revenue:
+  quarterly:
+    Q3 2024: 665.0
+    Q4 2024: 682.0
+    Q1 2025: 688.0
+    Q2 2025: 728.0
+    Q3 2025: 742.0
+    Q4 2025: 761.0
+    Q1 2026: 765.0
+  annual:
+    2021 Yearly: 1300.0
+    2022 Yearly: 1860.0
+    2023 Yearly: 2260.0
+    2024 Yearly: 2610.0
+    2025 Yearly: 2920.0
+  quarterly_forecast:
+    Q3 2024: 649.74
+    Q4 2024: 668.91
+    Q1 2025: 680.28
+    Q2 2025: 712.26
+    Q3 2025: 730.82
+    Q4 2025: 749.52
+    Q1 2026: 751.84
+    Q2 2026: 793.0
+    Q3 2026: 808.11
+    Q4 2026: 832.8
+    Q1 2027: 835.51
+  annual_forecast:
+    2021 Yearly: 1280.0
+    2022 Yearly: 1840.0
+    2023 Yearly: 2250.0
+    2024 Yearly: 2600.0
+    2025 Yearly: 2910.0
+    2026 Yearly: 3200.0
+    2027 Yearly: 3500.0
+    2028 Yearly: 3860.0
+    2029 Yearly: 4100.0
+eps:
+  quarterly:
+    Q3 2024: 0.67
+    Q4 2024: 0.78
+    Q1 2025: 0.86
+    Q2 2025: 0.91
+    Q3 2025: 0.82
+    Q4 2025: 0.9
+    Q1 2026: 0.91
+  annual:
+    2021 Yearly: -0.46
+    2022 Yearly: -0.04
+    2023 Yearly: 1.6
+    2024 Yearly: 2.81
+    2025 Yearly: 3.5
+  quarterly_forecast:
+    Q3 2024: 0.58
+    Q4 2024: 0.74
+    Q1 2025: 0.77
+    Q2 2025: 0.85
+    Q3 2025: 0.76
+    Q4 2025: 0.85
+    Q1 2026: 0.85
+    Q2 2026: 0.97
+    Q3 2026: 0.94
+    Q4 2026: 1.03
+    Q1 2027: 1.0
+  annual_forecast:
+    2021 Yearly: -0.52
+    2022 Yearly: -0.26
+    2023 Yearly: 1.48
+    2024 Yearly: 2.77
+    2025 Yearly: 3.44
+    2026 Yearly: 3.85
+    2027 Yearly: 4.27
+    2028 Yearly: 4.78
+    2029 Yearly: 4.9

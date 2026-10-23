@@ -1,0 +1,68 @@
+currency: USD
+company_name: Rubrik, Inc.
+sector: Technology Services
+market_cap_billions: 21.94
+revenue:
+  quarterly:
+    Q3 2024: 236.18
+    Q4 2024: 258.1
+    Q1 2025: 278.48
+    Q2 2025: 309.86
+    Q3 2025: 350.17
+    Q4 2025: 377.68
+    Q1 2026: 387.07
+  annual:
+    2023 Yearly: 627.9
+    2024 Yearly: 886.54
+    2025 Yearly: 1320.0
+  quarterly_forecast:
+    Q3 2024: 217.5
+    Q4 2024: 233.11
+    Q1 2025: 260.37
+    Q2 2025: 282.25
+    Q3 2025: 320.48
+    Q4 2025: 342.34
+    Q1 2026: 366.31
+    Q2 2026: 396.3
+    Q3 2026: 418.28
+    Q4 2026: 442.81
+    Q1 2027: 460.52
+  annual_forecast:
+    2024 Yearly: 861.54
+    2025 Yearly: 1280.0
+    2026 Yearly: 1640.0
+    2027 Yearly: 2000.0
+    2028 Yearly: 2420.0
+    2029 Yearly: 2810.0
+eps:
+  quarterly:
+    Q3 2024: -0.21
+    Q4 2024: -0.18
+    Q1 2025: -0.15
+    Q2 2025: -0.03
+    Q3 2025: 0.1
+    Q4 2025: 0.04
+    Q1 2026: 0.16
+  annual:
+    2023 Yearly: -5.72
+    2024 Yearly: -1.57
+    2025 Yearly: -0.01
+  quarterly_forecast:
+    Q3 2024: -0.4
+    Q4 2024: -0.39
+    Q1 2025: -0.32
+    Q2 2025: -0.34
+    Q3 2025: -0.17
+    Q4 2025: -0.11
+    Q1 2026: -0.03
+    Q2 2026: 0.04
+    Q3 2026: 0.06
+    Q4 2026: 0.06
+    Q1 2027: 0.14
+  annual_forecast:
+    2024 Yearly: -1.84
+    2025 Yearly: -0.17
+    2026 Yearly: 0.31
+    2027 Yearly: 0.64
+    2028 Yearly: 1.08
+    2029 Yearly: 1.48

@@ -1,0 +1,74 @@
+currency: null
+company_name: Concrete Pumping Holdings, Inc.
+sector: Industrial Services
+market_cap_billions: 0.45404
+revenue:
+  quarterly:
+    Q4 2024: 111.48
+    Q1 2025: 86.45
+    Q2 2025: 93.96
+    Q3 2025: 103.68
+    Q4 2025: 108.79
+    Q1 2026: 90.56
+    Q2 2026: 106.8
+  annual:
+    2021 Yearly: 315.81
+    2022 Yearly: 401.29
+    2023 Yearly: 442.24
+    2024 Yearly: 425.87
+    2025 Yearly: 392.87
+  quarterly_forecast:
+    Q4 2024: 115.35
+    Q1 2025: 91.09
+    Q2 2025: 98.52
+    Q3 2025: 99.76
+    Q4 2025: 103.3
+    Q1 2026: 84.82
+    Q2 2026: 96.71
+    Q3 2026: 110.19
+    Q4 2026: 113.58
+    Q1 2027: 93.45
+    Q2 2027: 110.38
+  annual_forecast:
+    2021 Yearly: 310.93
+    2022 Yearly: 389.8
+    2023 Yearly: 441.68
+    2024 Yearly: 436.07
+    2025 Yearly: 387.35
+    2026 Yearly: 421.11
+    2027 Yearly: 445.37
+eps:
+  quarterly:
+    Q4 2024: 0.16
+    Q1 2025: -0.06
+    Q2 2025: -0.01
+    Q3 2025: 0.07
+    Q4 2025: 0.09
+    Q1 2026: -0.06
+    Q2 2026: 0.04
+  annual:
+    2021 Yearly: -0.31
+    2022 Yearly: 0.47
+    2023 Yearly: 0.54
+    2024 Yearly: 0.26
+    2025 Yearly: 0.09
+  quarterly_forecast:
+    Q4 2024: 0.16
+    Q1 2025: -0.01
+    Q2 2025: 0.05
+    Q3 2025: 0.06
+    Q4 2025: 0.09
+    Q1 2026: -0.08
+    Q2 2026: 0.0
+    Q3 2026: 0.08
+    Q4 2026: 0.1
+    Q1 2027: -0.05
+    Q2 2027: 0.05
+  annual_forecast:
+    2021 Yearly: -0.27
+    2022 Yearly: 0.46
+    2023 Yearly: 0.53
+    2024 Yearly: 0.34
+    2025 Yearly: 0.08
+    2026 Yearly: 0.17
+    2027 Yearly: 0.27

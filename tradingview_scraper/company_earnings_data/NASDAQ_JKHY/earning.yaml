@@ -1,0 +1,76 @@
+currency: USD
+company_name: Jack Henry & Associates, Inc.
+sector: Technology Services
+market_cap_billions: 10.88
+revenue:
+  quarterly:
+    Q1 2025: 600.98
+    Q2 2025: 573.85
+    Q3 2025: 585.09
+    Q4 2025: 615.37
+    Q1 2026: 644.74
+    Q2 2026: 619.33
+    Q3 2026: 636.25
+  annual:
+    2021 Yearly: 1760.0
+    2022 Yearly: 1940.0
+    2023 Yearly: 2080.0
+    2024 Yearly: 2220.0
+    2025 Yearly: 2380.0
+  quarterly_forecast:
+    Q1 2025: 599.56
+    Q2 2025: 576.31
+    Q3 2025: 587.28
+    Q4 2025: 604.53
+    Q1 2026: 635.95
+    Q2 2026: 609.76
+    Q3 2026: 619.67
+    Q4 2026: 631.6
+    Q1 2027: 680.56
+    Q2 2027: 657.47
+    Q3 2027: 665.22
+  annual_forecast:
+    2021 Yearly: 1750.0
+    2022 Yearly: 1940.0
+    2023 Yearly: 2060.0
+    2024 Yearly: 2220.0
+    2025 Yearly: 2370.0
+    2026 Yearly: 2530.0
+    2027 Yearly: 2680.0
+    2028 Yearly: 2850.0
+eps:
+  quarterly:
+    Q1 2025: 1.63
+    Q2 2025: 1.34
+    Q3 2025: 1.52
+    Q4 2025: 1.75
+    Q1 2026: 1.97
+    Q2 2026: 1.72
+    Q3 2026: 1.71
+  annual:
+    2021 Yearly: 4.12
+    2022 Yearly: 4.94
+    2023 Yearly: 5.02
+    2024 Yearly: 5.23
+    2025 Yearly: 6.24
+  quarterly_forecast:
+    Q1 2025: 1.61
+    Q2 2025: 1.32
+    Q3 2025: 1.37
+    Q4 2025: 1.58
+    Q1 2026: 1.71
+    Q2 2026: 1.43
+    Q3 2026: 1.48
+    Q4 2026: 1.47
+    Q1 2027: 2.05
+    Q2 2027: 1.78
+    Q3 2027: 1.74
+  annual_forecast:
+    2021 Yearly: 4.01
+    2022 Yearly: 4.84
+    2023 Yearly: 4.86
+    2024 Yearly: 5.17
+    2025 Yearly: 6.07
+    2026 Yearly: 6.84
+    2027 Yearly: 7.24
+    2028 Yearly: 7.88

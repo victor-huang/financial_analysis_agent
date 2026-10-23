@@ -1,0 +1,78 @@
+currency: USD
+company_name: STRATTEC SECURITY CORPORATION
+sector: Producer Manufacturing
+market_cap_billions: 0.32589999999999997
+revenue:
+  quarterly:
+    Q1 2025: 139.05
+    Q2 2025: 129.92
+    Q3 2025: 144.08
+    Q4 2025: 152.01
+    Q1 2026: 152.4
+    Q2 2026: 137.53
+    Q3 2026: 137.63
+  annual:
+    2021 Yearly: 485.3
+    2022 Yearly: 452.26
+    2023 Yearly: 492.95
+    2024 Yearly: 537.77
+    2025 Yearly: 565.07
+  quarterly_forecast:
+    Q1 2025: 139.32
+    Q2 2025: 125.16
+    Q3 2025: 140.84
+    Q4 2025: 143.51
+    Q1 2026: 144.87
+    Q2 2026: 132.29
+    Q3 2026: 140.35
+    Q4 2026: 146.77
+    Q1 2027: 148.1
+    Q2 2027: 136.76
+    Q3 2027: 142.77
+  annual_forecast:
+    2021 Yearly: 492.8
+    2022 Yearly: 445.6
+    2023 Yearly: 485.76
+    2024 Yearly: 526.7
+    2025 Yearly: 560.2
+    2026 Yearly: 574.55
+    2027 Yearly: 579.44
+    2028 Yearly: 600.76
+    2029 Yearly: 723.39
+eps:
+  quarterly:
+    Q1 2025: 0.92
+    Q2 2025: 0.65
+    Q3 2025: 1.5
+    Q4 2025: 2.06
+    Q1 2026: 2.22
+    Q2 2026: 1.71
+    Q3 2026: 0.9
+  annual:
+    2021 Yearly: 5.85
+    2022 Yearly: 1.8
+    2023 Yearly: -1.7
+    2024 Yearly: 4.07
+    2025 Yearly: 5.38
+  quarterly_forecast:
+    Q1 2025: 0.56
+    Q2 2025: 0.28
+    Q3 2025: 0.95
+    Q4 2025: 1.07
+    Q1 2026: 1.47
+    Q2 2026: 1.04
+    Q3 2026: 1.22
+    Q4 2026: 1.36
+    Q1 2027: 1.54
+    Q2 2027: 1.25
+    Q3 2027: 1.3
+  annual_forecast:
+    2021 Yearly: 6.14
+    2022 Yearly: 2.51
+    2023 Yearly: -1.21
+    2024 Yearly: 0.59
+    2025 Yearly: 4.22
+    2026 Yearly: 6.19
+    2027 Yearly: 5.63
+    2028 Yearly: 6.03
+    2029 Yearly: 8.05

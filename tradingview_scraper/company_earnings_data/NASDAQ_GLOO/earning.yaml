@@ -1,0 +1,48 @@
+currency: USD
+company_name: Gloo Holdings, Inc.
+sector: Technology Services
+market_cap_billions: 0.28426
+revenue:
+  quarterly:
+    Q2 2025: 16.17
+    Q3 2025: 32.55
+    Q4 2025: 33.63
+    Q1 2026: 41.53
+  annual:
+    2025 Yearly: 94.66
+  quarterly_forecast:
+    Q3 2025: 23.95
+    Q4 2025: 31.57
+    Q1 2026: 36.02
+    Q2 2026: 44.07
+    Q3 2026: 51.23
+    Q4 2026: 58.25
+    Q1 2027: 63.35
+  annual_forecast:
+    2025 Yearly: 92.59
+    2026 Yearly: 195.09
+    2027 Yearly: 284.4
+    2028 Yearly: 342.34
+    2029 Yearly: 416.66
+eps:
+  quarterly:
+    Q2 2025: -5.28
+    Q3 2025: -4.71
+    Q4 2025: -0.78
+    Q1 2026: -0.22
+  annual:
+    2025 Yearly: -7.12
+  quarterly_forecast:
+    Q3 2025: -5.49
+    Q4 2025: -0.45
+    Q1 2026: -0.21
+    Q2 2026: -0.17
+    Q3 2026: -0.12
+    Q4 2026: -0.06
+    Q1 2027: -0.09
+  annual_forecast:
+    2025 Yearly: -9.3
+    2026 Yearly: -0.56
+    2027 Yearly: -0.11
+    2028 Yearly: 0.26
+    2029 Yearly: 0.48

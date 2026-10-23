@@ -1,0 +1,76 @@
+currency: USD
+company_name: ZTO Express (Cayman) Inc.
+sector: Transportation
+market_cap_billions: 17.14
+revenue:
+  quarterly:
+    Q3 2024: 1520.0
+    Q4 2024: 1770.0
+    Q1 2025: 1500.0
+    Q2 2025: 1650.0
+    Q3 2025: 1670.0
+    Q4 2025: 2070.0
+    Q1 2026: 1930.0
+  annual:
+    2021 Yearly: 4790.0
+    2022 Yearly: 5130.0
+    2023 Yearly: 5410.0
+    2024 Yearly: 6060.0
+    2025 Yearly: 7020.0
+  quarterly_forecast:
+    Q3 2024: 1480.0
+    Q4 2024: 1610.0
+    Q1 2025: 1670.0
+    Q2 2025: 1700.0
+    Q3 2025: 1660.0
+    Q4 2025: 2050.0
+    Q1 2026: 1840.0
+    Q2 2026: 2150.0
+    Q3 2026: 2050.0
+    Q4 2026: 2480.0
+    Q1 2027: 2220.0
+  annual_forecast:
+    2021 Yearly: 4830.0
+    2022 Yearly: 5170.0
+    2023 Yearly: 5540.0
+    2024 Yearly: 5890.0
+    2025 Yearly: 6950.0
+    2026 Yearly: 8540.0
+    2027 Yearly: 9370.0
+    2028 Yearly: 10190.0
+eps:
+  quarterly:
+    Q3 2024: 0.41
+    Q4 2024: 0.4
+    Q1 2025: 0.34
+    Q2 2025: 0.33
+    Q3 2025: 0.44
+    Q4 2025: 0.47
+    Q1 2026: 0.39
+  annual:
+    2021 Yearly: 0.96
+    2022 Yearly: 1.21
+    2023 Yearly: 1.49
+    2024 Yearly: 1.47
+    2025 Yearly: 1.6
+  quarterly_forecast:
+    Q3 2024: 0.4
+    Q4 2024: 0.45
+    Q1 2025: 0.4
+    Q2 2025: 0.4
+    Q3 2025: 0.35
+    Q4 2025: 0.45
+    Q1 2026: 0.45
+    Q2 2026: 0.5
+    Q3 2026: 0.54
+    Q4 2026: 0.62
+    Q1 2027: 0.54
+  annual_forecast:
+    2021 Yearly: 0.92
+    2022 Yearly: 1.19
+    2023 Yearly: 1.55
+    2024 Yearly: 1.61
+    2025 Yearly: 1.63
+    2026 Yearly: 2.06
+    2027 Yearly: 2.32
+    2028 Yearly: 2.56

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Caseys General Stores, Inc.
+sector: Retail Trade
+market_cap_billions: 27.14
+revenue:
+  quarterly:
+    Q3 2024: 3900.0
+    Q4 2024: 3990.0
+    Q1 2025: 4570.0
+    Q2 2025: 4510.0
+    Q3 2025: 3920.0
+    Q4 2025: 4570.0
+    Q1 2026: 5680.0
+  annual:
+    2021 Yearly: 12950.0
+    2022 Yearly: 15090.0
+    2023 Yearly: 14860.0
+    2024 Yearly: 15940.0
+    2025 Yearly: 17560.0
+  quarterly_forecast:
+    Q3 2024: 3730.0
+    Q4 2024: 3930.0
+    Q1 2025: 4460.0
+    Q2 2025: 4490.0
+    Q3 2025: 4040.0
+    Q4 2025: 4330.0
+    Q1 2026: 5560.0
+    Q2 2026: 5340.0
+    Q3 2026: 4750.0
+    Q4 2026: 4860.0
+    Q1 2027: 5310.0
+  annual_forecast:
+    2021 Yearly: 12950.0
+    2022 Yearly: 15180.0
+    2023 Yearly: 14750.0
+    2024 Yearly: 15860.0
+    2025 Yearly: 17310.0
+    2026 Yearly: 20490.0
+    2027 Yearly: 20600.0
+    2028 Yearly: 21660.0
+    2029 Yearly: 24660.0
+eps:
+  quarterly:
+    Q3 2024: 2.33
+    Q4 2024: 2.63
+    Q1 2025: 5.77
+    Q2 2025: 5.53
+    Q3 2025: 3.49
+    Q4 2025: 4.37
+    Q1 2026: 7.37
+  annual:
+    2021 Yearly: 9.1
+    2022 Yearly: 11.6
+    2023 Yearly: 13.43
+    2024 Yearly: 14.64
+    2025 Yearly: 19.16
+  quarterly_forecast:
+    Q3 2024: 1.99
+    Q4 2024: 1.94
+    Q1 2025: 5.02
+    Q2 2025: 5.19
+    Q3 2025: 3.0
+    Q4 2025: 3.31
+    Q1 2026: 6.78
+    Q2 2026: 6.34
+    Q3 2026: 4.06
+    Q4 2026: 4.22
+    Q1 2027: 7.13
+  annual_forecast:
+    2021 Yearly: 9.09
+    2022 Yearly: 11.84
+    2023 Yearly: 12.83
+    2024 Yearly: 13.95
+    2025 Yearly: 18.11
+    2026 Yearly: 21.42
+    2027 Yearly: 23.64
+    2028 Yearly: 26.34
+    2029 Yearly: 28.3

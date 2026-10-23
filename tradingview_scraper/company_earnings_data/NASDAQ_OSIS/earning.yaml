@@ -1,0 +1,76 @@
+currency: USD
+company_name: OSI Systems, Inc.
+sector: Electronic Technology
+market_cap_billions: 3.58
+revenue:
+  quarterly:
+    Q1 2025: 344.01
+    Q2 2025: 419.82
+    Q3 2025: 444.35
+    Q4 2025: 504.99
+    Q1 2026: 384.62
+    Q2 2026: 464.06
+    Q3 2026: 453.25
+  annual:
+    2021 Yearly: 1150.0
+    2022 Yearly: 1180.0
+    2023 Yearly: 1280.0
+    2024 Yearly: 1540.0
+    2025 Yearly: 1710.0
+  quarterly_forecast:
+    Q1 2025: 318.66
+    Q2 2025: 406.61
+    Q3 2025: 436.49
+    Q4 2025: 496.46
+    Q1 2026: 371.96
+    Q2 2026: 449.51
+    Q3 2026: 449.23
+    Q4 2026: 529.72
+    Q1 2027: 401.58
+    Q2 2027: 492.12
+    Q3 2027: 489.47
+  annual_forecast:
+    2021 Yearly: 1130.0
+    2022 Yearly: 1180.0
+    2023 Yearly: 1250.0
+    2024 Yearly: 1530.0
+    2025 Yearly: 1700.0
+    2026 Yearly: 1830.0
+    2027 Yearly: 1940.0
+    2028 Yearly: 2080.0
+eps:
+  quarterly:
+    Q1 2025: 1.25
+    Q2 2025: 2.42
+    Q3 2025: 2.44
+    Q4 2025: 3.24
+    Q1 2026: 1.42
+    Q2 2026: 2.58
+    Q3 2026: 2.6
+  annual:
+    2021 Yearly: 5.32
+    2022 Yearly: 5.81
+    2023 Yearly: 6.21
+    2024 Yearly: 8.13
+    2025 Yearly: 9.36
+  quarterly_forecast:
+    Q1 2025: 1.07
+    Q2 2025: 2.33
+    Q3 2025: 2.4
+    Q4 2025: 3.19
+    Q1 2026: 1.38
+    Q2 2026: 2.52
+    Q3 2026: 2.54
+    Q4 2026: 3.77
+    Q1 2027: 1.56
+    Q2 2027: 2.85
+    Q3 2027: 2.89
+  annual_forecast:
+    2021 Yearly: 5.28
+    2022 Yearly: 5.82
+    2023 Yearly: 6.09
+    2024 Yearly: 8.09
+    2025 Yearly: 9.31
+    2026 Yearly: 10.42
+    2027 Yearly: 11.44
+    2028 Yearly: 13.06

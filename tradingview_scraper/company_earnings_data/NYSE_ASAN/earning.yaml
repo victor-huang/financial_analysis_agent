@@ -1,0 +1,78 @@
+currency: USD
+company_name: Asana, Inc.
+sector: Technology Services
+market_cap_billions: 2.32
+revenue:
+  quarterly:
+    Q3 2024: 183.88
+    Q4 2024: 188.33
+    Q1 2025: 187.27
+    Q2 2025: 196.94
+    Q3 2025: 201.03
+    Q4 2025: 205.57
+    Q1 2026: 205.09
+  annual:
+    2021 Yearly: 378.44
+    2022 Yearly: 547.21
+    2023 Yearly: 652.5
+    2024 Yearly: 723.88
+    2025 Yearly: 790.81
+  quarterly_forecast:
+    Q3 2024: 180.65
+    Q4 2024: 188.15
+    Q1 2025: 186.18
+    Q2 2025: 193.01
+    Q3 2025: 198.8
+    Q4 2025: 205.14
+    Q1 2026: 203.58
+    Q2 2026: 214.15
+    Q3 2026: 218.21
+    Q4 2026: 222.83
+    Q1 2027: 221.39
+  annual_forecast:
+    2021 Yearly: 371.95
+    2022 Yearly: 542.08
+    2023 Yearly: 649.15
+    2024 Yearly: 723.75
+    2025 Yearly: 790.43
+    2026 Yearly: 860.83
+    2027 Yearly: 929.18
+    2028 Yearly: 1010.0
+    2029 Yearly: 1100.0
+eps:
+  quarterly:
+    Q3 2024: -0.02
+    Q4 2024: 0.0
+    Q1 2025: 0.05
+    Q2 2025: 0.06
+    Q3 2025: 0.07
+    Q4 2025: 0.08
+    Q1 2026: 0.1
+  annual:
+    2021 Yearly: -0.92
+    2022 Yearly: -1.04
+    2023 Yearly: -0.2
+    2024 Yearly: -0.13
+    2025 Yearly: 0.27
+  quarterly_forecast:
+    Q3 2024: -0.07
+    Q4 2024: -0.01
+    Q1 2025: 0.03
+    Q2 2025: 0.05
+    Q3 2025: 0.06
+    Q4 2025: 0.07
+    Q1 2026: 0.08
+    Q2 2026: 0.09
+    Q3 2026: 0.09
+    Q4 2026: 0.1
+    Q1 2027: 0.12
+  annual_forecast:
+    2021 Yearly: -0.96
+    2022 Yearly: -1.17
+    2023 Yearly: -0.26
+    2024 Yearly: -0.14
+    2025 Yearly: 0.26
+    2026 Yearly: 0.37
+    2027 Yearly: 0.47
+    2028 Yearly: 0.58
+    2029 Yearly: 0.63

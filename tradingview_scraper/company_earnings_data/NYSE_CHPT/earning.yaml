@@ -1,0 +1,78 @@
+currency: USD
+company_name: ChargePoint Holdings, Inc.
+sector: Producer Manufacturing
+market_cap_billions: 0.13441
+revenue:
+  quarterly:
+    Q3 2024: 99.61
+    Q4 2024: 101.89
+    Q1 2025: 97.6
+    Q2 2025: 98.59
+    Q3 2025: 105.67
+    Q4 2025: 109.32
+    Q1 2026: 101.82
+  annual:
+    2021 Yearly: 242.34
+    2022 Yearly: 468.09
+    2023 Yearly: 506.64
+    2024 Yearly: 417.08
+    2025 Yearly: 411.22
+  quarterly_forecast:
+    Q3 2024: 89.77
+    Q4 2024: 101.59
+    Q1 2025: 100.54
+    Q2 2025: 96.41
+    Q3 2025: 96.52
+    Q4 2025: 104.7
+    Q1 2026: 95.64
+    Q2 2026: 105.21
+    Q3 2026: 109.29
+    Q4 2026: 113.48
+    Q1 2027: 115.38
+  annual_forecast:
+    2021 Yearly: 237.52
+    2022 Yearly: 479.58
+    2023 Yearly: 511.07
+    2024 Yearly: 417.6
+    2025 Yearly: 406.62
+    2026 Yearly: 429.61
+    2027 Yearly: 489.5
+    2028 Yearly: 599.72
+    2029 Yearly: 702.87
+eps:
+  quarterly:
+    Q3 2024: -3.6
+    Q4 2024: -2.8
+    Q1 2025: -2.4
+    Q2 2025: -2.85
+    Q3 2025: -2.23
+    Q4 2025: -1.85
+    Q1 2026: -1.75
+  annual:
+    2021 Yearly: -12.03
+    2022 Yearly: -13.56
+    2023 Yearly: -24.4
+    2024 Yearly: -13.0
+    2025 Yearly: -9.41
+  quarterly_forecast:
+    Q3 2024: -3.34
+    Q4 2024: -2.78
+    Q1 2025: -2.49
+    Q2 2025: -2.24
+    Q3 2025: -2.42
+    Q4 2025: -1.96
+    Q1 2026: -1.9
+    Q2 2026: -1.57
+    Q3 2026: -1.45
+    Q4 2026: -1.32
+    Q1 2027: -1.55
+  annual_forecast:
+    2021 Yearly: -13.27
+    2022 Yearly: -16.78
+    2023 Yearly: -23.67
+    2024 Yearly: -13.06
+    2025 Yearly: -9.44
+    2026 Yearly: -6.08
+    2027 Yearly: -4.56
+    2028 Yearly: -2.38
+    2029 Yearly: -0.07

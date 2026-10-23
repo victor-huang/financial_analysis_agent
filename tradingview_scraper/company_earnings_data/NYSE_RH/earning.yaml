@@ -1,0 +1,78 @@
+currency: USD
+company_name: RH
+sector: Retail Trade
+market_cap_billions: 2.51
+revenue:
+  quarterly:
+    Q3 2024: 811.73
+    Q4 2024: 812.41
+    Q1 2025: 813.95
+    Q2 2025: 899.15
+    Q3 2025: 883.81
+    Q4 2025: 842.62
+    Q1 2026: 800.33
+  annual:
+    2021 Yearly: 3760.0
+    2022 Yearly: 3590.0
+    2023 Yearly: 3030.0
+    2024 Yearly: 3180.0
+    2025 Yearly: 3440.0
+  quarterly_forecast:
+    Q3 2024: 812.19
+    Q4 2024: 828.59
+    Q1 2025: 818.55
+    Q2 2025: 905.36
+    Q3 2025: 883.48
+    Q4 2025: 873.23
+    Q1 2026: 792.55
+    Q2 2026: 915.09
+    Q3 2026: 968.19
+    Q4 2026: 948.94
+    Q1 2027: 870.7
+  annual_forecast:
+    2021 Yearly: 3790.0
+    2022 Yearly: 3600.0
+    2023 Yearly: 3070.0
+    2024 Yearly: 3200.0
+    2025 Yearly: 3470.0
+    2026 Yearly: 3630.0
+    2027 Yearly: 3940.0
+    2028 Yearly: 4290.0
+    2029 Yearly: 4890.0
+eps:
+  quarterly:
+    Q3 2024: 2.48
+    Q4 2024: 1.58
+    Q1 2025: 0.13
+    Q2 2025: 2.93
+    Q3 2025: 1.71
+    Q4 2025: 1.53
+    Q1 2026: -1.97
+  annual:
+    2021 Yearly: 26.12
+    2022 Yearly: 20.06
+    2023 Yearly: 6.87
+    2024 Yearly: 5.39
+    2025 Yearly: 6.29
+  quarterly_forecast:
+    Q3 2024: 2.65
+    Q4 2024: 1.92
+    Q1 2025: -0.09
+    Q2 2025: 3.21
+    Q3 2025: 2.12
+    Q4 2025: 2.2
+    Q1 2026: -2.12
+    Q2 2026: 0.38
+    Q3 2026: 3.12
+    Q4 2026: 3.15
+    Q1 2027: -0.34
+  annual_forecast:
+    2021 Yearly: 25.98
+    2022 Yearly: 25.08
+    2023 Yearly: 7.79
+    2024 Yearly: 5.77
+    2025 Yearly: 6.95
+    2026 Yearly: 4.73
+    2027 Yearly: 9.34
+    2028 Yearly: 13.39
+    2029 Yearly: 21.02

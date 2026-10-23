@@ -1,0 +1,72 @@
+currency: USD
+company_name: Smith & Wesson Brands, Inc.
+sector: Electronic Technology
+market_cap_billions: 0.5726
+revenue:
+  quarterly:
+    Q2 2024: 127.13
+    Q3 2024: 115.89
+    Q4 2024: 140.76
+    Q1 2025: 85.08
+    Q2 2025: 124.67
+    Q3 2025: 135.71
+    Q4 2025: 178.39
+  annual:
+    2021 Yearly: 864.13
+    2022 Yearly: 479.24
+    2023 Yearly: 535.83
+    2024 Yearly: 470.32
+    2025 Yearly: 523.85
+  quarterly_forecast:
+    Q2 2024: 133.53
+    Q3 2024: 119.46
+    Q4 2024: 152.41
+    Q1 2025: 79.23
+    Q2 2025: 123.73
+    Q3 2025: 125.59
+    Q4 2025: 155.27
+    Q1 2026: 98.7
+    Q2 2026: 132.21
+    Q3 2026: 141.33
+    Q4 2026: 178.67
+  annual_forecast:
+    2021 Yearly: 862.67
+    2022 Yearly: 472.86
+    2023 Yearly: 533.48
+    2024 Yearly: 486.3
+    2025 Yearly: 500.75
+    2026 Yearly: 550.96
+eps:
+  quarterly:
+    Q2 2024: 0.11
+    Q3 2024: 0.04
+    Q4 2024: 0.19
+    Q1 2025: -0.08
+    Q2 2025: 0.04
+    Q3 2025: 0.08
+    Q4 2025: 0.36
+  annual:
+    2021 Yearly: 4.25
+    2022 Yearly: 0.94
+    2023 Yearly: 0.92
+    2024 Yearly: 0.3
+    2025 Yearly: 0.41
+  quarterly_forecast:
+    Q2 2024: 0.15
+    Q3 2024: 0.02
+    Q4 2024: 0.25
+    Q1 2025: -0.1
+    Q2 2025: 0.02
+    Q3 2025: 0.04
+    Q4 2025: 0.23
+    Q1 2026: -0.06
+    Q2 2026: 0.09
+    Q3 2026: 0.11
+    Q4 2026: 0.35
+  annual_forecast:
+    2021 Yearly: 4.11
+    2022 Yearly: 0.91
+    2023 Yearly: 0.81
+    2024 Yearly: 0.33
+    2025 Yearly: 0.28
+    2026 Yearly: 0.51

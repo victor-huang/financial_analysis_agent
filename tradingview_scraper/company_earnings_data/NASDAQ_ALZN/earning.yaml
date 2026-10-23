@@ -1,0 +1,78 @@
+currency: USD
+company_name: Alzamend Neuro, Inc.
+sector: Health Technology
+market_cap_billions: 0.008199999999999999
+revenue:
+  quarterly:
+    Q2 2024: 0.0
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+  annual:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q2 2024: 0.0
+    Q3 2024: 0.0
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+  annual_forecast:
+    2021 Yearly: 0.0
+    2022 Yearly: 0.0
+    2023 Yearly: 0.0
+    2024 Yearly: 0.0
+    2025 Yearly: 0.0
+    2026 Yearly: 0.0
+    2027 Yearly: 0.0
+    2028 Yearly: 32.19
+    2029 Yearly: 136.03
+eps:
+  quarterly:
+    Q2 2024: -3.56
+    Q3 2024: -1.71
+    Q4 2024: -2.36
+    Q1 2025: -1.28
+    Q2 2025: -0.3
+    Q3 2025: -0.58
+    Q4 2025: -0.72
+  annual:
+    2021 Yearly: -189.0
+    2022 Yearly: -202.5
+    2023 Yearly: -132.3
+    2024 Yearly: -10.67
+    2025 Yearly: -2.63
+  quarterly_forecast:
+    Q2 2024: -3.6
+    Q3 2024: -3.19
+    Q4 2024: -2.7
+    Q1 2025: -2.08
+    Q2 2025: -0.3
+    Q3 2025: -0.53
+    Q4 2025: -0.67
+    Q1 2026: -0.56
+    Q2 2026: -0.23
+    Q3 2026: -0.22
+    Q4 2026: -0.22
+  annual_forecast:
+    2021 Yearly: -168.75
+    2022 Yearly: -216.0
+    2023 Yearly: -155.7
+    2024 Yearly: -11.88
+    2025 Yearly: -2.58
+    2026 Yearly: -1.05
+    2027 Yearly: -0.87
+    2028 Yearly: -0.86
+    2029 Yearly: 6.99

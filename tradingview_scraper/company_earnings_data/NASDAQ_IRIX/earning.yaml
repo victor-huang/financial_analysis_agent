@@ -1,0 +1,74 @@
+currency: USD
+company_name: IRIDEX Corporation
+sector: Health Technology
+market_cap_billions: 0.016190000000000003
+revenue:
+  quarterly:
+    Q3 2024: 11.58
+    Q4 2024: 12.7
+    Q1 2025: 11.9
+    Q2 2025: 13.57
+    Q3 2025: 12.48
+    Q4 2025: 14.72
+    Q1 2026: 11.8
+  annual:
+    2021 Yearly: 53.9
+    2022 Yearly: 56.97
+    2023 Yearly: 51.87
+    2024 Yearly: 48.67
+    2025 Yearly: 52.67
+  quarterly_forecast:
+    Q3 2024: 12.5
+    Q4 2024: 12.8
+    Q1 2025: 12.1
+    Q2 2025: 13.1
+    Q3 2025: 13.1
+    Q4 2025: 14.74
+    Q1 2026: 11.91
+    Q2 2026: 13.59
+    Q3 2026: 12.98
+    Q4 2026: 14.64
+  annual_forecast:
+    2021 Yearly: 53.31
+    2022 Yearly: 56.95
+    2023 Yearly: 54.3
+    2024 Yearly: 49.6
+    2025 Yearly: 52.69
+    2026 Yearly: 53.0
+    2027 Yearly: 56.77
+    2028 Yearly: 60.09
+eps:
+  quarterly:
+    Q3 2024: -0.12
+    Q4 2024: -0.05
+    Q1 2025: -0.1
+    Q2 2025: -0.06
+    Q3 2025: -0.09
+    Q4 2025: -0.01
+    Q1 2026: -0.03
+  annual:
+    2021 Yearly: -0.34
+    2022 Yearly: -0.47
+    2023 Yearly: -0.59
+    2024 Yearly: -0.54
+    2025 Yearly: -0.26
+  quarterly_forecast:
+    Q3 2024: -0.09
+    Q4 2024: -0.05
+    Q1 2025: -0.1
+    Q2 2025: -0.09
+    Q3 2025: -0.06
+    Q4 2025: -0.02
+    Q1 2026: -0.07
+    Q2 2026: -0.01
+    Q3 2026: -0.02
+    Q4 2026: 0.01
+  annual_forecast:
+    2021 Yearly: -0.29
+    2022 Yearly: -0.52
+    2023 Yearly: -0.46
+    2024 Yearly: -0.52
+    2025 Yearly: -0.27
+    2026 Yearly: -0.05
+    2027 Yearly: 0.02
+    2028 Yearly: 0.07

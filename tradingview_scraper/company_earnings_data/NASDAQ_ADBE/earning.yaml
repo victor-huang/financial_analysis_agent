@@ -1,0 +1,78 @@
+currency: USD
+company_name: Adobe Inc.
+sector: Technology Services
+market_cap_billions: 101.31
+revenue:
+  quarterly:
+    Q4 2024: 5610.0
+    Q1 2025: 5710.0
+    Q2 2025: 5870.0
+    Q3 2025: 5990.0
+    Q4 2025: 6190.0
+    Q1 2026: 6400.0
+    Q2 2026: 6620.0
+  annual:
+    2021 Yearly: 15790.0
+    2022 Yearly: 17610.0
+    2023 Yearly: 19410.0
+    2024 Yearly: 21500.0
+    2025 Yearly: 23770.0
+  quarterly_forecast:
+    Q4 2024: 5540.0
+    Q1 2025: 5660.0
+    Q2 2025: 5800.0
+    Q3 2025: 5920.0
+    Q4 2025: 6110.0
+    Q1 2026: 6280.0
+    Q2 2026: 6450.0
+    Q3 2026: 6690.0
+    Q4 2026: 6840.0
+    Q1 2027: 6990.0
+    Q2 2027: 7200.0
+  annual_forecast:
+    2021 Yearly: 15750.0
+    2022 Yearly: 17610.0
+    2023 Yearly: 19380.0
+    2024 Yearly: 21440.0
+    2025 Yearly: 23690.0
+    2026 Yearly: 26540.0
+    2027 Yearly: 28940.0
+    2028 Yearly: 31510.0
+    2029 Yearly: 34380.0
+eps:
+  quarterly:
+    Q4 2024: 4.81
+    Q1 2025: 5.08
+    Q2 2025: 5.06
+    Q3 2025: 5.31
+    Q4 2025: 5.5
+    Q1 2026: 6.06
+    Q2 2026: 5.96
+  annual:
+    2021 Yearly: 12.48
+    2022 Yearly: 13.71
+    2023 Yearly: 16.07
+    2024 Yearly: 18.42
+    2025 Yearly: 20.94
+  quarterly_forecast:
+    Q4 2024: 4.67
+    Q1 2025: 4.97
+    Q2 2025: 4.97
+    Q3 2025: 5.18
+    Q4 2025: 5.4
+    Q1 2026: 5.87
+    Q2 2026: 5.82
+    Q3 2026: 6.08
+    Q4 2026: 6.31
+    Q1 2027: 6.75
+    Q2 2027: 6.78
+  annual_forecast:
+    2021 Yearly: 12.47
+    2022 Yearly: 13.63
+    2023 Yearly: 15.93
+    2024 Yearly: 18.27
+    2025 Yearly: 20.82
+    2026 Yearly: 24.42
+    2027 Yearly: 27.48
+    2028 Yearly: 31.34
+    2029 Yearly: 32.28

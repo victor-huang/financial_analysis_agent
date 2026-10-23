@@ -1,0 +1,76 @@
+currency: USD
+company_name: Domo, Inc.
+sector: Technology Services
+market_cap_billions: 0.18156
+revenue:
+  quarterly:
+    Q3 2024: 79.76
+    Q4 2024: 78.77
+    Q1 2025: 80.11
+    Q2 2025: 79.72
+    Q3 2025: 79.4
+    Q4 2025: 79.63
+    Q1 2026: 79.4
+  annual:
+    2021 Yearly: 257.96
+    2022 Yearly: 308.64
+    2023 Yearly: 318.99
+    2024 Yearly: 317.04
+    2025 Yearly: 318.86
+  quarterly_forecast:
+    Q3 2024: 77.56
+    Q4 2024: 77.95
+    Q1 2025: 77.75
+    Q2 2025: 78.07
+    Q3 2025: 79.03
+    Q4 2025: 78.64
+    Q1 2026: 79.65
+    Q2 2026: 78.06
+    Q3 2026: 78.1
+    Q4 2026: 78.47
+    Q1 2027: 78.7
+  annual_forecast:
+    2021 Yearly: 255.19
+    2022 Yearly: 306.44
+    2023 Yearly: 318.25
+    2024 Yearly: 316.23
+    2025 Yearly: 317.89
+    2026 Yearly: 314.01
+    2027 Yearly: 316.66
+    2028 Yearly: 267.22
+eps:
+  quarterly:
+    Q3 2024: -0.08
+    Q4 2024: -0.05
+    Q1 2025: -0.09
+    Q2 2025: 0.02
+    Q3 2025: 0.01
+    Q4 2025: 0.03
+    Q1 2026: -0.02
+  annual:
+    2021 Yearly: -1.3
+    2022 Yearly: -0.63
+    2023 Yearly: -0.25
+    2024 Yearly: -0.52
+    2025 Yearly: -0.03
+  quarterly_forecast:
+    Q3 2024: -0.15
+    Q4 2024: -0.16
+    Q1 2025: -0.19
+    Q2 2025: -0.05
+    Q3 2025: -0.05
+    Q4 2025: -0.03
+    Q1 2026: -0.04
+    Q2 2026: 0.0
+    Q3 2026: 0.02
+    Q4 2026: 0.05
+    Q1 2027: -0.03
+  annual_forecast:
+    2021 Yearly: -1.28
+    2022 Yearly: -0.7
+    2023 Yearly: -0.26
+    2024 Yearly: -0.65
+    2025 Yearly: -0.09
+    2026 Yearly: 0.05
+    2027 Yearly: 0.09
+    2028 Yearly: 0.05

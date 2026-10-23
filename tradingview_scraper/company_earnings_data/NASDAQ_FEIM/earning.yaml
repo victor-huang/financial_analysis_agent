@@ -1,0 +1,65 @@
+currency: USD
+company_name: Frequency Electronics, Inc.
+sector: Electronic Technology
+market_cap_billions: 0.6991499999999999
+revenue:
+  quarterly:
+    Q1 2023: 12.41
+    Q2 2023: 13.57
+    Q4 2024: 19.99
+    Q1 2025: 13.81
+    Q2 2025: 17.13
+    Q3 2025: 16.89
+    Q4 2025: 15.4
+  annual:
+    2021 Yearly: 48.3
+    2022 Yearly: 40.78
+    2024 Yearly: 69.81
+    2025 Yearly: 63.23
+  quarterly_forecast:
+    Q4 2024: 16.41
+    Q1 2025: 16.5
+    Q2 2025: 16.87
+    Q3 2025: 19.06
+    Q4 2025: 18.57
+    Q1 2026: 17.85
+    Q2 2026: 19.57
+    Q3 2026: 20.63
+    Q4 2026: 21.6
+  annual_forecast:
+    2024 Yearly: 66.24
+    2025 Yearly: 66.29
+    2026 Yearly: 80.1
+    2027 Yearly: 108.4
+    2028 Yearly: 131.7
+eps:
+  quarterly:
+    Q1 2023: 0.22
+    Q2 2023: 0.08
+    Q4 2024: 0.34
+    Q1 2025: 0.07
+    Q2 2025: 0.18
+    Q3 2025: 0.16
+    Q4 2025: -0.5
+  annual:
+    2021 Yearly: -0.93
+    2022 Yearly: -0.59
+    2024 Yearly: 2.48
+    2025 Yearly: -0.09
+  quarterly_forecast:
+    Q4 2024: 0.27
+    Q1 2025: 0.36
+    Q2 2025: 0.29
+    Q3 2025: 0.3
+    Q4 2025: 0.27
+    Q1 2026: 0.15
+    Q2 2026: 0.21
+    Q3 2026: 0.26
+    Q4 2026: 0.34
+  annual_forecast:
+    2016 Yearly: 0.94
+    2024 Yearly: 1.03
+    2025 Yearly: 0.69
+    2026 Yearly: 0.98
+    2027 Yearly: 1.56
+    2028 Yearly: 2.53

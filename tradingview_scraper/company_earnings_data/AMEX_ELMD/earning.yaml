@@ -1,0 +1,78 @@
+currency: USD
+company_name: Electromed, Inc.
+sector: Health Technology
+market_cap_billions: 0.32425
+revenue:
+  quarterly:
+    Q1 2025: 14.67
+    Q2 2025: 16.25
+    Q3 2025: 15.68
+    Q4 2025: 17.39
+    Q1 2026: 16.89
+    Q2 2026: 18.9
+    Q3 2026: 18.57
+  annual:
+    2021 Yearly: 35.76
+    2022 Yearly: 41.66
+    2023 Yearly: 48.07
+    2024 Yearly: 54.72
+    2025 Yearly: 64.0
+  quarterly_forecast:
+    Q1 2025: 13.5
+    Q2 2025: 15.3
+    Q3 2025: 15.75
+    Q4 2025: 16.64
+    Q1 2026: 16.63
+    Q2 2026: 18.05
+    Q3 2026: 17.6
+    Q4 2026: 19.33
+    Q1 2027: 19.27
+    Q2 2027: 21.43
+    Q3 2027: 21.1
+  annual_forecast:
+    2021 Yearly: 35.65
+    2022 Yearly: 41.0
+    2023 Yearly: 47.3
+    2024 Yearly: 54.9
+    2025 Yearly: 63.18
+    2026 Yearly: 73.6
+    2027 Yearly: 83.6
+    2028 Yearly: 91.5
+    2029 Yearly: 81.7
+eps:
+  quarterly:
+    Q1 2025: 0.16
+    Q2 2025: 0.22
+    Q3 2025: 0.21
+    Q4 2025: 0.25
+    Q1 2026: 0.25
+    Q2 2026: 0.32
+    Q3 2026: 0.35
+  annual:
+    2021 Yearly: 0.27
+    2022 Yearly: 0.26
+    2023 Yearly: 0.36
+    2024 Yearly: 0.58
+    2025 Yearly: 0.85
+  quarterly_forecast:
+    Q1 2025: 0.03
+    Q2 2025: 0.18
+    Q3 2025: 0.2
+    Q4 2025: 0.22
+    Q1 2026: 0.2
+    Q2 2026: 0.26
+    Q3 2026: 0.25
+    Q4 2026: 0.32
+    Q1 2027: 0.29
+    Q2 2027: 0.39
+    Q3 2027: 0.4
+  annual_forecast:
+    2021 Yearly: 0.28
+    2022 Yearly: 0.3
+    2023 Yearly: 0.37
+    2024 Yearly: 0.51
+    2025 Yearly: 0.81
+    2026 Yearly: 1.22
+    2027 Yearly: 1.48
+    2028 Yearly: 1.77
+    2029 Yearly: 1.09

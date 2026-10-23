@@ -1,0 +1,76 @@
+currency: USD
+company_name: Toll Brothers, Inc.
+sector: Consumer Durables
+market_cap_billions: 13.33
+revenue:
+  quarterly:
+    Q4 2024: 3330.0
+    Q1 2025: 1860.0
+    Q2 2025: 2740.0
+    Q3 2025: 2950.0
+    Q4 2025: 3420.0
+    Q1 2026: 2150.0
+    Q2 2026: 2530.0
+  annual:
+    2021 Yearly: 8790.0
+    2022 Yearly: 10280.0
+    2023 Yearly: 9990.0
+    2024 Yearly: 10850.0
+    2025 Yearly: 10970.0
+  quarterly_forecast:
+    Q4 2024: 3170.0
+    Q1 2025: 1910.0
+    Q2 2025: 2480.0
+    Q3 2025: 2860.0
+    Q4 2025: 3300.0
+    Q1 2026: 1850.0
+    Q2 2026: 2420.0
+    Q3 2026: 2620.0
+    Q4 2026: 3520.0
+    Q1 2027: 1930.0
+    Q2 2027: 2670.0
+  annual_forecast:
+    2021 Yearly: 8540.0
+    2022 Yearly: 9740.0
+    2023 Yearly: 9740.0
+    2024 Yearly: 10620.0
+    2025 Yearly: 10810.0
+    2026 Yearly: 10750.0
+    2027 Yearly: 11060.0
+    2028 Yearly: 11710.0
+eps:
+  quarterly:
+    Q4 2024: 4.63
+    Q1 2025: 1.75
+    Q2 2025: 3.5
+    Q3 2025: 3.73
+    Q4 2025: 4.58
+    Q1 2026: 2.19
+    Q2 2026: 2.72
+  annual:
+    2021 Yearly: 6.63
+    2022 Yearly: 10.9
+    2023 Yearly: 12.36
+    2024 Yearly: 15.01
+    2025 Yearly: 13.49
+  quarterly_forecast:
+    Q4 2024: 4.34
+    Q1 2025: 2.04
+    Q2 2025: 2.81
+    Q3 2025: 3.6
+    Q4 2025: 4.88
+    Q1 2026: 2.11
+    Q2 2026: 2.58
+    Q3 2026: 2.93
+    Q4 2026: 5.04
+    Q1 2027: 1.9
+    Q2 2027: 3.29
+  annual_forecast:
+    2021 Yearly: 6.16
+    2022 Yearly: 9.38
+    2023 Yearly: 11.97
+    2024 Yearly: 14.71
+    2025 Yearly: 13.83
+    2026 Yearly: 12.82
+    2027 Yearly: 14.16
+    2028 Yearly: 15.86

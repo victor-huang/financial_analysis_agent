@@ -1,0 +1,78 @@
+currency: USD
+company_name: NetEase, Inc.
+sector: Technology Services
+market_cap_billions: 78.93
+revenue:
+  quarterly:
+    Q4 2024: 3660.0
+    Q1 2025: 3970.0
+    Q2 2025: 3890.0
+    Q3 2025: 3980.0
+    Q4 2025: 3940.0
+    Q1 2026: 4430.0
+    Q2 2026: 4430.0
+  annual:
+    2021 Yearly: 13790.0
+    2022 Yearly: 13980.0
+    2023 Yearly: 14570.0
+    2024 Yearly: 14420.0
+    2025 Yearly: 16100.000000000002
+  quarterly_forecast:
+    Q4 2024: 3710.0
+    Q1 2025: 3920.0
+    Q2 2025: 3960.0
+    Q3 2025: 4050.0
+    Q4 2025: 4110.0
+    Q1 2026: 4250.0
+    Q2 2026: 4330.0
+    Q3 2026: 4540.0
+    Q4 2026: 4520.0
+    Q1 2027: 4780.0
+    Q2 2027: 4850.0
+  annual_forecast:
+    2021 Yearly: 13760.0
+    2022 Yearly: 14020.0
+    2023 Yearly: 14790.0
+    2024 Yearly: 14550.0
+    2025 Yearly: 16250.0
+    2026 Yearly: 17900.0
+    2027 Yearly: 19320.0
+    2028 Yearly: 20750.0
+    2029 Yearly: 22900.0
+eps:
+  quarterly:
+    Q4 2024: 2.07
+    Q1 2025: 2.41
+    Q2 2025: 2.07
+    Q3 2025: 2.07
+    Q4 2025: 1.57
+    Q1 2026: 2.53
+    Q2 2026: 1.77
+  annual:
+    2021 Yearly: 4.62
+    2022 Yearly: 5.01
+    2023 Yearly: 7.06
+    2024 Yearly: 7.1
+    2025 Yearly: 8.29
+  quarterly_forecast:
+    Q4 2024: 1.72
+    Q1 2025: 1.92
+    Q2 2025: 2.08
+    Q3 2025: 2.06
+    Q4 2025: 2.03
+    Q1 2026: 2.19
+    Q2 2026: 2.29
+    Q3 2026: 2.34
+    Q4 2026: 2.34
+    Q1 2027: 2.71
+    Q2 2027: 2.57
+  annual_forecast:
+    2021 Yearly: 4.06
+    2022 Yearly: 4.94
+    2023 Yearly: 6.93
+    2024 Yearly: 6.76
+    2025 Yearly: 8.74
+    2026 Yearly: 9.61
+    2027 Yearly: 10.59
+    2028 Yearly: 11.53
+    2029 Yearly: 12.79

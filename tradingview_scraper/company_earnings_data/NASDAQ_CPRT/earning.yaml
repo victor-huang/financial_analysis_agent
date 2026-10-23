@@ -1,0 +1,78 @@
+currency: USD
+company_name: Copart, Inc.
+sector: Retail Trade
+market_cap_billions: 29.65
+revenue:
+  quarterly:
+    Q1 2025: 1150.0
+    Q2 2025: 1160.0
+    Q3 2025: 1210.0
+    Q4 2025: 1130.0
+    Q1 2026: 1160.0
+    Q2 2026: 1120.0
+    Q3 2026: 1240.0
+  annual:
+    2021 Yearly: 2690.0
+    2022 Yearly: 3500.0
+    2023 Yearly: 3870.0
+    2024 Yearly: 4240.0
+    2025 Yearly: 4650.0
+  quarterly_forecast:
+    Q1 2025: 1100.0
+    Q2 2025: 1130.0
+    Q3 2025: 1230.0
+    Q4 2025: 1140.0
+    Q1 2026: 1180.0
+    Q2 2026: 1150.0
+    Q3 2026: 1190.0
+    Q4 2026: 1140.0
+    Q1 2027: 1180.0
+    Q2 2027: 1170.0
+    Q3 2027: 1280.0
+  annual_forecast:
+    2021 Yearly: 2640.0
+    2022 Yearly: 3500.0
+    2023 Yearly: 3840.0
+    2024 Yearly: 4250.0
+    2025 Yearly: 4660.0
+    2026 Yearly: 4660.0
+    2027 Yearly: 4830.0
+    2028 Yearly: 5090.0
+    2029 Yearly: 5300.0
+eps:
+  quarterly:
+    Q1 2025: 0.37
+    Q2 2025: 0.4
+    Q3 2025: 0.42
+    Q4 2025: 0.41
+    Q1 2026: 0.41
+    Q2 2026: 0.36
+    Q3 2026: 0.43
+  annual:
+    2021 Yearly: 0.93
+    2022 Yearly: 1.11
+    2023 Yearly: 1.26
+    2024 Yearly: 1.4
+    2025 Yearly: 1.59
+  quarterly_forecast:
+    Q1 2025: 0.37
+    Q2 2025: 0.37
+    Q3 2025: 0.42
+    Q4 2025: 0.36
+    Q1 2026: 0.39
+    Q2 2026: 0.39
+    Q3 2026: 0.41
+    Q4 2026: 0.38
+    Q1 2027: 0.41
+    Q2 2027: 0.39
+    Q3 2027: 0.45
+  annual_forecast:
+    2021 Yearly: 0.91
+    2022 Yearly: 1.12
+    2023 Yearly: 1.25
+    2024 Yearly: 1.44
+    2025 Yearly: 1.55
+    2026 Yearly: 1.58
+    2027 Yearly: 1.68
+    2028 Yearly: 1.82
+    2029 Yearly: 2.02

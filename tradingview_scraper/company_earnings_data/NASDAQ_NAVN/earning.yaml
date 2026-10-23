@@ -1,0 +1,46 @@
+currency: USD
+company_name: Navan, Inc.
+sector: Technology Services
+market_cap_billions: 6.62
+revenue:
+  quarterly:
+    Q2 2025: 172.0
+    Q3 2025: 194.93
+    Q4 2025: 177.92
+    Q1 2026: 220.23
+  annual:
+    2025 Yearly: 702.26
+  quarterly_forecast:
+    Q3 2025: 182.04
+    Q4 2025: 162.23
+    Q1 2026: 205.27
+    Q2 2026: 220.48
+    Q3 2026: 248.24
+    Q4 2026: 222.51
+    Q1 2027: 270.84
+  annual_forecast:
+    2025 Yearly: 686.51
+    2026 Yearly: 911.27
+    2027 Yearly: 1130.0
+    2028 Yearly: 1360.0
+eps:
+  quarterly:
+    Q2 2025: -0.17
+    Q3 2025: 0.14
+    Q4 2025: 0.02
+    Q1 2026: 0.08
+  annual:
+    2025 Yearly: 0.0
+  quarterly_forecast:
+    Q3 2025: -0.08
+    Q4 2025: -0.22
+    Q1 2026: 0.01
+    Q2 2026: 0.04
+    Q3 2026: 0.12
+    Q4 2026: 0.01
+    Q1 2027: 0.11
+  annual_forecast:
+    2025 Yearly: -0.23
+    2026 Yearly: 0.25
+    2027 Yearly: 0.39
+    2028 Yearly: 0.58

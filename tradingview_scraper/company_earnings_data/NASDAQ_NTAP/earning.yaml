@@ -1,0 +1,76 @@
+currency: USD
+company_name: NetApp, Inc.
+sector: Electronic Technology
+market_cap_billions: 35.47
+revenue:
+  quarterly:
+    Q3 2024: 1640.0
+    Q4 2024: 1730.0
+    Q1 2025: 1560.0
+    Q2 2025: 1710.0
+    Q3 2025: 1710.0
+    Q4 2025: 1950.0
+    Q1 2026: 2020.0
+  annual:
+    2021 Yearly: 6320.0
+    2022 Yearly: 6360.0
+    2023 Yearly: 6270.0
+    2024 Yearly: 6570.0
+    2025 Yearly: 6920.0
+  quarterly_forecast:
+    Q3 2024: 1680.0
+    Q4 2024: 1720.0
+    Q1 2025: 1550.0
+    Q2 2025: 1690.0
+    Q3 2025: 1700.0
+    Q4 2025: 1870.0
+    Q1 2026: 1840.0
+    Q2 2026: 1840.0
+    Q3 2026: 1850.0
+    Q4 2026: 1990.0
+    Q1 2027: 1850.0
+  annual_forecast:
+    2021 Yearly: 6320.0
+    2022 Yearly: 6320.0
+    2023 Yearly: 6260.0
+    2024 Yearly: 6560.0
+    2025 Yearly: 6850.0
+    2026 Yearly: 7540.0
+    2027 Yearly: 7970.0
+    2028 Yearly: 8520.0
+eps:
+  quarterly:
+    Q3 2024: 1.91
+    Q4 2024: 1.93
+    Q1 2025: 1.55
+    Q2 2025: 2.05
+    Q3 2025: 2.12
+    Q4 2025: 2.43
+    Q1 2026: 2.58
+  annual:
+    2021 Yearly: 5.28
+    2022 Yearly: 5.59
+    2023 Yearly: 6.46
+    2024 Yearly: 7.25
+    2025 Yearly: 8.13
+  quarterly_forecast:
+    Q3 2024: 1.91
+    Q4 2024: 1.9
+    Q1 2025: 1.54
+    Q2 2025: 1.88
+    Q3 2025: 2.06
+    Q4 2025: 2.27
+    Q1 2026: 2.12
+    Q2 2026: 2.17
+    Q3 2026: 2.26
+    Q4 2026: 2.47
+    Q1 2027: 2.2
+  annual_forecast:
+    2021 Yearly: 5.14
+    2022 Yearly: 5.4
+    2023 Yearly: 6.47
+    2024 Yearly: 7.23
+    2025 Yearly: 7.98
+    2026 Yearly: 9.03
+    2027 Yearly: 10.07
+    2028 Yearly: 11.45

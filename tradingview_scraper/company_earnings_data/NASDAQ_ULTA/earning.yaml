@@ -1,0 +1,78 @@
+currency: USD
+company_name: Ulta Beauty, Inc.
+sector: Retail Trade
+market_cap_billions: 22.85
+revenue:
+  quarterly:
+    Q3 2024: 2530.0
+    Q4 2024: 3490.0
+    Q1 2025: 2850.0
+    Q2 2025: 2790.0
+    Q3 2025: 2860.0
+    Q4 2025: 3900.0
+    Q1 2026: 3160.0
+  annual:
+    2021 Yearly: 8630.0
+    2022 Yearly: 10210.0
+    2023 Yearly: 11210.0
+    2024 Yearly: 11300.0
+    2025 Yearly: 12390.0
+  quarterly_forecast:
+    Q3 2024: 2500.0
+    Q4 2024: 3470.0
+    Q1 2025: 2790.0
+    Q2 2025: 2680.0
+    Q3 2025: 2710.0
+    Q4 2025: 3840.0
+    Q1 2026: 3120.0
+    Q2 2026: 2990.0
+    Q3 2026: 3000.0
+    Q4 2026: 4100.0
+    Q1 2027: 3310.0
+  annual_forecast:
+    2021 Yearly: 8590.0
+    2022 Yearly: 10010.0
+    2023 Yearly: 11180.0
+    2024 Yearly: 11270.0
+    2025 Yearly: 12330.0
+    2026 Yearly: 13250.0
+    2027 Yearly: 13960.0
+    2028 Yearly: 14660.0
+    2029 Yearly: 15110.0
+eps:
+  quarterly:
+    Q3 2024: 5.14
+    Q4 2024: 8.46
+    Q1 2025: 6.7
+    Q2 2025: 5.78
+    Q3 2025: 5.14
+    Q4 2025: 8.01
+    Q1 2026: 7.74
+  annual:
+    2021 Yearly: 17.98
+    2022 Yearly: 24.01
+    2023 Yearly: 26.03
+    2024 Yearly: 25.34
+    2025 Yearly: 25.64
+  quarterly_forecast:
+    Q3 2024: 4.53
+    Q4 2024: 7.13
+    Q1 2025: 5.81
+    Q2 2025: 5.1
+    Q3 2025: 4.61
+    Q4 2025: 8.1
+    Q1 2026: 6.89
+    Q2 2026: 6.2
+    Q3 2026: 5.78
+    Q4 2026: 9.13
+    Q1 2027: 8.4
+  annual_forecast:
+    2021 Yearly: 17.19
+    2022 Yearly: 23.13
+    2023 Yearly: 25.5
+    2024 Yearly: 24.02
+    2025 Yearly: 25.69
+    2026 Yearly: 28.8
+    2027 Yearly: 31.97
+    2028 Yearly: 35.33
+    2029 Yearly: 37.13
