@@ -197,6 +197,30 @@ class TestParseEarningsSeasonQuarterFromPeriodEnd:
         assert resolver(data, "NEWCO", "NYSE") == "Q3"
 
 
+class TestParseEarningsSeasonQuarterLatestEndedFloor:
+    """Tests for never placing the Quarter column before the latest fiscal quarter that has ended."""
+
+    @patch("sheet_column_mapping._today", return_value=date(2026, 10, 20))
+    def test_release_day_dropped_from_schedule(self, _):
+        """Regression test: TradingView dropped AMX's 10/20 release (last 7/21,
+        next 2/16), so the last release was nearer and the column showed "Q2"."""
+        resolver = parse_header_cell("Quarter")
+        data = _schedule("2026-Q2", date(2026, 7, 21), date(2027, 2, 16), date(2026, 6, 30))
+        assert resolver(data, "AMX", "NYSE") == "Q3"
+
+    @patch("sheet_column_mapping._today", return_value=date(2026, 12, 15))
+    def test_between_seasons_nearer_next_release_still_wins(self, _):
+        resolver = parse_header_cell("Quarter")
+        data = _schedule("2026-Q3", date(2026, 10, 19), date(2027, 1, 27), date(2026, 9, 30))
+        assert resolver(data, "STLD", "NASDAQ") == "Q4"
+
+    @patch("sheet_column_mapping._today", return_value=date(2026, 10, 20))
+    def test_period_end_without_release_dates_uses_latest_ended_quarter(self, _):
+        resolver = parse_header_cell("Quarter")
+        data = _schedule("2026-Q2", None, None, date(2026, 6, 30))
+        assert resolver(data, "STLD", "NASDAQ") == "Q3"
+
+
 class TestParseEarningsSeasonQuarterFallback:
     """Tests for the "Quarter" column when no usable release schedule is available."""
 

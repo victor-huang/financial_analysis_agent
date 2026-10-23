@@ -113,13 +113,17 @@ def _quarter_from_release_schedule(schedule: Dict) -> Optional[str]:
     """
     The fiscal quarter covered by whichever release is nearer today, the last
     or the next one: the latest fiscal quarter that ended before that release,
-    counted forward from fiscal_period_current's end date.
+    counted forward from fiscal_period_current's end date — but never earlier
+    than the latest fiscal quarter that has ended before today.
 
-    Counting from the period end keeps the answer stable across release day.
-    TradingView moves last_release_date to the release day before it updates
-    fiscal_period_current, so for a while it reports "last release today,
-    latest quarter Q2" for a company that just released Q3 — the Q3 period end
-    falling before today still yields Q3.
+    Counting from the period end keeps the answer stable across release day,
+    when TradingView's schedule lags in two observed ways:
+    - last_release_date moves to the release day before fiscal_period_current
+      advances ("last release today, latest quarter Q2" for a company that
+      just released Q3; seen 2026-10-19).
+    - next_release_date jumps to the following quarter's date before
+      last_release_date moves (AMX on 2026-10-20: last 7/21, next 2/16, the
+      10/20 release gone). The "latest ended quarter" floor covers this.
 
     Without a period end date, assumes the last release covered
     fiscal_period_current and the next one covers the quarter after.
@@ -128,23 +132,27 @@ def _quarter_from_release_schedule(schedule: Dict) -> Optional[str]:
     match = re.match(r"^\d{4}-Q(?P<quarter>[1-4])$", fiscal_period or "")
     last_release = schedule.get("last_release_date")
     next_release = schedule.get("next_release_date")
-    if not match or not (last_release or next_release):
+    period_end = schedule.get("fiscal_period_end_date")
+    if not match or not (last_release or next_release or period_end):
         return None
 
     today = _today()
-    if next_release is None:
-        is_last_release_nearer = True
-    elif last_release is None:
-        is_last_release_nearer = False
-    else:
-        is_last_release_nearer = (today - last_release).days <= (next_release - today).days
-    nearer_release = last_release if is_last_release_nearer else next_release
+    quarters_ahead = _quarters_ended_before(period_end, today) if period_end else 0
 
-    period_end = schedule.get("fiscal_period_end_date")
-    if period_end:
-        quarters_ahead = _quarters_ended_before(period_end, nearer_release)
-    else:
-        quarters_ahead = 0 if is_last_release_nearer else 1
+    if last_release or next_release:
+        if next_release is None:
+            is_last_release_nearer = True
+        elif last_release is None:
+            is_last_release_nearer = False
+        else:
+            is_last_release_nearer = (today - last_release).days <= (next_release - today).days
+        nearer_release = last_release if is_last_release_nearer else next_release
+
+        if period_end:
+            release_quarters_ahead = _quarters_ended_before(period_end, nearer_release)
+        else:
+            release_quarters_ahead = 0 if is_last_release_nearer else 1
+        quarters_ahead = max(quarters_ahead, release_quarters_ahead)
 
     latest_quarter = int(match.group("quarter"))
     return f"Q{(latest_quarter - 1 + quarters_ahead) % 4 + 1}"
