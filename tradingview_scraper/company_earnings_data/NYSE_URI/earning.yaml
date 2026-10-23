@@ -1,0 +1,76 @@
+currency: USD
+company_name: United Rentals, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 4090.0
+    Q1 2025: 3720.0
+    Q2 2025: 3940.0
+    Q3 2025: 4230.0
+    Q4 2025: 4210.0
+    Q1 2026: 3980.0
+    Q2 2026: 4410.0
+  annual:
+    2021 Yearly: 9720.0
+    2022 Yearly: 11640.0
+    2023 Yearly: 14330.0
+    2024 Yearly: 15350.0
+    2025 Yearly: 16100.000000000002
+  quarterly_forecast:
+    Q4 2024: 3930.0
+    Q1 2025: 3600.0
+    Q2 2025: 3890.0
+    Q3 2025: 4160.0
+    Q4 2025: 4240.0
+    Q1 2026: 3870.0
+    Q2 2026: 4210.0
+    Q3 2026: 4710.0
+    Q4 2026: 4660.0
+    Q1 2027: 4360.0
+    Q2 2027: 4830.0
+  annual_forecast:
+    2021 Yearly: 9690.0
+    2022 Yearly: 11640.0
+    2023 Yearly: 14240.0
+    2024 Yearly: 15190.0
+    2025 Yearly: 16129.999999999998
+    2026 Yearly: 17760.0
+    2027 Yearly: 19330.0
+    2028 Yearly: 21060.0
+    2029 Yearly: 21270.0
+eps:
+  quarterly:
+    Q4 2024: 11.59
+    Q1 2025: 8.86
+    Q2 2025: 10.47
+    Q3 2025: 11.7
+    Q4 2025: 11.09
+    Q1 2026: 9.71
+    Q2 2026: 12.76
+  annual:
+    2021 Yearly: 22.06
+    2022 Yearly: 32.5
+    2023 Yearly: 40.74
+    2024 Yearly: 43.17
+    2025 Yearly: 42.06
+  quarterly_forecast:
+    Q4 2024: 11.68
+    Q1 2025: 8.78
+    Q2 2025: 10.51
+    Q3 2025: 12.29
+    Q4 2025: 11.79
+    Q1 2026: 8.95
+    Q2 2026: 11.54
+    Q3 2026: 13.97
+    Q4 2026: 13.23
+    Q1 2027: 11.26
+    Q2 2027: 14.38
+  annual_forecast:
+    2022 Yearly: 21.3
+    2023 Yearly: 32.7
+    2024 Yearly: 40.21
+    2025 Yearly: 43.23
+    2026 Yearly: 42.67
+    2027 Yearly: 49.57
+    2028 Yearly: 57.54

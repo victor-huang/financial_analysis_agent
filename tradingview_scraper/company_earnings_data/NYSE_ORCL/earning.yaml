@@ -1,0 +1,78 @@
+currency: USD
+company_name: Oracle Corporation
+sector: Technology Services
+market_cap_billions: 449.07
+revenue:
+  quarterly:
+    Q2 2024: 14060.0
+    Q3 2024: 14130.0
+    Q4 2024: 15900.0
+    Q1 2025: 14930.0
+    Q2 2025: 16059.999999999998
+    Q3 2025: 17190.0
+    Q4 2025: 19180.0
+  annual:
+    2021 Yearly: 42440.0
+    2022 Yearly: 49950.0
+    2023 Yearly: 52960.0
+    2024 Yearly: 57400.0
+    2025 Yearly: 67360.0
+  quarterly_forecast:
+    Q2 2024: 14120.0
+    Q3 2024: 14380.0
+    Q4 2024: 15580.0
+    Q1 2025: 15040.0
+    Q2 2025: 16190.000000000002
+    Q3 2025: 16930.0
+    Q4 2025: 19100.0
+    Q1 2026: 19130.0
+    Q2 2026: 21180.0
+    Q3 2026: 23230.0
+    Q4 2026: 26280.0
+  annual_forecast:
+    2021 Yearly: 42220.0
+    2022 Yearly: 49860.0
+    2023 Yearly: 53250.0
+    2024 Yearly: 57090.0
+    2025 Yearly: 67260.0
+    2026 Yearly: 89660.0
+    2027 Yearly: 130550.00000000001
+    2028 Yearly: 179630.0
+    2029 Yearly: 218220.0
+eps:
+  quarterly:
+    Q2 2024: 1.47
+    Q3 2024: 1.47
+    Q4 2024: 1.7
+    Q1 2025: 1.47
+    Q2 2025: 2.26
+    Q3 2025: 1.79
+    Q4 2025: 2.11
+  annual:
+    2021 Yearly: 4.9
+    2022 Yearly: 5.12
+    2023 Yearly: 5.56
+    2024 Yearly: 6.03
+    2025 Yearly: 7.63
+  quarterly_forecast:
+    Q2 2024: 1.48
+    Q3 2024: 1.49
+    Q4 2024: 1.64
+    Q1 2025: 1.48
+    Q2 2025: 1.64
+    Q3 2025: 1.7
+    Q4 2025: 1.96
+    Q1 2026: 1.74
+    Q2 2026: 1.89
+    Q3 2026: 2.06
+    Q4 2026: 2.37
+  annual_forecast:
+    2021 Yearly: 4.75
+    2022 Yearly: 5.04
+    2023 Yearly: 5.59
+    2024 Yearly: 5.98
+    2025 Yearly: 7.49
+    2026 Yearly: 8.07
+    2027 Yearly: 10.99
+    2028 Yearly: 15.37
+    2029 Yearly: 19.73

@@ -1,0 +1,48 @@
+currency: USD
+company_name: Netskope, Inc.
+sector: Technology Services
+market_cap_billions: 5.55
+revenue:
+  quarterly:
+    Q1 2025: 157.74
+    Q2 2025: 170.8
+    Q3 2025: 184.17
+    Q4 2025: 196.33
+    Q1 2026: 201.59
+  annual:
+    2025 Yearly: 709.0
+  quarterly_forecast:
+    Q3 2025: 175.83
+    Q4 2025: 189.42
+    Q1 2026: 198.18
+    Q2 2026: 214.22
+    Q3 2026: 226.56
+    Q4 2026: 238.84
+    Q1 2027: 245.66
+  annual_forecast:
+    2025 Yearly: 702.07
+    2026 Yearly: 881.24
+    2027 Yearly: 1070.0
+    2028 Yearly: 1290.0
+eps:
+  quarterly:
+    Q1 2025: -0.6
+    Q2 2025: -0.32
+    Q3 2025: -0.1
+    Q4 2025: -0.04
+    Q1 2026: -0.06
+  annual:
+    2025 Yearly: -0.48
+  quarterly_forecast:
+    Q3 2025: -0.25
+    Q4 2025: -0.06
+    Q1 2026: -0.07
+    Q2 2026: -0.07
+    Q3 2026: -0.04
+    Q4 2026: -0.02
+    Q1 2027: -0.01
+  annual_forecast:
+    2025 Yearly: -0.52
+    2026 Yearly: -0.18
+    2027 Yearly: 0.02
+    2028 Yearly: 0.15

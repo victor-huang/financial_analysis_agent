@@ -1,0 +1,76 @@
+currency: USD
+company_name: Comfort Systems USA, Inc.
+sector: Industrial Services
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 1870.0
+    Q1 2025: 1830.0
+    Q2 2025: 2170.0
+    Q3 2025: 2450.0
+    Q4 2025: 2650.0
+    Q1 2026: 2870.0
+    Q2 2026: 3270.0
+  annual:
+    2021 Yearly: 3070.0
+    2022 Yearly: 4140.0
+    2023 Yearly: 5210.0
+    2024 Yearly: 7030.0
+    2025 Yearly: 9100.0
+  quarterly_forecast:
+    Q4 2024: 1770.0
+    Q1 2025: 1770.0
+    Q2 2025: 1970.0
+    Q3 2025: 2160.0
+    Q4 2025: 2340.0
+    Q1 2026: 2390.0
+    Q2 2026: 2990.0
+    Q3 2026: 3400.0
+    Q4 2026: 3460.0
+    Q1 2027: 3380.0
+    Q2 2027: 3740.0
+  annual_forecast:
+    2021 Yearly: 3020.0
+    2022 Yearly: 4110.0
+    2023 Yearly: 5180.0
+    2024 Yearly: 6930.0
+    2025 Yearly: 8790.0
+    2026 Yearly: 12990.0
+    2027 Yearly: 15460.0
+    2028 Yearly: 18140.0
+eps:
+  quarterly:
+    Q4 2024: 4.09
+    Q1 2025: 4.75
+    Q2 2025: 6.53
+    Q3 2025: 8.25
+    Q4 2025: 9.37
+    Q1 2026: 10.51
+    Q2 2026: 12.53
+  annual:
+    2021 Yearly: 3.93
+    2022 Yearly: 5.29
+    2023 Yearly: 8.74
+    2024 Yearly: 14.6
+    2025 Yearly: 28.88
+  quarterly_forecast:
+    Q4 2024: 3.73
+    Q1 2025: 3.71
+    Q2 2025: 4.84
+    Q3 2025: 6.29
+    Q4 2025: 6.75
+    Q1 2026: 6.81
+    Q2 2026: 10.45
+    Q3 2026: 12.85
+    Q4 2026: 13.15
+    Q1 2027: 12.42
+    Q2 2027: 14.46
+  annual_forecast:
+    2021 Yearly: 3.93
+    2022 Yearly: 5.15
+    2023 Yearly: 8.41
+    2024 Yearly: 14.31
+    2025 Yearly: 26.27
+    2026 Yearly: 49.06
+    2027 Yearly: 60.22
+    2028 Yearly: 74.39

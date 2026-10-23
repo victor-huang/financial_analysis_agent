@@ -1,0 +1,78 @@
+currency: USD
+company_name: Medpace Holdings, Inc.
+sector: Commercial Services
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 536.6
+    Q1 2025: 558.57
+    Q2 2025: 603.31
+    Q3 2025: 659.9
+    Q4 2025: 708.45
+    Q1 2026: 706.6
+    Q2 2026: 707.33
+  annual:
+    2021 Yearly: 1140.0
+    2022 Yearly: 1460.0
+    2023 Yearly: 1890.0
+    2024 Yearly: 2110.0
+    2025 Yearly: 2530.0
+  quarterly_forecast:
+    Q4 2024: 534.77
+    Q1 2025: 526.34
+    Q2 2025: 538.77
+    Q3 2025: 641.0
+    Q4 2025: 689.31
+    Q1 2026: 697.6
+    Q2 2026: 689.51
+    Q3 2026: 714.47
+    Q4 2026: 720.89
+    Q1 2027: 728.61
+    Q2 2027: 742.37
+  annual_forecast:
+    2021 Yearly: 1140.0
+    2022 Yearly: 1450.0
+    2023 Yearly: 1890.0
+    2024 Yearly: 2110.0
+    2025 Yearly: 2510.0
+    2026 Yearly: 2850.0
+    2027 Yearly: 3020.0
+    2028 Yearly: 3290.0
+    2029 Yearly: 3440.0
+eps:
+  quarterly:
+    Q4 2024: 3.67
+    Q1 2025: 3.67
+    Q2 2025: 3.1
+    Q3 2025: 3.86
+    Q4 2025: 4.67
+    Q1 2026: 4.28
+    Q2 2026: 4.25
+  annual:
+    2021 Yearly: 4.81
+    2022 Yearly: 7.28
+    2023 Yearly: 8.88
+    2024 Yearly: 12.63
+    2025 Yearly: 15.28
+  quarterly_forecast:
+    Q4 2024: 2.94
+    Q1 2025: 3.06
+    Q2 2025: 2.98
+    Q3 2025: 3.53
+    Q4 2025: 4.19
+    Q1 2026: 3.92
+    Q2 2026: 3.98
+    Q3 2026: 4.44
+    Q4 2026: 4.65
+    Q1 2027: 4.62
+    Q2 2027: 4.67
+  annual_forecast:
+    2021 Yearly: 4.78
+    2022 Yearly: 6.97
+    2023 Yearly: 8.64
+    2024 Yearly: 11.94
+    2025 Yearly: 14.8
+    2026 Yearly: 17.61
+    2027 Yearly: 19.35
+    2028 Yearly: 21.5
+    2029 Yearly: 23.63

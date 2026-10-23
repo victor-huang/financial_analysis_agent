@@ -1,0 +1,76 @@
+currency: USD
+company_name: Graco Inc.
+sector: Producer Manufacturing
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 548.67
+    Q1 2025: 528.28
+    Q2 2025: 571.81
+    Q3 2025: 543.36
+    Q4 2025: 593.16
+    Q1 2026: 540.1
+    Q2 2026: 590.55
+  annual:
+    2021 Yearly: 1990.0
+    2022 Yearly: 2140.0
+    2023 Yearly: 2200.0
+    2024 Yearly: 2110.0
+    2025 Yearly: 2240.0
+  quarterly_forecast:
+    Q4 2024: 556.94
+    Q1 2025: 524.67
+    Q2 2025: 590.75
+    Q3 2025: 562.08
+    Q4 2025: 590.48
+    Q1 2026: 560.61
+    Q2 2026: 608.06
+    Q3 2026: 589.73
+    Q4 2026: 644.19
+    Q1 2027: 583.49
+    Q2 2027: 636.85
+  annual_forecast:
+    2021 Yearly: 1970.0
+    2022 Yearly: 2140.0
+    2023 Yearly: 2190.0
+    2024 Yearly: 2120.0
+    2025 Yearly: 2230.0
+    2026 Yearly: 2360.0
+    2027 Yearly: 2500.0
+    2028 Yearly: 2560.0
+eps:
+  quarterly:
+    Q4 2024: 0.64
+    Q1 2025: 0.7
+    Q2 2025: 0.75
+    Q3 2025: 0.73
+    Q4 2025: 0.77
+    Q1 2026: 0.66
+    Q2 2026: 0.91
+  annual:
+    2021 Yearly: 2.44
+    2022 Yearly: 2.63
+    2023 Yearly: 3.04
+    2024 Yearly: 2.77
+    2025 Yearly: 2.95
+  quarterly_forecast:
+    Q4 2024: 0.77
+    Q1 2025: 0.67
+    Q2 2025: 0.79
+    Q3 2025: 0.74
+    Q4 2025: 0.77
+    Q1 2026: 0.74
+    Q2 2026: 0.81
+    Q3 2026: 0.83
+    Q4 2026: 0.88
+    Q1 2027: 0.78
+    Q2 2027: 0.92
+  annual_forecast:
+    2021 Yearly: 2.41
+    2022 Yearly: 2.6
+    2023 Yearly: 3.04
+    2024 Yearly: 2.9
+    2025 Yearly: 2.98
+    2026 Yearly: 3.3
+    2027 Yearly: 3.52
+    2028 Yearly: 3.75

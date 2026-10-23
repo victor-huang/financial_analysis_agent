@@ -1,0 +1,76 @@
+currency: USD
+company_name: Research Solutions, Inc
+sector: Commercial Services
+market_cap_billions: 0.07225
+revenue:
+  quarterly:
+    Q1 2025: 12.04
+    Q2 2025: 11.91
+    Q3 2025: 12.66
+    Q4 2025: 12.44
+    Q1 2026: 12.31
+    Q2 2026: 11.79
+    Q3 2026: 12.12
+  annual:
+    2021 Yearly: 31.76
+    2022 Yearly: 32.93
+    2023 Yearly: 37.7
+    2024 Yearly: 44.62
+    2025 Yearly: 49.06
+  quarterly_forecast:
+    Q1 2025: 11.9
+    Q2 2025: 11.83
+    Q3 2025: 13.02
+    Q4 2025: 12.41
+    Q1 2026: 12.29
+    Q2 2026: 12.16
+    Q3 2026: 12.37
+    Q4 2026: 11.95
+    Q1 2027: 12.14
+    Q2 2027: 11.99
+    Q3 2027: 12.59
+  annual_forecast:
+    2021 Yearly: 31.75
+    2022 Yearly: 32.63
+    2023 Yearly: 37.59
+    2024 Yearly: 44.35
+    2025 Yearly: 49.02
+    2026 Yearly: 48.17
+    2027 Yearly: 49.12
+    2028 Yearly: 50.35
+eps:
+  quarterly:
+    Q1 2025: 0.02
+    Q2 2025: -0.07
+    Q3 2025: 0.03
+    Q4 2025: 0.07
+    Q1 2026: 0.02
+    Q2 2026: 0.02
+    Q3 2026: 0.03
+  annual:
+    2021 Yearly: -0.01
+    2022 Yearly: -0.06
+    2023 Yearly: 0.02
+    2024 Yearly: -0.13
+    2025 Yearly: 0.04
+  quarterly_forecast:
+    Q1 2025: 0.02
+    Q2 2025: 0.02
+    Q3 2025: 0.03
+    Q4 2025: 0.05
+    Q1 2026: 0.03
+    Q2 2026: 0.03
+    Q3 2026: 0.04
+    Q4 2026: 0.04
+    Q1 2027: 0.03
+    Q2 2027: 0.04
+    Q3 2027: 0.04
+  annual_forecast:
+    2021 Yearly: 0.03
+    2022 Yearly: -0.03
+    2023 Yearly: 0.07
+    2024 Yearly: -0.02
+    2025 Yearly: 0.12
+    2026 Yearly: 0.13
+    2027 Yearly: 0.15
+    2028 Yearly: 0.14

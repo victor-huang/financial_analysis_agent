@@ -1,0 +1,78 @@
+currency: USD
+company_name: Mercury Systems Inc
+sector: Electronic Technology
+market_cap_billions: 6.3
+revenue:
+  quarterly:
+    Q1 2025: 204.43
+    Q2 2025: 223.13
+    Q3 2025: 211.36
+    Q4 2025: 273.11
+    Q1 2026: 225.21
+    Q2 2026: 232.87
+    Q3 2026: 235.76
+  annual:
+    2021 Yearly: 924.0
+    2022 Yearly: 988.2
+    2023 Yearly: 973.88
+    2024 Yearly: 835.27
+    2025 Yearly: 912.02
+  quarterly_forecast:
+    Q1 2025: 181.69
+    Q2 2025: 182.36
+    Q3 2025: 203.78
+    Q4 2025: 244.02
+    Q1 2026: 205.92
+    Q2 2026: 210.51
+    Q3 2026: 208.56
+    Q4 2026: 266.09
+    Q1 2027: 241.2
+    Q2 2027: 252.96
+    Q3 2027: 263.78
+  annual_forecast:
+    2021 Yearly: 916.47
+    2022 Yearly: 1010.0
+    2023 Yearly: 999.44
+    2024 Yearly: 821.05
+    2025 Yearly: 882.88
+    2026 Yearly: 959.93
+    2027 Yearly: 1050.0
+    2028 Yearly: 1150.0
+    2029 Yearly: 1250.0
+eps:
+  quarterly:
+    Q1 2025: 0.04
+    Q2 2025: 0.07
+    Q3 2025: 0.06
+    Q4 2025: 0.47
+    Q1 2026: 0.26
+    Q2 2026: 0.16
+    Q3 2026: 0.27
+  annual:
+    2021 Yearly: 2.42
+    2022 Yearly: 2.19
+    2023 Yearly: 1.0
+    2024 Yearly: -0.69
+    2025 Yearly: 0.64
+  quarterly_forecast:
+    Q1 2025: -0.08
+    Q2 2025: -0.05
+    Q3 2025: 0.08
+    Q4 2025: 0.22
+    Q1 2026: 0.09
+    Q2 2026: 0.07
+    Q3 2026: 0.07
+    Q4 2026: 0.38
+    Q1 2027: 0.26
+    Q2 2027: 0.32
+    Q3 2027: 0.39
+  annual_forecast:
+    2021 Yearly: 2.37
+    2022 Yearly: 2.37
+    2023 Yearly: 1.42
+    2024 Yearly: -0.92
+    2025 Yearly: 0.4
+    2026 Yearly: 1.07
+    2027 Yearly: 1.51
+    2028 Yearly: 2.15
+    2029 Yearly: 2.61

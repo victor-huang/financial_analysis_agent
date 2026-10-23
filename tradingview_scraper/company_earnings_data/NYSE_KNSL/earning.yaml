@@ -1,0 +1,76 @@
+currency: USD
+company_name: Kinsale Capital Group, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 346.12
+    Q1 2025: 381.7
+    Q2 2025: 458.7
+    Q3 2025: 405.06
+    Q4 2025: 370.55
+    Q1 2026: 403.26
+    Q2 2026: 452.48
+  annual:
+    2021 Yearly: 764.37
+    2022 Yearly: 1100.0
+    2023 Yearly: 1260.0
+    2024 Yearly: 1480.0
+    2025 Yearly: 1620.0
+  quarterly_forecast:
+    Q4 2024: 357.06
+    Q1 2025: 396.87
+    Q2 2025: 424.2
+    Q3 2025: 381.46
+    Q4 2025: 392.42
+    Q1 2026: 405.75
+    Q2 2026: 445.13
+    Q3 2026: 401.43
+    Q4 2026: 377.21
+    Q1 2027: 417.14
+    Q2 2027: 455.84
+  annual_forecast:
+    2021 Yearly: 756.92
+    2022 Yearly: 1070.0
+    2023 Yearly: 1560.0
+    2024 Yearly: 1460.0
+    2025 Yearly: 1640.0
+    2026 Yearly: 1630.0
+    2027 Yearly: 1650.0
+    2028 Yearly: 1700.0
+eps:
+  quarterly:
+    Q4 2024: 4.62
+    Q1 2025: 3.71
+    Q2 2025: 4.78
+    Q3 2025: 5.21
+    Q4 2025: 5.81
+    Q1 2026: 5.11
+    Q2 2026: 5.54
+  annual:
+    2021 Yearly: 5.74
+    2022 Yearly: 7.8
+    2023 Yearly: 12.5
+    2024 Yearly: 16.06
+    2025 Yearly: 19.51
+  quarterly_forecast:
+    Q4 2024: 4.41
+    Q1 2025: 3.23
+    Q2 2025: 4.41
+    Q3 2025: 4.82
+    Q4 2025: 5.27
+    Q1 2026: 4.66
+    Q2 2026: 5.11
+    Q3 2026: 5.11
+    Q4 2026: 5.67
+    Q1 2027: 5.01
+    Q2 2027: 5.41
+  annual_forecast:
+    2021 Yearly: 5.36
+    2022 Yearly: 7.34
+    2023 Yearly: 12.01
+    2024 Yearly: 15.89
+    2025 Yearly: 18.97
+    2026 Yearly: 21.34
+    2027 Yearly: 21.68
+    2028 Yearly: 23.06

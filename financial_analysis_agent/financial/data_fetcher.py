@@ -2,15 +2,24 @@
 
 import logging
 from typing import Dict, List, Optional, Union
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import pandas as pd
 
 from ..config import get_config
-from .sources import YFinanceSource, AlphaVantageSource, FinnhubSource, YahooQuerySource, FMPSource
+from .sources import (
+    YFinanceSource,
+    AlphaVantageSource,
+    FinnhubSource,
+    YahooQuerySource,
+    FMPSource,
+    AlpacaSource,
+)
 from .utils import merge_estimates_on_period_end
 
 logger = logging.getLogger(__name__)
+
+YFINANCE_INTRADAY_MAX_AGE_DAYS = 59
 
 
 class FinancialDataFetcher:
@@ -42,6 +51,12 @@ class FinancialDataFetcher:
         )
         self._fmp_source = None
 
+        # Alpaca setup
+        self.alpaca_key = self.config.get("apis.alpaca.api_key")
+        self.alpaca_secret = self.config.get("apis.alpaca.secret_key")
+        self.alpaca_feed = self.config.get("apis.alpaca.feed", "sip")
+        self._alpaca_source = None
+
         # YFinance and YahooQuery sources (no API key needed)
         self._yfinance_source = YFinanceSource()
         self._yahooquery_source = YahooQuerySource()
@@ -66,6 +81,15 @@ class FinancialDataFetcher:
         if not self._fmp_source and self.fmp_key:
             self._fmp_source = FMPSource(self.fmp_key)
         return self._fmp_source
+
+    @property
+    def alpaca_source(self) -> Optional[AlpacaSource]:
+        """Get or initialize the Alpaca source."""
+        if not self._alpaca_source and self.alpaca_key and self.alpaca_secret:
+            self._alpaca_source = AlpacaSource(
+                self.alpaca_key, self.alpaca_secret, self.alpaca_feed
+            )
+        return self._alpaca_source
 
     def get_stock_data(
         self,
@@ -104,6 +128,55 @@ class FinancialDataFetcher:
             logger.error(f"Error fetching stock data for {ticker}: {str(e)}")
             raise
 
+    def get_intraday_bars(
+        self,
+        ticker: str,
+        start: datetime,
+        end: datetime,
+        interval_minutes: int = 5,
+    ) -> Optional[pd.DataFrame]:
+        """Get intraday bars including extended hours: prefer Alpaca, fall back to yfinance.
+
+        yfinance only serves intraday bars for roughly the last 60 days, so older
+        windows require Alpaca.
+
+        Args:
+            ticker: Stock ticker symbol
+            start: Start time (naive, US/Eastern)
+            end: End time (naive, US/Eastern)
+            interval_minutes: Bar size in minutes
+
+        Returns:
+            DataFrame indexed by naive US/Eastern bar start time, or None.
+        """
+        if self.alpaca_source:
+            df = self.alpaca_source.get_intraday_bars(ticker, start, end, interval_minutes)
+            if df is not None and not df.empty:
+                return df
+
+        if datetime.now() - start > timedelta(days=YFINANCE_INTRADAY_MAX_AGE_DAYS):
+            logger.warning(
+                f"No intraday bars for {ticker} from {start}: Alpaca unavailable and "
+                f"yfinance only covers the last {YFINANCE_INTRADAY_MAX_AGE_DAYS} days"
+            )
+            return None
+
+        try:
+            df = self._yfinance_source.get_stock_data(
+                ticker,
+                start_date=start,
+                end_date=end + timedelta(days=1),
+                interval=f"{interval_minutes}m",
+                prepost=True,
+            )
+        except Exception:
+            return None
+        if df is None or df.empty:
+            return None
+        df = df[(df.index >= start) & (df.index <= end)]
+        df.index.name = "timestamp"
+        return df
+
     def get_company_info(self, ticker: str) -> Dict:
         """Get company information."""
         return self._yfinance_source.get_company_info(ticker)
@@ -127,6 +200,10 @@ class FinancialDataFetcher:
     def get_earnings_dates(self, ticker: str, limit: int = 8) -> Optional[pd.DataFrame]:
         """Get recent earnings dates with EPS estimates/actuals/surprise."""
         return self._yfinance_source.get_earnings_dates(ticker, limit)
+
+    def get_eps_trend(self, ticker: str) -> Optional[pd.DataFrame]:
+        """Get consensus EPS estimates now and 7/30/60/90 days ago (yfinance)."""
+        return self._yfinance_source.get_eps_trend(ticker)
 
     def get_earnings_trend(self, ticker: str) -> Optional[pd.DataFrame]:
         """Get earnings trend which may include quarterly EPS and revenue estimates."""
@@ -164,11 +241,25 @@ class FinancialDataFetcher:
             return None
         return self.fmp_source.get_revenue_estimates(ticker, limit)
 
+    def get_market_caps(self, tickers: List[str]) -> Dict[str, float]:
+        """Current market capitalization in $B per ticker (FMP); empty when FMP is not configured."""
+        if not self.fmp_source:
+            return {}
+        return self.fmp_source.get_market_caps(tickers)
+
     def get_historical_earnings_calendar_fmp(self, ticker: str, limit: int = 20) -> Optional[pd.DataFrame]:
         """Fetch historical earnings calendar from FMP (includes EPS and revenue actuals)."""
         if not self.fmp_source:
             return None
         return self.fmp_source.get_historical_earnings_calendar(ticker, limit)
+
+    def get_key_metrics_fmp(
+        self, ticker: str, period: str = "annual", limit: int = 8
+    ) -> Optional[pd.DataFrame]:
+        """Fetch gross profit, EBITDA, operating income, net income, and free cash flow (with margins) from FMP."""
+        if not self.fmp_source:
+            return None
+        return self.fmp_source.get_key_metrics(ticker, period, limit)
 
     def get_analyst_estimates(self, ticker: str) -> Optional[pd.DataFrame]:
         """Unified analyst estimates: prefer FMP, then Finnhub, then YahooQuery, then yfinance history.

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Grupo Aeroportuario del Sureste, S.A. de C.V.
+sector: Transportation
+market_cap_billions: 7.59
+revenue:
+  quarterly:
+    Q4 2024: 440.91
+    Q1 2025: 447.78
+    Q2 2025: 468.31
+    Q3 2025: 476.14
+    Q4 2025: 639.07
+    Q1 2026: 511.61
+    Q2 2026: 548.58
+  annual:
+    2021 Yearly: 895.97
+    2022 Yearly: 1370.0
+    2023 Yearly: 1510.0
+    2024 Yearly: 1530.0
+    2025 Yearly: 2170.0
+  quarterly_forecast:
+    Q4 2024: 412.32
+    Q1 2025: 435.13
+    Q2 2025: 444.17
+    Q3 2025: 432.81
+    Q4 2025: 518.51
+    Q1 2026: 573.31
+    Q2 2026: 517.35
+    Q3 2026: 527.02
+    Q4 2026: 581.2
+    Q1 2027: 531.91
+    Q2 2027: 505.01
+  annual_forecast:
+    2021 Yearly: 839.51
+    2022 Yearly: 1240.0
+    2023 Yearly: 1460.0
+    2024 Yearly: 1530.0
+    2025 Yearly: 1940.0
+    2026 Yearly: 2160.0
+    2027 Yearly: 2460.0
+    2028 Yearly: 2570.0
+    2029 Yearly: 2670.0
+eps:
+  quarterly:
+    Q4 2024: 5.48
+    Q1 2025: 5.97
+    Q2 2025: 3.8
+    Q3 2025: 3.83
+    Q4 2025: 5.27
+    Q1 2026: 5.42
+    Q2 2026: 4.38
+  annual:
+    2021 Yearly: 9.76
+    2022 Yearly: 18.05
+    2023 Yearly: 20.08
+    2024 Yearly: 23.97
+    2025 Yearly: 20.32
+  quarterly_forecast:
+    Q4 2024: 5.28
+    Q1 2025: 5.85
+    Q2 2025: 5.64
+    Q3 2025: 5.16
+    Q4 2025: 5.21
+    Q1 2026: 5.99
+    Q2 2026: 5.03
+    Q3 2026: 4.38
+    Q4 2026: 4.86
+    Q1 2027: 5.99
+    Q2 2027: 5.66
+  annual_forecast:
+    2021 Yearly: 8.62
+    2022 Yearly: 16.41
+    2023 Yearly: 20.28
+    2024 Yearly: 21.72
+    2025 Yearly: 21.0
+    2026 Yearly: 19.89
+    2027 Yearly: 23.17
+    2028 Yearly: 24.85
+    2029 Yearly: 25.09

@@ -1,0 +1,82 @@
+currency: USD
+company_name: Equity Lifestyle Properties, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 301.4
+    Q1 2025: 387.33
+    Q2 2025: 376.87
+    Q3 2025: 393.31
+    Q4 2025: 373.87
+    Q1 2026: 397.6
+    Q2 2026: 397.81
+    Q3 2026: 409.9
+  annual:
+    2021 Yearly: 1270.0
+    2022 Yearly: 1120.0
+    2023 Yearly: 1180.0
+    2024 Yearly: 1230.0
+    2025 Yearly: 1530.0
+  quarterly_forecast:
+    Q4 2024: 309.73
+    Q1 2025: 335.1
+    Q2 2025: 377.59
+    Q3 2025: 387.0
+    Q4 2025: 382.26
+    Q1 2026: 397.16
+    Q2 2026: 383.66
+    Q3 2026: 402.75
+    Q4 2026: 389.12
+    Q1 2027: 406.75
+    Q2 2027: 406.84
+    Q3 2027: 418.11
+  annual_forecast:
+    2021 Yearly: 1140.0
+    2022 Yearly: 1300.0
+    2023 Yearly: 1220.0
+    2024 Yearly: 1260.0
+    2025 Yearly: 1520.0
+    2026 Yearly: 1580.0
+    2027 Yearly: 1650.0
+    2028 Yearly: 1730.0
+    2029 Yearly: 1850.0
+eps:
+  quarterly:
+    Q4 2024: 0.5
+    Q1 2025: 0.57
+    Q2 2025: 0.42
+    Q3 2025: 0.5
+    Q4 2025: 0.52
+    Q1 2026: 0.56
+    Q2 2026: 0.5
+    Q3 2026: 0.45
+  annual:
+    2021 Yearly: 1.43
+    2022 Yearly: 1.53
+    2023 Yearly: 1.69
+    2024 Yearly: 1.96
+    2025 Yearly: 2.01
+  quarterly_forecast:
+    Q4 2024: 0.48
+    Q1 2025: 0.55
+    Q2 2025: 0.41
+    Q3 2025: 0.46
+    Q4 2025: 0.51
+    Q1 2026: 0.55
+    Q2 2026: 0.43
+    Q3 2026: 0.51
+    Q4 2026: 0.53
+    Q1 2027: 0.6
+    Q2 2027: 0.5
+    Q3 2027: 0.53
+  annual_forecast:
+    2021 Yearly: 1.36
+    2022 Yearly: 1.41
+    2023 Yearly: 1.59
+    2024 Yearly: 1.89
+    2025 Yearly: 1.95
+    2026 Yearly: 2.08
+    2027 Yearly: 2.2
+    2028 Yearly: 2.38
+    2029 Yearly: 2.58

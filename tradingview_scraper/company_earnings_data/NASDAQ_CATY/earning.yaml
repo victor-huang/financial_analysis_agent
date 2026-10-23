@@ -1,0 +1,76 @@
+currency: USD
+company_name: Cathay General Bancorp
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 186.49
+    Q1 2025: 187.84
+    Q2 2025: 196.61
+    Q3 2025: 210.61
+    Q4 2025: 222.83
+    Q1 2026: 213.2
+    Q2 2026: 221.2
+  annual:
+    2021 Yearly: 652.36
+    2022 Yearly: 790.51
+    2023 Yearly: 810.04
+    2024 Yearly: 729.72
+    2025 Yearly: 817.89
+  quarterly_forecast:
+    Q4 2024: 184.87
+    Q1 2025: 186.16
+    Q2 2025: 195.92
+    Q3 2025: 202.7
+    Q4 2025: 211.83
+    Q1 2026: 211.4
+    Q2 2026: 218.27
+    Q3 2026: 227.45
+    Q4 2026: 229.8
+    Q1 2027: 227.15
+    Q2 2027: 230.45
+  annual_forecast:
+    2021 Yearly: 643.35
+    2022 Yearly: 793.4
+    2023 Yearly: 800.14
+    2024 Yearly: 732.59
+    2025 Yearly: 808.29
+    2026 Yearly: 892.09
+    2027 Yearly: 929.06
+    2028 Yearly: 973.57
+eps:
+  quarterly:
+    Q4 2024: 1.12
+    Q1 2025: 0.98
+    Q2 2025: 1.1
+    Q3 2025: 1.13
+    Q4 2025: 1.33
+    Q1 2026: 1.29
+    Q2 2026: 1.37
+  annual:
+    2021 Yearly: 3.8
+    2022 Yearly: 4.83
+    2023 Yearly: 4.86
+    2024 Yearly: 3.95
+    2025 Yearly: 4.54
+  quarterly_forecast:
+    Q4 2024: 1.1
+    Q1 2025: 0.95
+    Q2 2025: 1.09
+    Q3 2025: 1.15
+    Q4 2025: 1.23
+    Q1 2026: 1.21
+    Q2 2026: 1.35
+    Q3 2026: 1.45
+    Q4 2026: 1.46
+    Q1 2027: 1.43
+    Q2 2027: 1.47
+  annual_forecast:
+    2021 Yearly: 3.75
+    2022 Yearly: 4.9
+    2023 Yearly: 4.78
+    2024 Yearly: 3.93
+    2025 Yearly: 4.46
+    2026 Yearly: 5.57
+    2027 Yearly: 5.95
+    2028 Yearly: 6.36

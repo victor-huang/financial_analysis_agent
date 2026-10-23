@@ -1,0 +1,48 @@
+currency: USD
+company_name: Evolution Metals & Technologies Corp.
+sector: Commercial Services
+market_cap_billions: 1.97
+revenue:
+  quarterly:
+    Q3 2025: 2.0
+    Q4 2025: 2.0
+    Q1 2026: 1.88
+    Q2 2026: 1.64
+  annual:
+    2025 Yearly: 7.0
+  quarterly_forecast:
+    Q4 2025: 2.0
+    Q1 2026: 1.9
+    Q2 2026: 2.15
+    Q3 2026: 2.25
+    Q4 2026: 4.35
+    Q1 2027: 7.9
+    Q2 2027: 14.05
+  annual_forecast:
+    2025 Yearly: 7.0
+    2026 Yearly: 10.34
+    2027 Yearly: 75.6
+    2028 Yearly: 1600.0
+    2029 Yearly: 5300.0
+eps:
+  quarterly:
+    Q3 2025: 0.0
+    Q4 2025: -0.01
+    Q1 2026: -0.02
+    Q2 2026: -0.02
+  annual:
+    2025 Yearly: -0.02
+  quarterly_forecast:
+    Q4 2025: -0.01
+    Q1 2026: -0.03
+    Q2 2026: -0.02
+    Q3 2026: -0.03
+    Q4 2026: -0.03
+    Q1 2027: -0.03
+    Q2 2027: -0.02
+  annual_forecast:
+    2025 Yearly: -0.02
+    2026 Yearly: -0.45
+    2027 Yearly: -0.09
+    2028 Yearly: 0.49
+    2029 Yearly: 2.25

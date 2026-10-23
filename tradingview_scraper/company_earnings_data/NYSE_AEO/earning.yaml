@@ -1,0 +1,76 @@
+currency: USD
+company_name: American Eagle Outfitters, Inc.
+sector: Retail Trade
+market_cap_billions: 2.88
+revenue:
+  quarterly:
+    Q3 2024: 1290.0
+    Q4 2024: 1600.0
+    Q1 2025: 1090.0
+    Q2 2025: 1280.0
+    Q3 2025: 1360.0
+    Q4 2025: 1760.0
+    Q1 2026: 1200.0
+  annual:
+    2021 Yearly: 5010.0
+    2022 Yearly: 4990.0
+    2023 Yearly: 5260.0
+    2024 Yearly: 5330.0
+    2025 Yearly: 5500.0
+  quarterly_forecast:
+    Q3 2024: 1300.0
+    Q4 2024: 1600.0
+    Q1 2025: 1090.0
+    Q2 2025: 1240.0
+    Q3 2025: 1320.0
+    Q4 2025: 1740.0
+    Q1 2026: 1180.0
+    Q2 2026: 1370.0
+    Q3 2026: 1420.0
+    Q4 2026: 1820.0
+    Q1 2027: 1240.0
+  annual_forecast:
+    2021 Yearly: 5010.0
+    2022 Yearly: 4960.0
+    2023 Yearly: 5260.0
+    2024 Yearly: 5330.0
+    2025 Yearly: 5470.0
+    2026 Yearly: 5800.0
+    2027 Yearly: 6020.0
+    2028 Yearly: 6330.0
+eps:
+  quarterly:
+    Q3 2024: 0.48
+    Q4 2024: 0.53
+    Q1 2025: -0.29
+    Q2 2025: 0.45
+    Q3 2025: 0.53
+    Q4 2025: 0.84
+    Q1 2026: 0.14
+  annual:
+    2021 Yearly: 2.19
+    2022 Yearly: 0.97
+    2023 Yearly: 1.52
+    2024 Yearly: 1.74
+    2025 Yearly: 1.5
+  quarterly_forecast:
+    Q3 2024: 0.47
+    Q4 2024: 0.5
+    Q1 2025: -0.25
+    Q2 2025: 0.2
+    Q3 2025: 0.44
+    Q4 2025: 0.71
+    Q1 2026: 0.12
+    Q2 2026: 0.22
+    Q3 2026: 0.55
+    Q4 2026: 0.86
+    Q1 2027: 0.14
+  annual_forecast:
+    2021 Yearly: 2.2
+    2022 Yearly: 0.9
+    2023 Yearly: 1.41
+    2024 Yearly: 1.7
+    2025 Yearly: 1.38
+    2026 Yearly: 1.76
+    2027 Yearly: 1.95
+    2028 Yearly: 2.31

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Autodesk, Inc.
+sector: Technology Services
+market_cap_billions: 56.73
+revenue:
+  quarterly:
+    Q3 2024: 1570.0
+    Q4 2024: 1640.0
+    Q1 2025: 1630.0
+    Q2 2025: 1760.0
+    Q3 2025: 1850.0
+    Q4 2025: 1960.0
+    Q1 2026: 1930.0
+  annual:
+    2021 Yearly: 4390.0
+    2022 Yearly: 5000.0
+    2023 Yearly: 5500.0
+    2024 Yearly: 6130.0
+    2025 Yearly: 7210.0
+  quarterly_forecast:
+    Q3 2024: 1560.0
+    Q4 2024: 1630.0
+    Q1 2025: 1610.0
+    Q2 2025: 1720.0
+    Q3 2025: 1810.0
+    Q4 2025: 1910.0
+    Q1 2026: 1890.0
+    Q2 2026: 2009.9999999999998
+    Q3 2026: 2080.0
+    Q4 2026: 2170.0
+    Q1 2027: 2130.0
+  annual_forecast:
+    2021 Yearly: 4370.0
+    2022 Yearly: 5000.0
+    2023 Yearly: 5460.0
+    2024 Yearly: 6120.0
+    2025 Yearly: 7170.0
+    2026 Yearly: 8210.0
+    2027 Yearly: 9050.0
+    2028 Yearly: 10030.0
+    2029 Yearly: 11320.0
+eps:
+  quarterly:
+    Q3 2024: 2.17
+    Q4 2024: 2.29
+    Q1 2025: 2.29
+    Q2 2025: 2.62
+    Q3 2025: 2.67
+    Q4 2025: 2.85
+    Q1 2026: 2.99
+  annual:
+    2021 Yearly: 5.07
+    2022 Yearly: 6.63
+    2023 Yearly: 7.6
+    2024 Yearly: 8.47
+    2025 Yearly: 10.43
+  quarterly_forecast:
+    Q3 2024: 2.12
+    Q4 2024: 2.14
+    Q1 2025: 2.15
+    Q2 2025: 2.45
+    Q3 2025: 2.5
+    Q4 2025: 2.65
+    Q1 2026: 2.84
+    Q2 2026: 3.12
+    Q3 2026: 3.14
+    Q4 2026: 3.31
+    Q1 2027: 3.3
+  annual_forecast:
+    2021 Yearly: 5.01
+    2022 Yearly: 6.59
+    2023 Yearly: 7.48
+    2024 Yearly: 8.32
+    2025 Yearly: 10.24
+    2026 Yearly: 12.58
+    2027 Yearly: 14.17
+    2028 Yearly: 16.25
+    2029 Yearly: 17.84

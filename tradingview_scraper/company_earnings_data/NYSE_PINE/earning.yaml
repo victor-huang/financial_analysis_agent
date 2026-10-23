@@ -1,0 +1,78 @@
+currency: USD
+company_name: Alpine Income Property Trust, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 13.79
+    Q1 2025: 14.21
+    Q2 2025: 14.86
+    Q3 2025: 14.56
+    Q4 2025: 16.9
+    Q1 2026: 18.41
+    Q2 2026: 20.0
+  annual:
+    2021 Yearly: 30.13
+    2022 Yearly: 45.2
+    2023 Yearly: 45.64
+    2024 Yearly: 52.23
+    2025 Yearly: 60.53
+  quarterly_forecast:
+    Q4 2024: 13.27
+    Q1 2025: 14.01
+    Q2 2025: 14.42
+    Q3 2025: 14.67
+    Q4 2025: 15.62
+    Q1 2026: 17.39
+    Q2 2026: 18.85
+    Q3 2026: 20.19
+    Q4 2026: 20.27
+    Q1 2027: 20.5
+    Q2 2027: 20.75
+  annual_forecast:
+    2021 Yearly: 29.4
+    2022 Yearly: 45.21
+    2023 Yearly: 45.8
+    2024 Yearly: 51.83
+    2025 Yearly: 59.21
+    2026 Yearly: 78.86
+    2027 Yearly: 84.71
+    2028 Yearly: 87.48
+    2029 Yearly: 99.25
+eps:
+  quarterly:
+    Q4 2024: -0.06
+    Q1 2025: -0.08
+    Q2 2025: -0.12
+    Q3 2025: -0.09
+    Q4 2025: 0.06
+    Q1 2026: 0.06
+    Q2 2026: 0.16
+  annual:
+    2021 Yearly: 0.89
+    2022 Yearly: 2.17
+    2023 Yearly: 0.19
+    2024 Yearly: 0.14
+    2025 Yearly: -0.22
+  quarterly_forecast:
+    Q4 2024: 0.02
+    Q1 2025: 0.0
+    Q2 2025: -0.03
+    Q3 2025: -0.01
+    Q4 2025: 0.04
+    Q1 2026: 0.06
+    Q2 2026: 0.14
+    Q3 2026: 0.17
+    Q4 2026: 0.16
+    Q1 2027: 0.15
+    Q2 2027: 0.16
+  annual_forecast:
+    2021 Yearly: 0.18
+    2022 Yearly: 2.04
+    2023 Yearly: 0.13
+    2024 Yearly: 0.22
+    2025 Yearly: -0.23
+    2026 Yearly: 0.58
+    2027 Yearly: 0.65
+    2028 Yearly: 0.63
+    2029 Yearly: 0.3

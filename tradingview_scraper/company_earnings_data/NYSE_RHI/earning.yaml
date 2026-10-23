@@ -1,0 +1,78 @@
+currency: USD
+company_name: Robert Half Inc.
+sector: Commercial Services
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 1380.0
+    Q1 2025: 1350.0
+    Q2 2025: 1370.0
+    Q3 2025: 1350.0
+    Q4 2025: 1300.0
+    Q1 2026: 1300.0
+    Q2 2026: 1340.0
+  annual:
+    2021 Yearly: 6460.0
+    2022 Yearly: 7240.0
+    2023 Yearly: 6390.0
+    2024 Yearly: 5800.0
+    2025 Yearly: 5380.0
+  quarterly_forecast:
+    Q4 2024: 1390.0
+    Q1 2025: 1410.0
+    Q2 2025: 1350.0
+    Q3 2025: 1360.0
+    Q4 2025: 1290.0
+    Q1 2026: 1300.0
+    Q2 2026: 1320.0
+    Q3 2026: 1360.0
+    Q4 2026: 1320.0
+    Q1 2027: 1330.0
+    Q2 2027: 1380.0
+  annual_forecast:
+    2021 Yearly: 6360.0
+    2022 Yearly: 7250.0
+    2023 Yearly: 6390.0
+    2024 Yearly: 5800.0
+    2025 Yearly: 5370.0
+    2026 Yearly: 5310.0
+    2027 Yearly: 5530.0
+    2028 Yearly: 5820.0
+    2029 Yearly: 6070.0
+eps:
+  quarterly:
+    Q4 2024: 0.53
+    Q1 2025: 0.17
+    Q2 2025: 0.41
+    Q3 2025: 0.43
+    Q4 2025: 0.32
+    Q1 2026: 0.14
+    Q2 2026: 0.26
+  annual:
+    2021 Yearly: 5.36
+    2022 Yearly: 6.03
+    2023 Yearly: 3.88
+    2024 Yearly: 2.44
+    2025 Yearly: 1.33
+  quarterly_forecast:
+    Q4 2024: 0.55
+    Q1 2025: 0.36
+    Q2 2025: 0.4
+    Q3 2025: 0.43
+    Q4 2025: 0.3
+    Q1 2026: 0.13
+    Q2 2026: 0.26
+    Q3 2026: 0.47
+    Q4 2026: 0.38
+    Q1 2027: 0.28
+    Q2 2027: 0.45
+  annual_forecast:
+    2021 Yearly: 5.28
+    2022 Yearly: 6.02
+    2023 Yearly: 3.87
+    2024 Yearly: 2.46
+    2025 Yearly: 1.33
+    2026 Yearly: 1.26
+    2027 Yearly: 1.97
+    2028 Yearly: 2.49
+    2029 Yearly: 2.99

@@ -1,0 +1,82 @@
+currency: USD
+company_name: Capital One Financial Corporation
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 10190.0
+    Q1 2025: 10000.0
+    Q2 2025: 12490.0
+    Q3 2025: 15360.0
+    Q4 2025: 15580.0
+    Q1 2026: 15230.0
+    Q2 2026: 15850.0
+    Q3 2026: 16340.0
+  annual:
+    2021 Yearly: 30430.0
+    2022 Yearly: 34250.0
+    2023 Yearly: 36790.0
+    2024 Yearly: 39110.0
+    2025 Yearly: 53430.0
+  quarterly_forecast:
+    Q4 2024: 10210.0
+    Q1 2025: 10060.0
+    Q2 2025: 12370.0
+    Q3 2025: 15070.0
+    Q4 2025: 15470.0
+    Q1 2026: 15350.0
+    Q2 2026: 15760.0
+    Q3 2026: 16250.0
+    Q4 2026: 16580.0
+    Q1 2027: 16350.000000000002
+    Q2 2027: 16710.0
+    Q3 2027: 17170.0
+  annual_forecast:
+    2021 Yearly: 30260.0
+    2022 Yearly: 34250.0
+    2023 Yearly: 36760.0
+    2024 Yearly: 39140.0
+    2025 Yearly: 53400.0
+    2026 Yearly: 63900.0
+    2027 Yearly: 67750.0
+    2028 Yearly: 71510.0
+    2029 Yearly: 77720.0
+eps:
+  quarterly:
+    Q4 2024: 3.09
+    Q1 2025: 4.06
+    Q2 2025: 5.48
+    Q3 2025: 5.95
+    Q4 2025: 3.86
+    Q1 2026: 4.42
+    Q2 2026: 5.81
+    Q3 2026: 6.69
+  annual:
+    2021 Yearly: 27.11
+    2022 Yearly: 17.71
+    2023 Yearly: 12.52
+    2024 Yearly: 13.96
+    2025 Yearly: 19.61
+  quarterly_forecast:
+    Q4 2024: 2.83
+    Q1 2025: 3.64
+    Q2 2025: 4.05
+    Q3 2025: 4.49
+    Q4 2025: 4.14
+    Q1 2026: 4.5
+    Q2 2026: 4.79
+    Q3 2026: 5.5
+    Q4 2026: 4.78
+    Q1 2027: 5.73
+    Q2 2027: 5.81
+    Q3 2027: 6.55
+  annual_forecast:
+    2021 Yearly: 26.91
+    2022 Yearly: 18.61
+    2023 Yearly: 12.89
+    2024 Yearly: 13.67
+    2025 Yearly: 19.76
+    2026 Yearly: 20.53
+    2027 Yearly: 23.93
+    2028 Yearly: 27.68
+    2029 Yearly: 37.23

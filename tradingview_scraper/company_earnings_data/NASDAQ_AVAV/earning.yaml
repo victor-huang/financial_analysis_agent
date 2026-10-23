@@ -1,7 +1,7 @@
 currency: USD
 company_name: AeroVironment, Inc.
 sector: Electronic Technology
-market_cap_billions: 9.76
+market_cap_billions: 7.14
 revenue:
   quarterly:
     Q2 2024: 188.5
@@ -25,10 +25,10 @@ revenue:
     Q2 2025: 469.53
     Q3 2025: 475.54
     Q4 2025: 555.97
-    Q1 2026: 457.55
-    Q2 2026: 525.12
-    Q3 2026: 531.29
-    Q4 2026: 680.3
+    Q1 2026: 451.95
+    Q2 2026: 527.15
+    Q3 2026: 532.23
+    Q4 2026: 681.39
   annual_forecast:
     2021 Yearly: 447.89
     2022 Yearly: 518.57
@@ -62,17 +62,17 @@ eps:
     Q2 2025: 0.78
     Q3 2025: 0.68
     Q4 2025: 1.46
-    Q1 2026: 0.27
-    Q2 2026: 0.56
-    Q3 2026: 0.86
-    Q4 2026: 1.56
+    Q1 2026: 0.22
+    Q2 2026: 0.57
+    Q3 2026: 0.84
+    Q4 2026: 1.6
   annual_forecast:
     2021 Yearly: 1.32
     2022 Yearly: 1.25
     2023 Yearly: 2.81
     2024 Yearly: 3.04
     2025 Yearly: 2.87
-    2026 Yearly: 3.24
-    2027 Yearly: 4.46
-    2028 Yearly: 5.79
+    2026 Yearly: 3.23
+    2027 Yearly: 4.42
+    2028 Yearly: 5.74
     2029 Yearly: 8.28

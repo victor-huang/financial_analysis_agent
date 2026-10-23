@@ -1,0 +1,48 @@
+currency: USD
+company_name: Skillsoft Corp.
+sector: Technology Services
+market_cap_billions: 0.05632
+revenue:
+  quarterly:
+    Q3 2024: 137.22
+    Q4 2024: 133.75
+    Q1 2025: 124.2
+    Q2 2025: 128.82
+    Q3 2025: 129.0
+    Q4 2025: 130.65
+    Q1 2026: 94.5
+  annual: {}
+  quarterly_forecast:
+    Q3 2024: 130.04
+    Q4 2024: 128.34
+    Q1 2025: 124.0
+    Q2 2025: 129.0
+    Q3 2025: 132.0
+    Q4 2025: 130.0
+    Q1 2026: 121.1
+    Q2 2026: 99.0
+    Q3 2026: 100.0
+    Q4 2026: 104.08
+  annual_forecast: {}
+eps:
+  quarterly:
+    Q3 2024: -1.82
+    Q4 2024: 2.11
+    Q1 2025: 0.3
+    Q2 2025: 0.92
+    Q3 2025: 1.65
+    Q4 2025: 1.26
+    Q1 2026: 1.16
+  annual: {}
+  quarterly_forecast:
+    Q3 2024: -3.0
+    Q4 2024: -2.05
+    Q1 2025: -2.65
+    Q2 2025: -2.1
+    Q3 2025: 1.26
+    Q4 2025: 1.27
+    Q1 2026: 0.05
+    Q2 2026: 0.83
+    Q3 2026: 1.28
+    Q4 2026: 0.92
+  annual_forecast: {}

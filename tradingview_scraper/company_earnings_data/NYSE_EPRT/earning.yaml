@@ -1,0 +1,78 @@
+currency: USD
+company_name: Essential Properties Realty Trust, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 112.36
+    Q1 2025: 121.79
+    Q2 2025: 129.11
+    Q3 2025: 136.54
+    Q4 2025: 140.09
+    Q1 2026: 149.39
+    Q2 2026: 151.11
+  annual:
+    2021 Yearly: 213.33
+    2022 Yearly: 269.83
+    2023 Yearly: 339.9
+    2024 Yearly: 425.75
+    2025 Yearly: 527.53
+  quarterly_forecast:
+    Q4 2024: 114.94
+    Q1 2025: 119.94
+    Q2 2025: 128.16
+    Q3 2025: 134.83
+    Q4 2025: 142.59
+    Q1 2026: 146.47
+    Q2 2026: 154.78
+    Q3 2026: 158.17
+    Q4 2026: 163.87
+    Q1 2027: 169.47
+    Q2 2027: 175.42
+  annual_forecast:
+    2021 Yearly: 211.99
+    2022 Yearly: 274.58
+    2023 Yearly: 340.34
+    2024 Yearly: 425.17
+    2025 Yearly: 531.18
+    2026 Yearly: 623.67
+    2027 Yearly: 703.98
+    2028 Yearly: 795.18
+    2029 Yearly: 969.9
+eps:
+  quarterly:
+    Q4 2024: 0.3
+    Q1 2025: 0.29
+    Q2 2025: 0.32
+    Q3 2025: 0.33
+    Q4 2025: 0.34
+    Q1 2026: 0.28
+    Q2 2026: 0.34
+  annual:
+    2021 Yearly: 0.82
+    2022 Yearly: 0.99
+    2023 Yearly: 1.24
+    2024 Yearly: 1.15
+    2025 Yearly: 1.28
+  quarterly_forecast:
+    Q4 2024: 0.31
+    Q1 2025: 0.29
+    Q2 2025: 0.31
+    Q3 2025: 0.31
+    Q4 2025: 0.33
+    Q1 2026: 0.32
+    Q2 2026: 0.33
+    Q3 2026: 0.33
+    Q4 2026: 0.34
+    Q1 2027: 0.32
+    Q2 2027: 0.32
+  annual_forecast:
+    2021 Yearly: 0.77
+    2022 Yearly: 0.96
+    2023 Yearly: 1.21
+    2024 Yearly: 1.16
+    2025 Yearly: 1.28
+    2026 Yearly: 1.31
+    2027 Yearly: 1.35
+    2028 Yearly: 1.38
+    2029 Yearly: 1.35

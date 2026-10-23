@@ -1,11 +1,10 @@
 """Financial Modeling Prep (FMP) data source module for retrieving financial data."""
 
 import logging
-from typing import Optional
+from typing import Dict, List, Optional
 import pandas as pd
 import requests
 
-from ..utils.date_utils import parse_quarter_end
 
 logger = logging.getLogger(__name__)
 
@@ -14,6 +13,7 @@ class FMPSource:
     """Class to fetch financial data from Financial Modeling Prep API."""
 
     BASE_URL = "https://financialmodelingprep.com/api/v3"
+    STABLE_BASE_URL = "https://financialmodelingprep.com/stable"
 
     def __init__(self, api_key: str):
         """Initialize the FMP data source.
@@ -46,6 +46,168 @@ class FMPSource:
         except requests.exceptions.RequestException as e:
             logger.error(f"FMP API request failed for {endpoint}: {e}")
             return None
+
+    def _make_stable_request(self, endpoint: str, params: dict = None) -> Optional[dict]:
+        """Make a request to the newer FMP 'stable' API (query-param based, not path-based).
+
+        Args:
+            endpoint: API endpoint path
+            params: Additional query parameters (must include 'symbol')
+
+        Returns:
+            JSON response as dict or None on error
+        """
+        if params is None:
+            params = {}
+        params['apikey'] = self.api_key
+
+        url = f"{self.STABLE_BASE_URL}/{endpoint}"
+
+        try:
+            response = requests.get(url, params=params, timeout=10)
+            response.raise_for_status()
+            return response.json()
+        except requests.exceptions.RequestException as e:
+            logger.error(f"FMP API request failed for {endpoint}: {e}")
+            return None
+
+    def get_income_statement(self, ticker: str, period: str = 'annual', limit: int = 8) -> Optional[pd.DataFrame]:
+        """Fetch the income statement (revenue, gross profit, EBITDA, operating income, net income) from FMP.
+
+        Args:
+            ticker: Stock ticker symbol
+            period: 'annual' or 'quarterly'
+            limit: Maximum number of periods to return
+
+        Returns:
+            DataFrame with FMP's raw income statement columns, most recent period first
+        """
+        period_param = 'quarter' if period == 'quarterly' else 'annual'
+        data = self._make_stable_request(
+            'income-statement', params={'symbol': ticker, 'period': period_param, 'limit': limit}
+        )
+
+        if not data or not isinstance(data, list):
+            logger.warning(f"No income statement data from FMP for {ticker}")
+            return None
+
+        df = pd.DataFrame(data)
+        return df if not df.empty else None
+
+    def get_cash_flow_statement(self, ticker: str, period: str = 'annual', limit: int = 8) -> Optional[pd.DataFrame]:
+        """Fetch the cash flow statement (operating cash flow, free cash flow) from FMP.
+
+        Args:
+            ticker: Stock ticker symbol
+            period: 'annual' or 'quarterly'
+            limit: Maximum number of periods to return
+
+        Returns:
+            DataFrame with FMP's raw cash flow statement columns, most recent period first
+        """
+        period_param = 'quarter' if period == 'quarterly' else 'annual'
+        data = self._make_stable_request(
+            'cash-flow-statement', params={'symbol': ticker, 'period': period_param, 'limit': limit}
+        )
+
+        if not data or not isinstance(data, list):
+            logger.warning(f"No cash flow statement data from FMP for {ticker}")
+            return None
+
+        df = pd.DataFrame(data)
+        return df if not df.empty else None
+
+    def get_ratios(self, ticker: str, period: str = 'annual', limit: int = 8) -> Optional[pd.DataFrame]:
+        """Fetch pre-computed financial ratios (margins) from FMP.
+
+        Args:
+            ticker: Stock ticker symbol
+            period: 'annual' or 'quarterly'
+            limit: Maximum number of periods to return
+
+        Returns:
+            DataFrame with FMP's raw ratios columns, most recent period first
+        """
+        period_param = 'quarter' if period == 'quarterly' else 'annual'
+        data = self._make_stable_request(
+            'ratios', params={'symbol': ticker, 'period': period_param, 'limit': limit}
+        )
+
+        if not data or not isinstance(data, list):
+            logger.warning(f"No ratios data from FMP for {ticker}")
+            return None
+
+        df = pd.DataFrame(data)
+        return df if not df.empty else None
+
+    def get_key_metrics(self, ticker: str, period: str = 'annual', limit: int = 8) -> Optional[pd.DataFrame]:
+        """Fetch gross profit, EBITDA, operating income, net income, and free cash flow (with margins).
+
+        Combines FMP's income-statement, cash-flow-statement, and ratios endpoints into a single
+        normalized DataFrame. Margins are expressed as percentages (0-100).
+
+        Args:
+            ticker: Stock ticker symbol
+            period: 'annual' or 'quarterly'
+            limit: Maximum number of periods to return
+
+        Returns:
+            DataFrame with columns: ['date', 'period', 'revenue', 'gross_profit', 'gross_margin',
+            'ebitda', 'ebitda_margin', 'operating_income', 'operating_margin', 'net_income',
+            'net_margin', 'operating_cash_flow', 'free_cash_flow', 'free_cash_flow_margin'],
+            most recent period first. None if no income statement data is available.
+        """
+        income = self.get_income_statement(ticker, period, limit)
+        if income is None:
+            return None
+
+        merged = income[['date', 'period', 'revenue', 'grossProfit', 'ebitda', 'operatingIncome', 'netIncome']].rename(
+            columns={
+                'grossProfit': 'gross_profit',
+                'operatingIncome': 'operating_income',
+                'netIncome': 'net_income',
+            }
+        ).copy()
+
+        cash_flow = self.get_cash_flow_statement(ticker, period, limit)
+        if cash_flow is not None and {'date', 'operatingCashFlow', 'freeCashFlow'}.issubset(cash_flow.columns):
+            cf = cash_flow[['date', 'operatingCashFlow', 'freeCashFlow']].rename(
+                columns={'operatingCashFlow': 'operating_cash_flow', 'freeCashFlow': 'free_cash_flow'}
+            )
+            merged = merged.merge(cf, on='date', how='left')
+        else:
+            merged['operating_cash_flow'] = None
+            merged['free_cash_flow'] = None
+
+        ratios = self.get_ratios(ticker, period, limit)
+        ratio_cols = {'grossProfitMargin', 'ebitdaMargin', 'operatingProfitMargin', 'netProfitMargin'}
+        if ratios is not None and ratio_cols.issubset(ratios.columns):
+            r = ratios[['date', *ratio_cols]].rename(columns={
+                'grossProfitMargin': 'gross_margin',
+                'ebitdaMargin': 'ebitda_margin',
+                'operatingProfitMargin': 'operating_margin',
+                'netProfitMargin': 'net_margin',
+            })
+            merged = merged.merge(r, on='date', how='left')
+            for col in ('gross_margin', 'ebitda_margin', 'operating_margin', 'net_margin'):
+                merged[col] = merged[col] * 100
+        else:
+            # FMP ratios endpoint unavailable/incomplete - derive margins from the income statement instead
+            for source_col, margin_col in (
+                ('gross_profit', 'gross_margin'),
+                ('ebitda', 'ebitda_margin'),
+                ('operating_income', 'operating_margin'),
+                ('net_income', 'net_margin'),
+            ):
+                merged[margin_col] = (merged[source_col] / merged['revenue']).where(merged['revenue'] != 0) * 100
+
+        merged['free_cash_flow_margin'] = (
+            (merged['free_cash_flow'] / merged['revenue']).where(merged['revenue'] != 0) * 100
+        )
+
+        merged['date'] = pd.to_datetime(merged['date'], errors='coerce')
+        merged = merged.dropna(subset=['date']).sort_values('date', ascending=False).reset_index(drop=True)
+        return merged
 
     def get_analyst_estimates(self, ticker: str, limit: int = 24) -> Optional[pd.DataFrame]:
         """Fetch quarterly analyst estimates (EPS and revenue) from FMP.
@@ -204,6 +366,17 @@ class FMPSource:
 
         return estimates[revenue_cols]
 
+    def get_market_caps(self, tickers: List[str], batch_size: int = 100) -> Dict[str, float]:
+        """Current market capitalization in $B for each ticker, from batched quote requests."""
+        caps = {}
+        for start in range(0, len(tickers), batch_size):
+            batch = tickers[start:start + batch_size]
+            quotes = self._make_request("quote/" + ",".join(batch)) or []
+            for quote in quotes if isinstance(quotes, list) else []:
+                if quote.get("symbol") and quote.get("marketCap"):
+                    caps[quote["symbol"]] = quote["marketCap"] / 1e9
+        return caps
+
     def get_historical_earnings_calendar(self, ticker: str, limit: int = 20) -> Optional[pd.DataFrame]:
         """Fetch historical earnings calendar data from FMP.
 
@@ -215,7 +388,8 @@ class FMPSource:
 
         Returns:
             DataFrame with columns: ['announceDate', 'fiscalDateEnding', 'period',
-                                     'epsEstimate', 'epsActual', 'revenueEstimate', 'revenueActual']
+                                     'epsEstimate', 'epsActual', 'revenueEstimate', 'revenueActual',
+                                     'releaseTime']
         """
         try:
             logger.info(f"Fetching historical earnings calendar from FMP for {ticker}")
@@ -260,13 +434,17 @@ class FMPSource:
             if 'revenue' in df.columns:
                 out['revenueActual'] = pd.to_numeric(df['revenue'], errors='coerce')
 
+            # Release timing: 'bmo' (before market open) or 'amc' (after market close)
+            if 'time' in df.columns:
+                out['releaseTime'] = df['time']
+
             # Sort by announcement date descending (most recent first)
             if 'announceDate' in out.columns:
                 out = out.dropna(subset=['announceDate']).sort_values('announceDate', ascending=False)
 
             # Keep only relevant columns
             keep = [c for c in ['announceDate', 'fiscalDateEnding', 'period', 'epsEstimate', 'epsActual',
-                                'revenueEstimate', 'revenueActual'] if c in out.columns]
+                                'revenueEstimate', 'revenueActual', 'releaseTime'] if c in out.columns]
 
             if not keep:
                 return None

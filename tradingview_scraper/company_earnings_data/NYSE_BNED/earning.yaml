@@ -1,0 +1,64 @@
+currency: USD
+company_name: Barnes & Noble Education, Inc
+sector: Retail Trade
+market_cap_billions: 0.37941
+revenue:
+  quarterly:
+    Q1 2024: 263.43
+    Q2 2024: 602.1
+    Q3 2024: 466.3
+    Q3 2025: 515.09
+    Q4 2025: 267.1
+    Q1 2026: 290.6
+  annual:
+    2021 Yearly: 1530.0
+    2022 Yearly: 1540.0
+    2023 Yearly: 1570.0
+    2025 Yearly: 1710.0
+  quarterly_forecast:
+    Q1 2024: 268.3
+    Q2 2024: 622.5
+    Q3 2024: 467.97
+    Q4 2024: 244.61
+    Q4 2025: 267.55
+    Q1 2026: 306.66
+    Q2 2026: 672.9
+    Q3 2026: 542.63
+    Q4 2026: 275.19
+  annual_forecast:
+    2021 Yearly: 1500.0
+    2022 Yearly: 1540.0
+    2023 Yearly: 1580.0
+    2024 Yearly: 1580.0
+    2025 Yearly: 1720.0
+    2026 Yearly: 1780.0
+eps:
+  quarterly:
+    Q1 2024: -3.07
+    Q2 2024: 1.92
+    Q3 2024: 0.23
+    Q3 2025: 0.19
+    Q4 2025: 0.13
+    Q1 2026: -0.38
+  annual:
+    2021 Yearly: -107.43
+    2022 Yearly: -163.24
+    2023 Yearly: -13.77
+    2025 Yearly: 0.65
+  quarterly_forecast:
+    Q1 2024: -81.0
+    Q2 2024: 60.0
+    Q3 2024: 0.12
+    Q4 2024: -0.81
+    Q4 2025: 0.1
+    Q1 2026: -0.48
+    Q2 2026: 0.86
+    Q3 2026: 0.53
+    Q4 2026: -0.07
+  annual_forecast:
+    2021 Yearly: -89.0
+    2022 Yearly: -138.0
+    2023 Yearly: -70.0
+    2024 Yearly: -1.84
+    2025 Yearly: 0.56
+    2026 Yearly: 0.95

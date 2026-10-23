@@ -1,0 +1,78 @@
+currency: USD
+company_name: Dell Technologies Inc.
+sector: Electronic Technology
+market_cap_billions: 282.81
+revenue:
+  quarterly:
+    Q3 2024: 24370.0
+    Q4 2024: 23900.0
+    Q1 2025: 23380.0
+    Q2 2025: 29780.0
+    Q3 2025: 27000.0
+    Q4 2025: 33380.0
+    Q1 2026: 43840.0
+  annual:
+    2021 Yearly: 101230.0
+    2022 Yearly: 102300.0
+    2023 Yearly: 88420.0
+    2024 Yearly: 95600.0
+    2025 Yearly: 113540.0
+  quarterly_forecast:
+    Q3 2024: 24670.0
+    Q4 2024: 24570.0
+    Q1 2025: 23180.0
+    Q2 2025: 29020.0
+    Q3 2025: 27150.0
+    Q4 2025: 31670.0
+    Q1 2026: 35740.0
+    Q2 2026: 44890.0
+    Q3 2026: 41360.0
+    Q4 2026: 42020.0
+    Q1 2027: 46890.0
+  annual_forecast:
+    2021 Yearly: 100770.0
+    2022 Yearly: 100580.0
+    2023 Yearly: 88290.0
+    2024 Yearly: 96280.0
+    2025 Yearly: 111870.0
+    2026 Yearly: 174050.0
+    2027 Yearly: 200480.0
+    2028 Yearly: 221880.0
+    2029 Yearly: 254530.0
+eps:
+  quarterly:
+    Q3 2024: 2.15
+    Q4 2024: 2.68
+    Q1 2025: 1.55
+    Q2 2025: 2.32
+    Q3 2025: 2.59
+    Q4 2025: 3.89
+    Q1 2026: 4.86
+  annual:
+    2021 Yearly: 6.22
+    2022 Yearly: 7.61
+    2023 Yearly: 7.13
+    2024 Yearly: 8.14
+    2025 Yearly: 10.3
+  quarterly_forecast:
+    Q3 2024: 2.06
+    Q4 2024: 2.52
+    Q1 2025: 1.7
+    Q2 2025: 2.29
+    Q3 2025: 2.47
+    Q4 2025: 3.53
+    Q1 2026: 2.96
+    Q2 2026: 4.91
+    Q3 2026: 4.46
+    Q4 2026: 4.77
+    Q1 2027: 5.24
+  annual_forecast:
+    2021 Yearly: 6.52
+    2022 Yearly: 7.47
+    2023 Yearly: 6.65
+    2024 Yearly: 7.83
+    2025 Yearly: 9.97
+    2026 Yearly: 18.99
+    2027 Yearly: 23.27
+    2028 Yearly: 28.01
+    2029 Yearly: 38.03

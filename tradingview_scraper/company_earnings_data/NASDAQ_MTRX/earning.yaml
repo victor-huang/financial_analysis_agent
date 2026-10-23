@@ -1,0 +1,78 @@
+currency: USD
+company_name: Matrix Service Company
+sector: Industrial Services
+market_cap_billions: 0.30552999999999997
+revenue:
+  quarterly:
+    Q2 2025: 187.17
+    Q3 2025: 200.16
+    Q4 2025: 216.38
+    Q1 2026: 211.88
+    Q2 2026: 210.51
+    Q3 2026: 206.71
+    Q4 2026: 244.53
+  annual:
+    2021 Yearly: 673.4
+    2022 Yearly: 707.78
+    2023 Yearly: 795.02
+    2024 Yearly: 728.21
+    2025 Yearly: 769.29
+  quarterly_forecast:
+    Q2 2025: 185.15
+    Q3 2025: 215.06
+    Q4 2025: 232.25
+    Q1 2026: 206.66
+    Q2 2026: 215.42
+    Q3 2026: 231.52
+    Q4 2026: 247.04
+    Q1 2027: 233.9
+    Q2 2027: 237.64
+    Q3 2027: 228.26
+    Q4 2027: 248.33
+  annual_forecast:
+    2021 Yearly: 675.67
+    2022 Yearly: 689.38
+    2023 Yearly: 797.4
+    2024 Yearly: 741.5
+    2025 Yearly: 785.16
+    2026 Yearly: 876.14
+    2027 Yearly: 952.16
+    2028 Yearly: 998.17
+    2029 Yearly: 995.0
+eps:
+  quarterly:
+    Q2 2025: -0.2
+    Q3 2025: -0.12
+    Q4 2025: -0.4
+    Q1 2026: -0.13
+    Q2 2026: -0.03
+    Q3 2026: 0.03
+    Q4 2026: 0.04
+  annual:
+    2021 Yearly: -1.18
+    2022 Yearly: -2.39
+    2023 Yearly: -1.94
+    2024 Yearly: -0.91
+    2025 Yearly: -1.06
+  quarterly_forecast:
+    Q2 2025: -0.23
+    Q3 2025: -0.05
+    Q4 2025: 0.01
+    Q1 2026: 0.02
+    Q2 2026: 0.04
+    Q3 2026: 0.07
+    Q4 2026: 0.17
+    Q1 2027: 0.18
+    Q2 2027: 0.18
+    Q3 2027: 0.16
+    Q4 2027: 0.18
+  annual_forecast:
+    2021 Yearly: -0.78
+    2022 Yearly: -3.2
+    2023 Yearly: -2.14
+    2024 Yearly: -0.96
+    2025 Yearly: -0.65
+    2026 Yearly: 0.04
+    2027 Yearly: 0.69
+    2028 Yearly: 0.79
+    2029 Yearly: 0.76

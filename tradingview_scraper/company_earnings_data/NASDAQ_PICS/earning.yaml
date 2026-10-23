@@ -1,0 +1,44 @@
+currency: USD
+company_name: PicS N.V.
+sector: Commercial Services
+market_cap_billions: 1.41
+revenue:
+  quarterly:
+    Q3 2025: 526.54
+    Q4 2025: 571.92
+    Q1 2026: 694.44
+  annual:
+    2025 Yearly: 1960.0
+  quarterly_forecast:
+    Q4 2025: 520.87
+    Q1 2026: 584.64
+    Q2 2026: 687.85
+    Q3 2026: 716.52
+    Q4 2026: 788.53
+    Q1 2027: 964.85
+  annual_forecast:
+    2025 Yearly: 1710.0
+    2026 Yearly: 2690.0
+    2027 Yearly: 3750.0
+    2028 Yearly: 4059.9999999999995
+    2029 Yearly: 6380.0
+eps:
+  quarterly:
+    Q3 2025: 0.15
+    Q4 2025: 0.28
+    Q1 2026: 0.25
+  annual:
+    2025 Yearly: 0.84
+  quarterly_forecast:
+    Q4 2025: 0.23
+    Q1 2026: 0.23
+    Q2 2026: 0.4
+    Q3 2026: 0.42
+    Q4 2026: 0.47
+    Q1 2027: 0.68
+  annual_forecast:
+    2025 Yearly: 0.69
+    2026 Yearly: 1.49
+    2027 Yearly: 3.12
+    2028 Yearly: 4.24
+    2029 Yearly: 9.69

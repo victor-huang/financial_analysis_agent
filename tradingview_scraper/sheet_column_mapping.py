@@ -12,10 +12,18 @@ changes here — only a genuinely new naming convention (e.g. a different way
 of denoting "revenue" or "estimate") needs a new regex case below.
 """
 
+import calendar
+import logging
 import re
+from datetime import date
 from typing import Callable, Dict, List, Optional, Tuple
 
-from earnings_data_store import FORECAST_OF
+from earnings_data_store import FORECAST_OF, label_sort_key
+
+logger = logging.getLogger(__name__)
+
+EARNINGS_SEASON_QUARTER_ALIASES = {"quarter"}
+STORE_QUARTER_LABEL_PATTERN = re.compile(r"^Q[1-4] \d{4}$")
 
 # Logical field name -> the header text(s) it's known by (normalized: lowercased,
 # whitespace-collapsed). Add an alias here whenever a sheet labels one of these
@@ -79,6 +87,120 @@ def _period_resolver(
     return resolve
 
 
+def _today() -> date:
+    return date.today()
+
+
+def _add_quarters(period_end: date, quarters: int) -> date:
+    """Shift a fiscal quarter end date by whole quarters, keeping month-end dates at month end."""
+    month_index = period_end.year * 12 + period_end.month - 1 + 3 * quarters
+    year, month = divmod(month_index, 12)
+    month += 1
+    days_in_month = calendar.monthrange(year, month)[1]
+    is_month_end = period_end.day == calendar.monthrange(period_end.year, period_end.month)[1]
+    return date(year, month, days_in_month if is_month_end else min(period_end.day, days_in_month))
+
+
+def _quarters_ended_before(period_end: date, release_date: date) -> int:
+    """How many fiscal quarters after the one ending on period_end have ended before release_date."""
+    quarters = 0
+    while quarters < 4 and _add_quarters(period_end, quarters + 1) < release_date:
+        quarters += 1
+    return quarters
+
+
+def _quarter_from_release_schedule(schedule: Dict) -> Optional[str]:
+    """
+    The fiscal quarter covered by whichever release is nearer today, the last
+    or the next one: the latest fiscal quarter that ended before that release,
+    counted forward from fiscal_period_current's end date — but never earlier
+    than the latest fiscal quarter that has ended before today.
+
+    Counting from the period end keeps the answer stable across release day,
+    when TradingView's schedule lags in two observed ways:
+    - last_release_date moves to the release day before fiscal_period_current
+      advances ("last release today, latest quarter Q2" for a company that
+      just released Q3; seen 2026-10-19).
+    - next_release_date jumps to the following quarter's date before
+      last_release_date moves (AMX on 2026-10-20: last 7/21, next 2/16, the
+      10/20 release gone). The "latest ended quarter" floor covers this.
+
+    Without a period end date, assumes the last release covered
+    fiscal_period_current and the next one covers the quarter after.
+    """
+    fiscal_period = schedule.get("fiscal_period_current")
+    match = re.match(r"^\d{4}-Q(?P<quarter>[1-4])$", fiscal_period or "")
+    last_release = schedule.get("last_release_date")
+    next_release = schedule.get("next_release_date")
+    period_end = schedule.get("fiscal_period_end_date")
+    if not match or not (last_release or next_release or period_end):
+        return None
+
+    today = _today()
+    quarters_ahead = _quarters_ended_before(period_end, today) if period_end else 0
+
+    if last_release or next_release:
+        if next_release is None:
+            is_last_release_nearer = True
+        elif last_release is None:
+            is_last_release_nearer = False
+        else:
+            is_last_release_nearer = (today - last_release).days <= (next_release - today).days
+        nearer_release = last_release if is_last_release_nearer else next_release
+
+        if period_end:
+            release_quarters_ahead = _quarters_ended_before(period_end, nearer_release)
+        else:
+            release_quarters_ahead = 0 if is_last_release_nearer else 1
+        quarters_ahead = max(quarters_ahead, release_quarters_ahead)
+
+    latest_quarter = int(match.group("quarter"))
+    return f"Q{(latest_quarter - 1 + quarters_ahead) % 4 + 1}"
+
+
+def _earnings_season_quarter(data: Dict, ticker: str, exchange: str) -> Optional[str]:
+    """
+    The fiscal quarter of the earnings release nearest today (e.g. "Q3"), from
+    the release schedule attached as data["release_schedule"] (see
+    earnings_api_helper.fetch_release_schedules).
+
+    Without a usable schedule, falls back to the store: the quarter after the
+    latest reported one in either metric, or the earliest forecast quarter if
+    nothing has been reported yet. Store labels are already fiscal quarters,
+    not calendar ones. Returns None when there's no quarterly data at all so
+    the sheet's existing cell is left untouched rather than cleared.
+    """
+    schedule = data.get("release_schedule")
+    scheduled_quarter = _quarter_from_release_schedule(schedule or {})
+    if scheduled_quarter:
+        return scheduled_quarter
+    if schedule:
+        logger.warning(
+            f"{exchange}:{ticker}: unusable release schedule {schedule}, "
+            f"Quarter column will use stored data"
+        )
+
+    reported_labels = [
+        label
+        for metric in ("eps", "revenue")
+        for label in data.get(metric, {}).get("quarterly", {})
+        if STORE_QUARTER_LABEL_PATTERN.match(label)
+    ]
+    if reported_labels:
+        _, latest_quarter = label_sort_key(max(reported_labels, key=label_sort_key))
+        return f"Q{latest_quarter % 4 + 1}"
+
+    forecast_labels = [
+        label
+        for metric in ("eps", "revenue")
+        for label in data.get(metric, {}).get("quarterly_forecast", {})
+        if STORE_QUARTER_LABEL_PATTERN.match(label)
+    ]
+    if forecast_labels:
+        return min(forecast_labels, key=label_sort_key).split(" ")[0]
+    return None
+
+
 def parse_header_cell(header_text: str) -> Optional[Callable[[Dict, str, str], str]]:
     """
     Parse one Google Sheet header cell into a resolver function.
@@ -95,6 +217,9 @@ def parse_header_cell(header_text: str) -> Optional[Callable[[Dict, str, str], s
     for field_key, aliases in STATIC_FIELD_ALIASES.items():
         if normalized in aliases:
             return _static_resolver(field_key)
+
+    if normalized in EARNINGS_SEASON_QUARTER_ALIASES:
+        return _earnings_season_quarter
 
     match = QUARTER_PATTERN.match(normalized)
     if match:
@@ -119,7 +244,7 @@ def build_rows_for_headers(
     headers: List[str],
     ordered_keys: List[Tuple[str, str]],
     ticker_data_by_key: Dict[Tuple[str, str], Dict],
-) -> Tuple[List[List[str]], List[str]]:
+) -> Tuple[List[List[Optional[str]]], List[str]]:
     """
     Build one data row per ticker matching an existing sheet's header row.
 
@@ -130,9 +255,13 @@ def build_rows_for_headers(
             earnings_data_store.load_existing_data
 
     Returns:
-        (rows, unrecognized_headers) — rows are string lists in header order;
-        unrecognized_headers lists any header text that couldn't be mapped
-        (left blank in every row)
+        (rows, unrecognized_headers) — rows are lists in header order, with
+        None in every unrecognized column; unrecognized_headers lists any
+        header text that couldn't be mapped
+
+    Unrecognized columns are None rather than "" because the Sheets API skips
+    null values but clears a cell written with "" — so manually maintained
+    columns (notes, flags) survive an in-place row update.
     """
     resolvers = []
     unrecognized = []
@@ -154,7 +283,7 @@ def build_rows_for_headers(
     for exchange, ticker in ordered_keys:
         data = ticker_data_by_key.get((exchange, ticker), {})
         rows.append(
-            [resolver(data, ticker, exchange) if resolver else "" for resolver in resolvers]
+            [resolver(data, ticker, exchange) if resolver else None for resolver in resolvers]
         )
 
     return rows, unrecognized

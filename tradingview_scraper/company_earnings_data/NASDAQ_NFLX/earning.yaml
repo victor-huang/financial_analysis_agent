@@ -1,0 +1,82 @@
+currency: USD
+company_name: Netflix, Inc.
+sector: Technology Services
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 10250.0
+    Q1 2025: 10540.0
+    Q2 2025: 11080.0
+    Q3 2025: 11510.0
+    Q4 2025: 12050.0
+    Q1 2026: 12250.0
+    Q2 2026: 12560.0
+    Q3 2026: 12870.0
+  annual:
+    2021 Yearly: 29700.0
+    2022 Yearly: 31620.0
+    2023 Yearly: 33720.0
+    2024 Yearly: 39000.0
+    2025 Yearly: 45180.0
+  quarterly_forecast:
+    Q4 2024: 10110.0
+    Q1 2025: 10510.0
+    Q2 2025: 11060.0
+    Q3 2025: 11510.0
+    Q4 2025: 11970.0
+    Q1 2026: 12180.0
+    Q2 2026: 12580.0
+    Q3 2026: 12870.0
+    Q4 2026: 13520.0
+    Q1 2027: 13710.0
+    Q2 2027: 13910.0
+    Q3 2027: 14350.0
+  annual_forecast:
+    2021 Yearly: 29690.0
+    2022 Yearly: 31620.0
+    2023 Yearly: 33630.0
+    2024 Yearly: 38880.0
+    2025 Yearly: 45100.0
+    2026 Yearly: 51210.0
+    2027 Yearly: 56920.0
+    2028 Yearly: 62660.0
+    2029 Yearly: 68030.0
+eps:
+  quarterly:
+    Q4 2024: 0.43
+    Q1 2025: 0.66
+    Q2 2025: 0.72
+    Q3 2025: 0.59
+    Q4 2025: 0.56
+    Q1 2026: 1.23
+    Q2 2026: 0.8
+    Q3 2026: 0.87
+  annual:
+    2021 Yearly: 1.12
+    2022 Yearly: 0.99
+    2023 Yearly: 1.2
+    2024 Yearly: 1.98
+    2025 Yearly: 2.53
+  quarterly_forecast:
+    Q4 2024: 0.42
+    Q1 2025: 0.57
+    Q2 2025: 0.71
+    Q3 2025: 0.7
+    Q4 2025: 0.55
+    Q1 2026: 0.76
+    Q2 2026: 0.79
+    Q3 2026: 0.82
+    Q4 2026: 0.73
+    Q1 2027: 0.94
+    Q2 2027: 0.97
+    Q3 2027: 1.0
+  annual_forecast:
+    2021 Yearly: 1.07
+    2022 Yearly: 1.03
+    2023 Yearly: 1.22
+    2024 Yearly: 1.98
+    2025 Yearly: 2.56
+    2026 Yearly: 3.59
+    2027 Yearly: 3.79
+    2028 Yearly: 4.53
+    2029 Yearly: 5.38

@@ -1,0 +1,80 @@
+currency: USD
+company_name: Crown Holdings, Inc.
+sector: Process Industries
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 2900.0
+    Q1 2025: 2890.0
+    Q2 2025: 3150.0
+    Q3 2025: 3200.0
+    Q4 2025: 3130.0
+    Q1 2026: 3260.0
+    Q2 2026: 3670.0
+    Q3 2026: 3710.0
+  annual:
+    2021 Yearly: 11390.0
+    2022 Yearly: 12940.0
+    2023 Yearly: 12010.0
+    2024 Yearly: 11800.0
+    2025 Yearly: 12370.0
+  quarterly_forecast:
+    Q4 2024: 2880.0
+    Q1 2025: 2820.0
+    Q2 2025: 3110.0
+    Q3 2025: 3140.0
+    Q4 2025: 2990.0
+    Q1 2026: 3030.0
+    Q2 2026: 3370.0
+    Q3 2026: 3460.0
+    Q4 2026: 3340.0
+    Q1 2027: 3340.0
+    Q2 2027: 3740.0
+    Q3 2027: 3520.0
+  annual_forecast:
+    2021 Yearly: 11580.0
+    2022 Yearly: 13060.0
+    2023 Yearly: 12110.0
+    2024 Yearly: 11780.0
+    2025 Yearly: 12250.0
+    2026 Yearly: 13740.0
+    2027 Yearly: 14020.0
+    2028 Yearly: 14200.0
+eps:
+  quarterly:
+    Q4 2024: 1.59
+    Q1 2025: 1.67
+    Q2 2025: 2.15
+    Q3 2025: 2.24
+    Q4 2025: 1.74
+    Q1 2026: 1.86
+    Q2 2026: 2.49
+    Q3 2026: 2.39
+  annual:
+    2021 Yearly: 7.66
+    2022 Yearly: 6.75
+    2023 Yearly: 5.86
+    2024 Yearly: 6.41
+    2025 Yearly: 7.79
+  quarterly_forecast:
+    Q4 2024: 1.51
+    Q1 2025: 1.24
+    Q2 2025: 1.88
+    Q3 2025: 1.99
+    Q4 2025: 1.7
+    Q1 2026: 1.75
+    Q2 2026: 2.16
+    Q3 2026: 2.26
+    Q4 2026: 1.79
+    Q1 2027: 1.89
+    Q2 2027: 2.55
+    Q3 2027: 2.52
+  annual_forecast:
+    2021 Yearly: 7.54
+    2022 Yearly: 6.63
+    2023 Yearly: 6.04
+    2024 Yearly: 6.33
+    2025 Yearly: 7.76
+    2026 Yearly: 8.4
+    2027 Yearly: 9.06
+    2028 Yearly: 9.8

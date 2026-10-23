@@ -1,0 +1,76 @@
+currency: USD
+company_name: Kaiser Aluminum Corporation
+sector: Non-Energy Minerals
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 765.4
+    Q1 2025: 777.4
+    Q2 2025: 823.1
+    Q3 2025: 843.5
+    Q4 2025: 929.0
+    Q1 2026: 1110.0
+    Q2 2026: 1260.0
+  annual:
+    2021 Yearly: 2620.0
+    2022 Yearly: 3430.0
+    2023 Yearly: 3090.0
+    2024 Yearly: 3020.0
+    2025 Yearly: 3370.0
+  quarterly_forecast:
+    Q4 2024: 752.21
+    Q1 2025: 800.04
+    Q2 2025: 786.7
+    Q3 2025: 850.0
+    Q4 2025: 910.02
+    Q1 2026: 999.9
+    Q2 2026: 1120.0
+    Q3 2026: 1210.0
+    Q4 2026: 1220.0
+    Q1 2027: 1200.0
+    Q2 2027: 1200.0
+  annual_forecast:
+    2021 Yearly: 2570.0
+    2022 Yearly: 3450.0
+    2023 Yearly: 3080.0
+    2024 Yearly: 3010.0
+    2025 Yearly: 3350.0
+    2026 Yearly: 4790.0
+    2027 Yearly: 4780.0
+    2028 Yearly: 4760.0
+eps:
+  quarterly:
+    Q4 2024: 0.33
+    Q1 2025: 1.44
+    Q2 2025: 1.21
+    Q3 2025: 1.86
+    Q4 2025: 1.53
+    Q1 2026: 3.74
+    Q2 2026: 5.53
+  annual:
+    2021 Yearly: 2.4
+    2022 Yearly: -0.14
+    2023 Yearly: 2.74
+    2024 Yearly: 2.51
+    2025 Yearly: 6.03
+  quarterly_forecast:
+    Q4 2024: 0.41
+    Q1 2025: 0.6
+    Q2 2025: 0.77
+    Q3 2025: 0.89
+    Q4 2025: 1.56
+    Q1 2026: 1.96
+    Q2 2026: 2.66
+    Q3 2026: 2.37
+    Q4 2026: 2.45
+    Q1 2027: 2.83
+    Q2 2027: 2.92
+  annual_forecast:
+    2021 Yearly: 3.13
+    2022 Yearly: 1.22
+    2023 Yearly: 1.89
+    2024 Yearly: 2.59
+    2025 Yearly: 6.09
+    2026 Yearly: 14.09
+    2027 Yearly: 11.63
+    2028 Yearly: 13.66

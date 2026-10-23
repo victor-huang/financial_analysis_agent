@@ -1,0 +1,66 @@
+currency: USD
+company_name: ServiceTitan, Inc.
+sector: Technology Services
+market_cap_billions: 7.78
+revenue:
+  quarterly:
+    Q4 2024: 209.28
+    Q1 2025: 215.69
+    Q2 2025: 242.12
+    Q3 2025: 249.16
+    Q4 2025: 253.99
+    Q1 2026: 268.82
+    Q2 2026: 292.76
+  annual:
+    2024 Yearly: 771.88
+    2025 Yearly: 960.97
+  quarterly_forecast:
+    Q4 2024: 200.11
+    Q1 2025: 208.64
+    Q2 2025: 229.51
+    Q3 2025: 238.55
+    Q4 2025: 245.51
+    Q1 2026: 256.65
+    Q2 2026: 285.89
+    Q3 2026: 287.87
+    Q4 2026: 295.68
+    Q1 2027: 308.01
+    Q2 2027: 328.42
+  annual_forecast:
+    2024 Yearly: 762.72
+    2025 Yearly: 952.49
+    2026 Yearly: 1140.0
+    2027 Yearly: 1300.0
+    2028 Yearly: 1500.0
+    2029 Yearly: 1560.0
+eps:
+  quarterly:
+    Q4 2024: 0.11
+    Q1 2025: 0.18
+    Q2 2025: 0.33
+    Q3 2025: 0.24
+    Q4 2025: 0.27
+    Q1 2026: 0.37
+    Q2 2026: 0.4
+  annual:
+    2024 Yearly: 0.33
+    2025 Yearly: 1.02
+  quarterly_forecast:
+    Q4 2024: 0.03
+    Q1 2025: 0.12
+    Q2 2025: 0.18
+    Q3 2025: 0.15
+    Q4 2025: 0.18
+    Q1 2026: 0.28
+    Q2 2026: 0.35
+    Q3 2026: 0.26
+    Q4 2026: 0.33
+    Q1 2027: 0.43
+    Q2 2027: 0.46
+  annual_forecast:
+    2024 Yearly: 0.18
+    2025 Yearly: 0.93
+    2026 Yearly: 1.31
+    2027 Yearly: 1.64
+    2028 Yearly: 2.08
+    2029 Yearly: 1.81

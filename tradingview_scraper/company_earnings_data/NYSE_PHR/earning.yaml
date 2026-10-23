@@ -1,0 +1,78 @@
+currency: USD
+company_name: Phreesia, Inc.
+sector: Technology Services
+market_cap_billions: 0.7324700000000001
+revenue:
+  quarterly:
+    Q3 2024: 106.8
+    Q4 2024: 109.68
+    Q1 2025: 115.94
+    Q2 2025: 117.25
+    Q3 2025: 120.33
+    Q4 2025: 127.07
+    Q1 2026: 130.94
+  annual:
+    2021 Yearly: 213.23
+    2022 Yearly: 280.91
+    2023 Yearly: 356.3
+    2024 Yearly: 419.81
+    2025 Yearly: 480.59
+  quarterly_forecast:
+    Q3 2024: 106.33
+    Q4 2024: 108.91
+    Q1 2025: 114.92
+    Q2 2025: 116.53
+    Q3 2025: 120.01
+    Q4 2025: 126.65
+    Q1 2026: 130.08
+    Q2 2026: 129.06
+    Q3 2026: 127.93
+    Q4 2026: 127.04
+    Q1 2027: 135.84
+  annual_forecast:
+    2021 Yearly: 211.47
+    2022 Yearly: 278.86
+    2023 Yearly: 354.83
+    2024 Yearly: 419.03
+    2025 Yearly: 480.17
+    2026 Yearly: 514.95
+    2027 Yearly: 540.35
+    2028 Yearly: 558.37
+    2029 Yearly: 539.2
+eps:
+  quarterly:
+    Q3 2024: -0.25
+    Q4 2024: -0.11
+    Q1 2025: -0.07
+    Q2 2025: 0.01
+    Q3 2025: 0.07
+    Q4 2025: 0.02
+    Q1 2026: 0.05
+  annual:
+    2021 Yearly: -2.37
+    2022 Yearly: -3.36
+    2023 Yearly: -2.51
+    2024 Yearly: -1.02
+    2025 Yearly: 0.04
+  quarterly_forecast:
+    Q3 2024: -0.24
+    Q4 2024: -0.18
+    Q1 2025: -0.12
+    Q2 2025: -0.06
+    Q3 2025: 0.0
+    Q4 2025: 0.06
+    Q1 2026: 0.01
+    Q2 2026: 0.09
+    Q3 2026: 0.12
+    Q4 2026: 0.14
+    Q1 2027: 0.18
+  annual_forecast:
+    2021 Yearly: -2.49
+    2022 Yearly: -3.41
+    2023 Yearly: -2.52
+    2024 Yearly: -1.09
+    2025 Yearly: 0.08
+    2026 Yearly: 0.4
+    2027 Yearly: 0.67
+    2028 Yearly: 0.77
+    2029 Yearly: 0.92

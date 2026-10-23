@@ -76,6 +76,11 @@ class Config:
                     "api_key": os.getenv("FINNHUB_API_KEY"),
                     "base_url": "https://finnhub.io/api/v1",
                 },
+                "alpaca": {
+                    "api_key": os.getenv("ALPACA_API_KEY"),
+                    "secret_key": os.getenv("ALPACA_SECRET_KEY"),
+                    "feed": os.getenv("ALPACA_DATA_FEED", "sip"),
+                },
                 "fmp": {
                     "api_key": os.getenv("FMP_API_KEY"),
                     "base_url": "https://financialmodelingprep.com/api/v3",

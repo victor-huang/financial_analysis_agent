@@ -5,12 +5,18 @@ Critical path tests for export_earning_store_to_sheets.py row upsert logic.
 
 import sys
 import os
-from unittest.mock import MagicMock
+from unittest.mock import MagicMock, patch
+
+import pytest
+import requests
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
 from export_earning_store_to_sheets import (
     _column_letter,
+    attach_release_schedules,
+    build_headers_and_rows,
+    gather_ticker_data,
     get_ticker_row_numbers,
     get_next_available_row,
     upsert_rows,
@@ -139,6 +145,13 @@ class TestUpsertRows:
         assert update_kwargs["range"] == "ERN DataBase!A2:B2"
         assert update_kwargs["body"] == {"values": [["AAPL", "Apple Inc"]]}
 
+    def test_does_not_look_up_the_tab_again(self):
+        client = _make_client([["STLD"]])
+
+        upsert_rows(client, "sheet-id", "ERN DataBase", ["ticker"], [("NASDAQ", "STLD")], [["STLD"]])
+
+        client.get_or_create_sheet_tab.assert_not_called()
+
     def test_new_ticker_rows_never_use_append_data_to_sheet(self):
         """Regression test: values().append()'s table-detection heuristic was
         observed to misplace an existing header row, so new rows must be
@@ -151,3 +164,89 @@ class TestUpsertRows:
         upsert_rows(client, "sheet-id", "ERN DataBase", headers, ordered_keys, rows)
 
         client.append_data_to_sheet.assert_not_called()
+
+
+class TestBuildHeadersAndRows:
+    """Tests for choosing between the tab's existing header and a fresh generic layout."""
+
+    def test_header_read_error_propagates_instead_of_treating_tab_as_empty(self):
+        """Regression test: a swallowed read error (e.g. a 429 quota error) used to
+        look like an empty tab, which then got cleared and rewritten."""
+        client = MagicMock()
+        client.service.spreadsheets.return_value.values.return_value.get.return_value.execute.side_effect = (
+            RuntimeError("429 Quota exceeded")
+        )
+
+        with pytest.raises(RuntimeError, match="429"):
+            build_headers_and_rows(client, "sheet-id", "ERN DataBase", [], {})
+
+    def test_ensures_tab_exists_before_reading_header(self):
+        client = _make_client([["ticker", "Company name"]])
+
+        build_headers_and_rows(client, "sheet-id", "ERN DataBase", [], {})
+
+        client.get_or_create_sheet_tab.assert_called_once_with("sheet-id", "ERN DataBase")
+
+    def test_uses_existing_header_when_present(self):
+        client = _make_client([["ticker", "Company name"]])
+
+        headers, _, matched_existing_header = build_headers_and_rows(
+            client, "sheet-id", "ERN DataBase", [], {}
+        )
+
+        assert headers == ["ticker", "Company name"]
+        assert matched_existing_header is True
+
+
+class TestGatherTickerData:
+    """Tests for resolving exchanges and loading stored data for each ticker."""
+
+    def test_exchange_lookup_error_skips_only_that_ticker(self):
+        def flaky_resolve(ticker):
+            if ticker == "BAD":
+                raise requests.HTTPError("503 Service Unavailable")
+            return "NYSE"
+
+        with patch("export_earning_store_to_sheets.resolve_exchange", side_effect=flaky_resolve), patch(
+            "export_earning_store_to_sheets.load_existing_data", return_value={"revenue": {}, "eps": {}}
+        ), patch("export_earning_store_to_sheets.fetch_release_schedules", return_value={}):
+            ordered_keys, _ = gather_ticker_data(
+                ["STLD", "BAD", "PAC"], refresh=False, headless=True, confirm_overwrite=None
+            )
+
+        assert ordered_keys == [("NYSE", "STLD"), ("NYSE", "PAC")]
+
+
+class TestAttachReleaseSchedules:
+    """Tests for attaching live release schedules used by the sheet's Quarter column."""
+
+    def test_attaches_schedule_to_matching_ticker(self):
+        schedule = {"fiscal_period_current": "2026-Q2", "last_release_date": None, "next_release_date": None}
+        ticker_data = {("NASDAQ", "STLD"): {}}
+
+        with patch(
+            "export_earning_store_to_sheets.fetch_release_schedules",
+            return_value={("NASDAQ", "STLD"): schedule},
+        ):
+            attach_release_schedules([("NASDAQ", "STLD")], ticker_data)
+
+        assert ticker_data[("NASDAQ", "STLD")]["release_schedule"] == schedule
+
+    def test_ticker_missing_from_scanner_gets_no_schedule(self):
+        ticker_data = {("NASDAQ", "STLD"): {}}
+
+        with patch("export_earning_store_to_sheets.fetch_release_schedules", return_value={}):
+            attach_release_schedules([("NASDAQ", "STLD")], ticker_data)
+
+        assert "release_schedule" not in ticker_data[("NASDAQ", "STLD")]
+
+    def test_fetch_failure_leaves_tickers_without_schedule(self):
+        ticker_data = {("NASDAQ", "STLD"): {}}
+
+        with patch(
+            "export_earning_store_to_sheets.fetch_release_schedules",
+            side_effect=requests.ConnectionError("network down"),
+        ):
+            attach_release_schedules([("NASDAQ", "STLD")], ticker_data)
+
+        assert "release_schedule" not in ticker_data[("NASDAQ", "STLD")]

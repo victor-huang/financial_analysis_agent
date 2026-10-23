@@ -1,0 +1,78 @@
+currency: USD
+company_name: Newmont Corporation
+sector: Non-Energy Minerals
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 5650.0
+    Q1 2025: 5010.0
+    Q2 2025: 5320.0
+    Q3 2025: 5520.0
+    Q4 2025: 6820.0
+    Q1 2026: 7310.0
+    Q2 2026: 6120.0
+  annual:
+    2021 Yearly: 12220.0
+    2022 Yearly: 11910.0
+    2023 Yearly: 11810.0
+    2024 Yearly: 18680.0
+    2025 Yearly: 22670.0
+  quarterly_forecast:
+    Q4 2024: 5150.0
+    Q1 2025: 4700.0
+    Q2 2025: 4850.0
+    Q3 2025: 5190.0
+    Q4 2025: 6230.0
+    Q1 2026: 6570.0
+    Q2 2026: 6350.0
+    Q3 2026: 6270.0
+    Q4 2026: 6570.0
+    Q1 2027: 6600.0
+    Q2 2027: 6900.0
+  annual_forecast:
+    2021 Yearly: 12190.0
+    2022 Yearly: 11810.0
+    2023 Yearly: 11340.0
+    2024 Yearly: 18210.0
+    2025 Yearly: 22070.0
+    2026 Yearly: 26640.0
+    2027 Yearly: 28430.0
+    2028 Yearly: 30320.0
+    2029 Yearly: 30040.0
+eps:
+  quarterly:
+    Q4 2024: 1.4
+    Q1 2025: 1.25
+    Q2 2025: 1.43
+    Q3 2025: 1.71
+    Q4 2025: 2.52
+    Q1 2026: 2.9
+    Q2 2026: 2.1
+  annual:
+    2021 Yearly: 2.96
+    2022 Yearly: 1.85
+    2023 Yearly: 1.61
+    2024 Yearly: 3.48
+    2025 Yearly: 6.89
+  quarterly_forecast:
+    Q4 2024: 1.08
+    Q1 2025: 0.92
+    Q2 2025: 1.16
+    Q3 2025: 1.44
+    Q4 2025: 2.07
+    Q1 2026: 2.18
+    Q2 2026: 1.99
+    Q3 2026: 1.96
+    Q4 2026: 2.15
+    Q1 2027: 2.4
+    Q2 2027: 2.53
+  annual_forecast:
+    2021 Yearly: 2.96
+    2022 Yearly: 1.85
+    2023 Yearly: 1.51
+    2024 Yearly: 3.09
+    2025 Yearly: 6.56
+    2026 Yearly: 9.22
+    2027 Yearly: 10.2
+    2028 Yearly: 11.82
+    2029 Yearly: 11.09

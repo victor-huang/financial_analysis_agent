@@ -1,0 +1,76 @@
+currency: USD
+company_name: Triumph Financial, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 103.56
+    Q1 2025: 101.57
+    Q2 2025: 108.06
+    Q3 2025: 109.28
+    Q4 2025: 106.17
+    Q1 2026: 105.8
+    Q2 2026: 120.24
+  annual:
+    2021 Yearly: 423.63
+    2022 Yearly: 484.56
+    2023 Yearly: 418.25
+    2024 Yearly: 415.87
+    2025 Yearly: 418.56
+  quarterly_forecast:
+    Q4 2024: 108.36
+    Q1 2025: 104.54
+    Q2 2025: 105.54
+    Q3 2025: 110.98
+    Q4 2025: 110.71
+    Q1 2026: 107.3
+    Q2 2026: 114.67
+    Q3 2026: 123.11
+    Q4 2026: 125.75
+    Q1 2027: 122.64
+    Q2 2027: 130.05
+  annual_forecast:
+    2021 Yearly: 413.04
+    2022 Yearly: 452.81
+    2023 Yearly: 418.98
+    2024 Yearly: 420.63
+    2025 Yearly: 428.27
+    2026 Yearly: 474.71
+    2027 Yearly: 523.88
+    2028 Yearly: 561.73
+eps:
+  quarterly:
+    Q4 2024: 0.13
+    Q1 2025: -0.03
+    Q2 2025: 0.15
+    Q3 2025: 0.04
+    Q4 2025: 0.77
+    Q1 2026: 0.23
+    Q2 2026: 0.44
+  annual:
+    2021 Yearly: 4.44
+    2022 Yearly: 3.96
+    2023 Yearly: 1.61
+    2024 Yearly: 0.54
+    2025 Yearly: 0.93
+  quarterly_forecast:
+    Q4 2024: 0.24
+    Q1 2025: 0.04
+    Q2 2025: 0.05
+    Q3 2025: -0.04
+    Q4 2025: 0.3
+    Q1 2026: 0.15
+    Q2 2026: 0.44
+    Q3 2026: 0.6
+    Q4 2026: 0.7
+    Q1 2027: 0.6
+    Q2 2027: 0.76
+  annual_forecast:
+    2021 Yearly: 4.4
+    2022 Yearly: 3.02
+    2023 Yearly: 1.64
+    2024 Yearly: 0.65
+    2025 Yearly: 0.47
+    2026 Yearly: 1.97
+    2027 Yearly: 3.28
+    2028 Yearly: 4.02

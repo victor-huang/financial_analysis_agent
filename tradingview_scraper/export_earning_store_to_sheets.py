@@ -32,10 +32,13 @@ import os
 import sys
 from pathlib import Path
 
+import requests
+
 sys.path.insert(0, os.path.dirname(__file__))
 
 from quarterly_annual_collector import resolve_exchange, collect_for_tickers, _parse_tickers_arg
 from earnings_data_store import load_existing_data, prompt_confirm_overwrite
+from earnings_api_helper import fetch_release_schedules
 from earning_store_export import build_export_rows
 from sheet_column_mapping import build_rows_for_headers
 from run_earnings_to_sheets import upload_csv_to_sheets, get_existing_header, create_sheets_client
@@ -72,7 +75,11 @@ def gather_ticker_data(tickers, refresh, headless, confirm_overwrite):
         if not ticker:
             continue
 
-        exchange = resolve_exchange(ticker)
+        try:
+            exchange = resolve_exchange(ticker)
+        except requests.RequestException as e:
+            logger.warning(f"Exchange lookup failed for {ticker} ({e}), skipping")
+            continue
         if not exchange:
             logger.warning(f"Could not resolve exchange for {ticker}, skipping")
             continue
@@ -89,7 +96,30 @@ def gather_ticker_data(tickers, refresh, headless, confirm_overwrite):
         ordered_keys.append(key)
         ticker_data[key] = data
 
+    attach_release_schedules(ordered_keys, ticker_data)
     return ordered_keys, ticker_data
+
+
+def attach_release_schedules(ordered_keys, ticker_data):
+    """
+    Attach each ticker's live release schedule as data["release_schedule"]
+    (used for the sheet's "Quarter" column). Fetched at export time rather
+    than stored, since on release day it changes within hours. On failure,
+    tickers are left without one and the column falls back to the store.
+    """
+    if not ordered_keys:
+        return
+    try:
+        schedules = fetch_release_schedules(ordered_keys)
+    except requests.RequestException as e:
+        logger.warning(f"Could not fetch earnings release schedules ({e}), Quarter column will use stored data")
+        return
+
+    for key in ordered_keys:
+        if key in schedules:
+            ticker_data[key]["release_schedule"] = schedules[key]
+        else:
+            logger.warning(f"No release schedule for {key[0]}:{key[1]}, Quarter column will use stored data")
 
 
 def build_headers_and_rows(client, spreadsheet_id, tab_name, ordered_keys, ticker_data):
@@ -101,6 +131,7 @@ def build_headers_and_rows(client, spreadsheet_id, tab_name, ordered_keys, ticke
     Returns:
         (headers, rows, matched_existing_header: bool)
     """
+    client.get_or_create_sheet_tab(spreadsheet_id, tab_name)
     existing_header = get_existing_header(client, spreadsheet_id, tab_name)
 
     if existing_header:
@@ -183,8 +214,9 @@ def upsert_rows(client, spreadsheet_id, tab_name, headers, ordered_keys, rows):
     heuristic has been observed to insert rows in the wrong place (e.g.
     pushing an existing header row down) when a sheet's structure doesn't
     match what it expects.
+
+    The tab must already exist (build_headers_and_rows ensures it).
     """
-    client.get_or_create_sheet_tab(spreadsheet_id, tab_name)
     existing_rows = get_ticker_row_numbers(client, spreadsheet_id, tab_name)
     last_col = _column_letter(len(headers))
 

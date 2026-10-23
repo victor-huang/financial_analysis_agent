@@ -1,0 +1,76 @@
+currency: USD
+company_name: WD-40 Company
+sector: Process Industries
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q1 2025: 153.5
+    Q2 2025: 146.1
+    Q3 2025: 156.91
+    Q4 2025: 163.47
+    Q1 2026: 154.42
+    Q2 2026: 161.67
+    Q3 2026: 195.12
+  annual:
+    2021 Yearly: 488.11
+    2022 Yearly: 518.82
+    2023 Yearly: 537.25
+    2024 Yearly: 590.56
+    2025 Yearly: 619.99
+  quarterly_forecast:
+    Q1 2025: 147.4
+    Q2 2025: 154.4
+    Q3 2025: 156.91
+    Q4 2025: 153.9
+    Q1 2026: 155.1
+    Q2 2026: 154.45
+    Q3 2026: 172.79
+    Q4 2026: 172.07
+    Q1 2027: 166.43
+    Q2 2027: 171.3
+    Q3 2027: 202.27
+  annual_forecast:
+    2021 Yearly: 489.65
+    2022 Yearly: 520.77
+    2023 Yearly: 536.1
+    2024 Yearly: 583.4
+    2025 Yearly: 614.2
+    2026 Yearly: 683.04
+    2027 Yearly: 727.08
+    2028 Yearly: 774.1
+eps:
+  quarterly:
+    Q1 2025: 1.39
+    Q2 2025: 1.32
+    Q3 2025: 1.54
+    Q4 2025: 1.56
+    Q1 2026: 1.28
+    Q2 2026: 1.5
+    Q3 2026: 2.33
+  annual:
+    2021 Yearly: 5.09
+    2022 Yearly: 4.9
+    2023 Yearly: 4.83
+    2024 Yearly: 5.11
+    2025 Yearly: 6.69
+  quarterly_forecast:
+    Q1 2025: 1.28
+    Q2 2025: 1.27
+    Q3 2025: 1.54
+    Q4 2025: 1.25
+    Q1 2026: 1.45
+    Q2 2026: 1.41
+    Q3 2026: 1.56
+    Q4 2026: 1.13
+    Q1 2027: 1.32
+    Q2 2027: 1.44
+    Q3 2027: 2.03
+  annual_forecast:
+    2021 Yearly: 5.73
+    2022 Yearly: 5.06
+    2023 Yearly: 4.84
+    2024 Yearly: 5.22
+    2025 Yearly: 5.52
+    2026 Yearly: 6.22
+    2027 Yearly: 6.47
+    2028 Yearly: 7.21

@@ -1,0 +1,76 @@
+currency: USD
+company_name: 1st Source Corporation
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 100.61
+    Q1 2025: 102.04
+    Q2 2025: 108.25
+    Q3 2025: 110.26
+    Q4 2025: 115.39
+    Q1 2026: 113.14
+    Q2 2026: 117.07
+  annual:
+    2021 Yearly: 322.48
+    2022 Yearly: 341.62
+    2023 Yearly: 359.04
+    2024 Yearly: 384.45
+    2025 Yearly: 434.74
+  quarterly_forecast:
+    Q4 2024: 97.65
+    Q1 2025: 100.99
+    Q2 2025: 104.75
+    Q3 2025: 109.35
+    Q4 2025: 110.92
+    Q1 2026: 112.01
+    Q2 2026: 114.13
+    Q3 2026: 118.11
+    Q4 2026: 119.21
+    Q1 2027: 117.63
+    Q2 2027: 119.75
+  annual_forecast:
+    2021 Yearly: 338.94
+    2022 Yearly: 353.9
+    2023 Yearly: 368.3
+    2024 Yearly: 387.21
+    2025 Yearly: 436.09
+    2026 Yearly: 468.82
+    2027 Yearly: 482.54
+    2028 Yearly: 497.43
+eps:
+  quarterly:
+    Q4 2024: 1.27
+    Q1 2025: 1.52
+    Q2 2025: 1.51
+    Q3 2025: 1.71
+    Q4 2025: 1.67
+    Q1 2026: 1.63
+    Q2 2026: 1.95
+  annual:
+    2021 Yearly: 4.7
+    2022 Yearly: 4.84
+    2023 Yearly: 5.03
+    2024 Yearly: 5.36
+    2025 Yearly: 6.41
+  quarterly_forecast:
+    Q4 2024: 1.33
+    Q1 2025: 1.37
+    Q2 2025: 1.47
+    Q3 2025: 1.6
+    Q4 2025: 1.61
+    Q1 2026: 1.63
+    Q2 2026: 1.71
+    Q3 2026: 1.83
+    Q4 2026: 1.82
+    Q1 2027: 1.79
+    Q2 2027: 1.84
+  annual_forecast:
+    2021 Yearly: 4.8
+    2022 Yearly: 4.85
+    2023 Yearly: 4.96
+    2024 Yearly: 5.43
+    2025 Yearly: 6.48
+    2026 Yearly: 7.24
+    2027 Yearly: 7.4
+    2028 Yearly: 7.65

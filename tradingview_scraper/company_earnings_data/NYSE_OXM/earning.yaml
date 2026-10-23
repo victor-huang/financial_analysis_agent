@@ -1,0 +1,76 @@
+currency: USD
+company_name: Oxford Industries, Inc.
+sector: Consumer Non-Durables
+market_cap_billions: 0.55692
+revenue:
+  quarterly:
+    Q3 2024: 308.02
+    Q4 2024: 390.5
+    Q1 2025: 392.86
+    Q2 2025: 403.1
+    Q3 2025: 307.34
+    Q4 2025: 374.49
+    Q1 2026: 391.4
+  annual:
+    2021 Yearly: 1140.0
+    2022 Yearly: 1410.0
+    2023 Yearly: 1570.0
+    2024 Yearly: 1520.0
+    2025 Yearly: 1480.0
+  quarterly_forecast:
+    Q3 2024: 312.13
+    Q4 2024: 383.99
+    Q1 2025: 384.77
+    Q2 2025: 406.13
+    Q3 2025: 305.6
+    Q4 2025: 371.87
+    Q1 2026: 391.76
+    Q2 2026: 394.55
+    Q3 2026: 313.54
+    Q4 2026: 389.46
+    Q1 2027: 402.35
+  annual_forecast:
+    2021 Yearly: 1140.0
+    2022 Yearly: 1410.0
+    2023 Yearly: 1580.0
+    2024 Yearly: 1510.0
+    2025 Yearly: 1480.0
+    2026 Yearly: 1490.0
+    2027 Yearly: 1530.0
+    2028 Yearly: 1560.0
+eps:
+  quarterly:
+    Q3 2024: -0.11
+    Q4 2024: 1.37
+    Q1 2025: 1.82
+    Q2 2025: 1.26
+    Q3 2025: -0.92
+    Q4 2025: -0.09
+    Q1 2026: 1.39
+  annual:
+    2021 Yearly: 7.99
+    2022 Yearly: 10.88
+    2023 Yearly: 10.15
+    2024 Yearly: 6.68
+    2025 Yearly: 2.11
+  quarterly_forecast:
+    Q3 2024: -0.06
+    Q4 2024: 1.27
+    Q1 2025: 1.82
+    Q2 2025: 1.18
+    Q3 2025: -0.94
+    Q4 2025: 0.02
+    Q1 2026: 1.29
+    Q2 2026: 1.31
+    Q3 2026: -0.6
+    Q4 2026: 0.36
+    Q1 2027: 1.66
+  annual_forecast:
+    2021 Yearly: 7.75
+    2022 Yearly: 10.75
+    2023 Yearly: 10.21
+    2024 Yearly: 6.59
+    2025 Yearly: 2.23
+    2026 Yearly: 2.47
+    2027 Yearly: 3.03
+    2028 Yearly: 3.28

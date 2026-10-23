@@ -1,0 +1,70 @@
+currency: USD
+company_name: JAKKS Pacific, Inc.
+sector: Consumer Durables
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 130.74
+    Q1 2025: 113.25
+    Q2 2025: 119.09
+    Q3 2025: 211.21
+    Q4 2025: 127.11
+    Q1 2026: 106.68
+    Q2 2026: 139.24
+  annual:
+    2021 Yearly: 621.12
+    2022 Yearly: 796.19
+    2023 Yearly: 711.56
+    2024 Yearly: 691.04
+    2025 Yearly: 570.67
+  quarterly_forecast:
+    Q4 2024: 131.07
+    Q1 2025: 93.27
+    Q2 2025: 124.11
+    Q3 2025: 223.93
+    Q4 2025: 117.33
+    Q1 2026: 103.8
+    Q2 2026: 123.01
+    Q3 2026: 226.58
+    Q4 2026: 127.21
+  annual_forecast:
+    2021 Yearly: 571.5
+    2022 Yearly: 759.3
+    2023 Yearly: 712.85
+    2024 Yearly: 691.37
+    2025 Yearly: 560.91
+    2026 Yearly: 599.71
+    2027 Yearly: 651.24
+eps:
+  quarterly:
+    Q4 2024: -0.67
+    Q1 2025: -0.03
+    Q2 2025: 0.03
+    Q3 2025: 1.8
+    Q4 2025: -0.18
+    Q1 2026: -0.17
+    Q2 2026: 0.25
+  annual:
+    2021 Yearly: 2.59
+    2022 Yearly: 4.28
+    2023 Yearly: 4.62
+    2024 Yearly: 3.79
+    2025 Yearly: 1.62
+  quarterly_forecast:
+    Q4 2024: -0.73
+    Q1 2025: -1.29
+    Q2 2025: -0.17
+    Q3 2025: 2.12
+    Q4 2025: -1.01
+    Q1 2026: -0.43
+    Q2 2026: -0.06
+    Q3 2026: 2.33
+    Q4 2026: -0.44
+  annual_forecast:
+    2021 Yearly: 1.52
+    2022 Yearly: 4.37
+    2023 Yearly: 4.58
+    2024 Yearly: 3.83
+    2025 Yearly: 0.76
+    2026 Yearly: 1.99
+    2027 Yearly: 3.27

@@ -1,0 +1,76 @@
+currency: USD
+company_name: DocuSign, Inc.
+sector: Technology Services
+market_cap_billions: 12.6
+revenue:
+  quarterly:
+    Q3 2024: 754.82
+    Q4 2024: 776.25
+    Q1 2025: 763.65
+    Q2 2025: 800.64
+    Q3 2025: 818.35
+    Q4 2025: 836.86
+    Q1 2026: 830.24
+  annual:
+    2021 Yearly: 2110.0
+    2022 Yearly: 2520.0
+    2023 Yearly: 2760.0
+    2024 Yearly: 2980.0
+    2025 Yearly: 3220.0
+  quarterly_forecast:
+    Q3 2024: 745.25
+    Q4 2024: 761.15
+    Q1 2025: 748.14
+    Q2 2025: 780.1
+    Q3 2025: 806.12
+    Q4 2025: 827.33
+    Q1 2026: 824.71
+    Q2 2026: 867.22
+    Q3 2026: 888.52
+    Q4 2026: 910.7
+    Q1 2027: 894.73
+  annual_forecast:
+    2021 Yearly: 2090.0
+    2022 Yearly: 2500.0
+    2023 Yearly: 2750.0
+    2024 Yearly: 2960.0
+    2025 Yearly: 3210.0
+    2026 Yearly: 3500.0
+    2027 Yearly: 3760.0
+    2028 Yearly: 4010.0
+eps:
+  quarterly:
+    Q3 2024: 0.9
+    Q4 2024: 0.86
+    Q1 2025: 0.9
+    Q2 2025: 0.92
+    Q3 2025: 1.01
+    Q4 2025: 1.01
+    Q1 2026: 1.09
+  annual:
+    2021 Yearly: 1.98
+    2022 Yearly: 2.03
+    2023 Yearly: 2.98
+    2024 Yearly: 3.55
+    2025 Yearly: 3.84
+  quarterly_forecast:
+    Q3 2024: 0.87
+    Q4 2024: 0.85
+    Q1 2025: 0.81
+    Q2 2025: 0.85
+    Q3 2025: 0.92
+    Q4 2025: 0.95
+    Q1 2026: 0.99
+    Q2 2026: 1.09
+    Q3 2026: 1.16
+    Q4 2026: 1.19
+    Q1 2027: 1.21
+  annual_forecast:
+    2021 Yearly: 1.98
+    2022 Yearly: 1.92
+    2023 Yearly: 2.87
+    2024 Yearly: 3.54
+    2025 Yearly: 3.79
+    2026 Yearly: 4.53
+    2027 Yearly: 5.09
+    2028 Yearly: 5.54

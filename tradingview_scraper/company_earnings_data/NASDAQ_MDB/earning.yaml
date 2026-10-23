@@ -1,0 +1,78 @@
+currency: USD
+company_name: MongoDB, Inc.
+sector: Technology Services
+market_cap_billions: 34.8
+revenue:
+  quarterly:
+    Q3 2024: 529.38
+    Q4 2024: 548.4
+    Q1 2025: 549.01
+    Q2 2025: 591.4
+    Q3 2025: 628.31
+    Q4 2025: 695.07
+    Q1 2026: 687.62
+  annual:
+    2021 Yearly: 873.78
+    2022 Yearly: 1280.0
+    2023 Yearly: 1680.0
+    2024 Yearly: 2009.9999999999998
+    2025 Yearly: 2460.0
+  quarterly_forecast:
+    Q3 2024: 497.24
+    Q4 2024: 520.65
+    Q1 2025: 528.12
+    Q2 2025: 554.06
+    Q3 2025: 593.93
+    Q4 2025: 670.08
+    Q1 2026: 664.53
+    Q2 2026: 735.01
+    Q3 2026: 745.16
+    Q4 2026: 796.78
+    Q1 2027: 805.32
+  annual_forecast:
+    2021 Yearly: 851.07
+    2022 Yearly: 1260.0
+    2023 Yearly: 1660.0
+    2024 Yearly: 1980.0
+    2025 Yearly: 2440.0
+    2026 Yearly: 2960.0
+    2027 Yearly: 3500.0
+    2028 Yearly: 4190.0
+    2029 Yearly: 4850.0
+eps:
+  quarterly:
+    Q3 2024: 1.16
+    Q4 2024: 1.28
+    Q1 2025: 1.0
+    Q2 2025: 1.0
+    Q3 2025: 1.32
+    Q4 2025: 1.65
+    Q1 2026: 1.32
+  annual:
+    2021 Yearly: -0.59
+    2022 Yearly: 0.81
+    2023 Yearly: 3.33
+    2024 Yearly: 3.66
+    2025 Yearly: 4.97
+  quarterly_forecast:
+    Q3 2024: 0.69
+    Q4 2024: 0.66
+    Q1 2025: 0.67
+    Q2 2025: 0.67
+    Q3 2025: 0.81
+    Q4 2025: 1.48
+    Q1 2026: 1.19
+    Q2 2026: 1.62
+    Q3 2026: 1.54
+    Q4 2026: 1.68
+    Q1 2027: 1.55
+  annual_forecast:
+    2021 Yearly: -0.69
+    2022 Yearly: 0.31
+    2023 Yearly: 2.9
+    2024 Yearly: 3.03
+    2025 Yearly: 4.82
+    2026 Yearly: 6.13
+    2027 Yearly: 7.33
+    2028 Yearly: 9.13
+    2029 Yearly: 15.4

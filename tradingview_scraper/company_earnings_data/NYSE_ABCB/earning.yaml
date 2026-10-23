@@ -1,0 +1,76 @@
+currency: USD
+company_name: Ameris Bancorp
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 291.21
+    Q1 2025: 286.75
+    Q2 2025: 301.3
+    Q3 2025: 313.1
+    Q4 2025: 309.92
+    Q1 2026: 314.36
+    Q2 2026: 317.78
+  annual:
+    2021 Yearly: 1010.0
+    2022 Yearly: 1070.0
+    2023 Yearly: 1080.0
+    2024 Yearly: 1120.0
+    2025 Yearly: 1210.0
+  quarterly_forecast:
+    Q4 2024: 276.18
+    Q1 2025: 276.83
+    Q2 2025: 297.37
+    Q3 2025: 306.33
+    Q4 2025: 310.41
+    Q1 2026: 309.32
+    Q2 2026: 323.78
+    Q3 2026: 326.66
+    Q4 2026: 327.09
+    Q1 2027: 326.48
+    Q2 2027: 336.28
+  annual_forecast:
+    2021 Yearly: 1010.0
+    2022 Yearly: 1080.0
+    2023 Yearly: 1080.0
+    2024 Yearly: 1110.0
+    2025 Yearly: 1210.0
+    2026 Yearly: 1290.0
+    2027 Yearly: 1350.0
+    2028 Yearly: 1440.0
+eps:
+  quarterly:
+    Q4 2024: 1.38
+    Q1 2025: 1.28
+    Q2 2025: 1.59
+    Q3 2025: 1.53
+    Q4 2025: 1.59
+    Q1 2026: 1.63
+    Q2 2026: 1.6
+  annual:
+    2021 Yearly: 5.29
+    2022 Yearly: 4.75
+    2023 Yearly: 4.0
+    2024 Yearly: 5.02
+    2025 Yearly: 5.99
+  quarterly_forecast:
+    Q4 2024: 1.19
+    Q1 2025: 1.14
+    Q2 2025: 1.33
+    Q3 2025: 1.47
+    Q4 2025: 1.58
+    Q1 2026: 1.55
+    Q2 2026: 1.66
+    Q3 2026: 1.68
+    Q4 2026: 1.71
+    Q1 2027: 1.66
+    Q2 2027: 1.73
+  annual_forecast:
+    2021 Yearly: 5.25
+    2022 Yearly: 5.0
+    2023 Yearly: 4.04
+    2024 Yearly: 4.84
+    2025 Yearly: 5.97
+    2026 Yearly: 6.63
+    2027 Yearly: 7.03
+    2028 Yearly: 7.65

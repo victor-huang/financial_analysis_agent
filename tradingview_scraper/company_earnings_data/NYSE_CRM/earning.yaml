@@ -1,0 +1,78 @@
+currency: USD
+company_name: Salesforce, Inc.
+sector: Technology Services
+market_cap_billions: 168.8
+revenue:
+  quarterly:
+    Q3 2024: 9440.0
+    Q4 2024: 9990.0
+    Q1 2025: 9830.0
+    Q2 2025: 10240.0
+    Q3 2025: 10260.0
+    Q4 2025: 11200.0
+    Q1 2026: 11130.0
+  annual:
+    2021 Yearly: 26490.0
+    2022 Yearly: 31350.0
+    2023 Yearly: 34860.0
+    2024 Yearly: 37900.0
+    2025 Yearly: 41520.0
+  quarterly_forecast:
+    Q3 2024: 9370.0
+    Q4 2024: 10040.0
+    Q1 2025: 9760.0
+    Q2 2025: 10140.0
+    Q3 2025: 10270.0
+    Q4 2025: 11190.0
+    Q1 2026: 11050.0
+    Q2 2026: 11330.0
+    Q3 2026: 11410.0
+    Q4 2026: 12240.0
+    Q1 2027: 12120.0
+  annual_forecast:
+    2021 Yearly: 26400.0
+    2022 Yearly: 30970.0
+    2023 Yearly: 34800.0
+    2024 Yearly: 37960.0
+    2025 Yearly: 41500.0
+    2026 Yearly: 46110.0
+    2027 Yearly: 50430.0
+    2028 Yearly: 55310.0
+    2029 Yearly: 60500.0
+eps:
+  quarterly:
+    Q3 2024: 2.41
+    Q4 2024: 2.78
+    Q1 2025: 2.58
+    Q2 2025: 2.91
+    Q3 2025: 3.25
+    Q4 2025: 3.81
+    Q1 2026: 3.88
+  annual:
+    2021 Yearly: 4.78
+    2022 Yearly: 5.24
+    2023 Yearly: 8.22
+    2024 Yearly: 10.2
+    2025 Yearly: 12.52
+  quarterly_forecast:
+    Q3 2024: 2.44
+    Q4 2024: 2.61
+    Q1 2025: 2.55
+    Q2 2025: 2.78
+    Q3 2025: 2.86
+    Q4 2025: 3.05
+    Q1 2026: 3.13
+    Q2 2026: 3.27
+    Q3 2026: 3.37
+    Q4 2026: 3.63
+    Q1 2027: 3.68
+  annual_forecast:
+    2021 Yearly: 4.69
+    2022 Yearly: 4.93
+    2023 Yearly: 8.2
+    2024 Yearly: 10.03
+    2025 Yearly: 11.78
+    2026 Yearly: 14.16
+    2027 Yearly: 15.63
+    2028 Yearly: 18.04
+    2029 Yearly: 19.77

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Waste Connections, Inc.
+sector: Industrial Services
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 2230.0
+    Q1 2025: 2150.0
+    Q2 2025: 2410.0
+    Q3 2025: 2470.0
+    Q4 2025: 2350.0
+    Q1 2026: 2330.0
+    Q2 2026: 2540.0
+  annual:
+    2021 Yearly: 6170.0
+    2022 Yearly: 7160.0
+    2023 Yearly: 8200.0
+    2024 Yearly: 8820.0
+    2025 Yearly: 9370.0
+  quarterly_forecast:
+    Q4 2024: 2210.0
+    Q1 2025: 2170.0
+    Q2 2025: 2410.0
+    Q3 2025: 2440.0
+    Q4 2025: 2380.0
+    Q1 2026: 2320.0
+    Q2 2026: 2510.0
+    Q3 2026: 2600.0
+    Q4 2026: 2540.0
+    Q1 2027: 2540.0
+    Q2 2027: 2730.0
+  annual_forecast:
+    2021 Yearly: 6040.0
+    2022 Yearly: 7170.0
+    2023 Yearly: 8210.0
+    2024 Yearly: 8780.0
+    2025 Yearly: 9510.0
+    2026 Yearly: 10130.0
+    2027 Yearly: 10700.0
+    2028 Yearly: 11220.0
+    2029 Yearly: 11880.0
+eps:
+  quarterly:
+    Q4 2024: 1.15
+    Q1 2025: 1.09
+    Q2 2025: 1.29
+    Q3 2025: 1.45
+    Q4 2025: 1.28
+    Q1 2026: 1.21
+    Q2 2026: 1.49
+  annual:
+    2021 Yearly: 3.24
+    2022 Yearly: 3.79
+    2023 Yearly: 4.29
+    2024 Yearly: 4.73
+    2025 Yearly: 5.1
+  quarterly_forecast:
+    Q4 2024: 1.18
+    Q1 2025: 1.06
+    Q2 2025: 1.26
+    Q3 2025: 1.38
+    Q4 2025: 1.29
+    Q1 2026: 1.18
+    Q2 2026: 1.34
+    Q3 2026: 1.52
+    Q4 2026: 1.41
+    Q1 2027: 1.38
+    Q2 2027: 1.57
+  annual_forecast:
+    2021 Yearly: 3.19
+    2022 Yearly: 3.79
+    2023 Yearly: 4.26
+    2024 Yearly: 4.77
+    2025 Yearly: 5.17
+    2026 Yearly: 5.7
+    2027 Yearly: 6.25
+    2028 Yearly: 6.94
+    2029 Yearly: 7.56

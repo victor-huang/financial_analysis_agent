@@ -1,0 +1,76 @@
+currency: USD
+company_name: First Merchants Corporation
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 177.11
+    Q1 2025: 166.45
+    Q2 2025: 170.52
+    Q3 2025: 172.35
+    Q4 2025: 178.35
+    Q1 2026: 193.28
+    Q2 2026: 202.49
+  annual:
+    2021 Yearly: 520.0
+    2022 Yearly: 628.14
+    2023 Yearly: 651.0
+    2024 Yearly: 646.69
+    2025 Yearly: 687.67
+  quarterly_forecast:
+    Q4 2024: 167.84
+    Q1 2025: 170.91
+    Q2 2025: 172.41
+    Q3 2025: 172.48
+    Q4 2025: 173.23
+    Q1 2026: 188.43
+    Q2 2026: 202.78
+    Q3 2026: 203.94
+    Q4 2026: 205.6
+    Q1 2027: 204.12
+    Q2 2027: 210.09
+  annual_forecast:
+    2021 Yearly: 540.38
+    2022 Yearly: 651.15
+    2023 Yearly: 680.29
+    2024 Yearly: 661.66
+    2025 Yearly: 682.47
+    2026 Yearly: 805.02
+    2027 Yearly: 845.6
+    2028 Yearly: 886.8
+eps:
+  quarterly:
+    Q4 2024: 1.1
+    Q1 2025: 0.94
+    Q2 2025: 0.98
+    Q3 2025: 0.98
+    Q4 2025: 0.99
+    Q1 2026: 0.45
+    Q2 2026: 0.7
+  annual:
+    2021 Yearly: 3.81
+    2022 Yearly: 3.81
+    2023 Yearly: 3.73
+    2024 Yearly: 3.41
+    2025 Yearly: 3.88
+  quarterly_forecast:
+    Q4 2024: 0.9
+    Q1 2025: 0.91
+    Q2 2025: 0.94
+    Q3 2025: 0.96
+    Q4 2025: 0.95
+    Q1 2026: 0.89
+    Q2 2026: 1.02
+    Q3 2026: 1.04
+    Q4 2026: 1.04
+    Q1 2027: 1.04
+    Q2 2027: 1.11
+  annual_forecast:
+    2021 Yearly: 3.85
+    2022 Yearly: 3.79
+    2023 Yearly: 3.88
+    2024 Yearly: 3.24
+    2025 Yearly: 3.85
+    2026 Yearly: 3.23
+    2027 Yearly: 4.47
+    2028 Yearly: 4.89

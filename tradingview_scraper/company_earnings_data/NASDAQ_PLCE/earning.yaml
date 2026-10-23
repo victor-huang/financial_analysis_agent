@@ -1,0 +1,76 @@
+currency: USD
+company_name: Children's Place, Inc. (The)
+sector: Retail Trade
+market_cap_billions: 0.054479999999999994
+revenue:
+  quarterly:
+    Q3 2024: 390.17
+    Q4 2024: 408.56
+    Q1 2025: 242.13
+    Q2 2025: 298.01
+    Q3 2025: 339.47
+    Q4 2025: 329.23
+    Q1 2026: 215.22
+  annual:
+    2021 Yearly: 1920.0
+    2022 Yearly: 1710.0
+    2023 Yearly: 1600.0
+    2024 Yearly: 1390.0
+    2025 Yearly: 1210.0
+  quarterly_forecast:
+    Q3 2024: 423.41
+    Q4 2024: 380.78
+    Q1 2025: 260.62
+    Q2 2025: 289.58
+    Q3 2025: 370.29
+    Q4 2025: 358.27
+    Q1 2026: 198.32
+    Q2 2026: 268.48
+    Q3 2026: 317.84
+    Q4 2026: 307.58
+    Q1 2027: 223.61
+  annual_forecast:
+    2021 Yearly: 1940.0
+    2022 Yearly: 1710.0
+    2023 Yearly: 1610.0
+    2024 Yearly: 1360.0
+    2025 Yearly: 1240.0
+    2026 Yearly: 1110.0
+    2027 Yearly: 1160.0
+    2028 Yearly: 1210.0
+eps:
+  quarterly:
+    Q3 2024: 2.04
+    Q4 2024: -0.75
+    Q1 2025: -1.52
+    Q2 2025: -0.15
+    Q3 2025: -0.18
+    Q4 2025: -1.86
+    Q1 2026: -2.4
+  annual:
+    2021 Yearly: 13.4
+    2022 Yearly: -0.08
+    2023 Yearly: -8.26
+    2024 Yearly: 0.43
+    2025 Yearly: -3.7
+  quarterly_forecast:
+    Q3 2024: 2.43
+    Q4 2024: 0.26
+    Q1 2025: -0.08
+    Q2 2025: -0.1
+    Q3 2025: 0.7
+    Q4 2025: -0.96
+    Q1 2026: -2.15
+    Q2 2026: -0.93
+    Q3 2026: 0.04
+    Q4 2026: -1.47
+    Q1 2027: -1.72
+  annual_forecast:
+    2021 Yearly: 13.28
+    2022 Yearly: -0.44
+    2023 Yearly: -2.51
+    2024 Yearly: 1.45
+    2025 Yearly: -2.81
+    2026 Yearly: -4.75
+    2027 Yearly: -2.1
+    2028 Yearly: 0.5

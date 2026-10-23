@@ -1,0 +1,80 @@
+currency: USD
+company_name: Western Alliance Bancorporation
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 838.6
+    Q1 2025: 781.55
+    Q2 2025: 845.9
+    Q3 2025: 931.1
+    Q4 2025: 980.9
+    Q1 2026: 978.5
+    Q2 2026: 995.7
+    Q3 2026: 985.18
+  annual:
+    2021 Yearly: 1980.0
+    2022 Yearly: 2590.0
+    2023 Yearly: 2620.0
+    2024 Yearly: 3180.0
+    2025 Yearly: 3550.0
+  quarterly_forecast:
+    Q4 2024: 805.62
+    Q1 2025: 792.41
+    Q2 2025: 838.02
+    Q3 2025: 888.22
+    Q4 2025: 913.35
+    Q1 2026: 958.12
+    Q2 2026: 980.53
+    Q3 2026: 987.91
+    Q4 2026: 1000.0
+    Q1 2027: 1020.0
+    Q2 2027: 1050.0
+    Q3 2027: 1080.0
+  annual_forecast:
+    2021 Yearly: 1970.0
+    2022 Yearly: 2580.0
+    2023 Yearly: 2700.0
+    2024 Yearly: 3140.0
+    2025 Yearly: 3470.0
+    2026 Yearly: 3990.0
+    2027 Yearly: 4230.0
+    2028 Yearly: 4490.0
+eps:
+  quarterly:
+    Q4 2024: 1.95
+    Q1 2025: 1.79
+    Q2 2025: 2.07
+    Q3 2025: 2.28
+    Q4 2025: 2.59
+    Q1 2026: 1.65
+    Q2 2026: 2.36
+    Q3 2026: 2.45
+  annual:
+    2021 Yearly: 8.67
+    2022 Yearly: 9.7
+    2023 Yearly: 6.54
+    2024 Yearly: 7.09
+    2025 Yearly: 8.73
+  quarterly_forecast:
+    Q4 2024: 1.9
+    Q1 2025: 1.78
+    Q2 2025: 2.02
+    Q3 2025: 2.08
+    Q4 2025: 2.39
+    Q1 2026: 1.62
+    Q2 2026: 2.36
+    Q3 2026: 2.42
+    Q4 2026: 2.55
+    Q1 2027: 2.51
+    Q2 2027: 2.71
+    Q3 2027: 2.89
+  annual_forecast:
+    2021 Yearly: 8.67
+    2022 Yearly: 9.7
+    2023 Yearly: 7.03
+    2024 Yearly: 7.05
+    2025 Yearly: 8.54
+    2026 Yearly: 8.99
+    2027 Yearly: 10.95
+    2028 Yearly: 12.41

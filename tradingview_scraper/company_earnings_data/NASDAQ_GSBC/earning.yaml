@@ -1,0 +1,76 @@
+currency: USD
+company_name: Great Southern Bancorp, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 56.47
+    Q1 2025: 55.92
+    Q2 2025: 59.17
+    Q3 2025: 57.84
+    Q4 2025: 56.35
+    Q1 2026: 55.36
+    Q2 2026: 56.87
+  annual:
+    2021 Yearly: 216.24
+    2022 Yearly: 233.75
+    2023 Yearly: 223.29
+    2024 Yearly: 219.71
+    2025 Yearly: 229.28
+  quarterly_forecast:
+    Q4 2024: 55.33
+    Q1 2025: 55.53
+    Q2 2025: 56.02
+    Q3 2025: 57.36
+    Q4 2025: 55.03
+    Q1 2026: 54.75
+    Q2 2026: 55.26
+    Q3 2026: 56.08
+    Q4 2026: 55.9
+    Q1 2027: 55.25
+    Q2 2027: 55.97
+  annual_forecast:
+    2021 Yearly: 215.22
+    2022 Yearly: 231.3
+    2023 Yearly: 224.95
+    2024 Yearly: 215.9
+    2025 Yearly: 226.86
+    2026 Yearly: 224.2
+    2027 Yearly: 226.22
+    2028 Yearly: 233.63
+eps:
+  quarterly:
+    Q4 2024: 1.27
+    Q1 2025: 1.47
+    Q2 2025: 1.72
+    Q3 2025: 1.56
+    Q4 2025: 1.45
+    Q1 2026: 1.58
+    Q2 2026: 1.43
+  annual:
+    2021 Yearly: 5.46
+    2022 Yearly: 6.02
+    2023 Yearly: 5.61
+    2024 Yearly: 5.26
+    2025 Yearly: 6.19
+  quarterly_forecast:
+    Q4 2024: 1.32
+    Q1 2025: 1.27
+    Q2 2025: 1.34
+    Q3 2025: 1.5
+    Q4 2025: 1.34
+    Q1 2026: 1.29
+    Q2 2026: 1.38
+    Q3 2026: 1.39
+    Q4 2026: 1.43
+    Q1 2027: 1.35
+    Q2 2027: 1.36
+  annual_forecast:
+    2021 Yearly: 5.59
+    2022 Yearly: 5.83
+    2023 Yearly: 5.67
+    2024 Yearly: 5.31
+    2025 Yearly: 6.08
+    2026 Yearly: 5.83
+    2027 Yearly: 5.65
+    2028 Yearly: 6.0

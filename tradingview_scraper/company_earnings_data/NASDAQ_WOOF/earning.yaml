@@ -1,0 +1,76 @@
+currency: USD
+company_name: Petco Health and Wellness Company, Inc.
+sector: Retail Trade
+market_cap_billions: 0.7510399999999999
+revenue:
+  quarterly:
+    Q4 2024: 1550.0
+    Q1 2025: 1490.0
+    Q2 2025: 1490.0
+    Q3 2025: 1460.0
+    Q4 2025: 1520.0
+    Q1 2026: 1500.0
+    Q2 2026: 1490.0
+  annual:
+    2021 Yearly: 5810.0
+    2022 Yearly: 6040.0
+    2023 Yearly: 6260.0
+    2024 Yearly: 6120.0
+    2025 Yearly: 5960.0
+  quarterly_forecast:
+    Q4 2024: 1560.0
+    Q1 2025: 1500.0
+    Q2 2025: 1490.0
+    Q3 2025: 1470.0
+    Q4 2025: 1510.0
+    Q1 2026: 1490.0
+    Q2 2026: 1490.0
+    Q3 2026: 1480.0
+    Q4 2026: 1530.0
+    Q1 2027: 1510.0
+    Q2 2027: 1510.0
+  annual_forecast:
+    2021 Yearly: 5780.0
+    2022 Yearly: 6050.0
+    2023 Yearly: 6210.0
+    2024 Yearly: 6120.0
+    2025 Yearly: 5960.0
+    2026 Yearly: 6000.0
+    2027 Yearly: 6070.0
+    2028 Yearly: 6220.0
+    2029 Yearly: 6200.0
+eps:
+  quarterly:
+    Q4 2024: 0.02
+    Q1 2025: 0.01
+    Q2 2025: 0.09
+    Q3 2025: 0.04
+    Q4 2025: 0.06
+    Q1 2026: 0.04
+    Q2 2026: 0.11
+  annual:
+    2021 Yearly: 0.91
+    2022 Yearly: 0.61
+    2023 Yearly: 0.09
+    2024 Yearly: -0.08
+    2025 Yearly: 0.17
+  quarterly_forecast:
+    Q4 2024: 0.01
+    Q1 2025: -0.02
+    Q2 2025: 0.01
+    Q3 2025: 0.02
+    Q4 2025: 0.02
+    Q1 2026: 0.02
+    Q2 2026: 0.07
+    Q3 2026: 0.05
+    Q4 2026: 0.07
+    Q1 2027: 0.05
+    Q2 2027: 0.1
+  annual_forecast:
+    2022 Yearly: 0.88
+    2023 Yearly: 0.75
+    2024 Yearly: 0.08
+    2025 Yearly: -0.08
+    2026 Yearly: 0.15
+    2027 Yearly: 0.2
+    2028 Yearly: 0.25

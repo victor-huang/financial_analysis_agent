@@ -1,0 +1,78 @@
+currency: USD
+company_name: Everpure, Inc.
+sector: Electronic Technology
+market_cap_billions: 36.2
+revenue:
+  quarterly:
+    Q3 2024: 831.07
+    Q4 2024: 879.84
+    Q1 2025: 778.49
+    Q2 2025: 861.0
+    Q3 2025: 964.45
+    Q4 2025: 1060.0
+    Q1 2026: 1050.0
+  annual:
+    2021 Yearly: 2180.0
+    2022 Yearly: 2750.0
+    2023 Yearly: 2830.0
+    2024 Yearly: 3170.0
+    2025 Yearly: 3660.0
+  quarterly_forecast:
+    Q3 2024: 814.9
+    Q4 2024: 868.83
+    Q1 2025: 770.44
+    Q2 2025: 846.2
+    Q3 2025: 955.91
+    Q4 2025: 1030.0
+    Q1 2026: 1000.0
+    Q2 2026: 1100.0
+    Q3 2026: 1140.0
+    Q4 2026: 1200.0
+    Q1 2027: 1180.0
+  annual_forecast:
+    2021 Yearly: 2100.0
+    2022 Yearly: 2750.0
+    2023 Yearly: 2830.0
+    2024 Yearly: 3160.0
+    2025 Yearly: 3640.0
+    2026 Yearly: 4500.0
+    2027 Yearly: 5240.0
+    2028 Yearly: 5910.0
+    2029 Yearly: 6760.0
+eps:
+  quarterly:
+    Q3 2024: 0.5
+    Q4 2024: 0.45
+    Q1 2025: 0.29
+    Q2 2025: 0.43
+    Q3 2025: 0.58
+    Q4 2025: 0.69
+    Q1 2026: 0.47
+  annual:
+    2021 Yearly: 0.72
+    2022 Yearly: 1.41
+    2023 Yearly: 1.44
+    2024 Yearly: 1.72
+    2025 Yearly: 2.06
+  quarterly_forecast:
+    Q3 2024: 0.41
+    Q4 2024: 0.41
+    Q1 2025: 0.25
+    Q2 2025: 0.39
+    Q3 2025: 0.58
+    Q4 2025: 0.65
+    Q1 2026: 0.4
+    Q2 2026: 0.58
+    Q3 2026: 0.65
+    Q4 2026: 0.75
+    Q1 2027: 0.59
+  annual_forecast:
+    2021 Yearly: 0.63
+    2022 Yearly: 1.28
+    2023 Yearly: 1.36
+    2024 Yearly: 1.67
+    2025 Yearly: 1.95
+    2026 Yearly: 2.45
+    2027 Yearly: 3.09
+    2028 Yearly: 3.74
+    2029 Yearly: 3.91

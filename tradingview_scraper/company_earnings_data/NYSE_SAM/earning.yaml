@@ -1,0 +1,78 @@
+currency: USD
+company_name: Boston Beer Company, Inc. (The)
+sector: Consumer Non-Durables
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 402.3
+    Q1 2025: 453.87
+    Q2 2025: 587.95
+    Q3 2025: 537.49
+    Q4 2025: 385.68
+    Q1 2026: 433.93
+    Q2 2026: 568.34
+  annual:
+    2021 Yearly: 2060.0
+    2022 Yearly: 2090.0
+    2023 Yearly: 2009.9999999999998
+    2024 Yearly: 2009.9999999999998
+    2025 Yearly: 1960.0
+  quarterly_forecast:
+    Q4 2024: 389.2
+    Q1 2025: 435.59
+    Q2 2025: 587.65
+    Q3 2025: 542.1
+    Q4 2025: 381.6
+    Q1 2026: 436.06
+    Q2 2026: 566.68
+    Q3 2026: 522.95
+    Q4 2026: 391.1
+    Q1 2027: 435.18
+    Q2 2027: 571.76
+  annual_forecast:
+    2021 Yearly: 2070.0
+    2022 Yearly: 2029.9999999999998
+    2023 Yearly: 2029.9999999999998
+    2024 Yearly: 2000.0
+    2025 Yearly: 1960.0
+    2026 Yearly: 1920.0
+    2027 Yearly: 1910.0
+    2028 Yearly: 1920.0
+    2029 Yearly: 1930.0
+eps:
+  quarterly:
+    Q4 2024: -1.68
+    Q1 2025: 2.16
+    Q2 2025: 5.45
+    Q3 2025: 4.25
+    Q4 2025: -2.12
+    Q1 2026: 1.64
+    Q2 2026: 3.65
+  annual:
+    2021 Yearly: 1.17
+    2022 Yearly: 5.44
+    2023 Yearly: 6.21
+    2024 Yearly: 9.43
+    2025 Yearly: 9.89
+  quarterly_forecast:
+    Q4 2024: -1.31
+    Q1 2025: 0.56
+    Q2 2025: 3.86
+    Q3 2025: 3.33
+    Q4 2025: -2.51
+    Q1 2026: 1.96
+    Q2 2026: 4.83
+    Q3 2026: 4.21
+    Q4 2026: -0.81
+    Q1 2027: 1.88
+    Q2 2027: 4.41
+  annual_forecast:
+    2021 Yearly: 1.09
+    2022 Yearly: 7.37
+    2023 Yearly: 7.86
+    2024 Yearly: 9.51
+    2025 Yearly: 9.35
+    2026 Yearly: 8.9
+    2027 Yearly: 10.1
+    2028 Yearly: 10.89
+    2029 Yearly: 11.95

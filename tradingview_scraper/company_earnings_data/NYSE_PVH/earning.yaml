@@ -1,0 +1,78 @@
+currency: USD
+company_name: PVH Corp.
+sector: Consumer Non-Durables
+market_cap_billions: 3.33
+revenue:
+  quarterly:
+    Q4 2024: 2370.0
+    Q1 2025: 1980.0
+    Q2 2025: 2170.0
+    Q3 2025: 2290.0
+    Q4 2025: 2510.0
+    Q1 2026: 2029.9999999999998
+    Q2 2026: 2100.0
+  annual:
+    2021 Yearly: 9150.0
+    2022 Yearly: 9020.0
+    2023 Yearly: 9220.0
+    2024 Yearly: 8650.0
+    2025 Yearly: 8950.0
+  quarterly_forecast:
+    Q4 2024: 2330.0
+    Q1 2025: 1930.0
+    Q2 2025: 2120.0
+    Q3 2025: 2280.0
+    Q4 2025: 2430.0
+    Q1 2026: 2000.0
+    Q2 2026: 2090.0
+    Q3 2026: 2280.0
+    Q4 2026: 2500.0
+    Q1 2027: 2060.0
+    Q2 2027: 2150.0
+  annual_forecast:
+    2021 Yearly: 9100.0
+    2022 Yearly: 8890.0
+    2023 Yearly: 9150.0
+    2024 Yearly: 8620.0
+    2025 Yearly: 8880.0
+    2026 Yearly: 8900.0
+    2027 Yearly: 9050.0
+    2028 Yearly: 9240.0
+    2029 Yearly: 9470.0
+eps:
+  quarterly:
+    Q4 2024: 3.27
+    Q1 2025: 2.3
+    Q2 2025: 2.52
+    Q3 2025: 2.83
+    Q4 2025: 3.82
+    Q1 2026: 2.01
+    Q2 2026: 3.7
+  annual:
+    2021 Yearly: 10.15
+    2022 Yearly: 8.97
+    2023 Yearly: 10.68
+    2024 Yearly: 11.74
+    2025 Yearly: 11.4
+  quarterly_forecast:
+    Q4 2024: 3.21
+    Q1 2025: 2.26
+    Q2 2025: 2.01
+    Q3 2025: 2.54
+    Q4 2025: 3.31
+    Q1 2026: 1.82
+    Q2 2026: 3.08
+    Q3 2026: 2.99
+    Q4 2026: 3.99
+    Q1 2027: 2.21
+    Q2 2027: 2.21
+  annual_forecast:
+    2021 Yearly: 9.37
+    2022 Yearly: 8.29
+    2023 Yearly: 10.49
+    2024 Yearly: 11.68
+    2025 Yearly: 10.91
+    2026 Yearly: 12.02
+    2027 Yearly: 12.6
+    2028 Yearly: 13.92
+    2029 Yearly: 16.45

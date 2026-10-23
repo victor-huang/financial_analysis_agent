@@ -1,0 +1,78 @@
+currency: USD
+company_name: Five Below, Inc.
+sector: Retail Trade
+market_cap_billions: 13.44
+revenue:
+  quarterly:
+    Q4 2024: 1390.0
+    Q1 2025: 970.53
+    Q2 2025: 1030.0
+    Q3 2025: 1040.0
+    Q4 2025: 1730.0
+    Q1 2026: 1290.0
+    Q2 2026: 1260.0
+  annual:
+    2021 Yearly: 2850.0
+    2022 Yearly: 3080.0
+    2023 Yearly: 3560.0
+    2024 Yearly: 3880.0
+    2025 Yearly: 4760.0
+  quarterly_forecast:
+    Q4 2024: 1380.0
+    Q1 2025: 966.52
+    Q2 2025: 995.0
+    Q3 2025: 981.02
+    Q4 2025: 1710.0
+    Q1 2026: 1230.0
+    Q2 2026: 1220.0
+    Q3 2026: 1150.0
+    Q4 2026: 1890.0
+    Q1 2027: 1350.0
+    Q2 2027: 1330.0
+  annual_forecast:
+    2021 Yearly: 2860.0
+    2022 Yearly: 3060.0
+    2023 Yearly: 3570.0
+    2024 Yearly: 3860.0
+    2025 Yearly: 4750.0
+    2026 Yearly: 5540.0
+    2027 Yearly: 6060.0
+    2028 Yearly: 6690.0
+    2029 Yearly: 7490.0
+eps:
+  quarterly:
+    Q4 2024: 3.48
+    Q1 2025: 0.86
+    Q2 2025: 0.81
+    Q3 2025: 0.68
+    Q4 2025: 4.31
+    Q1 2026: 2.22
+    Q2 2026: 1.68
+  annual:
+    2021 Yearly: 4.95
+    2022 Yearly: 4.69
+    2023 Yearly: 5.41
+    2024 Yearly: 5.04
+    2025 Yearly: 6.67
+  quarterly_forecast:
+    Q4 2024: 3.38
+    Q1 2025: 0.83
+    Q2 2025: 0.62
+    Q3 2025: 0.25
+    Q4 2025: 4.0
+    Q1 2026: 1.77
+    Q2 2026: 1.4
+    Q3 2026: 0.87
+    Q4 2026: 4.8
+    Q1 2027: 2.02
+    Q2 2027: 1.5
+  annual_forecast:
+    2021 Yearly: 4.95
+    2022 Yearly: 4.68
+    2023 Yearly: 5.54
+    2024 Yearly: 4.94
+    2025 Yearly: 6.37
+    2026 Yearly: 9.29
+    2027 Yearly: 9.98
+    2028 Yearly: 11.39
+    2029 Yearly: 14.04

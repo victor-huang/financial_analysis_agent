@@ -1,0 +1,78 @@
+currency: USD
+company_name: Ambarella, Inc.
+sector: Electronic Technology
+market_cap_billions: 2.82
+revenue:
+  quarterly:
+    Q3 2024: 82.65
+    Q4 2024: 84.02
+    Q1 2025: 85.87
+    Q2 2025: 95.51
+    Q3 2025: 108.45
+    Q4 2025: 100.87
+    Q1 2026: 100.36
+  annual:
+    2021 Yearly: 331.86
+    2022 Yearly: 337.61
+    2023 Yearly: 226.47
+    2024 Yearly: 284.87
+    2025 Yearly: 390.7
+  quarterly_forecast:
+    Q3 2024: 79.01
+    Q4 2024: 78.04
+    Q1 2025: 84.0
+    Q2 2025: 90.0
+    Q3 2025: 104.16
+    Q4 2025: 100.16
+    Q1 2026: 100.12
+    Q2 2026: 107.76
+    Q3 2026: 119.28
+    Q4 2026: 113.93
+    Q1 2027: 111.72
+  annual_forecast:
+    2021 Yearly: 331.8
+    2022 Yearly: 337.3
+    2023 Yearly: 226.45
+    2024 Yearly: 279.0
+    2025 Yearly: 389.99
+    2026 Yearly: 441.35
+    2027 Yearly: 498.27
+    2028 Yearly: 593.27
+    2029 Yearly: 740.0
+eps:
+  quarterly:
+    Q3 2024: 0.11
+    Q4 2024: 0.11
+    Q1 2025: 0.07
+    Q2 2025: 0.15
+    Q3 2025: 0.27
+    Q4 2025: 0.13
+    Q1 2026: 0.11
+  annual:
+    2021 Yearly: 1.61
+    2022 Yearly: 1.1
+    2023 Yearly: -0.83
+    2024 Yearly: -0.16
+    2025 Yearly: 0.62
+  quarterly_forecast:
+    Q3 2024: 0.03
+    Q4 2024: -0.02
+    Q1 2025: 0.04
+    Q2 2025: 0.05
+    Q3 2025: 0.2
+    Q4 2025: 0.1
+    Q1 2026: 0.1
+    Q2 2026: 0.17
+    Q3 2026: 0.3
+    Q4 2026: 0.21
+    Q1 2027: 0.15
+  annual_forecast:
+    2021 Yearly: 1.57
+    2022 Yearly: 1.02
+    2023 Yearly: -0.92
+    2024 Yearly: -0.3
+    2025 Yearly: 0.6
+    2026 Yearly: 0.79
+    2027 Yearly: 1.08
+    2028 Yearly: 1.46
+    2029 Yearly: 2.75

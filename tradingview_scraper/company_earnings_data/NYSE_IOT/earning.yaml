@@ -1,0 +1,76 @@
+currency: USD
+company_name: Samsara Inc.
+sector: Technology Services
+market_cap_billions: 22.53
+revenue:
+  quarterly:
+    Q3 2024: 321.98
+    Q4 2024: 346.29
+    Q1 2025: 366.88
+    Q2 2025: 391.48
+    Q3 2025: 415.98
+    Q4 2025: 444.3
+    Q1 2026: 478.84
+  annual:
+    2021 Yearly: 428.3
+    2022 Yearly: 652.54
+    2023 Yearly: 937.38
+    2024 Yearly: 1250.0
+    2025 Yearly: 1620.0
+  quarterly_forecast:
+    Q3 2024: 310.56
+    Q4 2024: 335.33
+    Q1 2025: 351.41
+    Q2 2025: 372.23
+    Q3 2025: 399.34
+    Q4 2025: 422.31
+    Q1 2026: 455.21
+    Q2 2026: 483.29
+    Q3 2026: 509.67
+    Q4 2026: 538.37
+    Q1 2027: 569.34
+  annual_forecast:
+    2021 Yearly: 418.97
+    2022 Yearly: 639.16
+    2023 Yearly: 919.36
+    2024 Yearly: 1240.0
+    2025 Yearly: 1600.0
+    2026 Yearly: 2009.9999999999998
+    2027 Yearly: 2410.0
+    2028 Yearly: 2850.0
+    2029 Yearly: 3570.0
+eps:
+  quarterly:
+    Q3 2024: 0.07
+    Q4 2024: 0.11
+    Q1 2025: 0.11
+    Q2 2025: 0.12
+    Q3 2025: 0.15
+    Q4 2025: 0.18
+    Q1 2026: 0.17
+  annual:
+    2021 Yearly: -0.42
+    2022 Yearly: -0.13
+    2023 Yearly: 0.07
+    2024 Yearly: 0.26
+    2025 Yearly: 0.56
+  quarterly_forecast:
+    Q3 2024: 0.04
+    Q4 2024: 0.07
+    Q1 2025: 0.06
+    Q2 2025: 0.07
+    Q3 2025: 0.12
+    Q4 2025: 0.13
+    Q1 2026: 0.13
+    Q2 2026: 0.16
+    Q3 2026: 0.18
+    Q4 2026: 0.21
+    Q1 2027: 0.21
+  annual_forecast:
+    2022 Yearly: -0.49
+    2023 Yearly: -0.16
+    2024 Yearly: 0.05
+    2025 Yearly: 0.22
+    2026 Yearly: 0.51
+    2027 Yearly: 0.72
+    2028 Yearly: 0.91

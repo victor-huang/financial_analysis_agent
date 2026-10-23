@@ -1,0 +1,69 @@
+currency: USD
+company_name: Anixa Biosciences, Inc.
+sector: Health Technology
+market_cap_billions: 0.09663
+revenue:
+  quarterly:
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+  annual:
+    2024 Yearly: 0.0
+    2026 Yearly: 0.0
+  quarterly_forecast:
+    Q4 2024: 0.0
+    Q1 2025: 0.0
+    Q2 2025: 0.0
+    Q3 2025: 0.0
+    Q4 2025: 0.0
+    Q1 2026: 0.0
+    Q2 2026: 0.0
+    Q3 2026: 0.0
+    Q4 2026: 0.0
+    Q1 2027: 0.0
+    Q2 2027: 0.0
+  annual_forecast:
+    2026 Yearly: 0.0
+    2028 Yearly: 0.0
+    2029 Yearly: 0.0
+eps:
+  quarterly:
+    Q4 2024: -0.09
+    Q1 2025: -0.1
+    Q2 2025: -0.09
+    Q3 2025: -0.08
+    Q4 2025: -0.08
+    Q1 2026: -0.08
+    Q2 2026: -0.07
+  annual:
+    2021 Yearly: -0.45
+    2022 Yearly: -0.45
+    2023 Yearly: -0.32
+    2024 Yearly: -0.39
+    2025 Yearly: -0.34
+  quarterly_forecast:
+    Q4 2024: -0.09
+    Q1 2025: -0.08
+    Q2 2025: -0.09
+    Q3 2025: -0.08
+    Q4 2025: -0.09
+    Q1 2026: -0.09
+    Q2 2026: -0.09
+    Q3 2026: -0.08
+    Q4 2026: -0.08
+    Q1 2027: -0.08
+    Q2 2027: -0.08
+  annual_forecast:
+    2021 Yearly: -0.41
+    2022 Yearly: -0.34
+    2023 Yearly: -0.32
+    2024 Yearly: -0.4
+    2025 Yearly: -0.36
+    2026 Yearly: -0.32
+    2027 Yearly: -0.33
+    2028 Yearly: -0.35
+    2029 Yearly: -0.38

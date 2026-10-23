@@ -1,0 +1,78 @@
+currency: USD
+company_name: MaxLinear, Inc
+sector: Electronic Technology
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 92.17
+    Q1 2025: 95.93
+    Q2 2025: 108.81
+    Q3 2025: 126.46
+    Q4 2025: 136.44
+    Q1 2026: 137.19
+    Q2 2026: 168.85
+  annual:
+    2021 Yearly: 892.4
+    2022 Yearly: 1120.0
+    2023 Yearly: 693.26
+    2024 Yearly: 360.53
+    2025 Yearly: 467.64
+  quarterly_forecast:
+    Q4 2024: 89.97
+    Q1 2025: 94.85
+    Q2 2025: 104.9
+    Q3 2025: 124.65
+    Q4 2025: 134.82
+    Q1 2026: 134.56
+    Q2 2026: 164.64
+    Q3 2026: 214.95
+    Q4 2026: 226.65
+    Q1 2027: 231.81
+    Q2 2027: 245.28
+  annual_forecast:
+    2021 Yearly: 889.3
+    2022 Yearly: 1120.0
+    2023 Yearly: 693.14
+    2024 Yearly: 358.41
+    2025 Yearly: 466.0
+    2026 Yearly: 739.61
+    2027 Yearly: 981.27
+    2028 Yearly: 1160.0
+    2029 Yearly: 1250.0
+eps:
+  quarterly:
+    Q4 2024: -0.09
+    Q1 2025: -0.05
+    Q2 2025: 0.02
+    Q3 2025: 0.14
+    Q4 2025: 0.19
+    Q1 2026: 0.22
+    Q2 2026: 0.35
+  annual:
+    2021 Yearly: 2.69
+    2022 Yearly: 4.23
+    2023 Yearly: 1.1
+    2024 Yearly: -0.9
+    2025 Yearly: 0.31
+  quarterly_forecast:
+    Q4 2024: -0.13
+    Q1 2025: -0.05
+    Q2 2025: 0.02
+    Q3 2025: 0.12
+    Q4 2025: 0.18
+    Q1 2026: 0.18
+    Q2 2026: 0.33
+    Q3 2026: 0.56
+    Q4 2026: 0.61
+    Q1 2027: 0.61
+    Q2 2027: 0.66
+  annual_forecast:
+    2021 Yearly: 2.68
+    2022 Yearly: 4.22
+    2023 Yearly: 1.11
+    2024 Yearly: -0.94
+    2025 Yearly: 0.29
+    2026 Yearly: 1.75
+    2027 Yearly: 2.75
+    2028 Yearly: 3.44
+    2029 Yearly: 3.53

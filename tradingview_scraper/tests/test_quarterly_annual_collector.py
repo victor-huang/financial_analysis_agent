@@ -10,6 +10,8 @@ import sys
 import os
 from unittest.mock import patch, MagicMock
 
+import requests
+
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
 from quarterly_annual_collector import collect_for_tickers, transform_financial_data, resolve_exchange
@@ -165,6 +167,17 @@ class TestCollectForTickersSequential:
 
         called_tickers = [call.args[0] for call in mock_process.call_args_list]
         assert called_tickers == ["LLY"]
+
+    def test_one_ticker_erroring_does_not_stop_the_others_sequentially(self):
+        def flaky_process(ticker, headless, confirm_overwrite):
+            if ticker == "BAD":
+                raise requests.HTTPError("503 Service Unavailable")
+            return fake_process_ticker(ticker, headless, confirm_overwrite)
+
+        with patch("quarterly_annual_collector._process_ticker", side_effect=flaky_process):
+            results = collect_for_tickers(["LLY", "BAD", "AAPL"], concurrency=1)
+
+        assert set(results.keys()) == {"LLY", "AAPL"}
 
 
 class TestCollectForTickersConcurrent:

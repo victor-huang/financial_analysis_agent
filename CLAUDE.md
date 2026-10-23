@@ -34,6 +34,14 @@ python -m financial_analysis_agent.analyze AAPL --analysis-type financial --verb
 
 # Use quarterly instead of annual financial statements
 python -m financial_analysis_agent.analyze AAPL --analysis-type financial --financial-period quarterly
+
+# Price data around earnings releases, written as files to <DATA_DIR>/earnings_price_context/<TICKER>/<as_of>/
+# (daily 90d, sector ETF vs SPY over 63 sessions, daily T-5..T+10 and 5-min T-2..T+2 for the last 4 releases)
+python -m financial_analysis_agent.financial.earnings_price_context AAPL MSFT --quarters 4
+
+# Overnight earnings trade backtest (buy after hours post-release, sell after next open) with technical score
+# and gap follow-through; research findings in docs/overnight_earnings_trade_findings.md
+python over_night_eraning_trade.py --tickers-file tickers.txt --collect --resume --workers 6 --summary-only --output out.csv
 ```
 
 ### Code Quality
@@ -67,6 +75,7 @@ The `FinancialDataFetcher` class (financial_analysis_agent/financial/data_fetche
   - `finnhub_source.py`: Premium API for analyst EPS estimates (revenue requires paid tier)
   - `fmp_source.py`: Financial Modeling Prep API for comprehensive EPS & revenue estimates (both historical and forward)
   - `alpha_vantage_source.py`: Alternative stock price data source
+  - `alpaca_source.py`: Historical intraday bars incl. extended hours (`ALPACA_API_KEY`/`ALPACA_SECRET_KEY`); `FinancialDataFetcher.get_intraday_bars` falls back to yfinance (last ~60 days only)
 
 ### Analysis Flow
 

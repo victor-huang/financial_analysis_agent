@@ -1,0 +1,78 @@
+currency: USD
+company_name: Agilent Technologies, Inc.
+sector: Health Technology
+market_cap_billions: 43.8
+revenue:
+  quarterly:
+    Q4 2024: 1690.0
+    Q1 2025: 1660.0
+    Q2 2025: 1670.0
+    Q3 2025: 1740.0
+    Q4 2025: 1840.0
+    Q1 2026: 1800.0
+    Q2 2026: 1830.0
+  annual:
+    2021 Yearly: 6300.0
+    2022 Yearly: 6850.0
+    2023 Yearly: 6830.0
+    2024 Yearly: 6500.0
+    2025 Yearly: 6830.0
+  quarterly_forecast:
+    Q4 2024: 1670.0
+    Q1 2025: 1670.0
+    Q2 2025: 1630.0
+    Q3 2025: 1680.0
+    Q4 2025: 1830.0
+    Q1 2026: 1810.0
+    Q2 2026: 1800.0
+    Q3 2026: 1840.0
+    Q4 2026: 1970.0
+    Q1 2027: 1910.0
+    Q2 2027: 1950.0
+  annual_forecast:
+    2021 Yearly: 6320.0
+    2022 Yearly: 6760.0
+    2023 Yearly: 6820.0
+    2024 Yearly: 6480.0
+    2025 Yearly: 6920.0
+    2026 Yearly: 7450.0
+    2027 Yearly: 7890.0
+    2028 Yearly: 8400.0
+    2029 Yearly: 8890.0
+eps:
+  quarterly:
+    Q4 2024: 1.46
+    Q1 2025: 1.31
+    Q2 2025: 1.31
+    Q3 2025: 1.37
+    Q4 2025: 1.59
+    Q1 2026: 1.36
+    Q2 2026: 1.49
+  annual:
+    2021 Yearly: 4.34
+    2022 Yearly: 5.22
+    2023 Yearly: 5.44
+    2024 Yearly: 5.29
+    2025 Yearly: 5.59
+  quarterly_forecast:
+    Q4 2024: 1.41
+    Q1 2025: 1.28
+    Q2 2025: 1.26
+    Q3 2025: 1.37
+    Q4 2025: 1.58
+    Q1 2026: 1.37
+    Q2 2026: 1.41
+    Q3 2026: 1.49
+    Q4 2026: 1.72
+    Q1 2027: 1.51
+    Q2 2027: 1.61
+  annual_forecast:
+    2021 Yearly: 4.31
+    2022 Yearly: 5.07
+    2023 Yearly: 5.41
+    2024 Yearly: 5.24
+    2025 Yearly: 5.57
+    2026 Yearly: 6.06
+    2027 Yearly: 6.61
+    2028 Yearly: 7.31
+    2029 Yearly: 8.09

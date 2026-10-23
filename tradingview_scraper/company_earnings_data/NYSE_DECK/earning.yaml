@@ -1,0 +1,78 @@
+currency: USD
+company_name: Deckers Outdoor Corporation
+sector: Consumer Non-Durables
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q3 2024: 1830.0
+    Q4 2024: 1020.0
+    Q1 2025: 964.54
+    Q2 2025: 1430.0
+    Q3 2025: 1960.0
+    Q4 2025: 1120.0
+    Q1 2026: 1020.0
+  annual:
+    2021 Yearly: 3150.0
+    2022 Yearly: 3630.0
+    2023 Yearly: 4290.0
+    2024 Yearly: 4990.0
+    2025 Yearly: 5470.0
+  quarterly_forecast:
+    Q3 2024: 1730.0
+    Q4 2024: 1010.0
+    Q1 2025: 900.38
+    Q2 2025: 1420.0
+    Q3 2025: 1870.0
+    Q4 2025: 1090.0
+    Q1 2026: 1020.0
+    Q2 2026: 1510.0
+    Q3 2026: 2110.0
+    Q4 2026: 1240.0
+    Q1 2027: 1100.0
+  annual_forecast:
+    2021 Yearly: 3050.0
+    2022 Yearly: 3560.0
+    2023 Yearly: 4220.0
+    2024 Yearly: 4970.0
+    2025 Yearly: 5440.0
+    2026 Yearly: 5880.0
+    2027 Yearly: 6310.0
+    2028 Yearly: 6730.0
+    2029 Yearly: 7480.0
+eps:
+  quarterly:
+    Q3 2024: 3.0
+    Q4 2024: 1.0
+    Q1 2025: 0.93
+    Q2 2025: 1.82
+    Q3 2025: 3.33
+    Q4 2025: 0.96
+    Q1 2026: 0.94
+  annual:
+    2021 Yearly: 2.71
+    2022 Yearly: 3.23
+    2023 Yearly: 4.86
+    2024 Yearly: 6.33
+    2025 Yearly: 7.02
+  quarterly_forecast:
+    Q3 2024: 2.58
+    Q4 2024: 0.6
+    Q1 2025: 0.68
+    Q2 2025: 1.58
+    Q3 2025: 2.77
+    Q4 2025: 0.83
+    Q1 2026: 0.88
+    Q2 2026: 1.79
+    Q3 2026: 3.7
+    Q4 2026: 1.08
+    Q1 2027: 1.07
+  annual_forecast:
+    2021 Yearly: 2.51
+    2022 Yearly: 3.11
+    2023 Yearly: 4.54
+    2024 Yearly: 5.94
+    2025 Yearly: 6.89
+    2026 Yearly: 7.51
+    2027 Yearly: 8.33
+    2028 Yearly: 9.34
+    2029 Yearly: 12.64

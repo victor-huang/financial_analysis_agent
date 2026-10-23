@@ -1,0 +1,74 @@
+currency: USD
+company_name: Quanex Building Products Corporation
+sector: Producer Manufacturing
+market_cap_billions: 0.86391
+revenue:
+  quarterly:
+    Q4 2024: 492.2
+    Q1 2025: 400.04
+    Q2 2025: 452.48
+    Q3 2025: 495.27
+    Q4 2025: 489.85
+    Q1 2026: 409.09
+    Q2 2026: 462.4
+  annual:
+    2021 Yearly: 1070.0
+    2022 Yearly: 1220.0
+    2023 Yearly: 1130.0
+    2024 Yearly: 1280.0
+    2025 Yearly: 1840.0
+  quarterly_forecast:
+    Q4 2024: 490.96
+    Q1 2025: 382.09
+    Q2 2025: 439.3
+    Q3 2025: 491.65
+    Q4 2025: 470.74
+    Q1 2026: 405.75
+    Q2 2026: 459.27
+    Q3 2026: 497.51
+    Q4 2026: 497.36
+    Q1 2027: 416.2
+    Q2 2027: 469.25
+  annual_forecast:
+    2021 Yearly: 1060.0
+    2022 Yearly: 1210.0
+    2023 Yearly: 1130.0
+    2024 Yearly: 1280.0
+    2025 Yearly: 1820.0
+    2026 Yearly: 1870.0
+    2027 Yearly: 1900.0
+eps:
+  quarterly:
+    Q4 2024: 0.61
+    Q1 2025: 0.19
+    Q2 2025: 0.6
+    Q3 2025: 0.69
+    Q4 2025: 0.83
+    Q1 2026: -0.01
+    Q2 2026: 0.25
+  annual:
+    2021 Yearly: 1.75
+    2022 Yearly: 2.68
+    2023 Yearly: 2.75
+    2024 Yearly: 2.19
+    2025 Yearly: 2.3
+  quarterly_forecast:
+    Q4 2024: 0.56
+    Q1 2025: -0.01
+    Q2 2025: 0.47
+    Q3 2025: 0.84
+    Q4 2025: 0.52
+    Q1 2026: -0.06
+    Q2 2026: 0.2
+    Q3 2026: 0.66
+    Q4 2026: 0.75
+    Q1 2027: 0.02
+    Q2 2027: 0.47
+  annual_forecast:
+    2021 Yearly: 1.65
+    2022 Yearly: 2.52
+    2023 Yearly: 2.45
+    2024 Yearly: 2.13
+    2025 Yearly: 2.0
+    2026 Yearly: 1.65
+    2027 Yearly: 2.1

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Bridgewater Bancshares, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 29.5
+    Q1 2025: 32.29
+    Q2 2025: 35.6
+    Q3 2025: 36.09
+    Q4 2025: 38.76
+    Q1 2026: 38.96
+    Q2 2026: 40.89
+    Q3 2026: 43.23
+  annual:
+    2021 Yearly: 114.07
+    2022 Yearly: 135.95
+    2023 Yearly: 111.7
+    2024 Yearly: 109.18
+    2025 Yearly: 142.74
+  quarterly_forecast:
+    Q4 2024: 28.18
+    Q1 2025: 31.1
+    Q2 2025: 33.9
+    Q3 2025: 36.5
+    Q4 2025: 38.08
+    Q1 2026: 39.33
+    Q2 2026: 41.43
+    Q3 2026: 43.2
+    Q4 2026: 44.4
+    Q1 2027: 44.45
+    Q2 2027: 45.95
+    Q3 2027: 47.55
+  annual_forecast:
+    2022 Yearly: 115.0
+    2023 Yearly: 138.23
+    2024 Yearly: 112.15
+    2025 Yearly: 108.63
+    2026 Yearly: 142.82
+    2027 Yearly: 170.9
+eps:
+  quarterly:
+    Q4 2024: 0.27
+    Q1 2025: 0.32
+    Q2 2025: 0.37
+    Q3 2025: 0.39
+    Q4 2025: 0.44
+    Q1 2026: 0.41
+    Q2 2026: 0.45
+    Q3 2026: 0.49
+  annual:
+    2021 Yearly: 1.55
+    2022 Yearly: 1.72
+    2023 Yearly: 1.27
+    2024 Yearly: 1.05
+    2025 Yearly: 1.52
+  quarterly_forecast:
+    Q4 2024: 0.24
+    Q1 2025: 0.29
+    Q2 2025: 0.34
+    Q3 2025: 0.39
+    Q4 2025: 0.41
+    Q1 2026: 0.41
+    Q2 2026: 0.45
+    Q3 2026: 0.47
+    Q4 2026: 0.51
+    Q1 2027: 0.47
+    Q2 2027: 0.51
+    Q3 2027: 0.54
+  annual_forecast:
+    2021 Yearly: 1.53
+    2022 Yearly: 1.75
+    2023 Yearly: 1.23
+    2024 Yearly: 0.99
+    2025 Yearly: 1.49
+    2026 Yearly: 1.84
+    2027 Yearly: 2.09
+    2028 Yearly: 2.25

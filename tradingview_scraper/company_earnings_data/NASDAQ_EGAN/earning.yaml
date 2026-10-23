@@ -1,0 +1,74 @@
+currency: USD
+company_name: eGain Corporation
+sector: Technology Services
+market_cap_billions: 0.19901
+revenue:
+  quarterly:
+    Q1 2025: 21.8
+    Q2 2025: 22.39
+    Q3 2025: 21.01
+    Q4 2025: 23.23
+    Q1 2026: 23.51
+    Q2 2026: 22.98
+    Q3 2026: 22.5
+  annual:
+    2021 Yearly: 78.29
+    2022 Yearly: 91.95
+    2023 Yearly: 98.01
+    2024 Yearly: 92.8
+    2025 Yearly: 88.43
+  quarterly_forecast:
+    Q1 2025: 21.67
+    Q2 2025: 22.55
+    Q3 2025: 21.24
+    Q4 2025: 23.04
+    Q1 2026: 23.22
+    Q2 2026: 22.48
+    Q3 2026: 22.46
+    Q4 2026: 21.75
+    Q1 2027: 22.34
+    Q2 2027: 23.11
+    Q3 2027: 23.94
+  annual_forecast:
+    2021 Yearly: 77.93
+    2022 Yearly: 91.86
+    2023 Yearly: 97.09
+    2024 Yearly: 91.69
+    2025 Yearly: 88.24
+    2026 Yearly: 90.74
+    2027 Yearly: 94.12
+eps:
+  quarterly:
+    Q1 2025: 0.04
+    Q2 2025: 0.04
+    Q3 2025: 0.03
+    Q4 2025: 0.09
+    Q1 2026: 0.17
+    Q2 2026: 0.11
+    Q3 2026: 0.11
+  annual:
+    2021 Yearly: 0.27
+    2022 Yearly: 0.27
+    2023 Yearly: 0.25
+    2024 Yearly: 0.39
+    2025 Yearly: 0.2
+  quarterly_forecast:
+    Q1 2025: 0.01
+    Q2 2025: 0.02
+    Q3 2025: 0.01
+    Q4 2025: 0.07
+    Q1 2026: 0.1
+    Q2 2026: 0.07
+    Q3 2026: 0.11
+    Q4 2026: 0.03
+    Q1 2027: 0.08
+    Q2 2027: 0.1
+    Q3 2027: 0.12
+  annual_forecast:
+    2021 Yearly: 0.22
+    2022 Yearly: 0.25
+    2023 Yearly: 0.2
+    2024 Yearly: 0.34
+    2025 Yearly: 0.18
+    2026 Yearly: 0.4
+    2027 Yearly: 0.43

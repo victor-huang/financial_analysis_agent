@@ -1,0 +1,78 @@
+currency: USD
+company_name: Elastic N.V.
+sector: Technology Services
+market_cap_billions: 8.82
+revenue:
+  quarterly:
+    Q2 2024: 365.36
+    Q3 2024: 382.08
+    Q4 2024: 388.43
+    Q1 2025: 415.29
+    Q2 2025: 423.48
+    Q3 2025: 449.88
+    Q4 2025: 450.68
+  annual:
+    2021 Yearly: 862.37
+    2022 Yearly: 1070.0
+    2023 Yearly: 1270.0
+    2024 Yearly: 1480.0
+    2025 Yearly: 1740.0
+  quarterly_forecast:
+    Q2 2024: 354.29
+    Q3 2024: 369.04
+    Q4 2024: 380.36
+    Q1 2025: 397.16
+    Q2 2025: 418.43
+    Q3 2025: 438.45
+    Q4 2025: 446.84
+    Q1 2026: 469.75
+    Q2 2026: 483.47
+    Q3 2026: 516.32
+    Q4 2026: 523.22
+  annual_forecast:
+    2021 Yearly: 855.41
+    2022 Yearly: 1070.0
+    2023 Yearly: 1260.0
+    2024 Yearly: 1480.0
+    2025 Yearly: 1740.0
+    2026 Yearly: 2000.0
+    2027 Yearly: 2280.0
+    2028 Yearly: 2640.0
+    2029 Yearly: 2930.0
+eps:
+  quarterly:
+    Q2 2024: 0.59
+    Q3 2024: 0.63
+    Q4 2024: 0.47
+    Q1 2025: 0.6
+    Q2 2025: 0.64
+    Q3 2025: 0.73
+    Q4 2025: 0.61
+  annual:
+    2021 Yearly: -0.33
+    2022 Yearly: 0.25
+    2023 Yearly: 1.19
+    2024 Yearly: 2.04
+    2025 Yearly: 2.57
+  quarterly_forecast:
+    Q2 2024: 0.38
+    Q3 2024: 0.47
+    Q4 2024: 0.37
+    Q1 2025: 0.42
+    Q2 2025: 0.58
+    Q3 2025: 0.65
+    Q4 2025: 0.56
+    Q1 2026: 0.58
+    Q2 2026: 0.8
+    Q3 2026: 0.96
+    Q4 2026: 0.91
+  annual_forecast:
+    2021 Yearly: -0.39
+    2022 Yearly: 0.13
+    2023 Yearly: 1.18
+    2024 Yearly: 1.94
+    2025 Yearly: 2.53
+    2026 Yearly: 3.24
+    2027 Yearly: 3.85
+    2028 Yearly: 4.73
+    2029 Yearly: 4.58

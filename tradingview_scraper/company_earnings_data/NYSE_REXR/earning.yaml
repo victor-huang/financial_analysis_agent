@@ -1,0 +1,78 @@
+currency: USD
+company_name: Rexford Industrial Realty, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 239.74
+    Q1 2025: 248.82
+    Q2 2025: 241.57
+    Q3 2025: 246.76
+    Q4 2025: 243.23
+    Q1 2026: 242.14
+    Q2 2026: 243.0
+  annual:
+    2021 Yearly: 451.73
+    2022 Yearly: 630.58
+    2023 Yearly: 791.38
+    2024 Yearly: 922.1
+    2025 Yearly: 980.38
+  quarterly_forecast:
+    Q4 2024: 242.99
+    Q1 2025: 244.71
+    Q2 2025: 246.03
+    Q3 2025: 246.38
+    Q4 2025: 247.86
+    Q1 2026: 242.42
+    Q2 2026: 240.24
+    Q3 2026: 232.95
+    Q4 2026: 224.84
+    Q1 2027: 215.38
+    Q2 2027: 216.33
+  annual_forecast:
+    2021 Yearly: 446.87
+    2022 Yearly: 628.23
+    2023 Yearly: 795.73
+    2024 Yearly: 928.65
+    2025 Yearly: 989.67
+    2026 Yearly: 945.67
+    2027 Yearly: 898.6
+    2028 Yearly: 909.1
+    2029 Yearly: 926.55
+eps:
+  quarterly:
+    Q4 2024: 0.27
+    Q1 2025: 0.3
+    Q2 2025: 0.48
+    Q3 2025: 0.37
+    Q4 2025: -0.3
+    Q1 2026: 0.38
+    Q2 2026: -2.26
+  annual:
+    2021 Yearly: 0.8
+    2022 Yearly: 0.92
+    2023 Yearly: 1.12
+    2024 Yearly: 1.2
+    2025 Yearly: 0.86
+  quarterly_forecast:
+    Q4 2024: 0.27
+    Q1 2025: 0.27
+    Q2 2025: 0.25
+    Q3 2025: 0.31
+    Q4 2025: 0.25
+    Q1 2026: 0.27
+    Q2 2026: 0.29
+    Q3 2026: 0.28
+    Q4 2026: 0.29
+    Q1 2027: 0.33
+    Q2 2027: 0.34
+  annual_forecast:
+    2021 Yearly: 0.72
+    2022 Yearly: 0.91
+    2023 Yearly: 1.1
+    2024 Yearly: 1.21
+    2025 Yearly: 1.4
+    2026 Yearly: -1.26
+    2027 Yearly: 1.45
+    2028 Yearly: 1.42
+    2029 Yearly: 1.27

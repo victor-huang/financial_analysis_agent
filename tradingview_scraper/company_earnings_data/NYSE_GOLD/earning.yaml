@@ -1,0 +1,78 @@
+currency: USD
+company_name: Gold.com, Inc.
+sector: Finance
+market_cap_billions: 1.27
+revenue:
+  quarterly:
+    Q2 2025: 2740.0
+    Q3 2025: 3010.0
+    Q4 2025: 2510.0
+    Q1 2026: 3680.0
+    Q2 2026: 6480.0
+    Q3 2026: 10350.0
+    Q4 2026: 5010.0
+  annual:
+    2021 Yearly: 7610.0
+    2022 Yearly: 8160.0
+    2023 Yearly: 9320.0
+    2024 Yearly: 9700.0
+    2025 Yearly: 10980.0
+  quarterly_forecast:
+    Q2 2025: 2380.0
+    Q3 2025: 2660.0
+    Q4 2025: 2910.0
+    Q1 2026: 2670.0
+    Q2 2026: 3020.0
+    Q3 2026: 4810.0
+    Q4 2026: 5670.0
+    Q1 2027: 5580.0
+    Q2 2027: 5500.0
+    Q3 2027: 5920.0
+    Q4 2027: 5700.0
+  annual_forecast:
+    2021 Yearly: 7220.0
+    2022 Yearly: 8220.0
+    2023 Yearly: 8490.0
+    2024 Yearly: 9890.0
+    2025 Yearly: 11370.0
+    2026 Yearly: 26180.0
+    2027 Yearly: 22630.0
+    2028 Yearly: 22700.0
+    2029 Yearly: 24140.0
+eps:
+  quarterly:
+    Q2 2025: 0.27
+    Q3 2025: -0.36
+    Q4 2025: 0.41
+    Q1 2026: 0.2
+    Q2 2026: 0.46
+    Q3 2026: 2.09
+    Q4 2026: 0.83
+  annual:
+    2021 Yearly: 8.89
+    2022 Yearly: 8.01
+    2023 Yearly: 8.76
+    2024 Yearly: 2.75
+    2025 Yearly: 0.71
+  quarterly_forecast:
+    Q2 2025: 0.64
+    Q3 2025: 0.55
+    Q4 2025: 0.53
+    Q1 2026: 0.6
+    Q2 2026: 0.58
+    Q3 2026: 1.44
+    Q4 2026: 0.96
+    Q1 2027: 0.93
+    Q2 2027: 0.77
+    Q3 2027: 0.82
+    Q4 2027: 0.91
+  annual_forecast:
+    2021 Yearly: 5.78
+    2022 Yearly: 6.39
+    2023 Yearly: 7.25
+    2024 Yearly: 2.5
+    2025 Yearly: 0.78
+    2026 Yearly: 4.03
+    2027 Yearly: 3.47
+    2028 Yearly: 4.48
+    2029 Yearly: 5.16

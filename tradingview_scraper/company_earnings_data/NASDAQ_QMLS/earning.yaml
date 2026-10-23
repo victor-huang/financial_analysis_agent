@@ -1,0 +1,22 @@
+currency: USD
+company_name: QumulusAI, Inc.
+sector: Technology Services
+market_cap_billions: 0.20444
+revenue:
+  quarterly:
+    Q1 2026: 3.42
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: 3.23
+    Q3 2026: 6.97
+    Q4 2026: 48.17
+  annual_forecast: {}
+eps:
+  quarterly:
+    Q1 2026: -0.2
+  annual: {}
+  quarterly_forecast:
+    Q2 2026: -0.35
+    Q3 2026: -0.53
+    Q4 2026: 0.03
+  annual_forecast: {}

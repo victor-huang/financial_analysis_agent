@@ -1,0 +1,74 @@
+currency: USD
+company_name: Tilly's, Inc.
+sector: Retail Trade
+market_cap_billions: 0.11616
+revenue:
+  quarterly:
+    Q4 2024: 147.29
+    Q1 2025: 107.61
+    Q2 2025: 151.26
+    Q3 2025: 139.59
+    Q4 2025: 155.13
+    Q1 2026: 124.72
+    Q2 2026: 163.51
+  annual:
+    2021 Yearly: 775.69
+    2022 Yearly: 672.28
+    2023 Yearly: 623.08
+    2024 Yearly: 569.45
+    2025 Yearly: 553.59
+  quarterly_forecast:
+    Q4 2024: 153.71
+    Q1 2025: 108.2
+    Q2 2025: 154.0
+    Q3 2025: 136.9
+    Q4 2025: 148.7
+    Q1 2026: 121.3
+    Q2 2026: 157.0
+    Q3 2026: 140.3
+    Q4 2026: 158.29
+    Q1 2027: 125.8
+    Q2 2027: 157.9
+  annual_forecast:
+    2021 Yearly: 775.18
+    2022 Yearly: 670.89
+    2023 Yearly: 621.7
+    2024 Yearly: 575.87
+    2025 Yearly: 547.2
+    2026 Yearly: 580.8
+    2027 Yearly: 602.93
+eps:
+  quarterly:
+    Q4 2024: -0.45
+    Q1 2025: -0.74
+    Q2 2025: 0.1
+    Q3 2025: -0.05
+    Q4 2025: 0.1
+    Q1 2026: -0.26
+    Q2 2026: 0.27
+  annual:
+    2021 Yearly: 2.06
+    2022 Yearly: 0.33
+    2023 Yearly: -0.64
+    2024 Yearly: -1.54
+    2025 Yearly: -0.58
+  quarterly_forecast:
+    Q4 2024: -0.28
+    Q1 2025: -0.57
+    Q2 2025: -0.04
+    Q3 2025: -0.3
+    Q4 2025: -0.15
+    Q1 2026: -0.33
+    Q2 2026: 0.17
+    Q3 2026: -0.07
+    Q4 2026: 0.12
+    Q1 2027: -0.25
+    Q2 2027: 0.24
+  annual_forecast:
+    2021 Yearly: 2.09
+    2022 Yearly: 0.29
+    2023 Yearly: -0.68
+    2024 Yearly: -1.08
+    2025 Yearly: -0.82
+    2026 Yearly: -0.06
+    2027 Yearly: 0.14

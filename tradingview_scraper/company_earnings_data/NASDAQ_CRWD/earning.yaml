@@ -1,0 +1,78 @@
+currency: USD
+company_name: CrowdStrike Holdings, Inc.
+sector: Technology Services
+market_cap_billions: 192.91
+revenue:
+  quarterly:
+    Q3 2024: 1010.0
+    Q4 2024: 1060.0
+    Q1 2025: 1100.0
+    Q2 2025: 1170.0
+    Q3 2025: 1230.0
+    Q4 2025: 1310.0
+    Q1 2026: 1390.0
+  annual:
+    2021 Yearly: 1450.0
+    2022 Yearly: 2240.0
+    2023 Yearly: 3060.0
+    2024 Yearly: 3950.0
+    2025 Yearly: 4810.0
+  quarterly_forecast:
+    Q3 2024: 982.8
+    Q4 2024: 1030.0
+    Q1 2025: 1100.0
+    Q2 2025: 1150.0
+    Q3 2025: 1210.0
+    Q4 2025: 1300.0
+    Q1 2026: 1360.0
+    Q2 2026: 1440.0
+    Q3 2026: 1510.0
+    Q4 2026: 1600.0
+    Q1 2027: 1690.0
+  annual_forecast:
+    2021 Yearly: 1430.0
+    2022 Yearly: 2230.0
+    2023 Yearly: 3050.0
+    2024 Yearly: 3930.0
+    2025 Yearly: 4800.0
+    2026 Yearly: 5940.0
+    2027 Yearly: 7240.0
+    2028 Yearly: 8800.0
+    2029 Yearly: 10220.0
+eps:
+  quarterly:
+    Q3 2024: 0.23
+    Q4 2024: 0.26
+    Q1 2025: 0.18
+    Q2 2025: 0.23
+    Q3 2025: 0.24
+    Q4 2025: 0.28
+    Q1 2026: 0.28
+  annual:
+    2021 Yearly: 0.17
+    2022 Yearly: 0.39
+    2023 Yearly: 0.77
+    2024 Yearly: 0.98
+    2025 Yearly: 0.93
+  quarterly_forecast:
+    Q3 2024: 0.2
+    Q4 2024: 0.21
+    Q1 2025: 0.17
+    Q2 2025: 0.21
+    Q3 2025: 0.23
+    Q4 2025: 0.28
+    Q1 2026: 0.27
+    Q2 2026: 0.29
+    Q3 2026: 0.31
+    Q4 2026: 0.35
+    Q1 2027: 0.35
+  annual_forecast:
+    2021 Yearly: 0.15
+    2022 Yearly: 0.38
+    2023 Yearly: 0.74
+    2024 Yearly: 0.94
+    2025 Yearly: 0.93
+    2026 Yearly: 1.23
+    2027 Yearly: 1.56
+    2028 Yearly: 2.0
+    2029 Yearly: 2.29

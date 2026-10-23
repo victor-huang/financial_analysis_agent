@@ -1,0 +1,78 @@
+currency: USD
+company_name: GitLab Inc.
+sector: Technology Services
+market_cap_billions: 7.53
+revenue:
+  quarterly:
+    Q3 2024: 196.05
+    Q4 2024: 211.43
+    Q1 2025: 214.51
+    Q2 2025: 236.0
+    Q3 2025: 244.35
+    Q4 2025: 260.4
+    Q1 2026: 264.16
+  annual:
+    2021 Yearly: 252.65
+    2022 Yearly: 424.34
+    2023 Yearly: 579.91
+    2024 Yearly: 759.25
+    2025 Yearly: 955.2
+  quarterly_forecast:
+    Q3 2024: 187.92
+    Q4 2024: 206.17
+    Q1 2025: 212.96
+    Q2 2025: 227.19
+    Q3 2025: 239.32
+    Q4 2025: 252.23
+    Q1 2026: 254.23
+    Q2 2026: 273.13
+    Q3 2026: 280.93
+    Q4 2026: 297.46
+    Q1 2027: 302.4
+  annual_forecast:
+    2021 Yearly: 245.13
+    2022 Yearly: 420.97
+    2023 Yearly: 574.05
+    2024 Yearly: 753.9
+    2025 Yearly: 946.73
+    2026 Yearly: 1120.0
+    2027 Yearly: 1290.0
+    2028 Yearly: 1470.0
+    2029 Yearly: 1680.0
+eps:
+  quarterly:
+    Q3 2024: 0.23
+    Q4 2024: 0.33
+    Q1 2025: 0.17
+    Q2 2025: 0.24
+    Q3 2025: 0.25
+    Q4 2025: 0.3
+    Q1 2026: 0.23
+  annual:
+    2021 Yearly: -1.2
+    2022 Yearly: -0.46
+    2023 Yearly: 0.2
+    2024 Yearly: 0.74
+    2025 Yearly: 0.96
+  quarterly_forecast:
+    Q3 2024: 0.15
+    Q4 2024: 0.23
+    Q1 2025: 0.15
+    Q2 2025: 0.16
+    Q3 2025: 0.2
+    Q4 2025: 0.23
+    Q1 2026: 0.21
+    Q2 2026: 0.18
+    Q3 2026: 0.18
+    Q4 2026: 0.23
+    Q1 2027: 0.23
+  annual_forecast:
+    2021 Yearly: -1.4
+    2022 Yearly: -0.57
+    2023 Yearly: 0.13
+    2024 Yearly: 0.63
+    2025 Yearly: 0.89
+    2026 Yearly: 0.81
+    2027 Yearly: 1.02
+    2028 Yearly: 1.18
+    2029 Yearly: 1.38

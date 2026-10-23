@@ -1,0 +1,76 @@
+currency: USD
+company_name: Horizon Bancorp, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 63.31
+    Q1 2025: 68.77
+    Q2 2025: 66.27
+    Q3 2025: 68.74
+    Q4 2025: 74.94
+    Q1 2026: 73.48
+    Q2 2026: 75.5
+  annual:
+    2021 Yearly: 239.64
+    2022 Yearly: 246.97
+    2023 Yearly: 219.79
+    2024 Yearly: 230.72
+    2025 Yearly: 278.72
+  quarterly_forecast:
+    Q4 2024: 62.81
+    Q1 2025: 64.5
+    Q2 2025: 66.41
+    Q3 2025: 69.51
+    Q4 2025: 74.35
+    Q1 2026: 73.97
+    Q2 2026: 76.56
+    Q3 2026: 77.99
+    Q4 2026: 78.81
+    Q1 2027: 78.1
+    Q2 2027: 80.45
+  annual_forecast:
+    2021 Yearly: 237.7
+    2022 Yearly: 258.1
+    2023 Yearly: 218.02
+    2024 Yearly: 233.2
+    2025 Yearly: 277.75
+    2026 Yearly: 307.93
+    2027 Yearly: 324.35
+    2028 Yearly: 341.32
+eps:
+  quarterly:
+    Q4 2024: 0.39
+    Q1 2025: 0.43
+    Q2 2025: 0.47
+    Q3 2025: 0.6
+    Q4 2025: 0.53
+    Q1 2026: 0.51
+    Q2 2026: 0.54
+  annual:
+    2021 Yearly: 2.0
+    2022 Yearly: 2.13
+    2023 Yearly: 1.54
+    2024 Yearly: 1.42
+    2025 Yearly: 2.03
+  quarterly_forecast:
+    Q4 2024: 0.4
+    Q1 2025: 0.41
+    Q2 2025: 0.44
+    Q3 2025: 0.47
+    Q4 2025: 0.5
+    Q1 2026: 0.48
+    Q2 2026: 0.51
+    Q3 2026: 0.54
+    Q4 2026: 0.55
+    Q1 2027: 0.53
+    Q2 2027: 0.56
+  annual_forecast:
+    2021 Yearly: 2.0
+    2022 Yearly: 2.13
+    2023 Yearly: 1.5
+    2024 Yearly: 1.42
+    2025 Yearly: 1.98
+    2026 Yearly: 2.13
+    2027 Yearly: 2.24
+    2028 Yearly: 2.38

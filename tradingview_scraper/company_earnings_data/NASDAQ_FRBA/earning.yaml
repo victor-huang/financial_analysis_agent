@@ -1,0 +1,74 @@
+currency: USD
+company_name: First Bank
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 33.56
+    Q1 2025: 33.95
+    Q2 2025: 37.1
+    Q3 2025: 37.97
+    Q4 2025: 38.46
+    Q1 2026: 36.39
+    Q2 2026: 36.95
+  annual:
+    2021 Yearly: 89.64
+    2022 Yearly: 97.49
+    2023 Yearly: 109.64
+    2024 Yearly: 129.62
+    2025 Yearly: 147.47
+  quarterly_forecast:
+    Q4 2024: 32.85
+    Q1 2025: 33.5
+    Q2 2025: 35.09
+    Q3 2025: 36.76
+    Q4 2025: 37.42
+    Q1 2026: 36.99
+    Q2 2026: 37.23
+    Q3 2026: 37.7
+    Q4 2026: 38.01
+    Q1 2027: 37.81
+    Q2 2027: 38.58
+  annual_forecast:
+    2021 Yearly: 89.31
+    2022 Yearly: 99.0
+    2023 Yearly: 108.13
+    2024 Yearly: 128.63
+    2025 Yearly: 145.74
+    2026 Yearly: 149.02
+    2027 Yearly: 155.43
+eps:
+  quarterly:
+    Q4 2024: 0.41
+    Q1 2025: 0.37
+    Q2 2025: 0.41
+    Q3 2025: 0.47
+    Q4 2025: 0.49
+    Q1 2026: 0.3
+    Q2 2026: 0.43
+  annual:
+    2021 Yearly: 1.79
+    2022 Yearly: 1.84
+    2023 Yearly: 0.95
+    2024 Yearly: 1.67
+    2025 Yearly: 1.74
+  quarterly_forecast:
+    Q4 2024: 0.39
+    Q1 2025: 0.39
+    Q2 2025: 0.42
+    Q3 2025: 0.46
+    Q4 2025: 0.49
+    Q1 2026: 0.46
+    Q2 2026: 0.4
+    Q3 2026: 0.44
+    Q4 2026: 0.44
+    Q1 2027: 0.43
+    Q2 2027: 0.45
+  annual_forecast:
+    2021 Yearly: 1.8
+    2022 Yearly: 1.91
+    2023 Yearly: 1.01
+    2024 Yearly: 1.65
+    2025 Yearly: 1.73
+    2026 Yearly: 1.62
+    2027 Yearly: 1.83

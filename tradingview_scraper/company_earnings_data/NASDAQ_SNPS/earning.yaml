@@ -1,0 +1,78 @@
+currency: USD
+company_name: Synopsys, Inc.
+sector: Technology Services
+market_cap_billions: 78.51
+revenue:
+  quarterly:
+    Q4 2024: 1640.0
+    Q1 2025: 1460.0
+    Q2 2025: 1600.0
+    Q3 2025: 1740.0
+    Q4 2025: 2250.0
+    Q1 2026: 2410.0
+    Q2 2026: 2280.0
+  annual:
+    2021 Yearly: 4200.0
+    2022 Yearly: 5080.0
+    2023 Yearly: 5840.0
+    2024 Yearly: 6130.0
+    2025 Yearly: 7050.0
+  quarterly_forecast:
+    Q4 2024: 1630.0
+    Q1 2025: 1450.0
+    Q2 2025: 1600.0
+    Q3 2025: 1770.0
+    Q4 2025: 2250.0
+    Q1 2026: 2390.0
+    Q2 2026: 2250.0
+    Q3 2026: 2440.0
+    Q4 2026: 2550.0
+    Q1 2027: 2650.0
+    Q2 2027: 2540.0
+  annual_forecast:
+    2021 Yearly: 4200.0
+    2022 Yearly: 5080.0
+    2023 Yearly: 5830.0
+    2024 Yearly: 6120.0
+    2025 Yearly: 7050.0
+    2026 Yearly: 9680.0
+    2027 Yearly: 10730.0
+    2028 Yearly: 12010.0
+    2029 Yearly: 13190.0
+eps:
+  quarterly:
+    Q4 2024: 3.4
+    Q1 2025: 3.03
+    Q2 2025: 3.67
+    Q3 2025: 3.39
+    Q4 2025: 2.9
+    Q1 2026: 3.77
+    Q2 2026: 3.35
+  annual:
+    2021 Yearly: 6.84
+    2022 Yearly: 8.9
+    2023 Yearly: 11.19
+    2024 Yearly: 13.2
+    2025 Yearly: 12.91
+  quarterly_forecast:
+    Q4 2024: 3.3
+    Q1 2025: 2.79
+    Q2 2025: 3.39
+    Q3 2025: 3.8
+    Q4 2025: 2.78
+    Q1 2026: 3.56
+    Q2 2026: 3.15
+    Q3 2026: 3.67
+    Q4 2026: 4.0
+    Q1 2027: 4.31
+    Q2 2027: 3.88
+  annual_forecast:
+    2021 Yearly: 6.83
+    2022 Yearly: 8.85
+    2023 Yearly: 11.09
+    2024 Yearly: 13.12
+    2025 Yearly: 12.83
+    2026 Yearly: 14.78
+    2027 Yearly: 17.28
+    2028 Yearly: 20.39
+    2029 Yearly: 23.32

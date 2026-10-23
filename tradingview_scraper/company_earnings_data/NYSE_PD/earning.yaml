@@ -1,0 +1,76 @@
+currency: USD
+company_name: PagerDuty, Inc.
+sector: Technology Services
+market_cap_billions: 0.981
+revenue:
+  quarterly:
+    Q3 2024: 118.95
+    Q4 2024: 121.45
+    Q1 2025: 119.81
+    Q2 2025: 123.41
+    Q3 2025: 124.55
+    Q4 2025: 124.78
+    Q1 2026: 120.97
+  annual:
+    2021 Yearly: 281.4
+    2022 Yearly: 370.79
+    2023 Yearly: 430.7
+    2024 Yearly: 467.5
+    2025 Yearly: 492.55
+  quarterly_forecast:
+    Q3 2024: 117.03
+    Q4 2024: 119.69
+    Q1 2025: 119.1
+    Q2 2025: 123.62
+    Q3 2025: 125.0
+    Q4 2025: 123.15
+    Q1 2026: 119.52
+    Q2 2026: 123.26
+    Q3 2026: 124.36
+    Q4 2026: 125.82
+    Q1 2027: 124.54
+  annual_forecast:
+    2021 Yearly: 279.15
+    2022 Yearly: 368.93
+    2023 Yearly: 430.21
+    2024 Yearly: 465.82
+    2025 Yearly: 490.91
+    2026 Yearly: 494.22
+    2027 Yearly: 508.24
+    2028 Yearly: 500.44
+eps:
+  quarterly:
+    Q3 2024: 0.25
+    Q4 2024: 0.22
+    Q1 2025: 0.24
+    Q2 2025: 0.3
+    Q3 2025: 0.33
+    Q4 2025: 0.29
+    Q1 2026: 0.32
+  annual:
+    2021 Yearly: -0.32
+    2022 Yearly: 0.04
+    2023 Yearly: 0.74
+    2024 Yearly: 0.85
+    2025 Yearly: 1.16
+  quarterly_forecast:
+    Q3 2024: 0.18
+    Q4 2024: 0.16
+    Q1 2025: 0.19
+    Q2 2025: 0.2
+    Q3 2025: 0.25
+    Q4 2025: 0.24
+    Q1 2026: 0.25
+    Q2 2026: 0.31
+    Q3 2026: 0.34
+    Q4 2026: 0.34
+    Q1 2027: 0.33
+  annual_forecast:
+    2021 Yearly: -0.33
+    2022 Yearly: -0.01
+    2023 Yearly: 0.72
+    2024 Yearly: 0.79
+    2025 Yearly: 1.12
+    2026 Yearly: 1.32
+    2027 Yearly: 1.41
+    2028 Yearly: 1.36

@@ -1,0 +1,78 @@
+currency: USD
+company_name: Oceaneering International, Inc.
+sector: Producer Manufacturing
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 713.45
+    Q1 2025: 674.52
+    Q2 2025: 698.16
+    Q3 2025: 742.9
+    Q4 2025: 668.57
+    Q1 2026: 692.43
+    Q2 2026: 768.18
+  annual:
+    2021 Yearly: 1870.0
+    2022 Yearly: 2070.0
+    2023 Yearly: 2420.0
+    2024 Yearly: 2660.0
+    2025 Yearly: 2780.0
+  quarterly_forecast:
+    Q4 2024: 681.9
+    Q1 2025: 649.78
+    Q2 2025: 682.03
+    Q3 2025: 708.96
+    Q4 2025: 674.14
+    Q1 2026: 670.83
+    Q2 2026: 735.69
+    Q3 2026: 775.93
+    Q4 2026: 714.5
+    Q1 2027: 720.07
+    Q2 2027: 787.61
+  annual_forecast:
+    2021 Yearly: 1870.0
+    2022 Yearly: 2080.0
+    2023 Yearly: 2390.0
+    2024 Yearly: 2630.0
+    2025 Yearly: 2790.0
+    2026 Yearly: 2950.0
+    2027 Yearly: 3060.0
+    2028 Yearly: 3340.0
+    2029 Yearly: 3580.0
+eps:
+  quarterly:
+    Q4 2024: 0.37
+    Q1 2025: 0.43
+    Q2 2025: 0.49
+    Q3 2025: 0.55
+    Q4 2025: 0.45
+    Q1 2026: 0.3
+    Q2 2026: 0.63
+  annual:
+    2021 Yearly: 0.17
+    2022 Yearly: 0.31
+    2023 Yearly: 0.8
+    2024 Yearly: 1.14
+    2025 Yearly: 1.93
+  quarterly_forecast:
+    Q4 2024: 0.4
+    Q1 2025: 0.3
+    Q2 2025: 0.4
+    Q3 2025: 0.43
+    Q4 2025: 0.26
+    Q1 2026: 0.32
+    Q2 2026: 0.46
+    Q3 2026: 0.59
+    Q4 2026: 0.49
+    Q1 2027: 0.46
+    Q2 2027: 0.61
+  annual_forecast:
+    2021 Yearly: 0.1
+    2022 Yearly: 0.38
+    2023 Yearly: 0.85
+    2024 Yearly: 1.29
+    2025 Yearly: 1.86
+    2026 Yearly: 2.05
+    2027 Yearly: 2.35
+    2028 Yearly: 2.65
+    2029 Yearly: 3.09

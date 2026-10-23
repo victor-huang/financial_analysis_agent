@@ -1,0 +1,78 @@
+currency: USD
+company_name: Ross Stores, Inc.
+sector: Retail Trade
+market_cap_billions: 73.75
+revenue:
+  quarterly:
+    Q3 2024: 5070.0
+    Q4 2024: 5910.0
+    Q1 2025: 4980.0
+    Q2 2025: 5530.0
+    Q3 2025: 5600.0
+    Q4 2025: 6640.0
+    Q1 2026: 6010.0
+  annual:
+    2021 Yearly: 18920.0
+    2022 Yearly: 18700.0
+    2023 Yearly: 20380.0
+    2024 Yearly: 21130.0
+    2025 Yearly: 22750.0
+  quarterly_forecast:
+    Q3 2024: 5150.0
+    Q4 2024: 5940.0
+    Q1 2025: 4960.0
+    Q2 2025: 5540.0
+    Q3 2025: 5420.0
+    Q4 2025: 6410.0
+    Q1 2026: 5640.0
+    Q2 2026: 6160.0
+    Q3 2026: 5970.0
+    Q4 2026: 7030.0
+    Q1 2027: 6340.0
+  annual_forecast:
+    2021 Yearly: 18860.0
+    2022 Yearly: 18630.0
+    2023 Yearly: 20180.0
+    2024 Yearly: 21150.0
+    2025 Yearly: 22540.0
+    2026 Yearly: 25270.0
+    2027 Yearly: 26870.0
+    2028 Yearly: 28570.0
+    2029 Yearly: 27900.0
+eps:
+  quarterly:
+    Q3 2024: 1.48
+    Q4 2024: 1.79
+    Q1 2025: 1.47
+    Q2 2025: 1.56
+    Q3 2025: 1.58
+    Q4 2025: 2.0
+    Q1 2026: 2.02
+  annual:
+    2021 Yearly: 4.87
+    2022 Yearly: 4.38
+    2023 Yearly: 5.56
+    2024 Yearly: 6.32
+    2025 Yearly: 6.61
+  quarterly_forecast:
+    Q3 2024: 1.4
+    Q4 2024: 1.66
+    Q1 2025: 1.44
+    Q2 2025: 1.53
+    Q3 2025: 1.42
+    Q4 2025: 1.9
+    Q1 2026: 1.73
+    Q2 2026: 1.95
+    Q3 2026: 1.75
+    Q4 2026: 2.14
+    Q1 2027: 2.1
+  annual_forecast:
+    2021 Yearly: 4.78
+    2022 Yearly: 4.31
+    2023 Yearly: 5.4
+    2024 Yearly: 6.19
+    2025 Yearly: 6.52
+    2026 Yearly: 7.89
+    2027 Yearly: 8.7
+    2028 Yearly: 9.52
+    2029 Yearly: 9.31

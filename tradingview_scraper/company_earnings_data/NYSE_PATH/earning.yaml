@@ -1,0 +1,76 @@
+currency: USD
+company_name: UiPath, Inc.
+sector: Technology Services
+market_cap_billions: 9.5
+revenue:
+  quarterly:
+    Q3 2024: 354.65
+    Q4 2024: 423.65
+    Q1 2025: 356.62
+    Q2 2025: 361.73
+    Q3 2025: 411.11
+    Q4 2025: 481.11
+    Q1 2026: 418.38
+  annual:
+    2021 Yearly: 892.25
+    2022 Yearly: 1060.0
+    2023 Yearly: 1310.0
+    2024 Yearly: 1430.0
+    2025 Yearly: 1610.0
+  quarterly_forecast:
+    Q3 2024: 347.64
+    Q4 2024: 425.11
+    Q1 2025: 332.27
+    Q2 2025: 347.35
+    Q3 2025: 392.67
+    Q4 2025: 464.88
+    Q1 2026: 397.54
+    Q2 2026: 397.77
+    Q3 2026: 441.49
+    Q4 2026: 520.63
+    Q1 2027: 451.47
+  annual_forecast:
+    2021 Yearly: 885.59
+    2022 Yearly: 1030.0
+    2023 Yearly: 1290.0
+    2024 Yearly: 1430.0
+    2025 Yearly: 1590.0
+    2026 Yearly: 1780.0
+    2027 Yearly: 1930.0
+    2028 Yearly: 2070.0
+eps:
+  quarterly:
+    Q3 2024: 0.11
+    Q4 2024: 0.26
+    Q1 2025: 0.11
+    Q2 2025: 0.15
+    Q3 2025: 0.16
+    Q4 2025: 0.3
+    Q1 2026: 0.15
+  annual:
+    2021 Yearly: 0.08
+    2022 Yearly: 0.14
+    2023 Yearly: 0.54
+    2024 Yearly: 0.53
+    2025 Yearly: 0.72
+  quarterly_forecast:
+    Q3 2024: 0.07
+    Q4 2024: 0.2
+    Q1 2025: 0.1
+    Q2 2025: 0.08
+    Q3 2025: 0.15
+    Q4 2025: 0.26
+    Q1 2026: 0.16
+    Q2 2026: 0.15
+    Q3 2026: 0.19
+    Q4 2026: 0.3
+    Q1 2027: 0.19
+  annual_forecast:
+    2021 Yearly: 0.06
+    2022 Yearly: 0.06
+    2023 Yearly: 0.47
+    2024 Yearly: 0.48
+    2025 Yearly: 0.67
+    2026 Yearly: 0.78
+    2027 Yearly: 0.9
+    2028 Yearly: 1.06

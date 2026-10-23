@@ -1,0 +1,76 @@
+currency: USD
+company_name: Enova International, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 729.55
+    Q1 2025: 745.54
+    Q2 2025: 764.04
+    Q3 2025: 802.68
+    Q4 2025: 839.39
+    Q1 2026: 875.14
+    Q2 2026: 928.93
+  annual:
+    2021 Yearly: 1210.0
+    2022 Yearly: 1740.0
+    2023 Yearly: 2120.0
+    2024 Yearly: 2660.0
+    2025 Yearly: 3150.0
+  quarterly_forecast:
+    Q4 2024: 730.04
+    Q1 2025: 736.26
+    Q2 2025: 756.58
+    Q3 2025: 806.63
+    Q4 2025: 837.94
+    Q1 2026: 851.69
+    Q2 2026: 909.61
+    Q3 2026: 1000.0
+    Q4 2026: 1050.0
+    Q1 2027: 1100.0
+    Q2 2027: 1120.0
+  annual_forecast:
+    2021 Yearly: 1190.0
+    2022 Yearly: 1740.0
+    2023 Yearly: 2120.0
+    2024 Yearly: 2660.0
+    2025 Yearly: 3150.0
+    2026 Yearly: 3860.0
+    2027 Yearly: 4550.0
+    2028 Yearly: 5180.0
+eps:
+  quarterly:
+    Q4 2024: 2.61
+    Q1 2025: 2.98
+    Q2 2025: 3.23
+    Q3 2025: 3.36
+    Q4 2025: 3.46
+    Q1 2026: 3.87
+    Q2 2026: 4.31
+  annual:
+    2021 Yearly: 7.57
+    2022 Yearly: 6.81
+    2023 Yearly: 6.85
+    2024 Yearly: 9.15
+    2025 Yearly: 12.96
+  quarterly_forecast:
+    Q4 2024: 2.27
+    Q1 2025: 2.8
+    Q2 2025: 2.98
+    Q3 2025: 3.03
+    Q4 2025: 3.25
+    Q1 2026: 3.68
+    Q2 2026: 3.96
+    Q3 2026: 4.42
+    Q4 2026: 4.68
+    Q1 2027: 4.91
+    Q2 2027: 5.21
+  annual_forecast:
+    2021 Yearly: 7.14
+    2022 Yearly: 6.81
+    2023 Yearly: 6.68
+    2024 Yearly: 8.82
+    2025 Yearly: 12.8
+    2026 Yearly: 17.28
+    2027 Yearly: 20.96
+    2028 Yearly: 24.0

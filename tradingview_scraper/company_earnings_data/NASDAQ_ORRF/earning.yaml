@@ -1,0 +1,78 @@
+currency: USD
+company_name: Orrstown Financial Services, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 61.82
+    Q1 2025: 60.38
+    Q2 2025: 62.43
+    Q3 2025: 64.37
+    Q4 2025: 64.92
+    Q1 2026: 64.58
+    Q2 2026: 62.67
+    Q3 2026: 66.7
+  annual:
+    2021 Yearly: 116.13
+    2022 Yearly: 126.58
+    2023 Yearly: 130.56
+    2024 Yearly: 192.69
+    2025 Yearly: 252.1
+  quarterly_forecast:
+    Q4 2024: 63.33
+    Q1 2025: 60.05
+    Q2 2025: 61.0
+    Q3 2025: 63.02
+    Q4 2025: 63.95
+    Q1 2026: 62.8
+    Q2 2026: 64.1
+    Q3 2026: 66.2
+    Q4 2026: 66.75
+    Q1 2027: 65.9
+    Q2 2027: 67.25
+    Q3 2027: 68.58
+  annual_forecast:
+    2022 Yearly: 114.54
+    2023 Yearly: 126.53
+    2024 Yearly: 130.4
+    2025 Yearly: 189.87
+    2026 Yearly: 251.22
+    2027 Yearly: 259.88
+eps:
+  quarterly:
+    Q4 2024: 0.87
+    Q1 2025: 1.0
+    Q2 2025: 1.04
+    Q3 2025: 1.13
+    Q4 2025: 1.11
+    Q1 2026: 1.12
+    Q2 2026: 1.09
+    Q3 2026: 1.17
+  annual:
+    2021 Yearly: 2.91
+    2022 Yearly: 3.25
+    2023 Yearly: 3.51
+    2024 Yearly: 3.76
+    2025 Yearly: 4.28
+  quarterly_forecast:
+    Q4 2024: 1.03
+    Q1 2025: 0.93
+    Q2 2025: 0.98
+    Q3 2025: 1.05
+    Q4 2025: 1.06
+    Q1 2026: 1.01
+    Q2 2026: 1.03
+    Q3 2026: 1.1
+    Q4 2026: 1.09
+    Q1 2027: 1.06
+    Q2 2027: 1.08
+    Q3 2027: 1.13
+  annual_forecast:
+    2021 Yearly: 2.98
+    2022 Yearly: 3.15
+    2023 Yearly: 3.43
+    2024 Yearly: 3.84
+    2025 Yearly: 4.24
+    2026 Yearly: 4.32
+    2027 Yearly: 4.4
+    2028 Yearly: 4.58

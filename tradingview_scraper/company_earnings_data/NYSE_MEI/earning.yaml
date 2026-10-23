@@ -1,0 +1,74 @@
+currency: USD
+company_name: Methode Electronics, Inc.
+sector: Electronic Technology
+market_cap_billions: 0.64246
+revenue:
+  quarterly:
+    Q3 2024: 239.9
+    Q4 2024: 257.1
+    Q1 2025: 240.5
+    Q2 2025: 246.9
+    Q3 2025: 233.7
+    Q4 2025: 298.1
+    Q1 2026: 265.4
+  annual:
+    2021 Yearly: 1160.0
+    2022 Yearly: 1180.0
+    2023 Yearly: 1110.0
+    2024 Yearly: 1050.0
+    2025 Yearly: 1020.0
+  quarterly_forecast:
+    Q3 2024: 263.35
+    Q4 2024: 232.85
+    Q1 2025: 219.69
+    Q2 2025: 236.07
+    Q3 2025: 219.47
+    Q4 2025: 238.46
+    Q1 2026: 238.31
+    Q2 2026: 251.57
+    Q3 2026: 250.83
+    Q4 2026: 307.94
+    Q1 2027: 248.53
+  annual_forecast:
+    2021 Yearly: 1160.0
+    2022 Yearly: 1180.0
+    2023 Yearly: 1100.0
+    2024 Yearly: 1020.0
+    2025 Yearly: 959.56
+    2026 Yearly: 1050.0
+    2027 Yearly: 1110.0
+eps:
+  quarterly:
+    Q3 2024: -0.41
+    Q4 2024: -0.8
+    Q1 2025: -0.29
+    Q2 2025: -0.28
+    Q3 2025: -0.45
+    Q4 2025: 0.01
+    Q1 2026: -0.32
+  annual:
+    2021 Yearly: 2.7
+    2022 Yearly: 2.1
+    2023 Yearly: -3.48
+    2024 Yearly: -1.77
+    2025 Yearly: -1.01
+  quarterly_forecast:
+    Q3 2024: -0.07
+    Q4 2024: 0.0
+    Q1 2025: -0.35
+    Q2 2025: -0.3
+    Q3 2025: -0.3
+    Q4 2025: -0.2
+    Q1 2026: -0.27
+    Q2 2026: -0.22
+    Q3 2026: -0.12
+    Q4 2026: 0.03
+    Q1 2027: -0.15
+  annual_forecast:
+    2021 Yearly: 2.69
+    2022 Yearly: 2.25
+    2023 Yearly: -0.82
+    2024 Yearly: -0.76
+    2025 Yearly: -1.21
+    2026 Yearly: -0.58
+    2027 Yearly: 0.15

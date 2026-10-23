@@ -1,0 +1,76 @@
+currency: USD
+company_name: AppFolio, Inc.
+sector: Technology Services
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 203.66
+    Q1 2025: 217.7
+    Q2 2025: 235.57
+    Q3 2025: 249.35
+    Q4 2025: 248.19
+    Q1 2026: 262.21
+    Q2 2026: 281.12
+  annual:
+    2021 Yearly: 359.37
+    2022 Yearly: 471.88
+    2023 Yearly: 620.45
+    2024 Yearly: 794.2
+    2025 Yearly: 950.82
+  quarterly_forecast:
+    Q4 2024: 200.06
+    Q1 2025: 220.42
+    Q2 2025: 231.3
+    Q3 2025: 246.31
+    Q4 2025: 246.56
+    Q1 2026: 258.08
+    Q2 2026: 277.35
+    Q3 2026: 294.46
+    Q4 2026: 286.84
+    Q1 2027: 306.47
+    Q2 2027: 330.07
+  annual_forecast:
+    2021 Yearly: 356.29
+    2022 Yearly: 465.48
+    2023 Yearly: 611.59
+    2024 Yearly: 790.59
+    2025 Yearly: 949.1
+    2026 Yearly: 1120.0
+    2027 Yearly: 1320.0
+    2028 Yearly: 1540.0
+eps:
+  quarterly:
+    Q4 2024: 0.92
+    Q1 2025: 1.21
+    Q2 2025: 1.38
+    Q3 2025: 1.31
+    Q4 2025: 1.39
+    Q1 2026: 1.61
+    Q2 2026: 1.71
+  annual:
+    2021 Yearly: 0.03
+    2022 Yearly: -1.95
+    2023 Yearly: 1.71
+    2024 Yearly: 4.37
+    2025 Yearly: 5.29
+  quarterly_forecast:
+    Q4 2024: 0.94
+    Q1 2025: 1.22
+    Q2 2025: 1.28
+    Q3 2025: 1.42
+    Q4 2025: 1.25
+    Q1 2026: 1.47
+    Q2 2026: 1.69
+    Q3 2026: 1.79
+    Q4 2026: 1.8
+    Q1 2027: 2.02
+    Q2 2027: 2.13
+  annual_forecast:
+    2021 Yearly: 0.04
+    2022 Yearly: -1.81
+    2023 Yearly: 0.88
+    2024 Yearly: 4.4
+    2025 Yearly: 5.16
+    2026 Yearly: 6.9
+    2027 Yearly: 8.42
+    2028 Yearly: 10.4

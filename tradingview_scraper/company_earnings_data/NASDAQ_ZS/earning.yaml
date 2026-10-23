@@ -1,0 +1,78 @@
+currency: USD
+company_name: Zscaler Inc
+sector: Technology Services
+market_cap_billions: 28.93
+revenue:
+  quarterly:
+    Q1 2025: 627.96
+    Q2 2025: 647.9
+    Q3 2025: 678.03
+    Q4 2025: 719.23
+    Q1 2026: 788.11
+    Q2 2026: 815.75
+    Q3 2026: 850.48
+  annual:
+    2021 Yearly: 673.1
+    2022 Yearly: 1090.0
+    2023 Yearly: 1620.0
+    2024 Yearly: 2170.0
+    2025 Yearly: 2670.0
+  quarterly_forecast:
+    Q1 2025: 605.51
+    Q2 2025: 634.38
+    Q3 2025: 666.46
+    Q4 2025: 706.94
+    Q1 2026: 773.28
+    Q2 2026: 798.33
+    Q3 2026: 835.14
+    Q4 2026: 876.96
+    Q1 2027: 926.84
+    Q2 2027: 954.61
+    Q3 2027: 989.8
+  annual_forecast:
+    2021 Yearly: 662.87
+    2022 Yearly: 1080.0
+    2023 Yearly: 1590.0
+    2024 Yearly: 2140.0
+    2025 Yearly: 2660.0
+    2026 Yearly: 3330.0
+    2027 Yearly: 3890.0
+    2028 Yearly: 4540.0
+    2029 Yearly: 5240.0
+eps:
+  quarterly:
+    Q1 2025: 0.77
+    Q2 2025: 0.78
+    Q3 2025: 0.84
+    Q4 2025: 0.89
+    Q1 2026: 0.96
+    Q2 2026: 1.01
+    Q3 2026: 1.08
+  annual:
+    2021 Yearly: 0.52
+    2022 Yearly: 0.69
+    2023 Yearly: 1.79
+    2024 Yearly: 3.19
+    2025 Yearly: 3.28
+  quarterly_forecast:
+    Q1 2025: 0.63
+    Q2 2025: 0.69
+    Q3 2025: 0.75
+    Q4 2025: 0.8
+    Q1 2026: 0.86
+    Q2 2026: 0.89
+    Q3 2026: 1.01
+    Q4 2026: 1.09
+    Q1 2027: 1.08
+    Q2 2027: 1.11
+    Q3 2027: 1.16
+  annual_forecast:
+    2021 Yearly: 0.47
+    2022 Yearly: 0.65
+    2023 Yearly: 1.63
+    2024 Yearly: 3.01
+    2025 Yearly: 3.19
+    2026 Yearly: 4.12
+    2027 Yearly: 4.58
+    2028 Yearly: 5.37
+    2029 Yearly: 6.06

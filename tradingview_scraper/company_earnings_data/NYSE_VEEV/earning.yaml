@@ -1,0 +1,78 @@
+currency: USD
+company_name: Veeva Systems Inc.
+sector: Technology Services
+market_cap_billions: 39.79
+revenue:
+  quarterly:
+    Q3 2024: 699.21
+    Q4 2024: 720.89
+    Q1 2025: 759.04
+    Q2 2025: 789.08
+    Q3 2025: 811.24
+    Q4 2025: 835.95
+    Q1 2026: 882.95
+  annual:
+    2021 Yearly: 1850.0
+    2022 Yearly: 2160.0
+    2023 Yearly: 2360.0
+    2024 Yearly: 2750.0
+    2025 Yearly: 3200.0
+  quarterly_forecast:
+    Q3 2024: 684.38
+    Q4 2024: 699.23
+    Q1 2025: 728.4
+    Q2 2025: 768.45
+    Q3 2025: 792.79
+    Q4 2025: 810.67
+    Q1 2026: 857.73
+    Q2 2026: 905.38
+    Q3 2026: 918.09
+    Q4 2026: 940.54
+    Q1 2027: 987.21
+  annual_forecast:
+    2021 Yearly: 1850.0
+    2022 Yearly: 2140.0
+    2023 Yearly: 2350.0
+    2024 Yearly: 2720.0
+    2025 Yearly: 3170.0
+    2026 Yearly: 3650.0
+    2027 Yearly: 4080.0
+    2028 Yearly: 4590.0
+    2029 Yearly: 5080.0
+eps:
+  quarterly:
+    Q3 2024: 1.75
+    Q4 2024: 1.74
+    Q1 2025: 1.97
+    Q2 2025: 1.99
+    Q3 2025: 2.04
+    Q4 2025: 2.06
+    Q1 2026: 2.24
+  annual:
+    2021 Yearly: 3.73
+    2022 Yearly: 4.28
+    2023 Yearly: 4.84
+    2024 Yearly: 6.6
+    2025 Yearly: 8.1
+  quarterly_forecast:
+    Q3 2024: 1.58
+    Q4 2024: 1.58
+    Q1 2025: 1.74
+    Q2 2025: 1.9
+    Q3 2025: 1.95
+    Q4 2025: 1.94
+    Q1 2026: 2.14
+    Q2 2026: 2.22
+    Q3 2026: 2.28
+    Q4 2026: 2.32
+    Q1 2027: 2.42
+  annual_forecast:
+    2021 Yearly: 3.69
+    2022 Yearly: 4.18
+    2023 Yearly: 4.76
+    2024 Yearly: 6.45
+    2025 Yearly: 7.94
+    2026 Yearly: 9.06
+    2027 Yearly: 10.03
+    2028 Yearly: 11.33
+    2029 Yearly: 12.7
