@@ -1,0 +1,78 @@
+currency: USD
+company_name: Liberty Energy Inc.
+sector: Industrial Services
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 943.57
+    Q1 2025: 977.46
+    Q2 2025: 1040.0
+    Q3 2025: 947.4
+    Q4 2025: 1040.0
+    Q1 2026: 1020.0
+    Q2 2026: 1190.0
+  annual:
+    2021 Yearly: 2470.0
+    2022 Yearly: 4150.0
+    2023 Yearly: 4750.0
+    2024 Yearly: 4320.0
+    2025 Yearly: 4010.0
+  quarterly_forecast:
+    Q4 2024: 982.32
+    Q1 2025: 948.46
+    Q2 2025: 1010.0
+    Q3 2025: 961.7
+    Q4 2025: 881.83
+    Q1 2026: 958.79
+    Q2 2026: 1090.0
+    Q3 2026: 1190.0
+    Q4 2026: 1160.0
+    Q1 2027: 1200.0
+    Q2 2027: 1240.0
+  annual_forecast:
+    2021 Yearly: 2460.0
+    2022 Yearly: 4120.0
+    2023 Yearly: 4750.0
+    2024 Yearly: 4350.0
+    2025 Yearly: 3850.0
+    2026 Yearly: 4520.0
+    2027 Yearly: 4850.0
+    2028 Yearly: 5520.0
+    2029 Yearly: 6410.0
+eps:
+  quarterly:
+    Q4 2024: 0.31
+    Q1 2025: 0.04
+    Q2 2025: 0.12
+    Q3 2025: -0.06
+    Q4 2025: 0.05
+    Q1 2026: 0.06
+    Q2 2026: 0.09
+  annual:
+    2021 Yearly: -1.01
+    2022 Yearly: 2.2
+    2023 Yearly: 3.17
+    2024 Yearly: 1.87
+    2025 Yearly: 0.15
+  quarterly_forecast:
+    Q4 2024: 0.1
+    Q1 2025: 0.04
+    Q2 2025: 0.13
+    Q3 2025: -0.06
+    Q4 2025: -0.17
+    Q1 2026: -0.13
+    Q2 2026: 0.08
+    Q3 2026: 0.07
+    Q4 2026: -0.01
+    Q1 2027: -0.1
+    Q2 2027: -0.04
+  annual_forecast:
+    2021 Yearly: -0.84
+    2022 Yearly: 2.14
+    2023 Yearly: 3.21
+    2024 Yearly: 1.7
+    2025 Yearly: -0.06
+    2026 Yearly: 0.21
+    2027 Yearly: 0.04
+    2028 Yearly: 0.64
+    2029 Yearly: 0.44

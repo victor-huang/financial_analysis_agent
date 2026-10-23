@@ -1,0 +1,76 @@
+currency: USD
+company_name: Third Coast Bancshares, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 46.31
+    Q1 2025: 45.9
+    Q2 2025: 52.02
+    Q3 2025: 54.48
+    Q4 2025: 56.46
+    Q1 2026: 57.68
+    Q2 2026: 67.99
+  annual:
+    2021 Yearly: 95.43
+    2022 Yearly: 123.68
+    2023 Yearly: 147.73
+    2024 Yearly: 171.38
+    2025 Yearly: 208.87
+  quarterly_forecast:
+    Q4 2024: 43.9
+    Q1 2025: 46.15
+    Q2 2025: 47.59
+    Q3 2025: 50.9
+    Q4 2025: 53.07
+    Q1 2026: 58.0
+    Q2 2026: 62.75
+    Q3 2026: 66.83
+    Q4 2026: 67.69
+    Q1 2027: 83.69
+    Q2 2027: 87.81
+  annual_forecast:
+    2021 Yearly: 94.32
+    2022 Yearly: 123.96
+    2023 Yearly: 146.04
+    2024 Yearly: 169.09
+    2025 Yearly: 205.72
+    2026 Yearly: 257.97
+    2027 Yearly: 353.78
+    2028 Yearly: 430.82
+eps:
+  quarterly:
+    Q4 2024: 0.79
+    Q1 2025: 0.78
+    Q2 2025: 0.96
+    Q3 2025: 1.03
+    Q4 2025: 1.02
+    Q1 2026: 0.88
+    Q2 2026: 1.08
+  annual:
+    2021 Yearly: 1.4
+    2022 Yearly: 1.25
+    2023 Yearly: 1.98
+    2024 Yearly: 2.78
+    2025 Yearly: 3.79
+  quarterly_forecast:
+    Q4 2024: 0.68
+    Q1 2025: 0.72
+    Q2 2025: 0.76
+    Q3 2025: 0.84
+    Q4 2025: 0.91
+    Q1 2026: 0.86
+    Q2 2026: 0.9
+    Q3 2026: 1.0
+    Q4 2026: 1.02
+    Q1 2027: 0.99
+    Q2 2027: 1.09
+  annual_forecast:
+    2021 Yearly: 1.83
+    2022 Yearly: 1.28
+    2023 Yearly: 1.91
+    2024 Yearly: 2.67
+    2025 Yearly: 3.68
+    2026 Yearly: 3.97
+    2027 Yearly: 4.43
+    2028 Yearly: 4.92

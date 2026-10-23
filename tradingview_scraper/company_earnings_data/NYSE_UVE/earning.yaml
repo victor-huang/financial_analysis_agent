@@ -1,0 +1,74 @@
+currency: USD
+company_name: UNIVERSAL INSURANCE HOLDINGS INC
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 470.89
+    Q1 2025: 467.08
+    Q2 2025: 596.72
+    Q3 2025: 592.77
+    Q4 2025: 483.68
+    Q1 2026: 506.55
+    Q2 2026: 621.31
+  annual:
+    2021 Yearly: 1670.0
+    2022 Yearly: 1850.0
+    2023 Yearly: 1920.0
+    2024 Yearly: 2070.0
+    2025 Yearly: 2140.0
+  quarterly_forecast:
+    Q4 2024: 449.92
+    Q1 2025: 459.56
+    Q2 2025: 595.62
+    Q3 2025: 591.58
+    Q4 2025: 485.02
+    Q1 2026: 481.09
+    Q2 2026: 614.62
+    Q3 2026: 601.67
+    Q4 2026: 492.15
+    Q1 2027: 515.41
+    Q2 2027: 632.19
+  annual_forecast:
+    2022 Yearly: 1690.0
+    2023 Yearly: 1870.0
+    2024 Yearly: 1920.0
+    2025 Yearly: 2050.0
+    2026 Yearly: 2140.0
+    2027 Yearly: 2220.0
+eps:
+  quarterly:
+    Q4 2024: 0.25
+    Q1 2025: 1.44
+    Q2 2025: 1.23
+    Q3 2025: 1.36
+    Q4 2025: 2.17
+    Q1 2026: 2.0
+    Q2 2026: 1.84
+  annual:
+    2021 Yearly: 0.61
+    2022 Yearly: -0.41
+    2023 Yearly: 1.95
+    2024 Yearly: 1.79
+    2025 Yearly: 6.2
+  quarterly_forecast:
+    Q4 2024: 0.08
+    Q1 2025: 1.26
+    Q2 2025: 1.12
+    Q3 2025: 1.17
+    Q4 2025: 1.29
+    Q1 2026: 1.42
+    Q2 2026: 1.61
+    Q3 2026: 1.57
+    Q4 2026: 1.33
+    Q1 2027: 1.76
+    Q2 2027: 1.48
+  annual_forecast:
+    2021 Yearly: 0.5
+    2022 Yearly: -1.55
+    2023 Yearly: 1.78
+    2024 Yearly: 1.66
+    2025 Yearly: 5.31
+    2026 Yearly: 6.13
+    2027 Yearly: 4.75
+    2028 Yearly: 5.5

@@ -6,6 +6,7 @@ revenue:
   quarterly:
     Q1 2026: 4690.0
     Q2 2026: 7810.0
+    Q3 2026: 14570.0
   annual: {}
   quarterly_forecast:
     Q2 2026: 6830.0
@@ -13,11 +14,13 @@ revenue:
     Q4 2026: 19670.0
     Q1 2027: 22230.0
     Q2 2027: 25390.0
+    Q3 2027: 27710.0
   annual_forecast: {}
 eps:
   quarterly:
     Q1 2026: -1.19
     Q2 2026: -0.09
+    Q3 2026: 0.35
   annual: {}
   quarterly_forecast:
     Q2 2026: -0.23
@@ -25,4 +28,5 @@ eps:
     Q4 2026: 0.39
     Q1 2027: 0.53
     Q2 2027: 0.55
+    Q3 2027: 0.52
   annual_forecast: {}

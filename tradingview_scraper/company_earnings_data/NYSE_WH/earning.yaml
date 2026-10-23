@@ -1,0 +1,78 @@
+currency: USD
+company_name: Wyndham Hotels & Resorts, Inc.
+sector: Consumer Services
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 341.0
+    Q1 2025: 316.0
+    Q2 2025: 397.0
+    Q3 2025: 382.0
+    Q4 2025: 334.0
+    Q1 2026: 327.0
+    Q2 2026: 375.0
+  annual:
+    2021 Yearly: 1560.0
+    2022 Yearly: 1500.0
+    2023 Yearly: 1400.0
+    2024 Yearly: 1410.0
+    2025 Yearly: 1430.0
+  quarterly_forecast:
+    Q4 2024: 344.14
+    Q1 2025: 317.21
+    Q2 2025: 386.64
+    Q3 2025: 401.93
+    Q4 2025: 336.51
+    Q1 2026: 321.97
+    Q2 2026: 400.75
+    Q3 2026: 408.87
+    Q4 2026: 366.18
+    Q1 2027: 347.67
+    Q2 2027: 398.71
+  annual_forecast:
+    2021 Yearly: 1560.0
+    2022 Yearly: 1490.0
+    2023 Yearly: 1400.0
+    2024 Yearly: 1420.0
+    2025 Yearly: 1430.0
+    2026 Yearly: 1480.0
+    2027 Yearly: 1570.0
+    2028 Yearly: 1660.0
+    2029 Yearly: 1800.0
+eps:
+  quarterly:
+    Q4 2024: 1.04
+    Q1 2025: 0.86
+    Q2 2025: 1.33
+    Q3 2025: 1.46
+    Q4 2025: 0.93
+    Q1 2026: 0.96
+    Q2 2026: 1.48
+  annual:
+    2021 Yearly: 3.16
+    2022 Yearly: 3.96
+    2023 Yearly: 4.01
+    2024 Yearly: 4.33
+    2025 Yearly: 4.58
+  quarterly_forecast:
+    Q4 2024: 0.99
+    Q1 2025: 0.82
+    Q2 2025: 1.16
+    Q3 2025: 1.44
+    Q4 2025: 0.89
+    Q1 2026: 0.86
+    Q2 2026: 1.41
+    Q3 2026: 1.32
+    Q4 2026: 1.03
+    Q1 2027: 1.03
+    Q2 2027: 1.5
+  annual_forecast:
+    2021 Yearly: 3.0
+    2022 Yearly: 3.85
+    2023 Yearly: 3.97
+    2024 Yearly: 4.28
+    2025 Yearly: 4.53
+    2026 Yearly: 4.79
+    2027 Yearly: 5.32
+    2028 Yearly: 6.03
+    2029 Yearly: 7.19

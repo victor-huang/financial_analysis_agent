@@ -1,0 +1,76 @@
+currency: USD
+company_name: WSFS Financial Corporation
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 261.5
+    Q1 2025: 256.1
+    Q2 2025: 267.5
+    Q3 2025: 270.5
+    Q4 2025: 271.9
+    Q1 2026: 275.3
+    Q2 2026: 282.5
+  annual:
+    2021 Yearly: 614.36
+    2022 Yearly: 919.92
+    2023 Yearly: 1010.0
+    2024 Yearly: 1050.0
+    2025 Yearly: 1070.0
+  quarterly_forecast:
+    Q4 2024: 263.44
+    Q1 2025: 256.52
+    Q2 2025: 266.46
+    Q3 2025: 268.48
+    Q4 2025: 267.28
+    Q1 2026: 268.21
+    Q2 2026: 278.41
+    Q3 2026: 289.82
+    Q4 2026: 292.88
+    Q1 2027: 290.56
+    Q2 2027: 296.92
+  annual_forecast:
+    2021 Yearly: 625.3
+    2022 Yearly: 913.94
+    2023 Yearly: 998.81
+    2024 Yearly: 1040.0
+    2025 Yearly: 1060.0
+    2026 Yearly: 1140.0
+    2027 Yearly: 1190.0
+    2028 Yearly: 1230.0
+eps:
+  quarterly:
+    Q4 2024: 1.11
+    Q1 2025: 1.13
+    Q2 2025: 1.27
+    Q3 2025: 1.4
+    Q4 2025: 1.43
+    Q1 2026: 1.68
+    Q2 2026: 1.66
+  annual:
+    2021 Yearly: 5.63
+    2022 Yearly: 4.25
+    2023 Yearly: 4.55
+    2024 Yearly: 4.39
+    2025 Yearly: 5.21
+  quarterly_forecast:
+    Q4 2024: 0.97
+    Q1 2025: 1.05
+    Q2 2025: 1.13
+    Q3 2025: 1.25
+    Q4 2025: 1.23
+    Q1 2026: 1.5
+    Q2 2026: 1.5
+    Q3 2026: 1.62
+    Q4 2026: 1.66
+    Q1 2027: 1.64
+    Q2 2027: 1.71
+  annual_forecast:
+    2021 Yearly: 5.26
+    2022 Yearly: 4.38
+    2023 Yearly: 4.45
+    2024 Yearly: 4.26
+    2025 Yearly: 5.01
+    2026 Yearly: 6.61
+    2027 Yearly: 7.0
+    2028 Yearly: 7.75

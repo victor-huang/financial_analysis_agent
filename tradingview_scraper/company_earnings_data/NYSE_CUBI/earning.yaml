@@ -1,0 +1,76 @@
+currency: USD
+company_name: Customers Bancorp, Inc
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 193.46
+    Q1 2025: 195.05
+    Q2 2025: 206.82
+    Q3 2025: 231.77
+    Q4 2025: 236.9
+    Q1 2026: 225.4
+    Q2 2026: 227.28
+  annual:
+    2021 Yearly: 754.49
+    2022 Yearly: 701.71
+    2023 Yearly: 763.86
+    2024 Yearly: 731.25
+    2025 Yearly: 870.53
+  quarterly_forecast:
+    Q4 2024: 183.05
+    Q1 2025: 190.23
+    Q2 2025: 197.19
+    Q3 2025: 215.13
+    Q4 2025: 228.35
+    Q1 2026: 223.45
+    Q2 2026: 229.21
+    Q3 2026: 237.18
+    Q4 2026: 243.78
+    Q1 2027: 242.54
+    Q2 2027: 251.3
+  annual_forecast:
+    2021 Yearly: 760.25
+    2022 Yearly: 692.34
+    2023 Yearly: 754.18
+    2024 Yearly: 726.91
+    2025 Yearly: 831.25
+    2026 Yearly: 933.93
+    2027 Yearly: 1020.0
+    2028 Yearly: 1100.0
+eps:
+  quarterly:
+    Q4 2024: 0.71
+    Q1 2025: 0.29
+    Q2 2025: 1.73
+    Q3 2025: 2.2
+    Q4 2025: 1.98
+    Q1 2026: 1.97
+    Q2 2026: 2.05
+  annual:
+    2021 Yearly: 8.91
+    2022 Yearly: 6.51
+    2023 Yearly: 7.32
+    2024 Yearly: 5.09
+    2025 Yearly: 6.26
+  quarterly_forecast:
+    Q4 2024: 1.19
+    Q1 2025: 1.3
+    Q2 2025: 1.53
+    Q3 2025: 1.9
+    Q4 2025: 2.03
+    Q1 2026: 1.89
+    Q2 2026: 2.0
+    Q3 2026: 2.14
+    Q4 2026: 2.27
+    Q1 2027: 2.22
+    Q2 2027: 2.34
+  annual_forecast:
+    2021 Yearly: 9.23
+    2022 Yearly: 7.34
+    2023 Yearly: 7.22
+    2024 Yearly: 5.57
+    2025 Yearly: 6.28
+    2026 Yearly: 8.44
+    2027 Yearly: 9.64
+    2028 Yearly: 10.35

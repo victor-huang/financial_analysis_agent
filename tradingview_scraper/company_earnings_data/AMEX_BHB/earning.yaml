@@ -1,0 +1,76 @@
+currency: USD
+company_name: Bar Harbor Bankshares, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 38.46
+    Q1 2025: 37.92
+    Q2 2025: 39.48
+    Q3 2025: 47.48
+    Q4 2025: 49.37
+    Q1 2026: 47.29
+    Q2 2026: 49.68
+  annual:
+    2021 Yearly: 134.96
+    2022 Yearly: 148.95
+    2023 Yearly: 153.47
+    2024 Yearly: 150.88
+    2025 Yearly: 174.26
+  quarterly_forecast:
+    Q4 2024: 39.04
+    Q1 2025: 39.12
+    Q2 2025: 40.04
+    Q3 2025: 47.31
+    Q4 2025: 49.0
+    Q1 2026: 47.66
+    Q2 2026: 48.93
+    Q3 2026: 50.17
+    Q4 2026: 50.44
+    Q1 2027: 49.93
+    Q2 2027: 50.75
+  annual_forecast:
+    2021 Yearly: 135.8
+    2022 Yearly: 149.4
+    2023 Yearly: 153.6
+    2024 Yearly: 152.58
+    2025 Yearly: 175.59
+    2026 Yearly: 197.08
+    2027 Yearly: 205.68
+    2028 Yearly: 214.94
+eps:
+  quarterly:
+    Q4 2024: 0.72
+    Q1 2025: 0.68
+    Q2 2025: 0.7
+    Q3 2025: 0.95
+    Q4 2025: 0.93
+    Q1 2026: 0.88
+    Q2 2026: 0.92
+  annual:
+    2021 Yearly: 2.72
+    2022 Yearly: 2.91
+    2023 Yearly: 2.98
+    2024 Yearly: 2.84
+    2025 Yearly: 3.26
+  quarterly_forecast:
+    Q4 2024: 0.7
+    Q1 2025: 0.68
+    Q2 2025: 0.7
+    Q3 2025: 0.83
+    Q4 2025: 0.88
+    Q1 2026: 0.86
+    Q2 2026: 0.9
+    Q3 2026: 0.93
+    Q4 2026: 0.93
+    Q1 2027: 0.91
+    Q2 2027: 0.92
+  annual_forecast:
+    2021 Yearly: 2.71
+    2022 Yearly: 2.9
+    2023 Yearly: 2.95
+    2024 Yearly: 2.77
+    2025 Yearly: 3.21
+    2026 Yearly: 3.62
+    2027 Yearly: 3.79
+    2028 Yearly: 4.0

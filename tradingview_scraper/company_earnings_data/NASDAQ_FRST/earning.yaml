@@ -1,0 +1,76 @@
+currency: USD
+company_name: Primis Financial Corp.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 16.26
+    Q1 2025: 32.52
+    Q2 2025: 42.36
+    Q3 2025: 41.05
+    Q4 2025: 78.43
+    Q1 2026: 44.08
+    Q2 2026: 50.34
+  annual:
+    2021 Yearly: 105.34
+    2022 Yearly: 125.81
+    2023 Yearly: 150.45
+    2024 Yearly: 107.7
+    2025 Yearly: 211.49
+  quarterly_forecast:
+    Q4 2024: 33.3
+    Q1 2025: 33.13
+    Q2 2025: 38.88
+    Q3 2025: 37.63
+    Q4 2025: 41.68
+    Q1 2026: 44.15
+    Q2 2026: 48.77
+    Q3 2026: 50.89
+    Q4 2026: 50.18
+    Q1 2027: 50.54
+    Q2 2027: 53.06
+  annual_forecast:
+    2021 Yearly: 107.66
+    2022 Yearly: 119.23
+    2023 Yearly: 142.49
+    2024 Yearly: 141.76
+    2025 Yearly: 152.27
+    2026 Yearly: 198.42
+    2027 Yearly: 212.76
+    2028 Yearly: 228.42
+eps:
+  quarterly:
+    Q4 2024: -0.65
+    Q1 2025: 0.14
+    Q2 2025: 0.11
+    Q3 2025: 0.28
+    Q4 2025: 0.1
+    Q1 2026: 0.33
+    Q2 2026: 0.23
+  annual:
+    2021 Yearly: 1.26
+    2022 Yearly: 0.68
+    2023 Yearly: 0.93
+    2024 Yearly: -0.27
+    2025 Yearly: 0.39
+  quarterly_forecast:
+    Q4 2024: 0.11
+    Q1 2025: 0.25
+    Q2 2025: 0.21
+    Q3 2025: 0.22
+    Q4 2025: 0.34
+    Q1 2026: 0.28
+    Q2 2026: 0.38
+    Q3 2026: 0.42
+    Q4 2026: 0.41
+    Q1 2027: 0.43
+    Q2 2027: 0.47
+  annual_forecast:
+    2021 Yearly: 1.21
+    2022 Yearly: 0.94
+    2023 Yearly: 0.83
+    2024 Yearly: 0.5
+    2025 Yearly: 0.65
+    2026 Yearly: 1.38
+    2027 Yearly: 1.92
+    2028 Yearly: 2.3

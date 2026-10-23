@@ -11,6 +11,7 @@ revenue:
     Q4 2025: 2870.0
     Q1 2026: 2770.0
     Q2 2026: 2890.0
+    Q3 2026: 3050.0
   annual:
     2021 Yearly: 5710.0
     2022 Yearly: 6220.0
@@ -29,6 +30,7 @@ revenue:
     Q4 2026: 3210.0
     Q1 2027: 3110.0
     Q2 2027: 3240.0
+    Q3 2027: 3290.0
   annual_forecast:
     2021 Yearly: 5680.0
     2022 Yearly: 6250.0
@@ -48,6 +50,7 @@ eps:
     Q4 2025: 2.53
     Q1 2026: 2.5
     Q2 2026: 2.8
+    Q3 2026: 3.0
   annual:
     2021 Yearly: 4.96
     2022 Yearly: 4.68
@@ -66,13 +69,14 @@ eps:
     Q4 2026: 2.85
     Q1 2027: 2.81
     Q2 2027: 3.03
+    Q3 2027: 3.02
   annual_forecast:
     2021 Yearly: 4.96
     2022 Yearly: 4.67
     2023 Yearly: 5.6
     2024 Yearly: 6.89
     2025 Yearly: 8.68
-    2026 Yearly: 10.8
-    2027 Yearly: 12.11
+    2026 Yearly: 10.81
+    2027 Yearly: 12.1
     2028 Yearly: 13.63
     2029 Yearly: 15.59

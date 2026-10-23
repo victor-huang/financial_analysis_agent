@@ -1,0 +1,78 @@
+currency: USD
+company_name: SL Green Realty Corp
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 139.61
+    Q1 2025: 144.52
+    Q2 2025: 147.53
+    Q3 2025: 149.67
+    Q4 2025: 159.82
+    Q1 2026: 166.0
+    Q2 2026: 171.85
+  annual:
+    2021 Yearly: 604.63
+    2022 Yearly: 588.82
+    2023 Yearly: 603.69
+    2024 Yearly: 543.0
+    2025 Yearly: 601.54
+  quarterly_forecast:
+    Q4 2024: 147.36
+    Q1 2025: 146.9
+    Q2 2025: 152.93
+    Q3 2025: 156.08
+    Q4 2025: 149.69
+    Q1 2026: 165.3
+    Q2 2026: 179.01
+    Q3 2026: 175.22
+    Q4 2026: 169.73
+    Q1 2027: 163.91
+    Q2 2027: 167.18
+  annual_forecast:
+    2021 Yearly: 657.08
+    2022 Yearly: 624.35
+    2023 Yearly: 644.7
+    2024 Yearly: 568.3
+    2025 Yearly: 589.85
+    2026 Yearly: 680.62
+    2027 Yearly: 679.16
+    2028 Yearly: 567.43
+    2029 Yearly: 783.88
+eps:
+  quarterly:
+    Q4 2024: 0.13
+    Q1 2025: -0.3
+    Q2 2025: -0.16
+    Q3 2025: 0.34
+    Q4 2025: -1.49
+    Q1 2026: -1.2
+    Q2 2026: -0.38
+  annual:
+    2021 Yearly: 6.5
+    2022 Yearly: -1.49
+    2023 Yearly: -9.12
+    2024 Yearly: 0.08
+    2025 Yearly: -1.61
+  quarterly_forecast:
+    Q4 2024: -0.27
+    Q1 2025: -0.45
+    Q2 2025: -0.17
+    Q3 2025: -0.4
+    Q4 2025: -0.67
+    Q1 2026: -0.76
+    Q2 2026: -0.59
+    Q3 2026: -0.25
+    Q4 2026: 0.09
+    Q1 2027: -0.48
+    Q2 2027: -0.41
+  annual_forecast:
+    2021 Yearly: 4.57
+    2022 Yearly: -0.23
+    2023 Yearly: -7.1
+    2024 Yearly: -0.3
+    2025 Yearly: -0.75
+    2026 Yearly: -1.65
+    2027 Yearly: -1.44
+    2028 Yearly: -1.08
+    2029 Yearly: -2.39

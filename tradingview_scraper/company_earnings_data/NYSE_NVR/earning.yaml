@@ -1,0 +1,76 @@
+currency: USD
+company_name: NVR, Inc.
+sector: Consumer Durables
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q1 2025: 2400.0
+    Q2 2025: 2600.0
+    Q3 2025: 2610.0
+    Q4 2025: 2710.0
+    Q1 2026: 1880.0
+    Q2 2026: 2330.0
+    Q3 2026: 2400.0
+  annual:
+    2021 Yearly: 8700.0
+    2022 Yearly: 10580.0
+    2023 Yearly: 9520.0
+    2024 Yearly: 10520.0
+    2025 Yearly: 10320.0
+  quarterly_forecast:
+    Q1 2025: 2360.0
+    Q2 2025: 2500.0
+    Q3 2025: 2550.0
+    Q4 2025: 2480.0
+    Q1 2026: 2050.0
+    Q2 2026: 2400.0
+    Q3 2026: 2570.0
+    Q4 2026: 2620.0
+    Q1 2027: 2200.0
+    Q2 2027: 2500.0
+    Q3 2027: 2580.0
+  annual_forecast:
+    2021 Yearly: 9240.0
+    2022 Yearly: 10270.0
+    2023 Yearly: 9660.0
+    2024 Yearly: 10480.0
+    2025 Yearly: 10070.0
+    2026 Yearly: 9400.0
+    2027 Yearly: 9840.0
+    2028 Yearly: 10110.0
+eps:
+  quarterly:
+    Q1 2025: 94.83
+    Q2 2025: 108.54
+    Q3 2025: 112.33
+    Q4 2025: 121.54
+    Q1 2026: 67.76
+    Q2 2026: 83.96
+    Q3 2026: 89.45
+  annual:
+    2021 Yearly: 320.48
+    2022 Yearly: 491.82
+    2023 Yearly: 463.31
+    2024 Yearly: 506.69
+    2025 Yearly: 436.55
+  quarterly_forecast:
+    Q1 2025: 106.07
+    Q2 2025: 106.2
+    Q3 2025: 109.36
+    Q4 2025: 105.91
+    Q1 2026: 77.39
+    Q2 2026: 89.98
+    Q3 2026: 102.77
+    Q4 2026: 106.59
+    Q1 2027: 73.32
+    Q2 2027: 93.96
+    Q3 2027: 107.64
+  annual_forecast:
+    2021 Yearly: 331.16
+    2022 Yearly: 458.01
+    2023 Yearly: 463.39
+    2024 Yearly: 496.52
+    2025 Yearly: 421.8
+    2026 Yearly: 358.78
+    2027 Yearly: 392.74
+    2028 Yearly: 446.44

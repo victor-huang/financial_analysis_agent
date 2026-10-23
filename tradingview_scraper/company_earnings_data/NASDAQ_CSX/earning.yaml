@@ -1,0 +1,78 @@
+currency: USD
+company_name: CSX Corporation
+sector: Transportation
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 3540.0
+    Q1 2025: 3420.0
+    Q2 2025: 3570.0
+    Q3 2025: 3590.0
+    Q4 2025: 3510.0
+    Q1 2026: 3480.0
+    Q2 2026: 3940.0
+  annual:
+    2021 Yearly: 12520.0
+    2022 Yearly: 14850.0
+    2023 Yearly: 14660.0
+    2024 Yearly: 14540.0
+    2025 Yearly: 14090.0
+  quarterly_forecast:
+    Q4 2024: 3560.0
+    Q1 2025: 3450.0
+    Q2 2025: 3580.0
+    Q3 2025: 3570.0
+    Q4 2025: 3540.0
+    Q1 2026: 3490.0
+    Q2 2026: 3890.0
+    Q3 2026: 3960.0
+    Q4 2026: 3910.0
+    Q1 2027: 3790.0
+    Q2 2027: 4140.0
+  annual_forecast:
+    2021 Yearly: 12420.0
+    2022 Yearly: 14850.0
+    2023 Yearly: 14610.0
+    2024 Yearly: 14570.0
+    2025 Yearly: 14130.0
+    2026 Yearly: 15300.0
+    2027 Yearly: 16129.999999999998
+    2028 Yearly: 16690.0
+    2029 Yearly: 17660.0
+eps:
+  quarterly:
+    Q4 2024: 0.42
+    Q1 2025: 0.34
+    Q2 2025: 0.44
+    Q3 2025: 0.44
+    Q4 2025: 0.39
+    Q1 2026: 0.43
+    Q2 2026: 0.54
+  annual:
+    2021 Yearly: 1.68
+    2022 Yearly: 1.95
+    2023 Yearly: 1.85
+    2024 Yearly: 1.83
+    2025 Yearly: 1.61
+  quarterly_forecast:
+    Q4 2024: 0.42
+    Q1 2025: 0.36
+    Q2 2025: 0.42
+    Q3 2025: 0.42
+    Q4 2025: 0.41
+    Q1 2026: 0.39
+    Q2 2026: 0.52
+    Q3 2026: 0.53
+    Q4 2026: 0.5
+    Q1 2027: 0.5
+    Q2 2027: 0.62
+  annual_forecast:
+    2021 Yearly: 1.55
+    2022 Yearly: 1.89
+    2023 Yearly: 1.83
+    2024 Yearly: 1.83
+    2025 Yearly: 1.64
+    2026 Yearly: 2.0
+    2027 Yearly: 2.29
+    2028 Yearly: 2.53
+    2029 Yearly: 2.78

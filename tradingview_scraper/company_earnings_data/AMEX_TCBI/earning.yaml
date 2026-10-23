@@ -1,0 +1,76 @@
+currency: USD
+company_name: Texas Capital Bancshares, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 283.68
+    Q1 2025: 280.48
+    Q2 2025: 307.46
+    Q3 2025: 340.35
+    Q4 2025: 327.48
+    Q1 2026: 323.99
+    Q2 2026: 335.5
+  annual:
+    2021 Yearly: 907.07
+    2022 Yearly: 976.76
+    2023 Yearly: 1080.0
+    2024 Yearly: 1110.0
+    2025 Yearly: 1260.0
+  quarterly_forecast:
+    Q4 2024: 283.24
+    Q1 2025: 284.77
+    Q2 2025: 299.22
+    Q3 2025: 326.54
+    Q4 2025: 323.29
+    Q1 2026: 318.23
+    Q2 2026: 333.28
+    Q3 2026: 339.89
+    Q4 2026: 341.86
+    Q1 2027: 339.97
+    Q2 2027: 353.33
+  annual_forecast:
+    2021 Yearly: 897.84
+    2022 Yearly: 974.53
+    2023 Yearly: 1080.0
+    2024 Yearly: 1110.0
+    2025 Yearly: 1250.0
+    2026 Yearly: 1340.0
+    2027 Yearly: 1430.0
+    2028 Yearly: 1520.0
+eps:
+  quarterly:
+    Q4 2024: 1.43
+    Q1 2025: 0.92
+    Q2 2025: 1.58
+    Q3 2025: 2.18
+    Q4 2025: 2.12
+    Q1 2026: 1.56
+    Q2 2026: 1.83
+  annual:
+    2021 Yearly: 4.6
+    2022 Yearly: 6.18
+    2023 Yearly: 3.54
+    2024 Yearly: 1.28
+    2025 Yearly: 6.79
+  quarterly_forecast:
+    Q4 2024: 1.09
+    Q1 2025: 0.95
+    Q2 2025: 1.29
+    Q3 2025: 1.77
+    Q4 2025: 1.77
+    Q1 2026: 1.4
+    Q2 2026: 1.87
+    Q3 2026: 1.96
+    Q4 2026: 2.03
+    Q1 2027: 1.66
+    Q2 2027: 2.06
+  annual_forecast:
+    2021 Yearly: 4.32
+    2022 Yearly: 2.95
+    2023 Yearly: 3.78
+    2024 Yearly: 0.93
+    2025 Yearly: 6.46
+    2026 Yearly: 7.36
+    2027 Yearly: 8.22
+    2028 Yearly: 9.16

@@ -1,0 +1,76 @@
+currency: USD
+company_name: Midland States Bancorp, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 75.86
+    Q1 2025: 76.16
+    Q2 2025: 82.5
+    Q3 2025: 81.33
+    Q4 2025: 85.79
+    Q1 2026: 81.1
+    Q2 2026: 83.74
+  annual:
+    2021 Yearly: 283.9
+    2022 Yearly: 310.87
+    2023 Yearly: 311.03
+    2024 Yearly: 300.51
+    2025 Yearly: 325.77
+  quarterly_forecast:
+    Q4 2024: 73.57
+    Q1 2025: 72.64
+    Q2 2025: 76.2
+    Q3 2025: 79.04
+    Q4 2025: 74.05
+    Q1 2026: 75.57
+    Q2 2026: 80.7
+    Q3 2026: 83.77
+    Q4 2026: 83.43
+    Q1 2027: 82.15
+    Q2 2027: 83.06
+  annual_forecast:
+    2021 Yearly: 276.45
+    2022 Yearly: 311.62
+    2023 Yearly: 305.63
+    2024 Yearly: 297.74
+    2025 Yearly: 313.91
+    2026 Yearly: 331.3
+    2027 Yearly: 333.65
+    2028 Yearly: 340.08
+eps:
+  quarterly:
+    Q4 2024: -2.52
+    Q1 2025: 0.57
+    Q2 2025: 0.44
+    Q3 2025: 0.24
+    Q4 2025: -0.24
+    Q1 2026: 0.74
+    Q2 2026: 0.82
+  annual:
+    2021 Yearly: 3.57
+    2022 Yearly: 4.23
+    2023 Yearly: 2.97
+    2024 Yearly: -1.05
+    2025 Yearly: -6.14
+  quarterly_forecast:
+    Q4 2024: 0.67
+    Q1 2025: 0.52
+    Q2 2025: 0.63
+    Q3 2025: 0.64
+    Q4 2025: -0.01
+    Q1 2026: 0.61
+    Q2 2026: 0.78
+    Q3 2026: 0.89
+    Q4 2026: 0.87
+    Q1 2027: 0.81
+    Q2 2027: 0.83
+  annual_forecast:
+    2021 Yearly: 3.44
+    2022 Yearly: 3.98
+    2023 Yearly: 3.24
+    2024 Yearly: 2.16
+    2025 Yearly: -5.88
+    2026 Yearly: 3.34
+    2027 Yearly: 3.41
+    2028 Yearly: 3.55

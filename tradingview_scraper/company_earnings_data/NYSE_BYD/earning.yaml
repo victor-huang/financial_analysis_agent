@@ -1,0 +1,76 @@
+currency: USD
+company_name: Boyd Gaming Corporation
+sector: Consumer Services
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 1040.0
+    Q1 2025: 991.57
+    Q2 2025: 1030.0
+    Q3 2025: 1000.0
+    Q4 2025: 1060.0
+    Q1 2026: 997.36
+    Q2 2026: 1030.0
+  annual:
+    2021 Yearly: 3370.0
+    2022 Yearly: 3560.0
+    2023 Yearly: 3740.0
+    2024 Yearly: 3930.0
+    2025 Yearly: 4090.0
+  quarterly_forecast:
+    Q4 2024: 1000.0
+    Q1 2025: 972.63
+    Q2 2025: 980.67
+    Q3 2025: 875.1
+    Q4 2025: 1020.0
+    Q1 2026: 1000.0
+    Q2 2026: 1040.0
+    Q3 2026: 1000.0
+    Q4 2026: 1060.0
+    Q1 2027: 1010.0
+    Q2 2027: 1050.0
+  annual_forecast:
+    2021 Yearly: 3330.0
+    2022 Yearly: 3510.0
+    2023 Yearly: 3710.0
+    2024 Yearly: 3890.0
+    2025 Yearly: 4050.0
+    2026 Yearly: 4090.0
+    2027 Yearly: 4180.0
+    2028 Yearly: 4400.0
+eps:
+  quarterly:
+    Q4 2024: 1.96
+    Q1 2025: 1.62
+    Q2 2025: 1.87
+    Q3 2025: 1.72
+    Q4 2025: 2.21
+    Q1 2026: 1.6
+    Q2 2026: 1.93
+  annual:
+    2021 Yearly: 5.12
+    2022 Yearly: 6.07
+    2023 Yearly: 6.31
+    2024 Yearly: 6.55
+    2025 Yearly: 7.4
+  quarterly_forecast:
+    Q4 2024: 1.79
+    Q1 2025: 1.51
+    Q2 2025: 1.66
+    Q3 2025: 1.62
+    Q4 2025: 1.94
+    Q1 2026: 1.71
+    Q2 2026: 1.89
+    Q3 2026: 1.67
+    Q4 2026: 1.97
+    Q1 2027: 1.72
+    Q2 2027: 2.01
+  annual_forecast:
+    2021 Yearly: 4.77
+    2022 Yearly: 5.74
+    2023 Yearly: 6.24
+    2024 Yearly: 6.39
+    2025 Yearly: 7.08
+    2026 Yearly: 7.25
+    2027 Yearly: 7.75
+    2028 Yearly: 8.83

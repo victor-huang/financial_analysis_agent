@@ -1,0 +1,76 @@
+currency: USD
+company_name: Amerant Bancorp Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 111.32
+    Q1 2025: 105.43
+    Q2 2025: 110.26
+    Q3 2025: 111.44
+    Q4 2025: 112.17
+    Q1 2026: 97.66
+    Q2 2026: 100.74
+  annual:
+    2021 Yearly: 258.48
+    2022 Yearly: 333.94
+    2023 Yearly: 413.96
+    2024 Yearly: 396.33
+    2025 Yearly: 439.3
+  quarterly_forecast:
+    Q4 2024: 100.64
+    Q1 2025: 101.83
+    Q2 2025: 103.51
+    Q3 2025: 110.2
+    Q4 2025: 107.46
+    Q1 2026: 100.75
+    Q2 2026: 98.64
+    Q3 2026: 103.35
+    Q4 2026: 105.37
+    Q1 2027: 105.23
+    Q2 2027: 107.93
+  annual_forecast:
+    2021 Yearly: 255.65
+    2022 Yearly: 318.82
+    2023 Yearly: 392.51
+    2024 Yearly: 393.25
+    2025 Yearly: 432.66
+    2026 Yearly: 406.53
+    2027 Yearly: 435.82
+    2028 Yearly: 459.97
+eps:
+  quarterly:
+    Q4 2024: 0.5
+    Q1 2025: 0.24
+    Q2 2025: 0.57
+    Q3 2025: 0.39
+    Q4 2025: 0.53
+    Q1 2026: 0.44
+    Q2 2026: 0.53
+  annual:
+    2021 Yearly: 1.78
+    2022 Yearly: 2.29
+    2023 Yearly: 1.93
+    2024 Yearly: 1.41
+    2025 Yearly: 1.73
+  quarterly_forecast:
+    Q4 2024: 0.31
+    Q1 2025: 0.4
+    Q2 2025: 0.39
+    Q3 2025: 0.53
+    Q4 2025: 0.35
+    Q1 2026: 0.43
+    Q2 2026: 0.39
+    Q3 2026: 0.57
+    Q4 2026: 0.65
+    Q1 2027: 0.65
+    Q2 2027: 0.67
+  annual_forecast:
+    2021 Yearly: 1.7
+    2022 Yearly: 2.35
+    2023 Yearly: 1.94
+    2024 Yearly: 1.17
+    2025 Yearly: 1.55
+    2026 Yearly: 2.19
+    2027 Yearly: 2.83
+    2028 Yearly: 3.13

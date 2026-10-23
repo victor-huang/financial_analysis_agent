@@ -1,0 +1,74 @@
+currency: USD
+company_name: Chemung Financial Corp
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 25.88
+    Q1 2025: 25.71
+    Q2 2025: 10.1
+    Q3 2025: 28.78
+    Q4 2025: 30.52
+    Q1 2026: 29.9
+    Q2 2026: 31.17
+  annual:
+    2021 Yearly: 89.46
+    2022 Yearly: 95.61
+    2023 Yearly: 99.01
+    2024 Yearly: 97.29
+    2025 Yearly: 95.1
+  quarterly_forecast:
+    Q4 2024: 24.97
+    Q1 2025: 25.9
+    Q2 2025: 26.4
+    Q3 2025: 28.09
+    Q4 2025: 29.48
+    Q1 2026: 29.21
+    Q2 2026: 30.52
+    Q3 2026: 31.87
+    Q4 2026: 32.32
+    Q1 2027: 32.2
+    Q2 2027: 33.29
+  annual_forecast:
+    2022 Yearly: 88.0
+    2023 Yearly: 94.53
+    2024 Yearly: 97.36
+    2025 Yearly: 96.21
+    2026 Yearly: 110.75
+    2027 Yearly: 125.15
+eps:
+  quarterly:
+    Q4 2024: 1.24
+    Q1 2025: 1.26
+    Q2 2025: 1.31
+    Q3 2025: 1.62
+    Q4 2025: 1.61
+    Q1 2026: 1.91
+    Q2 2026: 1.82
+  annual:
+    2021 Yearly: 5.64
+    2022 Yearly: 6.13
+    2023 Yearly: 4.89
+    2024 Yearly: 4.96
+    2025 Yearly: 5.8
+  quarterly_forecast:
+    Q4 2024: 1.21
+    Q1 2025: 1.2
+    Q2 2025: 1.32
+    Q3 2025: 1.61
+    Q4 2025: 1.61
+    Q1 2026: 1.63
+    Q2 2026: 1.76
+    Q3 2026: 1.96
+    Q4 2026: 1.93
+    Q1 2027: 1.98
+    Q2 2027: 1.97
+  annual_forecast:
+    2021 Yearly: 5.25
+    2022 Yearly: 6.06
+    2023 Yearly: 5.21
+    2024 Yearly: 4.91
+    2025 Yearly: 5.73
+    2026 Yearly: 7.61
+    2027 Yearly: 8.23
+    2028 Yearly: 9.05

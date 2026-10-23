@@ -1,0 +1,76 @@
+currency: USD
+company_name: Eastern Bankshares, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 220.93
+    Q1 2025: 227.7
+    Q2 2025: 249.1
+    Q3 2025: 245.1
+    Q4 2025: 290.1
+    Q1 2026: 295.9
+    Q2 2026: 316.0
+  annual:
+    2021 Yearly: 617.12
+    2022 Yearly: 769.38
+    2023 Yearly: 712.84
+    2024 Yearly: 750.59
+    2025 Yearly: 1010.0
+  quarterly_forecast:
+    Q4 2024: 211.85
+    Q1 2025: 226.98
+    Q2 2025: 241.32
+    Q3 2025: 245.93
+    Q4 2025: 286.83
+    Q1 2026: 301.99
+    Q2 2026: 308.2
+    Q3 2026: 310.6
+    Q4 2026: 312.06
+    Q1 2027: 309.87
+    Q2 2027: 318.84
+  annual_forecast:
+    2021 Yearly: 611.95
+    2022 Yearly: 779.33
+    2023 Yearly: 712.67
+    2024 Yearly: 741.51
+    2025 Yearly: 1000.0
+    2026 Yearly: 1230.0
+    2027 Yearly: 1280.0
+    2028 Yearly: 1340.0
+eps:
+  quarterly:
+    Q4 2024: 0.34
+    Q1 2025: 0.34
+    Q2 2025: 0.41
+    Q3 2025: 0.37
+    Q4 2025: 0.44
+    Q1 2026: 0.4
+    Q2 2026: 0.49
+  annual:
+    2021 Yearly: 0.9
+    2022 Yearly: 1.21
+    2023 Yearly: 1.0
+    2024 Yearly: 1.06
+    2025 Yearly: 1.56
+  quarterly_forecast:
+    Q4 2024: 0.29
+    Q1 2025: 0.33
+    Q2 2025: 0.38
+    Q3 2025: 0.4
+    Q4 2025: 0.41
+    Q1 2026: 0.44
+    Q2 2026: 0.46
+    Q3 2026: 0.49
+    Q4 2026: 0.5
+    Q1 2027: 0.5
+    Q2 2027: 0.53
+  annual_forecast:
+    2021 Yearly: 0.96
+    2022 Yearly: 1.34
+    2023 Yearly: 1.14
+    2024 Yearly: 0.98
+    2025 Yearly: 1.54
+    2026 Yearly: 1.88
+    2027 Yearly: 2.14
+    2028 Yearly: 2.33

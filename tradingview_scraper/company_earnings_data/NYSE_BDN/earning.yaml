@@ -1,0 +1,76 @@
+currency: USD
+company_name: Brandywine Realty Trust
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 114.27
+    Q1 2025: 114.43
+    Q2 2025: 114.2
+    Q3 2025: 114.74
+    Q4 2025: 114.14
+    Q1 2026: 120.66
+    Q2 2026: 122.7
+  annual:
+    2021 Yearly: 451.52
+    2022 Yearly: 470.85
+    2023 Yearly: 479.85
+    2024 Yearly: 469.24
+    2025 Yearly: 457.5
+  quarterly_forecast:
+    Q4 2024: 121.73
+    Q1 2025: 116.03
+    Q2 2025: 114.34
+    Q3 2025: 114.74
+    Q4 2025: 115.75
+    Q1 2026: 110.56
+    Q2 2026: 113.04
+    Q3 2026: 111.49
+    Q4 2026: 111.45
+    Q1 2027: 123.32
+    Q2 2027: 96.48
+  annual_forecast:
+    2021 Yearly: 457.95
+    2022 Yearly: 472.27
+    2023 Yearly: 484.67
+    2024 Yearly: 476.57
+    2025 Yearly: 459.12
+    2026 Yearly: 478.13
+    2027 Yearly: 436.74
+    2028 Yearly: 412.0
+    2029 Yearly: 491.57
+eps:
+  quarterly:
+    Q4 2024: -0.25
+    Q1 2025: -0.16
+    Q2 2025: -0.51
+    Q3 2025: -0.15
+    Q4 2025: -0.21
+    Q1 2026: -0.28
+    Q2 2026: 0.44
+  annual:
+    2021 Yearly: 0.07
+    2022 Yearly: 1.82
+    2023 Yearly: -1.15
+    2024 Yearly: -1.13
+    2025 Yearly: -1.03
+  quarterly_forecast:
+    Q4 2024: -0.07
+    Q1 2025: -0.18
+    Q2 2025: -0.16
+    Q3 2025: -0.14
+    Q4 2025: -0.23
+    Q1 2026: -0.2
+    Q2 2026: -0.18
+    Q3 2026: -0.17
+    Q4 2026: -0.15
+    Q1 2027: -0.16
+    Q2 2027: -0.15
+  annual_forecast:
+    2022 Yearly: 0.04
+    2023 Yearly: 0.13
+    2024 Yearly: -0.3
+    2025 Yearly: -0.95
+    2026 Yearly: -0.91
+    2027 Yearly: -0.78
+    2028 Yearly: -0.62

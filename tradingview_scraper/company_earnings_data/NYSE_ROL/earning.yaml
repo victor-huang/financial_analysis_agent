@@ -1,0 +1,78 @@
+currency: USD
+company_name: Rollins, Inc.
+sector: Commercial Services
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 832.17
+    Q1 2025: 822.5
+    Q2 2025: 999.53
+    Q3 2025: 1030.0
+    Q4 2025: 912.91
+    Q1 2026: 906.42
+    Q2 2026: 1080.0
+  annual:
+    2021 Yearly: 2420.0
+    2022 Yearly: 2700.0
+    2023 Yearly: 3070.0
+    2024 Yearly: 3390.0
+    2025 Yearly: 3760.0
+  quarterly_forecast:
+    Q4 2024: 817.64
+    Q1 2025: 816.66
+    Q2 2025: 989.06
+    Q3 2025: 1020.0
+    Q4 2025: 926.76
+    Q1 2026: 895.48
+    Q2 2026: 1090.0
+    Q3 2026: 1110.0
+    Q4 2026: 987.7
+    Q1 2027: 984.0
+    Q2 2027: 1170.0
+  annual_forecast:
+    2021 Yearly: 2410.0
+    2022 Yearly: 2700.0
+    2023 Yearly: 3070.0
+    2024 Yearly: 3380.0
+    2025 Yearly: 3780.0
+    2026 Yearly: 4080.0
+    2027 Yearly: 4420.0
+    2028 Yearly: 4780.0
+    2029 Yearly: 5220.0
+eps:
+  quarterly:
+    Q4 2024: 0.22
+    Q1 2025: 0.22
+    Q2 2025: 0.29
+    Q3 2025: 0.34
+    Q4 2025: 0.24
+    Q1 2026: 0.22
+    Q2 2026: 0.3
+  annual:
+    2021 Yearly: 0.71
+    2022 Yearly: 0.75
+    2023 Yearly: 0.89
+    2024 Yearly: 0.96
+    2025 Yearly: 1.09
+  quarterly_forecast:
+    Q4 2024: 0.23
+    Q1 2025: 0.22
+    Q2 2025: 0.3
+    Q3 2025: 0.33
+    Q4 2025: 0.26
+    Q1 2026: 0.23
+    Q2 2026: 0.34
+    Q3 2026: 0.34
+    Q4 2026: 0.27
+    Q1 2027: 0.24
+    Q2 2027: 0.34
+  annual_forecast:
+    2021 Yearly: 0.73
+    2022 Yearly: 0.74
+    2023 Yearly: 0.89
+    2024 Yearly: 0.98
+    2025 Yearly: 1.11
+    2026 Yearly: 1.16
+    2027 Yearly: 1.27
+    2028 Yearly: 1.42
+    2029 Yearly: 1.58

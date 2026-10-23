@@ -1,0 +1,76 @@
+currency: USD
+company_name: Banner Corporation
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 160.13
+    Q1 2025: 159.88
+    Q2 2025: 162.98
+    Q3 2025: 168.75
+    Q4 2025: 172.29
+    Q1 2026: 168.91
+    Q2 2026: 172.11
+  annual:
+    2021 Yearly: 588.21
+    2022 Yearly: 623.07
+    2023 Yearly: 643.87
+    2024 Yearly: 614.78
+    2025 Yearly: 673.78
+  quarterly_forecast:
+    Q4 2024: 156.09
+    Q1 2025: 159.67
+    Q2 2025: 167.19
+    Q3 2025: 171.52
+    Q4 2025: 173.23
+    Q1 2026: 169.59
+    Q2 2026: 174.54
+    Q3 2026: 184.24
+    Q4 2026: 196.76
+    Q1 2027: 194.19
+    Q2 2027: 198.24
+  annual_forecast:
+    2021 Yearly: 592.87
+    2022 Yearly: 623.49
+    2023 Yearly: 641.65
+    2024 Yearly: 613.82
+    2025 Yearly: 673.3
+    2026 Yearly: 726.64
+    2027 Yearly: 802.06
+    2028 Yearly: 837.13
+eps:
+  quarterly:
+    Q4 2024: 1.34
+    Q1 2025: 1.3
+    Q2 2025: 1.31
+    Q3 2025: 1.54
+    Q4 2025: 1.49
+    Q1 2026: 1.6
+    Q2 2026: 1.43
+  annual:
+    2021 Yearly: 5.76
+    2022 Yearly: 5.67
+    2023 Yearly: 5.33
+    2024 Yearly: 4.88
+    2025 Yearly: 5.64
+  quarterly_forecast:
+    Q4 2024: 1.21
+    Q1 2025: 1.22
+    Q2 2025: 1.31
+    Q3 2025: 1.4
+    Q4 2025: 1.45
+    Q1 2026: 1.37
+    Q2 2026: 1.46
+    Q3 2026: 1.41
+    Q4 2026: 1.55
+    Q1 2027: 1.54
+    Q2 2027: 1.62
+  annual_forecast:
+    2021 Yearly: 5.49
+    2022 Yearly: 5.68
+    2023 Yearly: 5.4
+    2024 Yearly: 4.75
+    2025 Yearly: 5.6
+    2026 Yearly: 6.02
+    2027 Yearly: 6.68
+    2028 Yearly: 7.08

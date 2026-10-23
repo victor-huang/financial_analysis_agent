@@ -1,0 +1,78 @@
+currency: USD
+company_name: Texas Instruments Incorporated
+sector: Electronic Technology
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 4010.0
+    Q1 2025: 4070.0000000000005
+    Q2 2025: 4450.0
+    Q3 2025: 4740.0
+    Q4 2025: 4420.0
+    Q1 2026: 4830.0
+    Q2 2026: 5460.0
+  annual:
+    2021 Yearly: 18340.0
+    2022 Yearly: 20030.0
+    2023 Yearly: 17520.0
+    2024 Yearly: 15640.0
+    2025 Yearly: 17680.0
+  quarterly_forecast:
+    Q4 2024: 3880.0
+    Q1 2025: 3910.0
+    Q2 2025: 4360.0
+    Q3 2025: 4650.0
+    Q4 2025: 4440.0
+    Q1 2026: 4530.0
+    Q2 2026: 5260.0
+    Q3 2026: 5940.0
+    Q4 2026: 5760.0
+    Q1 2027: 5820.0
+    Q2 2027: 6250.0
+  annual_forecast:
+    2021 Yearly: 17940.0
+    2022 Yearly: 19980.0
+    2023 Yearly: 17560.0
+    2024 Yearly: 15510.0
+    2025 Yearly: 17700.0
+    2026 Yearly: 21990.0
+    2027 Yearly: 25170.0
+    2028 Yearly: 27870.0
+    2029 Yearly: 30480.0
+eps:
+  quarterly:
+    Q4 2024: 1.3
+    Q1 2025: 1.28
+    Q2 2025: 1.41
+    Q3 2025: 1.48
+    Q4 2025: 1.27
+    Q1 2026: 1.68
+    Q2 2026: 2.14
+  annual:
+    2021 Yearly: 8.26
+    2022 Yearly: 9.41
+    2023 Yearly: 7.07
+    2024 Yearly: 5.2
+    2025 Yearly: 5.45
+  quarterly_forecast:
+    Q4 2024: 1.21
+    Q1 2025: 1.07
+    Q2 2025: 1.36
+    Q3 2025: 1.49
+    Q4 2025: 1.29
+    Q1 2026: 1.36
+    Q2 2026: 1.94
+    Q3 2026: 2.43
+    Q4 2026: 2.31
+    Q1 2027: 2.32
+    Q2 2027: 2.58
+  annual_forecast:
+    2021 Yearly: 7.94
+    2022 Yearly: 9.28
+    2023 Yearly: 7.06
+    2024 Yearly: 5.1
+    2025 Yearly: 5.47
+    2026 Yearly: 8.55
+    2027 Yearly: 10.41
+    2028 Yearly: 12.2
+    2029 Yearly: 12.17

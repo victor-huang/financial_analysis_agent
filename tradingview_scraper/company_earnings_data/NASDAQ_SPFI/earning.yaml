@@ -1,0 +1,74 @@
+currency: USD
+company_name: South Plains Financial, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 51.87
+    Q1 2025: 49.15
+    Q2 2025: 54.67
+    Q3 2025: 54.18
+    Q4 2025: 53.88
+    Q1 2026: 54.15
+    Q2 2026: 64.49
+  annual:
+    2021 Yearly: 219.23
+    2022 Yearly: 214.62
+    2023 Yearly: 185.19
+    2024 Yearly: 195.17
+    2025 Yearly: 211.89
+  quarterly_forecast:
+    Q4 2024: 49.16
+    Q1 2025: 48.93
+    Q2 2025: 52.02
+    Q3 2025: 54.07
+    Q4 2025: 54.11
+    Q1 2026: 54.28
+    Q2 2026: 63.34
+    Q3 2026: 65.22
+    Q4 2026: 65.0
+    Q1 2027: 64.93
+    Q2 2027: 67.74
+  annual_forecast:
+    2022 Yearly: 218.5
+    2023 Yearly: 209.75
+    2024 Yearly: 190.05
+    2025 Yearly: 193.18
+    2026 Yearly: 213.38
+    2027 Yearly: 249.38
+eps:
+  quarterly:
+    Q4 2024: 0.96
+    Q1 2025: 0.72
+    Q2 2025: 0.86
+    Q3 2025: 0.96
+    Q4 2025: 0.9
+    Q1 2026: 0.85
+    Q2 2026: 0.96
+  annual:
+    2021 Yearly: 3.17
+    2022 Yearly: 3.23
+    2023 Yearly: 3.62
+    2024 Yearly: 2.92
+    2025 Yearly: 3.44
+  quarterly_forecast:
+    Q4 2024: 0.68
+    Q1 2025: 0.67
+    Q2 2025: 0.77
+    Q3 2025: 0.85
+    Q4 2025: 0.88
+    Q1 2026: 0.88
+    Q2 2026: 0.94
+    Q3 2026: 0.99
+    Q4 2026: 0.99
+    Q1 2027: 0.96
+    Q2 2027: 1.05
+  annual_forecast:
+    2021 Yearly: 3.0
+    2022 Yearly: 2.98
+    2023 Yearly: 2.56
+    2024 Yearly: 2.64
+    2025 Yearly: 3.45
+    2026 Yearly: 3.9
+    2027 Yearly: 4.18
+    2028 Yearly: 4.37

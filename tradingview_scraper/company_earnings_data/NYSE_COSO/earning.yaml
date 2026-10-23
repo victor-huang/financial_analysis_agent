@@ -1,0 +1,58 @@
+currency: USD
+company_name: CoastalSouth Bancshares, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q1 2025: 18.62
+    Q2 2025: 19.89
+    Q3 2025: 21.3
+    Q4 2025: 22.16
+    Q1 2026: 21.71
+    Q2 2026: 22.87
+    Q3 2026: 24.86
+  annual:
+    2025 Yearly: 81.97
+  quarterly_forecast:
+    Q2 2025: 19.89
+    Q3 2025: 21.89
+    Q4 2025: 21.89
+    Q1 2026: 22.11
+    Q2 2026: 23.24
+    Q3 2026: 24.02
+    Q4 2026: 24.57
+    Q1 2027: 24.34
+    Q2 2027: 25.26
+    Q3 2027: 26.35
+  annual_forecast:
+    2025 Yearly: 81.7
+    2026 Yearly: 93.19
+    2027 Yearly: 102.45
+    2028 Yearly: 108.34
+eps:
+  quarterly:
+    Q1 2025: 0.47
+    Q2 2025: 0.56
+    Q3 2025: 0.54
+    Q4 2025: 0.58
+    Q1 2026: 0.51
+    Q2 2026: 0.59
+    Q3 2026: 0.71
+  annual:
+    2025 Yearly: 2.16
+  quarterly_forecast:
+    Q2 2025: 0.56
+    Q3 2025: 0.57
+    Q4 2025: 0.59
+    Q1 2026: 0.55
+    Q2 2026: 0.59
+    Q3 2026: 0.59
+    Q4 2026: 0.62
+    Q1 2027: 0.59
+    Q2 2027: 0.62
+    Q3 2027: 0.68
+  annual_forecast:
+    2025 Yearly: 2.17
+    2026 Yearly: 2.35
+    2027 Yearly: 2.59
+    2028 Yearly: 2.83

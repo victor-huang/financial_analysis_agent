@@ -1,0 +1,76 @@
+currency: USD
+company_name: Sonoco Products Company
+sector: Process Industries
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 1360.0
+    Q1 2025: 1710.0
+    Q2 2025: 1910.0
+    Q3 2025: 2130.0
+    Q4 2025: 1770.0
+    Q1 2026: 1680.0
+    Q2 2026: 1890.0
+  annual:
+    2021 Yearly: 5590.0
+    2022 Yearly: 7250.0
+    2023 Yearly: 6780.0
+    2024 Yearly: 5310.0
+    2025 Yearly: 7520.0
+  quarterly_forecast:
+    Q4 2024: 1670.0
+    Q1 2025: 2040.0
+    Q2 2025: 1910.0
+    Q3 2025: 2150.0
+    Q4 2025: 1760.0
+    Q1 2026: 1710.0
+    Q2 2026: 1880.0
+    Q3 2026: 2070.0
+    Q4 2026: 1790.0
+    Q1 2027: 1750.0
+    Q2 2027: 1930.0
+  annual_forecast:
+    2021 Yearly: 5560.0
+    2022 Yearly: 7350.0
+    2023 Yearly: 6750.0
+    2024 Yearly: 6610.0
+    2025 Yearly: 7610.0
+    2026 Yearly: 7430.0
+    2027 Yearly: 7590.0
+    2028 Yearly: 7750.0
+eps:
+  quarterly:
+    Q4 2024: 1.0
+    Q1 2025: 1.38
+    Q2 2025: 1.37
+    Q3 2025: 1.92
+    Q4 2025: 1.05
+    Q1 2026: 1.2
+    Q2 2026: 1.51
+  annual:
+    2021 Yearly: 3.55
+    2022 Yearly: 6.48
+    2023 Yearly: 5.26
+    2024 Yearly: 4.89
+    2025 Yearly: 5.71
+  quarterly_forecast:
+    Q4 2024: 1.2
+    Q1 2025: 1.41
+    Q2 2025: 1.44
+    Q3 2025: 1.93
+    Q4 2025: 1.0
+    Q1 2026: 1.2
+    Q2 2026: 1.48
+    Q3 2026: 1.74
+    Q4 2026: 1.24
+    Q1 2027: 1.25
+    Q2 2027: 1.56
+  annual_forecast:
+    2021 Yearly: 3.55
+    2022 Yearly: 6.33
+    2023 Yearly: 5.2
+    2024 Yearly: 5.09
+    2025 Yearly: 5.66
+    2026 Yearly: 5.7
+    2027 Yearly: 6.14
+    2028 Yearly: 6.79

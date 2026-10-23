@@ -1,0 +1,76 @@
+currency: USD
+company_name: Las Vegas Sands Corp.
+sector: Consumer Services
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 2900.0
+    Q1 2025: 2860.0
+    Q2 2025: 3170.0
+    Q3 2025: 3330.0
+    Q4 2025: 3650.0
+    Q1 2026: 3580.0
+    Q2 2026: 3150.0
+  annual:
+    2021 Yearly: 4230.0
+    2022 Yearly: 4110.0
+    2023 Yearly: 10370.0
+    2024 Yearly: 11300.0
+    2025 Yearly: 13020.0
+  quarterly_forecast:
+    Q4 2024: 2850.0
+    Q1 2025: 2880.0
+    Q2 2025: 2840.0
+    Q3 2025: 3050.0
+    Q4 2025: 3340.0
+    Q1 2026: 3360.0
+    Q2 2026: 3310.0
+    Q3 2026: 3330.0
+    Q4 2026: 3630.0
+    Q1 2027: 3680.0
+    Q2 2027: 3420.0
+  annual_forecast:
+    2021 Yearly: 4200.0
+    2022 Yearly: 4180.0
+    2023 Yearly: 10360.0
+    2024 Yearly: 11260.0
+    2025 Yearly: 12690.0
+    2026 Yearly: 13660.0
+    2027 Yearly: 14250.0
+    2028 Yearly: 14860.0
+eps:
+  quarterly:
+    Q4 2024: 0.54
+    Q1 2025: 0.59
+    Q2 2025: 0.79
+    Q3 2025: 0.78
+    Q4 2025: 0.85
+    Q1 2026: 0.91
+    Q2 2026: 0.59
+  annual:
+    2021 Yearly: -1.18
+    2022 Yearly: -1.2
+    2023 Yearly: 1.89
+    2024 Yearly: 2.27
+    2025 Yearly: 3.01
+  quarterly_forecast:
+    Q4 2024: 0.58
+    Q1 2025: 0.57
+    Q2 2025: 0.53
+    Q3 2025: 0.62
+    Q4 2025: 0.77
+    Q1 2026: 0.76
+    Q2 2026: 0.76
+    Q3 2026: 0.68
+    Q4 2026: 0.81
+    Q1 2027: 0.9
+    Q2 2027: 0.73
+  annual_forecast:
+    2021 Yearly: -1.14
+    2022 Yearly: -1.15
+    2023 Yearly: 1.88
+    2024 Yearly: 2.33
+    2025 Yearly: 2.92
+    2026 Yearly: 2.98
+    2027 Yearly: 3.3
+    2028 Yearly: 3.51

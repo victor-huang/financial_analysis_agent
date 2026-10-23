@@ -1,0 +1,78 @@
+currency: USD
+company_name: Molina Healthcare Inc
+sector: Health Services
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 10500.0
+    Q1 2025: 11150.0
+    Q2 2025: 11430.0
+    Q3 2025: 11480.0
+    Q4 2025: 11380.0
+    Q1 2026: 10800.0
+    Q2 2026: 10870.0
+  annual:
+    2021 Yearly: 27770.0
+    2022 Yearly: 31970.0
+    2023 Yearly: 34070.0
+    2024 Yearly: 40650.0
+    2025 Yearly: 45430.0
+  quarterly_forecast:
+    Q4 2024: 10280.0
+    Q1 2025: 10840.0
+    Q2 2025: 10950.0
+    Q3 2025: 10970.0
+    Q4 2025: 10880.0
+    Q1 2026: 10870.0
+    Q2 2026: 10830.0
+    Q3 2026: 10860.0
+    Q4 2026: 11950.0
+    Q1 2027: 11590.0
+    Q2 2027: 11840.0
+  annual_forecast:
+    2021 Yearly: 27550.0
+    2022 Yearly: 31610.0
+    2023 Yearly: 33320.0
+    2024 Yearly: 40370.0
+    2025 Yearly: 44900.0
+    2026 Yearly: 44490.0
+    2027 Yearly: 48040.0
+    2028 Yearly: 50940.0
+    2029 Yearly: 55450.0
+eps:
+  quarterly:
+    Q4 2024: 5.05
+    Q1 2025: 6.08
+    Q2 2025: 5.48
+    Q3 2025: 1.84
+    Q4 2025: -2.75
+    Q1 2026: 2.35
+    Q2 2026: 1.51
+  annual:
+    2021 Yearly: 13.54
+    2022 Yearly: 17.92
+    2023 Yearly: 20.88
+    2024 Yearly: 22.65
+    2025 Yearly: 11.03
+  quarterly_forecast:
+    Q4 2024: 5.75
+    Q1 2025: 5.97
+    Q2 2025: 5.62
+    Q3 2025: 3.9
+    Q4 2025: 0.34
+    Q1 2026: 1.9
+    Q2 2026: 1.39
+    Q3 2026: 0.79
+    Q4 2026: 0.6
+    Q1 2027: 3.11
+    Q2 2027: 2.57
+  annual_forecast:
+    2021 Yearly: 13.38
+    2022 Yearly: 17.8
+    2023 Yearly: 20.83
+    2024 Yearly: 23.21
+    2025 Yearly: 13.91
+    2026 Yearly: 5.24
+    2027 Yearly: 9.72
+    2028 Yearly: 13.52
+    2029 Yearly: 21.28

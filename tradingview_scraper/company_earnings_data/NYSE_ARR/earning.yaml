@@ -1,0 +1,76 @@
+currency: USD
+company_name: ARMOUR Residential REIT, Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 61.0
+    Q1 2025: 80.7
+    Q2 2025: 82.2
+    Q3 2025: 150.85
+    Q4 2025: 96.8
+    Q1 2026: 109.0
+    Q2 2026: 113.7
+  annual:
+    2021 Yearly: 123.86
+    2022 Yearly: 188.53
+    2023 Yearly: 252.84
+    2024 Yearly: 256.85
+    2025 Yearly: 351.2
+  quarterly_forecast:
+    Q4 2024: 65.69
+    Q1 2025: 75.29
+    Q2 2025: 84.19
+    Q3 2025: 92.1
+    Q4 2025: 149.01
+    Q1 2026: 149.29
+    Q2 2026: 111.98
+    Q3 2026: 119.84
+    Q4 2026: 124.71
+    Q1 2027: 125.38
+    Q2 2027: 125.49
+  annual_forecast:
+    2021 Yearly: 121.99
+    2022 Yearly: 188.53
+    2023 Yearly: 245.01
+    2024 Yearly: 261.55
+    2025 Yearly: 506.61
+    2026 Yearly: 467.22
+    2027 Yearly: 542.48
+    2028 Yearly: 511.71
+eps:
+  quarterly:
+    Q4 2024: 0.78
+    Q1 2025: 0.86
+    Q2 2025: 0.77
+    Q3 2025: 0.72
+    Q4 2025: 0.71
+    Q1 2026: 0.76
+    Q2 2026: 0.72
+  annual:
+    2021 Yearly: 4.85
+    2022 Yearly: 5.59
+    2023 Yearly: 4.65
+    2024 Yearly: 3.68
+    2025 Yearly: 3.06
+  quarterly_forecast:
+    Q4 2024: 0.97
+    Q1 2025: 0.91
+    Q2 2025: 0.81
+    Q3 2025: 0.79
+    Q4 2025: 0.77
+    Q1 2026: 0.77
+    Q2 2026: 0.72
+    Q3 2026: 0.71
+    Q4 2026: 0.7
+    Q1 2027: 0.71
+    Q2 2027: 0.7
+  annual_forecast:
+    2021 Yearly: 4.85
+    2022 Yearly: 5.91
+    2023 Yearly: 4.52
+    2024 Yearly: 3.88
+    2025 Yearly: 3.14
+    2026 Yearly: 2.89
+    2027 Yearly: 2.84
+    2028 Yearly: 2.89

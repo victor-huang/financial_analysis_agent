@@ -1,0 +1,78 @@
+currency: USD
+company_name: Globe Life Inc.
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 1470.0
+    Q1 2025: 1480.0
+    Q2 2025: 1480.0
+    Q3 2025: 1510.0
+    Q4 2025: 1520.0
+    Q1 2026: 1560.0
+    Q2 2026: 1600.0
+  annual:
+    2021 Yearly: 5110.0
+    2022 Yearly: 5210.0
+    2023 Yearly: 5450.0
+    2024 Yearly: 5780.0
+    2025 Yearly: 5990.0
+  quarterly_forecast:
+    Q4 2024: 1480.0
+    Q1 2025: 1490.0
+    Q2 2025: 1510.0
+    Q3 2025: 1520.0
+    Q4 2025: 1530.0
+    Q1 2026: 1560.0
+    Q2 2026: 1590.0
+    Q3 2026: 1560.0
+    Q4 2026: 1580.0
+    Q1 2027: 1670.0
+    Q2 2027: 1700.0
+  annual_forecast:
+    2021 Yearly: 5070.0
+    2022 Yearly: 5280.0
+    2023 Yearly: 5500.0
+    2024 Yearly: 5810.0
+    2025 Yearly: 6030.0
+    2026 Yearly: 6400.0
+    2027 Yearly: 6810.0
+    2028 Yearly: 7180.0
+    2029 Yearly: 7550.0
+eps:
+  quarterly:
+    Q4 2024: 3.14
+    Q1 2025: 3.07
+    Q2 2025: 3.27
+    Q3 2025: 4.81
+    Q4 2025: 3.39
+    Q1 2026: 3.43
+    Q2 2026: 3.61
+  annual:
+    2021 Yearly: 6.86
+    2022 Yearly: 8.15
+    2023 Yearly: 10.65
+    2024 Yearly: 12.37
+    2025 Yearly: 14.52
+  quarterly_forecast:
+    Q4 2024: 3.12
+    Q1 2025: 3.23
+    Q2 2025: 3.25
+    Q3 2025: 4.6
+    Q4 2025: 3.44
+    Q1 2026: 3.47
+    Q2 2026: 3.67
+    Q3 2026: 4.91
+    Q4 2026: 3.79
+    Q1 2027: 3.87
+    Q2 2027: 4.04
+  annual_forecast:
+    2021 Yearly: 6.92
+    2022 Yearly: 8.08
+    2023 Yearly: 10.59
+    2024 Yearly: 12.31
+    2025 Yearly: 14.57
+    2026 Yearly: 15.73
+    2027 Yearly: 16.51
+    2028 Yearly: 17.94
+    2029 Yearly: 20.0

@@ -1,0 +1,76 @@
+currency: USD
+company_name: Getty Realty Corporation
+sector: Finance
+market_cap_billions: null
+revenue:
+  quarterly:
+    Q4 2024: 50.13
+    Q1 2025: 50.6
+    Q2 2025: 51.31
+    Q3 2025: 55.59
+    Q4 2025: 59.14
+    Q1 2026: 56.29
+    Q2 2026: 57.42
+  annual:
+    2021 Yearly: 155.41
+    2022 Yearly: 165.59
+    2023 Yearly: 160.97
+    2024 Yearly: 187.82
+    2025 Yearly: 214.53
+  quarterly_forecast:
+    Q4 2024: 48.86
+    Q1 2025: 51.49
+    Q2 2025: 50.82
+    Q3 2025: 52.55
+    Q4 2025: 55.34
+    Q1 2026: 58.31
+    Q2 2026: 58.45
+    Q3 2026: 59.18
+    Q4 2026: 62.1
+    Q1 2027: 62.32
+    Q2 2027: 63.39
+  annual_forecast:
+    2021 Yearly: 151.73
+    2022 Yearly: 158.61
+    2023 Yearly: 177.17
+    2024 Yearly: 185.4
+    2025 Yearly: 212.08
+    2026 Yearly: 237.07
+    2027 Yearly: 261.18
+    2028 Yearly: 300.97
+eps:
+  quarterly:
+    Q4 2024: 0.39
+    Q1 2025: 0.25
+    Q2 2025: 0.24
+    Q3 2025: 0.4
+    Q4 2025: 0.45
+    Q1 2026: 0.43
+    Q2 2026: 0.36
+  annual:
+    2021 Yearly: 1.37
+    2022 Yearly: 1.88
+    2023 Yearly: 1.15
+    2024 Yearly: 1.25
+    2025 Yearly: 1.35
+  quarterly_forecast:
+    Q4 2024: 0.32
+    Q1 2025: 0.3
+    Q2 2025: 0.3
+    Q3 2025: 0.32
+    Q4 2025: 0.34
+    Q1 2026: 0.36
+    Q2 2026: 0.37
+    Q3 2026: 0.35
+    Q4 2026: 0.36
+    Q1 2027: 0.34
+    Q2 2027: 0.35
+  annual_forecast:
+    2021 Yearly: 1.28
+    2022 Yearly: 1.62
+    2023 Yearly: 1.19
+    2024 Yearly: 1.22
+    2025 Yearly: 1.3
+    2026 Yearly: 1.51
+    2027 Yearly: 1.43
+    2028 Yearly: 1.53
